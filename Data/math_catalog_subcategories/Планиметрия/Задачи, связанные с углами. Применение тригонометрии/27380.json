@@ -1,0 +1,43 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27380,
+    "condition": {
+        "text": "В треугольнике ABC угол C равен 90°,   Найдите синус внешнего угла при вершине ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918536\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right; margin:10px\" src=\"/get_file?id=7668\">В тре­уголь­ни­ке <i>ABC</i> угол <i>C</i> равен 90°, <img src=\"https://ege.sdamgia.ru/formula/svg/a9/a95e8eec86f5195bd8c97ffdc069d534.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AB = 25,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/49/495439198a02cb040836fb5ef7ebabd9.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AC = 20.\"> Най­ди­те синус внеш­не­го угла при вер­ши­не <img src=\"https://ege.sdamgia.ru/formula/svg/e1/e1354cc842cc323c307b3424ed3dfa81.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"A.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a9/a95e8eec86f5195bd8c97ffdc069d534.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/495439198a02cb040836fb5ef7ebabd9.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e1354cc842cc323c307b3424ed3dfa81.svg",
+            "/get_file?id=7668"
+        ]
+    },
+    "solution": {
+        "text": "Решение. так как  Ответ: 0,6. ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27380\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">так как </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/60/602baee1f9677cf6302e2c0e7d1e11e8.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" синус A_внеш= синус A= дробь: чис­ли­тель: BC, зна­ме­на­тель: AB конец дроби = дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: AB в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та минус AC в квад­ра­те пра­вая круг­лая скоб­ка , зна­ме­на­тель: AB конец дроби = дробь: чис­ли­тель: 15, зна­ме­на­тель: 25 конец дроби =0,6. \"></p><p class=\"left_margin\"></p></center> <p><span style=\"letter-spaceing:2px\">Ответ</span>: 0,6. </p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/60/602baee1f9677cf6302e2c0e7d1e11e8.svg"
+        ]
+    },
+    "answer": "0,6",
+    "topic_id": null,
+    "analog_ids": [
+        27380,
+        4841,
+        35431,
+        35433,
+        4841,
+        35431,
+        35433,
+        35435,
+        35437,
+        35439,
+        35441,
+        35443,
+        35445,
+        35447,
+        35449,
+        35451,
+        35453
+    ]
+}

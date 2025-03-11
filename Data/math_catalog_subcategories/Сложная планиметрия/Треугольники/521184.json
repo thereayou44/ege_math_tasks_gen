@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521184,
+    "condition": {
+        "text": "Две окружности пересекаются в точках А и В так, что их центры лежат по разные стороны от отрезка АВ. Через точку А проведены касательные к этим окружностям АС  и АЕ (точка С  лежит на первой окружности, а точка Е  — на второй). Площадь четырехугольника АСВЕ в 5 раз больше площади треугольника АВС, BD  — биссектриса угла АВЕ (точка D лежит на хорде АЕ). а)  Найти отношение длин отрезков АВ и ВС. б)  Найти значения чисел p и q, если ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body630044\" class=\"pbody\"><p class=\"left_margin\">Две окруж­но­сти пе­ре­се­ка­ют­ся в точ­ках <i>А</i> и <i>В</i> так, что их цен­тры лежат по раз­ные сто­ро­ны от от­рез­ка <i>АВ</i>. Через точку <i>А</i> про­ве­де­ны ка­са­тель­ные к этим окруж­но­стям <i>АС</i>  и <i>АЕ</i> (точка<i> С </i> лежит на пер­вой окруж­но­сти, а точка <i>Е</i>  — на вто­рой). Пло­щадь че­ты­рех­уголь­ни­ка <i>АСВЕ</i> в 5 раз боль­ше пло­ща­ди тре­уголь­ни­ка <i>АВС</i>, <i>BD</i>  — бис­сек­три­са угла <i>АВЕ</i> (точка <i>D</i> лежит на хорде <i>АЕ</i>). </p><p class=\"left_margin\">а)  Найти от­но­ше­ние длин от­рез­ков <i>АВ</i> и <i>ВС</i>. </p><p class=\"left_margin\">б)  Найти зна­че­ния чисел p и q, если <img src=\"https://ege.sdamgia.ru/formula/svg/51/5105f5e42adbadfbc006b7400c050005.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\"\\overrightarrowAB=p\\overrightarrowBE плюс q\\overrightarrowDE. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/51/5105f5e42adbadfbc006b7400c050005.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Из условия про площади следует, что   Заметим, что треугольники ABC и EBA подобны по двум углам:  (первый  — угол между касательной и хордой к большой окружности, второй  — вписанный угол в ней же, оба равны половине дуги AB) и аналогично  Коэффициент подобия равен  поэтому б)  Из того же подобия получаем, что  По свойству биссектрисы тогда  Имеем: Ответ: а) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521184\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=41635\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Из усло­вия про пло­ща­ди сле­ду­ет, что <img src=\"https://ege.sdamgia.ru/formula/svg/b8/b8df93692366da981c02ca73d85bb32d.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"S_ABE=4S_ABC.\">  За­ме­тим, что тре­уголь­ни­ки <i>ABC</i> и <i>EBA</i> по­доб­ны по двум углам: <img src=\"https://ege.sdamgia.ru/formula/svg/e4/e47667fd1d0020065759c4df146c7460.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle CAB=\\angle AEB\"> (пер­вый  — угол между ка­са­тель­ной и хор­дой к боль­шой окруж­но­сти, вто­рой  — впи­сан­ный угол в ней же, оба равны по­ло­ви­не дуги <i>AB</i>) и ана­ло­гич­но <img src=\"https://ege.sdamgia.ru/formula/svg/93/9388bb9069cb9384a49269ef1676cf93.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle ACB=\\angle EAB.\"> Ко­эф­фи­ци­ент по­до­бия равен <img src=\"https://ege.sdamgia.ru/formula/svg/39/39b850df1c6184ac70229123743eadb0.svg\" class=\"tex\" style=\"vertical-align:-10.2pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: дробь: чис­ли­тель: S_ABE конец ар­гу­мен­та , зна­ме­на­тель: S_ABC конец дроби =2, \"> по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/be/be0d06aaec3eb975ea33370d06b3e70e.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AB:BC=2.\"></p><p class=\"left_margin\">б)  Из того же по­до­бия по­лу­ча­ем, что <img src=\"https://ege.sdamgia.ru/formula/svg/3f/3f152471cf21fb9f0477b8088ca7d3f6.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BE=2AB.\"> По свой­ству бис­сек­три­сы тогда <img src=\"https://ege.sdamgia.ru/formula/svg/af/af88cd760e0786d4eef51f3b24d7730d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AD:DE=1:2.\"> Имеем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/21/219d48e122a57f9f1d9ac86bc1b7c30c.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"\\overlineAB=\\overlineAE плюс \\overlineEB= дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби \\overlineDE минус \\overlineBE.\"> </p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а)<img src=\"https://ege.sdamgia.ru/formula/svg/96/96ae545df1efacd652e21fe8c6e50986.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: AB, зна­ме­на­тель: BC конец дроби = 2 \"> <img src=\"https://ege.sdamgia.ru/formula/svg/fe/fe2253432184bb0a50ef9d8d32d0ec50.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"б пра­вая круг­лая скоб­ка p = минус 1;q= дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b8/b8df93692366da981c02ca73d85bb32d.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e47667fd1d0020065759c4df146c7460.svg",
+            "https://ege.sdamgia.ru/formula/svg/93/9388bb9069cb9384a49269ef1676cf93.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/39b850df1c6184ac70229123743eadb0.svg",
+            "https://ege.sdamgia.ru/formula/svg/be/be0d06aaec3eb975ea33370d06b3e70e.svg",
+            "https://ege.sdamgia.ru/formula/svg/3f/3f152471cf21fb9f0477b8088ca7d3f6.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af88cd760e0786d4eef51f3b24d7730d.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/219d48e122a57f9f1d9ac86bc1b7c30c.svg",
+            "https://ege.sdamgia.ru/formula/svg/96/96ae545df1efacd652e21fe8c6e50986.svg",
+            "https://ege.sdamgia.ru/formula/svg/fe/fe2253432184bb0a50ef9d8d32d0ec50.svg",
+            "/get_file?id=41635"
+        ]
+    },
+    "answer": "а)",
+    "topic_id": null,
+    "analog_ids": []
+}

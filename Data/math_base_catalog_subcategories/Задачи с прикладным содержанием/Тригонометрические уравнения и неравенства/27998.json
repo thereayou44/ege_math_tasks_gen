@@ -1,0 +1,55 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27998,
+    "condition": {
+        "text": "Мяч бросили под углом  к плоской горизонтальной поверхности земли. Время полeта мяча (в секундах) определяется по формуле  При каком значении угла  (в градусах) время полeта составит 3 секунды, если мяч бросают с начальной скоростью  м/с? Считайте, что ускорение свободного падения  м/с",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918434\" class=\"pbody\"><p class=\"left_margin\">Мяч бро­си­ли под углом <img src=\"https://ege.sdamgia.ru/formula/svg/7b/7b7f9dbfea05c83784f8b85149852f08.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" альфа \"> к плос­кой го­ри­зон­таль­ной по­верх­но­сти земли. Время полeта мяча (в се­кун­дах) опре­де­ля­ет­ся по фор­му­ле <img src=\"https://ege.sdamgia.ru/formula/svg/b9/b955bd3850a3b5b20f1911c3c2292fe5.svg\" class=\"tex\" style=\"vertical-align:-10.4pt\" alt=\"t = дробь: чис­ли­тель: 2 v _0 синус альфа , зна­ме­на­тель: g конец дроби . \"> При каком зна­че­нии угла <img src=\"https://ege.sdamgia.ru/formula/svg/7b/7b7f9dbfea05c83784f8b85149852f08.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" альфа \"> (в гра­ду­сах) время полeта со­ста­вит 3 се­кун­ды, если мяч бро­са­ют с на­чаль­ной ско­ро­стью <img src=\"https://ege.sdamgia.ru/formula/svg/c8/c8367c1457e12bebbc5765207a4d11e9.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\" v _0= 30\"> м/с? Счи­тай­те, что уско­ре­ние сво­бод­но­го па­де­ния <img src=\"https://ege.sdamgia.ru/formula/svg/11/112f48e4093c514cc217aced1a5dfb3b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"g=10\"> м/с<img src=\"https://ege.sdamgia.ru/formula/svg/82/82db2e7360625eb559418c899863e5fe.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" в квад­ра­те .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/7b/7b7f9dbfea05c83784f8b85149852f08.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b955bd3850a3b5b20f1911c3c2292fe5.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7b7f9dbfea05c83784f8b85149852f08.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c8367c1457e12bebbc5765207a4d11e9.svg",
+            "https://ege.sdamgia.ru/formula/svg/11/112f48e4093c514cc217aced1a5dfb3b.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/82db2e7360625eb559418c899863e5fe.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Задача сводится к решению уравнения  на интервале  при заданных значениях начальной скорости   и ускорения свободного падения:  Ответ: 30.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27998\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">За­да­ча сво­дит­ся к ре­ше­нию урав­не­ния <img src=\"https://ege.sdamgia.ru/formula/svg/9c/9c5b1e626d58c4b89e3512bf94c76f30.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"t левая круг­лая скоб­ка альфа пра­вая круг­лая скоб­ка =3\"> на ин­тер­ва­ле <img src=\"https://ege.sdamgia.ru/formula/svg/f9/f93a0e6ede378a4cbdf63204119256a8.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 0 гра­ду­сов ;90 гра­ду­сов пра­вая круг­лая скоб­ка \"> при за­дан­ных зна­че­ни­ях на­чаль­ной ско­ро­сти   и уско­ре­ния сво­бод­но­го па­де­ния:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/bb/bb4c46b0ac2532f1a9aa687007f7e29e.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 2 умно­жить на 30 умно­жить на синус альфа , зна­ме­на­тель: 10 конец дроби = 3 рав­но­силь­но синус альфа = дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби \\underset0 гра­ду­сов мень­ше альфа мень­ше 90 гра­ду­сов \\mathop рав­но­силь­но альфа =30 гра­ду­сов . \"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 30.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/9c/9c5b1e626d58c4b89e3512bf94c76f30.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f93a0e6ede378a4cbdf63204119256a8.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bb4c46b0ac2532f1a9aa687007f7e29e.svg"
+        ]
+    },
+    "answer": "30",
+    "topic_id": 9,
+    "analog_ids": [
+        27998,
+        28519,
+        43175,
+        28521,
+        28519,
+        43175,
+        28521,
+        28523,
+        28525,
+        28527,
+        28529,
+        43147,
+        43149,
+        43151,
+        43153,
+        43155,
+        43157,
+        43159,
+        43161,
+        43163,
+        43165,
+        43167,
+        43169,
+        43171,
+        43173
+    ]
+}

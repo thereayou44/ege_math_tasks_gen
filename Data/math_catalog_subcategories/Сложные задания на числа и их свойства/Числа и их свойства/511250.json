@@ -1,0 +1,26 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 511250,
+    "condition": {
+        "text": "а)  Может ли сумма четырех натуральных чисел равняться произведению этих же четырех чисел?б)  Может ли сумма четырех различных натуральных чисел равняться произведению этих же четырех чисел?в)  Может ли сумма 2015 различных положительных рациональных чисел равняться произведению этих же 2015 чисел?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body631790\" class=\"pbody\"><p class=\"left_margin\">а)  Может ли сумма че­ты­рех на­ту­раль­ных чисел рав­нять­ся про­из­ве­де­нию этих же че­ты­рех чисел?</p><p class=\"left_margin\">б)  Может ли сумма че­ты­рех раз­лич­ных на­ту­раль­ных чисел рав­нять­ся про­из­ве­де­нию этих же че­ты­рех чисел?</p><p class=\"left_margin\">в)  Может ли сумма 2015 раз­лич­ных по­ло­жи­тель­ных ра­ци­о­наль­ных чисел рав­нять­ся про­из­ве­де­нию этих же 2015 чисел?</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Да. Например: б)  Нет. Пусть  имеем:    a      равенство невозможно.в)  Да. Возмем числа: 1;2;...2014;а. Имеем:т. к. а<1, то все выбранные числа различны. Ответ:  а) да; б) нет; в) да.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol511250\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Да. На­при­мер: <img src=\"https://ege.sdamgia.ru/formula/svg/6e/6e35f56139ba72ce00cce78252c32012.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"1 плюс 1 плюс 2 плюс 4=1х1х2х4.\"></p><p class=\"left_margin\">б)  Нет. Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/7b/7b68d965d56f0c4d2ecadc822a2e5c02.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"а_1 боль­ше a_2 боль­ше a_3 боль­ше a_4 боль­ше или равно 1,\"> имеем: <img src=\"https://ege.sdamgia.ru/formula/svg/94/9444f61afbc59d920c54eae171640162.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a_1 плюс a_2 плюс a_3 плюс a_4 мень­ше 4a_1,\">   a    <img src=\"https://ege.sdamgia.ru/formula/svg/e1/e1a9d55d525858505abeb0436bb6b1a9.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"a_1a_2a_3a_4 боль­ше или равно 1x2x3xa_1 боль­ше или равно 6a_1;\">  ра­вен­ство не­воз­мож­но.</p><p class=\"left_margin\">в)  Да. Воз­мем числа: 1;2;...2014;а. Имеем:</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"bc62773275f926f3595283d169c32b9a\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/bc/bc62773275f926f3595283d169c32b9a.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\"1 плюс 2 плюс ... плюс 2014 плюс а=2014!а рав­но­силь­но а= дробь: чис­ли­тель: 1 плюс 2 плюс ... плюс 2014, зна­ме­на­тель: 2014! минус 1 конец дроби рав­но­силь­но а= дробь: чис­ли­тель: 1007х2015, зна­ме­на­тель: 2014! минус 1 конец дроби , \"></span><span data-width=\"490\" data-formulahash=\"bc62773275f926f3595283d169c32b9a\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/ca/ca948952b2dd401dd904afa27522e976.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"1 плюс 2 плюс ... плюс 2014 плюс а=2014!а рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/2b/2b6b49a8cf7313aae2c6a476fc4f0912.svg\" class=\"tex\" style=\"vertical-align:-9.2pt\" alt=\" рав­но­силь­но а= дробь: чис­ли­тель: 1 плюс 2 плюс ... плюс 2014, зна­ме­на­тель: 2014! минус 1 конец дроби рав­но­силь­но а= дробь: чис­ли­тель: 1007х2015, зна­ме­на­тель: 2014! минус 1 конец дроби , \"></span></p><p class=\"left_margin\"></p></center><p>т. к. а&lt;1, то все вы­бран­ные числа раз­лич­ны.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  а) да; б) нет; в) да.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/6e/6e35f56139ba72ce00cce78252c32012.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7b68d965d56f0c4d2ecadc822a2e5c02.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/9444f61afbc59d920c54eae171640162.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e1a9d55d525858505abeb0436bb6b1a9.svg",
+            "https://ege.sdamgia.ru/formula/svg/bc/bc62773275f926f3595283d169c32b9a.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/ca948952b2dd401dd904afa27522e976.svg",
+            "https://ege.sdamgia.ru/formula/svg/2b/2b6b49a8cf7313aae2c6a476fc4f0912.svg"
+        ]
+    },
+    "answer": "а) да; б) нет; в) да.",
+    "topic_id": null,
+    "analog_ids": []
+}

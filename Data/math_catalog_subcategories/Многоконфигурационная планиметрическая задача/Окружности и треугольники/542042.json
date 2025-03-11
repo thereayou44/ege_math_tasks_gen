@@ -1,0 +1,24 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 542042,
+    "condition": {
+        "text": "Окружность, вписанная в треугольник ABC, касается сторон BA и BC в точках E и F.а)  Докажите, что центр окружности, вписанной в треугольник BEF, лежит на окружности, вписанной в треугольник ABC.б)  Найдите расстояние между центрами этих окружностей, если AB  =  BC, BE  =  13, EF  =  10.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body404390\" class=\"pbody\"><p class=\"left_margin\">Окруж­ность, впи­сан­ная в тре­уголь­ник <i>ABC</i>, ка­са­ет­ся сто­рон <i>BA</i> и <i>BC</i> в точ­ках <i>E</i> и <i>F</i>.</p><p class=\"left_margin\">а)  До­ка­жи­те, что центр окруж­но­сти, впи­сан­ной в тре­уголь­ник <i>BEF</i>, лежит на окруж­но­сти, впи­сан­ной в тре­уголь­ник <i>ABC</i>.</p><p class=\"left_margin\">б)  Най­ди­те рас­сто­я­ние между цен­тра­ми этих окруж­но­стей, если <i>AB</i>  =  <i>BC</i>, <i>BE</i>  =  13, <i>EF</i>  =  10.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Проведем биссектрису угла BEF. Пусть она пересекает окружность точке K. Тогда углы KFE и KEB равны как углы между касательной и хордой. Далее, BE  =  BF, следовательно, углы BEF и BFE равны, значит, FK  — биссектриса угла BFE, откуда точка K  — центр вписанной окружности треугольника BEF.б)  Расстояние между центром окружностей равно радиусу окружности, вписанной в треугольник ABC. Пусть BD пересекает EF в точке M. BE  =  13, EM  =  5. Таким образом, по теореме Пифагора BM  =  12. Треугольники EOM и BEM подобны, поэтому     Ответ: б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol542042\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=52697\" style=\"float:right;margin:10px;max-width:100%\" width=\"200\">а)  Про­ве­дем бис­сек­три­су угла <i>BEF</i>. Пусть она пе­ре­се­ка­ет окруж­ность точке <i>K</i>. Тогда углы <i>KFE</i> и <i>KEB</i> равны как углы между ка­са­тель­ной и хор­дой. Далее, <i>BE</i>  =  <i>BF</i>, сле­до­ва­тель­но, углы <i>BEF</i> и <i>BFE</i> равны, зна­чит, <i>FK</i>  — бис­сек­три­са угла <i>BFE</i>, от­ку­да точка <i>K</i>  — центр впи­сан­ной окруж­но­сти тре­уголь­ни­ка <i>BEF</i>.</p><p class=\"left_margin\">б)  Рас­сто­я­ние между цен­тром окруж­но­стей равно ра­ди­у­су окруж­но­сти, впи­сан­ной в тре­уголь­ник <i>ABC</i>. Пусть <i>BD</i> пе­ре­се­ка­ет <i>EF</i> в точке <i>M</i>. <i>BE</i>  =  13, <i>EM</i>  =  5. Таким об­ра­зом, по тео­ре­ме Пи­фа­го­ра <i>BM</i>  =  12. Тре­уголь­ни­ки <i>EOM</i> и <i>BEM</i> по­доб­ны, по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/0a/0a4177a5ab12f93e50c0363cde4775af.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" дробь: чис­ли­тель: EO, зна­ме­на­тель: BE конец дроби = дробь: чис­ли­тель: EM, зна­ме­на­тель: BM конец дроби , \">  <img src=\"https://ege.sdamgia.ru/formula/svg/d1/d17b589d82ee73d9f5824a98a90fbcc0.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: EO, зна­ме­на­тель: 13 конец дроби = дробь: чис­ли­тель: 5, зна­ме­на­тель: 12 конец дроби , \"> <img src=\"https://ege.sdamgia.ru/formula/svg/ee/ee7faf5f1d1ed57443735c3c9abf6f55.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"EO= дробь: чис­ли­тель: 65, зна­ме­на­тель: 12 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) <img src=\"https://ege.sdamgia.ru/formula/svg/f3/f3030605bacbff04efbbe9f7f3484091.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" дробь: чис­ли­тель: 65, зна­ме­на­тель: 12 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/0a/0a4177a5ab12f93e50c0363cde4775af.svg",
+            "https://ege.sdamgia.ru/formula/svg/d1/d17b589d82ee73d9f5824a98a90fbcc0.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/ee7faf5f1d1ed57443735c3c9abf6f55.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f3030605bacbff04efbbe9f7f3484091.svg",
+            "/get_file?id=52697"
+        ]
+    },
+    "answer": "б)",
+    "topic_id": null,
+    "analog_ids": []
+}

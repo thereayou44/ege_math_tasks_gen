@@ -1,0 +1,60 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 509586,
+    "condition": {
+        "text": "На ребре AA1 прямоугольного параллелепипеда ABCDA1B1C1D1 взята точка E так, что A1E : EA = 3 : 4. Точка T  — середина ребра B1C1. Известно, что AB = 9, AD = 6 , AA1 = 14.а)  В каком отношении плоскость ETD1 делит ребро BB1?б)  Найдите угол между плоскостью ETD1 и плоскостью AA1B1.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body632942\" class=\"pbody\"><p class=\"left_margin\">На ребре <i>AA</i><sub>1</sub> пря­мо­уголь­но­го па­рал­ле­ле­пи­пе­да <i>ABCDA</i><sub>1</sub><i>B</i><sub>1</sub><i>C</i><sub>1</sub><i>D</i><sub>1</sub> взята точка <i>E</i> так, что <i>A</i><sub>1</sub><i>E</i> : <i>EA</i> = 3 : 4. Точка <i>T</i>  — се­ре­ди­на ребра <i>B</i><sub>1</sub><i>C</i><sub>1</sub>. Из­вест­но, что <i>AB</i> = 9, <i>AD</i> = 6 , <i>AA</i><sub>1</sub> = 14.</p><p class=\"left_margin\">а)  В каком от­но­ше­нии плос­кость <i>ETD</i><sub>1</sub> делит ребро <i>BB</i><sub>1</sub>?</p><p class=\"left_margin\">б)  Най­ди­те угол между плос­ко­стью <i>ETD</i><sub>1</sub> и плос­ко­стью <i>AA</i><sub>1</sub><i>B</i><sub>1</sub>.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение.  а)  Так как  и  то  и  Плоскость сечения пересекает параллельные плоскости  и  по параллельным прямым, поэтому она пересекает ребро  в такой точке Q, что прямая TQ параллельна прямой  Значит, треугольники  и  подобны, а поскольку  то и  Значит,  и б)  Так как прямая  перпендикулярна плоскости  опустим перпендикуляр  из точки  на прямую EQ пересечения этих плоскостей. Угол  будет искомым. Найдём  Для этого проведём в трапеции  высоту  (очевидно, L  — середина ). Теперь, вычисляя двумя способами площадь треугольника  найдём  то есть  Тогда  Ответ: а)  б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol509586\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=141671\" style=\"float:right;margin:10px;max-width:100%\"></p><p> а)  Так как <img src=\"https://ege.sdamgia.ru/formula/svg/0c/0c08c9d189d204805a5806e9f6976a9d.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"A_1E : EA = 3:4\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/1f/1fe1f5e8bf10e93be456e00ead52e3c5.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AA_1=14, \"> то <img src=\"https://ege.sdamgia.ru/formula/svg/4c/4c0da4d8424f2a190332d2ac78502b4f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AE=8\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/df/dff7200bc0880334118a7af8e86d3645.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"EA_1=6.\"> Плос­кость се­че­ния пе­ре­се­ка­ет па­рал­лель­ные плос­ко­сти <img src=\"https://ege.sdamgia.ru/formula/svg/6f/6fa4106b5a44a3c57288ae3ff8c4ca73.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"DAA_1\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/e4/e4ed243266c303703d06e678d4aec609.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"ВСС_1\"> по па­рал­лель­ным пря­мым, по­это­му она пе­ре­се­ка­ет ребро <img src=\"https://ege.sdamgia.ru/formula/svg/3e/3e885d8cc2b3a7fc96f4fedee82f3de2.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"BB_1\"> в такой точке <i>Q</i>, что пря­мая <i>TQ</i> па­рал­лель­на пря­мой <img src=\"https://ege.sdamgia.ru/formula/svg/aa/aa4057e9e7df9530aac78671e8d68dc9.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"ED_1.\"> Зна­чит, тре­уголь­ни­ки <img src=\"https://ege.sdamgia.ru/formula/svg/54/54b851c10d9e316ff197ae83713039c8.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"EA_1D_1\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/cd/cddf4b81154cecc674760e45285bf2c5.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"QB_1T\"> по­доб­ны, а по­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/c5/c579c13090cc067ca4a4b2f19067e198.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"EA_1=A_1D_1=6,\"> то и <img src=\"https://ege.sdamgia.ru/formula/svg/5e/5e33b9e666a9c28857a6132817d95778.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"QB_1=B_1T=3.\"> Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/fb/fb3a6bd1c4ebff77bc6bad1d3227609d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"QB=11\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/fc/fc05568d7ddb8d32de4b02d5e2681383.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"QB_1:QB=3:11.\"></p><p class=\"left_margin\">б)  Так как пря­мая <img src=\"https://ege.sdamgia.ru/formula/svg/7f/7fd8b3095e5d4d960988af5098635490.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"A_1D_1\"> пер­пен­ди­ку­ляр­на плос­ко­сти <img src=\"https://ege.sdamgia.ru/formula/svg/60/60fcbf7510c963e357390cde1ac5aafc.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AA_1B_1,\"> опу­стим пер­пен­ди­ку­ляр <img src=\"https://ege.sdamgia.ru/formula/svg/f3/f384954c58e4c05da391ec1dcc43de9d.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"A_1H\"> из точки <img src=\"https://ege.sdamgia.ru/formula/svg/4b/4be60c01260fad068dd84cb934d15c36.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"A_1\"> на пря­мую <i>EQ</i> пе­ре­се­че­ния этих плос­ко­стей. Угол <img src=\"https://ege.sdamgia.ru/formula/svg/7f/7f6b88a49044115d0a0b5db0356150ec.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"A_1HD_1\"> будет ис­ко­мым. Найдём <img src=\"https://ege.sdamgia.ru/formula/svg/02/02f7c3b95e7221d3abe2727ff938819d.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"A_1H.\"> Для этого про­ведём в тра­пе­ции <img src=\"https://ege.sdamgia.ru/formula/svg/26/264214f983f6cb6631a37152c8d54760.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"EA_1B_1Q\"> вы­со­ту <img src=\"https://ege.sdamgia.ru/formula/svg/a6/a6ba2c67fd6c6ab348a1c83b664b5cbd.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"QL=9\"> (оче­вид­но, <i>L</i>  — се­ре­ди­на <img src=\"https://ege.sdamgia.ru/formula/svg/82/82556962974d539389f40f2360bd548d.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"EA_1\">). Те­перь, вы­чис­ляя двумя спо­со­ба­ми пло­щадь тре­уголь­ни­ка <img src=\"https://ege.sdamgia.ru/formula/svg/33/33a5e93ec43ed3411e977346a06eec89.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"EQA_1,\"> найдём <img src=\"https://ege.sdamgia.ru/formula/svg/e4/e42be2ee6daabc9ed8a771399d1ac65b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"A_1H умно­жить на EQ=A_1E умно­жить на QL,\"> то есть <img src=\"https://ege.sdamgia.ru/formula/svg/c9/c9c8776420c706d24afd94a25dd9ad9c.svg\" class=\"tex\" style=\"vertical-align:-10.9pt\" alt=\"A_1H= дробь: чис­ли­тель: QL умно­жить на A_1E, зна­ме­на­тель: QE конец дроби = дробь: чис­ли­тель: 9 умно­жить на 6, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 9 в квад­ра­те плюс 3 в квад­ра­те конец ар­гу­мен­та конец дроби = дробь: чис­ли­тель: 18, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 10 конец ар­гу­мен­та конец дроби . \"> Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/02/023f5a59db97c6a950e6ee5e16a8686b.svg\" class=\"tex\" style=\"vertical-align:-24.6pt\" alt=\" тан­генс A_1HD_1= дробь: чис­ли­тель: 6, зна­ме­на­тель: конец дроби \\phantoma\\dfrac18 ко­рень из: на­ча­ло ар­гу­мен­та: 10 конец ар­гу­мен­та \\phantoma= дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 10 конец ар­гу­мен­та , зна­ме­на­тель: 3 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) <img src=\"https://ege.sdamgia.ru/formula/svg/9a/9a3f9b2584f5c71c49869637c088efaa.svg\" class=\"tex\" style=\"vertical-align:-2.2pt\" alt=\"3 : 11;\"> б) <img src=\"https://ege.sdamgia.ru/formula/svg/1c/1cc97e35a1c96aa9e75bdc1aa768cddf.svg\" class=\"tex\" style=\"vertical-align:-8.6pt\" alt=\" арк­тан­генс дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 10 конец ар­гу­мен­та , зна­ме­на­тель: 3 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/0c/0c08c9d189d204805a5806e9f6976a9d.svg",
+            "https://ege.sdamgia.ru/formula/svg/1f/1fe1f5e8bf10e93be456e00ead52e3c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c0da4d8424f2a190332d2ac78502b4f.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/dff7200bc0880334118a7af8e86d3645.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6fa4106b5a44a3c57288ae3ff8c4ca73.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e4ed243266c303703d06e678d4aec609.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e885d8cc2b3a7fc96f4fedee82f3de2.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa4057e9e7df9530aac78671e8d68dc9.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54b851c10d9e316ff197ae83713039c8.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cddf4b81154cecc674760e45285bf2c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/c5/c579c13090cc067ca4a4b2f19067e198.svg",
+            "https://ege.sdamgia.ru/formula/svg/5e/5e33b9e666a9c28857a6132817d95778.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fb3a6bd1c4ebff77bc6bad1d3227609d.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fc05568d7ddb8d32de4b02d5e2681383.svg",
+            "https://ege.sdamgia.ru/formula/svg/7f/7fd8b3095e5d4d960988af5098635490.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/60fcbf7510c963e357390cde1ac5aafc.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f384954c58e4c05da391ec1dcc43de9d.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4be60c01260fad068dd84cb934d15c36.svg",
+            "https://ege.sdamgia.ru/formula/svg/7f/7f6b88a49044115d0a0b5db0356150ec.svg",
+            "https://ege.sdamgia.ru/formula/svg/02/02f7c3b95e7221d3abe2727ff938819d.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/264214f983f6cb6631a37152c8d54760.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a6ba2c67fd6c6ab348a1c83b664b5cbd.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/82556962974d539389f40f2360bd548d.svg",
+            "https://ege.sdamgia.ru/formula/svg/33/33a5e93ec43ed3411e977346a06eec89.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e42be2ee6daabc9ed8a771399d1ac65b.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c9c8776420c706d24afd94a25dd9ad9c.svg",
+            "https://ege.sdamgia.ru/formula/svg/02/023f5a59db97c6a950e6ee5e16a8686b.svg",
+            "https://ege.sdamgia.ru/formula/svg/9a/9a3f9b2584f5c71c49869637c088efaa.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1cc97e35a1c96aa9e75bdc1aa768cddf.svg",
+            "/get_file?id=141671"
+        ]
+    },
+    "answer": "а)  б)",
+    "topic_id": 14,
+    "analog_ids": [
+        509586,
+        509607,
+        512336,
+        512378,
+        509607,
+        512336,
+        512378,
+        556337,
+        556446,
+        556547
+    ]
+}

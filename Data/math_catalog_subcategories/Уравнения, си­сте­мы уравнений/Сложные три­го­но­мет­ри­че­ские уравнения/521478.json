@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521478,
+    "condition": {
+        "text": "Дано уравнение а)  Решите уравнение.б)  Найдите корни этого уравнения, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629754\" class=\"pbody\"><p class=\"left_margin\">Дано урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/f2/f2508c1a737fa564b70eb0b81d0e129e.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2 ко­си­нус в сте­пе­ни 4 2x минус ко­си­нус 2x минус 3=0.\"></p><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние.</p><p class=\"left_margin\">б)  Най­ди­те&nbsp;корни&nbsp;этого&nbsp;урав­не­ния,&nbsp;при­над­ле­жа­щие&nbsp;от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/30/30b0ce6fefe91f52856f4e3f77534e37.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка минус 3 Пи ; минус Пи } пра­вая квад­рат­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f2/f2508c1a737fa564b70eb0b81d0e129e.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/30b0ce6fefe91f52856f4e3f77534e37.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Сделаем замену   Получим  Но  причем равенства возможны только при  Значит,  откуда б)  На указанном отрезке лежат  Ответ: а)  б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521478\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Сде­ла­ем за­ме­ну <img src=\"https://ege.sdamgia.ru/formula/svg/da/dab63435b513d2911c6e4b6e038fdd17.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" ко­си­нус 2x=t,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/98/986875996b18f09ece779ede549af61e.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"t при­над­ле­жит левая квад­рат­ная скоб­ка минус 1;1 пра­вая квад­рат­ная скоб­ка .\"> По­лу­чим <img src=\"https://ege.sdamgia.ru/formula/svg/fe/fec9f22e0eb2dfec9c5452ba5192f476.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2t в сте­пе­ни 4 =3 плюс t.\"> Но <img src=\"https://ege.sdamgia.ru/formula/svg/96/968136f38c601124a7262e13424ff429.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2t в сте­пе­ни 4 мень­ше или равно 2 мень­ше или равно 3 плюс t,\"> при­чем ра­вен­ства воз­мож­ны толь­ко при <img src=\"https://ege.sdamgia.ru/formula/svg/08/08068ed6f081f7e19cfa71e4fafdc1e7.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"t= минус 1.\"> Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/3e/3e343db48d137746d76a4d346b14d82c.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" ко­си­нус 2x= минус 1,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/19/19e865458b26df923726fd3003e0e11d.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби плюс Пи k. \"></p><p class=\"left_margin\">б)  На ука­зан­ном от­рез­ке лежат <img src=\"https://ege.sdamgia.ru/formula/svg/95/956c7bb922aebbb7505ac97307a26183.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" минус 2,5 Пи , минус 1,5 Пи .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) <img src=\"https://ege.sdamgia.ru/formula/svg/d3/d3d981e805fe547c7d8ecc392612bb06.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" левая фи­гур­ная скоб­ка дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби плюс Пи k: k при­над­ле­жит Z пра­вая фи­гур­ная скоб­ка ; \"> б) <img src=\"https://ege.sdamgia.ru/formula/svg/18/184c878916239ea29a0468b39ddc9f7f.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая фи­гур­ная скоб­ка минус дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 2 конец дроби ; минус дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби пра­вая фи­гур­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/da/dab63435b513d2911c6e4b6e038fdd17.svg",
+            "https://ege.sdamgia.ru/formula/svg/98/986875996b18f09ece779ede549af61e.svg",
+            "https://ege.sdamgia.ru/formula/svg/fe/fec9f22e0eb2dfec9c5452ba5192f476.svg",
+            "https://ege.sdamgia.ru/formula/svg/96/968136f38c601124a7262e13424ff429.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/08068ed6f081f7e19cfa71e4fafdc1e7.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e343db48d137746d76a4d346b14d82c.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/19e865458b26df923726fd3003e0e11d.svg",
+            "https://ege.sdamgia.ru/formula/svg/95/956c7bb922aebbb7505ac97307a26183.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d3d981e805fe547c7d8ecc392612bb06.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/184c878916239ea29a0468b39ddc9f7f.svg"
+        ]
+    },
+    "answer": "а)  б)",
+    "topic_id": null,
+    "analog_ids": []
+}

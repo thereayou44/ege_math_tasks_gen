@@ -1,0 +1,63 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 26775,
+    "condition": {
+        "text": "Найдите  если  и ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919147\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те <img src=\"https://ege.sdamgia.ru/formula/svg/a8/a86cef9f699f8c2bc21727572571f792.svg\" class=\"tex\" style=\"vertical-align:-3.3pt\" alt=\" тан­генс альфа ,\"> если <img src=\"https://ege.sdamgia.ru/formula/svg/1b/1b8957f98d027997667b4fc83116d804.svg\" class=\"tex\" style=\"vertical-align:-8.6pt\" alt=\" ко­си­нус альфа = дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 10 конец ар­гу­мен­та , зна­ме­на­тель: 10 конец дроби \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/65/657f17745d3684597b40e6e9bf08fa52.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" альфа при­над­ле­жит левая круг­лая скоб­ка дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби ;2 Пи пра­вая круг­лая скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a8/a86cef9f699f8c2bc21727572571f792.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1b8957f98d027997667b4fc83116d804.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/657f17745d3684597b40e6e9bf08fa52.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Поскольку угол  лежит в четвёртой четверти, его тангенс отрицателен. Поэтому   Ответ: −3.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol26775\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По­сколь­ку угол <img src=\"https://ege.sdamgia.ru/formula/svg/bc/bccfc7022dfb945174d9bcebad2297bb.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" альфа \"> лежит в четвёртой чет­вер­ти, его тан­генс от­ри­ца­те­лен. По­это­му </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/09/095b78d1f85f2edfa4061ded6bce5c00.svg\" class=\"tex\" style=\"vertical-align:-9.4pt\" alt=\" тан­генс альфа = минус ко­рень из: на­ча­ло ар­гу­мен­та: дробь: чис­ли­тель: 1, зна­ме­на­тель: ко­си­нус конец ар­гу­мен­та в квад­ра­те альфа конец дроби минус 1= минус ко­рень из: на­ча­ло ар­гу­мен­та: 10 минус 1 конец ар­гу­мен­та = минус 3. \"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> −3.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/bc/bccfc7022dfb945174d9bcebad2297bb.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/095b78d1f85f2edfa4061ded6bce5c00.svg"
+        ]
+    },
+    "answer": "-3",
+    "topic_id": 7,
+    "analog_ids": [
+        26775,
+        64273,
+        548507,
+        548526,
+        64273,
+        548507,
+        548526,
+        64211,
+        64213,
+        64215,
+        64217,
+        64219,
+        64221,
+        64223,
+        64225,
+        64227,
+        64229,
+        64231,
+        64233,
+        64235,
+        64237,
+        64239,
+        64241,
+        64243,
+        64245,
+        64247,
+        64249,
+        64251,
+        64253,
+        64255,
+        64257,
+        64259,
+        64261,
+        64263,
+        64265,
+        64267,
+        64271
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521841,
+    "condition": {
+        "text": "Решите уравнение: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body628877\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те урав­не­ние: <img src=\"https://ege.sdamgia.ru/formula/svg/47/47c7a48382713cbcf1745bfc0077a0df.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 2x в квад­ра­те минус 5x плюс 12 конец ар­гу­мен­та плюс 2x в квад­ра­те =5x.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/47/47c7a48382713cbcf1745bfc0077a0df.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Перенесём 5x в левую часть уравнения и прибавим к обеим его частям число 12, получим:Пусть  тогда уравнение принимает вид:Вернёмся к исходной переменной:Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521841\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пе­ре­несём 5<i>x</i> в левую часть урав­не­ния и при­ба­вим к обеим его ча­стям число 12, по­лу­чим:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/fa/fa881d73e1bd30db23ea9301fc349c03.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 2x в квад­ра­те минус 5x плюс 12 конец ар­гу­мен­та плюс 2x в квад­ра­те =5x рав­но­силь­но 2x в квад­ра­те минус 5x плюс 12 плюс ко­рень из: на­ча­ло ар­гу­мен­та: 2x в квад­ра­те минус 5x плюс 12 конец ар­гу­мен­та =12\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/04/048610e83bb44efbc728cd65739d8ff3.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 2x в квад­ра­те минус 5x плюс 12 конец ар­гу­мен­та =t\\geqslant0,\"> тогда урав­не­ние при­ни­ма­ет вид:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/43/4353a814970af46c40373ff3a0c4377c.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\"t в квад­ра­те плюс t=12 рав­но­силь­но t в квад­ра­те плюс t минус 12=0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний t= минус 4,t=3 конец со­во­куп­но­сти . \\undersett\\geqslant0\\mathop рав­но­силь­но t=3.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Вернёмся к ис­ход­ной пе­ре­мен­ной:</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"c57149c86bb6531c0c05beecc62be562\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/c5/c57149c86bb6531c0c05beecc62be562.svg\" class=\"tex\" style=\"vertical-align:-18.0pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 2x конец ар­гу­мен­та в квад­ра­те минус 5x плюс 12=3 рав­но­силь­но 2x в квад­ра­те минус 5x плюс 12=9 рав­но­силь­но 2x в квад­ра­те минус 5x плюс 3=0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка x=1,  новая стро­ка x= дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби .  конец со­во­куп­но­сти . \"></span><span data-width=\"465\" data-formulahash=\"c57149c86bb6531c0c05beecc62be562\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/fb/fb29e35330a3331414dcaa5ff3664f5d.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 2x конец ар­гу­мен­та в квад­ра­те минус 5x плюс 12=3 рав­но­силь­но 2x в квад­ра­те минус 5x плюс 12=9 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/9e/9e12f9fcc2c863ed7db9a01194303267.svg\" class=\"tex\" style=\"vertical-align:-18.1pt\" alt=\" рав­но­силь­но 2x в квад­ра­те минус 5x плюс 3=0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка x=1,  новая стро­ка x= дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби .  конец со­во­куп­но­сти . \"></span></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/88/885b3f4785fb82e85a5eea9cad51fecc.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая фи­гур­ная скоб­ка 1; дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби пра­вая фи­гур­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/fa/fa881d73e1bd30db23ea9301fc349c03.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/048610e83bb44efbc728cd65739d8ff3.svg",
+            "https://ege.sdamgia.ru/formula/svg/43/4353a814970af46c40373ff3a0c4377c.svg",
+            "https://ege.sdamgia.ru/formula/svg/c5/c57149c86bb6531c0c05beecc62be562.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fb29e35330a3331414dcaa5ff3664f5d.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9e12f9fcc2c863ed7db9a01194303267.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/885b3f4785fb82e85a5eea9cad51fecc.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

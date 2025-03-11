@@ -1,0 +1,38 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 516760,
+    "condition": {
+        "text": "а)  Решите уравнение: б)  Определите, какие из его корней принадлежат отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body625764\" class=\"pbody\"><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние: <img src=\"https://ege.sdamgia.ru/formula/svg/e1/e15ad116b6cc446f7391dc405708bfb6.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"4 в сте­пе­ни левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка минус 2 в сте­пе­ни левая круг­лая скоб­ка x плюс 3 пра­вая круг­лая скоб­ка плюс 15=0.\"></p><p class=\"left_margin\">б)  Опре­де­ли­те, какие из его кор­ней при­над­ле­жат от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/89/8915a5763df9d5152914d6ae0c8bb8f8.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\" левая квад­рат­ная скоб­ка 2; ко­рень из: на­ча­ло ар­гу­мен­та: 10 конец ар­гу­мен­та пра­вая квад­рат­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e1/e15ad116b6cc446f7391dc405708bfb6.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/8915a5763df9d5152914d6ae0c8bb8f8.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Пусть  тогда исходное уравнение принимает вид  откуда  или  Следовательно,б)  Поскольку  корень  не принадлежит отрезку  Поскольку  корень  принадлежит отрезку Ответ:  а)  б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol516760\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/c3/c3a6022fbee78eecad31ce72ca7d8f5d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"t=2 в сте­пе­ни левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка ,\"> тогда ис­ход­ное урав­не­ние при­ни­ма­ет вид <img src=\"https://ege.sdamgia.ru/formula/svg/8f/8fff8debae36c7434af29e42ae70f934.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"t в квад­ра­те минус 8t плюс 15=0,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/b2/b277b7438901594b437aaaca333e415b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"t=3\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/f0/f01504a796fb0333d380365ca3194826.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"t=5.\"> Сле­до­ва­тель­но,</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/4c/4cb7bee73a16c646d8538e7a3901498c.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\"2 в сте­пе­ни левая круг­лая скоб­ка 2x пра­вая круг­лая скоб­ка минус 8 умно­жить на 2 в сте­пе­ни левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка плюс 15=0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка 2 в сте­пе­ни левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =3,  новая стро­ка 2 в сте­пе­ни левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =5 конец со­во­куп­но­сти . рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка x=\\log _23,  новая стро­ка x=\\log _25. конец со­во­куп­но­сти .\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">б)  По­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/6c/6c240c54fdcc3a6ac86b9144665da21c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\log _23 мень­ше \\log _24=2,\"> ко­рень <img src=\"https://ege.sdamgia.ru/formula/svg/89/891518b2bbda6ded8707f2698de98124.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\log _23\"> не при­над­ле­жит от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/89/8915a5763df9d5152914d6ae0c8bb8f8.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\" левая квад­рат­ная скоб­ка 2; ко­рень из: на­ча­ло ар­гу­мен­та: 10 конец ар­гу­мен­та пра­вая квад­рат­ная скоб­ка .\"> По­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/b5/b56747ab57d18191705e656313a2962b.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\"2=\\log _24 мень­ше \\log _25 мень­ше \\log _28=3 мень­ше ко­рень из: на­ча­ло ар­гу­мен­та: 10 конец ар­гу­мен­та ,\"> ко­рень <img src=\"https://ege.sdamgia.ru/formula/svg/4c/4c670d7b642f3849902954c20010ae6f.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\log _25\"> при­над­ле­жит от­рез­ку<img src=\"https://ege.sdamgia.ru/formula/svg/89/8915a5763df9d5152914d6ae0c8bb8f8.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\" левая квад­рат­ная скоб­ка 2; ко­рень из: на­ча­ло ар­гу­мен­та: 10 конец ар­гу­мен­та пра­вая квад­рат­ная скоб­ка .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  а) <img src=\"https://ege.sdamgia.ru/formula/svg/92/9278e1336cf7ae628926277fb7341db4.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая фи­гур­ная скоб­ка \\log _23;\\log _25 пра­вая фи­гур­ная скоб­ка ,\"> б) <img src=\"https://ege.sdamgia.ru/formula/svg/2e/2eb81c71d4f2b628c466a69c89105b7f.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\log _25.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c3/c3a6022fbee78eecad31ce72ca7d8f5d.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8fff8debae36c7434af29e42ae70f934.svg",
+            "https://ege.sdamgia.ru/formula/svg/b2/b277b7438901594b437aaaca333e415b.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f01504a796fb0333d380365ca3194826.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4cb7bee73a16c646d8538e7a3901498c.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6c240c54fdcc3a6ac86b9144665da21c.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/891518b2bbda6ded8707f2698de98124.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/8915a5763df9d5152914d6ae0c8bb8f8.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b56747ab57d18191705e656313a2962b.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c670d7b642f3849902954c20010ae6f.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/8915a5763df9d5152914d6ae0c8bb8f8.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/9278e1336cf7ae628926277fb7341db4.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2eb81c71d4f2b628c466a69c89105b7f.svg"
+        ]
+    },
+    "answer": "а)  б)",
+    "topic_id": 13,
+    "analog_ids": [
+        516760,
+        516779
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 560141,
+    "condition": {
+        "text": "В июле планируется взять кредит в банке на сумму 4 млн рублей на некоторый срок. Условия его возврата таковы:  — каждый январь долг возрастает на 15% по сравнению с концом предыдущего года;  — с февраля по июнь каждого года необходимо выплатить часть долга;  — в июле каждого года долг должен быть на одну и ту же сумму меньше долга на июль предыдущего года.На какой минимальный срок следует брать кредит, чтобы наибольший годовой платёж по кредиту не превысил 1,25 млн руб.?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body451313\" class=\"pbody\"><p class=\"left_margin\">В июле пла­ни­ру­ет­ся взять кре­дит в банке на сумму 4 млн руб­лей на не­ко­то­рый срок. Усло­вия его воз­вра­та та­ко­вы:</p><p>  — каж­дый ян­варь долг воз­рас­та­ет на 15% по срав­не­нию с кон­цом преды­ду­ще­го года;</p><p>  — с фев­ра­ля по июнь каж­до­го года не­об­хо­ди­мо вы­пла­тить часть долга;</p><p>  — в июле каж­до­го года долг дол­жен быть на одну и ту же сумму мень­ше долга на июль преды­ду­ще­го года.</p><p class=\"left_margin\">На какой ми­ни­маль­ный срок сле­ду­ет брать кре­дит, чтобы наи­боль­ший го­до­вой платёж по кре­ди­ту не пре­вы­сил 1,25 млн руб.?</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Пусть кредит взят на n лет. По условию долг перед банком (в млн рублей) по состоянию на июль должен уменьшаться до нуля равномерно:4,  ...,   0.По условию каждый январь долг возрастает на 15%. Значит, последовательность размеров долга (в млн рублей) в январе такова:4,6,  ...,  Следовательно, наибольшая выплата составляет  Получаем  а значит,  Ответ: 7.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol560141\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть кре­дит взят на <i>n</i> лет. По усло­вию долг перед бан­ком (в млн руб­лей) по со­сто­я­нию на июль дол­жен умень­шать­ся до нуля рав­но­мер­но:</p><p class=\"left_margin\"></p><center><p class=\"left_margin\">4, <img src=\"https://ege.sdamgia.ru/formula/svg/92/92a979c141ecd8e1145ab0c63c8053a4.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 4 левая круг­лая скоб­ка n минус 1 пра­вая круг­лая скоб­ка , зна­ме­на­тель: n конец дроби , \"> ..., <img src=\"https://ege.sdamgia.ru/formula/svg/6f/6f720679d845793b6dab897edc312a4e.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 4 умно­жить на 2, зна­ме­на­тель: n конец дроби , \"> <img src=\"https://ege.sdamgia.ru/formula/svg/8b/8bf5f3476251744e627fe83ff3797457.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 4, зна­ме­на­тель: n конец дроби , \"> 0.</p><p class=\"left_margin\"></p></center><p class=\"left_margin\">По усло­вию каж­дый ян­варь долг воз­рас­та­ет на 15%. Зна­чит, по­сле­до­ва­тель­ность раз­ме­ров долга (в млн руб­лей) в ян­ва­ре та­ко­ва:</p><p class=\"left_margin\"></p><center><p class=\"left_margin\">4,6, <img src=\"https://ege.sdamgia.ru/formula/svg/6e/6ef307d2e2da39ab7a525c61e813af14.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 4,6 левая круг­лая скоб­ка n минус 1 пра­вая круг­лая скоб­ка , зна­ме­на­тель: n конец дроби , \"> ..., <img src=\"https://ege.sdamgia.ru/formula/svg/46/46b63eafb6ec8b7d07464a7ffb92f856.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 4,6 умно­жить на 2, зна­ме­на­тель: n конец дроби , \"> <img src=\"https://ege.sdamgia.ru/formula/svg/1a/1a97b6071a33ed4a8abd1e15e3a6985e.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 4,6, зна­ме­на­тель: n конец дроби . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Сле­до­ва­тель­но, наи­боль­шая вы­пла­та со­став­ля­ет <img src=\"https://ege.sdamgia.ru/formula/svg/8f/8f4f29fd18ae355576db9d42a80c7018.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"0,6 плюс дробь: чис­ли­тель: 4, зна­ме­на­тель: n конец дроби .\"> По­лу­ча­ем <img src=\"https://ege.sdamgia.ru/formula/svg/50/50a087ad71ac621d7bac90da824b6aa1.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"0,6 плюс дробь: чис­ли­тель: 4, зна­ме­на­тель: n конец дроби мень­ше или равно 1,25,\"> а зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/4b/4b968765ceb42a0b282c01dcc6065554.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"n боль­ше или равно 7.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 7.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/92/92a979c141ecd8e1145ab0c63c8053a4.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6f720679d845793b6dab897edc312a4e.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8bf5f3476251744e627fe83ff3797457.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6ef307d2e2da39ab7a525c61e813af14.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/46b63eafb6ec8b7d07464a7ffb92f856.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1a97b6071a33ed4a8abd1e15e3a6985e.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8f4f29fd18ae355576db9d42a80c7018.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50a087ad71ac621d7bac90da824b6aa1.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4b968765ceb42a0b282c01dcc6065554.svg"
+        ]
+    },
+    "answer": "7.",
+    "topic_id": 16,
+    "analog_ids": []
+}

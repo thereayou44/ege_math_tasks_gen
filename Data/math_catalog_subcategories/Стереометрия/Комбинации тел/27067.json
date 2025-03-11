@@ -1,0 +1,24 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27067,
+    "condition": {
+        "text": " Прямоугольный параллелепипед описан около сферы радиуса 1. Найдите его площадь поверхности.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919367\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=114409\" style=\"float:right;margin:10px;max-width:100%\"> Пря­мо­уголь­ный па­рал­ле­ле­пи­пед опи­сан около сферы ра­ди­у­са 1. Най­ди­те его пло­щадь по­верх­но­сти.</p></div>",
+        "image_urls": [
+            "/get_file?id=114409"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Высота и рёбра такого параллелепипеда равны диаметру сферы, поэтому это куб с ребром 2. Площадь его поверхности равна 6 · 4 = 24. Ответ: 24.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27067\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Вы­со­та и рёбра та­ко­го па­рал­ле­ле­пи­пе­да равны диа­мет­ру сферы, по­это­му это куб с реб­ром 2. Пло­щадь его по­верх­но­сти равна 6 · 4 = 24.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 24.</p></div>",
+        "image_urls": []
+    },
+    "answer": "24",
+    "topic_id": 3,
+    "analog_ids": [
+        27067,
+        5065,
+        658763
+    ]
+}

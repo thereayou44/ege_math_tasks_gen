@@ -1,0 +1,34 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 527981,
+    "condition": {
+        "text": "Окружность с центром O касается диагонали AC и сторон AB и BC параллелограмма ABCD. Расстояния от точки О до прямых AD и AC равны 8 и 6 соответственно, OA  =  10.а)  Докажите, что треугольник ABC  — прямоугольный.б)  Найдите площадь параллелограмма ABCD.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body417937\" class=\"pbody\"><p class=\"left_margin\">Окруж­ность с цен­тром <i>O</i> ка­са­ет­ся диа­го­на­ли <i>AC</i> и сто­рон <i>AB</i> и <i>BC</i> па­рал­ле­ло­грам­ма <i>ABCD</i>. Рас­сто­я­ния от точки <i>О</i> до пря­мых <i>AD</i> и <i>AC</i> равны 8 и 6 со­от­вет­ствен­но, <i>OA</i>  =  10.</p><p class=\"left_margin\">а)  До­ка­жи­те, что тре­уголь­ник <i>ABC</i>  — пря­мо­уголь­ный.</p><p class=\"left_margin\">б)  Най­ди­те пло­щадь па­рал­ле­ло­грам­ма <i>ABCD</i>.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Пусть M  — точка касания окружности и AB, N  — точка касания окружности и AC, OH  — перпендикуляр из точки O на AD. Тогда  следовательно, Значит,  Следовательно,  и  Отсюда AMOH  — параллелограмм с прямым углом, следовательно, AMOH  — прямоугольник. Значит, б)  Имеем: Пусть  тогдаДалее, получаем:Теперь найдём площадь параллелограмма ABCD:Ответ: 672.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol527981\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=43354\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Пусть <i>M</i>  — точка ка­са­ния окруж­но­сти и <i>AB</i>, <i>N</i>  — точка ка­са­ния окруж­но­сти и <i>AC</i>, <i>OH</i>  — пер­пен­ди­ку­ляр из точки <i>O</i> на <i>AD</i>. Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/73/731cbb63ab8bfbe657da2d2f46cd77b1.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"ON=OM=6,\"> сле­до­ва­тель­но, </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/1e/1e1315006cc37d32b88471d826153206.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AM=AN= ко­рень из: на­ча­ло ар­гу­мен­та: 10 в квад­ра­те минус 6 в квад­ра­те конец ар­гу­мен­та =8.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/f9/f9e95a5ec39920f9f2a5c0fd3008bdad.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AH= ко­рень из: на­ча­ло ар­гу­мен­та: 10 в квад­ра­те минус 8 в квад­ра­те конец ар­гу­мен­та =6.\"> Сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/17/17329127ab9fc8529c7dbe496abc627f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AM=OH\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/38/38ffe014abc2606541d14fede39038e1.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"MO=AH.\"> От­сю­да <i>AMOH</i>  — па­рал­ле­ло­грамм с пря­мым углом, сле­до­ва­тель­но, <i>AMOH</i>  — пря­мо­уголь­ник. Зна­чит, </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/24/24cb86014ccb5c7c60ccfbd723f57451.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle ABC=\\angle BAD=90 гра­ду­сов.\"></p><p class=\"left_margin\"></p></center><p><img src=\"/get_file?id=43355\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">б)  Имеем: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/df/dfd79d059baca56b23f4338651353cc5.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AB=AM плюс MB=8 плюс 6=14.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/7c/7ca8bbad2d31cd03096b29ccf7c5f694.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"NC=x,\"> тогда</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/6f/6f0316ade88df311ad870ccd7d7a091d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AC=8 плюс x,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/10/10366642ecb30d264bd5caaf77879cdb.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BC=6 плюс x.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Далее, по­лу­ча­ем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/3b/3bea9b6726d1f402c9144629fc0dbbea.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка x плюс 6 пра­вая круг­лая скоб­ка в квад­ра­те плюс 14 в квад­ра­те = левая круг­лая скоб­ка x плюс 8 пра­вая круг­лая скоб­ка в квад­ра­те рав­но­силь­но x в квад­ра­те плюс 12x плюс 36 плюс 196=x в квад­ра­те плюс 16x плюс 64 рав­но­силь­но \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/c5/c5e68b25e0ae37f7f7b789d9ccdd8ab1.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" рав­но­силь­но 4x=168 рав­но­силь­но x=42.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Те­перь найдём пло­щадь па­рал­ле­ло­грам­ма <i>ABCD</i>:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/da/da64ea879f7e061c533dcfb966c619e7.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"S_ABCD=AB умно­жить на BC=14 умно­жить на левая круг­лая скоб­ка 6 плюс 42 пра­вая круг­лая скоб­ка =672.\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 672.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/73/731cbb63ab8bfbe657da2d2f46cd77b1.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1e1315006cc37d32b88471d826153206.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f9e95a5ec39920f9f2a5c0fd3008bdad.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/17329127ab9fc8529c7dbe496abc627f.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/38ffe014abc2606541d14fede39038e1.svg",
+            "https://ege.sdamgia.ru/formula/svg/24/24cb86014ccb5c7c60ccfbd723f57451.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/dfd79d059baca56b23f4338651353cc5.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7ca8bbad2d31cd03096b29ccf7c5f694.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6f0316ade88df311ad870ccd7d7a091d.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/10366642ecb30d264bd5caaf77879cdb.svg",
+            "https://ege.sdamgia.ru/formula/svg/3b/3bea9b6726d1f402c9144629fc0dbbea.svg",
+            "https://ege.sdamgia.ru/formula/svg/c5/c5e68b25e0ae37f7f7b789d9ccdd8ab1.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/da64ea879f7e061c533dcfb966c619e7.svg",
+            "/get_file?id=43354",
+            "/get_file?id=43355"
+        ]
+    },
+    "answer": "672.",
+    "topic_id": null,
+    "analog_ids": []
+}

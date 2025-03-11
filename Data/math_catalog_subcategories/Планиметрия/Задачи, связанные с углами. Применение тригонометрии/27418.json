@@ -1,0 +1,72 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27418,
+    "condition": {
+        "text": "В треугольнике ABC угол C равен 90°, косинус внешнего угла при вершине A равен −0,6,  Найдите ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919014\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right; margin:10px\" src=\"/get_file?id=7668\">В тре­уголь­ни­ке <i>ABC</i> угол <i>C</i> равен 90°, ко­си­нус внеш­не­го угла при вер­ши­не <i>A</i> равен −0,6, <img src=\"https://ege.sdamgia.ru/formula/svg/b8/b8f34de266a6b098c5f09d49c3f98f2c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BC = 20.\"> Най­ди­те <img src=\"https://ege.sdamgia.ru/formula/svg/0c/0c6ed112a9eb109891082295b6e83622.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AB.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b8/b8f34de266a6b098c5f09d49c3f98f2c.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c6ed112a9eb109891082295b6e83622.svg",
+            "/get_file?id=7668"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Так как  Ответ: 25. ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27418\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Так как </p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"a3333325c67950e5de0d56e4ec95ea41\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/a3/a3333325c67950e5de0d56e4ec95ea41.svg\" class=\"tex\" style=\"vertical-align:-13.2pt\" alt=\"AB= дробь: чис­ли­тель: BC, зна­ме­на­тель: синус A конец дроби = дробь: чис­ли­тель: BC, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус ко­си­нус в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та A пра­вая круг­лая скоб­ка конец дроби = дробь: чис­ли­тель: BC, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус ко­си­нус в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та A_внеш пра­вая круг­лая скоб­ка конец дроби = дробь: чис­ли­тель: 20, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус 0,36 конец ар­гу­мен­та конец дроби = дробь: чис­ли­тель: 20 умно­жить на 5, зна­ме­на­тель: 4 конец дроби =25. \"></span><span data-width=\"540\" data-formulahash=\"a3333325c67950e5de0d56e4ec95ea41\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/27/27b7d78531948882420e4e5afbde473f.svg\" class=\"tex\" style=\"vertical-align:-10.9pt\" alt=\"AB= дробь: чис­ли­тель: BC, зна­ме­на­тель: синус A конец дроби = дробь: чис­ли­тель: BC, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус ко­си­нус в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та A пра­вая круг­лая скоб­ка конец дроби = \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/c2/c2f7ec7e60a9f96dca85449d7829b118.svg\" class=\"tex\" style=\"vertical-align:-13.1pt\" alt=\"= дробь: чис­ли­тель: BC, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус ко­си­нус в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та A_внеш пра­вая круг­лая скоб­ка конец дроби = дробь: чис­ли­тель: 20, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус 0,36 конец ар­гу­мен­та конец дроби = дробь: чис­ли­тель: 20 умно­жить на 5, зна­ме­на­тель: 4 конец дроби =25. \"></span><span data-width=\"340\" data-formulahash=\"a3333325c67950e5de0d56e4ec95ea41\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/27/27b7d78531948882420e4e5afbde473f.svg\" class=\"tex\" style=\"vertical-align:-10.9pt\" alt=\"AB= дробь: чис­ли­тель: BC, зна­ме­на­тель: синус A конец дроби = дробь: чис­ли­тель: BC, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус ко­си­нус в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та A пра­вая круг­лая скоб­ка конец дроби = \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/c4/c454498b7a3e48801637db0c4d2b5607.svg\" class=\"tex\" style=\"vertical-align:-13.1pt\" alt=\"= дробь: чис­ли­тель: BC, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус ко­си­нус в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та A_внеш пра­вая круг­лая скоб­ка конец дроби = \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/af/af57540f126803cc2be518dc85f1193c.svg\" class=\"tex\" style=\"vertical-align:-10.9pt\" alt=\"= дробь: чис­ли­тель: 20, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус 0,36 конец ар­гу­мен­та конец дроби = дробь: чис­ли­тель: 20 умно­жить на 5, зна­ме­на­тель: 4 конец дроби =25. \"></span></p><p class=\"left_margin\"></p></center> <p><span style=\"letter-spaceing:2px\">Ответ</span>: 25. </p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a3/a3333325c67950e5de0d56e4ec95ea41.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/27b7d78531948882420e4e5afbde473f.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c2f7ec7e60a9f96dca85449d7829b118.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/27b7d78531948882420e4e5afbde473f.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c454498b7a3e48801637db0c4d2b5607.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af57540f126803cc2be518dc85f1193c.svg"
+        ]
+    },
+    "answer": "25",
+    "topic_id": null,
+    "analog_ids": [
+        27418,
+        4845,
+        37285,
+        37287,
+        4845,
+        37285,
+        37287,
+        37289,
+        37291,
+        37293,
+        37295,
+        37297,
+        37299,
+        37301,
+        37303,
+        37305,
+        37307,
+        37309,
+        37311,
+        37313,
+        37315,
+        37317,
+        37319,
+        37321,
+        37323,
+        37325,
+        37327,
+        37329,
+        37331,
+        37333,
+        37335,
+        37337,
+        37339,
+        37341,
+        37343,
+        37345,
+        37347,
+        37349,
+        37351,
+        37353,
+        37355,
+        37357
+    ]
+}

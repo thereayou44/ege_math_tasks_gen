@@ -1,0 +1,33 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 520984,
+    "condition": {
+        "text": "Зависимость количества Q (в шт., ) купленного у фирмы товара от цены P (в руб. за шт.) выражается формулой  Затраты на производство Q единиц товара составляют  рублей. Кроме затрат на производство, фирма должна платить налог t рублей () с каждой произведённой единицы товара. Таким образом, прибыль фирмы составляет  рублей, а общая сумма налогов, собранных государством, равна tQ рублей.Фирма производит такое количество товара, при котором её прибыль максимальна. При каком значении t общая сумма налогов, собранных государством, будет максимальной?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body630244\" class=\"pbody\"><p class=\"left_margin\">За­ви­си­мость ко­ли­че­ства <i>Q</i> (в шт., <img src=\"https://ege.sdamgia.ru/formula/svg/80/801fd99e112699ef26d3b081a6bb2bef.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"0 мень­ше или равно Q\\leqslant20000\">) куп­лен­но­го у фирмы то­ва­ра от цены <i>P</i> (в руб. за шт.) вы­ра­жа­ет­ся фор­му­лой <img src=\"https://ege.sdamgia.ru/formula/svg/b7/b7ca5bb061a3e45b47d3f042e27dd65b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"Q=20000 минус P.\"> За­тра­ты на про­из­вод­ство <i>Q</i> еди­ниц то­ва­ра со­став­ля­ют <img src=\"https://ege.sdamgia.ru/formula/svg/d4/d4be48003a12d981d9c5a722ac6552fb.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"6000Q плюс 4 000 000\"> руб­лей. Кроме за­трат на про­из­вод­ство, фирма долж­на пла­тить налог <i>t</i> руб­лей (<img src=\"https://ege.sdamgia.ru/formula/svg/54/54d3ea60f2fca2df0931f3385eae7662.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"0 мень­ше t мень­ше 10000\">) с каж­дой про­из­ведённой еди­ни­цы то­ва­ра. Таким об­ра­зом, при­быль фирмы со­став­ля­ет <img src=\"https://ege.sdamgia.ru/formula/svg/c1/c126ac4ad7483b148b68b253584fc3e5.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"PQ минус 6000Q минус 4000000 минус tQ\"> руб­лей, а общая сумма на­ло­гов, со­бран­ных го­су­дар­ством, равна <i>tQ</i> руб­лей.</p><p class=\"left_margin\">Фирма про­из­во­дит такое ко­ли­че­ство то­ва­ра, при ко­то­ром её при­быль мак­си­маль­на. При каком зна­че­нии <i>t</i> общая сумма на­ло­гов, со­бран­ных го­су­дар­ством, будет мак­си­маль­ной?</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/80/801fd99e112699ef26d3b081a6bb2bef.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b7ca5bb061a3e45b47d3f042e27dd65b.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d4be48003a12d981d9c5a722ac6552fb.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54d3ea60f2fca2df0931f3385eae7662.svg",
+            "https://ege.sdamgia.ru/formula/svg/c1/c126ac4ad7483b148b68b253584fc3e5.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Поскольку  прибыль фирмы составляет (рублей).Эта величина является квадратичной функцией от Q, а её максимум достигается при  Значит, общая сумма налогов, собранных государством, будет равна  рублей. Эта величина является квадратичной функцией от t, а её максимум достигается при  Ответ: 7000.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol520984\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/26/26788886fb70d3244bde7c0bb5f4985e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"P=20000 минус Q,\"> при­быль фирмы со­став­ля­ет</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"400c2348faf5d1377aaf84755503ce9e\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/40/400c2348faf5d1377aaf84755503ce9e.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 20000 минус Q пра­вая круг­лая скоб­ка Q минус 6000Q минус 4000000 минус tQ= левая круг­лая скоб­ка 14000 минус t пра­вая круг­лая скоб­ка Q минус Q в квад­ра­те минус 4000000\"></span> (руб­лей).</p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Эта ве­ли­чи­на яв­ля­ет­ся квад­ра­тич­ной функ­ци­ей от <i>Q</i>, а её мак­си­мум до­сти­га­ет­ся при <img src=\"https://ege.sdamgia.ru/formula/svg/22/2278ff677d92bc9136da3660eec074ad.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"Q=7000 минус дробь: чис­ли­тель: t, зна­ме­на­тель: 2 конец дроби . \"> Зна­чит, общая сумма на­ло­гов, со­бран­ных го­су­дар­ством, будет равна <img src=\"https://ege.sdamgia.ru/formula/svg/ed/ed306a0d6d0745768df7341d8eb641d1.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"7000t минус дробь: чис­ли­тель: t в квад­ра­те , зна­ме­на­тель: 2 конец дроби \"> руб­лей. Эта ве­ли­чи­на яв­ля­ет­ся квад­ра­тич­ной функ­ци­ей от <i>t</i>, а её мак­си­мум до­сти­га­ет­ся при <img src=\"https://ege.sdamgia.ru/formula/svg/5e/5ebf6b44770601f34c8953d71914f381.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"t=7000.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 7000.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/26/26788886fb70d3244bde7c0bb5f4985e.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/400c2348faf5d1377aaf84755503ce9e.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/2278ff677d92bc9136da3660eec074ad.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/ed306a0d6d0745768df7341d8eb641d1.svg",
+            "https://ege.sdamgia.ru/formula/svg/5e/5ebf6b44770601f34c8953d71914f381.svg"
+        ]
+    },
+    "answer": "7000.",
+    "topic_id": 16,
+    "analog_ids": [
+        520984,
+        520977
+    ]
+}

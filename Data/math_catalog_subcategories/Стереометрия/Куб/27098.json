@@ -1,0 +1,38 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27098,
+    "condition": {
+        "text": " Диагональ куба равна  Найдите его объем.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919334\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=111595\" style=\"float:right;margin:10px;max-width:100%\"> Диа­го­наль куба равна <img src=\"https://ege.sdamgia.ru/formula/svg/8d/8dbf3823dcbaea57cbc5afba7a895b2b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 12 конец ар­гу­мен­та .\"> Най­ди­те его объем.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/8d/8dbf3823dcbaea57cbc5afba7a895b2b.svg",
+            "/get_file?id=111595"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Диагональ куба в  раз больше его ребра. Получим, что ребро равно  Тогда объем куба   Ответ: 8.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27098\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Диа­го­наль куба в <img src=\"https://ege.sdamgia.ru/formula/svg/91/91a24814efa2661939c57367281c819c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та \"> раз боль­ше его ребра. По­лу­чим, что ребро равно </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/5e/5ed503a2d0f7b2f9a07e12227d63c62d.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"a= дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 12 конец ар­гу­мен­та , зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та конец дроби =2. \"></p><p class=\"left_margin\"></p></center> <p class=\"left_margin\">Тогда объем куба <img src=\"https://ege.sdamgia.ru/formula/svg/ff/ffea1e60791708a94a81e82f85d69f6b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"V=a в кубе =8.\"> </p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 8.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/91/91a24814efa2661939c57367281c819c.svg",
+            "https://ege.sdamgia.ru/formula/svg/5e/5ed503a2d0f7b2f9a07e12227d63c62d.svg",
+            "https://ege.sdamgia.ru/formula/svg/ff/ffea1e60791708a94a81e82f85d69f6b.svg"
+        ]
+    },
+    "answer": "8",
+    "topic_id": 3,
+    "analog_ids": [
+        27098,
+        74417,
+        74419,
+        74429,
+        74417,
+        74419,
+        74429,
+        505446,
+        74421,
+        74423,
+        74425,
+        74427
+    ]
+}

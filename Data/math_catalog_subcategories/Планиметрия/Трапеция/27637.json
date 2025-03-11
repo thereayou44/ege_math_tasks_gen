@@ -1,0 +1,54 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27637,
+    "condition": {
+        "text": "Основания трапеции равны 18 и 6, боковая сторона, равная 7, образует с одним из оснований трапеции угол 150°. Найдите площадь трапеции.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918793\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=66767\" style=\"float:right;margin:10px;max-width:100%\">Ос­но­ва­ния тра­пе­ции равны 18 и 6, бо­ко­вая сто­ро­на, рав­ная 7, об­ра­зу­ет с одним из ос­но­ва­ний тра­пе­ции угол 150°. Най­ди­те пло­щадь тра­пе­ции.</p></div>",
+        "image_urls": [
+            "/get_file?id=66767"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Введём обозначения, как показано на рисунке. Заметим, что острый угол трапеции равен 30° и найдем высоту DH из прямоугольного треугольника AHD:Площадь трапеции равна произведению полусуммы оснований на высоту: Ответ: 42.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27637\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=113333\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">Введём обо­зна­че­ния, как по­ка­за­но на ри­сун­ке. </p><p class=\"left_margin\">За­ме­тим, что ост­рый угол тра­пе­ции равен 30° и най­дем вы­со­ту <i>DH</i> из пря­мо­уголь­но­го тре­уголь­ни­ка <i>AHD</i>:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e0/e0d2b730befd50d5e6e1020e057573f4.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"DH=AD синус DAH=7 умно­жить на дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби =3,5 \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Пло­щадь тра­пе­ции равна про­из­ве­де­нию по­лу­сум­мы ос­но­ва­ний на вы­со­ту:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/4a/4ae001e730fd4453a599828a5e42ec09.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"S_ABCD= дробь: чис­ли­тель: AB плюс CD, зна­ме­на­тель: 2 конец дроби DH= дробь: чис­ли­тель: 18 плюс 6, зна­ме­на­тель: 2 конец дроби умно­жить на 3,5=42. \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 42.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e0/e0d2b730befd50d5e6e1020e057573f4.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4ae001e730fd4453a599828a5e42ec09.svg",
+            "/get_file?id=113333"
+        ]
+    },
+    "answer": "42",
+    "topic_id": 1,
+    "analog_ids": [
+        27637,
+        61405,
+        61407,
+        61409,
+        61405,
+        61407,
+        61409,
+        61411,
+        61413,
+        61415,
+        61417,
+        61419,
+        61421,
+        61423,
+        61425,
+        61427,
+        61429,
+        61431,
+        61433,
+        61435,
+        61437,
+        61439,
+        61441,
+        61443,
+        61445,
+        61447,
+        61449,
+        61451,
+        61453
+    ]
+}

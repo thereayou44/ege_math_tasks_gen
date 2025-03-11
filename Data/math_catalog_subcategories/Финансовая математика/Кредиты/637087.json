@@ -1,0 +1,21 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 637087,
+    "condition": {
+        "text": "В июле 2023 года планируется взять кредит в банке на 6 лет в размере S тысяч рублей. Условия его возврата таковы:   — каждый январь долг увеличивается на 16% по сравнению с концом предыдущего года;   — с февраля по июнь каждого года необходимо одним платежом выплатить часть долга;  — в июле каждого года долг должен составлять часть кредита в соответствии со следующей таблицей. ДатаИюль 2023Июль 2024 Июль 2025Июль 2026Июль 2027Июль 2028Июль 2029Долг  (в тыс. руб.) S0,9S0,8S0,7S0,6S0,5S0 Найдите,  на  сколько  процентов  общая  сумма  платежей  после  полного  погашения кредита превысит сумму взятого кредита.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body513635\" class=\"pbody\"><p class=\"left_margin\">В июле 2023 года пла­ни­ру­ет­ся взять кре­дит в банке на 6 лет в раз­ме­ре <i>S</i> тысяч руб­лей. Усло­вия его воз­вра­та та­ко­вы: </p><p>  — каж­дый ян­варь долг уве­ли­чи­ва­ет­ся на 16% по срав­не­нию с кон­цом преды­ду­ще­го года; </p><p>  — с фев­ра­ля по июнь каж­до­го года не­об­хо­ди­мо одним пла­те­жом вы­пла­тить часть долга;</p><p>  — в июле каж­до­го года долг дол­жен со­став­лять часть кре­ди­та в со­от­вет­ствии со сле­ду­ю­щей таб­ли­цей.</p><p>&nbsp;</p><p></p><table style=\"margin:auto\" width=\"72%\"><tbody><tr><th style=\"text-align:center\">Дата</th><th style=\"text-align:center\">Июль 2023</th><th style=\"text-align:center\">Июль 2024 </th><th style=\"text-align:center\">Июль 2025</th><th style=\"text-align:center\">Июль 2026</th><th style=\"text-align:center\">Июль 2027</th><th style=\"text-align:center\">Июль 2028</th><th style=\"text-align:center\">Июль 2029</th></tr><tr><th style=\"text-align:center\">Долг  <br>(в тыс. руб.) </th><td style=\"text-align:center\">S</td><td style=\"text-align:center\">0,9S</td><td style=\"text-align:center\">0,8S</td><td style=\"text-align:center\">0,7S</td><td style=\"text-align:center\">0,6S</td><td style=\"text-align:center\">0,5S</td><td style=\"text-align:center\">0</td></tr></tbody></table><p>&nbsp;</p><p class=\"left_margin\">Най­ди­те,  на  сколь­ко  про­цен­тов  общая  сумма  пла­те­жей  после  пол­но­го  по­га­ше­ния кре­ди­та пре­вы­сит сумму взя­то­го кре­ди­та.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Переплата по кредиту представляет собой сумму всех начисленных процентов и равна Значит, общая  сумма  платежей  после  полного  погашения кредита превысит сумму взятого кредита на 72%. Ответ: 72.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol637087\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пе­ре­пла­та по кре­ди­ту пред­став­ля­ет собой сумму всех на­чис­лен­ных про­цен­тов и равна</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"dcad07f43044ce4f7d1c078ab92aa342\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/66/6694b2b1c3adc3383265015d046fe349.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"S умно­жить на 0,16 плюс 0,9S умно­жить на 0,16 плюс 0,8S умно­жить на 0,16 плюс 0,7S умно­жить на 0,16 плюс 0,6S умно­жить на 0,16 плюс 0,5S умно­жить на 0,16 =\"><br><img src=\"https://ege.sdamgia.ru/formula/svg/59/590c77ff51663b0bc76155b9c966e1c3.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"= левая круг­лая скоб­ка 1 плюс 0,9 плюс 0,8 плюс 0,7 плюс 0,6 плюс 0,5 пра­вая круг­лая скоб­ка S умно­жить на 0,16=0,72S.\"></span></p><p class=\"left_margin\"></p></center><p> Зна­чит, общая  сумма  пла­те­жей  после  пол­но­го  по­га­ше­ния кре­ди­та пре­вы­сит сумму взя­то­го кре­ди­та на 72%.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 72.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/66/6694b2b1c3adc3383265015d046fe349.svg",
+            "https://ege.sdamgia.ru/formula/svg/59/590c77ff51663b0bc76155b9c966e1c3.svg"
+        ]
+    },
+    "answer": "72.",
+    "topic_id": 16,
+    "analog_ids": []
+}

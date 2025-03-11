@@ -1,0 +1,29 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521768,
+    "condition": {
+        "text": "Олигарх Аристарх Луков‐Арбалетов имеет в собственности три частных банка. Активы первого банка состоят на 70% из рублей и на 30% из долларов. Во втором банке 80% активов составляют рубли и 20%  — евро; в третьем банке 50% активов в рублях, 10%  — в долларах и 40%  — в евро. Аристарх планирует открыть 4‐й банк, направив туда часть активов из каждого банка так, чтобы доля каждой валюты в каждом из них сохранилась, а активы нового банка состояли бы ровно на 15% в долларах. Какой наименьший процент рублей могут содержать активы нового банка?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body628948\" class=\"pbody\"><p class=\"left_margin\">Оли­гарх Ари­старх Луков‐Ар­ба­ле­тов имеет в соб­ствен­но­сти три част­ных банка. Ак­ти­вы пер­во­го банка со­сто­ят на 70% из руб­лей и на 30% из дол­ла­ров. Во вто­ром банке 80% ак­ти­вов со­став­ля­ют рубли и 20%  — евро; в тре­тьем банке 50% ак­ти­вов в руб­лях, 10%  — в дол­ла­рах и 40%  — в евро. Ари­старх пла­ни­ру­ет от­крыть 4‐й банк, на­пра­вив туда часть ак­ти­вов из каж­до­го банка так, чтобы доля каж­дой ва­лю­ты в каж­дом из них со­хра­ни­лась, а ак­ти­вы но­во­го банка со­сто­я­ли бы ровно на 15% в дол­ла­рах. Какой наи­мень­ший про­цент руб­лей могут со­дер­жать ак­ти­вы но­во­го банка?</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Допустим будет взято x из первого банка, y из третьего и  из второго (имеются в виду части капитала нового банка). Тогда доллары составят  откуда  Нам нужно минимзировать количество рублей, равное   то есть надо минимизировать  Очевидно  иначе  Возьмем  и  тогда доля рублей составит   Ответ: 55.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521768\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">До­пу­стим будет взято <i>x</i> из пер­во­го банка, <i>y</i> из тре­тье­го и <img src=\"https://ege.sdamgia.ru/formula/svg/c8/c832b82e8ccad12d40849353e3a20d88.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1 минус x минус y\"> из вто­ро­го (име­ют­ся в виду части ка­пи­та­ла но­во­го банка). Тогда дол­ла­ры со­ста­вят <img src=\"https://ege.sdamgia.ru/formula/svg/d9/d9a4557ad2b286741821221c98d934e4.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"0,3x плюс 0,1y=0,15,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/48/483f3d4f5fa299362100db245925249e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=1,5 минус 3x.\"> Нам нужно ми­ним­зи­ро­вать ко­ли­че­ство руб­лей, рав­ное </p><p>&nbsp;</p><p><span data-width=\"640\" data-formulahash=\"771e33a5a25499ab581e68c6f3793968\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/77/771e33a5a25499ab581e68c6f3793968.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"0,7x плюс 0,8 левая круг­лая скоб­ка 1 минус x минус y пра­вая круг­лая скоб­ка плюс 0,5y=0,8 минус 0,1x минус 0,3 левая круг­лая скоб­ка 1,5 минус 3x пра­вая круг­лая скоб­ка =0,35 плюс 0,8x,\"></span> то есть надо ми­ни­ми­зи­ро­вать <img src=\"https://ege.sdamgia.ru/formula/svg/fd/fd3500a59568ee1c126a5e50c6bc8b91.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x.\"> Оче­вид­но <img src=\"https://ege.sdamgia.ru/formula/svg/34/348a9d45d9c6b522a23871fd4b8c208a.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x боль­ше или равно дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби ,\"> иначе <img src=\"https://ege.sdamgia.ru/formula/svg/8f/8fc4b6606dba65988dc98f3a876df5d3.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1 минус x минус y=2x минус 0,5 мень­ше 0.\"> Возь­мем <img src=\"https://ege.sdamgia.ru/formula/svg/02/02c5980c8d352a9a856953dbc914f378.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/eb/eb71680b2f446de51f9d054b8ad3a53d.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"y= дробь: чис­ли­тель: 3, зна­ме­на­тель: 4 конец дроби ,\"> тогда доля руб­лей со­ста­вит <img src=\"https://ege.sdamgia.ru/formula/svg/66/66a20a2bf7214ffcedba747cfe258f0a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"0,55=55\\%.\"></p><p>&nbsp;</p><p> </p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 55.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c8/c832b82e8ccad12d40849353e3a20d88.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d9a4557ad2b286741821221c98d934e4.svg",
+            "https://ege.sdamgia.ru/formula/svg/48/483f3d4f5fa299362100db245925249e.svg",
+            "https://ege.sdamgia.ru/formula/svg/77/771e33a5a25499ab581e68c6f3793968.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fd3500a59568ee1c126a5e50c6bc8b91.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/348a9d45d9c6b522a23871fd4b8c208a.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8fc4b6606dba65988dc98f3a876df5d3.svg",
+            "https://ege.sdamgia.ru/formula/svg/02/02c5980c8d352a9a856953dbc914f378.svg",
+            "https://ege.sdamgia.ru/formula/svg/eb/eb71680b2f446de51f9d054b8ad3a53d.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/66a20a2bf7214ffcedba747cfe258f0a.svg"
+        ]
+    },
+    "answer": "55.",
+    "topic_id": null,
+    "analog_ids": []
+}

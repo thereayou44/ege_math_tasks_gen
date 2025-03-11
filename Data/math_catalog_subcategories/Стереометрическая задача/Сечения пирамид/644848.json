@@ -1,0 +1,27 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 644848,
+    "condition": {
+        "text": "В пирамиде ABCD рёбра DA, DB и DC попарно перпендикулярны, а а)  Докажите, что BD  =  CD.б)  На рёбрах DA и DC отмечены точки M и N соответственно, причём DM : MA  =  DN : NC  =  2 : 3. Найдите площадь сечения MNB.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body505868\" class=\"pbody\"><p class=\"left_margin\">В пи­ра­ми­де <i>ABCD</i> рёбра <i>DA</i>, <i>DB</i> и <i>DC</i> по­пар­но пер­пен­ди­ку­ляр­ны, а <img src=\"https://ege.sdamgia.ru/formula/svg/90/90af09af91c1d3380f7bf709c9f04892.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AB = BC = AC = 5 ко­рень из 2 .\"></p><p class=\"left_margin\">а)  До­ка­жи­те, что <i>BD</i>  =  <i>CD</i>.</p><p class=\"left_margin\">б)  На рёбрах <i>DA</i> и <i>DC</i> от­ме­че­ны точки <i>M</i> и <i>N</i> со­от­вет­ствен­но, причём <i>DM</i> : <i>MA</i>  =  <i>DN</i> : <i>NC</i>  =  2 : 3. Най­ди­те пло­щадь се­че­ния <i>MNB</i>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/90/90af09af91c1d3380f7bf709c9f04892.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Прямоугольные треугольники ABD и ACD равны, поскольку катет AD общий, а AB  =  AC. Значит, BD  =  CD.б)  Найдём боковые рёбра. Треугольник BCD  — равнобедренный и прямоугольный, поэтому  Аналогично, AD  =  5. Найдём стороны треугольника MNB: Площадь равнобедренного треугольника MNB равна:Ответ: б)  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol644848\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=142008\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Пря­мо­уголь­ные тре­уголь­ни­ки <i>ABD</i> и <i>ACD</i> равны, по­сколь­ку катет <i>AD</i> общий, а <i>AB</i>  =  <i>AC</i>. Зна­чит, <i>BD</i>  =  <i>CD</i>.</p><p class=\"left_margin\">б)  Найдём бо­ко­вые рёбра. Тре­уголь­ник <i>BCD</i>  — рав­но­бед­рен­ный и пря­мо­уголь­ный, по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/1e/1e85e574481b81789b5403d7e6958e81.svg\" class=\"tex\" style=\"vertical-align:-10.9pt\" alt=\"BD=CD= дробь: чис­ли­тель: BC, зна­ме­на­тель: ко­рень из 2 конец дроби =5. \"> Ана­ло­гич­но, <i>AD</i>  =  5. Найдём сто­ро­ны тре­уголь­ни­ка <i>MNB</i>:</p><p></p><div class=\"flex-math\"><p><img src=\"https://ege.sdamgia.ru/formula/svg/19/1949128d7cc90154c8e9bf18e54a3931.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"MB=NB= ко­рень из: на­ча­ло ар­гу­мен­та: ND в квад­ра­те плюс DB в квад­ра­те конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 29 конец ар­гу­мен­та ,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/b3/b344e97b337e728ed3ef6965fa08d0cb.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"MN= ко­рень из: на­ча­ло ар­гу­мен­та: MD в квад­ра­те плюс DN в квад­ра­те конец ар­гу­мен­та =2 ко­рень из 2 .\"></p><p></p></div><p> Пло­щадь рав­но­бед­рен­но­го тре­уголь­ни­ка <i>MNB</i> равна:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d9/d999888fa96de796c6a7287d93f79fb2.svg\" class=\"tex\" style=\"vertical-align:-12.3pt\" alt=\"S = дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на MN умно­жить на ко­рень из: на­ча­ло ар­гу­мен­та: MB в квад­ра­те минус левая круг­лая скоб­ка дробь: чис­ли­тель: MN, зна­ме­на­тель: 2 конец дроби пра­вая круг­лая скоб­ка в квад­ра­те конец ар­гу­мен­та =3 ко­рень из 6 . \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б)  <img src=\"https://ege.sdamgia.ru/formula/svg/31/3197de0e7e8d504d88364f9bc4e1e25a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"3 ко­рень из 6 .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/1e/1e85e574481b81789b5403d7e6958e81.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/1949128d7cc90154c8e9bf18e54a3931.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b344e97b337e728ed3ef6965fa08d0cb.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d999888fa96de796c6a7287d93f79fb2.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/3197de0e7e8d504d88364f9bc4e1e25a.svg",
+            "/get_file?id=142008"
+        ]
+    },
+    "answer": "б)",
+    "topic_id": 14,
+    "analog_ids": []
+}

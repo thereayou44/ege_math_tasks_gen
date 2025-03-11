@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 558933,
+    "condition": {
+        "text": "Найдите все значения параметра а, при которых система неравенств имеет ровно одно решение.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body453033\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния па­ра­мет­ра <i>а</i>, при ко­то­рых си­сте­ма не­ра­венств </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/3c/3ced788e169f603d7ad7893d2b936688.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний y боль­ше или равно x в квад­ра­те минус ax плюс 2,y мень­ше или равно x плюс a конец си­сте­мы . \"></p><p class=\"left_margin\"></p></center><p>имеет ровно одно ре­ше­ние.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/3c/3ced788e169f603d7ad7893d2b936688.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Решением первого неравенства системы является множество точек плоскости xOy принадлежащих параболе  и лежащих выше неё. Решением второго неравенства системы является множество точек плоскости xOy принадлежащих прямой  и лежащих ниже неё. Значит, система не имеет решений, если парабола и прямая не имеют общих точек; система имеет бесконечно много решений, если парабола и прямая имеют две общие точки; система имеет ровно одно решение, если парабола и прямая имеют только одну общую точку (прямая касается параболы). Парабола  и прямая  имеют одну общую точку тогда и только тогда, когда дискриминант уравнения  равен нулю. Запишем уравнение в видеи найдем дискриминант:  Дискриминант равен нулю при  или  При найденных а система имеет ровно одно решение. Ответ:  или ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol558933\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Ре­ше­ни­ем пер­во­го не­ра­вен­ства си­сте­мы яв­ля­ет­ся мно­же­ство точек плос­ко­сти <i>xOy</i> при­над­ле­жа­щих па­ра­бо­ле <img src=\"https://ege.sdamgia.ru/formula/svg/ed/ed80e7daf64e49ad234a1a0ebbd88c1e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y = x в квад­ра­те минус ax плюс 2\"> и ле­жа­щих выше неё. Ре­ше­ни­ем вто­ро­го не­ра­вен­ства си­сте­мы яв­ля­ет­ся мно­же­ство точек плос­ко­сти <i>xOy</i> при­над­ле­жа­щих пря­мой <img src=\"https://ege.sdamgia.ru/formula/svg/8a/8a652cbdf845c889d732445bd95d8ef9.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y = x плюс a\"> и ле­жа­щих ниже неё. Зна­чит, си­сте­ма не имеет ре­ше­ний, если па­ра­бо­ла и пря­мая не имеют общих точек; си­сте­ма имеет бес­ко­неч­но много ре­ше­ний, если па­ра­бо­ла и пря­мая имеют две общие точки; си­сте­ма имеет ровно одно ре­ше­ние, если па­ра­бо­ла и пря­мая имеют толь­ко одну общую точку (пря­мая ка­са­ет­ся па­ра­бо­лы). </p><p class=\"left_margin\">Па­ра­бо­ла <img src=\"https://ege.sdamgia.ru/formula/svg/ed/ed80e7daf64e49ad234a1a0ebbd88c1e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y = x в квад­ра­те минус ax плюс 2\"> и пря­мая <img src=\"https://ege.sdamgia.ru/formula/svg/8a/8a652cbdf845c889d732445bd95d8ef9.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y = x плюс a\"> имеют одну общую точку тогда и толь­ко тогда, когда дис­кри­ми­нант урав­не­ния <img src=\"https://ege.sdamgia.ru/formula/svg/5e/5ec1727ff73dc35c527bf23a16381103.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x в квад­ра­те минус ax плюс 2=x плюс a\"> равен нулю. За­пи­шем урав­не­ние в виде</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/47/47aec4e2b49152c224f1cee65df4eccd.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x в квад­ра­те минус левая круг­лая скоб­ка a плюс 1 пра­вая круг­лая скоб­ка x плюс 2 минус a=0,\"></p><p class=\"left_margin\"></p></center><p>и най­дем дис­кри­ми­нант: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/61/61c6d4b8986dc09d4a17a2f6fd0bcd7a.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"D= левая круг­лая скоб­ка a плюс 1 пра­вая круг­лая скоб­ка в квад­ра­те минус 4 левая круг­лая скоб­ка 2 минус a пра­вая круг­лая скоб­ка =a в квад­ра­те плюс 6a минус 7.\"></p><p class=\"left_margin\"></p></center><p> Дис­кри­ми­нант равен нулю при <img src=\"https://ege.sdamgia.ru/formula/svg/e5/e50971b811210e3b50f76d0917616db0.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a= минус 7\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/2a/2a1b71b785c0cb14bb665bfef5a37b68.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=1.\"> При най­ден­ных <i>а</i> си­сте­ма имеет ровно одно ре­ше­ние.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/e5/e50971b811210e3b50f76d0917616db0.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a= минус 7\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/2a/2a1b71b785c0cb14bb665bfef5a37b68.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=1.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ed/ed80e7daf64e49ad234a1a0ebbd88c1e.svg",
+            "https://ege.sdamgia.ru/formula/svg/8a/8a652cbdf845c889d732445bd95d8ef9.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/ed80e7daf64e49ad234a1a0ebbd88c1e.svg",
+            "https://ege.sdamgia.ru/formula/svg/8a/8a652cbdf845c889d732445bd95d8ef9.svg",
+            "https://ege.sdamgia.ru/formula/svg/5e/5ec1727ff73dc35c527bf23a16381103.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/47aec4e2b49152c224f1cee65df4eccd.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/61c6d4b8986dc09d4a17a2f6fd0bcd7a.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e50971b811210e3b50f76d0917616db0.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2a1b71b785c0cb14bb665bfef5a37b68.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e50971b811210e3b50f76d0917616db0.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2a1b71b785c0cb14bb665bfef5a37b68.svg"
+        ]
+    },
+    "answer": "или",
+    "topic_id": 18,
+    "analog_ids": []
+}

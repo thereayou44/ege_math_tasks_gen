@@ -1,0 +1,25 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 510424,
+    "condition": {
+        "text": "Найдите  если  и ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body632612\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те <img src=\"https://ege.sdamgia.ru/formula/svg/32/32666840668712d40c99673c07a70086.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\" ко­си­нус альфа ,\"> если <img src=\"https://ege.sdamgia.ru/formula/svg/ac/acb8a8ea531bc515ebb2089412f6bdbe.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" синус альфа = дробь: чис­ли­тель: 2 ко­рень из: на­ча­ло ар­гу­мен­та: 6 конец ар­гу­мен­та , зна­ме­на­тель: 5 конец дроби \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/ce/cea09fd370d73deb2eb200f80a94168a.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" альфа при­над­ле­жит левая круг­лая скоб­ка дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби ; Пи пра­вая круг­лая скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/32/32666840668712d40c99673c07a70086.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/acb8a8ea531bc515ebb2089412f6bdbe.svg",
+            "https://ege.sdamgia.ru/formula/svg/ce/cea09fd370d73deb2eb200f80a94168a.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Поскольку угол  лежит во второй четверти, его косинус отрицателен. Поэтому Ответ: −0,2.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol510424\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По­сколь­ку угол <img src=\"https://ege.sdamgia.ru/formula/svg/7b/7b7f9dbfea05c83784f8b85149852f08.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" альфа \"> лежит во вто­рой чет­вер­ти, его ко­си­нус от­ри­ца­те­лен. По­это­му</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/89/896ef0d9d5c48019849c3137595785ec.svg\" class=\"tex\" style=\"vertical-align:-9.4pt\" alt=\" ко­си­нус альфа = минус ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус синус конец ар­гу­мен­та в квад­ра­те альфа = минус ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус дробь: чис­ли­тель: 24, зна­ме­на­тель: 25 конец дроби конец ар­гу­мен­та = минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 5 конец дроби = минус 0,2. \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ</span>: −0,2.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/7b/7b7f9dbfea05c83784f8b85149852f08.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/896ef0d9d5c48019849c3137595785ec.svg"
+        ]
+    },
+    "answer": "-0,2",
+    "topic_id": 7,
+    "analog_ids": []
+}

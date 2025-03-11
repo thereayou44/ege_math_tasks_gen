@@ -1,0 +1,34 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 514590,
+    "condition": {
+        "text": "Решите неравенство ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body636130\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те&nbsp;не­ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/b0/b0c55e5ea4a1baa31af8e5cd7fabf067.svg\" class=\"tex\" style=\"vertical-align:-10.1pt\" alt=\" дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 в сте­пе­ни левая круг­лая скоб­ка 1 минус ко­рень из: на­ча­ло ар­гу­мен­та: x конец ар­гу­мен­та пра­вая круг­лая скоб­ка минус 1 конец дроби \\leqslant2 в сте­пе­ни левая круг­лая скоб­ка ко­рень из: на­ча­ло ар­гу­мен­та: x конец ар­гу­мен­та пра­вая круг­лая скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b0/b0c55e5ea4a1baa31af8e5cd7fabf067.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Обозначим  Неравенство примет вид  (делить на t можно, оно положительное), или  или  или  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol514590\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Обо­зна­чим <img src=\"https://ege.sdamgia.ru/formula/svg/ab/ab0ec84935ad98b89b3a74c210970532.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2 в сте­пе­ни левая круг­лая скоб­ка ко­рень из: на­ча­ло ар­гу­мен­та: x конец ар­гу­мен­та пра­вая круг­лая скоб­ка =t,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/91/911f39f7e9f3a103f4f37acfe17e8e62.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"t боль­ше или равно 2 в сте­пе­ни 0 =1.\"></p><p class=\"left_margin\">Не­ра­вен­ство при­мет вид <img src=\"https://ege.sdamgia.ru/formula/svg/13/13bd5a22700f2c3750e07050dd1ad330.svg\" class=\"tex\" style=\"vertical-align:-13.2pt\" alt=\" дробь: чис­ли­тель: 1, зна­ме­на­тель: дробь: чис­ли­тель: 2, зна­ме­на­тель: t конец дроби минус 1 конец дроби мень­ше или равно t \"></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/11/11279d3e33822341c2687586eb37988a.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: t, зна­ме­на­тель: 2 минус t конец дроби минус t мень­ше или равно 0, \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/42/42a12f0fc303ce95aa8db8592ba68190.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 минус t конец дроби минус 1 мень­ше или равно 0 \"> (де­лить на <i>t</i> можно, оно по­ло­жи­тель­ное),</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/d1/d1a7d797714e9edfb747fc2e806e20fe.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: t минус 1, зна­ме­на­тель: 2 минус t конец дроби мень­ше или равно 0, \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/6b/6bc66eb6ee75e5acb08a2d8b7876434a.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"t мень­ше или равно 1\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/29/29ef4e68076d5a696d63e4d38305a038.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"t боль­ше 2,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/4c/4cc7ad3a1243fe4a82f5114a7f1509d1.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: x конец ар­гу­мен­та мень­ше или равно 0\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/79/790b04ca98d90d70d7db75605d331f6a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: x конец ар­гу­мен­та боль­ше 1,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/e1/e11729b0b65ecade3fc272548a3883fc.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=0\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/81/81ca628b26eb0aa0666b1a7fcb9b2544.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x боль­ше 1.\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/98/9876b356c97a60359751e0851495cb60.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x при­над­ле­жит левая фи­гур­ная скоб­ка 0 пра­вая фи­гур­ная скоб­ка \\cup левая круг­лая скоб­ка 1; бес­ко­неч­ность пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ab/ab0ec84935ad98b89b3a74c210970532.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/911f39f7e9f3a103f4f37acfe17e8e62.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/13bd5a22700f2c3750e07050dd1ad330.svg",
+            "https://ege.sdamgia.ru/formula/svg/11/11279d3e33822341c2687586eb37988a.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/42a12f0fc303ce95aa8db8592ba68190.svg",
+            "https://ege.sdamgia.ru/formula/svg/d1/d1a7d797714e9edfb747fc2e806e20fe.svg",
+            "https://ege.sdamgia.ru/formula/svg/6b/6bc66eb6ee75e5acb08a2d8b7876434a.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/29ef4e68076d5a696d63e4d38305a038.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4cc7ad3a1243fe4a82f5114a7f1509d1.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/790b04ca98d90d70d7db75605d331f6a.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e11729b0b65ecade3fc272548a3883fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/81ca628b26eb0aa0666b1a7fcb9b2544.svg",
+            "https://ege.sdamgia.ru/formula/svg/98/9876b356c97a60359751e0851495cb60.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

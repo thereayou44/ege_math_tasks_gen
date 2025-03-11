@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 510567,
+    "condition": {
+        "text": "Решите уравнение: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body631963\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те урав­не­ние: <img src=\"https://ege.sdamgia.ru/formula/svg/23/23a55a9b362ebf8499c2110dd3126821.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 2 ко­си­нус x плюс 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка ко­рень из: на­ча­ло ар­гу­мен­та: минус синус x конец ар­гу­мен­та минус 1 пра­вая круг­лая скоб­ка =0.}\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/23/23a55a9b362ebf8499c2110dd3126821.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Левая часть уравнения имеет смысл при  Если  то  откуда  Если  то     Так как  числа  не являются решениями уравнения. Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol510567\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=18513\" style=\"float:right;margin:10px\">Левая часть урав­не­ния имеет смысл при <img src=\"https://ege.sdamgia.ru/formula/svg/47/47f3a8f50c0ad1855a445bbdd6e4b4e4.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\" синус x мень­ше или равно 0.\"> </p><p class=\"left_margin\">Если <img src=\"https://ege.sdamgia.ru/formula/svg/61/615fa94480ac178103b63073975a1508.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: минус синус x конец ар­гу­мен­та минус 1=0,\"> то <img src=\"https://ege.sdamgia.ru/formula/svg/61/6133d39b227e3da173ec0a27c760d957.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" синус x= минус 1,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/89/89f93d3ce52c47bcc5a60bb0fec4106a.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби плюс 2 Пи k,k при­над­ле­жит Z . \"> Если <img src=\"https://ege.sdamgia.ru/formula/svg/ad/ad4e064e726f61cd187ae3088385d0b3.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: минус синус x конец ар­гу­мен­та минус 1 не равно 0,\"> то </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/fe/fed5fce3bbbce2edab630ba544cf13d5.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"2 ко­си­нус x плюс 1=0 рав­но­силь­но ко­си­нус x= минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби рав­но­силь­но x=\\pm дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k, k при­над­ле­жит Z . \"></p><p class=\"left_margin\"></p></center><p><img src=\"/get_file?id=18514\" style=\"float:right;margin:10px\"></p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p class=\"left_margin\">Так как <img src=\"https://ege.sdamgia.ru/formula/svg/b9/b98b2c5272a2b792d19678cb54956ce3.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" синус x мень­ше или равно 0,\"> числа <img src=\"https://ege.sdamgia.ru/formula/svg/75/75a93d01651d71960b63673b9a76da79.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x= дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k,k при­над­ле­жит Z \"> не яв­ля­ют­ся ре­ше­ни­я­ми урав­не­ния.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/4f/4f0f88a0d2d4a2edf25624dd31d3b7ba.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" минус дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k, минус дробь: чис­ли­тель: зна­ме­на­тель: p конец дроби i2 плюс 2 Пи k, k при­над­ле­жит Z \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/47/47f3a8f50c0ad1855a445bbdd6e4b4e4.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/615fa94480ac178103b63073975a1508.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/6133d39b227e3da173ec0a27c760d957.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/89f93d3ce52c47bcc5a60bb0fec4106a.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/ad4e064e726f61cd187ae3088385d0b3.svg",
+            "https://ege.sdamgia.ru/formula/svg/fe/fed5fce3bbbce2edab630ba544cf13d5.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b98b2c5272a2b792d19678cb54956ce3.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/75a93d01651d71960b63673b9a76da79.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4f0f88a0d2d4a2edf25624dd31d3b7ba.svg",
+            "/get_file?id=18513",
+            "/get_file?id=18514"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

@@ -1,0 +1,45 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 484555,
+    "condition": {
+        "text": "а)  Решите уравнение б)  Укажите корни этого уравнения, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body592439\" class=\"pbody\"><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/30/30f4a7f7663b2cc3c0854e160b280c7f.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 6 синус в квад­ра­те x плюс 5 синус x минус 4 пра­вая круг­лая скоб­ка умно­жить на ко­рень из: на­ча­ло ар­гу­мен­та: минус 7 ко­си­нус x конец ар­гу­мен­та =0.\"></p><p class=\"left_margin\">б)  Ука­жи­те корни этого урав­не­ния, при­над­ле­жа­щие от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/37/37b898699b5440debfde358ef07cf7c4.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка минус дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 2 конец дроби , минус Пи пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/30/30f4a7f7663b2cc3c0854e160b280c7f.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/37b898699b5440debfde358ef07cf7c4.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Если  то решений нет. Если  то  Если  то  откуда  или  Уравнение  не имеет решений. Учитывая, что  из уравнения  получаем: б)  С помощью числовой окружности (см. рис.) найдём корни из отрезка  Получим числа:    Ответ:   б)   ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol484555\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=63955\" style=\"float:right;margin:10px\">Если <img src=\"https://ege.sdamgia.ru/formula/svg/86/866952ab1e97d44afe47ecd74cf87ac1.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" ко­си­нус x боль­ше 0,\"> то ре­ше­ний нет. Если <img src=\"https://ege.sdamgia.ru/formula/svg/03/039d4934223cd30006d2c2f0b9aa8113.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" ко­си­нус x=0,\"> то <img src=\"https://ege.sdamgia.ru/formula/svg/6d/6d324cfdabbcf6a8f788d11b3ec3bc39.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби плюс Пи k,k при­над­ле­жит Z . \"> Если <img src=\"https://ege.sdamgia.ru/formula/svg/d0/d087fbdb1778a856ac2585daa6d87b49.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" ко­си­нус x мень­ше 0,\"> то <img src=\"https://ege.sdamgia.ru/formula/svg/84/84229263c6363b74c744a26406d53c5e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"6 синус в квад­ра­те x плюс 5 синус x минус 4=0,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/d8/d8dfb7a9b24cb74946051e3c05181767.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" синус x= минус дробь: чис­ли­тель: 4, зна­ме­на­тель: 3 конец дроби \"> или <img src=\"https://ege.sdamgia.ru/formula/svg/b8/b895aaf462de509440b21d72176b0343.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" синус x= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби . \"> </p><p class=\"left_margin\">Урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/d8/d8dfb7a9b24cb74946051e3c05181767.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" синус x= минус дробь: чис­ли­тель: 4, зна­ме­на­тель: 3 конец дроби \"> не имеет ре­ше­ний. Учи­ты­вая, что <img src=\"https://ege.sdamgia.ru/formula/svg/d0/d087fbdb1778a856ac2585daa6d87b49.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" ко­си­нус x мень­ше 0,\"> из урав­не­ния <img src=\"https://ege.sdamgia.ru/formula/svg/cf/cfcfff5b0a97e428b521d3e84c119a76.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" синус x= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби \"> по­лу­ча­ем: <img src=\"https://ege.sdamgia.ru/formula/svg/d1/d18fc82a2229bfdc57f6c22cd319d71c.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k,k при­над­ле­жит Z . \"></p><p class=\"left_margin\">б)  С по­мо­щью чис­ло­вой окруж­но­сти (см. рис.) найдём корни из от­рез­ка <img src=\"https://ege.sdamgia.ru/formula/svg/37/37b898699b5440debfde358ef07cf7c4.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка минус дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 2 конец дроби , минус Пи пра­вая квад­рат­ная скоб­ка . \"> По­лу­чим <nobr>числа: <img src=\"https://ege.sdamgia.ru/formula/svg/cb/cb71c337f300fb06e94475ad306320b0.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" минус дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 2 конец дроби , \"> <img src=\"https://ege.sdamgia.ru/formula/svg/43/43b96797d5d4d59ac918f0ef77ea8340.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" минус дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби , \"> <img src=\"https://ege.sdamgia.ru/formula/svg/af/af1210312809f68a1a0e8bacf06c7b5b.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" минус дробь: чис­ли­тель: 7 Пи , зна­ме­на­тель: 6 конец дроби . \"></nobr></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  <img src=\"https://ege.sdamgia.ru/formula/svg/53/535907d5669b1efdd02b256dafb07f6e.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая фи­гур­ная скоб­ка дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби плюс Пи k, дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k:k при­над­ле­жит Z пра­вая фи­гур­ная скоб­ка ; \"> <nobr>б) <img src=\"https://ege.sdamgia.ru/formula/svg/5e/5eb70b8c290c391461d23918a81e11fb.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" минус дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 2 конец дроби ; \"> <img src=\"https://ege.sdamgia.ru/formula/svg/09/09929694347cbbeb04ed28fcafdb62c4.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" минус дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби ; \"> <img src=\"https://ege.sdamgia.ru/formula/svg/af/af1210312809f68a1a0e8bacf06c7b5b.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" минус дробь: чис­ли­тель: 7 Пи , зна­ме­на­тель: 6 конец дроби . \"></nobr></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/86/866952ab1e97d44afe47ecd74cf87ac1.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/039d4934223cd30006d2c2f0b9aa8113.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6d324cfdabbcf6a8f788d11b3ec3bc39.svg",
+            "https://ege.sdamgia.ru/formula/svg/d0/d087fbdb1778a856ac2585daa6d87b49.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/84229263c6363b74c744a26406d53c5e.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d8dfb7a9b24cb74946051e3c05181767.svg",
+            "https://ege.sdamgia.ru/formula/svg/b8/b895aaf462de509440b21d72176b0343.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d8dfb7a9b24cb74946051e3c05181767.svg",
+            "https://ege.sdamgia.ru/formula/svg/d0/d087fbdb1778a856ac2585daa6d87b49.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cfcfff5b0a97e428b521d3e84c119a76.svg",
+            "https://ege.sdamgia.ru/formula/svg/d1/d18fc82a2229bfdc57f6c22cd319d71c.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/37b898699b5440debfde358ef07cf7c4.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cb71c337f300fb06e94475ad306320b0.svg",
+            "https://ege.sdamgia.ru/formula/svg/43/43b96797d5d4d59ac918f0ef77ea8340.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af1210312809f68a1a0e8bacf06c7b5b.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/535907d5669b1efdd02b256dafb07f6e.svg",
+            "https://ege.sdamgia.ru/formula/svg/5e/5eb70b8c290c391461d23918a81e11fb.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/09929694347cbbeb04ed28fcafdb62c4.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af1210312809f68a1a0e8bacf06c7b5b.svg",
+            "/get_file?id=63955"
+        ]
+    },
+    "answer": "б)",
+    "topic_id": 13,
+    "analog_ids": [
+        484555,
+        511289
+    ]
+}

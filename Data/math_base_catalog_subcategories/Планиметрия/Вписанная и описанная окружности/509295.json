@@ -1,0 +1,35 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 509295,
+    "condition": {
+        "text": " На рисунке изображён график функции  Найдите b.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body633747\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=99428\" style=\"float:right;margin:10px;max-width:100%\"> На ри­сун­ке изоб­ражён гра­фик функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/ef/ef714746564b7e5ead5d525d722b4b65.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =a синус x плюс b.\"> Най­ди­те <i>b</i>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ef/ef714746564b7e5ead5d525d722b4b65.svg",
+            "/get_file?id=99428"
+        ]
+    },
+    "solution": {
+        "text": "Решение. По графику, f(0)  =  1,5, тогда Ответ: 1,5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol509295\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По гра­фи­ку, <i>f</i>(0)  =  1,5, тогда </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/cc/cc9949a22f996b451e7c34e782727280.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a умно­жить на синус 0 плюс b=1,5 рав­но­силь­но a умно­жить на 0 плюс b=1,5 рав­но­силь­но b=1,5.\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 1,5.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/cc/cc9949a22f996b451e7c34e782727280.svg"
+        ]
+    },
+    "answer": "1,5",
+    "topic_id": 11,
+    "analog_ids": [
+        509295,
+        509296,
+        509297,
+        509298,
+        509296,
+        509297,
+        509298,
+        509299,
+        509300,
+        509301,
+        509302
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 526332,
+    "condition": {
+        "text": "В правильном тетраэдре ABCD точки K и M  — середины рёбер AB и CD соответственно. Плоскость α содержит прямую KM и параллельна прямой AD.а)  Докажите, что сечение тетраэдра плоскостью α   — квадрат.б)  Найдите площадь сечения тетраэдра ABCD плоскостью α, если ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body420096\" class=\"pbody\"><p class=\"left_margin\">В пра­виль­ном тет­ра­эд­ре <i>ABCD</i> точки <i>K</i> и <i>M</i>  — се­ре­ди­ны рёбер <i>AB</i> и <i>CD</i> со­от­вет­ствен­но. Плос­кость α со­дер­жит пря­мую <i>KM</i> и па­рал­лель­на пря­мой <i>AD</i>.</p><p class=\"left_margin\">а)  До­ка­жи­те, что се­че­ние тет­ра­эд­ра плос­ко­стью α   — квад­рат.</p><p class=\"left_margin\">б)  Най­ди­те пло­щадь се­че­ния тет­ра­эд­ра <i>ABCD</i> плос­ко­стью α, если <img src=\"https://ege.sdamgia.ru/formula/svg/3c/3c693258bdf82c25b486dcad49394e94.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AB=2 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/3c/3c693258bdf82c25b486dcad49394e94.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Пусть точки P, E, N  — середины рёбер BC, AC и BD соответственно. ME  — средняя линия  следовательно,  Аналогично  Следовательно,  Значит, точки N, K, M, E лежат в одной плоскости, причём эта плоскость параллельна прямой AD. Значит, это и есть плоскость Поскольку тетраэдр правильный, то  (как средние линии равных правильных треугольников). Значит, KNME  — ромб.Далее,  Следовательно,   (соответственные медианы этих треугольников). Поскольку  ромб KNME является также прямоугольником. Следовательно, KNME  — квадрат.б)  Площадь квадрата KNME находится по формуле   Следовательно,  Ответ: б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol526332\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=141556\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Пусть точки <i>P</i>, <i>E</i>, <i>N</i>  — се­ре­ди­ны рёбер<i> BC</i>, <i>AC</i> и <i>BD</i> со­от­вет­ствен­но. <i>ME</i>  — сред­няя линия <img src=\"https://ege.sdamgia.ru/formula/svg/9a/9a0015a688f3c81cdf93a6a1adedf073.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\Delta ACD,\"> сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/7c/7c69e553e52e6faa9a1f3bcdd322a3c6.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"ME||AD.\"> Ана­ло­гич­но <img src=\"https://ege.sdamgia.ru/formula/svg/17/178ce80c2900ac79e293defbd190538e.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"NK||AD.\"> Сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/6b/6bf45e56d38940ff2f799eceb58b083f.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"NK || ME.\"> Зна­чит, точки <i>N</i>, <i>K</i>, <i>M</i>, <i>E</i> лежат в одной плос­ко­сти, причём эта плос­кость па­рал­лель­на пря­мой <i>AD</i>. Зна­чит, это и есть плос­кость <img src=\"https://ege.sdamgia.ru/formula/svg/47/4732a703569514c5db685bc796a7ebaf.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" альфа .\"></p><p class=\"left_margin\">По­сколь­ку тет­ра­эдр пра­виль­ный, то <img src=\"https://ege.sdamgia.ru/formula/svg/04/04f25aadf9017de8784cb0470895c387.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"NM=ME=KE=NK\"> (как сред­ние линии рав­ных пра­виль­ных тре­уголь­ни­ков). Зна­чит, <i>KNME</i>  — ромб.</p><p class=\"left_margin\">Далее, <img src=\"https://ege.sdamgia.ru/formula/svg/e8/e85887830393ed3a4af68982c3507dcc.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"KC=KD=ED=EB.\"> Сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/4f/4f78331b5f62c5d2d92c5d02df3a5cb3.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\Delta BED=\\Delta CKD,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/76/7695281eb833e2cc46ae2bd660326710.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"EN=KM\"> (со­от­вет­ствен­ные ме­ди­а­ны этих тре­уголь­ни­ков). По­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/71/71d851773c1f3693b13d0fcb522c122d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"EN=KM,\"> ромб <i>KNME</i> яв­ля­ет­ся также пря­мо­уголь­ни­ком. Сле­до­ва­тель­но, <i>KNME</i>  — квад­рат.</p><p class=\"left_margin\">б)  Пло­щадь квад­ра­та KNME на­хо­дит­ся по фор­му­ле <img src=\"https://ege.sdamgia.ru/formula/svg/04/0414ce72aa35af35db7778e319804834.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"S_KNME=KE в квад­ра­те .\"> <img src=\"https://ege.sdamgia.ru/formula/svg/1f/1faf86a68a6748038f8d0a0b26a587da.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"KE= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби BC= ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та . \"> Сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/4d/4d3eaaf264a6571154f213c0c653bd0d.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\"S_KNME= левая круг­лая скоб­ка ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та пра­вая круг­лая скоб­ка в квад­ра­те =3.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) <img src=\"https://ege.sdamgia.ru/formula/svg/d9/d9cb741476305f454667e117d9e4f7ba.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"3.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/9a/9a0015a688f3c81cdf93a6a1adedf073.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7c69e553e52e6faa9a1f3bcdd322a3c6.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/178ce80c2900ac79e293defbd190538e.svg",
+            "https://ege.sdamgia.ru/formula/svg/6b/6bf45e56d38940ff2f799eceb58b083f.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/4732a703569514c5db685bc796a7ebaf.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/04f25aadf9017de8784cb0470895c387.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e85887830393ed3a4af68982c3507dcc.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4f78331b5f62c5d2d92c5d02df3a5cb3.svg",
+            "https://ege.sdamgia.ru/formula/svg/76/7695281eb833e2cc46ae2bd660326710.svg",
+            "https://ege.sdamgia.ru/formula/svg/71/71d851773c1f3693b13d0fcb522c122d.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/0414ce72aa35af35db7778e319804834.svg",
+            "https://ege.sdamgia.ru/formula/svg/1f/1faf86a68a6748038f8d0a0b26a587da.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4d3eaaf264a6571154f213c0c653bd0d.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d9cb741476305f454667e117d9e4f7ba.svg",
+            "/get_file?id=141556"
+        ]
+    },
+    "answer": "б)",
+    "topic_id": 14,
+    "analog_ids": []
+}

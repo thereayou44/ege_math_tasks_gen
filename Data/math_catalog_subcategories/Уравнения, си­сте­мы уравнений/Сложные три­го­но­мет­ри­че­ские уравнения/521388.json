@@ -1,0 +1,29 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521388,
+    "condition": {
+        "text": "Дано уравнение а)  Решите уравнение.б)  Найдите корни этого уравнения, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629328\" class=\"pbody\"><p class=\"left_margin\">Дано урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/cc/cc262f640eed75dab3afbceac0598667.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" синус x= ко­си­нус левая круг­лая скоб­ка дробь: чис­ли­тель: Пи , зна­ме­на­тель: 3 конец дроби минус x пра­вая круг­лая скоб­ка . \"></p><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние.</p><p class=\"left_margin\">б)  Най­ди­те&nbsp;корни&nbsp;этого&nbsp;урав­не­ния,&nbsp;при­над­ле­жа­щие&nbsp;от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/69/6943e1e2b0f48851fac790bfcc086dd5.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка 4 Пи ; дробь: чис­ли­тель: 16 Пи , зна­ме­на­тель: 3 конец дроби пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/cc/cc262f640eed75dab3afbceac0598667.svg",
+            "https://ege.sdamgia.ru/formula/svg/69/6943e1e2b0f48851fac790bfcc086dd5.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Перепишем уравнение в виде   Либо  (что невозможно), либо  то есть  б)  Указанному отрезку принадлежит  Ответ: а)  б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521388\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Пе­ре­пи­шем урав­не­ние в виде <img src=\"https://ege.sdamgia.ru/formula/svg/47/47a3510f6caab4d375837b8903854487.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" ко­си­нус левая круг­лая скоб­ка дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби минус x пра­вая круг­лая скоб­ка = ко­си­нус левая круг­лая скоб­ка дробь: чис­ли­тель: Пи , зна­ме­на­тель: 3 конец дроби минус x пра­вая круг­лая скоб­ка . \"> </p><p> Либо <img src=\"https://ege.sdamgia.ru/formula/svg/60/60e97d41bfe5e3b2efa0cecee622fc03.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби минус x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 3 конец дроби минус x плюс 2 Пи k \"> (что не­воз­мож­но), либо <img src=\"https://ege.sdamgia.ru/formula/svg/6e/6e4e4a377e18c52144e9176fc588066b.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби минус x= минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 3 конец дроби плюс x плюс 2 Пи k, \"> то есть <img src=\"https://ege.sdamgia.ru/formula/svg/f7/f78281d86300ffa50fc48ebf390f3786.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"x= дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 12 конец дроби плюс Пи k. \"></p><p>&nbsp;</p><p class=\"left_margin\">б)  Ука­зан­но­му от­рез­ку при­над­ле­жит <img src=\"https://ege.sdamgia.ru/formula/svg/d5/d53e508fb738edd31bc7b6eb4f51b189.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 12 конец дроби плюс 4 Пи . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) <img src=\"https://ege.sdamgia.ru/formula/svg/31/310a45068f51a585d453db5027dddba3.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая фи­гур­ная скоб­ка дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 12 конец дроби плюс Пи k : k при­над­ле­жит Z пра­вая фи­гур­ная скоб­ка ; \"> б) <img src=\"https://ege.sdamgia.ru/formula/svg/f7/f7c30864e9a6b48ef761c53bf3371b31.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" дробь: чис­ли­тель: 53 Пи , зна­ме­на­тель: 12 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/47/47a3510f6caab4d375837b8903854487.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/60e97d41bfe5e3b2efa0cecee622fc03.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6e4e4a377e18c52144e9176fc588066b.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f78281d86300ffa50fc48ebf390f3786.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d53e508fb738edd31bc7b6eb4f51b189.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/310a45068f51a585d453db5027dddba3.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f7c30864e9a6b48ef761c53bf3371b31.svg"
+        ]
+    },
+    "answer": "а)  б)",
+    "topic_id": null,
+    "analog_ids": []
+}

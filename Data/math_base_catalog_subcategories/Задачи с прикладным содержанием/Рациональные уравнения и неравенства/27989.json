@@ -1,0 +1,64 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27989,
+    "condition": {
+        "text": "Автомобиль, масса которого равна  кг, начинает двигаться с ускорением, которое в течение t секунд остаeтся неизменным, и проходит за это время путь  метров. Значение силы (в ньютонах), приложенной в это время к автомобилю, равно  Определите наибольшее время после начала движения автомобиля, за которое он пройдeт указанный путь, если известно, что сила F, приложенная к автомобилю, не меньше 2400 Н. Ответ выразите в секундах.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918441\" class=\"pbody\"><p class=\"left_margin\">Ав­то­мо­биль, масса ко­то­ро­го равна <img src=\"https://ege.sdamgia.ru/formula/svg/a4/a46a0f3f00ee7c0b9e6e270c311ac4fa.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"m = 2160\"> кг, на­чи­на­ет дви­гать­ся с уско­ре­ни­ем, ко­то­рое в те­че­ние <i>t</i> се­кунд остаeтся не­из­мен­ным, и про­хо­дит за это время путь <img src=\"https://ege.sdamgia.ru/formula/svg/fe/fe059b6c00e6bb5115b747ca147bca22.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"S = 500\"> мет­ров. Зна­че­ние силы (в нью­то­нах), при­ло­жен­ной в это время к ав­то­мо­би­лю, равно <img src=\"https://ege.sdamgia.ru/formula/svg/88/88f493dccf473c1e822acd5e684cd3f2.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"F = дробь: чис­ли­тель: 2mS, зна­ме­на­тель: t в квад­ра­те конец дроби . \"> Опре­де­ли­те наи­боль­шее время после на­ча­ла дви­же­ния ав­то­мо­би­ля, за ко­то­рое он пройдeт ука­зан­ный путь, если из­вест­но, что сила <i>F</i>, при­ло­жен­ная к ав­то­мо­би­лю, не мень­ше 2400 Н. Ответ вы­ра­зи­те в се­кун­дах.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a4/a46a0f3f00ee7c0b9e6e270c311ac4fa.svg",
+            "https://ege.sdamgia.ru/formula/svg/fe/fe059b6c00e6bb5115b747ca147bca22.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/88f493dccf473c1e822acd5e684cd3f2.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Найдем, за какое время автомобиль пройдет путь  метров, учитывая, что сила F при заданном значении массы автомобиля 2400 H. Задача сводится к решению неравенства  при заданном значении массы автомобиля  кг: с.  Ответ: 30.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27989\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Най­дем, за какое время ав­то­мо­биль прой­дет путь <img src=\"https://ege.sdamgia.ru/formula/svg/f2/f29d6c05d6a3e654521d019b32558c60.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"S=500\"> мет­ров, учи­ты­вая, что сила <i>F</i> при за­дан­ном зна­че­нии массы ав­то­мо­би­ля 2400 H. За­да­ча сво­дит­ся к ре­ше­нию не­ра­вен­ства <img src=\"https://ege.sdamgia.ru/formula/svg/1b/1bc258554b06197336bfc8be2759b1a6.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 2mS, зна­ме­на­тель: t в квад­ра­те конец дроби боль­ше или равно 2400 \"> при за­дан­ном зна­че­нии массы ав­то­мо­би­ля <img src=\"https://ege.sdamgia.ru/formula/svg/2e/2ed035e160453df067da876efd77b237.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"m=2160\"> кг:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/c9/c97a20916dc3511035907ac4352989fd.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 2 умно­жить на 2160 умно­жить на 500, зна­ме­на­тель: t в квад­ра­те конец дроби боль­ше или равно 2400 рав­но­силь­но t в квад­ра­те мень­ше или равно 900\\undersett боль­ше 0\\mathop рав­но­силь­но t мень­ше или равно 30 \"> с.</p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 30.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f2/f29d6c05d6a3e654521d019b32558c60.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1bc258554b06197336bfc8be2759b1a6.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2ed035e160453df067da876efd77b237.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c97a20916dc3511035907ac4352989fd.svg"
+        ]
+    },
+    "answer": "30",
+    "topic_id": 9,
+    "analog_ids": [
+        27989,
+        42735,
+        42739,
+        517196,
+        42735,
+        42739,
+        517196,
+        517234,
+        28409,
+        28411,
+        28413,
+        28415,
+        28417,
+        42691,
+        42693,
+        42695,
+        42697,
+        42699,
+        42701,
+        42703,
+        42705,
+        42707,
+        42709,
+        42711,
+        42713,
+        42715,
+        42717,
+        42719,
+        42721,
+        42723,
+        42725,
+        42727,
+        42729,
+        42731,
+        42733,
+        42737
+    ]
+}

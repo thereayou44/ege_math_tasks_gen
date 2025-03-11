@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 527571,
+    "condition": {
+        "text": "Точка O  — центр окружности, описанной около остроугольного треугольника ABC, а BH  — высота этого треугольника.а)  Докажите, что углы ABH и CBO равны.б)  Найдите BH, если   ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body418351\" class=\"pbody\"><p class=\"left_margin\">Точка <i>O</i>  — центр окруж­но­сти, опи­сан­ной около ост­ро­уголь­но­го тре­уголь­ни­ка <i>ABC</i>, а <i>BH</i>  — вы­со­та этого тре­уголь­ни­ка.</p><p class=\"left_margin\">а)  До­ка­жи­те, что углы <i>ABH</i> и <i>CBO</i> равны.</p><p class=\"left_margin\">б)  Най­ди­те <i>BH</i>, если <img src=\"https://ege.sdamgia.ru/formula/svg/cb/cb424e681611130c05759d252bd48d32.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AB=16,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/a9/a9d92d1a2316a314ffe74e484d5282ee.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"BC =18,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/82/8222728b4ef7bae5ccedeed26da74a34.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BH =BO.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/cb/cb424e681611130c05759d252bd48d32.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a9d92d1a2316a314ffe74e484d5282ee.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/8222728b4ef7bae5ccedeed26da74a34.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Поскольку  получаем:б)  Опустим перпендикуляр OT на BC. Обозначим  Тогда из прямоугольных треугольников ABH и OBT получаем: и По пункту а) получаем, что  откуда  и  Ответ: 12.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol527571\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=42908\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  По­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/f7/f7f8c0e8760a8c41d56894facbcc9dd8.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"OB=OC,\"> по­лу­ча­ем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/94/946da3d4e5fce2e6e82fdfbd5d4b13fc.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"\\angle OBC= дробь: чис­ли­тель: 180 в сте­пе­ни левая круг­лая скоб­ка \\circ пра­вая круг­лая скоб­ка минус \\angle BOC, зна­ме­на­тель: 2 конец дроби = дробь: чис­ли­тель: 180 в сте­пе­ни левая круг­лая скоб­ка \\circ пра­вая круг­лая скоб­ка минус 2\\angle BAC, зна­ме­на­тель: 2 конец дроби =90 в сте­пе­ни левая круг­лая скоб­ка \\circ пра­вая круг­лая скоб­ка минус \\angle BAH=\\angle ABH \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">б)  Опу­стим пер­пен­ди­ку­ляр <i>OT</i> на <i>BC</i>. Обо­зна­чим <img src=\"https://ege.sdamgia.ru/formula/svg/a9/a9524a82e4490c23f28b357dc706bcbe.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BH=BO=CO=R.\"> Тогда из пря­мо­уголь­ных тре­уголь­ни­ков <i>ABH</i> и <i>OBT</i> по­лу­ча­ем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d7/d71dafcdfbe8a9680e2024a7e9795e9d.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" ко­си­нус \\angle ABH= дробь: чис­ли­тель: BH, зна­ме­на­тель: AB конец дроби = дробь: чис­ли­тель: R, зна­ме­на­тель: 16 конец дроби \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/e0/e06845ecb2cf864f6495e5c2c0fbb05b.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" ко­си­нус \\angle OBT= дробь: чис­ли­тель: BT, зна­ме­на­тель: BO конец дроби = дробь: чис­ли­тель: BC, зна­ме­на­тель: 2BO конец дроби = дробь: чис­ли­тель: 18, зна­ме­на­тель: 2R конец дроби . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">По пунк­ту <i>а)</i> по­лу­ча­ем, что <img src=\"https://ege.sdamgia.ru/formula/svg/89/89d9dab0262b74506759a5eb88fe5227.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: R, зна­ме­на­тель: 16 конец дроби = дробь: чис­ли­тель: 18, зна­ме­на­тель: 2R конец дроби , \"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/a3/a3347dcfb73f2009e601735cf23744a1.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"R в квад­ра­те =144\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/da/daa660ddfae744b57425a123f9892d32.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BH=R=12.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 12.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f7/f7f8c0e8760a8c41d56894facbcc9dd8.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/946da3d4e5fce2e6e82fdfbd5d4b13fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a9524a82e4490c23f28b357dc706bcbe.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d71dafcdfbe8a9680e2024a7e9795e9d.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e06845ecb2cf864f6495e5c2c0fbb05b.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/89d9dab0262b74506759a5eb88fe5227.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a3347dcfb73f2009e601735cf23744a1.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/daa660ddfae744b57425a123f9892d32.svg",
+            "/get_file?id=42908"
+        ]
+    },
+    "answer": "12.",
+    "topic_id": null,
+    "analog_ids": []
+}

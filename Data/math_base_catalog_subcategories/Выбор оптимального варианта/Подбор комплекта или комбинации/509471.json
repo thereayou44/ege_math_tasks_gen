@@ -1,0 +1,27 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 509471,
+    "condition": {
+        "text": "Четыре сферы радиуса 1 попарно касаются. Найдите радиус сферы, касающейся всех четырёх сфер.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body633059\" class=\"pbody\"><p class=\"left_margin\">Че­ты­ре сферы ра­ди­у­са 1 по­пар­но ка­са­ют­ся. Най­ди­те ра­ди­ус сферы, ка­са­ю­щей­ся всех четырёх сфер.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Пусть сфера радиуса r с центром O касается внутренним образом данных сфер с центрами O1, O2, O3 и O4. Тогда O  — центр правильного тетраэдра O1O2O3O4, ребро которого равно 2. Радиус R сферы, описанной около правильного тетраэдра O1O2O3O4, равен  его высоты, т. е.  Следовательно, Если сфера радиуса r с центром O касается данных сфер внешним образом, то аналогично находим, чтоОтвет:  или ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol509471\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=26251\" style=\"float:right;margin:10px\"></p><p class=\"left_margin\">Пусть сфера ра­ди­у­са <i>r</i> с цен­тром <i>O</i> ка­са­ет­ся внут­рен­ним об­ра­зом дан­ных сфер с цен­тра­ми <i>O</i><sub>1</sub>, <i>O</i><sub>2</sub>, <i>O</i><sub>3</sub> и <i>O</i><sub>4</sub>. Тогда <i>O</i>  — центр пра­виль­но­го тет­ра­эд­ра <i>O</i><sub>1</sub><i>O</i><sub>2</sub><i>O</i><sub>3</sub><i>O</i><sub>4</sub>, ребро ко­то­ро­го равно 2. Ра­ди­ус <i>R</i> сферы, опи­сан­ной около пра­виль­но­го тет­ра­эд­ра <i>O</i><sub>1</sub><i>O</i><sub>2</sub><i>O</i><sub>3</sub><i>O</i><sub>4</sub>, равен <img src=\"https://ege.sdamgia.ru/formula/svg/65/65e70ea9c3f8a892ae4bfe79ffc23507.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 3, зна­ме­на­тель: 4 конец дроби \"> его вы­со­ты, т. е. </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/99/99ec35f82cde83eb29fc89df803f3d4d.svg\" class=\"tex\" style=\"vertical-align:-9.4pt\" alt=\"R= дробь: чис­ли­тель: 3, зна­ме­на­тель: 4 конец дроби умно­жить на 2 ко­рень из: на­ча­ло ар­гу­мен­та: дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби конец ар­гу­мен­та .\"></p><p class=\"left_margin\"></p></center><p> Сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/a0/a08a060006cf00f3b20d1b8b82b9fd94.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\"r = R минус 1 = ко­рень из: на­ча­ло ар­гу­мен­та: дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби конец ар­гу­мен­та минус 1.\"></p><p class=\"left_margin\">Если сфера ра­ди­у­са <i>r</i> с цен­тром <i>O</i> ка­са­ет­ся дан­ных сфер внеш­ним об­ра­зом, то ана­ло­гич­но на­хо­дим, что</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/03/039640b4b02d27482b091696a5454cc6.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\"r = R плюс 1 = ко­рень из: на­ча­ло ар­гу­мен­та: дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби конец ар­гу­мен­та плюс 1.\"></p><p class=\"left_margin\"></p></center><img src=\"/get_file?id=26252\" style=\"float:right;margin:10px\"><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/c8/c8ba568661c6a8fd80f8aed4ec3a29da.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби конец ар­гу­мен­та минус 1\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/e8/e85bd1a9cccb73a9c1cf1ab1a5ab5a16.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби конец ар­гу­мен­та плюс 1.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/65/65e70ea9c3f8a892ae4bfe79ffc23507.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/99ec35f82cde83eb29fc89df803f3d4d.svg",
+            "https://ege.sdamgia.ru/formula/svg/a0/a08a060006cf00f3b20d1b8b82b9fd94.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/039640b4b02d27482b091696a5454cc6.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c8ba568661c6a8fd80f8aed4ec3a29da.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e85bd1a9cccb73a9c1cf1ab1a5ab5a16.svg",
+            "/get_file?id=26251",
+            "/get_file?id=26252"
+        ]
+    },
+    "answer": "или",
+    "topic_id": null,
+    "analog_ids": []
+}

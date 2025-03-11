@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521224,
+    "condition": {
+        "text": "Дано уравнение а)  Решите уравнение.б)  Найдите корни этого уравнения, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629492\" class=\"pbody\"><p class=\"left_margin\">Дано урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/21/21f83059a8ac84008e541b9be75bc2d0.svg\" class=\"tex\" style=\"vertical-align:-1.9pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус синус в квад­ра­те x конец ар­гу­мен­та = синус x.\"></p><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние.</p><p class=\"left_margin\">б)  Най­ди­те&nbsp;корни&nbsp;этого&nbsp;урав­не­ния,&nbsp;при­над­ле­жа­щие&nbsp;от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/99/99e5f96b3300960caf98213273374e2f.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 2 конец дроби ;4 Пи пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/21/21f83059a8ac84008e541b9be75bc2d0.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/99e5f96b3300960caf98213273374e2f.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)   б)  Корни уравнения, принадлежащие отрезку  отберём с помощью тригонометрической окружности. Получим число:  Ответ:",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521224\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  <span data-width=\"640\" data-formulahash=\"57b86e28a81e09552f6bd078d0161ef5\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/54/545b4914347436b69febd1908f7b3eff.svg\" class=\"tex\" style=\"vertical-align:-17.7pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус синус в квад­ра­те x конец ар­гу­мен­та = синус x рав­но­силь­но си­сте­ма вы­ра­же­ний 1 минус синус в квад­ра­те x= синус в квад­ра­те x, синус x\\geqslant0, конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний синус в квад­ра­те x= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби , синус x\\geqslant0, конец си­сте­мы . рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/29/292f113752dc95299a7debb9ed3b7879.svg\" class=\"tex\" style=\"vertical-align:-21.2pt\" alt=\" рав­но­силь­но си­сте­ма вы­ра­же­ний синус x=\\pm дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби , синус x\\geqslant0, конец си­сте­мы . рав­но­силь­но синус x= дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби рав­но­силь­но со­во­куп­ность вы­ра­же­ний x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби плюс 2 Пи n,x= дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 4 конец дроби плюс 2 Пи n, конец со­во­куп­но­сти . n при­над­ле­жит Z. \"></span></p><p><img src=\"/get_file?id=35941\" style=\"float:right;margin:10px\"></p><p>&nbsp;</p><p class=\"left_margin\">б)  Корни урав­не­ния,&nbsp;при­над­ле­жа­щие&nbsp;от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/75/751a64771d9bb365d236102c645f648b.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 2 конец дроби ;4 Пи пра­вая квад­рат­ная скоб­ка \"> отберём с по­мо­щью три­го­но­мет­ри­че­ской окруж­но­сти. По­лу­чим число:<img src=\"https://ege.sdamgia.ru/formula/svg/12/12f62db529d98359dbfcaea84d38a49e.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 11 Пи , зна­ме­на­тель: 4 конец дроби . \"></p><p>&nbsp;</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span><img src=\"https://ege.sdamgia.ru/formula/svg/ad/ad12563b5276da86a09d61c1e8dc4e8a.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"а пра­вая круг­лая скоб­ка дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби плюс 2 Пи n, дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 4 конец дроби плюс 2 Пи n,n при­над­ле­жит Z;б пра­вая круг­лая скоб­ка дробь: чис­ли­тель: 11 Пи , зна­ме­на­тель: 4 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/54/545b4914347436b69febd1908f7b3eff.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/292f113752dc95299a7debb9ed3b7879.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/751a64771d9bb365d236102c645f648b.svg",
+            "https://ege.sdamgia.ru/formula/svg/12/12f62db529d98359dbfcaea84d38a49e.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/ad12563b5276da86a09d61c1e8dc4e8a.svg",
+            "/get_file?id=35941"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

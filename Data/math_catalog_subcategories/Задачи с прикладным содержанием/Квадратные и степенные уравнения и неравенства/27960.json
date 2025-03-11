@@ -1,0 +1,65 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27960,
+    "condition": {
+        "text": "В боковой стенке высокого цилиндрического бака у самого дна закреплeн кран. После его открытия вода начинает вытекать из бака, при этом высота столба воды в нeм, выраженная в метрах, меняется по закону   где  − начальный уровень воды,  м/мин2, и  м/мин постоянные, t − время в минутах, прошедшее с момента открытия крана. В течение какого времени вода будет вытекать из бака? Ответ приведите в минутах.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918468\" class=\"pbody\"><p class=\"left_margin\">В бо­ко­вой стен­ке вы­со­ко­го ци­лин­дри­че­ско­го бака у са­мо­го дна за­креплeн кран. После его от­кры­тия вода на­чи­на­ет вы­те­кать из бака, при этом вы­со­та стол­ба воды в нeм, вы­ра­жен­ная в мет­рах, ме­ня­ет­ся по за­ко­ну  <img src=\"https://ege.sdamgia.ru/formula/svg/4e/4e47b437b1278dbacbccfae1fcfc3425.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"H левая круг­лая скоб­ка t пра­вая круг­лая скоб­ка = at в квад­ра­те плюс bt плюс H_0,\"> где <img src=\"https://ege.sdamgia.ru/formula/svg/da/da0cf27c96d1e5d82aa22fe79c32378a.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"H_0 = 4\"> − на­чаль­ный уро­вень воды, <img src=\"https://ege.sdamgia.ru/formula/svg/f4/f47b48a9eb808236c39a28557065e405.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"a = дробь: чис­ли­тель: 1, зна­ме­на­тель: 100 конец дроби \"> м/мин<sup>2</sup>, и <img src=\"https://ege.sdamgia.ru/formula/svg/23/23443a8a74b9226a3cf75c67a8a4e179.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"b= минус дробь: чис­ли­тель: 2, зна­ме­на­тель: 5 конец дроби \"> м/мин по­сто­ян­ные, <i>t</i> − время в ми­ну­тах, про­шед­шее с мо­мен­та от­кры­тия крана. В те­че­ние ка­ко­го вре­ме­ни вода будет вы­те­кать из бака? Ответ при­ве­ди­те в ми­ну­тах.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/4e/4e47b437b1278dbacbccfae1fcfc3425.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/da0cf27c96d1e5d82aa22fe79c32378a.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f47b48a9eb808236c39a28557065e405.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/23443a8a74b9226a3cf75c67a8a4e179.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Формулой, описывающей уменьшение высоты столба воды с течением времени является  Вода будет вытекать из бака, пока её начальный уровень не понизится до нуля. Определим требуемое на это время, решая уравнение : Это означает, что по прошествии 20 минут вся вода вытечет из бака.  Ответ: 20.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27960\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Фор­му­лой, опи­сы­ва­ю­щей умень­ше­ние вы­со­ты стол­ба воды с те­че­ни­ем вре­ме­ни яв­ля­ет­ся </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/dc/dceb566434c363263af73bf2b9e6af1c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"H левая круг­лая скоб­ка t пра­вая круг­лая скоб­ка =0,01t в квад­ра­те минус 0,4t плюс 4.\"></p><p class=\"left_margin\"></p></center><p> Вода будет вы­те­кать из бака, пока её на­чаль­ный уро­вень не по­ни­зит­ся до нуля. Опре­де­лим тре­бу­е­мое на это время, решая урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/d6/d6f944abebaaf9348213fc17d7118b3d.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"H левая круг­лая скоб­ка t пра­вая круг­лая скоб­ка =0\">: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/b4/b4bd9ddd47921a19d2848d1b8aa0e6a2.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"H левая круг­лая скоб­ка t пра­вая круг­лая скоб­ка =0 рав­но­силь­но 0,01t в квад­ра­те минус 0,4t плюс 4=0 рав­но­силь­но t в квад­ра­те минус 40t плюс 400=0 рав­но­силь­но t=20.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Это озна­ча­ет, что по про­ше­ствии 20 минут вся вода вы­те­чет из бака. </p><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ</span>: 20.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/dc/dceb566434c363263af73bf2b9e6af1c.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d6f944abebaaf9348213fc17d7118b3d.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b4bd9ddd47921a19d2848d1b8aa0e6a2.svg"
+        ]
+    },
+    "answer": "20",
+    "topic_id": 9,
+    "analog_ids": [
+        27960,
+        28091,
+        41417,
+        41421,
+        28091,
+        41417,
+        41421,
+        520903,
+        628236,
+        628267,
+        28093,
+        28095,
+        28097,
+        28099,
+        41373,
+        41375,
+        41377,
+        41379,
+        41381,
+        41383,
+        41385,
+        41387,
+        41389,
+        41391,
+        41393,
+        41395,
+        41397,
+        41399,
+        41401,
+        41403,
+        41405,
+        41407,
+        41409,
+        41411,
+        41413,
+        41415,
+        41419
+    ]
+}

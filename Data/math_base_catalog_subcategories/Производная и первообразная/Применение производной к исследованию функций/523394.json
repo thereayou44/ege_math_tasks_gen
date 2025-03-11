@@ -1,0 +1,24 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 523394,
+    "condition": {
+        "text": "На рисунке изображён график функции  Найдите количество точек минимума функции  принадлежащих интервалу (−4; 7).",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body627326\" class=\"pbody\"><p class=\"left_margin\">На ри­сун­ке изоб­ражён гра­фик функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/db/dbf6465a34ad2d7eeec78c34fa3d3e78.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y = f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка .\"> Най­ди­те ко­ли­че­ство точек ми­ни­му­ма функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/6a/6a29a7484323dc67c7a1f039a9dbce38.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка ,\"> при­над­ле­жа­щих ин­тер­ва­лу (−4; 7).<img src=\"/get_file?id=140942\" style=\"margin:10px auto;display:block;max-width:100%\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/db/dbf6465a34ad2d7eeec78c34fa3d3e78.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a29a7484323dc67c7a1f039a9dbce38.svg",
+            "/get_file?id=140942"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Точки минимума соответствуют точкам, в которых функция перестаёт убывать и начинает возрастать. На интервале (−4; 7) функция имеет пять точек минимума. Ответ: 5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol523394\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Точки ми­ни­му­ма со­от­вет­ству­ют точ­кам, в ко­то­рых функ­ция пе­ре­стаёт убы­вать и на­чи­на­ет воз­рас­тать. На ин­тер­ва­ле (−4; 7) функ­ция имеет пять точек ми­ни­му­ма.<img src=\"/get_file?id=140955\" style=\"margin:10px auto;display:block;max-width:100%\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 5.</p></div>",
+        "image_urls": [
+            "/get_file?id=140955"
+        ]
+    },
+    "answer": "5",
+    "topic_id": 8,
+    "analog_ids": []
+}

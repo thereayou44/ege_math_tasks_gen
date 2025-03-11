@@ -1,0 +1,52 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27876,
+    "condition": {
+        "text": "Четырехугольник ABCD вписан в окружность. Угол ABC равен 110°, угол ABD равен 70°. Найдите угол CAD. Ответ дайте в градусах.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918040\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=138538\" style=\"float:right;margin:10px;max-width:100%\">Че­ты­рех­уголь­ник <i>ABCD</i> впи­сан в окруж­ность. Угол <i>ABC</i> равен 110°, угол <i>ABD</i> равен 70°. Най­ди­те угол <i>CAD</i>. Ответ дайте в гра­ду­сах.</p></div>",
+        "image_urls": [
+            "/get_file?id=138538"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Вписанный угол равен половине дуги, на которую он опирается, следовательно,  Ответ: 40.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27876\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Впи­сан­ный угол равен по­ло­ви­не дуги, на ко­то­рую он опи­ра­ет­ся, сле­до­ва­тель­но,</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/77/7740d45a7be73a2debbef56639c0b185.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"\\angle CAD= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби \\cup CD= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби левая круг­лая скоб­ка \\cup ADC минус \\cup AD пра­вая круг­лая скоб­ка =\\angle ABC минус \\angle ABD=40 гра­ду­сов . \"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 40.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/77/7740d45a7be73a2debbef56639c0b185.svg"
+        ]
+    },
+    "answer": "40",
+    "topic_id": 1,
+    "analog_ids": [
+        27876,
+        51839,
+        51841,
+        51843,
+        51839,
+        51841,
+        51843,
+        51845,
+        51847,
+        51849,
+        51851,
+        51853,
+        51855,
+        51857,
+        51859,
+        51861,
+        51863,
+        51865,
+        51867,
+        51869,
+        51871,
+        51873,
+        51875,
+        51877,
+        51879,
+        51881,
+        51883,
+        51885,
+        51887
+    ]
+}

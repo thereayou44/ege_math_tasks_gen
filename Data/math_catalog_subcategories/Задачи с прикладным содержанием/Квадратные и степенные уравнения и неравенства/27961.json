@@ -1,0 +1,66 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27961,
+    "condition": {
+        "text": "Камнеметательная машина выстреливает камни под некоторым острым углом к горизонту. Траектория полeта камня описывается формулой  где  м  − постоянные параметры,  − смещение камня по горизонтали,  − высота камня над землeй. На каком наибольшем расстоянии (в метрах) от крепостной стены высотой 8 м нужно расположить машину, чтобы камни пролетали над стеной на высоте не менее 1 метра?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918469\" class=\"pbody\"><p class=\"left_margin\">Кам­не­ме­та­тель­ная ма­ши­на вы­стре­ли­ва­ет камни под не­ко­то­рым ост­рым углом к го­ри­зон­ту. Тра­ек­то­рия полeта камня опи­сы­ва­ет­ся фор­му­лой <img src=\"https://ege.sdamgia.ru/formula/svg/f6/f659587e4028aa904490e7551c4c44e4.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y = ax в квад­ра­те плюс bx,\"> где <img src=\"https://ege.sdamgia.ru/formula/svg/6d/6d5e2216a8f2b9870137239bc0471fb4.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"a = минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 100 конец дроби \"> м<img src=\"https://ege.sdamgia.ru/formula/svg/e6/e62e83e0204e54c4462e9884d5685956.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" в сте­пе­ни левая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка ,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/3c/3c94d884933477acdc14fc70da4b987a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"b=1\"> − по­сто­ян­ные па­ра­мет­ры, <img src=\"https://ege.sdamgia.ru/formula/svg/df/df58e01656011f9fe7da7cf9efb1b468.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x левая круг­лая скоб­ка м пра­вая круг­лая скоб­ка \"> − сме­ще­ние камня по го­ри­зон­та­ли, <img src=\"https://ege.sdamgia.ru/formula/svg/62/626b5cc33232b9f464dc81c438d01af6.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y левая круг­лая скоб­ка м пра­вая круг­лая скоб­ка \"> − вы­со­та камня над землeй. На каком наи­боль­шем рас­сто­я­нии (в мет­рах) от кре­пост­ной стены вы­со­той 8 м нужно рас­по­ло­жить ма­ши­ну, чтобы камни про­ле­та­ли над сте­ной на вы­со­те не менее 1 метра?</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f6/f659587e4028aa904490e7551c4c44e4.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6d5e2216a8f2b9870137239bc0471fb4.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e62e83e0204e54c4462e9884d5685956.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3c94d884933477acdc14fc70da4b987a.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/df58e01656011f9fe7da7cf9efb1b468.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/626b5cc33232b9f464dc81c438d01af6.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Задача сводится к решению неравенства : при заданных значениях параметров a и b:м. Камни будут перелетать крепостную стену на высоте не менее 1 метра, если камнеметательная машина будет находиться на расстоянии от 10 до 90 метров от этой стены. Наибольшее расстояние − 90 метров. Ответ: 90.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27961\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">За­да­ча сво­дит­ся к ре­ше­нию не­ра­вен­ства <img src=\"https://ege.sdamgia.ru/formula/svg/df/dfe8565d43d0be6f0c845ff1ff4d96a5.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y боль­ше или равно 9\">: при за­дан­ных зна­че­ни­ях па­ра­мет­ров <i>a</i> и <i>b</i>:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/6c/6c6ce18fccd3c9e49cb6d1d9d8605940.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"y боль­ше или равно 9 рав­но­силь­но минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 100 конец дроби x в квад­ра­те плюс x боль­ше или равно 9 рав­но­силь­но x в квад­ра­те минус 100x плюс 900 мень­ше или равно 0 рав­но­силь­но 10 мень­ше или равно x мень­ше или равно 90 \">м.</p><p class=\"left_margin\"></p></center><p> Камни будут пе­ре­ле­тать кре­пост­ную стену на вы­со­те не менее 1 метра, если кам­не­ме­та­тель­ная ма­ши­на будет на­хо­дить­ся на рас­сто­я­нии от 10 до 90 мет­ров от этой стены. Наи­боль­шее рас­сто­я­ние − 90 мет­ров.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 90.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/df/dfe8565d43d0be6f0c845ff1ff4d96a5.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6c6ce18fccd3c9e49cb6d1d9d8605940.svg"
+        ]
+    },
+    "answer": "90",
+    "topic_id": 9,
+    "analog_ids": [
+        27961,
+        28101,
+        41471,
+        530669,
+        28101,
+        41471,
+        530669,
+        530689,
+        28103,
+        28105,
+        28107,
+        28109,
+        28111,
+        41423,
+        41425,
+        41427,
+        41429,
+        41431,
+        41433,
+        41435,
+        41437,
+        41439,
+        41441,
+        41443,
+        41445,
+        41447,
+        41449,
+        41451,
+        41453,
+        41455,
+        41457,
+        41459,
+        41461,
+        41463,
+        41465,
+        41467,
+        41469
+    ]
+}

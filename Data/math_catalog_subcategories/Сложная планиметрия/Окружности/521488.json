@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521488,
+    "condition": {
+        "text": "Две окружности касаются внутренним образом в точке K. Пусть AB  — хорда большей окружности, касающаяся меньшей окружности в точке L.  а)  Докажите, что KL  — биссектриса угла AKB.  б)  Найдите длину отрезка KL, если известно, что радиусы большей и меньшей окружностей равны соответственно 6 и 2, а угол АKB равен 90°.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629740\" class=\"pbody\"><p class=\"left_margin\">Две окруж­но­сти ка­са­ют­ся внут­рен­ним об­ра­зом в точке <i>K</i>. Пусть <i>AB</i>  — хорда боль­шей окруж­но­сти, ка­са­ю­ща­я­ся мень­шей окруж­но­сти в точке <i>L</i>.  </p><p class=\"left_margin\">а)  До­ка­жи­те, что <i>KL</i>  — бис­сек­три­са угла <i>AKB</i>.  </p><p class=\"left_margin\">б)  Най­ди­те длину от­рез­ка <i>KL</i>, если из­вест­но, что ра­ди­у­сы боль­шей и мень­шей окруж­но­стей равны со­от­вет­ствен­но 6 и 2, а угол <i>АKB</i> равен 90°.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Продлим AB до пересечение с общей касательной двух окружностей в точке  Тогда  (в большой окружности один из них вписанный, а другой  — угол между касательной и хордой, поэтому они оба равны половине дуги BK) и  (поскольку  как отрезки касательных к маленькой окружности). Тогда  что и требовалось доказать. б)  По условию AB  — диаметр большой окружности. Обозначим центр ее за O, а центр маленькой за  Тогда  и, следовательно,   и  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521488\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=35938\" style=\"float:right;margin:10px\">а)  Про­длим <i>AB</i> до пе­ре­се­че­ние с общей ка­са­тель­ной двух окруж­но­стей в точке <img src=\"https://ege.sdamgia.ru/formula/svg/a5/a5cb5c38e6f2053caa17c97bab5b9988.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"S.\"> Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/d9/d9d49c1ebd733958b0e1e2497ac6f51c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle BKS=\\angle BAK\"> (в боль­шой окруж­но­сти один из них впи­сан­ный, а дру­гой  — угол между ка­са­тель­ной и хор­дой, по­это­му они оба равны по­ло­ви­не дуги <i>BK</i>) и <img src=\"https://ege.sdamgia.ru/formula/svg/0d/0d7e635f378f68f3f0d82917c94df08d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle SLK=\\angle SKL\"> (по­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/79/7978504f71bf10a9831b4123c0bce40b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"SL=SK\"> как от­рез­ки ка­са­тель­ных к ма­лень­кой окруж­но­сти). Тогда</p><p>&nbsp;</p><p><span data-width=\"640\" data-formulahash=\"e6771df33c7d309b88d4be589f502175\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/e6/e6771df33c7d309b88d4be589f502175.svg\" class=\"tex\" style=\"vertical-align:-2.9pt\" alt=\"\\angle BKL=\\angle SKL минус \\angle BKS=\\angle SLK минус \\angle LAK=180 в сте­пе­ни левая круг­лая скоб­ка \\circ пра­вая круг­лая скоб­ка минус \\angle ALK минус \\angle LAK=\\angle AKL,\"></span> что и тре­бо­ва­лось до­ка­зать.</p><p>&nbsp;</p><p class=\"left_margin\">б)  По усло­вию <i>AB</i>  — диа­метр боль­шой окруж­но­сти. Обо­зна­чим центр ее за <i>O</i>, а центр ма­лень­кой за <img src=\"https://ege.sdamgia.ru/formula/svg/88/8894bdd2602131e99bd6421f470aabae.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"O_1.\"> Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/14/14251f2fac9792d91ea89847ce8c3964.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"OO_1=4,O_1L=2\"> и, сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/8c/8c00c91119f8231c1d8e48f146932e78.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle LOO_1=30 в сте­пе­ни левая круг­лая скоб­ка \\circ пра­вая круг­лая скоб­ка ,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/b6/b69bbe4895efb8c1b590ec23bae1104e.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"\\angle LO_1K=120 в сте­пе­ни левая круг­лая скоб­ка \\circ пра­вая круг­лая скоб­ка \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/1a/1ab40b943d52238d260f4c5e968c42bf.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"LK=LO_1 умно­жить на ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та =2 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та .\"><img src=\"/get_file?id=35939\" style=\"float:right;margin:10px\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/fd/fdfbb42df7a5ce999654af7934100d75.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a5/a5cb5c38e6f2053caa17c97bab5b9988.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d9d49c1ebd733958b0e1e2497ac6f51c.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0d7e635f378f68f3f0d82917c94df08d.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/7978504f71bf10a9831b4123c0bce40b.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e6771df33c7d309b88d4be589f502175.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/8894bdd2602131e99bd6421f470aabae.svg",
+            "https://ege.sdamgia.ru/formula/svg/14/14251f2fac9792d91ea89847ce8c3964.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8c00c91119f8231c1d8e48f146932e78.svg",
+            "https://ege.sdamgia.ru/formula/svg/b6/b69bbe4895efb8c1b590ec23bae1104e.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1ab40b943d52238d260f4c5e968c42bf.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fdfbb42df7a5ce999654af7934100d75.svg",
+            "/get_file?id=35938",
+            "/get_file?id=35939"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

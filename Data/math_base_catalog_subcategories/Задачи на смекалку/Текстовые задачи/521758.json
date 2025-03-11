@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521758,
+    "condition": {
+        "text": "В основании треугольной пирамиды ABCD лежит треугольник АВС, где АВ  =  ВС  =  5, АС  =  6. Боковые ребра наклонены к плоскости основания под углом, синус которого равен а)  Постройте сечение, проходящее через центр описанной окружности основания и перпендикулярное прямой BD б)  Найдите расстояние от прямой BD до прямой АС.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body628962\" class=\"pbody\"><p class=\"left_margin\">В ос­но­ва­нии тре­уголь­ной пи­ра­ми­ды <i>ABCD</i> лежит тре­уголь­ник <i>АВС</i>, где <i>АВ</i>  =  <i>ВС</i>  =  5, <i>АС</i>  =  6. Бо­ко­вые ребра на­кло­не­ны к плос­ко­сти ос­но­ва­ния под углом, синус ко­то­ро­го равен <img src=\"https://ege.sdamgia.ru/formula/svg/e0/e0928137298d51a1e97583b72d0e1faf.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 3, зна­ме­на­тель: 4 конец дроби .\"></p><p class=\"left_margin\">а)  По­строй­те се­че­ние, про­хо­дя­щее через центр опи­сан­ной окруж­но­сти ос­но­ва­ния и пер­пен­ди­ку­ляр­ное пря­мой <i>BD</i> </p><p class=\"left_margin\">б)  Най­ди­те рас­сто­я­ние от пря­мой <i>BD</i> до пря­мой <i>АС</i>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e0/e0928137298d51a1e97583b72d0e1faf.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Пусть K  — середина AC, тогда    Построим на BK точку O так, чтобы  тогда O и будет центром окружности. Поскольку все боковые ребра наклонены под одинаковым углом к плоскости основания, то они все равны и высота пирамиды падает в точку  При этом  Значит,  поэтому треугольник BCO  — остроугольный. Проведем через O прямую,параллельную  Пусть она пересекает AB и BC в точках K и  Опустим из них перпендикуляры на BD, они упадут в одну точку (назовем ее H). Очевидно KLH  — искомое сечение. б)   Ответ: б) 3.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521758\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=36440\" style=\"float:right;margin:10px\">а)  Пусть <i>K</i>  — се­ре­ди­на <i>AC</i>, тогда <img src=\"https://ege.sdamgia.ru/formula/svg/f5/f553aa3121b5de52e5c7050b20dfbe83.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"BK= ко­рень из: на­ча­ло ар­гу­мен­та: 25 минус 9 конец ар­гу­мен­та =4,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/18/181709306d5025155cfa63d64865f7be.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"S_ABC=12.\"> <img src=\"https://ege.sdamgia.ru/formula/svg/32/327b73b9fe983d34c0c6b93ac1a27951.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"R_ABC= дробь: чис­ли­тель: 5 в квад­ра­те умно­жить на 6, зна­ме­на­тель: 4 умно­жить на 12 конец дроби = дробь: чис­ли­тель: 25, зна­ме­на­тель: 8 конец дроби . \"> По­стро­им на <i>BK</i> точку <i>O</i> так, чтобы <img src=\"https://ege.sdamgia.ru/formula/svg/8e/8e767baf40bc24e6dddcc8cdfbe891ee.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"BO= дробь: чис­ли­тель: 25, зна­ме­на­тель: 8 конец дроби , \"> тогда <i>O</i> и будет цен­тром окруж­но­сти. По­сколь­ку все бо­ко­вые ребра на­кло­не­ны под оди­на­ко­вым углом к плос­ко­сти ос­но­ва­ния, то они все равны и вы­со­та пи­ра­ми­ды па­да­ет в точку <img src=\"https://ege.sdamgia.ru/formula/svg/5f/5f4238afbd8792f5826e919e4ef8e1bd.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"O.\"> При этом <img src=\"https://ege.sdamgia.ru/formula/svg/79/7923aff7fafddf42ddbcd52379e39568.svg\" class=\"tex\" style=\"vertical-align:-10.9pt\" alt=\"BD= дробь: чис­ли­тель: BH, зна­ме­на­тель: ко­си­нус \\angle DBH конец дроби = дробь: чис­ли­тель: 25, зна­ме­на­тель: 2 ко­рень из: на­ча­ло ар­гу­мен­та: 7 конец ар­гу­мен­та конец дроби . \"> Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/57/571fcee103fd14ff39e61cddd7053725.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"BO в квад­ра­те плюс OC в квад­ра­те =2 умно­жить на дробь: чис­ли­тель: 625, зна­ме­на­тель: 28 конец дроби боль­ше 25=BC в квад­ра­те , \"> по­это­му тре­уголь­ник <i>BCO</i>  — ост­ро­уголь­ный.</p><p>&nbsp;</p><p class=\"left_margin\">Про­ве­дем через <i>O</i> пря­мую,па­рал­лель­ную <img src=\"https://ege.sdamgia.ru/formula/svg/55/55c9ee3beff9b131586901889ba3714f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AC.\"> Пусть она пе­ре­се­ка­ет <i>AB</i> и <i>BC</i> в точ­ках <i>K</i> и <img src=\"https://ege.sdamgia.ru/formula/svg/ca/ca0b0549db85f718a48e0505ac9273a2.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"L.\"> Опу­стим из них пер­пен­ди­ку­ля­ры на <i>BD</i>, они упа­дут в одну точку (на­зо­вем ее <i>H</i>). Оче­вид­но <i>KLH</i>  — ис­ко­мое се­че­ние.</p><p>&nbsp;</p><p class=\"left_margin\">б)  <img src=\"https://ege.sdamgia.ru/formula/svg/46/4648fee8a4807c70370b7e0e9753d396.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"d левая круг­лая скоб­ка AC,BD пра­вая круг­лая скоб­ка =d левая круг­лая скоб­ка K,BD пра­вая круг­лая скоб­ка = дробь: чис­ли­тель: 2S_BDK, зна­ме­на­тель: BD конец дроби = дробь: чис­ли­тель: 4DO, зна­ме­на­тель: BD конец дроби =4 синус \\angle DBH=3. \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) 3.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f5/f553aa3121b5de52e5c7050b20dfbe83.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/181709306d5025155cfa63d64865f7be.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/327b73b9fe983d34c0c6b93ac1a27951.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8e767baf40bc24e6dddcc8cdfbe891ee.svg",
+            "https://ege.sdamgia.ru/formula/svg/5f/5f4238afbd8792f5826e919e4ef8e1bd.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/7923aff7fafddf42ddbcd52379e39568.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/571fcee103fd14ff39e61cddd7053725.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/55c9ee3beff9b131586901889ba3714f.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/ca0b0549db85f718a48e0505ac9273a2.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/4648fee8a4807c70370b7e0e9753d396.svg",
+            "/get_file?id=36440"
+        ]
+    },
+    "answer": "б) 3.",
+    "topic_id": null,
+    "analog_ids": []
+}

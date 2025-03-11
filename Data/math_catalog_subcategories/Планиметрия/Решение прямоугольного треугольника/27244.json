@@ -1,0 +1,72 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27244,
+    "condition": {
+        "text": "В треугольнике ABC угол C равен 90°, BC  =  4,  Найдите АВ.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918672\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=144915\" style=\"float:right;margin:10px;max-width:100%\">В тре­уголь­ни­ке <i>ABC</i> угол <i>C</i> равен 90°, <i>BC</i>  =  4, <img src=\"https://ege.sdamgia.ru/formula/svg/8f/8f168bbc0a001b1c32145b62015cf8e1.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" синус A = 0,5.\"> Най­ди­те <i>АВ</i>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/8f/8f168bbc0a001b1c32145b62015cf8e1.svg",
+            "/get_file?id=144915"
+        ]
+    },
+    "solution": {
+        "text": "Решение. По определению синуса: Ответ: 8.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27244\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По опре­де­ле­нию си­ну­са:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/2d/2d46380401ba0eb80ecab34ef0f09eea.svg\" class=\"tex\" style=\"vertical-align:-10.5pt\" alt=\"AB= дробь: чис­ли­тель: BC, зна­ме­на­тель: синус A конец дроби = дробь: чис­ли­тель: 4, зна­ме­на­тель: 0,5 конец дроби =8. \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 8.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/2d/2d46380401ba0eb80ecab34ef0f09eea.svg"
+        ]
+    },
+    "answer": "8",
+    "topic_id": 1,
+    "analog_ids": [
+        27244,
+        26094,
+        29833,
+        29792,
+        26094,
+        29833,
+        29792,
+        29793,
+        29794,
+        29795,
+        29796,
+        29797,
+        29798,
+        29799,
+        29800,
+        29801,
+        29802,
+        29803,
+        29804,
+        29805,
+        29806,
+        29807,
+        29808,
+        29809,
+        29810,
+        29811,
+        29812,
+        29813,
+        29814,
+        29815,
+        29816,
+        29817,
+        29818,
+        29819,
+        29820,
+        29821,
+        29822,
+        29823,
+        29824,
+        29825,
+        29826,
+        29827,
+        29828,
+        29829,
+        29830,
+        29831,
+        29832,
+        29834
+    ]
+}

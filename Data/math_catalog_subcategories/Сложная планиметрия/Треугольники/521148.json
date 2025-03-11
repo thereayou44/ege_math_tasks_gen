@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521148,
+    "condition": {
+        "text": "В треугольнике ABC стороны  Первая окружность вписана в треугольник АВС, а вторая касается AB и продолжения сторон BC и AC.а)  Доказать, что отношение радиусов окружностей равно 2 : 1. б)  Найти расстояние между точками касания окружностей стороны AB, если АС  =  15.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body630080\" class=\"pbody\"><p class=\"left_margin\">В тре­уголь­ни­ке <i>ABC</i> сто­ро­ны <img src=\"https://ege.sdamgia.ru/formula/svg/33/33fd0c2f7e3f5b57a1814e7f75978092.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AB:BC:AC=3:4:5.\"> Пер­вая окруж­ность впи­са­на в тре­уголь­ник <i>АВС</i>, а вто­рая ка­са­ет­ся <i>AB</i> и про­дол­же­ния сто­рон <i>BC</i> и <i>AC</i>.</p><p class=\"left_margin\">а)  До­ка­зать, что от­но­ше­ние ра­ди­у­сов окруж­но­стей равно 2 : 1. </p><p class=\"left_margin\">б)  Найти рас­сто­я­ние между точ­ка­ми ка­са­ния окруж­но­стей сто­ро­ны <i>AB</i>, если <i>АС</i>  =  15.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/33/33fd0c2f7e3f5b57a1814e7f75978092.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Пусть стороны треугольника    По обратной теореме Пифагора он прямоугольный, поэтому его площадь  полупериметр  По формулам для радиусов вписанной и вневписанной окружности находим   что и требовалось доказать. б)  По формуле для отрезков от вершины до точки касания с вписанной или вневписанной окружностью имеем:Поскольку   Ответ: 3.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521148\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=41766\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Пусть сто­ро­ны тре­уголь­ни­ка <img src=\"https://ege.sdamgia.ru/formula/svg/26/26390a70ea85eff330a6965db9d67c1e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AB=3x,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/46/4670b12a74a55f0b5f93a6e9467d2c09.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"BC=4x,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/b8/b87e8e8a3b39d4429464c17d7ab67fd7.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AC=5x.\"> По об­рат­ной тео­ре­ме Пи­фа­го­ра он пря­мо­уголь­ный, по­это­му его пло­щадь <img src=\"https://ege.sdamgia.ru/formula/svg/8a/8ae269b5a4e521b3074ff13e983e6b88.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на 3x умно­жить на 4x=6x в квад­ра­те ,\"> по­лу­пе­ри­метр <img src=\"https://ege.sdamgia.ru/formula/svg/be/befafa12523ebd6537d89aee64e7de30.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"6x.\"> По фор­му­лам для ра­ди­у­сов впи­сан­ной и внев­пи­сан­ной окруж­но­сти на­хо­дим <img src=\"https://ege.sdamgia.ru/formula/svg/1e/1ef060704e03d038c301f80921de85d3.svg\" class=\"tex\" style=\"vertical-align:-10.4pt\" alt=\"r= дробь: чис­ли­тель: S, зна­ме­на­тель: p конец дроби =x, \"> <img src=\"https://ege.sdamgia.ru/formula/svg/e3/e3909223ccdb6e35c5c7ed4288d47ca7.svg\" class=\"tex\" style=\"vertical-align:-10.4pt\" alt=\"r_AB= дробь: чис­ли­тель: S, зна­ме­на­тель: p минус AB конец дроби =2x, \"> что и тре­бо­ва­лось до­ка­зать.</p><p>&nbsp;</p><p class=\"left_margin\">б)  По фор­му­ле для от­рез­ков от вер­ши­ны до точки ка­са­ния с впи­сан­ной или внев­пи­сан­ной окруж­но­стью имеем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/68/6814bd986d851cdd0c26d8f7f5d50aa1.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"QP=AB минус AQ минус BP=3x минус левая круг­лая скоб­ка p минус AC пра­вая круг­лая скоб­ка минус левая круг­лая скоб­ка p минус AC пра­вая круг­лая скоб­ка =3x минус x минус x=x.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">По­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/ba/ba6003370340905ae44a2b5df6d95504.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"5x=15,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/47/47edeb48db51f023fd03b4cb0946bc76.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=3.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 3.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/26/26390a70ea85eff330a6965db9d67c1e.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/4670b12a74a55f0b5f93a6e9467d2c09.svg",
+            "https://ege.sdamgia.ru/formula/svg/b8/b87e8e8a3b39d4429464c17d7ab67fd7.svg",
+            "https://ege.sdamgia.ru/formula/svg/8a/8ae269b5a4e521b3074ff13e983e6b88.svg",
+            "https://ege.sdamgia.ru/formula/svg/be/befafa12523ebd6537d89aee64e7de30.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1ef060704e03d038c301f80921de85d3.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e3909223ccdb6e35c5c7ed4288d47ca7.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/6814bd986d851cdd0c26d8f7f5d50aa1.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/ba6003370340905ae44a2b5df6d95504.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/47edeb48db51f023fd03b4cb0946bc76.svg",
+            "/get_file?id=41766"
+        ]
+    },
+    "answer": "3.",
+    "topic_id": null,
+    "analog_ids": []
+}

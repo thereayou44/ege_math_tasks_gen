@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+{% block title %}Генератор задач ЕГЭ{% endblock %}
+{% block content %}
+<h1 class="mb-4">Генератор задач ЕГЭ</h1>
+<form id="taskForm" class="mb-3">
+    <div class="mb-3">
+        <label for="category" class="form-label">Категория:</label>
+        <select name="category" id="category" class="form-select">
+            <option value="">Выберите категорию</option>
+            {% for cat in categories %}
+            <option value="{{ cat.category }}">{{ cat.category_number }} {{ cat.category }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    <div class="mb-3">
+        <label for="subcategory" class="form-label">Подкатегория:</label>
+        <select name="subcategory" id="subcategory" class="form-select">
+            <option value="">Не выбрана (опционально)</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Сгенерировать задачу</button>
+</form>
+<!-- Кнопка для перегенерации задачи, оставляя выбранные параметры -->
+<button id="regenerateBtn" class="btn btn-secondary mb-3">Перегенерировать задачу</button>
+
+<!-- Блок для отображения сгенерированной задачи -->
+<div id="taskOutput" class="mt-4 border p-3">
+    <p>Здесь будет отображаться задача</p>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript">
+    // Функция для обновления списка подкатегорий
+    function updateSubcategories() {
+        var category = document.getElementById("category").value;
+        var subcategorySelect = document.getElementById("subcategory");
+        subcategorySelect.innerHTML = ""; // Очистить список подкатегорий
+
+        var categories = {{ categories | tojson }};
+        var selectedCategory = categories.find(cat => cat.category === category);
+
+        // Добавляем опцию "Не выбрана (опционально)"
+        var defaultOption = document.createElement("option");
+        defaultOption.value = "";
+        defaultOption.textContent = "Не выбрана (опционально)";
+        subcategorySelect.appendChild(defaultOption);
+
+        if (selectedCategory) {
+            selectedCategory.subcategories.forEach(function(subcat) {
+                var option = document.createElement("option");
+                option.value = subcat.name;
+                option.textContent = subcat.number + " " + subcat.name;
+                subcategorySelect.appendChild(option);
+            });
+        }
+    }
+
+    // При выборе категории обновляем подкатегории
+    document.getElementById("category").addEventListener("change", updateSubcategories);
+
+    // Функция генерации задачи через AJAX
+    function generateTask(event) {
+        event.preventDefault();
+        var category = document.getElementById("category").value;
+        var subcategory = document.getElementById("subcategory").value;
+
+        if (!category) {
+            alert("Пожалуйста, выберите категорию");
+            return;
+        }
+
+        var data = { category: category, subcategory: subcategory };
+
+        fetch('/generate_task', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(data)
+        })
+            .then(response => {
+                if (!response.ok) throw new Error("Ошибка сервера");
+                return response.json();
+            })
+            .then(data => {
+                // Обновляем блок с задачей
+                document.getElementById("taskOutput").innerHTML = data.task;
+                // Перерендериваем MathJax для корректного отображения формул
+                if (typeof MathJax !== 'undefined') {
+                    MathJax.Hub.Queue(["Typeset", MathJax.Hub, "taskOutput"]);
+                }
+            })
+            .catch(error => {
+                console.error('Ошибка:', error);
+                alert("Ошибка генерации задачи");
+            });
+    }
+
+    // Обработчики отправки формы и кнопки перегенерации
+    document.getElementById("taskForm").addEventListener("submit", generateTask);
+    document.getElementById("regenerateBtn").addEventListener("click", generateTask);
+</script>
+{% endblock %}

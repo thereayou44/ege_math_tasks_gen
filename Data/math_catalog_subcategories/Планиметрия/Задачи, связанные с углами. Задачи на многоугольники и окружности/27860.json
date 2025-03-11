@@ -1,0 +1,53 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27860,
+    "condition": {
+        "text": "Радиус окружности равен 1. Найдите величину острого вписанного угла, опирающегося на хорду, равную  Ответ дайте в градусах.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918056\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right; margin:10px\" src=\"/get_file?id=1448\">Ра­ди­ус окруж­но­сти равен 1. Най­ди­те ве­ли­чи­ну остро­го впи­сан­но­го угла, опи­ра­ю­ще­го­ся на хорду, рав­ную <img src=\"https://ege.sdamgia.ru/formula/svg/59/59e6ed269715680d8e7a3d3fe05b94d5.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та .\"> Ответ дайте в гра­ду­сах.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/59/59e6ed269715680d8e7a3d3fe05b94d5.svg",
+            "/get_file?id=1448"
+        ]
+    },
+    "solution": {
+        "text": "Решение. По теореме синусов для треугольника ACB имеем: Следовательно, искомый угол равен 45°. Ответ: 45.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27860\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По тео­ре­ме си­ну­сов для тре­уголь­ни­ка <i>ACB</i> имеем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/08/081c7e0901623e60b8e84e08e3760e29.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" синус C = дробь: чис­ли­тель: AB, зна­ме­на­тель: 2R конец дроби = дробь: чис­ли­тель: ко­рень из 2 , зна­ме­на­тель: 2 конец дроби . \"></p><p class=\"left_margin\"></p></center> <p class=\"left_margin\">Сле­до­ва­тель­но, ис­ко­мый угол равен 45°.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 45.</p><p></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/08/081c7e0901623e60b8e84e08e3760e29.svg"
+        ]
+    },
+    "answer": "45",
+    "topic_id": null,
+    "analog_ids": [
+        27860,
+        51081,
+        51083,
+        51085,
+        51081,
+        51083,
+        51085,
+        51087,
+        51089,
+        51091,
+        51093,
+        51095,
+        51097,
+        51099,
+        51101,
+        51103,
+        51105,
+        51107,
+        51109,
+        51111,
+        51113,
+        51115,
+        51117,
+        51119,
+        51121,
+        51123,
+        51125,
+        51127,
+        51129
+    ]
+}

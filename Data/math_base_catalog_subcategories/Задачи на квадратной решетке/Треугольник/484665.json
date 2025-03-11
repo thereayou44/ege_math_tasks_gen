@@ -1,0 +1,36 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 484665,
+    "condition": {
+        "text": "Найдите несократимую дробь  такую, что ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body592837\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те не­со­кра­ти­мую дробь <img src=\"https://ege.sdamgia.ru/formula/svg/82/82cc0bc4c78050c388d2be3ea2c5905e.svg\" class=\"tex\" style=\"vertical-align:-10.7pt\" alt=\" дробь: чис­ли­тель: p, зна­ме­на­тель: q конец дроби \"> такую, что <img src=\"https://ege.sdamgia.ru/formula/svg/53/53fedd4bb5a6941b83fbab582352585a.svg\" class=\"tex\" style=\"vertical-align:-23.1pt\" alt=\" дробь: чис­ли­тель: p, зна­ме­на­тель: q конец дроби = дробь: чис­ли­тель: 1234567\\overbrace888...8 в сте­пе­ни левая круг­лая скоб­ка 2000 пра­вая круг­лая скоб­ка 7654321, зна­ме­на­тель: 12345678\\underbrace999...9_199987654321 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/82/82cc0bc4c78050c388d2be3ea2c5905e.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/53fedd4bb5a6941b83fbab582352585a.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Пусть   а   — наибольший общий делитель чисел a и  Тогда  Число a состоит из 2014 знаков, а число b  — из 2015 знаков, а значит, b и  состоят из одинакового количества разрядов. Более того, рассмотрим разность По свойствам наибольшего общего делителя  Заметим, что  значит, число a кратно числу  Поэтому  и тогда  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol484665\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/9a/9a89a083264aad4f946ceeebcbecfaf5.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a=1234567888...87654321,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/c4/c42cb23d997c1a0c5b96ba8b73f5f3d4.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"b=12345678999...987654321,\"> а <img src=\"https://ege.sdamgia.ru/formula/svg/e6/e698d7e8ede194c47533aae409752136.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"НОД левая круг­лая скоб­ка a, b пра­вая круг­лая скоб­ка \">  — наи­боль­ший общий де­ли­тель чисел <i>a</i> и <img src=\"https://ege.sdamgia.ru/formula/svg/2d/2dd7ce2d41fb3bc94a98a058ea9f3832.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"b.\"> Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/21/21c443b787fc721de0a67bdedbd656ab.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\"p= дробь: чис­ли­тель: a, зна­ме­на­тель: НОД левая круг­лая скоб­ка a,b пра­вая круг­лая скоб­ка конец дроби , q= дробь: чис­ли­тель: b, зна­ме­на­тель: НОД левая круг­лая скоб­ка a, b пра­вая круг­лая скоб­ка конец дроби . \"></p><p>&nbsp;</p><p class=\"left_margin\">Число <i>a</i> со­сто­ит из 2014 зна­ков, а число <i>b</i>  — из 2015 зна­ков, а зна­чит, <i>b</i> и <img src=\"https://ege.sdamgia.ru/formula/svg/71/71149d8d730099caae3b0ad93b6b93ae.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"10a\"> со­сто­ят из оди­на­ко­во­го ко­ли­че­ства раз­ря­дов. Более того, рас­смот­рим раз­ность <img src=\"https://ege.sdamgia.ru/formula/svg/de/de574ead05dab2445fa0bc87684d9b1b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"b минус 10a:\"></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d8/d81f7f971498c4856dc7995af33894bc.svg\" class=\"tex\" style=\"vertical-align:-29.9pt\" alt=\"\\raisebox6pt$ минус $\\beginmatrix 12345678\\overbrace99...9 в сте­пе­ни левая круг­лая скоб­ка 1999 пра­вая круг­лая скоб­ка 87654321 \\underline1234567888...876543210 \\underbrace11...1_199911111111 \\endmatrix\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">По свой­ствам наи­боль­ше­го об­ще­го де­ли­те­ля <img src=\"https://ege.sdamgia.ru/formula/svg/23/23ac4692e4552aeb7a1584deab838f53.svg\" class=\"tex\" style=\"vertical-align:-15.3pt\" alt=\"НОД левая круг­лая скоб­ка a, b пра­вая круг­лая скоб­ка =НОД левая круг­лая скоб­ка a,b минус 10a пра­вая круг­лая скоб­ка =НОД левая круг­лая скоб­ка a, \\underbrace11...1_2007 пра­вая круг­лая скоб­ка .\"> </p><p class=\"left_margin\">За­ме­тим, что <img src=\"https://ege.sdamgia.ru/formula/svg/17/17c8c992457238567a5d39250e5ad857.svg\" class=\"tex\" style=\"vertical-align:-15.4pt\" alt=\"a=\\underbrace11111111_8 умно­жить на \\underbrace11...1_2007,\"> зна­чит, число <i>a</i> крат­но числу <img src=\"https://ege.sdamgia.ru/formula/svg/95/95b70b7be5105bfff2d193f2464df1a5.svg\" class=\"tex\" style=\"vertical-align:-15.4pt\" alt=\"\\underbrace11...1_2007.\"> </p><p class=\"left_margin\">По­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/ef/ef6f8cabfbc941688b8b90abcd128288.svg\" class=\"tex\" style=\"vertical-align:-15.3pt\" alt=\"НОД левая круг­лая скоб­ка a, b пра­вая круг­лая скоб­ка =\\underbrace11...1_2007,\"> и тогда <img src=\"https://ege.sdamgia.ru/formula/svg/8c/8c32975545cd6f9371b6a3f62bad49cf.svg\" class=\"tex\" style=\"vertical-align:-22.9pt\" alt=\"p= дробь: чис­ли­тель: a, зна­ме­на­тель: \\underbrace11...1_2007 конец дроби =\\underbrace11...1_8,q= дробь: чис­ли­тель: b, зна­ме­на­тель: \\underbrace11...1_2007 конец дроби =\\underbrace11...1_9. \"></p><p>&nbsp;</p><p class=\"left_margin\">Ответ: <img src=\"https://ege.sdamgia.ru/formula/svg/bc/bca739517a3d9020a56ca5d5d3b365c6.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 11111111, зна­ме­на­тель: 111111111 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/9a/9a89a083264aad4f946ceeebcbecfaf5.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c42cb23d997c1a0c5b96ba8b73f5f3d4.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e698d7e8ede194c47533aae409752136.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2dd7ce2d41fb3bc94a98a058ea9f3832.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/21c443b787fc721de0a67bdedbd656ab.svg",
+            "https://ege.sdamgia.ru/formula/svg/71/71149d8d730099caae3b0ad93b6b93ae.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/de574ead05dab2445fa0bc87684d9b1b.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d81f7f971498c4856dc7995af33894bc.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/23ac4692e4552aeb7a1584deab838f53.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/17c8c992457238567a5d39250e5ad857.svg",
+            "https://ege.sdamgia.ru/formula/svg/95/95b70b7be5105bfff2d193f2464df1a5.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/ef6f8cabfbc941688b8b90abcd128288.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8c32975545cd6f9371b6a3f62bad49cf.svg",
+            "https://ege.sdamgia.ru/formula/svg/bc/bca739517a3d9020a56ca5d5d3b365c6.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

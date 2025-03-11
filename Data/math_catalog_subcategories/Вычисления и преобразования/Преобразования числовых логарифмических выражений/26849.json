@@ -1,0 +1,49 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 26849,
+    "condition": {
+        "text": "Найдите значение выражения ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919069\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те зна­че­ние вы­ра­же­ния <img src=\"https://ege.sdamgia.ru/formula/svg/39/3935ccc82ef4d88222cae8d1a6257508.svg\" class=\"tex\" style=\"vertical-align:-5.2pt\" alt=\"\\log _50,2 плюс \\log _0,54.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/39/3935ccc82ef4d88222cae8d1a6257508.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Выполним преобразования:  Ответ: −3.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol26849\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Вы­пол­ним пре­об­ра­зо­ва­ния: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/62/6213deba4e3d89a4d17c4c776e567437.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"\\log _50,2 плюс \\log _0,54 = ло­га­рифм по ос­но­ва­нию целая часть: 5, дроб­ная часть: чис­ли­тель: 1, зна­ме­на­тель: 5 плюс ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 2 в сте­пе­ни левая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка пра­вая круг­лая скоб­ка 2 в квад­ра­те = минус 1 минус 2= минус 3.\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ</span>: −3.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/62/6213deba4e3d89a4d17c4c776e567437.svg"
+        ]
+    },
+    "answer": "-3",
+    "topic_id": 7,
+    "analog_ids": [
+        26849,
+        68583,
+        68595,
+        641997,
+        68583,
+        68595,
+        641997,
+        68555,
+        68557,
+        68559,
+        68561,
+        68563,
+        68565,
+        68567,
+        68569,
+        68571,
+        68573,
+        68575,
+        68577,
+        68579,
+        68581,
+        68585,
+        68587,
+        68589,
+        68591,
+        68593
+    ]
+}

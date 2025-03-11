@@ -1,0 +1,45 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 507580,
+    "condition": {
+        "text": "Решите систему уравнений ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body643136\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те си­сте­му урав­не­ний <img src=\"https://ege.sdamgia.ru/formula/svg/44/442e477483c40d75227ae67dc63439c2.svg\" class=\"tex\" style=\"vertical-align:-21.0pt\" alt=\" си­сте­ма вы­ра­же­ний дробь: чис­ли­тель: 2 синус в квад­ра­те x минус 3 синус x плюс 1, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: y конец ар­гу­мен­та конец дроби =0,y минус ко­си­нус x=0. конец си­сте­мы \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/44/442e477483c40d75227ae67dc63439c2.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Из уравнения  находим:  или 1)  Пусть  тогда либо  и  либо  и   — не дает решения.2)  Пусть  тогда   — не дает решения. Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol507580\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Из урав­не­ния <img src=\"https://ege.sdamgia.ru/formula/svg/8b/8b81cc37464e95c412dc80db75fb4813.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2 синус в квад­ра­те x минус 3 синус x плюс 1=0\"> на­хо­дим: <img src=\"https://ege.sdamgia.ru/formula/svg/cf/cfcfff5b0a97e428b521d3e84c119a76.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" синус x= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби \"> или <img src=\"https://ege.sdamgia.ru/formula/svg/b0/b047d7f4a969f4560bedd39339040b68.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" синус x=1.\"></p><p class=\"left_margin\">1)  Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/04/04177919a96cde6ad6e625742fc1f9f5.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" синус x= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби , \"> тогда либо <img src=\"https://ege.sdamgia.ru/formula/svg/e6/e6761faabe8d20d06332926243da62e5.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи n, n при­над­ле­жит Z , \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/f1/f1494d77afedc366600a613dcf13f714.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"y= ко­си­нус x= дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби боль­ше 0, \"> либо <img src=\"https://ege.sdamgia.ru/formula/svg/74/741820aca857ee4f38f7ff7e26dda471.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи n, n при­над­ле­жит Z \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/b3/b3559d3be5365f73f42540e182546d64.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"y= ко­си­нус x= минус дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби мень­ше 0 \">  — не дает ре­ше­ния.</p><p class=\"left_margin\">2)  Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/a1/a191c9069baf16219309f2d72eb07fd0.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" синус x=1,\"> тогда <img src=\"https://ege.sdamgia.ru/formula/svg/9f/9f4e395da6060d5f96d239eb8dd1b729.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y= ко­си­нус x=0\">  — не дает ре­ше­ния.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/53/53924b2697af460634f723d85a7a8d04.svg\" class=\"tex\" style=\"vertical-align:-8.6pt\" alt=\"x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи n, n при­над­ле­жит Z ; y= дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/8b/8b81cc37464e95c412dc80db75fb4813.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cfcfff5b0a97e428b521d3e84c119a76.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b047d7f4a969f4560bedd39339040b68.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/04177919a96cde6ad6e625742fc1f9f5.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e6761faabe8d20d06332926243da62e5.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f1494d77afedc366600a613dcf13f714.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/741820aca857ee4f38f7ff7e26dda471.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b3559d3be5365f73f42540e182546d64.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a191c9069baf16219309f2d72eb07fd0.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9f4e395da6060d5f96d239eb8dd1b729.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/53924b2697af460634f723d85a7a8d04.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": [
+        507580,
+        507591,
+        507610,
+        507614,
+        507591,
+        507610,
+        507614,
+        507809,
+        507227,
+        510177,
+        511446,
+        511450
+    ]
+}

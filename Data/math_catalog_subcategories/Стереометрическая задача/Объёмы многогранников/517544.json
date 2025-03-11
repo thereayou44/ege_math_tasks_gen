@@ -1,0 +1,38 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 517544,
+    "condition": {
+        "text": "Дана пирамида PABCD, в основании  — трапеция ABCD с большим основанием AD. Известно, что сумма углов BAD и ADC равна 90°, а плоскости PAB и PCD перпендикулярны основанию, прямые AB и CD пересекаются в точке K.а)  Доказать, что плоскость PAB перпендикулярна плоскости PCD.б)  Найдите объём PKBC, если AB  =  BC  =  CD  =  2, а PK = 12.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body625492\" class=\"pbody\"><p class=\"left_margin\">Дана пи­ра­ми­да <i>PABCD</i>, в ос­но­ва­нии  — тра­пе­ция <i>ABCD</i> с боль­шим ос­но­ва­ни­ем <i>AD</i>. Из­вест­но, что сумма углов <i>BAD</i> и <i>ADC</i> равна 90°, а плос­ко­сти <i>PAB</i> и <i>PCD</i> пер­пен­ди­ку­ляр­ны ос­но­ва­нию, пря­мые <i>AB</i> и <i>CD</i> пе­ре­се­ка­ют­ся в точке <i>K</i>.</p><p class=\"left_margin\">а)  До­ка­зать, что плос­кость <i>PAB</i> пер­пен­ди­ку­ляр­на плос­ко­сти <i>PCD</i>.</p><p class=\"left_margin\">б)  Най­ди­те объём <i>PKBC</i>, если <i>AB</i>  =  <i>BC</i>  =  <i>CD</i>  =  2, а <i>PK</i> = 12.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Поскольку  то   и  значит,  тогда  и  откуда   что и требовалось доказать.б)  Поскольку  то трапеция ABCD  — равнобокая. Так как сумма углов BAD и ADC равна 90 градусов, то  тогда треугольники AKD и BKC прямоугольные и равнобедренные. В :  тогда   Ответ:б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol517544\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=142084\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  По­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/ae/ae5571cb7acfebb94e93e43a88d07f1f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle BAD плюс \\angle ADC = 90 гра­ду­сов,\"> то <img src=\"https://ege.sdamgia.ru/formula/svg/e5/e5bf6a374d7d512c838d1d851da45a6f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle AKD = 90 гра­ду­сов.\"> <img src=\"https://ege.sdamgia.ru/formula/svg/da/da38360c4d04bea8df23d5b9c9148ed2.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка PAB пра­вая круг­лая скоб­ка \\bot левая круг­лая скоб­ка ABC пра­вая круг­лая скоб­ка \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/ef/efc1a6c7c5bc77afdf9ff03072b44db0.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка PDC пра­вая круг­лая скоб­ка \\bot левая круг­лая скоб­ка ABC пра­вая круг­лая скоб­ка ,\"> зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/b5/b565117267ebcf23ba668047c70f28d4.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"PK\\bot левая круг­лая скоб­ка ABC пра­вая круг­лая скоб­ка ,\"> тогда <img src=\"https://ege.sdamgia.ru/formula/svg/25/25fc37c52d0135959ad98df50f2a20f7.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AK\\bot PK\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/93/937cae14edcec3430b92209ea61a8ed5.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AK\\bot DK,\"> от­ку­да  <img src=\"https://ege.sdamgia.ru/formula/svg/50/50612783fd5c23edcaa961ed38786912.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка PAB пра­вая круг­лая скоб­ка \\bot левая круг­лая скоб­ка PCD пра­вая круг­лая скоб­ка ,\"> что и тре­бо­ва­лось до­ка­зать.</p><p class=\"left_margin\">б)  По­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/e1/e150d8c78086784307df056f60c66ee8.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AB = CD,\"> то тра­пе­ция <i>ABCD</i>  — рав­но­бо­кая. Так как сумма углов <i>BAD</i> и <i>ADC</i> равна 90 гра­ду­сов, то <img src=\"https://ege.sdamgia.ru/formula/svg/07/07329bd5af73ec5c4c626150e912771d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle BAD =\\angle ADC = 45 гра­ду­сов,\"> тогда тре­уголь­ни­ки <i>AKD</i> и <i>BKC</i> пря­мо­уголь­ные и рав­но­бед­рен­ные. В <img src=\"https://ege.sdamgia.ru/formula/svg/ad/ad59a2cb98a2c0347315ef604e599e44.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\vartriangle BKC\">: <img src=\"https://ege.sdamgia.ru/formula/svg/19/19f4b6cf6e0544317334b6f6c63a1282.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"BK=KC=x,\"> тогда <img src=\"https://ege.sdamgia.ru/formula/svg/cf/cf90430f4298d1fc2b43d9af52e1dd8c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BC в квад­ра­те =BK в квад­ра­те плюс KC в квад­ра­те рав­но­силь­но 4=2x в квад­ра­те рав­но­силь­но x= ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та .\"> <img src=\"https://ege.sdamgia.ru/formula/svg/a7/a7d9b9050413312a785fd3909b79f545.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"V_PKBC= дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби S_BKC умно­жить на h = дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби умно­жить на дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на 2 умно­жить на 12 = 4. \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>б) <img src=\"https://ege.sdamgia.ru/formula/svg/14/144832423f4f362bd59861ede4f1f003.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"V_PKBC=4.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ae/ae5571cb7acfebb94e93e43a88d07f1f.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e5bf6a374d7d512c838d1d851da45a6f.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/da38360c4d04bea8df23d5b9c9148ed2.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/efc1a6c7c5bc77afdf9ff03072b44db0.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b565117267ebcf23ba668047c70f28d4.svg",
+            "https://ege.sdamgia.ru/formula/svg/25/25fc37c52d0135959ad98df50f2a20f7.svg",
+            "https://ege.sdamgia.ru/formula/svg/93/937cae14edcec3430b92209ea61a8ed5.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50612783fd5c23edcaa961ed38786912.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e150d8c78086784307df056f60c66ee8.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/07329bd5af73ec5c4c626150e912771d.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/ad59a2cb98a2c0347315ef604e599e44.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/19f4b6cf6e0544317334b6f6c63a1282.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf90430f4298d1fc2b43d9af52e1dd8c.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a7d9b9050413312a785fd3909b79f545.svg",
+            "https://ege.sdamgia.ru/formula/svg/14/144832423f4f362bd59861ede4f1f003.svg",
+            "/get_file?id=142084"
+        ]
+    },
+    "answer": "б)",
+    "topic_id": 14,
+    "analog_ids": [
+        517544,
+        517542
+    ]
+}

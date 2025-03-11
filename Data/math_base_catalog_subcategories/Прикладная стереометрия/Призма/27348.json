@@ -1,0 +1,44 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27348,
+    "condition": {
+        "text": "В тупоугольном треугольнике ABC  AH − высота,  Найдите ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918568\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right; margin:10px\" src=\"/get_file?id=1164\">В ту­по­уголь­ном тре­уголь­ни­ке <i>ABC</i> <img src=\"https://ege.sdamgia.ru/formula/svg/da/daef0ec1b3ef36ebb9bb8750e93a4499.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AC = BC = 25,\"> <i>AH</i> − вы­со­та, <img src=\"https://ege.sdamgia.ru/formula/svg/6f/6f9c6c0e760a40b4db50ac735458f8a0.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"CH = 20.\"> Най­ди­те <img src=\"https://ege.sdamgia.ru/formula/svg/c2/c259f75d7ecb43397ee1995743b8336d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" синус ACB.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/da/daef0ec1b3ef36ebb9bb8750e93a4499.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6f9c6c0e760a40b4db50ac735458f8a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c259f75d7ecb43397ee1995743b8336d.svg",
+            "/get_file?id=1164"
+        ]
+    },
+    "solution": {
+        "text": "Решение. ##      Ответ: 0,6. ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27348\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">##</p><p align=\"center\"><img src=\"https://ege.sdamgia.ru/formula/svg/77/774ca4bceeff5d03e21d54a3605bcaa1.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" синус \\angle ACB= синус левая круг­лая скоб­ка Пи минус \\angle ACH пра­вая круг­лая скоб­ка = синус \\angle ACH= дробь: чис­ли­тель: AH, зна­ме­на­тель: AC конец дроби = дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: AC в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та минус HC в квад­ра­те пра­вая круг­лая скоб­ка , зна­ме­на­тель: AC конец дроби = \">   </p><p><img src=\"https://ege.sdamgia.ru/formula/svg/80/8027f6cadd3e03eeeb074d5962c99780.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"= дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 625 минус 400 конец ар­гу­мен­та , зна­ме­на­тель: 25 конец дроби = дробь: чис­ли­тель: 15, зна­ме­на­тель: 25 конец дроби =0,6. \"> </p>  <p><span style=\"letter-spaceing:2px\">Ответ</span>: 0,6. </p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/77/774ca4bceeff5d03e21d54a3605bcaa1.svg",
+            "https://ege.sdamgia.ru/formula/svg/80/8027f6cadd3e03eeeb074d5962c99780.svg"
+        ]
+    },
+    "answer": "0,6",
+    "topic_id": null,
+    "analog_ids": [
+        27348,
+        19663,
+        19665,
+        19667,
+        19663,
+        19665,
+        19667,
+        19669,
+        19671,
+        19673,
+        19675,
+        19677,
+        19679,
+        19681,
+        19683,
+        19685,
+        19687
+    ]
+}

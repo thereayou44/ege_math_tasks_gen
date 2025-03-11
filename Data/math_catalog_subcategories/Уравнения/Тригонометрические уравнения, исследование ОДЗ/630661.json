@@ -1,0 +1,37 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 630661,
+    "condition": {
+        "text": "a)  Решите уравнение б)  Укажите корни этого уравнения, принадлежащие отрезку  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body520569\" class=\"pbody\"><p class=\"left_margin\">a)  Ре­ши­те урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/26/2620585942edac5a3a97234a9a6be2c5.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: 3 тан­генс в квад­ра­те x минус 1, зна­ме­на­тель: 2 синус x плюс 1 конец дроби =0. \"></p><p class=\"left_margin\">б)  Ука­жи­те корни этого урав­не­ния, при­над­ле­жа­щие от­рез­ку  <img src=\"https://ege.sdamgia.ru/formula/svg/8d/8d03dead0bc75bbf61baaaa6478d233b.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка 2 Пи ; дробь: чис­ли­тель: 7 Пи , зна­ме­на­тель: 2 конец дроби пра­вая квад­рат­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/26/2620585942edac5a3a97234a9a6be2c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/8d/8d03dead0bc75bbf61baaaa6478d233b.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Уравнение  равносильно системе  откуда следует, что  при условии  Получаем, что б)  С помощью числовой окружности отберём корни, принадлежащие отрезку  Получаем   Ответ: а)  б)  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol630661\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=113060\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/42/4216532d9bda68be992cdcf106412100.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: 3 тан­генс в квад­ра­те x минус 1, зна­ме­на­тель: 2 синус x плюс 1 конец дроби =0 \"> рав­но­силь­но си­сте­ме <img src=\"https://ege.sdamgia.ru/formula/svg/e7/e78a8c6a71fb68ce303f1279f79f11c9.svg\" class=\"tex\" style=\"vertical-align:-22.5pt\" alt=\" си­сте­ма вы­ра­же­ний тан­генс в квад­ра­те x= дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби , синус x не равно минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби , конец си­сте­мы . \"> от­ку­да сле­ду­ет, что <img src=\"https://ege.sdamgia.ru/formula/svg/d5/d5d97c52ac114546e9895a1d00b43333.svg\" class=\"tex\" style=\"vertical-align:-25.1pt\" alt=\" со­во­куп­ность вы­ра­же­ний тан­генс x= минус дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 3 конец дроби , тан­генс x= дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 3 конец дроби конец со­во­куп­но­сти . \"> при усло­вии <img src=\"https://ege.sdamgia.ru/formula/svg/c7/c72c71204c748469b8682d26e5df72e8.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" синус x не равно минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби .\"> По­лу­ча­ем, что <img src=\"https://ege.sdamgia.ru/formula/svg/b9/b9f033a8544f9e5aae25a1582e99c3fb.svg\" class=\"tex\" style=\"vertical-align:-21.3pt\" alt=\" со­во­куп­ность вы­ра­же­ний x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k,x= дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k, конец со­во­куп­но­сти . k при­над­ле­жит Z . \"></p><p class=\"left_margin\">б)  С по­мо­щью чис­ло­вой окруж­но­сти отберём корни, при­над­ле­жа­щие от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/8d/8d03dead0bc75bbf61baaaa6478d233b.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка 2 Пи ; дробь: чис­ли­тель: 7 Пи , зна­ме­на­тель: 2 конец дроби пра­вая квад­рат­ная скоб­ка .\"> По­лу­ча­ем <img src=\"https://ege.sdamgia.ru/formula/svg/eb/ebd9a4fd3a758670b458a4dc5fc4e93b.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 13 Пи , зна­ме­на­тель: 6 конец дроби , \"> <img src=\"https://ege.sdamgia.ru/formula/svg/38/38f5ef1714130d97290aff12af97450c.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 17 Пи , зна­ме­на­тель: 6 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) <img src=\"https://ege.sdamgia.ru/formula/svg/32/32ca3db2bf17578c03125c68d6ff3a19.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая фи­гур­ная скоб­ка дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k; дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k:k при­над­ле­жит Z пра­вая фи­гур­ная скоб­ка ; \"> б) <img src=\"https://ege.sdamgia.ru/formula/svg/eb/ebd9a4fd3a758670b458a4dc5fc4e93b.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 13 Пи , зна­ме­на­тель: 6 конец дроби , \"> <img src=\"https://ege.sdamgia.ru/formula/svg/38/38f5ef1714130d97290aff12af97450c.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 17 Пи , зна­ме­на­тель: 6 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/42/4216532d9bda68be992cdcf106412100.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e78a8c6a71fb68ce303f1279f79f11c9.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d5d97c52ac114546e9895a1d00b43333.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c72c71204c748469b8682d26e5df72e8.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b9f033a8544f9e5aae25a1582e99c3fb.svg",
+            "https://ege.sdamgia.ru/formula/svg/8d/8d03dead0bc75bbf61baaaa6478d233b.svg",
+            "https://ege.sdamgia.ru/formula/svg/eb/ebd9a4fd3a758670b458a4dc5fc4e93b.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/38f5ef1714130d97290aff12af97450c.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/32ca3db2bf17578c03125c68d6ff3a19.svg",
+            "https://ege.sdamgia.ru/formula/svg/eb/ebd9a4fd3a758670b458a4dc5fc4e93b.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/38f5ef1714130d97290aff12af97450c.svg",
+            "/get_file?id=113060"
+        ]
+    },
+    "answer": "а)  б)",
+    "topic_id": 13,
+    "analog_ids": [
+        630661,
+        630669
+    ]
+}

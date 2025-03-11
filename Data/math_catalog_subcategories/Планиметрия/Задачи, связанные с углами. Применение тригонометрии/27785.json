@@ -1,0 +1,55 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27785,
+    "condition": {
+        "text": "В треугольнике ABC угол C равен 90°, угол A равен   Найдите ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918133\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right; margin:10px\" src=\"/get_file?id=1359\">В тре­уголь­ни­ке <i>ABC</i> угол <i>C</i> равен 90°, угол <i>A</i> равен <img src=\"https://ege.sdamgia.ru/formula/svg/70/7024b522968c60dc706122c79bd8840b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"60 гра­ду­сов,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/19/19dc7b3189143fc475994bba80349fc7.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BC = 2 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та .\"> Най­ди­те <img src=\"https://ege.sdamgia.ru/formula/svg/0c/0c6ed112a9eb109891082295b6e83622.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AB.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/70/7024b522968c60dc706122c79bd8840b.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/19dc7b3189143fc475994bba80349fc7.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c6ed112a9eb109891082295b6e83622.svg",
+            "/get_file?id=1359"
+        ]
+    },
+    "solution": {
+        "text": "Решение. ##  Ответ: 4.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27785\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">##</p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/51/51e8c9d86b79118ee4506f05fddbaeef.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"AB= дробь: чис­ли­тель: BC, зна­ме­на­тель: синус A конец дроби = дробь: чис­ли­тель: 2 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: синус 60 гра­ду­сов конец дроби =2 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та умно­жить на дробь: чис­ли­тель: 2, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та конец дроби =4. \"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 4.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/51/51e8c9d86b79118ee4506f05fddbaeef.svg"
+        ]
+    },
+    "answer": "4",
+    "topic_id": null,
+    "analog_ids": [
+        27785,
+        48361,
+        48363,
+        48365,
+        48361,
+        48363,
+        48365,
+        48367,
+        48369,
+        48371,
+        48373,
+        48375,
+        48377,
+        48379,
+        48381,
+        48383,
+        48385,
+        48387,
+        48389,
+        48391,
+        48393,
+        48395,
+        48397,
+        48399,
+        48401,
+        48403,
+        48405,
+        48407,
+        48409
+    ]
+}

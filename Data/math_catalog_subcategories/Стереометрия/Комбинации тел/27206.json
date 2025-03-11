@@ -1,0 +1,33 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27206,
+    "condition": {
+        "text": "Вершина A куба  с ребром 1,6 является центром сферы, проходящей через точку A1. Найдите площадь S части сферы, содержащейся внутри куба. В ответе запишите величину ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918714\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=139956\" style=\"float:right;margin:10px;max-width:100%\">Вер­ши­на <i>A</i> куба <img src=\"https://ege.sdamgia.ru/formula/svg/3d/3dcbf64aebe65200503211a8fc5a3518.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"ABCDA_1B_1C_1D_1\"> с реб­ром 1,6 яв­ля­ет­ся цен­тром сферы, про­хо­дя­щей через точку <i>A</i><sub>1</sub>. Най­ди­те пло­щадь <i>S</i> части сферы, со­дер­жа­щей­ся внут­ри куба. В от­ве­те за­пи­ши­те ве­ли­чи­ну <img src=\"https://ege.sdamgia.ru/formula/svg/e2/e299b7759c2fcaead5257fdb2bf94840.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"S/ Пи .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/3d/3dcbf64aebe65200503211a8fc5a3518.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e299b7759c2fcaead5257fdb2bf94840.svg",
+            "/get_file?id=139956"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Так как ребро куба равно радиусу сферы, в кубе содержится 1/8 часть сферы, и, соответственно, 1/8 ее поверхности, равная  Ответ: 1,28.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27206\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Так как ребро куба равно ра­ди­у­су сферы, в кубе со­дер­жит­ся 1/8 часть сферы, и, со­от­вет­ствен­но, 1/8 ее по­верх­но­сти, рав­ная </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/c3/c355b3cbf81945b5e09692ca5192064e.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 1, зна­ме­на­тель: 8 конец дроби S= дробь: чис­ли­тель: 1, зна­ме­на­тель: 8 конец дроби умно­жить на 4 Пи R в квад­ра­те = дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби умно­жить на 1,6 в квад­ра­те =1,28 Пи . \"></p><p class=\"left_margin\"></p></center> <p><span style=\"letter-spacing:2px \">Ответ</span>: 1,28.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c3/c355b3cbf81945b5e09692ca5192064e.svg"
+        ]
+    },
+    "answer": "1,28",
+    "topic_id": 3,
+    "analog_ids": [
+        27206,
+        25835,
+        25837,
+        25839,
+        25835,
+        25837,
+        25839,
+        25833
+    ]
+}

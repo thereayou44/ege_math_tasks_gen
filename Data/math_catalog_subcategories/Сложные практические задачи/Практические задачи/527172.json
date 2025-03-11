@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 527172,
+    "condition": {
+        "text": "В июле планируется взять кредит в банке в размере S тыс. рублей (S  — натуральное число) сроком на 3 года. Условия возврата кредита таковы:  — каждый январь долг увеличивается на 22,5% по сравнению с концом предыдущего года;  — в июне каждого года необходимо выплатить одним платежом часть долга;  — в июле каждого года величина долга задается таблицей Год2018201920202021Долг, тыс. руб.S0,7S0,4S0 Найдите наименьшее значение S, при котором каждая из выплат будет составлять целое число тысяч рублей.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body419256\" class=\"pbody\"><p class=\"left_margin\">В июле пла­ни­ру­ет­ся взять кре­дит в банке в раз­ме­ре <i>S</i> тыс. руб­лей (<i>S</i>  — на­ту­раль­ное число) сро­ком на 3 года. Усло­вия воз­вра­та кре­ди­та та­ко­вы:</p><p>  — каж­дый ян­варь долг уве­ли­чи­ва­ет­ся на 22,5% по срав­не­нию с кон­цом преды­ду­ще­го года;</p><p>  — в июне каж­до­го года не­об­хо­ди­мо вы­пла­тить одним пла­те­жом часть долга;</p><p>  — в июле каж­до­го года ве­ли­чи­на долга за­да­ет­ся таб­ли­цей</p><p>&nbsp;</p><p></p><table style=\"margin:auto\"><tbody><tr><th style=\"text-align:center\">Год</th><th style=\"text-align:center\">2018</th><th style=\"text-align:center\">2019</th><th style=\"text-align:center\">2020</th><th style=\"text-align:center\">2021</th></tr><tr><th style=\"text-align:center\">Долг, тыс. руб.</th><td style=\"text-align:center\"><i>S</i></td><td style=\"text-align:center\">0,7<i>S</i></td><td style=\"text-align:center\">0,4<i>S</i></td><td style=\"text-align:center\">0</td></tr></tbody></table><p>&nbsp;</p><p class=\"left_margin\">Най­ди­те наи­мень­шее зна­че­ние <i>S</i>, при ко­то­ром каж­дая из вы­плат будет со­став­лять целое число тысяч руб­лей.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Вычислим все выплаты.После первого начисления процентов долг будет  поэтому выплата будет После второго начисления процентов долг будет  поэтому выплата будет После третьего начисления процентов долг будет  поэтому выплата будет Чтобы все они были целыми, S должно делиться на  поэтому минимальное S это  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol527172\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Вы­чис­лим все вы­пла­ты.</p><p class=\"left_margin\">После пер­во­го на­чис­ле­ния про­цен­тов долг будет <img src=\"https://ege.sdamgia.ru/formula/svg/ab/abf793c89198941c614e5ccddf5dad6f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1,225S,\"> по­это­му вы­пла­та будет <img src=\"https://ege.sdamgia.ru/formula/svg/b3/b3ab4321a4e9d3334fb1a6e95416126d.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"0,525S= дробь: чис­ли­тель: 21, зна­ме­на­тель: 40 конец дроби S. \"></p><p class=\"left_margin\">После вто­ро­го на­чис­ле­ния про­цен­тов долг будет <img src=\"https://ege.sdamgia.ru/formula/svg/29/29eee2b9bec1e1361eeae837f188efbd.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" 1,225 умно­жить на 0,7S=0,8575S,\"> по­это­му вы­пла­та будет <img src=\"https://ege.sdamgia.ru/formula/svg/d9/d97dbf74d5a1cd71dcc7622b7a916330.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"0,4575S= дробь: чис­ли­тель: 183, зна­ме­на­тель: 400 конец дроби S. \"></p><p class=\"left_margin\">После тре­тье­го на­чис­ле­ния про­цен­тов долг будет <img src=\"https://ege.sdamgia.ru/formula/svg/97/975b7a9bca1141d74d2ff9a5a04938a5.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1,225 умно­жить на 0,4S=0,49S,\"> по­это­му вы­пла­та будет <img src=\"https://ege.sdamgia.ru/formula/svg/9f/9fd9ca44d919247ab0265c6811b0facc.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"0,49S= дробь: чис­ли­тель: 49, зна­ме­на­тель: 100 конец дроби S. \"></p><p class=\"left_margin\">Чтобы все они были це­лы­ми, <i>S</i> долж­но де­лить­ся на <img src=\"https://ege.sdamgia.ru/formula/svg/fa/fac9166a6a86ece549f1516a71330fbd.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"40,400,100,\"> по­это­му ми­ни­маль­ное <i>S</i> это <img src=\"https://ege.sdamgia.ru/formula/svg/3e/3e7afbc5f848e080510deb9a86a4719d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"400.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/2f/2f5d5b1b9bdfd777952cb3339954c086.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"S=400.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ab/abf793c89198941c614e5ccddf5dad6f.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b3ab4321a4e9d3334fb1a6e95416126d.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/29eee2b9bec1e1361eeae837f188efbd.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d97dbf74d5a1cd71dcc7622b7a916330.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/975b7a9bca1141d74d2ff9a5a04938a5.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9fd9ca44d919247ab0265c6811b0facc.svg",
+            "https://ege.sdamgia.ru/formula/svg/fa/fac9166a6a86ece549f1516a71330fbd.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e7afbc5f848e080510deb9a86a4719d.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2f5d5b1b9bdfd777952cb3339954c086.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

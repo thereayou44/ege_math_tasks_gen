@@ -1,0 +1,42 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 484577,
+    "condition": {
+        "text": "В правильной треугольной призме ABCA1B1C1, все рёбра равны 1.а)  Докажите, что расстояние между прямыми AA1 и BC1 равно расстоянию между прямой  и плоскостью б)  Найдите это расстояние.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body592413\" class=\"pbody\"><p class=\"left_margin\">В пра­виль­ной тре­уголь­ной приз­ме <i>ABCA</i><sub>1</sub><i>B</i><sub>1</sub><i>C</i><sub>1</sub>, все рёбра равны 1.</p><p class=\"left_margin\">а)  До­ка­жи­те, что рас­сто­я­ние между пря­мы­ми <i>AA</i><sub>1</sub> и <i>BC</i><sub>1</sub> равно рас­сто­я­нию между пря­мой <img src=\"https://ege.sdamgia.ru/formula/svg/49/49f3ee9283b111edad91e72f33f0c9b0.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AA_1\"> и плос­ко­стью <img src=\"https://ege.sdamgia.ru/formula/svg/53/53031807e0ccaa006c83c7395ad28264.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"BCC_1.\"></p><p class=\"left_margin\">б)  Най­ди­те это рас­сто­я­ние.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/49/49f3ee9283b111edad91e72f33f0c9b0.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/53031807e0ccaa006c83c7395ad28264.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Так как прямая  пересекается с прямой  параллельной прямой  и лежит в плоскости  параллельной  то расстояние между прямыми  и  равно расстоянию от прямой  до плоскости б)  Пусть AK  — высота треугольника  перпендикулярна  грани  так как   перпендикулярна двум пересекающимся прямым (BC и ), лежащим в плоскости  Таким образом, искомое расстояние  — длина отрезка  Из равностороннего треугольника ABC находим: Ответ:  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol484577\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=132326\" style=\"float:right;margin:10px;max-width:100%\">а)  Так как пря­мая <img src=\"https://ege.sdamgia.ru/formula/svg/c6/c6c6640da93834f19fdbb51f64f132ad.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"BC_1\"> пе­ре­се­ка­ет­ся с пря­мой <img src=\"https://ege.sdamgia.ru/formula/svg/3e/3e885d8cc2b3a7fc96f4fedee82f3de2.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"BB_1\"> па­рал­лель­ной пря­мой <img src=\"https://ege.sdamgia.ru/formula/svg/49/49f3ee9283b111edad91e72f33f0c9b0.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AA_1\"> и лежит в плос­ко­сти <img src=\"https://ege.sdamgia.ru/formula/svg/9f/9f2c2abc16423b6f7ebdeccf019e5c1e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"BCC_1},\"> па­рал­лель­ной <img src=\"https://ege.sdamgia.ru/formula/svg/ac/acbebc79bdeae6f394cd16480558d5e7.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AA_1,\"> то рас­сто­я­ние между пря­мы­ми <img src=\"https://ege.sdamgia.ru/formula/svg/49/49f3ee9283b111edad91e72f33f0c9b0.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AA_1\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/bb/bb0eae7613103277f5524aca43828b53.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"BC_1\"> равно рас­сто­я­нию от пря­мой <img src=\"https://ege.sdamgia.ru/formula/svg/49/49f3ee9283b111edad91e72f33f0c9b0.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AA_1\"> до плос­ко­сти <img src=\"https://ege.sdamgia.ru/formula/svg/53/53031807e0ccaa006c83c7395ad28264.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"BCC_1.\"></p><p class=\"left_margin\">б)  Пусть <i>AK</i>  — вы­со­та тре­уголь­ни­ка <img src=\"https://ege.sdamgia.ru/formula/svg/c4/c421e976ebbd59d6cb94c35b8f59f4c8.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"ABC. AK\"> пер­пен­ди­ку­ляр­на  грани <img src=\"https://ege.sdamgia.ru/formula/svg/59/5991886766d8c31bce642ec206b9052e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"BCC_1B_1,\"> так как   пер­пен­ди­ку­ляр­на двум пе­ре­се­ка­ю­щим­ся пря­мым (<i>BC</i> и <img src=\"https://ege.sdamgia.ru/formula/svg/3e/3e885d8cc2b3a7fc96f4fedee82f3de2.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"BB_1\">), ле­жа­щим в плос­ко­сти <img src=\"https://ege.sdamgia.ru/formula/svg/53/53031807e0ccaa006c83c7395ad28264.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"BCC_1.\"> Таким об­ра­зом, ис­ко­мое рас­сто­я­ние  — длина от­рез­ка <img src=\"https://ege.sdamgia.ru/formula/svg/37/372d6b61a58d204bdb53ea1694e057b6.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AK.\"> Из рав­но­сто­рон­не­го тре­уголь­ни­ка <i>ABC</i> на­хо­дим: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/8e/8e72d50d0a86ce9dcf28730cd39b53d1.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"AK= дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби AB= дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби умно­жить на 1= дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби . \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  <img src=\"https://ege.sdamgia.ru/formula/svg/53/5331a1879e0f42f047d1f5b5d74c45d1.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c6/c6c6640da93834f19fdbb51f64f132ad.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e885d8cc2b3a7fc96f4fedee82f3de2.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/49f3ee9283b111edad91e72f33f0c9b0.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9f2c2abc16423b6f7ebdeccf019e5c1e.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/acbebc79bdeae6f394cd16480558d5e7.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/49f3ee9283b111edad91e72f33f0c9b0.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bb0eae7613103277f5524aca43828b53.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/49f3ee9283b111edad91e72f33f0c9b0.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/53031807e0ccaa006c83c7395ad28264.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c421e976ebbd59d6cb94c35b8f59f4c8.svg",
+            "https://ege.sdamgia.ru/formula/svg/59/5991886766d8c31bce642ec206b9052e.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e885d8cc2b3a7fc96f4fedee82f3de2.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/53031807e0ccaa006c83c7395ad28264.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/372d6b61a58d204bdb53ea1694e057b6.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8e72d50d0a86ce9dcf28730cd39b53d1.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/5331a1879e0f42f047d1f5b5d74c45d1.svg",
+            "/get_file?id=132326"
+        ]
+    },
+    "answer": "",
+    "topic_id": 14,
+    "analog_ids": [
+        484577,
+        511293
+    ]
+}

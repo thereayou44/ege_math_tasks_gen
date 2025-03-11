@@ -1,0 +1,34 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 549156,
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых уравнениеимеет хотя бы один корень.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body397272\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния <i>a</i>, при каж­дом из ко­то­рых урав­не­ние</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/9f/9f340e7628c4ccb8813f893d53c22996.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"4x минус |3x минус |x плюс a||=9|x минус 1|\"></p><p class=\"left_margin\"></p></center><p>имеет хотя бы один ко­рень.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/9f/9f340e7628c4ccb8813f893d53c22996.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Запишем уравнение в виде  Функция  непрерывна и неограниченно возрастает при  так как при любом раскрытии модулейгде  При  функция f убывает, так как при любом раскрытии модулейгде  Следовательно, наименьшее значение функция f принимает при x  =  1, и уравнение f(x)  =  0 будет иметь корень тогда и только тогда, когда Решим это неравенство:Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol549156\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">За­пи­шем урав­не­ние в виде <img src=\"https://ege.sdamgia.ru/formula/svg/fd/fdd785ad9e38e4302d9f863570e4bac2.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"9|x минус 1| минус 4x плюс |3x минус |x плюс a||=0.\"> Функ­ция <img src=\"https://ege.sdamgia.ru/formula/svg/a0/a05b7d0ca35b1e04a62d654463fc0540.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =9|x минус 1| минус 4x плюс |3x минус |x плюс a|\"> не­пре­рыв­на и не­огра­ни­чен­но воз­рас­та­ет при <img src=\"https://ege.sdamgia.ru/formula/svg/5a/5ab55322a0e83b94d671b8d9098348bb.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x боль­ше или равно 1,\"> так как при любом рас­кры­тии мо­ду­лей</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/a9/a98afaa7cd88784798d16530ff787afb.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =9x минус 9 минус 4x\\pm3x \\pm x \\pm a = kx плюс m,\"></p><p class=\"left_margin\"></p></center><p>где <img src=\"https://ege.sdamgia.ru/formula/svg/76/762ac78553d309f13f62118098b2411d.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\" k боль­ше или равно 9 минус 4 минус 4=1 боль­ше 0.\"> При <img src=\"https://ege.sdamgia.ru/formula/svg/dd/dd4234e7ed1dffd806e6eaea25e7fd91.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"x мень­ше или равно 1\"> функ­ция <i>f</i> убы­ва­ет, так как при любом рас­кры­тии мо­ду­лей</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/08/08216813d80d27b8fa3351dd30e43738.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка = минус 9x плюс 9 минус 4x\\pm3x \\pm x \\pm a = kx плюс m,\"></p><p class=\"left_margin\"></p></center><p>где <img src=\"https://ege.sdamgia.ru/formula/svg/1c/1c04e941d957198b8a0dd351e6b70883.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\" k мень­ше или равно минус 9 минус 4 плюс 4= минус 9 мень­ше 0.\"> Сле­до­ва­тель­но, наи­мень­шее зна­че­ние функ­ция <i>f</i> при­ни­ма­ет при <i>x</i>  =  1, и урав­не­ние <i>f</i>(<i>x</i>)  =  0 будет иметь ко­рень тогда и толь­ко тогда, когда <img src=\"https://ege.sdamgia.ru/formula/svg/1f/1f10e0c85e839c3395941a13f6207e7b.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка 1 пра­вая круг­лая скоб­ка мень­ше или равно 0.\"></p><p class=\"left_margin\">Решим это не­ра­вен­ство:</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"10fcf8764faffee9b83897a6117663b0\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/10/10fcf8764faffee9b83897a6117663b0.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"|3 минус |1 плюс a||\\leqslant4 рав­но­силь­но минус 4 мень­ше или равно |a плюс 1| минус 3 мень­ше или равно 4 рав­но­силь­но |a плюс 1| мень­ше или равно 7 рав­но­силь­но минус 7 мень­ше или равно a плюс 1 мень­ше или равно 7 рав­но­силь­но минус 8 мень­ше или равно a мень­ше или равно 6.\"></span><span data-width=\"590\" data-formulahash=\"10fcf8764faffee9b83897a6117663b0\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/07/0731bc21cb940025ff4a1558d45023d5.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"|3 минус |1 плюс a||\\leqslant4 рав­но­силь­но минус 4 мень­ше или равно |a плюс 1| минус 3 мень­ше или равно 4 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/52/52d7b2ff1223a6e7c379a25a55c31147.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" рав­но­силь­но |a плюс 1| мень­ше или равно 7 рав­но­силь­но минус 7 мень­ше или равно a плюс 1 мень­ше или равно 7 рав­но­силь­но минус 8 мень­ше или равно a мень­ше или равно 6.\"></span></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/3e/3e225bc761f5d472b3913c57c8ffcca8.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\" минус 8 мень­ше или равно a мень­ше или равно 6.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/fd/fdd785ad9e38e4302d9f863570e4bac2.svg",
+            "https://ege.sdamgia.ru/formula/svg/a0/a05b7d0ca35b1e04a62d654463fc0540.svg",
+            "https://ege.sdamgia.ru/formula/svg/5a/5ab55322a0e83b94d671b8d9098348bb.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a98afaa7cd88784798d16530ff787afb.svg",
+            "https://ege.sdamgia.ru/formula/svg/76/762ac78553d309f13f62118098b2411d.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/dd4234e7ed1dffd806e6eaea25e7fd91.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/08216813d80d27b8fa3351dd30e43738.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1c04e941d957198b8a0dd351e6b70883.svg",
+            "https://ege.sdamgia.ru/formula/svg/1f/1f10e0c85e839c3395941a13f6207e7b.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/10fcf8764faffee9b83897a6117663b0.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/0731bc21cb940025ff4a1558d45023d5.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/52d7b2ff1223a6e7c379a25a55c31147.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e225bc761f5d472b3913c57c8ffcca8.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 18,
+    "analog_ids": []
+}

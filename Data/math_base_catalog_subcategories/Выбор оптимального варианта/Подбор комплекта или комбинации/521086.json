@@ -1,0 +1,33 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521086,
+    "condition": {
+        "text": "РH – высота правильной четырехугольной пирамиды  РАВСD, О – точка пересечения медиан треугольника ВСР. а)  Докажите, что прямые РН и АО не имеют общих точек.б)  Найдите угол между прямыми  РН и  АО, если известно, что  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body630146\" class=\"pbody\"><p class=\"left_margin\"><i>РH</i> – вы­со­та пра­виль­ной че­ты­рех­уголь­ной пи­ра­ми­ды  <i>РАВСD</i>, <i>О</i> – точка пе­ре­се­че­ния ме­ди­ан тре­уголь­ни­ка <i>ВСР</i>. </p><p class=\"left_margin\">а)  До­ка­жи­те,&nbsp;что&nbsp;пря­мые&nbsp;<i>РН</i>&nbsp;и&nbsp;<i>АО</i>&nbsp;не&nbsp;имеют&nbsp;общих&nbsp;точек.</p><p class=\"left_margin\">б)  Най­ди­те&nbsp;угол&nbsp;между&nbsp;пря­мы­ми&nbsp;&nbsp;<i>РН</i>&nbsp;и&nbsp;&nbsp;<i>АО</i>,&nbsp;если&nbsp;из­вест­но,&nbsp;что&nbsp;&nbsp;<img src=\"https://ege.sdamgia.ru/formula/svg/37/3705f713d0a20f430ae2eabe18388e9d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"АВ=РН.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/37/3705f713d0a20f430ae2eabe18388e9d.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Точки P, A, H лежат в плоскости PAC и не лежат на одной прямой. По признаку скрещивающихся прямых прямая OA пересекает плоскость  PAC в точке, не лежащей на  PH, поэтому скрещивается с PH. б)  Точка  делит медиану  в отношении   поэтому основание перпендикуляра из нее на плоскость основания (точка T) делит так же отрезок  Пусть   тогда Поскольку    поэтому Ответ: б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521086\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=41510\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Точки <i>P</i>, <i>A</i>, <i>H</i> лежат в плос­ко­сти <i>PAC</i> и не лежат на одной пря­мой. По при­зна­ку скре­щи­ва­ю­щих­ся пря­мых пря­мая <i>OA</i> пе­ре­се­ка­ет плос­кость  <i>PAC</i> в точке, не ле­жа­щей на <i> PH</i>, по­это­му скре­щи­ва­ет­ся с <i>PH</i>. </p><p class=\"left_margin\">б)  Точка <img src=\"https://ege.sdamgia.ru/formula/svg/57/57158877c651e39f9a4206a8d8db572c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" O\"> делит ме­ди­а­ну <img src=\"https://ege.sdamgia.ru/formula/svg/70/708570c6a9f0d9a04ee05e66d0a7cf39.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" PM\"> в от­но­ше­нии <img src=\"https://ege.sdamgia.ru/formula/svg/b1/b19d859c1939656fe4c470bac5f4ba29.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" 2:1,\">  по­это­му ос­но­ва­ние пер­пен­ди­ку­ля­ра из нее на плос­кость ос­но­ва­ния (точка <i>T</i>) делит так же от­ре­зок <img src=\"https://ege.sdamgia.ru/formula/svg/e6/e664a06a678c5f95698dfea0467e9b8f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" HM.\"> Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/28/28126768b785a579c8f03d8e5861d475.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" AB=Ph=6a,\">  тогда</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/70/70f10c0c65361d81f684198201a0e192.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\angle левая круг­лая скоб­ка AO,PH пра­вая круг­лая скоб­ка =\\angle левая круг­лая скоб­ка AO,OT пра­вая круг­лая скоб­ка =\\angle AOT.\"></p><p class=\"left_margin\"></p></center><p> По­сколь­ку </p><p class=\"left_margin\"></p><center><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/e2/e2e3ef1a78a4389d02ba777c633da2a4.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"OT= дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби PH=2a,\"></p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/65/6543c8a79cdf407047d2863b243fb056.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" AT= ко­рень из: на­ча­ло ар­гу­мен­та: AS в квад­ра­те плюс ST в квад­ра­те конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 25a в квад­ра­те плюс 9a в квад­ра­те конец ар­гу­мен­та =a ко­рень из: на­ча­ло ар­гу­мен­та: 34 конец ар­гу­мен­та ,\"></p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/75/75a1ed0315f35d7e30f5bc1a0fecb130.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" \\angle ATO=90 в сте­пе­ни левая круг­лая скоб­ка \\circ пра­вая круг­лая скоб­ка ,\"></p><p class=\"left_margin\"></p></center><p>по­это­му </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/89/895583b05bab2fc34dee8c3bcda8abeb.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" тан­генс \\angle AOT= дробь: чис­ли­тель: AT, зна­ме­на­тель: TO конец дроби = дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 34 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби . \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) <img src=\"https://ege.sdamgia.ru/formula/svg/9c/9ca3b5d1b48ad11202e97a7993ea49f3.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" арк­тан­генс дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 34 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/57/57158877c651e39f9a4206a8d8db572c.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/708570c6a9f0d9a04ee05e66d0a7cf39.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b19d859c1939656fe4c470bac5f4ba29.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e664a06a678c5f95698dfea0467e9b8f.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/28126768b785a579c8f03d8e5861d475.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/70f10c0c65361d81f684198201a0e192.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e2e3ef1a78a4389d02ba777c633da2a4.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/6543c8a79cdf407047d2863b243fb056.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/75a1ed0315f35d7e30f5bc1a0fecb130.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/895583b05bab2fc34dee8c3bcda8abeb.svg",
+            "https://ege.sdamgia.ru/formula/svg/9c/9ca3b5d1b48ad11202e97a7993ea49f3.svg",
+            "/get_file?id=41510"
+        ]
+    },
+    "answer": "б)",
+    "topic_id": null,
+    "analog_ids": []
+}

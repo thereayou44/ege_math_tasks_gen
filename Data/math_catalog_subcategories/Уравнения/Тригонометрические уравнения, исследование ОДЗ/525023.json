@@ -1,0 +1,34 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 525023,
+    "condition": {
+        "text": "а)  Решите уравнение б)  Найдите все корни этого уравнения, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body420899\" class=\"pbody\"><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/10/10fb887265363da6f53c55e5db19f9e2.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: 13 синус в квад­ра­те x минус 5 синус x, зна­ме­на­тель: 13 ко­си­нус x плюс 12 конец дроби =0. \"></p><p class=\"left_margin\">б)  Най­ди­те все корни этого урав­не­ния, при­над­ле­жа­щие от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/5a/5aa1945ebd276cc62fad19b801d1b19e.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка минус 3 Пи ; минус дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/10/10fb887265363da6f53c55e5db19f9e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/5a/5aa1945ebd276cc62fad19b801d1b19e.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Запишем исходное уравнение в виде откуда  или б) С помощью числовой окружности отберём корни, принадлежащие отрезку  Получим числа  Ответ: а)   б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol525023\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  За­пи­шем ис­ход­ное урав­не­ние в виде <img src=\"/get_file?id=42115\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/68/685e05500821ed29e66a096f284c0a6e.svg\" class=\"tex\" style=\"vertical-align:-31.3pt\" alt=\" дробь: чис­ли­тель: 13 синус в квад­ра­те x минус 5 синус x, зна­ме­на­тель: 13 ко­си­нус x плюс 12 конец дроби =0 рав­но­силь­но дробь: чис­ли­тель: синус x левая круг­лая скоб­ка синус x минус дробь: чис­ли­тель: 5, зна­ме­на­тель: 13 конец дроби пра­вая круг­лая скоб­ка , зна­ме­на­тель: ко­си­нус x плюс дробь: чис­ли­тель: 12, зна­ме­на­тель: 13 конец дроби конец дроби =0 рав­но­силь­но си­сте­ма вы­ра­же­ний со­во­куп­ность вы­ра­же­ний синус x= дробь: чис­ли­тель: 5, зна­ме­на­тель: 13 конец дроби , синус x=0, конец си­сте­мы . ко­си­нус x не равно минус дробь: чис­ли­тель: 12, зна­ме­на­тель: 13 конец дроби , конец со­во­куп­но­сти . \"></p><p class=\"left_margin\"></p></center><p>от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/ee/eee0bb827dfafd54636ae9a65f500269.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= арк­си­нус дробь: чис­ли­тель: 5, зна­ме­на­тель: 13 конец дроби плюс 2 Пи k,k при­над­ле­жит Z , \"> или <img src=\"https://ege.sdamgia.ru/formula/svg/68/6885d29d0d6c9771192e98ffc82aa1b0.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x= Пи n, n при­над­ле­жит Z .\"></p><p class=\"left_margin\">б) С по­мо­щью чис­ло­вой окруж­но­сти отберём корни, при­над­ле­жа­щие от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/5a/5aa1945ebd276cc62fad19b801d1b19e.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка минус 3 Пи ; минус дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби пра­вая квад­рат­ная скоб­ка . \"> По­лу­чим числа <img src=\"https://ege.sdamgia.ru/formula/svg/19/19f3f8c59926b7ecbe0f508f1c2e4b53.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" минус 3 Пи ; минус 2 Пи ; арк­си­нус дробь: чис­ли­тель: 5, зна­ме­на­тель: 13 конец дроби минус 2 Пи . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) <img src=\"https://ege.sdamgia.ru/formula/svg/31/3149a466a54d67802045ff87276bd27f.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" арк­си­нус дробь: чис­ли­тель: 5, зна­ме­на­тель: 13 конец дроби плюс 2 Пи k,k при­над­ле­жит Z ; \"> <img src=\"https://ege.sdamgia.ru/formula/svg/03/0397c402d90172b7491c3bfca55db44e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" Пи n, n при­над­ле­жит Z ;\"> б) <img src=\"https://ege.sdamgia.ru/formula/svg/19/19f3f8c59926b7ecbe0f508f1c2e4b53.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" минус 3 Пи ; минус 2 Пи ; арк­си­нус дробь: чис­ли­тель: 5, зна­ме­на­тель: 13 конец дроби минус 2 Пи . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/68/685e05500821ed29e66a096f284c0a6e.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/eee0bb827dfafd54636ae9a65f500269.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/6885d29d0d6c9771192e98ffc82aa1b0.svg",
+            "https://ege.sdamgia.ru/formula/svg/5a/5aa1945ebd276cc62fad19b801d1b19e.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/19f3f8c59926b7ecbe0f508f1c2e4b53.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/3149a466a54d67802045ff87276bd27f.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/0397c402d90172b7491c3bfca55db44e.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/19f3f8c59926b7ecbe0f508f1c2e4b53.svg",
+            "/get_file?id=42115"
+        ]
+    },
+    "answer": "а)   б)",
+    "topic_id": 13,
+    "analog_ids": [
+        525023,
+        525046
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 547305,
+    "condition": {
+        "text": "15 декабря планируется взять кредит в банке на 61 месяц. Условия его возврата таковы:   — 1‐го  числа  каждого  месяца  долг  возрастает  на  r %  по  сравнению  с  концом предыдущего месяца;   — со 2‐го по 14 число каждого месяца необходимо выплатить часть долга;   — 15‐го  числа  первого  месяца  долг  должен  уменьшиться  на  900  тысяч  рублей,  все следующие  месяцы  долг  должен  быть  меньше  долга  на  15‐е  число  предыдущего месяца на 30 тысяч рублей. Найдите r, если переплата по кредиту составит 1152 тысяч рублей?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body407317\" class=\"pbody\"><p class=\"left_margin\">15 де­каб­ря пла­ни­ру­ет­ся взять кре­дит в банке на 61 месяц. Усло­вия его воз­вра­та та­ко­вы: </p><p>  — 1‐го  числа  каж­до­го  ме­ся­ца  долг  воз­рас­та­ет  на  <i>r</i> %  по  срав­не­нию  с  кон­цом преды­ду­ще­го ме­ся­ца; </p><p>  — со 2‐го по 14 число каж­до­го ме­ся­ца не­об­хо­ди­мо вы­пла­тить часть долга; </p><p>  — 15‐го  числа  пер­во­го  ме­ся­ца  долг  дол­жен  умень­шить­ся  на  900  тысяч  руб­лей,  все сле­ду­ю­щие  ме­ся­цы  долг  дол­жен  быть  мень­ше  долга  на  15‐е  число  преды­ду­ще­го ме­ся­ца на 30 тысяч руб­лей. Най­ди­те <i>r</i>, если пе­ре­пла­та по кре­ди­ту со­ста­вит 1152 тысяч руб­лей?</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Первоначальная сумма кредита равна  тыс. руб.Переплата по кредиту представляет собой сумму ежемесячно начисляемых процентов:  тыс. руб. Из равенства   получаем  Ответ: 2.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol547305\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пер­во­на­чаль­ная сумма кре­ди­та равна </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d9/d9e8292d481e5cfa7cca25d3886bb5a4.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"S = 900 плюс 30 умно­жить на 60=2700\"> тыс. руб.</p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Пе­ре­пла­та по кре­ди­ту пред­став­ля­ет собой сумму еже­ме­сяч­но на­чис­ля­е­мых про­цен­тов: </p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"85e0656d75019a891c532772c0f6c342\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/2f/2ffa4478dd704989b0a58fdb0960a033.svg\" class=\"tex\" style=\"vertical-align:-2.7pt\" alt=\"П=П_1 плюс П_2 плюс П_3 плюс П_4 плюс ... плюс П_61 =\"><br><img src=\"https://ege.sdamgia.ru/formula/svg/80/803d4af368845b307164a4b94fef2329.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"= 2700 умно­жить на дробь: чис­ли­тель: r, зна­ме­на­тель: 100 конец дроби плюс 1800 умно­жить на дробь: чис­ли­тель: r, зна­ме­на­тель: 100 конец дроби плюс 1770 умно­жить на дробь: чис­ли­тель: r, зна­ме­на­тель: 100 конец дроби плюс 1740 умно­жить на дробь: чис­ли­тель: r, зна­ме­на­тель: 100 конец дроби плюс ... плюс 30 умно­жить на дробь: чис­ли­тель: r, зна­ме­на­тель: 100 конец дроби = \"></span></p><p><span data-width=\"640\" data-formulahash=\"6510f19acea598e71871b801d24b5486\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/78/78f75fdf1d09e79fd5eea5d5aacba1f0.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"= дробь: чис­ли­тель: r, зна­ме­на­тель: 100 конец дроби умно­жить на левая круг­лая скоб­ка 2700 плюс 1800 плюс 1770 плюс 1740 плюс ... плюс 30 пра­вая круг­лая скоб­ка = \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/92/920f3a679c2ead77cd406b30ad965b47.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\"= дробь: чис­ли­тель: r, зна­ме­на­тель: 100 конец дроби умно­жить на левая круг­лая скоб­ка 2700 плюс дробь: чис­ли­тель: 1800 плюс 30, зна­ме­на­тель: 2 конец дроби умно­жить на 60 пра­вая круг­лая скоб­ка =27r плюс левая круг­лая скоб­ка 180 плюс 3 пра­вая круг­лая скоб­ка умно­жить на 3r =576r \"></span> тыс. руб.</p><p class=\"left_margin\"></p></center><p> Из ра­вен­ства <img src=\"https://ege.sdamgia.ru/formula/svg/6f/6fc0090e48b72224f19e6448caa2cda5.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"576r=1152,\">  по­лу­ча­ем <img src=\"https://ege.sdamgia.ru/formula/svg/bd/bd7d8f88726a7b282e946bd8526cd792.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"r=2.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 2.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d9/d9e8292d481e5cfa7cca25d3886bb5a4.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2ffa4478dd704989b0a58fdb0960a033.svg",
+            "https://ege.sdamgia.ru/formula/svg/80/803d4af368845b307164a4b94fef2329.svg",
+            "https://ege.sdamgia.ru/formula/svg/78/78f75fdf1d09e79fd5eea5d5aacba1f0.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/920f3a679c2ead77cd406b30ad965b47.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6fc0090e48b72224f19e6448caa2cda5.svg",
+            "https://ege.sdamgia.ru/formula/svg/bd/bd7d8f88726a7b282e946bd8526cd792.svg"
+        ]
+    },
+    "answer": "2.",
+    "topic_id": null,
+    "analog_ids": []
+}

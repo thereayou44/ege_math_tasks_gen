@@ -1,0 +1,56 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27280,
+    "condition": {
+        "text": "В треугольнике ABC угол C равен 90°, CH − высота,   Найдите ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918636\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=144894\" style=\"float:right;margin:10px;max-width:100%\">В тре­уголь­ни­ке <i>ABC</i> угол <i>C</i> равен 90°, <i>CH</i> − вы­со­та, <img src=\"https://ege.sdamgia.ru/formula/svg/39/39858141273c441f6fd816e94de7642a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AC = 3,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/f8/f8a015a4c8201de7a0e850ebefa9693c.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" ко­си­нус A = дробь: чис­ли­тель: 1, зна­ме­на­тель: 6 конец дроби . \"> Най­ди­те <img src=\"https://ege.sdamgia.ru/formula/svg/2e/2ede603c967cea8137120223a538a2c4.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BH.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/39/39858141273c441f6fd816e94de7642a.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f8a015a4c8201de7a0e850ebefa9693c.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2ede603c967cea8137120223a538a2c4.svg",
+            "/get_file?id=144894"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Углы A и HCB равны как углы со взаимно перпендикулярными сторонами.Ответ: 17,5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27280\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Углы <i>A</i> и <i>HCB</i> равны как углы со вза­им­но пер­пен­ди­ку­ляр­ны­ми сто­ро­на­ми.</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/c4/c4078e9165d69bf6cf75b9860cf48260.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"BH=BC синус \\angle HCB=BC синус A=ACtgA синус A= дробь: чис­ли­тель: AC синус в квад­ра­те A, зна­ме­на­тель: ко­си­нус A конец дроби = \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/4c/4c16af73d0ea141eb4ef090918532778.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\"= дробь: чис­ли­тель: AC левая круг­лая скоб­ка 1 минус ко­си­нус в квад­ра­те A пра­вая круг­лая скоб­ка , зна­ме­на­тель: ко­си­нус A конец дроби =3 умно­жить на левая круг­лая скоб­ка 1 минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 36 конец дроби пра­вая круг­лая скоб­ка умно­жить на 6=17,5. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spaceing:2px\">Ответ</span>: 17,5.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c4/c4078e9165d69bf6cf75b9860cf48260.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c16af73d0ea141eb4ef090918532778.svg"
+        ]
+    },
+    "answer": "17,5",
+    "topic_id": 1,
+    "analog_ids": [
+        27280,
+        31409,
+        31411,
+        31413,
+        31409,
+        31411,
+        31413,
+        31415,
+        31417,
+        31419,
+        31421,
+        31423,
+        31425,
+        31427,
+        31429,
+        31431,
+        31433,
+        31435,
+        31437,
+        31439,
+        31441,
+        31443,
+        31445,
+        31447,
+        31449,
+        31451,
+        31453,
+        31455,
+        31457
+    ]
+}

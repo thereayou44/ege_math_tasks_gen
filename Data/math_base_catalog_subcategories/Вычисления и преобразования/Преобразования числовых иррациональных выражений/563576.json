@@ -1,0 +1,29 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 563576,
+    "condition": {
+        "text": "Решите неравенство: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body456580\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство: <img src=\"https://ege.sdamgia.ru/formula/svg/bb/bba64ff62d30514fd6e9b7303c5f5015.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"16 в сте­пе­ни левая круг­лая скоб­ка \\tfrac1 пра­вая круг­лая скоб­ка x минус 1 минус 4 в сте­пе­ни левая круг­лая скоб­ка \\tfrac1 пра­вая круг­лая скоб­ка x минус 1 минус 2 боль­ше или равно 0.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/bb/bba64ff62d30514fd6e9b7303c5f5015.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Пусть  тогдаВернёмся к исходной переменнойОтвет: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol563576\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/a3/a35c017100a51480864db438abf2da62.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"t=4 в сте­пе­ни левая круг­лая скоб­ка дробь: чис­ли­тель: 1, зна­ме­на­тель: x конец дроби минус 1 пра­вая круг­лая скоб­ка боль­ше 0, \"> тогда</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/fb/fb6cfc9d88465a5a202d1de283d747dd.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\"t в квад­ра­те минус t минус 2\\geqslant0 рав­но­силь­но левая круг­лая скоб­ка t минус 2 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка t плюс 1 пра­вая круг­лая скоб­ка \\geqslant0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний t мень­ше или равно минус 1,t боль­ше или равно 2 конец со­во­куп­но­сти . \\undersett боль­ше 0\\mathop рав­но­силь­но t\\geqslant2.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Вернёмся к ис­ход­ной пе­ре­мен­ной</p><p class=\"left_margin\"></p><center><p><img src=\"/get_file?id=143117\" style=\"float:right;margin:10px;max-width:100%\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/8d/8d74000c5b6aac131ef33adcef2eb703.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"4 в сте­пе­ни левая круг­лая скоб­ка \\tfrac1 пра­вая круг­лая скоб­ка x минус 1\\geqslant2 рав­но­силь­но 2 в сте­пе­ни левая круг­лая скоб­ка \\tfrac2 пра­вая круг­лая скоб­ка x минус 2\\geqslant2 рав­но­силь­но дробь: чис­ли­тель: 2, зна­ме­на­тель: x конец дроби минус 2\\geqslant1 рав­но­силь­но дробь: чис­ли­тель: 2 минус 3x, зна­ме­на­тель: x конец дроби \\geqslant0 рав­но­силь­но 0 мень­ше x мень­ше или равно дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби . \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/51/5137400b4f60c95f1651e8b0b7837625.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая круг­лая скоб­ка 0; дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a3/a35c017100a51480864db438abf2da62.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fb6cfc9d88465a5a202d1de283d747dd.svg",
+            "https://ege.sdamgia.ru/formula/svg/8d/8d74000c5b6aac131ef33adcef2eb703.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/5137400b4f60c95f1651e8b0b7837625.svg",
+            "/get_file?id=143117"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": [
+        563576,
+        563549
+    ]
+}

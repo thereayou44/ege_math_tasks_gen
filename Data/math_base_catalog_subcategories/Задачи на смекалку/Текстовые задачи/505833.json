@@ -1,0 +1,31 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 505833,
+    "condition": {
+        "text": "В треугольной пирамиде ABCD угол между гранями ABC и ACD равен  плоский угол BAC равен  а рёбра AC и AD перпендикулярны. Найти длину ребра AD, если AB  =  5, ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body645397\" class=\"pbody\"><p class=\"left_margin\">В тре­уголь­ной пи­ра­ми­де <i>ABCD</i> угол между гра­ня­ми <i>ABC</i> и <i>ACD</i> равен <img src=\"https://ege.sdamgia.ru/formula/svg/60/604391f8b9f0edad3da75f72e6948556.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: зна­ме­на­тель: p конец дроби i3,\"> плос­кий угол <i>BAC</i> равен <img src=\"https://ege.sdamgia.ru/formula/svg/aa/aa0963b4cbda39d6692ab41c01ea381c.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" арк­ко­си­нус левая круг­лая скоб­ка дробь: чис­ли­тель: 4, зна­ме­на­тель: 5 конец дроби пра­вая круг­лая скоб­ка ,\"> а рёбра <i>AC</i> и <i>AD</i> пер­пен­ди­ку­ляр­ны. Найти длину ребра <i>AD</i>, если <i>AB</i>  =  5, <img src=\"https://ege.sdamgia.ru/formula/svg/41/4154b9d7e1d61bb7ade9f5a217952a2e.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BD= ко­рень из: на­ча­ло ар­гу­мен­та: 29 конец ар­гу­мен­та .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/60/604391f8b9f0edad3da75f72e6948556.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa0963b4cbda39d6692ab41c01ea381c.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/4154b9d7e1d61bb7ade9f5a217952a2e.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Применим теорему косинусов для трехгранного угла с вершиной в точке  Пусть  тогда Обозначим теперь  и напишем теорему косинусов для треугольника ABD:   Ответ:  4.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol505833\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">При­ме­ним тео­ре­му ко­си­ну­сов для трех­гран­но­го угла с вер­ши­ной в точке <img src=\"https://ege.sdamgia.ru/formula/svg/e1/e1354cc842cc323c307b3424ed3dfa81.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"A.\"> Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/06/06625f54bf3a0f3954de289a1baf40a3.svg\" class=\"tex\" style=\"vertical-align:-3.3pt\" alt=\" гамма =\\angle DAB,\"> тогда</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d4/d4bb498c08108834797c40928ba12297.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" ко­си­нус гамма = ко­си­нус 90 гра­ду­сов умно­жить на ко­си­нус левая круг­лая скоб­ка арк­ко­си­нус дробь: чис­ли­тель: 4, зна­ме­на­тель: 5 конец дроби пра­вая круг­лая скоб­ка плюс синус 90 гра­ду­сов умно­жить на синус левая круг­лая скоб­ка арк­ко­си­нус дробь: чис­ли­тель: 4, зна­ме­на­тель: 5 конец дроби пра­вая круг­лая скоб­ка умно­жить на ко­си­нус 60 гра­ду­сов рав­но­силь­но \"></p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/46/4649b6ac2f42b52789626590d7df6988.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" рав­но­силь­но ко­си­нус гамма = дробь: чис­ли­тель: 3, зна­ме­на­тель: 5 конец дроби умно­жить на дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби =0,3.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Обо­зна­чим те­перь <img src=\"https://ege.sdamgia.ru/formula/svg/6c/6c1c260193e241c1b036fa296442f896.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=AD\"> и на­пи­шем тео­ре­му ко­си­ну­сов для тре­уголь­ни­ка <i>ABD</i>:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/49/4982fe50c32566c5173e92b3a04b2d4d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"29=25 плюс x в квад­ра­те минус 10x умно­жить на 0,3 рав­но­силь­но \"></p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/4f/4f8dd85641b65348d60f69f1e7a17248.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" рав­но­силь­но x в квад­ра­те минус 3x минус 4=0 рав­но­силь­но \"></p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/03/03ba32c9b4f24ef7d7349723d6361f10.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" рав­но­силь­но x=4.\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  4.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e1/e1354cc842cc323c307b3424ed3dfa81.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/06625f54bf3a0f3954de289a1baf40a3.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d4bb498c08108834797c40928ba12297.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/4649b6ac2f42b52789626590d7df6988.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6c1c260193e241c1b036fa296442f896.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/4982fe50c32566c5173e92b3a04b2d4d.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4f8dd85641b65348d60f69f1e7a17248.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/03ba32c9b4f24ef7d7349723d6361f10.svg"
+        ]
+    },
+    "answer": "4.",
+    "topic_id": null,
+    "analog_ids": []
+}

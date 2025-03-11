@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 500019,
+    "condition": {
+        "text": "В правильной шестиугольной призме  все рёбра равны 1. а)  Докажите, что плоскость FB1C1 перпендикулярна плоскости BB1F.б)  Найдите расстояние от точки В до плоскости FB1C1.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body643023\" class=\"pbody\"><p class=\"left_margin\">В пра­виль­ной ше­сти­уголь­ной приз­ме <img src=\"https://ege.sdamgia.ru/formula/svg/23/23b7f7b5b520008c96e15a46953805b1.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"ABCDEFA_1B_1C_1D_1E_1F_1\"> все рёбра равны 1. </p><p class=\"left_margin\">а)  До­ка­жи­те, что плос­кость <i>FB</i><sub>1</sub><i>C</i><sub>1</sub> пер­пен­ди­ку­ляр­на плос­ко­сти <i>BB</i><sub>1</sub><i>F</i>.</p><p class=\"left_margin\">б)  Най­ди­те рас­сто­я­ние от точки <i>В</i> до плос­ко­сти <i>FB</i><sub>1</sub><i>C</i><sub>1</sub>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/23/23b7f7b5b520008c96e15a46953805b1.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Прямые BB1 и FB перпендикулярны прямой EF. Плоскость FB1C1, содержащая прямую EF, перпендикулярна плоскости BB1F. б)  Таким образом, искомое расстояние равно высоте BH прямоугольного треугольника  в котором    Поэтому Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol500019\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=141362\" style=\"float:right;margin:10px;max-width:100%\">а)  Пря­мые <i>BB</i><sub>1</sub> и <i>FB</i> пер­пен­ди­ку­ляр­ны пря­мой <i>EF</i>. Плос­кость <i>FB</i><sub>1</sub><i>C</i><sub>1</sub>, со­дер­жа­щая пря­мую <i>EF,</i> пер­пен­ди­ку­ляр­на плос­ко­сти <i>BB</i><sub>1</sub><i>F</i>. </p><p class=\"left_margin\">б)  Таким об­ра­зом, ис­ко­мое рас­сто­я­ние равно вы­со­те <i>BH</i> пря­мо­уголь­но­го тре­уголь­ни­ка <img src=\"https://ege.sdamgia.ru/formula/svg/89/89788f1d0bca9b848a93a35e8fb72ded.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"BB_1F,\"> в ко­то­ром <img src=\"https://ege.sdamgia.ru/formula/svg/7f/7f1cb3bdf735bec48eeb373b4eed4ab8.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"BB_1=1,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/bf/bfce15b5957efd1540ae77d6aabed951.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"BF= ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та ,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/98/984399d7e23c7c2c5dc227ebc50be40b.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"B_1F=2.\"> По­это­му</p><p class=\"left_margin\"></p><center><p> <img src=\"https://ege.sdamgia.ru/formula/svg/b0/b031c22af13209d802106e3a5e414e5c.svg\" class=\"tex\" style=\"vertical-align:-10.1pt\" alt=\"BH= дробь: чис­ли­тель: BB_1 умно­жить на BF, зна­ме­на­тель: B_1F конец дроби = дробь: чис­ли­тель: 1 умно­жить на ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби = дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби . \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/53/5331a1879e0f42f047d1f5b5d74c45d1.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/89/89788f1d0bca9b848a93a35e8fb72ded.svg",
+            "https://ege.sdamgia.ru/formula/svg/7f/7f1cb3bdf735bec48eeb373b4eed4ab8.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bfce15b5957efd1540ae77d6aabed951.svg",
+            "https://ege.sdamgia.ru/formula/svg/98/984399d7e23c7c2c5dc227ebc50be40b.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b031c22af13209d802106e3a5e414e5c.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/5331a1879e0f42f047d1f5b5d74c45d1.svg",
+            "/get_file?id=141362"
+        ]
+    },
+    "answer": "",
+    "topic_id": 14,
+    "analog_ids": []
+}

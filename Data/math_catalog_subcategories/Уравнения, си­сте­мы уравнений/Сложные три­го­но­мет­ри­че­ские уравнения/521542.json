@@ -1,0 +1,34 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521542,
+    "condition": {
+        "text": "Дано уравнение а)  Решите уравнение.б)  Найдите корни этого уравнения, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629690\" class=\"pbody\"><p class=\"left_margin\">Дано урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/4d/4d0ef8e0420ac8c740cbd8c8894059e5.svg\" class=\"tex\" style=\"vertical-align:-10.7pt\" alt=\" дробь: чис­ли­тель: 25 синус 2x минус 24, зна­ме­на­тель: 3 тан­генс x минус 4 конец дроби =0. \"></p><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние.</p><p class=\"left_margin\">б)  Най­ди­те&nbsp;корни&nbsp;этого&nbsp;урав­не­ния,&nbsp;при­над­ле­жа­щие&nbsp;от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/45/452e3aef0bdd3291eb52cb78f7445abf.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби ; дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби } пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/4d/4d0ef8e0420ac8c740cbd8c8894059e5.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/452e3aef0bdd3291eb52cb78f7445abf.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Поскольку  то Зная сумму и произведение  и  мы находим их самих - они равны  и  Знаки надо взять одинаковыми, а  поэтому  и  б)  На указанном отрезке лежат  Ответ: а)  б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521542\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  По­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/49/4952f707fa4642ff29cd42dcf1913339.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" синус 2x= дробь: чис­ли­тель: 24, зна­ме­на­тель: 25 конец дроби , \"> то <img src=\"https://ege.sdamgia.ru/formula/svg/c9/c94bc70c2e1a71a78e047245cff2c671.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"1 плюс 2 синус x ко­си­нус x= дробь: чис­ли­тель: 49, зна­ме­на­тель: 25 конец дроби рав­но­силь­но левая круг­лая скоб­ка синус x плюс ко­си­нус x пра­вая круг­лая скоб­ка в квад­ра­те = дробь: чис­ли­тель: 49, зна­ме­на­тель: 25 конец дроби рав­но­силь­но синус x плюс ко­си­нус x=\\pm дробь: чис­ли­тель: 7, зна­ме­на­тель: 5 конец дроби . \"></p><p class=\"left_margin\">Зная сумму и про­из­ве­де­ние <img src=\"https://ege.sdamgia.ru/formula/svg/cd/cdba58911c590ced3e2435dfa39f6873.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" синус x\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/b4/b43501fa844a7aaf35764d98780c05a9.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\" ко­си­нус x,\"> мы на­хо­дим их самих - они равны <img src=\"https://ege.sdamgia.ru/formula/svg/1b/1b3ffd73aa34c5af5c21aac5eade9880.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"\\pm дробь: чис­ли­тель: 3, зна­ме­на­тель: 5 конец дроби \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/e0/e0d13336d65a7aace953e9951e963ed4.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"\\pm дробь: чис­ли­тель: 4, зна­ме­на­тель: 5 конец дроби .\"> Знаки надо взять оди­на­ко­вы­ми, а <img src=\"https://ege.sdamgia.ru/formula/svg/50/5036c6364996ccb482d160754ea594d1.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\" тан­генс x не равно 43,\"> по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/8f/8fe3b36367d827181751871a4429053c.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" тан­генс x= дробь: чис­ли­тель: 3, зна­ме­на­тель: 4 конец дроби \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/ca/ca2e2610d611af392c61e39221826bcc.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= арк­тан­генс дробь: чис­ли­тель: 3, зна­ме­на­тель: 4 конец дроби плюс Пи k.\"></p><p>&nbsp;</p><p class=\"left_margin\">б)  На ука­зан­ном от­рез­ке лежат <img src=\"https://ege.sdamgia.ru/formula/svg/56/5601b5b109a3c77f41d5d67a4947d3e9.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" арк­тан­генс дробь: чис­ли­тель: 3, зна­ме­на­тель: 4 конец дроби ; арк­тан­генс дробь: чис­ли­тель: 3, зна­ме­на­тель: 4 конец дроби плюс Пи .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) <img src=\"https://ege.sdamgia.ru/formula/svg/e4/e411e859706f3389e33cd23882874be4.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая фи­гур­ная скоб­ка арк­тан­генс дробь: чис­ли­тель: 3, зна­ме­на­тель: 4 конец дроби плюс Пи k: k при­над­ле­жит Z пра­вая фи­гур­ная скоб­ка ;\"> б) <img src=\"https://ege.sdamgia.ru/formula/svg/76/766816d8a13261265106c4fb9970c19d.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая фи­гур­ная скоб­ка арк­тан­генс дробь: чис­ли­тель: 3, зна­ме­на­тель: 4 конец дроби ; арк­тан­генс дробь: чис­ли­тель: 3, зна­ме­на­тель: 4 конец дроби плюс Пи пра­вая фи­гур­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/49/4952f707fa4642ff29cd42dcf1913339.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c94bc70c2e1a71a78e047245cff2c671.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cdba58911c590ced3e2435dfa39f6873.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b43501fa844a7aaf35764d98780c05a9.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1b3ffd73aa34c5af5c21aac5eade9880.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e0d13336d65a7aace953e9951e963ed4.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/5036c6364996ccb482d160754ea594d1.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8fe3b36367d827181751871a4429053c.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/ca2e2610d611af392c61e39221826bcc.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/5601b5b109a3c77f41d5d67a4947d3e9.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e411e859706f3389e33cd23882874be4.svg",
+            "https://ege.sdamgia.ru/formula/svg/76/766816d8a13261265106c4fb9970c19d.svg"
+        ]
+    },
+    "answer": "а)  б)",
+    "topic_id": null,
+    "analog_ids": []
+}

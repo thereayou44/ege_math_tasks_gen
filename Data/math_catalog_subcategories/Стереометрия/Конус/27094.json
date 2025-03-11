@@ -1,0 +1,54 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27094,
+    "condition": {
+        "text": "Во сколько раз уменьшится объем конуса, если его высота уменьшится в 3 раза, а радиус основания останется прежним?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919338\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=139999\" style=\"float:right;margin:10px;max-width:100%\">Во сколь­ко раз умень­шит­ся объем ко­ну­са, если его вы­со­та умень­шит­ся в 3 раза, а ра­ди­ус ос­но­ва­ния оста­нет­ся преж­ним?</p></div>",
+        "image_urls": [
+            "/get_file?id=139999"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Объем конуса равен   где S  — площадь основания, а h  — высота конуса. При уменьшении высоты в 3 раза объем конуса также уменьшится в 3 раза. Ответ: 3.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27094\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Объем ко­ну­са равен </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/15/15042f7b09470d1e3dec16d8f9bee3c0.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"V= дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби Sh, \"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p>где <i>S</i>  — пло­щадь ос­но­ва­ния, а <i>h</i>  — вы­со­та ко­ну­са. При умень­ше­нии вы­со­ты в 3 раза объем ко­ну­са также умень­шит­ся в 3 раза.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 3.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/15/15042f7b09470d1e3dec16d8f9bee3c0.svg"
+        ]
+    },
+    "answer": "3",
+    "topic_id": 3,
+    "analog_ids": [
+        27094,
+        74259,
+        500893,
+        501191,
+        74259,
+        500893,
+        501191,
+        526210,
+        74261,
+        74263,
+        74265,
+        74267,
+        74269,
+        74271,
+        74273,
+        74275,
+        74277,
+        74279,
+        74281,
+        74283,
+        74285,
+        74287,
+        74289,
+        74291,
+        74293,
+        74295,
+        74297,
+        74299,
+        74301,
+        74303,
+        74305
+    ]
+}

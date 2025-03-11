@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 508943,
+    "condition": {
+        "text": "На рисунке изображён график функции  где числа a, b и c  — целые. Найдите ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body633587\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=160976\" style=\"float:right;margin:10px;max-width:100%\">На ри­сун­ке изоб­ражён гра­фик функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/d0/d02c4ede4195e886e48a6db00f0669ee.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =ax в квад­ра­те плюс bx плюс c,\"> где числа <i>a</i>, <i>b</i> и <i>c</i>  — целые. Най­ди­те <img src=\"https://ege.sdamgia.ru/formula/svg/f2/f256b3800cf6494fe3925d8bfa8be97c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка 1 пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d0/d02c4ede4195e886e48a6db00f0669ee.svg",
+            "https://ege.sdamgia.ru/formula/svg/f2/f256b3800cf6494fe3925d8bfa8be97c.svg",
+            "/get_file?id=160976"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Из рисунка видно, что вершина параболы расположена в точке  при этом  Следовательно,  заметим, что  откуда  Значит,  вычислим теперь  Ответ: 11.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol508943\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Из ри­сун­ка видно, что вер­ши­на па­ра­бо­лы рас­по­ло­же­на в точке <img src=\"https://ege.sdamgia.ru/formula/svg/46/466064319f18ba48e65f0c127ad258b8.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x_0= минус 3,\"> при этом <img src=\"https://ege.sdamgia.ru/formula/svg/0e/0e74a14f45e91b9d7e1e447f566e52e0.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y_0=f левая круг­лая скоб­ка x_0 пра­вая круг­лая скоб­ка = минус 5.\"> Сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/cf/cf47740d6f066e7f70294b17b18b0af7.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =a левая круг­лая скоб­ка x плюс 3 пра­вая круг­лая скоб­ка в квад­ра­те минус 5,\"> за­ме­тим, что <img src=\"https://ege.sdamgia.ru/formula/svg/b5/b518ef8820eb7b4e8a179d1682e75344.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка = минус 1,\"> от­ку­да </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/06/060ca3cfa37ac6923ec99f5cd2b3d2c5.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"a левая круг­лая скоб­ка минус 1 плюс 3 пра­вая круг­лая скоб­ка в квад­ра­те минус 5= минус 1 рав­но­силь­но 4a=4 рав­но­силь­но a=1.\"></p><p class=\"left_margin\"></p></center><p> Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/7b/7b5d1124beabbe12c7b7ad3f7bac0bdb.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка = левая круг­лая скоб­ка x плюс 3 пра­вая круг­лая скоб­ка в квад­ра­те минус 5,\"> вы­чис­лим те­перь <img src=\"https://ege.sdamgia.ru/formula/svg/f7/f793ff406cf807704933bcfe6d76ea9b.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка 1 пра­вая круг­лая скоб­ка = левая круг­лая скоб­ка 1 плюс 3 пра­вая круг­лая скоб­ка в квад­ра­те минус 5=11.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 11.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/46/466064319f18ba48e65f0c127ad258b8.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0e74a14f45e91b9d7e1e447f566e52e0.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf47740d6f066e7f70294b17b18b0af7.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b518ef8820eb7b4e8a179d1682e75344.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/060ca3cfa37ac6923ec99f5cd2b3d2c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7b5d1124beabbe12c7b7ad3f7bac0bdb.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f793ff406cf807704933bcfe6d76ea9b.svg"
+        ]
+    },
+    "answer": "11",
+    "topic_id": 11,
+    "analog_ids": []
+}

@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521426,
+    "condition": {
+        "text": "Решите неравенство: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629294\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те&nbsp;не­ра­вен­ство: <img src=\"https://ege.sdamgia.ru/formula/svg/7b/7b01825ef36582e0b17f52e9fe790d4c.svg\" class=\"tex\" style=\"vertical-align:-7.1pt\" alt=\" ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка дробь: чис­ли­тель: 5 минус x, зна­ме­на­тель: 4 конец дроби пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x минус 2 пра­вая круг­лая скоб­ка умно­жить на ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка x минус 2 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 6x минус x в квад­ра­те пра­вая круг­лая скоб­ка боль­ше или равно ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка дробь: чис­ли­тель: 5 минус x, зна­ме­на­тель: 4 конец дроби пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 3x в квад­ра­те минус 10x плюс 15 пра­вая круг­лая скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/7b/7b01825ef36582e0b17f52e9fe790d4c.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. ОДЗ данного неравенства  Перепишем его в виде Поскольку при всех допустимых x основание меньше единицы, получаем   то есть Окончательно, учитывая ОДЗ, имеем  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521426\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">ОДЗ дан­но­го не­ра­вен­ства <img src=\"https://ege.sdamgia.ru/formula/svg/98/98407913f5618a7845e5559f2bd6bc79.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 2;3 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 3;5 пра­вая круг­лая скоб­ка .\"> Пе­ре­пи­шем его в виде <img src=\"https://ege.sdamgia.ru/formula/svg/b9/b983514e51ff01a0bdc362e6528a58d9.svg\" class=\"tex\" style=\"vertical-align:-7.1pt\" alt=\" ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка дробь: чис­ли­тель: 5 минус x, зна­ме­на­тель: 4 конец дроби пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 6x минус x в квад­ра­те пра­вая круг­лая скоб­ка боль­ше или равно ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка дробь: чис­ли­тель: 5 минус x, зна­ме­на­тель: 4 конец дроби пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 3x в квад­ра­те минус 10x плюс 15 пра­вая круг­лая скоб­ка . \"></p><p class=\"left_margin\">По­сколь­ку при всех до­пу­сти­мых <i>x</i> ос­но­ва­ние мень­ше еди­ни­цы, по­лу­ча­ем <img src=\"https://ege.sdamgia.ru/formula/svg/02/029fa63ed41708a8e380c1f4bdd6841c.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"6x минус x в квад­ра­те мень­ше или равно 3x в квад­ра­те минус 10x плюс 15,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/9d/9d4dd2153a8a0ae66113f000523b0997.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 2x минус 3 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 2x минус 5 пра­вая круг­лая скоб­ка боль­ше или равно 0,\"> то есть <img src=\"https://ege.sdamgia.ru/formula/svg/33/339f2a50fadfe05101a74234e9cac21d.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"x мень­ше или равно дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби , x боль­ше или равно дробь: чис­ли­тель: 5, зна­ме­на­тель: 2 конец дроби .\"></p><p class=\"left_margin\">Окон­ча­тель­но, учи­ты­вая ОДЗ, имеем <img src=\"https://ege.sdamgia.ru/formula/svg/21/213a92df0bbd7bde8b5d456c1a34876b.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"x при­над­ле­жит левая квад­рат­ная скоб­ка дробь: чис­ли­тель: 5, зна­ме­на­тель: 2 конец дроби ;3 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 3;5 пра­вая круг­лая скоб­ка .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/ba/baf9527ce843596f1a257e4489be8d48.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка дробь: чис­ли­тель: 5, зна­ме­на­тель: 2 конец дроби ;3 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 3;5 пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/98/98407913f5618a7845e5559f2bd6bc79.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b983514e51ff01a0bdc362e6528a58d9.svg",
+            "https://ege.sdamgia.ru/formula/svg/02/029fa63ed41708a8e380c1f4bdd6841c.svg",
+            "https://ege.sdamgia.ru/formula/svg/9d/9d4dd2153a8a0ae66113f000523b0997.svg",
+            "https://ege.sdamgia.ru/formula/svg/33/339f2a50fadfe05101a74234e9cac21d.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/213a92df0bbd7bde8b5d456c1a34876b.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/baf9527ce843596f1a257e4489be8d48.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

@@ -1,0 +1,25 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 513214,
+    "condition": {
+        "text": "В треугольнике ABC на стороне AB отмечена точка E, при этом BE  =  4, EA  =  5, BC  =  6. а)  Докажите, что углы ВАС и BCE равны. б)  Найдите площадь треугольника AEC, если известно, что угол ABC равен 30°. ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body637506\" class=\"pbody\"><p class=\"left_margin\">В&nbsp;тре­уголь­ни­ке&nbsp;<i>ABC</i>&nbsp;на&nbsp;сто­ро­не&nbsp;<i>AB</i>&nbsp;от­ме­че­на&nbsp;точка&nbsp;<i>E</i>,&nbsp;при&nbsp;этом&nbsp;<i>BE</i>  =  4,&nbsp;<i>EA</i>  =  5,&nbsp;<i>BC</i>  =  6.&nbsp;</p><p class=\"left_margin\">а)  До­ка­жи­те,&nbsp;что&nbsp;углы&nbsp;<i>ВАС</i>&nbsp;и&nbsp;<i>BCE</i>&nbsp;равны.&nbsp;</p><p class=\"left_margin\">б)  Най­ди­те&nbsp;пло­щадь&nbsp;тре­уголь­ни­ка&nbsp;<i>AEC</i>,&nbsp;если&nbsp;из­вест­но,&nbsp;что&nbsp;угол&nbsp;<i>ABC</i>&nbsp;равен&nbsp;30°.&nbsp;</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Поскольку  то  поэтому треугольники ABC и CBE подобны (по первому признаку подобия). Следовательно, б)   Ответ:  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol513214\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=26319\" style=\"float:right;margin:10px\"></p><p class=\"left_margin\">а)  По­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/05/05823a39f8ffd1daef3d18b1e03c0105.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AB=4 плюс 5=9,\"> то <img src=\"https://ege.sdamgia.ru/formula/svg/91/9196a364e89bd9ea857acf85a586a328.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AB:BC=CB:BE,\"> по­это­му тре­уголь­ни­ки <i>ABC</i> и <i>CBE</i> по­доб­ны (по пер­во­му при­зна­ку по­до­бия). Сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/e8/e8483473339c81311ce462f8473ea2eb.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle BAC=\\angle BCE.\"></p><p class=\"left_margin\">б)  <img src=\"https://ege.sdamgia.ru/formula/svg/b0/b0d7b09d55c1f592dbc53b1f0a65b6ef.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S_AEC= дробь: чис­ли­тель: 5, зна­ме­на­тель: 9 конец дроби S_ABC= дробь: чис­ли­тель: 5, зна­ме­на­тель: 9 конец дроби умно­жить на 9 умно­жить на 6 умно­жить на синус 30 гра­ду­сов умно­жить на дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби = дробь: чис­ли­тель: 15, зна­ме­на­тель: 2 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  <img src=\"https://ege.sdamgia.ru/formula/svg/5e/5ee9b3e6bc1779945bd8b1afd38231e1.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" дробь: чис­ли­тель: 15, зна­ме­на­тель: 2 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/05/05823a39f8ffd1daef3d18b1e03c0105.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/9196a364e89bd9ea857acf85a586a328.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e8483473339c81311ce462f8473ea2eb.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b0d7b09d55c1f592dbc53b1f0a65b6ef.svg",
+            "https://ege.sdamgia.ru/formula/svg/5e/5ee9b3e6bc1779945bd8b1afd38231e1.svg",
+            "/get_file?id=26319"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

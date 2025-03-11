@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521812,
+    "condition": {
+        "text": "Найдите все значения параметра a, при которых неравенствоимеет не более одного решения.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body628904\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния па­ра­мет­ра <i>a</i>, при ко­то­рых не­ра­вен­ство</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e1/e1cb94f6ceb6d835d43395220a5b3a7a.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x в квад­ра­те плюс 4x плюс 6a|x плюс 2| плюс 9a в квад­ра­те \\leqslant0\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">имеет не более од­но­го ре­ше­ния.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e1/e1cb94f6ceb6d835d43395220a5b3a7a.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Обозначим  тогда неравенство примет вид t принимает любые положительные значения. Если это неравенство выполнено при каком-то t и  то можно немного увеличить t и получить другое решение. Значит,  поэтому  При меньших a можно взять  для положительных a и  для отрицательных a и получить решение, для которого   Итак, ответ  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521812\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Обо­зна­чим <img src=\"https://ege.sdamgia.ru/formula/svg/fe/fe8be9020b4fa9b260ffd00035040f91.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"|x плюс 2|=t,\"> тогда не­ра­вен­ство при­мет вид <img src=\"https://ege.sdamgia.ru/formula/svg/88/888846db98964c0f46f956fb3583dd6d.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"t в квад­ра­те плюс 6at плюс 9a в квад­ра­те минус 4 мень­ше или равно 0\"></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/06/06e78c28a4d503dd74381fd45be2f09c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка t плюс 3a пра­вая круг­лая скоб­ка в квад­ра­те мень­ше или равно 4 рав­но­силь­но минус 2 мень­ше или равно t плюс 3a мень­ше или равно 2\"></p><p class=\"left_margin\"></p></center><p><i>t</i> при­ни­ма­ет любые по­ло­жи­тель­ные зна­че­ния. Если это не­ра­вен­ство вы­пол­не­но при каком-то <i>t</i> и <img src=\"https://ege.sdamgia.ru/formula/svg/72/7236ca36bff5671231cd86afca4a2fde.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"t плюс 3a мень­ше 2,\"> то можно не­мно­го уве­ли­чить <i>t</i> и по­лу­чить дру­гое ре­ше­ние. Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/e8/e8cd8d779192ceaf29dddf619cb5b1a0.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"t плюс 3a боль­ше или равно 2,\"> по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/40/40053d9e4bb9cbe6bc40d325060de593.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"a боль­ше или равно дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби .\"> При мень­ших <i>a</i> можно взять <img src=\"https://ege.sdamgia.ru/formula/svg/3e/3e8f7b0adf6d7024b951f29a18225e4a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"t=0\"> для по­ло­жи­тель­ных <i>a</i> и <img src=\"https://ege.sdamgia.ru/formula/svg/d6/d6c96e66ed4b69d7df0522decf96899e.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"t= минус 3a\"> для от­ри­ца­тель­ных <i>a</i> и по­лу­чить ре­ше­ние, для ко­то­ро­го <img src=\"https://ege.sdamgia.ru/formula/svg/dd/dd73c6f4dc8c7318e95609068c689cc3.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"t плюс 3a мень­ше 2.\"> </p><p>&nbsp;</p><p class=\"left_margin\">Итак, ответ <img src=\"https://ege.sdamgia.ru/formula/svg/40/40053d9e4bb9cbe6bc40d325060de593.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"a боль­ше или равно дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/51/51c00fd09a8356fdb46d99b9dd0bd64f.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби ; плюс бес­ко­неч­ность пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/fe/fe8be9020b4fa9b260ffd00035040f91.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/888846db98964c0f46f956fb3583dd6d.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/06e78c28a4d503dd74381fd45be2f09c.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/7236ca36bff5671231cd86afca4a2fde.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e8cd8d779192ceaf29dddf619cb5b1a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/40053d9e4bb9cbe6bc40d325060de593.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e8f7b0adf6d7024b951f29a18225e4a.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d6c96e66ed4b69d7df0522decf96899e.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/dd73c6f4dc8c7318e95609068c689cc3.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/40053d9e4bb9cbe6bc40d325060de593.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/51c00fd09a8356fdb46d99b9dd0bd64f.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

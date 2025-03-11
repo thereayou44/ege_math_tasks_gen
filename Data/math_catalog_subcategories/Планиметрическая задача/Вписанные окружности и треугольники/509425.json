@@ -1,0 +1,44 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 509425,
+    "condition": {
+        "text": "Точка О  — центр окружности, вписанной в треугольник ABC. На продолжении отрезка AO за точку О отмечена точка K так, что BK = OK.а)  Докажите, что четырехугольник ABKC вписанный.б)  Найдите длину отрезка AO, если известно, что радиусы вписанной и описанной окружностей треугольника ABC равны 3 и 12 соответственно, а OK = 5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body633613\" class=\"pbody\"><p class=\"left_margin\">Точка <i>О</i>  — центр окруж­но­сти, впи­сан­ной в тре­уголь­ник <i>ABC</i>. На про­дол­же­нии от­рез­ка <i>AO</i> за точку <i>О</i> от­ме­че­на точка <i>K</i> так, что <i>BK = OK</i>.</p><p class=\"left_margin\">а)  До­ка­жи­те, что че­ты­рех­уголь­ник <i>ABKC</i> впи­сан­ный.</p><p class=\"left_margin\">б)  Най­ди­те длину от­рез­ка <i>AO</i>, если из­вест­но, что ра­ди­у­сы впи­сан­ной и опи­сан­ной окруж­но­стей тре­уголь­ни­ка <i>ABC</i> равны 3 и 12 со­от­вет­ствен­но, а <i>OK</i> = 5.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение.  а)  Пусть  Так как O  — центр вписанной окружности треугольника ABC, то   — биссектрисы углов A и B, значит,  Угол BOK внешний для треугольника AOB, поэтому  (см. рис.).Так как  (по построению), то  тогда  Углы CBK и KAC опираются на один и тот же отрезок CK и равны друг другу:  Тогда по признаку, связанному со свойством вписанных углов, точки  лежат на одной окружности.б)  Обозначим через  радиусы вписанной и описанной окружностей треугольника  Пусть H  — проекция точки O на сторону AB (см. рис.), тогда  Так как точки  лежат на одной окружности, то радиус описанной окружности треугольника ABK совпадает с радиусом описанной окружности треугольника  и равен  Из треугольника ABK по теореме синусов: Тогда##Так как то  Ответ: 14,4.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol509425\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=148376\" style=\"float:right;margin:10px;max-width:100%\"> а)  Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/de/def80de393174135ac74ebba34b39d51.svg\" class=\"tex\" style=\"vertical-align:-3.3pt\" alt=\"\\angle A=2 альфа ,\\angle B=2 бета .\"> Так как <i>O</i>  — центр впи­сан­ной окруж­но­сти тре­уголь­ни­ка <i>ABC</i>, то <img src=\"https://ege.sdamgia.ru/formula/svg/18/18d629b9915219e82d5c5b7a1fb32b9e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AO,BO\">  — бис­сек­три­сы углов <i>A</i> и <i>B</i>, зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/19/19bf78e0675ff52f756ff811120a9bb1.svg\" class=\"tex\" style=\"vertical-align:-3.3pt\" alt=\"\\angle BAO= альфа ,\\angle ABO= бета .\"> Угол <i>BOK</i> внеш­ний для тре­уголь­ни­ка <i>AOB</i>, по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/c8/c87678b138a9c88ee75af3f82a7ac35a.svg\" class=\"tex\" style=\"vertical-align:-3.3pt\" alt=\"\\angle BOK= альфа плюс бета .\"> (см. рис.).</p><p class=\"left_margin\">Так как <img src=\"https://ege.sdamgia.ru/formula/svg/24/248c889d48c0791f941cf10c89798fed.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BK=OK\"> (по по­стро­е­нию), то <img src=\"https://ege.sdamgia.ru/formula/svg/d5/d53ab5689f43802adcdeb1357e70ff98.svg\" class=\"tex\" style=\"vertical-align:-3.3pt\" alt=\"\\angle OBK=\\angle BOK= альфа плюс бета ,\"> тогда <img src=\"https://ege.sdamgia.ru/formula/svg/59/59531991504dd98bda9894ce4aa5876e.svg\" class=\"tex\" style=\"vertical-align:-3.3pt\" alt=\"\\angle CBK=\\angle OBK минус \\angle CBO= альфа плюс бета минус бета = альфа .\"> Углы <i>CBK</i> и <i>KAC</i> опи­ра­ют­ся на один и тот же от­ре­зок <i>CK</i> и равны друг другу: <img src=\"https://ege.sdamgia.ru/formula/svg/fd/fdeac1d5b90f08af087154709a84651f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle CBK=\\angle KAC= альфа .\"> Тогда по при­зна­ку, свя­зан­но­му со свой­ством впи­сан­ных углов, точки <img src=\"https://ege.sdamgia.ru/formula/svg/ba/ba2144be894e03de9e7a61c98e778072.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"A, B, K, C\"> лежат на одной окруж­но­сти.</p><p class=\"left_margin\">б)  Обо­зна­чим через <img src=\"https://ege.sdamgia.ru/formula/svg/a4/a46ac71750676be751d8abab5587931e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"r, R\"> ра­ди­у­сы впи­сан­ной и опи­сан­ной окруж­но­стей тре­уголь­ни­ка <img src=\"https://ege.sdamgia.ru/formula/svg/4b/4b5b9eab089a2e0ff9b286f012e61feb.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"ABC.\"> Пусть <i>H</i>  — про­ек­ция точки <i>O</i> на сто­ро­ну <i>AB</i> (см. рис.), тогда <img src=\"https://ege.sdamgia.ru/formula/svg/0a/0aeeaf27055fa11e4eca2769d323c086.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"OH=r, AO= дробь: чис­ли­тель: r, зна­ме­на­тель: синус альфа конец дроби . \"> Так как точки <img src=\"https://ege.sdamgia.ru/formula/svg/66/668981169c9dbc4737f97c2699a67a10.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"A,B, K, C\"> лежат на одной окруж­но­сти, то ра­ди­ус опи­сан­ной окруж­но­сти тре­уголь­ни­ка <i>ABK</i> сов­па­да­ет с ра­ди­у­сом опи­сан­ной окруж­но­сти тре­уголь­ни­ка <img src=\"https://ege.sdamgia.ru/formula/svg/12/124717154995833bbfe38034a798d365.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ABC\"> и равен <img src=\"https://ege.sdamgia.ru/formula/svg/40/40ddba83c22acc2acaddff12c66d7adf.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"R.\"> Из тре­уголь­ни­ка <i>ABK</i> по тео­ре­ме си­ну­сов:<img src=\"https://ege.sdamgia.ru/formula/svg/7e/7e04117e6220bb7ac7aa410d6865a8bd.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: BK, зна­ме­на­тель: синус альфа конец дроби =2R, синус альфа = дробь: чис­ли­тель: BK, зна­ме­на­тель: 2R конец дроби . \"> Тогда</p><p><img src=\"/get_file?id=148375\" style=\"float:right;margin:10px;max-width:100%\">##</p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/0f/0fe0da4fa2bac18341ef2839027e2e5d.svg\" class=\"tex\" style=\"vertical-align:-21.7pt\" alt=\"AO= дробь: чис­ли­тель: r, зна­ме­на­тель: синус альфа конец дроби = дробь: чис­ли­тель: r, зна­ме­на­тель: \\dfracBK2R конец дроби = дробь: чис­ли­тель: r умно­жить на 2R, зна­ме­на­тель: BK конец дроби . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Так как <img src=\"https://ege.sdamgia.ru/formula/svg/29/29240120aaf93fc72b4d9b7246adf255.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"r=3,R=12,BK=OK=5,\">то <img src=\"https://ege.sdamgia.ru/formula/svg/d4/d4d1649088a8a79e65e5aa379dbd2d70.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"AO= дробь: чис­ли­тель: 3 умно­жить на 24, зна­ме­на­тель: 5 конец дроби =14,4. \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 14,4.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/de/def80de393174135ac74ebba34b39d51.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/18d629b9915219e82d5c5b7a1fb32b9e.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/19bf78e0675ff52f756ff811120a9bb1.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c87678b138a9c88ee75af3f82a7ac35a.svg",
+            "https://ege.sdamgia.ru/formula/svg/24/248c889d48c0791f941cf10c89798fed.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d53ab5689f43802adcdeb1357e70ff98.svg",
+            "https://ege.sdamgia.ru/formula/svg/59/59531991504dd98bda9894ce4aa5876e.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fdeac1d5b90f08af087154709a84651f.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/ba2144be894e03de9e7a61c98e778072.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a46ac71750676be751d8abab5587931e.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4b5b9eab089a2e0ff9b286f012e61feb.svg",
+            "https://ege.sdamgia.ru/formula/svg/0a/0aeeaf27055fa11e4eca2769d323c086.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/668981169c9dbc4737f97c2699a67a10.svg",
+            "https://ege.sdamgia.ru/formula/svg/12/124717154995833bbfe38034a798d365.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/40ddba83c22acc2acaddff12c66d7adf.svg",
+            "https://ege.sdamgia.ru/formula/svg/7e/7e04117e6220bb7ac7aa410d6865a8bd.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0fe0da4fa2bac18341ef2839027e2e5d.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/29240120aaf93fc72b4d9b7246adf255.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d4d1649088a8a79e65e5aa379dbd2d70.svg",
+            "/get_file?id=148376",
+            "/get_file?id=148375"
+        ]
+    },
+    "answer": "14,4.",
+    "topic_id": 17,
+    "analog_ids": [
+        509425,
+        511589,
+        511592
+    ]
+}

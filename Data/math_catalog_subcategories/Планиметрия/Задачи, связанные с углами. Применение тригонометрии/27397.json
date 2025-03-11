@@ -1,0 +1,42 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27397,
+    "condition": {
+        "text": "В треугольнике ABC угол C равен 90°, косинус внешнего угла при вершине A равен  Найдите ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919033\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right; margin:10px\" src=\"/get_file?id=7668\">В тре­уголь­ни­ке <i>ABC</i> угол <i>C</i> равен 90°, ко­си­нус внеш­не­го угла при вер­ши­не <i>A</i> равен <img src=\"https://ege.sdamgia.ru/formula/svg/e5/e55af6d93bddadfaaae7a0b6d383fee2.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" минус дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 17 конец ар­гу­мен­та , зна­ме­на­тель: 17 конец дроби . \"> Най­ди­те <img src=\"https://ege.sdamgia.ru/formula/svg/b9/b9c45176e4c209fc5e39c8c2d67de00f.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\" тан­генс B.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e5/e55af6d93bddadfaaae7a0b6d383fee2.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b9c45176e4c209fc5e39c8c2d67de00f.svg",
+            "/get_file?id=7668"
+        ]
+    },
+    "solution": {
+        "text": "Решение. так как    имеем  Ответ: 0,25. ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27397\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">так как </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/89/896188ed8b1a6eee8dbe8ca4185215eb.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"\\ctg A= дробь: чис­ли­тель: CA, зна­ме­на­тель: CB конец дроби = тан­генс B, \"></p><p class=\"left_margin\"></p></center>   имеем <p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"bc0e487691eb63fbb646d12c6704dadf\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/bc/bc0e487691eb63fbb646d12c6704dadf.svg\" class=\"tex\" style=\"vertical-align:-26.2pt\" alt=\" тан­генс B=\\ctg A= дробь: чис­ли­тель: ко­си­нус A, зна­ме­на­тель: синус A конец дроби = дробь: чис­ли­тель: ко­си­нус A, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус ко­си­нус в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та A пра­вая круг­лая скоб­ка конец дроби = дробь: чис­ли­тель: минус ко­си­нус A_внеш, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус ко­си­нус в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та A_внеш пра­вая круг­лая скоб­ка конец дроби = дробь: чис­ли­тель: \\dfrac ко­рень из: на­ча­ло ар­гу­мен­та: 17 конец ар­гу­мен­та , зна­ме­на­тель: 17 конец дроби ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус \\dfrac1 конец ар­гу­мен­та 17=0,25. \"></span><span data-width=\"540\" data-formulahash=\"bc0e487691eb63fbb646d12c6704dadf\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/31/312e7a9641b8b3bc03ed5af22d6402e7.svg\" class=\"tex\" style=\"vertical-align:-10.9pt\" alt=\" тан­генс B=\\ctg A= дробь: чис­ли­тель: ко­си­нус A, зна­ме­на­тель: синус A конец дроби = дробь: чис­ли­тель: ко­си­нус A, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус ко­си­нус в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та A пра­вая круг­лая скоб­ка конец дроби = \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/6f/6f061c50e49ec06ff7ceaad9db7eda55.svg\" class=\"tex\" style=\"vertical-align:-26.3pt\" alt=\"= дробь: чис­ли­тель: минус ко­си­нус A_внеш, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус ко­си­нус в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та A_внеш пра­вая круг­лая скоб­ка конец дроби = дробь: чис­ли­тель: \\dfrac ко­рень из: на­ча­ло ар­гу­мен­та: 17 конец ар­гу­мен­та , зна­ме­на­тель: 17 конец дроби ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус \\dfrac1 конец ар­гу­мен­та 17=0,25. \"></span></p><p class=\"left_margin\"></p></center> <p><span style=\"letter-spaceing:2px\">Ответ</span>: 0,25. </p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/89/896188ed8b1a6eee8dbe8ca4185215eb.svg",
+            "https://ege.sdamgia.ru/formula/svg/bc/bc0e487691eb63fbb646d12c6704dadf.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/312e7a9641b8b3bc03ed5af22d6402e7.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6f061c50e49ec06ff7ceaad9db7eda55.svg"
+        ]
+    },
+    "answer": "0,25",
+    "topic_id": null,
+    "analog_ids": [
+        27397,
+        36201,
+        36203,
+        36205,
+        36201,
+        36203,
+        36205,
+        36207,
+        36209,
+        36211,
+        36213,
+        36215,
+        36217,
+        36219
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 517515,
+    "condition": {
+        "text": "Решите неравенство: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body625527\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство: <img src=\"https://ege.sdamgia.ru/formula/svg/c8/c834319d1c81f8c33cd517c433b4752b.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: 8 в сте­пе­ни левая круг­лая скоб­ка x плюс 1 пра­вая круг­лая скоб­ка минус 40, зна­ме­на­тель: 2 умно­жить на 64 в сте­пе­ни x минус 32 конец дроби мень­ше или равно 1. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c8/c834319d1c81f8c33cd517c433b4752b.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Пусть  тогда неравенство примет вид:откуда   При  получим  решений нет.При  получим  откуда При  получим  откуда Решение исходного неравенства:  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol517515\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/ae/ae94d72f5d1f92830e10e1ef88454441.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"t=8 в сте­пе­ни x ,\"> тогда не­ра­вен­ство при­мет вид:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/c1/c14be7844dead8ba1b9ab8d17e54a74b.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" дробь: чис­ли­тель: 4t минус 20, зна­ме­на­тель: t в квад­ра­те минус 16 конец дроби мень­ше или равно 1 рав­но­силь­но дробь: чис­ли­тель: t в квад­ра­те минус 4t плюс 4, зна­ме­на­тель: t в квад­ра­те минус 16 конец дроби боль­ше или равно 0 рав­но­силь­но дробь: чис­ли­тель: левая круг­лая скоб­ка t минус 2 пра­вая круг­лая скоб­ка в квад­ра­те , зна­ме­на­тель: левая круг­лая скоб­ка t минус 4 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка t плюс 4 пра­вая круг­лая скоб­ка конец дроби боль­ше или равно 0, \"></p><p class=\"left_margin\"></p></center><p>от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/93/939e9dba25fb6c63c72e30cdf78a65da.svg\" class=\"tex\" style=\"vertical-align:-2.2pt\" alt=\"t мень­ше минус 4;\"> <img src=\"https://ege.sdamgia.ru/formula/svg/ba/ba14210a3928572011e81868efb396c0.svg\" class=\"tex\" style=\"vertical-align:-2.2pt\" alt=\"t=2;\"> <img src=\"https://ege.sdamgia.ru/formula/svg/29/2920cc52f7c6e5692de9ece703a28455.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"t боль­ше 4.\"></p><p class=\"left_margin\">При <img src=\"https://ege.sdamgia.ru/formula/svg/e7/e7f59ed65a0303f7e620144077038357.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"t мень­ше минус 4\"> по­лу­чим <img src=\"https://ege.sdamgia.ru/formula/svg/0f/0fe6159cebf0fd13dca5e0f1cfd31e35.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"8 в сте­пе­ни x мень­ше минус 4,\"> ре­ше­ний нет.</p><p class=\"left_margin\">При <img src=\"https://ege.sdamgia.ru/formula/svg/b0/b0af76257fd334f5200fa9c2a421688a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"t=2\"> по­лу­чим <img src=\"https://ege.sdamgia.ru/formula/svg/29/29e149d301121933c111a6ef4870edbc.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"8 в сте­пе­ни x =2,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/c8/c892e79ef4282a8f94774373b778daef.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x= дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби .\"></p><p class=\"left_margin\">При <img src=\"https://ege.sdamgia.ru/formula/svg/22/22c8b09f3b6489d53a94e76d4314a972.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"t боль­ше 4\"> по­лу­чим <img src=\"https://ege.sdamgia.ru/formula/svg/bb/bb49767e04d634c650f448f86676bd8b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"8 в сте­пе­ни x боль­ше 4,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/ea/ea89b67dc63271c0bf641313e35e852e.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x боль­ше дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби .\"></p><p class=\"left_margin\">Ре­ше­ние ис­ход­но­го не­ра­вен­ства: <img src=\"https://ege.sdamgia.ru/formula/svg/97/97abad208fca863621af5872eb72a96a.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x= дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби ;x боль­ше дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/95/95bba1bb9df258690962b2eff497fd98.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая фи­гур­ная скоб­ка дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби пра­вая фи­гур­ная скоб­ка \\cup левая круг­лая скоб­ка дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби ; плюс бес­ко­неч­ность пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ae/ae94d72f5d1f92830e10e1ef88454441.svg",
+            "https://ege.sdamgia.ru/formula/svg/c1/c14be7844dead8ba1b9ab8d17e54a74b.svg",
+            "https://ege.sdamgia.ru/formula/svg/93/939e9dba25fb6c63c72e30cdf78a65da.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/ba14210a3928572011e81868efb396c0.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/2920cc52f7c6e5692de9ece703a28455.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e7f59ed65a0303f7e620144077038357.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0fe6159cebf0fd13dca5e0f1cfd31e35.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b0af76257fd334f5200fa9c2a421688a.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/29e149d301121933c111a6ef4870edbc.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c892e79ef4282a8f94774373b778daef.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/22c8b09f3b6489d53a94e76d4314a972.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bb49767e04d634c650f448f86676bd8b.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/ea89b67dc63271c0bf641313e35e852e.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/97abad208fca863621af5872eb72a96a.svg",
+            "https://ege.sdamgia.ru/formula/svg/95/95bba1bb9df258690962b2eff497fd98.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": [
+        517515,
+        660758
+    ]
+}

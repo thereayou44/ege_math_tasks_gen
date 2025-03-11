@@ -1,0 +1,40 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 484573,
+    "condition": {
+        "text": "Дана правильная треугольная пирамида DABC с вершиной D. Боковое ребро пирамиды равно  высота равна  а)  Докажите, что сечение пирамиды, проходящее через середины ребер BD, AC и AD, является прямоугольником. б)  Найдите расстояние от середины бокового ребра BD до прямой MT, где точки M и T  — середины ребер AC и AD соответственно.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body592417\" class=\"pbody\"><p class=\"left_margin\">Дана пра­виль­ная тре­уголь­ная пи­ра­ми­да <i>DABC</i> с вер­ши­ной <i>D</i>. Бо­ко­вое ребро пи­ра­ми­ды равно <img src=\"https://ege.sdamgia.ru/formula/svg/32/32d3a8af799e5a18b8794dcde6b5a384.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 43 конец ар­гу­мен­та ,\"> вы­со­та равна <img src=\"https://ege.sdamgia.ru/formula/svg/97/973b7f791b99f2af25420ec88d3763b8.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 31 конец ар­гу­мен­та .\"> </p><p class=\"left_margin\">а)  До­ка­жи­те, что се­че­ние пи­ра­ми­ды, про­хо­дя­щее через се­ре­ди­ны ребер <i>BD</i>, <i>AC</i> и <i>AD</i>, яв­ля­ет­ся пря­мо­уголь­ни­ком.</p><p>&nbsp;</p><p class=\"left_margin\">б)  Най­ди­те рас­сто­я­ние от се­ре­ди­ны бо­ко­во­го ребра <i>BD</i> до пря­мой <i>MT</i>, где точки <i>M</i> и <i>T</i>  — се­ре­ди­ны ребер <i>AC</i> и <i>AD</i> со­от­вет­ствен­но.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/32/32d3a8af799e5a18b8794dcde6b5a384.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/973b7f791b99f2af25420ec88d3763b8.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Пусть P  — середина ребра   — середина ребра  По теореме о средней линии треугольника  следовательно, точки  лежат в одной плоскости.  следовательно, MTPQ  — параллелограмм. Кроме того,  а по теореме о трёх перпендикулярах  (так как ), поэтому этот параллелограмм  — прямоугольник. б)  По доказанному в пункте а), искомое расстояние есть длина отрезка  По теореме Пифагора   Тогда  откуда  Ответ: 3.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol484573\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=132288\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Пусть <i>P</i>  — се­ре­ди­на ребра <img src=\"https://ege.sdamgia.ru/formula/svg/9e/9efb9524d41ebacbe811c2569050a754.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"BD,Q\">  — се­ре­ди­на ребра <img src=\"https://ege.sdamgia.ru/formula/svg/90/90b425c2898f0ee7d2629aad1e09646f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BC.\"> По тео­ре­ме о сред­ней линии тре­уголь­ни­ка <img src=\"https://ege.sdamgia.ru/formula/svg/ef/ef61da713b7c9056954dbbd8f22dab6a.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"MT||CD||QP,\"> сле­до­ва­тель­но, точки <img src=\"https://ege.sdamgia.ru/formula/svg/21/21685cd46367b9a5c89368986c8d5d79.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"M,T,P,Q\"> лежат в одной плос­ко­сти. <img src=\"https://ege.sdamgia.ru/formula/svg/75/75c8cfed9c2ab22d628be3ee8058a8fb.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"MT= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби CD=QP, \"> сле­до­ва­тель­но, <i>MTPQ</i>  — па­рал­ле­ло­грамм. Кроме того, <img src=\"https://ege.sdamgia.ru/formula/svg/bf/bfdfeed11c49b6b630ad51dffa3f5090.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"PT||AB,\"> а по тео­ре­ме о трёх пер­пен­ди­ку­ля­рах <img src=\"https://ege.sdamgia.ru/formula/svg/25/25a744fe1bd742ae2c31f03fde8cf5b4.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AB\\bot CD\"> (так как <img src=\"https://ege.sdamgia.ru/formula/svg/55/554f4fb3fb60c10215d93eec264ca343.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AB\\bot CO\">), по­это­му этот па­рал­ле­ло­грамм  — пря­мо­уголь­ник. </p><p class=\"left_margin\">б)  По до­ка­зан­но­му в пунк­те а), ис­ко­мое рас­сто­я­ние есть длина от­рез­ка <img src=\"https://ege.sdamgia.ru/formula/svg/08/080b514d5ed83a1ec6d93f4e1df49e73.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"PT.\"> По тео­ре­ме Пи­фа­го­ра </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/38/388e00b378f848bda9ae2e432851ced2.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AO= ко­рень из: на­ча­ло ар­гу­мен­та: AD в квад­ра­те минус DO в квад­ра­те конец ар­гу­мен­та =2 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та .\"></p><p class=\"left_margin\"></p></center> <p> Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/f5/f518250513b4b4b9e9578f0720f2d431.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"AB= ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та умно­жить на AO=6,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/9c/9c4e637785714ae2c7b1df8ce89d99c0.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"PT= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби AB=3. \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 3.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/9e/9efb9524d41ebacbe811c2569050a754.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/90b425c2898f0ee7d2629aad1e09646f.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/ef61da713b7c9056954dbbd8f22dab6a.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/21685cd46367b9a5c89368986c8d5d79.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/75c8cfed9c2ab22d628be3ee8058a8fb.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bfdfeed11c49b6b630ad51dffa3f5090.svg",
+            "https://ege.sdamgia.ru/formula/svg/25/25a744fe1bd742ae2c31f03fde8cf5b4.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/554f4fb3fb60c10215d93eec264ca343.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/080b514d5ed83a1ec6d93f4e1df49e73.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/388e00b378f848bda9ae2e432851ced2.svg",
+            "https://ege.sdamgia.ru/formula/svg/f5/f518250513b4b4b9e9578f0720f2d431.svg",
+            "https://ege.sdamgia.ru/formula/svg/9c/9c4e637785714ae2c7b1df8ce89d99c0.svg",
+            "/get_file?id=132288"
+        ]
+    },
+    "answer": "3.",
+    "topic_id": 14,
+    "analog_ids": [
+        484573,
+        484574,
+        511291,
+        511292
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 548818,
+    "condition": {
+        "text": "В июле 2026 года планируется взять кредит в банке на три года в размере S тысяч рублей, где S  — целое число. Условия его возврата таковы:− каждый январь долг увеличивается на 20% по сравнению с концом предыдущего года;− с февраля по июнь каждого года необходимо выплатить одним платежом часть долга;− в июле каждого года долг должен составлять часть кредита в соответствии со следующей таблицей Месяц и годИюль 2026Июль 2027Июль 2028Июль 2029Долг(в тыс. рублей)S0,8S0,4S0 Найдите наибольшее значение S, при котором каждая из выплат будет не больше 840 тысяч рублей.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body405806\" class=\"pbody\"><p class=\"left_margin\">В июле 2026 года пла­ни­ру­ет­ся взять кре­дит в банке на три года в раз­ме­ре <i>S</i> тысяч руб­лей, где <i>S</i>  — <b>целое</b> число. Усло­вия его воз­вра­та та­ко­вы:</p><p class=\"left_margin\">− каж­дый ян­варь долг уве­ли­чи­ва­ет­ся на 20% по срав­не­нию с кон­цом преды­ду­ще­го года;</p><p class=\"left_margin\">− с фев­ра­ля по июнь каж­до­го года не­об­хо­ди­мо вы­пла­тить одним пла­те­жом часть долга;</p><p class=\"left_margin\">− в июле каж­до­го года долг дол­жен со­став­лять часть кре­ди­та в со­от­вет­ствии со сле­ду­ю­щей таб­ли­цей</p><p>&nbsp;</p><p></p><table style=\"margin:auto\"><tbody><tr><td style=\"text-align:center\">Месяц и год</td><td style=\"text-align:center\">Июль 2026</td><td style=\"text-align:center\">Июль 2027</td><td style=\"text-align:center\">Июль 2028</td><td style=\"text-align:center\">Июль 2029</td></tr><tr><td style=\"text-align:center\">Долг<br>(в тыс. руб­лей)</td><td style=\"text-align:center\"><i>S</i></td><td style=\"text-align:center\">0,8<i>S</i></td><td style=\"text-align:center\">0,4<i>S</i></td><td style=\"text-align:center\">0</td></tr></tbody></table><p>&nbsp;</p><p class=\"left_margin\">Най­ди­те наи­боль­шее зна­че­ние <i>S</i>, при ко­то­ром каж­дая из вы­плат будет не боль­ше 840 тысяч руб­лей.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Когда банк начисляет проценты на суммы S; 0,8S; 0,4S, то размер долга становится равным соответственно:   и  Значит, размеры выплат составят   и  Наибольшей из них является вторая выплата. Эта выплата должна быть не больше 840 тыс. руб., поскольку лишь в таком случае остальные выплаты тоже будут не больше 840 тыс. руб. Получаем:  откуда Значит, максимальный размер кредита составит 1500 тыс. руб. Ответ: 1500.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol548818\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Когда банк на­чис­ля­ет про­цен­ты на суммы <i>S</i>; 0,8<i>S</i>; 0,4<i>S</i>, то раз­мер долга ста­но­вит­ся рав­ным со­от­вет­ствен­но: <img src=\"https://ege.sdamgia.ru/formula/svg/22/22d776bf0629a2ee0f2e058ca51653ed.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1,2S;\"> <img src=\"https://ege.sdamgia.ru/formula/svg/08/08e3db5e75427f8234d7371f6b183684.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1,2 умно­жить на 0,8S=0,96S\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/cd/cd67206398b7442a60a05be62c025ae6.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1,2 умно­жить на 0,4S=0,48S.\"> Зна­чит, раз­ме­ры вы­плат со­ста­вят <img src=\"https://ege.sdamgia.ru/formula/svg/49/49f3783d4994adc9f1f71d6d2ffb90a1.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1,2S минус 0,8S=0,4S; \"> <img src=\"https://ege.sdamgia.ru/formula/svg/35/35f1eeecc33aac266ece472bdfefb14b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"0,96S минус 0,4S=0,56S; \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/d1/d1b32323f677c7717a850a6d559f7d42.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" 0,48S минус 0=0,48S.\"> Наи­боль­шей из них яв­ля­ет­ся вто­рая вы­пла­та. Эта вы­пла­та долж­на быть не боль­ше 840 тыс. руб., по­сколь­ку лишь в таком слу­чае осталь­ные вы­пла­ты тоже будут не боль­ше 840 тыс. руб. По­лу­ча­ем: <img src=\"https://ege.sdamgia.ru/formula/svg/4a/4a3b8be60c7d1d67bc738f5934f32b34.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"0,56S мень­ше или равно 840,\"> от­ку­да</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/8c/8ccd136f1b14828c54e92e2337ebf0a0.svg\" class=\"tex\" style=\"vertical-align:-10.6pt\" alt=\"S мень­ше или равно дробь: чис­ли­тель: 840, зна­ме­на­тель: 0,56 конец дроби =1500. \"></p><p class=\"left_margin\"></p></center><p> Зна­чит, мак­си­маль­ный раз­мер кре­ди­та со­ста­вит 1500 тыс. руб.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 1500.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/22/22d776bf0629a2ee0f2e058ca51653ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/08e3db5e75427f8234d7371f6b183684.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cd67206398b7442a60a05be62c025ae6.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/49f3783d4994adc9f1f71d6d2ffb90a1.svg",
+            "https://ege.sdamgia.ru/formula/svg/35/35f1eeecc33aac266ece472bdfefb14b.svg",
+            "https://ege.sdamgia.ru/formula/svg/d1/d1b32323f677c7717a850a6d559f7d42.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4a3b8be60c7d1d67bc738f5934f32b34.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8ccd136f1b14828c54e92e2337ebf0a0.svg"
+        ]
+    },
+    "answer": "1500.",
+    "topic_id": 16,
+    "analog_ids": [
+        548818,
+        549117
+    ]
+}

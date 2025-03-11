@@ -1,0 +1,60 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27379,
+    "condition": {
+        "text": "В треугольнике ABC угол C равен 90°,   Найдите тангенс внешнего угла при вершине ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918543\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right; margin:10px\" src=\"/get_file?id=7668\" width=\"150\">В тре­уголь­ни­ке <i>ABC</i> угол <i>C</i> равен 90°, <img src=\"https://ege.sdamgia.ru/formula/svg/74/7405dc0b298cb0402ea9099a753a7219.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AB = 4 ко­рень из: на­ча­ло ар­гу­мен­та: 5 конец ар­гу­мен­та ,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/6d/6dfac439a79776f12d2cfc17acdb712c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BC = 4.\"> Най­ди­те тан­генс внеш­не­го угла при вер­ши­не <img src=\"https://ege.sdamgia.ru/formula/svg/e1/e1354cc842cc323c307b3424ed3dfa81.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"A.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/74/7405dc0b298cb0402ea9099a753a7219.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6dfac439a79776f12d2cfc17acdb712c.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e1354cc842cc323c307b3424ed3dfa81.svg",
+            "/get_file?id=7668"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Тангенсы смежных углов противоположны. Имеем: Ответ: –0,5. ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27379\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Тан­ген­сы смеж­ных углов про­ти­во­по­лож­ны. Имеем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/87/87054e40877702b105d4048d5a106190.svg\" class=\"tex\" style=\"vertical-align:-11.0pt\" alt=\" тан­генс A_внеш= минус тан­генс A= минус дробь: чис­ли­тель: BC, зна­ме­на­тель: AC конец дроби = минус дробь: чис­ли­тель: BC, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: AB в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та минус BC в квад­ра­те пра­вая круг­лая скоб­ка конец дроби = минус дробь: чис­ли­тель: 4, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 80 минус 16 конец ар­гу­мен­та конец дроби = минус 0,5. \"></p> <p><span style=\"letter-spaceing:2px\">Ответ</span>: –0,5. </p></center></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/87/87054e40877702b105d4048d5a106190.svg"
+        ]
+    },
+    "answer": "-0,5",
+    "topic_id": null,
+    "analog_ids": [
+        27379,
+        19569,
+        19515,
+        19517,
+        19569,
+        19515,
+        19517,
+        19519,
+        19521,
+        19523,
+        19525,
+        19527,
+        19529,
+        19531,
+        19533,
+        19535,
+        19537,
+        19539,
+        19541,
+        19543,
+        19545,
+        19547,
+        19549,
+        19551,
+        19553,
+        19555,
+        19557,
+        19559,
+        19561,
+        19563,
+        19565,
+        19567,
+        19571,
+        19573
+    ]
+}

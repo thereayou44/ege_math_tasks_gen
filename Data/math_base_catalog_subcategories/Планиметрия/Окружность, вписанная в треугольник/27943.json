@@ -1,0 +1,55 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27943,
+    "condition": {
+        "text": "К окружности, вписанной в треугольник ABC, проведены три касательные. Периметры отсеченных треугольников равны 6, 8, 10. Найдите периметр данного треугольника.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918491\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=113292\" style=\"float:right;margin:10px;max-width:100%\">К окруж­но­сти, впи­сан­ной в тре­уголь­ник <i>ABC</i>, про­ве­де­ны три ка­са­тель­ные. Пе­ри­мет­ры от­се­чен­ных тре­уголь­ни­ков равны 6, 8, 10. Най­ди­те пе­ри­метр дан­но­го тре­уголь­ни­ка.</p></div>",
+        "image_urls": [
+            "/get_file?id=113292"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Покажем, что сумма периметров отсеченных треугольников равна сумме длин сторон треугольника АВС, то есть равна его периметру. Отрезки касательных, проведенных к окружности из точек K, H, O, F, N, M соответственно равны друг другу (см. рис., равные отрезки выделены одинаковыми цветами). Поэтому Сложим правые части полученных равенств:  Следовательно,Ответ: 24.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27943\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По­ка­жем, что сумма пе­ри­мет­ров от­се­чен­ных тре­уголь­ни­ков равна сумме длин сто­рон тре­уголь­ни­ка <i>АВС</i>, то есть равна его пе­ри­мет­ру. От­рез­ки ка­са­тель­ных, про­ве­ден­ных к окруж­но­сти из точек <i>K</i>, <i>H</i>, <i>O</i>, <i>F</i>, <i>N</i>, <i>M</i> со­от­вет­ствен­но равны друг другу (см. рис., рав­ные от­рез­ки вы­де­ле­ны оди­на­ко­вы­ми цве­та­ми). По­это­му</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/1d/1d5b9cbf2c209762cef5fd3969d338a3.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"P_CKM = CQ плюс CR, P_AHO = AQ плюс AS, P_BFN = BS плюс BR.\"></p><p class=\"left_margin\"></p></center> <p><img src=\"/get_file?id=114418\" style=\"margin:10px auto;display:block;max-width:100%\"></p><p class=\"left_margin\">Сло­жим пра­вые части по­лу­чен­ных ра­венств: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/de/de339d64b3b50cd0332bc25a4b2d77c5.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка CQ плюс CR пра­вая круг­лая скоб­ка плюс левая круг­лая скоб­ка AQ плюс AS пра­вая круг­лая скоб­ка плюс левая круг­лая скоб­ка BS плюс BR пра­вая круг­лая скоб­ка = AB плюс BC плюс AC = P_ABC.\"></p><p class=\"left_margin\"></p></center><p> Сле­до­ва­тель­но,</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/be/be23bdeb73ee4d042f7d6be8f4473dfc.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"P_ABC =P_AOH плюс P_KCM плюс P_FNB=24.\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing:2px \">Ответ</span>: 24.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/1d/1d5b9cbf2c209762cef5fd3969d338a3.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/de339d64b3b50cd0332bc25a4b2d77c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/be/be23bdeb73ee4d042f7d6be8f4473dfc.svg",
+            "/get_file?id=114418"
+        ]
+    },
+    "answer": "24",
+    "topic_id": 1,
+    "analog_ids": [
+        27943,
+        54647,
+        54649,
+        54651,
+        54647,
+        54649,
+        54651,
+        54653,
+        54655,
+        54657,
+        54659,
+        54661,
+        54663,
+        54665,
+        54667,
+        54669,
+        54671,
+        54673,
+        54675,
+        54677,
+        54679,
+        54681,
+        54683,
+        54685,
+        54687,
+        54689,
+        54691,
+        54693,
+        54695
+    ]
+}

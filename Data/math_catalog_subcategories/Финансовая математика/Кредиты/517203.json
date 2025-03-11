@@ -1,0 +1,26 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 517203,
+    "condition": {
+        "text": "В июле планируется взять кредит в банке на сумму 7 млн рублей на срок 10 лет. Условия возврата таковы:   — каждый январь долг возрастает на r % по сравнению с концом предыдущего года;  — с февраля по июнь необходимо выплатить часть долга так, чтобы на начало июля каждого года долг уменьшался на одну и ту же сумму по сравнению с предыдущим июлем.Найдите наименьшую возможную ставку r , если известно, что последний платёж будет не менее 0,819 млн рублей.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body625327\" class=\"pbody\"><p class=\"left_margin\">В июле пла­ни­ру­ет­ся взять кре­дит в банке на сумму 7 млн руб­лей на срок 10 лет. Усло­вия воз­вра­та та­ко­вы: </p><p>  — каж­дый ян­варь долг воз­рас­та­ет на <i>r</i> % по срав­не­нию с кон­цом преды­ду­ще­го года;</p><p>  — с фев­ра­ля по июнь не­об­хо­ди­мо вы­пла­тить часть долга так, чтобы на на­ча­ло июля каж­до­го года долг умень­шал­ся на одну и ту же сумму по срав­не­нию с преды­ду­щим июлем.</p><p class=\"left_margin\">Най­ди­те наи­мень­шую воз­мож­ную став­ку <i>r</i> , если из­вест­но, что по­след­ний платёж будет не менее 0,819 млн руб­лей.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Долг перед банком (в млн рублей) по состоянию на июль должен уменьшаться до нуля равномерно:7; 6,3; 5,6; ...; 1,4; 0,7; 0.По условию каждый январь долг возрастает на r %. Пусть  тогда последовательность размеров долга (в млн рублей) в январе такова:7k; 6,3k; 5,6k; ...; 1,4k; 0,7k.Следовательно, последний платеж составит  0,7k млн рублей.Получаем  откуда  Значит,  Ответ: 17.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol517203\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Долг перед бан­ком (в млн руб­лей) по со­сто­я­нию на июль дол­жен умень­шать­ся до нуля рав­но­мер­но:</p><p class=\"left_margin\"></p><center><p class=\"left_margin\">7; 6,3; 5,6; ...; 1,4; 0,7; 0.</p><p class=\"left_margin\"></p></center><p class=\"left_margin\">По усло­вию каж­дый ян­варь долг воз­рас­та­ет на <i>r</i> %. Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/58/58a05de12f3dbb839adf9648e2f576bd.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"k=1 плюс дробь: чис­ли­тель: r, зна­ме­на­тель: 100 конец дроби , \"> тогда по­сле­до­ва­тель­ность раз­ме­ров долга (в млн руб­лей) в ян­ва­ре та­ко­ва:</p><p class=\"left_margin\"></p><center><p class=\"left_margin\">7<i>k</i>; 6,3<i>k</i>; 5,6<i>k</i>; ...; 1,4<i>k</i>; 0,7<i>k</i>.</p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Сле­до­ва­тель­но, по­след­ний пла­теж со­ста­вит  0,7<i>k</i> млн руб­лей.</p><p class=\"left_margin\">По­лу­ча­ем <img src=\"https://ege.sdamgia.ru/formula/svg/1f/1f48c3dba71b3b7e9406d524b850eb9e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"0,7k\\geqslant0,819,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/fb/fb4349364254d77c55fc2551d89e34b2.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"k боль­ше или равно 1,17.\"> Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/58/581beda1be617013bcde2d3673c9c2b2.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"k=1,17, r=17.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 17.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/58/58a05de12f3dbb839adf9648e2f576bd.svg",
+            "https://ege.sdamgia.ru/formula/svg/1f/1f48c3dba71b3b7e9406d524b850eb9e.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fb4349364254d77c55fc2551d89e34b2.svg",
+            "https://ege.sdamgia.ru/formula/svg/58/581beda1be617013bcde2d3673c9c2b2.svg"
+        ]
+    },
+    "answer": "17.",
+    "topic_id": 16,
+    "analog_ids": [
+        517203,
+        517241
+    ]
+}

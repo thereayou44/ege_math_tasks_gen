@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 647129,
+    "condition": {
+        "text": "Найдите значение выражения  при  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body504101\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те зна­че­ние вы­ра­же­ния <img src=\"https://ege.sdamgia.ru/formula/svg/dc/dcafeb09ba115b18174e446b1dc28590.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 25x в квад­ра­те плюс 9y в квад­ра­те минус левая круг­лая скоб­ка 5x плюс 3y пра­вая круг­лая скоб­ка в квад­ра­те пра­вая круг­лая скоб­ка : левая круг­лая скоб­ка 2xy пра­вая круг­лая скоб­ка \"> при <img src=\"https://ege.sdamgia.ru/formula/svg/a7/a72aa394e9091ae5ce78156a0bd5ed0d.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= целая часть: 17, дроб­ная часть: чис­ли­тель: 5, зна­ме­на­тель: 101 ,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/f4/f4cb86b4f54f25779f5cc83d98f05aff.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y= ко­рень из: на­ча­ло ар­гу­мен­та: 305 конец ар­гу­мен­та .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/dc/dcafeb09ba115b18174e446b1dc28590.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a72aa394e9091ae5ce78156a0bd5ed0d.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f4cb86b4f54f25779f5cc83d98f05aff.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Выполним преобразования: Ответ: −15.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol647129\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Вы­пол­ним пре­об­ра­зо­ва­ния:</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"c4451aac2b750a41c293636049ec8c08\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/c4/c4451aac2b750a41c293636049ec8c08.svg\" class=\"tex\" style=\"vertical-align:-10.4pt\" alt=\" дробь: чис­ли­тель: 25x в квад­ра­те плюс 9y в квад­ра­те минус левая круг­лая скоб­ка 5x плюс 3y пра­вая круг­лая скоб­ка в квад­ра­те , зна­ме­на­тель: 2xy конец дроби = дробь: чис­ли­тель: 25x в квад­ра­те плюс 9y в квад­ра­те минус 25x в квад­ра­те минус 30xy минус 9y в квад­ра­те , зна­ме­на­тель: 2xy конец дроби = минус дробь: чис­ли­тель: 30xy, зна­ме­на­тель: 2xy конец дроби = минус 15. \"></span><span data-width=\"490\" data-formulahash=\"c4451aac2b750a41c293636049ec8c08\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/ff/ffb158ec3c35b02a8b4e39bddc1aef93.svg\" class=\"tex\" style=\"vertical-align:-10.5pt\" alt=\" дробь: чис­ли­тель: 25x в квад­ра­те плюс 9y в квад­ра­те минус левая круг­лая скоб­ка 5x плюс 3y пра­вая круг­лая скоб­ка в квад­ра­те , зна­ме­на­тель: 2xy конец дроби = \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/11/1109147f79bfe0150065f140b5385963.svg\" class=\"tex\" style=\"vertical-align:-10.5pt\" alt=\"= дробь: чис­ли­тель: 25x в квад­ра­те плюс 9y в квад­ра­те минус 25x в квад­ра­те минус 30xy минус 9y в квад­ра­те , зна­ме­на­тель: 2xy конец дроби = минус дробь: чис­ли­тель: 30xy, зна­ме­на­тель: 2xy конец дроби = минус 15. \"></span><span data-width=\"340\" data-formulahash=\"c4451aac2b750a41c293636049ec8c08\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/ff/ffb158ec3c35b02a8b4e39bddc1aef93.svg\" class=\"tex\" style=\"vertical-align:-10.5pt\" alt=\" дробь: чис­ли­тель: 25x в квад­ра­те плюс 9y в квад­ра­те минус левая круг­лая скоб­ка 5x плюс 3y пра­вая круг­лая скоб­ка в квад­ра­те , зна­ме­на­тель: 2xy конец дроби = \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/df/dfa2198b22111ab94da2bf18c43b5eec.svg\" class=\"tex\" style=\"vertical-align:-10.5pt\" alt=\"= дробь: чис­ли­тель: 25x в квад­ра­те плюс 9y в квад­ра­те минус 25x в квад­ра­те минус 30xy минус 9y в квад­ра­те , зна­ме­на­тель: 2xy конец дроби = \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/30/3014ce762ff3bb5689973c4621ec48de.svg\" class=\"tex\" style=\"vertical-align:-10.5pt\" alt=\"= минус дробь: чис­ли­тель: 30xy, зна­ме­на­тель: 2xy конец дроби = минус 15. \"></span></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> −15.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c4/c4451aac2b750a41c293636049ec8c08.svg",
+            "https://ege.sdamgia.ru/formula/svg/ff/ffb158ec3c35b02a8b4e39bddc1aef93.svg",
+            "https://ege.sdamgia.ru/formula/svg/11/1109147f79bfe0150065f140b5385963.svg",
+            "https://ege.sdamgia.ru/formula/svg/ff/ffb158ec3c35b02a8b4e39bddc1aef93.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/dfa2198b22111ab94da2bf18c43b5eec.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/3014ce762ff3bb5689973c4621ec48de.svg"
+        ]
+    },
+    "answer": "-15",
+    "topic_id": 7,
+    "analog_ids": [
+        647129,
+        647149
+    ]
+}

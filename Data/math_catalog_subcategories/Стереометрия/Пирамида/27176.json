@@ -1,0 +1,55 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27176,
+    "condition": {
+        "text": " Найдите объем пирамиды, высота которой равна 6, а основание  — прямоугольник со сторонами 3 и 4.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918740\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=111765\" style=\"float:right;margin:10px;max-width:100%\"> Най­ди­те объем пи­ра­ми­ды, вы­со­та ко­то­рой равна 6, а ос­но­ва­ние  — пря­мо­уголь­ник со сто­ро­на­ми 3 и 4.</p></div>",
+        "image_urls": [
+            "/get_file?id=111765"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Объем пирамиды с площадью основания S и высотой h равен  Ответ: 24.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27176\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Объем пи­ра­ми­ды с пло­ща­дью ос­но­ва­ния <i>S</i> и вы­со­той <i>h</i> равен </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e4/e4c4cf49190c30d6e63a8f237916d90b.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"V= дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби Sh= дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби 3 умно­жить на 4 умно­жить на 6=24. \"></p><p class=\"left_margin\"></p></center> <p><span style=\"letter-spacing: 2px;\">Ответ:</span> 24.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e4/e4c4cf49190c30d6e63a8f237916d90b.svg"
+        ]
+    },
+    "answer": "24",
+    "topic_id": 3,
+    "analog_ids": [
+        27176,
+        76659,
+        76661,
+        76663,
+        76659,
+        76661,
+        76663,
+        76665,
+        76667,
+        76669,
+        76671,
+        76673,
+        76675,
+        76677,
+        76679,
+        76681,
+        76683,
+        76685,
+        76687,
+        76689,
+        76691,
+        76693,
+        76695,
+        76697,
+        76699,
+        76701,
+        76703,
+        76705,
+        76707,
+        76709,
+        76711,
+        76713
+    ]
+}

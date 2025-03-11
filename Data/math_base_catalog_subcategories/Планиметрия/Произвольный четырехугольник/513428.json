@@ -1,0 +1,36 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 513428,
+    "condition": {
+        "text": "Дана правильная треугольная призма АВСА1В1С1, все рёбра которой равны 4. Через точки A, С1 и середину T ребра А1В1 проведена плоскость.а)  Докажите, что сечение призмы указанной плоскостью является прямоугольным треугольником.б)  Найдите угол между плоскостью сечения и плоскостью ABC.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body637800\" class=\"pbody\"><p class=\"left_margin\">Дана пра­виль­ная тре­уголь­ная приз­ма <i>АВСА</i><sub>1</sub><i>В</i><sub>1</sub><i>С</i><sub>1</sub>, все рёбра ко­то­рой равны 4. Через точки <i>A</i>, <i>С</i><sub>1</sub> и се­ре­ди­ну <i>T</i> ребра <i>А</i><sub>1</sub><i>В</i><sub>1</sub> про­ве­де­на плос­кость.</p><p class=\"left_margin\">а)  До­ка­жи­те, что се­че­ние приз­мы ука­зан­ной плос­ко­стью яв­ля­ет­ся пря­мо­уголь­ным тре­уголь­ни­ком.</p><p class=\"left_margin\">б)  Най­ди­те угол между плос­ко­стью се­че­ния и плос­ко­стью <i>ABC</i>.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Найдём стороны треугольника ATC1:Заметим, чтоСледовательно, по теореме, обратной теореме Пифагора, треугольник ATC1 является прямоугольным.б)  Так как прямая C1T перпендикулярна прямым A1T и AT, угол A1ТA искомый. Тангенс угла A1TA равен Ответ: б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol513428\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=141675\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Найдём сто­ро­ны тре­уголь­ни­ка <i>ATC</i><sub>1</sub>:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/1c/1cd1ee5e19f4b5d8c4bf9f0ea602c63b.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"AT= ко­рень из: на­ча­ло ар­гу­мен­та: 16 плюс 4 конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 20 конец ар­гу­мен­та ,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/9e/9ea7f6f05a869521726888776ccd3afc.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"TC_1= ко­рень из: на­ча­ло ар­гу­мен­та: 16 минус 4 конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 12 конец ар­гу­мен­та ,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/18/18e00431e6e32ce328ed00210084e805.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"AC_1= ко­рень из: на­ча­ло ар­гу­мен­та: 16 плюс 16 конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 32 конец ар­гу­мен­та .\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">За­ме­тим, что</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/8d/8d14a1a4ab7782bf257fdd95d234c72c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"AC_1 в квад­ра­те =32=12 плюс 20=AT в квад­ра­те плюс TC_1 в квад­ра­те .\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Сле­до­ва­тель­но, по тео­ре­ме, об­рат­ной тео­ре­ме Пи­фа­го­ра, тре­уголь­ник <i>ATC</i><sub>1</sub> яв­ля­ет­ся пря­мо­уголь­ным.</p><p class=\"left_margin\">б)  Так как пря­мая <i>C</i><sub>1</sub><i>T</i> пер­пен­ди­ку­ляр­на пря­мым <i>A</i><sub>1</sub><i>T</i> и <i>AT</i>, угол <i>A</i><sub>1</sub><i>ТA</i> ис­ко­мый. Тан­генс угла <i>A</i><sub>1</sub><i>TA</i> равен</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/5f/5f3126f6bdfd7c35400f43ac6711d37f.svg\" class=\"tex\" style=\"vertical-align:-10.0pt\" alt=\" тан­генс A_1TA= дробь: чис­ли­тель: AA_1, зна­ме­на­тель: A_1T конец дроби = дробь: чис­ли­тель: 4, зна­ме­на­тель: 2 конец дроби =2. \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) <img src=\"https://ege.sdamgia.ru/formula/svg/be/be6476186d00259bddd411763668fbd8.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\" арк­тан­генс 2.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/1c/1cd1ee5e19f4b5d8c4bf9f0ea602c63b.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9ea7f6f05a869521726888776ccd3afc.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/18e00431e6e32ce328ed00210084e805.svg",
+            "https://ege.sdamgia.ru/formula/svg/8d/8d14a1a4ab7782bf257fdd95d234c72c.svg",
+            "https://ege.sdamgia.ru/formula/svg/5f/5f3126f6bdfd7c35400f43ac6711d37f.svg",
+            "https://ege.sdamgia.ru/formula/svg/be/be6476186d00259bddd411763668fbd8.svg",
+            "/get_file?id=141675"
+        ]
+    },
+    "answer": "б)",
+    "topic_id": 14,
+    "analog_ids": [
+        513428,
+        513447,
+        513752,
+        514187,
+        513447,
+        513752,
+        514187,
+        525069,
+        525097
+    ]
+}

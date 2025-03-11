@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 527400,
+    "condition": {
+        "text": "а)  Решите уравнение б)  Укажите корни этого уравнения, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body418516\" class=\"pbody\"><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/7f/7f317065c0a83c00ca6d3467370abda4.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 1 плюс ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби умно­жить на синус 2x= левая круг­лая скоб­ка ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та минус 1 пра­вая круг­лая скоб­ка ко­си­нус в квад­ра­те x плюс 1. \"></p><p class=\"left_margin\">б)  Ука­жи­те корни этого урав­не­ния, при­над­ле­жа­щие от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/45/45302c15765c116965df68291e18faeb.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка Пи ; дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/7f/7f317065c0a83c00ca6d3467370abda4.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/45302c15765c116965df68291e18faeb.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Преобразуем уравнение в однородное и решим его стандартным методом:б)  С помощью тригонометрического круга отберем корни. На указанном промежутке лежат     Ответ а)   б)  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol527400\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пре­об­ра­зу­ем урав­не­ние в од­но­род­ное и решим его стан­дарт­ным ме­то­дом:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/66/66ddd992547237db091872a6dfe58d93.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 1 плюс ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та пра­вая круг­лая скоб­ка синус x ко­си­нус x= ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та ко­си­нус в квад­ра­те x плюс синус в квад­ра­те x рав­но­силь­но левая круг­лая скоб­ка 1 плюс ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та пра­вая круг­лая скоб­ка тан­генс x= ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та плюс тан­генс в квад­ра­те x рав­но­силь­но \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/96/9611832a53dec8e37f7bf88099f050cb.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" рав­но­силь­но ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та минус левая круг­лая скоб­ка 1 плюс ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та пра­вая круг­лая скоб­ка тан­генс x плюс тан­генс в квад­ра­те x=0 рав­но­силь­но левая круг­лая скоб­ка тан­генс x минус 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка тан­генс x минус ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та пра­вая круг­лая скоб­ка =0 рав­но­силь­но \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/60/60b374686935552767974ce94ef06c36.svg\" class=\"tex\" style=\"vertical-align:-20.9pt\" alt=\" рав­но­силь­но со­во­куп­ность вы­ра­же­ний тан­генс x=1, тан­генс x= ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та конец со­во­куп­но­сти . рав­но­силь­но со­во­куп­ность вы­ра­же­ний x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби плюс Пи k,x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 3 конец дроби плюс Пи k. конец со­во­куп­но­сти . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">б)  С по­мо­щью три­го­но­мет­ри­че­ско­го круга от­бе­рем корни. На ука­зан­ном про­ме­жут­ке лежат <img src=\"https://ege.sdamgia.ru/formula/svg/54/545b9937c6d1381a51484af1f0c37975.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 4 конец дроби , \"> <img src=\"https://ege.sdamgia.ru/formula/svg/ba/ba7fd8e70fd671a72afa963ac286dd9a.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 4 Пи , зна­ме­на­тель: 3 конец дроби . \">  </p><p>&nbsp;</p><p class=\"left_margin\">Ответ а) <img src=\"https://ege.sdamgia.ru/formula/svg/b8/b8df579ed23115c87b6ae4d241aa4f76.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" левая фи­гур­ная скоб­ка дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби плюс Пи k; дробь: чис­ли­тель: Пи , зна­ме­на­тель: 3 конец дроби плюс Пи k:k при­над­ле­жит Z пра­вая фи­гур­ная скоб­ка ; \">  б) <img src=\"https://ege.sdamgia.ru/formula/svg/54/545b9937c6d1381a51484af1f0c37975.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 4 конец дроби , \"> <img src=\"https://ege.sdamgia.ru/formula/svg/ba/ba7fd8e70fd671a72afa963ac286dd9a.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 4 Пи , зна­ме­на­тель: 3 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/66/66ddd992547237db091872a6dfe58d93.svg",
+            "https://ege.sdamgia.ru/formula/svg/96/9611832a53dec8e37f7bf88099f050cb.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/60b374686935552767974ce94ef06c36.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/545b9937c6d1381a51484af1f0c37975.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/ba7fd8e70fd671a72afa963ac286dd9a.svg",
+            "https://ege.sdamgia.ru/formula/svg/b8/b8df579ed23115c87b6ae4d241aa4f76.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/545b9937c6d1381a51484af1f0c37975.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/ba7fd8e70fd671a72afa963ac286dd9a.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

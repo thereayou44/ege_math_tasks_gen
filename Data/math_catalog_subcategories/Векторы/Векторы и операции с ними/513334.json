@@ -1,0 +1,27 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 513334,
+    "condition": {
+        "text": "Найдите длину диагонали прямоугольника, вершины которого имеют координаты (2; 1), (2; 4), (6; 1), (6; 4).",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body637898\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те длину диа­го­на­ли пря­мо­уголь­ни­ка, вер­ши­ны ко­то­ро­го имеют ко­ор­ди­на­ты (2; 1), (2; 4), (6; 1), (6; 4).</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Для того, чтобы найти диагональ прямоугольника, найдем длину  и ширину :По теореме Пифагора: (диагональ d является гипотенузой) Ответ: 5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol513334\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Для того, чтобы найти диа­го­наль пря­мо­уголь­ни­ка, най­дем длину <img src=\"https://ege.sdamgia.ru/formula/svg/99/99020cb24bd13238d907c65cc2b57c03.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a \"> и ши­ри­ну <img src=\"https://ege.sdamgia.ru/formula/svg/fb/fbf88552979521b79358be7637d97d88.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"b \">:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/4b/4b4d6e37b944047a1df48559953bdaae.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=6 минус 2=4\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/e8/e8be20dfc61a028379263e62323d0af1.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"b=4 минус 1=3\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">По тео­ре­ме Пи­фа­го­ра: (диа­го­наль <i>d</i> яв­ля­ет­ся ги­по­те­ну­зой)</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/3a/3a889816935f3a7e838ecd33a42c4b28.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"d в квад­ра­те =a в квад­ра­те плюс b в квад­ра­те =4 в квад­ра­те плюс 3 в квад­ра­те =16 плюс 9=25 рав­но­силь­но d=5.\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ: 5.</span></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/99/99020cb24bd13238d907c65cc2b57c03.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fbf88552979521b79358be7637d97d88.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4b4d6e37b944047a1df48559953bdaae.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e8be20dfc61a028379263e62323d0af1.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3a889816935f3a7e838ecd33a42c4b28.svg"
+        ]
+    },
+    "answer": "5",
+    "topic_id": 2,
+    "analog_ids": [
+        513334,
+        513355
+    ]
+}

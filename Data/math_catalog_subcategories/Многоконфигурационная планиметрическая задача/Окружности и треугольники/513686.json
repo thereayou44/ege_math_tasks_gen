@@ -1,0 +1,29 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 513686,
+    "condition": {
+        "text": "Окружность, вписанная в треугольник KLM, касается сторон KL, LM и MK в точках A, B и C соответственно.а)  Докажите, что б)  Найдите отношение BL : BM, если известно, что KC : CM  =  3 : 2 и ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body637034\" class=\"pbody\"><p class=\"left_margin\">Окруж­ность, впи­сан­ная в тре­уголь­ник <i>KLM</i>, ка­са­ет­ся сто­рон <i>KL</i>, <i>LM</i> и <i>MK</i> в точ­ках <i>A</i>, <i>B</i> и <i>C</i> со­от­вет­ствен­но.</p><p class=\"left_margin\">а)  До­ка­жи­те, что <img src=\"https://ege.sdamgia.ru/formula/svg/49/49f87cde1e8bbe1bc24ba19e8125f349.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"KC= дробь: чис­ли­тель: KL плюс KM минус LM, зна­ме­на­тель: 2 конец дроби . \"></p><p class=\"left_margin\">б)  Най­ди­те от­но­ше­ние <i>BL</i> : <i>BM</i>, если из­вест­но, что <i>KC</i> : <i>CM</i>  =  3 : 2 и <img src=\"https://ege.sdamgia.ru/formula/svg/44/4441a02a959120822cf565790487d15d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle MKL=60 гра­ду­сов.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/49/49f87cde1e8bbe1bc24ba19e8125f349.svg",
+            "https://ege.sdamgia.ru/formula/svg/44/4441a02a959120822cf565790487d15d.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Отрезки AK и CK, AL и BL, BM и CM попарно равны, так как это отрезки касательных, проведенных к окружности из одной точки (см. рис.). Тогда:  откуда следует, то, что требуется доказать.б)  Положим KC  =  3, AL  =  x, тогда AK  =  3, CM  =  MB  =  2, BL  =  x.Согласно теореме косинусов получаем:откуда BL = x   =  5. Таким образом, BL : BM  =  5 : 2. Ответ: б) 5 : 2.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol513686\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=23197\" style=\"float:right;margin:10px\">а)  От­рез­ки <i>AK</i> и <i>CK</i>, <i>AL</i> и <i>BL</i>, <i>BM</i> и <i>CM</i> по­пар­но равны, так как это от­рез­ки ка­са­тель­ных, про­ве­ден­ных к окруж­но­сти из одной точки (см. рис.). Тогда: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ce/ce77c4962e6d6de9efc73b45dbcb947e.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"2KC плюс 2LB плюс 2MB=P рав­но­силь­но 2KC=P минус 2 левая круг­лая скоб­ка LB плюс MB пра­вая круг­лая скоб­ка =P минус 2LM,\"></p><p class=\"left_margin\"></p></center> от­ку­да сле­ду­ет, то, что тре­бу­ет­ся до­ка­зать.<p class=\"left_margin\">б)  По­ло­жим <i>KC</i>  =  3, <i>AL</i>  =  <i>x</i>, тогда <i>AK</i>  =  3, <i>CM</i>  =  <i>MB</i>  =  2, <i>BL</i>  =  <i>x</i>.</p><p class=\"left_margin\">Со­глас­но тео­ре­ме ко­си­ну­сов по­лу­ча­ем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/21/21f6ecae3970de64ad52d45888e5e593.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"LM в квад­ра­те =KM в квад­ра­те плюс KL в квад­ра­те минус 2 умно­жить на KM умно­жить на KL умно­жить на ко­си­нус \\angle K,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/92/920779c0431f6faacba9f55b9f9632c9.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка x плюс 2 пра­вая круг­лая скоб­ка в квад­ра­те =5 в квад­ра­те плюс левая круг­лая скоб­ка x плюс 3 пра­вая круг­лая скоб­ка в квад­ра­те минус 5 левая круг­лая скоб­ка x плюс 3 пра­вая круг­лая скоб­ка ,\"></p><p class=\"left_margin\"></p></center><p>от­ку­да <i>BL = x </i>  =  5. Таким об­ра­зом, <i>BL</i> : <i>BM</i>  =  5 : 2.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) 5 : 2.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ce/ce77c4962e6d6de9efc73b45dbcb947e.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/21f6ecae3970de64ad52d45888e5e593.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/920779c0431f6faacba9f55b9f9632c9.svg",
+            "/get_file?id=23197"
+        ]
+    },
+    "answer": "б) 5 : 2.",
+    "topic_id": null,
+    "analog_ids": [
+        513686,
+        513716
+    ]
+}

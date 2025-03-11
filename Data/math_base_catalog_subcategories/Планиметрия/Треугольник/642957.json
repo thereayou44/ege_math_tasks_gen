@@ -1,0 +1,47 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 642957,
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых система уравнений имеет ровно два различных решения.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body500081\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния <i>a</i>, при каж­дом из ко­то­рых си­сте­ма урав­не­ний</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/8c/8cb272502c4943c2534f3a4450159e95.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний левая круг­лая скоб­ка |x плюс 1| плюс |x минус 3| минус y пра­вая круг­лая скоб­ка умно­жить на ко­рень из: на­ча­ло ар­гу­мен­та: 10 минус x минус y конец ар­гу­мен­та =0 ,y=x плюс a конец си­сте­мы . \"></p><p class=\"left_margin\"></p></center><p> имеет ровно два раз­лич­ных ре­ше­ния.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/8c/8cb272502c4943c2534f3a4450159e95.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Графиком первого уравнения является объединение прямой  и части графика  лежащей ниже этой прямой (выделено оранжевым). При  это отрезок AD прямой  где   — точка прямой с абсциссой  а   — точка её пересечения с   При  функция имеет вид  её график это отрезок AB, где   — точка прямой с абсциссой  При  это отрезок BC прямой  где   — точка её пересечения с       Графиком второго уравнения является некоторая прямая, параллельная прямой Исследуя взаимное расположение графиков уравнений, получаем, что ровно два решения система имеет в тех и только тех случаях, когда прямая  проходит через точку B (это соответствует значению ) и когда она лежит между прямыми, проходящими через точку C (включая) и точку D (исключая). Через точку C прямая проходит при  а через точку D  — при  Откуда и следует ответ. Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol642957\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Гра­фи­ком пер­во­го урав­не­ния яв­ля­ет­ся объ­еди­не­ние пря­мой <img src=\"https://ege.sdamgia.ru/formula/svg/cc/cc7f6fe6272b16aa9fda5bb595fb8d74.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=10 минус x\"> и части гра­фи­ка <img src=\"https://ege.sdamgia.ru/formula/svg/2e/2eed40a65f5386d39be5a44f3327b7a2.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y=|x плюс 1| плюс |x минус 3|,\"> ле­жа­щей ниже этой пря­мой (вы­де­ле­но оран­же­вым). При <img src=\"https://ege.sdamgia.ru/formula/svg/a5/a57b8f26c83db9e5a2aa1dc73a2720e5.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"x мень­ше или равно минус 1\"> это от­ре­зок <i>AD</i> пря­мой <img src=\"https://ege.sdamgia.ru/formula/svg/cd/cd8655d06e224795d56204357388dcf6.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y = минус 2x плюс 2,\"> где <img src=\"https://ege.sdamgia.ru/formula/svg/84/845731f31cb3adb20987726892bda873.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"A левая круг­лая скоб­ка минус 1;4 пра­вая круг­лая скоб­ка \">  — точка пря­мой с абс­цис­сой <img src=\"https://ege.sdamgia.ru/formula/svg/f5/f50e2e5af0581d9f4dbed19107cb5915.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" минус 1,\"> а <img src=\"https://ege.sdamgia.ru/formula/svg/a7/a74d5d8cbd7c87288dcd422b026ea841.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"D левая круг­лая скоб­ка минус 8;18 пра­вая круг­лая скоб­ка \">  — точка её пе­ре­се­че­ния с <img src=\"https://ege.sdamgia.ru/formula/svg/bc/bc2ee2b16bfb131ea7179f2f1db8945f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=10 минус x.\">  При <img src=\"https://ege.sdamgia.ru/formula/svg/0e/0e6f0733c91c7fbe5bf2f0b9c2dd4b9d.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\" минус 1 мень­ше или равно x мень­ше или равно 3\"> функ­ция имеет вид <img src=\"https://ege.sdamgia.ru/formula/svg/8e/8e0b5c2dc402d4a6032ee9963efeb9e7.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y = 4,\"> её гра­фик это от­ре­зок <i>AB</i>, где <img src=\"https://ege.sdamgia.ru/formula/svg/f5/f524a8ddee318e95768867eb84400ed6.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"B левая круг­лая скоб­ка 3;4 пра­вая круг­лая скоб­ка \">  — точка пря­мой с абс­цис­сой <img src=\"https://ege.sdamgia.ru/formula/svg/d9/d9cb741476305f454667e117d9e4f7ba.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"3.\"> При <img src=\"https://ege.sdamgia.ru/formula/svg/b5/b558280013e27ec17eccf69c876aa4e0.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"x боль­ше или равно 3\"> это от­ре­зок <i>BC</i> пря­мой <img src=\"https://ege.sdamgia.ru/formula/svg/e2/e20cd0ec61e51dd40564e3c0e7105b8c.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y = 2x минус 2,\"> где <img src=\"https://ege.sdamgia.ru/formula/svg/e3/e37996c8ced9f624a839d882967cc8c2.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"C левая круг­лая скоб­ка 4;6 пра­вая круг­лая скоб­ка \">  — точка её пе­ре­се­че­ния с <img src=\"https://ege.sdamgia.ru/formula/svg/bc/bc2ee2b16bfb131ea7179f2f1db8945f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=10 минус x.\">      </p><p class=\"left_margin\">Гра­фи­ком вто­ро­го урав­не­ния яв­ля­ет­ся не­ко­то­рая пря­мая, па­рал­лель­ная пря­мой <img src=\"https://ege.sdamgia.ru/formula/svg/10/10529ae692c6506344abdd790d6fb960.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=x.\"></p><p><img src=\"/get_file?id=136665\" style=\"margin:10px auto;display:block;max-width:100%\"></p><p class=\"left_margin\">Ис­сле­дуя вза­им­ное рас­по­ло­же­ние гра­фи­ков урав­не­ний, по­лу­ча­ем, что ровно два ре­ше­ния си­сте­ма имеет в тех и толь­ко тех слу­ча­ях, когда пря­мая <img src=\"https://ege.sdamgia.ru/formula/svg/bf/bf29c8e990bf2695276097d1b9124c7d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=x плюс a\"> про­хо­дит через точку <i>B</i> (это со­от­вет­ству­ет зна­че­нию <img src=\"https://ege.sdamgia.ru/formula/svg/06/0667788a704eab302552273ccda08ce9.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a =1\">) и когда она лежит между пря­мы­ми, про­хо­дя­щи­ми через точку <i>C</i> (вклю­чая) и точку <i>D</i> (ис­клю­чая). Через точку <i>C</i> пря­мая про­хо­дит при <img src=\"https://ege.sdamgia.ru/formula/svg/23/23dfd3796078b3e6e9d0977082402f10.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a = 2,\"> а через точку <i>D</i>  — при <img src=\"https://ege.sdamgia.ru/formula/svg/a3/a3ad1983c702a68a34b026c532ff9da8.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a = 26.\"> От­ку­да и сле­ду­ет ответ.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/ef/ef7b67135c7dbf2df3fedcfa7efec27a.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая фи­гур­ная скоб­ка 1 пра­вая фи­гур­ная скоб­ка \\cup левая квад­рат­ная скоб­ка 2;26 пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/cc/cc7f6fe6272b16aa9fda5bb595fb8d74.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2eed40a65f5386d39be5a44f3327b7a2.svg",
+            "https://ege.sdamgia.ru/formula/svg/a5/a57b8f26c83db9e5a2aa1dc73a2720e5.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cd8655d06e224795d56204357388dcf6.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/845731f31cb3adb20987726892bda873.svg",
+            "https://ege.sdamgia.ru/formula/svg/f5/f50e2e5af0581d9f4dbed19107cb5915.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a74d5d8cbd7c87288dcd422b026ea841.svg",
+            "https://ege.sdamgia.ru/formula/svg/bc/bc2ee2b16bfb131ea7179f2f1db8945f.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0e6f0733c91c7fbe5bf2f0b9c2dd4b9d.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8e0b5c2dc402d4a6032ee9963efeb9e7.svg",
+            "https://ege.sdamgia.ru/formula/svg/f5/f524a8ddee318e95768867eb84400ed6.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d9cb741476305f454667e117d9e4f7ba.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b558280013e27ec17eccf69c876aa4e0.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e20cd0ec61e51dd40564e3c0e7105b8c.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e37996c8ced9f624a839d882967cc8c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/bc/bc2ee2b16bfb131ea7179f2f1db8945f.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/10529ae692c6506344abdd790d6fb960.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bf29c8e990bf2695276097d1b9124c7d.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/0667788a704eab302552273ccda08ce9.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/23dfd3796078b3e6e9d0977082402f10.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a3ad1983c702a68a34b026c532ff9da8.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/ef7b67135c7dbf2df3fedcfa7efec27a.svg",
+            "/get_file?id=136665"
+        ]
+    },
+    "answer": "",
+    "topic_id": 18,
+    "analog_ids": [
+        642957,
+        643062
+    ]
+}

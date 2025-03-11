@@ -1,0 +1,31 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 126637,
+    "condition": {
+        "text": "Найдите наибольшее значение функции  на отрезке ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body1015889\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те наи­боль­шее зна­че­ние функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/67/6732f76bc6b5b9ad4081eade2694e7f1.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=x в кубе минус 6,5x в квад­ра­те плюс 14x минус 14\"> на от­рез­ке <img src=\"https://ege.sdamgia.ru/formula/svg/60/601cff0ba82bc06dbcf2c4b73aa00233.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка минус 4;3 пра­вая квад­рат­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/67/6732f76bc6b5b9ad4081eade2694e7f1.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/601cff0ba82bc06dbcf2c4b73aa00233.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Найдем производную заданной функции:  Из уравнения  найдем нули производной:  Определим знаки производной функции и изобразим на рисунке поведение функции: На отрезке [−4; 3] функция не является монотонной, она может достигать своего наибольшего значения в точках 2 или 3. Сравним значения функции в этих точках:Наибольшим является значение функции в точке 3, оно равно −3,5. Ответ: −3,5. ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol126637\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Най­дем про­из­вод­ную за­дан­ной функ­ции: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/37/3731e89e21fcdb1fb26ed8372398903b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y'=3x в квад­ра­те минус 13x плюс 14.\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p class=\"left_margin\">Из урав­не­ния <img src=\"https://ege.sdamgia.ru/formula/svg/5c/5c68d36a3fbd968fe3aafb60dde838c9.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" 3x в квад­ра­те минус 13x плюс 14=0 \"> най­дем нули про­из­вод­ной: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/42/426bbc0793c514053785f810f94d8577.svg\" class=\"tex\" style=\"vertical-align:-17.8pt\" alt=\" со­во­куп­ность вы­ра­же­ний x= целая часть: 2, дроб­ная часть: чис­ли­тель: 1, зна­ме­на­тель: 3 , x=2. конец со­во­куп­но­сти .\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p class=\"left_margin\">Опре­де­лим знаки про­из­вод­ной функ­ции и изоб­ра­зим на ри­сун­ке по­ве­де­ние функ­ции: </p><p class=\"left_margin\"></p><center><p><img src=\"/get_file?id=108474\" style=\"margin:10px auto;display:block;max-width:100%\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">На от­рез­ке [−4; 3] функ­ция не яв­ля­ет­ся мо­но­тон­ной, она может до­сти­гать сво­е­го наи­боль­ше­го зна­че­ния в точ­ках 2 или 3. Срав­ним зна­че­ния функ­ции в этих точ­ках:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ef/ef35effda858bf956150effe0a503ad2.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y левая круг­лая скоб­ка 2 пра­вая круг­лая скоб­ка =2 в кубе минус 6,5 умно­жить на 2 в квад­ра­те плюс 14 умно­жить на 2 минус 14= минус 4,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/94/941cf73f1848ddb35bbb0a51caa0cf87.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y левая круг­лая скоб­ка 3 пра­вая круг­лая скоб­ка =3 в кубе минус 6,5 умно­жить на 3 в квад­ра­те плюс 14 умно­жить на 3 минус 14= минус 3,5.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Наи­боль­шим яв­ля­ет­ся зна­че­ние функ­ции в точке 3, оно равно −3,5.</p><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ</span>: −3,5.</p><p>&nbsp;</p><p><!-- На ма­фе­ге к этой за­да­че ука­зан про­то­тип 77434. Од­на­ко эта за­да­ча -- сама про­то­тип без кло­нов. --></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/37/3731e89e21fcdb1fb26ed8372398903b.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5c68d36a3fbd968fe3aafb60dde838c9.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/426bbc0793c514053785f810f94d8577.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/ef35effda858bf956150effe0a503ad2.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/941cf73f1848ddb35bbb0a51caa0cf87.svg",
+            "/get_file?id=108474"
+        ]
+    },
+    "answer": "-3,5",
+    "topic_id": 12,
+    "analog_ids": [
+        126637,
+        126651
+    ]
+}

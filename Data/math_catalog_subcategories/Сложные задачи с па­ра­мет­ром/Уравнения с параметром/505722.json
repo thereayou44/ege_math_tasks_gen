@@ -1,0 +1,31 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 505722,
+    "condition": {
+        "text": "Найдите все значения a, удовлетворяющие условию 2< a < 5, при которых уравнениеотносительно x имеет хотя бы одно решение, удовлетворяющее условию ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body645510\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния <i>a</i>, удо­вле­тво­ря­ю­щие усло­вию 2&lt; a &lt; 5, при ко­то­рых урав­не­ние</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f1/f13f75cf735ff0ccbc653f11dd05448a.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" ло­га­рифм по ос­но­ва­нию 2 левая круг­лая скоб­ка 3 минус | синус ax| пра­вая круг­лая скоб­ка = ко­си­нус левая круг­лая скоб­ка Пи x минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби пра­вая круг­лая скоб­ка \"></p><p class=\"left_margin\"></p></center><p>от­но­си­тель­но <i>x</i> имеет хотя бы одно ре­ше­ние, удо­вле­тво­ря­ю­щее усло­вию <img src=\"https://ege.sdamgia.ru/formula/svg/80/80a4d80e0a8f989dc5f98e8f3dcdc012.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"2 мень­ше или равно x\\leqslant3.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f1/f13f75cf735ff0ccbc653f11dd05448a.svg",
+            "https://ege.sdamgia.ru/formula/svg/80/80a4d80e0a8f989dc5f98e8f3dcdc012.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение.  следовательно,  следовательно, Следовательно, исходное уравнение равносильно системе:С учётом ограничений на x получим решение первого уравнения: Из второго уравнения: С учётом ограничений на а получаем 2 значения: Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol505722\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"https://ege.sdamgia.ru/formula/svg/2b/2b3a64173c45e855c852d6f240d8052b.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"|sinax|\\leqslant1,\"> сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/f9/f95a09546f395383bd09d94fa4b5b107.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"3 минус |sinax|\\geqslant2,\"> сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/30/30d61973c4caf5f342161d44cbd9a7be.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"log_2 левая круг­лая скоб­ка 3 минус |sinax| пра­вая круг­лая скоб­ка \\geqslant1.\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/39/39731ecafbb3a91d30e117e9c68366e8.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"cos левая круг­лая скоб­ка Пи x минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби пра­вая круг­лая скоб­ка \\leqslant1 \"></p><p class=\"left_margin\">Сле­до­ва­тель­но, ис­ход­ное урав­не­ние рав­но­силь­но си­сте­ме:</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/e2/e28f29e91cf8fef07ee14968640de02e.svg\" class=\"tex\" style=\"vertical-align:-17.7pt\" alt=\" си­сте­ма вы­ра­же­ний cos левая круг­лая скоб­ка Пи x минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби пра­вая круг­лая скоб­ка =1,ло­га­рифм по ос­но­ва­нию 2 левая круг­лая скоб­ка 3 минус |sinax| пра­вая круг­лая скоб­ка =1. конец си­сте­мы . \"></p><p class=\"left_margin\">С учётом огра­ни­че­ний на x по­лу­чим ре­ше­ние пер­во­го урав­не­ния: <img src=\"https://ege.sdamgia.ru/formula/svg/93/9383ea1c5e403608aba682aca2b7bba0.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x= дробь: чис­ли­тель: 13, зна­ме­на­тель: 6 конец дроби \"></p><p class=\"left_margin\">Из вто­ро­го урав­не­ния: <img src=\"https://ege.sdamgia.ru/formula/svg/7a/7a14c9022a0f75cbbc8433e5f72a2822.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"|sinax|= \\underset\\mathop рав­но­силь­но sin дробь: чис­ли­тель: 13, зна­ме­на­тель: 6 конец дроби a=\\pm1 \"></p><p class=\"left_margin\">С учётом огра­ни­че­ний на а по­лу­ча­ем 2 зна­че­ния: <img src=\"https://ege.sdamgia.ru/formula/svg/a3/a3c192f73b440cfe699b9362cd7f1105.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"a= дробь: чис­ли­тель: 9 Пи , зна­ме­на­тель: 13 конец дроби ; a= дробь: чис­ли­тель: 15 Пи , зна­ме­на­тель: 13 конец дроби \"></p><p class=\"left_margin\">Ответ: <img src=\"https://ege.sdamgia.ru/formula/svg/a3/a3c192f73b440cfe699b9362cd7f1105.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"a= дробь: чис­ли­тель: 9 Пи , зна­ме­на­тель: 13 конец дроби ; a= дробь: чис­ли­тель: 15 Пи , зна­ме­на­тель: 13 конец дроби \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/2b/2b3a64173c45e855c852d6f240d8052b.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f95a09546f395383bd09d94fa4b5b107.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/30d61973c4caf5f342161d44cbd9a7be.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/39731ecafbb3a91d30e117e9c68366e8.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e28f29e91cf8fef07ee14968640de02e.svg",
+            "https://ege.sdamgia.ru/formula/svg/93/9383ea1c5e403608aba682aca2b7bba0.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7a14c9022a0f75cbbc8433e5f72a2822.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a3c192f73b440cfe699b9362cd7f1105.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a3c192f73b440cfe699b9362cd7f1105.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

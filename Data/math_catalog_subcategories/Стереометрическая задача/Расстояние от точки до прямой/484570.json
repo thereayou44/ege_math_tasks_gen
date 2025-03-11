@@ -1,0 +1,31 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 484570,
+    "condition": {
+        "text": "В кубе ABCDA1B1C1D1 все ребра равны 1. а)  Докажите, что б)  Найдите расстояние от точки C до прямой BD1.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body592422\" class=\"pbody\"><p class=\"left_margin\">В кубе <i>ABCDA</i><sub>1</sub><i>B</i><sub>1</sub><i>C</i><sub>1</sub><i>D</i><sub>1</sub> все ребра равны 1. </p><p class=\"left_margin\">а)  До­ка­жи­те, что <img src=\"https://ege.sdamgia.ru/formula/svg/7e/7e208b00b2229d8860d0e552b5522de1.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"BD_1\\perp AC.\"></p><p class=\"left_margin\">б)  Най­ди­те рас­сто­я­ние от точки <i>C</i> до пря­мой <i>BD</i><sub>1</sub>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/7e/7e208b00b2229d8860d0e552b5522de1.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Проекция  на плоскость ABCD  — это прямая   (диагонали квадрата), поэтому, по теореме о трех перпендикулярах, б)  Проведем отрезок CD1 и опустим перпендикуляр CH на BD1.Искомое расстояние равно высоте CH прямоугольного треугольника BCD1 с прямым углом C:Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol484570\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=132125\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Про­ек­ция <img src=\"https://ege.sdamgia.ru/formula/svg/41/41e82bd697afe2f48655f019ec8bb5e2.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"BD_1\"> на плос­кость <i>ABCD</i>  — это пря­мая <img src=\"https://ege.sdamgia.ru/formula/svg/f8/f861f280bc93d84e84d55c2884e42af7.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BD.\"> <img src=\"https://ege.sdamgia.ru/formula/svg/b8/b8d6db7da722c2fca7679b047911a45e.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BD\\perp AC\"> (диа­го­на­ли квад­ра­та), по­это­му, по тео­ре­ме о трех пер­пен­ди­ку­ля­рах, <img src=\"https://ege.sdamgia.ru/formula/svg/7e/7e208b00b2229d8860d0e552b5522de1.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"BD_1\\perp AC.\"></p><p class=\"left_margin\">б)  Про­ве­дем от­ре­зок <i>CD</i><sub>1</sub> и опу­стим пер­пен­ди­ку­ляр <i>CH</i> на <i>BD</i><sub>1</sub>.</p><p class=\"left_margin\">Ис­ко­мое рас­сто­я­ние равно вы­со­те <i>CH</i> пря­мо­уголь­но­го тре­уголь­ни­ка <i>BCD</i><sub>1</sub> с пря­мым углом <i>C</i>:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/66/66b267c016032c5152070e61168bdf63.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"CH= дробь: чис­ли­тель: 2S_BCD_1, зна­ме­на­тель: BD_1 конец дроби = дробь: чис­ли­тель: CD_1 умно­жить на BC, зна­ме­на­тель: BD_1 конец дроби = дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та , зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та конец дроби = дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 6 конец ар­гу­мен­та , зна­ме­на­тель: 3 конец дроби . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Ответ: <img src=\"https://ege.sdamgia.ru/formula/svg/27/27c19352f503e16124d891d2351a96f1.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 6 конец ар­гу­мен­та , зна­ме­на­тель: 3 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/41/41e82bd697afe2f48655f019ec8bb5e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f861f280bc93d84e84d55c2884e42af7.svg",
+            "https://ege.sdamgia.ru/formula/svg/b8/b8d6db7da722c2fca7679b047911a45e.svg",
+            "https://ege.sdamgia.ru/formula/svg/7e/7e208b00b2229d8860d0e552b5522de1.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/66b267c016032c5152070e61168bdf63.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/27c19352f503e16124d891d2351a96f1.svg",
+            "/get_file?id=132125"
+        ]
+    },
+    "answer": "",
+    "topic_id": 14,
+    "analog_ids": [
+        484570,
+        507651
+    ]
+}

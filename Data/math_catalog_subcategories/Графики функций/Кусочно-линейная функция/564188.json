@@ -1,0 +1,51 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 564188,
+    "condition": {
+        "text": " На рисунке изображён график функции вида  где числа a, b, c и d  — целые. Найдите корень уравнения ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body455968\" class=\"pbody\"><p class=\"left_margin\"><img src=\"https://ege.sdamgia.ru/get_file?id=108716\" style=\"float:right;margin:10px;max-width:100%\"> На ри­сун­ке изоб­ражён гра­фик функ­ции вида <img src=\"https://ege.sdamgia.ru/formula/svg/1b/1b5895df441f0f98ccd43285158069a9.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =ax минус |bx плюс c| плюс d,\"> где числа <i>a</i>, <i>b</i>, <i>c</i> и <i>d</i>  — целые. Най­ди­те ко­рень урав­не­ния <img src=\"https://ege.sdamgia.ru/formula/svg/0e/0ead26438ffde9995c1a78dff47e1b20.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"ax плюс d=0.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/1b/1b5895df441f0f98ccd43285158069a9.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0ead26438ffde9995c1a78dff47e1b20.svg",
+            "https://ege.sdamgia.ru/get_file?id=108716"
+        ]
+    },
+    "solution": {
+        "text": "Решение.  В любом из случаев раскрытия модуля получаем линейную функцию  где угловой коэффициент  или  а свободный член  или  Очевидно, что  значит, большему значению углового коэффициента соответствует  а меньшему  —  Аналогично большему значению свободного члена соответствует  а меньшему  —  По рисунку определяем, что     Значит,   Решим уравнение  Ответ: −2.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol564188\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"https://ege.sdamgia.ru/get_file?id=108715\" style=\"float:right;margin:10px;max-width:100%\"> В любом из слу­ча­ев рас­кры­тия мо­ду­ля по­лу­ча­ем ли­ней­ную функ­цию <img src=\"https://ege.sdamgia.ru/formula/svg/28/284cfad8fb44510fbf57946f9f0b5271.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =kx плюс l,\"> где уг­ло­вой ко­эф­фи­ци­ент <img src=\"https://ege.sdamgia.ru/formula/svg/dd/ddf22ca0900fd887629c031e978585b4.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"k=a плюс |b|\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/19/1993da80d1bf7ceb5e3e4342ff195eeb.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"k=a минус |b|, \"> а сво­бод­ный член <img src=\"https://ege.sdamgia.ru/formula/svg/4c/4c0272a1299edc85ac15b40c204b18b3.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"l=d плюс |c|\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/b3/b3c9192d4529a197e71d93a4708c7810.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"l=d минус |c|.\"> Оче­вид­но, что <img src=\"https://ege.sdamgia.ru/formula/svg/83/83977917242689472d926a15f1a6e7a7.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"a плюс |b| боль­ше или равно a минус |b|,\"> зна­чит, боль­ше­му зна­че­нию уг­ло­во­го ко­эф­фи­ци­ен­та со­от­вет­ству­ет <img src=\"https://ege.sdamgia.ru/formula/svg/30/305363358d8d9bf67e75372a13a01d5a.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"k=a плюс |b|,\"> а мень­ше­му  — <img src=\"https://ege.sdamgia.ru/formula/svg/16/1635e283ee1e3e7400e2ac6dcdb0549e.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"k=a минус |b|.\"> Ана­ло­гич­но боль­ше­му зна­че­нию сво­бод­но­го члена со­от­вет­ству­ет <img src=\"https://ege.sdamgia.ru/formula/svg/28/28f9d87790168e76fd4227c09605b01b.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"l=d плюс |c|,\"> а мень­ше­му  — <img src=\"https://ege.sdamgia.ru/formula/svg/b3/b3c9192d4529a197e71d93a4708c7810.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"l=d минус |c|.\"> По ри­сун­ку опре­де­ля­ем, что <img src=\"https://ege.sdamgia.ru/formula/svg/a0/a0ccc83bfffa28570652b31969dda213.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"a плюс |b|=4,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/a0/a0763b04f3ad594c62afb35cafb1ff6c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"a минус |b|= минус 2,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/bd/bda8219590aeabbc27639783fd443c0c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"d плюс |c|=5,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/41/417070df83b78eeb8318706e8e67218d.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"d минус |c|= минус 1.\"> Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/dc/dc9791942c5716d51249089473cef5ed.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a=1,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/0e/0e2051f2bd9975f1640aa933c4184535.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"d=2.\"> </p><p class=\"left_margin\">Решим урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/94/9486460f9a9917dd9a1a07c2a1c0bf46.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"ax плюс d=0:\"></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/22/22d1092052fe4bf1739dea10dc68b848.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x плюс 2=0 рав­но­силь­но x= минус 2\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> −2.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/28/284cfad8fb44510fbf57946f9f0b5271.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/ddf22ca0900fd887629c031e978585b4.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/1993da80d1bf7ceb5e3e4342ff195eeb.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c0272a1299edc85ac15b40c204b18b3.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b3c9192d4529a197e71d93a4708c7810.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83977917242689472d926a15f1a6e7a7.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/305363358d8d9bf67e75372a13a01d5a.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/1635e283ee1e3e7400e2ac6dcdb0549e.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/28f9d87790168e76fd4227c09605b01b.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b3c9192d4529a197e71d93a4708c7810.svg",
+            "https://ege.sdamgia.ru/formula/svg/a0/a0ccc83bfffa28570652b31969dda213.svg",
+            "https://ege.sdamgia.ru/formula/svg/a0/a0763b04f3ad594c62afb35cafb1ff6c.svg",
+            "https://ege.sdamgia.ru/formula/svg/bd/bda8219590aeabbc27639783fd443c0c.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/417070df83b78eeb8318706e8e67218d.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dc9791942c5716d51249089473cef5ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0e2051f2bd9975f1640aa933c4184535.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/9486460f9a9917dd9a1a07c2a1c0bf46.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/22d1092052fe4bf1739dea10dc68b848.svg",
+            "https://ege.sdamgia.ru/get_file?id=108715"
+        ]
+    },
+    "answer": "-2",
+    "topic_id": null,
+    "analog_ids": [
+        564188,
+        564191,
+        564193,
+        564194,
+        564191,
+        564193,
+        564194,
+        564195
+    ]
+}

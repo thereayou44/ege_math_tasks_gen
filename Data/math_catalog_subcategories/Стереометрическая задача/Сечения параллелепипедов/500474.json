@@ -1,0 +1,40 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 500474,
+    "condition": {
+        "text": "Точка E  — середина ребра BB1 куба ABCDA1B1C1D1. а)  Докажите, что сечение куба плоскостью D1AE есть равнобокая трапеция.б)  Найдите площадь этого сечения, если ребра куба равны 4.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body642054\" class=\"pbody\"><p class=\"left_margin\">Точка <i>E</i>  — се­ре­ди­на ребра <i>BB</i><sub>1</sub> куба <i>ABCDA</i><sub>1</sub><i>B</i><sub>1</sub><i>C</i><sub>1</sub><i>D</i><sub>1</sub>. </p><p class=\"left_margin\">а)  До­ка­жи­те, что се­че­ние куба плос­ко­стью <i>D</i><sub>1</sub><i>AE</i> есть рав­но­бо­кая тра­пе­ция.</p><p class=\"left_margin\">б)  Най­ди­те пло­щадь этого се­че­ния, если ребра куба равны 4.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Прямая AE пересекает прямую  в точке  Прямая  пересекает ребро  в его середине  — точке    — сечение куба плоскостью  Треугольник  равнобедренный, а EF его средняя линия, поэтому  Значит,  − равнобокая трапеция.б)  В треугольнике  имеем    и высота Поскольку EF  — средняя линия треугольника  получаем:Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol500474\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=132355\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Пря­мая <i>AE</i> пе­ре­се­ка­ет пря­мую <img src=\"https://ege.sdamgia.ru/formula/svg/44/444d2cec7d53d51b85b667fad901c271.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"A_1B_1\"> в точке <img src=\"https://ege.sdamgia.ru/formula/svg/57/57fbc7ee0cc06365d39eabde4079c0ef.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"K.\"> Пря­мая <img src=\"https://ege.sdamgia.ru/formula/svg/f7/f73ac3fbc9e8ccbbceca520cbcfa26d8.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"D_1K\"> пе­ре­се­ка­ет ребро <img src=\"https://ege.sdamgia.ru/formula/svg/1e/1e48b5ad66af9d9ff373632074b3af96.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"B_1C_1\"> в его се­ре­ди­не  — точке <img src=\"https://ege.sdamgia.ru/formula/svg/e3/e347164d8cc774b623f63491e4f16ebf.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"F.\"> <img src=\"https://ege.sdamgia.ru/formula/svg/ac/ac7864b0f994021be9b7281298032975.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AEFD_1\">  — се­че­ние куба плос­ко­стью <img src=\"https://ege.sdamgia.ru/formula/svg/e4/e412c1a336ddbb605a6a14092c05b881.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"D_1AE.\"> Тре­уголь­ник <img src=\"https://ege.sdamgia.ru/formula/svg/f3/f322735a1f2fbc06c6cfb4ac974ba416.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AKD_1\"> рав­но­бед­рен­ный, а <i>EF</i> его сред­няя линия, по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/61/61524b6d676f1334bf26e0290b18610b.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"EF||AD_1.\"> Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/ac/ac7864b0f994021be9b7281298032975.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AEFD_1\"> − рав­но­бо­кая тра­пе­ция.</p><p class=\"left_margin\">б)  В тре­уголь­ни­ке <img src=\"https://ege.sdamgia.ru/formula/svg/f3/f322735a1f2fbc06c6cfb4ac974ba416.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AKD_1\"> имеем  <img src=\"https://ege.sdamgia.ru/formula/svg/91/91a4737a68c56cee00535be43cbbea03.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"D_1K=AK=2AE=4 ко­рень из: на­ча­ло ар­гу­мен­та: 5 конец ар­гу­мен­та ,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/f9/f94077a58101aaa7e054a221d9debc90.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"AD_1= ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та умно­жить на AD=4 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та \"> и вы­со­та <img src=\"https://ege.sdamgia.ru/formula/svg/30/30ebca96ad416b7cc153f997683c055b.svg\" class=\"tex\" style=\"vertical-align:-12.3pt\" alt=\"h= ко­рень из: на­ча­ло ар­гу­мен­та: AK в квад­ра­те минус левая круг­лая скоб­ка дробь: чис­ли­тель: AD_1, зна­ме­на­тель: 2 конец дроби пра­вая круг­лая скоб­ка конец ар­гу­мен­та в квад­ра­те =6 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та . \"></p><p class=\"left_margin\">По­сколь­ку <i>EF</i>  — сред­няя линия тре­уголь­ни­ка <img src=\"https://ege.sdamgia.ru/formula/svg/4e/4e686dd50672bcfcba431f2824384928.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AKD_1,\"> по­лу­ча­ем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/c1/c1355a58bed7d2e0b0aeff62ef3e21cf.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S_KEF= дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби S_AKD_1, \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ca/ca95d588c66dfe83336be031ff0d01a9.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S_AEFD_1=S_AKD_1 минус S_KEF= дробь: чис­ли­тель: 3, зна­ме­на­тель: 4 конец дроби S_AKD_1= дробь: чис­ли­тель: 3, зна­ме­на­тель: 4 конец дроби умно­жить на дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на h умно­жить на AD_1=18. \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Ответ: <img src=\"https://ege.sdamgia.ru/formula/svg/ec/ecd15ee3a7985b2440f3c41cdd5445ae.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"18.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/44/444d2cec7d53d51b85b667fad901c271.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/57fbc7ee0cc06365d39eabde4079c0ef.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f73ac3fbc9e8ccbbceca520cbcfa26d8.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1e48b5ad66af9d9ff373632074b3af96.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e347164d8cc774b623f63491e4f16ebf.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/ac7864b0f994021be9b7281298032975.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e412c1a336ddbb605a6a14092c05b881.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f322735a1f2fbc06c6cfb4ac974ba416.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/61524b6d676f1334bf26e0290b18610b.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/ac7864b0f994021be9b7281298032975.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f322735a1f2fbc06c6cfb4ac974ba416.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/91a4737a68c56cee00535be43cbbea03.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f94077a58101aaa7e054a221d9debc90.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/30ebca96ad416b7cc153f997683c055b.svg",
+            "https://ege.sdamgia.ru/formula/svg/4e/4e686dd50672bcfcba431f2824384928.svg",
+            "https://ege.sdamgia.ru/formula/svg/c1/c1355a58bed7d2e0b0aeff62ef3e21cf.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/ca95d588c66dfe83336be031ff0d01a9.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ecd15ee3a7985b2440f3c41cdd5445ae.svg",
+            "/get_file?id=132355"
+        ]
+    },
+    "answer": "",
+    "topic_id": 14,
+    "analog_ids": [
+        500193
+    ]
+}

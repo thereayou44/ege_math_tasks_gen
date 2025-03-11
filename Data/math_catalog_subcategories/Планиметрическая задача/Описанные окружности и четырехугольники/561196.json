@@ -1,0 +1,25 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 561196,
+    "condition": {
+        "text": "Четырёхугольник ABCD  вписан  в  окружность.  Точка  F  лежит  на  его  стороне AD, причём прямые BF и CD параллельны, и прямые CF и AB параллельны. а)  Докажите, что отрезки BF и CF разбивают четырёхугольник ABCD на три подобных треугольника. б)  Известно, что AF  =  1, DF  =  4. Найдите BC.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body458448\" class=\"pbody\"><p class=\"left_margin\">Четырёхуголь­ник <i>ABCD</i>  впи­сан  в  окруж­ность.  Точка  <i>F</i>  лежит  на  его  сто­ро­не <i>AD</i>, причём пря­мые <i>BF</i> и <i>CD</i> па­рал­лель­ны, и пря­мые <i>CF</i> и <i>AB</i> па­рал­лель­ны. </p><p class=\"left_margin\">а)  До­ка­жи­те, что от­рез­ки <i>BF</i> и <i>CF</i> раз­би­ва­ют четырёхуголь­ник <i>ABCD</i> на три по­доб­ных тре­уголь­ни­ка. </p><p class=\"left_margin\">б)  Из­вест­но, что <i>AF</i>  =  1, <i>DF</i>  =  4. Най­ди­те <i>BC</i>.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Пусть  Значит,  Следовательно, треугольники BAF и FCB подобны по двум углам. Аналогично, треугольники FCB и CDF подобны по двум углам.б)  Из п. а) имеем:Ответ: б) 2.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol561196\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=150423\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Пусть </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/36/3634d5c21e69181d7f53252140f8355f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle ABF=\\angle BFC=\\angle FCD= альфа .\"></p><p class=\"left_margin\"></p></center><p> Зна­чит, </p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"4f1669128c3505e3f31e94d972dda028\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/4f/4f1669128c3505e3f31e94d972dda028.svg\" class=\"tex\" style=\"vertical-align:-1.7pt\" alt=\"\\angle BCD плюс \\angle BAF=\\angle BCF плюс альфа плюс \\angle BAF=180 гра­ду­сов рав­но­силь­но \\angle BCF=180 гра­ду­сов минус \\angle BAF минус альфа =\\angle BFA.\"></span><span data-width=\"515\" data-formulahash=\"4f1669128c3505e3f31e94d972dda028\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/28/28e2567b29ff74cc14cff1c86e19bc30.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle BCD плюс \\angle BAF=\\angle BCF плюс альфа плюс \\angle BAF=180 гра­ду­сов рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/39/39d610d0549a22db7b72481e83960f36.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" рав­но­силь­но \\angle BCF=180 гра­ду­сов минус \\angle BAF минус альфа =\\angle BFA.\"></span></p><p class=\"left_margin\"></p></center><p> Сле­до­ва­тель­но, тре­уголь­ни­ки <i>BAF</i> и <i>FCB</i> по­доб­ны по двум углам. Ана­ло­гич­но, тре­уголь­ни­ки <i>FCB</i> и <i>CDF</i> по­доб­ны по двум углам.</p><p class=\"left_margin\">б)  Из п. а) имеем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/b0/b09b15433ec2b3a407214b939f1b756d.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: AF, зна­ме­на­тель: BC конец дроби = дробь: чис­ли­тель: BF, зна­ме­на­тель: CF конец дроби = дробь: чис­ли­тель: BC, зна­ме­на­тель: FD конец дроби рав­но­силь­но BC в квад­ра­те =AF умно­жить на FD рав­но­силь­но BC в квад­ра­те =4 рав­но­силь­но BC=2. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) 2.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/36/3634d5c21e69181d7f53252140f8355f.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4f1669128c3505e3f31e94d972dda028.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/28e2567b29ff74cc14cff1c86e19bc30.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/39d610d0549a22db7b72481e83960f36.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b09b15433ec2b3a407214b939f1b756d.svg",
+            "/get_file?id=150423"
+        ]
+    },
+    "answer": "б) 2.",
+    "topic_id": 17,
+    "analog_ids": []
+}

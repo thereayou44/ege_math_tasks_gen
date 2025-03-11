@@ -1,0 +1,36 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521194,
+    "condition": {
+        "text": "Натуральное число х имеет остаток 5 при делении на 8 и остаток 41 при делении  на 64. а)  Найти остаток при делении числа х на 32; б)  Найти сумму таких чисел х, которые принадлежат отрезку [2000, 3000].",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body630038\" class=\"pbody\"><p class=\"left_margin\">На­ту­раль­ное число <i>х</i> имеет оста­ток 5 при де­ле­нии на 8 и оста­ток 41 при де­ле­нии <img src=\"https://ege.sdamgia.ru/formula/svg/32/32f5240d0dbf2ccbe75ef7f8ef2015e0.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x в квад­ра­те \"> на 64. </p><p class=\"left_margin\">а)  Найти оста­ток при де­ле­нии числа <i>х</i> на 32; </p><p class=\"left_margin\">б)  Найти сумму таких чисел <i>х</i>, ко­то­рые при­над­ле­жат от­рез­ку [2000, 3000].</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/32/32f5240d0dbf2ccbe75ef7f8ef2015e0.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Запишем число в виде  тогда его квадрат равен  По условию  кратно 64. Значит,  кратно  тогда  кратно 64, то есть  кратно    поэтому остаток от деления x на  равен 13.б)  Первое такое число в нужном диапазоне это  последнее  —  поэтому их там всего  число и они образуют арифметическую прогрессию. Значит, их сумма равна  Ответ: а) 13; б) 77779.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521194\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  За­пи­шем число в виде <img src=\"https://ege.sdamgia.ru/formula/svg/57/571c992e2a7967956a464071039aa086.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"8t плюс 5,\"> тогда его квад­рат равен <img src=\"https://ege.sdamgia.ru/formula/svg/e8/e820f175f8684e7c1727c5ba1b9aedfb.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"64t в квад­ра­те плюс 80t плюс 25.\"> По усло­вию <img src=\"https://ege.sdamgia.ru/formula/svg/14/14e475e55fae21af0f19d0f4634b8599.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"64t в квад­ра­те плюс 80t плюс 25 минус 41\"> крат­но 64. Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/65/65b8b0cae8be5abf11c5acf7c6420670.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"64 левая круг­лая скоб­ка t в квад­ра­те минус t пра­вая круг­лая скоб­ка плюс 16t минус 16\"> крат­но <img src=\"https://ege.sdamgia.ru/formula/svg/5c/5c45761b4eec071d8784b9f4ad1f1c99.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"64,\"> тогда <img src=\"https://ege.sdamgia.ru/formula/svg/d1/d1bac1d2475812fa780c287466c5ed07.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"16 левая круг­лая скоб­ка t минус 1 пра­вая круг­лая скоб­ка \"> крат­но 64, то есть <img src=\"https://ege.sdamgia.ru/formula/svg/f3/f3e90ce87a25538f5a4be79a0a7c0fa5.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"t минус 1\"> крат­но <img src=\"https://ege.sdamgia.ru/formula/svg/c5/c59471f3ce70ca3107957a84ae0d3d9d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"4,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/34/342f43abb97d6b3936940a53b00fef2b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"t=4k плюс 1,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/2b/2bb1c58dfa6995b5f7cd29feb46da805.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x=8 левая круг­лая скоб­ка 4k плюс 1 пра­вая круг­лая скоб­ка плюс 5=32k плюс 13,\"> по­это­му оста­ток от де­ле­ния <i>x</i> на <img src=\"https://ege.sdamgia.ru/formula/svg/63/6364d3f0f495b6ab9dcf8d3b5c6e0b01.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"32\"> равен 13.</p><p class=\"left_margin\">б)  Пер­вое такое число в нуж­ном диа­па­зо­не это <img src=\"https://ege.sdamgia.ru/formula/svg/a0/a0537797acb88c2f6aad51beb802edac.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"32 умно­жить на 63 плюс 13=2029,\"> по­след­нее  — <img src=\"https://ege.sdamgia.ru/formula/svg/07/0797b0fe6008767eab8dd535a67ad370.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"32 умно­жить на 93 плюс 13=2989,\"> по­это­му их там всего <img src=\"https://ege.sdamgia.ru/formula/svg/c1/c16a5320fa475530d9583c34fd356ef5.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"31\"> число и они об­ра­зу­ют ариф­ме­ти­че­скую про­грес­сию. Зна­чит, их сумма равна <img src=\"https://ege.sdamgia.ru/formula/svg/01/01429a339b20406a3e5c1e5f5b19b9d3.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 2029 плюс 2989, зна­ме­на­тель: 2 конец дроби умно­жить на 31=77779. \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) 13; б) 77779.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/57/571c992e2a7967956a464071039aa086.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e820f175f8684e7c1727c5ba1b9aedfb.svg",
+            "https://ege.sdamgia.ru/formula/svg/14/14e475e55fae21af0f19d0f4634b8599.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/65b8b0cae8be5abf11c5acf7c6420670.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5c45761b4eec071d8784b9f4ad1f1c99.svg",
+            "https://ege.sdamgia.ru/formula/svg/d1/d1bac1d2475812fa780c287466c5ed07.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f3e90ce87a25538f5a4be79a0a7c0fa5.svg",
+            "https://ege.sdamgia.ru/formula/svg/c5/c59471f3ce70ca3107957a84ae0d3d9d.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/342f43abb97d6b3936940a53b00fef2b.svg",
+            "https://ege.sdamgia.ru/formula/svg/2b/2bb1c58dfa6995b5f7cd29feb46da805.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/6364d3f0f495b6ab9dcf8d3b5c6e0b01.svg",
+            "https://ege.sdamgia.ru/formula/svg/a0/a0537797acb88c2f6aad51beb802edac.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/0797b0fe6008767eab8dd535a67ad370.svg",
+            "https://ege.sdamgia.ru/formula/svg/c1/c16a5320fa475530d9583c34fd356ef5.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/01429a339b20406a3e5c1e5f5b19b9d3.svg"
+        ]
+    },
+    "answer": "а) 13; б) 77779.",
+    "topic_id": null,
+    "analog_ids": []
+}

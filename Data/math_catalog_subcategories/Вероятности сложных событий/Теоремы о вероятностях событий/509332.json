@@ -1,0 +1,40 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 509332,
+    "condition": {
+        "text": "На диаграмме Эйлера показаны события A и B в некотором случайном эксперименте, в котором 10 равновозможных элементарных событий. Элементарные события показаны точками. Найдите   —  условную вероятность события B при условии A.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body633704\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=140018\" style=\"float:right;margin:10px;max-width:100%\">На диа­грам­ме Эй­ле­ра по­ка­за­ны со­бы­тия <i>A</i> и <i>B</i> в не­ко­то­ром слу­чай­ном экс­пе­ри­мен­те, в ко­то­ром 10 рав­но­воз­мож­ных эле­мен­тар­ных со­бы­тий. Эле­мен­тар­ные со­бы­тия по­ка­за­ны точ­ка­ми. Най­ди­те <nobr><img src=\"https://ege.sdamgia.ru/formula/svg/49/4988b081738a6047b76fe9fb40c33ce7.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"P левая круг­лая скоб­ка B | A пра­вая круг­лая скоб­ка \">  — </nobr> услов­ную ве­ро­ят­ность со­бы­тия <i>B</i> при усло­вии <i>A</i>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/49/4988b081738a6047b76fe9fb40c33ce7.svg",
+            "/get_file?id=140018"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Из диаграммы определяем, что:   Подставим найденные значения в формулу условной вероятности, получим:Ответ: 0,4.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol509332\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Из диа­грам­мы опре­де­ля­ем, что:</p><p></p><div class=\"flex-math\"><p><img src=\"https://ege.sdamgia.ru/formula/svg/e2/e20eee670e023e311c76cbcd36cd3926.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"P левая круг­лая скоб­ка A пра­вая круг­лая скоб­ка = дробь: чис­ли­тель: 5, зна­ме­на­тель: конец дроби 10, \"> </p><p><img src=\"https://ege.sdamgia.ru/formula/svg/57/57f8c06b4b92e863380b451cdb0bf742.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"P левая круг­лая скоб­ка B пра­вая круг­лая скоб­ка = дробь: чис­ли­тель: 4, зна­ме­на­тель: конец дроби 10,\"> </p><p><img src=\"https://ege.sdamgia.ru/formula/svg/15/15ea4fc0b40c1f25242722dd5239c399.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"P левая круг­лая скоб­ка AB пра­вая круг­лая скоб­ка = дробь: чис­ли­тель: 2, зна­ме­на­тель: конец дроби 10.\"></p><p></p></div><p> Под­ста­вим най­ден­ные зна­че­ния в фор­му­лу услов­ной ве­ро­ят­но­сти, по­лу­чим:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/b4/b499f1db04df8c97595f2fd8fef68b9f.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"P левая круг­лая скоб­ка B | A пра­вая круг­лая скоб­ка = дробь: чис­ли­тель: P левая круг­лая скоб­ка AB пра­вая круг­лая скоб­ка , зна­ме­на­тель: P левая круг­лая скоб­ка A пра­вая круг­лая скоб­ка конец дроби = дробь: чис­ли­тель: 2 умно­жить на 10, зна­ме­на­тель: 10 умно­жить на 5 конец дроби = дробь: чис­ли­тель: 2, зна­ме­на­тель: 5 конец дроби =0,4. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 0,4.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e2/e20eee670e023e311c76cbcd36cd3926.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/57f8c06b4b92e863380b451cdb0bf742.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/15ea4fc0b40c1f25242722dd5239c399.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b499f1db04df8c97595f2fd8fef68b9f.svg"
+        ]
+    },
+    "answer": "0,4",
+    "topic_id": 5,
+    "analog_ids": [
+        509332,
+        509333,
+        509334,
+        509335,
+        509333,
+        509334,
+        509335,
+        509336,
+        509337,
+        509338,
+        509339,
+        509340,
+        509341
+    ]
+}

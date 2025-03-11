@@ -1,0 +1,33 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 642005,
+    "condition": {
+        "text": "Решите неравенство ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body501033\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/16/1690f0da1441e78b66db435edf610b73.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"5 в сте­пе­ни x умно­жить на 4 в сте­пе­ни левая круг­лая скоб­ка \\tfrac1 пра­вая круг­лая скоб­ка x мень­ше 50.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/16/1690f0da1441e78b66db435edf610b73.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Прологарифмируем обе части неравенства по основанию 5:  откуда  или   Ответ:  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol642005\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Про­ло­га­риф­ми­ру­ем обе части не­ра­вен­ства по ос­но­ва­нию 5: </p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"1c805574c1f42664e3ad8a0204e343f3\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/99/99e2d1633d872d0039b2f2bb670e675b.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" x плюс дробь: чис­ли­тель: 1, зна­ме­на­тель: x конец дроби ло­га­рифм по ос­но­ва­нию 5 4 мень­ше ло­га­рифм по ос­но­ва­нию 5 50 рав­но­силь­но дробь: чис­ли­тель: x в квад­ра­те минус x ло­га­рифм по ос­но­ва­нию 5 50 плюс ло­га­рифм по ос­но­ва­нию 5 4, зна­ме­на­тель: x конец дроби мень­ше 0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/cc/cc730b3c1e3b3e86627944cf0a4db012.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" рав­но­силь­но дробь: чис­ли­тель: x в квад­ра­те минус левая круг­лая скоб­ка 2 плюс ло­га­рифм по ос­но­ва­нию 5 2 пра­вая круг­лая скоб­ка x плюс 2 ло­га­рифм по ос­но­ва­нию 5 2, зна­ме­на­тель: x конец дроби мень­ше 0 рав­но­силь­но дробь: чис­ли­тель: левая круг­лая скоб­ка x минус 2 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x минус ло­га­рифм по ос­но­ва­нию 5 2 пра­вая круг­лая скоб­ка , зна­ме­на­тель: x конец дроби мень­ше 0, \"></span><span data-width=\"365\" data-formulahash=\"1c805574c1f42664e3ad8a0204e343f3\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/99/99e2d1633d872d0039b2f2bb670e675b.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" x плюс дробь: чис­ли­тель: 1, зна­ме­на­тель: x конец дроби ло­га­рифм по ос­но­ва­нию 5 4 мень­ше ло­га­рифм по ос­но­ва­нию 5 50 рав­но­силь­но дробь: чис­ли­тель: x в квад­ра­те минус x ло­га­рифм по ос­но­ва­нию 5 50 плюс ло­га­рифм по ос­но­ва­нию 5 4, зна­ме­на­тель: x конец дроби мень­ше 0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/35/3532b12b7bd89bd2a09ca11efadb5eb8.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" рав­но­силь­но дробь: чис­ли­тель: x в квад­ра­те минус левая круг­лая скоб­ка 2 плюс ло­га­рифм по ос­но­ва­нию 5 2 пра­вая круг­лая скоб­ка x плюс 2 ло­га­рифм по ос­но­ва­нию 5 2, зна­ме­на­тель: x конец дроби мень­ше 0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/ba/bab2652857392ad215abd1ebdf77d35a.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" рав­но­силь­но дробь: чис­ли­тель: левая круг­лая скоб­ка x минус 2 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x минус ло­га­рифм по ос­но­ва­нию 5 2 пра­вая круг­лая скоб­ка , зна­ме­на­тель: x конец дроби мень­ше 0, \"></span></p><p class=\"left_margin\"></p></center><p> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/3b/3b4a721b7390baf1b8afcc251d43d129.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x мень­ше 0\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/bf/bfe5c52d31dad032ca47a411d8136bb6.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\" ло­га­рифм по ос­но­ва­нию 5 2 мень­ше x мень­ше 2.\"> </p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/e2/e2fea3ae4bacb450bf65b0a13e9b335b.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка минус бес­ко­неч­ность ; 0 пра­вая круг­лая скоб­ка ;\"> <img src=\"https://ege.sdamgia.ru/formula/svg/c7/c776aa42c18f4466d2a272465cb2f4fa.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\" левая круг­лая скоб­ка ло­га­рифм по ос­но­ва­нию 5 2; 2 пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/99/99e2d1633d872d0039b2f2bb670e675b.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/cc730b3c1e3b3e86627944cf0a4db012.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/99e2d1633d872d0039b2f2bb670e675b.svg",
+            "https://ege.sdamgia.ru/formula/svg/35/3532b12b7bd89bd2a09ca11efadb5eb8.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/bab2652857392ad215abd1ebdf77d35a.svg",
+            "https://ege.sdamgia.ru/formula/svg/3b/3b4a721b7390baf1b8afcc251d43d129.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bfe5c52d31dad032ca47a411d8136bb6.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e2fea3ae4bacb450bf65b0a13e9b335b.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c776aa42c18f4466d2a272465cb2f4fa.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": [
+        642005,
+        642023
+    ]
+}

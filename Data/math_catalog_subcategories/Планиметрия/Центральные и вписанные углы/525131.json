@@ -1,0 +1,23 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 525131,
+    "condition": {
+        "text": "Угол ABD равен 53°. Угол ВСА равен 38°. Найдите вписанный угол BCD. Ответ дайте в градусах.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body421303\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=138369\" style=\"float:right;margin:10px;max-width:100%\">Угол <i>ABD</i> равен 53°. Угол <i>ВСА</i> равен 38°. Най­ди­те впи­сан­ный угол <i>BCD</i>. Ответ дайте в гра­ду­сах.</p></div>",
+        "image_urls": [
+            "/get_file?id=138369"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Вписанные углы, опирающиеся на одну и ту же дугу окружности равны, поэтому  Следовательно,   Ответ: 91.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol525131\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Впи­сан­ные углы, опи­ра­ю­щи­е­ся на одну и ту же дугу окруж­но­сти равны, по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/61/61ced32780e7f021cb527f1c1a32845d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle ABD = \\angle ACD = 53 гра­ду­сов.\"> Сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/a3/a38b1f345bf319442bb21c398c1815b3.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle BCD = \\angle BCA плюс \\angle ACD = 38 гра­ду­сов плюс 53 гра­ду­сов = 91 гра­ду­сов.\"> </p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 91.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/61/61ced32780e7f021cb527f1c1a32845d.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a38b1f345bf319442bb21c398c1815b3.svg"
+        ]
+    },
+    "answer": "91",
+    "topic_id": 1,
+    "analog_ids": []
+}

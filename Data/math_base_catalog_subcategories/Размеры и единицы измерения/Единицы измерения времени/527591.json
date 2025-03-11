@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 527591,
+    "condition": {
+        "text": "Решите неравенство: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body418331\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те&nbsp;не­ра­вен­ство: <img src=\"https://ege.sdamgia.ru/formula/svg/fb/fb066de74ebcecc47cfd6f6ef6f2de36.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\"x в квад­ра­те ло­га­рифм по ос­но­ва­нию 4 в квад­ра­те x плюс 10 ло­га­рифм по ос­но­ва­нию 3 в квад­ра­те x мень­ше или равно x ло­га­рифм по ос­но­ва­нию 4 x умно­жить на ло­га­рифм по ос­но­ва­нию 3 x в сте­пе­ни 7 .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/fb/fb066de74ebcecc47cfd6f6ef6f2de36.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Преобразуем неравенство:Далее,  причем  только при  Произведение остальных скобок должно быть неположительно, поэтому  Все выписанные значения положительны, в них исходное неравенство определено. Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol527591\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пре­об­ра­зу­ем не­ра­вен­ство:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/83/83dade2619b99702e826cf0f2997d2ec.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\" левая круг­лая скоб­ка x ло­га­рифм по ос­но­ва­нию 4 x пра­вая круг­лая скоб­ка в квад­ра­те минус 7 левая круг­лая скоб­ка x ло­га­рифм по ос­но­ва­нию 4 x пра­вая круг­лая скоб­ка ло­га­рифм по ос­но­ва­нию 3 x плюс 10 ло­га­рифм по ос­но­ва­нию 3 в квад­ра­те x мень­ше или равно 0 рав­но­силь­но \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/3a/3aa025da820b06bb83829660f2fd1158.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\" рав­но­силь­но левая круг­лая скоб­ка x ло­га­рифм по ос­но­ва­нию 4 x минус 2 ло­га­рифм по ос­но­ва­нию 3 x пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x ло­га­рифм по ос­но­ва­нию 4 x минус 5 ло­га­рифм по ос­но­ва­нию 3 x пра­вая круг­лая скоб­ка мень­ше или равно 0 рав­но­силь­но \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/24/24ba294944adcfd8b833f26076b5fe85.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\" рав­но­силь­но левая круг­лая скоб­ка x ло­га­рифм по ос­но­ва­нию 4 x минус 2 ло­га­рифм по ос­но­ва­нию 3 4 ло­га­рифм по ос­но­ва­нию 4 x пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x ло­га­рифм по ос­но­ва­нию 4 x минус 5 ло­га­рифм по ос­но­ва­нию 3 4 ло­га­рифм по ос­но­ва­нию 4 x пра­вая круг­лая скоб­ка мень­ше или равно 0 рав­но­силь­но \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/82/826ae50cfb08a85b208da5cfaeda194e.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\" рав­но­силь­но ло­га­рифм по ос­но­ва­нию 4 в квад­ра­те x левая круг­лая скоб­ка x минус 2 ло­га­рифм по ос­но­ва­нию 3 4 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x минус 5 ло­га­рифм по ос­но­ва­нию 3 4 пра­вая круг­лая скоб­ка мень­ше или равно 0.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Далее, <img src=\"https://ege.sdamgia.ru/formula/svg/31/315b3cdefd576f57fe34e875148ef742.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" ло­га­рифм по ос­но­ва­нию 4 в квад­ра­те x боль­ше или равно 0,\"> при­чем <img src=\"https://ege.sdamgia.ru/formula/svg/3a/3a774cfeddd333935889d05c787803c2.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" ло­га­рифм по ос­но­ва­нию 4 в квад­ра­те x=0\"> толь­ко при <img src=\"https://ege.sdamgia.ru/formula/svg/e4/e4a8c40487338b4f5a4a879f405da4c1.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=1.\"> Про­из­ве­де­ние осталь­ных ско­бок долж­но быть не­по­ло­жи­тель­но, по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/b8/b80a3007db7d7173b718b05c6eaf276d.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\"x при­над­ле­жит левая квад­рат­ная скоб­ка 2 ло­га­рифм по ос­но­ва­нию 3 4;5 ло­га­рифм по ос­но­ва­нию 3 4 пра­вая квад­рат­ная скоб­ка .\"> Все вы­пи­сан­ные зна­че­ния по­ло­жи­тель­ны, в них ис­ход­ное не­ра­вен­ство опре­де­ле­но.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/bd/bd0a407dd202e9da84dd76ff2ae7e1e5.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\"x при­над­ле­жит левая фи­гур­ная скоб­ка 1 пра­вая фи­гур­ная скоб­ка \\cup левая квад­рат­ная скоб­ка 2 ло­га­рифм по ос­но­ва­нию 3 4;5 ло­га­рифм по ос­но­ва­нию 3 4 пра­вая квад­рат­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/83/83dade2619b99702e826cf0f2997d2ec.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3aa025da820b06bb83829660f2fd1158.svg",
+            "https://ege.sdamgia.ru/formula/svg/24/24ba294944adcfd8b833f26076b5fe85.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/826ae50cfb08a85b208da5cfaeda194e.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/315b3cdefd576f57fe34e875148ef742.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3a774cfeddd333935889d05c787803c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e4a8c40487338b4f5a4a879f405da4c1.svg",
+            "https://ege.sdamgia.ru/formula/svg/b8/b80a3007db7d7173b718b05c6eaf276d.svg",
+            "https://ege.sdamgia.ru/formula/svg/bd/bd0a407dd202e9da84dd76ff2ae7e1e5.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

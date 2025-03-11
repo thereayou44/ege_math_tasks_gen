@@ -1,0 +1,49 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27293,
+    "condition": {
+        "text": "В треугольнике ABC AC  =  BC  =  8,  Найдите высоту СН.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918625\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right; margin:10px\" src=\"/get_file?id=1095\">В тре­уголь­ни­ке <i>ABC</i> <i>AC</i>  =  <i>BC</i>  =  8, <img src=\"https://ege.sdamgia.ru/formula/svg/8f/8f168bbc0a001b1c32145b62015cf8e1.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" синус A = 0,5.\"> Най­ди­те вы­со­ту <i>СН</i>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/8f/8f168bbc0a001b1c32145b62015cf8e1.svg",
+            "/get_file?id=1095"
+        ]
+    },
+    "solution": {
+        "text": "Решение. По определению синуса:  Ответ: 4. ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27293\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По опре­де­ле­нию си­ну­са:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ef/ef0fa67175deef124583bf17b7028039.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"CH=AC синус A=8 умно­жить на 0,5=4.\"> </p><p class=\"left_margin\"></p></center> <p><span style=\"letter-spaceing:2px\">Ответ</span>: 4. </p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ef/ef0fa67175deef124583bf17b7028039.svg"
+        ]
+    },
+    "answer": "4",
+    "topic_id": null,
+    "analog_ids": [
+        27293,
+        31991,
+        31993,
+        31995,
+        31991,
+        31993,
+        31995,
+        31997,
+        31999,
+        32001,
+        32003,
+        32005,
+        32007,
+        32009,
+        32011,
+        32013,
+        32015,
+        32017,
+        32019,
+        32021,
+        32023,
+        32025,
+        32027,
+        32029,
+        32031
+    ]
+}

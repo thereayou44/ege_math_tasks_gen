@@ -1,0 +1,36 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 502296,
+    "condition": {
+        "text": "В треугольник ABC вписана окружность радиуса R, касающаяся стороны AC в точке D, причём AD= R.а)  Докажите, что треугольник ABC прямоугольный.б)  Вписанная окружность касается сторон AB и BC в точках E и F. Найдите площадь треугольника BEF, если известно, что R= 5 и CD =15.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body640228\" class=\"pbody\"><p class=\"left_margin\">В тре­уголь­ник <i>ABC</i> впи­са­на окруж­ность ра­ди­у­са <i>R,</i> ка­са­ю­ща­я­ся сто­ро­ны <i>AC</i> в точке <i>D</i>, причём <i>AD= R</i>.</p><p class=\"left_margin\">а)  До­ка­жи­те, что тре­уголь­ник <i>ABC</i> пря­мо­уголь­ный.</p><p class=\"left_margin\">б)  Впи­сан­ная окруж­ность ка­са­ет­ся сто­рон <i>AB</i> и <i>BC</i> в точ­ках <i>E</i> и <i>F</i>. Най­ди­те пло­щадь тре­уголь­ни­ка <i>BEF,</i> если из­вест­но, что <i>R= 5</i> и <i>CD =15</i>.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Пусть O  — центр вписанной окружности треугольника Центр окружности, вписанной в угол, лежит на его биссектрисе, значит, AO  — биссектриса угла  Треугольник AOD прямоугольный и равнобедренный, поэтому  Следовательно,   б)  Обозначим  По теореме о равенстве отрезков касательных, проведённых к окружности из одной точки,  и  По теореме Пифагора  или  Из этого уравнения находим, что  ТогдаСледовательно, Ответ: 40.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol502296\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=148386\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Пусть <i>O</i>  — центр впи­сан­ной окруж­но­сти тре­уголь­ни­ка <img src=\"https://ege.sdamgia.ru/formula/svg/4b/4b5b9eab089a2e0ff9b286f012e61feb.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"ABC.\"></p><p class=\"left_margin\">Центр окруж­но­сти, впи­сан­ной в угол, лежит на его бис­сек­три­се, зна­чит, <i>AO</i>  — бис­сек­три­са угла <img src=\"https://ege.sdamgia.ru/formula/svg/9d/9d8fd0942eabdd442998a8c077e9c402.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BAC.\"> Тре­уголь­ник <i>AOD</i> пря­мо­уголь­ный и рав­но­бед­рен­ный, по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/d0/d0cd66dfb7841bff020f69209fd8556d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle OAD = 45 гра­ду­сов.\"> Сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/fd/fd06ceb82014588322c38c1378cc676c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle BAC = 90 гра­ду­сов.\"> </p><p>&nbsp;</p><p class=\"left_margin\">б)  Обо­зна­чим <img src=\"https://ege.sdamgia.ru/formula/svg/c6/c66e054baa0db41019b692b82ea68937.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BF = x.\"> По тео­ре­ме о ра­вен­стве от­рез­ков ка­са­тель­ных, про­ведённых к окруж­но­сти из одной точки, <img src=\"https://ege.sdamgia.ru/formula/svg/38/38047acb82f7d21e83937b99f351a53b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AE= AD= 5, CF=CD= 15\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/ea/ea426f249fd623ae3ba75fc5687e91fd.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BE= BF= x.\"> По тео­ре­ме Пи­фа­го­ра <img src=\"https://ege.sdamgia.ru/formula/svg/21/2135dfbdb6e1e9f8009ac0d8f55b6825.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"BC в квад­ра­те = AC в квад­ра­те плюс AB в квад­ра­те ,\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/80/804b90f04ee1a86ee601ac6ee347aa16.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 15 плюс x пра­вая круг­лая скоб­ка в квад­ра­те = 20 в квад­ра­те плюс левая круг­лая скоб­ка 5 плюс x пра­вая круг­лая скоб­ка в квад­ра­те .\"> Из этого урав­не­ния на­хо­дим, что <img src=\"https://ege.sdamgia.ru/formula/svg/f0/f018d413f8d4164b169dfaf80435f031.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x= 10.\"> Тогда</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/2d/2d971cad38a201d3a42556afe0d663b7.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"BC=25, синус \\angle ABC= дробь: чис­ли­тель: AC, зна­ме­на­тель: BC конец дроби = дробь: чис­ли­тель: 20, зна­ме­на­тель: 25 конец дроби = дробь: чис­ли­тель: 4, зна­ме­на­тель: 5 конец дроби . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Сле­до­ва­тель­но,</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f4/f437db9cdce953e970b3f3154ec40166.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"S_\\Delta BEF= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби BE умно­жить на BF синус \\angle ABC= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на 10 умно­жить на 10 умно­жить на дробь: чис­ли­тель: 4, зна­ме­на­тель: 5 конец дроби = 40. \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 40.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/4b/4b5b9eab089a2e0ff9b286f012e61feb.svg",
+            "https://ege.sdamgia.ru/formula/svg/9d/9d8fd0942eabdd442998a8c077e9c402.svg",
+            "https://ege.sdamgia.ru/formula/svg/d0/d0cd66dfb7841bff020f69209fd8556d.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fd06ceb82014588322c38c1378cc676c.svg",
+            "https://ege.sdamgia.ru/formula/svg/c6/c66e054baa0db41019b692b82ea68937.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/38047acb82f7d21e83937b99f351a53b.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/ea426f249fd623ae3ba75fc5687e91fd.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/2135dfbdb6e1e9f8009ac0d8f55b6825.svg",
+            "https://ege.sdamgia.ru/formula/svg/80/804b90f04ee1a86ee601ac6ee347aa16.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f018d413f8d4164b169dfaf80435f031.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d971cad38a201d3a42556afe0d663b7.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f437db9cdce953e970b3f3154ec40166.svg",
+            "/get_file?id=148386"
+        ]
+    },
+    "answer": "40.",
+    "topic_id": 17,
+    "analog_ids": [
+        502296,
+        502316,
+        511378
+    ]
+}

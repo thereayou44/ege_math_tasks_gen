@@ -1,0 +1,57 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 28011,
+    "condition": {
+        "text": "Скейтбордист прыгает на стоящую на рельсах платформу, со скоростью  м/с под острым углом  к рельсам.  От толчка платформа начинает ехать со скоростью  (м/с), где  кг  — масса скейтбордиста со скейтом, а  кг  — масса платформы. Под каким максимальным углом  (в градусах) нужно прыгать, чтобы разогнать платформу не менее чем до 0,25 м/с?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918423\" class=\"pbody\"><p class=\"left_margin\">Скейт­бор­дист пры­га­ет на сто­я­щую на рель­сах плат­фор­му, со ско­ро­стью <img src=\"https://ege.sdamgia.ru/formula/svg/16/16b70f6a34c172543871ee23b3f4bf37.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" v = 3\"> м/с под ост­рым углом <img src=\"https://ege.sdamgia.ru/formula/svg/bc/bccfc7022dfb945174d9bcebad2297bb.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" альфа \"> к рель­сам.  От толч­ка плат­фор­ма на­чи­на­ет ехать со ско­ро­стью <img src=\"https://ege.sdamgia.ru/formula/svg/66/66f65f6c935b265de02e85d04825ef67.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\"u = дробь: чис­ли­тель: m, зна­ме­на­тель: m плюс M конец дроби v ко­си­нус альфа \"> (м/с), где <img src=\"https://ege.sdamgia.ru/formula/svg/4b/4bd5f3c7f178ab3532fc13f662edfc27.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"m = 80\"> кг  — масса скейт­бор­ди­ста со скей­том, а <img src=\"https://ege.sdamgia.ru/formula/svg/b4/b4ac4c7947cd51557a1d3581e465d316.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"M = 400\"> кг  — масса плат­фор­мы. Под каким мак­си­маль­ным углом <img src=\"https://ege.sdamgia.ru/formula/svg/bc/bccfc7022dfb945174d9bcebad2297bb.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" альфа \"> (в гра­ду­сах) нужно пры­гать, чтобы разо­гнать плат­фор­му не менее чем до 0,25 м/с?</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/16/16b70f6a34c172543871ee23b3f4bf37.svg",
+            "https://ege.sdamgia.ru/formula/svg/bc/bccfc7022dfb945174d9bcebad2297bb.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/66f65f6c935b265de02e85d04825ef67.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4bd5f3c7f178ab3532fc13f662edfc27.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b4ac4c7947cd51557a1d3581e465d316.svg",
+            "https://ege.sdamgia.ru/formula/svg/bc/bccfc7022dfb945174d9bcebad2297bb.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Задача сводится к решению неравенства  на интервале  при заданных значениях массы скейтбордиста  кг и массы платформы  кг:   Ответ: 60.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol28011\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">За­да­ча сво­дит­ся к ре­ше­нию не­ра­вен­ства <img src=\"https://ege.sdamgia.ru/formula/svg/90/90339f664834021c7b704b3c5a273431.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"u боль­ше или равно 0,25\"> на ин­тер­ва­ле <img src=\"https://ege.sdamgia.ru/formula/svg/22/22d5cac281069e1c3c248c79d0d72554.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 0 гра­ду­сов ;90 гра­ду­сов пра­вая круг­лая скоб­ка \"> при за­дан­ных зна­че­ни­ях массы скейт­бор­ди­ста <img src=\"https://ege.sdamgia.ru/formula/svg/6c/6c5b774d8b276a9b463662f3602d4be5.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"m=80\"> кг и массы плат­фор­мы <img src=\"https://ege.sdamgia.ru/formula/svg/d2/d2aae3b5b29c1209a91b47fb8a9bb405.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"M=400\"> кг:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/43/43918da2d4fb08cd70f63c8505b4b110.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\"u боль­ше или равно дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби рав­но­силь­но дробь: чис­ли­тель: m, зна­ме­на­тель: m плюс M конец дроби v ко­си­нус альфа боль­ше или равно дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби рав­но­силь­но дробь: чис­ли­тель: 80, зна­ме­на­тель: 80 плюс 400 конец дроби умно­жить на 3 умно­жить на ко­си­нус альфа боль­ше или равно 0,25 рав­но­силь­но \"></p><p class=\"left_margin\"></p></center> <p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f7/f782d254b44d6c58fef1ed705c94fa07.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" рав­но­силь­но дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби ко­си­нус альфа боль­ше или равно дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби \\underset0 гра­ду­сов мень­ше альфа мень­ше 90 гра­ду­сов \\mathop рав­но­силь­но 0 гра­ду­сов мень­ше альфа мень­ше или равно 60 гра­ду­сов . \"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 60.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/90/90339f664834021c7b704b3c5a273431.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/22d5cac281069e1c3c248c79d0d72554.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6c5b774d8b276a9b463662f3602d4be5.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d2aae3b5b29c1209a91b47fb8a9bb405.svg",
+            "https://ege.sdamgia.ru/formula/svg/43/43918da2d4fb08cd70f63c8505b4b110.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f782d254b44d6c58fef1ed705c94fa07.svg"
+        ]
+    },
+    "answer": "60",
+    "topic_id": 9,
+    "analog_ids": [
+        28011,
+        28665,
+        43825,
+        28667,
+        28665,
+        43825,
+        28667,
+        28669,
+        28671,
+        28673,
+        43797,
+        43799,
+        43801,
+        43803,
+        43805,
+        43807,
+        43809,
+        43811,
+        43813,
+        43815,
+        43817,
+        43819,
+        43821,
+        43823
+    ]
+}

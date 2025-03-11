@@ -1,0 +1,20 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 323063,
+    "condition": {
+        "text": "На диаграмме показано распределение выплавки цинка в 11 странах мира (в тысячах тонн) за 2009 год. Среди представленных стран первое место по выплавке цинка занимали США, одиннадцатое место  — Иран. Какое место занимал Казахстан? ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body688907\" class=\"pbody\"><p class=\"left_margin\">На диа­грам­ме по­ка­за­но рас­пре­де­ле­ние вы­плав­ки цинка в 11 стра­нах мира (в ты­ся­чах тонн) за 2009 год. Среди пред­став­лен­ных стран пер­вое место по вы­плав­ке цинка за­ни­ма­ли США, один­на­дца­тое место  — Иран. Какое место за­ни­мал Ка­зах­стан?</p><p>&nbsp;</p><p class=\"left_margin\"></p><center><p><img src=\"/get_file?id=7910\"></p><p class=\"left_margin\"></p></center></div>",
+        "image_urls": [
+            "/get_file?id=7910"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Расположим страны в порядке убывания количества выплавки меди в год: 1)  США2)  Канада3)  Индия4)  Казахстан5)  Боливия6)  Мексика7)  Ирландия8)  Россия9)  Швеция10) Бразилия11) Иран Казахстан находится на четвёртом месте. Ответ: 4.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol323063\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Рас­по­ло­жим стра­ны в по­ряд­ке убы­ва­ния ко­ли­че­ства вы­плав­ки меди в год:</p><p>&nbsp;</p><p class=\"left_margin\">1)  США</p><p class=\"left_margin\">2)  Ка­на­да</p><p class=\"left_margin\">3)  Индия</p><p class=\"left_margin\">4)  Ка­зах­стан</p><p class=\"left_margin\">5)  Бо­ли­вия</p><p class=\"left_margin\">6)  Мек­си­ка</p><p class=\"left_margin\">7)  Ир­лан­дия</p><p class=\"left_margin\">8)  Рос­сия</p><p class=\"left_margin\">9)  Шве­ция</p><p class=\"left_margin\">10) Бра­зи­лия</p><p class=\"left_margin\">11) Иран</p><p>&nbsp;</p><p class=\"left_margin\">Ка­зах­стан на­хо­дит­ся на четвёртом месте.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 4.</p></div>",
+        "image_urls": []
+    },
+    "answer": "4",
+    "topic_id": null,
+    "analog_ids": []
+}

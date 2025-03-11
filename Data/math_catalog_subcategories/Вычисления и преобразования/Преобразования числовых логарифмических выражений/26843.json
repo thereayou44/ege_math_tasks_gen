@@ -1,0 +1,56 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 26843,
+    "condition": {
+        "text": "Найдите значение выражения ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919079\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те зна­че­ние вы­ра­же­ния <img src=\"https://ege.sdamgia.ru/formula/svg/74/74334e7483fae474fcd960a4e409c838.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\" левая круг­лая скоб­ка \\log _216 пра­вая круг­лая скоб­ка умно­жить на левая круг­лая скоб­ка \\log _636 пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/74/74334e7483fae474fcd960a4e409c838.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Выполним преобразования:   Ответ: 8.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol26843\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Вы­пол­ним пре­об­ра­зо­ва­ния: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/bb/bb4f2a92cf392710803096476112e5e1.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\" левая круг­лая скоб­ка \\log _216 пра­вая круг­лая скоб­ка умно­жить на левая круг­лая скоб­ка \\log _636 пра­вая круг­лая скоб­ка = 4 умно­жить на 2=8.\"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 8.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/bb/bb4f2a92cf392710803096476112e5e1.svg"
+        ]
+    },
+    "answer": "8",
+    "topic_id": 7,
+    "analog_ids": [
+        26843,
+        68363,
+        513340,
+        513361,
+        68363,
+        513340,
+        513361,
+        561171,
+        561223,
+        68315,
+        68317,
+        68319,
+        68321,
+        68323,
+        68325,
+        68327,
+        68329,
+        68331,
+        68333,
+        68335,
+        68337,
+        68339,
+        68341,
+        68343,
+        68345,
+        68347,
+        68349,
+        68351,
+        68353,
+        68355,
+        68357,
+        68359,
+        68361
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27649,
+    "condition": {
+        "text": "Найдите расстояние от точки A с координатами (6; 8) до оси абсцисс.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918269\" class=\"pbody\"><p class=\"left_margin\"><img width=\"190\" style=\"float:right; margin:10px\" src=\"/get_file?id=304\">Най­ди­те рас­сто­я­ние от точки <i>A</i> с ко­ор­ди­на­та­ми (6; 8) до оси абс­цисс.</p></div>",
+        "image_urls": [
+            "/get_file?id=304"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Расстояние от точки до оси абсцисс равно ординате точки. Ответ: 8.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27649\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Рас­сто­я­ние от точки до оси абс­цисс равно ор­ди­на­те точки.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 8.</p></div>",
+        "image_urls": []
+    },
+    "answer": "8",
+    "topic_id": null,
+    "analog_ids": [
+        27649,
+        57757,
+        57759,
+        57761,
+        57757,
+        57759,
+        57761,
+        57763,
+        57765,
+        57767,
+        57769,
+        57771,
+        57773,
+        57775,
+        57777,
+        57779,
+        57781,
+        57783,
+        57785,
+        57787,
+        57789,
+        57791,
+        57793,
+        57795,
+        57797,
+        57799,
+        57801,
+        57803,
+        57805
+    ]
+}

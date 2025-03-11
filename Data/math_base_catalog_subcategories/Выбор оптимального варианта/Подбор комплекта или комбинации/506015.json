@@ -1,0 +1,29 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 506015,
+    "condition": {
+        "text": "В треугольной пирамиде ABCD плоские углы BAC, BAD и CAD при вершине A равны  и  соответственно. Определить угол между гранями BAD и CAD.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body644707\" class=\"pbody\"><p class=\"left_margin\">В тре­уголь­ной пи­ра­ми­де <i>ABCD</i> плос­кие углы <i>BAC</i>, <i>BAD</i> и <i>CAD</i> при вер­ши­не <i>A</i> равны <img src=\"https://ege.sdamgia.ru/formula/svg/f5/f53a5f6ab0cf2a34607cfb9581132989.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби , дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/09/09f1d185f9053976bac869ac3097385c.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 4 конец дроби \"> со­от­вет­ствен­но. Опре­де­лить угол между гра­ня­ми <i>BAD</i> и <i>CAD</i>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f5/f53a5f6ab0cf2a34607cfb9581132989.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/09f1d185f9053976bac869ac3097385c.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Обозначим угол между гранями BAD и CAD за  и напишем теорему косинусов для трехгранного угла. Ответ:  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol506015\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=78624\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">Обо­зна­чим угол между гра­ня­ми <i>BAD</i> и <i>CAD</i> за <img src=\"https://ege.sdamgia.ru/formula/svg/7b/7b7f9dbfea05c83784f8b85149852f08.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" альфа \"> и на­пи­шем тео­ре­му ко­си­ну­сов для трех­гран­но­го угла.</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/b6/b6622961c16db36079ff43fafc499cbb.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­си­нус \\angle BAC= ко­си­нус \\angle CAD умно­жить на ко­си­нус \\angle BAD плюс синус \\angle CAD умно­жить на синус \\angle BAD умно­жить на ко­си­нус альфа \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/31/3172fffc1aeeaf38d96fc6f9a3beb158.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" ко­си­нус дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби = ко­си­нус дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 4 конец дроби ко­си­нус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби плюс синус дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 4 конец дроби синус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби ко­си­нус альфа , \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/1a/1ad456356536d12b030ff68f1bf83709.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби = минус дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби умно­жить на дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби плюс дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби умно­жить на дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби ко­си­нус альфа , \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/ec/ec9518d1763c0b10755384b303d3a9b3.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" ко­си­нус альфа =0; альфа = дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби . \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  <img src=\"https://ege.sdamgia.ru/formula/svg/42/42affa250aeca5ce9ddd99787cfc0ebb.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/7b/7b7f9dbfea05c83784f8b85149852f08.svg",
+            "https://ege.sdamgia.ru/formula/svg/b6/b6622961c16db36079ff43fafc499cbb.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/3172fffc1aeeaf38d96fc6f9a3beb158.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1ad456356536d12b030ff68f1bf83709.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ec9518d1763c0b10755384b303d3a9b3.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/42affa250aeca5ce9ddd99787cfc0ebb.svg",
+            "/get_file?id=78624"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

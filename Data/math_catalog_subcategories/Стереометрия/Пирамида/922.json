@@ -1,0 +1,23 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 922,
+    "condition": {
+        "text": "В правильной треугольной пирамиде SABC точка K  — середина ребра BC, S  — вершина. Известно, что SK  =  4, а площадь боковой поверхности пирамиды равна 54. Найдите длину ребра AC.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body945510\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=111740\" style=\"float:right;margin:10px;max-width:100%\">В пра­виль­ной тре­уголь­ной пи­ра­ми­де <i>SABC</i> точка <i>K</i>  — се­ре­ди­на ребра <i>BC</i>, <i>S</i>  — вер­ши­на. Из­вест­но, что <i>SK</i>  =  4, а пло­щадь бо­ко­вой по­верх­но­сти пи­ра­ми­ды равна 54. Най­ди­те длину ребра <i>AC.</i></p></div>",
+        "image_urls": [
+            "/get_file?id=111740"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Найдем площадь грани SBC: Отрезок SK является медианой равнобедренного треугольника SBC, а значит, и его высотой. Тогда Ответ: 9.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol922\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Най­дем пло­щадь грани <i>SBC</i>:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/96/96e09c2db0686ef9974025ac0017be01.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S_SBC= дробь: чис­ли­тель: S_бок, зна­ме­на­тель: 3 конец дроби = дробь: чис­ли­тель: 54, зна­ме­на­тель: 3 конец дроби =18. \"></p><p class=\"left_margin\"></p></center><p> От­ре­зок <i>SK</i> яв­ля­ет­ся ме­ди­а­ной рав­но­бед­рен­но­го тре­уголь­ни­ка <i>SBC</i>, а зна­чит, и его вы­со­той. Тогда </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d0/d0b89fc944fe93f1ab15d7a4a7e2a298.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"AC=BC= дробь: чис­ли­тель: 2S_SAB, зна­ме­на­тель: SK конец дроби = дробь: чис­ли­тель: 2 умно­жить на 18, зна­ме­на­тель: 4 конец дроби =9. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 9.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/96/96e09c2db0686ef9974025ac0017be01.svg",
+            "https://ege.sdamgia.ru/formula/svg/d0/d0b89fc944fe93f1ab15d7a4a7e2a298.svg"
+        ]
+    },
+    "answer": "9",
+    "topic_id": 3,
+    "analog_ids": []
+}

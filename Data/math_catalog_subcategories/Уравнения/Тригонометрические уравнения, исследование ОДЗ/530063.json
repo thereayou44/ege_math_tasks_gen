@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 530063,
+    "condition": {
+        "text": "а)  Решите уравнение б)  Укажите корни этого уравнения, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body424051\" class=\"pbody\"><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/36/367f7c2c3a7dea21c494a45fbd9dcca8.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\" тан­генс x умно­жить на синус в квад­ра­те x= тан­генс x.\"></p><p class=\"left_margin\">б)  Ука­жи­те корни этого урав­не­ния, при­над­ле­жа­щие от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/77/77411d87d1216bf97a94914e93e24836.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка минус дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 7 конец дроби ; дробь: чис­ли­тель: 13 Пи , зна­ме­на­тель: 11 конец дроби пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/36/367f7c2c3a7dea21c494a45fbd9dcca8.svg",
+            "https://ege.sdamgia.ru/formula/svg/77/77411d87d1216bf97a94914e93e24836.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Заметим, что уравнение  расщепляется на два уравнения:  или  С учётом области определения уравнения имеем: б)  Отберем корни, решая двойное неравенство: При  получаем  при  получаем  Ответ: а)  б) 0; π.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol530063\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  За­ме­тим, что урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/d4/d4342e4e772d6949592de4f09c58cc19.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AB=A\"> рас­щеп­ля­ет­ся на два урав­не­ния: <img src=\"https://ege.sdamgia.ru/formula/svg/35/357e564112c8be448ad371ce602b0658.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"A=0\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/cd/cd4a3540cd0b2f02b070f2c35b0ac41d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"B=1.\"> С учётом об­ла­сти опре­де­ле­ния урав­не­ния имеем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/b0/b05e6e9f583bf02f3aadbafed69ebb9b.svg\" class=\"tex\" style=\"vertical-align:-23.2pt\" alt=\" тан­генс x умно­жить на синус в квад­ра­те x= тан­генс x рав­но­силь­но со­во­куп­ность вы­ра­же­ний тан­генс x=0, си­сте­ма вы­ра­же­ний синус в квад­ра­те x=1, ко­си­нус x не равно 0 конец си­сте­мы . конец со­во­куп­но­сти . рав­но­силь­но тан­генс x=0 рав­но­силь­но x= Пи k,k при­над­ле­жит Z .\"> </p><p class=\"left_margin\"></p></center><p class=\"left_margin\">б)  От­бе­рем корни, решая двой­ное не­ра­вен­ство:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/7b/7b7520938132c9cc25816152fb2f3fde.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" минус дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 7 конец дроби мень­ше или равно Пи k мень­ше или равно дробь: чис­ли­тель: 13 Пи , зна­ме­на­тель: 11 конец дроби рав­но­силь­но минус дробь: чис­ли­тель: 2, зна­ме­на­тель: 7 конец дроби мень­ше или равно k мень­ше или равно дробь: чис­ли­тель: 13, зна­ме­на­тель: 11 конец дроби \\undersetk при­над­ле­жит Z \\mathop рав­но­силь­но со­во­куп­ность вы­ра­же­ний k=0,k=1. конец со­во­куп­но­сти . \"></p><p class=\"left_margin\"></p></center><p> При <img src=\"https://ege.sdamgia.ru/formula/svg/22/22d9bb2875d7a70aeb68696096f3b9b2.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"k=0\"> по­лу­ча­ем <img src=\"https://ege.sdamgia.ru/formula/svg/ea/eab93b3179745965aa8fa36deec2534a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x=0,\"> при <img src=\"https://ege.sdamgia.ru/formula/svg/ce/ceef78b61bf01306cc7e80344c92c19d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"k=1\"> по­лу­ча­ем <img src=\"https://ege.sdamgia.ru/formula/svg/47/473fed784fc04aea64ad225080d80372.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x= Пи .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) <img src=\"https://ege.sdamgia.ru/formula/svg/f1/f1375e0840b0d2c3dce57202092f8bbe.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая фи­гур­ная скоб­ка Пи k : k при­над­ле­жит Z пра­вая фи­гур­ная скоб­ка ;\"> б) 0; π.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d4/d4342e4e772d6949592de4f09c58cc19.svg",
+            "https://ege.sdamgia.ru/formula/svg/35/357e564112c8be448ad371ce602b0658.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cd4a3540cd0b2f02b070f2c35b0ac41d.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b05e6e9f583bf02f3aadbafed69ebb9b.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7b7520938132c9cc25816152fb2f3fde.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/22d9bb2875d7a70aeb68696096f3b9b2.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/eab93b3179745965aa8fa36deec2534a.svg",
+            "https://ege.sdamgia.ru/formula/svg/ce/ceef78b61bf01306cc7e80344c92c19d.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/473fed784fc04aea64ad225080d80372.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f1375e0840b0d2c3dce57202092f8bbe.svg"
+        ]
+    },
+    "answer": "а)  б) 0; π.",
+    "topic_id": 13,
+    "analog_ids": []
+}

@@ -1,0 +1,36 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 660709,
+    "condition": {
+        "text": "Даны векторы   Найдите длину вектора ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body293401\" class=\"pbody\"><p class=\"left_margin\">Даны век­то­ры <img src=\"https://ege.sdamgia.ru/formula/svg/2c/2c87fce661123fdce0d2766211945e6d.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\veca = левая круг­лая скоб­ка 17; 0 пра­вая круг­лая скоб­ка ,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/d9/d99dc4791cba282a0b18073db4b51739.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\vecb = левая круг­лая скоб­ка минус 1; 1 пра­вая круг­лая скоб­ка .\"> Най­ди­те длину век­то­ра <img src=\"https://ege.sdamgia.ru/formula/svg/d5/d59faf9be3eaab0f667344e6cb92f7c3.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\veca плюс 12\\vecb.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/2c/2c87fce661123fdce0d2766211945e6d.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d99dc4791cba282a0b18073db4b51739.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d59faf9be3eaab0f667344e6cb92f7c3.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Найдем координаты вектора  Длина вектора равна:Ответ: 13.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol660709\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Най­дем ко­ор­ди­на­ты век­то­ра <img src=\"https://ege.sdamgia.ru/formula/svg/1c/1c68c5a4da5cf483169cfdcc6b50c2fc.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\veca плюс 12\\vecb:\"></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/4c/4c48090151585c9d1eaced9ee2a3138d.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\veca плюс 12\\vecb = левая круг­лая скоб­ка 17 плюс 12 умно­жить на левая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка ; 0 плюс 12 умно­жить на 1 пра­вая круг­лая скоб­ка = левая круг­лая скоб­ка 5; 12 пра­вая круг­лая скоб­ка .\"></p><p class=\"left_margin\"></p></center><p> Длина век­то­ра равна:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/77/7795487ec48eb868a1fdc17e8f91dfae.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"|\\veca плюс 12\\vecb| = ко­рень из: на­ча­ло ар­гу­мен­та: 5 в квад­ра­те плюс 12 в квад­ра­те конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 25 плюс 144 конец ар­гу­мен­та = 13.\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 13.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/1c/1c68c5a4da5cf483169cfdcc6b50c2fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c48090151585c9d1eaced9ee2a3138d.svg",
+            "https://ege.sdamgia.ru/formula/svg/77/7795487ec48eb868a1fdc17e8f91dfae.svg"
+        ]
+    },
+    "answer": "13",
+    "topic_id": 2,
+    "analog_ids": [
+        660709,
+        660780,
+        660892,
+        660964,
+        660780,
+        660892,
+        660964,
+        661011,
+        661072
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 508091,
+    "condition": {
+        "text": "Дана геометрическая прогрессия вида  Возможно ли выделить геометрическую прогрессию с суммой членов, равнойа)  б)  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body634439\" class=\"pbody\"><p class=\"left_margin\">Дана гео­мет­ри­че­ская про­грес­сия вида <img src=\"https://ege.sdamgia.ru/formula/svg/0c/0cefa4356a57c45dd8dcee145e67c532.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"1, дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби , дробь: чис­ли­тель: 1, зна­ме­на­тель: конец дроби 2 в квад­ра­те , дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 в кубе конец дроби \\ldots . \"> Воз­мож­но ли вы­де­лить гео­мет­ри­че­скую про­грес­сию с сум­мой чле­нов, рав­ной</p><p class=\"left_margin\">а)  <img src=\"https://ege.sdamgia.ru/formula/svg/97/975b1efee2269fbc72c8461d8a2eaa52.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 1, зна­ме­на­тель: 7 конец дроби ;\"></p><p class=\"left_margin\">б)  <img src=\"https://ege.sdamgia.ru/formula/svg/e3/e3a1cebf4f1f274b6413db8112bdd683.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 1, зна­ме­на­тель: 5 конец дроби .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/0c/0cefa4356a57c45dd8dcee145e67c532.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/975b1efee2269fbc72c8461d8a2eaa52.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e3a1cebf4f1f274b6413db8112bdd683.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Найдем сумму прогрессии вида  б)  Пусть первый член искомой прогрессии равен  а ее знаменатель равен  где  - натуральные числа. Тогда должно выполняться равенство:  Отсюда  Если  то слева четное число, а справа нечетное, если  то  если  то слева нецелое число, а справа целое. Все эти случаи невозможны. Ответ: а) да; б) нет.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol508091\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Най­дем сумму про­грес­сии вида <img src=\"https://ege.sdamgia.ru/formula/svg/74/7493b702ac20a521678e9e81f828a0a7.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 1, зна­ме­на­тель: 8 конец дроби , дробь: чис­ли­тель: 1, зна­ме­на­тель: 64 конец дроби , дробь: чис­ли­тель: 1, зна­ме­на­тель: 512 конец дроби , ... \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/b9/b9b1808fabd4c1099682575543f18b2c.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" дробь: чис­ли­тель: 1, зна­ме­на­тель: 8 конец дроби плюс дробь: чис­ли­тель: 1, зна­ме­на­тель: 64 конец дроби плюс дробь: чис­ли­тель: 1, зна­ме­на­тель: 512 конец дроби плюс ...= дробь: чис­ли­тель: 1/8, зна­ме­на­тель: 1 минус 1/8 конец дроби = дробь: чис­ли­тель: 1, зна­ме­на­тель: 7 конец дроби . \"></p><p>&nbsp;</p><p class=\"left_margin\">б)  Пусть пер­вый член ис­ко­мой про­грес­сии равен <img src=\"https://ege.sdamgia.ru/formula/svg/5e/5e3fb361c0730019766ea450b9381265.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"2 в сте­пе­ни левая круг­лая скоб­ка минус n пра­вая круг­лая скоб­ка ,\"> а ее зна­ме­на­тель равен <img src=\"https://ege.sdamgia.ru/formula/svg/2f/2fde28630f7455721b9259c02b54c8f7.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"2 в сте­пе­ни левая круг­лая скоб­ка минус m пра­вая круг­лая скоб­ка ,\"> где <img src=\"https://ege.sdamgia.ru/formula/svg/07/0779458e5cb9f831cdfa2b3b7e9553e2.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"m,n\"> - на­ту­раль­ные числа. Тогда долж­но вы­пол­нять­ся ра­вен­ство: <img src=\"https://ege.sdamgia.ru/formula/svg/98/98911e49f25fff8bfb472879d9364393.svg\" class=\"tex\" style=\"vertical-align:-9.4pt\" alt=\" дробь: чис­ли­тель: 2 в сте­пе­ни левая круг­лая скоб­ка минус n пра­вая круг­лая скоб­ка , зна­ме­на­тель: 1 минус 2 в сте­пе­ни левая круг­лая скоб­ка минус m пра­вая круг­лая скоб­ка конец дроби = дробь: чис­ли­тель: 1, зна­ме­на­тель: 5 конец дроби . \"> От­сю­да <img src=\"https://ege.sdamgia.ru/formula/svg/c8/c8ebd9abc5ba0aff4802e5c319919d55.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"5 умно­жить на 2 в сте­пе­ни левая круг­лая скоб­ка минус n пра­вая круг­лая скоб­ка =1 минус 2 в сте­пе­ни левая круг­лая скоб­ка минус m пра­вая круг­лая скоб­ка рав­но­силь­но 5 умно­жить на 2 в сте­пе­ни m =2 в сте­пе­ни левая круг­лая скоб­ка m плюс n пра­вая круг­лая скоб­ка минус 2 в сте­пе­ни n рав­но­силь­но 5 умно­жить на 2 в сте­пе­ни левая круг­лая скоб­ка m минус n пра­вая круг­лая скоб­ка =2 в сте­пе­ни m минус 1.\"> Если <img src=\"https://ege.sdamgia.ru/formula/svg/09/09a5bd03d33c8facaeddcc813926b712.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"m боль­ше n,\"> то слева чет­ное число, а спра­ва не­чет­ное, если <img src=\"https://ege.sdamgia.ru/formula/svg/05/05be6f2e931f119991a2204eff73e65c.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"m=n,\"> то <img src=\"https://ege.sdamgia.ru/formula/svg/97/974a811ce2e3db3e81ae311d4ef3aa71.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2 в сте­пе­ни m =6,\"> если <img src=\"https://ege.sdamgia.ru/formula/svg/6d/6d642dd1f7316dd8fbda1ba8f00d036f.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"m мень­ше n,\"> то слева не­це­лое число, а спра­ва целое. Все эти слу­чаи не­воз­мож­ны.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) да; б) нет.</p><p></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/74/7493b702ac20a521678e9e81f828a0a7.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b9b1808fabd4c1099682575543f18b2c.svg",
+            "https://ege.sdamgia.ru/formula/svg/5e/5e3fb361c0730019766ea450b9381265.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2fde28630f7455721b9259c02b54c8f7.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/0779458e5cb9f831cdfa2b3b7e9553e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/98/98911e49f25fff8bfb472879d9364393.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c8ebd9abc5ba0aff4802e5c319919d55.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/09a5bd03d33c8facaeddcc813926b712.svg",
+            "https://ege.sdamgia.ru/formula/svg/05/05be6f2e931f119991a2204eff73e65c.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/974a811ce2e3db3e81ae311d4ef3aa71.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6d642dd1f7316dd8fbda1ba8f00d036f.svg"
+        ]
+    },
+    "answer": "а) да; б) нет.",
+    "topic_id": null,
+    "analog_ids": []
+}

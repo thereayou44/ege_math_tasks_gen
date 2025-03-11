@@ -1,0 +1,65 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27413,
+    "condition": {
+        "text": "В треугольнике ABC угол C равен 90°, косинус внешнего угла при вершине A равен   Найдите ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919017\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right; margin:10px\" src=\"/get_file?id=7668\">В тре­уголь­ни­ке <i>ABC</i> угол <i>C</i> равен 90°, ко­си­нус внеш­не­го угла при вер­ши­не <i>A</i> равен <img src=\"https://ege.sdamgia.ru/formula/svg/b4/b4e1e144c3589d1928d2891e2f136a0a.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" минус дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 17 конец ар­гу­мен­та , зна­ме­на­тель: 17 конец дроби , \"> <img src=\"https://ege.sdamgia.ru/formula/svg/17/17df69f7a1c0dddf923b312ae8f2d431.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AC = 0,5.\"> Най­ди­те <img src=\"https://ege.sdamgia.ru/formula/svg/90/90b425c2898f0ee7d2629aad1e09646f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BC.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b4/b4e1e144c3589d1928d2891e2f136a0a.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/17df69f7a1c0dddf923b312ae8f2d431.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/90b425c2898f0ee7d2629aad1e09646f.svg",
+            "/get_file?id=7668"
+        ]
+    },
+    "solution": {
+        "text": "Решение. так как     Ответ: 2. ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27413\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">так как </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/4d/4dbfb154ce0b955610081715b9432ac6.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"BC=AC умно­жить на тан­генс A=AC дробь: чис­ли­тель: синус A, зна­ме­на­тель: ко­си­нус A конец дроби =AC дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус ко­си­нус в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та A пра­вая круг­лая скоб­ка , зна­ме­на­тель: ко­си­нус A конец дроби =AC дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус ко­си­нус в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та A пра­вая круг­лая скоб­ка , зна­ме­на­тель: ко­си­нус A конец дроби = \">   </p><p><img src=\"https://ege.sdamgia.ru/formula/svg/3f/3f59730081c3b4725f77086f22900f30.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"=AC дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус ко­си­нус в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та A_внеш пра­вая круг­лая скоб­ка , зна­ме­на­тель: минус ко­си­нус A_внеш конец дроби = дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 17 конец дроби конец ар­гу­мен­та умно­жить на 17, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 17 конец ар­гу­мен­та конец дроби =2. \"></p><p class=\"left_margin\"></p></center> <p><span style=\"letter-spaceing:2px\">Ответ</span>: 2. </p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/4d/4dbfb154ce0b955610081715b9432ac6.svg",
+            "https://ege.sdamgia.ru/formula/svg/3f/3f59730081c3b4725f77086f22900f30.svg"
+        ]
+    },
+    "answer": "2",
+    "topic_id": null,
+    "analog_ids": [
+        27413,
+        36963,
+        36965,
+        36967,
+        36963,
+        36965,
+        36967,
+        36969,
+        36971,
+        36973,
+        36975,
+        36977,
+        36979,
+        36981,
+        36983,
+        36985,
+        36987,
+        36989,
+        36991,
+        36993,
+        36995,
+        36997,
+        36999,
+        37001,
+        37003,
+        37005,
+        37007,
+        37009,
+        37011,
+        37013,
+        37015,
+        37017,
+        37019,
+        37021,
+        37023,
+        37025,
+        37027,
+        37029
+    ]
+}

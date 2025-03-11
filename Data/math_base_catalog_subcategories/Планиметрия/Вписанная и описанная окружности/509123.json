@@ -1,0 +1,36 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 509123,
+    "condition": {
+        "text": "На рисунке изображён график функции  Найдите a.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body633407\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=97817\" style=\"float:right;margin:10px;max-width:100%\">На ри­сун­ке изоб­ражён гра­фик функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/61/61974c6bc6c0c117f95447e7f20f4f2c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =a ко­си­нус x плюс b.\"> Най­ди­те <i>a</i>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/61/61974c6bc6c0c117f95447e7f20f4f2c.svg",
+            "/get_file?id=97817"
+        ]
+    },
+    "solution": {
+        "text": "Решение. По графику,  тогда  Далее, по графику, f(0)  =  0,5, тогдаОтвет: 1,5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol509123\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По гра­фи­ку, <img src=\"https://ege.sdamgia.ru/formula/svg/d6/d617cc001057f25ec43fdec7f3d89f6a.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"f левая круг­лая скоб­ка минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби пра­вая круг­лая скоб­ка = минус 1, \"> тогда </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/41/413032b452e7a32338f0beb7f757e2bc.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"a ко­си­нус левая круг­лая скоб­ка минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби пра­вая круг­лая скоб­ка плюс b= минус 1 рав­но­силь­но a умно­жить на 0 плюс b= минус 1 рав­но­силь­но b= минус 1. \"> </p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Далее, по гра­фи­ку, <i>f</i>(0)  =  0,5, тогда</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/df/dfacdc7373d7aa050e8181774487c575.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a ко­си­нус 0 минус 1=0,5 рав­но­силь­но a умно­жить на 1 минус 1=0,5 рав­но­силь­но a=1,5.\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 1,5.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d6/d617cc001057f25ec43fdec7f3d89f6a.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/413032b452e7a32338f0beb7f757e2bc.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/dfacdc7373d7aa050e8181774487c575.svg"
+        ]
+    },
+    "answer": "1,5",
+    "topic_id": 11,
+    "analog_ids": [
+        509123,
+        509124,
+        509125,
+        509126,
+        509124,
+        509125,
+        509126,
+        509127,
+        509128,
+        509129
+    ]
+}

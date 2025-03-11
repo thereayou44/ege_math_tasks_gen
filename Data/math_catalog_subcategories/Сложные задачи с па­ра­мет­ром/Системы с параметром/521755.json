@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521755,
+    "condition": {
+        "text": "Найдите все значения параметра  a, при каждом которых уравнениеимеет ровно три различных решения.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body628967\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния па­ра­мет­ра  <i>a</i>, при каж­дом ко­то­рых урав­не­ние</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/01/01212c77c91ef2844bc1a19d4d78c765.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x в квад­ра­те минус 4x минус 12=2|x минус a плюс 2| минус 16\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">имеет ровно три раз­лич­ных ре­ше­ния.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/01/01212c77c91ef2844bc1a19d4d78c765.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Обозначим  и  получим уравнение  График левой части  — стандартная парабола. График правой  — «галочка» с вершиной в точке  и угловым коэффициентом  Как видно из картинки, при  есть три корня и в ситуации касания есть три корня. Пусть  тогда нужно, чтобы уравнение  имело единственный корень. Приравнивая к нулю его дискриминант, получаем  Аналогично при  касание будет с другой стороны.  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521755\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Обо­зна­чим <img src=\"https://ege.sdamgia.ru/formula/svg/be/be1322e671e29f1b7f89cea6ab1b5d32.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"t=x минус 2\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/66/667a3c85d548943b7bd990555515363d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"b=a минус 4,\"> по­лу­чим урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/2c/2c78cb7bcdbc93325f20f5b2ddbbe01f.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"t в квад­ра­те =2|t минус b|.\"> </p><p class=\"left_margin\">Гра­фик левой части  — стан­дарт­ная па­ра­бо­ла. Гра­фик пра­вой  — «га­лоч­ка» с вер­ши­ной в точке <img src=\"https://ege.sdamgia.ru/formula/svg/2b/2bcc6d2eb81a0823788e328663841e39.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка b;0 пра­вая круг­лая скоб­ка \"> и уг­ло­вым ко­эф­фи­ци­ен­том <img src=\"https://ege.sdamgia.ru/formula/svg/79/79de05843c4817c8dab29c66603a891a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\pm 2.\"> Как видно из кар­тин­ки, при <img src=\"https://ege.sdamgia.ru/formula/svg/f6/f6d5eef5ee5e51fc839bb54201c62e3b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"b=0\"> есть три корня и в си­ту­а­ции ка­са­ния есть три корня. Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/96/96f715a87704f5c4f3c017b42db3a643.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"b боль­ше 0,\"> тогда нужно, чтобы урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/eb/eb2a769d5e9928c20b058b2fa7bfa486.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"t в квад­ра­те =2 левая круг­лая скоб­ка t минус b пра­вая круг­лая скоб­ка \"> имело един­ствен­ный ко­рень. При­рав­ни­вая к нулю его дис­кри­ми­нант, по­лу­ча­ем <img src=\"https://ege.sdamgia.ru/formula/svg/15/15878167e6983e636e76870d81a9dd20.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"b= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби .\"> Ана­ло­гич­но при <img src=\"https://ege.sdamgia.ru/formula/svg/c7/c7df854e6f25fc2ce26176f37b925d37.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"b= минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби \"> ка­са­ние будет с дру­гой сто­ро­ны. </p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/14/1451cbe3e322648b4a5d58e118bb5984.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"a= целая часть: 3, дроб­ная часть: чис­ли­тель: 1, зна­ме­на­тель: 2 ;a=4;a= целая часть: 4, дроб­ная часть: чис­ли­тель: 1, зна­ме­на­тель: 2 .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/be/be1322e671e29f1b7f89cea6ab1b5d32.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/667a3c85d548943b7bd990555515363d.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2c78cb7bcdbc93325f20f5b2ddbbe01f.svg",
+            "https://ege.sdamgia.ru/formula/svg/2b/2bcc6d2eb81a0823788e328663841e39.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/79de05843c4817c8dab29c66603a891a.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f6d5eef5ee5e51fc839bb54201c62e3b.svg",
+            "https://ege.sdamgia.ru/formula/svg/96/96f715a87704f5c4f3c017b42db3a643.svg",
+            "https://ege.sdamgia.ru/formula/svg/eb/eb2a769d5e9928c20b058b2fa7bfa486.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/15878167e6983e636e76870d81a9dd20.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c7df854e6f25fc2ce26176f37b925d37.svg",
+            "https://ege.sdamgia.ru/formula/svg/14/1451cbe3e322648b4a5d58e118bb5984.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

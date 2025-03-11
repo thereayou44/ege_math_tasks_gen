@@ -1,0 +1,26 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 509475,
+    "condition": {
+        "text": "Боковое ребро правильной четырёхугольной пирамиды равно b,‍ а плоский угол при вершине равен α.‍ Найдите радиус сферы описанной около пирамиды.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body633055\" class=\"pbody\"><p class=\"left_margin\">Бо­ко­вое ребро пра­виль­ной четырёхуголь­ной пи­ра­ми­ды равно <i>b</i>,‍ а плос­кий угол при вер­ши­не равен α.‍ Най­ди­те ра­ди­ус сферы опи­сан­ной около пи­ра­ми­ды.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Пусть PABCD  — ‍ правильная четырёхугольная пирамида с вершиной P,‍ M  — ‍ центр основания ABCD,‍ K  — ‍ середина ребра AB.‍ Обозначим AB = a,‍ ∠MAP = φ.‍Так как PK  — ‍ высота равнобедренного треугольника APB,‍ то Из прямоугольного треугольника AMP‍ находим, чтоТогда(угол MAP  — ‍ острый).Пусть R  — ‍ искомый радиус. Рассмотрим сечение пирамиды и описанной около неё сферы плоскостью, проходящей через точки A,‍ P‍ и C.‍ Получим равнобедренный треугольник APC,‍ вписанный в окружность радиуса R.‍ По теореме синусов Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol509475\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=26197\" style=\"float:right;margin:10px\"></p><p class=\"left_margin\">Пусть <i>PABCD</i>  — ‍ пра­виль­ная четырёхуголь­ная пи­ра­ми­да с вер­ши­ной <i>P,‍ M</i>  — ‍ центр ос­но­ва­ния <i>ABCD</i>,‍ <i>K</i>  — ‍ се­ре­ди­на ребра <i>AB</i>.‍ Обо­зна­чим <i>AB = a</i>,‍ ∠<i>MAP</i> = φ.‍</p><p class=\"left_margin\">Так как <i>PK</i>  — ‍ вы­со­та рав­но­бед­рен­но­го тре­уголь­ни­ка <i>APB</i>,‍ то </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/04/04730a28059dd00387e62fb6d3c47f56.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"a = AB = 2AK = 2AP синус \\angle APK = 2b синус дробь: чис­ли­тель: зна­ме­на­тель: a конец дроби lpha 2\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Из пря­мо­уголь­но­го тре­уголь­ни­ка <i>AMP‍</i> на­хо­дим, что</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/8f/8f6ee3d6f4791933e27e6a876475a52b.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" ко­си­нус \\varphi = ко­си­нус \\angle MAP = дробь: чис­ли­тель: AM, зна­ме­на­тель: AP конец дроби = дробь: чис­ли­тель: a ко­рень из 2 , зна­ме­на­тель: 2b конец дроби = ко­рень из 2 синус дробь: чис­ли­тель: зна­ме­на­тель: a конец дроби lpha2. \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Тогда</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d4/d420528f178cbf641453af8e6d5d91f7.svg\" class=\"tex\" style=\"vertical-align:-10.5pt\" alt=\" синус \\varphi = ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус ко­си­нус в квад­ра­те \\varphi конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус 2 синус в квад­ра­те дробь: чис­ли­тель: зна­ме­на­тель: a конец дроби lpha2 конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: ко­си­нус альфа конец ар­гу­мен­та \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">(угол <i>MAP</i>  — ‍ ост­рый).</p><p><img src=\"/get_file?id=26198\" style=\"float:right;margin:10px\"></p><p class=\"left_margin\">Пусть <i>R</i>  — ‍ ис­ко­мый ра­ди­ус. Рас­смот­рим се­че­ние пи­ра­ми­ды и опи­сан­ной около неё сферы плос­ко­стью, про­хо­дя­щей через точки <i>A,‍ P‍</i> и <i>C</i>.‍ По­лу­чим рав­но­бед­рен­ный тре­уголь­ник <i>APC</i>,‍ впи­сан­ный в окруж­ность ра­ди­у­са <i>R</i>.‍ По тео­ре­ме си­ну­сов</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/68/68effcef67290cc7db049623c874ce8d.svg\" class=\"tex\" style=\"vertical-align:-11.0pt\" alt=\"R= дробь: чис­ли­тель: AP, зна­ме­на­тель: 2 синус \\angle ACP конец дроби = дробь: чис­ли­тель: b, зна­ме­на­тель: конец дроби 2 синус \\varphi = дробь: чис­ли­тель: b, зна­ме­на­тель: конец дроби 2 ко­рень из: на­ча­ло ар­гу­мен­та: ко­си­нус альфа конец ар­гу­мен­та . \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/c3/c336c703e7813ef7b45eee17b1f7a8a6.svg\" class=\"tex\" style=\"vertical-align:-11.0pt\" alt=\" дробь: чис­ли­тель: b, зна­ме­на­тель: конец дроби 2 ко­рень из: на­ча­ло ар­гу­мен­та: ко­си­нус альфа конец ар­гу­мен­та .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/04/04730a28059dd00387e62fb6d3c47f56.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8f6ee3d6f4791933e27e6a876475a52b.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d420528f178cbf641453af8e6d5d91f7.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/68effcef67290cc7db049623c874ce8d.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c336c703e7813ef7b45eee17b1f7a8a6.svg",
+            "/get_file?id=26197",
+            "/get_file?id=26198"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

@@ -1,0 +1,31 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521345,
+    "condition": {
+        "text": "В  прямоугольном параллелепипеде АВСDA1B1C1D1 АВ  =  2, АD  =  1, АА1  =  3. Точка К лежит на ребре СС1 так, что СK : С1K  =  5 : 4.   а)  Докажите, что прямые DB1 и D1K перпендикулярны. б)  Найдите расстояние от точки D1 до плоскости KА1D.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629373\" class=\"pbody\"><p class=\"left_margin\">В  пря­мо­уголь­ном па­рал­ле­ле­пи­пе­де <i>АВСDA</i><sub>1</sub><i>B</i><sub>1</sub><i>C</i><sub>1</sub><i>D</i><sub>1</sub> <i>АВ</i>  =  2, <i>АD</i>  =  1, <i>АА</i><sub>1</sub>  =  3. Точка <i>К</i> лежит на ребре <i>СС</i><sub>1</sub> так, что <i>СK</i> : <i>С</i><sub>1</sub><i>K</i>  =  5 : 4.  </p><p>&nbsp;</p><p class=\"left_margin\">а)  До­ка­жи­те, что пря­мые <i>DB</i><sub>1</sub> и <i>D</i><sub>1</sub><i>K</i> пер­пен­ди­ку­ляр­ны. </p><p class=\"left_margin\">б)  Най­ди­те рас­сто­я­ние от точки <i>D</i><sub>1</sub> до плос­ко­сти <i>KА</i><sub>1</sub><i>D</i>.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Введем координаты с началом в точке C и осями  вдоль ребер  соответственно. Тогда координаты точек будут такими а)   Поскольку их скалярное произведение равно нулю, они перпендикулярны. б)  Пусть уравнение плоскости  это  Тогда  Взяв  находим  Тогда расстояние равно  Ответ: б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521345\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=35823\" style=\"float:right;margin:10px\">Вве­дем ко­ор­ди­на­ты с на­ча­лом в точке <i>C</i> и осями <img src=\"https://ege.sdamgia.ru/formula/svg/f5/f5a8c68d8f1700e55edea2dad6c46e66.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"x,y,z\"> вдоль ребер <img src=\"https://ege.sdamgia.ru/formula/svg/e3/e383e8ffea676a216af4c20089be45c7.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"CB,CD,CC_1\"> со­от­вет­ствен­но. Тогда ко­ор­ди­на­ты точек будут та­ки­ми</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/00/004149ab0d49e09900ee70913bdd47b9.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"D левая круг­лая скоб­ка 0,2,0 пра­вая круг­лая скоб­ка ,B_1 левая круг­лая скоб­ка 1,0,3 пра­вая круг­лая скоб­ка ,D_1 левая круг­лая скоб­ка 0,2,3 пра­вая круг­лая скоб­ка ,K левая круг­лая скоб­ка 0,0, дробь: чис­ли­тель: 5, зна­ме­на­тель: 3 конец дроби пра­вая круг­лая скоб­ка ,A_1 левая круг­лая скоб­ка 1,2,3 пра­вая круг­лая скоб­ка .\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p class=\"left_margin\">а)  <img src=\"https://ege.sdamgia.ru/formula/svg/a0/a00372d3b56e807beaf5d42b7113a0ac.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"\\overlineDB_1= левая фи­гур­ная скоб­ка 1, минус 2,3 пра­вая фи­гур­ная скоб­ка , \\overlineD_1K= левая фи­гур­ная скоб­ка 0, минус 2, минус дробь: чис­ли­тель: 4, зна­ме­на­тель: 3 конец дроби пра­вая фи­гур­ная скоб­ка .\"> По­сколь­ку их ска­ляр­ное про­из­ве­де­ние равно нулю, они пер­пен­ди­ку­ляр­ны.</p><p>&nbsp;</p><p class=\"left_margin\">б)  Пусть урав­не­ние плос­ко­сти <img src=\"https://ege.sdamgia.ru/formula/svg/5d/5d5a2a061a15c80cd447d3a2a01c6dd1.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"KA_1D\"> это <img src=\"https://ege.sdamgia.ru/formula/svg/38/38ff33a081a8560ab9cc4d0ce3048a39.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"Ax плюс By плюс Cz плюс D=0.\"> Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/dd/dd4cae9a0c3337287324e0abd5fece04.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 5, зна­ме­на­тель: 3 конец дроби C плюс D=0, 2B плюс D=0, A плюс 2B плюс 3C плюс D=0.\"> Взяв <img src=\"https://ege.sdamgia.ru/formula/svg/e7/e77c906311df0f88ea63f6190137713a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"D= минус 10,\"> на­хо­дим <img src=\"https://ege.sdamgia.ru/formula/svg/9e/9e06353cf03534891c59c19485191d9f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"B=5,C=6,A= минус 18.\"> Тогда рас­сто­я­ние равно <img src=\"https://ege.sdamgia.ru/formula/svg/15/15ca264f660a9afdee86e00089cf462f.svg\" class=\"tex\" style=\"vertical-align:-10.9pt\" alt=\" дробь: чис­ли­тель: минус 18 умно­жить на 0 плюс 5 умно­жить на 2 плюс 6 умно­жить на 3 минус 10, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 324 плюс 25 плюс 36 конец ар­гу­мен­та конец дроби = дробь: чис­ли­тель: 18, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 385 конец ар­гу­мен­та конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) <img src=\"https://ege.sdamgia.ru/formula/svg/cc/cc05bc48894e88c730c5389cba27221b.svg\" class=\"tex\" style=\"vertical-align:-11.0pt\" alt=\" дробь: чис­ли­тель: 18, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 385 конец ар­гу­мен­та конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f5/f5a8c68d8f1700e55edea2dad6c46e66.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e383e8ffea676a216af4c20089be45c7.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/004149ab0d49e09900ee70913bdd47b9.svg",
+            "https://ege.sdamgia.ru/formula/svg/a0/a00372d3b56e807beaf5d42b7113a0ac.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5d5a2a061a15c80cd447d3a2a01c6dd1.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/38ff33a081a8560ab9cc4d0ce3048a39.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/dd4cae9a0c3337287324e0abd5fece04.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e77c906311df0f88ea63f6190137713a.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9e06353cf03534891c59c19485191d9f.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/15ca264f660a9afdee86e00089cf462f.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/cc05bc48894e88c730c5389cba27221b.svg",
+            "/get_file?id=35823"
+        ]
+    },
+    "answer": "б)",
+    "topic_id": null,
+    "analog_ids": []
+}

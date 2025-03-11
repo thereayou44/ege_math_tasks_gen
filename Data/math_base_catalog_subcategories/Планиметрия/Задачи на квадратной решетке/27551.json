@@ -1,0 +1,47 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27551,
+    "condition": {
+        "text": " Найдите площадь квадрата, изображенного на клетчатой бумаге с размером клетки 1 см   1 см (см. рис.). Ответ дайте в квадратных сантиметрах.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918883\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=66139\" style=\"float:right;margin:10px;max-width:100%\"> Най­ди­те пло­щадь квад­ра­та, изоб­ра­жен­но­го на клет­ча­той бу­ма­ге с раз­ме­ром клет­ки 1 см <img src=\"https://ege.sdamgia.ru/formula/svg/60/60c13e05d3ec8c10b8564eae7023d9db.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\times\">  1 см (см. рис.). Ответ дайте в квад­рат­ных сан­ти­мет­рах.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/60/60c13e05d3ec8c10b8564eae7023d9db.svg",
+            "/get_file?id=66139"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Площадь квадрата равна разности площади прямоугольника и четырех равных прямоугольных треугольников, гипотенузы которых являются сторонами исходного квадрата. Поэтому см2. Ответ: 10.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27551\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=66140\" style=\"float:right;margin:10px;max-width:100%\">Пло­щадь квад­ра­та равна раз­но­сти пло­ща­ди пря­мо­уголь­ни­ка и че­ты­рех рав­ных пря­мо­уголь­ных тре­уголь­ни­ков, ги­по­те­ну­зы ко­то­рых яв­ля­ют­ся сто­ро­на­ми ис­ход­но­го квад­ра­та. По­это­му</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/3c/3c9b9c5ce72b2c0cfc3d71c28cf50d02.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S=4 умно­жить на 4 минус 4 умно­жить на дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на 1 умно­жить на 3=10 \"> см<sup>2</sup>.</p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 10.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/3c/3c9b9c5ce72b2c0cfc3d71c28cf50d02.svg",
+            "/get_file?id=66140"
+        ]
+    },
+    "answer": "10",
+    "topic_id": null,
+    "analog_ids": [
+        27551,
+        248775,
+        248809,
+        248777,
+        248775,
+        248809,
+        248777,
+        248779,
+        248781,
+        248783,
+        248785,
+        248787,
+        248789,
+        248791,
+        248793,
+        248795,
+        248797,
+        248799,
+        248801,
+        248803,
+        248805,
+        248807
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27978,
+    "condition": {
+        "text": "Опорные башмаки шагающего экскаватора, имеющего массу  тонн, представляют собой две пустотелые балки длиной  метров и шириной s метров каждая. Давление экскаватора на почву, выражаемое в килопаскалях, определяется формулой   где m − масса экскаватора (в тоннах), l − длина балок в метрах, s − ширина балок в метрах, g − ускорение свободного падения (считайте м/с). Определите наименьшую возможную ширину опорных балок, если известно, что давление p не должно превышать 140 кПа. Ответ выразите в метрах.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918454\" class=\"pbody\"><p class=\"left_margin\">Опор­ные баш­ма­ки ша­га­ю­ще­го экс­ка­ва­то­ра, име­ю­ще­го массу <img src=\"https://ege.sdamgia.ru/formula/svg/22/221b0154909ed092bc9b77f522c05251.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"m = 1260\"> тонн, пред­став­ля­ют собой две пу­сто­те­лые балки дли­ной <img src=\"https://ege.sdamgia.ru/formula/svg/9c/9c9f112f795cf789d011e1730fdf3840.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"l = 18\"> мет­ров и ши­ри­ной <i>s</i> мет­ров каж­дая. Дав­ле­ние экс­ка­ва­то­ра на почву, вы­ра­жа­е­мое в ки­ло­пас­ка­лях, опре­де­ля­ет­ся фор­му­лой  <img src=\"https://ege.sdamgia.ru/formula/svg/ed/edfe839f241f960492c59d811d92356e.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"p = дробь: чис­ли­тель: mg, зна­ме­на­тель: 2ls конец дроби , \"> где <i>m</i> − масса экс­ка­ва­то­ра (в тон­нах), <i>l</i> − длина балок в мет­рах, <i>s</i> − ши­ри­на балок в мет­рах, <i>g</i> − уско­ре­ние сво­бод­но­го па­де­ния (счи­тай­те <img src=\"https://ege.sdamgia.ru/formula/svg/11/112f48e4093c514cc217aced1a5dfb3b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"g=10\">м/с<img src=\"https://ege.sdamgia.ru/formula/svg/02/02850d6a647bc6cdb7f44baeb1f90089.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" в квад­ра­те \">). Опре­де­ли­те наи­мень­шую воз­мож­ную ши­ри­ну опор­ных балок, если из­вест­но, что дав­ле­ние <i>p</i> не долж­но пре­вы­шать 140 кПа. Ответ вы­ра­зи­те в мет­рах.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/22/221b0154909ed092bc9b77f522c05251.svg",
+            "https://ege.sdamgia.ru/formula/svg/9c/9c9f112f795cf789d011e1730fdf3840.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/edfe839f241f960492c59d811d92356e.svg",
+            "https://ege.sdamgia.ru/formula/svg/11/112f48e4093c514cc217aced1a5dfb3b.svg",
+            "https://ege.sdamgia.ru/formula/svg/02/02850d6a647bc6cdb7f44baeb1f90089.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Задача сводится к решению неравенства  кПа при известных значениях длины балок  м, массы экскаватора  т: м. Ответ: 2,5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27978\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">За­да­ча сво­дит­ся к ре­ше­нию не­ра­вен­ства <img src=\"https://ege.sdamgia.ru/formula/svg/d2/d2e19921812bb493de64b0def64013cf.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"p мень­ше или равно 140\"> кПа при из­вест­ных зна­че­ни­ях длины балок <img src=\"https://ege.sdamgia.ru/formula/svg/cc/cce61265672691579d97d8ed5bc735ab.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"l=18\"> м, массы экс­ка­ва­то­ра <img src=\"https://ege.sdamgia.ru/formula/svg/02/02ab04e28812f22774b32892cd65216b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"m=1260\"> т:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/1d/1d6b025d5da015d579162f408d82c2db.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"p мень­ше или равно 140 рав­но­силь­но дробь: чис­ли­тель: 1260 умно­жить на 10, зна­ме­на­тель: 2 умно­жить на 18s конец дроби мень­ше или равно 140 рав­но­силь­но s боль­ше или равно 2,5 \"> м.</p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 2,5.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d2/d2e19921812bb493de64b0def64013cf.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/cce61265672691579d97d8ed5bc735ab.svg",
+            "https://ege.sdamgia.ru/formula/svg/02/02ab04e28812f22774b32892cd65216b.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1d6b025d5da015d579162f408d82c2db.svg"
+        ]
+    },
+    "answer": "2,5",
+    "topic_id": 9,
+    "analog_ids": [
+        27978,
+        28289,
+        42255,
+        28291,
+        28289,
+        42255,
+        28291,
+        28293,
+        28295,
+        28297,
+        42221,
+        42223,
+        42225,
+        42227,
+        42229,
+        42231,
+        42233,
+        42235,
+        42237,
+        42239,
+        42241,
+        42243,
+        42245,
+        42247,
+        42249,
+        42251,
+        42253
+    ]
+}

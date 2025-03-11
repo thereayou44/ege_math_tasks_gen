@@ -1,0 +1,20 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27117,
+    "condition": {
+        "text": "  Найдите объем пространственного креста, изображенного на рисунке и составленного из единичных кубов.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919313\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=29693\" style=\"float:right;margin:10px\">  Най­ди­те объем про­стран­ствен­но­го кре­ста, изоб­ра­жен­но­го на ри­сун­ке и со­став­лен­но­го из еди­нич­ных кубов.</p></div>",
+        "image_urls": [
+            "/get_file?id=29693"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Крест состоит из 7 одинаковых кубов, поэтому его объем в 7 раз больше объема одного куба. Ответ: 7.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27117\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Крест со­сто­ит из 7 оди­на­ко­вых кубов, по­это­му его объем в 7 раз боль­ше объ­е­ма од­но­го куба.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 7.</p></div>",
+        "image_urls": []
+    },
+    "answer": "7",
+    "topic_id": 3,
+    "analog_ids": []
+}

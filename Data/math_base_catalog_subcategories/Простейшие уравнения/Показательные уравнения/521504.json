@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521504,
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых система  имеет решение (x, y) в квадрате ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629724\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния <i>a</i>, при каж­дом из ко­то­рых си­сте­ма <img src=\"https://ege.sdamgia.ru/formula/svg/88/885e2833955c2e60d1249c4d52136c66.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний x синус a минус y ко­си­нус a плюс 3 синус a плюс cos a=0,2x плюс y минус 1=0 конец си­сте­мы . \"></p><p>&nbsp;</p><p>имеет ре­ше­ние (<i>x</i>, <i>y</i>) в квад­ра­те <img src=\"https://ege.sdamgia.ru/formula/svg/e2/e263c88cc2a56330d341d0f0d674337f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" минус 4 мень­ше или равно x\\leqslant минус 1,2 мень­ше или равно y\\leqslant5.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/88/885e2833955c2e60d1249c4d52136c66.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e263c88cc2a56330d341d0f0d674337f.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Из второго уравнения имеем  причем  (меньше  брать нельзя из-за значений y). Из первого получаем  Очевидно при  это невозможно. В остальных случаях получаем  Это выражение на отрезке  принимает все значения из отрезка  Значит,   Ответ:  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521504\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Из вто­ро­го урав­не­ния имеем <img src=\"https://ege.sdamgia.ru/formula/svg/93/93be53f9483f55e969623f853a33f5b9.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=1 минус 2x,\"> при­чем <img src=\"https://ege.sdamgia.ru/formula/svg/25/25426c4aebd300bab9b11523a5907936.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x при­над­ле­жит левая квад­рат­ная скоб­ка минус 2; минус 1 пра­вая квад­рат­ная скоб­ка \"> (мень­ше <img src=\"https://ege.sdamgia.ru/formula/svg/5d/5d7b9adcbe1c629ec722529dd12e5129.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" минус 2\"> брать нель­зя из-за зна­че­ний <i>y</i>). Из пер­во­го по­лу­ча­ем <img src=\"https://ege.sdamgia.ru/formula/svg/cb/cbe408b8a19f007972285821fa6f9658.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка x плюс 3 пра­вая круг­лая скоб­ка синус a= левая круг­лая скоб­ка y минус 1 пра­вая круг­лая скоб­ка ко­си­нус a.\"></p><p>&nbsp;</p><p class=\"left_margin\">Оче­вид­но при <img src=\"https://ege.sdamgia.ru/formula/svg/72/726a5094cad4005ae97d5d27aef9a287.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" синус a=0\"> это не­воз­мож­но. В осталь­ных слу­ча­ях по­лу­ча­ем</p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/18/18438b66f49070f358dea10c007b12de.svg\" class=\"tex\" style=\"vertical-align:-10.5pt\" alt=\"\\ctg a= дробь: чис­ли­тель: x плюс 3, зна­ме­на­тель: y минус 1 конец дроби = дробь: чис­ли­тель: x плюс 3, зна­ме­на­тель: минус 2x конец дроби = минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби минус дробь: чис­ли­тель: 3, зна­ме­на­тель: 2x конец дроби . \"> Это вы­ра­же­ние на от­рез­ке <img src=\"https://ege.sdamgia.ru/formula/svg/0e/0e536e1999d63ce793e2555805d3066e.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка минус 2; минус 1 пра­вая квад­рат­ная скоб­ка \"> при­ни­ма­ет все зна­че­ния из от­рез­ка <img src=\"https://ege.sdamgia.ru/formula/svg/78/78afd72908585e5e8ece61b1d7a4a01c.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби ;1 пра­вая квад­рат­ная скоб­ка .\"></p><p>&nbsp;</p><p class=\"left_margin\">Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/1b/1bfa2dfd9ab25a45ca67f1164b2f28f3.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"a при­над­ле­жит левая квад­рат­ная скоб­ка дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби плюс Пи k; \\arcctg дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби плюс Пи k пра­вая квад­рат­ная скоб­ка . \"> </p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  <img src=\"https://ege.sdamgia.ru/formula/svg/8b/8b1e43e708209f509ac38f4e1f8a6ac8.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби плюс Пи k;\\arcctg дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби плюс Пи k пра­вая квад­рат­ная скоб­ка , k при­над­ле­жит Z . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/93/93be53f9483f55e969623f853a33f5b9.svg",
+            "https://ege.sdamgia.ru/formula/svg/25/25426c4aebd300bab9b11523a5907936.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5d7b9adcbe1c629ec722529dd12e5129.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cbe408b8a19f007972285821fa6f9658.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/726a5094cad4005ae97d5d27aef9a287.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/18438b66f49070f358dea10c007b12de.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0e536e1999d63ce793e2555805d3066e.svg",
+            "https://ege.sdamgia.ru/formula/svg/78/78afd72908585e5e8ece61b1d7a4a01c.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1bfa2dfd9ab25a45ca67f1164b2f28f3.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8b1e43e708209f509ac38f4e1f8a6ac8.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

@@ -1,0 +1,27 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 508298,
+    "condition": {
+        "text": "Решите неравенство: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body634742\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство: <img src=\"https://ege.sdamgia.ru/formula/svg/8d/8dd59f83afecb1d26daae610b27f88b6.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка x в квад­ра­те минус 3,6x плюс 3,24 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x минус 1,5 пра­вая круг­лая скоб­ка мень­ше или равно 0.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/8d/8dd59f83afecb1d26daae610b27f88b6.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Используя метод интервалов, получаем:Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol508298\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Ис­поль­зуя метод ин­тер­ва­лов, по­лу­ча­ем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/31/31ae5095f6e926457b0e5d757c61c91e.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" левая круг­лая скоб­ка x минус 1,8 пра­вая круг­лая скоб­ка в квад­ра­те левая круг­лая скоб­ка x минус 1,5 пра­вая круг­лая скоб­ка мень­ше или равно 0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка x=1,8, новая стро­ка x мень­ше или равно 1,5. конец со­во­куп­но­сти . \"></p><p class=\"left_margin\"></p></center><p><img src=\"/get_file?id=142901\" style=\"margin:10px auto;display:block;max-width:100%\"></p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/18/1819a491f6bde6e271ea19b3e5cd778c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка минус бес­ко­неч­ность ;1,5 пра­вая квад­рат­ная скоб­ка \\cup левая фи­гур­ная скоб­ка 1,8 пра­вая фи­гур­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/31/31ae5095f6e926457b0e5d757c61c91e.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/1819a491f6bde6e271ea19b3e5cd778c.svg",
+            "/get_file?id=142901"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": [
+        508298,
+        508398
+    ]
+}

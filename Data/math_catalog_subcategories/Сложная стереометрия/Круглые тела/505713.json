@@ -1,0 +1,33 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 505713,
+    "condition": {
+        "text": "Шар, радиус которого равен 2, вписан в правильную четырехугольную пирамиду SABCD с вершиной S. Второй шар радиуса 1 касается первого шара, основания пирамиды и боковых граней BSC и CSD. Найдите объем пирамиды.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body645517\" class=\"pbody\"><p class=\"left_margin\">Шар, ра­ди­ус ко­то­ро­го равен 2, впи­сан в пра­виль­ную че­ты­рех­уголь­ную пи­ра­ми­ду <i>SABCD</i> с вер­ши­ной <i>S</i>. Вто­рой шар ра­ди­у­са 1 ка­са­ет­ся пер­во­го шара, ос­но­ва­ния пи­ра­ми­ды и бо­ко­вых гра­ней <i>BSC</i> и <i>CSD</i>. Най­ди­те объем пи­ра­ми­ды.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Пусть I  — центр вписанного шара,   — центр шара радиуса 1,   — проекции  на SBC, O  — центр основания. Тогда точки  лежат на одной прямой (они равноудалены от трех граней трехгранного угла) и треугольники  и CIH подобны (по двум углам) с коэффициентом  При этом  (из-за касания шаров), откуда  Тогда из прямоугольного треугольника CIO находим  поэтому стороны основания равны 8.Теперь отметим середину BC  — точку P  — и заметим, что IP  — биссектриса треугольника SPO (точка I равноудалена от его сторон). Тогда   и Наконец,  Ответ:   ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol505713\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть <i>I</i>  — центр впи­сан­но­го шара, <img src=\"https://ege.sdamgia.ru/formula/svg/a3/a3686747d7705aad1baeec00e8898bc5.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"I_1\">  — центр шара ра­ди­у­са 1, <img src=\"https://ege.sdamgia.ru/formula/svg/e0/e00e865f4b9bac750c8da3ac673da8cc.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"H,H_1\">  — про­ек­ции <img src=\"https://ege.sdamgia.ru/formula/svg/34/34a996823be52d9b525ac54d64d827a0.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"I,I_1\"> на <i>SBC</i>, <i>O</i>  — центр ос­но­ва­ния. Тогда точки <img src=\"https://ege.sdamgia.ru/formula/svg/89/899228cab0754a98cee1268f98227e9f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"C,I,I_1\"> лежат на одной пря­мой (они рав­но­уда­ле­ны от трех гра­ней трех­гран­но­го угла) и тре­уголь­ни­ки <img src=\"https://ege.sdamgia.ru/formula/svg/ec/ec9b3754192c5b97322aebc9f93ab048.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"CI_1H_1\"> и <i>CIH</i> по­доб­ны (по двум углам) с ко­эф­фи­ци­ен­том <img src=\"https://ege.sdamgia.ru/formula/svg/ad/ad95468124500a150de5de5e020d799e.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"IH:I_1H_1=2.\"> При этом <img src=\"https://ege.sdamgia.ru/formula/svg/3c/3c3f2fcd12090fa790da2215c5d0b301.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"2I_1C=IC=I_1C плюс 3\"> (из-за ка­са­ния шаров), от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/c7/c7bba2f48729c58b7d62aada4f335e5a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"CI=6.\"> Тогда из пря­мо­уголь­но­го тре­уголь­ни­ка <i>CIO</i> на­хо­дим <img src=\"https://ege.sdamgia.ru/formula/svg/d1/d165cc79a052fcf26a0c689904c699e8.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"CO= ко­рень из: на­ча­ло ар­гу­мен­та: 32 конец ар­гу­мен­та ,\"> по­это­му сто­ро­ны ос­но­ва­ния равны 8.</p><p class=\"left_margin\">Те­перь от­ме­тим се­ре­ди­ну <i>BC</i>  — точку <i>P</i>  — и за­ме­тим, что <i>IP</i>  — бис­сек­три­са тре­уголь­ни­ка <i>SPO</i> (точка <i>I</i> рав­но­уда­ле­на от его сто­рон). Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/31/31ff1a97090ae6761df3f6dbeaeb7a08.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" тан­генс \\angle IPO= дробь: чис­ли­тель: 2, зна­ме­на­тель: 4 конец дроби = дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби , \"> <img src=\"https://ege.sdamgia.ru/formula/svg/82/82e719119452577a3a24159805238a2d.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" тан­генс \\angle SPO= тан­генс 2\\angle IPO= дробь: чис­ли­тель: 1, зна­ме­на­тель: 1 минус 0.25 конец дроби = дробь: чис­ли­тель: 4, зна­ме­на­тель: 3 конец дроби \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/7c/7c6272e0e1bb897f798b685634197d7c.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"SO=OP умно­жить на дробь: чис­ли­тель: 4, зна­ме­на­тель: 3 конец дроби = дробь: чис­ли­тель: 16, зна­ме­на­тель: 3 конец дроби . \"></p><p class=\"left_margin\">На­ко­нец, <img src=\"https://ege.sdamgia.ru/formula/svg/6b/6b7217a9120ffe765c9f7333b37e2700.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"V= дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби умно­жить на 8 в квад­ра­те умно­жить на дробь: чис­ли­тель: 16, зна­ме­на­тель: 3 конец дроби = дробь: чис­ли­тель: 1024, зна­ме­на­тель: 9 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>   <img src=\"https://ege.sdamgia.ru/formula/svg/e4/e49f9c64410cb89a27100ab66368850c.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 1024, зна­ме­на­тель: 9 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a3/a3686747d7705aad1baeec00e8898bc5.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e00e865f4b9bac750c8da3ac673da8cc.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/34a996823be52d9b525ac54d64d827a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/899228cab0754a98cee1268f98227e9f.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ec9b3754192c5b97322aebc9f93ab048.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/ad95468124500a150de5de5e020d799e.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3c3f2fcd12090fa790da2215c5d0b301.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c7bba2f48729c58b7d62aada4f335e5a.svg",
+            "https://ege.sdamgia.ru/formula/svg/d1/d165cc79a052fcf26a0c689904c699e8.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/31ff1a97090ae6761df3f6dbeaeb7a08.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/82e719119452577a3a24159805238a2d.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7c6272e0e1bb897f798b685634197d7c.svg",
+            "https://ege.sdamgia.ru/formula/svg/6b/6b7217a9120ffe765c9f7333b37e2700.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e49f9c64410cb89a27100ab66368850c.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

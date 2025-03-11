@@ -1,0 +1,54 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27139,
+    "condition": {
+        "text": "  Диагональ куба равна 1. Найдите площадь его поверхности.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918783\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=111602\" style=\"float:right;margin:10px;max-width:100%\">  Диа­го­наль куба равна 1. Най­ди­те пло­щадь его по­верх­но­сти.</p></div>",
+        "image_urls": [
+            "/get_file?id=111602"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Сторона куба меньше диагонали в  раз и равна в данном случае  Тогда площадь поверхности куба равна Ответ: 2.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27139\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Сто­ро­на куба мень­ше диа­го­на­ли в <img src=\"https://ege.sdamgia.ru/formula/svg/91/91a24814efa2661939c57367281c819c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та \"> раз и равна в дан­ном слу­чае <img src=\"https://ege.sdamgia.ru/formula/svg/d5/d5df92d06dd40df482a73c7ac672c3ae.svg\" class=\"tex\" style=\"vertical-align:-11.0pt\" alt=\"a= дробь: чис­ли­тель: d, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та конец дроби = дробь: чис­ли­тель: 1, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та конец дроби . \"> Тогда пло­щадь по­верх­но­сти куба равна</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/4b/4b221611e4918fc3013aff1c1f23dd7a.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\"S=6a в квад­ра­те =6 левая круг­лая скоб­ка дробь: чис­ли­тель: 1, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та конец дроби пра­вая круг­лая скоб­ка в квад­ра­те =2. \"></p><p class=\"left_margin\"></p></center> <p><span style=\"letter-spacing: 2px;\">Ответ:</span> 2.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/91/91a24814efa2661939c57367281c819c.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d5df92d06dd40df482a73c7ac672c3ae.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4b221611e4918fc3013aff1c1f23dd7a.svg"
+        ]
+    },
+    "answer": "2",
+    "topic_id": 3,
+    "analog_ids": [
+        27139,
+        75789,
+        75829,
+        509558,
+        75789,
+        75829,
+        509558,
+        509600,
+        75791,
+        75793,
+        75795,
+        75797,
+        75799,
+        75801,
+        75803,
+        75805,
+        75807,
+        75809,
+        75811,
+        75813,
+        75815,
+        75817,
+        75819,
+        75821,
+        75823,
+        75825,
+        75827,
+        75831,
+        75833
+    ]
+}

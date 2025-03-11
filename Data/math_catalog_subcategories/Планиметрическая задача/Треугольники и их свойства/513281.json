@@ -1,0 +1,35 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 513281,
+    "condition": {
+        "text": "На сторонах AC и BC треугольника ABC вне треугольника построены квадраты ACDE и BFKC. Точка M  — середина стороны AB.а)  Докажите, что б)  Найдите расстояние от точки M до центров квадратов, если AC  =  10, BC  =  32 и ∠ACB  =  30°.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body637949\" class=\"pbody\"><p class=\"left_margin\">На сто­ро­нах <i>AC</i> и <i>BC</i> тре­уголь­ни­ка <i>ABC</i> вне тре­уголь­ни­ка по­стро­е­ны квад­ра­ты <i>ACDE</i> и <i>BFKC</i>. Точка <i>M</i>  — се­ре­ди­на сто­ро­ны <i>AB</i>.</p><p class=\"left_margin\">а)  До­ка­жи­те, что <img src=\"https://ege.sdamgia.ru/formula/svg/88/887b1feaaee99e825c25f0187967cca1.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"CM= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби DK.\"></p><p class=\"left_margin\">б)  Най­ди­те рас­сто­я­ние от точки <i>M</i> до цен­тров квад­ра­тов, если <i>AC</i>  =  10, <i>BC</i>  =  32 и ∠<i>ACB</i>  =  30°.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/88/887b1feaaee99e825c25f0187967cca1.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Достроим треугольник ABC до параллелограмма ALBC, тогда M − точка пересечения его диагоналей.  AL = BC = KC . AC = CD. Тогда треугольники LAC и KCD равны по двум сторонам и углу между ними. Откуда LC = KD, а  что и требовалось доказать. Рис. 1 Рис. 2б)  Пусть O1  — центр квадрата CKFB. Тогда MO1  — средняя линия треугольника AKB. Найдем теперь AK по теореме косинусов из треугольника ACK.    откуда  Очевидно, расстояние до другого центра сведется к нахождению DB, которое будет таким же. Ответ:19.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol513281\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  До­стро­им тре­уголь­ник <i>ABC</i> до па­рал­ле­ло­грам­ма <i>ALBC</i>, тогда <i>M</i> − точка пе­ре­се­че­ния его диа­го­на­лей. </p><p><img src=\"https://ege.sdamgia.ru/formula/svg/be/be4ff74903343a6d10a2254173929508.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle LAC =180 гра­ду­сов минус \\angle ACB=\\angle KCD.\"> <i>AL</i> = <i>BC</i> = <i>KC </i>. <i>AC </i>= <i>CD</i>. </p><p class=\"left_margin\">Тогда тре­уголь­ни­ки <i>LAC</i> и <i>KCD</i> равны по двум сто­ро­нам и углу между ними. От­ку­да <i>LC</i> = <i>KD</i>, а <img src=\"https://ege.sdamgia.ru/formula/svg/5a/5aafd4c16136caa5882d0d73e22cc0e5.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"CM= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби LC= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби KD, \"> что и тре­бо­ва­лось до­ка­зать. </p><p></p><div class=\"flex-img\" style=\"align-items: flex-end;\"><p></p><div><p><img src=\"/get_file?id=145388\" style=\"margin:10px auto;display:block;max-width:none\"></p><p><nobr>Рис. 1 </nobr></p><p></p></div><p></p><div><p><img src=\"/get_file?id=145389\" style=\"margin:10px auto;display:block;max-width:none\"></p><p><nobr>Рис. 2</nobr></p><p></p></div><p></p></div><p class=\"left_margin\">б)  Пусть <i>O<sub>1</sub></i>  — центр квад­ра­та <i>CKFB</i>. Тогда <i>MO<sub>1</sub></i>  — сред­няя линия тре­уголь­ни­ка <i>AKB</i>. Най­дем те­перь <i>AK</i> по тео­ре­ме ко­си­ну­сов из тре­уголь­ни­ка <i>ACK</i>.</p><p>&nbsp;</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/9b/9b18681f63003108c655158ccb942b2e.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AK в квад­ра­те =AC в квад­ра­те плюс CK в квад­ра­те минус 2AC умно­жить на CK умно­жить на ко­си­нус \\angle ACK=\"> </p><p><img src=\"https://ege.sdamgia.ru/formula/svg/69/699aa51de9f6ff11110bdd28dfc3fa12.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"=AC в квад­ра­те плюс BC в квад­ра­те минус 2AC умно­жить на BC умно­жить на ко­си­нус левая круг­лая скоб­ка \\angle ACB плюс \\angle BCK пра­вая круг­лая скоб­ка =\"> </p><p><img src=\"https://ege.sdamgia.ru/formula/svg/fa/fa726f54c9b2ad4a9a84ba1b46b4494e.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"=AC в квад­ра­те плюс BC в квад­ра­те минус 2AC умно­жить на BC умно­жить на ко­си­нус левая круг­лая скоб­ка 120 гра­ду­сов пра­вая круг­лая скоб­ка =\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/be/bed15fed88158198a08a9bd7c2c35c05.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"=100 плюс 1024 плюс 320=1444=38 в квад­ра­те ,\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p>от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/c8/c8dce020a92ece5fc365763f5b66eeef.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"MO_1= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на 38=19.\"></p><p>&nbsp;</p><p class=\"left_margin\">Оче­вид­но, рас­сто­я­ние до дру­го­го цен­тра све­дет­ся к на­хож­де­нию <i>DB</i>, ко­то­рое будет таким же.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>19.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/be/be4ff74903343a6d10a2254173929508.svg",
+            "https://ege.sdamgia.ru/formula/svg/5a/5aafd4c16136caa5882d0d73e22cc0e5.svg",
+            "https://ege.sdamgia.ru/formula/svg/9b/9b18681f63003108c655158ccb942b2e.svg",
+            "https://ege.sdamgia.ru/formula/svg/69/699aa51de9f6ff11110bdd28dfc3fa12.svg",
+            "https://ege.sdamgia.ru/formula/svg/fa/fa726f54c9b2ad4a9a84ba1b46b4494e.svg",
+            "https://ege.sdamgia.ru/formula/svg/be/bed15fed88158198a08a9bd7c2c35c05.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c8dce020a92ece5fc365763f5b66eeef.svg",
+            "/get_file?id=145388",
+            "/get_file?id=145389"
+        ]
+    },
+    "answer": "19.",
+    "topic_id": 17,
+    "analog_ids": [
+        513281,
+        514716,
+        515708,
+        515784
+    ]
+}

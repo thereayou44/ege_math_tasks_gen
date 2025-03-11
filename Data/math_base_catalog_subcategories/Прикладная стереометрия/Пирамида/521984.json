@@ -1,0 +1,26 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521984,
+    "condition": {
+        "text": "На клетчатой бумаге с размером клетки 1×1 изображён параллелограмм. Найдите длину его меньшей диагонали.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629244\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=68920\" style=\"float:right;margin:10px;max-width:100%\">На клет­ча­той бу­ма­ге с раз­ме­ром клет­ки 1×1 изоб­ражён па­рал­ле­ло­грамм. Най­ди­те длину его мень­шей диа­го­на­ли.</p></div>",
+        "image_urls": [
+            "/get_file?id=68920"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Проведем дополнительные построения, как показано на рисунке. Найдём длину диагонали по теореме Пифагора:  Ответ: 10.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521984\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=68921\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">Про­ве­дем до­пол­ни­тель­ные по­стро­е­ния, как по­ка­за­но на ри­сун­ке. Найдём длину диа­го­на­ли по тео­ре­ме Пи­фа­го­ра: <img src=\"https://ege.sdamgia.ru/formula/svg/2f/2f18b4782b23bb9f36ba1842f3a357c9.svg\" class=\"tex\" style=\"vertical-align:-2.0pt\" alt=\"BD = ко­рень из: на­ча­ло ар­гу­мен­та: 36 плюс 64 конец ар­гу­мен­та = 10.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ</span>: 10.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/2f/2f18b4782b23bb9f36ba1842f3a357c9.svg",
+            "/get_file?id=68921"
+        ]
+    },
+    "answer": "10",
+    "topic_id": null,
+    "analog_ids": [
+        521984,
+        522084
+    ]
+}

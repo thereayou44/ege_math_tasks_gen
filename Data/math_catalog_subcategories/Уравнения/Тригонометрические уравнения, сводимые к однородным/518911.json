@@ -1,0 +1,43 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 518911,
+    "condition": {
+        "text": "а)  Решите уравнение  б)  Укажите корни этого уравнения, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body623619\" class=\"pbody\"><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/03/03d532d6c658180ab361310b88df09e5.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" синус 2x плюс 2 ко­си­нус в квад­ра­те x плюс ко­си­нус 2x=0.\"></p><p>&nbsp;</p><p class=\"left_margin\">б)  Ука­жи­те корни этого урав­не­ния, при­над­ле­жа­щие от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/e6/e6b01a8f41cf434f56c848e7ceff8253.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка минус дробь: чис­ли­тель: 9 Пи , зна­ме­на­тель: 2 конец дроби ; минус 3 Пи пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/03/03d532d6c658180ab361310b88df09e5.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e6b01a8f41cf434f56c848e7ceff8253.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Сведём уравнение к однородному тригонометрическому уравнению второй степени.б)  С помощью числовой окружности отберём корни, принадлежащие отрезку  Получим числа   Ответ: а)  б)   ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol518911\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Сведём урав­не­ние к од­но­род­но­му три­го­но­мет­ри­че­ско­му урав­не­нию вто­рой сте­пе­ни.</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"809ce3fcf61dafb6bde67197c8d797a7\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/c6/c6eabb12e0b1545a4bd4d4299c0eee1a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2 синус x ко­си­нус x плюс 2 ко­си­нус в квад­ра­те x плюс ко­си­нус в квад­ра­те x минус синус в квад­ра­те x=0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/16/1606930446c69a8accf74c0400b4b77d.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\" рав­но­силь­но синус в квад­ра­те x минус 2 синус x ко­си­нус x минус 3 ко­си­нус в квад­ра­те x=0 рав­но­силь­но тан­генс в квад­ра­те x минус 2 тан­генс x минус 3=0 рав­но­силь­но \"></span><span data-width=\"365\" data-formulahash=\"809ce3fcf61dafb6bde67197c8d797a7\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/c6/c6eabb12e0b1545a4bd4d4299c0eee1a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2 синус x ко­си­нус x плюс 2 ко­си­нус в квад­ра­те x плюс ко­си­нус в квад­ра­те x минус синус в квад­ра­те x=0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/50/508ae1a6215d3b7d7b0b827cefc757bf.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" рав­но­силь­но синус в квад­ра­те x минус 2 синус x ко­си­нус x минус 3 ко­си­нус в квад­ра­те x=0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/2d/2dfc597480d912e42ac619bfd672d7db.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\" рав­но­силь­но тан­генс в квад­ра­те x минус 2 тан­генс x минус 3=0 рав­но­силь­но \"></span></p><p><img src=\"/get_file?id=37066\" style=\"float:right;margin:10px\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/0d/0d45f7071880e5ea39ad03ffb57aada1.svg\" class=\"tex\" style=\"vertical-align:-17.7pt\" alt=\" рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка тан­генс x= минус 1,  новая стро­ка тан­генс x=3 конец со­во­куп­но­сти . рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка x= минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби плюс Пи n,n при­над­ле­жит Z ,  новая стро­ка x= арк­тан­генс 3 плюс Пи k,k при­над­ле­жит Z .  конец со­во­куп­но­сти . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">б)  С по­мо­щью чис­ло­вой окруж­но­сти отберём корни, при­над­ле­жа­щие от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/e6/e6b01a8f41cf434f56c848e7ceff8253.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка минус дробь: чис­ли­тель: 9 Пи , зна­ме­на­тель: 2 конец дроби ; минус 3 Пи пра­вая квад­рат­ная скоб­ка . \"> По­лу­чим числа <img src=\"https://ege.sdamgia.ru/formula/svg/89/896c47575c46891b2b03191bfb2f16fa.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" минус дробь: чис­ли­тель: 17 Пи , зна­ме­на­тель: 4 конец дроби ; \"> <img src=\"https://ege.sdamgia.ru/formula/svg/67/67056ad908144abef04913c8c1a1fdc2.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\" арк­тан­генс 3 минус 4 Пи ;\"><img src=\"https://ege.sdamgia.ru/formula/svg/4d/4d6093ca898c9eed9858882ff76f516e.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" минус дробь: чис­ли­тель: 13 Пи , зна­ме­на­тель: 4 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) <img src=\"https://ege.sdamgia.ru/formula/svg/4e/4eaa7f376227bbb9ca90e74ea3170711.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби плюс Пи n,n при­над­ле­жит Z ; \"><img src=\"https://ege.sdamgia.ru/formula/svg/6f/6f42d0badcaf91c279b0d96a78db0d97.svg\" class=\"tex\" style=\"vertical-align:-3.3pt\" alt=\" арк­тан­генс }3 плюс Пи n,n при­над­ле­жит Z ;\"> б) <img src=\"https://ege.sdamgia.ru/formula/svg/4c/4c0192ad23703d24d237f1586ba948de.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" минус дробь: чис­ли­тель: 17 Пи , зна­ме­на­тель: 4 конец дроби ; \"> <img src=\"https://ege.sdamgia.ru/formula/svg/03/037030c504e7900b1e6e31e8aea595bc.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\" арк­тан­генс 3 минус 4 Пи ;\"> <img src=\"https://ege.sdamgia.ru/formula/svg/81/81cff673a36396caf1750be09ee85313.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" минус дробь: чис­ли­тель: 13 Пи , зна­ме­на­тель: 4 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c6/c6eabb12e0b1545a4bd4d4299c0eee1a.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/1606930446c69a8accf74c0400b4b77d.svg",
+            "https://ege.sdamgia.ru/formula/svg/c6/c6eabb12e0b1545a4bd4d4299c0eee1a.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/508ae1a6215d3b7d7b0b827cefc757bf.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2dfc597480d912e42ac619bfd672d7db.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0d45f7071880e5ea39ad03ffb57aada1.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e6b01a8f41cf434f56c848e7ceff8253.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/896c47575c46891b2b03191bfb2f16fa.svg",
+            "https://ege.sdamgia.ru/formula/svg/67/67056ad908144abef04913c8c1a1fdc2.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4d6093ca898c9eed9858882ff76f516e.svg",
+            "https://ege.sdamgia.ru/formula/svg/4e/4eaa7f376227bbb9ca90e74ea3170711.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6f42d0badcaf91c279b0d96a78db0d97.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c0192ad23703d24d237f1586ba948de.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/037030c504e7900b1e6e31e8aea595bc.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/81cff673a36396caf1750be09ee85313.svg",
+            "/get_file?id=37066"
+        ]
+    },
+    "answer": "а)  б)",
+    "topic_id": 13,
+    "analog_ids": [
+        518911,
+        518958,
+        520189,
+        520208
+    ]
+}

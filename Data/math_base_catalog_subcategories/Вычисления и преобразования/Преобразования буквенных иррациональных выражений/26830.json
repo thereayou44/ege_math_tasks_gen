@@ -1,0 +1,56 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 26830,
+    "condition": {
+        "text": "Найдите значение выражения  при ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919090\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те зна­че­ние вы­ра­же­ния <img src=\"https://ege.sdamgia.ru/formula/svg/62/62f5ce2cd3437baf99bbfae57e614f94.svg\" class=\"tex\" style=\"vertical-align:-5.9pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: левая круг­лая скоб­ка a минус 6 пра­вая круг­лая скоб­ка конец ар­гу­мен­та в квад­ра­те плюс ко­рень из: на­ча­ло ар­гу­мен­та: левая круг­лая скоб­ка a минус 10 пра­вая круг­лая скоб­ка конец ар­гу­мен­та в квад­ра­те \"> при <img src=\"https://ege.sdamgia.ru/formula/svg/0e/0e56191d921efb4df594db8ad15bec87.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"6 мень­ше или равно a мень­ше или равно 10.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/62/62f5ce2cd3437baf99bbfae57e614f94.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0e56191d921efb4df594db8ad15bec87.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Воспользуемся тождеством  и раскроем модули на отрезке [6; 10]:   Ответ: 4.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol26830\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Вос­поль­зу­ем­ся тож­де­ством <img src=\"https://ege.sdamgia.ru/formula/svg/ad/ade5245b50bff06e76ee0f99ce8c3677.svg\" class=\"tex\" style=\"vertical-align:-6.8pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: левая круг­лая скоб­ка a минус b пра­вая круг­лая скоб­ка в квад­ра­те конец ар­гу­мен­та =|a минус b|\"> и рас­кро­ем мо­ду­ли на от­рез­ке [6; 10]: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d7/d7921e0eb6552030b86320a994a458bf.svg\" class=\"tex\" style=\"vertical-align:-5.8pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: левая круг­лая скоб­ка a минус 6 пра­вая круг­лая скоб­ка конец ар­гу­мен­та в квад­ра­те плюс ко­рень из: на­ча­ло ар­гу­мен­та: левая круг­лая скоб­ка a минус 10 пра­вая круг­лая скоб­ка конец ар­гу­мен­та в квад­ра­те =|a минус 6| плюс |a минус 10|=a минус 6 плюс 10 минус a=4.\"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 4.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ad/ade5245b50bff06e76ee0f99ce8c3677.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d7921e0eb6552030b86320a994a458bf.svg"
+        ]
+    },
+    "answer": "4",
+    "topic_id": 7,
+    "analog_ids": [
+        26830,
+        67617,
+        67669,
+        67619,
+        67617,
+        67669,
+        67619,
+        67621,
+        67623,
+        67625,
+        67627,
+        67629,
+        67631,
+        67633,
+        67635,
+        67637,
+        67639,
+        67641,
+        67643,
+        67645,
+        67647,
+        67649,
+        67651,
+        67653,
+        67655,
+        67657,
+        67659,
+        67661,
+        67663,
+        67665,
+        67667
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521804,
+    "condition": {
+        "text": "На счет, который вкладчик имел в начале первого квартала, начисляется в конце этого квартала r1%, а на счет, который вкладчик имел в начале второго квартала, начисляется в конце этого квартала r2%, причем r1% + r2%  =  150%. Вкладчик положил на счет в начале первого квартала некоторую сумму и снял в конце того же квартала половину этой суммы. При каком значении r1 счет вкладчика в конце второго квартала окажется максимально возможным?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body628912\" class=\"pbody\"><p class=\"left_margin\">На счет, ко­то­рый вклад­чик имел в на­ча­ле пер­во­го квар­та­ла, на­чис­ля­ет­ся в конце этого квар­та­ла <i>r</i><sub>1</sub>%, а на счет, ко­то­рый вклад­чик имел в на­ча­ле вто­ро­го квар­та­ла, на­чис­ля­ет­ся в конце этого квар­та­ла <i>r</i><sub>2</sub>%, при­чем <i>r</i><sub>1</sub>% + <i>r</i><sub>2</sub>%  =  150%. Вклад­чик по­ло­жил на счет в на­ча­ле пер­во­го квар­та­ла не­ко­то­рую сумму и снял в конце того же квар­та­ла по­ло­ви­ну этой суммы. При каком зна­че­нии <i>r</i><sub>1</sub> счет вклад­чи­ка в конце вто­ро­го квар­та­ла ока­жет­ся мак­си­маль­но воз­мож­ным?</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Допустим вкладчик положил  и его вклад был умножен на  тогда во втором квартале умножение произошло на  Размер счета после двух кварталов составит  Наибольшее значение второй скобки достигается при  такое значение допустимо  — оно соответствует ситуации  и  Ответ: 100%.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521804\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">До­пу­стим вклад­чик по­ло­жил <img src=\"https://ege.sdamgia.ru/formula/svg/22/2204c2b4d60ae2fd5279ec54cfaed2a4.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2x\"> и его вклад был умно­жен на <img src=\"https://ege.sdamgia.ru/formula/svg/c4/c4b21457dd5e671cb5e02da60f643ebd.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"p=1 плюс дробь: чис­ли­тель: r_1, зна­ме­на­тель: 100 конец дроби , \"> тогда во вто­ром квар­та­ле умно­же­ние про­изо­шло на <img src=\"https://ege.sdamgia.ru/formula/svg/24/24a76c198f9f22f206f4078f0af0fc4f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"3,5 минус p.\"> Раз­мер счета после двух квар­та­лов со­ста­вит <img src=\"https://ege.sdamgia.ru/formula/svg/fa/fa38ef78a923b9334642680112178bea.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 2xp минус x пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 3,5 минус p пра­вая круг­лая скоб­ка =x левая круг­лая скоб­ка минус 2p в квад­ра­те плюс 8p минус 3,5 пра­вая круг­лая скоб­ка .\"> Наи­боль­шее зна­че­ние вто­рой скоб­ки до­сти­га­ет­ся при <img src=\"https://ege.sdamgia.ru/formula/svg/b9/b91a5ff72697438a6146a43237124fcd.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"p= дробь: чис­ли­тель: 8, зна­ме­на­тель: 4 конец дроби =2, \"> такое зна­че­ние до­пу­сти­мо  — оно со­от­вет­ству­ет си­ту­а­ции <img src=\"https://ege.sdamgia.ru/formula/svg/9a/9a823c82db3e758a8be26b442665bcd5.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"r_1=100\\%\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/aa/aa9f1690fa8b41f193cc3a114edab867.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"r_2=50\\%.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 100%.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/22/2204c2b4d60ae2fd5279ec54cfaed2a4.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c4b21457dd5e671cb5e02da60f643ebd.svg",
+            "https://ege.sdamgia.ru/formula/svg/24/24a76c198f9f22f206f4078f0af0fc4f.svg",
+            "https://ege.sdamgia.ru/formula/svg/fa/fa38ef78a923b9334642680112178bea.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b91a5ff72697438a6146a43237124fcd.svg",
+            "https://ege.sdamgia.ru/formula/svg/9a/9a823c82db3e758a8be26b442665bcd5.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa9f1690fa8b41f193cc3a114edab867.svg"
+        ]
+    },
+    "answer": "100%.",
+    "topic_id": null,
+    "analog_ids": []
+}

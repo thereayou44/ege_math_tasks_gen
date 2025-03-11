@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 555717,
+    "condition": {
+        "text": "Решите неравенство ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body398393\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/7a/7a7593e657b5de86fddc0b2fa32fa1a1.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 18 минус 7x минус x в квад­ра­те конец ар­гу­мен­та , зна­ме­на­тель: 2x плюс 9 конец дроби боль­ше или равно дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 18 минус 7x минус x в квад­ра­те конец ар­гу­мен­та , зна­ме­на­тель: x плюс 8 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/7a/7a7593e657b5de86fddc0b2fa32fa1a1.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Преобразуем неравенство:Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol555717\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пре­об­ра­зу­ем не­ра­вен­ство:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/6a/6a03a1b4e339e9a3d536552e287b1f46.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 18 минус 7x минус x в квад­ра­те конец ар­гу­мен­та левая круг­лая скоб­ка дробь: чис­ли­тель: 1, зна­ме­на­тель: конец дроби 2x плюс 9 минус дробь: чис­ли­тель: 1, зна­ме­на­тель: конец дроби x плюс 8 пра­вая круг­лая скоб­ка \\geqslant0 рав­но­силь­но \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/ff/ffe9b6b8fd1dd826c84803b2162c12c6.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\" рав­но­силь­но ко­рень из: на­ча­ло ар­гу­мен­та: левая круг­лая скоб­ка 2 минус x пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x плюс 9 пра­вая круг­лая скоб­ка конец ар­гу­мен­та умно­жить на дробь: чис­ли­тель: x плюс 1, зна­ме­на­тель: левая круг­лая скоб­ка 2x плюс 9 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x плюс 8 пра­вая круг­лая скоб­ка конец дроби \\leqslant0 рав­но­силь­но \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/b4/b49f3bee9af013283e1b61682edcc15a.svg\" class=\"tex\" style=\"vertical-align:-21.0pt\" alt=\" рав­но­силь­но ко­рень из: на­ча­ло ар­гу­мен­та: левая круг­лая скоб­ка 2 минус x пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x плюс 9 пра­вая круг­лая скоб­ка конец ар­гу­мен­та умно­жить на дробь: чис­ли­тель: x плюс 1, зна­ме­на­тель: левая круг­лая скоб­ка 2x плюс 9 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x плюс 8 пра­вая круг­лая скоб­ка конец дроби \\leqslant0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний минус 9 мень­ше или равно x мень­ше минус 8, минус 4,5 мень­ше x\\leqslant минус 1,x=2. конец со­во­куп­но­сти . \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/54/541bb7bcfb1246058c3f46c68c98b7d2.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка минус 9; минус 8 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка минус 4,5; минус 1 пра­вая квад­рат­ная скоб­ка \\cup левая фи­гур­ная скоб­ка 2 пра­вая фи­гур­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/6a/6a03a1b4e339e9a3d536552e287b1f46.svg",
+            "https://ege.sdamgia.ru/formula/svg/ff/ffe9b6b8fd1dd826c84803b2162c12c6.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b49f3bee9af013283e1b61682edcc15a.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/541bb7bcfb1246058c3f46c68c98b7d2.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": [
+        555717,
+        555897
+    ]
+}

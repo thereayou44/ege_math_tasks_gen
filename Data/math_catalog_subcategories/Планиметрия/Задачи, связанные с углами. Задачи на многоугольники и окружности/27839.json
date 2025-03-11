@@ -1,0 +1,54 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27839,
+    "condition": {
+        "text": "Основания трапеции относятся как  а средняя линия равна 5. Найдите меньшее основание.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918083\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right; margin:10px\" src=\"/get_file?id=1421\">Ос­но­ва­ния тра­пе­ции от­но­сят­ся как <img src=\"https://ege.sdamgia.ru/formula/svg/d4/d46d0abe165820b89494c75b319d6fce.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2 : 3,\"> а сред­няя линия равна 5. Най­ди­те мень­шее ос­но­ва­ние.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d4/d46d0abe165820b89494c75b319d6fce.svg",
+            "/get_file?id=1421"
+        ]
+    },
+    "solution": {
+        "text": "Решение. ## откуда   Ответ: 4.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27839\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">##</p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/49/49d777feffc8471bd25940451311bf63.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"DC=2EF минус AB=2EF минус 1,5DC=10 минус 1,5DC.\"></p><p class=\"left_margin\"></p></center> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/76/769535db57a506731a505496785e3939.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"DC=4.\"> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 4.</p><p></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/49/49d777feffc8471bd25940451311bf63.svg",
+            "https://ege.sdamgia.ru/formula/svg/76/769535db57a506731a505496785e3939.svg"
+        ]
+    },
+    "answer": "4",
+    "topic_id": null,
+    "analog_ids": [
+        27839,
+        50633,
+        50635,
+        50637,
+        50633,
+        50635,
+        50637,
+        50639,
+        50641,
+        50643,
+        50645,
+        50647,
+        50649,
+        50651,
+        50653,
+        50655,
+        50657,
+        50659,
+        50661,
+        50663,
+        50665,
+        50667,
+        50669,
+        50671,
+        50673,
+        50675,
+        50677,
+        50679,
+        50681
+    ]
+}

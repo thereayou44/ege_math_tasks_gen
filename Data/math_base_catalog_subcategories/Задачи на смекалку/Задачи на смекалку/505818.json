@@ -1,0 +1,33 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 505818,
+    "condition": {
+        "text": "Найдите все значения параметра a, при которых уравнение  имеет ровно 5 различных решений, а сами решения, упорядоченные по возрастанию, образуют арифметическую прогрессию.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body645414\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния па­ра­мет­ра <i>a</i>, при ко­то­рых урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/bd/bda6f8054a674784af04a59f061784e9.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"25x в сте­пе­ни 5 плюс 25 левая круг­лая скоб­ка a минус 1 пра­вая круг­лая скоб­ка x в кубе минус 4 левая круг­лая скоб­ка a минус 7 пра­вая круг­лая скоб­ка x=0\"> имеет ровно 5 раз­лич­ных ре­ше­ний, а сами ре­ше­ния, упо­ря­до­чен­ные по воз­рас­та­нию, об­ра­зу­ют ариф­ме­ти­че­скую про­грес­сию.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/bd/bda6f8054a674784af04a59f061784e9.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Заметим, что одним из корней является x  =  0, а также если число x является корнем уравнения, то и число   — тоже.Поэтому корни этого многочлена:   0, d, 2d, причем  Тогда имеемОтсюда  Подставим это выражение в первое уравнение системы. Ответ:  a  =   −2  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol505818\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">За­ме­тим, что одним из кор­ней яв­ля­ет­ся <i>x</i>  =  0, а также если число x яв­ля­ет­ся кор­нем урав­не­ния, то и число <img src=\"https://ege.sdamgia.ru/formula/svg/d2/d25c186e3f3096a9ff4a918f7b3141d4.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" минус x\">  — тоже.</p><p class=\"left_margin\">По­это­му корни этого мно­го­чле­на: <img src=\"https://ege.sdamgia.ru/formula/svg/ac/ac365b674ac1a7af3e8282558815c974.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" минус 2d,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/f0/f05dd8ec0b8fef1097c21203454fd8e6.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" минус d,\"> 0, <i>d</i>, 2<i>d</i>, при­чем <img src=\"https://ege.sdamgia.ru/formula/svg/5c/5c573bfd57aaed7aa7f58e9d3f324d8e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"d не равно 0.\"> Тогда имеем</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ef/efb477aae598c5359713a0fb02040b63.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" левая фи­гур­ная скоб­ка \\beginaligned 25d в сте­пе­ни 4 плюс 25 левая круг­лая скоб­ка a минус 1 пра­вая круг­лая скоб­ка d в квад­ра­те минус 4 левая круг­лая скоб­ка a минус 7 пра­вая круг­лая скоб­ка =0 400d в сте­пе­ни 4 плюс 100 левая круг­лая скоб­ка a минус 1 пра­вая круг­лая скоб­ка d в квад­ра­те минус 4 левая круг­лая скоб­ка a минус 7 пра­вая круг­лая скоб­ка =0\\endaligned.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">От­сю­да </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ec/ec51d880d4d4932aeaf1cb97d5c64aef.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"375d в сте­пе­ни 4 плюс 75 левая круг­лая скоб­ка a минус 1 пра­вая круг­лая скоб­ка d в квад­ра­те =0, 5d в квад­ра­те плюс a минус 1=0, a=1 минус 5d в квад­ра­те .\"> </p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Под­ста­вим это вы­ра­же­ние в пер­вое урав­не­ние си­сте­мы.</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/4a/4a3214292e821ea1e3f4449ed58651a0.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"25d в сте­пе­ни 4 минус 125d в сте­пе­ни 4 минус 4 левая круг­лая скоб­ка минус 5d в квад­ра­те минус 6 пра­вая круг­лая скоб­ка =0,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/f8/f833fbc2b3a1931cf0d0878db410ba54.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"25d в сте­пе­ни 4 минус 5d в квад­ра­те минус 6=0,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/da/da1dd62d66ec949af9894c30e23f6ead.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 5d в квад­ра­те минус 3 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 5d в квад­ра­те плюс 2 пра­вая круг­лая скоб­ка =0,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/4b/4b8105265b135978a18822c5647bd3b4.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"d в квад­ра­те = дробь: чис­ли­тель: 3, зна­ме­на­тель: 5 конец дроби ,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/16/16c503eedada5c7f068546116f30a49c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a= минус 2.\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  <i>a</i>  =   −2  <img src=\"https://ege.sdamgia.ru/formula/svg/da/da44ae2af43001024789a33662f69ab8.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" левая круг­лая скоб­ка кор­ни­у­рав­не­ния \\pm 2 ко­рень из: на­ча­ло ар­гу­мен­та: дробь: чис­ли­тель: 3, зна­ме­на­тель: 5 конец дроби конец ар­гу­мен­та ,\\pm ко­рень из: на­ча­ло ар­гу­мен­та: дробь: чис­ли­тель: 3, зна­ме­на­тель: 5 конец дроби конец ар­гу­мен­та ,0 пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d2/d25c186e3f3096a9ff4a918f7b3141d4.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/ac365b674ac1a7af3e8282558815c974.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f05dd8ec0b8fef1097c21203454fd8e6.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5c573bfd57aaed7aa7f58e9d3f324d8e.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/efb477aae598c5359713a0fb02040b63.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ec51d880d4d4932aeaf1cb97d5c64aef.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4a3214292e821ea1e3f4449ed58651a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f833fbc2b3a1931cf0d0878db410ba54.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/da1dd62d66ec949af9894c30e23f6ead.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4b8105265b135978a18822c5647bd3b4.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/16c503eedada5c7f068546116f30a49c.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/da44ae2af43001024789a33662f69ab8.svg"
+        ]
+    },
+    "answer": "a  =   −2",
+    "topic_id": null,
+    "analog_ids": []
+}

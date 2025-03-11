@@ -1,0 +1,73 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 77430,
+    "condition": {
+        "text": "Найдите наибольшее значение функции  на отрезке ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body999562\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те наи­боль­шее зна­че­ние функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/e8/e8287b8c285ce76def4c1e5ccc79ca66.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=x в кубе плюс 2x в квад­ра­те плюс x плюс 3\"> на от­рез­ке <img src=\"https://ege.sdamgia.ru/formula/svg/cd/cd9f6013f4a058de241a4a01ce5b57cd.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка минус 4; минус 1 пра­вая квад­рат­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e8/e8287b8c285ce76def4c1e5ccc79ca66.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cd9f6013f4a058de241a4a01ce5b57cd.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Найдем производную заданной функции:  Найдем нули производной:  Определим знаки производной функции и изобразим на рисунке поведение функции:  В точке  заданная функция имеет максимум, являющийся ее наибольшим значением на отрезке  Найдем это наибольшее значение: Ответ: 3.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol77430\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Най­дем про­из­вод­ную за­дан­ной функ­ции: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/91/9198c791d1601d8719d15d63246c4745.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y'=3x в квад­ра­те плюс 4x плюс 1.\"></p><p class=\"left_margin\"></p></center> <p class=\"left_margin\">Най­дем нули про­из­вод­ной: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/76/76c8200db1398d8b6d7fab9e986e27a7.svg\" class=\"tex\" style=\"vertical-align:-18.0pt\" alt=\"3x в квад­ра­те плюс 4x плюс 1=0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний x= минус 1, x= минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби . конец со­во­куп­но­сти } \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p class=\"left_margin\">Опре­де­лим знаки про­из­вод­ной функ­ции и изоб­ра­зим на ри­сун­ке по­ве­де­ние функ­ции: </p><p class=\"left_margin\"></p><center><p><img src=\"/get_file?id=108176\" style=\"margin:10px auto;display:block;max-width:100%\"></p><p class=\"left_margin\"></p></center> <p class=\"left_margin\">В точке <img src=\"https://ege.sdamgia.ru/formula/svg/d3/d3289a96da4c1cf6ce57b2b76b80b965.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x= минус 1\"> за­дан­ная функ­ция имеет мак­си­мум, яв­ля­ю­щий­ся ее наи­боль­шим зна­че­ни­ем на от­рез­ке <img src=\"https://ege.sdamgia.ru/formula/svg/cd/cd9f6013f4a058de241a4a01ce5b57cd.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка минус 4; минус 1 пра­вая квад­рат­ная скоб­ка .\"> Най­дем это наи­боль­шее зна­че­ние:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d6/d686eff9aecd910954d881fd67b9a879.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y левая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка = минус 1 плюс 2 минус 1 плюс 3=3.\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ</span>: 3.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/91/9198c791d1601d8719d15d63246c4745.svg",
+            "https://ege.sdamgia.ru/formula/svg/76/76c8200db1398d8b6d7fab9e986e27a7.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d3289a96da4c1cf6ce57b2b76b80b965.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cd9f6013f4a058de241a4a01ce5b57cd.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d686eff9aecd910954d881fd67b9a879.svg",
+            "/get_file?id=108176"
+        ]
+    },
+    "answer": "3",
+    "topic_id": 12,
+    "analog_ids": [
+        77430,
+        125057,
+        125131,
+        125135,
+        125057,
+        125131,
+        125135,
+        125059,
+        125061,
+        125063,
+        125065,
+        125067,
+        125069,
+        125071,
+        125073,
+        125075,
+        125077,
+        125079,
+        125081,
+        125083,
+        125085,
+        125087,
+        125089,
+        125091,
+        125093,
+        125095,
+        125097,
+        125099,
+        125101,
+        125103,
+        125105,
+        125107,
+        125109,
+        125111,
+        125113,
+        125115,
+        125117,
+        125119,
+        125121,
+        125123,
+        125125,
+        125127,
+        125129,
+        125133
+    ]
+}

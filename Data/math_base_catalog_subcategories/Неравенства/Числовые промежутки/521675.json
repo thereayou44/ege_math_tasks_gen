@@ -1,0 +1,24 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521675,
+    "condition": {
+        "text": "Фермер получил кредит в банке под определенный процент годовых. Через год фермер в счет погашения кредита вернул в банк 3/4 от всей суммы, которую он был должен банку к этому времени, а еще через год в счет полного погашения кредита он внес в банк сумму, на 21% превышающую величину полученного кредита. Каков процент годовых по кредиту в банке?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629559\" class=\"pbody\"><p class=\"left_margin\">Фер­мер по­лу­чил кре­дит в банке под опре­де­лен­ный про­цент го­до­вых. Через год фер­мер в счет по­га­ше­ния кре­ди­та вер­нул в банк 3/4 от всей суммы, ко­то­рую он был дол­жен банку к этому вре­ме­ни, а еще через год в счет пол­но­го по­га­ше­ния кре­ди­та он внес в банк сумму, на 21% пре­вы­ша­ю­щую ве­ли­чи­ну по­лу­чен­но­го кре­ди­та. Каков про­цент го­до­вых по кре­ди­ту в банке?</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Обозначим изначальный кредит за x, а множитель, на который умножается долг каждый год, за  Тогда  откуда   Значит, банк начисляет  годовых. Ответ: 120.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521675\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Обо­зна­чим из­на­чаль­ный кре­дит за <i>x</i>, а мно­жи­тель, на ко­то­рый умно­жа­ет­ся долг каж­дый год, за <img src=\"https://ege.sdamgia.ru/formula/svg/9a/9aa636e360a04580e0ba25797c3f5cbc.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"p.\"> Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/b8/b88c94e769f8bc67f7759d9727da30ad.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби px умно­жить на p=1,21x,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/0f/0f7f9a1f090589ad0f782db2dbdc6a2c.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"p в квад­ра­те =4,84,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/ad/ad84dbf6689d513b8088d855e48835d3.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"p=2,2,\"> Зна­чит, банк на­чис­ля­ет <img src=\"https://ege.sdamgia.ru/formula/svg/0e/0e4fda065ca65695ee040592ffde31c2.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"120\\%\"> го­до­вых.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 120.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/9a/9aa636e360a04580e0ba25797c3f5cbc.svg",
+            "https://ege.sdamgia.ru/formula/svg/b8/b88c94e769f8bc67f7759d9727da30ad.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0f7f9a1f090589ad0f782db2dbdc6a2c.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/ad84dbf6689d513b8088d855e48835d3.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0e4fda065ca65695ee040592ffde31c2.svg"
+        ]
+    },
+    "answer": "120.",
+    "topic_id": null,
+    "analog_ids": []
+}

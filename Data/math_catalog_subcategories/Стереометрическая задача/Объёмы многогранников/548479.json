@@ -1,0 +1,27 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 548479,
+    "condition": {
+        "text": "Дана правильная треугольная пирамида SABC, M  — середина AB, N  — середина CS.а)  Докажите, что проекции отрезков MN и AS на плоскость ABC равны.б)  Найдите объем пирамиды SABC, если AS  =  8, MN  =  5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body405635\" class=\"pbody\"><p class=\"left_margin\">Дана пра­виль­ная тре­уголь­ная пи­ра­ми­да <i>SABC</i>, <i>M</i>  — се­ре­ди­на <i>AB</i>, <i>N</i>  — се­ре­ди­на <i>CS</i>.</p><p class=\"left_margin\">а)  До­ка­жи­те, что про­ек­ции от­рез­ков <i>MN</i> и <i>AS</i> на плос­кость <i>ABC</i> равны.</p><p class=\"left_margin\">б)  Най­ди­те объем пи­ра­ми­ды <i>SABC</i>, если <i>AS</i>  =  8, <i>MN</i>  =  5.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Пусть SO  — высота пирамиды. Проекция отрезка AS на плоскость ABC  — это отрезок AO. Проекция отрезка SC на плоскость ABC  — это отрезок OC. Следовательно, проекция точки N это середина отрезка OC, точка P. Точки C, P, O, M лежат на одной прямой, причем CP  =  PO  =  OM, следовательно, MP  =  CO  =  AO. Таким образом, проекции отрезков MN и SA на плоскость основания пирамиды равны.б)  Обозначим высоту пирамиды за h. Тогда  По пункту а)  имеем: следовательно, Тогда  Таким образом, для искомого объема получаем  Ответ:  б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol548479\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=142319\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Пусть <i>SO</i>  — вы­со­та пи­ра­ми­ды. Про­ек­ция от­рез­ка <i>AS</i> на плос­кость <i>ABC</i>  — это от­ре­зок <i>AO</i>. Про­ек­ция от­рез­ка <i>SC</i> на плос­кость <i>ABC</i>  — это от­ре­зок <i>OC</i>. Сле­до­ва­тель­но, про­ек­ция точки <i>N</i> это се­ре­ди­на от­рез­ка <i>OC</i>, точка <i>P</i>. Точки <i>C, P, O, M</i> лежат на одной пря­мой, при­чем <i>CP</i>  =  <i>PO</i>  =  <i>OM</i>, сле­до­ва­тель­но, <i>MP</i>  =  <i>CO</i>  =  <i>AO</i>. Таким об­ра­зом, про­ек­ции от­рез­ков MN и SA на плос­кость ос­но­ва­ния пи­ра­ми­ды равны.</p><p class=\"left_margin\">б)  Обо­зна­чим вы­со­ту пи­ра­ми­ды за <i>h</i>. Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/d8/d88a31d31ffb7c5406b6b79f8a14032f.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"NP= дробь: чис­ли­тель: h, зна­ме­на­тель: 2 конец дроби . \"> По пунк­ту а)  имеем: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/8c/8c02a1a963216312ea41b64d08b467f8.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AS в квад­ра­те минус SO в квад­ра­те =MN в квад­ра­те минус NP в квад­ра­те ,\"></p><p class=\"left_margin\"></p></center><p>сле­до­ва­тель­но,</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/17/17672fa288a3a9f2af3194bc8483ae46.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"64 минус h в квад­ра­те =25 минус дробь: чис­ли­тель: h в квад­ра­те , зна­ме­на­тель: 4 конец дроби рав­но­силь­но h=2 ко­рень из: на­ча­ло ар­гу­мен­та: 13 конец ар­гу­мен­та ; \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/e4/e488b830ee59fda5e7a93085cac69e6e.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AO в квад­ра­те =AS в квад­ра­те минус SO в квад­ра­те =64 минус 52=12 \\Rightarrow AO= ко­рень из: на­ча­ло ар­гу­мен­та: 12 конец ар­гу­мен­та =2 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та .\"></p><p class=\"left_margin\"></p></center><p> Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/34/344f7c7a8338956064d6f2ce2a3edf25.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AB=2 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та умно­жить на ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та =6.\"> </p><p class=\"left_margin\">Таким об­ра­зом, для ис­ко­мо­го объ­е­ма по­лу­ча­ем <img src=\"https://ege.sdamgia.ru/formula/svg/ac/acc165f861377e559e61708eafc48127.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"V = дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби умно­жить на h умно­жить на S_ABC=6 ко­рень из: на­ча­ло ар­гу­мен­та: 39 конец ар­гу­мен­та . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  б) <img src=\"https://ege.sdamgia.ru/formula/svg/c4/c4d70eb0be371f302c7aca2c6b18361e.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"6 ко­рень из: на­ча­ло ар­гу­мен­та: 39 конец ар­гу­мен­та .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d8/d88a31d31ffb7c5406b6b79f8a14032f.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8c02a1a963216312ea41b64d08b467f8.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/17672fa288a3a9f2af3194bc8483ae46.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e488b830ee59fda5e7a93085cac69e6e.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/344f7c7a8338956064d6f2ce2a3edf25.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/acc165f861377e559e61708eafc48127.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c4d70eb0be371f302c7aca2c6b18361e.svg",
+            "/get_file?id=142319"
+        ]
+    },
+    "answer": "б)",
+    "topic_id": 14,
+    "analog_ids": []
+}

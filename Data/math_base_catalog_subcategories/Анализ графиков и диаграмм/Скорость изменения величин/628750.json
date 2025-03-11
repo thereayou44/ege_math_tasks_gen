@@ -1,0 +1,34 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 628750,
+    "condition": {
+        "text": "В правильной четырёхугольной пирамиде SABCD с основанием ABCD из точки B опущен перпендикуляр BH на плоскость SAD.а)  Докажите, что б)  Найдите объём пирамиды, если  и HC  =  4.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body521970\" class=\"pbody\"><p class=\"left_margin\">В пра­виль­ной четырёхуголь­ной пи­ра­ми­де <i>SABCD</i> с ос­но­ва­ни­ем <i>ABCD</i> из точки <i>B</i> опу­щен пер­пен­ди­ку­ляр <i>BH</i> на плос­кость <i>SAD</i>.</p><p class=\"left_margin\">а)  До­ка­жи­те, что <img src=\"https://ege.sdamgia.ru/formula/svg/54/547ed35bba7bd157baa918fe270a9aee.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle AHC=90 гра­ду­сов .\"></p><p class=\"left_margin\">б)  Най­ди­те объём пи­ра­ми­ды, если <img src=\"https://ege.sdamgia.ru/formula/svg/d1/d1e679145cf1da372946d0967f6a3438.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"HA= ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та \"> и <i>HC</i>  =  4.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/54/547ed35bba7bd157baa918fe270a9aee.svg",
+            "https://ege.sdamgia.ru/formula/svg/d1/d1e679145cf1da372946d0967f6a3438.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Пусть O  — центр основания. Прямая BH перпендикулярна плоскости SAD, поэтому прямые BH и HD перпендикулярны. В прямоугольном треугольнике BHD медиана равна половине гипотенузы:  Тогда в треугольнике AHC медиана OH равна половине стороны AC, поэтому треугольник AHC прямоугольный.б)  В треугольнике AHC находим  значит, сторона основания пирамиды равна 3. Пусть M  — середина AD, а N  — середина BC. Пусть NE  — высота в треугольнике MSN. Тогда MN  =  3, а  Поэтому из подобия треугольников MEN и MOS получим Тогда Найдём объём пирамиды:Ответ: б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol628750\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=108130\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Пусть <i>O</i>  — центр ос­но­ва­ния. Пря­мая <i>BH</i> пер­пен­ди­ку­ляр­на плос­ко­сти <i>SAD</i>, по­это­му пря­мые <i>BH</i> и <i>HD</i> пер­пен­ди­ку­ляр­ны. В пря­мо­уголь­ном тре­уголь­ни­ке <i>BHD</i> ме­ди­а­на равна по­ло­ви­не ги­по­те­ну­зы: <img src=\"https://ege.sdamgia.ru/formula/svg/8f/8f944c563985398fc6279f866fde2daa.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"OH= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби BD.\"> Тогда в тре­уголь­ни­ке <i>AHC</i> ме­ди­а­на <i>OH</i> равна по­ло­ви­не сто­ро­ны <i>AC</i>, по­это­му тре­уголь­ник <i>AHC</i> пря­мо­уголь­ный.</p><p class=\"left_margin\">б)  В тре­уголь­ни­ке <i>AHC</i> на­хо­дим <img src=\"https://ege.sdamgia.ru/formula/svg/b7/b715ad300d37d70ed9eec62920d63373.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AC=3 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та ,\"> зна­чит, сто­ро­на ос­но­ва­ния пи­ра­ми­ды равна 3. Пусть <i>M</i>  — се­ре­ди­на <i>AD</i>, а <i>N</i>  — се­ре­ди­на <i>BC</i>. Пусть <i>NE</i>  — вы­со­та в тре­уголь­ни­ке <i>MSN</i>. Тогда <i>MN</i>  =  3, а <img src=\"https://ege.sdamgia.ru/formula/svg/52/52e1ab755ecc0f11c7ab55c245c317aa.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"ME=AH= ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та .\"> По­это­му из по­до­бия тре­уголь­ни­ков <i>MEN</i> и <i>MOS</i> по­лу­чим</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/47/477916da8db9bf1df4083faeb3922348.svg\" class=\"tex\" style=\"vertical-align:-10.9pt\" alt=\"MS= дробь: чис­ли­тель: MO умно­жить на MN, зна­ме­на­тель: EM конец дроби = дробь: чис­ли­тель: 9, зна­ме­на­тель: 2 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та конец дроби . \"></p><p class=\"left_margin\"></p></center><p><img src=\"/get_file?id=108129\" style=\"float:right;margin:10px;max-width:100%\"></p><p> Тогда</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/36/36ae088c07e904582a978401e8ff4c36.svg\" class=\"tex\" style=\"vertical-align:-11.0pt\" alt=\"SO= ко­рень из: на­ча­ло ар­гу­мен­та: MS в квад­ра­те минус MO в квад­ра­те конец ар­гу­мен­та = дробь: чис­ли­тель: 3 ко­рень из: на­ча­ло ар­гу­мен­та: 7 конец ар­гу­мен­та , зна­ме­на­тель: 2 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та конец дроби . \"></p><p class=\"left_margin\"></p></center><p> Найдём объём пи­ра­ми­ды:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/4f/4f56b4509d27071ed52f1d37c00630b2.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"V_SABCD= дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби умно­жить на SO умно­жить на AB в квад­ра­те = дробь: чис­ли­тель: 9 ко­рень из: на­ча­ло ар­гу­мен­та: 14 конец ар­гу­мен­та , зна­ме­на­тель: 4 конец дроби . \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) <img src=\"https://ege.sdamgia.ru/formula/svg/0e/0e806228133b4ebd389cfb925922196b.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 9 ко­рень из: на­ча­ло ар­гу­мен­та: 14 конец ар­гу­мен­та , зна­ме­на­тель: 4 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/8f/8f944c563985398fc6279f866fde2daa.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b715ad300d37d70ed9eec62920d63373.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/52e1ab755ecc0f11c7ab55c245c317aa.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/477916da8db9bf1df4083faeb3922348.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/36ae088c07e904582a978401e8ff4c36.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4f56b4509d27071ed52f1d37c00630b2.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0e806228133b4ebd389cfb925922196b.svg",
+            "/get_file?id=108130",
+            "/get_file?id=108129"
+        ]
+    },
+    "answer": "б)",
+    "topic_id": 14,
+    "analog_ids": [
+        628750,
+        628776
+    ]
+}

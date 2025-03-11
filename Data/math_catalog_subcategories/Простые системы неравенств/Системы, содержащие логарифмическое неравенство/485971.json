@@ -1,0 +1,36 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 485971,
+    "condition": {
+        "text": "Решите систему ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body591023\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те си­сте­му <img src=\"https://ege.sdamgia.ru/formula/svg/0d/0dd639f71e910e0cf3be5d6f9d6fe920.svg\" class=\"tex\" style=\"vertical-align:-11.4pt\" alt=\" левая фи­гур­ная скоб­ка \\beginmatrix 3 в сте­пе­ни левая круг­лая скоб­ка ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 3 пра­вая круг­лая скоб­ка в квад­ра­те x пра­вая круг­лая скоб­ка плюс x в сте­пе­ни левая круг­лая скоб­ка \\log пра­вая круг­лая скоб­ка _3x боль­ше 2 ко­рень 4 сте­пе­ни из: на­ча­ло ар­гу­мен­та: 3, конец ар­гу­мен­та ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 2 пра­вая круг­лая скоб­ка в квад­ра­те x плюс 6 боль­ше или равно 5\\log _2x. \\endmatrix .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/0d/0dd639f71e910e0cf3be5d6f9d6fe920.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Решим первое неравенство. Приведем второе слагаемое к основанию 3:Неравенство принимает вид Получаем:  или Решим второе неравенство как квадратное относительно :Получаем:  или  Следовательно,  или  Чтобы получить решение системы, пересечём решения неравенств:  Ответ:  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol485971\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Решим пер­вое не­ра­вен­ство. При­ве­дем вто­рое сла­га­е­мое к ос­но­ва­нию 3:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/1c/1cba9744eab634d3828e2dd5e4543f11.svg\" class=\"tex\" style=\"vertical-align:-4.7pt\" alt=\"x в сте­пе­ни левая круг­лая скоб­ка \\log пра­вая круг­лая скоб­ка _3x= левая круг­лая скоб­ка 3 в сте­пе­ни левая круг­лая скоб­ка \\log пра­вая круг­лая скоб­ка _3x пра­вая круг­лая скоб­ка в сте­пе­ни левая круг­лая скоб­ка \\log пра­вая круг­лая скоб­ка _3x=3 в сте­пе­ни левая круг­лая скоб­ка ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка _3 пра­вая круг­лая скоб­ка пра­вая круг­лая скоб­ка в квад­ра­те x.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Не­ра­вен­ство при­ни­ма­ет вид <img src=\"https://ege.sdamgia.ru/formula/svg/95/954ccf56678a93595be1643a1f03dea1.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"2 умно­жить на 3 в сте­пе­ни левая круг­лая скоб­ка ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка _3 пра­вая круг­лая скоб­ка пра­вая круг­лая скоб­ка в квад­ра­те x боль­ше 2 ко­рень 4 сте­пе­ни из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та рав­но­силь­но 3 в сте­пе­ни левая круг­лая скоб­ка ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка _3 пра­вая круг­лая скоб­ка пра­вая круг­лая скоб­ка в квад­ра­те x боль­ше 3 в сте­пе­ни левая круг­лая скоб­ка 0,25 пра­вая круг­лая скоб­ка рав­но­силь­но \\left| \\log _3x | боль­ше дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби . \"></p><p class=\"left_margin\">По­лу­ча­ем: <img src=\"https://ege.sdamgia.ru/formula/svg/0a/0a63dd5fc6b2bfa3d9384be278b04522.svg\" class=\"tex\" style=\"vertical-align:-11.0pt\" alt=\"0 мень­ше x мень­ше дробь: чис­ли­тель: 1, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та конец дроби \"> или <img src=\"https://ege.sdamgia.ru/formula/svg/8c/8caee2931375e97029c0d3311c2fa8f4.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x боль­ше ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та .\"></p><p class=\"left_margin\">Решим вто­рое не­ра­вен­ство как квад­рат­ное от­но­си­тель­но <img src=\"https://ege.sdamgia.ru/formula/svg/6d/6d5cca5f10ce8beed8ff1bfdcee904b9.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\log _2x\">:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/33/33dd0c0c7a7e81eb76a2dccb1ff14f58.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 2 пра­вая круг­лая скоб­ка в квад­ра­те x минус 5\\log _2x плюс 6 боль­ше или равно 0.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">По­лу­ча­ем: <img src=\"https://ege.sdamgia.ru/formula/svg/72/7289b4cc78f34cd0699de32c288eb8f1.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\log _2x мень­ше или равно 2\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/b3/b3e7fb12338e9f0afb8ffe898a45c39c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\log _2x боль­ше или равно 3.\"> Сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/79/7951b0f05cb358474d1f84c1021bc602.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"0 мень­ше x мень­ше или равно 4\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/8e/8e3a029adbe3c53fb42750ad5eeffa84.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"x боль­ше или равно 8.\"> Чтобы по­лу­чить ре­ше­ние си­сте­мы, пе­ре­сечём ре­ше­ния не­ра­венств: <img src=\"https://ege.sdamgia.ru/formula/svg/84/841c096eb23b8214c76b5d3cada9f135.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая круг­лая скоб­ка 0; дробь: чис­ли­тель: 1, зна­ме­на­тель: ко­рень из 3 конец дроби пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та ;4 пра­вая квад­рат­ная скоб­ка \\cup левая квад­рат­ная скоб­ка 8; плюс бес­ко­неч­ность пра­вая круг­лая скоб­ка . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  <img src=\"https://ege.sdamgia.ru/formula/svg/84/841c096eb23b8214c76b5d3cada9f135.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая круг­лая скоб­ка 0; дробь: чис­ли­тель: 1, зна­ме­на­тель: ко­рень из 3 конец дроби пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та ;4 пра­вая квад­рат­ная скоб­ка \\cup левая квад­рат­ная скоб­ка 8; плюс бес­ко­неч­ность пра­вая круг­лая скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/1c/1cba9744eab634d3828e2dd5e4543f11.svg",
+            "https://ege.sdamgia.ru/formula/svg/95/954ccf56678a93595be1643a1f03dea1.svg",
+            "https://ege.sdamgia.ru/formula/svg/0a/0a63dd5fc6b2bfa3d9384be278b04522.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8caee2931375e97029c0d3311c2fa8f4.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6d5cca5f10ce8beed8ff1bfdcee904b9.svg",
+            "https://ege.sdamgia.ru/formula/svg/33/33dd0c0c7a7e81eb76a2dccb1ff14f58.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/7289b4cc78f34cd0699de32c288eb8f1.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b3e7fb12338e9f0afb8ffe898a45c39c.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/7951b0f05cb358474d1f84c1021bc602.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8e3a029adbe3c53fb42750ad5eeffa84.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/841c096eb23b8214c76b5d3cada9f135.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/841c096eb23b8214c76b5d3cada9f135.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": [
+        485971,
+        485998
+    ]
+}

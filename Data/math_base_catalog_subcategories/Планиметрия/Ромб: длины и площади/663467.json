@@ -1,0 +1,39 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 663467,
+    "condition": {
+        "text": "Случайная выборка из некоторой генеральной совокупности содержит пять значений: 1,4, 1,2, 1,3, 1,4 и 1,2.  По этой выборке найдите несмещенную оценку дисперсии генеральной совокупности.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body291159\" class=\"pbody\"><p class=\"left_margin\">Слу­чай­ная вы­бор­ка из не­ко­то­рой ге­не­раль­ной со­во­куп­но­сти со­дер­жит пять зна­че­ний: </p><p class=\"left_margin\"></p><center><p class=\"left_margin\">1,4, 1,2, 1,3, 1,4 и 1,2.</p><p class=\"left_margin\"></p></center> <p> По этой вы­бор­ке най­ди­те не­сме­щен­ную оцен­ку дис­пер­сии ге­не­раль­ной со­во­куп­но­сти.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Пусть      Объем выборки  Найдем среднее значение выборки: Найдем дисперсию выборки:Несмещенная оценка дисперсии генеральной совокупности равнаОтвет: 0,01.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol663467\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/52/52346ea2db61a1f6bc6df6b2d327850f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x_1=1,2,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/25/257cf2f53d0cc147676bf36779c860f6.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x_2=1,2,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/67/671bcd2956a48fce96b797f7c9cdf3ac.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x_3=1,3,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/28/2852e1573631f0c0001a7dfa565a4fc3.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x_4=1,4,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/e1/e1c124e16cbd6e77d229cc9065af1fa4.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x_5=1,4.\"> Объем вы­бор­ки <img src=\"https://ege.sdamgia.ru/formula/svg/0e/0e7dd63d9178da701598808d7921959d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"n=5.\"> Най­дем сред­нее зна­че­ние вы­бор­ки:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/c0/c02b67f8cd78f0e2bf3accc9493b584d.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" \\overline x= дробь: чис­ли­тель: x_1 плюс x_2 плюс x_3 плюс x_4 плюс x_5, зна­ме­на­тель: 5 конец дроби = дробь: чис­ли­тель: 1,2 плюс 1,2 плюс 1,3 плюс 1,4 плюс 1,4, зна­ме­на­тель: 5 конец дроби =1,3. \"></p><p class=\"left_margin\"></p></center><p> Най­дем дис­пер­сию вы­бор­ки:</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"f699e02634b384686003bf5c980fe4c6\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/bf/bfe562bc6593f31b7636f861b63f35a0.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" D= дробь: чис­ли­тель: левая круг­лая скоб­ка x_1 минус \\overline x пра­вая круг­лая скоб­ка в квад­ра­те плюс левая круг­лая скоб­ка x_2 минус \\overline x пра­вая круг­лая скоб­ка в квад­ра­те плюс левая круг­лая скоб­ка x_3 минус \\overline x пра­вая круг­лая скоб­ка в квад­ра­те плюс левая круг­лая скоб­ка x_4 минус \\overline x пра­вая круг­лая скоб­ка в квад­ра­те плюс левая круг­лая скоб­ка x_5 минус \\overline x пра­вая круг­лая скоб­ка в квад­ра­те , зна­ме­на­тель: 5 конец дроби = \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/7e/7e157ea21d00e1a65e4a91f441675dd9.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"= дробь: чис­ли­тель: 2 умно­жить на левая круг­лая скоб­ка 1,2 минус 1,3 пра­вая круг­лая скоб­ка в квад­ра­те плюс левая круг­лая скоб­ка 1,3 минус 1,3 пра­вая круг­лая скоб­ка в квад­ра­те плюс 2 умно­жить на левая круг­лая скоб­ка 1,4 минус 1,3 пра­вая круг­лая скоб­ка в квад­ра­те , зна­ме­на­тель: 5 конец дроби = дробь: чис­ли­тель: 4 умно­жить на 0,1 в квад­ра­те , зна­ме­на­тель: 5 конец дроби = дробь: чис­ли­тель: 1, зна­ме­на­тель: 125 конец дроби . \"></span></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Не­сме­щен­ная оцен­ка дис­пер­сии ге­не­раль­ной со­во­куп­но­сти равна</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/3a/3a21284978a9e13745926bea3a01d582.svg\" class=\"tex\" style=\"vertical-align:-9.2pt\" alt=\"S в квад­ра­те = дробь: чис­ли­тель: n, зна­ме­на­тель: n минус 1 конец дроби умно­жить на D = дробь: чис­ли­тель: 5, зна­ме­на­тель: 4 конец дроби умно­жить на дробь: чис­ли­тель: 1, зна­ме­на­тель: 125 конец дроби = дробь: чис­ли­тель: 1, зна­ме­на­тель: конец дроби 100. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 0,01.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/52/52346ea2db61a1f6bc6df6b2d327850f.svg",
+            "https://ege.sdamgia.ru/formula/svg/25/257cf2f53d0cc147676bf36779c860f6.svg",
+            "https://ege.sdamgia.ru/formula/svg/67/671bcd2956a48fce96b797f7c9cdf3ac.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/2852e1573631f0c0001a7dfa565a4fc3.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e1c124e16cbd6e77d229cc9065af1fa4.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0e7dd63d9178da701598808d7921959d.svg",
+            "https://ege.sdamgia.ru/formula/svg/c0/c02b67f8cd78f0e2bf3accc9493b584d.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bfe562bc6593f31b7636f861b63f35a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/7e/7e157ea21d00e1a65e4a91f441675dd9.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3a21284978a9e13745926bea3a01d582.svg"
+        ]
+    },
+    "answer": "0,01",
+    "topic_id": null,
+    "analog_ids": [
+        663467,
+        663468,
+        663469,
+        663470,
+        663468,
+        663469,
+        663470,
+        663471,
+        663472
+    ]
+}

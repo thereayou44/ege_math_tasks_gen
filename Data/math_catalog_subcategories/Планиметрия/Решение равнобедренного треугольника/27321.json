@@ -1,0 +1,57 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27321,
+    "condition": {
+        "text": "В треугольнике ABC  AH − высота,   Найдите ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918597\" class=\"pbody\"><p class=\"left_margin\">В тре­уголь­ни­ке <i>ABC</i> <img src=\"https://ege.sdamgia.ru/formula/svg/d7/d7f135eda8661def45358444c0a7603a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AC = BC,\"> <i>AH</i> − вы­со­та, <img src=\"https://ege.sdamgia.ru/formula/svg/ab/ab1a2bed2c8206fd2b2ffe04bc93b7a9.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AB = 5,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/c0/c0c82002f1929c27db8c8b092ef51343.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" синус BAC = дробь: чис­ли­тель: 7, зна­ме­на­тель: 25 конец дроби . \"> Най­ди­те <img src=\"https://ege.sdamgia.ru/formula/svg/2e/2ede603c967cea8137120223a538a2c4.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BH.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d7/d7f135eda8661def45358444c0a7603a.svg",
+            "https://ege.sdamgia.ru/formula/svg/ab/ab1a2bed2c8206fd2b2ffe04bc93b7a9.svg",
+            "https://ege.sdamgia.ru/formula/svg/c0/c0c82002f1929c27db8c8b092ef51343.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2ede603c967cea8137120223a538a2c4.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение.  Треугольник ABC равнобедренный, значит, углы BAC и ABH равны как углы при его основании.          Ответ: 4,8.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27321\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=109595\" style=\"float:right;margin:10px;max-width:100%\"></p><p>&nbsp;</p><p class=\"left_margin\">Тре­уголь­ник <i>ABC</i> рав­но­бед­рен­ный, зна­чит, углы <i>BAC</i> и <i>ABH</i> равны как углы при его ос­но­ва­нии.      </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/07/0738c4e42babf3a28bdac24e37d25cf2.svg\" class=\"tex\" style=\"vertical-align:-1.9pt\" alt=\"BH=AB ко­си­нус \\angle ABH=AB ко­си­нус \\angle BAC=AB ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус синус в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та \\angle BAC пра­вая круг­лая скоб­ка =\">   </p><p><img src=\"https://ege.sdamgia.ru/formula/svg/27/271dc18f30ca9d446ec7a7b533d9f690.svg\" class=\"tex\" style=\"vertical-align:-12.3pt\" alt=\"=5 ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус левая круг­лая скоб­ка дробь: чис­ли­тель: 7, зна­ме­на­тель: 25 конец дроби пра­вая круг­лая скоб­ка в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та пра­вая круг­лая скоб­ка =5 умно­жить на дробь: чис­ли­тель: 24, зна­ме­на­тель: 25 конец дроби =4,8. \"></p><p class=\"left_margin\"></p></center><p> <span style=\"letter-spaceing:2px\">Ответ</span>: 4,8.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/07/0738c4e42babf3a28bdac24e37d25cf2.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/271dc18f30ca9d446ec7a7b533d9f690.svg",
+            "/get_file?id=109595"
+        ]
+    },
+    "answer": "4,8",
+    "topic_id": 1,
+    "analog_ids": [
+        27321,
+        4835,
+        33243,
+        33245,
+        4835,
+        33243,
+        33245,
+        33247,
+        33249,
+        33251,
+        33253,
+        33255,
+        33257,
+        33259,
+        33261,
+        33263,
+        33265,
+        33267,
+        33269,
+        33271,
+        33273,
+        33275,
+        33277,
+        33279,
+        33281,
+        33283,
+        33285,
+        33287,
+        33289
+    ]
+}

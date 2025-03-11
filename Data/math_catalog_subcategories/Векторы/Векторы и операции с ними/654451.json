@@ -1,0 +1,37 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 654451,
+    "condition": {
+        "text": " На клетчатой бумаге с размером клетки  изображен треугольник ABC. Найдите скалярное произведение ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body496271\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=164817\" style=\"float:right;margin:10px;max-width:100%\"> На клет­ча­той бу­ма­ге с раз­ме­ром клет­ки <img src=\"https://ege.sdamgia.ru/formula/svg/b9/b99a31f00d8eff828fb2b1657efe2f4b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"1\\times 1\"> изоб­ра­жен тре­уголь­ник <i>ABC</i>. Най­ди­те ска­ляр­ное про­из­ве­де­ние <img src=\"https://ege.sdamgia.ru/formula/svg/f0/f0f83881aa95f7d16c65689d21b7bd62.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overrightarrowAB умно­жить на \\overrightarrowAC.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b9/b99a31f00d8eff828fb2b1657efe2f4b.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f0f83881aa95f7d16c65689d21b7bd62.svg",
+            "/get_file?id=164817"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Найдем стороны треугольника по теореме Пифагора (см. рис.), получим:    Квадрат большей стороны равен сумме квадратов меньших сторон, поэтому по теореме, обратной теореме Пифагора, треугольник ABC  — прямоугольный. Обозначим угол между катетом AC и гипотенузой AB равен α, тогда  По определению скалярного произведения получаем:Ответ: 5. Приведём решение, которое предложил Вячеслав Стражец:Введём систему координат как показано на рисунке. Определим координаты векторов  и Найдём скалярное произведение векторов через их координаты:",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol654451\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Най­дем сто­ро­ны тре­уголь­ни­ка по тео­ре­ме Пи­фа­го­ра (см. рис.), по­лу­чим: <img src=\"https://ege.sdamgia.ru/formula/svg/f9/f9eb249dbac919bcca36f688c8e63008.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AC = ко­рень из 5 ,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/91/91abc205ca09b25ae4bc08c2500864c3.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"BC = ко­рень из: на­ча­ло ар­гу­мен­та: 20 конец ар­гу­мен­та ,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/a1/a1fd7479ea3ca99d6322467634142f7d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AB = 5.\"> Квад­рат боль­шей сто­ро­ны равен сумме квад­ра­тов мень­ших сто­рон, по­это­му по тео­ре­ме, об­рат­ной тео­ре­ме Пи­фа­го­ра, тре­уголь­ник <i>ABC</i>  — пря­мо­уголь­ный. </p><p class=\"left_margin\">Обо­зна­чим угол между ка­те­том <i>AC</i> и ги­по­те­ну­зой <i>AB</i> равен α, тогда <img src=\"https://ege.sdamgia.ru/formula/svg/d3/d3a108ae2db85fa19b5765ac19f12674.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"AB = дробь: чис­ли­тель: AC, зна­ме­на­тель: ко­си­нус альфа конец дроби . \"> По опре­де­ле­нию ска­ляр­но­го про­из­ве­де­ния по­лу­ча­ем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ad/ad52a613bcbcd03d8e47392a0c458bca.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"\\overrightarrowAB умно­жить на \\overrightarrowAC = AB умно­жить на AC умно­жить на ко­си­нус альфа = дробь: чис­ли­тель: AC, зна­ме­на­тель: ко­си­нус альфа конец дроби умно­жить на AC ко­си­нус альфа = AC в квад­ра­те = 5. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 5.</p><p>&nbsp;</p><p><b>При­ведём ре­ше­ние, ко­то­рое пред­ло­жил Вя­че­слав Стра­жец:</b></p><p><img src=\"/get_file?id=189468\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">Введём си­сте­му ко­ор­ди­нат как по­ка­за­но на ри­сун­ке. Опре­де­лим ко­ор­ди­на­ты век­то­ров <img src=\"https://ege.sdamgia.ru/formula/svg/ed/ed7822c175dd4385510f7259a7fcfa41.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overrightarrowAB\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/68/68845636d595c38cc23621a77b714319.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overrightarrowAC:\"></p><p class=\"left_margin\"></p><center><p></p><div class=\"flex-math\"><p><img src=\"https://ege.sdamgia.ru/formula/svg/58/5842b26bdeecec8a1325e7444dbe1c77.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" \\overrightarrowAB= левая круг­лая скоб­ка 4; 3 пра­вая круг­лая скоб­ка ,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/b9/b949b9d5d808534ed6442378c46a24b3.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\overrightarrowAC= левая круг­лая скоб­ка 2; минус 1 пра­вая круг­лая скоб­ка .\"></p><p></p></div><p class=\"left_margin\"></p></center><p class=\"left_margin\">Найдём ска­ляр­ное про­из­ве­де­ние век­то­ров через их ко­ор­ди­на­ты:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/0e/0e970e5855ea1c4ac77a1280ca81cfda.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\overrightarrowAB умно­жить на \\overrightarrowAC = 4 умно­жить на 2 плюс 3 умно­жить на левая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка =5.\"></p><p class=\"left_margin\"></p></center></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f9/f9eb249dbac919bcca36f688c8e63008.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/91abc205ca09b25ae4bc08c2500864c3.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a1fd7479ea3ca99d6322467634142f7d.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d3a108ae2db85fa19b5765ac19f12674.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/ad52a613bcbcd03d8e47392a0c458bca.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/ed7822c175dd4385510f7259a7fcfa41.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/68845636d595c38cc23621a77b714319.svg",
+            "https://ege.sdamgia.ru/formula/svg/58/5842b26bdeecec8a1325e7444dbe1c77.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b949b9d5d808534ed6442378c46a24b3.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0e970e5855ea1c4ac77a1280ca81cfda.svg",
+            "/get_file?id=189468"
+        ]
+    },
+    "answer": "5",
+    "topic_id": 2,
+    "analog_ids": [
+        654451,
+        654463
+    ]
+}

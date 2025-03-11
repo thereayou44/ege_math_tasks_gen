@@ -1,0 +1,37 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 26861,
+    "condition": {
+        "text": "Найдите значение выражения ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919057\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те зна­че­ние вы­ра­же­ния <img src=\"https://ege.sdamgia.ru/formula/svg/42/427a39c9f1e31e9719af3981979e6766.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"5 в сте­пе­ни левая круг­лая скоб­ка ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 25 пра­вая круг­лая скоб­ка 49 пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/42/427a39c9f1e31e9719af3981979e6766.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Выполним преобразования:   Ответ: 7.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol26861\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Вы­пол­ним пре­об­ра­зо­ва­ния: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/81/8164f646e87e8b12f9cabb1e32ba4b73.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"5 в сте­пе­ни левая круг­лая скоб­ка ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 25 пра­вая круг­лая скоб­ка 49 пра­вая круг­лая скоб­ка =5 в сте­пе­ни левая круг­лая скоб­ка 2 ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 25 пра­вая круг­лая скоб­ка 7 пра­вая круг­лая скоб­ка =25 в сте­пе­ни левая круг­лая скоб­ка ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 25 пра­вая круг­лая скоб­ка 7 пра­вая круг­лая скоб­ка =7.\"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 7.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/81/8164f646e87e8b12f9cabb1e32ba4b73.svg"
+        ]
+    },
+    "answer": "7",
+    "topic_id": 7,
+    "analog_ids": [
+        26861,
+        4505,
+        4507,
+        4509,
+        4505,
+        4507,
+        4509,
+        4511,
+        4513,
+        4515,
+        4517,
+        4519,
+        4521,
+        26895
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 515122,
+    "condition": {
+        "text": "Решите неравенство ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body635598\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те&nbsp;не­ра­вен­ство&nbsp;<img src=\"https://ege.sdamgia.ru/formula/svg/2a/2a054aa02107df1a8be5f07c90ae74b1.svg\" class=\"tex\" style=\"vertical-align:-4.3pt\" alt=\" ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 6x минус x в квад­ра­те минус 8 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 5 минус x пра­вая круг­лая скоб­ка боль­ше или равно ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 6x минус x в квад­ра­те минус 8 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 4x в квад­ра­те минус 17x плюс 20 пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/2a/2a054aa02107df1a8be5f07c90ae74b1.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Заметим, что  поэтому основание логарифма всегда меньше  и  Тогда можно снять логарифмы, поменяв знак:Пересечение этих лучей с условиями дает ответ  При этих значениях x число логарифма  положительно, а  не меньше его, поэтому тоже положительно. Значит, никаких больше ограничений не требуется. Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol515122\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">За­ме­тим, что <img src=\"https://ege.sdamgia.ru/formula/svg/f1/f1f2427229d6acf3352f9d153dd58453.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" 6x минус x в квад­ра­те минус 8=1 минус левая круг­лая скоб­ка x минус 3 пра­вая круг­лая скоб­ка в квад­ра­те ,\"> по­это­му ос­но­ва­ние ло­га­риф­ма все­гда мень­ше <img src=\"https://ege.sdamgia.ru/formula/svg/54/54cafa3a6d69c189cf2df3978fbdd435.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" 1\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/4d/4db6be8ee4292ac47646171a1600c158.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" x при­над­ле­жит левая круг­лая скоб­ка 2;3 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 3;4 пра­вая круг­лая скоб­ка .\"> Тогда можно снять ло­га­риф­мы, по­ме­няв знак:</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"7c6b4cad0adce1726c07759c77d359fa\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/7c/7c6b4cad0adce1726c07759c77d359fa.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\"5 минус x мень­ше или равно 4x в квад­ра­те минус 17x плюс 20 рав­но­силь­но 0 мень­ше или равно левая круг­лая скоб­ка 2x минус 3 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 2x минус 5 пра­вая круг­лая скоб­ка \\Rightarrow x при­над­ле­жит левая круг­лая скоб­ка минус бес­ко­неч­ность ; дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби пра­вая квад­рат­ная скоб­ка \\cup левая квад­рат­ная скоб­ка дробь: чис­ли­тель: 5, зна­ме­на­тель: 2 конец дроби ; бес­ко­неч­ность пра­вая круг­лая скоб­ка .\"></span><span data-width=\"465\" data-formulahash=\"7c6b4cad0adce1726c07759c77d359fa\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/ee/ee902fc970cbe05ee9b3b1b7d554cf4d.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"5 минус x мень­ше или равно 4x в квад­ра­те минус 17x плюс 20 рав­но­силь­но 0 мень­ше или равно левая круг­лая скоб­ка 2x минус 3 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 2x минус 5 пра­вая круг­лая скоб­ка \\Rightarrow \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/c7/c78c0f923fd9930a8d6cc0406996efcc.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"\\Rightarrow x при­над­ле­жит левая круг­лая скоб­ка минус бес­ко­неч­ность ; дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби пра­вая квад­рат­ная скоб­ка \\cup левая квад­рат­ная скоб­ка дробь: чис­ли­тель: 5, зна­ме­на­тель: 2 конец дроби ; бес­ко­неч­ность пра­вая круг­лая скоб­ка .\"></span></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Пе­ре­се­че­ние этих лучей с усло­ви­я­ми дает ответ <img src=\"https://ege.sdamgia.ru/formula/svg/ee/ee5e056a277efe763f18235ee5e7d3f8.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" дробь: чис­ли­тель: 5, зна­ме­на­тель: 2 конец дроби мень­ше или равно x мень­ше 3, 3 мень­ше x мень­ше 4.\"> При этих зна­че­ни­ях <i>x</i> число ло­га­риф­ма <img src=\"https://ege.sdamgia.ru/formula/svg/2a/2af24c081c0c3d1c9fb4d876103b2593.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" 5 минус x\"> по­ло­жи­тель­но, а <img src=\"https://ege.sdamgia.ru/formula/svg/ab/abe4a954d35e3c8bfa6c8f22394ef427.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" 4x в квад­ра­те минус 17x плюс 20\"> не мень­ше его, по­это­му тоже по­ло­жи­тель­но. Зна­чит, ни­ка­ких боль­ше огра­ни­че­ний не тре­бу­ет­ся.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/d8/d8f6a89de5e7e3c2783a561cb72c24fb.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" x при­над­ле­жит левая квад­рат­ная скоб­ка дробь: чис­ли­тель: 5, зна­ме­на­тель: 2 конец дроби ; 3 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 3; 4 пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f1/f1f2427229d6acf3352f9d153dd58453.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54cafa3a6d69c189cf2df3978fbdd435.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4db6be8ee4292ac47646171a1600c158.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7c6b4cad0adce1726c07759c77d359fa.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/ee902fc970cbe05ee9b3b1b7d554cf4d.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c78c0f923fd9930a8d6cc0406996efcc.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/ee5e056a277efe763f18235ee5e7d3f8.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2af24c081c0c3d1c9fb4d876103b2593.svg",
+            "https://ege.sdamgia.ru/formula/svg/ab/abe4a954d35e3c8bfa6c8f22394ef427.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d8f6a89de5e7e3c2783a561cb72c24fb.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

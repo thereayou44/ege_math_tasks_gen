@@ -1,0 +1,55 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 77436,
+    "condition": {
+        "text": "Найдите точку минимума функции ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body999552\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те точку ми­ни­му­ма функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/10/1062b386e4dfa92854c653a90a0decb1.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=7 плюс 12x минус x в кубе .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/10/1062b386e4dfa92854c653a90a0decb1.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Найдем производную:Найдем нули производной:   Определим знаки производной функции и изобразим на рисунке поведение функции:  Искомая точка минимума  Ответ: −2.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol77436\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Най­дем про­из­вод­ную:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/3c/3ce561ec8356e1f8b3d65843a948afa4.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y' левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =12 минус 3x в квад­ра­те .\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Най­дем нули про­из­вод­ной: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/c8/c869aef738ae8f7a42d87f94714cbdd9.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\"12 минус 3x в квад­ра­те =0 рав­но­силь­но x в квад­ра­те =4 рав­но­силь­но со­во­куп­ность вы­ра­же­ний x=2, x= минус 2. конец со­во­куп­но­сти \"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p class=\"left_margin\">Опре­де­лим знаки про­из­вод­ной функ­ции и изоб­ра­зим на ри­сун­ке по­ве­де­ние функ­ции: </p><p class=\"left_margin\"></p><center><p><img src=\"/get_file?id=108374\" style=\"margin:10px auto;display:block;max-width:100%\"></p><p class=\"left_margin\"></p></center> <p class=\"left_margin\">Ис­ко­мая точка ми­ни­му­ма <img src=\"https://ege.sdamgia.ru/formula/svg/60/60397d20d57a4f844fd21638064762fd.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x= минус 2.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ</span>: −2.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/3c/3ce561ec8356e1f8b3d65843a948afa4.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c869aef738ae8f7a42d87f94714cbdd9.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/60397d20d57a4f844fd21638064762fd.svg",
+            "/get_file?id=108374"
+        ]
+    },
+    "answer": "-2",
+    "topic_id": 12,
+    "analog_ids": [
+        77436,
+        127187,
+        127231,
+        127235,
+        127187,
+        127231,
+        127235,
+        127189,
+        127191,
+        127193,
+        127195,
+        127197,
+        127199,
+        127201,
+        127203,
+        127205,
+        127207,
+        127209,
+        127211,
+        127213,
+        127215,
+        127217,
+        127219,
+        127221,
+        127223,
+        127225,
+        127227,
+        127229,
+        127233
+    ]
+}

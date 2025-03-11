@@ -1,0 +1,50 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 509253,
+    "condition": {
+        "text": " На рисунке изображены графики функций  и  которые пересекаются в точках A и B. Найдите абсциссу точки B.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body633785\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=99458\" style=\"float:right;margin:10px;max-width:100%\"> На ри­сун­ке изоб­ра­же­ны гра­фи­ки функ­ций <img src=\"https://ege.sdamgia.ru/formula/svg/a1/a175389ab3806d970fdbf829f2c195d1.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =4x в квад­ра­те минус 25x плюс 41\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/06/065a0419a0417df3275e9319f03327f6.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"g левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =ax в квад­ра­те плюс bx плюс c,\"> ко­то­рые пе­ре­се­ка­ют­ся в точ­ках <i>A</i> и <i>B</i>. Най­ди­те абс­цис­су точки <i>B</i>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a1/a175389ab3806d970fdbf829f2c195d1.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/065a0419a0417df3275e9319f03327f6.svg",
+            "/get_file?id=99458"
+        ]
+    },
+    "solution": {
+        "text": "Решение. График функции  должен пересекать ось ординат в точке  Значит, график  изображен синим цветом, а график   — оранжевым. По рисунку определяем, что  g(−3)  =  2, g(−1)  =  −2, g(2)  =  7. Тогда Решая полученную систему, получаем: a  =  1, b  =  2, из g(2)  =  7 получим c  =  −1. Теперь найдём абсциссу точки B: Таким образом, ответ  — 7. Ответ: 7.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol509253\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Гра­фик функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/a1/a175389ab3806d970fdbf829f2c195d1.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =4x в квад­ра­те минус 25x плюс 41\"> дол­жен пе­ре­се­кать ось ор­ди­нат в точке <img src=\"https://ege.sdamgia.ru/formula/svg/74/74d747843b1ad2df5ad80b428dd41004.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 0; 41 пра­вая круг­лая скоб­ка .\"> Зна­чит, гра­фик <img src=\"https://ege.sdamgia.ru/formula/svg/7c/7c1c9491ba7c6e8d6d2cfa82e39b22ca.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y=f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка \"> изоб­ра­жен синим цве­том, а гра­фик <img src=\"https://ege.sdamgia.ru/formula/svg/d1/d13f453d5a25ba83fd2f3ecc74880538.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y=g левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка \">  — оран­же­вым. По ри­сун­ку опре­де­ля­ем, что  <i>g</i>(−3)  =  2, <i>g</i>(−1)  =  −2, <i>g</i>(2)  =  7. Тогда</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"3ac489e68c34d6acbf0985ded9435619\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/3a/3ac489e68c34d6acbf0985ded9435619.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"g левая круг­лая скоб­ка минус 3 пра­вая круг­лая скоб­ка минус g левая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка =a левая круг­лая скоб­ка 9 минус 1 пра­вая круг­лая скоб­ка плюс b левая круг­лая скоб­ка минус 3 плюс 1 пра­вая круг­лая скоб­ка =8a минус 2b=2 минус левая круг­лая скоб­ка минус 2 пра­вая круг­лая скоб­ка рав­но­силь­но 8a минус 2b=4,\"></span><span data-width=\"465\" data-formulahash=\"3ac489e68c34d6acbf0985ded9435619\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/92/9208e8d381589a9db04f14ef71695d41.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"g левая круг­лая скоб­ка минус 3 пра­вая круг­лая скоб­ка минус g левая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка =a левая круг­лая скоб­ка 9 минус 1 пра­вая круг­лая скоб­ка плюс b левая круг­лая скоб­ка минус 3 плюс 1 пра­вая круг­лая скоб­ка =8a минус 2b=2 минус левая круг­лая скоб­ка минус 2 пра­вая круг­лая скоб­ка рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/dd/ddef53c98e2888be11ee5e68693a2a0a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" рав­но­силь­но 8a минус 2b=4,\"></span></p><p><span data-width=\"640\" data-formulahash=\"30c3ff5d592371952f728f43ff9143bf\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/30/30c3ff5d592371952f728f43ff9143bf.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"g левая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка минус g левая круг­лая скоб­ка 2 пра­вая круг­лая скоб­ка =a левая круг­лая скоб­ка 1 минус 4 пра­вая круг­лая скоб­ка плюс b левая круг­лая скоб­ка минус 1 минус 2 пра­вая круг­лая скоб­ка = минус 3a минус 3b= минус 2 минус 7 рав­но­силь­но минус 3a минус 3b= минус 9.\"></span><span data-width=\"465\" data-formulahash=\"30c3ff5d592371952f728f43ff9143bf\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/1c/1cfcac515886ae9df3be1e69c229fa15.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"g левая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка минус g левая круг­лая скоб­ка 2 пра­вая круг­лая скоб­ка =a левая круг­лая скоб­ка 1 минус 4 пра­вая круг­лая скоб­ка плюс b левая круг­лая скоб­ка минус 1 минус 2 пра­вая круг­лая скоб­ка = минус 3a минус 3b= минус 2 минус 7 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/d7/d70e4c3bed96225923baee6f8fb007c4.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" рав­но­силь­но минус 3a минус 3b= минус 9.\"></span></p><p class=\"left_margin\"></p></center><p> Решая по­лу­чен­ную си­сте­му, по­лу­ча­ем: <i>a</i>  =  1, <i>b</i>  =  2, из <i>g</i>(2)  =  7 по­лу­чим <i>c</i>  =  −1. Те­перь найдём абс­цис­су точки <i>B</i>:</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"6309e9f9883ad1c889b2d2077e5aba46\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/63/6309e9f9883ad1c889b2d2077e5aba46.svg\" class=\"tex\" style=\"vertical-align:-24.7pt\" alt=\"4x в квад­ра­те минус 25x плюс 41=x в квад­ра­те плюс 2x минус 1 рав­но­силь­но x в квад­ра­те минус 9x плюс 14=0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний x= дробь: чис­ли­тель: 9 плюс ко­рень из: на­ча­ло ар­гу­мен­та: 81 минус 56 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби ,x= дробь: чис­ли­тель: 9 минус ко­рень из: на­ча­ло ар­гу­мен­та: 81 минус 56 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби конец со­во­куп­но­сти . рав­но­силь­но со­во­куп­ность вы­ра­же­ний x=7,x=2. конец со­во­куп­но­сти . \"></span><span data-width=\"540\" data-formulahash=\"6309e9f9883ad1c889b2d2077e5aba46\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/0c/0c92cc0438de74cda76e9ff262a8cc7f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"4x в квад­ра­те минус 25x плюс 41=x в квад­ра­те плюс 2x минус 1 рав­но­силь­но x в квад­ра­те минус 9x плюс 14=0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/54/54b9d8211c1aac36590b78a9a21406c1.svg\" class=\"tex\" style=\"vertical-align:-24.7pt\" alt=\" рав­но­силь­но со­во­куп­ность вы­ра­же­ний x= дробь: чис­ли­тель: 9 плюс ко­рень из: на­ча­ло ар­гу­мен­та: 81 минус 56 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби ,x= дробь: чис­ли­тель: 9 минус ко­рень из: на­ча­ло ар­гу­мен­та: 81 минус 56 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби конец со­во­куп­но­сти . рав­но­силь­но со­во­куп­ность вы­ра­же­ний x=7,x=2. конец со­во­куп­но­сти . \"></span></p><p class=\"left_margin\"></p></center><p> Таким об­ра­зом, ответ  — 7.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 7.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a1/a175389ab3806d970fdbf829f2c195d1.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/74d747843b1ad2df5ad80b428dd41004.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7c1c9491ba7c6e8d6d2cfa82e39b22ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/d1/d13f453d5a25ba83fd2f3ecc74880538.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3ac489e68c34d6acbf0985ded9435619.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/9208e8d381589a9db04f14ef71695d41.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/ddef53c98e2888be11ee5e68693a2a0a.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/30c3ff5d592371952f728f43ff9143bf.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1cfcac515886ae9df3be1e69c229fa15.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d70e4c3bed96225923baee6f8fb007c4.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/6309e9f9883ad1c889b2d2077e5aba46.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c92cc0438de74cda76e9ff262a8cc7f.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54b9d8211c1aac36590b78a9a21406c1.svg"
+        ]
+    },
+    "answer": "7",
+    "topic_id": 11,
+    "analog_ids": [
+        509253,
+        509254,
+        509255,
+        509256,
+        509254,
+        509255,
+        509256,
+        509257,
+        509258,
+        509259,
+        509260,
+        509261,
+        509267
+    ]
+}

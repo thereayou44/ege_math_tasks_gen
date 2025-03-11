@@ -1,0 +1,35 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 513786,
+    "condition": {
+        "text": "Решите неравенство ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body636934\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те&nbsp;не­ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/0c/0cd5b4acc3be1df7b41af5eee1b409c1.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" ло­га­рифм по ос­но­ва­нию 4 левая круг­лая скоб­ка x в квад­ра­те минус 4 пра­вая круг­лая скоб­ка в квад­ра­те плюс ло­га­рифм по ос­но­ва­нию 2 дробь: чис­ли­тель: x минус 1, зна­ме­на­тель: x в квад­ра­те минус 4 конец дроби боль­ше 0. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/0c/0cd5b4acc3be1df7b41af5eee1b409c1.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Поскольку  имеем  Разберем два случая.1)   Тогда неравенство перепишется такИтак, на всем этом промежутке неравенство выполняется.2)   Тогда неравенство перепишется такИтак, подходят  Ответ:  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol513786\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/80/80e09bae6d9777b2f4f5395ee019d758.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: x минус 1, зна­ме­на­тель: x в квад­ра­те минус 4 конец дроби боль­ше 0, \"> имеем <img src=\"https://ege.sdamgia.ru/formula/svg/66/66ef59f40d0d259172658d181a41b381.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x при­над­ле­жит левая круг­лая скоб­ка минус 2;1 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 2; бес­ко­неч­ность пра­вая круг­лая скоб­ка .\"> Раз­бе­рем два слу­чая.</p><p class=\"left_margin\">1)  <img src=\"https://ege.sdamgia.ru/formula/svg/90/90766483dfad1b01e25c7a7cf8aebef1.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x боль­ше 2.\"> Тогда не­ра­вен­ство пе­ре­пи­шет­ся так</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/47/47888f473c24e45d3f2f913862e149e4.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" ло­га­рифм по ос­но­ва­нию 2 левая круг­лая скоб­ка x в квад­ра­те минус 4 пра­вая круг­лая скоб­ка плюс ло­га­рифм по ос­но­ва­нию 2 дробь: чис­ли­тель: x минус 1, зна­ме­на­тель: x в квад­ра­те минус 4 конец дроби боль­ше 0, \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/a1/a1fa62f07e088a2cad6aa4cce288a4c3.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" ло­га­рифм по ос­но­ва­нию 2 левая круг­лая скоб­ка x минус 1 пра­вая круг­лая скоб­ка боль­ше 0,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/b6/b6d0822a20cc6b13cbd99eb749d7faf0.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x минус 1 боль­ше 1,x боль­ше 2.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Итак, на всем этом про­ме­жут­ке не­ра­вен­ство вы­пол­ня­ет­ся.</p><p class=\"left_margin\">2)  <img src=\"https://ege.sdamgia.ru/formula/svg/65/65c4b8a7548dff5a147b3a92d8e69b13.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x при­над­ле­жит левая круг­лая скоб­ка минус 2;1 пра­вая круг­лая скоб­ка .\"> Тогда не­ра­вен­ство пе­ре­пи­шет­ся так</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/5f/5f5d88c0640ab658b9447fee21a4c9f1.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" ло­га­рифм по ос­но­ва­нию 2 левая круг­лая скоб­ка 4 минус x в квад­ра­те пра­вая круг­лая скоб­ка плюс ло­га­рифм по ос­но­ва­нию 2 дробь: чис­ли­тель: x минус 1, зна­ме­на­тель: x в квад­ра­те минус 4 конец дроби боль­ше 0, \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/bb/bb8dba5163d1f538acdbd4fd9d712731.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" ло­га­рифм по ос­но­ва­нию 2 левая круг­лая скоб­ка 1 минус x пра­вая круг­лая скоб­ка боль­ше 0,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/ff/ff961a4794f24474b6979848d273bc29.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1 минус x боль­ше 1,x мень­ше 0.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Итак, под­хо­дят <img src=\"https://ege.sdamgia.ru/formula/svg/3c/3ce0bc9342eafcdc74b18d52663c3260.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x при­над­ле­жит левая круг­лая скоб­ка минус 2;0 пра­вая круг­лая скоб­ка .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  <img src=\"https://ege.sdamgia.ru/formula/svg/39/392a538127fbd9af7c03aaeaddd0e057.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x при­над­ле­жит левая круг­лая скоб­ка минус 2;0 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 2; бес­ко­неч­ность пра­вая круг­лая скоб­ка .\"></p><p></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/80/80e09bae6d9777b2f4f5395ee019d758.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/66ef59f40d0d259172658d181a41b381.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/90766483dfad1b01e25c7a7cf8aebef1.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/47888f473c24e45d3f2f913862e149e4.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a1fa62f07e088a2cad6aa4cce288a4c3.svg",
+            "https://ege.sdamgia.ru/formula/svg/b6/b6d0822a20cc6b13cbd99eb749d7faf0.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/65c4b8a7548dff5a147b3a92d8e69b13.svg",
+            "https://ege.sdamgia.ru/formula/svg/5f/5f5d88c0640ab658b9447fee21a4c9f1.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bb8dba5163d1f538acdbd4fd9d712731.svg",
+            "https://ege.sdamgia.ru/formula/svg/ff/ff961a4794f24474b6979848d273bc29.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3ce0bc9342eafcdc74b18d52663c3260.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/392a538127fbd9af7c03aaeaddd0e057.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": [
+        508675
+    ]
+}

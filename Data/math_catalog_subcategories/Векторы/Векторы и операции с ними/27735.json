@@ -1,0 +1,31 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27735,
+    "condition": {
+        "text": "Найдите угол между векторами  и  Ответ дайте в градусах.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918187\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=143484\" style=\"float:right;margin:10px;max-width:100%\">Най­ди­те угол между век­то­ра­ми <img src=\"https://ege.sdamgia.ru/formula/svg/24/2443510e25925dc900c862964b3b7e39.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overrightarrowa\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/52/524a5d02f643d21a127367a96bee1123.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overrightarrowb.\"> Ответ дайте в гра­ду­сах.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/24/2443510e25925dc900c862964b3b7e39.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/524a5d02f643d21a127367a96bee1123.svg",
+            "/get_file?id=143484"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Скалярное произведение векторов равноС другой стороны, скалярное произведение двух векторов равно произведению их длин на косинус угла между ними. Найдем длины векторов   и :  Тогда справедливо равенство:  откуда  и  Ответ: 45.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27735\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Ска­ляр­ное про­из­ве­де­ние век­то­ров равно</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/34/34714b21cc2de717f2fcc2b270fe106b.svg\" class=\"tex\" style=\"vertical-align:-2.9pt\" alt=\" \\overrightarrowa умно­жить на \\overrightarrowb=x_1 умно­жить на x_2 плюс y_1 умно­жить на y_2=2 умно­жить на 8 плюс 6 умно­жить на 4=40.\"></p><p class=\"left_margin\"></p></center>С дру­гой сто­ро­ны, ска­ляр­ное про­из­ве­де­ние двух век­то­ров равно про­из­ве­де­нию их длин на ко­си­нус угла между ними. Най­дем длины век­то­ров <img src=\"https://ege.sdamgia.ru/formula/svg/89/89e9c902fed032a267e19bcbbe710b75.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overrightarrowa\">  и <img src=\"https://ege.sdamgia.ru/formula/svg/7f/7f711ac1314a21599dc5a9c5bb757eff.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overrightarrowb\">:<p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ff/ff15768bd0ad02baa7c79a7573b4711e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a= ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та в квад­ра­те плюс 6 в квад­ра­те = ко­рень из: на­ча­ло ар­гу­мен­та: 40 конец ар­гу­мен­та ,\"> </p><p><img src=\"https://ege.sdamgia.ru/formula/svg/5c/5c247bd10fa1e79aa1ef29e7b50b2aa2.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"b= ко­рень из: на­ча­ло ар­гу­мен­та: 8 конец ар­гу­мен­та в квад­ра­те плюс 4 в квад­ра­те = ко­рень из: на­ча­ло ар­гу­мен­та: 80 конец ар­гу­мен­та .\"> </p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Тогда спра­вед­ли­во ра­вен­ство: <img src=\"https://ege.sdamgia.ru/formula/svg/2d/2dfd436691136f64bd35925a0c5ed294.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a умно­жить на b умно­жить на ко­си­нус альфа =40,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/6b/6b8563f221f0b470a20383679f07148d.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" ко­си­нус альфа = дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/d2/d2485a4f7588de750c438fd815950e60.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" альфа =45 гра­ду­сов.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 45.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/34/34714b21cc2de717f2fcc2b270fe106b.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/89e9c902fed032a267e19bcbbe710b75.svg",
+            "https://ege.sdamgia.ru/formula/svg/7f/7f711ac1314a21599dc5a9c5bb757eff.svg",
+            "https://ege.sdamgia.ru/formula/svg/ff/ff15768bd0ad02baa7c79a7573b4711e.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5c247bd10fa1e79aa1ef29e7b50b2aa2.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2dfd436691136f64bd35925a0c5ed294.svg",
+            "https://ege.sdamgia.ru/formula/svg/6b/6b8563f221f0b470a20383679f07148d.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d2485a4f7588de750c438fd815950e60.svg"
+        ]
+    },
+    "answer": "45",
+    "topic_id": 2,
+    "analog_ids": []
+}

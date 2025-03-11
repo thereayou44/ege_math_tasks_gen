@@ -1,0 +1,57 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27146,
+    "condition": {
+        "text": " Два ребра прямоугольного параллелепипеда, выходящие из одной вершины, равны 1, 2. Объем параллелепипеда равен 6. Найдите площадь его поверхности.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918774\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=113352\" style=\"float:right;margin:10px;max-width:100%\"> Два ребра пря­мо­уголь­но­го па­рал­ле­ле­пи­пе­да, вы­хо­дя­щие из одной вер­ши­ны, равны 1, 2. Объем па­рал­ле­ле­пи­пе­да равен 6. Най­ди­те пло­щадь его по­верх­но­сти.</p></div>",
+        "image_urls": [
+            "/get_file?id=113352"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Найдем третье ребро из выражения для объема:  Площадь поверхности параллелепипеда равна Ответ: 22.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27146\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Най­дем тре­тье ребро из вы­ра­же­ния для объ­е­ма: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/2b/2babfb3a214ec99dd30cad50d6e1ca71.svg\" class=\"tex\" style=\"vertical-align:-10.0pt\" alt=\"a_3= дробь: чис­ли­тель: V, зна­ме­на­тель: a_1a_2 конец дроби = дробь: чис­ли­тель: 6, зна­ме­на­тель: 2 конец дроби =3. \"></p><p class=\"left_margin\"></p></center><p> Пло­щадь по­верх­но­сти па­рал­ле­ле­пи­пе­да равна</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/b9/b99847959514629bff2c864d8c3cc7be.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"S=2 левая круг­лая скоб­ка a_1a_2 плюс a_1a_3 плюс a_2a_3 пра­вая круг­лая скоб­ка =2 левая круг­лая скоб­ка 2 плюс 3 плюс 6 пра­вая круг­лая скоб­ка =22.\"></p><p class=\"left_margin\"></p></center> <p><span style=\"letter-spacing: 2px;\">Ответ:</span> 22.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/2b/2babfb3a214ec99dd30cad50d6e1ca71.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b99847959514629bff2c864d8c3cc7be.svg"
+        ]
+    },
+    "answer": "22",
+    "topic_id": 3,
+    "analog_ids": [
+        27146,
+        75905,
+        75907,
+        75909,
+        75905,
+        75907,
+        75909,
+        75911,
+        75913,
+        75915,
+        75917,
+        75919,
+        75921,
+        75923,
+        75925,
+        75927,
+        75929,
+        75931,
+        75933,
+        75935,
+        75937,
+        75939,
+        75941,
+        75943,
+        75945,
+        75947,
+        75949,
+        75951,
+        75953,
+        75955,
+        75957,
+        75959,
+        75961
+    ]
+}

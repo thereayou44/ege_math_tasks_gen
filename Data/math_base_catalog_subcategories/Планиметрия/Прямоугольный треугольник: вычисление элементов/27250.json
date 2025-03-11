@@ -1,0 +1,55 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27250,
+    "condition": {
+        "text": "В треугольнике ABC угол C равен 90°, AC  =  24, BC  =  7. Найдите ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918670\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=144915\" style=\"float:right;margin:10px;max-width:100%\">В тре­уголь­ни­ке <i>ABC</i> угол <i>C</i> равен 90°, <i>AC</i>  =  24, <i>BC</i>  =  7. Най­ди­те <img src=\"https://ege.sdamgia.ru/formula/svg/c0/c0bbf2df44763488a77703a12ef53f51.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" синус A.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c0/c0bbf2df44763488a77703a12ef53f51.svg",
+            "/get_file?id=144915"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Имеем:  Ответ: 0,28.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27250\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Имеем: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/01/01b11d311b8a1ce5f67a068595b6bd72.svg\" class=\"tex\" style=\"vertical-align:-10.9pt\" alt=\" синус A= дробь: чис­ли­тель: BC, зна­ме­на­тель: AB конец дроби = дробь: чис­ли­тель: BC, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: BC в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та плюс AC в квад­ра­те пра­вая круг­лая скоб­ка конец дроби = дробь: чис­ли­тель: 7, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 576 плюс 49 конец ар­гу­мен­та конец дроби = дробь: чис­ли­тель: 7, зна­ме­на­тель: 25 конец дроби =0,28. \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 0,28.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/01/01b11d311b8a1ce5f67a068595b6bd72.svg"
+        ]
+    },
+    "answer": "0,28",
+    "topic_id": 1,
+    "analog_ids": [
+        27250,
+        30017,
+        30065,
+        560130,
+        30017,
+        30065,
+        560130,
+        560649,
+        30019,
+        30021,
+        30023,
+        30025,
+        30027,
+        30029,
+        30031,
+        30033,
+        30035,
+        30037,
+        30039,
+        30041,
+        30043,
+        30045,
+        30047,
+        30049,
+        30051,
+        30053,
+        30055,
+        30057,
+        30059,
+        30061,
+        30063
+    ]
+}

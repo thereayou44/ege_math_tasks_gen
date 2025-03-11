@@ -1,0 +1,50 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 28005,
+    "condition": {
+        "text": "Плоский замкнутый контур площадью  находится в магнитном поле, индукция которого равномерно возрастает. При этом согласно закону электромагнитной индукции Фарадея в контуре появляется ЭДС индукции, значение которой, выраженное в вольтах, определяется формулой   где α  — острый угол между направлением магнитного поля и перпендикуляром к контуру,   —  постоянная, S  — площадь замкнутого контура, находящегося в магнитном поле  (в  м2). При каком минимальном угле α  (в  градусах) ЭДС индукции не будет превышать ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918425\" class=\"pbody\"><p class=\"left_margin\">Плос­кий за­мкну­тый кон­тур пло­ща­дью <img src=\"https://ege.sdamgia.ru/formula/svg/ae/ae370bd80982113bf95aa9c18fd07437.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"S = 0,5 м в квад­ра­те \"> на­хо­дит­ся в маг­нит­ном поле, ин­дук­ция ко­то­ро­го рав­но­мер­но воз­рас­та­ет. При этом со­глас­но за­ко­ну элек­тро­маг­нит­ной ин­дук­ции Фа­ра­дея в кон­ту­ре по­яв­ля­ет­ся ЭДС ин­дук­ции, зна­че­ние ко­то­рой, вы­ра­жен­ное в воль­тах, опре­де­ля­ет­ся фор­му­лой  <img src=\"https://ege.sdamgia.ru/formula/svg/16/160ca8eff41676e8b16e878ab611e52b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\mathcal E_i = aS ко­си­нус альфа ,\"> где α  — ост­рый угол между на­прав­ле­ни­ем маг­нит­но­го поля и пер­пен­ди­ку­ля­ром к кон­ту­ру, <nobr><img src=\"https://ege.sdamgia.ru/formula/svg/29/29c05f5ac51f176d8d941afa965c86e2.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"a = 4 умно­жить на 10 в сте­пе­ни левая круг­лая скоб­ка минус 4 пра­вая круг­лая скоб­ка Тл/с\">  — </nobr> по­сто­ян­ная, <i>S</i>  — пло­щадь за­мкну­то­го кон­ту­ра, на­хо­дя­ще­го­ся в маг­нит­ном поле  (в  м<sup>2</sup>). При каком ми­ни­маль­ном угле α  (в  гра­ду­сах) ЭДС ин­дук­ции не будет пре­вы­шать <img src=\"https://ege.sdamgia.ru/formula/svg/8b/8b4083b8fb8dffb149da1d48f42828f1.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"10 в сте­пе­ни левая круг­лая скоб­ка минус 4 пра­вая круг­лая скоб­ка В ?\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ae/ae370bd80982113bf95aa9c18fd07437.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/160ca8eff41676e8b16e878ab611e52b.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/29c05f5ac51f176d8d941afa965c86e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8b4083b8fb8dffb149da1d48f42828f1.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Задача сводится к решению неравенства  на интервале  при заданных значениях площади контура  и постоянной  Искомый наименьший угол равен 60°. Ответ: 60.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol28005\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">За­да­ча сво­дит­ся к ре­ше­нию не­ра­вен­ства <img src=\"https://ege.sdamgia.ru/formula/svg/64/642624210fb1ce360594c5bffaa32ca8.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"\\mathcal E_i мень­ше или равно 10 в сте­пе­ни левая круг­лая скоб­ка минус 4 пра­вая круг­лая скоб­ка }\"> на ин­тер­ва­ле <img src=\"https://ege.sdamgia.ru/formula/svg/9d/9d9a16862f9c7e6f9693245a71a5ab3a.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 0 гра­ду­сов ; 90 гра­ду­сов пра­вая круг­лая скоб­ка \"> при за­дан­ных зна­че­ни­ях пло­ща­ди кон­ту­ра <img src=\"https://ege.sdamgia.ru/formula/svg/ae/ae370bd80982113bf95aa9c18fd07437.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"S = 0,5 м в квад­ра­те \"> и по­сто­ян­ной <img src=\"https://ege.sdamgia.ru/formula/svg/8d/8d589df5240e8bf4fcb431836dea5cf1.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"a = 4 умно­жить на 10 в сте­пе­ни левая круг­лая скоб­ка минус 4 пра­вая круг­лая скоб­ка Тл / с :\"></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/13/13b85871c3b759e9650fde677f2a24d9.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"4 умно­жить на 10 в сте­пе­ни левая круг­лая скоб­ка минус 4 пра­вая круг­лая скоб­ка умно­жить на 0,5 ко­си­нус альфа мень­ше или равно 10 в сте­пе­ни левая круг­лая скоб­ка минус 4 пра­вая круг­лая скоб­ка } рав­но­силь­но ко­си­нус альфа мень­ше или равно дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби \\underset 0 гра­ду­сов мень­ше альфа мень­ше 90 гра­ду­сов \\mathop рав­но­силь­но 60 гра­ду­сов мень­ше или равно альфа мень­ше 90 гра­ду­сов .\"></p><p class=\"left_margin\"></p></center><p> Ис­ко­мый наи­мень­ший угол равен 60°.</p><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ</span>: 60.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/64/642624210fb1ce360594c5bffaa32ca8.svg",
+            "https://ege.sdamgia.ru/formula/svg/9d/9d9a16862f9c7e6f9693245a71a5ab3a.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/ae370bd80982113bf95aa9c18fd07437.svg",
+            "https://ege.sdamgia.ru/formula/svg/8d/8d589df5240e8bf4fcb431836dea5cf1.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/13b85871c3b759e9650fde677f2a24d9.svg"
+        ]
+    },
+    "answer": "60",
+    "topic_id": 9,
+    "analog_ids": [
+        28005,
+        28599,
+        43355,
+        28601,
+        28599,
+        43355,
+        28601,
+        28603,
+        28605,
+        28607,
+        43335,
+        43337,
+        43339,
+        43341,
+        43343,
+        43345,
+        43347,
+        43349,
+        43351,
+        43353
+    ]
+}

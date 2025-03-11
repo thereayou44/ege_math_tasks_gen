@@ -1,0 +1,36 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 526595,
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых любое число x из отрезка [3;5] является решением уравнения ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body419839\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния <i>a</i>, при каж­дом из ко­то­рых любое число <i>x</i> из от­рез­ка [3;5] яв­ля­ет­ся ре­ше­ни­ем урав­не­ния <img src=\"https://ege.sdamgia.ru/formula/svg/eb/eb186db21d3e05e38231b0abb224d52e.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"|x минус a минус 6| плюс | x плюс a плюс 4| = 2a плюс 10.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/eb/eb186db21d3e05e38231b0abb224d52e.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Если  то уравнение решений не имеет.Пусть a  =  −5. Тогда уравнение имеет вид  и ни одно число из отрезка [3, 5] не является его решением.Пусть a > −5. Запишем уравнение в видеПри a > −5 верно неравенство   и поэтому решением уравнения является любое число из отрезка  поскольку длина этого отрезка равна  и уравнению удовлетворяют те и только те точки х, сумма расстояний от каждой из которых до точек  и  равна Осталось выбрать те значения а, при каждом из которых отрезок  содержит отрезок [3, 5]. Это выполнено тогда и только тогда, когдаОтвет: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol526595\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Если <img src=\"https://ege.sdamgia.ru/formula/svg/8b/8b591c0a94cfb4a30c38658c129bd628.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2a плюс 10 мень­ше 0,\"> то урав­не­ние ре­ше­ний не имеет.</p><p class=\"left_margin\">Пусть <i>a</i>  =  −5. Тогда урав­не­ние имеет вид <img src=\"https://ege.sdamgia.ru/formula/svg/4d/4d4b0dfd5e4806af571067c463bd00c5.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"|x минус 1| плюс |x минус 1| = 0\"> и ни одно число из от­рез­ка [3, 5] не яв­ля­ет­ся его ре­ше­ни­ем.</p><p class=\"left_margin\">Пусть <i>a</i> &gt; −5. За­пи­шем урав­не­ние в виде</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e8/e88d1a23b41fc42523a842eae1afee47.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"|x минус левая круг­лая скоб­ка a плюс 6 пра­вая круг­лая скоб­ка | плюс |x минус левая круг­лая скоб­ка минус a минус 4 пра­вая круг­лая скоб­ка | = 2a плюс 10.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">При <i>a</i> &gt; −5 верно не­ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/14/14f51e10b6cf1d9d28e8d9ab6e38f301.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" минус a минус 4 мень­ше a плюс 6,\">  и по­это­му ре­ше­ни­ем урав­не­ния яв­ля­ет­ся любое число из от­рез­ка <img src=\"https://ege.sdamgia.ru/formula/svg/ca/ca73f1aa9552c853ba950fe03ba3345e.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка минус a минус 4,a плюс 6 пра­вая квад­рат­ная скоб­ка ,\"> по­сколь­ку длина этого от­рез­ка равна <img src=\"https://ege.sdamgia.ru/formula/svg/3e/3e3e8a4483f5b768237314379d26d828.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка a плюс 6 пра­вая круг­лая скоб­ка минус левая круг­лая скоб­ка минус a минус 4 пра­вая круг­лая скоб­ка = 2a плюс 10\"> и урав­не­нию удо­вле­тво­ря­ют те и толь­ко те точки <i>х</i>, сумма рас­сто­я­ний от каж­дой из ко­то­рых до точек <img src=\"https://ege.sdamgia.ru/formula/svg/c6/c63a05d194d40b517c1fa470de0efde4.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x = a плюс 6\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/c0/c0349a5316eb9acb440f22f9a48be5e9.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x = минус a минус 4\"> равна <img src=\"https://ege.sdamgia.ru/formula/svg/22/22954f3e64fe96fe40466a7deef5d1f0.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2a плюс 10.\"></p><p class=\"left_margin\">Оста­лось вы­брать те зна­че­ния <i>а</i>, при каж­дом из ко­то­рых от­ре­зок <img src=\"https://ege.sdamgia.ru/formula/svg/57/57184d887aa211ceab60ad394493edeb.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка минус a минус 4,a плюс 6 пра­вая квад­рат­ная скоб­ка \"> со­дер­жит от­ре­зок [3, 5]. Это вы­пол­не­но тогда и толь­ко тогда, когда</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/8f/8f94c5acdb777072d721fb78665b2215.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний  новая стро­ка минус a минус 4 мень­ше или равно 3,  новая стро­ка a плюс 6 боль­ше или равно 5 конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний  новая стро­ка a боль­ше или равно минус 7,  новая стро­ка a боль­ше или равно минус 1 конец си­сте­мы . рав­но­силь­но a боль­ше или равно минус 1.\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/32/3261cf21a8fd1995bbc1a658ea11f468.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"a боль­ше или равно минус 1.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/8b/8b591c0a94cfb4a30c38658c129bd628.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4d4b0dfd5e4806af571067c463bd00c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e88d1a23b41fc42523a842eae1afee47.svg",
+            "https://ege.sdamgia.ru/formula/svg/14/14f51e10b6cf1d9d28e8d9ab6e38f301.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/ca73f1aa9552c853ba950fe03ba3345e.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e3e8a4483f5b768237314379d26d828.svg",
+            "https://ege.sdamgia.ru/formula/svg/c6/c63a05d194d40b517c1fa470de0efde4.svg",
+            "https://ege.sdamgia.ru/formula/svg/c0/c0349a5316eb9acb440f22f9a48be5e9.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/22954f3e64fe96fe40466a7deef5d1f0.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/57184d887aa211ceab60ad394493edeb.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8f94c5acdb777072d721fb78665b2215.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/3261cf21a8fd1995bbc1a658ea11f468.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 18,
+    "analog_ids": [
+        526595,
+        526603
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 484658,
+    "condition": {
+        "text": "Ученик должен перемножить два трехзначных числа и разделить их произведение на пятизначное. Однако он не заметил знака умножения и принял два записанных рядом трехзначных числа за одно шестизначное. Поэтому полученное частное (натуральное) оказалось в 3 раза больше истинного. Найдите все три числа.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body592846\" class=\"pbody\"><p class=\"left_margin\">Уче­ник дол­жен пе­ре­мно­жить два трех­знач­ных числа и раз­де­лить их про­из­ве­де­ние на пя­ти­знач­ное. Од­на­ко он не за­ме­тил знака умно­же­ния и при­нял два за­пи­сан­ных рядом трех­знач­ных числа за одно ше­сти­знач­ное. По­это­му по­лу­чен­ное част­ное (на­ту­раль­ное) ока­за­лось в 3 раза боль­ше ис­тин­но­го. Най­ди­те все три числа.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Обозначим эти числа за a, b и c. Имеем  а значит,  Так как правая часть полученного равенства делится на a, значит, , левая часть тоже делится на a и  Получаем  что равносильно  Обратим внимание, что k не превосходит 9, так как a и b  — трехзначные числа, а  делится на 3. Значит, возможны только варианты  Если  то  а  или  (других пятизначных делителей у ab нет). Если  то  что противоречит условию. Если  то  что противоречит условию. Ответ: 167, 334 и 27889 или 167, 334 и 55778.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol484658\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Обо­зна­чим эти числа за <i>a, b</i> и <i>c</i>. Имеем </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/fe/fedcce3e10ab76353f6ec5dafce245b1.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 1000a плюс b, зна­ме­на­тель: c конец дроби =3 умно­жить на дробь: чис­ли­тель: ab, зна­ме­на­тель: c конец дроби , \"></p><p class=\"left_margin\"></p></center> <p>а зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/22/22e50fde696fecfeb0b996a1c95a6cea.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"1000a плюс b=3ab.\"></p><p>&nbsp;</p><p class=\"left_margin\">Так как пра­вая часть по­лу­чен­но­го ра­вен­ства де­лит­ся на <i>a,</i> зна­чит, , левая часть тоже де­лит­ся на <i>a</i> и <img src=\"https://ege.sdamgia.ru/formula/svg/32/320190278660dcd34858ae8b484e6298.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"b=ka.\"> По­лу­ча­ем </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/fd/fd3f8348ffba7dcf7d078143a7843716.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1000a плюс ka=3ka в квад­ра­те ,\"></p><p class=\"left_margin\"></p></center> <p>что рав­но­силь­но </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/fd/fd25e69dd8ec304ecbd486fd931d9ab4.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"1000 плюс k=3ka.\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p class=\"left_margin\">Об­ра­тим вни­ма­ние, что <i>k</i> не пре­вос­хо­дит 9, так как <i>a</i> и <i>b</i>  — трех­знач­ные числа, а <img src=\"https://ege.sdamgia.ru/formula/svg/da/dadbcdcb27270b34bac4972d8fa0fd3a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"1000 плюс k\"> де­лит­ся на 3. Зна­чит, воз­мож­ны толь­ко ва­ри­ан­ты <img src=\"https://ege.sdamgia.ru/formula/svg/9f/9f9d0fbe6d471fc69c7d989c71a67917.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"k=2,k=5,k=8.\"></p><p>&nbsp;</p><p class=\"left_margin\">Если <img src=\"https://ege.sdamgia.ru/formula/svg/9c/9c04a2b9a6c9fd2a0d6f354b78bc152a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"k=2,\"> то <img src=\"https://ege.sdamgia.ru/formula/svg/05/054990495c80ace1334c03f53f6eb0e7.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a=167,b=334,\"> а <img src=\"https://ege.sdamgia.ru/formula/svg/64/641644b210e9921095f0af7cc868d803.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"c=27889\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/b2/b2a9c00fa878120cefec750467ccdc11.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"c=55778\"> (дру­гих пя­ти­знач­ных де­ли­те­лей у <i>ab</i> нет).</p><p>&nbsp;</p><p class=\"left_margin\">Если <img src=\"https://ege.sdamgia.ru/formula/svg/c5/c5667a19831fac792d5a67524979b1c6.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"k=5,\"> то <img src=\"https://ege.sdamgia.ru/formula/svg/02/02abcd9f0615ebe79af4a19d49f44a44.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a=67,\"> что про­ти­во­ре­чит усло­вию.</p><p>&nbsp;</p><p class=\"left_margin\">Если <img src=\"https://ege.sdamgia.ru/formula/svg/87/87d59cec495472c9c5eb126a93982bd0.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"k=8,\"> то <img src=\"https://ege.sdamgia.ru/formula/svg/79/7981b79200cef32b554a44a2a24b84fb.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a=42,\"> что про­ти­во­ре­чит усло­вию.</p><p>&nbsp;</p><p class=\"left_margin\">Ответ: 167, 334 и 27889 или 167, 334 и 55778.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/fe/fedcce3e10ab76353f6ec5dafce245b1.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/22e50fde696fecfeb0b996a1c95a6cea.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/320190278660dcd34858ae8b484e6298.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fd3f8348ffba7dcf7d078143a7843716.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fd25e69dd8ec304ecbd486fd931d9ab4.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/dadbcdcb27270b34bac4972d8fa0fd3a.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9f9d0fbe6d471fc69c7d989c71a67917.svg",
+            "https://ege.sdamgia.ru/formula/svg/9c/9c04a2b9a6c9fd2a0d6f354b78bc152a.svg",
+            "https://ege.sdamgia.ru/formula/svg/05/054990495c80ace1334c03f53f6eb0e7.svg",
+            "https://ege.sdamgia.ru/formula/svg/64/641644b210e9921095f0af7cc868d803.svg",
+            "https://ege.sdamgia.ru/formula/svg/b2/b2a9c00fa878120cefec750467ccdc11.svg",
+            "https://ege.sdamgia.ru/formula/svg/c5/c5667a19831fac792d5a67524979b1c6.svg",
+            "https://ege.sdamgia.ru/formula/svg/02/02abcd9f0615ebe79af4a19d49f44a44.svg",
+            "https://ege.sdamgia.ru/formula/svg/87/87d59cec495472c9c5eb126a93982bd0.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/7981b79200cef32b554a44a2a24b84fb.svg"
+        ]
+    },
+    "answer": "167, 334 и 27889 или 167, 334 и 55778.",
+    "topic_id": null,
+    "analog_ids": [
+        484658,
+        511320
+    ]
+}

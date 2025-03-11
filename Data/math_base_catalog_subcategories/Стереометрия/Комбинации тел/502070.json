@@ -1,0 +1,25 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 502070,
+    "condition": {
+        "text": "Прямоугольный параллелепипед описан около сферы радиуса 17. Найдите его объём.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body640970\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=139953\" style=\"float:right;margin:10px;max-width:100%\">Пря­мо­уголь­ный па­рал­ле­ле­пи­пед опи­сан около сферы ра­ди­у­са 17. Най­ди­те его объём.</p></div>",
+        "image_urls": [
+            "/get_file?id=139953"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Прямоугольный параллелепипед, описанный вокруг сферы, является кубом. Его объём равен кубу его ребра. Ребро куба вдвое больше радиуса сферы, следовательно,  Ответ: 39 304.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol502070\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пря­мо­уголь­ный па­рал­ле­ле­пи­пед, опи­сан­ный во­круг сферы, яв­ля­ет­ся кубом. Его объём равен кубу его ребра. Ребро куба вдвое боль­ше ра­ди­у­са сферы, сле­до­ва­тель­но, </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/fc/fc36d7556fe3c9a2aaaef0c42e950e62.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"V=a в кубе = левая круг­лая скоб­ка 2r пра­вая круг­лая скоб­ка в кубе =34 в кубе =39304.\"></p><p class=\"left_margin\"></p></center> <p><span style=\"letter-spacing:2px \">Ответ</span>: 39 304.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/fc/fc36d7556fe3c9a2aaaef0c42e950e62.svg"
+        ]
+    },
+    "answer": "39304",
+    "topic_id": 3,
+    "analog_ids": [
+        502070,
+        502090
+    ]
+}

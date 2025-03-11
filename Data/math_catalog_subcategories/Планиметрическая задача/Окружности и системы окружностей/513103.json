@@ -1,0 +1,34 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 513103,
+    "condition": {
+        "text": "Точка B лежит на отрезке AC. Прямая, проходящая через точку A, касается окружности с диаметром BC в точке M и второй раз пересекает окружность с диаметром AB в точке K. Продолжение отрезка MB пересекает окружность с диаметром AB в точке D.а)  Докажите, что прямые AD и MC параллельны.б)  Найдите площадь треугольника DBC, если AK  =  3 и MK  =  12.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body637619\" class=\"pbody\"><p class=\"left_margin\">Точка <i>B</i> лежит на от­рез­ке <i>AC</i>. Пря­мая, про­хо­дя­щая через точку <i>A</i>, ка­са­ет­ся окруж­но­сти с диа­мет­ром <i>BC</i> в точке <i>M</i> и вто­рой раз пе­ре­се­ка­ет окруж­ность с диа­мет­ром <i>AB</i> в точке <i>K</i>. Про­дол­же­ние от­рез­ка <i>MB</i> пе­ре­се­ка­ет окруж­ность с диа­мет­ром <i>AB</i> в точке <i>D</i>.</p><p class=\"left_margin\">а)  До­ка­жи­те, что пря­мые <i>AD</i> и <i>MC</i> па­рал­лель­ны.</p><p class=\"left_margin\">б)  Най­ди­те пло­щадь тре­уголь­ни­ка <i>DBC</i>, если <i>AK</i>  =  3 и <i>MK</i>  =  12.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Точки M и D лежат на окружностях с диаметрами BC и AB соответственно, поэтому Прямые AD и MC перпендикулярны одной и той же прямой MD, следовательно, прямые AD и MC параллельны.б)  Пусть точка  O  — центр окружности с диаметром BC. Тогда прямые OM и AM взаимно перпендикулярны. Прямые BK и AM также взаимно перпендикулярны. Таким образом, прямые OM и BK параллельны. Обозначим BK через x. Треугольник AMO подобен треугольнику AKB с коэффициентом 5, поэтому OB  =  OM  =  5x. Опустим перпендикуляр BP из точки B на прямую OM. Так как четырёхугольник BKMP  — прямоугольник, получаем:По теореме Пифагора OB2  =  BP2 + OP2, откуда 25x2  =  144 + 16x2. Получаем, что x  =  4. Поскольку прямые AD и MC параллельны, имеем: Значит, треугольники DBC и AMB равновелики. Следовательно,Ответ: 30.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol513103\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=147959\" style=\"float:right;margin:10px;max-width:100%\">а)  Точки <i>M</i> и <i>D</i> лежат на окруж­но­стях с диа­мет­ра­ми <i>BC</i> и <i>AB</i> со­от­вет­ствен­но, по­это­му</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/6c/6ccaada82c2436dc90d524d613c4c949.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle BMC=\\angle BDA=90 гра­ду­сов.\"></p><p class=\"left_margin\"></p></center><p> Пря­мые <i>AD</i> и <i>MC</i> пер­пен­ди­ку­ляр­ны одной и той же пря­мой <i>MD</i>, сле­до­ва­тель­но, пря­мые <i>AD</i> и <i>MC</i> па­рал­лель­ны.</p><p class=\"left_margin\">б)  Пусть точка  <i>O</i>  — центр окруж­но­сти с диа­мет­ром <i>BC</i>. Тогда пря­мые <i>OM</i> и <i>AM</i> вза­им­но пер­пен­ди­ку­ляр­ны. Пря­мые <i>BK</i> и <i>AM</i> также вза­им­но пер­пен­ди­ку­ляр­ны. Таким об­ра­зом, пря­мые <i>OM</i> и <i>BK</i> па­рал­лель­ны. Обо­зна­чим <i>BK</i> через <i>x</i>. Тре­уголь­ник <i>AMO</i> по­до­бен тре­уголь­ни­ку <i>AKB</i> с ко­эф­фи­ци­ен­том 5, по­это­му <i>OB</i>  =  <i>OM</i>  =  5<i>x</i>. Опу­стим пер­пен­ди­ку­ляр <i>BP</i> из точки <i>B</i> на пря­мую <i>OM</i>. Так как четырёхуголь­ник <i>BKMP</i>  — пря­мо­уголь­ник, по­лу­ча­ем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d7/d766ac33ea7b025c36bb638e4fa0ac02.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"BP=KM=12,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/53/530cbe9c617d6d8e3a78849e5eb1233f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"OP=OM минус MP=OM минус BK=5x минус x=4x.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">По тео­ре­ме Пи­фа­го­ра <i>OB</i><sup>2</sup>  =  <i>BP</i><sup>2</sup> + <i>OP</i><sup>2</sup>, от­ку­да 25<i>x</i><sup>2</sup>  =  144 + 16<i>x</i><sup>2</sup>. По­лу­ча­ем, что <i>x</i>  =  4. По­сколь­ку пря­мые <i>AD</i> и <i>MC</i> па­рал­лель­ны, имеем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/b9/b9390f868fd77c448a180c1e374be2ce.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"S_DBC=S_MDC минус S_MBC=S_MAC минус S_MBC=S_ABM.\"></p><p class=\"left_margin\"></p></center><p> Зна­чит, тре­уголь­ни­ки <i>DBC</i> и <i>AMB</i> рав­но­ве­ли­ки. Сле­до­ва­тель­но,</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/85/8522d7b30eb0a684c8b2025592679a93.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S_DBC=S_AMB= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби AM умно­жить на BK= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на 15x= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на 15 умно­жить на 4=30. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 30.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/6c/6ccaada82c2436dc90d524d613c4c949.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d766ac33ea7b025c36bb638e4fa0ac02.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/530cbe9c617d6d8e3a78849e5eb1233f.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b9390f868fd77c448a180c1e374be2ce.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/8522d7b30eb0a684c8b2025592679a93.svg",
+            "/get_file?id=147959"
+        ]
+    },
+    "answer": "30.",
+    "topic_id": 17,
+    "analog_ids": [
+        513103,
+        513104,
+        513105,
+        639486,
+        513104,
+        513105,
+        639486,
+        639652
+    ]
+}

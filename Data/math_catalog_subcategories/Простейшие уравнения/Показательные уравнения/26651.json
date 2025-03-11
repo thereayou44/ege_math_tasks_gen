@@ -1,0 +1,55 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 26651,
+    "condition": {
+        "text": "Найдите корень уравнения ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919271\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те ко­рень урав­не­ния <img src=\"https://ege.sdamgia.ru/formula/svg/9f/9f9e892c8d76f101267e6df9aaad9dc4.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"5 в сте­пе­ни левая круг­лая скоб­ка x минус 7 пра­вая круг­лая скоб­ка = дробь: чис­ли­тель: 1, зна­ме­на­тель: 125 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/9f/9f9e892c8d76f101267e6df9aaad9dc4.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Перейдем к одному основанию степени: Ответ: 4.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol26651\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пе­рей­дем к од­но­му ос­но­ва­нию сте­пе­ни:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/4d/4db5072e870b23c9719d9cf9ba09a488.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"5 в сте­пе­ни левая круг­лая скоб­ка x минус 7 пра­вая круг­лая скоб­ка = дробь: чис­ли­тель: 1, зна­ме­на­тель: 125 конец дроби рав­но­силь­но 5 в сте­пе­ни левая круг­лая скоб­ка x минус 7 пра­вая круг­лая скоб­ка =5 в сте­пе­ни левая круг­лая скоб­ка минус 3 пра­вая круг­лая скоб­ка рав­но­силь­но x минус 7= минус 3 рав­но­силь­но x=4. \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ</span>: 4.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/4d/4db5072e870b23c9719d9cf9ba09a488.svg"
+        ]
+    },
+    "answer": "4",
+    "topic_id": 6,
+    "analog_ids": [
+        26651,
+        2777,
+        2815,
+        509492,
+        2777,
+        2815,
+        509492,
+        509655,
+        509879,
+        526207,
+        526244,
+        656607,
+        656637,
+        665310,
+        2779,
+        2781,
+        2783,
+        2785,
+        2787,
+        2789,
+        2791,
+        2793,
+        2795,
+        2797,
+        2799,
+        2801,
+        2803,
+        2805,
+        2807,
+        2809,
+        2811,
+        2813
+    ]
+}

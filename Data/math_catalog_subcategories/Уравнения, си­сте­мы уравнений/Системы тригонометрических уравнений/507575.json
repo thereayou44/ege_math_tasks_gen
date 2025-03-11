@@ -1,0 +1,35 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 507575,
+    "condition": {
+        "text": "Решите систему уравнений: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body643147\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те си­сте­му урав­не­ний: <img src=\"https://ege.sdamgia.ru/formula/svg/c4/c4b5191371d4f46f8ff03fd13d4cf4e6.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний левая круг­лая скоб­ка 2x в квад­ра­те минус 5x минус 3 пра­вая круг­лая скоб­ка ко­рень из: на­ча­ло ар­гу­мен­та: ко­си­нус y конец ар­гу­мен­та =0, синус y=x. конец си­сте­мы .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c4/c4b5191371d4f46f8ff03fd13d4cf4e6.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Если  то  при этом из второго уравнения следует, что Если  то из первого уравнения находим:  или При  второе уравнение не имеет решений, а при  учитывая условие  получаем:  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol507575\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Если <img src=\"https://ege.sdamgia.ru/formula/svg/0f/0f65f63021f5e35c0e9085d064c20f24.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" ко­си­нус y=0,\"> то <img src=\"https://ege.sdamgia.ru/formula/svg/dd/ddd83682f928c5c6f9e987e93d4f661f.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"y= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби плюс Пи k, k при­над­ле­жит Z , \"> при этом из вто­ро­го урав­не­ния сле­ду­ет, что <img src=\"https://ege.sdamgia.ru/formula/svg/a9/a9b4e215822b855079f5560b9a7e9347.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x= левая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка в сте­пе­ни k .\"></p><p class=\"left_margin\">Если <img src=\"https://ege.sdamgia.ru/formula/svg/f2/f273ef17089f3db74488aa641f51f531.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" ко­си­нус y боль­ше 0,\"> то из пер­во­го урав­не­ния на­хо­дим: <img src=\"https://ege.sdamgia.ru/formula/svg/58/5870bb658ee9e8a6900c138365d64c80.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=3\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/5f/5ff009dcf365f130bfa5c666bc936659.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби . \"></p><p class=\"left_margin\">При <img src=\"https://ege.sdamgia.ru/formula/svg/58/5870bb658ee9e8a6900c138365d64c80.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=3\"> вто­рое урав­не­ние не имеет ре­ше­ний, а при <img src=\"https://ege.sdamgia.ru/formula/svg/6a/6a07bb5c6107958cf940b06009461923.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби , \"> учи­ты­вая усло­вие <img src=\"https://ege.sdamgia.ru/formula/svg/f2/f273ef17089f3db74488aa641f51f531.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" ко­си­нус y боль­ше 0,\"> по­лу­ча­ем: <img src=\"https://ege.sdamgia.ru/formula/svg/6c/6c9d5939d27097ab9f042f578746362b.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"y= минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k, k при­над­ле­жит Z . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/e2/e2c2ad91a7e704bba3d12a7865681fc3.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая фи­гур­ная скоб­ка левая круг­лая скоб­ка левая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка в сте­пе­ни k ; дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби плюс Пи k пра­вая круг­лая скоб­ка , левая круг­лая скоб­ка минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби ; минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k пра­вая круг­лая скоб­ка пра­вая фи­гур­ная скоб­ка : k при­над­ле­жит Z . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/0f/0f65f63021f5e35c0e9085d064c20f24.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/ddd83682f928c5c6f9e987e93d4f661f.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a9b4e215822b855079f5560b9a7e9347.svg",
+            "https://ege.sdamgia.ru/formula/svg/f2/f273ef17089f3db74488aa641f51f531.svg",
+            "https://ege.sdamgia.ru/formula/svg/58/5870bb658ee9e8a6900c138365d64c80.svg",
+            "https://ege.sdamgia.ru/formula/svg/5f/5ff009dcf365f130bfa5c666bc936659.svg",
+            "https://ege.sdamgia.ru/formula/svg/58/5870bb658ee9e8a6900c138365d64c80.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a07bb5c6107958cf940b06009461923.svg",
+            "https://ege.sdamgia.ru/formula/svg/f2/f273ef17089f3db74488aa641f51f531.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6c9d5939d27097ab9f042f578746362b.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e2c2ad91a7e704bba3d12a7865681fc3.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": [
+        507575,
+        511442
+    ]
+}

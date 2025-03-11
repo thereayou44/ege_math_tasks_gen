@@ -1,0 +1,36 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 663485,
+    "condition": {
+        "text": "На диаграмме Эйлера схематически показан случайный опыт S, с которым связана случайная величина X. Около каждого элементарного события указана вероятность этого события и соответствующее значение случайной величины X. Найдите вероятность события ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body291137\" class=\"pbody\"><p class=\"left_margin\">На диа­грам­ме Эй­ле­ра схе­ма­ти­че­ски по­ка­зан слу­чай­ный опыт <i>S</i>, с ко­то­рым свя­за­на слу­чай­ная ве­ли­чи­на <i>X</i>. Около каж­до­го эле­мен­тар­но­го со­бы­тия ука­за­на ве­ро­ят­ность этого со­бы­тия и со­от­вет­ству­ю­щее зна­че­ние слу­чай­ной ве­ли­чи­ны <i>X</i>.</p><p><img src=\"/get_file?id=183076\" style=\"margin:10px auto;display:block;width:35%\"></p><p> Най­ди­те ве­ро­ят­ность со­бы­тия <img src=\"https://ege.sdamgia.ru/formula/svg/45/45189fb3961d4141ff8932c695208b47.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"X = 5.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/45/45189fb3961d4141ff8932c695208b47.svg",
+            "/get_file?id=183076"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Событию  соответствуют три элементарных события (обведены на рисунке зелёным). Сумма вероятностей их наступления равна вероятности наступления события :Ответ: 0,4.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol663485\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=183075\" style=\"float:right;margin:10px;width:35%\"></p><p class=\"left_margin\">Со­бы­тию <img src=\"https://ege.sdamgia.ru/formula/svg/c2/c241cbc8192fd72795f64cd81cadd18b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"X=5\"> со­от­вет­ству­ют три эле­мен­тар­ных со­бы­тия (об­ве­де­ны на ри­сун­ке зелёным). Сумма ве­ро­ят­но­стей их на­ступ­ле­ния равна ве­ро­ят­но­сти на­ступ­ле­ния со­бы­тия <img src=\"https://ege.sdamgia.ru/formula/svg/c2/c241cbc8192fd72795f64cd81cadd18b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"X=5\">:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/3c/3cd0a25501651ad6a767288d7cada1d6.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"P левая круг­лая скоб­ка X=5 пра­вая круг­лая скоб­ка = 0,2 плюс 0,1 плюс 0,1=0,4.\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 0,4.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c2/c241cbc8192fd72795f64cd81cadd18b.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c241cbc8192fd72795f64cd81cadd18b.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3cd0a25501651ad6a767288d7cada1d6.svg",
+            "/get_file?id=183075"
+        ]
+    },
+    "answer": "0,4",
+    "topic_id": null,
+    "analog_ids": [
+        663485,
+        663486,
+        663487,
+        663488,
+        663486,
+        663487,
+        663488,
+        663489,
+        663490
+    ]
+}

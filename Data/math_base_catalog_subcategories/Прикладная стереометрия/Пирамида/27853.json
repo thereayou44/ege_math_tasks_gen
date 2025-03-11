@@ -1,0 +1,24 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27853,
+    "condition": {
+        "text": "Найдите высоту трапеции ABCD, опущенную из вершины B, если стороны квадратных клеток равны ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918065\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=68957\" style=\"float:right;margin:10px;max-width:100%\">Най­ди­те вы­со­ту тра­пе­ции <i>ABCD</i>, опу­щен­ную из вер­ши­ны <i>B</i>, если сто­ро­ны квад­рат­ных кле­ток равны <img src=\"https://ege.sdamgia.ru/formula/svg/59/59e6ed269715680d8e7a3d3fe05b94d5.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/59/59e6ed269715680d8e7a3d3fe05b94d5.svg",
+            "/get_file?id=68957"
+        ]
+    },
+    "solution": {
+        "text": "Решение. По теореме Пифагора   Ответ: 2.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27853\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=68958\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">По тео­ре­ме Пи­фа­го­ра </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/06/061b445331fc2ab15331993266b274e3.svg\" class=\"tex\" style=\"vertical-align:-2.1pt\" alt=\"BH= ко­рень из: на­ча­ло ар­гу­мен­та: 2 плюс 2 конец ар­гу­мен­та =2.\"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 2.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/06/061b445331fc2ab15331993266b274e3.svg",
+            "/get_file?id=68958"
+        ]
+    },
+    "answer": "2",
+    "topic_id": null,
+    "analog_ids": []
+}

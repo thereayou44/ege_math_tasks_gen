@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 638314,
+    "condition": {
+        "text": "Решите неравенство: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body512918\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство: <img src=\"https://ege.sdamgia.ru/formula/svg/0f/0fa989a410e4a121b7459c6672c34ac2.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\" ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка x в квад­ра­те пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x минус 2 пра­вая круг­лая скоб­ка в квад­ра­те минус ло­га­рифм по ос­но­ва­нию x левая круг­лая скоб­ка 3 минус 3 x пра­вая круг­лая скоб­ка мень­ше или равно 0.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/0f/0fa989a410e4a121b7459c6672c34ac2.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Неравенство определено при  Для таких значений x справедливо тождество: Тогда неравенство можно записать в видеЛогарифмическая функция с основанием, меньшем единицы, убывает, следовательно,  откуда  Учитывая область определения, окончательно получаем:  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol638314\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Не­ра­вен­ство опре­де­ле­но при <img src=\"https://ege.sdamgia.ru/formula/svg/ff/ff28cb486629e6a05febbf829ff40c69.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"0 мень­ше x мень­ше 1.\"> Для таких зна­че­ний <i>x</i> спра­вед­ли­во тож­де­ство:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e5/e56a2700a6f5ade4598822124d3f2faa.svg\" class=\"tex\" style=\"vertical-align:-5.6pt\" alt=\" ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка x в квад­ра­те пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x минус 2 пра­вая круг­лая скоб­ка в квад­ра­те = ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка |x| пра­вая круг­лая скоб­ка |x минус 2| = ло­га­рифм по ос­но­ва­нию x левая круг­лая скоб­ка 2 минус x пра­вая круг­лая скоб­ка .\"></p><p class=\"left_margin\"></p></center><p> Тогда не­ра­вен­ство можно за­пи­сать в виде</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f5/f50764aef79fbb2690e51dd0e2856f57.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\" ло­га­рифм по ос­но­ва­нию x левая круг­лая скоб­ка 2 минус x пра­вая круг­лая скоб­ка мень­ше или равно ло­га­рифм по ос­но­ва­нию x левая круг­лая скоб­ка 3 минус 3 x пра­вая круг­лая скоб­ка .\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Ло­га­риф­ми­че­ская функ­ция с ос­но­ва­ни­ем, мень­шем еди­ни­цы, убы­ва­ет, сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/cd/cd2bad9ab94b7c12793cca2e65f55dfd.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2 минус x боль­ше или равно 3 минус 3x,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/7c/7cf4477eb8f9e5c670441623239c9237.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x боль­ше или равно дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби .\"> Учи­ты­вая об­ласть опре­де­ле­ния, окон­ча­тель­но по­лу­ча­ем: <img src=\"https://ege.sdamgia.ru/formula/svg/f0/f0d75a74d4825b341942c920bd99224f.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби мень­ше или равно x мень­ше 1.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/3b/3b5ffd0d289ec4500910f04a358c14f6.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби ; 1 пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ff/ff28cb486629e6a05febbf829ff40c69.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e56a2700a6f5ade4598822124d3f2faa.svg",
+            "https://ege.sdamgia.ru/formula/svg/f5/f50764aef79fbb2690e51dd0e2856f57.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cd2bad9ab94b7c12793cca2e65f55dfd.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7cf4477eb8f9e5c670441623239c9237.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f0d75a74d4825b341942c920bd99224f.svg",
+            "https://ege.sdamgia.ru/formula/svg/3b/3b5ffd0d289ec4500910f04a358c14f6.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": []
+}

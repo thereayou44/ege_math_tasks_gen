@@ -1,0 +1,66 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27294,
+    "condition": {
+        "text": "В треугольнике ABC AC  =  BC, AB  =  4,  Найдите высоту CH.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918626\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right; margin:10px\" src=\"/get_file?id=1099\">В тре­уголь­ни­ке <i>ABC</i> <i>AC</i>  =  <i>BC</i>, <i>AB</i>  =  4, <img src=\"https://ege.sdamgia.ru/formula/svg/bb/bb22fbf2af1184bc36abb2264cbdebe6.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" синус A = дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 17 конец ар­гу­мен­та , зна­ме­на­тель: 17 конец дроби . \"> Най­ди­те вы­со­ту <i>CH</i>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/bb/bb22fbf2af1184bc36abb2264cbdebe6.svg",
+            "/get_file?id=1099"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Треугольник АВС равнобедренный, поэтому высота СН делит основание АВ пополам.  Тогда  Ответ: 0,5. ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27294\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Тре­уголь­ник <i>АВС </i>рав­но­бед­рен­ный, по­это­му вы­со­та <i>СН</i> делит ос­но­ва­ние <i>АВ</i> по­по­лам.  Тогда</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"a7648a7056d5db0056ded158ddf1e915\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/a7/a7648a7056d5db0056ded158ddf1e915.svg\" class=\"tex\" style=\"vertical-align:-19.7pt\" alt=\"CH=AHtgA= дробь: чис­ли­тель: AB, зна­ме­на­тель: 2 конец дроби умно­жить на tgA= дробь: чис­ли­тель: AB синус A, зна­ме­на­тель: 2 ко­си­нус A конец дроби = дробь: чис­ли­тель: AB синус A, зна­ме­на­тель: 2 ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус синус в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та A пра­вая круг­лая скоб­ка конец дроби = дробь: чис­ли­тель: 4 умно­жить на дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 17 конец ар­гу­мен­та , зна­ме­на­тель: 17 конец дроби , зна­ме­на­тель: 2 ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 17 конец дроби конец ар­гу­мен­та конец дроби =0,5. \"></span><span data-width=\"515\" data-formulahash=\"a7648a7056d5db0056ded158ddf1e915\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/ce/ce9e87aac8de66425466690df4c8d7d5.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"CH=AHtgA= дробь: чис­ли­тель: AB, зна­ме­на­тель: 2 конец дроби умно­жить на tgA= дробь: чис­ли­тель: AB синус A, зна­ме­на­тель: 2 ко­си­нус A конец дроби = \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/36/3687e6585ec79c0a4a11456a8dea6e5e.svg\" class=\"tex\" style=\"vertical-align:-19.6pt\" alt=\"= дробь: чис­ли­тель: AB синус A, зна­ме­на­тель: 2 ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус синус в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та A пра­вая круг­лая скоб­ка конец дроби = дробь: чис­ли­тель: 4 умно­жить на дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 17 конец ар­гу­мен­та , зна­ме­на­тель: 17 конец дроби , зна­ме­на­тель: 2 ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 17 конец дроби конец ар­гу­мен­та конец дроби =0,5. \"></span> </p><p class=\"left_margin\"></p></center> <p><span style=\"letter-spaceing:2px\">Ответ</span>: 0,5. </p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a7/a7648a7056d5db0056ded158ddf1e915.svg",
+            "https://ege.sdamgia.ru/formula/svg/ce/ce9e87aac8de66425466690df4c8d7d5.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/3687e6585ec79c0a4a11456a8dea6e5e.svg"
+        ]
+    },
+    "answer": "0,5",
+    "topic_id": null,
+    "analog_ids": [
+        27294,
+        4831,
+        32033,
+        32035,
+        4831,
+        32033,
+        32035,
+        32037,
+        32039,
+        32041,
+        32043,
+        32045,
+        32047,
+        32049,
+        32051,
+        32053,
+        32055,
+        32057,
+        32059,
+        32061,
+        32063,
+        32065,
+        32067,
+        32069,
+        32071,
+        32073,
+        32075,
+        32077,
+        32079,
+        32081,
+        32083,
+        32085,
+        32087,
+        32089,
+        32091,
+        32093,
+        32095,
+        32097,
+        32099,
+        32101
+    ]
+}

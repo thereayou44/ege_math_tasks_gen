@@ -1,0 +1,45 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27105,
+    "condition": {
+        "text": "Объём куба, описанного около сферы, равен 216. Найдите радиус сферы.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919325\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=139950\" style=\"float:right;margin:10px;max-width:100%\">Объём куба, опи­сан­но­го около сферы, равен 216. Най­ди­те ра­ди­ус сферы.</p></div>",
+        "image_urls": [
+            "/get_file?id=139950"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Прямоугольный параллелепипед, описанный вокруг сферы, является кубом. Тогда длина его ребра  Радиус сферы равен половине длины ребра   Ответ: 3.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27105\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пря­мо­уголь­ный па­рал­ле­ле­пи­пед, опи­сан­ный во­круг сферы, яв­ля­ет­ся кубом. Тогда длина его ребра </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/97/973bb7018e2167684124cd7b707e56b7.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=V в сте­пе­ни левая круг­лая скоб­ка дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби пра­вая круг­лая скоб­ка =6. \"></p><p class=\"left_margin\"></p></center><p> Ра­ди­ус сферы равен по­ло­ви­не длины ребра <img src=\"https://ege.sdamgia.ru/formula/svg/a7/a7b48f01adce40e314a7107c1b16de6b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"r=3.\"> </p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 3.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/97/973bb7018e2167684124cd7b707e56b7.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a7b48f01adce40e314a7107c1b16de6b.svg"
+        ]
+    },
+    "answer": "3",
+    "topic_id": 3,
+    "analog_ids": [
+        27105,
+        74669,
+        74685,
+        74689,
+        74669,
+        74685,
+        74689,
+        74693,
+        507880,
+        507903,
+        74671,
+        74673,
+        74675,
+        74677,
+        74679,
+        74681,
+        74683,
+        74687,
+        74691,
+        507979,
+        508020
+    ]
+}

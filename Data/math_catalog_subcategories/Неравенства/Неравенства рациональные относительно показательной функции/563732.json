@@ -1,0 +1,27 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 563732,
+    "condition": {
+        "text": "Решите неравенство ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body455912\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/b4/b4e38d7285dbde60f9f34a45b274cf55.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: 2, зна­ме­на­тель: 9 минус 3 в сте­пе­ни x конец дроби мень­ше или равно дробь: чис­ли­тель: 8, зна­ме­на­тель: 3 минус 3 в сте­пе­ни x конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b4/b4e38d7285dbde60f9f34a45b274cf55.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Введем замену  тогда Вернемся к исходной переменной: Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol563732\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Вве­дем за­ме­ну <img src=\"https://ege.sdamgia.ru/formula/svg/17/17e22697d29db9403c9c8a23d41c6480.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"t = 3 в сте­пе­ни x ,\"> тогда </p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"fdf2a9d2699f3cf8f53b9ae40fe60664\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/fd/fdf2a9d2699f3cf8f53b9ae40fe60664.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" дробь: чис­ли­тель: 2, зна­ме­на­тель: 9 минус t конец дроби мень­ше или равно дробь: чис­ли­тель: 8, зна­ме­на­тель: 3 минус t конец дроби рав­но­силь­но дробь: чис­ли­тель: 2 левая круг­лая скоб­ка 3 минус t пра­вая круг­лая скоб­ка минус 8 левая круг­лая скоб­ка 9 минус t пра­вая круг­лая скоб­ка , зна­ме­на­тель: левая круг­лая скоб­ка 9 минус t пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 3 минус t пра­вая круг­лая скоб­ка конец дроби мень­ше или равно 0 рав­но­силь­но дробь: чис­ли­тель: 6 левая круг­лая скоб­ка t минус 11 пра­вая круг­лая скоб­ка , зна­ме­на­тель: левая круг­лая скоб­ка t минус 3 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка t минус 9 пра­вая круг­лая скоб­ка конец дроби мень­ше или равно 0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний t мень­ше 3,9 мень­ше t мень­ше или равно 11. конец со­во­куп­но­сти . \"></span><span data-width=\"515\" data-formulahash=\"fdf2a9d2699f3cf8f53b9ae40fe60664\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/e4/e41256f900b152a6ab8b107ce80fe660.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" дробь: чис­ли­тель: 2, зна­ме­на­тель: 9 минус t конец дроби мень­ше или равно дробь: чис­ли­тель: 8, зна­ме­на­тель: 3 минус t конец дроби рав­но­силь­но дробь: чис­ли­тель: 2 левая круг­лая скоб­ка 3 минус t пра­вая круг­лая скоб­ка минус 8 левая круг­лая скоб­ка 9 минус t пра­вая круг­лая скоб­ка , зна­ме­на­тель: левая круг­лая скоб­ка 9 минус t пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 3 минус t пра­вая круг­лая скоб­ка конец дроби мень­ше или равно 0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/ef/efc74c19e41bee5242365aa22c7f504e.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" рав­но­силь­но дробь: чис­ли­тель: 6 левая круг­лая скоб­ка t минус 11 пра­вая круг­лая скоб­ка , зна­ме­на­тель: левая круг­лая скоб­ка t минус 3 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка t минус 9 пра­вая круг­лая скоб­ка конец дроби мень­ше или равно 0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний t мень­ше 3,9 мень­ше t мень­ше или равно 11. конец со­во­куп­но­сти . \"></span></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Вер­нем­ся к ис­ход­ной пе­ре­мен­ной: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d0/d0fed0d209bbcef17d7cfb306380da71.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" со­во­куп­ность вы­ра­же­ний 3 в сте­пе­ни x мень­ше 3,9 мень­ше 3 в сте­пе­ни x мень­ше или равно 11 конец со­во­куп­но­сти . \\underset 3 боль­ше 1 \\mathop рав­но­силь­но со­во­куп­ность вы­ра­же­ний x мень­ше 1,2 мень­ше x мень­ше или равно ло­га­рифм по ос­но­ва­нию 3 11. конец со­во­куп­но­сти . \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/cd/cdb2f69489a6e52523116e58f625a4bc.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\" левая круг­лая скоб­ка минус бес­ко­неч­ность ; 1 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 2; ло­га­рифм по ос­но­ва­нию 3 11 пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/17/17e22697d29db9403c9c8a23d41c6480.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fdf2a9d2699f3cf8f53b9ae40fe60664.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e41256f900b152a6ab8b107ce80fe660.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/efc74c19e41bee5242365aa22c7f504e.svg",
+            "https://ege.sdamgia.ru/formula/svg/d0/d0fed0d209bbcef17d7cfb306380da71.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cdb2f69489a6e52523116e58f625a4bc.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": []
+}

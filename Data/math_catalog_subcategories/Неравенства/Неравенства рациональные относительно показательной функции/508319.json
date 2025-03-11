@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 508319,
+    "condition": {
+        "text": "Решите неравенство ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body634723\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/b2/b213c82a607fd21117f36e31874b508e.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"25 в сте­пе­ни левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка плюс 5 в сте­пе­ни левая круг­лая скоб­ка x плюс 1 пра­вая круг­лая скоб­ка плюс 5 в сте­пе­ни левая круг­лая скоб­ка 1 минус x пра­вая круг­лая скоб­ка плюс дробь: чис­ли­тель: 1, зна­ме­на­тель: 25 в сте­пе­ни левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка конец дроби мень­ше или равно 12. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b2/b213c82a607fd21117f36e31874b508e.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Перепишем неравенство в виде  и положим  Тогда  и, значит, Далее имеем:  откуда  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol508319\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пе­ре­пи­шем не­ра­вен­ство в виде <img src=\"https://ege.sdamgia.ru/formula/svg/d7/d7d2597b6a6d8c5f584c5647259bd627.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая круг­лая скоб­ка 25 в сте­пе­ни x плюс дробь: чис­ли­тель: 1, зна­ме­на­тель: конец дроби 25 в сте­пе­ни x пра­вая круг­лая скоб­ка плюс 5 левая круг­лая скоб­ка 5 в сте­пе­ни x плюс дробь: чис­ли­тель: 1, зна­ме­на­тель: конец дроби 5 в сте­пе­ни x пра­вая круг­лая скоб­ка \\leqslant12\"> и по­ло­жим <img src=\"https://ege.sdamgia.ru/formula/svg/c7/c730d6d7f7ce30582e51b52c24436609.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"5 в сте­пе­ни левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка плюс дробь: чис­ли­тель: 1, зна­ме­на­тель: 5 в сте­пе­ни левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка конец дроби =t. \"> </p><p class=\"left_margin\">Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/2c/2c1579fef2d2383845445fc19b7c4690.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"25 в сте­пе­ни левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка плюс дробь: чис­ли­тель: 1, зна­ме­на­тель: 25 в сте­пе­ни левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка конец дроби плюс 2=t в квад­ра­те \"> и, зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/40/40fc0fd98053dcee034c2aed2e47026e.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"25 в сте­пе­ни левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка плюс дробь: чис­ли­тель: 1, зна­ме­на­тель: 25 в сте­пе­ни левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка конец дроби =t в квад­ра­те минус 2. \"></p><p class=\"left_margin\">Далее имеем: <img src=\"https://ege.sdamgia.ru/formula/svg/37/373c102f16ab2102295166bfdbaf0a47.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"t в квад­ра­те плюс 5t минус 14 мень­ше или равно 0 рав­но­силь­но минус 7 мень­ше или равно t мень­ше или равно 2,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/66/66c55d7cc14044c220bb6612a4f059c8.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" минус 7 мень­ше или равно 5 в сте­пе­ни левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка плюс дробь: чис­ли­тель: 1, зна­ме­на­тель: 5 в сте­пе­ни левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка конец дроби мень­ше или равно 2 рав­но­силь­но 5 в сте­пе­ни левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =1 рав­но­силь­но x=0. \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/b3/b3982e5f520d856a744ee68b70774a5a.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая фи­гур­ная скоб­ка 0 пра­вая фи­гур­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d7/d7d2597b6a6d8c5f584c5647259bd627.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c730d6d7f7ce30582e51b52c24436609.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2c1579fef2d2383845445fc19b7c4690.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/40fc0fd98053dcee034c2aed2e47026e.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/373c102f16ab2102295166bfdbaf0a47.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/66c55d7cc14044c220bb6612a4f059c8.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b3982e5f520d856a744ee68b70774a5a.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": [
+        508319,
+        511507,
+        517423
+    ]
+}

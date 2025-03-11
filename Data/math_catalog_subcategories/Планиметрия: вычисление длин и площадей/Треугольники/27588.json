@@ -1,0 +1,52 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27588,
+    "condition": {
+        "text": "Площадь прямоугольного треугольника равна 16. Один из его катетов равен 4. Найдите другой катет.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918840\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right\" src=\"/get_file?id=245\" width=\"180px\">Пло­щадь пря­мо­уголь­но­го тре­уголь­ни­ка равна 16. Один из его ка­те­тов равен 4. Най­ди­те дру­гой катет.</p></div>",
+        "image_urls": [
+            "/get_file?id=245"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Площадь прямоугольного треугольника равна половине произведения его катетов. Пусть неизвестный катет равен a. Тогда  см2,откуда a  =  8 см. Ответ: 8.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27588\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пло­щадь пря­мо­уголь­но­го тре­уголь­ни­ка равна по­ло­ви­не про­из­ве­де­ния его ка­те­тов. Пусть не­из­вест­ный катет равен <i>a</i>. Тогда </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ed/ed1f2d82839b915514246da9f7323043.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на a умно­жить на 4=16 \"> см<sup>2</sup>,</p><p class=\"left_margin\"></p></center>от­ку­да <i>a</i>  =  8 см.<p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 8.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ed/ed1f2d82839b915514246da9f7323043.svg"
+        ]
+    },
+    "answer": "8",
+    "topic_id": null,
+    "analog_ids": [
+        27588,
+        55105,
+        55153,
+        55107,
+        55105,
+        55153,
+        55107,
+        55109,
+        55111,
+        55113,
+        55115,
+        55117,
+        55119,
+        55121,
+        55123,
+        55125,
+        55127,
+        55129,
+        55131,
+        55133,
+        55135,
+        55137,
+        55139,
+        55141,
+        55143,
+        55145,
+        55147,
+        55149,
+        55151
+    ]
+}

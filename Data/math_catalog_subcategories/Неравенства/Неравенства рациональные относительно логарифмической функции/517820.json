@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 517820,
+    "condition": {
+        "text": "Решите неравенство ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body624704\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/ae/aee36ac91809775eb4b2f5a5db93bfd5.svg\" class=\"tex\" style=\"vertical-align:-12.1pt\" alt=\"1 плюс дробь: чис­ли­тель: 10, зна­ме­на­тель: ло­га­рифм по ос­но­ва­нию 2 x минус 5 конец дроби плюс дробь: чис­ли­тель: 16, зна­ме­на­тель: \\log в квад­ра­те _2x минус ло­га­рифм по ос­но­ва­нию 2 левая круг­лая скоб­ка 32x в сте­пе­ни левая круг­лая скоб­ка 10 пра­вая круг­лая скоб­ка пра­вая круг­лая скоб­ка плюс 30 конец дроби \\geqslant0. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ae/aee36ac91809775eb4b2f5a5db93bfd5.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Пусть  решим рациональное неравенство:   Вернёмся к исходной переменной, получим:   Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol517820\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/b4/b40eeb06b7d643aba633153169aad842.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"t= ло­га­рифм по ос­но­ва­нию 2 x,\"> решим ра­ци­о­наль­ное не­ра­вен­ство: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/9e/9e2f860a5f17cdadb6133dc2097c715d.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\"1 плюс дробь: чис­ли­тель: 10, зна­ме­на­тель: t минус 5 конец дроби плюс дробь: чис­ли­тель: 16, зна­ме­на­тель: t в квад­ра­те минус левая круг­лая скоб­ка 10t плюс 5 пра­вая круг­лая скоб­ка плюс 30 конец дроби \\geqslant0 рав­но­силь­но 1 плюс дробь: чис­ли­тель: 10, зна­ме­на­тель: t минус 5 конец дроби плюс дробь: чис­ли­тель: 16, зна­ме­на­тель: t в квад­ра­те минус 10t плюс 25 конец дроби \\geqslant0 \"> </p><p><img src=\"https://ege.sdamgia.ru/formula/svg/a8/a89e8e9ee016c9e17ea935a63d93127b.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" дробь: чис­ли­тель: левая круг­лая скоб­ка t минус 5 пра­вая круг­лая скоб­ка в квад­ра­те плюс 10 левая круг­лая скоб­ка t минус 5 пра­вая круг­лая скоб­ка плюс 16, зна­ме­на­тель: левая круг­лая скоб­ка t минус 5 пра­вая круг­лая скоб­ка в квад­ра­те конец дроби \\geqslant0 рав­но­силь­но дробь: чис­ли­тель: t в квад­ра­те минус 9, зна­ме­на­тель: левая круг­лая скоб­ка t минус 5 пра­вая круг­лая скоб­ка в квад­ра­те конец дроби \\geqslant0 рав­но­силь­но \"></p><p><img src=\"/get_file?id=143250\" style=\"margin:10px auto;display:block;max-width:100%\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/b7/b7db9c4591114866ed19cfbb062303ad.svg\" class=\"tex\" style=\"vertical-align:-20.9pt\" alt=\" рав­но­силь­но со­во­куп­ность вы­ра­же­ний t\\leqslant минус 3,3 мень­ше или равно t мень­ше 5,t боль­ше 5. конец со­во­куп­но­сти . \"> </p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Вернёмся к ис­ход­ной пе­ре­мен­ной, по­лу­чим: <img src=\"https://ege.sdamgia.ru/formula/svg/ba/bae67b710b35739d214dd3db3c06b217.svg\" class=\"tex\" style=\"vertical-align:-24.3pt\" alt=\" со­во­куп­ность вы­ра­же­ний ло­га­рифм по ос­но­ва­нию 2 x\\leqslant минус 3,3 мень­ше или равно ло­га­рифм по ос­но­ва­нию 2 x мень­ше 5, ло­га­рифм по ос­но­ва­нию 2 x боль­ше 5. конец со­во­куп­но­сти . рав­но­силь­но со­во­куп­ность вы­ра­же­ний 0 мень­ше x мень­ше или равно дробь: чис­ли­тель: 1, зна­ме­на­тель: 8 конец дроби ,8 мень­ше или равно x мень­ше 32,x боль­ше 32. конец со­во­куп­но­сти . \"></p><p>&nbsp;</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/4e/4e722d6b14e8614747fc819b2b4cdac3.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая круг­лая скоб­ка 0; дробь: чис­ли­тель: 1, зна­ме­на­тель: 8 конец дроби пра­вая квад­рат­ная скоб­ка \\cup левая квад­рат­ная скоб­ка 8; 32 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 32; плюс бес­ко­неч­ность пра­вая круг­лая скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b4/b40eeb06b7d643aba633153169aad842.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9e2f860a5f17cdadb6133dc2097c715d.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a89e8e9ee016c9e17ea935a63d93127b.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b7db9c4591114866ed19cfbb062303ad.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/bae67b710b35739d214dd3db3c06b217.svg",
+            "https://ege.sdamgia.ru/formula/svg/4e/4e722d6b14e8614747fc819b2b4cdac3.svg",
+            "/get_file?id=143250"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": []
+}

@@ -1,0 +1,52 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 26893,
+    "condition": {
+        "text": "Найдите значение выражения ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919537\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те зна­че­ние вы­ра­же­ния <img src=\"https://ege.sdamgia.ru/formula/svg/8a/8ab7134cd73d8bb6863d92fef6ce847f.svg\" class=\"tex\" style=\"vertical-align:-10.6pt\" alt=\"\\log _ дробь: чис­ли­тель: 1, зна­ме­на­тель: 13 конец дроби ко­рень из: на­ча­ло ар­гу­мен­та: 13 конец ар­гу­мен­та . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/8a/8ab7134cd73d8bb6863d92fef6ce847f.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Выполним преобразования:   Ответ: −0,5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol26893\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Вы­пол­ним пре­об­ра­зо­ва­ния: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/80/80050fd17626b15db002e56ee9f4e0c0.svg\" class=\"tex\" style=\"vertical-align:-10.7pt\" alt=\"\\log _ дробь: чис­ли­тель: 1, зна­ме­на­тель: 13 конец дроби ко­рень из: на­ча­ло ар­гу­мен­та: 13 конец ар­гу­мен­та = левая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка умно­жить на дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби \\log _1313= минус 0,5. \"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> −0,5.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/80/80050fd17626b15db002e56ee9f4e0c0.svg"
+        ]
+    },
+    "answer": "-0,5",
+    "topic_id": 7,
+    "analog_ids": [
+        26893,
+        69701,
+        4473,
+        4475,
+        69701,
+        4473,
+        4475,
+        4477,
+        4479,
+        4481,
+        4483,
+        4485,
+        69667,
+        69669,
+        69671,
+        69673,
+        69675,
+        69677,
+        69679,
+        69681,
+        69683,
+        69685,
+        69687,
+        69689,
+        69691,
+        69693,
+        69695,
+        69697,
+        69699
+    ]
+}

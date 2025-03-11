@@ -1,0 +1,23 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 510957,
+    "condition": {
+        "text": "Найдите значение выражения  при ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body632081\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те зна­че­ние вы­ра­же­ния <img src=\"https://ege.sdamgia.ru/formula/svg/cb/cbce40f13fec4b22493e1006cc4ce3db.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: a в сте­пе­ни левая круг­лая скоб­ка 3,21 пра­вая круг­лая скоб­ка умно­жить на a в сте­пе­ни левая круг­лая скоб­ка 7,36 пра­вая круг­лая скоб­ка , зна­ме­на­тель: a в сте­пе­ни левая круг­лая скоб­ка 8,57 пра­вая круг­лая скоб­ка конец дроби \"> при <img src=\"https://ege.sdamgia.ru/formula/svg/0d/0d20199b452a3b61e871650df8ce3780.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=12.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/cb/cbce40f13fec4b22493e1006cc4ce3db.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0d20199b452a3b61e871650df8ce3780.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Выполним преобразования:   Ответ: 144.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol510957\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Вы­пол­ним пре­об­ра­зо­ва­ния: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f4/f40359457a586c9d4f05d460c16dc7df.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: a в сте­пе­ни левая круг­лая скоб­ка 3,21 пра­вая круг­лая скоб­ка умно­жить на a в сте­пе­ни левая круг­лая скоб­ка 7,36 пра­вая круг­лая скоб­ка , зна­ме­на­тель: a в сте­пе­ни левая круг­лая скоб­ка 8,57 пра­вая круг­лая скоб­ка конец дроби =a в сте­пе­ни левая круг­лая скоб­ка 3,21 плюс 7,36 минус 8,57 пра­вая круг­лая скоб­ка =a в квад­ра­те =144. \"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 144.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f4/f40359457a586c9d4f05d460c16dc7df.svg"
+        ]
+    },
+    "answer": "144",
+    "topic_id": 7,
+    "analog_ids": []
+}

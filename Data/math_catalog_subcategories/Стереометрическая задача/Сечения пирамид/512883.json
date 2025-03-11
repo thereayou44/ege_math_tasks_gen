@@ -1,0 +1,27 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 512883,
+    "condition": {
+        "text": "В правильной треугольной пирамиде MABC с вершиной M высота равна 9, а боковые рёбра равны 15.а)  Докажите, что сечение этой пирамиды плоскостью, проходящей через середины сторон AB и BC параллельно прямой MB, является прямоугольником.б)  Найдите площадь этого сечения.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body638351\" class=\"pbody\"><p class=\"left_margin\">В пра­виль­ной тре­уголь­ной пи­ра­ми­де <i>MABC</i> с вер­ши­ной <i>M</i> вы­со­та равна 9, а бо­ко­вые рёбра равны 15.</p><p class=\"left_margin\">а)  До­ка­жи­те, что се­че­ние этой пи­ра­ми­ды плос­ко­стью, про­хо­дя­щей через се­ре­ди­ны сто­рон <i>AB</i> и <i>BC</i> па­рал­лель­но пря­мой <i>MB</i>, яв­ля­ет­ся пря­мо­уголь­ни­ком.</p><p class=\"left_margin\">б)  Най­ди­те пло­щадь этого се­че­ния.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение.  а)  Пусть F и G  — середины рёбер AB и BC соответственно. Отрезки FK и GL параллельны MB, где точки K и L  — середины рёбер MA и MC соответственно. Поскольку  искомое сечение  — параллелограмм FGLK.Пусть MH  — высота и медиана треугольника MAC, BH  — медиана и высота треугольника ABC, значит, прямая AC перпендикулярна плоскости MBH и AC перпендикулярна прямой MB, лежащей в этой плоскости. Отрезок FK параллелен MB, отрезок FG параллелен AC, следовательно, FGLK  — прямоугольник.б)  Пусть MO  — высота пирамиды, тогда MO  =  9, MB  =  15, откуда OB  =  12. В правильном треугольнике ABC, где O  — его центр, В прямоугольнике FGLK Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol512883\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=141457\" style=\"float:right;margin:10px;max-width:100%\"> а)  Пусть <i>F</i> и <i>G</i>  — се­ре­ди­ны рёбер <i>AB</i> и <i>BC</i> со­от­вет­ствен­но. От­рез­ки <i>FK</i> и <i>GL</i> па­рал­лель­ны <i>MB</i>, где точки <i>K</i> и <i>L</i>  — се­ре­ди­ны рёбер <i>MA</i> и <i>MC</i> со­от­вет­ствен­но. По­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/dd/ddf733a5522d36e21aa9738e5588ee06.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"FK= дробь: чис­ли­тель: MB, зна­ме­на­тель: 2 конец дроби =GL, \"> ис­ко­мое се­че­ние  — па­рал­ле­ло­грамм <i>FGLK</i>.</p><p class=\"left_margin\">Пусть <i>MH</i>  — вы­со­та и ме­ди­а­на тре­уголь­ни­ка <i>MAC</i>, <i>BH</i>  — ме­ди­а­на и вы­со­та тре­уголь­ни­ка <i>ABC</i>, зна­чит, пря­мая <i>AC</i> пер­пен­ди­ку­ляр­на плос­ко­сти <i>MBH</i> и <i>AC</i> пер­пен­ди­ку­ляр­на пря­мой <i>MB</i>, ле­жа­щей в этой плос­ко­сти. От­ре­зок <i>FK</i> па­рал­ле­лен <i>MB</i>, от­ре­зок <i>FG</i> па­рал­ле­лен <i>AC</i>, сле­до­ва­тель­но, <i>FGLK</i>  — пря­мо­уголь­ник.</p><p class=\"left_margin\">б)  Пусть <i>MO</i>  — вы­со­та пи­ра­ми­ды, тогда <i>MO</i>  =  9, <i>MB</i>  =  15, от­ку­да <i>OB</i>  =  12. В пра­виль­ном тре­уголь­ни­ке <i>ABC</i>, где <i>O</i>  — его центр, <img src=\"https://ege.sdamgia.ru/formula/svg/c4/c458b3b88b291c76ea4e5862bfe975d0.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AC=OB ко­рень из 3 =12 ко­рень из 3 .\"></p><p class=\"left_margin\">В пря­мо­уголь­ни­ке <i>FGLK</i></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/3d/3dd7f4d68604a11c39e223d84cb42d81.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"FG= дробь: чис­ли­тель: AC, зна­ме­на­тель: 2 конец дроби =6 ко­рень из 3 ,FK= дробь: чис­ли­тель: MB, зна­ме­на­тель: 2 конец дроби = дробь: чис­ли­тель: 15, зна­ме­на­тель: 2 конец дроби ,S_FGLK=FG умно­жить на FK=45 ко­рень из 3 . \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/77/77d0b9b48c5622e918b6f812b1e090b3.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"45 ко­рень из 3 .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/dd/ddf733a5522d36e21aa9738e5588ee06.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c458b3b88b291c76ea4e5862bfe975d0.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3dd7f4d68604a11c39e223d84cb42d81.svg",
+            "https://ege.sdamgia.ru/formula/svg/77/77d0b9b48c5622e918b6f812b1e090b3.svg",
+            "/get_file?id=141457"
+        ]
+    },
+    "answer": "",
+    "topic_id": 14,
+    "analog_ids": [
+        512883,
+        512889
+    ]
+}

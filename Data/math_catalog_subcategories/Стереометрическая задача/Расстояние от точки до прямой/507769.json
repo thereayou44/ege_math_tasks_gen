@@ -1,0 +1,29 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 507769,
+    "condition": {
+        "text": "В тетраэдре ABCD, все рёбра которого равны 1, отметили середину ребра CD  — точку E.а)  Докажите, что плоскость ABE перпендикулярна ребру CD.б)  Найдите расстояние от точки A до прямой BE.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body643461\" class=\"pbody\"><p class=\"left_margin\">В тет­ра­эд­ре <i>ABCD</i>, все рёбра ко­то­ро­го равны 1, от­ме­ти­ли се­ре­ди­ну ребра <i>CD</i>  — точку <i>E</i>.</p><p class=\"left_margin\">а)  До­ка­жи­те, что плос­кость <i>ABE</i> пер­пен­ди­ку­ляр­на ребру <i>CD</i>.</p><p class=\"left_margin\">б)  Най­ди­те рас­сто­я­ние от точки <i>A</i> до пря­мой <i>BE</i>.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  BE  - высота равностороннего треугольника BCD. AE - высота равностороннего треугольника ACD. Поэтому  и  Значит, по признаку перпендикулярности прямой и плоскости, б)  Рассмотрим треугольник AEB и его высоты AH и  Составим равенство:  Заметим теперь, что треугольник AEB равнобедренный и  поэтому  Тогда  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol507769\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=132150\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  <i>BE</i>  - вы­со­та рав­но­сто­рон­не­го тре­уголь­ни­ка <i>BCD</i>. <i>AE</i> - вы­со­та рав­но­сто­рон­не­го тре­уголь­ни­ка <i>ACD</i>. По­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/b7/b7582d67428fe06fc700921cd36cead6.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BE\\perpCD\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/1d/1ddc83d7a019017c9daa35b0a66b3d05.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AE\\perp CD.\"> Зна­чит, по при­зна­ку пер­пен­ди­ку­ляр­но­сти пря­мой и плос­ко­сти, <img src=\"https://ege.sdamgia.ru/formula/svg/83/83b3559fb3f794f5ed9470ff4953c0e1.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"ABE\\perp CD.\"></p><p class=\"left_margin\">б)  Рас­смот­рим тре­уголь­ник <i>AEB</i> и его вы­со­ты <i>AH</i> и <img src=\"https://ege.sdamgia.ru/formula/svg/b5/b53b11123db33545b09c0160fbacb3d7.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"EM.\"> Со­ста­вим ра­вен­ство: <img src=\"https://ege.sdamgia.ru/formula/svg/3f/3fe05aa86b1719a9549b30d1c43463bc.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AH умно­жить на BE=EM умно­жить на AB.\"> За­ме­тим те­перь, что тре­уголь­ник <i>AEB</i> рав­но­бед­рен­ный и <img src=\"https://ege.sdamgia.ru/formula/svg/d7/d7d510b7eb87bcfb89c750f560f897f2.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"AE=EB= дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби , \"> по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/99/99f2659fb8be7bc389882f6d833f494d.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\"EM= ко­рень из: на­ча­ло ар­гу­мен­та: дробь: чис­ли­тель: 3, зна­ме­на­тель: 4 конец дроби минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби конец ар­гу­мен­та = дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби . \"> Тогда </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/a2/a24bc81c82aa0792587a6d68f4e0c692.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"AH= дробь: чис­ли­тель: EM умно­жить на AB, зна­ме­на­тель: BE конец дроби = дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби умно­жить на 1 умно­жить на дробь: чис­ли­тель: 2, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та конец дроби = дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 6 конец ар­гу­мен­та , зна­ме­на­тель: 3 конец дроби . \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/27/27c19352f503e16124d891d2351a96f1.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 6 конец ар­гу­мен­та , зна­ме­на­тель: 3 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b7/b7582d67428fe06fc700921cd36cead6.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1ddc83d7a019017c9daa35b0a66b3d05.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83b3559fb3f794f5ed9470ff4953c0e1.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b53b11123db33545b09c0160fbacb3d7.svg",
+            "https://ege.sdamgia.ru/formula/svg/3f/3fe05aa86b1719a9549b30d1c43463bc.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d7d510b7eb87bcfb89c750f560f897f2.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/99f2659fb8be7bc389882f6d833f494d.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a24bc81c82aa0792587a6d68f4e0c692.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/27c19352f503e16124d891d2351a96f1.svg",
+            "/get_file?id=132150"
+        ]
+    },
+    "answer": "",
+    "topic_id": 14,
+    "analog_ids": []
+}

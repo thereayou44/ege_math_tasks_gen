@@ -1,0 +1,51 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27726,
+    "condition": {
+        "text": "Вектор  с началом в точке A(3; 6) имеет координаты (9; 3). Найдите сумму координат точки B.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918194\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=143481\" style=\"float:right;margin:10px;max-width:100%\">Век­тор <img src=\"https://ege.sdamgia.ru/formula/svg/2d/2d1cceb556de3394ddc474f38c98e049.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overrightarrowAB\"> с на­ча­лом в точке <i>A</i>(3; 6) имеет ко­ор­ди­на­ты (9; 3). Най­ди­те сумму ко­ор­ди­нат точки <i>B</i>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/2d/2d1cceb556de3394ddc474f38c98e049.svg",
+            "/get_file?id=143481"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Пусть координаты точки B равны xB и yB. Координаты вектора равны разности соответствующих координат его конца и начала. Следовательно, xB − 3  =  9, yB − 6  =  3. Откуда xB  =  12, yB  =  9. Поэтому сумма координат точки B равна 21. Ответ: 21.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27726\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть ко­ор­ди­на­ты точки <i>B</i> равны <i>x<sub>B</sub></i> и <i>y<sub>B</sub></i>. Ко­ор­ди­на­ты век­то­ра равны раз­но­сти со­от­вет­ству­ю­щих ко­ор­ди­нат его конца и на­ча­ла. Сле­до­ва­тель­но, <i>x<sub>B</sub></i> − 3  =  9, <i>y<sub>B</sub></i> − 6  =  3. От­ку­да <i>x<sub>B</sub></i>  =  12, <i>y<sub>B</sub></i>  =  9. По­это­му сумма ко­ор­ди­нат точки <i>B</i> равна 21.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 21.</p></div>",
+        "image_urls": []
+    },
+    "answer": "21",
+    "topic_id": 2,
+    "analog_ids": [
+        27726,
+        61055,
+        61057,
+        61059,
+        61055,
+        61057,
+        61059,
+        61061,
+        61063,
+        61065,
+        61067,
+        61069,
+        61071,
+        61073,
+        61075,
+        61077,
+        61079,
+        61081,
+        61083,
+        61085,
+        61087,
+        61089,
+        61091,
+        61093,
+        61095,
+        61097,
+        61099,
+        61101,
+        61103
+    ]
+}

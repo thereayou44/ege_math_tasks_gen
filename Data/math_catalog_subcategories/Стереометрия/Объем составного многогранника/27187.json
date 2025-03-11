@@ -1,0 +1,34 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27187,
+    "condition": {
+        "text": "Найдите объем многогранника, изображенного на рисунке (все двугранные углы прямые).",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918735\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=29826\" style=\"float:right;margin:10px\">Най­ди­те объем мно­го­гран­ни­ка, изоб­ра­жен­но­го на ри­сун­ке (все дву­гран­ные углы пря­мые).</p></div>",
+        "image_urls": [
+            "/get_file?id=29826"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Объем данного многогранника равен сумме объемов прямоугольных параллелепипедов с ребрами 5, 4, 2 и 2, 2, 4: Ответ: 56.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27187\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Объем дан­но­го мно­го­гран­ни­ка равен сумме объ­е­мов пря­мо­уголь­ных па­рал­ле­ле­пи­пе­дов с реб­ра­ми 5, 4, 2 и 2, 2, 4:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/85/8515d014629acf224c930715307080f9.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"V=V_1 плюс V_2=5 умно­жить на 4 умно­жить на 2 плюс 2 умно­жить на 2 умно­жить на 4=56.\"></p><p class=\"left_margin\"></p></center> <p><span style=\"letter-spacing: 2px;\">Ответ:</span> 56.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/85/8515d014629acf224c930715307080f9.svg"
+        ]
+    },
+    "answer": "56",
+    "topic_id": 3,
+    "analog_ids": [
+        27187,
+        25531,
+        25535,
+        25539,
+        25531,
+        25535,
+        25539,
+        639857,
+        639908,
+        25533,
+        25537
+    ]
+}

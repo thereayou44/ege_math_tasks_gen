@@ -1,0 +1,31 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 513429,
+    "condition": {
+        "text": "Решите неравенство ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body637801\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/f4/f4e5994a936151510446081e0c349bfc.svg\" class=\"tex\" style=\"vertical-align:-8.6pt\" alt=\" ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка дробь: чис­ли­тель: ко­рень из 2 плюс ко­рень из: на­ча­ло ар­гу­мен­та: 13 конец ар­гу­мен­та , зна­ме­на­тель: 5 конец дроби пра­вая круг­лая скоб­ка 4 боль­ше или равно ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка дробь: чис­ли­тель: ко­рень из 2 плюс ко­рень из: на­ча­ло ар­гу­мен­та: 13 конец ар­гу­мен­та , зна­ме­на­тель: 5 конец дроби пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 5 минус 2 в сте­пе­ни x пра­вая круг­лая скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f4/f4e5994a936151510446081e0c349bfc.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Заметим, что  поскольку равносильны следующие неравенстваС учётом этого имеем  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol513429\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">За­ме­тим, что <img src=\"https://ege.sdamgia.ru/formula/svg/44/440d8c865ed8548656716a2dd7256fdb.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: ко­рень из 2 плюс ко­рень из: на­ча­ло ар­гу­мен­та: 13 конец ар­гу­мен­та , зна­ме­на­тель: 5 конец дроби боль­ше 1, \"> по­сколь­ку рав­но­силь­ны сле­ду­ю­щие не­ра­вен­ства</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/8d/8d3b90301e56fee42aeb9647cd193a65.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"5 минус ко­рень из 2 мень­ше ко­рень из: на­ча­ло ар­гу­мен­та: 13 конец ар­гу­мен­та рав­но­силь­но 27 минус 10 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та мень­ше 13 рав­но­силь­но 14 мень­ше 10 ко­рень из 2 рав­но­силь­но 49 мень­ше 50.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">С учётом этого имеем</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/02/02c77b2dac39f02864aad477af7b4e4d.svg\" class=\"tex\" style=\"vertical-align:-8.6pt\" alt=\" ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка дробь: чис­ли­тель: ко­рень из 2 плюс ко­рень из: на­ча­ло ар­гу­мен­та: 13 конец ар­гу­мен­та , зна­ме­на­тель: 5 конец дроби пра­вая круг­лая скоб­ка 4 боль­ше или равно ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка дробь: чис­ли­тель: ко­рень из 2 плюс ко­рень из: на­ча­ло ар­гу­мен­та: 13 конец ар­гу­мен­та , зна­ме­на­тель: 5 конец дроби пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 5 минус 2 в сте­пе­ни x пра­вая круг­лая скоб­ка рав­но­силь­но 4\\geqslant5 минус 2 в сте­пе­ни x боль­ше 0 рав­но­силь­но \"></p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/16/165b868e9ba7e4caa8bd0712a24e0f8e.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" рав­но­силь­но си­сте­ма вы­ра­же­ний 2 в сте­пе­ни x \\geqslant1,2 в сте­пе­ни x мень­ше 5 конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний x\\geqslant0,x мень­ше ло­га­рифм по ос­но­ва­нию 2 5. конец си­сте­мы . \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/6c/6cde1c4626e1d476319acf3e7acd9862.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка 0; ло­га­рифм по ос­но­ва­нию 2 5 пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/44/440d8c865ed8548656716a2dd7256fdb.svg",
+            "https://ege.sdamgia.ru/formula/svg/8d/8d3b90301e56fee42aeb9647cd193a65.svg",
+            "https://ege.sdamgia.ru/formula/svg/02/02c77b2dac39f02864aad477af7b4e4d.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/165b868e9ba7e4caa8bd0712a24e0f8e.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6cde1c4626e1d476319acf3e7acd9862.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": [
+        513429,
+        513448,
+        513626,
+        514188
+    ]
+}

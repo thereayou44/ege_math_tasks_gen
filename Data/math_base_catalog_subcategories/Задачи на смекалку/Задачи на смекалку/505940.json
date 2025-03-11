@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 505940,
+    "condition": {
+        "text": "При каких значениях параметра a уравнение  имеет ровно два корня на отрезке ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body644776\" class=\"pbody\"><p class=\"left_margin\">При каких зна­че­ни­ях па­ра­мет­ра <i>a</i> урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/58/58e549bdc7f2044683cf4af319378b16.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка синус x минус ло­га­рифм по ос­но­ва­нию 4 a пра­вая круг­лая скоб­ка левая круг­лая скоб­ка синус x минус 2 плюс 2a пра­вая круг­лая скоб­ка =0\"> имеет ровно два корня на от­рез­ке <img src=\"https://ege.sdamgia.ru/formula/svg/f1/f18aefb907d867673716192276e96947.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби ; дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 2 конец дроби пра­вая квад­рат­ная скоб­ка ? \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/58/58e549bdc7f2044683cf4af319378b16.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f18aefb907d867673716192276e96947.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Решим уравнение: Первое уравнение имеет два решения, если  одно решение, если  и не имеет решений во всех остальных случаях.Второе уравнение имеет два решения, если  одно решение, если  и не имеет решений во всех остальных случаях.Таким образом, исходное уравнение имеет ровно два корня, еслиили если  Решая совокупность и уравнение, получаем ответ. Ответ:",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol505940\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Решим урав­не­ние: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/80/80b86cdf985d4bf822bbcd3c180b74fe.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" со­во­куп­ность вы­ра­же­ний синус x= ло­га­рифм по ос­но­ва­нию 4 a, синус x=2 минус 2a. конец со­во­куп­но­сти \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Пер­вое урав­не­ние имеет два ре­ше­ния, если <img src=\"https://ege.sdamgia.ru/formula/svg/21/21369b2bae5fcc8d9ba7143a32a422e7.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" минус 1 мень­ше ло­га­рифм по ос­но­ва­нию 4 a\\leqslant1,\"> одно ре­ше­ние, если <img src=\"https://ege.sdamgia.ru/formula/svg/af/afa9669874f7a1185418fd04073bc2dc.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" ло­га­рифм по ос­но­ва­нию 4 a= минус 1\"> и не имеет ре­ше­ний во всех осталь­ных слу­ча­ях.</p><p class=\"left_margin\">Вто­рое урав­не­ние имеет два ре­ше­ния, если <img src=\"https://ege.sdamgia.ru/formula/svg/74/74f05f4b7ea54825023fe4279d785f5b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" минус 1 мень­ше 2 минус 2a\\leqslant1,\"> одно ре­ше­ние, если <img src=\"https://ege.sdamgia.ru/formula/svg/73/7393a806b10dbf3a0191c73739f3cc47.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2 минус 2a= минус 1\"> и не имеет ре­ше­ний во всех осталь­ных слу­ча­ях.</p><p class=\"left_margin\">Таким об­ра­зом, ис­ход­ное урав­не­ние имеет ровно два корня, если</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d0/d088d32b50cb584250951d8af73ea99a.svg\" class=\"tex\" style=\"vertical-align:-50.4pt\" alt=\" со­во­куп­ность вы­ра­же­ний си­сте­ма вы­ра­же­ний минус 1 мень­ше ло­га­рифм по ос­но­ва­нию 4 a\\leqslant1, со­во­куп­ность вы­ра­же­ний 2 минус 2a мень­ше минус 1,2 минус 2a боль­ше 1 конец си­сте­мы . конец со­во­куп­но­сти . си­сте­ма вы­ра­же­ний минус 1 мень­ше 2 минус 2a\\leqslant1, со­во­куп­ность вы­ра­же­ний ло­га­рифм по ос­но­ва­нию 4 a мень­ше минус 1, ло­га­рифм по ос­но­ва­нию 4 a боль­ше 1 конец си­сте­мы . конец со­во­куп­но­сти . конец со­во­куп­но­сти . \"></p><p class=\"left_margin\"></p></center><p>или если <img src=\"https://ege.sdamgia.ru/formula/svg/ee/eeffeb77c19dfa8573c399cb38c0e665.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" ло­га­рифм по ос­но­ва­нию 4 a=2 минус 2a.\"> Решая со­во­куп­ность и урав­не­ние, по­лу­ча­ем ответ.</p><p>&nbsp;</p><p class=\"left_margin\">Ответ:<img src=\"https://ege.sdamgia.ru/formula/svg/ff/ff6d1b4b4ef9ef46ea91d835e48adbc9.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 0,25; 0,5 пра­вая круг­лая скоб­ка \\cup левая фи­гур­ная скоб­ка 1 пра­вая фи­гур­ная скоб­ка \\cup левая круг­лая скоб­ка 1,5;4 пра­вая квад­рат­ная скоб­ка \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/80/80b86cdf985d4bf822bbcd3c180b74fe.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/21369b2bae5fcc8d9ba7143a32a422e7.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/afa9669874f7a1185418fd04073bc2dc.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/74f05f4b7ea54825023fe4279d785f5b.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/7393a806b10dbf3a0191c73739f3cc47.svg",
+            "https://ege.sdamgia.ru/formula/svg/d0/d088d32b50cb584250951d8af73ea99a.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/eeffeb77c19dfa8573c399cb38c0e665.svg",
+            "https://ege.sdamgia.ru/formula/svg/ff/ff6d1b4b4ef9ef46ea91d835e48adbc9.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": [
+        505752
+    ]
+}

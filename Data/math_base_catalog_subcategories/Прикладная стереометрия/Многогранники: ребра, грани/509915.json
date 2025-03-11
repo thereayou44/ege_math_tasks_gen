@@ -1,0 +1,25 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 509915,
+    "condition": {
+        "text": "На клетчатой бумаге с размером клетки 1 × 1 изображён параллелограмм ABDC. Найдите его высоту, опущенную на сторону AC.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body633127\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=19382\" style=\"float:right;margin:10px\">На клет­ча­той бу­ма­ге с раз­ме­ром клет­ки 1 × 1 изоб­ражён па­рал­ле­ло­грамм <i>ABDC</i>. Най­ди­те его вы­со­ту, опу­щен­ную на сто­ро­ну <i>AC</i>.</p></div>",
+        "image_urls": [
+            "/get_file?id=19382"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Длина высоты BH  =  5 (см. рис.).",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol509915\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=20151\" style=\"float:right;margin:10px\">Длина вы­со­ты <i>BH</i>  =  5 (см. рис.).</p></div>",
+        "image_urls": [
+            "/get_file?id=20151"
+        ]
+    },
+    "answer": "5",
+    "topic_id": null,
+    "analog_ids": [
+        509915,
+        509568
+    ]
+}

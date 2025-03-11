@@ -1,0 +1,55 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27776,
+    "condition": {
+        "text": "В треугольнике ABC угол B равен 45°, угол C равен 85°, AD  — биссектриса, E  — такая точка на AB, что AE  =  AC. Найдите угол BDE. Ответ дайте в градусах.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918140\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=138298\" style=\"float:right;margin:10px;max-width:100%\">В тре­уголь­ни­ке <i>ABC</i> угол <i>B</i> равен 45°, угол <i>C</i> равен 85°, <i>AD</i>  — бис­сек­три­са, <i>E</i>  — такая точка на <i>AB</i>, что <i>AE  =  AC</i>. Най­ди­те угол <i>BDE</i>. Ответ дайте в гра­ду­сах.</p></div>",
+        "image_urls": [
+            "/get_file?id=138298"
+        ]
+    },
+    "solution": {
+        "text": "Решение. треугольники CAD и EAD равны по двум сторонам и углу, лежащему между ними, значит,  Тогда Ответ: 40.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27776\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">тре­уголь­ни­ки <i>CAD</i> и <i>EAD</i> равны по двум сто­ро­нам и углу, ле­жа­ще­му между ними, зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/b3/b3ed1471e8a49c0731b3a4f1183ed20a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle C=\\angle DEA=85 гра­ду­сов .\"> Тогда</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/b7/b7c77d980e19dd916d0835f26bbd795a.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\angle BDE=180 гра­ду­сов минус \\angle B минус \\angle BED=180 гра­ду­сов минус 45 гра­ду­сов минус левая круг­лая скоб­ка 180 гра­ду­сов минус 85 гра­ду­сов пра­вая круг­лая скоб­ка =40 гра­ду­сов .\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ</span>: 40.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b3/b3ed1471e8a49c0731b3a4f1183ed20a.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b7c77d980e19dd916d0835f26bbd795a.svg"
+        ]
+    },
+    "answer": "40",
+    "topic_id": 1,
+    "analog_ids": [
+        27776,
+        47937,
+        561722,
+        561763,
+        47937,
+        561722,
+        561763,
+        47893,
+        47895,
+        47897,
+        47899,
+        47901,
+        47903,
+        47905,
+        47907,
+        47909,
+        47911,
+        47913,
+        47915,
+        47917,
+        47919,
+        47921,
+        47923,
+        47925,
+        47927,
+        47929,
+        47931,
+        47933,
+        47935,
+        47939,
+        47941
+    ]
+}

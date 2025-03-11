@@ -1,0 +1,37 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 503256,
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых уравнениеимеет хотя бы один корень.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body639780\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния <i>a</i>, при каж­дом из ко­то­рых урав­не­ние</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/71/71f25cc30574880f6bd967641457a3fe.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 4 ко­си­нус x минус 3 минус a пра­вая круг­лая скоб­ка умно­жить на ко­си­нус x минус 2,5 ко­си­нус 2x плюс 1,5 = 0\"></p><p class=\"left_margin\"></p></center><p>имеет хотя бы один ко­рень.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/71/71f25cc30574880f6bd967641457a3fe.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Запишем исходное уравнение в виде  Пусть t = cosx, тогда исходное уравнение имеет хотя бы один корень, если уравнение  имеет хотя бы один корень, принадлежащий отрезку [−1; 1]. Графиком функции  является парабола, ветви которой направлены вверх, Cледовательно, уравнение  имеет хотя бы один корень, принадлежащий отрезку [−1; 1], либо при условии  (рис. 1)  откуда  либо при условии  (рис. 2)  откуда  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol503256\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=156821\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">За­пи­шем ис­ход­ное урав­не­ние в виде </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/c5/c56f109c9ca1374a718bfcb7a6d86691.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" ко­си­нус в квад­ра­те x плюс левая круг­лая скоб­ка 3 плюс a пра­вая круг­лая скоб­ка ко­си­нус x минус 4=0.\"></p><p class=\"left_margin\"></p></center><p> Пусть <i>t</i> = cos<i>x</i>, тогда ис­ход­ное урав­не­ние имеет хотя бы один ко­рень, если урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/1f/1f991579f571a2be4ccefbca9ff5cf66.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"t в квад­ра­те плюс левая круг­лая скоб­ка 3 плюс a пра­вая круг­лая скоб­ка t минус 4=0\"> имеет хотя бы один ко­рень, при­над­ле­жа­щий от­рез­ку [−1; 1]. Гра­фи­ком функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/6e/6e9bd1824152e2335515f7e1e13379c4.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка t пра­вая круг­лая скоб­ка =t в квад­ра­те плюс левая круг­лая скоб­ка 3 плюс a пра­вая круг­лая скоб­ка t минус 4\"> яв­ля­ет­ся па­ра­бо­ла, ветви ко­то­рой на­прав­ле­ны вверх, <img src=\"https://ege.sdamgia.ru/formula/svg/05/0596dfa1b124efe4c0dc1911c03018b1.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка 0 пра­вая круг­лая скоб­ка = минус 4.\"></p><p class=\"left_margin\">Cле­до­ва­тель­но, урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/c8/c8d0d2ff41ad17014c8b26df69a92949.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка t пра­вая круг­лая скоб­ка =0\"> имеет хотя бы один ко­рень, при­над­ле­жа­щий от­рез­ку [−1; 1], либо при усло­вии <img src=\"https://ege.sdamgia.ru/formula/svg/9f/9f4130f65fe9dd88c4d0c6be5d2d5676.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка боль­ше или равно 0\"> (рис. 1) <img src=\"https://ege.sdamgia.ru/formula/svg/1e/1e62fa6e565e41ecf3d90dbe811001e1.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"1 минус левая круг­лая скоб­ка 3 плюс a пра­вая круг­лая скоб­ка минус 4 боль­ше или равно 0,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/44/44d6b2429d8a51d9fc3c2902594a7f58.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a мень­ше или равно минус 6,\"> либо при усло­вии <img src=\"https://ege.sdamgia.ru/formula/svg/33/337b3101d17e58487e644855b9546058.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка 1 пра­вая круг­лая скоб­ка боль­ше или равно 0\"> (рис. 2) <img src=\"https://ege.sdamgia.ru/formula/svg/75/750d0ad0e558f1777b201cbe302d2b50.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"1 плюс левая круг­лая скоб­ка 3 плюс a пра­вая круг­лая скоб­ка минус 4 боль­ше или равно 0,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/cf/cfeb13ae9d6380c4365d1e4f5d9b1ab6.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"a боль­ше или равно 0.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/5d/5da5f8203cdd15b2fede96b8f5386dda.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка минус бес­ко­неч­ность ; минус 6 пра­вая квад­рат­ная скоб­ка \\cup левая квад­рат­ная скоб­ка 0; плюс бес­ко­неч­ность пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c5/c56f109c9ca1374a718bfcb7a6d86691.svg",
+            "https://ege.sdamgia.ru/formula/svg/1f/1f991579f571a2be4ccefbca9ff5cf66.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6e9bd1824152e2335515f7e1e13379c4.svg",
+            "https://ege.sdamgia.ru/formula/svg/05/0596dfa1b124efe4c0dc1911c03018b1.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c8d0d2ff41ad17014c8b26df69a92949.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9f4130f65fe9dd88c4d0c6be5d2d5676.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1e62fa6e565e41ecf3d90dbe811001e1.svg",
+            "https://ege.sdamgia.ru/formula/svg/44/44d6b2429d8a51d9fc3c2902594a7f58.svg",
+            "https://ege.sdamgia.ru/formula/svg/33/337b3101d17e58487e644855b9546058.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/750d0ad0e558f1777b201cbe302d2b50.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cfeb13ae9d6380c4365d1e4f5d9b1ab6.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5da5f8203cdd15b2fede96b8f5386dda.svg",
+            "/get_file?id=156821"
+        ]
+    },
+    "answer": "",
+    "topic_id": 18,
+    "analog_ids": [
+        503256,
+        657298
+    ]
+}

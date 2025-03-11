@@ -1,0 +1,29 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 526593,
+    "condition": {
+        "text": "Окружность, вписанная в треугольник ABC, касается сторон BC и AC в точках M и N соответственно, E и F  — середины сторон AB и AC соответственно. Прямые MN и EF пересекаются в точке D.а)  Докажите, что треугольник DFN равнобедренный.б)  Найдите площадь треугольника BED, если AB  =  20 и ∠ABC  =  60°.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body419837\" class=\"pbody\"><p class=\"left_margin\">Окруж­ность, впи­сан­ная в тре­уголь­ник <i>ABC</i>, ка­са­ет­ся сто­рон <i>BC</i> и <i>AC</i> в точ­ках <i>M</i> и <i>N</i> со­от­вет­ствен­но, <i>E</i> и <i>F</i>  — се­ре­ди­ны сто­рон <i>AB</i> и <i>AC</i> со­от­вет­ствен­но. Пря­мые <i>MN</i> и <i>EF</i> пе­ре­се­ка­ют­ся в точке <i>D</i>.</p><p class=\"left_margin\">а)  До­ка­жи­те, что тре­уголь­ник <i>DFN</i> рав­но­бед­рен­ный.</p><p class=\"left_margin\">б)  Най­ди­те пло­щадь тре­уголь­ни­ка <i>BED</i>, если <i>AB</i>  =  20 и ∠<i>ABC</i>  =  60°.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Поскольку CM  =  CN, треугольник MCN равнобедренный. Прямые EF и BC параллельны, поэтому треугольник DFN подобен треугольнику MCN, следовательно, треугольник DFN также равнобедренный: DF  =  NF.б)  Обозначим BC  =  a, AC  =  b, AB  =  c. Пусть p  — полупериметр треугольника ABC. Предположим, что a > c. Тогда  Значит,  то есть треугольник BEDравнобедренный.Аналогично для a ≤ c.Поскольку прямые ED и BC параллельны, Следовательно, Ответ: б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol526593\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=148621\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  По­сколь­ку <i>CM</i>  =  <i>CN</i>, тре­уголь­ник <i>MCN</i> рав­но­бед­рен­ный. Пря­мые <i>EF</i> и <i>BC</i> па­рал­лель­ны, по­это­му тре­уголь­ник <i>DFN</i> по­до­бен тре­уголь­ни­ку <i>MCN</i>, сле­до­ва­тель­но, тре­уголь­ник <i>DFN</i> также рав­но­бед­рен­ный: <i>DF</i>  =  <i>NF</i>.</p><p class=\"left_margin\">б)  Обо­зна­чим <i>BC</i>  =  <i>a</i>, <i>AC</i>  =  <i>b</i>, <i>AB</i>  =  <i>c</i>. Пусть <i>p</i>  — по­лу­пе­ри­метр тре­уголь­ни­ка <i>ABC</i>. Пред­по­ло­жим, что <i>a</i> &gt; <i>c</i>. Тогда </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/67/67ab6213783800d1545cb27b24cec4e7.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"BE= дробь: чис­ли­тель: c, зна­ме­на­тель: 2 конец дроби ,CF= дробь: чис­ли­тель: b, зна­ме­на­тель: 2 конец дроби ,CM=CN=p минус c= дробь: чис­ли­тель: a плюс b минус c, зна­ме­на­тель: 2 конец дроби , \"> </p><p><img src=\"https://ege.sdamgia.ru/formula/svg/81/81e98f8b92187fdca8cd319976a6ce27.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"FD=FN=CN минус CF= дробь: чис­ли­тель: a плюс b минус c, зна­ме­на­тель: 2 конец дроби минус дробь: чис­ли­тель: b, зна­ме­на­тель: 2 конец дроби = дробь: чис­ли­тель: a минус c, зна­ме­на­тель: 2 конец дроби . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/ba/ba5e5929eb27a9ecb3519f550745bb92.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"ED=EF минус FD= дробь: чис­ли­тель: a, зна­ме­на­тель: 2 конец дроби минус дробь: чис­ли­тель: a минус c, зна­ме­на­тель: 2 конец дроби = дробь: чис­ли­тель: c, зна­ме­на­тель: 2 конец дроби =EB, \"> то есть тре­уголь­ник <i>BED</i></p><p>рав­но­бед­рен­ный.</p><p class=\"left_margin\">Ана­ло­гич­но для <i>a</i> ≤ <i>c</i>.</p><p class=\"left_margin\">По­сколь­ку пря­мые <i>ED</i> и <i>BC</i> па­рал­лель­ны, <img src=\"https://ege.sdamgia.ru/formula/svg/3c/3ceb5b0899057ebeed115bcf41f594db.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle BED=180 гра­ду­сов минус \\angle ABC=180 гра­ду­сов минус 60 гра­ду­сов =120 гра­ду­сов.\"></p><p class=\"left_margin\">Сле­до­ва­тель­но, </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/6d/6d9c33b86ba32d35e65418b6950430a5.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"S_BED= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби BE умно­жить на ED умно­жить на синус 120 гра­ду­сов = дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на 10 умно­жить на 10 умно­жить на дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби =25 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та . \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) <img src=\"https://ege.sdamgia.ru/formula/svg/2b/2be1fdaa235eabc7e14b1ac27638e167.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"25 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/67/67ab6213783800d1545cb27b24cec4e7.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/81e98f8b92187fdca8cd319976a6ce27.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/ba5e5929eb27a9ecb3519f550745bb92.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3ceb5b0899057ebeed115bcf41f594db.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6d9c33b86ba32d35e65418b6950430a5.svg",
+            "https://ege.sdamgia.ru/formula/svg/2b/2be1fdaa235eabc7e14b1ac27638e167.svg",
+            "/get_file?id=148621"
+        ]
+    },
+    "answer": "б)",
+    "topic_id": 17,
+    "analog_ids": [
+        526593,
+        526601
+    ]
+}

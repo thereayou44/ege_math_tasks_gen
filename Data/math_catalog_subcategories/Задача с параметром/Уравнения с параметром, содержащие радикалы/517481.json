@@ -1,0 +1,40 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 517481,
+    "condition": {
+        "text": "Найдите все значения а, при каждом из которых уравнение имеет ровно один корень на отрезке [0; 1].",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body625557\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния <i>а</i>, при каж­дом из ко­то­рых урав­не­ние </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/1d/1dde3ae6c53caf1c4b2ce4767c2ac0de.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x в квад­ра­те плюс левая круг­лая скоб­ка x минус 1 пра­вая круг­лая скоб­ка умно­жить на ко­рень из: на­ча­ло ар­гу­мен­та: 2x минус a конец ар­гу­мен­та =x\"></p><p class=\"left_margin\"></p></center><p>имеет ровно один ко­рень на от­рез­ке [0; 1].</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/1d/1dde3ae6c53caf1c4b2ce4767c2ac0de.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Исходное уравнение равносильно уравнению  Рассмотрим два случая.Первый случай:  при условии  тогда  Условие принимает вид  откуда  То есть в этом случае  при Второй случай:  Получаем Значит, это уравнение может имеет корень на отрезке [0; 1], только если  при Таким образом, исходное уравнение имеет ровно один корень на отрезке [0; 1] при  и  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol517481\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Ис­ход­ное урав­не­ние рав­но­силь­но урав­не­нию <img src=\"https://ege.sdamgia.ru/formula/svg/f2/f221228a548c9cac2757274bc64bde05.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка x минус 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x плюс ко­рень из: на­ча­ло ар­гу­мен­та: 2x минус a конец ар­гу­мен­та пра­вая круг­лая скоб­ка =0.\"> Рас­смот­рим два слу­чая.</p><p><b>Пер­вый слу­чай:</b> <img src=\"https://ege.sdamgia.ru/formula/svg/81/81bc97418cd3993fe70fb119310fca93.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x минус 1=0\"> при усло­вии <img src=\"https://ege.sdamgia.ru/formula/svg/6c/6c87fc363c160a0ba5c727415a3e2e36.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2x боль­ше или равно a,\"> тогда <img src=\"https://ege.sdamgia.ru/formula/svg/e4/e4a8c40487338b4f5a4a879f405da4c1.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=1.\"> </p><p class=\"left_margin\">Усло­вие при­ни­ма­ет вид <img src=\"https://ege.sdamgia.ru/formula/svg/4d/4d2a06326e8edf27449985a4a6400707.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2 боль­ше или равно a,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/73/73546779c73df3bb90994134eb478927.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"a\\leqslant2.\"> То есть в этом слу­чае <img src=\"https://ege.sdamgia.ru/formula/svg/a2/a255512f9d61a6777bd5a304235bd26d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=1\"> при <img src=\"https://ege.sdamgia.ru/formula/svg/73/73546779c73df3bb90994134eb478927.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"a\\leqslant2.\"></p><p><b>Вто­рой слу­чай:</b> <img src=\"https://ege.sdamgia.ru/formula/svg/3f/3fb74385df409f4e59d9f0f3c8e1b5b8.svg\" class=\"tex\" style=\"vertical-align:-2.1pt\" alt=\"x плюс ко­рень из: на­ча­ло ар­гу­мен­та: 2x минус a конец ар­гу­мен­та =0.\"> По­лу­ча­ем <img src=\"https://ege.sdamgia.ru/formula/svg/c4/c4bace5e4d362c05777acb8c71a65ca9.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"x= минус ко­рень из: на­ча­ло ар­гу­мен­та: 2x минус a конец ар­гу­мен­та \\leqslant0;x\\leqslant0.\"></p><p class=\"left_margin\">Зна­чит, это урав­не­ние может имеет ко­рень на от­рез­ке [0; 1], толь­ко если <img src=\"https://ege.sdamgia.ru/formula/svg/e1/e11729b0b65ecade3fc272548a3883fc.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=0\"> при <img src=\"https://ege.sdamgia.ru/formula/svg/79/79739438408054c228825520f737ae5f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=0.\"></p><p class=\"left_margin\">Таким об­ра­зом, ис­ход­ное урав­не­ние имеет ровно один ко­рень на от­рез­ке [0; 1] при <img src=\"https://ege.sdamgia.ru/formula/svg/cf/cf8298b0e273301afdd921e7e4cf6c2b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a мень­ше 0\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/5f/5f3611d3a84e316f3c0931397c560fc6.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"0 мень­ше a\\leqslant2.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/06/06906ab1adc25fbe3b40129be4843447.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"a мень­ше 0;0 мень­ше a\\leqslant2.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f2/f221228a548c9cac2757274bc64bde05.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/81bc97418cd3993fe70fb119310fca93.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6c87fc363c160a0ba5c727415a3e2e36.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e4a8c40487338b4f5a4a879f405da4c1.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4d2a06326e8edf27449985a4a6400707.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/73546779c73df3bb90994134eb478927.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a255512f9d61a6777bd5a304235bd26d.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/73546779c73df3bb90994134eb478927.svg",
+            "https://ege.sdamgia.ru/formula/svg/3f/3fb74385df409f4e59d9f0f3c8e1b5b8.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c4bace5e4d362c05777acb8c71a65ca9.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e11729b0b65ecade3fc272548a3883fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/79739438408054c228825520f737ae5f.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf8298b0e273301afdd921e7e4cf6c2b.svg",
+            "https://ege.sdamgia.ru/formula/svg/5f/5f3611d3a84e316f3c0931397c560fc6.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/06906ab1adc25fbe3b40129be4843447.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 18,
+    "analog_ids": [
+        517481,
+        517488,
+        656590
+    ]
+}

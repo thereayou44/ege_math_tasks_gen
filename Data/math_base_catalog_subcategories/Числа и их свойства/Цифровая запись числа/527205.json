@@ -1,0 +1,41 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 527205,
+    "condition": {
+        "text": "Окружность с центром О, вписанная в треугольник ABC, касается его сторон AB, AC и BC в точках   и  соответственно. Биссектриса угла A пересекает эту окружность в точке Q, лежащей внутри треугольника А)  Докажите, что   — биссектриса угла Б)  Найдите расстояние от точки О до центра окружности, вписанной в треугольник  если известно, что   ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body419225\" class=\"pbody\"><p class=\"left_margin\">Окруж­ность с цен­тром <i>О</i>, впи­сан­ная в тре­уголь­ник <i>ABC</i>, ка­са­ет­ся его сто­рон <i>AB</i>, <i>AC</i> и <i>BC</i> в точ­ках <img src=\"https://ege.sdamgia.ru/formula/svg/69/69abaa98cbeff0b44e43bb980a0a1c52.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"C_1,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/26/262e0afc75c8a9fc536a7dce57e6ebe1.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"B_1\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/4b/4be60c01260fad068dd84cb934d15c36.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"A_1\"> со­от­вет­ствен­но. Бис­сек­три­са угла <i>A</i> пе­ре­се­ка­ет эту окруж­ность в точке <i>Q</i>, ле­жа­щей внут­ри тре­уголь­ни­ка <img src=\"https://ege.sdamgia.ru/formula/svg/9d/9dc4ef1f9e0847ac6167e29025c9c3b4.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AB_1C_1.\"></p><p class=\"left_margin\">А)  До­ка­жи­те, что <img src=\"https://ege.sdamgia.ru/formula/svg/e6/e6b2107a9b80d353e29e427f7816f4f0.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"C_1Q\">  — бис­сек­три­са угла <img src=\"https://ege.sdamgia.ru/formula/svg/54/54f1e70fa1070c0027ef5ecfc475cdec.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AC_1B_1.\"></p><p class=\"left_margin\">Б)  Най­ди­те рас­сто­я­ние от точки <i>О</i> до цен­тра окруж­но­сти, впи­сан­ной в тре­уголь­ник <img src=\"https://ege.sdamgia.ru/formula/svg/83/839ff24a1c8a188bfcb353871b004573.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AB_1C_1,\"> если из­вест­но, что <img src=\"https://ege.sdamgia.ru/formula/svg/1a/1a3bc1e0fcaa4a068618c056b860daef.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"BC=9,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/e8/e8b329c9e457ce4370b31185dc9046cc.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AB=10,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/89/8951911ea8333e5c0d6cc7a6c7e5b3b7.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AC=17.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/69/69abaa98cbeff0b44e43bb980a0a1c52.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/262e0afc75c8a9fc536a7dce57e6ebe1.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4be60c01260fad068dd84cb934d15c36.svg",
+            "https://ege.sdamgia.ru/formula/svg/9d/9dc4ef1f9e0847ac6167e29025c9c3b4.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e6b2107a9b80d353e29e427f7816f4f0.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54f1e70fa1070c0027ef5ecfc475cdec.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/839ff24a1c8a188bfcb353871b004573.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1a3bc1e0fcaa4a068618c056b860daef.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e8b329c9e457ce4370b31185dc9046cc.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/8951911ea8333e5c0d6cc7a6c7e5b3b7.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Поскольку биссектриса проходит через центр вписанной окружности треугольника, точка Q  — середина дуги  вписанной окружности треугольника ABC. Поэтому дуги  и  равны. Значит, равны и углы  и   — первый из них равен половине первой дуги как угол между касательной и хордой, а второй равен половине второй дуги как вписанный угол, опирающийся на нее.б)  Как следует из пункта а), точка Q  — пересечение биссектрис треугольника  то есть его центр вписанной окружности. Поэтому нужно найти  Вычислим:  Поэтому  Ответ: б) 2.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol527205\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=42525\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  По­сколь­ку бис­сек­три­са про­хо­дит через центр впи­сан­ной окруж­но­сти тре­уголь­ни­ка, точка <i>Q</i>  — се­ре­ди­на дуги <img src=\"https://ege.sdamgia.ru/formula/svg/e7/e747e3ebc110a4d006b22f3d45ce75e2.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"C_1B_1\"> впи­сан­ной окруж­но­сти тре­уголь­ни­ка <i>ABC</i>. По­это­му дуги <img src=\"https://ege.sdamgia.ru/formula/svg/e6/e6b2107a9b80d353e29e427f7816f4f0.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"C_1Q\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/ca/ca6aadb7c519752dfc15950863fb9ff2.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"QB_1\"> равны. Зна­чит, равны и углы <img src=\"https://ege.sdamgia.ru/formula/svg/82/8274ef3a559dd4976bd943ea3237db45.svg\" class=\"tex\" style=\"vertical-align:-2.9pt\" alt=\"\\angle AC_1Q\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/1d/1d46122598a3fa6a96675567e443ec7b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"QC_1B_1\">  — пер­вый из них равен по­ло­ви­не пер­вой дуги как угол между ка­са­тель­ной и хор­дой, а вто­рой равен по­ло­ви­не вто­рой дуги как впи­сан­ный угол, опи­ра­ю­щий­ся на нее.</p><p class=\"left_margin\">б)  Как сле­ду­ет из пунк­та а), точка <i>Q</i>  — пе­ре­се­че­ние бис­сек­трис тре­уголь­ни­ка <img src=\"https://ege.sdamgia.ru/formula/svg/c2/c202eb6640eaa72e63ff7f2a0738b97d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AC_1B_1,\"> то есть его центр впи­сан­ной окруж­но­сти. По­это­му нужно найти <img src=\"https://ege.sdamgia.ru/formula/svg/d5/d5464ac668360e4cfb9fe23cd4df6f89.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"OQ=r_ABC.\"> Вы­чис­лим: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/05/055afffe6507e3eaaf88ec1738b65f8e.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"P_ABC= дробь: чис­ли­тель: 9 плюс 10 плюс 17, зна­ме­на­тель: 2 конец дроби =18; \"></p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/89/89fdeabc79317891ff010c2a43db89c0.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"S_ABC= ко­рень из: на­ча­ло ар­гу­мен­та: 18 левая круг­лая скоб­ка 18 минус 9 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 18 минус 10 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 18 минус 17 пра­вая круг­лая скоб­ка конец ар­гу­мен­та =36.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">По­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/e0/e007de31b10103668bce0086d8456d2c.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"r_ABC= дробь: чис­ли­тель: 36, зна­ме­на­тель: 18 конец дроби =2. \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) 2.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e7/e747e3ebc110a4d006b22f3d45ce75e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e6b2107a9b80d353e29e427f7816f4f0.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/ca6aadb7c519752dfc15950863fb9ff2.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/8274ef3a559dd4976bd943ea3237db45.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1d46122598a3fa6a96675567e443ec7b.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c202eb6640eaa72e63ff7f2a0738b97d.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d5464ac668360e4cfb9fe23cd4df6f89.svg",
+            "https://ege.sdamgia.ru/formula/svg/05/055afffe6507e3eaaf88ec1738b65f8e.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/89fdeabc79317891ff010c2a43db89c0.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e007de31b10103668bce0086d8456d2c.svg",
+            "/get_file?id=42525"
+        ]
+    },
+    "answer": "б) 2.",
+    "topic_id": null,
+    "analog_ids": []
+}

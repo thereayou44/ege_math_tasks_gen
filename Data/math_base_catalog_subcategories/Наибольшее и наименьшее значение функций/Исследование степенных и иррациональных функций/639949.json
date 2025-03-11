@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 639949,
+    "condition": {
+        "text": "Найдите точку минимума функции ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body503089\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те точку ми­ни­му­ма функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/ab/ab92666698add235671b6d1d6d55fcbb.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y = левая круг­лая скоб­ка x в кубе минус x в квад­ра­те плюс x минус 1 пра­вая круг­лая скоб­ка в квад­ра­те .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ab/ab92666698add235671b6d1d6d55fcbb.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Найдем производную заданной функции: Производная обращается в нуль только в точке  Определим знаки производной функции и изобразим на рисунке поведение функции. Искомая точка минимума  Ответ: 1.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol639949\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Най­дем про­из­вод­ную за­дан­ной функ­ции:</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"f2105ffd80c2c7af4bee2318b9fbd2da\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/e4/e448ea46cd7e83f741b9ff9fd5685164.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y'=2 левая круг­лая скоб­ка x в кубе минус x в квад­ра­те плюс x минус 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 3x в квад­ра­те минус 2x плюс 1 пра­вая круг­лая скоб­ка =\"><br><img src=\"https://ege.sdamgia.ru/formula/svg/ea/ea4251cfac9e287e96ae1b63310215e6.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"= 2 левая круг­лая скоб­ка x в квад­ра­те левая круг­лая скоб­ка x минус 1 пра­вая круг­лая скоб­ка плюс левая круг­лая скоб­ка x минус 1 пра­вая круг­лая скоб­ка пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 3x в квад­ра­те минус 2x плюс 1 пра­вая круг­лая скоб­ка = 2 левая круг­лая скоб­ка x минус 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x в квад­ра­те плюс 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 3x в квад­ра­те минус 2x плюс 1 пра­вая круг­лая скоб­ка .\"></span><span data-width=\"440\" data-formulahash=\"f2105ffd80c2c7af4bee2318b9fbd2da\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/e4/e448ea46cd7e83f741b9ff9fd5685164.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y'=2 левая круг­лая скоб­ка x в кубе минус x в квад­ра­те плюс x минус 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 3x в квад­ра­те минус 2x плюс 1 пра­вая круг­лая скоб­ка =\"><br><img src=\"https://ege.sdamgia.ru/formula/svg/98/98620621a43cb5956b1a2775dbfc39cb.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"= 2 левая круг­лая скоб­ка x в квад­ра­те левая круг­лая скоб­ка x минус 1 пра­вая круг­лая скоб­ка плюс левая круг­лая скоб­ка x минус 1 пра­вая круг­лая скоб­ка пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 3x в квад­ра­те минус 2x плюс 1 пра­вая круг­лая скоб­ка =\"><br><img src=\"https://ege.sdamgia.ru/formula/svg/34/345f2f9e34eab964bfe3cf17d5ccef28.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"= 2 левая круг­лая скоб­ка x минус 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x в квад­ра­те плюс 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 3x в квад­ра­те минус 2x плюс 1 пра­вая круг­лая скоб­ка .\"></span></p><p class=\"left_margin\"></p></center><p> Про­из­вод­ная об­ра­ща­ет­ся в нуль толь­ко в точке <img src=\"https://ege.sdamgia.ru/formula/svg/e4/e4a8c40487338b4f5a4a879f405da4c1.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=1.\"> </p><p class=\"left_margin\">Опре­де­лим знаки про­из­вод­ной функ­ции и изоб­ра­зим на ри­сун­ке по­ве­де­ние функ­ции.</p><p><img src=\"/get_file?id=128976\" style=\"margin:10px auto;display:block;max-width:100%\"></p><p> Ис­ко­мая точка ми­ни­му­ма <img src=\"https://ege.sdamgia.ru/formula/svg/e4/e4a8c40487338b4f5a4a879f405da4c1.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=1.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 1.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e4/e448ea46cd7e83f741b9ff9fd5685164.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/ea4251cfac9e287e96ae1b63310215e6.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e448ea46cd7e83f741b9ff9fd5685164.svg",
+            "https://ege.sdamgia.ru/formula/svg/98/98620621a43cb5956b1a2775dbfc39cb.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/345f2f9e34eab964bfe3cf17d5ccef28.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e4a8c40487338b4f5a4a879f405da4c1.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e4a8c40487338b4f5a4a879f405da4c1.svg",
+            "/get_file?id=128976"
+        ]
+    },
+    "answer": "1",
+    "topic_id": 12,
+    "analog_ids": [
+        639949,
+        640518
+    ]
+}

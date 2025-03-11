@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 509481,
+    "condition": {
+        "text": "Решите неравенство ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body633045\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/44/446d5e5c816cc55f6a94d52d48fd00e5.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\" ло­га­рифм по ос­но­ва­нию 2 дробь: чис­ли­тель: 8, зна­ме­на­тель: x конец дроби минус дробь: чис­ли­тель: 10, зна­ме­на­тель: ло­га­рифм по ос­но­ва­нию 2 16x конец дроби боль­ше или равно 0. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/44/446d5e5c816cc55f6a94d52d48fd00e5.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Относительно  неравенство имеет вид:Значит,  или  Возвращаясь к x, получаем:  или Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol509481\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">От­но­си­тель­но <img src=\"https://ege.sdamgia.ru/formula/svg/d1/d1441c2c8af14a3549eef291d1933efa.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"t= ло­га­рифм по ос­но­ва­нию 2 x\"> не­ра­вен­ство имеет вид:</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"f5fe578b2f26679ed18eb63b53732066\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/bc/bc9019baf1fd4536d1e4632c9f1bfebe.svg\" class=\"tex\" style=\"vertical-align:-9.2pt\" alt=\"3 минус t минус дробь: чис­ли­тель: 10, зна­ме­на­тель: t плюс 4 конец дроби \\geqslant0, дробь: чис­ли­тель: левая круг­лая скоб­ка 3 минус t пра­вая круг­лая скоб­ка \\times левая круг­лая скоб­ка t плюс 4 пра­вая круг­лая скоб­ка минус 10, зна­ме­на­тель: t плюс 4 конец дроби \\geqslant0, дробь: чис­ли­тель: минус t в квад­ра­те минус t плюс 2, зна­ме­на­тель: t плюс 4 конец дроби \\geqslant0, дробь: чис­ли­тель: левая круг­лая скоб­ка t плюс 2 пра­вая круг­лая скоб­ка \\times левая круг­лая скоб­ка 1 минус t пра­вая круг­лая скоб­ка , зна­ме­на­тель: t плюс 4 конец дроби \\geqslant0. \"></span><span data-width=\"490\" data-formulahash=\"f5fe578b2f26679ed18eb63b53732066\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/db/db9036b8e35521740df429fad901721b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"3 минус t минус \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/b7/b78911a79ec89c6128d5c2bee50aa7bc.svg\" class=\"tex\" style=\"vertical-align:-9.2pt\" alt=\" минус дробь: чис­ли­тель: 10, зна­ме­на­тель: t плюс 4 конец дроби \\geqslant0, дробь: чис­ли­тель: левая круг­лая скоб­ка 3 минус t пра­вая круг­лая скоб­ка \\times левая круг­лая скоб­ка t плюс 4 пра­вая круг­лая скоб­ка минус 10, зна­ме­на­тель: t плюс 4 конец дроби \\geqslant0, дробь: чис­ли­тель: минус t в квад­ра­те минус t плюс 2, зна­ме­на­тель: t плюс 4 конец дроби \\geqslant0, дробь: чис­ли­тель: левая круг­лая скоб­ка t плюс 2 пра­вая круг­лая скоб­ка \\times левая круг­лая скоб­ка 1 минус t пра­вая круг­лая скоб­ка , зна­ме­на­тель: t плюс 4 конец дроби \\geqslant0. \"></span></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/e7/e7f59ed65a0303f7e620144077038357.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"t мень­ше минус 4\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/ee/eed1ba15a403bee3955a28af7be69024.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\" минус 2 мень­ше или равно t \\leqslant1.\"> Воз­вра­ща­ясь к <i>x</i>, по­лу­ча­ем: </p><p>&nbsp;</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f0/f0a7e92dfd854689823392f57823d797.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" ло­га­рифм по ос­но­ва­нию 2 x мень­ше минус 4 рав­но­силь­но 0 мень­ше x мень­ше дробь: чис­ли­тель: 1, зна­ме­на­тель: конец дроби 16\"></p><p class=\"left_margin\"></p></center><p>или</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e2/e25dfb78c4583e256e2ecca2c16af609.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" минус 2 мень­ше или равно ло­га­рифм по ос­но­ва­нию 2 x мень­ше или равно 1 рав­но­силь­но дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби мень­ше или равно x мень­ше или равно 2.\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/86/867e82b280ec602eca860e92a66b0d5c.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая круг­лая скоб­ка 0; дробь: чис­ли­тель: 1, зна­ме­на­тель: конец дроби 16 пра­вая круг­лая скоб­ка \\cup левая квад­рат­ная скоб­ка дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби ;2 пра­вая квад­рат­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d1/d1441c2c8af14a3549eef291d1933efa.svg",
+            "https://ege.sdamgia.ru/formula/svg/bc/bc9019baf1fd4536d1e4632c9f1bfebe.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/db9036b8e35521740df429fad901721b.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b78911a79ec89c6128d5c2bee50aa7bc.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e7f59ed65a0303f7e620144077038357.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/eed1ba15a403bee3955a28af7be69024.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f0a7e92dfd854689823392f57823d797.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e25dfb78c4583e256e2ecca2c16af609.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/867e82b280ec602eca860e92a66b0d5c.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": []
+}

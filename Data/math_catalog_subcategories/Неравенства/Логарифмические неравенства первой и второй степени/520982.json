@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 520982,
+    "condition": {
+        "text": "Решите неравенство ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body630250\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/c6/c6ce41d6ff809b74a216ff5a36e6b05c.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 3 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка дробь: чис­ли­тель: 1, зна­ме­на­тель: x конец дроби минус 1 пра­вая круг­лая скоб­ка плюс ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 3 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка дробь: чис­ли­тель: 1, зна­ме­на­тель: x конец дроби плюс 1 пра­вая круг­лая скоб­ка мень­ше или равно ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 3 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 8x минус 1 пра­вая круг­лая скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c6/c6ce41d6ff809b74a216ff5a36e6b05c.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Левая часть неравенства определена при  при таких значениях переменной находим: Учитывая, ограничения  получаем:  Ответ:  Примечание.Заметим, что при  и выполнении условия  выполняется и условие ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol520982\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Левая часть не­ра­вен­ства опре­де­ле­на при <img src=\"https://ege.sdamgia.ru/formula/svg/d7/d76be85340c379d1c5e2ab911c63c263.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"0 мень­ше x мень­ше 1,\"> при таких зна­че­ни­ях пе­ре­мен­ной на­хо­дим:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/72/72192a893136dbe3e136f97c690eeaec.svg\" class=\"tex\" style=\"vertical-align:-9.8pt\" alt=\" дробь: чис­ли­тель: 1, зна­ме­на­тель: x в квад­ра­те конец дроби минус 1\\leqslant8x минус 1 рав­но­силь­но дробь: чис­ли­тель: 8x в кубе минус 1, зна­ме­на­тель: x в квад­ра­те конец дроби \\geqslant0 \\underset x не равно 0 \\mathop рав­но­силь­но 8x в кубе минус 1 боль­ше или равно 0 рав­но­силь­но x боль­ше или равно дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби . \"></p><p class=\"left_margin\"></p></center><p> Учи­ты­вая, огра­ни­че­ния <img src=\"https://ege.sdamgia.ru/formula/svg/d7/d76be85340c379d1c5e2ab911c63c263.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"0 мень­ше x мень­ше 1,\"> по­лу­ча­ем: <img src=\"https://ege.sdamgia.ru/formula/svg/fb/fbf9676af734b188107a9e8fa6ab6584.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби мень­ше или равно x мень­ше 1. \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/cb/cbd897a32811240fcda49cce8f44f67f.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби ;1 пра­вая круг­лая скоб­ка . \"></p><p>&nbsp;</p><p><b>При­ме­ча­ние.</b></p><p class=\"left_margin\">За­ме­тим, что при <img src=\"https://ege.sdamgia.ru/formula/svg/aa/aa135e67321926f181d788c1a35afdf2.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"0 мень­ше x мень­ше 1\"> и вы­пол­не­нии усло­вия <img src=\"https://ege.sdamgia.ru/formula/svg/53/53d27d3867438f0c9be95d418a1901b7.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 1, зна­ме­на­тель: x в квад­ра­те конец дроби минус 1\\leqslant8x минус 1 \"> вы­пол­ня­ет­ся и усло­вие <img src=\"https://ege.sdamgia.ru/formula/svg/d2/d25f54911ac8f3f0dd27c7f13a3371f1.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"8x минус 1 боль­ше 0.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d7/d76be85340c379d1c5e2ab911c63c263.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/72192a893136dbe3e136f97c690eeaec.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d76be85340c379d1c5e2ab911c63c263.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fbf9676af734b188107a9e8fa6ab6584.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cbd897a32811240fcda49cce8f44f67f.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa135e67321926f181d788c1a35afdf2.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/53d27d3867438f0c9be95d418a1901b7.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d25f54911ac8f3f0dd27c7f13a3371f1.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": [
+        520982,
+        661143
+    ]
+}

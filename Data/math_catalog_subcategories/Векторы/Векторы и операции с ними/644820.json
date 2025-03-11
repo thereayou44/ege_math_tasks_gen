@@ -1,0 +1,50 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 644820,
+    "condition": {
+        "text": "На координатной плоскости изображены векторы    и  Вектор   разложен по двум неколлинеарным векторам  и где k и l  — коэффициенты разложения. Найдите k.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body505896\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=141990\" style=\"float:right;margin:10px;max-width:100%\">На ко­ор­ди­нат­ной плос­ко­сти изоб­ра­же­ны век­то­ры  <img src=\"https://ege.sdamgia.ru/formula/svg/1b/1b4412a344122e822c0c695e23b022a5.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\veca,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/0f/0f4c4ce0863d100a12c90c114fd9abeb.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\vecb\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/db/dbbaf6d37e35eeea071394e80901139e.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" \\vecc.\"> Век­тор <img src=\"https://ege.sdamgia.ru/formula/svg/fd/fd50ddb06cb1c7b9e1948eb4f8a95a66.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" \\vecc\">  раз­ло­жен по двум не­кол­ли­не­ар­ным век­то­рам <img src=\"https://ege.sdamgia.ru/formula/svg/8f/8fd082536a0a420385519d1473c9d27e.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\veca\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/d0/d0a85ceb5c42855b23de2a5be044a5d9.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\vecb:\"></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/3c/3cc038e1d43238bf86ec76f72171898f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\vecc=k \\veca плюс l\\vecb,\"></p><p class=\"left_margin\"></p></center><p>где <i>k</i> и <i>l</i>  — ко­эф­фи­ци­ен­ты раз­ло­же­ния. Най­ди­те <i>k</i>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/1b/1b4412a344122e822c0c695e23b022a5.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0f4c4ce0863d100a12c90c114fd9abeb.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/dbbaf6d37e35eeea071394e80901139e.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fd50ddb06cb1c7b9e1948eb4f8a95a66.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8fd082536a0a420385519d1473c9d27e.svg",
+            "https://ege.sdamgia.ru/formula/svg/d0/d0a85ceb5c42855b23de2a5be044a5d9.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3cc038e1d43238bf86ec76f72171898f.svg",
+            "/get_file?id=141990"
+        ]
+    },
+    "solution": {
+        "text": "Решение. По рисунку определим координаты векторов:      Подставляя найденные координаты в равенство  получаем:Зная, что  находим:Ответ: −1.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol644820\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По ри­сун­ку опре­де­лим ко­ор­ди­на­ты век­то­ров:</p><p></p><div class=\"flex-math\"> <p><img src=\"https://ege.sdamgia.ru/formula/svg/f9/f9493ce7dd71e2eac366f4543a589567.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" \\veca = левая круг­лая скоб­ка 1; 3 пра­вая круг­лая скоб­ка ,\"> </p><p><img src=\"https://ege.sdamgia.ru/formula/svg/3d/3d0a2e5766bd38b51bdd67b9f70dc59d.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" \\vecb = левая круг­лая скоб­ка 2; 1 пра­вая круг­лая скоб­ка ,\"> </p><p><img src=\"https://ege.sdamgia.ru/formula/svg/bf/bf17dcb0d60c7e45f58a12ef92f7050a.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" \\vecc = левая круг­лая скоб­ка 5; 0 пра­вая круг­лая скоб­ка .\"> </p></div> <p> Под­став­ляя най­ден­ные ко­ор­ди­на­ты в ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/3c/3cc038e1d43238bf86ec76f72171898f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\vecc=k \\veca плюс l\\vecb,\"> по­лу­ча­ем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/9b/9bd6d20faeb4a6df5820467e26701d35.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\vecc=k \\veca плюс l\\vecb = k левая круг­лая скоб­ка 1; 3 пра­вая круг­лая скоб­ка плюс l левая круг­лая скоб­ка 2; 1 пра­вая круг­лая скоб­ка = левая круг­лая скоб­ка k; 3k пра­вая круг­лая скоб­ка плюс левая круг­лая скоб­ка 2l; l пра­вая круг­лая скоб­ка = левая круг­лая скоб­ка k плюс 2l; 3k плюс l пра­вая круг­лая скоб­ка .\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Зная, что <img src=\"https://ege.sdamgia.ru/formula/svg/97/9723c4de9238795fb0d668836e9a127a.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" \\vecc = левая круг­лая скоб­ка 5; 0 пра­вая круг­лая скоб­ка ,\"> на­хо­дим:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/b6/b645918f7690144c7f9c317d97d22928.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний k плюс 2l = 5,3k плюс l = 0 конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний k минус 6k = 5,l= минус 3k конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний минус 5k = 5,l= минус 3k конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний k= минус 1,l=3. конец си­сте­мы . \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> −1.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f9/f9493ce7dd71e2eac366f4543a589567.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3d0a2e5766bd38b51bdd67b9f70dc59d.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bf17dcb0d60c7e45f58a12ef92f7050a.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3cc038e1d43238bf86ec76f72171898f.svg",
+            "https://ege.sdamgia.ru/formula/svg/9b/9bd6d20faeb4a6df5820467e26701d35.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/9723c4de9238795fb0d668836e9a127a.svg",
+            "https://ege.sdamgia.ru/formula/svg/b6/b645918f7690144c7f9c317d97d22928.svg"
+        ]
+    },
+    "answer": "-1",
+    "topic_id": 2,
+    "analog_ids": [
+        644820,
+        644821,
+        644822,
+        644823,
+        644821,
+        644822,
+        644823,
+        644824,
+        644883,
+        644884,
+        644885,
+        644886,
+        644887,
+        644888
+    ]
+}

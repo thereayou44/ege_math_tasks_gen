@@ -1,0 +1,29 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 509825,
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых системаимеет единственное решение.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body633213\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния па­ра­мет­ра <i>a</i>, при каж­дом из ко­то­рых си­сте­ма</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/87/87229e0a5ff5640b717890c29d3c744d.svg\" class=\"tex\" style=\"vertical-align:-27.8pt\" alt=\" си­сте­ма вы­ра­же­ний y левая круг­лая скоб­ка y минус 7 пра­вая круг­лая скоб­ка =xy минус 5 левая круг­лая скоб­ка x плюс 2 пра­вая круг­лая скоб­ка ,x мень­ше или равно 6, дробь: чис­ли­тель: a левая круг­лая скоб­ка x минус 6 пра­вая круг­лая скоб­ка минус 2, зна­ме­на­тель: y минус 2 конец дроби = 1. конец си­сте­мы . \"></p><p class=\"left_margin\"></p></center><p>имеет един­ствен­ное ре­ше­ние.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/87/87229e0a5ff5640b717890c29d3c744d.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Заметим, что Тогда исходная система равносильна следующей смешанной системе:Построим её график и определим, при каких значения параметра пучок прямых  имеет единственную общую точку с объединением двух лучей  и  при условиях   (см. рис.) Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol509825\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">За­ме­тим, что </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/8e/8e8341da90736222bc24f4d2a49f17db.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\"y левая круг­лая скоб­ка y минус 7 пра­вая круг­лая скоб­ка =xy минус 5 левая круг­лая скоб­ка x плюс 2 пра­вая круг­лая скоб­ка рав­но­силь­но y в квад­ра­те минус левая круг­лая скоб­ка x плюс 7 пра­вая круг­лая скоб­ка y плюс 5 левая круг­лая скоб­ка x плюс 2 пра­вая круг­лая скоб­ка =0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний y=5,y=x плюс 2. конец со­во­куп­но­сти . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Тогда ис­ход­ная си­сте­ма рав­но­силь­на сле­ду­ю­щей сме­шан­ной си­сте­ме:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/26/2604834d20743842d17a7d5587fd4586.svg\" class=\"tex\" style=\"vertical-align:-30.8pt\" alt=\" си­сте­ма вы­ра­же­ний со­во­куп­ность вы­ра­же­ний y=5,y=x плюс 2, конец си­сте­мы . y=a левая круг­лая скоб­ка x минус 6 пра­вая круг­лая скоб­ка ,x мень­ше или равно 6, y не равно 2. конец со­во­куп­но­сти . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">По­стро­им её гра­фик и опре­де­лим, при каких зна­че­ния па­ра­мет­ра пучок пря­мых <img src=\"https://ege.sdamgia.ru/formula/svg/e5/e5ede37bb48d5e73141b302085356830.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y=a левая круг­лая скоб­ка x минус 6 пра­вая круг­лая скоб­ка \"> имеет един­ствен­ную общую точку с объ­еди­не­ни­ем двух лучей <img src=\"https://ege.sdamgia.ru/formula/svg/5c/5c0f25c6e491c325174d40dda9ae7958.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=5\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/da/daa63ef966cc412541190bc8794731de.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=x плюс 2\"> при усло­ви­ях <img src=\"https://ege.sdamgia.ru/formula/svg/b9/b9d6519f83ed743e1384682654a04310.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x мень­ше или равно 6, y не равно 2\">  (см. рис.)</p><p><img src=\"/get_file?id=156335\" style=\"margin:10px auto;display:block;max-width:100%\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/ee/eeb813181c061878cf6341ebf9946372.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"a при­над­ле­жит левая квад­рат­ная скоб­ка 0;1 пра­вая круг­лая скоб­ка \\cup левая фи­гур­ная скоб­ка минус дробь: чис­ли­тель: 5, зна­ме­на­тель: 3 конец дроби ; минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби пра­вая фи­гур­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/8e/8e8341da90736222bc24f4d2a49f17db.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/2604834d20743842d17a7d5587fd4586.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e5ede37bb48d5e73141b302085356830.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5c0f25c6e491c325174d40dda9ae7958.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/daa63ef966cc412541190bc8794731de.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b9d6519f83ed743e1384682654a04310.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/eeb813181c061878cf6341ebf9946372.svg",
+            "/get_file?id=156335"
+        ]
+    },
+    "answer": "",
+    "topic_id": 18,
+    "analog_ids": []
+}

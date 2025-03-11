@@ -1,0 +1,43 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 99608,
+    "condition": {
+        "text": "Поезд, двигаясь равномерно со скоростью 80 км/ч, проезжает мимо придорожного столба за 36 секунд. Найдите длину поезда в метрах.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body1043428\" class=\"pbody\"><p class=\"left_margin\">Поезд, дви­га­ясь рав­но­мер­но со ско­ро­стью 80 км/ч, про­ез­жа­ет мимо при­до­рож­но­го стол­ба за 36 се­кунд. Най­ди­те длину по­ез­да в мет­рах.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Скорость поезда равна  За 36 секунд поезд проходит мимо придорожного столба расстояние, равное своей длине:  Ответ: 800.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol99608\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Ско­рость по­ез­да равна <img src=\"https://ege.sdamgia.ru/formula/svg/36/36c4dce192058ef9b5b3904fa32556bb.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"80~км/ч= дробь: чис­ли­тель: 80000 м, зна­ме­на­тель: 3600 с конец дроби = дробь: чис­ли­тель: 800, зна­ме­на­тель: 36 конец дроби ~м/с. \"> За 36 се­кунд поезд про­хо­дит мимо при­до­рож­но­го стол­ба рас­сто­я­ние, рав­ное своей длине:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/68/681bfaa3fe177db8f172624313eb1e78.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 800, зна­ме­на­тель: 36 конец дроби умно­жить на 36 =800~м. \"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 800.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/36/36c4dce192058ef9b5b3904fa32556bb.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/681bfaa3fe177db8f172624313eb1e78.svg"
+        ]
+    },
+    "answer": "800",
+    "topic_id": 10,
+    "analog_ids": [
+        99608,
+        116387,
+        116355,
+        116357,
+        116387,
+        116355,
+        116357,
+        116359,
+        116361,
+        116363,
+        116365,
+        116367,
+        116369,
+        116371,
+        116373,
+        116375,
+        116377,
+        116379,
+        116381,
+        116383,
+        116385
+    ]
+}

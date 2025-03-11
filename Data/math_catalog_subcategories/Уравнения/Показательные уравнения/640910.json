@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 640910,
+    "condition": {
+        "text": "a)  Решите уравнение б)  Укажите корни этого уравнения, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body502130\" class=\"pbody\"><p class=\"left_margin\">a)  Ре­ши­те урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/ca/ca76c1f660cf9c4c15b4aa92b0ca42a8.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"8 в сте­пе­ни x минус 5 умно­жить на 2 в сте­пе­ни левая круг­лая скоб­ка x плюс 1 пра­вая круг­лая скоб­ка плюс 16 умно­жить на 2 в сте­пе­ни левая круг­лая скоб­ка минус x пра­вая круг­лая скоб­ка = 0.\"></p><p class=\"left_margin\">б)  Ука­жи­те корни этого урав­не­ния, при­над­ле­жа­щие от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/0a/0add6d9bdbceb406fb40a3046a55f551.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\" левая квад­рат­ная скоб­ка ло­га­рифм по ос­но­ва­нию 5 2; ло­га­рифм по ос­но­ва­нию 5 10 пра­вая квад­рат­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ca/ca76c1f660cf9c4c15b4aa92b0ca42a8.svg",
+            "https://ege.sdamgia.ru/formula/svg/0a/0add6d9bdbceb406fb40a3046a55f551.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Запишем исходное уравнение в виде:  Значит,  откуда  или  откуда б)  Заметим, что  Значит, отрезку  принадлежит корень   Ответ: а)  б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol640910\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  За­пи­шем ис­ход­ное урав­не­ние в виде: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d6/d6b95b216015bb48b31ebe28d50bbdfb.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" 16 в сте­пе­ни x минус 10 умно­жить на 4 в сте­пе­ни x плюс 16=0 рав­но­силь­но левая круг­лая скоб­ка 4 в сте­пе­ни x минус 8 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 4 в сте­пе­ни x минус 2 пра­вая круг­лая скоб­ка =0.\"></p><p class=\"left_margin\"></p></center><p> Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/f4/f44ba9fe91f32f51fcc8ce1207041e7b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"4 в сте­пе­ни x =8,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/81/81d95f40b9bbdcf6fce9c514fccaddbb.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби , \"> или <img src=\"https://ege.sdamgia.ru/formula/svg/04/0434133309ddc15016a2227641d2dc56.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"4 в сте­пе­ни x =2,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/f8/f8adf7df711499e951d067695c59ec0c.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби . \"></p><p class=\"left_margin\">б)  За­ме­тим, что </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/24/24ef348aa5a7110244fd47d41051cef7.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" ло­га­рифм по ос­но­ва­нию 5 2 мень­ше ло­га­рифм по ос­но­ва­нию 5 ко­рень из: на­ча­ло ар­гу­мен­та: 5 конец ар­гу­мен­та = дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби мень­ше ло­га­рифм по ос­но­ва­нию 5 10 мень­ше ло­га­рифм по ос­но­ва­нию 5 ко­рень из: на­ча­ло ар­гу­мен­та: 125 конец ар­гу­мен­та = дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби . \"></p><p class=\"left_margin\"></p></center><p> Зна­чит, от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/1a/1ae7bbaa32c59dfdf3d2ed169ed8807a.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\" левая квад­рат­ная скоб­ка ло­га­рифм по ос­но­ва­нию 5 2; ло­га­рифм по ос­но­ва­нию 5 10 пра­вая квад­рат­ная скоб­ка \"> при­над­ле­жит ко­рень <img src=\"https://ege.sdamgia.ru/formula/svg/b9/b97fcf083d92a4aa858e4dfd748ded7f.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби . \"> </p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) <img src=\"https://ege.sdamgia.ru/formula/svg/59/590b80b6656f351d3d4495ed554f07a4.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая фи­гур­ная скоб­ка дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби ; дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби пра­вая фи­гур­ная скоб­ка ; \"> б) <img src=\"https://ege.sdamgia.ru/formula/svg/b9/b97fcf083d92a4aa858e4dfd748ded7f.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d6/d6b95b216015bb48b31ebe28d50bbdfb.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f44ba9fe91f32f51fcc8ce1207041e7b.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/81d95f40b9bbdcf6fce9c514fccaddbb.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/0434133309ddc15016a2227641d2dc56.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f8adf7df711499e951d067695c59ec0c.svg",
+            "https://ege.sdamgia.ru/formula/svg/24/24ef348aa5a7110244fd47d41051cef7.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1ae7bbaa32c59dfdf3d2ed169ed8807a.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b97fcf083d92a4aa858e4dfd748ded7f.svg",
+            "https://ege.sdamgia.ru/formula/svg/59/590b80b6656f351d3d4495ed554f07a4.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b97fcf083d92a4aa858e4dfd748ded7f.svg"
+        ]
+    },
+    "answer": "а)  б)",
+    "topic_id": 13,
+    "analog_ids": []
+}

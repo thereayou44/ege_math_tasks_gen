@@ -1,0 +1,31 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 514506,
+    "condition": {
+        "text": "В правильной треугольной призме ABCA1B1C1 все рёбра равны 6. На рёбрах AA1 и CC1 отмечены точки M и N соответственно, причём AM  =  2, CN  =  1.а)  Докажите, что плоскость MNB1 разбивает призму на два многогранника, объёмы которых равны.б)  Найдите объём тетраэдра MNBB1.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body636726\" class=\"pbody\"><p class=\"left_margin\">В пра­виль­ной тре­уголь­ной приз­ме <i>ABCA</i><sub>1</sub><i>B</i><sub>1</sub><i>C</i><sub>1</sub> все рёбра равны 6. На рёбрах <i>AA</i><sub>1</sub> и <i>CC</i><sub>1</sub> от­ме­че­ны точки <i>M</i> и <i>N</i> со­от­вет­ствен­но, причём <i>AM</i>  =  2, <i>CN</i>  =  1.</p><p class=\"left_margin\">а)  До­ка­жи­те, что плос­кость <i>MNB</i><sub>1</sub> раз­би­ва­ет приз­му на два мно­го­гран­ни­ка, объёмы ко­то­рых равны.</p><p class=\"left_margin\">б)  Най­ди­те объём тет­ра­эд­ра <i>MNBB</i><sub>1</sub>.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Площадь основания призмы равна  а объём призмы равен В четырёхугольной пирамиде B1A1C1NM высота совпадает с высотой основания призмы A1B1C1, опущенной на сторону A1C1, и равна  Основание A1C1NM пирамиды B1A1C1NM является трапецией, площадь которой равна 27. Значит, объём пирамиды B1A1C1NM равен  то есть составляет половину объёма призмы. Поэтому объёмы многогранников B1A1C1NM и ABCMB1N равны.б)  В четырёхугольной пирамиде BACNM высота совпадает с высотой основания призмы ABC, опущенной на сторону AC, и равна  Основание пирамиды BACNM является трапецией, площадь которой равна 9. Объём пирамиды BACNM равен Многогранник ABCMB1N состоит из двух частей: BACNM и MNBB1. Значит, объём тетраэдра MNBB1 равен  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol514506\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=142072\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">Пло­щадь ос­но­ва­ния приз­мы равна <img src=\"https://ege.sdamgia.ru/formula/svg/62/62abad231664966756a7fbdc06f89485.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"9 ко­рень из 3 ,\"> а объём приз­мы равен <img src=\"https://ege.sdamgia.ru/formula/svg/c9/c998428e6244e5d01c6634fdbf52a1c3.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"54 ко­рень из 3 .\"></p><p class=\"left_margin\">В четырёхуголь­ной пи­ра­ми­де <i>B</i><sub>1</sub><i>A</i><sub>1</sub><i>C</i><sub>1</sub><i>NM</i> вы­со­та сов­па­да­ет с вы­со­той ос­но­ва­ния приз­мы <i>A</i><sub>1</sub><i>B</i><sub>1</sub><i>C</i><sub>1</sub>, опу­щен­ной на сто­ро­ну <i>A</i><sub>1</sub><i>C</i><sub>1</sub>, и равна <img src=\"https://ege.sdamgia.ru/formula/svg/50/5004aa7ba57c307b87cce34db72bfce6.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"3 ко­рень из 3 .\"> Ос­но­ва­ние <i>A</i><sub>1</sub><i>C</i><sub>1</sub><i>NM</i> пи­ра­ми­ды <i>B</i><sub>1</sub><i>A</i><sub>1</sub><i>C</i><sub>1</sub><i>NM</i> яв­ля­ет­ся тра­пе­ци­ей, пло­щадь ко­то­рой равна 27. Зна­чит, объём пи­ра­ми­ды <i>B</i><sub>1</sub><i>A</i><sub>1</sub><i>C</i><sub>1</sub><i>NM</i> равен <img src=\"https://ege.sdamgia.ru/formula/svg/8f/8f212fdf6375b403cd0a00585d571324.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"27 ко­рень из 3 ,\"> то есть со­став­ля­ет по­ло­ви­ну объёма приз­мы. По­это­му объёмы мно­го­гран­ни­ков <i>B</i><sub>1</sub><i>A</i><sub>1</sub><i>C</i><sub>1</sub><i>NM</i> и <i>ABCMB</i><sub>1</sub><i>N</i> равны.</p><p class=\"left_margin\">б)  В четырёхуголь­ной пи­ра­ми­де <i>BACNM</i> вы­со­та сов­па­да­ет с вы­со­той ос­но­ва­ния приз­мы <i>ABC</i>, опу­щен­ной на сто­ро­ну <i>AC</i>, и равна <img src=\"https://ege.sdamgia.ru/formula/svg/50/5004aa7ba57c307b87cce34db72bfce6.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"3 ко­рень из 3 .\"> Ос­но­ва­ние пи­ра­ми­ды <i>BACNM</i> яв­ля­ет­ся тра­пе­ци­ей, пло­щадь ко­то­рой равна 9. Объём пи­ра­ми­ды <i>BACNM</i> равен <img src=\"https://ege.sdamgia.ru/formula/svg/a8/a8440abc14c2ebbe7c9251a8143849b2.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"9 ко­рень из 3 .\"></p><p class=\"left_margin\">Мно­го­гран­ник <i>ABCMB</i><sub>1</sub><i>N</i> со­сто­ит из двух ча­стей: <i>BACNM</i> и <i>MNBB</i><sub>1</sub>. Зна­чит, объём тет­ра­эд­ра <i>MNBB</i><sub>1</sub> равен <img src=\"https://ege.sdamgia.ru/formula/svg/71/7101785018ee32ac8d6d6e69e3809ef0.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"18 ко­рень из 3 .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/71/7101785018ee32ac8d6d6e69e3809ef0.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"18 ко­рень из 3 .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/62/62abad231664966756a7fbdc06f89485.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c998428e6244e5d01c6634fdbf52a1c3.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/5004aa7ba57c307b87cce34db72bfce6.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8f212fdf6375b403cd0a00585d571324.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/5004aa7ba57c307b87cce34db72bfce6.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a8440abc14c2ebbe7c9251a8143849b2.svg",
+            "https://ege.sdamgia.ru/formula/svg/71/7101785018ee32ac8d6d6e69e3809ef0.svg",
+            "https://ege.sdamgia.ru/formula/svg/71/7101785018ee32ac8d6d6e69e3809ef0.svg",
+            "/get_file?id=142072"
+        ]
+    },
+    "answer": "",
+    "topic_id": 14,
+    "analog_ids": [
+        514506,
+        514513
+    ]
+}

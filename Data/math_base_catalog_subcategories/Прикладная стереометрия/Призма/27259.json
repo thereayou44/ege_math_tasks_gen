@@ -1,0 +1,45 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27259,
+    "condition": {
+        "text": "В треугольнике АВС угол С равен 90°, СН  — высота,   Найдите АН.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918663\" class=\"pbody\"><p class=\"left_margin\">В тре­уголь­ни­ке <i>АВС</i> угол <i>С</i> равен 90°, <i>СН</i>  — вы­со­та, <img src=\"https://ege.sdamgia.ru/formula/svg/50/50bc3a974a39dcdf07780cd831da66c1.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AB = 27,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/9e/9e4c6ce372d7ac50df628604cb7837d5.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" синус A = дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби . \"> Най­ди­те <i>АН</i>.<img style=\"float:right\" src=\"/get_file?id=147\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/50/50bc3a974a39dcdf07780cd831da66c1.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9e4c6ce372d7ac50df628604cb7837d5.svg",
+            "/get_file?id=147"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Поскольку              имеем:          Ответ: 15. ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27259\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По­сколь­ку    <img src=\"https://ege.sdamgia.ru/formula/svg/29/29709a317ec9371fbc8204fc12acb495.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AH=AC ко­си­нус A,\">      <img src=\"https://ege.sdamgia.ru/formula/svg/81/81ca178a915dd96cd740c61d61ebfbe8.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AC=AB ко­си­нус A\">    имеем:         </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/7f/7f73b14623b18bf4e49c22f2aee38a1c.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"AH=AB ко­си­нус в квад­ра­те A=27 левая круг­лая скоб­ка 1 минус синус в квад­ра­те A пра­вая круг­лая скоб­ка =27 умно­жить на левая круг­лая скоб­ка 1 минус дробь: чис­ли­тель: 4, зна­ме­на­тель: 9 конец дроби пра­вая круг­лая скоб­ка =15. \"> </p><p class=\"left_margin\"></p></center><p><span style=\"letter-spaceing:2px\">Ответ</span>: 15. </p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/29/29709a317ec9371fbc8204fc12acb495.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/81ca178a915dd96cd740c61d61ebfbe8.svg",
+            "https://ege.sdamgia.ru/formula/svg/7f/7f73b14623b18bf4e49c22f2aee38a1c.svg"
+        ]
+    },
+    "answer": "15",
+    "topic_id": null,
+    "analog_ids": [
+        27259,
+        30307,
+        30333,
+        30309,
+        30307,
+        30333,
+        30309,
+        30311,
+        30313,
+        30315,
+        30317,
+        30319,
+        30321,
+        30323,
+        30325,
+        30327,
+        30329,
+        30331
+    ]
+}

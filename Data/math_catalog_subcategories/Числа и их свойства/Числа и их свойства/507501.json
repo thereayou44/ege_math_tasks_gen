@@ -1,0 +1,43 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 507501,
+    "condition": {
+        "text": "Найдите все тройки натуральных чисел k, m и n, удовлетворяющие уравнению  Как обычно, ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body643217\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все трой­ки на­ту­раль­ных чисел <i>k, m</i> и <i>n</i>, удо­вле­тво­ря­ю­щие урав­не­нию <img src=\"https://ege.sdamgia.ru/formula/svg/1e/1edd219b3cc7e024f88b1e78ef97d0a2.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2 умно­жить на k!=m! минус 2 умно­жить на n!.\"> Как обыч­но, <img src=\"https://ege.sdamgia.ru/formula/svg/b2/b29e747df8dbf77ecbaba9161bc9bc3e.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"n!=1 умно­жить на 2 умно­жить на \\ldots умно­жить на n пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/1e/1edd219b3cc7e024f88b1e78ef97d0a2.svg",
+            "https://ege.sdamgia.ru/formula/svg/b2/b29e747df8dbf77ecbaba9161bc9bc3e.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Так как  то  и  Возможны два случая.1.  Если  тогда  откуда  и  Полученному условию удовлетворят только  тогда  откуда  а значит, 2.  Если  тогда  откуда  и  Далее перебором значений  при условии  ищем оставшиеся решения. nkm! = 2k! + 2n!m332443216нет решений3114нет решений228нет решений2163114нет решений Ответ:  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol507501\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Так как <img src=\"https://ege.sdamgia.ru/formula/svg/41/4161e6f2f9215c23aa6a1657c0a5f1e3.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"m!=2 умно­жить на k! плюс 2 умно­жить на n!,\"> то <img src=\"https://ege.sdamgia.ru/formula/svg/ae/ae390809ea53e689da14225a49b05429.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"n мень­ше m\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/af/af25f9d4acdbc521602e2f45debcad13.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"k мень­ше m.\"> Воз­мож­ны два слу­чая.</p><p class=\"left_margin\">1.  Если <img src=\"https://ege.sdamgia.ru/formula/svg/de/ded9ea5889503020989f87ba83cab6aa.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"n мень­ше k,\"> тогда <img src=\"https://ege.sdamgia.ru/formula/svg/14/1402157aa1cb1d4118766d091a97053c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"4 умно­жить на k! боль­ше 2 умно­жить на k! плюс 2 умно­жить на n!=m! боль­ше или равно левая круг­лая скоб­ка k плюс 1 пра­вая круг­лая скоб­ка умно­жить на k!,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/6c/6cac59f28a3c4372e8fcece738689139.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"4 боль­ше k плюс 1\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/e4/e45573c843b1bf9900f79beed39b6333.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"n мень­ше k мень­ше или равно 2.\"> По­лу­чен­но­му усло­вию удо­вле­тво­рят толь­ко <img src=\"https://ege.sdamgia.ru/formula/svg/0a/0ab55a10a44a3f243d05b5d6a7a9a3fb.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"n=1,\"> тогда <img src=\"https://ege.sdamgia.ru/formula/svg/9c/9c04a2b9a6c9fd2a0d6f354b78bc152a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"k=2,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/12/12be63ff4b6df92f842aebab9909f43c.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"m!=2 умно­жить на k! плюс 2 умно­жить на n! = 2 плюс 4 = 6,\"> а зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/bf/bf864c7651bfa851b558ea6b0f214fe0.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"m=3.\"></p><p class=\"left_margin\">2.  Если <img src=\"https://ege.sdamgia.ru/formula/svg/ab/ab867dbc1e6b2b3694a2b5fdb26791ca.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"n боль­ше или равно k,\"> тогда <img src=\"https://ege.sdamgia.ru/formula/svg/cf/cfb96e066d107676ad9fa6543f9955e5.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"4 умно­жить на n! боль­ше или равно 2 умно­жить на k! плюс 2 умно­жить на n!=m! боль­ше или равно левая круг­лая скоб­ка n плюс 1 пра­вая круг­лая скоб­ка умно­жить на n!,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/12/120643cd99909360c380e9e9f2719681.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"4 боль­ше или равно n плюс 1\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/35/3550faf00063f0347bf6c1ae8f4fda85.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"k мень­ше или равно n мень­ше или равно 3.\"> Далее пе­ре­бо­ром зна­че­ний <img src=\"https://ege.sdamgia.ru/formula/svg/f9/f92a740f5126747d86b5cdf63dc3d7de.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1 мень­ше или равно n мень­ше или равно 3,1 мень­ше или равно k мень­ше или равно 3\"> при усло­вии <img src=\"https://ege.sdamgia.ru/formula/svg/cd/cd7ebd8291c3b65296d145ab6809fdb5.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"n боль­ше или равно k\"> ищем остав­ши­е­ся ре­ше­ния.</p><p>&nbsp;</p><p></p><table style=\"margin:auto\"><tbody><tr><th style=\"text-align:center;width:25px\"><i>n</i></th><th style=\"text-align:center;width:25px\"><i>k</i></th><th style=\"text-align:center\"><i>m</i>! = 2<i>k</i>! + 2<i>n</i>!</th><th style=\"text-align:center\"><i>m</i></th></tr><tr><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">24</td><td style=\"text-align:center\">4</td></tr><tr><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">16</td><td style=\"text-align:center\">нет ре­ше­ний</td></tr><tr><td style=\"text-align:center\">3</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">14</td><td style=\"text-align:center\">нет ре­ше­ний</td></tr><tr><td style=\"text-align:center\">2</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">8</td><td style=\"text-align:center\">нет ре­ше­ний</td></tr><tr><td style=\"text-align:center\">2</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">6</td><td style=\"text-align:center\">3</td></tr><tr><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">нет ре­ше­ний</td></tr></tbody></table><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  <img src=\"https://ege.sdamgia.ru/formula/svg/17/17dd2e28177801158febf8716c58dd66.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"k=1,n=2,m=3;k=n=3,m=4;k=2,n=1,m=3.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/41/4161e6f2f9215c23aa6a1657c0a5f1e3.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/ae390809ea53e689da14225a49b05429.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af25f9d4acdbc521602e2f45debcad13.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/ded9ea5889503020989f87ba83cab6aa.svg",
+            "https://ege.sdamgia.ru/formula/svg/14/1402157aa1cb1d4118766d091a97053c.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6cac59f28a3c4372e8fcece738689139.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e45573c843b1bf9900f79beed39b6333.svg",
+            "https://ege.sdamgia.ru/formula/svg/0a/0ab55a10a44a3f243d05b5d6a7a9a3fb.svg",
+            "https://ege.sdamgia.ru/formula/svg/9c/9c04a2b9a6c9fd2a0d6f354b78bc152a.svg",
+            "https://ege.sdamgia.ru/formula/svg/12/12be63ff4b6df92f842aebab9909f43c.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bf864c7651bfa851b558ea6b0f214fe0.svg",
+            "https://ege.sdamgia.ru/formula/svg/ab/ab867dbc1e6b2b3694a2b5fdb26791ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cfb96e066d107676ad9fa6543f9955e5.svg",
+            "https://ege.sdamgia.ru/formula/svg/12/120643cd99909360c380e9e9f2719681.svg",
+            "https://ege.sdamgia.ru/formula/svg/35/3550faf00063f0347bf6c1ae8f4fda85.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f92a740f5126747d86b5cdf63dc3d7de.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cd7ebd8291c3b65296d145ab6809fdb5.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/17dd2e28177801158febf8716c58dd66.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": [
+        507501,
+        511436
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 560191,
+    "condition": {
+        "text": "Найдите все значения параметра а,  при каждом из которых уравнениеимеет ровно один корень.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body451267\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния па­ра­мет­ра <i>а</i>,  при каж­дом из ко­то­рых урав­не­ние</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/1d/1dec2dd1dcab440e5dd717222deaaae2.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка x в квад­ра­те плюс x плюс 2a в квад­ра­те плюс 1 пра­вая круг­лая скоб­ка в квад­ра­те =8a в квад­ра­те левая круг­лая скоб­ка x в квад­ра­те плюс x плюс 1 пра­вая круг­лая скоб­ка \"></p><p class=\"left_margin\"></p></center><p>имеет ровно один ко­рень.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/1d/1dec2dd1dcab440e5dd717222deaaae2.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Пусть  тогдаВернувшись к исходной переменной, получим квадратное уравнение  Квадратное уравнение имеет ровно один корень, тогда и только тогда, когда его дискриминант равен нулю:Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol560191\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/5c/5ce6c4db538f842740dce0a4ac6fbcd7.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"t=x в квад­ра­те плюс x плюс 1,\"> тогда</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/b0/b0d28162cad66111e444e7b95713862b.svg\" class=\"tex\" style=\"vertical-align:-4.6pt\" alt=\" левая круг­лая скоб­ка t плюс 2a в квад­ра­те пра­вая круг­лая скоб­ка в квад­ра­те =4 умно­жить на 2a в квад­ра­те t рав­но­силь­но t в квад­ра­те плюс 2 умно­жить на 2a в квад­ра­те t плюс левая круг­лая скоб­ка 2a в квад­ра­те пра­вая круг­лая скоб­ка в квад­ра­те =4 умно­жить на 2a в квад­ра­те t рав­но­силь­но \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/af/affdae8f688d7796759b49c572f135c5.svg\" class=\"tex\" style=\"vertical-align:-4.6pt\" alt=\" рав­но­силь­но t в квад­ра­те минус 2 умно­жить на 2a в квад­ра­те t плюс левая круг­лая скоб­ка 2a в квад­ра­те пра­вая круг­лая скоб­ка в квад­ра­те =0 рав­но­силь­но левая круг­лая скоб­ка t минус 2a в квад­ра­те пра­вая круг­лая скоб­ка в квад­ра­те =0 рав­но­силь­но t минус 2a в квад­ра­те =0.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Вер­нув­шись к ис­ход­ной пе­ре­мен­ной, по­лу­чим квад­рат­ное урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/af/aff83bbf6b933414f0fbb3e7f680eb2d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x в квад­ра­те плюс x плюс 1 минус 2a в квад­ра­те =0.\"> Квад­рат­ное урав­не­ние имеет ровно один ко­рень, тогда и толь­ко тогда, когда его дис­кри­ми­нант равен нулю:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/1e/1ee7f85e14325bcf927db63ac596576a.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"1 минус 4 умно­жить на левая круг­лая скоб­ка 1 минус 2a в квад­ра­те пра­вая круг­лая скоб­ка =0 рав­но­силь­но 8a в квад­ра­те =3 рав­но­силь­но a в квад­ра­те = дробь: чис­ли­тель: 6, зна­ме­на­тель: 16 конец дроби рав­но­силь­но a=\\pm дробь: чис­ли­тель: ко­рень из 6 , зна­ме­на­тель: 4 конец дроби . \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/2f/2f5c7e2ff350d515a00dce39829b7ec0.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" левая фи­гур­ная скоб­ка минус дробь: чис­ли­тель: ко­рень из 6 , зна­ме­на­тель: 4 конец дроби ; дробь: чис­ли­тель: ко­рень из 6 , зна­ме­на­тель: 4 конец дроби пра­вая фи­гур­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/5c/5ce6c4db538f842740dce0a4ac6fbcd7.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b0d28162cad66111e444e7b95713862b.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/affdae8f688d7796759b49c572f135c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/aff83bbf6b933414f0fbb3e7f680eb2d.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1ee7f85e14325bcf927db63ac596576a.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2f5c7e2ff350d515a00dce39829b7ec0.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 18,
+    "analog_ids": []
+}

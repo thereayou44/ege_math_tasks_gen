@@ -1,0 +1,43 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 501436,
+    "condition": {
+        "text": "В правильной треугольной призме ABCA1B1C1 боковое ребро равно  а ребро основания равно 1. Точка D  — середина ребра BB1.  а)  Докажите, что расстояние между прямыми   и  равно расстоянию между точкой A и плоскостью  б)  Найдите объём пятигранника ABCA1D.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body641088\" class=\"pbody\"><p class=\"left_margin\">В пра­виль­ной тре­уголь­ной приз­ме <i>ABCA</i><sub>1</sub><i>B</i><sub>1</sub><i>C</i><sub>1</sub> бо­ко­вое ребро равно <img src=\"https://ege.sdamgia.ru/formula/svg/60/602d9a5a24ca87291e9a520d727d9d93.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"8 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та ,\"> а ребро ос­но­ва­ния равно 1. Точка <i>D</i>  — се­ре­ди­на ребра <i>BB</i><sub>1</sub>. </p><p>&nbsp;</p><p class=\"left_margin\">а)  До­ка­жи­те, что рас­сто­я­ние между пря­мы­ми <img src=\"https://ege.sdamgia.ru/formula/svg/cd/cd951bcf1a77bbd25dbef234dd95d73f.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"A_1D\">  и <img src=\"https://ege.sdamgia.ru/formula/svg/1d/1d1a5eb698955091aadf0a6a26c747c0.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"CC_1\"> равно рас­сто­я­нию между точ­кой <i>A</i> и плос­ко­стью <img src=\"https://ege.sdamgia.ru/formula/svg/53/53031807e0ccaa006c83c7395ad28264.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"BCC_1.\"></p><p>&nbsp;</p><p class=\"left_margin\">б)  Най­ди­те объём пя­ти­гран­ни­ка <i>ABCA</i><sub>1</sub><i>D</i>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/60/602d9a5a24ca87291e9a520d727d9d93.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cd951bcf1a77bbd25dbef234dd95d73f.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1d1a5eb698955091aadf0a6a26c747c0.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/53031807e0ccaa006c83c7395ad28264.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Заметим, что расстояние между   и  равно расстоянию между прямой  и плоскостью  то есть высоте CM треугольника ABC. Расстояние же между точкой A и плоскостью  равно высоте того же треугольника ABC, проведенной из вершины A. Осталось заметить, что треугольник ABC равносторонний, поэтому его высоты равны. б)  Пусть CM  — высота треугольника  Тогда  по признаку перпендикулярности прямой и плоскости, поскольку в правильной призме  и, значит,  Пятигранник   — четырехугольная пирамида с вершиной в точке C и основанием   — прямоугольной трапецией. Высота пирамиды  Площадь основания равнаПриведем другое решение.Нетрудно заметить, что плоскость CDA1 делит призму на два равных многогранника. Значит, объем каждого из них равен половине объема призмы. Отсюда получаем ответ. Ответ: 3.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol501436\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=132381\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  За­ме­тим, что рас­сто­я­ние между <img src=\"https://ege.sdamgia.ru/formula/svg/cd/cd951bcf1a77bbd25dbef234dd95d73f.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"A_1D\">  и <img src=\"https://ege.sdamgia.ru/formula/svg/1d/1d1a5eb698955091aadf0a6a26c747c0.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"CC_1\"> равно рас­сто­я­нию между пря­мой <img src=\"https://ege.sdamgia.ru/formula/svg/1d/1d1a5eb698955091aadf0a6a26c747c0.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"CC_1\"> и плос­ко­стью <img src=\"https://ege.sdamgia.ru/formula/svg/24/24ba6ead39c034fcf8945c338d84dba7.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AA_1B,\"> то есть вы­со­те <i>CM</i> тре­уголь­ни­ка <i>ABC</i>. Рас­сто­я­ние же между точ­кой <i>A</i> и плос­ко­стью <img src=\"https://ege.sdamgia.ru/formula/svg/23/237aad47e54a653e0143b8229a9174ff.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"BCC_1\"> равно вы­со­те того же тре­уголь­ни­ка <i>ABC</i>, про­ве­ден­ной из вер­ши­ны <i>A</i>. Оста­лось за­ме­тить, что тре­уголь­ник <i>ABC</i> рав­но­сто­рон­ний, по­это­му его вы­со­ты равны.</p><p>&nbsp;</p><p class=\"left_margin\">б)  Пусть <i>CM</i>  — вы­со­та тре­уголь­ни­ка <img src=\"https://ege.sdamgia.ru/formula/svg/4b/4b5b9eab089a2e0ff9b286f012e61feb.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"ABC.\"> Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/97/9706d79f536cc0eb5dd5b1c32a83242f.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"CM\\bot ABB_1A_1\"> по при­зна­ку пер­пен­ди­ку­ляр­но­сти пря­мой и плос­ко­сти, по­сколь­ку в пра­виль­ной приз­ме <img src=\"https://ege.sdamgia.ru/formula/svg/ac/ac592ffac0c62c58d1d7a18885e741d7.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AA_1\\bot ABC\"> и, зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/00/0010db8b90f14d41b29a3f41dfae41c4.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"CM\\bot AA_1.\"> Пя­ти­гран­ник <img src=\"https://ege.sdamgia.ru/formula/svg/17/1724d5c8b13768c1f23280faa870bb53.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"ABCA_1D\">  — че­ты­рех­уголь­ная пи­ра­ми­да с вер­ши­ной в точке <i>C</i> и ос­но­ва­ни­ем <img src=\"https://ege.sdamgia.ru/formula/svg/48/487b86fcb531a49e225857d731603a65.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"ABDA_1\">  — пря­мо­уголь­ной тра­пе­ци­ей. Вы­со­та пи­ра­ми­ды <img src=\"https://ege.sdamgia.ru/formula/svg/c8/c8424f3049b472ebea059c95f8e70a7e.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"CM= дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби . \"> Пло­щадь ос­но­ва­ния равна</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/17/17f76f5878d22c0d34a858acead2b4fa.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"S_ABDA_1= дробь: чис­ли­тель: AA_1 плюс BD, зна­ме­на­тель: 2 конец дроби умно­жить на AB= дробь: чис­ли­тель: 8 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та плюс 4 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби =6 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/9d/9dd5c12497c48b6c6dea281163661a1b.svg\" class=\"tex\" style=\"vertical-align:-8.6pt\" alt=\"V= дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби S_ABDA_1 умно­жить на CM= дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби умно­жить на 6 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та умно­жить на дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби =3. \"></p><p class=\"left_margin\"></p></center><p><i>При­ве­дем дру­гое ре­ше­ние.</i></p><p class=\"left_margin\">Не­труд­но за­ме­тить, что плос­кость <i>CDA</i><sub>1</sub> делит приз­му на два рав­ных мно­го­гран­ни­ка. Зна­чит, объем каж­до­го из них равен по­ло­ви­не объ­е­ма приз­мы. От­сю­да по­лу­ча­ем ответ.</p><p>&nbsp;</p><p class=\"left_margin\">Ответ: 3.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/cd/cd951bcf1a77bbd25dbef234dd95d73f.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1d1a5eb698955091aadf0a6a26c747c0.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1d1a5eb698955091aadf0a6a26c747c0.svg",
+            "https://ege.sdamgia.ru/formula/svg/24/24ba6ead39c034fcf8945c338d84dba7.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/237aad47e54a653e0143b8229a9174ff.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4b5b9eab089a2e0ff9b286f012e61feb.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/9706d79f536cc0eb5dd5b1c32a83242f.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/ac592ffac0c62c58d1d7a18885e741d7.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/0010db8b90f14d41b29a3f41dfae41c4.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/1724d5c8b13768c1f23280faa870bb53.svg",
+            "https://ege.sdamgia.ru/formula/svg/48/487b86fcb531a49e225857d731603a65.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c8424f3049b472ebea059c95f8e70a7e.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/17f76f5878d22c0d34a858acead2b4fa.svg",
+            "https://ege.sdamgia.ru/formula/svg/9d/9dd5c12497c48b6c6dea281163661a1b.svg",
+            "/get_file?id=132381"
+        ]
+    },
+    "answer": "3.",
+    "topic_id": 14,
+    "analog_ids": [
+        501436,
+        501456,
+        511360
+    ]
+}

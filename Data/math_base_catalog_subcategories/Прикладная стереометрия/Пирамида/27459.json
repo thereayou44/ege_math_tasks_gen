@@ -1,0 +1,46 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27459,
+    "condition": {
+        "text": "Найдите тангенс угла AOB. Сторона одной клетки равна 1.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918975\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=30623\" style=\"float:right;margin:10px\">Най­ди­те тан­генс угла <i>AOB</i>. Сто­ро­на одной клет­ки равна 1.</p></div>",
+        "image_urls": [
+            "/get_file?id=30623"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Достроим угол до треугольника  Из рисунка находим:    Воспользуемся теоремой косинусов: Тогда:   Поэтому угол  равен 135°, а его тангенс равен −1.  Ответ: −1. Приведём другое решение.Пусть  тогда   и, следовательно,    Приведём другое решение.Отложим на продолжении прямой BO за точку O отрезок  и проведём отрезок  Заметим, что   Поэтому треугольник OKA  — прямоугольный равнобедренный, углы при его основании равны  а  тогда   и  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27459\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=30620\" style=\"float:right;margin:10px\">До­стро­им угол до тре­уголь­ни­ка <img src=\"https://ege.sdamgia.ru/formula/svg/8b/8b6079c8f4d3ff12a5ef4eb3fd968729.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BOA.\"> Из ри­сун­ка на­хо­дим: <img src=\"https://ege.sdamgia.ru/formula/svg/3c/3c282705005d860652eb38ff8ace994f.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"OA= ко­рень из: на­ча­ло ар­гу­мен­та: 10 конец ар­гу­мен­та ,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/4b/4b6b88af64ec601f801307cf4aa4e08d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"OB= ко­рень из: на­ча­ло ар­гу­мен­та: 5 конец ар­гу­мен­та ,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/40/40a3d9fc82ccf0b78b5cbd8df36b7dee.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AB=5.\"> Вос­поль­зу­ем­ся тео­ре­мой ко­си­ну­сов:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/c4/c4080393747150da9444729a7fae0b2a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AB в квад­ра­те =OB в квад­ра­те плюс OA в квад­ра­те минус 2OB умно­жить на OA умно­жить на ко­си­нус AOB.\"></p><p class=\"left_margin\"></p></center><p> Тогда: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/1d/1ddbb988d301e7111ba68f05ec3d5e36.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" ко­си­нус AOB= дробь: чис­ли­тель: OB в квад­ра­те плюс OA в квад­ра­те минус AB в квад­ра­те , зна­ме­на­тель: 2OB умно­жить на OA конец дроби = дробь: чис­ли­тель: 5 плюс 10 минус 25, зна­ме­на­тель: 2 умно­жить на ко­рень из: на­ча­ло ар­гу­мен­та: 5 конец ар­гу­мен­та умно­жить на ко­рень из: на­ча­ло ар­гу­мен­та: 10 конец ар­гу­мен­та конец дроби = минус дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби . \"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p class=\"left_margin\">По­это­му угол <img src=\"https://ege.sdamgia.ru/formula/svg/f1/f177446d915087e2090aa74406de9a05.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" AOB\"> равен 135°, а его тан­генс равен −1. </p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> −1.</p><p>&nbsp;</p><p><img src=\"/get_file?id=30621\" style=\"float:right;margin:10px\"><b>При­ведём дру­гое ре­ше­ние.</b></p><p class=\"left_margin\">Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/72/72d018e68371569c177d95244747c97f.svg\" class=\"tex\" style=\"vertical-align:-3.3pt\" alt=\" альфа = \\widehatBOH, бета = \\widehatAOH,\"> тогда <img src=\"https://ege.sdamgia.ru/formula/svg/e5/e558a6aaf6185b51c9cc045dcf50df7a.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" тан­генс альфа = дробь: чис­ли­тель: BH, зна­ме­на­тель: HO конец дроби = 2, \"> <img src=\"https://ege.sdamgia.ru/formula/svg/32/32423347811143df26c7117ad142ca55.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" тан­генс бета = дробь: чис­ли­тель: AH, зна­ме­на­тель: HO конец дроби = 3, \"> и, сле­до­ва­тель­но, </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/69/69f0987130be615a587a6be6c411516a.svg\" class=\"tex\" style=\"vertical-align:-10.8pt\" alt=\" тан­генс \\widehatBOA = тан­генс левая круг­лая скоб­ка альфа плюс бета пра­вая круг­лая скоб­ка = дробь: чис­ли­тель: тан­генс альфа плюс тан­генс бета , зна­ме­на­тель: 1 минус тан­генс альфа тан­генс бета конец дроби = дробь: чис­ли­тель: 2 плюс 3, зна­ме­на­тель: 1 минус 2 умно­жить на 3 конец дроби = минус 1. \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p><img src=\"/get_file?id=30622\" style=\"float:right;margin:10px\"><b>При­ведём дру­гое ре­ше­ние.</b></p><p class=\"left_margin\">От­ло­жим на про­дол­же­нии пря­мой <i>BO</i> за точку <i>O</i> от­ре­зок <img src=\"https://ege.sdamgia.ru/formula/svg/06/06b532fec108be425e2d3c7b45fd6663.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"OK = BO\"> и про­ведём от­ре­зок <img src=\"https://ege.sdamgia.ru/formula/svg/95/9579c3daf2dc4a6c2269bdbb218a3a2b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" AK.\"> За­ме­тим, что <img src=\"https://ege.sdamgia.ru/formula/svg/eb/ebcf43ce851ebbe318c31dd028629e16.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"OK = KA = ко­рень из 5 ,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/d7/d7dc2572c3ecdea80821cee419e0ebd1.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"OA = ко­рень из: на­ча­ло ар­гу­мен­та: 10 конец ар­гу­мен­та .\"> По­это­му тре­уголь­ник <i>OKA</i>  — пря­мо­уголь­ный рав­но­бед­рен­ный, углы при его ос­но­ва­нии равны <img src=\"https://ege.sdamgia.ru/formula/svg/86/864d1a2c7b8c9195315b04a8f4560dd9.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"45 гра­ду­сов,\"> а  тогда  <img src=\"https://ege.sdamgia.ru/formula/svg/2b/2b493997e1889cd46e07350551177e9e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" \\widehatBOA = 135 гра­ду­сов,\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/3f/3fe94e65b23fca43f083e549975ccd27.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\" тан­генс \\widehatBOA = минус 1.\"></p><p>&nbsp;</p><p><!--этот клон из ка­та­ло­га не уби­рать--></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/8b/8b6079c8f4d3ff12a5ef4eb3fd968729.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3c282705005d860652eb38ff8ace994f.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4b6b88af64ec601f801307cf4aa4e08d.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/40a3d9fc82ccf0b78b5cbd8df36b7dee.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c4080393747150da9444729a7fae0b2a.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1ddbb988d301e7111ba68f05ec3d5e36.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f177446d915087e2090aa74406de9a05.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/72d018e68371569c177d95244747c97f.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e558a6aaf6185b51c9cc045dcf50df7a.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/32423347811143df26c7117ad142ca55.svg",
+            "https://ege.sdamgia.ru/formula/svg/69/69f0987130be615a587a6be6c411516a.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/06b532fec108be425e2d3c7b45fd6663.svg",
+            "https://ege.sdamgia.ru/formula/svg/95/9579c3daf2dc4a6c2269bdbb218a3a2b.svg",
+            "https://ege.sdamgia.ru/formula/svg/eb/ebcf43ce851ebbe318c31dd028629e16.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d7dc2572c3ecdea80821cee419e0ebd1.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/864d1a2c7b8c9195315b04a8f4560dd9.svg",
+            "https://ege.sdamgia.ru/formula/svg/2b/2b493997e1889cd46e07350551177e9e.svg",
+            "https://ege.sdamgia.ru/formula/svg/3f/3fe94e65b23fca43f083e549975ccd27.svg",
+            "/get_file?id=30620",
+            "/get_file?id=30621",
+            "/get_file?id=30622"
+        ]
+    },
+    "answer": "-1",
+    "topic_id": null,
+    "analog_ids": [
+        27459,
+        27457,
+        27458
+    ]
+}

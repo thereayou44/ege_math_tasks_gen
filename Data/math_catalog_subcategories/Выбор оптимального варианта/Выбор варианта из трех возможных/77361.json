@@ -1,0 +1,63 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 77361,
+    "condition": {
+        "text": "В таблице указаны средние цены (в рублях) на некоторые основные продукты питания в трех городах России (по данным на начало 2010 года). Наименование продукта  Тверь  Липецк  Барнаул Пшеничный хлеб (батон)  11  12  14 Молоко (1 литр)  26  23  25 Картофель (1 кг)  9  13  16 Сыр (1 кг)  240  215  260 Мясо (говядина) (1 кг) 260  280  300 Подсолнечное масло (1 литр)  38  44  50  Определите, в каком из этих городов окажется самым дешевым следующий набор продуктов: 2 батона пшеничного хлеба, 3 кг картофеля, 1,5 кг говядины, 1 л подсолнечного масла. В ответ запишите стоимость данного набора продуктов в этом городе (в рублях).",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body999629\" class=\"pbody\"><p class=\"left_margin\">В таб­ли­це ука­за­ны сред­ние цены (в руб­лях) на не­ко­то­рые ос­нов­ные про­дук­ты пи­та­ния в трех го­ро­дах Рос­сии (по дан­ным на на­ча­ло 2010 года).</p><p>&nbsp;</p><p></p><table border=\"1\" align=\"center\"><tbody><tr><td align=\"center\"><b>На­име­но­ва­ние про­дук­та</b> </td><td align=\"center\"> <b>Тверь</b> </td><td align=\"center\"> <b>Ли­пецк</b> </td><td align=\"center\"> <b>Бар­на­ул</b> </td></tr><tr><td align=\"left\">Пше­нич­ный хлеб (батон) </td><td align=\"center\"> 11 </td><td align=\"center\"> 12 </td><td align=\"center\"> 14 </td></tr><tr><td align=\"left\">Мо­ло­ко (1 литр) </td><td align=\"center\"> 26 </td><td align=\"center\"> 23 </td><td align=\"center\"> 25 </td></tr><tr><td align=\"left\">Кар­то­фель (1 кг) </td><td align=\"center\"> 9 </td><td align=\"center\"> 13 </td><td align=\"center\"> 16 </td></tr><tr><td align=\"left\">Сыр (1 кг) </td><td align=\"center\"> 240 </td><td align=\"center\"> 215 </td><td align=\"center\"> 260 </td></tr><tr><td align=\"left\">Мясо (го­вя­ди­на) (1 кг)</td><td align=\"center\"> 260 </td><td align=\"center\"> 280 </td><td align=\"center\"> 300 </td></tr><tr><td align=\"left\">Под­сол­неч­ное масло (1 литр) </td><td align=\"center\"> 38 </td><td align=\"center\"> 44 </td><td align=\"center\"> 50 </td></tr></tbody></table><p>&nbsp;</p><p class=\"left_margin\">Опре­де­ли­те, в каком из этих го­ро­дов ока­жет­ся самым де­ше­вым сле­ду­ю­щий набор про­дук­тов: 2 ба­то­на пше­нич­но­го хлеба, 3 кг кар­то­фе­ля, 1,5 кг го­вя­ди­ны, 1 л под­сол­неч­но­го масла. В ответ за­пи­ши­те сто­и­мость дан­но­го на­бо­ра про­дук­тов в этом го­ро­де (в руб­лях).</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. В Твери стоимость 2 батонов пшеничного хлеба, 3 кг картофеля, 1,5 кг говядины, 1 л подсолнечного масла составит: 11  2 + 9  3 + 1,5  260 + 1  38 = 477 руб.В Липецке стоимость 2 батонов пшеничного хлеба, 3 кг картофеля, 1,5 кг говядины, 1 л подсолнечного масла составит 12  2 + 13  3 + 1,5  280 + 1  44 = 527 руб.В Барнауле стоимость 2 батонов пшеничного хлеба, 3 кг картофеля, 1,5 кг говядины, 1 л подсолнечного масла составит 14  2 + 16  3 + 1,5  300 + 1  50 = 576 руб.Таким образом, самый дешёвый набор продуктов можно купить в Твери по цене 477 руб.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol77361\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">В Твери сто­и­мость 2 ба­то­нов пше­нич­но­го хлеба, 3 кг кар­то­фе­ля, 1,5 кг го­вя­ди­ны, 1 л под­сол­неч­но­го масла со­ста­вит:</p><p class=\"left_margin\"></p><center><p> 11 <img src=\"https://ege.sdamgia.ru/formula/svg/57/571ca3d7c7a5d375a429ff5a90bc5099.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" умно­жить на \"> 2 + 9 <img src=\"https://ege.sdamgia.ru/formula/svg/57/571ca3d7c7a5d375a429ff5a90bc5099.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" умно­жить на \"> 3 + 1,5 <img src=\"https://ege.sdamgia.ru/formula/svg/57/571ca3d7c7a5d375a429ff5a90bc5099.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" умно­жить на \"> 260 + 1 <img src=\"https://ege.sdamgia.ru/formula/svg/57/571ca3d7c7a5d375a429ff5a90bc5099.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" умно­жить на \"> 38 = 477 руб.</p><p class=\"left_margin\"></p></center><p class=\"left_margin\">В Ли­пец­ке сто­и­мость 2 ба­то­нов пше­нич­но­го хлеба, 3 кг кар­то­фе­ля, 1,5 кг го­вя­ди­ны, 1 л под­сол­неч­но­го масла со­ста­вит </p><p class=\"left_margin\"></p><center><p class=\"left_margin\">12 <img src=\"https://ege.sdamgia.ru/formula/svg/57/571ca3d7c7a5d375a429ff5a90bc5099.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" умно­жить на \"> 2 + 13 <img src=\"https://ege.sdamgia.ru/formula/svg/57/571ca3d7c7a5d375a429ff5a90bc5099.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" умно­жить на \"> 3 + 1,5 <img src=\"https://ege.sdamgia.ru/formula/svg/57/571ca3d7c7a5d375a429ff5a90bc5099.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" умно­жить на \"> 280 + 1 <img src=\"https://ege.sdamgia.ru/formula/svg/57/571ca3d7c7a5d375a429ff5a90bc5099.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" умно­жить на \"> 44 = 527 руб.</p><p class=\"left_margin\"></p></center><p class=\"left_margin\">В Бар­нау­ле сто­и­мость 2 ба­то­нов пше­нич­но­го хлеба, 3 кг кар­то­фе­ля, 1,5 кг го­вя­ди­ны, 1 л под­сол­неч­но­го масла со­ста­вит </p><p class=\"left_margin\"></p><center><p class=\"left_margin\">14 <img src=\"https://ege.sdamgia.ru/formula/svg/57/571ca3d7c7a5d375a429ff5a90bc5099.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" умно­жить на \"> 2 + 16 <img src=\"https://ege.sdamgia.ru/formula/svg/57/571ca3d7c7a5d375a429ff5a90bc5099.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" умно­жить на \"> 3 + 1,5 <img src=\"https://ege.sdamgia.ru/formula/svg/57/571ca3d7c7a5d375a429ff5a90bc5099.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" умно­жить на \"> 300 + 1 <img src=\"https://ege.sdamgia.ru/formula/svg/57/571ca3d7c7a5d375a429ff5a90bc5099.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" умно­жить на \"> 50 = 576 руб.</p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Таким об­ра­зом, самый дешёвый набор про­дук­тов можно ку­пить в Твери по цене 477 руб.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/57/571ca3d7c7a5d375a429ff5a90bc5099.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/571ca3d7c7a5d375a429ff5a90bc5099.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/571ca3d7c7a5d375a429ff5a90bc5099.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/571ca3d7c7a5d375a429ff5a90bc5099.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/571ca3d7c7a5d375a429ff5a90bc5099.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/571ca3d7c7a5d375a429ff5a90bc5099.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/571ca3d7c7a5d375a429ff5a90bc5099.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/571ca3d7c7a5d375a429ff5a90bc5099.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/571ca3d7c7a5d375a429ff5a90bc5099.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/571ca3d7c7a5d375a429ff5a90bc5099.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/571ca3d7c7a5d375a429ff5a90bc5099.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/571ca3d7c7a5d375a429ff5a90bc5099.svg"
+        ]
+    },
+    "answer": "477",
+    "topic_id": null,
+    "analog_ids": [
+        77361,
+        245713,
+        245757,
+        245761,
+        245713,
+        245757,
+        245761,
+        501184,
+        245711,
+        245715,
+        245717,
+        245719,
+        245721,
+        245723,
+        245725,
+        245727,
+        245729,
+        245731,
+        245733,
+        245735,
+        245737,
+        245739,
+        245741,
+        245743,
+        245745,
+        245747,
+        245749,
+        245751,
+        245753,
+        245755,
+        245759
+    ]
+}

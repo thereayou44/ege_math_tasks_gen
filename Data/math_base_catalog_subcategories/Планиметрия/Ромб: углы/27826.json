@@ -1,0 +1,60 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27826,
+    "condition": {
+        "text": "Биссектриса тупого угла параллелограмма делит противоположную сторону в отношении 4 : 3, считая от вершины острого угла. Найдите большую сторону параллелограмма, если его периметр равен 88.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918094\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=138321\" style=\"float:right;margin:10px;max-width:100%\">Бис­сек­три­са ту­по­го угла па­рал­ле­ло­грам­ма делит про­ти­во­по­лож­ную сто­ро­ну в от­но­ше­нии 4 : 3, счи­тая от вер­ши­ны остро­го угла. Най­ди­те боль­шую сто­ро­ну па­рал­ле­ло­грам­ма, если его пе­ри­метр равен 88.</p></div>",
+        "image_urls": [
+            "/get_file?id=138321"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Заметим, что  как накрест лежащие углы при пересечении параллельных прямых секущей. Значит, треугольник ADL − равнобедренный. Пусть  тогда   Противоположные стороны параллелограмма ABCD попарно равны, тогда откуда  Находим   Ответ: 28.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27826\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">За­ме­тим, что <img src=\"https://ege.sdamgia.ru/formula/svg/2c/2c7e0353907395309d980b2fa7244d8d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle CDL=\\angle ALD\"> как на­крест ле­жа­щие углы при пе­ре­се­че­нии па­рал­лель­ных пря­мых се­ку­щей. Зна­чит, тре­уголь­ник <i>ADL</i> − рав­но­бед­рен­ный. Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/cf/cfdcedf8a1f4b94532c6918cf9e71775.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AL=4x,\"> тогда <img src=\"https://ege.sdamgia.ru/formula/svg/5c/5cf2510ef6e398f9ce722f9e7f485920.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AD=4x,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/43/431deaac4f5d6b70af7ed8529946c6f4.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AB=7x.\"> Про­ти­во­по­лож­ные сто­ро­ны па­рал­ле­ло­грам­ма <i>ABCD</i> по­пар­но равны, тогда</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/2c/2cfce498fbcad530d2dd6f797d42efde.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"P_ABCD=2 левая круг­лая скоб­ка AD плюс AB пра­вая круг­лая скоб­ка =22x=88,\"></p><p class=\"left_margin\"></p></center> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/d9/d9d1e6c3a49998deef7ad36a6e1bb0d9.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=4.\"> На­хо­дим <img src=\"https://ege.sdamgia.ru/formula/svg/df/df65474e9882af86e620306d451d47c4.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AB=7x=28.\"> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 28.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/2c/2c7e0353907395309d980b2fa7244d8d.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cfdcedf8a1f4b94532c6918cf9e71775.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5cf2510ef6e398f9ce722f9e7f485920.svg",
+            "https://ege.sdamgia.ru/formula/svg/43/431deaac4f5d6b70af7ed8529946c6f4.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2cfce498fbcad530d2dd6f797d42efde.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d9d1e6c3a49998deef7ad36a6e1bb0d9.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/df65474e9882af86e620306d451d47c4.svg"
+        ]
+    },
+    "answer": "28",
+    "topic_id": 1,
+    "analog_ids": [
+        27826,
+        49979,
+        49981,
+        49983,
+        49979,
+        49981,
+        49983,
+        49985,
+        49987,
+        49989,
+        49991,
+        49993,
+        49995,
+        49997,
+        49999,
+        50001,
+        50003,
+        50005,
+        50007,
+        50009,
+        50011,
+        50013,
+        50015,
+        50017,
+        50019,
+        50021,
+        50023,
+        50025,
+        50027,
+        50029,
+        50031
+    ]
+}

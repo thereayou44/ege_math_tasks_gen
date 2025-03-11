@@ -1,0 +1,65 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27780,
+    "condition": {
+        "text": "На рисунке угол 1 равен 46°, угол 2 равен  30°, угол 3 равен 44°. Найдите угол 4. Ответ дайте в градусах.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918136\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right; margin:10px\" src=\"/get_file?id=7727\">На ри­сун­ке угол 1 равен 46°, угол 2 равен  30°, угол 3 равен 44°. Най­ди­те угол 4. Ответ дайте в гра­ду­сах.</p></div>",
+        "image_urls": [
+            "/get_file?id=7727"
+        ]
+    },
+    "solution": {
+        "text": "Решение. сумма углов в выпуклом четырехугольнике равна 360°. Ответ: 120.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27780\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">сумма углов в вы­пук­лом че­ты­рех­уголь­ни­ке равна 360°.</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"d2a1cec2604dcefaf41903ae11fc8008\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/d2/d2a1cec2604dcefaf41903ae11fc8008.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\angle 4=360 гра­ду­сов минус \\angle 1 минус левая круг­лая скоб­ка 180 гра­ду­сов минус \\angle 1 минус \\angle 2 пра­вая круг­лая скоб­ка минус левая круг­лая скоб­ка 180 гра­ду­сов минус \\angle 1 минус \\angle 3 пра­вая круг­лая скоб­ка =\\angle 1 плюс \\angle 2 плюс \\angle 3=120 гра­ду­сов .\"></span><span data-width=\"515\" data-formulahash=\"d2a1cec2604dcefaf41903ae11fc8008\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/12/122e21219544acc9c2f09732fe4c9e3e.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\angle 4=360 гра­ду­сов минус \\angle 1 минус левая круг­лая скоб­ка 180 гра­ду­сов минус \\angle 1 минус \\angle 2 пра­вая круг­лая скоб­ка минус левая круг­лая скоб­ка 180 гра­ду­сов минус \\angle 1 минус \\angle 3 пра­вая круг­лая скоб­ка =\"><br><img src=\"https://ege.sdamgia.ru/formula/svg/a7/a7897af8bdf3c1066d9945f9147b5d79.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"=\\angle 1 плюс \\angle 2 плюс \\angle 3=120 гра­ду­сов .\"></span><span data-width=\"365\" data-formulahash=\"d2a1cec2604dcefaf41903ae11fc8008\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/3f/3f3b4c0a01b69aa0e329a53aed20eabf.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle 4=\"><br><img src=\"https://ege.sdamgia.ru/formula/svg/02/029c0ed58fa46bcc50624a86bbd1098b.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"=360 гра­ду­сов минус \\angle 1 минус левая круг­лая скоб­ка 180 гра­ду­сов минус \\angle 1 минус \\angle 2 пра­вая круг­лая скоб­ка минус левая круг­лая скоб­ка 180 гра­ду­сов минус \\angle 1 минус \\angle 3 пра­вая круг­лая скоб­ка =\"><br><img src=\"https://ege.sdamgia.ru/formula/svg/a7/a7897af8bdf3c1066d9945f9147b5d79.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"=\\angle 1 плюс \\angle 2 плюс \\angle 3=120 гра­ду­сов .\"></span></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ</span>: 120.</p><p></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d2/d2a1cec2604dcefaf41903ae11fc8008.svg",
+            "https://ege.sdamgia.ru/formula/svg/12/122e21219544acc9c2f09732fe4c9e3e.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a7897af8bdf3c1066d9945f9147b5d79.svg",
+            "https://ege.sdamgia.ru/formula/svg/3f/3f3b4c0a01b69aa0e329a53aed20eabf.svg",
+            "https://ege.sdamgia.ru/formula/svg/02/029c0ed58fa46bcc50624a86bbd1098b.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a7897af8bdf3c1066d9945f9147b5d79.svg"
+        ]
+    },
+    "answer": "120",
+    "topic_id": null,
+    "analog_ids": [
+        27780,
+        48095,
+        48097,
+        48099,
+        48095,
+        48097,
+        48099,
+        48101,
+        48103,
+        48105,
+        48107,
+        48109,
+        48111,
+        48113,
+        48115,
+        48117,
+        48119,
+        48121,
+        48123,
+        48125,
+        48127,
+        48129,
+        48131,
+        48133,
+        48135,
+        48137,
+        48139,
+        48141,
+        48143,
+        48145,
+        48147,
+        48149,
+        48151,
+        48153,
+        48155,
+        48157,
+        48159
+    ]
+}

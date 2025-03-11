@@ -1,0 +1,59 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27404,
+    "condition": {
+        "text": "В треугольнике ABC угол C равен 90°, синус внешнего угла при вершине A равен   Найдите ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919024\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right; margin:10px\" src=\"/get_file?id=7668\">В тре­уголь­ни­ке <i>ABC</i> угол <i>C</i> равен 90°, синус внеш­не­го угла при вер­ши­не <i>A</i> равен <img src=\"https://ege.sdamgia.ru/formula/svg/22/229bf8c4ef078c17bd9f498236f499e0.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 7, зна­ме­на­тель: 25 конец дроби , \"> <img src=\"https://ege.sdamgia.ru/formula/svg/a1/a1fd7479ea3ca99d6322467634142f7d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AB = 5.\"> Най­ди­те <img src=\"https://ege.sdamgia.ru/formula/svg/55/55c9ee3beff9b131586901889ba3714f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AC.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/22/229bf8c4ef078c17bd9f498236f499e0.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a1fd7479ea3ca99d6322467634142f7d.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/55c9ee3beff9b131586901889ba3714f.svg",
+            "/get_file?id=7668"
+        ]
+    },
+    "solution": {
+        "text": "Решение. так как  Ответ: 4,8. ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27404\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">так как </p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"09e9d7833b1881e1085af7de3c5e5987\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/ec/ec6a219b235f4280e027e0781f76ac99.svg\" class=\"tex\" style=\"vertical-align:-1.9pt\" alt=\"AC=AB умно­жить на ко­си­нус A=AB умно­жить на ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус синус в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та A пра­вая круг­лая скоб­ка =\"><br><img src=\"https://ege.sdamgia.ru/formula/svg/3e/3e4b20dc987c79d6aac32970477e599c.svg\" class=\"tex\" style=\"vertical-align:-12.3pt\" alt=\"=AB умно­жить на ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус синус в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та A_внеш пра­вая круг­лая скоб­ка =5 умно­жить на ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус левая круг­лая скоб­ка дробь: чис­ли­тель: 7, зна­ме­на­тель: 25 конец дроби пра­вая круг­лая скоб­ка в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та пра­вая круг­лая скоб­ка =5 умно­жить на 0,96=4,8. \"></span><span data-width=\"390\" data-formulahash=\"09e9d7833b1881e1085af7de3c5e5987\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/ec/ec6a219b235f4280e027e0781f76ac99.svg\" class=\"tex\" style=\"vertical-align:-1.9pt\" alt=\"AC=AB умно­жить на ко­си­нус A=AB умно­жить на ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус синус в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та A пра­вая круг­лая скоб­ка =\"><br><img src=\"https://ege.sdamgia.ru/formula/svg/78/7845cb058b65254cd64bbe2cff7dac3c.svg\" class=\"tex\" style=\"vertical-align:-5.7pt\" alt=\"=AB умно­жить на ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус синус в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та A_внеш пра­вая круг­лая скоб­ка =\"><br><img src=\"https://ege.sdamgia.ru/formula/svg/29/29813d0ba633d2a9a70f021e9d08147d.svg\" class=\"tex\" style=\"vertical-align:-12.3pt\" alt=\"=5 умно­жить на ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус левая круг­лая скоб­ка дробь: чис­ли­тель: 7, зна­ме­на­тель: 25 конец дроби пра­вая круг­лая скоб­ка в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та пра­вая круг­лая скоб­ка =5 умно­жить на 0,96=4,8. \"></span></p><p class=\"left_margin\"></p></center> <p><span style=\"letter-spaceing:2px\">Ответ</span>: 4,8. </p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ec/ec6a219b235f4280e027e0781f76ac99.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e4b20dc987c79d6aac32970477e599c.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ec6a219b235f4280e027e0781f76ac99.svg",
+            "https://ege.sdamgia.ru/formula/svg/78/7845cb058b65254cd64bbe2cff7dac3c.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/29813d0ba633d2a9a70f021e9d08147d.svg"
+        ]
+    },
+    "answer": "4,8",
+    "topic_id": null,
+    "analog_ids": [
+        27404,
+        36395,
+        36397,
+        36399,
+        36395,
+        36397,
+        36399,
+        36401,
+        36403,
+        36405,
+        36407,
+        36409,
+        36411,
+        36413,
+        36415,
+        36417,
+        36419,
+        36421,
+        36423,
+        36425,
+        36427,
+        36429,
+        36431,
+        36433,
+        36435,
+        36437,
+        36439,
+        36441,
+        36443
+    ]
+}

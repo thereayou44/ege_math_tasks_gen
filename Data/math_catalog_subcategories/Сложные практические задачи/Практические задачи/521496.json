@@ -1,0 +1,24 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521496,
+    "condition": {
+        "text": "Сумма вклада увеличивалась первого числа каждого месяца на 2% по отношению к сумме на первое число предыдущего месяца. Аналогично, цена на кирпич возрастала на 36% ежемесячно. Отсрочив покупку кирпича, 1 мая в банк положили некоторую сумму. На сколько процентов меньше в этом случае можно купить кирпича на 1 июля того же года на всю сумму, полученную из банка вместе с процентами?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629732\" class=\"pbody\"><p class=\"left_margin\">Сумма вкла­да уве­ли­чи­ва­лась пер­во­го числа каж­до­го ме­ся­ца на 2% по от­но­ше­нию к сумме на пер­вое число преды­ду­ще­го ме­ся­ца. Ана­ло­гич­но, цена на кир­пич воз­рас­та­ла на 36% еже­ме­сяч­но. От­сро­чив по­куп­ку кир­пи­ча, 1 мая в банк по­ло­жи­ли не­ко­то­рую сумму. На сколь­ко про­цен­тов мень­ше в этом слу­чае можно ку­пить кир­пи­ча на 1 июля того же года на всю сумму, по­лу­чен­ную из банка вме­сте с про­цен­та­ми?</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Пусть вклад составлял x, а цена кирпича  В мае можно было купить  кирпичей, в июле  —  поэтому уменьшение составило  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521496\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть вклад со­став­лял <i>x</i>, а цена кир­пи­ча <img src=\"https://ege.sdamgia.ru/formula/svg/11/11fc3d25620edbaebea78565eaee7e97.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y.\"> В мае можно было ку­пить <img src=\"https://ege.sdamgia.ru/formula/svg/a4/a4df4c5aaf8f092e03a00f7109e5de74.svg\" class=\"tex\" style=\"vertical-align:-10.5pt\" alt=\" дробь: чис­ли­тель: x, зна­ме­на­тель: y конец дроби \"> кир­пи­чей, в июле  — <img src=\"https://ege.sdamgia.ru/formula/svg/38/3863e50257173906366bbfd35ec7afad.svg\" class=\"tex\" style=\"vertical-align:-10.5pt\" alt=\" дробь: чис­ли­тель: 1,02 в квад­ра­те x, зна­ме­на­тель: 1,36 в квад­ра­те y конец дроби = дробь: чис­ли­тель: 9, зна­ме­на­тель: 16 конец дроби умно­жить на дробь: чис­ли­тель: x, зна­ме­на­тель: y конец дроби , \"> по­это­му умень­ше­ние со­ста­ви­ло <img src=\"https://ege.sdamgia.ru/formula/svg/5d/5dd7b7d1938cdaa69e02537ea44cde9a.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 7, зна­ме­на­тель: 16 конец дроби умно­жить на 100\\%=43,75\\%. \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/f6/f6ac688bd41a21fcdb58b564f1e5ac2e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"43,75\\%\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/11/11fc3d25620edbaebea78565eaee7e97.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a4df4c5aaf8f092e03a00f7109e5de74.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/3863e50257173906366bbfd35ec7afad.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5dd7b7d1938cdaa69e02537ea44cde9a.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f6ac688bd41a21fcdb58b564f1e5ac2e.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

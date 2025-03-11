@@ -1,0 +1,26 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27821,
+    "condition": {
+        "text": "Основания трапеции равны 4 и 10. Найдите больший из отрезков, на которые делит среднюю линию этой трапеции одна из ее диагоналей.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918097\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=113337\" style=\"float:right;margin:10px;max-width:100%\">Ос­но­ва­ния тра­пе­ции равны 4 и 10. Най­ди­те боль­ший из от­рез­ков, на ко­то­рые делит сред­нюю линию этой тра­пе­ции одна из ее диа­го­на­лей.</p></div>",
+        "image_urls": [
+            "/get_file?id=113337"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Больший отрезок средней линии трапеции является средней линией треугольника ADB, а значит, равен половине его основания.  Ответ: 5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27821\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Боль­ший от­ре­зок сред­ней линии тра­пе­ции яв­ля­ет­ся сред­ней ли­ни­ей тре­уголь­ни­ка <i>ADB</i>, а зна­чит, равен по­ло­ви­не его ос­но­ва­ния.</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/20/20d7c9dd6435456f973bdab2f27aa40e.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"EO= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби AB= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на 10=5. \"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 5.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/20/20d7c9dd6435456f973bdab2f27aa40e.svg"
+        ]
+    },
+    "answer": "5",
+    "topic_id": 1,
+    "analog_ids": [
+        27821,
+        525370,
+        562750
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 563297,
+    "condition": {
+        "text": "а)  Решите уравнение б)  Укажите корни этого уравнения, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body456349\" class=\"pbody\"><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/ea/ea5c6e90d710649239326cf535cf166a.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"x в квад­ра­те минус 12 плюс дробь: чис­ли­тель: 36, зна­ме­на­тель: x в квад­ра­те конец дроби плюс 2 умно­жить на левая круг­лая скоб­ка дробь: чис­ли­тель: x, зна­ме­на­тель: 2 конец дроби минус дробь: чис­ли­тель: 3, зна­ме­на­тель: x конец дроби пра­вая круг­лая скоб­ка =0. \"></p><p class=\"left_margin\">б)  Ука­жи­те корни этого урав­не­ния, при­над­ле­жа­щие от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/29/29a05b4ca1a118fff7b45a07c25924cb.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка минус 2,5; 2 пра­вая квад­рат­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ea/ea5c6e90d710649239326cf535cf166a.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/29a05b4ca1a118fff7b45a07c25924cb.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Внесем число 2 в скобки и обозначим  Заметим, что  а значит, уравнение записывается в виде  откуда  или  Далее при условии  имеем:б)  Заметим, что  Подходят  и 2. Ответ: а)  б)  2.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol563297\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Вне­сем число 2 в скоб­ки и обо­зна­чим <img src=\"https://ege.sdamgia.ru/formula/svg/ad/add0f628c48acb47025702cba11c5096.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" t = x минус дробь: чис­ли­тель: 6, зна­ме­на­тель: x конец дроби . \"> За­ме­тим, что <img src=\"https://ege.sdamgia.ru/formula/svg/71/713e54dbeee5b2fea0ddf458ee7805cf.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x в квад­ра­те минус 12 плюс дробь: чис­ли­тель: 36, зна­ме­на­тель: x в квад­ра­те конец дроби = t в квад­ра­те , \"> а зна­чит, урав­не­ние за­пи­сы­ва­ет­ся в виде <img src=\"https://ege.sdamgia.ru/formula/svg/f3/f3d44ea3da76cd2d75df46810dfc9f3b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"t в квад­ра­те плюс t = 0,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/d2/d2b95c728077c7867c8cc01b43fcb932.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"t= минус 1\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/86/864d23eb41f371e776471a99b7813bd3.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"t=0.\"> Далее при усло­вии <img src=\"https://ege.sdamgia.ru/formula/svg/83/83e46bf9511ee036a25cd9bcff4c3888.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x не равно 0\"> имеем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/51/513ba392b4c69954a8002c88404cd6e2.svg\" class=\"tex\" style=\"vertical-align:-22.5pt\" alt=\" со­во­куп­ность вы­ра­же­ний x минус дробь: чис­ли­тель: 6, зна­ме­на­тель: x конец дроби =0, x минус дробь: чис­ли­тель: 6, зна­ме­на­тель: x конец дроби = минус 1 конец со­во­куп­но­сти . рав­но­силь­но со­во­куп­ность вы­ра­же­ний x в квад­ра­те минус 6=0,x в квад­ра­те плюс x минус 6=0 конец со­во­куп­но­сти . рав­но­силь­но со­во­куп­ность вы­ра­же­ний x=\\pm ко­рень из: на­ча­ло ар­гу­мен­та: 6 конец ар­гу­мен­та ,x= минус 3,x=2. конец со­во­куп­но­сти . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">б)  За­ме­тим, что <img src=\"https://ege.sdamgia.ru/formula/svg/3c/3c3637f583b4b6bd25a267b3dd0cd2a3.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" минус 3 мень­ше минус 2,5 мень­ше минус ко­рень из: на­ча­ло ар­гу­мен­та: 6 конец ар­гу­мен­та мень­ше 2 мень­ше ко­рень из: на­ча­ло ар­гу­мен­та: 6 конец ар­гу­мен­та .\"> Под­хо­дят <img src=\"https://ege.sdamgia.ru/formula/svg/c3/c3b233c0233c65b8a5849d75db3b8fbd.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" минус ко­рень из: на­ча­ло ар­гу­мен­та: 6 конец ар­гу­мен­та \"> и 2.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) <img src=\"https://ege.sdamgia.ru/formula/svg/6f/6fccb5d31845f701a6d365e159b6b913.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая фи­гур­ная скоб­ка минус ко­рень из: на­ча­ло ар­гу­мен­та: 6 конец ар­гу­мен­та ; минус 3; 2; ко­рень из: на­ча­ло ар­гу­мен­та: 6 конец ар­гу­мен­та пра­вая фи­гур­ная скоб­ка ;\"> б) <img src=\"https://ege.sdamgia.ru/formula/svg/07/072fae01f4422ba3b8e7baa43f37bfbd.svg\" class=\"tex\" style=\"vertical-align:-2.3pt\" alt=\" минус ко­рень из: на­ча­ло ар­гу­мен­та: 6 конец ар­гу­мен­та ;\"> 2.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ad/add0f628c48acb47025702cba11c5096.svg",
+            "https://ege.sdamgia.ru/formula/svg/71/713e54dbeee5b2fea0ddf458ee7805cf.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f3d44ea3da76cd2d75df46810dfc9f3b.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d2b95c728077c7867c8cc01b43fcb932.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/864d23eb41f371e776471a99b7813bd3.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83e46bf9511ee036a25cd9bcff4c3888.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/513ba392b4c69954a8002c88404cd6e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3c3637f583b4b6bd25a267b3dd0cd2a3.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c3b233c0233c65b8a5849d75db3b8fbd.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6fccb5d31845f701a6d365e159b6b913.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/072fae01f4422ba3b8e7baa43f37bfbd.svg"
+        ]
+    },
+    "answer": "а)  б)  2.",
+    "topic_id": 13,
+    "analog_ids": []
+}

@@ -1,0 +1,29 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 527261,
+    "condition": {
+        "text": "Найдите все значения параметра a, при которых уравнениеимеет не менее четырех различных решений, являющихся целыми числами.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body419169\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния па­ра­мет­ра <i>a</i>, при ко­то­рых урав­не­ние</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/b7/b756cfca26bbbe3470dad808b74e0d01.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"a в квад­ра­те \\left|a плюс дробь: чис­ли­тель: x, зна­ме­на­тель: a в квад­ра­те конец дроби | плюс |1 плюс x|=1 минус a в кубе \"></p><p class=\"left_margin\"></p></center><p>имеет не менее че­ты­рех раз­лич­ных ре­ше­ний, яв­ля­ю­щих­ся це­лы­ми чис­ла­ми.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b7/b756cfca26bbbe3470dad808b74e0d01.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Перепишем уравнение в виде  при  Сумма модулей равна сумме их аргументов и только тогда, когда эти аргументы неотрицательны. Значит,  и  То есть на отрезке  лежат не менее четырех целых чисел. Ясно, что среди них будут −1; 0; 1; 2, а будет ли еще какое-то  — уже неважно. Значит,   Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol527261\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пе­ре­пи­шем урав­не­ние в виде <img src=\"https://ege.sdamgia.ru/formula/svg/14/14b9eb3788ba3d9a106c71d332644315.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"| минус a в кубе минус x| плюс |x плюс 1|=1 минус a в кубе \"> при <img src=\"https://ege.sdamgia.ru/formula/svg/5d/5d609339e8ea4c6da61e8f26ab3d558c.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a не равно 0.\"> Сумма мо­ду­лей равна сумме их ар­гу­мен­тов и толь­ко тогда, когда эти ар­гу­мен­ты не­от­ри­ца­тель­ны. Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/a5/a5ed4c0f32946a56f5492ae155be6cbc.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"x мень­ше или равно минус a в кубе \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/1f/1f0b9bf571189988b6040930a1aa625a.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"x боль­ше или равно минус 1.\"> То есть на от­рез­ке <img src=\"https://ege.sdamgia.ru/formula/svg/08/08ff0c74d92453da479d470800692e36.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка минус 1; минус a в кубе пра­вая квад­рат­ная скоб­ка \"> лежат не менее че­ты­рех целых чисел. Ясно, что среди них будут −1; 0; 1; 2, а будет ли еще какое-то  — уже не­важ­но. Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/9a/9ab844bc5cedeacc0a266d75fd8ab64f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" минус a в кубе боль­ше или равно 2,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/9c/9cc40fc3bd2e7d8e7d8a156cbb90e8ec.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"a мень­ше или равно минус ко­рень 3 сте­пе­ни из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/9c/9cc40fc3bd2e7d8e7d8a156cbb90e8ec.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"a мень­ше или равно минус ко­рень 3 сте­пе­ни из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/14/14b9eb3788ba3d9a106c71d332644315.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5d609339e8ea4c6da61e8f26ab3d558c.svg",
+            "https://ege.sdamgia.ru/formula/svg/a5/a5ed4c0f32946a56f5492ae155be6cbc.svg",
+            "https://ege.sdamgia.ru/formula/svg/1f/1f0b9bf571189988b6040930a1aa625a.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/08ff0c74d92453da479d470800692e36.svg",
+            "https://ege.sdamgia.ru/formula/svg/9a/9ab844bc5cedeacc0a266d75fd8ab64f.svg",
+            "https://ege.sdamgia.ru/formula/svg/9c/9cc40fc3bd2e7d8e7d8a156cbb90e8ec.svg",
+            "https://ege.sdamgia.ru/formula/svg/9c/9cc40fc3bd2e7d8e7d8a156cbb90e8ec.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

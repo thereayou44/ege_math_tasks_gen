@@ -1,0 +1,38 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521349,
+    "condition": {
+        "text": "Найдите все значения параметра а, при каждом из которых уравнение  имеет ровно один корень.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629369\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те&nbsp;все&nbsp;зна­че­ния&nbsp;па­ра­мет­ра&nbsp;а,&nbsp;при&nbsp;каж­дом&nbsp;из&nbsp;ко­то­рых&nbsp;урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/65/658786c056a31e0509a125b8b9576c76.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"|x минус 2| плюс |x| минус ax=2 левая круг­лая скоб­ка a минус 1 пра­вая круг­лая скоб­ка \"> имеет ровно один ко­рень.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/65/658786c056a31e0509a125b8b9576c76.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Разберем три случая1)   Имеем   (при a  =  2 решений нет). Решая неравенство получаем2)   Имеем   (при a  =  0 решений нет). Решая двойное неравенство  получаем 3)   Имеем   (при a  =  −2 решений нет). Решая неравенство  получаем  Отсюда единственный корень будет при  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521349\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Раз­бе­рем три слу­чая</p><p class=\"left_margin\">1)  <img src=\"https://ege.sdamgia.ru/formula/svg/90/90766483dfad1b01e25c7a7cf8aebef1.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x боль­ше 2.\"> Имеем <img src=\"https://ege.sdamgia.ru/formula/svg/3b/3bb50a610882330090b4dcd238780576.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2x минус 2 минус ax=2a минус 2,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/3c/3cbca0a4ce1496b2f85f181298c7972e.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\"x= дробь: чис­ли­тель: 2a, зна­ме­на­тель: 2 минус a конец дроби \"> (при <i>a</i>  =  2 ре­ше­ний нет). Решая не­ра­вен­ство<img src=\"https://ege.sdamgia.ru/formula/svg/ca/cac062e210150f460aec8eeeb5586532.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: 2a, зна­ме­на­тель: 2 минус a конец дроби боль­ше 2 \"> по­лу­ча­ем<img src=\"https://ege.sdamgia.ru/formula/svg/ea/ea79f29619be6e98b75a6984603cc5da.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"a при­над­ле­жит левая круг­лая скоб­ка 1;2 пра­вая круг­лая скоб­ка .\"></p><p class=\"left_margin\">2)  <img src=\"https://ege.sdamgia.ru/formula/svg/88/887ecd60de3f95096829e8a2f3869385.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"0 мень­ше или равно x мень­ше или равно 2.\"> Имеем <img src=\"https://ege.sdamgia.ru/formula/svg/e0/e073e247c0cb720de581b35697f8a904.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2 минус ax=2a минус 2,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/2f/2f754f0e159e783e755925de9fd7357c.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x= дробь: чис­ли­тель: 4 минус 2a, зна­ме­на­тель: a конец дроби \"> (при <i>a</i>  =  0 ре­ше­ний нет). Решая двой­ное не­ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/67/676fce8561e00726898cfc6a5f510dc3.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"0 мень­ше или равно дробь: чис­ли­тель: 4 минус 2a, зна­ме­на­тель: a конец дроби мень­ше или равно 2 \"> по­лу­ча­ем <img src=\"https://ege.sdamgia.ru/formula/svg/76/767f637033d1b43a52ca49b12fc3cccb.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"a при­над­ле­жит левая квад­рат­ная скоб­ка 1;2 пра­вая квад­рат­ная скоб­ка .\"></p><p class=\"left_margin\">3)  <img src=\"https://ege.sdamgia.ru/formula/svg/1a/1af83d7ff7838c3eda79c44f64855123.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x мень­ше 0.\"> Имеем <img src=\"https://ege.sdamgia.ru/formula/svg/aa/aa0d334f095996680cc8492361fffee2.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2 минус 2x минус ax=2a минус 2,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/0f/0f7d0a65be5f8344355a6c5912758f3c.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\"x= дробь: чис­ли­тель: 4 минус 2a, зна­ме­на­тель: a плюс 2 конец дроби \"> (при <i>a</i>  =  −2 ре­ше­ний нет). Решая не­ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/23/234464ab695d0cc3098f21b2f615bf5a.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: 4 минус 2a, зна­ме­на­тель: a плюс 2 конец дроби мень­ше 0 \"> по­лу­ча­ем <img src=\"https://ege.sdamgia.ru/formula/svg/27/277faae15416c9cbb92022febf6e672a.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"a при­над­ле­жит левая круг­лая скоб­ка минус бес­ко­неч­ность ; минус 2 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 2; бес­ко­неч­ность пра­вая круг­лая скоб­ка .\"></p><p>&nbsp;</p><p class=\"left_margin\">От­сю­да един­ствен­ный ко­рень будет при <img src=\"https://ege.sdamgia.ru/formula/svg/92/920d5df17ad2475abd8fbbfacfb889b5.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"a при­над­ле­жит левая круг­лая скоб­ка минус бес­ко­неч­ность ; минус 2 пра­вая круг­лая скоб­ка \\cup левая фи­гур­ная скоб­ка 1 пра­вая фи­гур­ная скоб­ка \\cup левая квад­рат­ная скоб­ка 2; плюс бес­ко­неч­ность пра­вая круг­лая скоб­ка .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/90/9020c4c51a2dbe2340fc905dc609ffde.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка минус бес­ко­неч­ность ; минус 2 пра­вая круг­лая скоб­ка \\cup левая фи­гур­ная скоб­ка 1 пра­вая фи­гур­ная скоб­ка \\cup левая квад­рат­ная скоб­ка 2; плюс бес­ко­неч­ность пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/90/90766483dfad1b01e25c7a7cf8aebef1.svg",
+            "https://ege.sdamgia.ru/formula/svg/3b/3bb50a610882330090b4dcd238780576.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3cbca0a4ce1496b2f85f181298c7972e.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/cac062e210150f460aec8eeeb5586532.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/ea79f29619be6e98b75a6984603cc5da.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/887ecd60de3f95096829e8a2f3869385.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e073e247c0cb720de581b35697f8a904.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2f754f0e159e783e755925de9fd7357c.svg",
+            "https://ege.sdamgia.ru/formula/svg/67/676fce8561e00726898cfc6a5f510dc3.svg",
+            "https://ege.sdamgia.ru/formula/svg/76/767f637033d1b43a52ca49b12fc3cccb.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1af83d7ff7838c3eda79c44f64855123.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa0d334f095996680cc8492361fffee2.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0f7d0a65be5f8344355a6c5912758f3c.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/234464ab695d0cc3098f21b2f615bf5a.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/277faae15416c9cbb92022febf6e672a.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/920d5df17ad2475abd8fbbfacfb889b5.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/9020c4c51a2dbe2340fc905dc609ffde.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

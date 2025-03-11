@@ -1,0 +1,50 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27650,
+    "condition": {
+        "text": "Найдите расстояние от точки A с координатами (6; 8) до оси ординат.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918270\" class=\"pbody\"><p class=\"left_margin\"><img width=\"190\" style=\"float:right; margin:10px\" src=\"/get_file?id=304\">Най­ди­те рас­сто­я­ние от точки <i>A</i> с ко­ор­ди­на­та­ми (6; 8) до оси ор­ди­нат.</p></div>",
+        "image_urls": [
+            "/get_file?id=304"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Расстояние от точки до оси ординат равно модулю абсциссы точки, в нашем случае  — 6. Ответ: 6.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27650\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Рас­сто­я­ние от точки до оси ор­ди­нат равно мо­ду­лю абс­цис­сы точки, в нашем слу­чае  — 6.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 6.</p></div>",
+        "image_urls": []
+    },
+    "answer": "6",
+    "topic_id": null,
+    "analog_ids": [
+        27650,
+        57807,
+        57809,
+        57811,
+        57807,
+        57809,
+        57811,
+        57813,
+        57815,
+        57817,
+        57819,
+        57821,
+        57823,
+        57825,
+        57827,
+        57829,
+        57831,
+        57833,
+        57835,
+        57837,
+        57839,
+        57841,
+        57843,
+        57845,
+        57847,
+        57849,
+        57851,
+        57853,
+        57855
+    ]
+}

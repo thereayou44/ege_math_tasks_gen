@@ -1,0 +1,49 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 508911,
+    "condition": {
+        "text": "На рисунке изображён график функции  Найдите ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body634131\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=91857\" style=\"float:right;margin:10px;max-width:100%; width:134px; height: 194px\">На ри­сун­ке изоб­ражён гра­фик функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/f2/f2f28e6940f0656514bf016da1e68a79.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =2x в квад­ра­те плюс bx плюс c.\"> Най­ди­те <img src=\"https://ege.sdamgia.ru/formula/svg/ab/ab9d7890eb5d79310fa04fad9f46464a.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка минус 5 пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f2/f2f28e6940f0656514bf016da1e68a79.svg",
+            "https://ege.sdamgia.ru/formula/svg/ab/ab9d7890eb5d79310fa04fad9f46464a.svg",
+            "/get_file?id=91857"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Из рисунка видно, что    Следовательно,Тогда,   значит,  Ответ: 31.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol508911\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Из ри­сун­ка видно, что <img src=\"https://ege.sdamgia.ru/formula/svg/80/809068d5d0cbdad5542e0128e3013d65.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка минус 2 пра­вая круг­лая скоб­ка = минус 2,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/23/234417d72be28850e92ad281475ce6c8.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка 1 пра­вая круг­лая скоб­ка =1.\">  Сле­до­ва­тель­но,</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"6153e970323cf181915c66fbcc9dff75\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/61/6153e970323cf181915c66fbcc9dff75.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний 2 умно­жить на левая круг­лая скоб­ка минус 2 пра­вая круг­лая скоб­ка в квад­ра­те плюс b умно­жить на левая круг­лая скоб­ка минус 2 пра­вая круг­лая скоб­ка плюс c = минус 2 ,2 умно­жить на 1 в квад­ра­те плюс b умно­жить на 1 плюс c = 1 конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний минус 2b плюс c= минус 10,b плюс c= минус 1 конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний 3b=9,3c= минус 12 конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний b=3,c= минус 4. конец си­сте­мы . \"></span><span data-width=\"540\" data-formulahash=\"6153e970323cf181915c66fbcc9dff75\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/a2/a2efa75c1a686a654080e27bbaaddf6c.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний 2 умно­жить на левая круг­лая скоб­ка минус 2 пра­вая круг­лая скоб­ка в квад­ра­те плюс b умно­жить на левая круг­лая скоб­ка минус 2 пра­вая круг­лая скоб­ка плюс c = минус 2 ,2 умно­жить на 1 в квад­ра­те плюс b умно­жить на 1 плюс c = 1 конец си­сте­мы . рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/f3/f33097b2ec942135d55cc70184cb2a00.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" рав­но­силь­но си­сте­ма вы­ра­же­ний минус 2b плюс c= минус 10,b плюс c= минус 1 конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний 3b=9,3c= минус 12 конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний b=3,c= минус 4. конец си­сте­мы . \"></span><span data-width=\"340\" data-formulahash=\"6153e970323cf181915c66fbcc9dff75\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/a2/a2efa75c1a686a654080e27bbaaddf6c.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний 2 умно­жить на левая круг­лая скоб­ка минус 2 пра­вая круг­лая скоб­ка в квад­ра­те плюс b умно­жить на левая круг­лая скоб­ка минус 2 пра­вая круг­лая скоб­ка плюс c = минус 2 ,2 умно­жить на 1 в квад­ра­те плюс b умно­жить на 1 плюс c = 1 конец си­сте­мы . рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/37/3723ee702f645fc65dfd65c6b0fe7b86.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" рав­но­силь­но си­сте­ма вы­ра­же­ний минус 2b плюс c= минус 10,b плюс c= минус 1 конец си­сте­мы . рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/30/30a58f760867f6869479d8311f638f2e.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" рав­но­силь­но си­сте­ма вы­ра­же­ний 3b=9,3c= минус 12 конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний b=3,c= минус 4. конец си­сте­мы . \"></span></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Тогда, <img src=\"https://ege.sdamgia.ru/formula/svg/53/539797f790bb54cf56ad56b59c3ba1c7.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =2x в квад­ра­те плюс 3x минус 4,\">  зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/86/86a149487a62827822218c18691f7969.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка минус 5 пра­вая круг­лая скоб­ка =2 умно­жить на левая круг­лая скоб­ка минус 5 пра­вая круг­лая скоб­ка в квад­ра­те плюс 3 умно­жить на левая круг­лая скоб­ка минус 5 пра­вая круг­лая скоб­ка минус 4=31.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 31.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/80/809068d5d0cbdad5542e0128e3013d65.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/234417d72be28850e92ad281475ce6c8.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/6153e970323cf181915c66fbcc9dff75.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a2efa75c1a686a654080e27bbaaddf6c.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f33097b2ec942135d55cc70184cb2a00.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a2efa75c1a686a654080e27bbaaddf6c.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/3723ee702f645fc65dfd65c6b0fe7b86.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/30a58f760867f6869479d8311f638f2e.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/539797f790bb54cf56ad56b59c3ba1c7.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/86a149487a62827822218c18691f7969.svg"
+        ]
+    },
+    "answer": "31",
+    "topic_id": 11,
+    "analog_ids": [
+        508911,
+        508912,
+        508914,
+        508915,
+        508912,
+        508914,
+        508915,
+        508916,
+        508918,
+        628238,
+        628269,
+        650059,
+        650060,
+        650066,
+        650067
+    ]
+}

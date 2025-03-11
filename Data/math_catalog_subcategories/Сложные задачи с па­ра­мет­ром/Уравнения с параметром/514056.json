@@ -1,0 +1,34 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 514056,
+    "condition": {
+        "text": "Найдите все значения а, при каждом из которых уравнениеимеет ровно два корня на отрезке ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body636660\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния <i>а</i>, при каж­дом из ко­то­рых урав­не­ние</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/66/668c6a1ec5b242644932d2d7612bd0b3.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\"x в квад­ра­те минус 5x плюс 10= дробь: чис­ли­тель: a плюс 19, зна­ме­на­тель: x плюс 2 конец дроби \"></p><p class=\"left_margin\"></p></center><p>имеет&nbsp;ровно&nbsp;два&nbsp;корня&nbsp;на&nbsp;от­рез­ке&nbsp;<img src=\"https://ege.sdamgia.ru/formula/svg/fa/fad40c527ec418fcb7fa9b0413575709.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка минус 1;2,5 пра­вая квад­рат­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/66/668c6a1ec5b242644932d2d7612bd0b3.svg",
+            "https://ege.sdamgia.ru/formula/svg/fa/fad40c527ec418fcb7fa9b0413575709.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Поскольку  нас все равно не интересует, можно переписать уравнение в видеИсследуем поведение функции  на указанном отрезке. Возьмем ее производную.Поэтому функция возрастает на  и  и убывает на Отсюда следует, что ровно два решения на отрезке будет при  и  Ответ:  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol514056\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/36/363be1a1694c88fafb86bd7b8f3bfffc.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x= минус 2\"> нас все равно не ин­те­ре­су­ет, можно пе­ре­пи­сать урав­не­ние в виде</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/68/68c2769ccaa7595b30e3b4930a92f67b.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка x в квад­ра­те минус 5x плюс 10 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x плюс 2 пра­вая круг­лая скоб­ка минус 19=a,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/6f/6f7e09a0277f24662394084138c4e4df.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x в кубе минус 3x в квад­ра­те плюс 1=a.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Ис­сле­ду­ем по­ве­де­ние функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/16/1674ad0c410cc0588d035a5010da9f0b.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =x в кубе минус 3x в квад­ра­те плюс 1\"> на ука­зан­ном от­рез­ке. Возь­мем ее про­из­вод­ную.</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/c6/c6be558ffc44bba653f2de32f6f02218.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f' левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =3x в квад­ра­те минус 6x=3x левая круг­лая скоб­ка x минус 2 пра­вая круг­лая скоб­ка .\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">По­это­му функ­ция воз­рас­та­ет на <img src=\"https://ege.sdamgia.ru/formula/svg/dc/dc71138e9f4d9bbfc4050226fb30c416.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка минус 1;0 пра­вая квад­рат­ная скоб­ка \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/19/19120a8cc540abc89d7209c802ea4e36.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка 2;2.5 пра­вая квад­рат­ная скоб­ка \"> и убы­ва­ет на <img src=\"https://ege.sdamgia.ru/formula/svg/13/137cc3e164c33ba03f01bb833e20d1bc.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка 0;2 пра­вая квад­рат­ная скоб­ка .\"></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/15/15c8f9f137d3bd8c36b2b66d024bfc85.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"f левая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка = минус 3,f левая круг­лая скоб­ка 0 пра­вая круг­лая скоб­ка =1,f левая круг­лая скоб­ка 2 пра­вая круг­лая скоб­ка = минус 3,f левая круг­лая скоб­ка 2,5 пра­вая круг­лая скоб­ка = минус дробь: чис­ли­тель: 17, зна­ме­на­тель: 8 конец дроби . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">От­сю­да сле­ду­ет, что ровно два ре­ше­ния на от­рез­ке будет при <img src=\"https://ege.sdamgia.ru/formula/svg/61/61c04d8cb8715370f49e5cfa5f56b3a1.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a= минус 3\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/02/025eb42bbc1f230080e53d171bd265bd.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"a при­над­ле­жит левая круг­лая скоб­ка минус дробь: чис­ли­тель: 17, зна­ме­на­тель: 8 конец дроби ; 1 пра­вая круг­лая скоб­ка . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  <img src=\"https://ege.sdamgia.ru/formula/svg/d6/d69eef0d06bfc736c7dc5a8992a652cb.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"a при­над­ле­жит левая фи­гур­ная скоб­ка минус 3 пра­вая фи­гур­ная скоб­ка \\cup левая круг­лая скоб­ка минус дробь: чис­ли­тель: 17, зна­ме­на­тель: 8 конец дроби ; 1 пра­вая круг­лая скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/36/363be1a1694c88fafb86bd7b8f3bfffc.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/68c2769ccaa7595b30e3b4930a92f67b.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6f7e09a0277f24662394084138c4e4df.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/1674ad0c410cc0588d035a5010da9f0b.svg",
+            "https://ege.sdamgia.ru/formula/svg/c6/c6be558ffc44bba653f2de32f6f02218.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dc71138e9f4d9bbfc4050226fb30c416.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/19120a8cc540abc89d7209c802ea4e36.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/137cc3e164c33ba03f01bb833e20d1bc.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/15c8f9f137d3bd8c36b2b66d024bfc85.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/61c04d8cb8715370f49e5cfa5f56b3a1.svg",
+            "https://ege.sdamgia.ru/formula/svg/02/025eb42bbc1f230080e53d171bd265bd.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d69eef0d06bfc736c7dc5a8992a652cb.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

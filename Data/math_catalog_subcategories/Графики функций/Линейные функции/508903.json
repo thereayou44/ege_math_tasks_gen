@@ -1,0 +1,43 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 508903,
+    "condition": {
+        "text": "На рисунке изображён график функции  Найдите значение x, при котором ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body634139\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=91834\" style=\"float:right;margin:10px;max-width:100%\">На ри­сун­ке изоб­ражён гра­фик функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/b8/b87614abecb533400ec97ef94f724663.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =kx плюс b.\"> Най­ди­те зна­че­ние <i>x</i>, при ко­то­ром <img src=\"https://ege.sdamgia.ru/formula/svg/b4/b4da8717fab8343744cb4adec7c4a967.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка = минус 13,5.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b8/b87614abecb533400ec97ef94f724663.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b4da8717fab8343744cb4adec7c4a967.svg",
+            "/get_file?id=91834"
+        ]
+    },
+    "solution": {
+        "text": "Решение. По рисунку определяем, что   тогдаЗначит,  решим уравнение Ответ: −7.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol508903\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По ри­сун­ку опре­де­ля­ем, что <img src=\"https://ege.sdamgia.ru/formula/svg/f3/f374990f533686423555e86b03b42285.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка = минус 3,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/6a/6a004f1c6943ff5b0fdba4f6d689cb44.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка 3 пра­вая круг­лая скоб­ка =4,\"> тогда</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/76/76c0eb566eb3f20412823091168bd102.svg\" class=\"tex\" style=\"vertical-align:-22.4pt\" alt=\" си­сте­ма вы­ра­же­ний минус 3=k умно­жить на левая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка плюс b,4=k умно­жить на 3 плюс b конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний k= дробь: чис­ли­тель: 7, зна­ме­на­тель: 4 конец дроби ,b= минус дробь: чис­ли­тель: 5, зна­ме­на­тель: 4 конец дроби . конец си­сте­мы . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/2b/2b64e5d4f64f35551e8ad0297fb12776.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка = дробь: чис­ли­тель: 7, зна­ме­на­тель: 4 конец дроби x минус дробь: чис­ли­тель: 5, зна­ме­на­тель: 4 конец дроби , \"> решим урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/68/68fa798a793274995ed565815c181c21.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка = минус 13,5:\"></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/16/163fd7019b156012cfdf7d82ea46a9ce.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" дробь: чис­ли­тель: 7, зна­ме­на­тель: 4 конец дроби x минус дробь: чис­ли­тель: 5, зна­ме­на­тель: 4 конец дроби = минус 13,5 рав­но­силь­но дробь: чис­ли­тель: 7, зна­ме­на­тель: 4 конец дроби x минус дробь: чис­ли­тель: 5, зна­ме­на­тель: 4 конец дроби = минус дробь: чис­ли­тель: 54, зна­ме­на­тель: 4 конец дроби рав­но­силь­но 7x= минус 49 рав­но­силь­но x= минус 7 \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> −7.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f3/f374990f533686423555e86b03b42285.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a004f1c6943ff5b0fdba4f6d689cb44.svg",
+            "https://ege.sdamgia.ru/formula/svg/76/76c0eb566eb3f20412823091168bd102.svg",
+            "https://ege.sdamgia.ru/formula/svg/2b/2b64e5d4f64f35551e8ad0297fb12776.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/68fa798a793274995ed565815c181c21.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/163fd7019b156012cfdf7d82ea46a9ce.svg"
+        ]
+    },
+    "answer": "-7",
+    "topic_id": 11,
+    "analog_ids": [
+        508903,
+        508904,
+        508905,
+        508906,
+        508904,
+        508905,
+        508906,
+        508907,
+        508908,
+        508909,
+        508910,
+        647133,
+        647153
+    ]
+}

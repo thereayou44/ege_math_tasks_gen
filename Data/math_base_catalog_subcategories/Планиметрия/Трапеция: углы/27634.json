@@ -1,0 +1,55 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27634,
+    "condition": {
+        "text": "Основания прямоугольной трапеции равны 12 и 4. Ее площадь равна 64. Найдите острый угол этой трапеции. Ответ дайте в градусах.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918798\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=66804\" style=\"float:right;margin:10px;max-width:100%\">Ос­но­ва­ния пря­мо­уголь­ной тра­пе­ции равны 12 и 4. Ее пло­щадь равна 64. Най­ди­те ост­рый угол этой тра­пе­ции. Ответ дайте в гра­ду­сах.</p></div>",
+        "image_urls": [
+            "/get_file?id=66804"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Рассмотрим прямоугольный треугольник CHB.   значит, треугольник CHB  — равнобедренный, тогда его острые углы равны 45°. Ответ: 45.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27634\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=114422\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/74/74b7f1f2d6ff7b8f3567e5238d12c8fc.svg\" class=\"tex\" style=\"vertical-align:-9.2pt\" alt=\"S_ABCD= дробь: чис­ли­тель: AB плюс CD, зна­ме­на­тель: 2 конец дроби умно­жить на CH рав­но­силь­но CH= дробь: чис­ли­тель: 2S_ABCD, зна­ме­на­тель: AB плюс CD конец дроби = дробь: чис­ли­тель: 2 умно­жить на 64, зна­ме­на­тель: 16 конец дроби =8. \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Рас­смот­рим пря­мо­уголь­ный тре­уголь­ник <i>CHB</i>. <img src=\"https://ege.sdamgia.ru/formula/svg/57/57ee448d4e0897267f65e133d91475bc.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BH=AB минус CD=8.\"> <img src=\"https://ege.sdamgia.ru/formula/svg/10/10851a7aa2b656ed43143e8ed325a1ad.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"CH=HB,\"> зна­чит, тре­уголь­ник <i>CHB</i>  — рав­но­бед­рен­ный, тогда его ост­рые углы равны 45°.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 45.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/74/74b7f1f2d6ff7b8f3567e5238d12c8fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/57ee448d4e0897267f65e133d91475bc.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/10851a7aa2b656ed43143e8ed325a1ad.svg",
+            "/get_file?id=114422"
+        ]
+    },
+    "answer": "45",
+    "topic_id": 1,
+    "analog_ids": [
+        27634,
+        57207,
+        57223,
+        57209,
+        57207,
+        57223,
+        57209,
+        57211,
+        57213,
+        57215,
+        57217,
+        57219,
+        57221,
+        57225,
+        57227,
+        57229,
+        57231,
+        57233,
+        57235,
+        57237,
+        57239,
+        57241,
+        57243,
+        57245,
+        57247,
+        57249,
+        57251,
+        57253,
+        57255
+    ]
+}

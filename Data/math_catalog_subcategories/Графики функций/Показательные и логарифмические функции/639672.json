@@ -1,0 +1,26 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 639672,
+    "condition": {
+        "text": "На рисунке изображён график функции вида  Найдите значение f(16).",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body502852\" class=\"pbody\"><p class=\"left_margin\"><img src=\"https://ege.sdamgia.ru/get_file?id=127856\" style=\"float:right;margin:10px;max-width:100%\">На ри­сун­ке изоб­ражён гра­фик функ­ции вида <img src=\"https://ege.sdamgia.ru/formula/svg/1c/1c1fc1450b4c63296777ae46b357123c.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка = ло­га­рифм по ос­но­ва­нию a x.\"> Най­ди­те зна­че­ние <i>f</i>(16).</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/1c/1c1fc1450b4c63296777ae46b357123c.svg",
+            "https://ege.sdamgia.ru/get_file?id=127856"
+        ]
+    },
+    "solution": {
+        "text": "Решение. По графику определяем, что f (2)  =  1, тогда  откуда  Значит,  Следовательно,Ответ: 4.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol639672\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По гра­фи­ку опре­де­ля­ем, что <i>f</i> (2)  =  1, тогда <img src=\"https://ege.sdamgia.ru/formula/svg/b7/b7a3f9bc8c4ccf2f10cdbe11513d4042.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\" ло­га­рифм по ос­но­ва­нию a 2 = 1,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/75/75ff84fadb7b063c7ccd29e381065486.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a = 2.\"> Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/e1/e17fe0af49a0c43108b888c52b8c4168.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка = ло­га­рифм по ос­но­ва­нию 2 x.\"> Сле­до­ва­тель­но,</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/79/79b7f79fa888336edc5b6713f2a9eac1.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка 16 пра­вая круг­лая скоб­ка = ло­га­рифм по ос­но­ва­нию 2 16 = 4.\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 4.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b7/b7a3f9bc8c4ccf2f10cdbe11513d4042.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/75ff84fadb7b063c7ccd29e381065486.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e17fe0af49a0c43108b888c52b8c4168.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/79b7f79fa888336edc5b6713f2a9eac1.svg"
+        ]
+    },
+    "answer": "4",
+    "topic_id": 11,
+    "analog_ids": []
+}

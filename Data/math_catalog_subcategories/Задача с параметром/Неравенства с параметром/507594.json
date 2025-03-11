@@ -1,0 +1,36 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 507594,
+    "condition": {
+        "text": "Найдите все значения а, при каждом из которых решения неравенства  образуют отрезок длины 1.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body643126\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния <i>а</i>, при каж­дом из ко­то­рых ре­ше­ния не­ра­вен­ства <img src=\"https://ege.sdamgia.ru/formula/svg/26/26179e7eaf1bd7dfa425f1d7adf0c6ae.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"|3x минус a| плюс 2 мень­ше или равно |x минус 4|\"> об­ра­зу­ют от­ре­зок длины 1.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/26/26179e7eaf1bd7dfa425f1d7adf0c6ae.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Перенесем двойку: Построим схематично графики функций  и На рисунке видно, что неравенство имеет решения только при  или 1)   Решения образуют отрезок длины 1, если  откуда 2)   Решения образуют отрезок длины 1, если  откуда  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol507594\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пе­ре­не­сем двой­ку: <img src=\"https://ege.sdamgia.ru/formula/svg/50/5016b6de4b4a11b5e2e744619c8b9ab5.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"|3x минус a| мень­ше или равно |x минус 4| минус 2.\"></p><p class=\"left_margin\">По­стро­им схе­ма­тич­но гра­фи­ки функ­ций <img src=\"https://ege.sdamgia.ru/formula/svg/39/39c912a697bfa5633c7af4868aab3cb3.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y=|3x минус a|\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/ab/ab56c192bbada3e82369c29af162eddf.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y=|x минус 4| минус 2.\"></p><p><img src=\"/get_file?id=154043\" style=\"margin:10px auto;display:block;max-width:100%\"></p><p class=\"left_margin\">На ри­сун­ке видно, что не­ра­вен­ство имеет ре­ше­ния толь­ко при <img src=\"https://ege.sdamgia.ru/formula/svg/0f/0ff138a1778a4a7d48358e0b8a03cb29.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: a, зна­ме­на­тель: 3 конец дроби мень­ше или равно 2 \"> или <img src=\"https://ege.sdamgia.ru/formula/svg/63/63cb0930e513f952a6dba772a6e6ab5d.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: a, зна­ме­на­тель: 3 конец дроби боль­ше или равно 6. \"></p><p class=\"left_margin\">1)  <img src=\"https://ege.sdamgia.ru/formula/svg/40/405e7192ed7bce342977bf57ef491145.svg\" class=\"tex\" style=\"vertical-align:-31.1pt\" alt=\" си­сте­ма вы­ра­же­ний a мень­ше или равно 6|3x минус a| мень­ше или равно минус x плюс 2 конец си­сте­мы рав­но­силь­но си­сте­ма вы­ра­же­ний a мень­ше или равно 6,3x минус a мень­ше или равно минус x плюс 2, 3x минус a боль­ше или равно x минус 2 конец си­сте­мы рав­но­силь­но си­сте­ма вы­ра­же­ний a мень­ше или равно 6,x мень­ше или равно дробь: чис­ли­тель: a плюс 2, зна­ме­на­тель: 4 конец дроби , x боль­ше или равно дробь: чис­ли­тель: a минус 2, зна­ме­на­тель: 2 конец дроби . конец си­сте­мы \"> </p><p class=\"left_margin\">Ре­ше­ния об­ра­зу­ют от­ре­зок длины 1, если <img src=\"https://ege.sdamgia.ru/formula/svg/1c/1cf04e20293127f81b50f25db9546e9c.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: a плюс 2, зна­ме­на­тель: 4 конец дроби минус дробь: чис­ли­тель: a минус 2, зна­ме­на­тель: 2 конец дроби =1, \"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/62/622a095dc9edee90d21fc439afb1ab02.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=2.\"></p><p class=\"left_margin\">2)  <img src=\"https://ege.sdamgia.ru/formula/svg/22/22b661193936a902c01d5aeb7b271dcb.svg\" class=\"tex\" style=\"vertical-align:-31.3pt\" alt=\" си­сте­ма вы­ра­же­ний a боль­ше или равно 18,|3x минус a| мень­ше или равно x минус 6 конец си­сте­мы рав­но­силь­но си­сте­ма вы­ра­же­ний a боль­ше или равно 18,3x минус a мень­ше или равно x минус 6, 3x минус a боль­ше или равно минус x плюс 6 конец си­сте­мы рав­но­силь­но си­сте­ма вы­ра­же­ний a боль­ше или равно 18,x мень­ше или равно дробь: чис­ли­тель: a минус 6, зна­ме­на­тель: 2 конец дроби , x боль­ше или равно дробь: чис­ли­тель: a плюс 6, зна­ме­на­тель: 4 конец дроби . конец си­сте­мы \"> </p><p class=\"left_margin\">Ре­ше­ния об­ра­зу­ют от­ре­зок длины 1, если <img src=\"https://ege.sdamgia.ru/formula/svg/9a/9ae05a6a1976bec7028e4d421fcfd78a.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" дробь: чис­ли­тель: a минус 6, зна­ме­на­тель: 2 конец дроби минус дробь: чис­ли­тель: a плюс 6, зна­ме­на­тель: 4 конец дроби =1, \"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/5b/5b149106381bfb11bfc513f4ab80d031.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=22.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/b7/b7301a7a06d55c8d013ddac8cb4eb7a6.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a=2, a=22.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/50/5016b6de4b4a11b5e2e744619c8b9ab5.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/39c912a697bfa5633c7af4868aab3cb3.svg",
+            "https://ege.sdamgia.ru/formula/svg/ab/ab56c192bbada3e82369c29af162eddf.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0ff138a1778a4a7d48358e0b8a03cb29.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/63cb0930e513f952a6dba772a6e6ab5d.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/405e7192ed7bce342977bf57ef491145.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1cf04e20293127f81b50f25db9546e9c.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/622a095dc9edee90d21fc439afb1ab02.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/22b661193936a902c01d5aeb7b271dcb.svg",
+            "https://ege.sdamgia.ru/formula/svg/9a/9ae05a6a1976bec7028e4d421fcfd78a.svg",
+            "https://ege.sdamgia.ru/formula/svg/5b/5b149106381bfb11bfc513f4ab80d031.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b7301a7a06d55c8d013ddac8cb4eb7a6.svg",
+            "/get_file?id=154043"
+        ]
+    },
+    "answer": "",
+    "topic_id": 18,
+    "analog_ids": [
+        507589
+    ]
+}

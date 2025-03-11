@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521192,
+    "condition": {
+        "text": "На счет, который вкладчик имел в начале первого квартала, начисляется в конце этого квартала %, и на тот счет, который вкладчик имел в начале второго квартала начисляется %, причем  Вкладчик положил в начале первого квартала некоторую сумму и снял в конце того же квартала (после начисления процентов) половину положенной суммы. При каком значении  счет вкладчика в конце второго квартала окажется максимально возможным?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body630036\" class=\"pbody\"><p class=\"left_margin\">На счет, ко­то­рый вклад­чик имел в на­ча­ле пер­во­го квар­та­ла, на­чис­ля­ет­ся в конце этого квар­та­ла <img src=\"https://ege.sdamgia.ru/formula/svg/20/20868fa29dfc38ac154b8ef762766b41.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"P_1\">%, и на тот счет, ко­то­рый вклад­чик имел в на­ча­ле вто­ро­го квар­та­ла на­чис­ля­ет­ся <img src=\"https://ege.sdamgia.ru/formula/svg/2d/2d70da379b3ffb56bd104b348ba21c55.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"P_2\">%, при­чем <img src=\"https://ege.sdamgia.ru/formula/svg/0c/0c61c54e6bc34e76d7a343d658ecdd4b.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\" P_1 плюс P_2=70%.\"> Вклад­чик по­ло­жил в на­ча­ле пер­во­го квар­та­ла не­ко­то­рую сумму и снял в конце того же квар­та­ла (после на­чис­ле­ния про­цен­тов) по­ло­ви­ну по­ло­жен­ной суммы. При каком зна­че­нии <img src=\"https://ege.sdamgia.ru/formula/svg/2d/2d70da379b3ffb56bd104b348ba21c55.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"P_2\"> счет вклад­чи­ка в конце вто­ро­го квар­та­ла ока­жет­ся мак­си­маль­но воз­мож­ным?</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/20/20868fa29dfc38ac154b8ef762766b41.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d70da379b3ffb56bd104b348ba21c55.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c61c54e6bc34e76d7a343d658ecdd4b.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d70da379b3ffb56bd104b348ba21c55.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Допустим вкладчик положил  после первого квартала сумма умножилась на p, а после второго квартала  — на  (например, если банк дает  за первый квартал, ). Тогда размер его вклада составит: Нужно максимизировать выражение в скобках. Оно наибольшее при  Значит, процент за первый квартал равен  а за второй  Ответ: 10%.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521192\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">До­пу­стим вклад­чик по­ло­жил <img src=\"https://ege.sdamgia.ru/formula/svg/50/50477ead28df15168cfabc09bed03428.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2x,\"> после пер­во­го квар­та­ла сумма умно­жи­лась на <i>p</i>, а после вто­ро­го квар­та­ла  — на <img src=\"https://ege.sdamgia.ru/formula/svg/d3/d3651e1a8873f7624abd907e833297b5.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2,7 минус p\"> (на­при­мер, если банк дает <img src=\"https://ege.sdamgia.ru/formula/svg/4a/4a84be5a0f11822bb3bf1c929c71423e.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"15\\%\"> за пер­вый квар­тал, <img src=\"https://ege.sdamgia.ru/formula/svg/f9/f9f2d26bec854484584ae03e1b575a0f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"p=1,15\">). Тогда раз­мер его вкла­да со­ста­вит: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/cb/cb53a5141886e0f196a442b4aa971677.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 2px минус x пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 2,7 минус p пра­вая круг­лая скоб­ка =x левая круг­лая скоб­ка минус 2p в квад­ра­те плюс 6,4p минус 2,7 пра­вая круг­лая скоб­ка .\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Нужно мак­си­ми­зи­ро­вать вы­ра­же­ние в скоб­ках. Оно наи­боль­шее при <img src=\"https://ege.sdamgia.ru/formula/svg/e1/e1d86115b06dc8f351594bad4b335581.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"p= дробь: чис­ли­тель: 6,4, зна­ме­на­тель: 4 конец дроби =1,6. \"> Зна­чит, про­цент за пер­вый квар­тал равен <img src=\"https://ege.sdamgia.ru/formula/svg/72/725c851c98b8c43058e32fa08df94df1.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"60,\"> а за вто­рой <img src=\"https://ege.sdamgia.ru/formula/svg/ec/ecb555b7c7fa7a949794449bbd3357f7.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"10.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 10%.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/50/50477ead28df15168cfabc09bed03428.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d3651e1a8873f7624abd907e833297b5.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4a84be5a0f11822bb3bf1c929c71423e.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f9f2d26bec854484584ae03e1b575a0f.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cb53a5141886e0f196a442b4aa971677.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e1d86115b06dc8f351594bad4b335581.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/725c851c98b8c43058e32fa08df94df1.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ecb555b7c7fa7a949794449bbd3357f7.svg"
+        ]
+    },
+    "answer": "10%.",
+    "topic_id": null,
+    "analog_ids": []
+}

@@ -1,0 +1,34 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 628754,
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых уравнениеимеет единственное решение на отрезке ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body521966\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния <i>a</i>, при каж­дом из ко­то­рых урав­не­ние</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/c8/c8302641b5b3190e6cd45ff7d4c43e74.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"2 ко­си­нус в квад­ра­те x плюс левая круг­лая скоб­ка 5a плюс дробь: чис­ли­тель: 1, зна­ме­на­тель: a плюс 1 конец дроби пра­вая круг­лая скоб­ка | синус x|=a в квад­ра­те минус 6a плюс 2 \"></p><p class=\"left_margin\"></p></center><p>имеет един­ствен­ное ре­ше­ние на от­рез­ке <img src=\"https://ege.sdamgia.ru/formula/svg/c2/c20600d5c1bd6d8767d9345a61967705.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" левая квад­рат­ная скоб­ка минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби ; дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c8/c8302641b5b3190e6cd45ff7d4c43e74.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c20600d5c1bd6d8767d9345a61967705.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Если х  — решение данного уравнения, то число −х тоже решение. Отсюда следует, что единственным решением данного уравнения может быть только х  =  0. Тогда получаем1.  Пусть a  =  0. Тогда Имеется 3 решения на отрезке 2.  Пусть a  =  6. Тогда Уравнение  решений не имеет, а уравнение  на отрезке  имеет единственное решение х  =  0. Ответ: a  =  6.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol628754\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Если <i>х</i>  — ре­ше­ние дан­но­го урав­не­ния, то число −<i>х</i> тоже ре­ше­ние. От­сю­да сле­ду­ет, что един­ствен­ным ре­ше­ни­ем дан­но­го урав­не­ния может быть толь­ко <i>х</i>  =  0. Тогда по­лу­ча­ем</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/5b/5bdb0dca5f6f14a05bf0d261247db5f8.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\"2=a в квад­ра­те минус 6a плюс 2 рав­но­силь­но a в квад­ра­те минус 6a=0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний a=0,a=6. конец со­во­куп­но­сти . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">1.  Пусть <i>a</i>  =  0. Тогда</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/a7/a792640ea6f57cd5101830335b6e69db.svg\" class=\"tex\" style=\"vertical-align:-18.0pt\" alt=\"2 ко­си­нус в квад­ра­те x плюс | синус x|=2 рав­но­силь­но 2 минус 2 синус в квад­ра­те x плюс | синус x|=2 рав­но­силь­но со­во­куп­ность вы­ра­же­ний | синус x|=0,| синус x|= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби . конец со­во­куп­но­сти . \"></p><p class=\"left_margin\"></p></center><p> Име­ет­ся 3 ре­ше­ния на от­рез­ке <img src=\"https://ege.sdamgia.ru/formula/svg/c2/c20600d5c1bd6d8767d9345a61967705.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" левая квад­рат­ная скоб­ка минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби ; дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби пра­вая квад­рат­ная скоб­ка . \"></p><p class=\"left_margin\">2.  Пусть <i>a</i>  =  6. Тогда</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"a87e9c173322c688e2e85b814f84d14e\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/a8/a87e9c173322c688e2e85b814f84d14e.svg\" class=\"tex\" style=\"vertical-align:-18.0pt\" alt=\"2 ко­си­нус в квад­ра­те x плюс дробь: чис­ли­тель: 211, зна­ме­на­тель: 7 конец дроби | синус x|=2 рав­но­силь­но минус 2 синус в квад­ра­те x плюс дробь: чис­ли­тель: 211, зна­ме­на­тель: 7 конец дроби | синус x|=0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний | синус x|=0,| синус x|= дробь: чис­ли­тель: 211, зна­ме­на­тель: 14 конец дроби . конец со­во­куп­но­сти . \"></span><span data-width=\"465\" data-formulahash=\"a87e9c173322c688e2e85b814f84d14e\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/5f/5f7369b751b71fd3ae94bc8ec29de836.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"2 ко­си­нус в квад­ра­те x плюс дробь: чис­ли­тель: 211, зна­ме­на­тель: 7 конец дроби | синус x|=2 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/2a/2a9a72ce74f8da4fb35a71577695cf2a.svg\" class=\"tex\" style=\"vertical-align:-18.1pt\" alt=\" рав­но­силь­но минус 2 синус в квад­ра­те x плюс дробь: чис­ли­тель: 211, зна­ме­на­тель: 7 конец дроби | синус x|=0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний | синус x|=0,| синус x|= дробь: чис­ли­тель: 211, зна­ме­на­тель: 14 конец дроби . конец со­во­куп­но­сти . \"></span></p><p class=\"left_margin\"></p></center><p> Урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/ca/ca3c1a2edd3b06427833dcf8528269e4.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"| синус x|= дробь: чис­ли­тель: 211, зна­ме­на­тель: 14 конец дроби \"> ре­ше­ний не имеет, а урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/0e/0e1f843162c0f19928fb013058355a2a.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"| синус x|=0\"> на от­рез­ке <img src=\"https://ege.sdamgia.ru/formula/svg/99/9984a90e94277e13b6e94663ae2d8755.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" левая квад­рат­ная скоб­ка минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби ; дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби пра­вая квад­рат­ная скоб­ка \"> имеет един­ствен­ное ре­ше­ние <i>х</i>  =  0.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <i>a</i>  =  6.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/5b/5bdb0dca5f6f14a05bf0d261247db5f8.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a792640ea6f57cd5101830335b6e69db.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c20600d5c1bd6d8767d9345a61967705.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a87e9c173322c688e2e85b814f84d14e.svg",
+            "https://ege.sdamgia.ru/formula/svg/5f/5f7369b751b71fd3ae94bc8ec29de836.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2a9a72ce74f8da4fb35a71577695cf2a.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/ca3c1a2edd3b06427833dcf8528269e4.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0e1f843162c0f19928fb013058355a2a.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/9984a90e94277e13b6e94663ae2d8755.svg"
+        ]
+    },
+    "answer": "a  =  6.",
+    "topic_id": 18,
+    "analog_ids": [
+        628754,
+        628780
+    ]
+}

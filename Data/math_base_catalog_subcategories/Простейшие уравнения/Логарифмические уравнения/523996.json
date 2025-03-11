@@ -1,0 +1,34 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 523996,
+    "condition": {
+        "text": "Решите неравенство ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body626720\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/11/117e79b601b5960db47e7ba4a69d3246.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: x в квад­ра­те минус 3x минус 2, зна­ме­на­тель: x в квад­ра­те минус 3x плюс 2 конец дроби плюс дробь: чис­ли­тель: x в квад­ра­те минус 3x плюс 16, зна­ме­на­тель: x в квад­ра­те минус 3x конец дроби \\geqslant0. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/11/117e79b601b5960db47e7ba4a69d3246.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Сделаем замену  Получим:Отсюда после обратной замены получаем:Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol523996\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Сде­ла­ем за­ме­ну <img src=\"https://ege.sdamgia.ru/formula/svg/ba/ba7654bb9498dbe266623ffe7e8e7545.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=x в квад­ра­те минус 3x.\"> По­лу­чим:</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"81b14fc6c80785763d4b7b695b30877a\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/bd/bdb1da8612521f36ee6156315af88383.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" дробь: чис­ли­тель: y минус 2, зна­ме­на­тель: y плюс 2 конец дроби плюс дробь: чис­ли­тель: y плюс 16, зна­ме­на­тель: y конец дроби \\geqslant0 рав­но­силь­но дробь: чис­ли­тель: y в квад­ра­те минус 2y плюс y в квад­ра­те плюс 18y плюс 32, зна­ме­на­тель: y левая круг­лая скоб­ка y плюс 2 пра­вая круг­лая скоб­ка конец дроби \\geqslant0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/31/31cdbad5a1120e60b3f7cc421ea77d26.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" рав­но­силь­но дробь: чис­ли­тель: 2y в квад­ра­те плюс 16y плюс 32, зна­ме­на­тель: y левая круг­лая скоб­ка y плюс 2 пра­вая круг­лая скоб­ка конец дроби \\geqslant0 рав­но­силь­но дробь: чис­ли­тель: 2 левая круг­лая скоб­ка y плюс 4 пра­вая круг­лая скоб­ка в квад­ра­те , зна­ме­на­тель: y левая круг­лая скоб­ка y плюс 2 пра­вая круг­лая скоб­ка конец дроби \\geqslant0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний y мень­ше минус 2,y боль­ше 0. конец со­во­куп­но­сти . \"></span><span data-width=\"340\" data-formulahash=\"81b14fc6c80785763d4b7b695b30877a\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/bd/bdb1da8612521f36ee6156315af88383.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" дробь: чис­ли­тель: y минус 2, зна­ме­на­тель: y плюс 2 конец дроби плюс дробь: чис­ли­тель: y плюс 16, зна­ме­на­тель: y конец дроби \\geqslant0 рав­но­силь­но дробь: чис­ли­тель: y в квад­ра­те минус 2y плюс y в квад­ра­те плюс 18y плюс 32, зна­ме­на­тель: y левая круг­лая скоб­ка y плюс 2 пра­вая круг­лая скоб­ка конец дроби \\geqslant0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/37/3792ed02c4956e0dc8bb59ad24d2e3df.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" рав­но­силь­но дробь: чис­ли­тель: 2y в квад­ра­те плюс 16y плюс 32, зна­ме­на­тель: y левая круг­лая скоб­ка y плюс 2 пра­вая круг­лая скоб­ка конец дроби \\geqslant0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/36/36407cf3e0e54145c9f749021512d35f.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" рав­но­силь­но дробь: чис­ли­тель: 2 левая круг­лая скоб­ка y плюс 4 пра­вая круг­лая скоб­ка в квад­ра­те , зна­ме­на­тель: y левая круг­лая скоб­ка y плюс 2 пра­вая круг­лая скоб­ка конец дроби \\geqslant0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний y мень­ше минус 2,y боль­ше 0. конец со­во­куп­но­сти . \"></span></p><p class=\"left_margin\"></p></center><p><img src=\"/get_file?id=164551\" style=\"margin:10px auto;display:block;max-width:100%\"></p><p class=\"left_margin\">От­сю­да после об­рат­ной за­ме­ны по­лу­ча­ем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/18/18bd01f07376b09907f92a3409e0f30a.svg\" class=\"tex\" style=\"vertical-align:-20.9pt\" alt=\" со­во­куп­ность вы­ра­же­ний x в квад­ра­те минус 3x мень­ше минус 2,x в квад­ра­те минус 3x боль­ше 0 конец со­во­куп­но­сти . рав­но­силь­но со­во­куп­ность вы­ра­же­ний x в квад­ра­те минус 3x плюс 2 мень­ше 0,x левая круг­лая скоб­ка x минус 3 пра­вая круг­лая скоб­ка боль­ше 0 конец со­во­куп­но­сти . рав­но­силь­но со­во­куп­ность вы­ра­же­ний 1 мень­ше x мень­ше 2,x мень­ше 0,x боль­ше 3. конец со­во­куп­но­сти . \"></p><p class=\"left_margin\"></p></center><p><img src=\"/get_file?id=142935\" style=\"margin:10px auto;display:block;max-width:100%\"></p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/79/7941845abda67dfe2191de680efd8682.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка минус бес­ко­неч­ность ;0 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 1;2 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 3; плюс бес­ко­неч­ность пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ba/ba7654bb9498dbe266623ffe7e8e7545.svg",
+            "https://ege.sdamgia.ru/formula/svg/bd/bdb1da8612521f36ee6156315af88383.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/31cdbad5a1120e60b3f7cc421ea77d26.svg",
+            "https://ege.sdamgia.ru/formula/svg/bd/bdb1da8612521f36ee6156315af88383.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/3792ed02c4956e0dc8bb59ad24d2e3df.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/36407cf3e0e54145c9f749021512d35f.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/18bd01f07376b09907f92a3409e0f30a.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/7941845abda67dfe2191de680efd8682.svg",
+            "/get_file?id=164551",
+            "/get_file?id=142935"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": [
+        523996,
+        524023
+    ]
+}

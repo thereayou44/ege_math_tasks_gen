@@ -1,0 +1,43 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 513784,
+    "condition": {
+        "text": "Дано уравнение а)  Решите уравнение.б)  Укажите корни этого уравнения, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body636932\" class=\"pbody\"><p class=\"left_margin\">Дано&nbsp;урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/52/52f7297370dc366f6a55d22f1aab494d.svg\" class=\"tex\" style=\"vertical-align:-2.0pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 4 ко­си­нус 2x минус 2 синус 2x конец ар­гу­мен­та =2 ко­си­нус x.\"></p><p class=\"left_margin\">а)  Ре­ши­те&nbsp;урав­не­ние.</p><p class=\"left_margin\">б)  Ука­жи­те&nbsp;корни&nbsp;этого&nbsp;урав­не­ния,&nbsp;при­над­ле­жа­щие&nbsp;от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/aa/aa2299e18ba9038f95a2afd1bea8b3d4.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка минус дробь: чис­ли­тель: 13 Пи , зна­ме­на­тель: 6 конец дроби ; минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/52/52f7297370dc366f6a55d22f1aab494d.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa2299e18ba9038f95a2afd1bea8b3d4.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Заметим сразу, что  Преобразуем уравнение.Учитывая условие  имеем б)  На указанном отрезке лежит  Ответ: a)   б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol513784\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  За­ме­тим сразу, что <img src=\"https://ege.sdamgia.ru/formula/svg/1e/1ec1ec1dec81101b71b19d69ed14b746.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\" ко­си­нус x боль­ше или равно 0.\"> Пре­об­ра­зу­ем урав­не­ние.</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/6e/6eb0ff2415ee02a8e0ee1f216af897f4.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"4 ко­си­нус 2x минус 2 синус 2x=4 ко­си­нус в квад­ра­те x,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/bf/bf40658b34212701385cdbb47464fc25.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"4 ко­си­нус 2x минус 2 синус 2x=2 плюс 2 ко­си­нус 2x,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/f4/f40537ba5b446ae58b5b1993055199aa.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2 ко­си­нус 2x минус 2 синус 2x=2,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/84/844d58c1fe837a6b9f686f96c401091c.svg\" class=\"tex\" style=\"vertical-align:-11.0pt\" alt=\" дробь: чис­ли­тель: 1, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та конец дроби ко­си­нус 2x минус дробь: чис­ли­тель: 1, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та конец дроби синус 2x= дробь: чис­ли­тель: 1, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та конец дроби , \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/c7/c794b24ce867e5222cc9c821f7f603ff.svg\" class=\"tex\" style=\"vertical-align:-11.0pt\" alt=\" ко­си­нус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби ко­си­нус 2x минус синус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби синус 2x= дробь: чис­ли­тель: 1, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та конец дроби , \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/c8/c8053610e68f3f7355708fc010e4f786.svg\" class=\"tex\" style=\"vertical-align:-11.0pt\" alt=\" ко­си­нус левая круг­лая скоб­ка 2x плюс дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби пра­вая круг­лая скоб­ка = дробь: чис­ли­тель: 1, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та конец дроби , \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/97/978bd6282b9cd72f2c36c74b978a4d08.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"2x плюс дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби = дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби плюс 2 Пи kили2x плюс дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби = минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби плюс 2 Пи k, \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/a1/a18cbe55e17277adf9a2e27986d66222.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= Пи kилиx= минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби плюс Пи k. \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Учи­ты­вая усло­вие <img src=\"https://ege.sdamgia.ru/formula/svg/a9/a9c1764e544c2d08bb31140964d49aed.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" ко­си­нус x боль­ше или равно 0,\"> имеем <img src=\"https://ege.sdamgia.ru/formula/svg/5d/5da187676046c6c1cafc186c3b0ed2e3.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x=2 Пи kилиx= минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби плюс 2 Пи k. \"></p><p class=\"left_margin\">б)  На ука­зан­ном от­рез­ке лежит <img src=\"https://ege.sdamgia.ru/formula/svg/a4/a4c29b3bc3667e8d74e52870ad6ef19f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x= минус 2 Пи .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> a) <img src=\"https://ege.sdamgia.ru/formula/svg/2d/2d1ca8a6b3e6d3b68e6dd18a04bd9363.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x=2 Пи kилиx= минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби плюс 2 Пи k, \">  б) <img src=\"https://ege.sdamgia.ru/formula/svg/a4/a4c29b3bc3667e8d74e52870ad6ef19f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x= минус 2 Пи .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/1e/1ec1ec1dec81101b71b19d69ed14b746.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6eb0ff2415ee02a8e0ee1f216af897f4.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bf40658b34212701385cdbb47464fc25.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f40537ba5b446ae58b5b1993055199aa.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/844d58c1fe837a6b9f686f96c401091c.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c794b24ce867e5222cc9c821f7f603ff.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c8053610e68f3f7355708fc010e4f786.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/978bd6282b9cd72f2c36c74b978a4d08.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a18cbe55e17277adf9a2e27986d66222.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a9c1764e544c2d08bb31140964d49aed.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5da187676046c6c1cafc186c3b0ed2e3.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a4c29b3bc3667e8d74e52870ad6ef19f.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d1ca8a6b3e6d3b68e6dd18a04bd9363.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a4c29b3bc3667e8d74e52870ad6ef19f.svg"
+        ]
+    },
+    "answer": "a)   б)",
+    "topic_id": null,
+    "analog_ids": [
+        508148,
+        511237,
+        513770,
+        511237,
+        513770,
+        514065
+    ]
+}

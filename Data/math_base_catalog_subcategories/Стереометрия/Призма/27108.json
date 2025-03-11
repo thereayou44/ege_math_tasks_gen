@@ -1,0 +1,57 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27108,
+    "condition": {
+        "text": " Найдите объем призмы, в основаниях которой лежат правильные шестиугольники со сторонами 2, а боковые ребра равны  и наклонены к плоскости основания под углом 30°.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919320\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=113378\" style=\"float:right;margin:10px;max-width:100%\"> Най­ди­те объем приз­мы, в ос­но­ва­ни­ях ко­то­рой лежат пра­виль­ные ше­сти­уголь­ни­ки со сто­ро­на­ми 2, а бо­ко­вые ребра равны <img src=\"https://ege.sdamgia.ru/formula/svg/68/68d9c09d99cc222af7e825a07a0f3065.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та \"> и на­кло­не­ны к плос­ко­сти ос­но­ва­ния под углом 30°.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/68/68d9c09d99cc222af7e825a07a0f3065.svg",
+            "/get_file?id=113378"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Объем призмы  где S  — площадь основания, а L  — длина ребра, составляющего с основанием угол α. Площадь правильного шестиугольника со стороной a равна  Тогда объем призмы равенОтвет: 18.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27108\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Объем приз­мы <img src=\"https://ege.sdamgia.ru/formula/svg/d3/d3ad3522dcbc7f81684eae466e715784.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"V=Sh=SL синус альфа , \"> где <i>S</i>  — пло­щадь ос­но­ва­ния, а <i>L</i>  — длина ребра, со­став­ля­ю­ще­го с ос­но­ва­ни­ем угол α. Пло­щадь пра­виль­но­го ше­сти­уголь­ни­ка со сто­ро­ной <i>a</i> равна</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/0f/0f831d62301c9a79cfa177a87c7d47d3.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"S= дробь: чис­ли­тель: 3 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби a в квад­ра­те . \"></p><p class=\"left_margin\"></p></center> <p> Тогда объем приз­мы равен</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e6/e6ca45df534802b3495f4728820778d5.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"V= дробь: чис­ли­тель: 3 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби умно­жить на 2 в квад­ра­те умно­жить на 2 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та умно­жить на дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби =18. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing:2px \">Ответ</span>: 18.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d3/d3ad3522dcbc7f81684eae466e715784.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0f831d62301c9a79cfa177a87c7d47d3.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e6ca45df534802b3495f4728820778d5.svg"
+        ]
+    },
+    "answer": "18",
+    "topic_id": 3,
+    "analog_ids": [
+        27108,
+        74795,
+        74807,
+        74811,
+        74795,
+        74807,
+        74811,
+        74843,
+        74847,
+        74797,
+        74799,
+        74801,
+        74803,
+        74805,
+        74809,
+        74813,
+        74815,
+        74817,
+        74819,
+        74821,
+        74823,
+        74825,
+        74827,
+        74829,
+        74831,
+        74833,
+        74835,
+        74837,
+        74839,
+        74841,
+        74845
+    ]
+}

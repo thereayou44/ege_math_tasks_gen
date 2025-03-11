@@ -1,0 +1,54 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27906,
+    "condition": {
+        "text": " Чему равна сторона правильного шестиугольника, вписанного в окружность, радиус которой равен 6?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918526\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=138553\" style=\"float:right;margin:10px;max-width:100%\"> Чему равна сто­ро­на пра­виль­но­го ше­сти­уголь­ни­ка, впи­сан­но­го в окруж­ность, ра­ди­ус ко­то­рой равен 6?</p></div>",
+        "image_urls": [
+            "/get_file?id=138553"
+        ]
+    },
+    "solution": {
+        "text": "Решение.  Заметим, что  Значит, треугольник AOB  — равносторонний. Тогда  Ответ: 6.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27906\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=138552\" style=\"float:right;margin:10px;max-width:100%\"> За­ме­тим, что <img src=\"https://ege.sdamgia.ru/formula/svg/2e/2e33624f5063a3612e78fea091257243.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"\\angle AOB= дробь: чис­ли­тель: 360 гра­ду­сов , зна­ме­на­тель: 6 конец дроби =60 гра­ду­сов. \"> Зна­чит, тре­уголь­ник <i>AOB</i>  — рав­но­сто­рон­ний. Тогда</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/47/472d396c442cdd3bc139e392433fae16.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AB=AO=R=6.\"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 6.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/2e/2e33624f5063a3612e78fea091257243.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/472d396c442cdd3bc139e392433fae16.svg",
+            "/get_file?id=138552"
+        ]
+    },
+    "answer": "6",
+    "topic_id": 1,
+    "analog_ids": [
+        27906,
+        53071,
+        53073,
+        53075,
+        53071,
+        53073,
+        53075,
+        53077,
+        53079,
+        53081,
+        53083,
+        53085,
+        53087,
+        53089,
+        53091,
+        53093,
+        53095,
+        53097,
+        53099,
+        53101,
+        53103,
+        53105,
+        53107,
+        53109,
+        53111,
+        53113,
+        53115,
+        53117,
+        53119
+    ]
+}

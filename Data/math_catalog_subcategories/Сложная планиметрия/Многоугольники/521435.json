@@ -1,0 +1,29 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521435,
+    "condition": {
+        "text": "В равнобедренной трапеции ABCD основание AD в два раза больше основания BC. а)   Докажите,  что  высота  CH  трапеции  разбивает  основание  AD  на  отрезки,  один  из которых втрое больше другого. б)   Пусть  O  — точка  пересечения  диагоналей  трапеции  ABCD.  Найдите  расстояние  от вершины C до середины отрезка OD, если BC  =  16 и AB  =  10.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629287\" class=\"pbody\"><p class=\"left_margin\">В рав­но­бед­рен­ной тра­пе­ции <i>ABCD</i> ос­но­ва­ние <i>AD</i> в два раза боль­ше ос­но­ва­ния <i>BC</i>. </p><p class=\"left_margin\">а)   До­ка­жи­те,  что  вы­со­та  <i>CH</i>  тра­пе­ции  раз­би­ва­ет  ос­но­ва­ние  <i>AD</i>  на  от­рез­ки,  один  из ко­то­рых втрое боль­ше дру­го­го. </p><p class=\"left_margin\">б)   Пусть  <i>O</i>  — точка  пе­ре­се­че­ния  диа­го­на­лей  тра­пе­ции  <i>ABCD</i>.  Най­ди­те  рас­сто­я­ние  от вер­ши­ны <i>C</i> до се­ре­ди­ны от­рез­ка <i>OD</i>, если <i>BC</i>  =  16 и <i>AB</i>  =  10.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Пусть   — высоты. Тогда  и поэтому  то есть  что и требовалось. б)  Треугольники AOD и BOC подобны с коэффициентом   поэтому  откуда  По формуле для медианы находимОтвет: 4.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521435\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=35867\" style=\"float:right;margin:10px\">а)  Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/cf/cfaa82c5b5e65ef2c2f70b007d0747c3.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"BB_1,CC_1\">  — вы­со­ты. Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/90/9023143df9095821067606fd54eea28c.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AB_1=C_1D\"> и по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/ff/ffee6ccf562a799cf5956f2f9762d535.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"2AB_1=AD минус BC= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби AD,\"> то есть <img src=\"https://ege.sdamgia.ru/formula/svg/7d/7dc6334159a33fbaa8266d179a1998b7.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"AB_1= дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби AD,\"> что и тре­бо­ва­лось.</p><p>&nbsp;</p><p class=\"left_margin\">б)  Тре­уголь­ни­ки <i>AOD</i> и <i>BOC</i> по­доб­ны с ко­эф­фи­ци­ен­том <img src=\"https://ege.sdamgia.ru/formula/svg/de/de0209669a639b7f2bae36c9a8a3c568.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AD:BC=2.\"> <img src=\"https://ege.sdamgia.ru/formula/svg/8c/8cf13f9c7d5d80d76f8fb79aa7be7f9f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"BB_1= ко­рень из: на­ча­ло ар­гу­мен­та: 10 в квад­ра­те минус 8 в квад­ра­те конец ар­гу­мен­та =6,\"> по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/bf/bf4cee77f34277a3d6e6bbae8fd0177e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"BD= ко­рень из: на­ча­ло ар­гу­мен­та: 6 в квад­ра­те плюс 24 в квад­ра­те конец ар­гу­мен­та =6 ко­рень из: на­ча­ло ар­гу­мен­та: 17 конец ар­гу­мен­та ,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/f8/f856cba7166dbc0ad231b10f65c135c7.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"OD= дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби BD=4 ко­рень из: на­ча­ло ар­гу­мен­та: 17 конец ар­гу­мен­та , OC= дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби AC= дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби BD=2 ко­рень из: на­ча­ло ар­гу­мен­та: 17 конец ар­гу­мен­та .\"> По фор­му­ле для ме­ди­а­ны на­хо­дим</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/b6/b6cc9945ea3bda5fda5cac1cb3c503df.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби ко­рень из: на­ча­ло ар­гу­мен­та: 2 умно­жить на 4 умно­жить на 17 плюс 2 умно­жить на 100 минус 16 умно­жить на 17 конец ар­гу­мен­та =4.\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 4.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/cf/cfaa82c5b5e65ef2c2f70b007d0747c3.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/9023143df9095821067606fd54eea28c.svg",
+            "https://ege.sdamgia.ru/formula/svg/ff/ffee6ccf562a799cf5956f2f9762d535.svg",
+            "https://ege.sdamgia.ru/formula/svg/7d/7dc6334159a33fbaa8266d179a1998b7.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/de0209669a639b7f2bae36c9a8a3c568.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8cf13f9c7d5d80d76f8fb79aa7be7f9f.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bf4cee77f34277a3d6e6bbae8fd0177e.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f856cba7166dbc0ad231b10f65c135c7.svg",
+            "https://ege.sdamgia.ru/formula/svg/b6/b6cc9945ea3bda5fda5cac1cb3c503df.svg",
+            "/get_file?id=35867"
+        ]
+    },
+    "answer": "4.",
+    "topic_id": null,
+    "analog_ids": []
+}

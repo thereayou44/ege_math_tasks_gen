@@ -1,0 +1,37 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 501945,
+    "condition": {
+        "text": "В правильной четырёхугольной пирамиде MABCD с вершиной M стороны основания равны 3, а боковые рёбра равны 8. а)  Докажите, что плоскость, проходящей через точку B и середину ребра MD параллельно прямой AC, делит ребро MC в отношении 2:1, считая от вершины M.б)  Найдите площадь сечения пирамиды этой плоскостью.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body640581\" class=\"pbody\"><p class=\"left_margin\">В пра­виль­ной четырёхуголь­ной пи­ра­ми­де <i>MABCD</i> с вер­ши­ной <i>M</i> сто­ро­ны ос­но­ва­ния равны 3, а бо­ко­вые рёбра равны 8. </p><p class=\"left_margin\">а)  До­ка­жи­те, что плос­кость, про­хо­дя­щей через точку <i>B</i> и се­ре­ди­ну ребра <i>MD</i> па­рал­лель­но пря­мой <i>AC</i>, делит ребро <i>MC</i> в от­но­ше­нии 2:1, счи­тая от вер­ши­ны <i>M</i>.</p><p class=\"left_margin\">б)  Най­ди­те пло­щадь се­че­ния пи­ра­ми­ды этой плос­ко­стью.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Пусть точка E  — середина ребра  Отрезок BE пересекает плоскость MAC в точке  В треугольнике MBD точка P является точкой пересечения медиан, следовательно,  где O  — центр основания пирамиды. Отрезок FG параллелен AC и проходит через точку  (точка F принадлежит ребру   — ребру MC), откуда  Что и требовалось доказать.б)  Из пункта а) следует, что:  Четырёхугольник BFEG  — искомое сечение. Отрезок BE  — медиана треугольника MBD, значит,  Поскольку прямая BD перпендикулярна плоскости MAC, диагонали BE и FG четырёхугольника BFEG перпендикулярны, а потому Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol501945\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=132554\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Пусть точка <i>E</i>  — се­ре­ди­на ребра <img src=\"https://ege.sdamgia.ru/formula/svg/9a/9a4c4d18ca90bcf548f33f424c481f9a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"MD.\"> От­ре­зок <i>BE</i> пе­ре­се­ка­ет плос­кость <i>MAC</i> в точке <img src=\"https://ege.sdamgia.ru/formula/svg/b6/b69137a4d7f1bc5b9fa27e655151af34.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"P.\"> В тре­уголь­ни­ке <i>MBD</i> точка <i>P</i> яв­ля­ет­ся точ­кой пе­ре­се­че­ния ме­ди­ан, сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/81/8105172138782da2144931893544e6aa.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"MP:PO=2 :1,\"> где <i>O</i>  — центр ос­но­ва­ния пи­ра­ми­ды. От­ре­зок <i>FG</i> па­рал­ле­лен <i>AC</i> и про­хо­дит через точку <img src=\"https://ege.sdamgia.ru/formula/svg/26/26ac99baf405f378717596eecc8ac783.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" P\"> (точка <i>F</i> при­над­ле­жит ребру <img src=\"https://ege.sdamgia.ru/formula/svg/f2/f274d22d38f51f765d3c0a6990fbf4f2.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"MA,G\">  — ребру <i>MC</i>), от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/5f/5f778097a9ef1369b8ca4038f130b66e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"MF:FA=MG:GC=MP:PO=2 :1,\"> Что и тре­бо­ва­лось до­ка­зать.</p><p class=\"left_margin\">б)  Из пунк­та а) сле­ду­ет, что: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d5/d59d03911e080131e96dc1d4a55ff05e.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"FG= дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби AC= дробь: чис­ли­тель: 2 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та умно­жить на AB, зна­ме­на­тель: 3 конец дроби =2 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та . \"></p><p class=\"left_margin\"></p></center><p> Четырёхуголь­ник <i>BFEG</i>  — ис­ко­мое се­че­ние. От­ре­зок <i>BE</i>  — ме­ди­а­на тре­уголь­ни­ка <i>MBD</i>, зна­чит, </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/21/217b7836398fc1cd2de57593c5763697.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"BE= дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 2BD в квад­ра­те плюс 2MB в квад­ра­те минус MD в квад­ра­те конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби = дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 4AB в квад­ра­те плюс MB в квад­ра­те конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби =5. \"></p><p class=\"left_margin\"></p></center> <p class=\"left_margin\">По­сколь­ку пря­мая <i>BD</i> пер­пен­ди­ку­ляр­на плос­ко­сти <i>MAC</i>, диа­го­на­ли <i>BE</i> и <i>FG</i> четырёхуголь­ни­ка <i>BFEG</i> пер­пен­ди­ку­ляр­ны, а по­то­му </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/a6/a65c8d1e8cc118592c1fbbe3d948a177.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"S_BFEG= дробь: чис­ли­тель: BE умно­жить на FG, зна­ме­на­тель: 2 конец дроби =5 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Ответ: <img src=\"https://ege.sdamgia.ru/formula/svg/b7/b79f74a3e2ff1d37aecfd732fe04b15d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"5 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/9a/9a4c4d18ca90bcf548f33f424c481f9a.svg",
+            "https://ege.sdamgia.ru/formula/svg/b6/b69137a4d7f1bc5b9fa27e655151af34.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/8105172138782da2144931893544e6aa.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/26ac99baf405f378717596eecc8ac783.svg",
+            "https://ege.sdamgia.ru/formula/svg/f2/f274d22d38f51f765d3c0a6990fbf4f2.svg",
+            "https://ege.sdamgia.ru/formula/svg/5f/5f778097a9ef1369b8ca4038f130b66e.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d59d03911e080131e96dc1d4a55ff05e.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/217b7836398fc1cd2de57593c5763697.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a65c8d1e8cc118592c1fbbe3d948a177.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b79f74a3e2ff1d37aecfd732fe04b15d.svg",
+            "/get_file?id=132554"
+        ]
+    },
+    "answer": "",
+    "topic_id": 14,
+    "analog_ids": [
+        501690,
+        501730,
+        501985,
+        501730,
+        501985,
+        511367
+    ]
+}

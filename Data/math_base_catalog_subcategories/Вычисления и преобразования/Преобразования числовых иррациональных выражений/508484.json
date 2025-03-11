@@ -1,0 +1,34 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 508484,
+    "condition": {
+        "text": "Решите неравенство: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body634040\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство: <img src=\"https://ege.sdamgia.ru/formula/svg/98/983016462e0245bef1ce537c5aaa25d1.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"6 в сте­пе­ни x минус 4 умно­жить на 3 в сте­пе­ни x минус 2 в сте­пе­ни x плюс 4 мень­ше или равно 0.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/98/983016462e0245bef1ce537c5aaa25d1.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Заметим, чтоПоэтому Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol508484\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">За­ме­тим, что</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"0984771f08c6f16b1d55e5d5b12c8a80\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/09/0984771f08c6f16b1d55e5d5b12c8a80.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" 6 в сте­пе­ни x минус 4 умно­жить на 3 в сте­пе­ни x минус 2 в сте­пе­ни x плюс 4 = 3 в сте­пе­ни x умно­жить на 2 в сте­пе­ни x минус 4 умно­жить на 3 в сте­пе­ни x минус левая круг­лая скоб­ка 2 в сте­пе­ни x минус 4 пра­вая круг­лая скоб­ка = 3 в сте­пе­ни x левая круг­лая скоб­ка 2 в сте­пе­ни x минус 4 пра­вая круг­лая скоб­ка минус левая круг­лая скоб­ка 2 в сте­пе­ни x минус 4 пра­вая круг­лая скоб­ка = левая круг­лая скоб­ка 3 в сте­пе­ни x минус 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 2 в сте­пе­ни x минус 4 пра­вая круг­лая скоб­ка .\"></span><span data-width=\"565\" data-formulahash=\"0984771f08c6f16b1d55e5d5b12c8a80\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/0c/0ca033f821ca8c3805c13bd9ede9d372.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" 6 в сте­пе­ни x минус 4 умно­жить на 3 в сте­пе­ни x минус 2 в сте­пе­ни x плюс 4 = 3 в сте­пе­ни x умно­жить на 2 в сте­пе­ни x минус 4 умно­жить на 3 в сте­пе­ни x минус левая круг­лая скоб­ка 2 в сте­пе­ни x минус 4 пра­вая круг­лая скоб­ка =\"><br><img src=\"https://ege.sdamgia.ru/formula/svg/41/419972bf81b08c2ac02fc4ca81671fab.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"= 3 в сте­пе­ни x левая круг­лая скоб­ка 2 в сте­пе­ни x минус 4 пра­вая круг­лая скоб­ка минус левая круг­лая скоб­ка 2 в сте­пе­ни x минус 4 пра­вая круг­лая скоб­ка = левая круг­лая скоб­ка 3 в сте­пе­ни x минус 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 2 в сте­пе­ни x минус 4 пра­вая круг­лая скоб­ка .\"></span></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">По­это­му</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"492dadb21eae3ea30186ddd06c4f2a0c\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/52/5283fac28e23d2da0daac3665e4ed326.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" 6 в сте­пе­ни x минус 4 умно­жить на 3 в сте­пе­ни x минус 2 в сте­пе­ни x плюс 4 мень­ше или равно 0 рав­но­силь­но левая круг­лая скоб­ка 3 в сте­пе­ни x минус 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 2 в сте­пе­ни x минус 4 пра­вая круг­лая скоб­ка мень­ше или равно 0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/ad/ad9410b600ed62a5aa72cd6d8a2e206b.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" рав­но­силь­но левая круг­лая скоб­ка 3 в сте­пе­ни x минус 3 в сте­пе­ни 0 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 2 в сте­пе­ни x минус 2 в квад­ра­те пра­вая круг­лая скоб­ка мень­ше или равно 0 рав­но­силь­но x левая круг­лая скоб­ка x минус 2 пра­вая круг­лая скоб­ка мень­ше или равно 0 рав­но­силь­но 0 мень­ше или равно x мень­ше или равно 2. \"></span><span data-width=\"340\" data-formulahash=\"492dadb21eae3ea30186ddd06c4f2a0c\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/52/5283fac28e23d2da0daac3665e4ed326.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" 6 в сте­пе­ни x минус 4 умно­жить на 3 в сте­пе­ни x минус 2 в сте­пе­ни x плюс 4 мень­ше или равно 0 рав­но­силь­но левая круг­лая скоб­ка 3 в сте­пе­ни x минус 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 2 в сте­пе­ни x минус 4 пра­вая круг­лая скоб­ка мень­ше или равно 0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/c6/c6dd674e43380fd4f7d90f588bc09639.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" рав­но­силь­но левая круг­лая скоб­ка 3 в сте­пе­ни x минус 3 в сте­пе­ни 0 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 2 в сте­пе­ни x минус 2 в квад­ра­те пра­вая круг­лая скоб­ка мень­ше или равно 0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/f7/f7644944e68bb0a5db14f1235ff87465.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" рав­но­силь­но x левая круг­лая скоб­ка x минус 2 пра­вая круг­лая скоб­ка мень­ше или равно 0 рав­но­силь­но 0 мень­ше или равно x мень­ше или равно 2. \"></span></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/13/137cc3e164c33ba03f01bb833e20d1bc.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка 0;2 пра­вая квад­рат­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/09/0984771f08c6f16b1d55e5d5b12c8a80.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0ca033f821ca8c3805c13bd9ede9d372.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/419972bf81b08c2ac02fc4ca81671fab.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/5283fac28e23d2da0daac3665e4ed326.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/ad9410b600ed62a5aa72cd6d8a2e206b.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/5283fac28e23d2da0daac3665e4ed326.svg",
+            "https://ege.sdamgia.ru/formula/svg/c6/c6dd674e43380fd4f7d90f588bc09639.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f7644944e68bb0a5db14f1235ff87465.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/137cc3e164c33ba03f01bb833e20d1bc.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": [
+        508484,
+        508486,
+        511552
+    ]
+}

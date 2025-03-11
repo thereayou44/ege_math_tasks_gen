@@ -1,0 +1,25 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 500168,
+    "condition": {
+        "text": "Зависимость объема спроса q (единиц в месяц) на продукцию предприятия монополиста от цены p (тыс. руб.) задается формулой  Выручка предприятия за месяц r (тыс. руб.) вычисляется по формуле  Определите наибольшую цену p, при которой месячная выручка составит 300 тыс. руб.  Ответ приведите в тыс. руб.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body642868\" class=\"pbody\"><p class=\"left_margin\">За­ви­си­мость объ­е­ма спро­са <i>q</i> (еди­ниц в месяц) на про­дук­цию пред­при­я­тия мо­но­по­ли­ста от цены <i>p</i> (тыс. руб.) за­да­ет­ся фор­му­лой <img src=\"https://ege.sdamgia.ru/formula/svg/b6/b65820efd3a6a7cc01166df90a5d8073.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\"q=80 минус 5p.\"> Вы­руч­ка пред­при­я­тия за месяц <i>r</i> (тыс. руб.) вы­чис­ля­ет­ся по фор­му­ле <img src=\"https://ege.sdamgia.ru/formula/svg/ce/ced1c6806380e138252ee2bb2e2f558d.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"r левая круг­лая скоб­ка p пра­вая круг­лая скоб­ка =p умно­жить на q.\"> Опре­де­ли­те наи­боль­шую цену <i>p</i>, при ко­то­рой ме­сяч­ная вы­руч­ка со­ста­вит 300 тыс. руб.  Ответ при­ве­ди­те в тыс. руб.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b6/b65820efd3a6a7cc01166df90a5d8073.svg",
+            "https://ege.sdamgia.ru/formula/svg/ce/ced1c6806380e138252ee2bb2e2f558d.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Задача сводится к решению уравнения : Ответ: 10.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol500168\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">За­да­ча сво­дит­ся к ре­ше­нию урав­не­ния <img src=\"https://ege.sdamgia.ru/formula/svg/c9/c9d6b6c3be177e70c1a4872b20400731.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"r левая круг­лая скоб­ка p пра­вая круг­лая скоб­ка =300\">:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/a6/a6600f53edde7b91cc6d4ac463390ed5.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"r левая круг­лая скоб­ка p пра­вая круг­лая скоб­ка =q умно­жить на p= левая круг­лая скоб­ка 80 минус 5p пра­вая круг­лая скоб­ка p=80p минус 5p в квад­ра­те ,\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/16/16a0893134ff45f0e711de1f8eec88ab.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\"r левая круг­лая скоб­ка p пра­вая круг­лая скоб­ка =300 рав­но­силь­но минус 5p в квад­ра­те плюс 80p минус 300=0 рав­но­силь­но p в квад­ра­те минус 16p плюс 60=0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний p=6; p=10. конец со­во­куп­но­сти \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 10.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c9/c9d6b6c3be177e70c1a4872b20400731.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a6600f53edde7b91cc6d4ac463390ed5.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/16a0893134ff45f0e711de1f8eec88ab.svg"
+        ]
+    },
+    "answer": "10",
+    "topic_id": 9,
+    "analog_ids": []
+}

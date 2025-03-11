@@ -1,0 +1,27 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27733,
+    "condition": {
+        "text": "Найдите квадрат длины вектора ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918185\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=143484\" style=\"float:right;margin:10px;max-width:100%\">Най­ди­те квад­рат длины век­то­ра <img src=\"https://ege.sdamgia.ru/formula/svg/bd/bd44a72d78dad7a0ceb18ab247dceef2.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overrightarrowa минус \\overrightarrowb.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/bd/bd44a72d78dad7a0ceb18ab247dceef2.svg",
+            "/get_file?id=143484"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Имеем:   Координаты разности векторов равны разности соответствующих координат, поэтому   Длина вектора  Поэтому квадрат длины вектора равен  Ответ: 40.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27733\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Имеем: <img src=\"https://ege.sdamgia.ru/formula/svg/db/dbace5a8ea974c6b52a1b5916677ff6e.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\overrightarrowa= левая круг­лая скоб­ка 2;6 пра­вая круг­лая скоб­ка ,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/9d/9dd044a40023eb002bca81193d62cbdf.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\overrightarrowb= левая круг­лая скоб­ка 8;4 пра­вая круг­лая скоб­ка .\"> Ко­ор­ди­на­ты раз­но­сти век­то­ров равны раз­но­сти со­от­вет­ству­ю­щих ко­ор­ди­нат, по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/65/65baa70e9379ab2e7eaadb08c30be6fc.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\overrightarrowa минус \\overrightarrowb= левая круг­лая скоб­ка минус 6;2 пра­вая круг­лая скоб­ка .\">  Длина век­то­ра <img src=\"https://ege.sdamgia.ru/formula/svg/ce/ce7a3fea3a07849b77ddc31a4f6e3007.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"|\\overrightarrowa минус \\overrightarrowb|= ко­рень из: на­ча­ло ар­гу­мен­та: 6 конец ар­гу­мен­та в квад­ра­те плюс 2 в квад­ра­те = ко­рень из: на­ча­ло ар­гу­мен­та: 40 конец ар­гу­мен­та .\"> По­это­му квад­рат длины век­то­ра равен <img src=\"https://ege.sdamgia.ru/formula/svg/9f/9f50b5c6ab862e164a04953217e256f3.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"40.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 40.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/db/dbace5a8ea974c6b52a1b5916677ff6e.svg",
+            "https://ege.sdamgia.ru/formula/svg/9d/9dd044a40023eb002bca81193d62cbdf.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/65baa70e9379ab2e7eaadb08c30be6fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/ce/ce7a3fea3a07849b77ddc31a4f6e3007.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9f50b5c6ab862e164a04953217e256f3.svg"
+        ]
+    },
+    "answer": "40",
+    "topic_id": 2,
+    "analog_ids": []
+}

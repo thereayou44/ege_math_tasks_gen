@@ -1,0 +1,34 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 485937,
+    "condition": {
+        "text": "Точка M  лежит на отрезке AB. На окружности с диаметром AB  взята точка C, удаленная от точек A, M и B  на расстояния 20, 14 и 15 соответственно. Найдите площадь треугольника BMC.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body591053\" class=\"pbody\"><p class=\"left_margin\">Точка <i>M</i>  лежит на от­рез­ке <i>AB.</i> На окруж­но­сти с диа­мет­ром <i>AB</i>  взята точка <i>C,</i> уда­лен­ная от точек <i>A,</i> <i>M</i> и <i>B</i>  на рас­сто­я­ния 20, 14 и 15 со­от­вет­ствен­но. Най­ди­те пло­щадь тре­уголь­ни­ка <i>BMC.</i></p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Точка C лежит на окружности с диаметром  AB, поэтому ∠ACB  =  90°. По теореме Пифагора Пусть CD  — высота треугольника ABC. Тогда:Отсюда  Из прямоугольного треугольника находим:Если точка M лежит между точками A и D, то  Следовательно, Если точка M лежит между B и D, то  Следовательно,    Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol485937\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=30491\" style=\"float:right;margin:10px\"></p><p class=\"left_margin\">Точка <i>C</i> лежит на окруж­но­сти с диа­мет­ром  <i>AB,</i> по­это­му ∠<i>ACB</i>  =  90°. По тео­ре­ме Пи­фа­го­ра </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/3c/3cad9ea805395f2a52d2239e51f49634.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AB= ко­рень из: на­ча­ло ар­гу­мен­та: AC в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та плюс BC в квад­ра­те пра­вая круг­лая скоб­ка = ко­рень из: на­ча­ло ар­гу­мен­та: 20 в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та плюс 15 в квад­ра­те пра­вая круг­лая скоб­ка =25.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Пусть <i>CD</i>  — вы­со­та тре­уголь­ни­ка <i>ABC.</i> Тогда:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/2b/2b5a5017b5a49a3ff64833bb6b405683.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"CD= дробь: чис­ли­тель: AC умно­жить на BC, зна­ме­на­тель: AB конец дроби = дробь: чис­ли­тель: 20 умно­жить на 15, зна­ме­на­тель: 25 конец дроби =12. \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">От­сю­да </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e4/e40b17191d8979ad4fc9e3abb3f22ac5.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\" BD= ко­рень из: на­ча­ло ар­гу­мен­та: BC в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та минус CD в квад­ра­те пра­вая круг­лая скоб­ка = ко­рень из: на­ча­ло ар­гу­мен­та: 225 минус 144 конец ар­гу­мен­та =9.\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p class=\"left_margin\">Из пря­мо­уголь­но­го тре­уголь­ни­ка на­хо­дим:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e0/e0d7d4b215e2dd70cb30c616709e29ce.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"DM= ко­рень из: на­ча­ло ар­гу­мен­та: CM в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та минус CD в квад­ра­те пра­вая круг­лая скоб­ка = ко­рень из: на­ча­ло ар­гу­мен­та: 14 в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та минус 12 в квад­ра­те пра­вая круг­лая скоб­ка =2 ко­рень из: на­ча­ло ар­гу­мен­та: 13 конец ар­гу­мен­та .\"></p><p class=\"left_margin\"></p></center><p><img src=\"/get_file?id=30492\" style=\"float:right;margin:10px\"></p><p class=\"left_margin\">Если точка <i>M</i> лежит между точ­ка­ми <i>A</i> и <i>D</i>, то <img src=\"https://ege.sdamgia.ru/formula/svg/9d/9d31aa47850b3971d02ba9d93c2e1dd0.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"MB=MD плюс BD=9 плюс 2 ко­рень из: на­ча­ло ар­гу­мен­та: 13 конец ар­гу­мен­та .\"></p><p> Сле­до­ва­тель­но,</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e1/e1c87fc3f388dae2ad38ffc17929afee.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S_BMC= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби MB умно­жить на CD= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на 12 умно­жить на левая круг­лая скоб­ка 9 плюс 2 ко­рень из: на­ча­ло ар­гу­мен­та: 13 конец ар­гу­мен­та пра­вая круг­лая скоб­ка =54 плюс 12 ко­рень из: на­ча­ло ар­гу­мен­та: 13 конец ар­гу­мен­та . \"> </p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Если точка <i>M</i> лежит между <i>B</i> и <i>D,</i> то <img src=\"https://ege.sdamgia.ru/formula/svg/41/41ea8b858e6552e8287bbd0f2fb541c6.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"MB=BD минус MD=9 минус 2 ко­рень из: на­ча­ло ар­гу­мен­та: 13 конец ар­гу­мен­та .\"> Сле­до­ва­тель­но,</p><p> </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/7b/7b4ec92e0b0ea9bad8f9c794e90e2d74.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S_BMC= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби MB умно­жить на CD= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на 12 умно­жить на левая круг­лая скоб­ка 9 минус 2 ко­рень из: на­ча­ло ар­гу­мен­та: 13 конец ар­гу­мен­та пра­вая круг­лая скоб­ка =54 минус 12 ко­рень из: на­ча­ло ар­гу­мен­та: 13 конец ар­гу­мен­та . \"> </p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/7f/7f904d3ff6920e6d25b1b3565b2666c2.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"54\\pm 12 ко­рень из: на­ча­ло ар­гу­мен­та: 13 конец ар­гу­мен­та .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/3c/3cad9ea805395f2a52d2239e51f49634.svg",
+            "https://ege.sdamgia.ru/formula/svg/2b/2b5a5017b5a49a3ff64833bb6b405683.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e40b17191d8979ad4fc9e3abb3f22ac5.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e0d7d4b215e2dd70cb30c616709e29ce.svg",
+            "https://ege.sdamgia.ru/formula/svg/9d/9d31aa47850b3971d02ba9d93c2e1dd0.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e1c87fc3f388dae2ad38ffc17929afee.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/41ea8b858e6552e8287bbd0f2fb541c6.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7b4ec92e0b0ea9bad8f9c794e90e2d74.svg",
+            "https://ege.sdamgia.ru/formula/svg/7f/7f904d3ff6920e6d25b1b3565b2666c2.svg",
+            "/get_file?id=30491",
+            "/get_file?id=30492"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": [
+        485937,
+        485945,
+        511325
+    ]
+}

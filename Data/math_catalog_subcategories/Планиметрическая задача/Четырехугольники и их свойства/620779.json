@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 620779,
+    "condition": {
+        "text": "Диагонали AC и  BD трапеции ABCD пересекаются в точке O, BC и AD  — основания трапеции.а)  Докажите, что б)  Найдите площадь трапеции, если AD  =  4BC, ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body464407\" class=\"pbody\"><p class=\"left_margin\">Диа­го­на­ли <i>AC</i> и  <i>BD</i> тра­пе­ции <i>ABCD</i> пе­ре­се­ка­ют­ся в точке <i>O</i>, <i>BC</i> и <i>AD</i>  — ос­но­ва­ния тра­пе­ции.</p><p class=\"left_margin\">а)  До­ка­жи­те, что <img src=\"https://ege.sdamgia.ru/formula/svg/21/21aabaae097b7a8a36eb93171709bc31.svg\" class=\"tex\" style=\"vertical-align:-10.1pt\" alt=\" дробь: чис­ли­тель: S_\\Delta ABO, зна­ме­на­тель: S_\\Delta AOD конец дроби = дробь: чис­ли­тель: BC, зна­ме­на­тель: AD конец дроби . \"></p><p class=\"left_margin\">б)  Най­ди­те пло­щадь тра­пе­ции, если <i>AD</i>  =  4<i>BC</i>, <img src=\"https://ege.sdamgia.ru/formula/svg/a4/a4aa0b1430c4cafd779bd861cb51d954.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"S_\\Delta AOB=2.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/21/21aabaae097b7a8a36eb93171709bc31.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a4aa0b1430c4cafd779bd861cb51d954.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Заметим, что у треугольников AOB и AOD общая высота, проведенная из вершины A. Значит, их площади относятся так же, как основания:  Последнее равенство следует из подобия треугольников BOC и DOA.б)  Из пункта а) следует, что  Аналогично  поэтому  Далее, отсюда  Окончательно получаем, что  Ответ: 12,5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol620779\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=147944\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  За­ме­тим, что у тре­уголь­ни­ков <i>AOB</i> и <i>AOD</i> общая вы­со­та, про­ве­ден­ная из вер­ши­ны <i>A</i>. Зна­чит, их пло­ща­ди от­но­сят­ся так же, как ос­но­ва­ния: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/51/51c8015aac24063bb725125f49071ab9.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"S_AOB:S_AOD=BO:OD=BC:AD.\"></p><p class=\"left_margin\"></p></center><p> По­след­нее ра­вен­ство сле­ду­ет из по­до­бия тре­уголь­ни­ков <i>BOC</i> и <i>DOA</i>.</p><p class=\"left_margin\">б)  Из пунк­та а) сле­ду­ет, что <img src=\"https://ege.sdamgia.ru/formula/svg/d9/d9a03f796ba510e9d269d82a8e9c2084.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"S_AOD=4S_AOB=8.\"> Ана­ло­гич­но <img src=\"https://ege.sdamgia.ru/formula/svg/93/931c40afb08b8535f490a42a0c3b1325.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"S_COD:S_AOD=BC:AD,\"> по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/89/89ea0065d1303cb056f840e0203b90a7.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"S_COD=S_AOB=2.\"> Далее,</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/0c/0c284a00ab509fc01049e0acf1206788.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"S_BOC:S_COD=BO:OD=BC:AD,\"></p><p class=\"left_margin\"></p></center><p> от­сю­да <img src=\"https://ege.sdamgia.ru/formula/svg/1d/1df127d9239e83b16cbb671f574fe183.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S_BOC= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби .\"> Окон­ча­тель­но по­лу­ча­ем, что <img src=\"https://ege.sdamgia.ru/formula/svg/c4/c4c12723e697eaa0452f12f7431d8ec3.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S_ABCD=8 плюс 2 плюс 2 плюс дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби =12,5.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 12,5.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/51/51c8015aac24063bb725125f49071ab9.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d9a03f796ba510e9d269d82a8e9c2084.svg",
+            "https://ege.sdamgia.ru/formula/svg/93/931c40afb08b8535f490a42a0c3b1325.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/89ea0065d1303cb056f840e0203b90a7.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c284a00ab509fc01049e0acf1206788.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1df127d9239e83b16cbb671f574fe183.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c4c12723e697eaa0452f12f7431d8ec3.svg",
+            "/get_file?id=147944"
+        ]
+    },
+    "answer": "12,5.",
+    "topic_id": 17,
+    "analog_ids": []
+}

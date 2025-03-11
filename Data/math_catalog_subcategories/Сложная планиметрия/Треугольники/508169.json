@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 508169,
+    "condition": {
+        "text": "В прямоугольном неравнобедренном треугольнике ABC из вершины С прямого угла проведены высота CH, медиана СМ и биссектриса СL.а)  Докажите, что СL является биссектрисой угла MCH.б)  Найдите длину биссектрисы СL, если СН  =  3, СМ  =  5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body634869\" class=\"pbody\"><p class=\"left_margin\">В пря­мо­уголь­ном не­рав­но­бед­рен­ном тре­уголь­ни­ке <i>ABC</i> из вер­ши­ны <i>С</i> пря­мо­го угла про­ве­де­ны вы­со­та <i>CH</i>, ме­ди­а­на <i>СМ</i> и бис­сек­три­са <i>СL</i>.</p><p class=\"left_margin\">а)  До­ка­жи­те, что СL яв­ля­ет­ся бис­сек­три­сой угла <i>MCH</i>.</p><p class=\"left_margin\">б)  Най­ди­те длину бис­сек­три­сы <i>СL</i>, если <i>СН</i>  =  3, <i>СМ</i>  =  5.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Пусть  тогда точки лежат в таком порядке A, H, L, M, B.а)    что и требовалось (во втором равенстве использовалось свойство медианы прямоугольного треугольнике).б)  Рассмотрим треугольник CHM.  По свойству биссектрисы треугольника  откуда  и  Ответ:   ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol508169\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=26302\" style=\"float:right;margin:10px\"></p><p class=\"left_margin\">Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/3e/3e5b1038475564c27b6e948180675e8b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AC мень­ше BC,\"> тогда точки лежат в таком по­ряд­ке <i>A</i>, <i>H</i>, <i>L</i>, <i>M</i>, <i>B</i>.</p><p class=\"left_margin\">а)  <span data-width=\"640\" data-formulahash=\"ae369112c2e98fc9950795c6d0cc6413\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/ae/ae369112c2e98fc9950795c6d0cc6413.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\angle LCM=45 гра­ду­сов минус \\angle MCB=45 гра­ду­сов минус \\angle MBC=45 гра­ду­сов минус левая круг­лая скоб­ка 90 гра­ду­сов минус \\angle BAC пра­вая круг­лая скоб­ка =45 гра­ду­сов минус левая круг­лая скоб­ка 90 гра­ду­сов минус \\angle HAC пра­вая круг­лая скоб­ка =\"></span> <img src=\"https://ege.sdamgia.ru/formula/svg/98/98154387dbbbcb796371414c3f89d8f4.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"=45 гра­ду­сов минус \\angle ACH=\\angle HCL,\"> что и тре­бо­ва­лось (во вто­ром ра­вен­стве ис­поль­зо­ва­лось свой­ство ме­ди­а­ны пря­мо­уголь­но­го тре­уголь­ни­ке).</p><p class=\"left_margin\">б)  Рас­смот­рим тре­уголь­ник <i>CHM</i>. <img src=\"https://ege.sdamgia.ru/formula/svg/f7/f742ad18f04b9daf7459f8f686667908.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"HM= ко­рень из: на­ча­ло ар­гу­мен­та: 5 в квад­ра­те минус 3 в квад­ра­те конец ар­гу­мен­та =4.\"> По свой­ству бис­сек­три­сы тре­уголь­ни­ка <img src=\"https://ege.sdamgia.ru/formula/svg/8c/8cbe06d8eb89d44fa09c6b516c722fe7.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"HL:LM=HC:CM=3:5,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/81/81c1d186ae8443c1b7229c17be1dccd8.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"HL= дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/7d/7d81251c893684c04f0b2c5df743a740.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\"CL= ко­рень из: на­ча­ло ар­гу­мен­та: 3 в квад­ра­те плюс дробь: чис­ли­тель: 9, зна­ме­на­тель: 4 конец дроби конец ар­гу­мен­та = дробь: чис­ли­тель: 3 ко­рень из: на­ча­ло ар­гу­мен­та: 5 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>   <img src=\"https://ege.sdamgia.ru/formula/svg/41/41c60abef2e43fb77a454fb3021c3265.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 3 ко­рень из: на­ча­ло ар­гу­мен­та: 5 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/3e/3e5b1038475564c27b6e948180675e8b.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/ae369112c2e98fc9950795c6d0cc6413.svg",
+            "https://ege.sdamgia.ru/formula/svg/98/98154387dbbbcb796371414c3f89d8f4.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f742ad18f04b9daf7459f8f686667908.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8cbe06d8eb89d44fa09c6b516c722fe7.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/81c1d186ae8443c1b7229c17be1dccd8.svg",
+            "https://ege.sdamgia.ru/formula/svg/7d/7d81251c893684c04f0b2c5df743a740.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/41c60abef2e43fb77a454fb3021c3265.svg",
+            "/get_file?id=26302"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 628240,
+    "condition": {
+        "text": "Найдите наибольшее значение функции  на отрезке [−4; −1].",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body522476\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те наи­боль­шее зна­че­ние функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/5c/5c99017b3034f43586a52d974f467aef.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=x в кубе минус 4x в квад­ра­те плюс 4x\"> на от­рез­ке [−4; −1].</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/5c/5c99017b3034f43586a52d974f467aef.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Найдем производную заданной функции: Найдем нули производной: Поскольку полученные точки экстремума не принадлежат отрезку [−4; −1], функция на этом отрезке либо только возрастает, либо только убывает. Изобразим на рисунке поведение функции на заданном отрезке: Таким образом, наибольшее значение функция на данном отрезке принимает в точке −1. Тогда Ответ: −9.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol628240\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Най­дем про­из­вод­ную за­дан­ной функ­ции: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/56/56c1e9a44503feacc9f0d7a0bc5e79cb.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y'=3x в квад­ра­те минус 8x плюс 4.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Най­дем нули про­из­вод­ной:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/6f/6fd126e36a248d54d8442e86fcd33384.svg\" class=\"tex\" style=\"vertical-align:-18.0pt\" alt=\"3x в квад­ра­те минус 8x плюс 4=0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний x=2,x= дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби . конец со­во­куп­но­сти . \"></p><p class=\"left_margin\"></p></center><p> По­сколь­ку по­лу­чен­ные точки экс­тре­му­ма не при­над­ле­жат от­рез­ку [−4; −1], функ­ция на этом от­рез­ке либо толь­ко воз­рас­та­ет, либо толь­ко убы­ва­ет. Изоб­ра­зим на ри­сун­ке по­ве­де­ние функ­ции на за­дан­ном от­рез­ке:</p><p><img src=\"/get_file?id=108639\" style=\"margin:10px auto;display:block;max-width:100%\"></p><p> Таким об­ра­зом, наи­боль­шее зна­че­ние функ­ция на дан­ном от­рез­ке при­ни­ма­ет в точке −1. Тогда </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/b2/b260ca665aa449d70ed80e00aeadf3af.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка = левая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка в кубе минус 4 умно­жить на левая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка в квад­ра­те минус 4 умно­жить на 1= минус 1 минус 4 минус 4= минус 9.\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> −9.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/56/56c1e9a44503feacc9f0d7a0bc5e79cb.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6fd126e36a248d54d8442e86fcd33384.svg",
+            "https://ege.sdamgia.ru/formula/svg/b2/b260ca665aa449d70ed80e00aeadf3af.svg",
+            "/get_file?id=108639"
+        ]
+    },
+    "answer": "-9",
+    "topic_id": 12,
+    "analog_ids": [
+        628240,
+        628271
+    ]
+}

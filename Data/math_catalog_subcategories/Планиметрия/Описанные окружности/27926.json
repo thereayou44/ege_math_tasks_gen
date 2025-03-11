@@ -1,0 +1,39 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27926,
+    "condition": {
+        "text": "Основания равнобедренной трапеции равны 8 и 6. Радиус описанной окружности равен 5. Центр окружности лежит внутри трапеции. Найдите высоту трапеции.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918506\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=138676\" style=\"float:right;margin:10px;max-width:100%\">Ос­но­ва­ния рав­но­бед­рен­ной тра­пе­ции равны 8 и 6. Ра­ди­ус опи­сан­ной окруж­но­сти равен 5. Центр окруж­но­сти лежит внут­ри тра­пе­ции. Най­ди­те вы­со­ту тра­пе­ции.</p></div>",
+        "image_urls": [
+            "/get_file?id=138676"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Высота трапеции  где KO и OH  — высоты равнобедренных треугольников DOC и AOB. По теореме Пифагора: Тогда  Ответ: 7. Примечание.Если бы большее основание трапеции лежало выше центра окружности (то есть оба основания располагались по одну сторону от центра окружности) длина высоты равнялась бы не сумме, а разности найденных отрезков.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27926\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=138675\" style=\"float:right;margin:10px;max-width:100%\">Вы­со­та тра­пе­ции <img src=\"https://ege.sdamgia.ru/formula/svg/75/7563b6e76732e5ce203c6178d50feec1.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"KH=KO плюс OH,\"> где <i>KO</i> и <i>OH</i>  — вы­со­ты рав­но­бед­рен­ных тре­уголь­ни­ков <i>DOC</i> и <i>AOB</i>. По тео­ре­ме Пи­фа­го­ра:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/cb/cbdc963654da01edafb1d6e101d20c27.svg\" class=\"tex\" style=\"vertical-align:-8.7pt\" alt=\"KO= ко­рень из: на­ча­ло ар­гу­мен­та: OC конец ар­гу­мен­та в квад­ра­те минус KC в квад­ра­те = ко­рень из: на­ча­ло ар­гу­мен­та: R конец ар­гу­мен­та в квад­ра­те минус дробь: чис­ли­тель: DC в квад­ра­те , зна­ме­на­тель: 4 конец дроби = ко­рень из: на­ча­ло ар­гу­мен­та: 25 минус 9 конец ар­гу­мен­та =4, \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/64/640898ed56951ddfe665755ab30636b2.svg\" class=\"tex\" style=\"vertical-align:-8.7pt\" alt=\"OH= ко­рень из: на­ча­ло ар­гу­мен­та: OB конец ар­гу­мен­та в квад­ра­те минус HB в квад­ра­те = ко­рень из: на­ча­ло ар­гу­мен­та: R конец ар­гу­мен­та в квад­ра­те минус дробь: чис­ли­тель: AB в квад­ра­те , зна­ме­на­тель: 4 конец дроби = ко­рень из: на­ча­ло ар­гу­мен­та: 25 минус 16 конец ар­гу­мен­та =3. \"> </p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/b5/b51c9348784cc2c4e4d5a383965a9591.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"KH=KO плюс OH=7.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 7.</p><p>&nbsp;</p><p><b>При­ме­ча­ние.</b></p><p class=\"left_margin\">Если бы боль­шее ос­но­ва­ние тра­пе­ции ле­жа­ло выше цен­тра окруж­но­сти (то есть оба ос­но­ва­ния рас­по­ла­га­лись по одну сто­ро­ну от цен­тра окруж­но­сти) длина вы­со­ты рав­ня­лась бы не сумме, а раз­но­сти най­ден­ных от­рез­ков.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/75/7563b6e76732e5ce203c6178d50feec1.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cbdc963654da01edafb1d6e101d20c27.svg",
+            "https://ege.sdamgia.ru/formula/svg/64/640898ed56951ddfe665755ab30636b2.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b51c9348784cc2c4e4d5a383965a9591.svg",
+            "/get_file?id=138675"
+        ]
+    },
+    "answer": "7",
+    "topic_id": 1,
+    "analog_ids": [
+        27926,
+        53949,
+        53951,
+        53953,
+        53949,
+        53951,
+        53953,
+        53955,
+        53957,
+        53959,
+        53961,
+        53963
+    ]
+}

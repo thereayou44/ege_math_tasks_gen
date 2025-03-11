@@ -1,0 +1,34 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 630130,
+    "condition": {
+        "text": "На стороне острого угла с вершиной A отмечена точка B. Из точки B на биссектрису и другую сторону угла опущены перпендикуляры BC и BD соответственно. а)  Докажите, что б)  Прямые AC и BD пересекаются в точке T найдите отношение  если ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body521102\" class=\"pbody\"><p class=\"left_margin\">На сто­ро­не остро­го угла с вер­ши­ной <i>A</i> от­ме­че­на точка <i>B</i>. Из точки <i>B</i> на бис­сек­три­су и дру­гую сто­ро­ну угла опу­ще­ны пер­пен­ди­ку­ля­ры <i>BC</i> и <i>BD</i> со­от­вет­ствен­но. </p><p class=\"left_margin\">а)  До­ка­жи­те, что <img src=\"https://ege.sdamgia.ru/formula/svg/74/74f1cdba2a300c0d11257946c8d3ff68.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AC в квад­ра­те плюс CD в квад­ра­те =AD в квад­ра­те плюс DB в квад­ра­те .\"></p><p class=\"left_margin\">б)  Пря­мые <i>AC</i> и <i>BD</i> пе­ре­се­ка­ют­ся в точке <i>T</i> най­ди­те от­но­ше­ние <img src=\"https://ege.sdamgia.ru/formula/svg/5f/5fe21d5c6a5e2d4747ee5ce80519f37f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AT:TC,\"> если <img src=\"https://ege.sdamgia.ru/formula/svg/12/1284521afe275bb7d2fe5e8ab3b0e79a.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" ко­си­нус \\angle ABC = дробь: чис­ли­тель: 3, зна­ме­на­тель: 8 конец дроби .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/74/74f1cdba2a300c0d11257946c8d3ff68.svg",
+            "https://ege.sdamgia.ru/formula/svg/5f/5fe21d5c6a5e2d4747ee5ce80519f37f.svg",
+            "https://ege.sdamgia.ru/formula/svg/12/1284521afe275bb7d2fe5e8ab3b0e79a.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение.  а)  Докажем, что BC = CD. Тогда  по теореме Пифагора в треугольнике ABC и  по теореме Пифагора в треугольнике ABD.Так как  точки A, B, C, D лежат на одной окружности. Из равенства углов BAC и CAD следует равенство дуг, на которые они опираются. Равные дуги стягиваются равными хордами BC и CD, что и требовалось доказать.б)  Отметим, что  как опирающиеся на одну дугу. Из условия следует, что  Из треугольника ABC найдем  Из треугольника BTC найдем  откуда и следует ответ. Ответ: б) 46 : 9.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol630130\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=111893\" style=\"float:right;margin:10px;max-width:100%\"> а)  До­ка­жем, что <i>BC </i>= <i>CD</i>. Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/39/39eb0e1f63aeb311514eebd1e3d203c4.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AC в квад­ра­те плюс CD в квад­ра­те = AC в квад­ра­те плюс BC в квад­ра­те = AB в квад­ра­те \"> по тео­ре­ме Пи­фа­го­ра в тре­уголь­ни­ке <i>ABC </i>и <img src=\"https://ege.sdamgia.ru/formula/svg/8a/8aa4c83a9ec47542477b642a0149dbc9.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AD в квад­ра­те плюс BD в квад­ра­те = AB в квад­ра­те \"> по тео­ре­ме Пи­фа­го­ра в тре­уголь­ни­ке <i>ABD</i>.</p><p class=\"left_margin\">Так как <img src=\"https://ege.sdamgia.ru/formula/svg/c3/c3cb7332bdbae55d6c19189c62988e17.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" \\angle ACB = \\angle ADB = 90 гра­ду­сов,\"> точки <i>A, B, C, D</i> лежат на одной окруж­но­сти. Из ра­вен­ства углов <i>BAC </i>и <i>CAD </i>сле­ду­ет ра­вен­ство дуг, на ко­то­рые они опи­ра­ют­ся. Рав­ные дуги стя­ги­ва­ют­ся рав­ны­ми хор­да­ми <i>BC </i>и <i>CD</i>, что и тре­бо­ва­лось до­ка­зать.</p><p class=\"left_margin\">б)  От­ме­тим, что <img src=\"https://ege.sdamgia.ru/formula/svg/e7/e72e843c6d52dd7ee793bb3b9024e0b9.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" \\angle BAC = \\angle DBC ,\"> как опи­ра­ю­щи­е­ся на одну дугу. Из усло­вия сле­ду­ет, что</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/9c/9c0fdcadd903968fccb3b840ecf592c2.svg\" class=\"tex\" style=\"vertical-align:-12.3pt\" alt=\"\\ctg \\angle ABC = 1 : тан­генс \\angle ABC =1 : ко­рень из: на­ча­ло ар­гу­мен­та: левая круг­лая скоб­ка дробь: чис­ли­тель: 1, зна­ме­на­тель: конец дроби ко­си­нус \\angle ABC конец ар­гу­мен­та пра­вая круг­лая скоб­ка в квад­ра­те минус 1 = дробь: чис­ли­тель: 3, зна­ме­на­тель: конец дроби ко­рень из: на­ча­ло ар­гу­мен­та: 55 конец ар­гу­мен­та .\"> </p><p class=\"left_margin\"></p></center><p> Из тре­уголь­ни­ка <i>ABC</i> най­дем <img src=\"https://ege.sdamgia.ru/formula/svg/d1/d1d0a7bf5296eef89336746bd7745677.svg\" class=\"tex\" style=\"vertical-align:-11.0pt\" alt=\"BC = дробь: чис­ли­тель: 3, зна­ме­на­тель: конец дроби ко­рень из: на­ча­ло ар­гу­мен­та: 55 конец ар­гу­мен­та AC.\"> Из тре­уголь­ни­ка <i>BTC</i> най­дем <img src=\"https://ege.sdamgia.ru/formula/svg/3e/3e5d91ef6741251f182be047c6527bcd.svg\" class=\"tex\" style=\"vertical-align:-11.0pt\" alt=\"CT = дробь: чис­ли­тель: 3, зна­ме­на­тель: конец дроби ко­рень из: на­ча­ло ар­гу­мен­та: 55 конец ар­гу­мен­та BC = дробь: чис­ли­тель: 9, зна­ме­на­тель: конец дроби 55AC,\"> от­ку­да и сле­ду­ет ответ.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) 46 : 9.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/39/39eb0e1f63aeb311514eebd1e3d203c4.svg",
+            "https://ege.sdamgia.ru/formula/svg/8a/8aa4c83a9ec47542477b642a0149dbc9.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c3cb7332bdbae55d6c19189c62988e17.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e72e843c6d52dd7ee793bb3b9024e0b9.svg",
+            "https://ege.sdamgia.ru/formula/svg/9c/9c0fdcadd903968fccb3b840ecf592c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/d1/d1d0a7bf5296eef89336746bd7745677.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e5d91ef6741251f182be047c6527bcd.svg",
+            "/get_file?id=111893"
+        ]
+    },
+    "answer": "б) 46 : 9.",
+    "topic_id": 17,
+    "analog_ids": [
+        630130,
+        630166
+    ]
+}

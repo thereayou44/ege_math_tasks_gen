@@ -1,0 +1,29 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 507775,
+    "condition": {
+        "text": "В правильной четырёхугольной пирамиде SABCD, сторона основания равна 1, а боковое ребро равно  а)  Докажите, что прямые AS и BD перпендикулярны.  б)  Найдите расстояние от точки C до прямой SA.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body643459\" class=\"pbody\"><p class=\"left_margin\">В пра­виль­ной четырёхуголь­ной пи­ра­ми­де <i>SABCD</i>, сто­ро­на ос­но­ва­ния равна 1, а бо­ко­вое ребро равно <img src=\"https://ege.sdamgia.ru/formula/svg/53/5331a1879e0f42f047d1f5b5d74c45d1.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби . \"> </p><p class=\"left_margin\">а)  До­ка­жи­те, что пря­мые <i>AS</i> и <i>BD</i> пер­пен­ди­ку­ляр­ны.  </p><p class=\"left_margin\">б)  Най­ди­те рас­сто­я­ние от точки <i>C</i> до пря­мой <i>SA</i>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/53/5331a1879e0f42f047d1f5b5d74c45d1.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Проекция прямой AS на плоскость основания пирамиды  — прямая AC.  как диагонали квадрата. Поэтому, по теореме о трех перпендикулярах, б)  Рассмотрим треугольник ASC и его высоты CH и  Составим равенство  поэтому Тогда  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol507775\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=132270\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Про­ек­ция пря­мой <i>AS</i> на плос­кость ос­но­ва­ния пи­ра­ми­ды  — пря­мая <i>AC</i>. <img src=\"https://ege.sdamgia.ru/formula/svg/36/36482044d0793da1a36463eabecaa488.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AC\\perp BD,\"> как диа­го­на­ли квад­ра­та. По­это­му, по тео­ре­ме о трех пер­пен­ди­ку­ля­рах, <img src=\"https://ege.sdamgia.ru/formula/svg/8d/8da27268b74a9ce84e18643c406d1e32.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AS\\perp BD.\"></p><p class=\"left_margin\">б)  Рас­смот­рим тре­уголь­ник <i>ASC</i> и его вы­со­ты <i>CH</i> и <img src=\"https://ege.sdamgia.ru/formula/svg/64/64fd8a85bcf1c9f298d04fda8482653c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"SM.\"> Со­ста­вим ра­вен­ство </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ef/efb28ea01eead2a82b1e523c61e5cec0.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"CH умно­жить на AS=SM умно­жить на AC,AC= ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та ;AM= дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби , \"> по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/33/336dc4f4e33c4f3e4993a72a49b1f84e.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\"SM= ко­рень из: на­ча­ло ар­гу­мен­та: дробь: чис­ли­тель: 3, зна­ме­на­тель: 4 конец дроби минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби конец ар­гу­мен­та = дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/60/60e8befabb323f1fa523788d9055799c.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"CH= дробь: чис­ли­тель: SM умно­жить на AC, зна­ме­на­тель: AS конец дроби = дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та умно­жить на дробь: чис­ли­тель: 2, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та конец дроби = дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 6 конец ар­гу­мен­та , зна­ме­на­тель: 3 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/34/341840ee11832ffd4aed5a1abb2f2cef.svg\" class=\"tex\" style=\"vertical-align:-9.4pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби конец ар­гу­мен­та . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/36/36482044d0793da1a36463eabecaa488.svg",
+            "https://ege.sdamgia.ru/formula/svg/8d/8da27268b74a9ce84e18643c406d1e32.svg",
+            "https://ege.sdamgia.ru/formula/svg/64/64fd8a85bcf1c9f298d04fda8482653c.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/efb28ea01eead2a82b1e523c61e5cec0.svg",
+            "https://ege.sdamgia.ru/formula/svg/33/336dc4f4e33c4f3e4993a72a49b1f84e.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/60e8befabb323f1fa523788d9055799c.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/341840ee11832ffd4aed5a1abb2f2cef.svg",
+            "/get_file?id=132270"
+        ]
+    },
+    "answer": "",
+    "topic_id": 14,
+    "analog_ids": []
+}

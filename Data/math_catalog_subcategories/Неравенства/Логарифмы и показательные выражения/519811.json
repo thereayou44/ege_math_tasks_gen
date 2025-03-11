@@ -1,0 +1,29 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 519811,
+    "condition": {
+        "text": "Решите неравенство ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body622719\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/3d/3d280ecf19d453193db0ffdb1082f569.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\"2 в сте­пе­ни левая круг­лая скоб­ка \\lg левая круг­лая скоб­ка x в квад­ра­те минус 4 пра­вая круг­лая скоб­ка пра­вая круг­лая скоб­ка боль­ше или равно левая круг­лая скоб­ка x плюс 2 пра­вая круг­лая скоб­ка в сте­пе­ни левая круг­лая скоб­ка \\lg2 пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/3d/3d280ecf19d453193db0ffdb1082f569.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Имеем  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol519811\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Имеем </p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"f6776f4a72a30b0cbc8dc2f35ad0a777\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/f6/f6776f4a72a30b0cbc8dc2f35ad0a777.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"2 в сте­пе­ни левая круг­лая скоб­ка \\lg левая круг­лая скоб­ка x в квад­ра­те минус 4 пра­вая круг­лая скоб­ка пра­вая круг­лая скоб­ка \\geqslant левая круг­лая скоб­ка x плюс 2 пра­вая круг­лая скоб­ка в сте­пе­ни левая круг­лая скоб­ка \\lg2 пра­вая круг­лая скоб­ка рав­но­силь­но \\lg2 в сте­пе­ни левая круг­лая скоб­ка \\lg левая круг­лая скоб­ка x в квад­ра­те минус 4 пра­вая круг­лая скоб­ка пра­вая круг­лая скоб­ка \\geqslant\\lg левая круг­лая скоб­ка x плюс 2 пра­вая круг­лая скоб­ка в сте­пе­ни левая круг­лая скоб­ка \\lg2 пра­вая круг­лая скоб­ка рав­но­силь­но \\lg левая круг­лая скоб­ка левая круг­лая скоб­ка x минус 2 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x плюс 2 пра­вая круг­лая скоб­ка пра­вая круг­лая скоб­ка умно­жить на \\lg2\\geqslant\\lg2 умно­жить на \\lg левая круг­лая скоб­ка x плюс 2 пра­вая круг­лая скоб­ка рав­но­силь­но \"></span><span data-width=\"590\" data-formulahash=\"f6776f4a72a30b0cbc8dc2f35ad0a777\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/53/53eb75a45ded74c2367490bf707b978c.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\"2 в сте­пе­ни левая круг­лая скоб­ка \\lg левая круг­лая скоб­ка x в квад­ра­те минус 4 пра­вая круг­лая скоб­ка пра­вая круг­лая скоб­ка \\geqslant левая круг­лая скоб­ка x плюс 2 пра­вая круг­лая скоб­ка в сте­пе­ни левая круг­лая скоб­ка \\lg2 пра­вая круг­лая скоб­ка рав­но­силь­но \\lg2 в сте­пе­ни левая круг­лая скоб­ка \\lg левая круг­лая скоб­ка x в квад­ра­те минус 4 пра­вая круг­лая скоб­ка пра­вая круг­лая скоб­ка \\geqslant\\lg левая круг­лая скоб­ка x плюс 2 пра­вая круг­лая скоб­ка в сте­пе­ни левая круг­лая скоб­ка \\lg2 пра­вая круг­лая скоб­ка рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/3b/3b07d8c245959f88d4798ddb4f55ccbf.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" рав­но­силь­но \\lg левая круг­лая скоб­ка левая круг­лая скоб­ка x минус 2 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x плюс 2 пра­вая круг­лая скоб­ка пра­вая круг­лая скоб­ка умно­жить на \\lg2\\geqslant\\lg2 умно­жить на \\lg левая круг­лая скоб­ка x плюс 2 пра­вая круг­лая скоб­ка рав­но­силь­но \"></span></p><p class=\"left_margin\"></p></center><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f7/f76d80a3ca18ccca83c47e4020e6cadc.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" рав­но­силь­но \\lg левая круг­лая скоб­ка x минус 2 пра­вая круг­лая скоб­ка плюс \\lg левая круг­лая скоб­ка x плюс 2 пра­вая круг­лая скоб­ка \\geqslant\\lg левая круг­лая скоб­ка x плюс 2 пра­вая круг­лая скоб­ка рав­но­силь­но си­сте­ма вы­ра­же­ний x минус 2\\geqslant1,x плюс 2 боль­ше 0 конец си­сте­мы . рав­но­силь­но x\\geqslant3.\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/9e/9e039583df77b8b3c3e8b62285d740d8.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка 3; плюс бес­ко­неч­ность пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f6/f6776f4a72a30b0cbc8dc2f35ad0a777.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/53eb75a45ded74c2367490bf707b978c.svg",
+            "https://ege.sdamgia.ru/formula/svg/3b/3b07d8c245959f88d4798ddb4f55ccbf.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f76d80a3ca18ccca83c47e4020e6cadc.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9e039583df77b8b3c3e8b62285d740d8.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": [
+        519811,
+        519830
+    ]
+}

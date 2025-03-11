@@ -1,0 +1,34 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 509118,
+    "condition": {
+        "text": "На рисунке изображён график функции  Найдите значение x, при котором ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body633410\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=91953\" style=\"float:right;margin:10px;max-width:100%\">На ри­сун­ке изоб­ражён гра­фик функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/59/59f392d4310b90a59dc047cfe2060340.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =k ко­рень из: на­ча­ло ар­гу­мен­та: x конец ар­гу­мен­та .\"> Най­ди­те зна­че­ние <i>x</i>, при ко­то­ром <img src=\"https://ege.sdamgia.ru/formula/svg/1c/1c2b118d831b7f5dc0bd4ce674d34c92.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =3,5.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/59/59f392d4310b90a59dc047cfe2060340.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1c2b118d831b7f5dc0bd4ce674d34c92.svg",
+            "/get_file?id=91953"
+        ]
+    },
+    "solution": {
+        "text": "Решение. По графику, f(4)  =  5, тогда  Таким образом, Ответ: 1,96.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol509118\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По гра­фи­ку, <i>f</i>(4)  =  5, тогда <img src=\"https://ege.sdamgia.ru/formula/svg/df/df052b98db07a3a1e98a6645375f9d54.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"k умно­жить на ко­рень из: на­ча­ло ар­гу­мен­та: 4 конец ар­гу­мен­та =5 рав­но­силь­но 2k=5 рав­но­силь­но k=2,5.\"> Таким об­ра­зом, </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/17/17aadacd06099cf5483c40658030f491.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2,5 умно­жить на ко­рень из: на­ча­ло ар­гу­мен­та: x конец ар­гу­мен­та =3,5 рав­но­силь­но ко­рень из: на­ча­ло ар­гу­мен­та: x конец ар­гу­мен­та =1,4 рав­но­силь­но x=1,96.\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 1,96.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/df/df052b98db07a3a1e98a6645375f9d54.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/17aadacd06099cf5483c40658030f491.svg"
+        ]
+    },
+    "answer": "1,96",
+    "topic_id": 11,
+    "analog_ids": [
+        509118,
+        509119,
+        509120,
+        509121,
+        509119,
+        509120,
+        509121,
+        509122
+    ]
+}

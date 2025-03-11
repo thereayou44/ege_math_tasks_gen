@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 506059,
+    "condition": {
+        "text": "В треугольнике ABC на стороне AB расположена точка K так, что AK : KB = 3 : 5. На прямой AC взята точка E так, что AE = 2CE. Известно, что прямые BE и CK пересекаются в точке O. Найдите площадь треугольника ABC, если площадь треугольника BOC равна 20.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body644663\" class=\"pbody\"><p class=\"left_margin\">В тре­уголь­ни­ке <i>ABC</i> на сто­ро­не <i>AB</i> рас­по­ло­же­на точка <i>K</i> так, что <i>AK</i> : <i>KB</i> = 3 : 5. На пря­мой <i>AC</i> взята точка <i>E</i> так, что <i>AE</i> = 2<i>CE</i>. Из­вест­но, что пря­мые <i>BE</i> и <i>CK</i> пе­ре­се­ка­ют­ся в точке <i>O</i>. Най­ди­те пло­щадь тре­уголь­ни­ка <i>ABC</i>, если пло­щадь тре­уголь­ни­ка <i>BOC</i> равна 20.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Разберем два случая. 1)  Точка E лежит на отрезке AC, тогда  По теореме Менелая для треугольника  и прямой KOC имеем откуда  Тогда 2)  Точка E лежит на прямой AC, на продолжении AC за точку C, тогда  По теореме Менелая для треугольника BAE и прямой KCO имеем  откуда  Тогда  Ответ:  8 или 72.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol506059\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=40777\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">Раз­бе­рем два слу­чая. </p><p class=\"left_margin\">1)  Точка <i>E</i> лежит на от­рез­ке <i>AC</i>, тогда <img src=\"https://ege.sdamgia.ru/formula/svg/9e/9e5e931be923fad18df0e2e19be79d43.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"EC:CA=1:3.\"> По тео­ре­ме Ме­не­лая для тре­уголь­ни­ка <img src=\"https://ege.sdamgia.ru/formula/svg/bc/bc8e9b25a17e23590336aa2319c1f428.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"#ABE\"> и пря­мой <i>KOC</i> имеем </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f7/f7e75c1c310c3b5a4aa86a082caa2efe.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: AK, зна­ме­на­тель: KB конец дроби умно­жить на дробь: чис­ли­тель: BO, зна­ме­на­тель: OE конец дроби умно­жить на дробь: чис­ли­тель: EC, зна­ме­на­тель: CA конец дроби =1, \"></p><p class=\"left_margin\"></p></center><p>от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/c2/c2fec2d92b229c304bd796c1b5fae69a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BO:OE=5.\"> Тогда </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/20/200f813fa36ed53812568da25e6cd539.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S_ABC=3S_EBC=3 умно­жить на дробь: чис­ли­тель: 6, зна­ме­на­тель: 5 конец дроби S_BOC=72.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">2)  Точка <i>E</i> лежит на пря­мой <i>AC</i>, на про­дол­же­нии <i>AC</i> за точку <i>C</i>, тогда <img src=\"https://ege.sdamgia.ru/formula/svg/17/17c4db2b9e4a06522b8daf2c84d2dd30.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AC=CE.\"> По тео­ре­ме Ме­не­лая для тре­уголь­ни­ка <i>BAE</i> и пря­мой <i>KCO</i> имеем <img src=\"https://ege.sdamgia.ru/formula/svg/41/416037989ee6a11917d3dc2a7ee20c90.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: BK, зна­ме­на­тель: KA конец дроби умно­жить на дробь: чис­ли­тель: AC, зна­ме­на­тель: CE конец дроби умно­жить на дробь: чис­ли­тель: EO, зна­ме­на­тель: OB конец дроби =1, \"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/d8/d899dde646115f9fadff3b3fa05ab740.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"EO:OB=3:5.\"> Тогда </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/92/926ed63b391eaf73850b39feb0587c39.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"S_ABC=S_BCE= дробь: чис­ли­тель: 2, зна­ме­на­тель: 5 конец дроби S_BOC=8.\"></p><p class=\"left_margin\"></p></center><p><img src=\"/get_file?id=40775\" style=\"margin:10px auto;display:block;max-width:100%\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  8 или 72.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/9e/9e5e931be923fad18df0e2e19be79d43.svg",
+            "https://ege.sdamgia.ru/formula/svg/bc/bc8e9b25a17e23590336aa2319c1f428.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f7e75c1c310c3b5a4aa86a082caa2efe.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c2fec2d92b229c304bd796c1b5fae69a.svg",
+            "https://ege.sdamgia.ru/formula/svg/20/200f813fa36ed53812568da25e6cd539.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/17c4db2b9e4a06522b8daf2c84d2dd30.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/416037989ee6a11917d3dc2a7ee20c90.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d899dde646115f9fadff3b3fa05ab740.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/926ed63b391eaf73850b39feb0587c39.svg",
+            "/get_file?id=40777",
+            "/get_file?id=40775"
+        ]
+    },
+    "answer": "8 или 72.",
+    "topic_id": null,
+    "analog_ids": []
+}

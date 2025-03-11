@@ -1,0 +1,57 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27795,
+    "condition": {
+        "text": " В треугольнике ABC  угол C равен  Найдите высоту ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918127\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=113303\" style=\"float:right;margin:10px;max-width:100%\"> В тре­уголь­ни­ке <i>ABC</i> <img src=\"https://ege.sdamgia.ru/formula/svg/d8/d8228f6b6c912e59b3fa136b767b3043.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AC = BC = 4,\"> угол <i>C</i> равен <img src=\"https://ege.sdamgia.ru/formula/svg/36/3600180ded2c5ffe5fdf29819d9f8f3a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"30 гра­ду­сов.\"> Най­ди­те вы­со­ту <img src=\"https://ege.sdamgia.ru/formula/svg/28/28377a9ff96a61078915d0232bc96c3f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AH.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d8/d8228f6b6c912e59b3fa136b767b3043.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/3600180ded2c5ffe5fdf29819d9f8f3a.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/28377a9ff96a61078915d0232bc96c3f.svg",
+            "/get_file?id=113303"
+        ]
+    },
+    "solution": {
+        "text": "Решение.   Ответ: 2. Приведем решение Святослава Волкова.Треугольник AHC прямоугольный, AC  — гипотенуза, AH  — катет, лежащий напротив угла в 30°, следовательно, ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27795\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/82/829a2b0fae62d19784902e7e27d889a4.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"AH=AC синус C=4 синус 30 гра­ду­сов =4 умно­жить на дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби =2. \"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 2.</p><p>&nbsp;</p><p><b>При­ве­дем ре­ше­ние Свя­то­сла­ва Вол­ко­ва.</b></p><p class=\"left_margin\">Тре­уголь­ник <i>AHC</i> пря­мо­уголь­ный, <i>AC</i>  — ги­по­те­ну­за, <i>AH</i>  — катет, ле­жа­щий на­про­тив угла в 30°, сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/27/27c08e0faf02d73a14995b4182e51259.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"AH= дробь: чис­ли­тель: AC, зна­ме­на­тель: 2 конец дроби = дробь: чис­ли­тель: 4, зна­ме­на­тель: 2 конец дроби =2. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/82/829a2b0fae62d19784902e7e27d889a4.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/27c08e0faf02d73a14995b4182e51259.svg"
+        ]
+    },
+    "answer": "2",
+    "topic_id": 1,
+    "analog_ids": [
+        27795,
+        4805,
+        48819,
+        48821,
+        4805,
+        48819,
+        48821,
+        48823,
+        48825,
+        48827,
+        48829,
+        48831,
+        48833,
+        48835,
+        48837,
+        48839,
+        48841,
+        48843,
+        48845,
+        48847,
+        48849,
+        48851,
+        48853,
+        48855,
+        48857,
+        48859,
+        48861,
+        48863,
+        48865,
+        48867
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 511921,
+    "condition": {
+        "text": "Найдите два натуральных числа таких, что их произведение а)  в 25 раз больше их разности;б)  в 25 раз больше их суммы;в)  в 25 раз больше их полусуммы.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body631117\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те два на­ту­раль­ных числа таких, что их про­из­ве­де­ние</p><p>&nbsp;</p><p class=\"left_margin\">а)  в 25 раз боль­ше их раз­но­сти;</p><p class=\"left_margin\">б)  в 25 раз боль­ше их суммы;</p><p class=\"left_margin\">в)  в 25 раз боль­ше их по­лу­сум­мы.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Пусть искомые числа равны а и b, причем а)  Получаем равенство:  Заметим, что разложить 625 на два натуральных множителя так, что один из них меньше 25, можно только двумя способами:  Значит, a=600, b=24, или а=100, b=20. б)  Аналогично, получаем равенство:  Значит, a=b=50 или a=150,b=30 или а=650, b=26. в)  Аналогично, получаем равенство:  Значит, a=b=25 или а=75,b=15 или a=325,b=13. Ответ: а)600 и 24 или 100 и 20. б)50 и 50 или 150 и 30 или 650 и 26. в)25 и 25 или 75 и 15 или 325 и 13.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol511921\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть ис­ко­мые числа равны а и b, при­чем <img src=\"https://ege.sdamgia.ru/formula/svg/4a/4a0282538c3ed93ae64392c9f0f04379.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"a боль­ше или равно b.\"></p><p class=\"left_margin\">а)  По­лу­ча­ем ра­вен­ство: <span data-width=\"640\" data-formulahash=\"8b8fbebf08f0d876f5170bce6ae636c9\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/8b/8b8fbebf08f0d876f5170bce6ae636c9.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"ab=25 умно­жить на левая круг­лая скоб­ка a минус b пра­вая круг­лая скоб­ка рав­но­силь­но ab минус 25a плюс 25b минус 625= минус 625 рав­но­силь­но левая круг­лая скоб­ка a плюс 25 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 25 минус b пра­вая круг­лая скоб­ка =625.\"></span> За­ме­тим, что раз­ло­жить 625 на два на­ту­раль­ных мно­жи­те­ля так, что один из них мень­ше 25, можно толь­ко двумя спо­со­ба­ми: <img src=\"https://ege.sdamgia.ru/formula/svg/c0/c0ac632a5872a9d62c7bb4355b18b84f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"625=625 умно­жить на 1=125 умно­жить на 5.\"> Зна­чит, a=600, b=24, или а=100, b=20.</p><p>&nbsp;</p><p class=\"left_margin\">б)  Ана­ло­гич­но, по­лу­ча­ем ра­вен­ство: <span data-width=\"640\" data-formulahash=\"1dfac7c04052cc00f3a48330eb8df6a7\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/1d/1dfac7c04052cc00f3a48330eb8df6a7.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"ab=25 умно­жить на левая круг­лая скоб­ка a плюс b пра­вая круг­лая скоб­ка рав­но­силь­но ab минус 25a минус 25b плюс 625=625 рав­но­силь­но левая круг­лая скоб­ка a минус 25 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка b минус 25 пра­вая круг­лая скоб­ка =625.\"></span> Зна­чит, a=b=50 или a=150,b=30 или а=650, b=26.</p><p>&nbsp;</p><p class=\"left_margin\">в)  Ана­ло­гич­но, по­лу­ча­ем ра­вен­ство: <img src=\"https://ege.sdamgia.ru/formula/svg/ea/eacd8708e06f75be635c349405d0e60d.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"ab=25 умно­жить на дробь: чис­ли­тель: a плюс b, зна­ме­на­тель: 2 конец дроби рав­но­силь­но 4ab=50 левая круг­лая скоб­ка a плюс b пра­вая круг­лая скоб­ка рав­но­силь­но левая круг­лая скоб­ка 2a минус 25 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 2b минус 25 пра­вая круг­лая скоб­ка =625. \"> Зна­чит, a=b=25 или а=75,b=15 или a=325,b=13.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а)600 и 24 или 100 и 20. б)50 и 50 или 150 и 30 или 650 и 26. в)25 и 25 или 75 и 15 или 325 и 13.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/4a/4a0282538c3ed93ae64392c9f0f04379.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8b8fbebf08f0d876f5170bce6ae636c9.svg",
+            "https://ege.sdamgia.ru/formula/svg/c0/c0ac632a5872a9d62c7bb4355b18b84f.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1dfac7c04052cc00f3a48330eb8df6a7.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/eacd8708e06f75be635c349405d0e60d.svg"
+        ]
+    },
+    "answer": "а)600 и 24 или 100 и 20. б)50 и 50 или 150 и 30 или 650 и 26. в)25 и 25 или 75 и 15 или 325 и 13.",
+    "topic_id": null,
+    "analog_ids": []
+}

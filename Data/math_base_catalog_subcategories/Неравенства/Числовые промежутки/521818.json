@@ -1,0 +1,25 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521818,
+    "condition": {
+        "text": "В июле планируется взять кредит в банке на сумму 4 млн рублей на срок 10 лет. Условия его возврата таковы:   — каждый январь долг возрастает на r% по сравнению с концом предыдущего года;   — с февраля по июнь необходимо выплатить часть долга;   — в июле каждого года долг должен быть на одну и ту же сумму меньше долга на июль предыдущего года. Найдите r% , если известно, что наибольший годовой платёж по кредиту составит не более 1,16 млн рублей, а наименьший  — не менее 0,476 млн рублей.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body628902\" class=\"pbody\"><p class=\"left_margin\">В июле пла­ни­ру­ет­ся взять кре­дит в банке на сумму 4 млн руб­лей на срок 10 лет. </p><p class=\"left_margin\">Усло­вия его воз­вра­та та­ко­вы: </p><p>  — каж­дый ян­варь долг воз­рас­та­ет на <i>r</i>% по срав­не­нию с кон­цом преды­ду­ще­го года; </p><p>  — с фев­ра­ля по июнь не­об­хо­ди­мо вы­пла­тить часть долга; </p><p>  — в июле каж­до­го года долг дол­жен быть на одну и ту же сумму мень­ше долга на июль преды­ду­ще­го года. </p><p class=\"left_margin\">Най­ди­те <i>r</i>% , если из­вест­но, что наи­боль­ший го­до­вой платёж по кре­ди­ту со­ста­вит не более 1,16 млн руб­лей, а наи­мень­ший  — не менее 0,476 млн руб­лей.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Обозначим  Тогда долг каждый год умножается на p, а гасятся начисленные проценты и еще 0,4 миллиона рублей из основного долга. Значит, самый большой платеж будет первым, а самый маленький  — последним.  Значит,  и  Ответ: 19%.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521818\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Обо­зна­чим <img src=\"https://ege.sdamgia.ru/formula/svg/3e/3ebee8c861710ef629f73f61f3c37b2f.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"p=1 плюс дробь: чис­ли­тель: r, зна­ме­на­тель: 100 конец дроби . \"> Тогда долг каж­дый год умно­жа­ет­ся на <i>p</i>, а га­сят­ся на­чис­лен­ные про­цен­ты и еще 0,4 мил­ли­о­на руб­лей из ос­нов­но­го долга. Зна­чит, самый боль­шой пла­теж будет пер­вым, а самый ма­лень­кий  — по­след­ним.</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e4/e48eb1b7a7c0f7dc150e173cc4092503.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"4p минус 3,6 мень­ше или равно 1,16,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/5a/5ade8a52bc64a641383b0b9986d6477e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"p мень­ше или равно 1,19 рав­но­силь­но 0,4p боль­ше или равно 0,476,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/e6/e654d9eaa1eef0241ea9378dab4c34a3.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"p боль­ше или равно 1,19\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/03/039b101985e639b67c04ee3e837ecfcc.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"p=1,19\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/34/34979be3ca797da33e0db82fabd73a23.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"r=19.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 19%.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/3e/3ebee8c861710ef629f73f61f3c37b2f.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e48eb1b7a7c0f7dc150e173cc4092503.svg",
+            "https://ege.sdamgia.ru/formula/svg/5a/5ade8a52bc64a641383b0b9986d6477e.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e654d9eaa1eef0241ea9378dab4c34a3.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/039b101985e639b67c04ee3e837ecfcc.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/34979be3ca797da33e0db82fabd73a23.svg"
+        ]
+    },
+    "answer": "19%.",
+    "topic_id": null,
+    "analog_ids": []
+}

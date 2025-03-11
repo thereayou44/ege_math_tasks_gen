@@ -1,0 +1,55 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 509182,
+    "condition": {
+        "text": "На рисунке изображены графики функций  и  которые пересекаются в точках A и B. Найдите ординату точки B.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body633346\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=149707\" style=\"float:right;margin:10px;max-width:100%\">На ри­сун­ке изоб­ра­же­ны гра­фи­ки функ­ций <img src=\"https://ege.sdamgia.ru/formula/svg/05/056cb62b440ff437645490889f0df1cc.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =\\dfrackx \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/6e/6e79b60b459a444ff0406472544ef355.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"g левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =ax плюс b,\"> ко­то­рые пе­ре­се­ка­ют­ся в точ­ках <i>A</i> и <i>B</i>. Най­ди­те ор­ди­на­ту точки <i>B</i>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/05/056cb62b440ff437645490889f0df1cc.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6e79b60b459a444ff0406472544ef355.svg",
+            "/get_file?id=149707"
+        ]
+    },
+    "solution": {
+        "text": "Решение. По графику  откуда  Значит, функция f задается формулой    Угловой коэффициент a равен тангенсу угла наклона прямой к оси абсцисс, поэтому  По графику g(2)  =  1, тогда  откуда  Значит, уравнение прямой имеет вид  Найдём абсциссы точек пересечения графиков этих функций: Таким образом, абсцисса точки B равна −0,2. Ее ордината равна Ответ: −10.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol509182\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По гра­фи­ку <img src=\"https://ege.sdamgia.ru/formula/svg/9f/9f3852dec0e8bfeeb7700ba937deefc9.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"f левая круг­лая скоб­ка 2 пра­вая круг­лая скоб­ка = дробь: чис­ли­тель: k, зна­ме­на­тель: 2 конец дроби =1, \"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/03/0382879f1ffd664828717177c985ce7f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"k=2.\"> Зна­чит, функ­ция <i>f</i> за­да­ет­ся фор­му­лой   <img src=\"https://ege.sdamgia.ru/formula/svg/c7/c73c42ed209260b6e2805e7474208302.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка = дробь: чис­ли­тель: 2, зна­ме­на­тель: x конец дроби . \"> Уг­ло­вой ко­эф­фи­ци­ент <i>a</i> равен тан­ген­су угла на­кло­на пря­мой к оси абс­цисс, по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/36/36798d0b5be14346beb1a9242e60608c.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"a= дробь: чис­ли­тель: 5, зна­ме­на­тель: 1 конец дроби =5. \"> По гра­фи­ку <i>g</i>(2)  =  1, тогда <img src=\"https://ege.sdamgia.ru/formula/svg/17/17aaaa393e0222eaa1c76975093807d0.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"5 умно­жить на 2 плюс b=1, \"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/10/10cc1858b245246c97b3ebd23866307d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"b= минус 9.\"> Зна­чит, урав­не­ние пря­мой имеет вид <img src=\"https://ege.sdamgia.ru/formula/svg/54/54199f6f4e561258de7a034b81dc9c36.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"g левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =5x минус 9.\"> </p><p class=\"left_margin\">Найдём абс­цис­сы точек пе­ре­се­че­ния гра­фи­ков этих функ­ций:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/95/9554a3a72f4dc1e2662914beae617031.svg\" class=\"tex\" style=\"vertical-align:-24.7pt\" alt=\" дробь: чис­ли­тель: 2, зна­ме­на­тель: x конец дроби =5x минус 9 рав­но­силь­но 5x в квад­ра­те минус 9x минус 2=0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний x= дробь: чис­ли­тель: 9 плюс ко­рень из: на­ча­ло ар­гу­мен­та: 81 плюс 40 конец ар­гу­мен­та , зна­ме­на­тель: 10 конец дроби ,x= дробь: чис­ли­тель: 9 минус ко­рень из: на­ча­ло ар­гу­мен­та: 81 плюс 40 конец ар­гу­мен­та , зна­ме­на­тель: 10 конец дроби конец со­во­куп­но­сти . рав­но­силь­но со­во­куп­ность вы­ра­же­ний x=2,x= минус 0,2. конец со­во­куп­но­сти . \"></p><p class=\"left_margin\"></p></center><p> Таким об­ра­зом, абс­цис­са точки <i>B</i> равна −0,2. Ее ор­ди­на­та равна </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/b3/b3e7ba2b5d408a72fbd6c6be7c841494.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"g левая круг­лая скоб­ка минус 0,2 пра­вая круг­лая скоб­ка =5 умно­жить на левая круг­лая скоб­ка минус 0,2 пра­вая круг­лая скоб­ка минус 9= минус 1 минус 9= минус 10.\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> −10.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/9f/9f3852dec0e8bfeeb7700ba937deefc9.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/0382879f1ffd664828717177c985ce7f.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c73c42ed209260b6e2805e7474208302.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/36798d0b5be14346beb1a9242e60608c.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/17aaaa393e0222eaa1c76975093807d0.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/10cc1858b245246c97b3ebd23866307d.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54199f6f4e561258de7a034b81dc9c36.svg",
+            "https://ege.sdamgia.ru/formula/svg/95/9554a3a72f4dc1e2662914beae617031.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b3e7ba2b5d408a72fbd6c6be7c841494.svg"
+        ]
+    },
+    "answer": "-10",
+    "topic_id": 11,
+    "analog_ids": [
+        509182,
+        509183,
+        509184,
+        509185,
+        509183,
+        509184,
+        509185,
+        509186,
+        509187,
+        509189,
+        509190,
+        509191,
+        509192,
+        509193,
+        509194,
+        509195,
+        509196,
+        632392,
+        642483,
+        642553,
+        642623,
+        642693
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 621857,
+    "condition": {
+        "text": "В  треугольнике  KLM  биссектрисы    внешних  углов  при  вершинах  K  и  M пересекаются в точке N. Через точки K, N и M проведена окружность с центром в точке O.а)  Докажите, что точки K, L, M и O лежат на одной окружности.б)  Найдите  радиус  окружности,  описанной  около  треугольника  KLM,  если  площадь треугольника KMO равна  а угол KLM равен 120°.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body463837\" class=\"pbody\"><p class=\"left_margin\">В  тре­уголь­ни­ке  <i>KLM</i>  бис­сек­три­сы    внеш­них  углов  при  вер­ши­нах  <i>K</i>  и  <i>M</i> пе­ре­се­ка­ют­ся в точке <i>N</i>. Через точки <i>K</i>, <i>N</i> и <i>M</i> про­ве­де­на окруж­ность с цен­тром в точке <i>O</i>.</p><p class=\"left_margin\">а)  До­ка­жи­те, что точки <i>K</i>, <i>L</i>, <i>M</i> и <i>O</i> лежат на одной окруж­но­сти.</p><p class=\"left_margin\">б)  Най­ди­те  ра­ди­ус  окруж­но­сти,  опи­сан­ной  около  тре­уголь­ни­ка  <i>KLM</i>,  если  пло­щадь тре­уголь­ни­ка <i>KMO</i> равна <img src=\"https://ege.sdamgia.ru/formula/svg/e8/e8e4cb75df0cf3373cd82eba8d486f4c.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"27 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та ,\"> а угол <i>KLM</i> равен 120°.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e8/e8e4cb75df0cf3373cd82eba8d486f4c.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Пусть ∠KLM  =  α. Тогда  отсюда Следовательно,   и четырёхугольник KLMO вписан в окружность.б)  Поскольку ∠KLM  =  120°, ∠KOM  =  60°. Тогда  отсюда получаем: Заметим, что треугольник KOM  — равносторонний, следовательно,  По теореме синусов получаем: Ответ: б) 6.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol621857\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=150043\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Пусть ∠<i>KLM</i>  =  α. Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/0b/0b655ba66b466c4102e9a4937a174860.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle LKM плюс \\angle LMK=180 гра­ду­сов минус альфа ,\"> от­сю­да</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/b1/b1b3ad3203d6e8abd3ad4eb2ce48b7f7.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"\\angle NKM плюс \\angle NMK= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби левая круг­лая скоб­ка 360 гра­ду­сов минус левая круг­лая скоб­ка 180 гра­ду­сов минус альфа пра­вая круг­лая скоб­ка пра­вая круг­лая скоб­ка =90 гра­ду­сов плюс дробь: чис­ли­тель: альфа , зна­ме­на­тель: 2 конец дроби . \"></p><p class=\"left_margin\"></p></center><p> Сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/bb/bb336a20cf3841d33d543e7e30e258b7.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"\\angle KNM=90 гра­ду­сов минус дробь: чис­ли­тель: альфа , зна­ме­на­тель: 2 конец дроби , \"> <img src=\"https://ege.sdamgia.ru/formula/svg/1b/1ba267bdf2eb4186c2e6f4ce1deaf29f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle KOM=180 гра­ду­сов минус альфа ,\"> и четырёхуголь­ник <i>KLMO</i> впи­сан в окруж­ность.</p><p class=\"left_margin\">б)  По­сколь­ку ∠<i>KLM</i>  =  120°, ∠<i>KOM</i>  =  60°. Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/bd/bd0941d508b187aa7ed5aebd998f2bf7.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"S_\\Delta KMO= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби KO в квад­ра­те умно­жить на дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби , \"> от­сю­да по­лу­ча­ем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/68/682f70b2ab770c5818f569a11fd5e7a6.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"KO в квад­ра­те =27 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та : дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 4 конец дроби =108 рав­но­силь­но KO=6 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та . \"></p><p class=\"left_margin\"></p></center><p> За­ме­тим, что тре­уголь­ник <i>KOM</i>  — рав­но­сто­рон­ний, сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/c5/c52d4a4114abf32b14ae42469515cab6.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"KM=6 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та .\"> По тео­ре­ме си­ну­сов по­лу­ча­ем: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/1e/1e42976578c791d12e36e8153b894110.svg\" class=\"tex\" style=\"vertical-align:-8.6pt\" alt=\"2R_KLM= дробь: чис­ли­тель: 6 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: синус 120 гра­ду­сов конец дроби =12 рав­но­силь­но R_KLM=6. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) 6.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/0b/0b655ba66b466c4102e9a4937a174860.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b1b3ad3203d6e8abd3ad4eb2ce48b7f7.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bb336a20cf3841d33d543e7e30e258b7.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1ba267bdf2eb4186c2e6f4ce1deaf29f.svg",
+            "https://ege.sdamgia.ru/formula/svg/bd/bd0941d508b187aa7ed5aebd998f2bf7.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/682f70b2ab770c5818f569a11fd5e7a6.svg",
+            "https://ege.sdamgia.ru/formula/svg/c5/c52d4a4114abf32b14ae42469515cab6.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1e42976578c791d12e36e8153b894110.svg",
+            "/get_file?id=150043"
+        ]
+    },
+    "answer": "б) 6.",
+    "topic_id": 17,
+    "analog_ids": []
+}

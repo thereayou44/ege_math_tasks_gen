@@ -1,0 +1,34 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521544,
+    "condition": {
+        "text": "Решите неравенство: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629684\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те&nbsp;не­ра­вен­ство: <img src=\"https://ege.sdamgia.ru/formula/svg/9a/9a55dd48febd85b7c1c20d3357e36f0e.svg\" class=\"tex\" style=\"vertical-align:-5.6pt\" alt=\" ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка |x плюс 6| пра­вая круг­лая скоб­ка 2 умно­жить на ло­га­рифм по ос­но­ва­нию 2 левая круг­лая скоб­ка x в квад­ра­те минус x минус 2 пра­вая круг­лая скоб­ка боль­ше или равно 1.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/9a/9a55dd48febd85b7c1c20d3357e36f0e.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Перепишем неравенство в виде  и рассмотрим случаи. 1)  При  неравенство равносильно  что очевидно неверно - при  правая часть больше единицы, а левая меньше. 2)  При  возникают снова два случая. При  неравенство равносильно  что очевидно верно. При  неравенство равносильно  то есть  что верно при  Окончательно получаем ответ:  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521544\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пе­ре­пи­шем не­ра­вен­ство в виде <img src=\"https://ege.sdamgia.ru/formula/svg/54/54987cd9dcec56fcab2f6a92aaf729e1.svg\" class=\"tex\" style=\"vertical-align:-5.6pt\" alt=\" ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка |x плюс 6| пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x в квад­ра­те минус x минус 2 пра­вая круг­лая скоб­ка боль­ше или равно 1\"> и рас­смот­рим слу­чаи.</p><p>&nbsp;</p><p class=\"left_margin\">1)  При <img src=\"https://ege.sdamgia.ru/formula/svg/d8/d8af00222a7451a8add180b8489de45b.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"0 мень­ше |x плюс 6| мень­ше 1\"> не­ра­вен­ство рав­но­силь­но <img src=\"https://ege.sdamgia.ru/formula/svg/cb/cbc535a698e452fe37cd04a9e8e7c3c7.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x в квад­ра­те минус x минус 2 мень­ше или равно |x плюс 6|,\"> что оче­вид­но не­вер­но - при <img src=\"https://ege.sdamgia.ru/formula/svg/72/722851e407d5d70ce927969c4367b7da.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x при­над­ле­жит левая круг­лая скоб­ка минус 7; минус 5 пра­вая круг­лая скоб­ка \"> пра­вая часть боль­ше еди­ни­цы, а левая мень­ше.</p><p>&nbsp;</p><p class=\"left_margin\">2)  При <img src=\"https://ege.sdamgia.ru/formula/svg/1a/1af1688a6eb350eebb74485e162cea96.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"|x плюс 6| боль­ше 1\"> воз­ни­ка­ют снова два слу­чая.</p><p>&nbsp;</p><p class=\"left_margin\">При <img src=\"https://ege.sdamgia.ru/formula/svg/84/847101840b016cb05f56c37457c289de.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x мень­ше минус 7\"> не­ра­вен­ство рав­но­силь­но <img src=\"https://ege.sdamgia.ru/formula/svg/e4/e423ee9305cbb7118ba4dfae80f8f1e1.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x в квад­ра­те минус x минус 2 боль­ше или равно минус x минус 6,\"> что оче­вид­но верно.</p><p>&nbsp;</p><p class=\"left_margin\">При <img src=\"https://ege.sdamgia.ru/formula/svg/7e/7e152e50c995aa94d187e6ea1cf3f2c5.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x боль­ше минус 5\"> не­ра­вен­ство рав­но­силь­но <img src=\"https://ege.sdamgia.ru/formula/svg/8e/8e32f7240299530ef2151e0cef1be9bb.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x в квад­ра­те минус x минус 2 боль­ше или равно x плюс 6,\"> то есть <img src=\"https://ege.sdamgia.ru/formula/svg/96/96836b0d90801ab6113d3086822512a6.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x в квад­ра­те минус 2x минус 8 боль­ше или равно 0,\"> что верно при <img src=\"https://ege.sdamgia.ru/formula/svg/40/40ab38b0b022e2c292a112e84ff66030.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x при­над­ле­жит левая круг­лая скоб­ка минус бес­ко­неч­ность ; минус 2 пра­вая квад­рат­ная скоб­ка \\cup левая квад­рат­ная скоб­ка 4; бес­ко­неч­ность пра­вая круг­лая скоб­ка .\"> Окон­ча­тель­но по­лу­ча­ем ответ: <img src=\"https://ege.sdamgia.ru/formula/svg/7f/7f74649a715808299c875d75fbfb0e1a.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x при­над­ле­жит левая круг­лая скоб­ка минус бес­ко­неч­ность ; минус 7 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка минус 5; минус 2 пра­вая квад­рат­ная скоб­ка \\cup левая квад­рат­ная скоб­ка 4; бес­ко­неч­ность пра­вая круг­лая скоб­ка .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/66/66e162b4a505e48d24c4134ce6c2cc1e.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка минус бес­ко­неч­ность ; минус 7 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка минус 5; минус 2 пра­вая квад­рат­ная скоб­ка \\cup левая квад­рат­ная скоб­ка 4; бес­ко­неч­ность пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/54/54987cd9dcec56fcab2f6a92aaf729e1.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d8af00222a7451a8add180b8489de45b.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cbc535a698e452fe37cd04a9e8e7c3c7.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/722851e407d5d70ce927969c4367b7da.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1af1688a6eb350eebb74485e162cea96.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/847101840b016cb05f56c37457c289de.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e423ee9305cbb7118ba4dfae80f8f1e1.svg",
+            "https://ege.sdamgia.ru/formula/svg/7e/7e152e50c995aa94d187e6ea1cf3f2c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8e32f7240299530ef2151e0cef1be9bb.svg",
+            "https://ege.sdamgia.ru/formula/svg/96/96836b0d90801ab6113d3086822512a6.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/40ab38b0b022e2c292a112e84ff66030.svg",
+            "https://ege.sdamgia.ru/formula/svg/7f/7f74649a715808299c875d75fbfb0e1a.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/66e162b4a505e48d24c4134ce6c2cc1e.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

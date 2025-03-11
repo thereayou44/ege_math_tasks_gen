@@ -1,0 +1,21 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 501201,
+    "condition": {
+        "text": "На одну порцию рисовой каши требуется 40 грамм риса и 0,12 литра молока. Какое наибольшее количество порций каши может приготовить столовая, если в ее распоряжении есть 900 грамм риса и 3 литра молока?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body641837\" class=\"pbody\"><p class=\"left_margin\">На одну пор­цию ри­со­вой каши тре­бу­ет­ся 40 грамм риса и 0,12 литра мо­ло­ка. Какое наи­боль­шее ко­ли­че­ство пор­ций каши может при­го­то­вить сто­ло­вая, если в ее рас­по­ря­же­нии есть 900 грамм риса и 3 литра мо­ло­ка?</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Из девятисот грамм риса можно приготовить  порций каши.Из трех литров молока можно приготовить  порций каши. Следовательно, продуктов достаточно только на 22 порции каши. Ответ: 22.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol501201\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Из де­вя­ти­сот грамм риса можно при­го­то­вить <img src=\"https://ege.sdamgia.ru/formula/svg/87/87165c65eb219905d6f9f3e861d73d4d.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 900, зна­ме­на­тель: 40 конец дроби =22,5 \"> пор­ций каши.</p><p class=\"left_margin\">Из трех лит­ров мо­ло­ка можно при­го­то­вить <img src=\"https://ege.sdamgia.ru/formula/svg/f9/f904d932180cb4421d1a7318330f8f94.svg\" class=\"tex\" style=\"vertical-align:-10.6pt\" alt=\" дробь: чис­ли­тель: 3, зна­ме­на­тель: 0,12 конец дроби =25 \"> пор­ций каши.</p><p>&nbsp;</p><p class=\"left_margin\">Сле­до­ва­тель­но, про­дук­тов до­ста­точ­но толь­ко на 22 пор­ции каши.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 22.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/87/87165c65eb219905d6f9f3e861d73d4d.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f904d932180cb4421d1a7318330f8f94.svg"
+        ]
+    },
+    "answer": "22",
+    "topic_id": null,
+    "analog_ids": []
+}

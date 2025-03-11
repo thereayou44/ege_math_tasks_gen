@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 654449,
+    "condition": {
+        "text": " В прямоугольном треугольнике ABC катет AC равен  Найдите скалярное произведение ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body496269\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=138129\" style=\"float:right;margin:10px;max-width:100%\"> В пря­мо­уголь­ном тре­уголь­ни­ке <i>ABC</i> катет <i>AC</i> равен <img src=\"https://ege.sdamgia.ru/formula/svg/bf/bf06ab527f7fa67fd2f35230cd829885.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та .\"> Най­ди­те ска­ляр­ное про­из­ве­де­ние <img src=\"https://ege.sdamgia.ru/formula/svg/f0/f0f83881aa95f7d16c65689d21b7bd62.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overrightarrowAB умно­жить на \\overrightarrowAC.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/bf/bf06ab527f7fa67fd2f35230cd829885.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f0f83881aa95f7d16c65689d21b7bd62.svg",
+            "/get_file?id=138129"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Пусть угол между катетом AC и гипотенузой AB равен α, тогда  По определению скалярного произведения получаем:Ответ: 3.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol654449\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть угол между ка­те­том <i>AC</i> и ги­по­те­ну­зой <i>AB</i> равен α, тогда <img src=\"https://ege.sdamgia.ru/formula/svg/d3/d3a108ae2db85fa19b5765ac19f12674.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"AB = дробь: чис­ли­тель: AC, зна­ме­на­тель: ко­си­нус альфа конец дроби . \"> По опре­де­ле­нию ска­ляр­но­го про­из­ве­де­ния по­лу­ча­ем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/3c/3c7082537af3d38cb5318ed1bec4c2ee.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"\\overrightarrowAB умно­жить на \\overrightarrowAC = AB умно­жить на AC умно­жить на ко­си­нус альфа = дробь: чис­ли­тель: AC, зна­ме­на­тель: ко­си­нус альфа конец дроби умно­жить на AC ко­си­нус альфа = AC в квад­ра­те = 3. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 3.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d3/d3a108ae2db85fa19b5765ac19f12674.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3c7082537af3d38cb5318ed1bec4c2ee.svg"
+        ]
+    },
+    "answer": "3",
+    "topic_id": 2,
+    "analog_ids": [
+        654449,
+        654450
+    ]
+}

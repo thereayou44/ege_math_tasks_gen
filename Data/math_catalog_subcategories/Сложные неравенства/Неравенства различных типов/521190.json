@@ -1,0 +1,34 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521190,
+    "condition": {
+        "text": "Решите неравенство:",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body630042\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те&nbsp;не­ра­вен­ство:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ff/ff60d3cdff32eb4eeffa49dd9cb789b6.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"2 синус в квад­ра­те левая круг­лая скоб­ка дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби левая круг­лая скоб­ка 4 плюс x пра­вая круг­лая скоб­ка пра­вая круг­лая скоб­ка плюс 3 левая круг­лая скоб­ка |x плюс 2| плюс 1 пра­вая круг­лая скоб­ка умно­жить на синус левая круг­лая скоб­ка дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби левая круг­лая скоб­ка 4 плюс x пра­вая круг­лая скоб­ка пра­вая круг­лая скоб­ка минус 5 левая круг­лая скоб­ка |x плюс 2| плюс 1 пра­вая круг­лая скоб­ка в квад­ра­те боль­ше или равно 0. \"></p><p class=\"left_margin\"></p></center></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ff/ff60d3cdff32eb4eeffa49dd9cb789b6.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Обозначим  и  Получим:Заметим, что   поэтому  и на него можно сократить. Имеем:  Поскольку   единственный шанс  — взять такое x, чтобы  Для  подходит только  и он заодно подходит и в  Ответ: −2.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521190\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Обо­зна­чим <img src=\"https://ege.sdamgia.ru/formula/svg/b5/b55368c040060fe7a02637cf5305cc22.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"a= синус левая круг­лая скоб­ка Пи плюс дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби x пра­вая круг­лая скоб­ка = минус синус левая круг­лая скоб­ка дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби x пра­вая круг­лая скоб­ка \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/b1/b1bfc34df1b2d81cb28c1737084adf03.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"b=|x плюс 2| плюс 1.\"> По­лу­чим:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/89/890b9800882d2e93765bb8c33408a6ac.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"2a в квад­ра­те плюс 3ab минус 5b в квад­ра­те боль­ше или равно 0 рав­но­силь­но левая круг­лая скоб­ка a минус b пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 2a плюс 5b пра­вая круг­лая скоб­ка боль­ше или равно 0.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">За­ме­тим, что <img src=\"https://ege.sdamgia.ru/formula/svg/08/08f249bcda53579777e39ba16c4c35a3.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"b боль­ше или равно 1,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/ec/ec6dfd48c3faf4c23f72718fc1ff11b1.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a боль­ше или равно минус 1,\"> по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/bd/bd649d1f4e086982c63436cfbcf1afcb.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2a плюс 5b боль­ше 0\"> и на него можно со­кра­тить. Имеем: <img src=\"https://ege.sdamgia.ru/formula/svg/35/353dc8c10d909bffd3f8908a26765776.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"a боль­ше или равно b.\"> По­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/08/08f249bcda53579777e39ba16c4c35a3.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"b боль­ше или равно 1,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/fc/fcaf4acc81daf24311061d7e49bbe29d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a мень­ше или равно 1,\"> един­ствен­ный шанс  — взять такое <i>x</i>, чтобы <img src=\"https://ege.sdamgia.ru/formula/svg/59/599b09aa7d371e0f22b71cad95bd93b9.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=b=1.\"> Для <img src=\"https://ege.sdamgia.ru/formula/svg/3c/3c94d884933477acdc14fc70da4b987a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"b=1\"> под­хо­дит толь­ко <img src=\"https://ege.sdamgia.ru/formula/svg/36/363be1a1694c88fafb86bd7b8f3bfffc.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x= минус 2\"> и он за­од­но под­хо­дит и в <img src=\"https://ege.sdamgia.ru/formula/svg/2a/2a1b71b785c0cb14bb665bfef5a37b68.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=1.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> −2.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b5/b55368c040060fe7a02637cf5305cc22.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b1bfc34df1b2d81cb28c1737084adf03.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/890b9800882d2e93765bb8c33408a6ac.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/08f249bcda53579777e39ba16c4c35a3.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ec6dfd48c3faf4c23f72718fc1ff11b1.svg",
+            "https://ege.sdamgia.ru/formula/svg/bd/bd649d1f4e086982c63436cfbcf1afcb.svg",
+            "https://ege.sdamgia.ru/formula/svg/35/353dc8c10d909bffd3f8908a26765776.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/08f249bcda53579777e39ba16c4c35a3.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fcaf4acc81daf24311061d7e49bbe29d.svg",
+            "https://ege.sdamgia.ru/formula/svg/59/599b09aa7d371e0f22b71cad95bd93b9.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3c94d884933477acdc14fc70da4b987a.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/363be1a1694c88fafb86bd7b8f3bfffc.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2a1b71b785c0cb14bb665bfef5a37b68.svg"
+        ]
+    },
+    "answer": "−2.",
+    "topic_id": null,
+    "analog_ids": []
+}

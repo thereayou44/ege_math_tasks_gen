@@ -1,0 +1,22 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 504427,
+    "condition": {
+        "text": "Найдите корень уравнения ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body646295\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те ко­рень урав­не­ния <img src=\"https://ege.sdamgia.ru/formula/svg/9d/9db4de5111d89ecfdc61ec8e3bd290a2.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: 1, зна­ме­на­тель: 7x плюс 3 конец дроби =5. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/9d/9db4de5111d89ecfdc61ec8e3bd290a2.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Последовательно получаем: Ответ: −0,4.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol504427\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По­сле­до­ва­тель­но по­лу­ча­ем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/5f/5ff7a8626ed9b71b628da42438ce7d14.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: 1, зна­ме­на­тель: 7x плюс 3 конец дроби =5 рав­но­силь­но 7x плюс 3= дробь: чис­ли­тель: 1, зна­ме­на­тель: 5 конец дроби рав­но­силь­но 7x= минус дробь: чис­ли­тель: 14, зна­ме­на­тель: 5 конец дроби рав­но­силь­но x= минус дробь: чис­ли­тель: 2, зна­ме­на­тель: 5 конец дроби . \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> −0,4.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/5f/5ff7a8626ed9b71b628da42438ce7d14.svg"
+        ]
+    },
+    "answer": "-0,4",
+    "topic_id": 6,
+    "analog_ids": []
+}

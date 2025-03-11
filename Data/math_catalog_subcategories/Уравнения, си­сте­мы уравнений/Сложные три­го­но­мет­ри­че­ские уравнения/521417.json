@@ -1,0 +1,33 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521417,
+    "condition": {
+        "text": "Дано уравнение а)  Решите уравнение.б)  Найдите корни этого уравнения, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629301\" class=\"pbody\"><p class=\"left_margin\">Дано урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/81/81a686be6f971fcfa4e0958453f6223d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" синус 2x плюс 2 синус x=1 плюс ко­си­нус x.\"></p><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние.</p><p class=\"left_margin\">б)  Най­ди­те&nbsp;корни&nbsp;этого&nbsp;урав­не­ния,&nbsp;при­над­ле­жа­щие&nbsp;от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/a1/a15d339868b6c869948e73b53bce2d66.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка минус 4; минус 3 пра­вая квад­рат­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/81/81a686be6f971fcfa4e0958453f6223d.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a15d339868b6c869948e73b53bce2d66.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Перепишем уравнение в виде  Либо  откуда   Либо  откуда  б)  На указанном промежутке лежат  и  поскольку  Ответ: а)  б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521417\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Пе­ре­пи­шем урав­не­ние в виде <img src=\"https://ege.sdamgia.ru/formula/svg/24/24a8dcd5bb529da5675f742b57db2e7d.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 2 синус x минус 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка ко­си­нус x плюс 1 пра­вая круг­лая скоб­ка =0\"></p><p>&nbsp;</p><p class=\"left_margin\">Либо <img src=\"https://ege.sdamgia.ru/formula/svg/17/1705902ce232623826c2fda07f6e3e3a.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" синус x= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби ,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/ea/ea8eaeb7bb770128f0adb04052237da5.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k, \"> <img src=\"https://ege.sdamgia.ru/formula/svg/b7/b7a58faf7528a54af31f1bf03cacc16e.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k \"></p><p>&nbsp;</p><p class=\"left_margin\">Либо <img src=\"https://ege.sdamgia.ru/formula/svg/0b/0ba45f08049efb7dd76c2a5e1a775428.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" ко­си­нус x= минус 1,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/9a/9acec7efa2696d59db3deaf83ac8c680.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x= Пи плюс 2 Пи k.\"></p><p>&nbsp;</p><p class=\"left_margin\">б)  На ука­зан­ном про­ме­жут­ке лежат <img src=\"https://ege.sdamgia.ru/formula/svg/7e/7e9a721b26c315d5d015d7dd2fd27d1d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" минус Пи \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/cf/cf4c565eadc68804a9eb0a90090cb243.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: минус 7 Пи , зна­ме­на­тель: 6 конец дроби , \"> по­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/da/da4df842e3ddf406a57798c14081f89a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"7 Пи мень­ше 24.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) <img src=\"https://ege.sdamgia.ru/formula/svg/0b/0b861f628d7b62c3beddafc3353eb548.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая фи­гур­ная скоб­ка Пи плюс 2 Пи k, дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k, дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k: k при­над­ле­жит Z пра­вая фи­гур­ная скоб­ка ; \"> б) <img src=\"https://ege.sdamgia.ru/formula/svg/2a/2a3bcb289c0de5d6fe11115e913e7b44.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая фи­гур­ная скоб­ка минус дробь: чис­ли­тель: 7 Пи , зна­ме­на­тель: 6 конец дроби , минус Пи пра­вая фи­гур­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/24/24a8dcd5bb529da5675f742b57db2e7d.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/1705902ce232623826c2fda07f6e3e3a.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/ea8eaeb7bb770128f0adb04052237da5.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b7a58faf7528a54af31f1bf03cacc16e.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0ba45f08049efb7dd76c2a5e1a775428.svg",
+            "https://ege.sdamgia.ru/formula/svg/9a/9acec7efa2696d59db3deaf83ac8c680.svg",
+            "https://ege.sdamgia.ru/formula/svg/7e/7e9a721b26c315d5d015d7dd2fd27d1d.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf4c565eadc68804a9eb0a90090cb243.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/da4df842e3ddf406a57798c14081f89a.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0b861f628d7b62c3beddafc3353eb548.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2a3bcb289c0de5d6fe11115e913e7b44.svg"
+        ]
+    },
+    "answer": "а)  б)",
+    "topic_id": null,
+    "analog_ids": []
+}

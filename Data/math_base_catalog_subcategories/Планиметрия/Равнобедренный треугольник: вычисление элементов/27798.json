@@ -1,0 +1,57 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27798,
+    "condition": {
+        "text": "В треугольнике ABC  угол C равен  Найдите высоту ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918122\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=109594\" style=\"float:right;margin:10px;max-width:100%\">В тре­уголь­ни­ке <i>ABC</i> <img src=\"https://ege.sdamgia.ru/formula/svg/86/8671030f00985b32228f73f3b190f225.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"AC = BC = 2 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та ,\"> угол <i>C</i> равен <img src=\"https://ege.sdamgia.ru/formula/svg/67/674956a3b769db81e1ceaef4c3651a5e.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"120 гра­ду­сов.\"> Най­ди­те вы­со­ту <img src=\"https://ege.sdamgia.ru/formula/svg/28/28377a9ff96a61078915d0232bc96c3f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AH.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/86/8671030f00985b32228f73f3b190f225.svg",
+            "https://ege.sdamgia.ru/formula/svg/67/674956a3b769db81e1ceaef4c3651a5e.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/28377a9ff96a61078915d0232bc96c3f.svg",
+            "/get_file?id=109594"
+        ]
+    },
+    "solution": {
+        "text": "Решение. ##Ответ: 3.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27798\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">##</p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/cc/cc89bf6db09640b6d18d56ed1f9adf6c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"AH=AC синус \\angle ACH=AC синус левая круг­лая скоб­ка 180 гра­ду­сов минус \\angle C пра­вая круг­лая скоб­ка =\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/8a/8a4b9ca4d9fb73f73d6de9a901013b72.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"=2 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та умно­жить на синус 60 гра­ду­сов =2 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та умно­жить на дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби =3. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing:2px \">Ответ</span>: 3.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/cc/cc89bf6db09640b6d18d56ed1f9adf6c.svg",
+            "https://ege.sdamgia.ru/formula/svg/8a/8a4b9ca4d9fb73f73d6de9a901013b72.svg"
+        ]
+    },
+    "answer": "3",
+    "topic_id": 1,
+    "analog_ids": [
+        27798,
+        4809,
+        48969,
+        48971,
+        4809,
+        48969,
+        48971,
+        48973,
+        48975,
+        48977,
+        48979,
+        48981,
+        48983,
+        48985,
+        48987,
+        48989,
+        48991,
+        48993,
+        48995,
+        48997,
+        48999,
+        49001,
+        49003,
+        49005,
+        49007,
+        49009,
+        49011,
+        49013,
+        49015,
+        49017
+    ]
+}

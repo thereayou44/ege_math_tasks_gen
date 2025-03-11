@@ -1,0 +1,37 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 517522,
+    "condition": {
+        "text": "Известно, что АBCD трапеция, АD = 2BC, AD, BC  — основания. Точка M такова, что углы АBM и MCD прямые.а)  Доказать, что MA = MD.б)  Расстояние от M до AD равно BC, а угол АDC равен 55°. Найдите угол BAD.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body625518\" class=\"pbody\"><p class=\"left_margin\">Из­вест­но, что <i>АBCD</i> тра­пе­ция, <i>АD</i> = 2<i>BC</i>, <i>AD</i>, <i>BC</i>  — ос­но­ва­ния. Точка <i>M</i> та­ко­ва, что углы <i>АBM</i> и <i>MCD</i> пря­мые.</p><p class=\"left_margin\">а)  До­ка­зать, что <i>MA</i> = <i>MD</i>.</p><p class=\"left_margin\">б)  Рас­сто­я­ние от <i>M</i> до <i>AD</i> равно <i>BC</i>, а угол <i>АDC</i> равен 55°. Най­ди­те угол <i>BAD</i>.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Продлим боковые стороны трапеции. Так как  то BC  — средняя линия треугольника AQD, тогда  Углы  MCD и MBA прямые, из чего следует, что MC и MB  — медианы и высоты, тогда треугольники QMD и QMA  — равнобедренные, то есть  а значит,  что и требовалось доказать.б)  Опустим высоту MN в равнобедренном треугольнике AMD. MN  — медиана, откуда    тогда  Поскольку MN  — медиана,  то угол  Треугольник MND  — прямоугольный и равнобедренный, тогда  Заметим теперь, что  тогда  Имеем:откуда  Тогда  Ответ: б)",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol517522\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=147404\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Про­длим бо­ко­вые сто­ро­ны тра­пе­ции. Так как <img src=\"https://ege.sdamgia.ru/formula/svg/b3/b320ad7d936dc423b50baf22e756cd0a.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"BC= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби AD, \"> то <i>BC</i>  — сред­няя линия тре­уголь­ни­ка <i>AQD,</i> тогда <img src=\"https://ege.sdamgia.ru/formula/svg/47/47a5f6e51f7105c503a49d01fd6c0ccb.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"QC=CD,QB=BA.\"> Углы  <i>MCD</i> и <i>MBA</i> пря­мые, из чего сле­ду­ет, что <i>MC</i> и <i>MB</i>  — ме­ди­а­ны и вы­со­ты, тогда тре­уголь­ни­ки <i>QMD</i> и <i>QMA</i>  — рав­но­бед­рен­ные, то есть <img src=\"https://ege.sdamgia.ru/formula/svg/4f/4fc34893b5188c0ca73e45e909459a4d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"QM=MD,QM=MA,\"> а зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/95/95a474054fe7acacda4d32026838221f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"MD=MA,\"> что и тре­бо­ва­лось до­ка­зать.</p><p class=\"left_margin\">б)  Опу­стим вы­со­ту <i>MN</i> в рав­но­бед­рен­ном тре­уголь­ни­ке <i>AMD</i>. <i>MN</i>  — ме­ди­а­на, от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/b1/b15c395d05bac20dfd1f7d99def83b00.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AN=ND.\"> <img src=\"https://ege.sdamgia.ru/formula/svg/61/61a34732a56ef914e423bf7a8407176e.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"BC= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби AD=AN=ND, \"> <img src=\"https://ege.sdamgia.ru/formula/svg/68/68bb92fec3678e7a9a7f1f0cd2f69756.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"MN=BC,\"> тогда <img src=\"https://ege.sdamgia.ru/formula/svg/5a/5a98d61cc2880b745c189be9144fe792.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BC=AN=ND.\"> По­сколь­ку <i>MN</i>  — ме­ди­а­на, <img src=\"https://ege.sdamgia.ru/formula/svg/92/927924fda38d8ebf1db9b987de2af8f4.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"MN= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби AD, \"> то угол <img src=\"https://ege.sdamgia.ru/formula/svg/16/163ca53d832f9d17872ec2abb7eb657b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" AMD=90 гра­ду­сов.\"> Тре­уголь­ник <i>MND</i>  — пря­мо­уголь­ный и рав­но­бед­рен­ный, тогда <img src=\"https://ege.sdamgia.ru/formula/svg/31/31a770311807ee486490875f37503a9a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle NDM = \\angle MAN=45 гра­ду­сов.\"> За­ме­тим те­перь, что <img src=\"https://ege.sdamgia.ru/formula/svg/b7/b718676c7570dd233ccb0584df28d2af.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle CDM=\\angle CDA минус \\angle MDA=55 гра­ду­сов минус 45 гра­ду­сов=10 гра­ду­сов,\"> тогда <img src=\"https://ege.sdamgia.ru/formula/svg/cf/cfbc992d2612451c2af3cde0e202baa4.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle MQD=10 гра­ду­сов.\"> Имеем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/dc/dce5301d3bdb75af3647aec3f3e569d9.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle QAM плюс \\angle MAD плюс \\angle ADC плюс \\angle DQM плюс \\angle MQA=180 гра­ду­сов,\"></p><p class=\"left_margin\"></p></center><p>от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/bd/bdc42d37051e753b661aaf81b127bb5d.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"\\angle QAM= дробь: чис­ли­тель: 180 гра­ду­сов минус 110 гра­ду­сов, зна­ме­на­тель: 2 конец дроби =35 гра­ду­сов. \"> Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/13/1354054cc92ba17d81fa718d694b094f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle BAD=\\angle QAM плюс \\angle MAN=80 гра­ду­сов.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б)<img src=\"https://ege.sdamgia.ru/formula/svg/1d/1d7639f13dcd8831f87a623caec265f4.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" 80 гра­ду­сов.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b3/b320ad7d936dc423b50baf22e756cd0a.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/47a5f6e51f7105c503a49d01fd6c0ccb.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4fc34893b5188c0ca73e45e909459a4d.svg",
+            "https://ege.sdamgia.ru/formula/svg/95/95a474054fe7acacda4d32026838221f.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b15c395d05bac20dfd1f7d99def83b00.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/61a34732a56ef914e423bf7a8407176e.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/68bb92fec3678e7a9a7f1f0cd2f69756.svg",
+            "https://ege.sdamgia.ru/formula/svg/5a/5a98d61cc2880b745c189be9144fe792.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/927924fda38d8ebf1db9b987de2af8f4.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/163ca53d832f9d17872ec2abb7eb657b.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/31a770311807ee486490875f37503a9a.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b718676c7570dd233ccb0584df28d2af.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cfbc992d2612451c2af3cde0e202baa4.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dce5301d3bdb75af3647aec3f3e569d9.svg",
+            "https://ege.sdamgia.ru/formula/svg/bd/bdc42d37051e753b661aaf81b127bb5d.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/1354054cc92ba17d81fa718d694b094f.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1d7639f13dcd8831f87a623caec265f4.svg",
+            "/get_file?id=147404"
+        ]
+    },
+    "answer": "б)",
+    "topic_id": 17,
+    "analog_ids": []
+}

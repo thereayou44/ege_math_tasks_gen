@@ -1,0 +1,31 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 541379,
+    "condition": {
+        "text": "В правильной четырёхугольной пирамиде SABCD сторона основания AB равна 4, а боковое ребро SA равно 7. На рёбрах CD и SC отмечены точки N и K соответственно, причём DN : NC  =  SK : KC = 1 : 3. Плоскость α содержит прямую KN и параллельна прямой BC. а)  Докажите, что плоскость α параллельна прямой SA.б)  Найдите угол между плоскостями α и SBC.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body404543\" class=\"pbody\"><p class=\"left_margin\">В пра­виль­ной четырёхуголь­ной пи­ра­ми­де <i>SABCD</i> сто­ро­на ос­но­ва­ния <i>AB</i> равна 4, а бо­ко­вое ребро <i>SA</i> равно 7. На рёбрах <i>CD</i> и <i>SC</i> от­ме­че­ны точки <i>N</i> и <i>K</i> со­от­вет­ствен­но, причём <i>DN</i> : <i>NC</i>  =  <i>SK</i> : <i>KC</i> = 1 : 3. Плос­кость α со­дер­жит пря­мую <i>KN</i> и па­рал­лель­на пря­мой <i>BC</i>. </p><p class=\"left_margin\">а)  До­ка­жи­те, что плос­кость α па­рал­лель­на пря­мой <i>SA</i>.</p><p class=\"left_margin\">б)  Най­ди­те угол между плос­ко­стя­ми α и <i>SBC</i>.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Построим прямую MN параллельно CB и прямую KP параллельно CB,  Плоскость NMP параллельна BC и содержит NK, таким образом NMP искомая плоскость α. По теореме о пропорциональных отрезках  имеем:  Таким образом, PM параллельна SA, значит, SA  параллельна α. б)  Заметим, что NM параллельна DA и SA параллельна PM , тогда  Таким образом, угол между плоскостью  и плоскостью SBC равен углу между плоскостями SBC и SDA. Тогда искомый угол  где F  — середина BC, а O  — центр основания пирамиды.  Таким образом,  а  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol541379\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=160769\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  По­стро­им пря­мую <i>MN</i> па­рал­лель­но <i>CB</i> и пря­мую <i>KP</i> па­рал­лель­но <i>CB</i>, <img src=\"https://ege.sdamgia.ru/formula/svg/83/83aa0550da76606d3d8c01cdf6850d75.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"M при­над­ле­жит AB, P при­над­ле­жит SB.\"> Плос­кость <i>NMP</i> па­рал­лель­на <i>BC</i> и со­дер­жит<i> NK</i>, таким об­ра­зом <i>NMP</i> ис­ко­мая плос­кость α. По тео­ре­ме о про­пор­ци­о­наль­ных от­рез­ках  имеем: <img src=\"https://ege.sdamgia.ru/formula/svg/88/8876e1ac3e115af9dfe8391471f3c844.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" дробь: чис­ли­тель: SP, зна­ме­на­тель: PB конец дроби = дробь: чис­ли­тель: AM, зна­ме­на­тель: MB конец дроби . \"> Таким об­ра­зом, <i>PM</i> па­рал­лель­на <i>SA</i>, зна­чит, <i>SA </i> па­рал­лель­на α. </p><p class=\"left_margin\">б)  За­ме­тим, что <i>NM</i> па­рал­лель­на <i>DA</i> и <i>SA</i> па­рал­лель­на <i>PM</i> , тогда <img src=\"https://ege.sdamgia.ru/formula/svg/28/28bbe60b3e8f3d08a41a501feb256c8c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" альфа || SDA.\"> Таким об­ра­зом, угол между плос­ко­стью <img src=\"https://ege.sdamgia.ru/formula/svg/7b/7b7f9dbfea05c83784f8b85149852f08.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" альфа \"> и плос­ко­стью <i>SBC</i> равен углу между плос­ко­стя­ми <i>SBC</i> и <i>SDA</i>. Тогда ис­ко­мый угол <img src=\"https://ege.sdamgia.ru/formula/svg/d2/d26e02728b5c0c2e326ca15556aefbf3.svg\" class=\"tex\" style=\"vertical-align:-3.3pt\" alt=\"\\varphi=2\\angle FSO,\"> где<i> F</i>  — се­ре­ди­на <i>BC</i>, а<i> O</i>  — центр ос­но­ва­ния пи­ра­ми­ды.  Таким об­ра­зом, </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/2c/2c579d60a4a5219a6c16f91a829ec3d6.svg\" class=\"tex\" style=\"vertical-align:-10.9pt\" alt=\" синус \\angle FSO = дробь: чис­ли­тель: OF, зна­ме­на­тель: SF конец дроби = дробь: чис­ли­тель: 2, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 49 минус 4 конец ар­гу­мен­та конец дроби = дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 ко­рень из: на­ча­ло ар­гу­мен­та: 5 конец ар­гу­мен­та конец дроби , \"></p><p class=\"left_margin\"></p></center> <p>а <img src=\"https://ege.sdamgia.ru/formula/svg/52/52576877a7bbf946ba3532cbe3e3f389.svg\" class=\"tex\" style=\"vertical-align:-11.0pt\" alt=\"\\varphi = 2 арк­си­нус дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 ко­рень из: на­ча­ло ар­гу­мен­та: 5 конец ар­гу­мен­та конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/5c/5c89bdad486f51a6291f47aa271df469.svg\" class=\"tex\" style=\"vertical-align:-11.0pt\" alt=\" 2 арк­си­нус дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 ко­рень из: на­ча­ло ар­гу­мен­та: 5 конец ар­гу­мен­та конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/83/83aa0550da76606d3d8c01cdf6850d75.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/8876e1ac3e115af9dfe8391471f3c844.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/28bbe60b3e8f3d08a41a501feb256c8c.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7b7f9dbfea05c83784f8b85149852f08.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d26e02728b5c0c2e326ca15556aefbf3.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2c579d60a4a5219a6c16f91a829ec3d6.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/52576877a7bbf946ba3532cbe3e3f389.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5c89bdad486f51a6291f47aa271df469.svg",
+            "/get_file?id=160769"
+        ]
+    },
+    "answer": "",
+    "topic_id": 14,
+    "analog_ids": [
+        541379,
+        541823
+    ]
+}

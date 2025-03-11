@@ -1,0 +1,33 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 630128,
+    "condition": {
+        "text": "Решите неравенство: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body521100\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство: <img src=\"https://ege.sdamgia.ru/formula/svg/8c/8c225bd52cb94bfeffba0b0ced4f227c.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\"3 в сте­пе­ни x минус дробь: чис­ли­тель: 702, зна­ме­на­тель: 3 в сте­пе­ни x минус 1 конец дроби боль­ше или равно 0. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/8c/8c225bd52cb94bfeffba0b0ced4f227c.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Пусть  тогда  Вернемся к исходной переменой, получим: Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol630128\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/92/92fda7e499b77f1feb834fac2c43b612.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"t=3 в сте­пе­ни x ,\"> тогда </p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"fb1b7e2043e764a0b202b7abb41d57a8\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/d2/d2d6551e74944024d222e8392f2f21ed.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\"t минус дробь: чис­ли­тель: 702, зна­ме­на­тель: t минус 1 конец дроби боль­ше или равно 0 рав­но­силь­но дробь: чис­ли­тель: t левая круг­лая скоб­ка t минус 1 пра­вая круг­лая скоб­ка минус 702, зна­ме­на­тель: t минус 1 конец дроби боль­ше или равно 0 рав­но­силь­но дробь: чис­ли­тель: t в квад­ра­те минус t минус 702, зна­ме­на­тель: t минус 1 конец дроби боль­ше или равно 0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/8f/8fd8f84edd04f9f06cbd63ec8224a483.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" рав­но­силь­но дробь: чис­ли­тель: левая круг­лая скоб­ка t плюс 26 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка t минус 27 пра­вая круг­лая скоб­ка , зна­ме­на­тель: t минус 1 конец дроби боль­ше или равно 0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний t боль­ше или равно 27, минус 26 мень­ше или равно t мень­ше 1. конец со­во­куп­но­сти . \"></span><span data-width=\"365\" data-formulahash=\"fb1b7e2043e764a0b202b7abb41d57a8\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/42/426e70abed08d324e7df41dff23ab383.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\"t минус дробь: чис­ли­тель: 702, зна­ме­на­тель: t минус 1 конец дроби боль­ше или равно 0 рав­но­силь­но дробь: чис­ли­тель: t левая круг­лая скоб­ка t минус 1 пра­вая круг­лая скоб­ка минус 702, зна­ме­на­тель: t минус 1 конец дроби боль­ше или равно 0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/f7/f79de6f8cef6fbc71c932e00655a24a1.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" рав­но­силь­но дробь: чис­ли­тель: t в квад­ра­те минус t минус 702, зна­ме­на­тель: t минус 1 конец дроби боль­ше или равно 0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/8f/8fd8f84edd04f9f06cbd63ec8224a483.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" рав­но­силь­но дробь: чис­ли­тель: левая круг­лая скоб­ка t плюс 26 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка t минус 27 пра­вая круг­лая скоб­ка , зна­ме­на­тель: t минус 1 конец дроби боль­ше или равно 0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний t боль­ше или равно 27, минус 26 мень­ше или равно t мень­ше 1. конец со­во­куп­но­сти . \"></span></p><p class=\"left_margin\"></p></center><p> Вер­нем­ся к ис­ход­ной пе­ре­ме­ной, по­лу­чим:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/99/999025088eb5eb97725b7399ebf62a6b.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" со­во­куп­ность вы­ра­же­ний 3 в сте­пе­ни x боль­ше или равно 27, минус 26 мень­ше или равно 3 в сте­пе­ни x мень­ше 1 конец со­во­куп­но­сти . рав­но­силь­но со­во­куп­ность вы­ра­же­ний 3 в сте­пе­ни x боль­ше или равно 3 в кубе ,3 в сте­пе­ни x мень­ше 3 в сте­пе­ни 0 конец со­во­куп­но­сти . \\underset3 боль­ше 1\\mathop рав­но­силь­но со­во­куп­ность вы­ра­же­ний x боль­ше или равно 3,x мень­ше 0. конец со­во­куп­но­сти . \"></p><p class=\"left_margin\"></p></center> <p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/a5/a500150d56454cdd8abd4dcc50c70f80.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка минус бес­ко­неч­ность ; 0 пра­вая круг­лая скоб­ка \\cup левая квад­рат­ная скоб­ка 3; плюс бес­ко­неч­ность пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/92/92fda7e499b77f1feb834fac2c43b612.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d2d6551e74944024d222e8392f2f21ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8fd8f84edd04f9f06cbd63ec8224a483.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/426e70abed08d324e7df41dff23ab383.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f79de6f8cef6fbc71c932e00655a24a1.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8fd8f84edd04f9f06cbd63ec8224a483.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/999025088eb5eb97725b7399ebf62a6b.svg",
+            "https://ege.sdamgia.ru/formula/svg/a5/a500150d56454cdd8abd4dcc50c70f80.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": [
+        630128,
+        630164,
+        630196
+    ]
+}

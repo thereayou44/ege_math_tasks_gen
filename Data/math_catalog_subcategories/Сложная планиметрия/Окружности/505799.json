@@ -1,0 +1,25 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 505799,
+    "condition": {
+        "text": "Окружность касается сторон угла с вершиной O в точках A и B. На этой окружности внутри треугольника AOB взята точка С. Из точки С на прямые OA, OB и AB опущены перпендикуляры соответственно CK, CL и CM.а)  Докажите подобие треугольников AKC и BMC, AMC и BLC.б)  Найдите CM, если CK = 4, CL = 9.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body645435\" class=\"pbody\"><p class=\"left_margin\">Окруж­ность ка­са­ет­ся сто­рон угла с вер­ши­ной <i>O</i> в точ­ках <i>A</i> и <i>B</i>. На этой окруж­но­сти внут­ри тре­уголь­ни­ка <i>AOB</i> взята точка <i>С</i>. Из точки <i>С</i> на пря­мые <i>OA</i>, <i>OB</i> и <i>AB</i> опу­ще­ны пер­пен­ди­ку­ля­ры со­от­вет­ствен­но <i>CK</i>, <i>CL</i> и <i>CM</i>.</p><p class=\"left_margin\">а)  До­ка­жи­те по­до­бие тре­уголь­ни­ков <i>AKC</i> и <i>BMC</i>, <i>AMC</i> и <i>BLC</i>.</p><p class=\"left_margin\">б)  Най­ди­те <i>CM</i>, если <i>CK</i> = 4, <i>CL</i> = 9.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Заметим, что  (поскольку один из них вписанный, опирающийся на дугу AC, а второй  — угол между касательной и хордой, стягивающей дугу AC). Значит, в прямоугольных треугольниках AKC и MBC есть одинаковые острые углы, поэтому они подобны по двум углам.Аналогично  откуда следует второе указанное в условии подобие.б)  Из пункта a мы знаем, что  (первое равенство  — из подобия AKC и MBC, второе  — из подобия AMC и BLC). Приравнивая крайние отношения, находим  откуда  Ответ:  6.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol505799\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=26254\" style=\"float:right;margin:10px\"></p><p class=\"left_margin\">а)  За­ме­тим, что <img src=\"https://ege.sdamgia.ru/formula/svg/96/96c2793e08f6a7c5f61b6e500a63c27d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle KAC=\\angle ABC\"> (по­сколь­ку один из них впи­сан­ный, опи­ра­ю­щий­ся на дугу <i>AC</i>, а вто­рой  — угол между ка­са­тель­ной и хор­дой, стя­ги­ва­ю­щей дугу <i>AC</i>). Зна­чит, в пря­мо­уголь­ных тре­уголь­ни­ках <i>AKC</i> и <i>MBC</i> есть оди­на­ко­вые ост­рые углы, по­это­му они по­доб­ны по двум углам.</p><p class=\"left_margin\">Ана­ло­гич­но <img src=\"https://ege.sdamgia.ru/formula/svg/87/875e959d5bea66d117a5d0ac6ecb95e2.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle CAM=\\angle CBL,\"> от­ку­да сле­ду­ет вто­рое ука­зан­ное в усло­вии по­до­бие.</p><p class=\"left_margin\">б)  Из пунк­та <i>a</i> мы знаем, что <img src=\"https://ege.sdamgia.ru/formula/svg/cc/cce134c841b413d9c3bbefae5a20ea66.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: KC, зна­ме­на­тель: CM конец дроби = дробь: чис­ли­тель: AC, зна­ме­на­тель: BC конец дроби = дробь: чис­ли­тель: CM, зна­ме­на­тель: CL конец дроби \"> (пер­вое ра­вен­ство  — из по­до­бия <i>AKC</i> и <i>MBC</i>, вто­рое  — из по­до­бия <i>AMC</i> и <i>BLC</i>). При­рав­ни­вая край­ние от­но­ше­ния, на­хо­дим <img src=\"https://ege.sdamgia.ru/formula/svg/4a/4a872fb40d4ed0f2a4b2a1d7a0533e8d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"CM в квад­ра­те =KC умно­жить на CL=4 умно­жить на 9=36,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/3a/3a02b5f55364fcbea3b7f6cbf6fff039.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"CM=6.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  6.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/96/96c2793e08f6a7c5f61b6e500a63c27d.svg",
+            "https://ege.sdamgia.ru/formula/svg/87/875e959d5bea66d117a5d0ac6ecb95e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/cce134c841b413d9c3bbefae5a20ea66.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4a872fb40d4ed0f2a4b2a1d7a0533e8d.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3a02b5f55364fcbea3b7f6cbf6fff039.svg",
+            "/get_file?id=26254"
+        ]
+    },
+    "answer": "6.",
+    "topic_id": null,
+    "analog_ids": []
+}

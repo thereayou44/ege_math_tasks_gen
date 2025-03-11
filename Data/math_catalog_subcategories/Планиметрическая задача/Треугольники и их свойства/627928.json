@@ -1,0 +1,25 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 627928,
+    "condition": {
+        "text": "На продолжении стороны AC за вершину A треугольника ABC отложен отрезок AD, равный  стороне  AB.  Прямая,  проходящая  через  точку  A  параллельно  BD,  пересекает сторону BC в точке M.а)  Докажите, что AM  — биссектриса угла BAC.б)  Найдите  площадь  трапеции  AMBD,  если  площадь  треугольника  ABC  равна  144  и известно отношение AC : AB  =  3 : 1.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body522788\" class=\"pbody\"><p class=\"left_margin\">На про­дол­же­нии сто­ро­ны <i>AC</i> за вер­ши­ну <i>A</i> тре­уголь­ни­ка <i>ABC</i> от­ло­жен от­ре­зок <i>AD</i>, рав­ный  сто­ро­не  <i>AB</i>.  Пря­мая,  про­хо­дя­щая  через  точку  <i>A</i>  па­рал­лель­но  <i>BD</i>,  пе­ре­се­ка­ет сто­ро­ну <i>BC</i> в точке <i>M</i>.</p><p class=\"left_margin\">а)  До­ка­жи­те, что <i>AM</i>  — бис­сек­три­са угла <i>BAC</i>.</p><p class=\"left_margin\">б)  Най­ди­те  пло­щадь  тра­пе­ции  <i>AMBD</i>,  если  пло­щадь  тре­уголь­ни­ка  <i>ABC</i>  равна  144  и из­вест­но от­но­ше­ние <i>AC</i> : <i>AB</i>  =  3 : 1.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  По условию, прямые BD и AM параллельны, тогда углы ABD и BAM равны как накрест лежащие углы. Треугольник BAD  — равнобедренный, поэтому углы ABD и ADB равны. Углы ADB и CAM равны как соответственные углы при пересечении параллельных прямых секущей. Тогда углы BAM и CAM также равны, что и требовалось доказать.б)  По условию, AC : AB  =  3 : 1, тогда AC : AD  =  3 : 1 и AC : DC  =  3 : 4. Следовательно, треугольники AMC и DBC подобны с коэффициентом подобия  Тогда  По свойству биссектрисы,  тогда Найдём искомую площадь:Ответ: б) 84.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol627928\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=147953\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  По усло­вию, пря­мые <i>BD</i> и <i>AM</i> па­рал­лель­ны, тогда углы <i>ABD</i> и <i>BAM</i> равны как на­крест ле­жа­щие углы. Тре­уголь­ник <i>BAD</i>  — рав­но­бед­рен­ный, по­это­му углы <i>ABD</i> и <i>ADB</i> равны. Углы <i>ADB</i> и <i>CAM</i> равны как со­от­вет­ствен­ные углы при пе­ре­се­че­нии па­рал­лель­ных пря­мых се­ку­щей. Тогда углы <i>BAM</i> и <i>CAM</i> также равны, что и тре­бо­ва­лось до­ка­зать.</p><p class=\"left_margin\">б)  По усло­вию, <i>AC</i> : <i>AB</i>  =  3 : 1, тогда <i>AC</i> : <i>AD</i>  =  3 : 1 и <i>AC</i> : <i>DC</i>  =  3 : 4. Сле­до­ва­тель­но, тре­уголь­ни­ки <i>AMC</i> и <i>DBC</i> по­доб­ны с ко­эф­фи­ци­ен­том по­до­бия <img src=\"https://ege.sdamgia.ru/formula/svg/50/5004cb47648343cd3e9a3243500be2c0.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"k= дробь: чис­ли­тель: 3, зна­ме­на­тель: 4 конец дроби .\"> Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/36/366e47b140ae905fd79bd30ab2f59aed.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"S_AMC:S_DBC=9:16.\"> По свой­ству бис­сек­три­сы, <img src=\"https://ege.sdamgia.ru/formula/svg/1c/1c93a43e303050bc6d1b5909f6d27fcf.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"CM:MB=AC:AB=3:1,\"> тогда</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/b2/b2c6996b98f3dff82150a5c29bb588a4.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S_AMC= дробь: чис­ли­тель: 3, зна­ме­на­тель: 4 конец дроби S_ABC=108,\\quad\\quad S_DBC= дробь: чис­ли­тель: 16, зна­ме­на­тель: 9 конец дроби умно­жить на 108=16 умно­жить на 12=192. \"></p><p class=\"left_margin\"></p></center><p> Найдём ис­ко­мую пло­щадь:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/04/041ff203ceebe6cf98384fb0194a632f.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"S_AMBD=S_DBC минус S_AMC=192 минус 108=84.\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) 84.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/50/5004cb47648343cd3e9a3243500be2c0.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/366e47b140ae905fd79bd30ab2f59aed.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1c93a43e303050bc6d1b5909f6d27fcf.svg",
+            "https://ege.sdamgia.ru/formula/svg/b2/b2c6996b98f3dff82150a5c29bb588a4.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/041ff203ceebe6cf98384fb0194a632f.svg",
+            "/get_file?id=147953"
+        ]
+    },
+    "answer": "б) 84.",
+    "topic_id": 17,
+    "analog_ids": []
+}

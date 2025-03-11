@@ -1,0 +1,38 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 501710,
+    "condition": {
+        "text": "В правильной четырёхугольной призме ABCDA1B1C1D1 сторона основания равна 20, а боковое ребро AA1  =  7. Точка M принадлежит ребру A1D1 и делит его в отношении 2 : 3, считая от вершины D1. а)  Докажите, что сечение этой призмы плоскостью, проходящей через точки B, D и M, является равнобедренной трапецией.б)  Найдите площадь этой трапеции.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body641330\" class=\"pbody\"><p class=\"left_margin\">В пра­виль­ной четырёхуголь­ной приз­ме <i>ABCDA</i><sub>1</sub><i>B</i><sub>1</sub><i>C</i><sub>1</sub><i>D</i><sub>1</sub> сто­ро­на ос­но­ва­ния равна 20, а бо­ко­вое ребро <i>AA</i><sub>1</sub>  =  7. Точка <i>M</i> при­над­ле­жит ребру <i>A</i><sub>1</sub><i>D</i><sub>1</sub> и делит его в от­но­ше­нии 2 : 3, счи­тая от вер­ши­ны <i>D</i><sub>1</sub>. </p><p class=\"left_margin\">а)  До­ка­жи­те, что се­че­ние этой приз­мы плос­ко­стью, про­хо­дя­щей через точки <i>B</i>, <i>D</i> и <i>M</i>, яв­ля­ет­ся рав­но­бед­рен­ной тра­пе­ци­ей.</p><p class=\"left_margin\">б)  Най­ди­те пло­щадь этой тра­пе­ции.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Отрезок MN параллелен диагонали BD (точка N принадлежит ребру ), следовательно, искомое сечение  — трапеция BDMN (рис. 1). Плоскость сечения пересекает нижнее основание no прямой BD, параллельной  значит, MN параллелен Треугольники  и  подобны, следовательно,  Значит, В равных прямоугольных треугольниках  и   значит, трапеция BDMN равнобедренная. б)  Пусть NH  — высота трапеции BDMN, проведённая к основанию BD (рис. 2), тогда:  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol501710\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=132361\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  От­ре­зок <i>MN</i> па­рал­ле­лен диа­го­на­ли <i>BD</i> (точка <i>N</i> при­над­ле­жит ребру <img src=\"https://ege.sdamgia.ru/formula/svg/e6/e6254aa162a76adaac85cfd1f10e9672.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"A_1 B_1\">), сле­до­ва­тель­но, ис­ко­мое се­че­ние  — тра­пе­ция <i>BDMN</i> (рис. 1). Плос­кость се­че­ния пе­ре­се­ка­ет ниж­нее ос­но­ва­ние no пря­мой <i>BD</i>, па­рал­лель­ной <img src=\"https://ege.sdamgia.ru/formula/svg/45/45c43019c39e98ec3327ec97f5bbbe6b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"B_1D_1,\"> зна­чит, <i>MN</i> па­рал­ле­лен <img src=\"https://ege.sdamgia.ru/formula/svg/cf/cf603350d47d7a58be77fedbea88f676.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"B_1 D_1.\"></p><p class=\"left_margin\">Тре­уголь­ни­ки <img src=\"https://ege.sdamgia.ru/formula/svg/d1/d1bac2a7e7401f1ff836384c57911ba4.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"N A_1 M\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/02/02cc34a189585149acefef26a33f603a.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"B_1A_1D_1\"> по­доб­ны, сле­до­ва­тель­но, </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/7e/7e98d4d8bc8f41b063e399ed7f93297b.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"A_1N:A_1B_1=A_1M:A_1D_1=MN:B_1D_1=3:5.\"></p><p class=\"left_margin\"></p></center><p> Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/ab/abe36f3da571df965d4f3979ce5e0cee.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"BD=B_1 D_1=20 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та ,MN= 12 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та .\"></p><p class=\"left_margin\">В рав­ных пря­мо­уголь­ных тре­уголь­ни­ках <img src=\"https://ege.sdamgia.ru/formula/svg/2c/2c8d12c1c4bc090d7338dccc5e650407.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"BB_1 N\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/db/db4a2e35ed738212d9017e6e2ba6f808.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"DD_1 M,\"> </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/4f/4feaf75d8d9db2e7521c4e18ca60471c.svg\" class=\"tex\" style=\"vertical-align:-6.8pt\" alt=\"DM = BN = ко­рень из: на­ча­ло ар­гу­мен­та: BB_1 в квад­ра­те плюс B_1N в квад­ра­те конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 113 конец ар­гу­мен­та ,\"></p><p class=\"left_margin\"></p></center> зна­чит, тра­пе­ция <i>BDMN</i> рав­но­бед­рен­ная.<p>&nbsp;</p><p class=\"left_margin\">б)  Пусть <i>NH</i>  — вы­со­та тра­пе­ции <i>BDMN</i>, про­ведённая к ос­но­ва­нию <i>BD</i> (рис. 2), тогда: <img src=\"/get_file?id=132363\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/49/49cdeb44ff33782164e090b094e3e812.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"BH= дробь: чис­ли­тель: BD минус MN, зна­ме­на­тель: 2 конец дроби =4 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та рав­но­силь­но NH = ко­рень из: на­ча­ло ар­гу­мен­та: BN в квад­ра­те минус BH в квад­ра­те конец ар­гу­мен­та = 9 рав­но­силь­но \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/90/9022eb3ea5d2806533c675a53bb585b2.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" S_BDMN = дробь: чис­ли­тель: BD плюс MN, зна­ме­на­тель: 2 конец дроби умно­жить на NH = 144 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та . \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/d4/d4f118e7db44b0adf0d11c48d96b2f4d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"144 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e6/e6254aa162a76adaac85cfd1f10e9672.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/45c43019c39e98ec3327ec97f5bbbe6b.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf603350d47d7a58be77fedbea88f676.svg",
+            "https://ege.sdamgia.ru/formula/svg/d1/d1bac2a7e7401f1ff836384c57911ba4.svg",
+            "https://ege.sdamgia.ru/formula/svg/02/02cc34a189585149acefef26a33f603a.svg",
+            "https://ege.sdamgia.ru/formula/svg/7e/7e98d4d8bc8f41b063e399ed7f93297b.svg",
+            "https://ege.sdamgia.ru/formula/svg/ab/abe36f3da571df965d4f3979ce5e0cee.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2c8d12c1c4bc090d7338dccc5e650407.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/db4a2e35ed738212d9017e6e2ba6f808.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4feaf75d8d9db2e7521c4e18ca60471c.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/49cdeb44ff33782164e090b094e3e812.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/9022eb3ea5d2806533c675a53bb585b2.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d4f118e7db44b0adf0d11c48d96b2f4d.svg",
+            "/get_file?id=132361",
+            "/get_file?id=132363"
+        ]
+    },
+    "answer": "",
+    "topic_id": 14,
+    "analog_ids": [
+        501710,
+        502294,
+        511377
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 77474,
+    "condition": {
+        "text": "Найдите наибольшее значение функции  на отрезке ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body999518\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те наи­боль­шее зна­че­ние функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/d6/d66bb31ceb996d5ad3f77c5b43e859ed.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"y=x плюс дробь: чис­ли­тель: 9, зна­ме­на­тель: x конец дроби \"> на от­рез­ке <img src=\"https://ege.sdamgia.ru/formula/svg/cd/cd9f6013f4a058de241a4a01ce5b57cd.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка минус 4; минус 1 пра­вая квад­рат­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d6/d66bb31ceb996d5ad3f77c5b43e859ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cd9f6013f4a058de241a4a01ce5b57cd.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Найдем производную заданной функции:  Найденная производная обращается в нуль в точках 3 и −3, из них на отрезке [−4; −1] лежит только точка −3. Определим знаки производной функции и изобразим на рисунке поведение функции: В точке  заданная функция имеет максимум, являющийся ее наибольшим значением на заданном отрезке. Найдем это наибольшее значение: Ответ: −6.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol77474\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Най­дем про­из­вод­ную за­дан­ной функ­ции: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/cb/cb1f9d446fe9477ad374712abf9d3080.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"y'=1 минус дробь: чис­ли­тель: 9, зна­ме­на­тель: x в квад­ра­те конец дроби = дробь: чис­ли­тель: x в квад­ра­те минус 9, зна­ме­на­тель: x в квад­ра­те конец дроби . \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p class=\"left_margin\">Най­ден­ная про­из­вод­ная об­ра­ща­ет­ся в нуль в точ­ках 3 и −3, из них на от­рез­ке [−4; −1] лежит толь­ко точка −3. </p><p class=\"left_margin\">Опре­де­лим знаки про­из­вод­ной функ­ции и изоб­ра­зим на ри­сун­ке по­ве­де­ние функ­ции: </p><p><img src=\"/get_file?id=141074\" style=\"margin:10px auto;display:block;max-width:100%\"></p><p class=\"left_margin\">В точке <img src=\"https://ege.sdamgia.ru/formula/svg/52/52805d388d4a07409473f3998a5e013d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x= минус 3\"> за­дан­ная функ­ция имеет мак­си­мум, яв­ля­ю­щий­ся ее наи­боль­шим зна­че­ни­ем на за­дан­ном от­рез­ке. Най­дем это наи­боль­шее зна­че­ние:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f7/f7425f02aa3e45bcca5af7661ac8a7f4.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y левая круг­лая скоб­ка минус 3 пра­вая круг­лая скоб­ка = минус 3 минус 3= минус 6.\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> −6.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/cb/cb1f9d446fe9477ad374712abf9d3080.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/52805d388d4a07409473f3998a5e013d.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f7425f02aa3e45bcca5af7661ac8a7f4.svg",
+            "/get_file?id=141074"
+        ]
+    },
+    "answer": "-6",
+    "topic_id": 12,
+    "analog_ids": [
+        77474,
+        130113,
+        130157,
+        130161,
+        130113,
+        130157,
+        130161,
+        130115,
+        130117,
+        130119,
+        130121,
+        130123,
+        130125,
+        130127,
+        130129,
+        130131,
+        130133,
+        130135,
+        130137,
+        130139,
+        130141,
+        130143,
+        130145,
+        130147,
+        130149,
+        130151,
+        130153,
+        130155,
+        130159
+    ]
+}

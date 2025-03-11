@@ -1,0 +1,46 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 509149,
+    "condition": {
+        "text": "На рисунке изображены графики функций  и  которые пересекаются в точках A и B. Найдите абсциссу точки B.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body633377\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=91974\" style=\"float:right;margin:10px;max-width:100%\">На ри­сун­ке изоб­ра­же­ны гра­фи­ки функ­ций <img src=\"https://ege.sdamgia.ru/formula/svg/57/57da1d01bd6a841067226ac9dfb78682.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =5x плюс 9\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/06/065a0419a0417df3275e9319f03327f6.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"g левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =ax в квад­ра­те плюс bx плюс c,\"> ко­то­рые пе­ре­се­ка­ют­ся в точ­ках <i>A</i> и <i>B</i>. Най­ди­те абс­цис­су точки <i>B</i>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/57/57da1d01bd6a841067226ac9dfb78682.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/065a0419a0417df3275e9319f03327f6.svg",
+            "/get_file?id=91974"
+        ]
+    },
+    "solution": {
+        "text": "Решение. По графику, g(−2)  =  −1, g(−1)  =  −3, g(2)  =  3. Тогда Решая полученную систему, получаем: a  =  1, b  =  1, из g(2)  =  3 получим c  =  −3. Теперь найдём абсциссу точки B: Таким образом, ответ  — 6. Ответ: 6.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol509149\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По гра­фи­ку, <i>g</i>(−2)  =  −1, <i>g</i>(−1)  =  −3, <i>g</i>(2)  =  3. Тогда</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"f62d912cc9f2f95148bdad3fe80aca3d\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/f6/f62d912cc9f2f95148bdad3fe80aca3d.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"g левая круг­лая скоб­ка минус 2 пра­вая круг­лая скоб­ка минус g левая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка =a левая круг­лая скоб­ка 4 минус 1 пра­вая круг­лая скоб­ка плюс b левая круг­лая скоб­ка минус 2 плюс 1 пра­вая круг­лая скоб­ка =3a минус b= минус 1 минус левая круг­лая скоб­ка минус 3 пра­вая круг­лая скоб­ка рав­но­силь­но 3a минус b=2,\"></span><span data-width=\"465\" data-formulahash=\"f62d912cc9f2f95148bdad3fe80aca3d\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/14/14fed6a06ccae7457ff8a2f8ccb0838f.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"g левая круг­лая скоб­ка минус 2 пра­вая круг­лая скоб­ка минус g левая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка =a левая круг­лая скоб­ка 4 минус 1 пра­вая круг­лая скоб­ка плюс b левая круг­лая скоб­ка минус 2 плюс 1 пра­вая круг­лая скоб­ка =3a минус b= минус 1 минус левая круг­лая скоб­ка минус 3 пра­вая круг­лая скоб­ка рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/42/4238dc6855d6f6160efc4f49528d80db.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" рав­но­силь­но 3a минус b=2,\"></span></p><p><span data-width=\"640\" data-formulahash=\"7985e6b4b6df2b83984937404043fd49\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/79/7985e6b4b6df2b83984937404043fd49.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"g левая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка минус g левая круг­лая скоб­ка 2 пра­вая круг­лая скоб­ка =a левая круг­лая скоб­ка 1 минус 4 пра­вая круг­лая скоб­ка плюс b левая круг­лая скоб­ка минус 1 минус 2 пра­вая круг­лая скоб­ка = минус 3a минус 3b= минус 3 минус 3 рав­но­силь­но минус 3a минус 3b= минус 6.\"></span><span data-width=\"465\" data-formulahash=\"7985e6b4b6df2b83984937404043fd49\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/cf/cf6fe0f44a14b0ef00fe658fac9cc6e3.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"g левая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка минус g левая круг­лая скоб­ка 2 пра­вая круг­лая скоб­ка =a левая круг­лая скоб­ка 1 минус 4 пра­вая круг­лая скоб­ка плюс b левая круг­лая скоб­ка минус 1 минус 2 пра­вая круг­лая скоб­ка = минус 3a минус 3b= минус 3 минус 3 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/ba/bae35c81433a39ea22c430190247881d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" рав­но­силь­но минус 3a минус 3b= минус 6.\"></span></p><p class=\"left_margin\"></p></center><p> Решая по­лу­чен­ную си­сте­му, по­лу­ча­ем: <i>a</i>  =  1, <i>b</i>  =  1, из <i>g</i>(2)  =  3 по­лу­чим <i>c</i>  =  −3. Те­перь найдём абс­цис­су точки <i>B</i>:</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"53b2caa431b58bc9256ad117b4fb1071\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/53/53b2caa431b58bc9256ad117b4fb1071.svg\" class=\"tex\" style=\"vertical-align:-24.7pt\" alt=\"5x плюс 9=x в квад­ра­те плюс x минус 3 рав­но­силь­но x в квад­ра­те минус 4x минус 12=0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний x= дробь: чис­ли­тель: 4 плюс ко­рень из: на­ча­ло ар­гу­мен­та: 16 плюс 48 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби ,x= дробь: чис­ли­тель: 4 минус ко­рень из: на­ча­ло ар­гу­мен­та: 16 плюс 48 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби конец со­во­куп­но­сти . рав­но­силь­но со­во­куп­ность вы­ра­же­ний x=6,x= минус 2. конец со­во­куп­но­сти . \"></span><span data-width=\"490\" data-formulahash=\"53b2caa431b58bc9256ad117b4fb1071\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/db/dbfeee8a830cdda156ba415b36d447f2.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"5x плюс 9=x в квад­ра­те плюс x минус 3 рав­но­силь­но x в квад­ра­те минус 4x минус 12=0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/f9/f9ba29aa87c08fe8ed85762ff6dbdf92.svg\" class=\"tex\" style=\"vertical-align:-24.7pt\" alt=\" рав­но­силь­но со­во­куп­ность вы­ра­же­ний x= дробь: чис­ли­тель: 4 плюс ко­рень из: на­ча­ло ар­гу­мен­та: 16 плюс 48 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби ,x= дробь: чис­ли­тель: 4 минус ко­рень из: на­ча­ло ар­гу­мен­та: 16 плюс 48 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби конец со­во­куп­но­сти . рав­но­силь­но со­во­куп­ность вы­ра­же­ний x=6,x= минус 2. конец со­во­куп­но­сти . \"></span></p><p class=\"left_margin\"></p></center><p> Таким об­ра­зом, ответ  — 6.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 6.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f6/f62d912cc9f2f95148bdad3fe80aca3d.svg",
+            "https://ege.sdamgia.ru/formula/svg/14/14fed6a06ccae7457ff8a2f8ccb0838f.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/4238dc6855d6f6160efc4f49528d80db.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/7985e6b4b6df2b83984937404043fd49.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf6fe0f44a14b0ef00fe658fac9cc6e3.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/bae35c81433a39ea22c430190247881d.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/53b2caa431b58bc9256ad117b4fb1071.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/dbfeee8a830cdda156ba415b36d447f2.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f9ba29aa87c08fe8ed85762ff6dbdf92.svg"
+        ]
+    },
+    "answer": "6",
+    "topic_id": 11,
+    "analog_ids": [
+        509149,
+        509150,
+        509151,
+        509152,
+        509150,
+        509151,
+        509152,
+        509153,
+        509154,
+        509155,
+        509156,
+        509157,
+        627985
+    ]
+}

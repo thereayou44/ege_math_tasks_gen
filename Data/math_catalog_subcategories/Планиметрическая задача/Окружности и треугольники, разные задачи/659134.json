@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 659134,
+    "condition": {
+        "text": "В треугольнике ABC проведена биссектриса AD. В треугольники ADC и ADB вписаны окружности с длинами радиусов 3 и 8 соответственно, касающиеся отрезка AD в точках М и N соответственно.а)  Докажите, что треугольник, образованный точкой D и центрами данных окружностей прямоугольный.б)  Найдите расстояние между центрами данных окружностей, если ND  =  ⁠4.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body286786\" class=\"pbody\"><p class=\"left_margin\">В тре­уголь­ни­ке <i>ABC</i> про­ве­де­на бис­сек­три­са <i>AD</i>. В тре­уголь­ни­ки <i>ADC</i> и <i>ADB</i> впи­са­ны окруж­но­сти с дли­на­ми ра­ди­у­сов 3 и 8 со­от­вет­ствен­но, ка­са­ю­щи­е­ся от­рез­ка <i>AD</i> в точ­ках <i>М</i> и <i>N</i> со­от­вет­ствен­но.</p><p class=\"left_margin\">а)  До­ка­жи­те, что тре­уголь­ник, об­ра­зо­ван­ный точ­кой <i>D</i> и цен­тра­ми дан­ных окруж­но­стей пря­мо­уголь­ный.</p><p class=\"left_margin\">б)  Най­ди­те рас­сто­я­ние между цен­тра­ми дан­ных окруж­но­стей, если <i>ND</i>  =  ⁠4.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Пусть точки O1 и O2  — центры окружностей. Тогда DO1 и DO2  — биссектрисы углов CDA и BDA соответственно. Тогда б)  Заметим, что  Поэтому треугольники O1DM и DO2N подобные. Следовательно,   откуда  то есть  Тогда по теореме Пифагора  Таким образом,  откуда  Ответ: б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol659134\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Пусть точки <i>O</i><sub>1</sub> и <i>O</i><sub>2</sub>  — цен­тры окруж­но­стей. Тогда <i>DO</i><sub>1</sub> и <i>DO</i><sub>2</sub>  — бис­сек­три­сы углов <i>CDA</i> и <i>BDA</i> со­от­вет­ствен­но. Тогда </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/a2/a2f30fb960090be633f1f72d98e5ef73.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"\\angle O_1 DO_2 = дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби \\angle CDA плюс дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби \\angle BDA = дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на 180 гра­ду­сов = 90 гра­ду­сов .\"></p><p class=\"left_margin\"></p></center><p><img src=\"/get_file?id=177237\" style=\"margin:10px auto;display:block;max-width:100%\"></p><p class=\"left_margin\">б)  За­ме­тим, что <img src=\"https://ege.sdamgia.ru/formula/svg/95/95cce2f116c62001a6586f3284a6f3fa.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"\\angle NO_2D = 90 гра­ду­сов минус \\angle NDO_2 = \\angle MDO_1 . \"> По­это­му тре­уголь­ни­ки <i>O</i><sub>1</sub><i>DM</i> и <i>DO</i><sub>2</sub><i>N</i> по­доб­ные. Сле­до­ва­тель­но,  </p><div class=\"flex-math\"><p><img src=\"https://ege.sdamgia.ru/formula/svg/f4/f4b7b2aaff6e9a7282bdc79486341d27.svg\" class=\"tex\" style=\"vertical-align:-10.0pt\" alt=\" дробь: чис­ли­тель: O_1 M , зна­ме­на­тель: ND конец дроби = дробь: чис­ли­тель: MD , зна­ме­на­тель: O_2 N конец дроби , \"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/37/37c3321745f0788a0a62d006e93cfb6f.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 3, зна­ме­на­тель: 4 конец дроби = дробь: чис­ли­тель: MD, зна­ме­на­тель: 8 конец дроби , \"> то есть <img src=\"https://ege.sdamgia.ru/formula/svg/1f/1f6391cc70ffd63053b22f181501e76a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"MD = 6.\"></p><p></p></div> Тогда по тео­ре­ме Пи­фа­го­ра <p></p><div class=\"flex-math\"><p><img src=\"https://ege.sdamgia.ru/formula/svg/5f/5fc64646ba3dbc7006c56baaf38aad7d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"O_1 D в квад­ра­те = 3 в квад­ра­те плюс 6 в квад­ра­те = 45,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/e6/e64ecdcdeded28d706b234241929636a.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"O_2 D в квад­ра­те = 4 в квад­ра­те плюс 8 в квад­ра­те = 80.\"></p></div><p> Таким об­ра­зом, <img src=\"https://ege.sdamgia.ru/formula/svg/20/205aa2dee9738ec8bfb6e9db7b49e425.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"O_1 O_2 в квад­ра­те = O_1 D в квад­ра­те плюс O_2 D в квад­ра­те = 125,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/3b/3b8414ac3c4257318c68b63dd7e71d8f.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"O_1O_2 = 5 ко­рень из: на­ча­ло ар­гу­мен­та: 5 конец ар­гу­мен­та .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) <img src=\"https://ege.sdamgia.ru/formula/svg/ca/ca42c05a2156daffc0c51fac077b0f99.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"5 ко­рень из: на­ча­ло ар­гу­мен­та: 5 конец ар­гу­мен­та .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a2/a2f30fb960090be633f1f72d98e5ef73.svg",
+            "https://ege.sdamgia.ru/formula/svg/95/95cce2f116c62001a6586f3284a6f3fa.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f4b7b2aaff6e9a7282bdc79486341d27.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/37c3321745f0788a0a62d006e93cfb6f.svg",
+            "https://ege.sdamgia.ru/formula/svg/1f/1f6391cc70ffd63053b22f181501e76a.svg",
+            "https://ege.sdamgia.ru/formula/svg/5f/5fc64646ba3dbc7006c56baaf38aad7d.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e64ecdcdeded28d706b234241929636a.svg",
+            "https://ege.sdamgia.ru/formula/svg/20/205aa2dee9738ec8bfb6e9db7b49e425.svg",
+            "https://ege.sdamgia.ru/formula/svg/3b/3b8414ac3c4257318c68b63dd7e71d8f.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/ca42c05a2156daffc0c51fac077b0f99.svg",
+            "/get_file?id=177237"
+        ]
+    },
+    "answer": "б)",
+    "topic_id": 17,
+    "analog_ids": []
+}

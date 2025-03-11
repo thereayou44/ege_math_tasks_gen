@@ -1,0 +1,31 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 508683,
+    "condition": {
+        "text": "а)  Решите уравнение б)  Найдите все корни на промежутке ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body634359\" class=\"pbody\"><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/df/df0c4a283e0a5d140e8e062d1c86fd2c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та синус x плюс синус 2x=0.\"></p><p class=\"left_margin\">б)  Най­ди­те все корни на про­ме­жут­ке <img src=\"https://ege.sdamgia.ru/formula/svg/e5/e5f6b69fc83b8aa693229652d5501222.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка минус дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби ; дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/df/df0c4a283e0a5d140e8e062d1c86fd2c.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e5f6b69fc83b8aa693229652d5501222.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Последовательно получаем:   б)  Отбор корней сделаем с помощью единичной окружности.  Ответ:  а)    б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol508683\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=18864\" style=\"float:right;margin:10px\"></p><p class=\"left_margin\">а)  По­сле­до­ва­тель­но по­лу­ча­ем: </p><p><img src=\"https://ege.sdamgia.ru/formula/svg/24/24e262d10cc5d753c190f1a5df01eabe.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та синус x плюс синус 2x=0 рав­но­силь­но ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та синус x плюс 2 синус x умно­жить на ко­си­нус x=0 рав­но­силь­но \"> <span data-width=\"640\" data-formulahash=\"5976631c845f3b9518af4456124a5209\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/59/5976631c845f3b9518af4456124a5209.svg\" class=\"tex\" style=\"vertical-align:-19.3pt\" alt=\" рав­но­силь­но синус x умно­жить на левая круг­лая скоб­ка ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та плюс 2 ко­си­нус x пра­вая круг­лая скоб­ка =0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка синус x=0 , новая стро­ка ко­си­нус x= минус дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби  конец со­во­куп­но­сти . рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка x= Пи n, n при­над­ле­жит Z , новая стро­ка x=\\pm дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи nn при­над­ле­жит Z. конец со­во­куп­но­сти .\"></span></p><p>&nbsp;</p><p class=\"left_margin\">б)  Отбор кор­ней сде­ла­ем с по­мо­щью еди­нич­ной окруж­но­сти.</p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/9f/9fa32adc2589891e586f2c02681d5a17.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x_1= минус дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби плюс дробь: чис­ли­тель: Пи , зна­ме­на­тель: 3 конец дроби = минус дробь: чис­ли­тель: 7 Пи , зна­ме­на­тель: 6 конец дроби ; \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/1a/1a722a30ea9031c084c4a20481832f5c.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x_2= минус дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби плюс дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби = минус Пи ; \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/dc/dc27e904b6ff3610b6afdbdc21a804b7.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x_3= минус Пи плюс дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби = минус дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби ; \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/68/681cd7be5d8340a7803d64bea93484e3.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"x_4=0.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  а) <img src=\"https://ege.sdamgia.ru/formula/svg/33/3389ebac8c5343d6f8d8d44208d6dd15.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" Пи n,n при­над­ле­жит Z;\\pm дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи n,n при­над­ле­жит Z. \">   б) <img src=\"https://ege.sdamgia.ru/formula/svg/52/525b9edd3f0ab3747c3421ce2f020cc1.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" минус дробь: чис­ли­тель: 7 Пи , зна­ме­на­тель: 6 конец дроби ; минус Пи ; минус дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби ;0. \"></p><p></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/24/24e262d10cc5d753c190f1a5df01eabe.svg",
+            "https://ege.sdamgia.ru/formula/svg/59/5976631c845f3b9518af4456124a5209.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9fa32adc2589891e586f2c02681d5a17.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1a722a30ea9031c084c4a20481832f5c.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dc27e904b6ff3610b6afdbdc21a804b7.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/681cd7be5d8340a7803d64bea93484e3.svg",
+            "https://ege.sdamgia.ru/formula/svg/33/3389ebac8c5343d6f8d8d44208d6dd15.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/525b9edd3f0ab3747c3421ce2f020cc1.svg",
+            "/get_file?id=18864"
+        ]
+    },
+    "answer": "а)    б)",
+    "topic_id": null,
+    "analog_ids": []
+}

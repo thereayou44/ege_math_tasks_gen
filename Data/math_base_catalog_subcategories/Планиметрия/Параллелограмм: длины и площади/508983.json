@@ -1,0 +1,39 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 508983,
+    "condition": {
+        "text": "На рисунке изображён график функции вида  Найдите значение x, при котором ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body633547\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=130116\" style=\"float:right;margin:10px;max-width:100%\">На ри­сун­ке изоб­ражён гра­фик функ­ции вида <img src=\"https://ege.sdamgia.ru/formula/svg/d1/d1fbd39d231cb006ed8dbc382c800592.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =\\dfrackx плюс a .\"> Най­ди­те зна­че­ние <i>x</i>, при ко­то­ром <img src=\"https://ege.sdamgia.ru/formula/svg/0a/0aef159a18edf11bff9b44697ac1f44e.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =0,2.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d1/d1fbd39d231cb006ed8dbc382c800592.svg",
+            "https://ege.sdamgia.ru/formula/svg/0a/0aef159a18edf11bff9b44697ac1f44e.svg",
+            "/get_file?id=130116"
+        ]
+    },
+    "solution": {
+        "text": "Решение. График функции имеет вертикальную асимптоту x  =  −1, значит, a  =  1. По графику f(2)  =  1, тогда  Таким образом, Ответ: 14.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol508983\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Гра­фик функ­ции имеет вер­ти­каль­ную асимп­то­ту <i>x</i>  =  −1, зна­чит, <i>a</i>  =  1. По гра­фи­ку <i>f</i>(2)  =  1, тогда <img src=\"https://ege.sdamgia.ru/formula/svg/64/647671293eb3119fd5eb5c8339afc8c8.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: k, зна­ме­на­тель: 2 плюс 1 конец дроби =1 рав­но­силь­но k=3. \"> Таким об­ра­зом, </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/2f/2f2a2c48085b7aa7b4e2d81433c56a1c.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: 3, зна­ме­на­тель: x плюс 1 конец дроби =0,2 рав­но­силь­но 0,2x=2,8 рав­но­силь­но x=14. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 14.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/64/647671293eb3119fd5eb5c8339afc8c8.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2f2a2c48085b7aa7b4e2d81433c56a1c.svg"
+        ]
+    },
+    "answer": "14",
+    "topic_id": 11,
+    "analog_ids": [
+        508983,
+        508984,
+        508985,
+        508986,
+        508984,
+        508985,
+        508986,
+        508989,
+        508990,
+        508991,
+        508992,
+        635859,
+        635962
+    ]
+}

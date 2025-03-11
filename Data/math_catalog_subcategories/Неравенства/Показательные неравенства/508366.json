@@ -1,0 +1,54 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 508366,
+    "condition": {
+        "text": "Решите неравенство: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body634674\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство: <img src=\"https://ege.sdamgia.ru/formula/svg/01/01e61ae087caaa96427434320b6224d1.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"2 в сте­пе­ни левая круг­лая скоб­ка 2x минус 1 пра­вая круг­лая скоб­ка минус 7 умно­жить на 2 в сте­пе­ни левая круг­лая скоб­ка x минус 1 пра­вая круг­лая скоб­ка плюс 5\\leqslant0.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/01/01e61ae087caaa96427434320b6224d1.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Упростим:Пусть  тогда неравенство примет вид  откуда  Возвращаясь к исходной переменной, получим:Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol508366\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Упро­стим:</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"42d888e57a88b04fe43a1a9e7da38623\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/42/42d888e57a88b04fe43a1a9e7da38623.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"2 в сте­пе­ни левая круг­лая скоб­ка 2x минус 1 пра­вая круг­лая скоб­ка минус 7 умно­жить на 2 в сте­пе­ни левая круг­лая скоб­ка x минус 1 пра­вая круг­лая скоб­ка плюс 5\\leqslant0 рав­но­силь­но дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на 2 в сте­пе­ни левая круг­лая скоб­ка 2x пра­вая круг­лая скоб­ка минус дробь: чис­ли­тель: 7, зна­ме­на­тель: 2 конец дроби умно­жить на 2 в сте­пе­ни левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка плюс 5\\leqslant0 рав­но­силь­но 2 в сте­пе­ни левая круг­лая скоб­ка 2x пра­вая круг­лая скоб­ка минус 7 умно­жить на 2 в сте­пе­ни левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка плюс 10\\leqslant0.\"></span><span data-width=\"465\" data-formulahash=\"42d888e57a88b04fe43a1a9e7da38623\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/20/208b734d971d359a743d4b8bda4d8d57.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"2 в сте­пе­ни левая круг­лая скоб­ка 2x минус 1 пра­вая круг­лая скоб­ка минус 7 умно­жить на 2 в сте­пе­ни левая круг­лая скоб­ка x минус 1 пра­вая круг­лая скоб­ка плюс 5\\leqslant0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/45/4594fcadbba76719316f54476de73db5.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" рав­но­силь­но дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на 2 в сте­пе­ни левая круг­лая скоб­ка 2x пра­вая круг­лая скоб­ка минус дробь: чис­ли­тель: 7, зна­ме­на­тель: 2 конец дроби умно­жить на 2 в сте­пе­ни левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка плюс 5\\leqslant0 рав­но­силь­но 2 в сте­пе­ни левая круг­лая скоб­ка 2x пра­вая круг­лая скоб­ка минус 7 умно­жить на 2 в сте­пе­ни левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка плюс 10\\leqslant0.\"></span></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/bb/bbd85a5b267f2d39960cb1ec94a5fdcc.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"t=2 в сте­пе­ни x ,\"> тогда не­ра­вен­ство при­мет вид <img src=\"https://ege.sdamgia.ru/formula/svg/10/104d6a629d765fa3e48fd7ae12598319.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"t в квад­ра­те минус 7t плюс 10\\leqslant0,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/fd/fdb17d52ba14678b14ecf66fe9642e4c.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"2 мень­ше или равно t мень­ше или равно 5.\"> Воз­вра­ща­ясь к ис­ход­ной пе­ре­мен­ной, по­лу­чим:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/3e/3e1986489e5d4d005dd598e02f7c1a49.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\"2\\leqslant2 в сте­пе­ни x \\leqslant5 рав­но­силь­но 1 мень­ше или равно x мень­ше или равно ло­га­рифм по ос­но­ва­нию 2 5.\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/3d/3d8d360c6e1e53b1d7e4d26b525ade89.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка 1; ло­га­рифм по ос­но­ва­нию 2 5 пра­вая квад­рат­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/42/42d888e57a88b04fe43a1a9e7da38623.svg",
+            "https://ege.sdamgia.ru/formula/svg/20/208b734d971d359a743d4b8bda4d8d57.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/4594fcadbba76719316f54476de73db5.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bbd85a5b267f2d39960cb1ec94a5fdcc.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/104d6a629d765fa3e48fd7ae12598319.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fdb17d52ba14678b14ecf66fe9642e4c.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e1986489e5d4d005dd598e02f7c1a49.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3d8d360c6e1e53b1d7e4d26b525ade89.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": [
+        508366,
+        508368,
+        508370,
+        508372,
+        508368,
+        508370,
+        508372,
+        508374,
+        508450,
+        508463,
+        508465,
+        508467,
+        508481,
+        508487,
+        508489,
+        508525,
+        508528,
+        508543,
+        508555,
+        508577,
+        511516,
+        511518,
+        511544,
+        511550
+    ]
+}

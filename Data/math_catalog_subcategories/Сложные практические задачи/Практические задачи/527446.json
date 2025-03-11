@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 527446,
+    "condition": {
+        "text": "Бригада рабочих выполняет задание за 42 дня. Если бы в бригаде было на 4 человека больше и каждый рабочий бригады работал бы на 1 час в день дольше, то это же задание было бы выполнено не более чем за 30 дней. При увеличении бригады еще на 6 человек и рабочего дня еще на 1 час все задание было бы закончено не ранее чем через 21 день. Определите наименьшую при данных условиях численность бригады, а также продолжительность рабочего дня.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body418474\" class=\"pbody\"><p class=\"left_margin\">Бри­га­да ра­бо­чих вы­пол­ня­ет за­да­ние за 42 дня. Если бы в бри­га­де было на 4 че­ло­ве­ка боль­ше и каж­дый ра­бо­чий бри­га­ды ра­бо­тал бы на 1 час в день доль­ше, то это же за­да­ние было бы вы­пол­не­но не более чем за 30 дней. При уве­ли­че­нии бри­га­ды еще на 6 че­ло­век и ра­бо­че­го дня еще на 1 час все за­да­ние было бы за­кон­че­но не ранее чем через 21 день. Опре­де­ли­те наи­мень­шую при дан­ных усло­ви­ях чис­лен­ность бри­га­ды, а также про­дол­жи­тель­ность ра­бо­че­го дня.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Пусть в бригаде x рабочих и каждый работает y часов в день. Тогда все задание равно  По условию,  и Значит, откуда   Если взять  то оба неравенства должны обратиться в равенства. То есть  откуда  При этих значениях все условия выполняются. Ответ: 20 человек, 6 часов.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol527446\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть в бри­га­де <i>x</i> ра­бо­чих и каж­дый ра­бо­та­ет <i>y</i> часов в день. Тогда все за­да­ние равно <img src=\"https://ege.sdamgia.ru/formula/svg/9a/9af4a6db55ae3b994af924ff2d227881.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"42xy.\"> По усло­вию, </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/c9/c9a84b151a0ae4633549f50a777ce7fe.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний 30 левая круг­лая скоб­ка x плюс 4 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка y плюс 1 пра­вая круг­лая скоб­ка боль­ше или равно 42xy,21 левая круг­лая скоб­ка x плюс 10 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка y плюс 2 пра­вая круг­лая скоб­ка мень­ше или равно 42xy конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний 5xy плюс 20y плюс 5x плюс 20 боль­ше или равно 7xy,xy плюс 10y плюс 2x плюс 20 мень­ше или равно 2xy конец си­сте­мы . рав­но­силь­но \"></p><p> и </p><p><img src=\"https://ege.sdamgia.ru/formula/svg/1c/1c1748fb418c1ee290503c3ab67acdb4.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" рав­но­силь­но си­сте­ма вы­ра­же­ний 20y плюс 5x плюс 20 боль­ше или равно 2xy,10y плюс 2x плюс 20 мень­ше или равно xy. конец си­сте­мы .\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Зна­чит, </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/85/853f7159f6b53d5968e5d9651f1e2186.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"20y плюс 5x плюс 20 боль­ше или равно 2xy боль­ше или равно 2 левая круг­лая скоб­ка 10y плюс 2x плюс 20 пра­вая круг­лая скоб­ка =20y плюс 4x плюс 40,\"></p><p class=\"left_margin\"></p></center><p>от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/15/15ed1a5d8eb95fe23d9be972c7091dc9.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"5x плюс 20 боль­ше или равно 4x плюс 40,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/fb/fbf4a8527f2bdea2b9b7e5ab9ad3574e.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"x боль­ше или равно 20.\"> Если взять <img src=\"https://ege.sdamgia.ru/formula/svg/ed/ed17b990a55e47373ed6452e997e2eb0.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x=20,\"> то оба не­ра­вен­ства долж­ны об­ра­тить­ся в ра­вен­ства. То есть <img src=\"https://ege.sdamgia.ru/formula/svg/e4/e4ac75060957de35a24ec9a5f17a38db.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"20y плюс 120=40y,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/fc/fca41f0fdb760c58e9d16d7d45b764cd.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=6.\"> При этих зна­че­ни­ях все усло­вия вы­пол­ня­ют­ся.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 20 че­ло­век, 6 часов.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/9a/9af4a6db55ae3b994af924ff2d227881.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c9a84b151a0ae4633549f50a777ce7fe.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1c1748fb418c1ee290503c3ab67acdb4.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/853f7159f6b53d5968e5d9651f1e2186.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/15ed1a5d8eb95fe23d9be972c7091dc9.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fbf4a8527f2bdea2b9b7e5ab9ad3574e.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/ed17b990a55e47373ed6452e997e2eb0.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e4ac75060957de35a24ec9a5f17a38db.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fca41f0fdb760c58e9d16d7d45b764cd.svg"
+        ]
+    },
+    "answer": "20 че­ло­век, 6 часов.",
+    "topic_id": null,
+    "analog_ids": []
+}

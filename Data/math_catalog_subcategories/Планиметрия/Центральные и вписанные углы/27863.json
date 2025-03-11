@@ -1,0 +1,62 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27863,
+    "condition": {
+        "text": "Центральный угол на 36° больше острого вписанного угла, опирающегося на ту же дугу окружности. Найдите вписанный угол. Ответ дайте в градусах.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918059\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=182089\" style=\"float:right;margin:10px;max-width:100%\">Цен­траль­ный угол на 36° боль­ше остро­го впи­сан­но­го угла, опи­ра­ю­ще­го­ся на ту же дугу окруж­но­сти. Най­ди­те впи­сан­ный угол. Ответ дайте в гра­ду­сах.</p></div>",
+        "image_urls": [
+            "/get_file?id=182089"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Пусть вписанный угол равен x, тогда центральный угол равен  Получаем уравнение:Ответ: 36.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27863\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть впи­сан­ный угол равен <i>x</i>, тогда цен­траль­ный угол равен <img src=\"https://ege.sdamgia.ru/formula/svg/d5/d5d7918736c30a6f81f03acdab1262bd.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2x.\"> По­лу­ча­ем урав­не­ние:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/c7/c711ae0b5f1f1413538945c2dc032923.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2x минус x=36 рав­но­силь­но x=36.\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 36.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d5/d5d7918736c30a6f81f03acdab1262bd.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c711ae0b5f1f1413538945c2dc032923.svg"
+        ]
+    },
+    "answer": "36",
+    "topic_id": 1,
+    "analog_ids": [
+        27863,
+        51231,
+        500888,
+        508309,
+        51231,
+        500888,
+        508309,
+        508382,
+        509636,
+        509656,
+        514018,
+        514037,
+        661773,
+        661813,
+        51233,
+        51235,
+        51237,
+        51239,
+        51241,
+        51243,
+        51245,
+        51247,
+        51249,
+        51251,
+        51253,
+        51255,
+        51257,
+        51259,
+        51261,
+        51263,
+        51265,
+        51267,
+        51269,
+        51271,
+        51273,
+        51275,
+        51277,
+        51279
+    ]
+}

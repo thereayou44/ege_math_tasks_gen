@@ -1,0 +1,51 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27429,
+    "condition": {
+        "text": "В треугольнике ABC  косинус внешнего угла при вершине A равен −0,5. Найдите ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919001\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right; margin:10px\" src=\"/get_file?id=1261\">В тре­уголь­ни­ке <i>ABC</i> <img src=\"https://ege.sdamgia.ru/formula/svg/1f/1fbf13d2d2f16c8dc5ff1ffb4414797b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AC = BC = 8,\"> ко­си­нус внеш­не­го угла при вер­ши­не <i>A</i> равен −0,5. Най­ди­те <img src=\"https://ege.sdamgia.ru/formula/svg/0c/0c6ed112a9eb109891082295b6e83622.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AB.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/1f/1fbf13d2d2f16c8dc5ff1ffb4414797b.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c6ed112a9eb109891082295b6e83622.svg",
+            "/get_file?id=1261"
+        ]
+    },
+    "solution": {
+        "text": "Решение. ##  Ответ: 8.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27429\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">##</p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/48/48db0ed8750026b3fc901b493a743519.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AB=2AH=2AC ко­си­нус A= минус 2AC ко­си­нус A_внеш=16 умно­жить на 0,5=8.\"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 8.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/48/48db0ed8750026b3fc901b493a743519.svg"
+        ]
+    },
+    "answer": "8",
+    "topic_id": null,
+    "analog_ids": [
+        27429,
+        37935,
+        37937,
+        37939,
+        37935,
+        37937,
+        37939,
+        37941,
+        37943,
+        37945,
+        37947,
+        37949,
+        37951,
+        37953,
+        37955,
+        37957,
+        37959,
+        37961,
+        37963,
+        37965,
+        37967,
+        37969,
+        37971,
+        37973,
+        37975,
+        37977
+    ]
+}

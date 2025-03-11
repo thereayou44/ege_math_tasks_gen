@@ -1,0 +1,33 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 552930,
+    "condition": {
+        "text": "а)  Решите уравнение б)  Укажите корни этого уравнения, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body393502\" class=\"pbody\"><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/e2/e24fbe286e0c8fa57efd0dc572d028ee.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"\\ctg в квад­ра­те x плюс 2 ко­рень из 3 \\ctg x плюс 3 синус в квад­ра­те x= минус 3 синус в квад­ра­те левая круг­лая скоб­ка x минус дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби пра­вая круг­лая скоб­ка . \"></p><p class=\"left_margin\">б)  Ука­жи­те корни этого урав­не­ния, при­над­ле­жа­щие от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/1f/1f405837b225c362f7c6402607259b05.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка минус дробь: чис­ли­тель: 11 Пи , зна­ме­на­тель: 2 конец дроби ; минус 4 Пи пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e2/e24fbe286e0c8fa57efd0dc572d028ee.svg",
+            "https://ege.sdamgia.ru/formula/svg/1f/1f405837b225c362f7c6402607259b05.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение.  а)  Применив формулу приведения, используем основное тригонометрическое тождество, получим полный квадрат суммы:б)  Отберём корни при помощи тригонометрической окружности (см. рис.). На заданном промежутке лежат корни:   Ответ: а)  б)  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol552930\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=71594\" style=\"float:right;margin:10px;max-width:100%\"> а)  При­ме­нив фор­му­лу при­ве­де­ния, ис­поль­зу­ем ос­нов­ное три­го­но­мет­ри­че­ское тож­де­ство, по­лу­чим пол­ный квад­рат суммы:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/a5/a5e7adda0a522008fbafa90c2d7bcedc.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"\\ctg в квад­ра­те x плюс 2 ко­рень из 3 \\ctg x плюс 3 синус в квад­ра­те x= минус 3 синус в квад­ра­те левая круг­лая скоб­ка x минус дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби пра­вая круг­лая скоб­ка рав­но­силь­но \"></p><p><span data-width=\"640\" data-formulahash=\"cbab8cad7028fe0a48c39c05fdd8ac3f\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/cb/cbab8cad7028fe0a48c39c05fdd8ac3f.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\" рав­но­силь­но \\ctg в квад­ра­те x плюс 2 ко­рень из 3 \\ctg x плюс 3 синус в квад­ра­те x= минус 3 ко­си­нус в квад­ра­те x рав­но­силь­но \\ctg в квад­ра­те x плюс 2 ко­рень из 3 \\ctg x плюс 3=0 рав­но­силь­но \"></span><span data-width=\"440\" data-formulahash=\"cbab8cad7028fe0a48c39c05fdd8ac3f\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/67/6714ba0ffa9160ee0e3272390c07211f.svg\" class=\"tex\" style=\"vertical-align:-3.3pt\" alt=\" рав­но­силь­но \\ctg в квад­ра­те x плюс 2 ко­рень из 3 \\ctg x плюс 3 синус в квад­ра­те x= минус 3 ко­си­нус в квад­ра­те x рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/54/5401508fb40eee37eedeefa782a03334.svg\" class=\"tex\" style=\"vertical-align:-3.3pt\" alt=\" рав­но­силь­но \\ctg в квад­ра­те x плюс 2 ко­рень из 3 \\ctg x плюс 3=0 рав­но­силь­но \"></span></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/5c/5cf27b72a93262228ee62401371944b0.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" рав­но­силь­но левая круг­лая скоб­ка \\ctg x плюс ко­рень из 3 пра­вая круг­лая скоб­ка в квад­ра­те =0 рав­но­силь­но \\ctg x= минус ко­рень из 3 рав­но­силь­но x= дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби плюс Пи k,k при­над­ле­жит Z . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">б)  Отберём корни при по­мо­щи три­го­но­мет­ри­че­ской окруж­но­сти (см. рис.). На за­дан­ном про­ме­жут­ке лежат корни: <img src=\"https://ege.sdamgia.ru/formula/svg/46/46c0fb001ecf1ebb65f25c7642463d3b.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" минус дробь: чис­ли­тель: 31 Пи , зна­ме­на­тель: 6 конец дроби , \"> <img src=\"https://ege.sdamgia.ru/formula/svg/32/32bb55c4c5bbf3ee4e73121317f4a0a9.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" минус дробь: чис­ли­тель: 25 Пи , зна­ме­на­тель: 6 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ</span>: а) <img src=\"https://ege.sdamgia.ru/formula/svg/a6/a6f70d29fde8f5ce51a6847f4d25a3e4.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая фи­гур­ная скоб­ка дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби плюс Пи k : k при­над­ле­жит Z пра­вая фи­гур­ная скоб­ка ; \"> б) <img src=\"https://ege.sdamgia.ru/formula/svg/46/46c0fb001ecf1ebb65f25c7642463d3b.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" минус дробь: чис­ли­тель: 31 Пи , зна­ме­на­тель: 6 конец дроби , \"> <img src=\"https://ege.sdamgia.ru/formula/svg/32/32bb55c4c5bbf3ee4e73121317f4a0a9.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" минус дробь: чис­ли­тель: 25 Пи , зна­ме­на­тель: 6 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a5/a5e7adda0a522008fbafa90c2d7bcedc.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cbab8cad7028fe0a48c39c05fdd8ac3f.svg",
+            "https://ege.sdamgia.ru/formula/svg/67/6714ba0ffa9160ee0e3272390c07211f.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/5401508fb40eee37eedeefa782a03334.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5cf27b72a93262228ee62401371944b0.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/46c0fb001ecf1ebb65f25c7642463d3b.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/32bb55c4c5bbf3ee4e73121317f4a0a9.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a6f70d29fde8f5ce51a6847f4d25a3e4.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/46c0fb001ecf1ebb65f25c7642463d3b.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/32bb55c4c5bbf3ee4e73121317f4a0a9.svg",
+            "/get_file?id=71594"
+        ]
+    },
+    "answer": "",
+    "topic_id": 13,
+    "analog_ids": []
+}

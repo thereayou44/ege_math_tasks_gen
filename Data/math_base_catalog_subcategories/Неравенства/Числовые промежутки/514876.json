@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 514876,
+    "condition": {
+        "text": "В 2011‐м году во время празднования своего дня рождения я обнаружил, что если между цифрами моего года рождения вставить знаки действий  «×»,  «+»,  «×», то получилось бы выражение, равное моему тогдашнему возрасту. Сколько лет мне исполнится в 2017‐м году?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body636352\" class=\"pbody\"><p class=\"left_margin\">В&nbsp;2011‐м году во время празд­но­ва­ния сво­е­го дня рож­де­ния я об­на­ру­жил, что если между циф­ра­ми моего года рож­де­ния вста­вить знаки дей­ствий  «×»,&nbsp; «+»,&nbsp; «×», то по­лу­чи­лось бы вы­ра­же­ние, рав­ное моему то­гдаш­не­му воз­рас­ту. Сколь­ко лет мне ис­пол­нит­ся&nbsp;в&nbsp;2017‐м&nbsp;году?</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Если год рождения начинается с цифр 20, то  поскольку одна из последних цифр тоже равна нулю, что невозможно. Значит, он начинается с цифр 19. Обозначим остальные за a и  Тогда возраст равен  Получаем уравнение:  Учитывая, что   возможны варианты   или   То есть год рождения 1966 или 1974, поэтому возраст в 2017 году будет равен 51 или 43 года.Начинаться с цифр 18 и ранее он не может, поскольку тогда возраст будет не больше  а должен быть не меньше  Ответ: 43 или 51.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol514876\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Если год рож­де­ния на­чи­на­ет­ся с цифр 20, то <img src=\"https://ege.sdamgia.ru/formula/svg/e7/e72c709be5b0a54df01a1c596b437c18.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2\\times 0 плюс a\\times b=0,\"> по­сколь­ку одна из по­след­них цифр тоже равна нулю, что не­воз­мож­но. Зна­чит, он на­чи­на­ет­ся с цифр 19. Обо­зна­чим осталь­ные за <i>a</i> и <img src=\"https://ege.sdamgia.ru/formula/svg/2d/2dd7ce2d41fb3bc94a98a058ea9f3832.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"b.\"> Тогда воз­раст равен <img src=\"https://ege.sdamgia.ru/formula/svg/9e/9e0cf935380224fa158ed5e8c6cf4fd5.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2011 минус 1900 минус 10a минус b=111 минус 10a минус b.\"> По­лу­ча­ем урав­не­ние: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/34/347679d2e9859caa3e90d00d6647f7bf.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"1\\times 9 плюс ab=111 минус 10a минус b рав­но­силь­но ab плюс 10a плюс b=102 рав­но­силь­но \"></p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/af/af372d7835b9b86889320a263e811f86.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" рав­но­силь­но ab плюс 10a плюс b плюс 10=112 рав­но­силь­но левая круг­лая скоб­ка a плюс 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка b плюс 10 пра­вая круг­лая скоб­ка =112.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Учи­ты­вая, что <img src=\"https://ege.sdamgia.ru/formula/svg/81/81024556da4f492b30dda11fba29867c.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"0 мень­ше или равно a,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/74/741defd693f2aa8401108ae1b1ef0739.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"b мень­ше или равно 9,\"> воз­мож­ны ва­ри­ан­ты <img src=\"https://ege.sdamgia.ru/formula/svg/2b/2b5df449774bad200f1c3e74f877db45.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a=6,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/82/82bd31ca43ce9827c52a8feb2edd11dc.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"b=6\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/29/29ca37ab667e7a0e3cd16f810151d2f0.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a=7,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/4c/4cd5c38f58f1ddc08bdb64e272e1e445.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"b=4.\"> То есть год рож­де­ния 1966 или 1974, по­это­му воз­раст в 2017 году будет равен 51 или 43 года.</p><p class=\"left_margin\">На­чи­нать­ся с цифр 18 и ранее он не может, по­сколь­ку тогда воз­раст будет не боль­ше <img src=\"https://ege.sdamgia.ru/formula/svg/d2/d2e33b544f02ff9b4d4366f3c3ad147b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"8 плюс ab мень­ше или равно 8 плюс 9 умно­жить на 9=89,\"> а дол­жен быть не мень­ше <img src=\"https://ege.sdamgia.ru/formula/svg/1f/1f7bd221628b7e4de9f6cb71f4deb841.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2011 минус 1900=111.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 43 или 51.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e7/e72c709be5b0a54df01a1c596b437c18.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2dd7ce2d41fb3bc94a98a058ea9f3832.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9e0cf935380224fa158ed5e8c6cf4fd5.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/347679d2e9859caa3e90d00d6647f7bf.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af372d7835b9b86889320a263e811f86.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/81024556da4f492b30dda11fba29867c.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/741defd693f2aa8401108ae1b1ef0739.svg",
+            "https://ege.sdamgia.ru/formula/svg/2b/2b5df449774bad200f1c3e74f877db45.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/82bd31ca43ce9827c52a8feb2edd11dc.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/29ca37ab667e7a0e3cd16f810151d2f0.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4cd5c38f58f1ddc08bdb64e272e1e445.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d2e33b544f02ff9b4d4366f3c3ad147b.svg",
+            "https://ege.sdamgia.ru/formula/svg/1f/1f7bd221628b7e4de9f6cb71f4deb841.svg"
+        ]
+    },
+    "answer": "43 или 51.",
+    "topic_id": null,
+    "analog_ids": []
+}

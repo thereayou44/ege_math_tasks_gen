@@ -1,0 +1,51 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27928,
+    "condition": {
+        "text": "Углы A, B и C четырехугольника ABCD относятся как  Найдите угол D, если около данного четырехугольника можно описать окружность. Ответ дайте в градусах.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918500\" class=\"pbody\"><p class=\"left_margin\">Углы <i>A</i>, <i>B</i> и <i>C</i> че­ты­рех­уголь­ни­ка <i>ABCD</i> от­но­сят­ся как <img src=\"https://ege.sdamgia.ru/formula/svg/db/db88cc906bb454962bfef9eaf52e0d0f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"1 : 2 : 3.\"> Най­ди­те угол <i>D</i>, если около дан­но­го че­ты­рех­уголь­ни­ка можно опи­сать окруж­ность. Ответ дайте в гра­ду­сах.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/db/db88cc906bb454962bfef9eaf52e0d0f.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. так как вокруг четырехугольника можно описать окружность, то сумма его противоположных углов равна   Ответ: 90.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27928\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">так как во­круг че­ты­рех­уголь­ни­ка можно опи­сать окруж­ность, то сумма его про­ти­во­по­лож­ных углов равна <img src=\"https://ege.sdamgia.ru/formula/svg/aa/aa1008dea3b27bc03e4de3c0b7e4b135.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"180 гра­ду­сов .\"></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f0/f06d63928b090e84a45d2cf47d1913d5.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle A плюс \\angle C=\\angle A плюс 3\\angle A=180 гра­ду­сов рав­но­силь­но \\angle A=45 гра­ду­сов ,\\angle B=90 гра­ду­сов .\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/23/23f2d0951896440bac45c4bc54dddaa1.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle D=180 гра­ду­сов минус \\angle B=180 гра­ду­сов минус 90 гра­ду­сов =90 гра­ду­сов .\"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 90.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/aa/aa1008dea3b27bc03e4de3c0b7e4b135.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f06d63928b090e84a45d2cf47d1913d5.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/23f2d0951896440bac45c4bc54dddaa1.svg"
+        ]
+    },
+    "answer": "90",
+    "topic_id": null,
+    "analog_ids": [
+        27928,
+        54015,
+        54017,
+        54019,
+        54015,
+        54017,
+        54019,
+        54021,
+        54023,
+        54025,
+        54027,
+        54029,
+        54031,
+        54033,
+        54035,
+        54037,
+        54039,
+        54041,
+        54043,
+        54045,
+        54047,
+        54049,
+        54051,
+        54053,
+        54055,
+        54057
+    ]
+}

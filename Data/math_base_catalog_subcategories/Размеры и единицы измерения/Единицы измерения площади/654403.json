@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 654403,
+    "condition": {
+        "text": "Решите неравенство: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body496319\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство: <img src=\"https://ege.sdamgia.ru/formula/svg/08/0805703d8b2d5d5de4454554b0062d4f.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\"5 в сте­пе­ни левая круг­лая скоб­ка ло­га­рифм по ос­но­ва­нию x 2 пра­вая круг­лая скоб­ка умно­жить на ло­га­рифм по ос­но­ва­нию 2 x плюс 5 в сте­пе­ни левая круг­лая скоб­ка ло­га­рифм по ос­но­ва­нию 2 x пра­вая круг­лая скоб­ка умно­жить на ло­га­рифм по ос­но­ва­нию x 2 мень­ше или равно 10.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/08/0805703d8b2d5d5de4454554b0062d4f.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Пусть  тогда Для  неравенство не определено. Если  то левая часть неравенства (⁎) отрицательна, и неравенство верно. Если  то по неравенству о средних и свойству двух взаимно обратных чисела потому неравенство (⁎) выполняется только при  Таким образом,  или Вернёмся к исходной переменной:Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol654403\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/a9/a946e236bc44a45de314f9ce6a6a3672.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" ло­га­рифм по ос­но­ва­нию 2 x=t,\"> тогда </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/a0/a079d1f86f94478175424fbd99781b8f.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"5 в сте­пе­ни левая круг­лая скоб­ка дробь: чис­ли­тель: 1, зна­ме­на­тель: t конец дроби пра­вая круг­лая скоб­ка умно­жить на t плюс 5 в сте­пе­ни t умно­жить на дробь: чис­ли­тель: 1, зна­ме­на­тель: t конец дроби мень­ше или равно 10. \\qquad левая круг­лая скоб­ка * пра­вая круг­лая скоб­ка \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Для <img src=\"https://ege.sdamgia.ru/formula/svg/3e/3e8f7b0adf6d7024b951f29a18225e4a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"t=0\"> не­ра­вен­ство не опре­де­ле­но. Если <img src=\"https://ege.sdamgia.ru/formula/svg/44/447d448658c5ed8fb747529325131ce2.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"t мень­ше 0,\"> то левая часть не­ра­вен­ства (⁎) от­ри­ца­тель­на, и не­ра­вен­ство верно. Если <img src=\"https://ege.sdamgia.ru/formula/svg/05/0590a63651cbb6ffda67dd5cd74dac8a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"t боль­ше 0,\"> то по не­ра­вен­ству о сред­них и свой­ству двух вза­им­но об­рат­ных чисел</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/c2/c2932f7f51f35d5ff0b7055891b15213.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"5 в сте­пе­ни левая круг­лая скоб­ка \\tfrac1t пра­вая круг­лая скоб­ка умно­жить на t плюс 5 в сте­пе­ни t умно­жить на дробь: чис­ли­тель: 1, зна­ме­на­тель: t конец дроби боль­ше или равно 2 ко­рень из: на­ча­ло ар­гу­мен­та: 5 в сте­пе­ни левая круг­лая скоб­ка \\tfrac1t конец ар­гу­мен­та умно­жить на t умно­жить на 5 в сте­пе­ни t умно­жить на \\tfrac1t пра­вая круг­лая скоб­ка =2 ко­рень из: на­ча­ло ар­гу­мен­та: 5 в сте­пе­ни левая круг­лая скоб­ка \\tfrac1t плюс t конец ар­гу­мен­та пра­вая круг­лая скоб­ка боль­ше или равно 2 ко­рень из: на­ча­ло ар­гу­мен­та: 5 в сте­пе­ни левая круг­лая скоб­ка \\tfrac11 плюс 1 конец ар­гу­мен­та пра­вая круг­лая скоб­ка =2 ко­рень из: на­ча­ло ар­гу­мен­та: 5 в квад­ра­те конец ар­гу­мен­та =10, \"></p><p class=\"left_margin\"></p></center><p>а по­то­му не­ра­вен­ство (⁎) вы­пол­ня­ет­ся толь­ко при <img src=\"https://ege.sdamgia.ru/formula/svg/4a/4a81672031110046539bbc3e2ba17777.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"t=1.\"> Таким об­ра­зом, <img src=\"https://ege.sdamgia.ru/formula/svg/ff/ff7fa304ecf57b573120bafee2b1cb58.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"t мень­ше 0\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/4a/4a81672031110046539bbc3e2ba17777.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"t=1.\"></p><p class=\"left_margin\"></p><p class=\"left_margin\">Вернёмся к ис­ход­ной пе­ре­мен­ной:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/7b/7bb2cc3b2b13640622d2db29a5a1bd20.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" со­во­куп­ность вы­ра­же­ний ло­га­рифм по ос­но­ва­нию 2 x мень­ше 0, ло­га­рифм по ос­но­ва­нию 2 x=1 конец со­во­куп­но­сти . рав­но­силь­но со­во­куп­ность вы­ра­же­ний 0 мень­ше x мень­ше 1, x=2. конец со­во­куп­но­сти . \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/68/68e554735d16ca204d9f1bac0c22a67d.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 0; 1 пра­вая круг­лая скоб­ка \\cup левая фи­гур­ная скоб­ка 2 пра­вая фи­гур­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a9/a946e236bc44a45de314f9ce6a6a3672.svg",
+            "https://ege.sdamgia.ru/formula/svg/a0/a079d1f86f94478175424fbd99781b8f.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e8f7b0adf6d7024b951f29a18225e4a.svg",
+            "https://ege.sdamgia.ru/formula/svg/44/447d448658c5ed8fb747529325131ce2.svg",
+            "https://ege.sdamgia.ru/formula/svg/05/0590a63651cbb6ffda67dd5cd74dac8a.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c2932f7f51f35d5ff0b7055891b15213.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4a81672031110046539bbc3e2ba17777.svg",
+            "https://ege.sdamgia.ru/formula/svg/ff/ff7fa304ecf57b573120bafee2b1cb58.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4a81672031110046539bbc3e2ba17777.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7bb2cc3b2b13640622d2db29a5a1bd20.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/68e554735d16ca204d9f1bac0c22a67d.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": []
+}

@@ -1,0 +1,29 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 513091,
+    "condition": {
+        "text": "а)  Решите уравнение б)  Найдите все корни этого уравнения, принадлежащие промежутку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body637631\" class=\"pbody\"><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/b2/b28863bee46de72c3dca2f00857a8f00.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2 ко­си­нус 2x плюс 4 ко­рень из 3 ко­си­нус x минус 7=0.\"></p><p class=\"left_margin\">б)  Най­ди­те все корни этого урав­не­ния, при­над­ле­жа­щие про­ме­жут­ку <img src=\"https://ege.sdamgia.ru/formula/svg/1e/1e35e0b56ead17e3e50425bfc981af92.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 2 конец дроби ;4 Пи пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b2/b28863bee46de72c3dca2f00857a8f00.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1e35e0b56ead17e3e50425bfc981af92.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Имеем: б)  С помощью числовой окружности (см. рис.) отберём корни, принадлежащие отрезку  Получим точку  Ответ:  а)  б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol513091\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Имеем:</p><p><img src=\"/get_file?id=31591\" style=\"float:right;margin:10px\"></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ed/edfb84051d37dced83459486ca013063.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"2 левая круг­лая скоб­ка 2 ко­си­нус в квад­ра­те x минус 1 пра­вая круг­лая скоб­ка плюс 4 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та ко­си­нус x минус 7=0 рав­но­силь­но 4 ко­си­нус в квад­ра­те x плюс 4 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та ко­си­нус x минус 9=0 рав­но­силь­но \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/27/2747faf2a06b369ce1f1b519e2fd51ee.svg\" class=\"tex\" style=\"vertical-align:-25.0pt\" alt=\" рав­но­силь­но со­во­куп­ность вы­ра­же­ний ко­си­нус x= дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби , ко­си­нус x= минус дробь: чис­ли­тель: 3 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби конец со­во­куп­но­сти . рав­но­силь­но ко­си­нус x= дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби рав­но­силь­но x=\\pm дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k,k при­над­ле­жит Z . \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p class=\"left_margin\">б)  С по­мо­щью чис­ло­вой окруж­но­сти (см. рис.) отберём корни, при­над­ле­жа­щие от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/1e/1e35e0b56ead17e3e50425bfc981af92.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 2 конец дроби ;4 Пи пра­вая квад­рат­ная скоб­ка . \"> По­лу­чим точку <img src=\"https://ege.sdamgia.ru/formula/svg/3c/3cf901fea9240c554a956f0f17abd963.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 23 Пи , зна­ме­на­тель: 6 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  а) <img src=\"https://ege.sdamgia.ru/formula/svg/c7/c701271cafb3c490eb8b77a57936d822.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" левая фи­гур­ная скоб­ка минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k, дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k : k при­над­ле­жит Z пра­вая фи­гур­ная скоб­ка ; \"> б) <img src=\"https://ege.sdamgia.ru/formula/svg/3c/3cf901fea9240c554a956f0f17abd963.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 23 Пи , зна­ме­на­тель: 6 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ed/edfb84051d37dced83459486ca013063.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/2747faf2a06b369ce1f1b519e2fd51ee.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1e35e0b56ead17e3e50425bfc981af92.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3cf901fea9240c554a956f0f17abd963.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c701271cafb3c490eb8b77a57936d822.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3cf901fea9240c554a956f0f17abd963.svg",
+            "/get_file?id=31591"
+        ]
+    },
+    "answer": "а)  б)",
+    "topic_id": 13,
+    "analog_ids": []
+}

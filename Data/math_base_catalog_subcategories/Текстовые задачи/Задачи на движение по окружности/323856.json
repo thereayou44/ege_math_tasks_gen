@@ -1,0 +1,59 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 323856,
+    "condition": {
+        "text": "Два гонщика участвуют в гонках. Им предстоит проехать 60 кругов по кольцевой трассе протяжённостью 3 км. Оба гонщика стартовали одновременно, а на финиш первый пришёл раньше второго на 10 минут. Чему равнялась средняя скорость второго гонщика, если известно, что первый гонщик в первый раз обогнал второго на круг через 15 минут? Ответ дайте в км/ч.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body696300\" class=\"pbody\"><p class=\"left_margin\">Два гон­щи­ка участ­ву­ют в гон­ках. Им пред­сто­ит про­ехать 60 кру­гов по коль­це­вой трас­се про­тяжённо­стью 3 км. Оба гон­щи­ка стар­то­ва­ли од­но­вре­мен­но, а на финиш пер­вый пришёл рань­ше вто­ро­го на 10 минут. Чему рав­ня­лась сред­няя ско­рость вто­ро­го гон­щи­ка, если из­вест­но, что пер­вый гон­щик в пер­вый раз обо­гнал вто­ро­го на круг через 15 минут? Ответ дайте в км/ч.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Первый обогнал второго на 3 км за четверть часа, это значит, что скорость удаления (сближения) гонщиков равна  км/ч. Обозначим скорость второго гонщика x км/ч, тогда скорость первого  км/ч. Составим и решим уравнение:  Таким образом, скорость второго гонщика равна 108 км/ч. Ответ: 108.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol323856\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пер­вый обо­гнал вто­ро­го на 3 км за чет­верть часа, это зна­чит, что ско­рость уда­ле­ния (сбли­же­ния) гон­щи­ков равна <img src=\"https://ege.sdamgia.ru/formula/svg/eb/eb3e86a534c305bcedef8321cfacdfec.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"3: дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби =12 \"> км/ч. Обо­зна­чим ско­рость вто­ро­го гон­щи­ка <i>x</i> км/ч, тогда ско­рость пер­во­го <img src=\"https://ege.sdamgia.ru/formula/svg/5b/5b4d1f7c5a71079624cbf62b0d383865.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка x плюс 12 пра­вая круг­лая скоб­ка \"> км/ч. Со­ста­вим и решим урав­не­ние:</p><p class=\"left_margin\"></p><center><p>&nbsp;</p><p><span data-width=\"640\" data-formulahash=\"eae31f57dabda52e7dbb5a3805e71460\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/ea/eae31f57dabda52e7dbb5a3805e71460.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" дробь: чис­ли­тель: 180, зна­ме­на­тель: x конец дроби минус дробь: чис­ли­тель: 180, зна­ме­на­тель: x плюс 12 конец дроби = дробь: чис­ли­тель: 1, зна­ме­на­тель: 6 конец дроби рав­но­силь­но дробь: чис­ли­тель: 180x плюс 180 умно­жить на 12 минус 180x, зна­ме­на­тель: x левая круг­лая скоб­ка x плюс 12 пра­вая круг­лая скоб­ка конец дроби = дробь: чис­ли­тель: 1, зна­ме­на­тель: 6 конец дроби рав­но­силь­но x в квад­ра­те плюс 12x=180 умно­жить на 12 умно­жить на 6 \"></span><span data-width=\"465\" data-formulahash=\"eae31f57dabda52e7dbb5a3805e71460\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/22/2253cc25c8f20455c091b7deaf90979a.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\" дробь: чис­ли­тель: 180, зна­ме­на­тель: x конец дроби минус дробь: чис­ли­тель: 180, зна­ме­на­тель: x плюс 12 конец дроби = дробь: чис­ли­тель: 1, зна­ме­на­тель: 6 конец дроби рав­но­силь­но дробь: чис­ли­тель: 180x плюс 180 умно­жить на 12 минус 180x, зна­ме­на­тель: x левая круг­лая скоб­ка x плюс 12 пра­вая круг­лая скоб­ка конец дроби = дробь: чис­ли­тель: 1, зна­ме­на­тель: 6 конец дроби рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/01/01b9c42402f1cf7144a916c10bad2fea.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" рав­но­силь­но x в квад­ра­те плюс 12x=180 умно­жить на 12 умно­жить на 6\"></span> </p><p><span data-width=\"640\" data-formulahash=\"dc7eaf183821e3f0f793924210fcc994\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/dc/dc7eaf183821e3f0f793924210fcc994.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" рав­но­силь­но x в квад­ра­те плюс 12x минус 108 умно­жить на 120=0 рав­но­силь­но x в квад­ра­те минус левая круг­лая скоб­ка 108 минус 120 пра­вая круг­лая скоб­ка x плюс 108 умно­жить на левая круг­лая скоб­ка минус 120 пра­вая круг­лая скоб­ка =0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка x= минус 120, новая стро­ка x=108. конец со­во­куп­но­сти \"></span><span data-width=\"515\" data-formulahash=\"dc7eaf183821e3f0f793924210fcc994\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/75/75d67ff585c546fef4efe0da9c30c1ba.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" рав­но­силь­но x в квад­ра­те плюс 12x минус 108 умно­жить на 120=0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/0c/0c595ff202f1fcb46820c03bc5af5c4f.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" рав­но­силь­но x в квад­ра­те минус левая круг­лая скоб­ка 108 минус 120 пра­вая круг­лая скоб­ка x плюс 108 умно­жить на левая круг­лая скоб­ка минус 120 пра­вая круг­лая скоб­ка =0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка x= минус 120, новая стро­ка x=108. конец со­во­куп­но­сти \"></span><span data-width=\"340\" data-formulahash=\"dc7eaf183821e3f0f793924210fcc994\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/75/75d67ff585c546fef4efe0da9c30c1ba.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" рав­но­силь­но x в квад­ра­те плюс 12x минус 108 умно­жить на 120=0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/ff/ffe2d9e84a30619f451f498862ec2427.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" рав­но­силь­но x в квад­ра­те минус левая круг­лая скоб­ка 108 минус 120 пра­вая круг­лая скоб­ка x плюс 108 умно­жить на левая круг­лая скоб­ка минус 120 пра­вая круг­лая скоб­ка =0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/a6/a60818b48cadadc9b9adcbe6ca4e2a37.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка x= минус 120, новая стро­ка x=108. конец со­во­куп­но­сти \"></span></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Таким об­ра­зом, ско­рость вто­ро­го гон­щи­ка равна 108 км/ч.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 108.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/eb/eb3e86a534c305bcedef8321cfacdfec.svg",
+            "https://ege.sdamgia.ru/formula/svg/5b/5b4d1f7c5a71079624cbf62b0d383865.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/eae31f57dabda52e7dbb5a3805e71460.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/2253cc25c8f20455c091b7deaf90979a.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/01b9c42402f1cf7144a916c10bad2fea.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dc7eaf183821e3f0f793924210fcc994.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/75d67ff585c546fef4efe0da9c30c1ba.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c595ff202f1fcb46820c03bc5af5c4f.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/75d67ff585c546fef4efe0da9c30c1ba.svg",
+            "https://ege.sdamgia.ru/formula/svg/ff/ffe2d9e84a30619f451f498862ec2427.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a60818b48cadadc9b9adcbe6ca4e2a37.svg"
+        ]
+    },
+    "answer": "108",
+    "topic_id": 10,
+    "analog_ids": [
+        323856,
+        324153,
+        324155,
+        324185,
+        324153,
+        324155,
+        324185,
+        512354,
+        512396,
+        516378,
+        516398,
+        324157,
+        324159,
+        324161,
+        324163,
+        324165,
+        324167,
+        324169,
+        324171,
+        324173,
+        324175,
+        324177,
+        324179,
+        324181,
+        324183,
+        324187,
+        324189,
+        324191
+    ]
+}

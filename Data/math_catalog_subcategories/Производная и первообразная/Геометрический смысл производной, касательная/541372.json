@@ -1,0 +1,27 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 541372,
+    "condition": {
+        "text": " На рисунке изображены график функции  и касательная к нему в точке с абсциссой  Найдите значение производной функции  в точке ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body404544\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=110092\" style=\"float:right;margin:10px;max-width:100%\"> На ри­сун­ке изоб­ра­же­ны гра­фик функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/7c/7c1c9491ba7c6e8d6d2cfa82e39b22ca.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y=f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка \"> и ка­са­тель­ная к нему в точке с абс­цис­сой <img src=\"https://ege.sdamgia.ru/formula/svg/2e/2e9c23c4d754e38e4b358a1744420252.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"x_0.\"> Най­ди­те зна­че­ние про­из­вод­ной функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/50/50bbd36e1fd2333108437a2ca378be62.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка \"> в точке <img src=\"https://ege.sdamgia.ru/formula/svg/2e/2e9c23c4d754e38e4b358a1744420252.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"x_0.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/7c/7c1c9491ba7c6e8d6d2cfa82e39b22ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2e9c23c4d754e38e4b358a1744420252.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50bbd36e1fd2333108437a2ca378be62.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2e9c23c4d754e38e4b358a1744420252.svg",
+            "/get_file?id=110092"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Значение производной в точке касания равно угловому коэффициенту касательной, который в свою очередь равен тангенсу угла наклона данной касательной к оси абсцисс. Построим треугольник с вершинами в точках A(8; 8), B(8; 1), C(3; 1). Угол наклона касательной к оси абсцисс будет равен углу ACB:  Ответ: 1,4.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol541372\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=110091\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">Зна­че­ние про­из­вод­ной в точке ка­са­ния равно уг­ло­во­му ко­эф­фи­ци­ен­ту ка­са­тель­ной, ко­то­рый в свою оче­редь равен тан­ген­су угла на­кло­на дан­ной ка­са­тель­ной к оси абс­цисс. По­стро­им тре­уголь­ник с вер­ши­на­ми в точ­ках <i>A</i>(8; 8), <i>B</i>(8; 1), <i>C</i>(3; 1). Угол на­кло­на ка­са­тель­ной к оси абс­цисс будет равен углу <i>ACB</i>:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/11/11cb446b030b45dedbca49b854c126fd.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"y' левая круг­лая скоб­ка x_0 пра­вая круг­лая скоб­ка = тан­генс \\angle ACB = дробь: чис­ли­тель: AB, зна­ме­на­тель: BC конец дроби = дробь: чис­ли­тель: 7, зна­ме­на­тель: 5 конец дроби =1,4 \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 1,4.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/11/11cb446b030b45dedbca49b854c126fd.svg",
+            "/get_file?id=110091"
+        ]
+    },
+    "answer": "1,4",
+    "topic_id": 8,
+    "analog_ids": []
+}

@@ -1,0 +1,43 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27786,
+    "condition": {
+        "text": "В треугольнике ABC угол C равен 90°, угол A равен   Найдите ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918134\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right; margin:10px\" src=\"/get_file?id=1360\">В тре­уголь­ни­ке <i>ABC</i> угол <i>C</i> равен 90°, угол <i>A</i> равен <img src=\"https://ege.sdamgia.ru/formula/svg/70/7024b522968c60dc706122c79bd8840b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"60 гра­ду­сов,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/6d/6dd6ff981113752b1d0c6816e96a633b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AB = 2.\"> Най­ди­те <img src=\"https://ege.sdamgia.ru/formula/svg/55/55c9ee3beff9b131586901889ba3714f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AC.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/70/7024b522968c60dc706122c79bd8840b.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6dd6ff981113752b1d0c6816e96a633b.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/55c9ee3beff9b131586901889ba3714f.svg",
+            "/get_file?id=1360"
+        ]
+    },
+    "solution": {
+        "text": "Решение. ##  Ответ: 1.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27786\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">##</p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e7/e7567e4011e8ee24856fa3a1fde89d00.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"AC=AB ко­си­нус A=AB ко­си­нус 60 гра­ду­сов =2 умно­жить на дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби =1. \"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 1.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e7/e7567e4011e8ee24856fa3a1fde89d00.svg"
+        ]
+    },
+    "answer": "1",
+    "topic_id": null,
+    "analog_ids": [
+        27786,
+        48411,
+        48413,
+        48415,
+        48411,
+        48413,
+        48415,
+        48417,
+        48419,
+        48421,
+        48423,
+        48425,
+        48427,
+        48429,
+        48431,
+        48433,
+        48435
+    ]
+}

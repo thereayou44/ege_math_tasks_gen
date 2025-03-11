@@ -1,0 +1,25 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 562929,
+    "condition": {
+        "text": "Высота трапеции равна 5, площадь равна 75. Найдите среднюю линию трапеции.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body456717\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=113346\" style=\"float:right;margin:10px;max-width:100%\">Вы­со­та тра­пе­ции равна 5, пло­щадь равна 75. Най­ди­те сред­нюю линию тра­пе­ции.</p></div>",
+        "image_urls": [
+            "/get_file?id=113346"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Средняя линия трапеции равна полусумме оснований. Выразим её из формулы площади трапеции:Ответ: 15.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol562929\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Сред­няя линия тра­пе­ции равна по­лу­сум­ме ос­но­ва­ний. Вы­ра­зим её из фор­му­лы пло­ща­ди тра­пе­ции:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/cd/cd62ffd6729147dd249a131683eb6fa9.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S= дробь: чис­ли­тель: a плюс b, зна­ме­на­тель: 2 конец дроби умно­жить на h рав­но­силь­но дробь: чис­ли­тель: a плюс b, зна­ме­на­тель: 2 конец дроби умно­жить на 5 = 75 рав­но­силь­но дробь: чис­ли­тель: a плюс b, зна­ме­на­тель: 2 конец дроби =15. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing:2px \">Ответ</span>: 15.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/cd/cd62ffd6729147dd249a131683eb6fa9.svg"
+        ]
+    },
+    "answer": "15",
+    "topic_id": 1,
+    "analog_ids": [
+        562929,
+        562974
+    ]
+}

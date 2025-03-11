@@ -1,0 +1,64 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 284357,
+    "condition": {
+        "text": " В прямоугольном параллелепипеде  известно, что    Найдите длину ребра ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body669753\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=111641\" style=\"float:right;margin:10px;max-width:100%\"> В пря­мо­уголь­ном па­рал­ле­ле­пи­пе­де <img src=\"https://ege.sdamgia.ru/formula/svg/1f/1f98fd4abe2a7ebc84481105039f3a71.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"ABCDA_1B_1C_1D_1\"> из­вест­но, что <img src=\"https://ege.sdamgia.ru/formula/svg/1c/1cfa666c2da388ec5aba69f60778bc8c.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"BD_1=3,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/4c/4c16e7b131d6bf3a9afc6483d611748f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"CD=2,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/6c/6cc70ff41f412383d6067fda23180593.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AD=2.\"> Най­ди­те длину ребра <img src=\"https://ege.sdamgia.ru/formula/svg/e9/e962abc6cd66d823105860f5796347ce.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AA_1.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/1f/1f98fd4abe2a7ebc84481105039f3a71.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1cfa666c2da388ec5aba69f60778bc8c.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c16e7b131d6bf3a9afc6483d611748f.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6cc70ff41f412383d6067fda23180593.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e962abc6cd66d823105860f5796347ce.svg",
+            "/get_file?id=111641"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Найдем диагональ BD прямоугольника ABCD по теореме Пифагора:  Рассмотрим прямоугольный треугольник  По теореме Пифагора Ответ: 1.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol284357\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Най­дем диа­го­наль <i>BD</i> пря­мо­уголь­ни­ка <i>ABCD</i> по тео­ре­ме Пи­фа­го­ра: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/19/19ea020877aaf9621e69208da253ea21.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"BD= ко­рень из: на­ча­ло ар­гу­мен­та: AD в квад­ра­те плюс AB в квад­ра­те конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: AD в квад­ра­те плюс CD в квад­ра­те конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 8 конец ар­гу­мен­та .\"> </p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Рас­смот­рим пря­мо­уголь­ный тре­уголь­ник <img src=\"https://ege.sdamgia.ru/formula/svg/46/46c7a7768a457f3bfddea47e9ea4c00b.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"DD_1B.\"> По тео­ре­ме Пи­фа­го­ра </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e3/e31f623863d06092b7a0c08940fcec46.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"AA_1=DD_1= ко­рень из: на­ча­ло ар­гу­мен­та: BD конец ар­гу­мен­та _1 в квад­ра­те минус BD в квад­ра­те = ко­рень из: на­ча­ло ар­гу­мен­та: 9 минус 8 конец ар­гу­мен­та =1.\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing:2px \">Ответ</span>: 1.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/19/19ea020877aaf9621e69208da253ea21.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/46c7a7768a457f3bfddea47e9ea4c00b.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e31f623863d06092b7a0c08940fcec46.svg"
+        ]
+    },
+    "answer": "1",
+    "topic_id": 3,
+    "analog_ids": [
+        284357,
+        916,
+        917,
+        918,
+        916,
+        917,
+        918,
+        919,
+        285445,
+        501038,
+        285397,
+        285399,
+        285401,
+        285403,
+        285405,
+        285407,
+        285409,
+        285411,
+        285413,
+        285415,
+        285417,
+        285419,
+        285421,
+        285423,
+        285425,
+        285427,
+        285429,
+        285431,
+        285433,
+        285435,
+        285437,
+        285439,
+        285441,
+        285443
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 527157,
+    "condition": {
+        "text": "а)  Решите уравнение  б)  Найдите все корни этого уравнения, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body419273\" class=\"pbody\"><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/05/05929b190f8c1efd579b8ef05258b711.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"6 ко­си­нус в квад­ра­те x плюс 5 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та синус x плюс 2 = 0. \"> </p><p class=\"left_margin\">б)  Най­ди­те все корни этого урав­не­ния, при­над­ле­жа­щие от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/6a/6a2806f2e3b8d66b55c95430cd5ac0e9.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка Пи ; дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 2 конец дроби пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/05/05929b190f8c1efd579b8ef05258b711.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a2806f2e3b8d66b55c95430cd5ac0e9.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Запишем в исходное уравнение в виде:Значит,  откуда  или  Уравнение  корней не имеет.б)  С помощью числовой окружности отберём корни, принадлежащие отрезку  Получим числа:  Ответ: а)   б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol527157\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  За­пи­шем в ис­ход­ное урав­не­ние в виде:</p><p><img src=\"/get_file?id=42455\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/c4/c4189bc597f2452c77eae7f191cfddae.svg\" class=\"tex\" style=\"vertical-align:-3.5pt\" alt=\"6 минус 6 синус в квад­ра­те x плюс 5 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та синус x плюс 2=0 рав­но­силь­но левая круг­лая скоб­ка 2 синус x плюс ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 3 синус x минус 4 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та пра­вая круг­лая скоб­ка =0.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/20/20a9025d4ed56eb7f965d41cad4d83cb.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" синус x= минус дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби , \"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/53/5369a38f0d73ba87b5d95be06e74d3c9.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби плюс 2 Пи n,n при­над­ле­жит Z , \"> или <img src=\"https://ege.sdamgia.ru/formula/svg/44/44744352c020d9e28a482f440a8b0bc1.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= минус дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 4 конец дроби плюс 2 Пи m,m при­над­ле­жит Z . \"> Урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/4c/4cc9423952d322d4d82b2149df7cda72.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" синус x= дробь: чис­ли­тель: 4 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та , зна­ме­на­тель: 3 конец дроби \"> кор­ней не имеет.</p><p class=\"left_margin\">б)  С по­мо­щью чис­ло­вой окруж­но­сти отберём корни, при­над­ле­жа­щие от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/55/55b9bb8eec3aca0af0d3aafafebf3a03.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка Пи ; дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 2 конец дроби пра­вая квад­рат­ная скоб­ка . \"> По­лу­чим числа: <img src=\"https://ege.sdamgia.ru/formula/svg/2c/2c2dfa4f9fa035c5751cd80dd7ea3281.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 4 конец дроби ; дробь: чис­ли­тель: 7 Пи , зна­ме­на­тель: 4 конец дроби . \"> </p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) <img src=\"https://ege.sdamgia.ru/formula/svg/e2/e2b30ba9742760494aa200f6335a776d.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби плюс 2 Пи n,n при­над­ле­жит Z ; \"> <img src=\"https://ege.sdamgia.ru/formula/svg/d0/d08e3c210403a22f8ebe8430a6c9e987.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" минус дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 4 конец дроби плюс 2 Пи m,m при­над­ле­жит Z ; \"> б) <img src=\"https://ege.sdamgia.ru/formula/svg/2c/2c2dfa4f9fa035c5751cd80dd7ea3281.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 4 конец дроби ; дробь: чис­ли­тель: 7 Пи , зна­ме­на­тель: 4 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c4/c4189bc597f2452c77eae7f191cfddae.svg",
+            "https://ege.sdamgia.ru/formula/svg/20/20a9025d4ed56eb7f965d41cad4d83cb.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/5369a38f0d73ba87b5d95be06e74d3c9.svg",
+            "https://ege.sdamgia.ru/formula/svg/44/44744352c020d9e28a482f440a8b0bc1.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4cc9423952d322d4d82b2149df7cda72.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/55b9bb8eec3aca0af0d3aafafebf3a03.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2c2dfa4f9fa035c5751cd80dd7ea3281.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e2b30ba9742760494aa200f6335a776d.svg",
+            "https://ege.sdamgia.ru/formula/svg/d0/d08e3c210403a22f8ebe8430a6c9e987.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2c2dfa4f9fa035c5751cd80dd7ea3281.svg",
+            "/get_file?id=42455"
+        ]
+    },
+    "answer": "а)   б)",
+    "topic_id": 13,
+    "analog_ids": []
+}

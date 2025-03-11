@@ -1,0 +1,29 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 245357,
+    "condition": {
+        "text": "Найдите объем правильной шестиугольной призмы, все ребра которой равны ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body905361\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=113235\" style=\"float:right;margin:10px;max-width:100%\">Най­ди­те объем пра­виль­ной ше­сти­уголь­ной приз­мы, все ребра ко­то­рой равны <img src=\"https://ege.sdamgia.ru/formula/svg/d1/d1b2e52808d71aa89a427c7b04b4ed9b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d1/d1b2e52808d71aa89a427c7b04b4ed9b.svg",
+            "/get_file?id=113235"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Объем призмы равен произведению площади основания на высоту. Высотой правильной призмы является ее боковое ребро, равное стороне основания. Основание призмы  — правильный шестиугольник. Площадь правильного шестиугольника со стороной a вычисляется по формуле  Следовательно,Ответ: 13,5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol245357\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Объем приз­мы равен про­из­ве­де­нию пло­ща­ди ос­но­ва­ния на вы­со­ту. Вы­со­той пра­виль­ной приз­мы яв­ля­ет­ся ее бо­ко­вое ребро, рав­ное сто­ро­не ос­но­ва­ния. Ос­но­ва­ние приз­мы  — пра­виль­ный ше­сти­уголь­ник. Пло­щадь пра­виль­но­го ше­сти­уголь­ни­ка со сто­ро­ной <i>a</i> вы­чис­ля­ет­ся по фор­му­ле <img src=\"https://ege.sdamgia.ru/formula/svg/b1/b1aadcab5905131a5ee624e1c7d604ba.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"S= дробь: чис­ли­тель: 3 ко­рень из 3 , зна­ме­на­тель: 2 конец дроби a в квад­ра­те . \"> Сле­до­ва­тель­но,</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d7/d7e5e599480ec3a3769559635bcd2d5e.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"V=S_оснH = дробь: чис­ли­тель: 3 ко­рень из 3 , зна­ме­на­тель: 2 конец дроби a в квад­ра­те умно­жить на a = дробь: чис­ли­тель: 3 ко­рень из 3 , зна­ме­на­тель: 2 конец дроби умно­жить на 3 умно­жить на ко­рень из 3 = дробь: чис­ли­тель: 27, зна­ме­на­тель: 2 конец дроби =13,5. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing:2px \">Ответ</span>: 13,5.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b1/b1aadcab5905131a5ee624e1c7d604ba.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d7e5e599480ec3a3769559635bcd2d5e.svg"
+        ]
+    },
+    "answer": "13,5",
+    "topic_id": 3,
+    "analog_ids": [
+        245357,
+        270341,
+        270343,
+        270345
+    ]
+}

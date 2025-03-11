@@ -1,0 +1,40 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 484663,
+    "condition": {
+        "text": "Найдите все простые числа p, для каждого из которых существует такое целое число k, что число p является общим делителем чисел  и ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body592843\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все про­стые числа <i>p</i>, для каж­до­го из ко­то­рых су­ще­ству­ет такое целое число <i>k</i>, что число <i>p</i> яв­ля­ет­ся общим де­ли­те­лем чисел <img src=\"https://ege.sdamgia.ru/formula/svg/d1/d1521873742f251f3634f9774c3539ea.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"k в сте­пе­ни 4 плюс 12k в квад­ра­те плюс 12\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/26/266cb0aaf8fc6ba13f5bda27000b90c1.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"k в кубе плюс 9k.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d1/d1521873742f251f3634f9774c3539ea.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/266cb0aaf8fc6ba13f5bda27000b90c1.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Если число p является делителем числа  то оно является также и делителем числа  Но если число p является общим делителем чисел  и  то оно является также и делителем разности этих чисел, то есть  числа Аналогично получаем: 1)  число p является общим делителем чисел  и  значит, p является делителем числа  2)  число p является общим делителем чисел  и  значит, p является делителем числа Число 60 имеет ровно три различных простых делителя  — 2, 3 и 5. Остается проверить найдутся ли такие целые числа k для каждого из которых одно из чисел 2, 3 и 5 является общим делителем чисел  и  Если число k  — четное, то число 2 является общим делителем данных чисел. Если число k кратно 3, то число 3 является общим делителем данных чисел. Если число  то число 5 является общим делителем данных чисел. Ответ: 2, 3, 5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol484663\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Если число <i>p</i> яв­ля­ет­ся де­ли­те­лем числа <img src=\"https://ege.sdamgia.ru/formula/svg/bc/bcd64de546bf8bd91a2dc1662aada4c8.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"k в кубе плюс 9k,\"> то оно яв­ля­ет­ся также и де­ли­те­лем числа <img src=\"https://ege.sdamgia.ru/formula/svg/ba/bacf48da8f2d076dca974fc501688cdc.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"k левая круг­лая скоб­ка k в кубе плюс 9k пра­вая круг­лая скоб­ка =k в сте­пе­ни 4 плюс 9k в квад­ра­те .\"> Но если число <i>p</i> яв­ля­ет­ся общим де­ли­те­лем чисел <img src=\"https://ege.sdamgia.ru/formula/svg/d1/d1521873742f251f3634f9774c3539ea.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"k в сте­пе­ни 4 плюс 12k в квад­ра­те плюс 12\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/0f/0f791c9ceda9370ccc19c8206409f194.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"k в сте­пе­ни 4 плюс 9k в квад­ра­те ,\"> то оно яв­ля­ет­ся также и де­ли­те­лем раз­но­сти этих чисел, то есть  числа </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/36/3686112f15b452366674e641644e88a6.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка k в сте­пе­ни 4 плюс 12k в квад­ра­те плюс 12 пра­вая круг­лая скоб­ка минус левая круг­лая скоб­ка k в сте­пе­ни 4 плюс 9k в квад­ра­те пра­вая круг­лая скоб­ка =3k в квад­ра­те плюс 12.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Ана­ло­гич­но по­лу­ча­ем:</p><p>&nbsp;</p><p class=\"left_margin\">1)  число <i>p</i> яв­ля­ет­ся общим де­ли­те­лем чисел <img src=\"https://ege.sdamgia.ru/formula/svg/01/017a714f55a430892004e93357cb02d8.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"k в кубе плюс 9k\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/43/43a4f7dd17ad653678db16f33e1873f7.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"3k в квад­ра­те плюс 12,\"> зна­чит, <i>p</i> яв­ля­ет­ся де­ли­те­лем числа </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/8f/8fd409a700da5daef109ae4baca5b636.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"3 левая круг­лая скоб­ка k в кубе плюс 9k пра­вая круг­лая скоб­ка минус k левая круг­лая скоб­ка 3k в квад­ра­те плюс 12 пра­вая круг­лая скоб­ка =15k;\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p class=\"left_margin\">2)  число <i>p</i> яв­ля­ет­ся общим де­ли­те­лем чисел <img src=\"https://ege.sdamgia.ru/formula/svg/32/32b8dacbd767375194df6f84dc64f9a3.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"3k в квад­ра­те плюс 12\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/03/03c789cae93658b601720f618066b34f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"15k,\"> зна­чит, <i>p</i> яв­ля­ет­ся де­ли­те­лем числа </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/6c/6c7cb9cc0079685fc9a5202b6fbbb9f1.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"5 левая круг­лая скоб­ка 3k в квад­ра­те плюс 12 пра­вая круг­лая скоб­ка минус k15k=60;\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Число 60 имеет ровно три раз­лич­ных про­стых де­ли­те­ля  — 2, 3 и 5. Оста­ет­ся про­ве­рить най­дут­ся ли такие целые числа <i>k</i> для каж­до­го из ко­то­рых одно из чисел 2, 3 и 5 яв­ля­ет­ся общим де­ли­те­лем чисел <img src=\"https://ege.sdamgia.ru/formula/svg/d1/d1521873742f251f3634f9774c3539ea.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"k в сте­пе­ни 4 плюс 12k в квад­ра­те плюс 12\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/26/266cb0aaf8fc6ba13f5bda27000b90c1.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"k в кубе плюс 9k.\"></p><p>&nbsp;</p><p class=\"left_margin\">Если число <i>k</i>  — чет­ное, то число 2 яв­ля­ет­ся общим де­ли­те­лем дан­ных чисел. Если число <i>k</i> крат­но 3, то число 3 яв­ля­ет­ся общим де­ли­те­лем дан­ных чисел. Если число <img src=\"https://ege.sdamgia.ru/formula/svg/d4/d466962342c69e0ac1b0532a493d2908.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"k=1,\"> то число 5 яв­ля­ет­ся общим де­ли­те­лем дан­ных чисел.</p><p>&nbsp;</p><p class=\"left_margin\">Ответ: 2, 3, 5.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/bc/bcd64de546bf8bd91a2dc1662aada4c8.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/bacf48da8f2d076dca974fc501688cdc.svg",
+            "https://ege.sdamgia.ru/formula/svg/d1/d1521873742f251f3634f9774c3539ea.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0f791c9ceda9370ccc19c8206409f194.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/3686112f15b452366674e641644e88a6.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/017a714f55a430892004e93357cb02d8.svg",
+            "https://ege.sdamgia.ru/formula/svg/43/43a4f7dd17ad653678db16f33e1873f7.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8fd409a700da5daef109ae4baca5b636.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/32b8dacbd767375194df6f84dc64f9a3.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/03c789cae93658b601720f618066b34f.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6c7cb9cc0079685fc9a5202b6fbbb9f1.svg",
+            "https://ege.sdamgia.ru/formula/svg/d1/d1521873742f251f3634f9774c3539ea.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/266cb0aaf8fc6ba13f5bda27000b90c1.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d466962342c69e0ac1b0532a493d2908.svg"
+        ]
+    },
+    "answer": "2, 3, 5.",
+    "topic_id": null,
+    "analog_ids": [
+        484663,
+        484664,
+        511321
+    ]
+}

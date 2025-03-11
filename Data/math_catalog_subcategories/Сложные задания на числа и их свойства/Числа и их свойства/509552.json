@@ -1,0 +1,26 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 509552,
+    "condition": {
+        "text": "а)  Пусть p  — простое число, отличное от 3. Докажите, что число 111...11 (p единиц) не делится на p.б)  Пусть p > 5  — простое число. Докажите, что число 111...11 (p  — 1 единица) делится на p.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body632972\" class=\"pbody\"><p class=\"left_margin\">а)  Пусть <i>p</i>  — про­стое число, от­лич­ное от 3. До­ка­жи­те, что число 111…11 (<i>p</i> еди­ниц) не де­лит­ся на <i>p</i>.</p><p class=\"left_margin\">б)  Пусть <i>p</i> &gt; 5  — про­стое число. До­ка­жи­те, что число 111…11 (<i>p</i>  — 1 еди­ни­ца) де­лит­ся на <i>p</i>.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Заметим, что  Согласно малой теореме Ферма  и 10 дают одинаковый остаток при делении на p, поэтому  не делится на p (так как 9 не делится на p). б)  Заметим, что  Если простое число больше 5, то оно взаимно просто с числами 9 и 10. По малой теореме Ферма  делится на p, поэтому и   делится на ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol509552\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  За­ме­тим, что <img src=\"https://ege.sdamgia.ru/formula/svg/d1/d12b248d2f6bbea7532a388cf03d1555.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"111..11= дробь: чис­ли­тель: 999...99, зна­ме­на­тель: 9 конец дроби = дробь: чис­ли­тель: 10 в сте­пе­ни p минус 1, зна­ме­на­тель: 9 конец дроби . \"> Со­глас­но малой тео­ре­ме Ферма <img src=\"https://ege.sdamgia.ru/formula/svg/2a/2aa1b2472a0f4048193cc591475b5700.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"10 в сте­пе­ни p \"> и 10 дают оди­на­ко­вый оста­ток при де­ле­нии на <i>p</i>, по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/3a/3a72908b3d460fd7f5e4c1717ea80620.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"10 в сте­пе­ни p минус 1\"> не де­лит­ся на <i>p</i> (так как 9 не де­лит­ся на <i>p</i>).</p><p>&nbsp;</p><p class=\"left_margin\">б)  За­ме­тим, что <img src=\"https://ege.sdamgia.ru/formula/svg/2a/2af4df7f0483326508a137c6a5c3e507.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"111..11= дробь: чис­ли­тель: 999...99, зна­ме­на­тель: 9 конец дроби = дробь: чис­ли­тель: 10 в сте­пе­ни левая круг­лая скоб­ка p минус 1 пра­вая круг­лая скоб­ка минус 1, зна­ме­на­тель: 9 конец дроби . \"> Если про­стое число боль­ше 5, то оно вза­им­но про­сто с чис­ла­ми 9 и 10. По малой тео­ре­ме Ферма <img src=\"https://ege.sdamgia.ru/formula/svg/24/246ffe646c49ae50101e7390f77c66fe.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"10 в сте­пе­ни левая круг­лая скоб­ка p минус 1 пра­вая круг­лая скоб­ка минус 1\"> де­лит­ся на <i>p</i>, по­это­му и  <img src=\"https://ege.sdamgia.ru/formula/svg/e4/e4ac631d31b86ec71a2a5847fdf598c2.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 10 в сте­пе­ни левая круг­лая скоб­ка p минус 1 пра­вая круг­лая скоб­ка минус 1, зна­ме­на­тель: 9 конец дроби \"> де­лит­ся на <img src=\"https://ege.sdamgia.ru/formula/svg/9a/9aa636e360a04580e0ba25797c3f5cbc.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"p.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d1/d12b248d2f6bbea7532a388cf03d1555.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2aa1b2472a0f4048193cc591475b5700.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3a72908b3d460fd7f5e4c1717ea80620.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2af4df7f0483326508a137c6a5c3e507.svg",
+            "https://ege.sdamgia.ru/formula/svg/24/246ffe646c49ae50101e7390f77c66fe.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e4ac631d31b86ec71a2a5847fdf598c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/9a/9aa636e360a04580e0ba25797c3f5cbc.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

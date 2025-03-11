@@ -1,0 +1,42 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 484575,
+    "condition": {
+        "text": "В правильной шестиугольной призме ABCDEFA1B1C1D1E1F1 стороны основания равны 3, а боковые ребра равны 4.а)  Докажите, что плоскости  и  перпендикулярны.б)  Найдите расстояние от точки С до прямой D1E1.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body592419\" class=\"pbody\"><p class=\"left_margin\">В пра­виль­ной ше­сти­уголь­ной приз­ме <i>ABCDEFA</i><sub>1</sub><i>B</i><sub>1</sub><i>C</i><sub>1</sub><i>D</i><sub>1</sub><i>E</i><sub>1</sub><i>F</i><sub>1</sub> сто­ро­ны ос­но­ва­ния равны 3, а бо­ко­вые ребра равны 4.</p><p class=\"left_margin\">а)  До­ка­жи­те, что плос­ко­сти <img src=\"https://ege.sdamgia.ru/formula/svg/70/7031a7cd44201483463d4ee1e9aaacf8.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"CD_1E_1\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/3b/3b6c292adc97630acd8779f28c7fe778.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AEE_1\"> пер­пен­ди­ку­ляр­ны.</p><p class=\"left_margin\">б)  Най­ди­те рас­сто­я­ние от точки <i>С</i> до пря­мой <i>D</i><sub>1</sub><i>E</i><sub>1</sub>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/70/7031a7cd44201483463d4ee1e9aaacf8.svg",
+            "https://ege.sdamgia.ru/formula/svg/3b/3b6c292adc97630acd8779f28c7fe778.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Так как ABCDEF правильный шестиугольник, то прямые FC и DE параллельны, параллельны также прямые  и DE, следовательно, прямые  и FC параллельны, то есть лежат в одной плоскости.Плоскость  содержит прямую AE, перпендикулярную прямой FC, поэтому, по признаку перпендикулярности плоскостей,  б)  Расстояние от точки C до прямой  равно расстоянию между прямыми  и В трапеции      тогдаОтвет: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol484575\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Так как <i>ABCDEF</i> пра­виль­ный ше­сти­уголь­ник, то пря­мые <i>FC</i> и <i>DE</i> па­рал­лель­ны, па­рал­лель­ны также пря­мые <img src=\"https://ege.sdamgia.ru/formula/svg/59/5943a304bdbdc074e12b22681c80399b.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"D_1E_1\"> и <i>DE</i>, сле­до­ва­тель­но, пря­мые <img src=\"https://ege.sdamgia.ru/formula/svg/59/5943a304bdbdc074e12b22681c80399b.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"D_1E_1\"> и <i>FC</i> па­рал­лель­ны, то есть лежат в одной плос­ко­сти.</p><p class=\"left_margin\">Плос­кость <img src=\"https://ege.sdamgia.ru/formula/svg/3b/3b6c292adc97630acd8779f28c7fe778.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AEE_1\"> со­дер­жит пря­мую <i>AE</i>, пер­пен­ди­ку­ляр­ную пря­мой <i>FC</i>, по­это­му, по при­зна­ку пер­пен­ди­ку­ляр­но­сти плос­ко­стей, <img src=\"https://ege.sdamgia.ru/formula/svg/df/dfaf283c1d3ad7d810dbfa94688c31a7.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AA_1E\\perp CD_1E_1.\"></p><p></p><div class=\"flex-img\"><p></p><div><img src=\"/get_file?id=132310\" style=\"margin:10px auto;display:block;max-width:none\"><p><nobr></nobr></p><p></p></div><p></p><div><img src=\"/get_file?id=132311\" style=\"margin:10px auto;display:block;max-width:none\"><p><nobr> </nobr></p><p></p></div></div><p class=\"left_margin\">б)  Рас­сто­я­ние от точки <i>C</i> до пря­мой <img src=\"https://ege.sdamgia.ru/formula/svg/f6/f62fa33dec5f41b32c2b86f494b861d2.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"D_1E_1,\"> равно рас­сто­я­нию между пря­мы­ми <img src=\"https://ege.sdamgia.ru/formula/svg/59/5943a304bdbdc074e12b22681c80399b.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"D_1E_1\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/5e/5ead98e3fb9ef61408e19c99109157ae.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"FC.\"></p><p class=\"left_margin\">В тра­пе­ции <img src=\"https://ege.sdamgia.ru/formula/svg/28/28dca5db4073bf5cdd22ebed2b0b5169.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"FE_1D_1C:\"> </p><p></p><div class=\"flex-math\"> <p><img src=\"https://ege.sdamgia.ru/formula/svg/93/931e580db223646fe68b95ad6f6536f1.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"D_1E_1=3,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/2c/2c5bc7787e3d9af11fa29e619121fe7a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"FC=6,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/42/42a40582ddf1b19bd2704ca965b9f9bf.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" FE_1=CD_1=5,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/00/000b2d8b5029e84edfbab1a80648b23b.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"CH= дробь: чис­ли­тель: FC минус E_1, зна­ме­на­тель: D_1 конец дроби 2= дробь: чис­ли­тель: 6 минус 3, зна­ме­на­тель: 2 конец дроби = дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби , \"></p><p></p></div><p>тогда</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/06/0606ed47b363d6309ff1108e2fc3cb09.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\"D_1H= ко­рень из: на­ча­ло ар­гу­мен­та: 25 минус дробь: чис­ли­тель: 9, зна­ме­на­тель: 4 конец дроби конец ар­гу­мен­та = дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 100 минус 9 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби = дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 91 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби . \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/43/43eb315a8070d096cbd07201fa18bd43.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 91 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/59/5943a304bdbdc074e12b22681c80399b.svg",
+            "https://ege.sdamgia.ru/formula/svg/59/5943a304bdbdc074e12b22681c80399b.svg",
+            "https://ege.sdamgia.ru/formula/svg/3b/3b6c292adc97630acd8779f28c7fe778.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/dfaf283c1d3ad7d810dbfa94688c31a7.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f62fa33dec5f41b32c2b86f494b861d2.svg",
+            "https://ege.sdamgia.ru/formula/svg/59/5943a304bdbdc074e12b22681c80399b.svg",
+            "https://ege.sdamgia.ru/formula/svg/5e/5ead98e3fb9ef61408e19c99109157ae.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/28dca5db4073bf5cdd22ebed2b0b5169.svg",
+            "https://ege.sdamgia.ru/formula/svg/93/931e580db223646fe68b95ad6f6536f1.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2c5bc7787e3d9af11fa29e619121fe7a.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/42a40582ddf1b19bd2704ca965b9f9bf.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/000b2d8b5029e84edfbab1a80648b23b.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/0606ed47b363d6309ff1108e2fc3cb09.svg",
+            "https://ege.sdamgia.ru/formula/svg/43/43eb315a8070d096cbd07201fa18bd43.svg",
+            "/get_file?id=132310",
+            "/get_file?id=132311"
+        ]
+    },
+    "answer": "",
+    "topic_id": 14,
+    "analog_ids": [
+        484575,
+        484576,
+        485941
+    ]
+}

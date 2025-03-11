@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 556538,
+    "condition": {
+        "text": "По вкладу «А» банк в конце каждого года увеличивает на 10% сумму, имеющуюся на вкладе в начале года, а по вкладу «Б»  — увеличивает эту сумму на 11% в течение каждого из первых двух лет. Найдите наибольшее натуральное число процентов, начисленное за третий год по вкладу «Б», при котором за все три года этот вклад будет менее выгоден, чем вклад «А».",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body398086\" class=\"pbody\"><p class=\"left_margin\">По вкла­ду «А» банк в конце каж­до­го года уве­ли­чи­ва­ет на 10% сумму, име­ю­щу­ю­ся на вкла­де в на­ча­ле года, а по вкла­ду «Б»  — уве­ли­чи­ва­ет эту сумму на 11% в те­че­ние каж­до­го из пер­вых двух лет. Най­ди­те наи­боль­шее на­ту­раль­ное число про­цен­тов, на­чис­лен­ное за тре­тий год по вкла­ду «Б», при ко­то­ром за все три года этот вклад будет менее вы­го­ден, чем вклад «А».</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Пусть на каждый тип вклада была внесена сумма S. На вкладе «А» каждый год сумма увеличивается на 10%, т. е. умножается на коэффициент 1,1. Тогда через три года сумма на вкладе «А» будет равна  Аналогично, на вкладе «Б» сумма через три года будет равнагде n  — натуральное число.По условию требуется найти наибольшее натуральное решение неравенстваОтвет: 8.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol556538\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть на каж­дый тип вкла­да была вне­се­на сумма <i>S</i>. На вкла­де «А» каж­дый год сумма уве­ли­чи­ва­ет­ся на 10%, т. е. умно­жа­ет­ся на ко­эф­фи­ци­ент 1,1. Тогда через три года сумма на вкла­де «А» будет равна <img src=\"https://ege.sdamgia.ru/formula/svg/c6/c60427ef2edd44bc421ae6749b09a05b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1,1 в кубе S=1,331S.\"> Ана­ло­гич­но, на вкла­де «Б» сумма через три года будет равна</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/75/75f6cf5e3cf9c69b73e7916ae6935ea2.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"1,11 в квад­ра­те левая круг­лая скоб­ка 1 плюс дробь: чис­ли­тель: n, зна­ме­на­тель: 100 конец дроби пра­вая круг­лая скоб­ка S=1,2321 левая круг­лая скоб­ка 1 плюс дробь: чис­ли­тель: n, зна­ме­на­тель: 100 конец дроби пра­вая круг­лая скоб­ка S, \"></p><p class=\"left_margin\"></p></center><p>где <i>n</i>  — на­ту­раль­ное число.</p><p class=\"left_margin\">По усло­вию тре­бу­ет­ся найти наи­боль­шее на­ту­раль­ное ре­ше­ние не­ра­вен­ства</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"6f681b11da8ae3f7b0c37aed98865de8\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/6f/6f681b11da8ae3f7b0c37aed98865de8.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"1,2321 левая круг­лая скоб­ка 1 плюс дробь: чис­ли­тель: n, зна­ме­на­тель: 100 конец дроби пра­вая круг­лая скоб­ка S мень­ше 1,331S рав­но­силь­но n мень­ше 100 умно­жить на дробь: чис­ли­тель: 13310 минус 12321, зна­ме­на­тель: 12321 конец дроби =100 умно­жить на дробь: чис­ли­тель: 989, зна­ме­на­тель: 12321 конец дроби =8,02...\\Rightarrow n=8. \"></span><span data-width=\"565\" data-formulahash=\"6f681b11da8ae3f7b0c37aed98865de8\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/1d/1d3760349016876af6b054001d12ff0e.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"1,2321 левая круг­лая скоб­ка 1 плюс дробь: чис­ли­тель: n, зна­ме­на­тель: 100 конец дроби пра­вая круг­лая скоб­ка S мень­ше 1,331S рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/fa/fa9c36b8a315c553caf2e90eec74b5b9.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" рав­но­силь­но n мень­ше 100 умно­жить на дробь: чис­ли­тель: 13310 минус 12321, зна­ме­на­тель: 12321 конец дроби =100 умно­жить на дробь: чис­ли­тель: 989, зна­ме­на­тель: 12321 конец дроби =8,02...\\Rightarrow n=8. \"></span><span data-width=\"365\" data-formulahash=\"6f681b11da8ae3f7b0c37aed98865de8\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/1d/1d3760349016876af6b054001d12ff0e.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"1,2321 левая круг­лая скоб­ка 1 плюс дробь: чис­ли­тель: n, зна­ме­на­тель: 100 конец дроби пра­вая круг­лая скоб­ка S мень­ше 1,331S рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/e9/e9a0312bc82b8040a0a5319150ecd3e8.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" рав­но­силь­но n мень­ше 100 умно­жить на дробь: чис­ли­тель: 13310 минус 12321, зна­ме­на­тель: 12321 конец дроби =100 умно­жить на дробь: чис­ли­тель: 989, зна­ме­на­тель: 12321 конец дроби =8,02...\\Rightarrow \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/fa/fa50746116435b3de06757dbd2d5e6a8.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\Rightarrow n=8.\"></span></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 8.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c6/c60427ef2edd44bc421ae6749b09a05b.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/75f6cf5e3cf9c69b73e7916ae6935ea2.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6f681b11da8ae3f7b0c37aed98865de8.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1d3760349016876af6b054001d12ff0e.svg",
+            "https://ege.sdamgia.ru/formula/svg/fa/fa9c36b8a315c553caf2e90eec74b5b9.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1d3760349016876af6b054001d12ff0e.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e9a0312bc82b8040a0a5319150ecd3e8.svg",
+            "https://ege.sdamgia.ru/formula/svg/fa/fa50746116435b3de06757dbd2d5e6a8.svg"
+        ]
+    },
+    "answer": "8.",
+    "topic_id": 16,
+    "analog_ids": [
+        556538,
+        556550
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521687,
+    "condition": {
+        "text": "Решите неравенство: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629547\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те&nbsp;не­ра­вен­ство: <img src=\"https://ege.sdamgia.ru/formula/svg/3b/3b73cd7aaf75f959dfd323c4e03abd28.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"2 ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 25 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка левая круг­лая скоб­ка 1 плюс x пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 3 минус x пра­вая круг­лая скоб­ка пра­вая круг­лая скоб­ка минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка ко­рень из 5 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 1 плюс x пра­вая круг­лая скоб­ка боль­ше ло­га­рифм по ос­но­ва­нию дробь: чис­ли­тель: ц, зна­ме­на­тель: е конец дроби лая часть: 15, дроб­ная часть: чис­ли­тель: 1, зна­ме­на­тель: 2 .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/3b/3b73cd7aaf75f959dfd323c4e03abd28.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. При  преобразуем неравенство:Окончательно  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521687\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">При <img src=\"https://ege.sdamgia.ru/formula/svg/69/69a07da8c9e5340fa2efaac0ee1e32b5.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x при­над­ле­жит левая круг­лая скоб­ка минус 1;3 пра­вая круг­лая скоб­ка \"> пре­об­ра­зу­ем не­ра­вен­ство:</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"73b78030fd98deb0bc727ac8e30b4556\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/73/73b78030fd98deb0bc727ac8e30b4556.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\" ло­га­рифм по ос­но­ва­нию 5 левая круг­лая скоб­ка 1 плюс x пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 3 минус x пра­вая круг­лая скоб­ка минус ло­га­рифм по ос­но­ва­нию 5 левая круг­лая скоб­ка 1 плюс x пра­вая круг­лая скоб­ка боль­ше ло­га­рифм по ос­но­ва­нию 5 2 рав­но­силь­но ло­га­рифм по ос­но­ва­нию 5 левая круг­лая скоб­ка 3 минус x пра­вая круг­лая скоб­ка боль­ше ло­га­рифм по ос­но­ва­нию 5 2 рав­но­силь­но 3 минус x боль­ше 2 рав­но­силь­но x мень­ше 1\"></span><span data-width=\"540\" data-formulahash=\"73b78030fd98deb0bc727ac8e30b4556\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/39/390792a9d4595f3eefd4febd40ab7c85.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\" ло­га­рифм по ос­но­ва­нию 5 левая круг­лая скоб­ка 1 плюс x пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 3 минус x пра­вая круг­лая скоб­ка минус ло­га­рифм по ос­но­ва­нию 5 левая круг­лая скоб­ка 1 плюс x пра­вая круг­лая скоб­ка боль­ше ло­га­рифм по ос­но­ва­нию 5 2 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/28/289865d6db86f09aad6ef25694825b0d.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\" рав­но­силь­но ло­га­рифм по ос­но­ва­нию 5 левая круг­лая скоб­ка 3 минус x пра­вая круг­лая скоб­ка боль­ше ло­га­рифм по ос­но­ва­нию 5 2 рав­но­силь­но 3 минус x боль­ше 2 рав­но­силь­но x мень­ше 1\"></span></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Окон­ча­тель­но <img src=\"https://ege.sdamgia.ru/formula/svg/ef/ef63e37156eb9bcbbcfa02054720bced.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x при­над­ле­жит левая круг­лая скоб­ка минус 1;1 пра­вая круг­лая скоб­ка .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/e5/e5a3dbe0eecfe7efa2f492e9ee31d41f.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка минус 1;1 пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/69/69a07da8c9e5340fa2efaac0ee1e32b5.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/73b78030fd98deb0bc727ac8e30b4556.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/390792a9d4595f3eefd4febd40ab7c85.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/289865d6db86f09aad6ef25694825b0d.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/ef63e37156eb9bcbbcfa02054720bced.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e5a3dbe0eecfe7efa2f492e9ee31d41f.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

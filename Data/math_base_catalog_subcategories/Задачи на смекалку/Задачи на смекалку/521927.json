@@ -1,0 +1,40 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521927,
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых уравнение имеет  ровно четыре целых решения.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body628795\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния па­ра­мет­ра <i>a</i>, при каж­дом из ко­то­рых урав­не­ние </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/91/91b47a0411b69aad08276ec8e32edcb8.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка |2x плюс 1 минус a| плюс |2x плюс 1 плюс a| минус 2a пра­вая круг­лая скоб­ка левая круг­лая скоб­ка |x в квад­ра­те минус 2x плюс a| плюс |x в квад­ра­те минус 2x минус a| минус 2a пра­вая круг­лая скоб­ка =0\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">имеет  ровно че­ты­ре целых ре­ше­ния.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/91/91b47a0411b69aad08276ec8e32edcb8.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Рассмотрим уравнение  При отрицательных a у него нет корней, при  единственный корень  при положительных a подходят все t из промежутка  Значит,  причем для  подходят  то есть целых корней будет только два.Теперь будем увеличивать a, при этом будут добавляться новые решения - для которых  или  лежат на промежутке  При  добавится  и  станет  корня. При  добавятся  и  станет  корней.  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521927\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Рас­смот­рим урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/b5/b5dc5ff71fc5904cc8b2e1bb1410d4b7.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"|t минус a| плюс |t плюс a|=2a.\"> При от­ри­ца­тель­ных <i>a</i> у него нет кор­ней, при <img src=\"https://ege.sdamgia.ru/formula/svg/de/ded681eaa02d11064c9a469dd1b3e04c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=0\"> един­ствен­ный ко­рень <img src=\"https://ege.sdamgia.ru/formula/svg/e5/e5ad434c6181560ed4db5d5eebb48e60.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"t=0,\"> при по­ло­жи­тель­ных <i>a</i> под­хо­дят все <i>t</i> из про­ме­жут­ка <img src=\"https://ege.sdamgia.ru/formula/svg/30/301bbfa78fc887c280b1a9a0f6ba7828.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка минус a;a пра­вая квад­рат­ная скоб­ка .\"></p><p>&nbsp;</p><p class=\"left_margin\">Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/30/301a39c34b9dfb41ae42849b26592220.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a боль­ше или равно 0,\"> при­чем для <img src=\"https://ege.sdamgia.ru/formula/svg/de/ded681eaa02d11064c9a469dd1b3e04c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=0\"> под­хо­дят <img src=\"https://ege.sdamgia.ru/formula/svg/49/4998688acbd87ecbec80158901969396.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x=0;x=2;x= минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби ,\"> то есть целых кор­ней будет толь­ко два.</p><p class=\"left_margin\">Те­перь будем уве­ли­чи­вать <i>a</i>, при этом будут до­бав­лять­ся новые ре­ше­ния - для ко­то­рых <img src=\"https://ege.sdamgia.ru/formula/svg/08/0814096ad33a0a7327e29f49110af064.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x в квад­ра­те минус 2x\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/b3/b3de2049c76972e1b1e957772f908c1d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2x плюс 1\"> лежат на про­ме­жут­ке <img src=\"https://ege.sdamgia.ru/formula/svg/30/301bbfa78fc887c280b1a9a0f6ba7828.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка минус a;a пра­вая квад­рат­ная скоб­ка .\"></p><p>&nbsp;</p><p class=\"left_margin\">При <img src=\"https://ege.sdamgia.ru/formula/svg/38/3872c9ae3f427af0be0ead09d07ae2cf.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=1\"> до­ба­вит­ся <img src=\"https://ege.sdamgia.ru/formula/svg/a2/a255512f9d61a6777bd5a304235bd26d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=1\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/ef/ef0bf4956616b08fc0e544135009869f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x= минус 1,\"> ста­нет <img src=\"https://ege.sdamgia.ru/formula/svg/a8/a87ff679a2f3e71d9181a67b7542122c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"4\"> корня.</p><p>&nbsp;</p><p class=\"left_margin\">При <img src=\"https://ege.sdamgia.ru/formula/svg/3d/3d7b566aaed7713dfc5583dfc4b9c386.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=3\"> до­ба­вят­ся <img src=\"https://ege.sdamgia.ru/formula/svg/36/363be1a1694c88fafb86bd7b8f3bfffc.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x= минус 2\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/50/50b8bd4730b0e35c88481f8b866d193a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x=3,\"> ста­нет <img src=\"https://ege.sdamgia.ru/formula/svg/16/1679091c5a880faf6fb5e6087eb1b2dc.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"6\"> кор­ней. </p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/c0/c0c37d85505e276ee5d9e3c4e3091df5.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка 1;3 пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b5/b5dc5ff71fc5904cc8b2e1bb1410d4b7.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/ded681eaa02d11064c9a469dd1b3e04c.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e5ad434c6181560ed4db5d5eebb48e60.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/301bbfa78fc887c280b1a9a0f6ba7828.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/301a39c34b9dfb41ae42849b26592220.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/ded681eaa02d11064c9a469dd1b3e04c.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/4998688acbd87ecbec80158901969396.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/0814096ad33a0a7327e29f49110af064.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b3de2049c76972e1b1e957772f908c1d.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/301bbfa78fc887c280b1a9a0f6ba7828.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/3872c9ae3f427af0be0ead09d07ae2cf.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a255512f9d61a6777bd5a304235bd26d.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/ef0bf4956616b08fc0e544135009869f.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a87ff679a2f3e71d9181a67b7542122c.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3d7b566aaed7713dfc5583dfc4b9c386.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/363be1a1694c88fafb86bd7b8f3bfffc.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50b8bd4730b0e35c88481f8b866d193a.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/1679091c5a880faf6fb5e6087eb1b2dc.svg",
+            "https://ege.sdamgia.ru/formula/svg/c0/c0c37d85505e276ee5d9e3c4e3091df5.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

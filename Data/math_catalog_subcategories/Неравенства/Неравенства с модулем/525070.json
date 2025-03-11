@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 525070,
+    "condition": {
+        "text": "Решите неравенство ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body421362\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/46/463512a25be1bf4eee5c5448ddfbfdfb.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"|x плюс 1| минус дробь: чис­ли­тель: 6, зна­ме­на­тель: |x плюс 1| конец дроби \\leqslant5. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/46/463512a25be1bf4eee5c5448ddfbfdfb.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Запишем исходное неравенство в виде  при условии Решение неравенства:  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol525070\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">За­пи­шем ис­ход­ное не­ра­вен­ство в виде </p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"d656b4e4fb40441679fd877ef0181f98\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/d6/d656b4e4fb40441679fd877ef0181f98.svg\" class=\"tex\" style=\"vertical-align:-11.0pt\" alt=\" дробь: чис­ли­тель: |x плюс 1| в квад­ра­те минус 5|x плюс 1| минус 6, зна­ме­на­тель: |x плюс 1| конец дроби \\leqslant0 рав­но­силь­но дробь: чис­ли­тель: левая круг­лая скоб­ка |x плюс 1| плюс 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка |x плюс 1| минус 6 пра­вая круг­лая скоб­ка , зна­ме­на­тель: |x плюс 1| конец дроби \\leqslant0 рав­но­силь­но |x плюс 1| минус 6\\leqslant0 \"></span> при усло­вии <img src=\"https://ege.sdamgia.ru/formula/svg/a8/a8ae990929e1edd36842cd5183812386.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x не равно минус 1.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Ре­ше­ние не­ра­вен­ства: <img src=\"https://ege.sdamgia.ru/formula/svg/b5/b599292de25c2c7d4f44d3c5771580dd.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" минус 7 мень­ше или равно x мень­ше минус 1, минус 1 мень­ше x\\leqslant5.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/82/82216742d8ae6fa7183f0282258654cc.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка минус 7; минус 1 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка минус 1;5 пра­вая квад­рат­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d6/d656b4e4fb40441679fd877ef0181f98.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a8ae990929e1edd36842cd5183812386.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b599292de25c2c7d4f44d3c5771580dd.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/82216742d8ae6fa7183f0282258654cc.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": [
+        525070,
+        525098
+    ]
+}

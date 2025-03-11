@@ -1,0 +1,29 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 517477,
+    "condition": {
+        "text": "В треугольной пирамиде SABC известны боковые рёбра: SA = SB  =13,  Основанием высоты этой пирамиды является середина медианы CM треугольника ABC. Эта высота равна 12.а)  Докажите, что треугольник ABC равнобедренный.б)  Найдите объём пирамиды SABC.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body625561\" class=\"pbody\"><p class=\"left_margin\">В тре­уголь­ной пи­ра­ми­де <i>SABC</i> из­вест­ны бо­ко­вые рёбра: <i>SA = SB </i> =13, <img src=\"https://ege.sdamgia.ru/formula/svg/0f/0f3678dd80cc47b078167f575aa82240.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"SC=3 ко­рень из: на­ча­ло ар­гу­мен­та: 17 конец ар­гу­мен­та .\"> Ос­но­ва­ни­ем вы­со­ты этой пи­ра­ми­ды яв­ля­ет­ся се­ре­ди­на ме­ди­а­ны <i>CM</i> тре­уголь­ни­ка <i>ABC</i>. Эта вы­со­та равна 12.</p><p class=\"left_margin\">а)  До­ка­жи­те, что тре­уголь­ник <i>ABC</i> рав­но­бед­рен­ный.</p><p class=\"left_margin\">б)  Най­ди­те объём пи­ра­ми­ды <i>SABC</i>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/0f/0f3678dd80cc47b078167f575aa82240.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Пусть SH  — высота пирамиды SABC. Треугольник ASB равнобедренный, поэтому прямые AB и SM перпендикулярны. Прямая AB перпендикулярна плоскости SMC, поскольку она перпендикулярна прямым SM и SH. Значит, CM является не только медианой, но и высотой треугольника ABC, то есть треугольник ABC равнобедренный.б)  В пирамиде SABC:    Значит, объём пирамиды  Ответ: б) 96.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol517477\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=142080\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Пусть <i>SH</i>  — вы­со­та пи­ра­ми­ды <i>SABC.</i> Тре­уголь­ник <i>ASB</i> рав­но­бед­рен­ный, по­это­му пря­мые <i>AB</i> и <i>SM</i> пер­пен­ди­ку­ляр­ны. Пря­мая <i>AB</i> пер­пен­ди­ку­ляр­на плос­ко­сти <i>SMC</i>, по­сколь­ку она пер­пен­ди­ку­ляр­на пря­мым <i>SM</i> и <i>SH</i>. Зна­чит, <i>CM</i> яв­ля­ет­ся не толь­ко ме­ди­а­ной, но и вы­со­той тре­уголь­ни­ка <i>ABC</i>, то есть тре­уголь­ник <i>ABC</i> рав­но­бед­рен­ный.</p><p class=\"left_margin\">б)  В пи­ра­ми­де <i>SABC</i>:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/3b/3b1323d1136c3ba8722bcd8aaa71799a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"MH=CH= ко­рень из: на­ча­ло ар­гу­мен­та: SC в квад­ра­те минус SH в квад­ра­те конец ар­гу­мен­та =3,\"> </p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/e3/e3deb21ab6a651ab82c51490546865a2.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AH= ко­рень из: на­ча­ло ар­гу­мен­та: SA в квад­ра­те минус SH в квад­ра­те конец ар­гу­мен­та =5,\"> </p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/37/37ddc01acb03adbed6e0785ce19744e1.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"BM=AM= ко­рень из: на­ча­ло ар­гу­мен­та: AH в квад­ра­те минус MH в квад­ра­те конец ар­гу­мен­та =4.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Зна­чит, объём пи­ра­ми­ды <img src=\"https://ege.sdamgia.ru/formula/svg/a1/a16bbd3605c42742f740d28ee2319446.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"V= дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби SH умно­жить на дробь: чис­ли­тель: AB умно­жить на CM, зна­ме­на­тель: 2 конец дроби =96.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) 96.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/3b/3b1323d1136c3ba8722bcd8aaa71799a.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e3deb21ab6a651ab82c51490546865a2.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/37ddc01acb03adbed6e0785ce19744e1.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a16bbd3605c42742f740d28ee2319446.svg",
+            "/get_file?id=142080"
+        ]
+    },
+    "answer": "б) 96.",
+    "topic_id": 14,
+    "analog_ids": [
+        517477,
+        517484
+    ]
+}

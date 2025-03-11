@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 514868,
+    "condition": {
+        "text": "В остроугольном треугольнике ABC проведены высоты AK и BP.  а)  Докажите, что углы АКР и ABP равны.б)  Найдите длину отрезка PK, если известно, что AB  =  5, BC  =  6, CA  =  4.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body636360\" class=\"pbody\"><p class=\"left_margin\">В&nbsp;ост­ро­уголь­ном&nbsp;тре­уголь­ни­ке&nbsp;<i>ABC</i>&nbsp;про­ве­де­ны&nbsp;вы­со­ты&nbsp;<i>AK</i>&nbsp;и&nbsp;<i>BP</i>.&nbsp;&nbsp;</p><p class=\"left_margin\">а)  До­ка­жи­те,&nbsp;что&nbsp;углы&nbsp;<i>АКР</i>&nbsp;и&nbsp;<i>ABP</i>&nbsp;равны.</p><p class=\"left_margin\">б)  Най­ди­те&nbsp;длину&nbsp;от­рез­ка&nbsp;<i>PK</i>,&nbsp;если&nbsp;из­вест­но,&nbsp;что&nbsp;<i>AB</i>  =  5,&nbsp;<i>BC</i>  =  6,&nbsp;<i>CA</i>  =  4.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. \\sqrt{x}а) Заметим, что точки K и P лежат на окружности с диаметром AB (поскольку  Поэтому четырехугольник APKB вписанный и  поскольку они опираются на одну дугу.б)  Из вписанности получаем  поэтому треугольники CPK и CBA подобны по двум углам, так как угол C общий. Вычислим коэффициент подобия.По теореме косинусов, в треугольнике ABC имеем:  поэтому  Следовательно,  по определению косинуса из треугольника AKC. Это и есть коэффициент подобия. Окончательно:  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol514868\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">\\sqrt{x}а) За­ме­тим, что точки <i>K</i> и <i>P</i> лежат на окруж­но­сти с диа­мет­ром <i>AB</i> (по­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/bf/bf2e048326986751ac1ed6f0c9ba49ba.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle APB=\\angle AKB=90 в сте­пе­ни левая круг­лая скоб­ка \\circ пра­вая круг­лая скоб­ка .\"> По­это­му че­ты­рех­уголь­ник <i>APKB</i> впи­сан­ный и <img src=\"https://ege.sdamgia.ru/formula/svg/56/5608dd2009957622de23a31109ed188f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle AKP=\\angle ABP,\"> по­сколь­ку они опи­ра­ют­ся на одну дугу.</p><p><img src=\"/get_file?id=41454\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">б)  Из впи­сан­но­сти по­лу­ча­ем <img src=\"https://ege.sdamgia.ru/formula/svg/76/769a373a720292a446f3a3e69f5ff469.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle ABK=180 в сте­пе­ни левая круг­лая скоб­ка \\circ пра­вая круг­лая скоб­ка минус \\angle APK=\\angle CPK,\"> по­это­му тре­уголь­ни­ки <i>CPK</i> и <i>CBA</i> по­доб­ны по двум углам, так как угол <i>C</i> общий. Вы­чис­лим ко­эф­фи­ци­ент по­до­бия.</p><p class=\"left_margin\">По тео­ре­ме ко­си­ну­сов, в тре­уголь­ни­ке <i>ABC</i> имеем: <img src=\"https://ege.sdamgia.ru/formula/svg/ec/ecd6f889ef7cb11c1d79e98b8719bb36.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"25=36 плюс 16 минус 2 умно­жить на 4 умно­жить на 6 ко­си­нус \\angle C,\"> по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/b7/b72e0f98162ee8f5a2588a9b966efb79.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" ко­си­нус \\angle C= дробь: чис­ли­тель: 9, зна­ме­на­тель: 16 конец дроби . \"> Сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/75/758030f7d2afeb0785681d1bd4e02c37.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"CK:AC= дробь: чис­ли­тель: 9, зна­ме­на­тель: 16 конец дроби \"> по опре­де­ле­нию ко­си­ну­са из тре­уголь­ни­ка <i>AKC</i>. Это и есть ко­эф­фи­ци­ент по­до­бия. Окон­ча­тель­но: <img src=\"https://ege.sdamgia.ru/formula/svg/8f/8ff2eecd19b9845bf5525ff235535734.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"PK= дробь: чис­ли­тель: 9, зна­ме­на­тель: 16 конец дроби AB= дробь: чис­ли­тель: 45, зна­ме­на­тель: 16 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/a8/a807170b3e7e2c838b36c0825ac96ba7.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 45, зна­ме­на­тель: 16 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/bf/bf2e048326986751ac1ed6f0c9ba49ba.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/5608dd2009957622de23a31109ed188f.svg",
+            "https://ege.sdamgia.ru/formula/svg/76/769a373a720292a446f3a3e69f5ff469.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ecd6f889ef7cb11c1d79e98b8719bb36.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b72e0f98162ee8f5a2588a9b966efb79.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/758030f7d2afeb0785681d1bd4e02c37.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8ff2eecd19b9845bf5525ff235535734.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a807170b3e7e2c838b36c0825ac96ba7.svg",
+            "/get_file?id=41454"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

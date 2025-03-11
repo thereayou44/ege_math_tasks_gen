@@ -1,0 +1,55 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27281,
+    "condition": {
+        "text": "В треугольнике ABC угол C равен 90°,   Найдите высоту ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918637\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right; margin:10px\" src=\"/get_file?id=1086\">В тре­уголь­ни­ке <i>ABC</i> угол <i>C</i> равен 90°, <img src=\"https://ege.sdamgia.ru/formula/svg/3a/3a978eadf770de0e96cda96d42c5b954.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AC = 5,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/1b/1b73dc76776fcf92219fb17c9c8d5b87.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" ко­си­нус A = дробь: чис­ли­тель: 7, зна­ме­на­тель: 25 конец дроби . \"> Най­ди­те вы­со­ту <img src=\"https://ege.sdamgia.ru/formula/svg/f8/f810945d972ee50d8a0064119377c188.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"CH.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/3a/3a978eadf770de0e96cda96d42c5b954.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1b73dc76776fcf92219fb17c9c8d5b87.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f810945d972ee50d8a0064119377c188.svg",
+            "/get_file?id=1086"
+        ]
+    },
+    "solution": {
+        "text": "Решение. ##.  Ответ: 4,8.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27281\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">##</p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/94/94151f1a5fe69142e7efe0c15cb88340.svg\" class=\"tex\" style=\"vertical-align:-9.4pt\" alt=\"CH=AC синус A=AC ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус ко­си­нус конец ар­гу­мен­та в квад­ра­те A=5 ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус дробь: чис­ли­тель: 49, зна­ме­на­тель: 625 конец дроби конец ар­гу­мен­та =5 умно­жить на дробь: чис­ли­тель: 24, зна­ме­на­тель: 25 конец дроби =4,8 \"></p><p class=\"left_margin\"></p></center>. <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 4,8.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/94/94151f1a5fe69142e7efe0c15cb88340.svg"
+        ]
+    },
+    "answer": "4,8",
+    "topic_id": null,
+    "analog_ids": [
+        27281,
+        31459,
+        31461,
+        31463,
+        31459,
+        31461,
+        31463,
+        31465,
+        31467,
+        31469,
+        31471,
+        31473,
+        31475,
+        31477,
+        31479,
+        31481,
+        31483,
+        31485,
+        31487,
+        31489,
+        31491,
+        31493,
+        31495,
+        31497,
+        31499,
+        31501,
+        31503,
+        31505,
+        31507
+    ]
+}

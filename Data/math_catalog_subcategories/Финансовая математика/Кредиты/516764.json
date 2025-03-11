@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 516764,
+    "condition": {
+        "text": "Дмитрий взял кредит в банке на сумму 270 200 рублей. Схема выплата кредита такова: в конце каждого года банк увеличивает на 10 процентов оставшуюся сумму долга, а затем Дмитрий переводит в банк свой очередной платеж. Известно, что Дмитрий погасил кредит за три года, причем каждый его следующий платеж был ровно втрое больше предыдущего. Какую сумму Дмитрий заплатил в первый раз? Ответ дайте в рублях.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body625760\" class=\"pbody\"><p class=\"left_margin\">Дмит­рий взял кре­дит в банке на сумму 270 200 руб­лей. Схема вы­пла­та кре­ди­та та­ко­ва: в конце каж­до­го года банк уве­ли­чи­ва­ет на 10 про­цен­тов остав­шу­ю­ся сумму долга, а затем Дмит­рий пе­ре­во­дит в банк свой оче­ред­ной пла­теж. Из­вест­но, что Дмит­рий по­га­сил кре­дит за три года, при­чем каж­дый его сле­ду­ю­щий пла­теж был ровно втрое боль­ше преды­ду­ще­го. Какую сумму Дмит­рий за­пла­тил в пер­вый раз? Ответ дайте в руб­лях.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Пусть S = 270 200 рублей  — величина кредита, а х (руб.)  — первый платеж Дмитрия. Тогда оставшиеся два платежа составляли 3x и 9x рублей соответственно.В конце первого года долг Дмитрия после его платежа составлял  руб.; в конце второго года  —  руб., а в конце третьего  —  руб., что составило 0 рублей, так как за три года кредит был погашен полностью. Далее имеем: Подставляя в это выражение  получаем  рублей. Ответ:  26 620 руб.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol516764\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть <i>S</i> = 270 200 руб­лей  — ве­ли­чи­на кре­ди­та, а <i>х</i> (руб.)  — пер­вый пла­теж Дмит­рия. Тогда остав­ши­е­ся два пла­те­жа со­став­ля­ли 3<i>x</i> и 9<i>x</i> руб­лей со­от­вет­ствен­но.</p><p class=\"left_margin\">В конце пер­во­го года долг Дмит­рия после его пла­те­жа со­став­лял <img src=\"https://ege.sdamgia.ru/formula/svg/41/41c012d57e2447b04d4760a2874a53aa.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 1,1S минус x пра­вая круг­лая скоб­ка \"> руб.; в конце вто­ро­го года  — <img src=\"https://ege.sdamgia.ru/formula/svg/72/726f1663706e5d6e5feb2b67d81aa17c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка левая круг­лая скоб­ка 1,1S минус x пра­вая круг­лая скоб­ка умно­жить на 1,1 минус 3x пра­вая круг­лая скоб­ка \"> руб., а в конце тре­тье­го  — <img src=\"https://ege.sdamgia.ru/formula/svg/c2/c22bbfab050640bffe1ca0460c02ac3d.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка левая круг­лая скоб­ка левая круг­лая скоб­ка 1,1S минус x пра­вая круг­лая скоб­ка умно­жить на 1,1 минус 3x пра­вая круг­лая скоб­ка умно­жить на 1,1 минус 9x пра­вая круг­лая скоб­ка \"> руб., что со­ста­ви­ло 0 руб­лей, так как за три года кре­дит был по­га­шен пол­но­стью. Далее имеем: </p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"89aabdcb0ec1f93751d4803cf608f67d\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/89/89aabdcb0ec1f93751d4803cf608f67d.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" левая круг­лая скоб­ка левая круг­лая скоб­ка 1,1S минус x пра­вая круг­лая скоб­ка умно­жить на 1,1 минус 3x пра­вая круг­лая скоб­ка умно­жить на 1,1 минус 9x=0 рав­но­силь­но 1,331S=13,51x рав­но­силь­но x= дробь: чис­ли­тель: 1331, зна­ме­на­тель: 13510 конец дроби S. \"></span><span data-width=\"465\" data-formulahash=\"89aabdcb0ec1f93751d4803cf608f67d\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/4c/4c2bb8416dfadb9e9a4892880a6b20e5.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка левая круг­лая скоб­ка 1,1S минус x пра­вая круг­лая скоб­ка умно­жить на 1,1 минус 3x пра­вая круг­лая скоб­ка умно­жить на 1,1 минус 9x=0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/13/13df06bced40fd884bbdb56d1ff99bd6.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" рав­но­силь­но 1,331S=13,51x рав­но­силь­но x= дробь: чис­ли­тель: 1331, зна­ме­на­тель: 13510 конец дроби S. \"></span></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Под­став­ляя в это вы­ра­же­ние <img src=\"https://ege.sdamgia.ru/formula/svg/bc/bcffef91caa9d565c0e77324189ac137.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"S=270200,\"> по­лу­ча­ем <img src=\"https://ege.sdamgia.ru/formula/svg/83/8338bbd6721f29bdbf19aa335a1dbcbc.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=26620\"> руб­лей.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  26 620 руб.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/41/41c012d57e2447b04d4760a2874a53aa.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/726f1663706e5d6e5feb2b67d81aa17c.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c22bbfab050640bffe1ca0460c02ac3d.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/89aabdcb0ec1f93751d4803cf608f67d.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c2bb8416dfadb9e9a4892880a6b20e5.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/13df06bced40fd884bbdb56d1ff99bd6.svg",
+            "https://ege.sdamgia.ru/formula/svg/bc/bcffef91caa9d565c0e77324189ac137.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/8338bbd6721f29bdbf19aa335a1dbcbc.svg"
+        ]
+    },
+    "answer": "26 620 руб.",
+    "topic_id": 16,
+    "analog_ids": [
+        516764,
+        516783
+    ]
+}

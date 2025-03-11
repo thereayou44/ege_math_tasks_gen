@@ -1,0 +1,20 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 502067,
+    "condition": {
+        "text": " На рисунке изображён график функции y  =  f(x) и отмечены семь точек на оси абсцисс: x1, x2, x3, x4, x5, x6, x7. В скольких из этих точек производная функции f(x) отрицательна?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body640975\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=111321\" style=\"float:right;margin:10px;max-width:100%\"> На ри­сун­ке изоб­ражён гра­фик функ­ции <i>y  =  f</i>(<i>x</i>) и от­ме­че­ны семь точек на оси абс­цисс: <i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, <i>x</i><sub>3</sub>, <i>x</i><sub>4</sub>, <i>x</i><sub>5</sub>, <i>x</i><sub>6</sub>, <i>x</i><sub>7</sub>. В сколь­ких из этих точек про­из­вод­ная функ­ции <i>f</i>(<i>x</i>) от­ри­ца­тель­на?</p></div>",
+        "image_urls": [
+            "/get_file?id=111321"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Производная функции отрицательна в тех точках, которые принадлежат участкам убывания функции. Это точки x3, x4, x7  — всего 3 точки. Ответ: 3.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol502067\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Про­из­вод­ная функ­ции от­ри­ца­тель­на в тех точ­ках, ко­то­рые при­над­ле­жат участ­кам убы­ва­ния функ­ции. Это точки <i>x</i><sub>3</sub>, <i>x</i><sub>4</sub>, <i>x</i><sub>7</sub>  — всего 3 точки.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 3.</p></div>",
+        "image_urls": []
+    },
+    "answer": "3",
+    "topic_id": 8,
+    "analog_ids": []
+}

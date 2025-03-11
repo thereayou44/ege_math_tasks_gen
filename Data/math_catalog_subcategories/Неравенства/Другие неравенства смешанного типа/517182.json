@@ -1,0 +1,35 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 517182,
+    "condition": {
+        "text": "Решите неравенство ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body625346\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/44/44c30a93da1536a10ceb93420de90078.svg\" class=\"tex\" style=\"vertical-align:-10.7pt\" alt=\" дробь: чис­ли­тель: 35 в сте­пе­ни левая круг­лая скоб­ка |x| пра­вая круг­лая скоб­ка минус 5 в сте­пе­ни левая круг­лая скоб­ка |x| пра­вая круг­лая скоб­ка минус 5 умно­жить на 7 в сте­пе­ни левая круг­лая скоб­ка |x| пра­вая круг­лая скоб­ка плюс 5, зна­ме­на­тель: 2 в сте­пе­ни левая круг­лая скоб­ка ко­рень из: на­ча­ло ар­гу­мен­та: x плюс 2 конец ар­гу­мен­та пра­вая круг­лая скоб­ка плюс 1 конец дроби боль­ше или равно 0. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/44/44c30a93da1536a10ceb93420de90078.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Разложим числитель неравенства на множители Имеем  при любом  при  неравенство решений не имеет.Если  то Если  то  тогда  откуда  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol517182\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Раз­ло­жим чис­ли­тель не­ра­вен­ства на мно­жи­те­ли <img src=\"https://ege.sdamgia.ru/formula/svg/3d/3d9fc02c898ed960ec3fdff63955da3a.svg\" class=\"tex\" style=\"vertical-align:-10.7pt\" alt=\" дробь: чис­ли­тель: левая круг­лая скоб­ка 7 в сте­пе­ни левая круг­лая скоб­ка |x| пра­вая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 5 в сте­пе­ни левая круг­лая скоб­ка |x| пра­вая круг­лая скоб­ка минус 5 пра­вая круг­лая скоб­ка , зна­ме­на­тель: 2 в сте­пе­ни левая круг­лая скоб­ка ко­рень из: на­ча­ло ар­гу­мен­та: x плюс 2 конец ар­гу­мен­та пра­вая круг­лая скоб­ка плюс 1 конец дроби \\geqslant0. \"></p><p class=\"left_margin\">Имеем <img src=\"https://ege.sdamgia.ru/formula/svg/63/63efadf90445f95c7ca2edd30601918a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2 в сте­пе­ни левая круг­лая скоб­ка ко­рень из: на­ча­ло ар­гу­мен­та: x плюс 2 конец ар­гу­мен­та пра­вая круг­лая скоб­ка плюс 1 боль­ше 0\"> при любом <img src=\"https://ege.sdamgia.ru/formula/svg/5c/5c7192a7a545ff792401d2b20f6ee583.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x боль­ше или равно минус 2,\"> при <img src=\"https://ege.sdamgia.ru/formula/svg/41/4133c75041b0aa2db00b3df74f578889.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x мень­ше минус 2\"> не­ра­вен­ство ре­ше­ний не имеет.</p><p class=\"left_margin\">Если <img src=\"https://ege.sdamgia.ru/formula/svg/ea/eab93b3179745965aa8fa36deec2534a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x=0,\"> то <img src=\"https://ege.sdamgia.ru/formula/svg/1e/1e56e605b3d6ce2ab339d03c89bd7b33.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"7 в сте­пе­ни левая круг­лая скоб­ка |x| пра­вая круг­лая скоб­ка минус 1=0.\"></p><p class=\"left_margin\">Если <img src=\"https://ege.sdamgia.ru/formula/svg/0c/0c1382876a0a47b5248f2a0288bcec67.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x не равно 0,\"> то <img src=\"https://ege.sdamgia.ru/formula/svg/36/36dbd566b3d355918118ad0b69c2f66e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"7 в сте­пе­ни левая круг­лая скоб­ка |x| пра­вая круг­лая скоб­ка минус 1 боль­ше 0,\"> тогда <img src=\"https://ege.sdamgia.ru/formula/svg/be/beb5466728d102842aec23883688491f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"5 в сте­пе­ни левая круг­лая скоб­ка |x| пра­вая круг­лая скоб­ка минус 5 боль­ше или равно 0,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/00/0077537840c582964cfcc508c11b30b5.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"|x| боль­ше или равно 1.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/ce/ce6fb74f985273b68e6741942e5015aa.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" минус 2 мень­ше или равно x мень­ше или равно минус 1, x=0, x боль­ше или равно 1.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/3d/3d9fc02c898ed960ec3fdff63955da3a.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/63efadf90445f95c7ca2edd30601918a.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5c7192a7a545ff792401d2b20f6ee583.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/4133c75041b0aa2db00b3df74f578889.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/eab93b3179745965aa8fa36deec2534a.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1e56e605b3d6ce2ab339d03c89bd7b33.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c1382876a0a47b5248f2a0288bcec67.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/36dbd566b3d355918118ad0b69c2f66e.svg",
+            "https://ege.sdamgia.ru/formula/svg/be/beb5466728d102842aec23883688491f.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/0077537840c582964cfcc508c11b30b5.svg",
+            "https://ege.sdamgia.ru/formula/svg/ce/ce6fb74f985273b68e6741942e5015aa.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": [
+        517182,
+        517220
+    ]
+}

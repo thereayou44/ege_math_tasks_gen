@@ -1,0 +1,1807 @@
+[
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 1,
+        "name": "Планиметрия",
+        "is_additional": false,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 79,
+                "name": "Решение прямоугольного треугольника",
+                "problems_count": 49
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 90,
+                "name": "Решение равнобедренного треугольника",
+                "problems_count": 48
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 96,
+                "name": "Треугольники общего вида",
+                "problems_count": 29
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 102,
+                "name": "Параллелограммы",
+                "problems_count": 35
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 94,
+                "name": "Трапеция",
+                "problems_count": 27
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 111,
+                "name": "Центральные и вписанные углы",
+                "problems_count": 15
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 112,
+                "name": "Касательная, хорда, секущая",
+                "problems_count": 11
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 113,
+                "name": "Вписанные окружности",
+                "problems_count": 25
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 114,
+                "name": "Описанные окружности",
+                "problems_count": 30
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 2,
+        "name": "Векторы",
+        "is_additional": false,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 182,
+                "name": "Векторы и операции с ними",
+                "problems_count": 57
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 3,
+        "name": "Стереометрия",
+        "is_additional": false,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 192,
+                "name": "Куб",
+                "problems_count": 13
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 193,
+                "name": "Прямоугольный параллелепипед",
+                "problems_count": 34
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 180,
+                "name": "Элементы составных многогранников",
+                "problems_count": 15
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 148,
+                "name": "Площадь поверхности  составного многогранника",
+                "problems_count": 18
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 140,
+                "name": "Объем составного многогранника",
+                "problems_count": 17
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 178,
+                "name": "Призма",
+                "problems_count": 52
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 177,
+                "name": "Пирамида",
+                "problems_count": 68
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 197,
+                "name": "Комбинации тел",
+                "problems_count": 40
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 194,
+                "name": "Цилиндр",
+                "problems_count": 17
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 144,
+                "name": "Конус",
+                "problems_count": 28
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 151,
+                "name": "Шар",
+                "problems_count": 8
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 4,
+        "name": "Начала теории вероятностей",
+        "is_additional": false,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 166,
+                "name": "Классическое определение вероятности",
+                "problems_count": 57
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 5,
+        "name": "Вероятности сложных событий",
+        "is_additional": false,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 185,
+                "name": "Теоремы о вероятностях событий",
+                "problems_count": 54
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 265,
+                "name": "Новые задания банка MathЕГЭ",
+                "problems_count": 16
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 6,
+        "name": "Простейшие уравнения",
+        "is_additional": false,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 14,
+                "name": "Линейные, квадратные, кубические уравнения",
+                "problems_count": 9
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 9,
+                "name": "Рациональные уравнения",
+                "problems_count": 10
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 10,
+                "name": "Иррациональные уравнения",
+                "problems_count": 16
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 11,
+                "name": "Показательные уравнения",
+                "problems_count": 17
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 12,
+                "name": "Логарифмические уравнения",
+                "problems_count": 14
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 13,
+                "name": "Тригонометрические уравнения",
+                "problems_count": 3
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 7,
+        "name": "Вычисления и преобразования",
+        "is_additional": false,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 55,
+                "name": "Преобразования числовых рациональных выражений",
+                "problems_count": 6
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 60,
+                "name": "Преобразования алгебраических выражений и дробей",
+                "problems_count": 26
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 57,
+                "name": "Вычисление значений степенных выражений",
+                "problems_count": 20
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 62,
+                "name": "Действия со степенями",
+                "problems_count": 31
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 56,
+                "name": "Преобразования числовых иррациональных выражений",
+                "problems_count": 13
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 61,
+                "name": "Преобразования буквенных иррациональных выражений",
+                "problems_count": 11
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 58,
+                "name": "Преобразования числовых логарифмических выражений",
+                "problems_count": 33
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 63,
+                "name": "Преобразования буквенных логарифмических выражений",
+                "problems_count": 3
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 65,
+                "name": "Вычисление значений тригонометрических выражений",
+                "problems_count": 31
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 59,
+                "name": "Преобразования числовых тригонометрических выражений",
+                "problems_count": 31
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 64,
+                "name": "Преобразования буквенных тригонометрических выражений",
+                "problems_count": 2
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 8,
+        "name": "Производная и первообразная",
+        "is_additional": false,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 69,
+                "name": "Физический смысл производной",
+                "problems_count": 6
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 68,
+                "name": "Геометрический смысл производной, касательная",
+                "problems_count": 31
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 70,
+                "name": "Применение производной к исследованию функций",
+                "problems_count": 39
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 183,
+                "name": "Первообразная",
+                "problems_count": 5
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 9,
+        "name": "Задачи с прикладным содержанием",
+        "is_additional": false,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 71,
+                "name": "Линейные уравнения и неравенства",
+                "problems_count": 2
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 72,
+                "name": "Квадратные и степенные уравнения и неравенства",
+                "problems_count": 17
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 76,
+                "name": "Рациональные уравнения и неравенства",
+                "problems_count": 14
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 77,
+                "name": "Иррациональные уравнения и неравенства",
+                "problems_count": 10
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 73,
+                "name": "Показательные уравнения и неравенства",
+                "problems_count": 7
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 74,
+                "name": "Логарифмические уравнения и неравенства",
+                "problems_count": 4
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 75,
+                "name": "Тригонометрические уравнения и неравенства",
+                "problems_count": 16
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 184,
+                "name": "Разные задачи",
+                "problems_count": 6
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 10,
+        "name": "Текстовые задачи",
+        "is_additional": false,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 88,
+                "name": "Задачи на проценты, сплавы и смеси",
+                "problems_count": 17
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 84,
+                "name": "Задачи на движение по прямой",
+                "problems_count": 30
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 85,
+                "name": "Задачи на движение по окружности",
+                "problems_count": 5
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 86,
+                "name": "Задачи на движение по воде",
+                "problems_count": 14
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 87,
+                "name": "Задачи на совместную работу",
+                "problems_count": 25
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 89,
+                "name": "Задачи на прогрессии",
+                "problems_count": 9
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 11,
+        "name": "Графики функций",
+        "is_additional": false,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 267,
+                "name": "Линейные функции",
+                "problems_count": 5
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 294,
+                "name": "Параболы",
+                "problems_count": 8
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 125,
+                "name": "Гиперболы",
+                "problems_count": 7
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 122,
+                "name": "Корни",
+                "problems_count": 2
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 272,
+                "name": "Показательные и логарифмические функции",
+                "problems_count": 11
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 191,
+                "name": "Тригонометрические функции",
+                "problems_count": 6
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 296,
+                "name": "Комбинированные задачи",
+                "problems_count": 9
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 12,
+        "name": "Наибольшее и наименьшее значение функций",
+        "is_additional": false,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 175,
+                "name": "Исследование функций без помощи производной",
+                "problems_count": 17
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 81,
+                "name": "Исследование степенных и иррациональных функций",
+                "problems_count": 62
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 83,
+                "name": "Исследование частных",
+                "problems_count": 11
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 82,
+                "name": "Исследование произведений",
+                "problems_count": 28
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 80,
+                "name": "Исследование показательных и логарифмических функций",
+                "problems_count": 22
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 78,
+                "name": "Исследование тригонометрических функций",
+                "problems_count": 29
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 13,
+        "name": "Уравнения",
+        "is_additional": false,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 330,
+                "name": "Показательные уравнения",
+                "problems_count": 12
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 290,
+                "name": "Рациональные уравнения",
+                "problems_count": 5
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 275,
+                "name": "Иррациональные уравнения",
+                "problems_count": 6
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 186,
+                "name": "Ло­га­риф­ми­че­ские уравнения",
+                "problems_count": 10
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 167,
+                "name": "Тригонометрические уравнения, сводимые к квадратным",
+                "problems_count": 62
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 302,
+                "name": "Тригонометрические уравнения, сводимые к однородным",
+                "problems_count": 8
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 291,
+                "name": "Тригонометрические уравнения, разложение на множители",
+                "problems_count": 54
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 202,
+                "name": "Тригонометрические уравнения, исследование ОДЗ",
+                "problems_count": 45
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 306,
+                "name": "Тригонометрические уравнения, разные задачи",
+                "problems_count": 55
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 201,
+                "name": "Тригонометрия и иррациональности",
+                "problems_count": 45
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 303,
+                "name": "Тригонометрия и логарифмы",
+                "problems_count": 34
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 304,
+                "name": "Тригонометрия и показательные выражения",
+                "problems_count": 38
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 305,
+                "name": "Другие уравнения смешанного типа",
+                "problems_count": 9
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 14,
+        "name": "Стереометрическая задача",
+        "is_additional": false,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 280,
+                "name": "Расстояние между прямыми и плоскостями",
+                "problems_count": 42
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 281,
+                "name": "Расстояние от точки до прямой",
+                "problems_count": 26
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 307,
+                "name": "Расстояние от точки до плоскости",
+                "problems_count": 57
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 282,
+                "name": "Сечения пирамид",
+                "problems_count": 70
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 308,
+                "name": "Сечения призм",
+                "problems_count": 31
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 309,
+                "name": "Сечения параллелепипедов",
+                "problems_count": 22
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 283,
+                "name": "Угол между плоскостями",
+                "problems_count": 44
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 311,
+                "name": "Угол между плоскостями граней многогранника",
+                "problems_count": 24
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 284,
+                "name": "Угол между прямой и плоскостью",
+                "problems_count": 25
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 285,
+                "name": "Угол между скрещивающимися прямыми",
+                "problems_count": 27
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 257,
+                "name": "Объёмы многогранников",
+                "problems_count": 50
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 310,
+                "name": "Сечения круглых тел",
+                "problems_count": 3
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 206,
+                "name": "Круглые тела: цилиндр, конус, шар",
+                "problems_count": 32
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 331,
+                "name": "Комбинации фигур",
+                "problems_count": 18
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 15,
+        "name": "Неравенства",
+        "is_additional": false,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 243,
+                "name": "Неравенства, содержащие радикалы",
+                "problems_count": 14
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 242,
+                "name": "Рациональные неравенства",
+                "problems_count": 47
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 237,
+                "name": "Показательные неравенства",
+                "problems_count": 41
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 320,
+                "name": "Неравенства рациональные относительно показательной функции",
+                "problems_count": 54
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 238,
+                "name": "Логарифмические неравенства первой и второй степени",
+                "problems_count": 49
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 318,
+                "name": "Неравенства рациональные относительно логарифмической функции",
+                "problems_count": 33
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 239,
+                "name": "Неравенства с логарифмами по переменному основанию",
+                "problems_count": 58
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 313,
+                "name": "Неравенства с логарифмами по переменному основанию, применение рационализации",
+                "problems_count": 33
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 319,
+                "name": "Логарифмические неравенства, разные задачи",
+                "problems_count": 28
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 315,
+                "name": "Показательные выражения и иррациональности",
+                "problems_count": 14
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 245,
+                "name": "Логарифмы и показательные выражения",
+                "problems_count": 51
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 314,
+                "name": "Логарифмы и иррациональности",
+                "problems_count": 14
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 316,
+                "name": "Неравенства с тригонометрией",
+                "problems_count": 6
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 244,
+                "name": "Неравенства с модулем",
+                "problems_count": 28
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 317,
+                "name": "Другие неравенства смешанного типа",
+                "problems_count": 30
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 16,
+        "name": "Финансовая математика",
+        "is_additional": false,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 293,
+                "name": "Вклады",
+                "problems_count": 44
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 292,
+                "name": "Кредиты",
+                "problems_count": 153
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 247,
+                "name": "Задачи на оптимальный выбор",
+                "problems_count": 74
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 221,
+                "name": "Разные задачи",
+                "problems_count": 18
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 17,
+        "name": "Планиметрическая задача",
+        "is_additional": false,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 276,
+                "name": "Треугольники и их свойства",
+                "problems_count": 72
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 321,
+                "name": "Четырехугольники и их свойства",
+                "problems_count": 66
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 277,
+                "name": "Окружности и системы окружностей",
+                "problems_count": 45
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 278,
+                "name": "Вписанные окружности и треугольники",
+                "problems_count": 34
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 322,
+                "name": "Описанные окружности и треугольники",
+                "problems_count": 27
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 323,
+                "name": "Окружности и треугольники, разные задачи",
+                "problems_count": 36
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 279,
+                "name": "Вписанные окружности и четырехугольники",
+                "problems_count": 33
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 325,
+                "name": "Описанные окружности и четырехугольники",
+                "problems_count": 14
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 326,
+                "name": "Окружности и четырехугольники, разные задачи",
+                "problems_count": 27
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 324,
+                "name": "Разные задачи о многоугольниках",
+                "problems_count": 9
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 18,
+        "name": "Задача с параметром",
+        "is_additional": false,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 171,
+                "name": "Уравнения с параметром",
+                "problems_count": 35
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 328,
+                "name": "Уравнения с параметром, содержащие модуль",
+                "problems_count": 42
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 327,
+                "name": "Уравнения с параметром, содержащие радикалы",
+                "problems_count": 36
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 270,
+                "name": "Неравенства с параметром",
+                "problems_count": 14
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 268,
+                "name": "Системы с параметром",
+                "problems_count": 68
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 207,
+                "name": "Расположение корней квадратного трехчлена",
+                "problems_count": 17
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 273,
+                "name": "Использование симметрий",
+                "problems_count": 29
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 208,
+                "name": "Использование монотонности, оценок",
+                "problems_count": 40
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 274,
+                "name": "Аналитическое решение уравнений и неравенств",
+                "problems_count": 60
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 329,
+                "name": "Аналитическое решение систем",
+                "problems_count": 31
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 271,
+                "name": "Координаты (x, a)",
+                "problems_count": 16
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 266,
+                "name": "Уравнение окружности",
+                "problems_count": 49
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 269,
+                "name": "Расстояние между точками",
+                "problems_count": 7
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 235,
+                "name": "Функции, зависящие от параметра",
+                "problems_count": 38
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 19,
+        "name": "Числа и их свойства",
+        "is_additional": false,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 172,
+                "name": "Числа и их свойства",
+                "problems_count": 186
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 217,
+                "name": "Числовые наборы на карточках и досках",
+                "problems_count": 60
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 209,
+                "name": "Последовательности и прогрессии",
+                "problems_count": 60
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 210,
+                "name": "Сюжетные задачи: кино, театр, мотки верёвки",
+                "problems_count": 95
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 1,
+        "name": "Чтение графиков и диаграмм",
+        "is_additional": true,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 6,
+                "name": "Определение величины по графику\\",
+                "problems_count": 27
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 8,
+                "name": "Определение величины по диаграмме",
+                "problems_count": 21
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 7,
+                "name": "Вычисление величин по графику или диаграмме",
+                "problems_count": 10
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 2,
+        "name": "Про­стей­шие текстовые задачи",
+        "is_additional": true,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 174,
+                "name": "Вычисления",
+                "problems_count": 26
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 1,
+                "name": "Округ­ле­ние с недостатком",
+                "problems_count": 8
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 2,
+                "name": "Округление с избытком",
+                "problems_count": 21
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 249,
+                "name": "Проценты",
+                "problems_count": 25
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 5,
+                "name": "Проценты и округление",
+                "problems_count": 9
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 3,
+        "name": "Выбор оптимального варианта",
+        "is_additional": true,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 54,
+                "name": "Выбор варианта из двух возможных",
+                "problems_count": 5
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 53,
+                "name": "Выбор варианта из трех возможных",
+                "problems_count": 27
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 173,
+                "name": "Выбор варианта из четырех возможных",
+                "problems_count": 5
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 4,
+        "name": "Квадратная решётка, координатная плоскость",
+        "is_additional": true,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 252,
+                "name": "Многоугольники: вычисление длин и углов",
+                "problems_count": 30
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 190,
+                "name": "Многоугольники: вычисление площадей",
+                "problems_count": 55
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 123,
+                "name": "Круг и его элементы",
+                "problems_count": 15
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 181,
+                "name": "Координатная плоскость",
+                "problems_count": 24
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 5,
+        "name": "Планиметрия: вычисление длин и площадей",
+        "is_additional": true,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 120,
+                "name": "Трeугольники",
+                "problems_count": 9
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 250,
+                "name": "Треугольники",
+                "problems_count": 7
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 127,
+                "name": "Прямоугольник",
+                "problems_count": 1
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 124,
+                "name": "Трапеции",
+                "problems_count": 2
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 253,
+                "name": "Четырехугольники",
+                "problems_count": 22
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 126,
+                "name": "Многоугольник",
+                "problems_count": 1
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 254,
+                "name": "Окружности",
+                "problems_count": 11
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 255,
+                "name": "Координатная плоскость",
+                "problems_count": 49
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 6,
+        "name": "Планиметрия",
+        "is_additional": true,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 256,
+                "name": "Задачи, связанные с углами. Задачи на многоугольники и окружности",
+                "problems_count": 38
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 251,
+                "name": "Задачи, связанные с углами. Применение тригонометрии",
+                "problems_count": 169
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 7,
+        "name": "Задачи с прикладным содержанием",
+        "is_additional": true,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 248,
+                "name": "Тригонометрические уравнения и неравенства",
+                "problems_count": 2
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 8,
+        "name": "Уравнения, си­сте­мы уравнений",
+        "is_additional": true,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 295,
+                "name": "Уравнения без пункта б)",
+                "problems_count": 20
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 203,
+                "name": "Системы тригонометрических уравнений",
+                "problems_count": 25
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 219,
+                "name": "Сложные три­го­но­мет­ри­че­ские уравнения",
+                "problems_count": 117
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 220,
+                "name": "Сложные три­го­но­мет­ри­че­ские уравнения, ис­сле­до­ва­ние ОДЗ",
+                "problems_count": 98
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 218,
+                "name": "Сложные урав­не­ния смешанного типа",
+                "problems_count": 84
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 10,
+        "name": "Сложная стереометрия",
+        "is_additional": true,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 231,
+                "name": "Круглые тела",
+                "problems_count": 117
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 230,
+                "name": "Многогранники",
+                "problems_count": 227
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 10,
+        "name": "Графики функций",
+        "is_additional": true,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 297,
+                "name": "Кусочно-линейная функция",
+                "problems_count": 4
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 298,
+                "name": "Параболы",
+                "problems_count": 5
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 211,
+                "name": "Гиперболы",
+                "problems_count": 5
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 299,
+                "name": "Тригонометрические функции",
+                "problems_count": 1
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 11,
+        "name": "Простые системы неравенств",
+        "is_additional": true,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 169,
+                "name": "Системы, содержащие логарифмическое неравенство",
+                "problems_count": 19
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 204,
+                "name": "Рациональные, иррациональные, показательные неравенства",
+                "problems_count": 37
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 214,
+                "name": "Системы с логарифмами по переменному основанию",
+                "problems_count": 49
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 12,
+        "name": "Сложные неравенства",
+        "is_additional": true,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 246,
+                "name": "Неравенства различных типов",
+                "problems_count": 193
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 13,
+        "name": "Системы сложных неравенств",
+        "is_additional": true,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 223,
+                "name": "Рациональные, иррациональные, показательные неравенства",
+                "problems_count": 29
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 224,
+                "name": "Системы с логарифмами по переменному основанию",
+                "problems_count": 30
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 225,
+                "name": "Системы, содержащие логарифмическое неравенство",
+                "problems_count": 22
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 14,
+        "name": "Многоконфигурационная планиметрическая задача",
+        "is_additional": true,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 205,
+                "name": "Многоугольники и их свойства",
+                "problems_count": 33
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 170,
+                "name": "Окружности и треугольники",
+                "problems_count": 46
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 215,
+                "name": "Окружности и четырёхугольники",
+                "problems_count": 22
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 216,
+                "name": "Окружности и системы окружностей",
+                "problems_count": 23
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 15,
+        "name": "Сложная планиметрия",
+        "is_additional": true,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 262,
+                "name": "Комбинации фигур",
+                "problems_count": 81
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 260,
+                "name": "Многоугольники",
+                "problems_count": 64
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 261,
+                "name": "Окружности",
+                "problems_count": 46
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 259,
+                "name": "Треугольники",
+                "problems_count": 111
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 16,
+        "name": "Сложные практические задачи",
+        "is_additional": true,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 232,
+                "name": "Практические задачи",
+                "problems_count": 199
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 17,
+        "name": "Сложные задачи с па­ра­мет­ром",
+        "is_additional": true,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 258,
+                "name": "Уравнения с параметром",
+                "problems_count": 115
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 240,
+                "name": "Не­ра­вен­ства с параметром",
+                "problems_count": 85
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 241,
+                "name": "Системы с параметром",
+                "problems_count": 87
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 18,
+        "name": "Числа и их свойства",
+        "is_additional": true,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 288,
+                "name": "Последовательности и прогрессии",
+                "problems_count": 13
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 289,
+                "name": "Сюжетные задачи: кино, театр, мотки верёвки",
+                "problems_count": 15
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 286,
+                "name": "Числа и их свойства",
+                "problems_count": 70
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 287,
+                "name": "Числовые наборы на карточках и досках",
+                "problems_count": 1
+            }
+        ]
+    },
+    {
+        "gia_type": "ege",
+        "subject": "math",
+        "number": 19,
+        "name": "Сложные задания на числа и их свойства",
+        "is_additional": true,
+        "categories": [
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 226,
+                "name": "Последовательности и прогрессии",
+                "problems_count": 28
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 227,
+                "name": "Сюжетные задачи",
+                "problems_count": 42
+            },
+            {
+                "gia_type": "ege",
+                "subject": "math",
+                "id": 228,
+                "name": "Числа и их свойства",
+                "problems_count": 180
+            }
+        ]
+    }
+]

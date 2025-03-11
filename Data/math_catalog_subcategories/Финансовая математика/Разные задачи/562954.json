@@ -1,0 +1,20 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 562954,
+    "condition": {
+        "text": "Страховая компания  положила в  банк  некоторую  сумму  денег  под  10%  годовых для  обеспечения  страховых  выплат.  Какова  была  эта  сумма  (в  рублях),  если  она оказалась полностью истрачена за три  года на следующие выплаты: 880 000 рублей в конце  первого  года,  605 000  рублей  в  конце  второго  года  и  1 331 000  рублей  в  конце третьего года (все выплаты производились после начисления банком процентов).",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body457206\" class=\"pbody\"><p class=\"left_margin\">Стра­хо­вая ком­па­ния  по­ло­жи­ла в  банк  не­ко­то­рую  сумму  денег  под  10%  го­до­вых для  обес­пе­че­ния  стра­хо­вых  вы­плат.  Ка­ко­ва  была  эта  сумма  (в  руб­лях),  если  она ока­за­лась пол­но­стью ис­тра­че­на за три  года на сле­ду­ю­щие вы­пла­ты: 880 000 руб­лей в конце  пер­во­го  года,  605 000  руб­лей  в  конце  вто­ро­го  года  и  1 331 000  руб­лей  в  конце тре­тье­го года (все вы­пла­ты про­из­во­ди­лись после на­чис­ле­ния бан­ком про­цен­тов).</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Пусть искомая сумма равна К тысячам рублей. Составим таблицу по данным задачи (все единицы измерения приведены в тысячах рублей). Отчетный годСумма вкладаСтраховая выплатаПереходящий остаток по истечении годав начале годав конце года1K1,1K8801,1K − 88021,1K − 880(1,1K − 880) · 1,1  =  1,21K − 9686051,21K − 968  =  1,21K−157331,21K − 968(1,21K − 968) · 1,1  =  1,331K − 1730,313311,331K − 1730,3 − 1331  =  1,331K − 3061,3=0 Решим уравнение: (тыс. руб.).Ответ: 2 300 000.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol562954\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть ис­ко­мая сумма равна <i>К</i> ты­ся­чам руб­лей. Со­ста­вим таб­ли­цу по дан­ным за­да­чи (все еди­ни­цы из­ме­ре­ния при­ве­де­ны в ты­ся­чах руб­лей).</p><p>&nbsp;</p><p></p><table style=\"margin:auto\"><tbody><tr><td style=\"text-align:center\" rowspan=\"2\">От­чет­ный <p>год</p></td><td style=\"text-align:center\" colspan=\"2\">Сумма вкла­да</td><td style=\"text-align:center\" rowspan=\"2\">Стра­хо­вая <p>вы­пла­та</p></td><td style=\"text-align:center\" rowspan=\"2\">Пе­ре­хо­дя­щий оста­ток по ис­те­че­нии года</td></tr><tr><td style=\"text-align:center\">в на­ча­ле года</td><td style=\"text-align:center\">в конце года</td></tr><tr><td style=\"text-align:center\">1</td><td style=\"text-align:center\"><i>K</i></td><td style=\"text-align:center\">1,1<i>K</i></td><td style=\"text-align:center\">880</td><td style=\"text-align:center\">1,1<i>K</i> − 880</td></tr><tr><td style=\"text-align:center\">2</td><td style=\"text-align:center\">1,1<i>K</i> − 880</td><td style=\"text-align:center\">(1,1<i>K</i> − 880) · 1,1  =  1,21<i>K</i> − 968</td><td style=\"text-align:center\">605</td><td style=\"text-align:center\">1,21<i>K</i> − 968  =  1,21<i>K</i>−1573</td></tr><tr><td style=\"text-align:center\">3</td><td style=\"text-align:center\">1,21<i>K</i> − 968</td><td style=\"text-align:center\">(1,21<i>K</i> − 968) · 1,1  =  1,331<i>K</i> − 1730,3</td><td style=\"text-align:center\">1331</td><td style=\"text-align:center\">1,331<i>K</i> − 1730,3 − 1331  =  1,331<i>K</i> − 3061,3=0</td></tr></tbody></table><p>&nbsp;</p><p class=\"left_margin\">Решим урав­не­ние:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/77/77dbc9df7b24b52d90ede0a1d9aa948e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1,331K минус 3061,3=0 рав­но­силь­но K=2300\"> (тыс. руб.).</p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 2 300 000.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/77/77dbc9df7b24b52d90ede0a1d9aa948e.svg"
+        ]
+    },
+    "answer": "2 300 000.",
+    "topic_id": 16,
+    "analog_ids": []
+}

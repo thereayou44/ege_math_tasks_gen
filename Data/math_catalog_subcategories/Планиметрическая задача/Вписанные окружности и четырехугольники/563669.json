@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 563669,
+    "condition": {
+        "text": "Дана трапеция ABCD, где AB = BC = CD, точка E лежит на плоскости так, что BE ⊥ AD и CE ⊥ BDа)  Докажите, что углы AEB и BDA равны.б)  Найдите площадь трапеции, если AB = 50, а ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body456489\" class=\"pbody\"><p class=\"left_margin\">Дана тра­пе­ция <i>ABCD</i>, где <i>AB </i>= <i>BC </i>= <i>CD</i>, точка <i>E </i>лежит на плос­ко­сти так, что <i>BE </i>⊥ <i>AD </i>и <i>CE </i>⊥ <i>BD</i></p><p class=\"left_margin\">а)  До­ка­жи­те, что углы <i>AEB</i> и <i>BDA</i> равны.</p><p class=\"left_margin\">б)  Най­ди­те пло­щадь тра­пе­ции, если <i>AB </i>= 50, а <img src=\"https://ege.sdamgia.ru/formula/svg/7c/7cbd36181c27141cf94e7164648d2dbe.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" ко­си­нус AEB = дробь: чис­ли­тель: 4, зна­ме­на­тель: 5 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/7c/7cbd36181c27141cf94e7164648d2dbe.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Докажем, что точка E лежит на окружности, описанной вокруг трапеции ABCD. В самом деле, углы BEC  и BDA равны как углы с соответственно перпендикулярными сторонами, а углы BDA  и  BDC равны как опирающиеся на равные дуги. Следовательно, ∠BEC = ∠BDC, а потому и точки B, E, D, C лежат на одной окружности. Тогда углы BEA  и BDA равны как опирающиеся на одну дугу. б)  По доказанному ранее углы AEB, BDA, BDC равны, откуда ∠A  =  ∠D  =  2∠AEB, Пусть K   — точка пересечения AD и BE, тогда из прямоугольного треугольника ABK получаем  и  Так как трапеция ABCD   — равнобедренная, а BK   — её высота, средняя линия трапеции равна  Окончательно получаем:Ответ: 3072.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol563669\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=150472\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  До­ка­жем, что точка <i>E</i> лежит на окруж­но­сти, опи­сан­ной во­круг тра­пе­ции <i>ABCD</i>. В самом деле, углы <i>BEC </i> и <i>BDA</i> равны как углы с со­от­вет­ствен­но пер­пен­ди­ку­ляр­ны­ми сто­ро­на­ми, а углы <i>BDA </i> и  <i>BDC</i> равны как опи­ра­ю­щи­е­ся на рав­ные дуги. Сле­до­ва­тель­но, ∠<i>BEC </i>= ∠<i>BDC</i>, а по­то­му и точки <i>B</i>, <i>E</i>, <i>D</i>, <i>C</i> лежат на одной окруж­но­сти. Тогда углы <i>BEA </i> и <i>BDA</i> равны как опи­ра­ю­щи­е­ся на одну дугу. </p><p class=\"left_margin\">б)  По до­ка­зан­но­му ранее углы <i>AEB</i>, <i>BDA</i>, <i>BDC</i> равны, от­ку­да <nobr>∠<i>A</i>  =  ∠<i>D</i>  =  2∠<i>AEB</i></nobr>, </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ee/ee5d5b78c60242d5b01958e8b9f818ef.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" ко­си­нус \\angle A = ко­си­нус 2\\angle AEB= 2 ко­си­нус в квад­ра­те \\angle AEB минус 1 = дробь: чис­ли­тель: 7, зна­ме­на­тель: 25 конец дроби . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Пусть <i>K </i>  — точка пе­ре­се­че­ния <i>AD </i>и <i>BE</i>, тогда из пря­мо­уголь­но­го тре­уголь­ни­ка <i>ABK </i>по­лу­ча­ем <img src=\"https://ege.sdamgia.ru/formula/svg/07/071b8fd9ff039ff40a84ac165dca3a11.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"AK = 50 умно­жить на дробь: чис­ли­тель: 7, зна­ме­на­тель: 25 конец дроби = 14 \"> и </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f3/f330cc30f3817cf8b3ab33ee7470231f.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"BK = ко­рень из: на­ча­ло ар­гу­мен­та: 50 в квад­ра­те минус 14 в квад­ра­те конец ар­гу­мен­та = 48.\"></p><p class=\"left_margin\"></p></center><p> Так как тра­пе­ция <i>ABCD </i>  — рав­но­бед­рен­ная, а <i>BK </i>  — её вы­со­та, сред­няя линия тра­пе­ции равна <img src=\"https://ege.sdamgia.ru/formula/svg/ec/ecbf8c6629061101573f2a353667ffa9.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BC плюс AK = 64.\"> Окон­ча­тель­но по­лу­ча­ем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/61/617c46c1840986475ed71ec29f22478a.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"S_ABCD = 64 умно­жить на 48 =3072.\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 3072.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ee/ee5d5b78c60242d5b01958e8b9f818ef.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/071b8fd9ff039ff40a84ac165dca3a11.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f330cc30f3817cf8b3ab33ee7470231f.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ecbf8c6629061101573f2a353667ffa9.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/617c46c1840986475ed71ec29f22478a.svg",
+            "/get_file?id=150472"
+        ]
+    },
+    "answer": "3072.",
+    "topic_id": 17,
+    "analog_ids": [
+        563669,
+        563670
+    ]
+}

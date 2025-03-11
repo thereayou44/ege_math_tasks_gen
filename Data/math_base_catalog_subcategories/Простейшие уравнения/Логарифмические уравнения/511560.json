@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 511560,
+    "condition": {
+        "text": "Решите неравенство: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body630964\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство: <img src=\"https://ege.sdamgia.ru/formula/svg/04/042221085fd5d913be04d9db5f183006.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: x в квад­ра­те плюс 2x минус 4, зна­ме­на­тель: x плюс 3 конец дроби плюс дробь: чис­ли­тель: x в квад­ра­те плюс 5x плюс 3, зна­ме­на­тель: x плюс 5 конец дроби мень­ше или равно 2x минус 1. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/04/042221085fd5d913be04d9db5f183006.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Имеем:  Применяя метод интервалов, получаем:  или  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol511560\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Имеем: </p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"2f5fc28114bbc19e000a55d068a08878\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/2f/2f5fc28114bbc19e000a55d068a08878.svg\" class=\"tex\" style=\"vertical-align:-9.2pt\" alt=\" дробь: чис­ли­тель: x в квад­ра­те плюс 2x минус 4, зна­ме­на­тель: x плюс 3 конец дроби плюс дробь: чис­ли­тель: x в квад­ра­те плюс 5x плюс 3, зна­ме­на­тель: x плюс 5 конец дроби мень­ше или равно 2x минус 1 рав­но­силь­но дробь: чис­ли­тель: левая круг­лая скоб­ка x плюс 3 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x минус 1 пра­вая круг­лая скоб­ка , зна­ме­на­тель: x плюс 3 конец дроби минус дробь: чис­ли­тель: 1, зна­ме­на­тель: x плюс 3 конец дроби плюс дробь: чис­ли­тель: x левая круг­лая скоб­ка x плюс 5 пра­вая круг­лая скоб­ка , зна­ме­на­тель: x плюс 5 конец дроби плюс дробь: чис­ли­тель: 3, зна­ме­на­тель: x плюс 5 конец дроби \\leqslant2x минус 1 рав­но­силь­но \"></span><span data-width=\"565\" data-formulahash=\"2f5fc28114bbc19e000a55d068a08878\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/eb/ebd0521215406bab43619abaf7239e28.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: x в квад­ра­те плюс 2x минус 4, зна­ме­на­тель: x плюс 3 конец дроби плюс дробь: чис­ли­тель: x в квад­ра­те плюс 5x плюс 3, зна­ме­на­тель: x плюс 5 конец дроби мень­ше или равно 2x минус 1 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/21/216338a63f281b7f1d2de77b5f97db15.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" рав­но­силь­но дробь: чис­ли­тель: левая круг­лая скоб­ка x плюс 3 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x минус 1 пра­вая круг­лая скоб­ка , зна­ме­на­тель: x плюс 3 конец дроби минус дробь: чис­ли­тель: 1, зна­ме­на­тель: x плюс 3 конец дроби плюс дробь: чис­ли­тель: x левая круг­лая скоб­ка x плюс 5 пра­вая круг­лая скоб­ка , зна­ме­на­тель: x плюс 5 конец дроби плюс дробь: чис­ли­тель: 3, зна­ме­на­тель: x плюс 5 конец дроби \\leqslant2x минус 1 рав­но­силь­но \"></span></p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/79/793e53772e03961ed271e881bfad48e8.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\" рав­но­силь­но минус дробь: чис­ли­тель: 1, зна­ме­на­тель: x плюс 3 конец дроби плюс дробь: чис­ли­тель: 3, зна­ме­на­тель: x плюс 5 конец дроби мень­ше или равно 0 рав­но­силь­но дробь: чис­ли­тель: x плюс 2, зна­ме­на­тель: левая круг­лая скоб­ка x плюс 3 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x плюс 5 пра­вая круг­лая скоб­ка конец дроби \\leqslant0. \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">При­ме­няя метод ин­тер­ва­лов, по­лу­ча­ем: <img src=\"https://ege.sdamgia.ru/formula/svg/c3/c3f30bac52a850ac9ce766560f155e0a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x мень­ше минус 5 \"> или <img src=\"https://ege.sdamgia.ru/formula/svg/88/8802b76b8357d9e890e09d24e1c9a703.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\" минус 3 мень­ше x\\leqslant минус 2.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/a8/a8fbb6c39d755f7e9a327f7ffc1c2fb9.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка минус бес­ко­неч­ность ; минус 5 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка минус 3; минус 2 пра­вая квад­рат­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/2f/2f5fc28114bbc19e000a55d068a08878.svg",
+            "https://ege.sdamgia.ru/formula/svg/eb/ebd0521215406bab43619abaf7239e28.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/216338a63f281b7f1d2de77b5f97db15.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/793e53772e03961ed271e881bfad48e8.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c3f30bac52a850ac9ce766560f155e0a.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/8802b76b8357d9e890e09d24e1c9a703.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a8fbb6c39d755f7e9a327f7ffc1c2fb9.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": [
+        511560,
+        508514,
+        508532
+    ]
+}

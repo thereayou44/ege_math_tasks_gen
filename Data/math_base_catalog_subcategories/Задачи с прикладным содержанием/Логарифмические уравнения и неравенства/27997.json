@@ -1,0 +1,72 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27997,
+    "condition": {
+        "text": "Водолазный колокол, содержащий   моль воздуха при давлении  атмосферы, медленно опускают на дно водоёма. При этом происходит изотермическое сжатие воздуха до конечного давления   Работа, совершаемая водой при сжатии воздуха, определяется выражением   где     — постоянная,   К  — температура воздуха. Найдите, какое давление   (в атм) будет иметь воздух в колоколе, если при сжатии воздуха была совершена работа в 6900 Дж.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918433\" class=\"pbody\"><p class=\"left_margin\">Во­до­лаз­ный ко­ло­кол, со­дер­жа­щий  <img src=\"https://ege.sdamgia.ru/formula/svg/c4/c4e16fb586ef30da1066ffc8c9aad865.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\nu = 2\"> моль воз­ду­ха при дав­ле­нии <img src=\"https://ege.sdamgia.ru/formula/svg/6a/6a1753868f19a93be889ea8cba140719.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"p_1 = 1,5\"> ат­мо­сфе­ры, мед­лен­но опус­ка­ют на дно водоёма. При этом про­ис­хо­дит изо­тер­ми­че­ское сжа­тие воз­ду­ха до ко­неч­но­го дав­ле­ния  <img src=\"https://ege.sdamgia.ru/formula/svg/f1/f11cfc681fd648786f116c492454b363.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"p_2.\"> Ра­бо­та, со­вер­ша­е­мая водой при сжа­тии воз­ду­ха, опре­де­ля­ет­ся вы­ра­же­ни­ем  <img src=\"https://ege.sdamgia.ru/formula/svg/e3/e30f416a5d04a89b36f9d59fe811a502.svg\" class=\"tex\" style=\"vertical-align:-10.5pt\" alt=\"A = альфа \\nu T ло­га­рифм по ос­но­ва­нию 2 дробь: чис­ли­тель: p_2 , зна­ме­на­тель: p_1 конец дроби , \"> где   <img src=\"https://ege.sdamgia.ru/formula/svg/e4/e4c171c6e5d08da1111fc11d7098a731.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" альфа =5,75\">  — по­сто­ян­ная, <img src=\"https://ege.sdamgia.ru/formula/svg/f2/f2846cf06838102fe3844e367fd5dc26.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"T = 300\">  К  — тем­пе­ра­ту­ра воз­ду­ха. Най­ди­те, какое дав­ле­ние  <img src=\"https://ege.sdamgia.ru/formula/svg/6f/6fe97b358b528edc477ba63d50b652af.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"p_2\"> (в атм) будет иметь воз­дух в ко­ло­ко­ле, если при сжа­тии воз­ду­ха была со­вер­ше­на ра­бо­та в 6900 Дж.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c4/c4e16fb586ef30da1066ffc8c9aad865.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a1753868f19a93be889ea8cba140719.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f11cfc681fd648786f116c492454b363.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e30f416a5d04a89b36f9d59fe811a502.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e4c171c6e5d08da1111fc11d7098a731.svg",
+            "https://ege.sdamgia.ru/formula/svg/f2/f2846cf06838102fe3844e367fd5dc26.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6fe97b358b528edc477ba63d50b652af.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Задача сводится к решению уравнения  при заданных значениях постоянной  температуры воздуха  К, начального давления  атм и количества воздуха  моль: атм.  Ответ: 6.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27997\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">За­да­ча сво­дит­ся к ре­ше­нию урав­не­ния <img src=\"https://ege.sdamgia.ru/formula/svg/05/051333eb520bad7db0349f56aac58707.svg\" class=\"tex\" style=\"vertical-align:-10.5pt\" alt=\" альфа \\nu T\\log _2 дробь: чис­ли­тель: p_2, зна­ме­на­тель: p_1 конец дроби = 6900 \"> при за­дан­ных зна­че­ни­ях по­сто­ян­ной <img src=\"https://ege.sdamgia.ru/formula/svg/f8/f8c02a0f30ba377f1754b2635b93fec3.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" альфа =5,75,\"> тем­пе­ра­ту­ры воз­ду­ха <img src=\"https://ege.sdamgia.ru/formula/svg/6f/6f8bc7f7f92d8b80ff1895a14db1b1df.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"T=300\"> К, на­чаль­но­го дав­ле­ния <img src=\"https://ege.sdamgia.ru/formula/svg/a4/a43a774f8ebf3761b30430864a0bb8ec.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"p_1=1,5\"> атм и ко­ли­че­ства воз­ду­ха <img src=\"https://ege.sdamgia.ru/formula/svg/cf/cfaac8b6f9ce18dc7734b198024517d1.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\nu =2\"> моль:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/c8/c895e2e2a0401c76d9f2cdb02de7ca7d.svg\" class=\"tex\" style=\"vertical-align:-10.4pt\" alt=\"5,75 умно­жить на 2 умно­жить на 300 умно­жить на \\log _2 дробь: чис­ли­тель: p_2, зна­ме­на­тель: 1,5 конец дроби = 6900 рав­но­силь­но \\log _2 дробь: чис­ли­тель: p_2, зна­ме­на­тель: 1,5 конец дроби = 2 рав­но­силь­но дробь: чис­ли­тель: p_2, зна­ме­на­тель: 1,5 конец дроби = 4 рав­но­силь­но p_2= 6 \"> атм.</p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 6.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/05/051333eb520bad7db0349f56aac58707.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f8c02a0f30ba377f1754b2635b93fec3.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6f8bc7f7f92d8b80ff1895a14db1b1df.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a43a774f8ebf3761b30430864a0bb8ec.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cfaac8b6f9ce18dc7734b198024517d1.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c895e2e2a0401c76d9f2cdb02de7ca7d.svg"
+        ]
+    },
+    "answer": "6",
+    "topic_id": 9,
+    "analog_ids": [
+        27997,
+        28503,
+        28509,
+        43101,
+        28503,
+        28509,
+        43101,
+        43145,
+        630179,
+        639747,
+        28505,
+        28507,
+        28511,
+        28513,
+        28515,
+        28517,
+        43099,
+        43103,
+        43105,
+        43107,
+        43109,
+        43111,
+        43113,
+        43115,
+        43117,
+        43119,
+        43121,
+        43123,
+        43125,
+        43127,
+        43129,
+        43131,
+        43133,
+        43135,
+        43137,
+        43139,
+        43141,
+        43143
+    ]
+}

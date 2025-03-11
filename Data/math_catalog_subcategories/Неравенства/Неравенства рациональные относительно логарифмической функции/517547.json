@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 517547,
+    "condition": {
+        "text": "Решите неравенство ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body625495\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/57/574aea42e23c6d542cad4643fb8f5e35.svg\" class=\"tex\" style=\"vertical-align:-12.2pt\" alt=\" дробь: чис­ли­тель: ло­га­рифм по ос­но­ва­нию 4 левая круг­лая скоб­ка 16x в сте­пе­ни 4 пра­вая круг­лая скоб­ка плюс 11, зна­ме­на­тель: \\log в квад­ра­те _4x минус 9 конец дроби \\geqslant минус 1. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/57/574aea42e23c6d542cad4643fb8f5e35.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Преобразуем неравенство, используя свойства логарифма: Пусть  тогда:Вернемся к исходной переменной, получим:  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol517547\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пре­об­ра­зу­ем не­ра­вен­ство, ис­поль­зуя свой­ства ло­га­риф­ма:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/59/592d06a9b6d71aef95ba2aafea593287.svg\" class=\"tex\" style=\"vertical-align:-12.2pt\" alt=\" дробь: чис­ли­тель: ло­га­рифм по ос­но­ва­нию 4 левая круг­лая скоб­ка 16x в сте­пе­ни 4 пра­вая круг­лая скоб­ка плюс 11, зна­ме­на­тель: \\log в квад­ра­те _4x минус 9 конец дроби \\geqslant минус 1 рав­но­силь­но дробь: чис­ли­тель: ло­га­рифм по ос­но­ва­нию 4 16 плюс ло­га­рифм по ос­но­ва­нию 4 левая круг­лая скоб­ка x в сте­пе­ни 4 пра­вая круг­лая скоб­ка плюс 11, зна­ме­на­тель: \\log в квад­ра­те _4x минус 9 конец дроби \\geqslant минус 1 рав­но­силь­но \"></p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/1a/1abf6c9e0245da76ebecfac7a3eb19f9.svg\" class=\"tex\" style=\"vertical-align:-12.2pt\" alt=\" рав­но­силь­но дробь: чис­ли­тель: 4 ло­га­рифм по ос­но­ва­нию 4 x плюс 13, зна­ме­на­тель: \\log в квад­ра­те _4x минус 9 конец дроби плюс 1 \\geqslant0 рав­но­силь­но дробь: чис­ли­тель: \\log в квад­ра­те _4x плюс 4 ло­га­рифм по ос­но­ва­нию 4 x плюс 4, зна­ме­на­тель: \\log в квад­ра­те _4x минус 9 конец дроби \\geqslant0. \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/07/075ff58c535de5e754126403febabaa2.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"t= ло­га­рифм по ос­но­ва­нию 4 x, \"> тогда:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e9/e9fc25ab89cd6648d14b16d83679e48d.svg\" class=\"tex\" style=\"vertical-align:-20.9pt\" alt=\" дробь: чис­ли­тель: левая круг­лая скоб­ка t плюс 2 пра­вая круг­лая скоб­ка в квад­ра­те , зна­ме­на­тель: левая круг­лая скоб­ка t минус 3 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка t плюс 3 пра­вая круг­лая скоб­ка конец дроби \\geqslant0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний t мень­ше минус 3,t= минус 2,t боль­ше 3. конец со­во­куп­но­сти . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Вер­нем­ся к ис­ход­ной пе­ре­мен­ной, по­лу­чим:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f9/f98f4cfc1747ba40ab23586399c8ec48.svg\" class=\"tex\" style=\"vertical-align:-20.9pt\" alt=\" со­во­куп­ность вы­ра­же­ний ло­га­рифм по ос­но­ва­нию 4 x мень­ше минус 3, ло­га­рифм по ос­но­ва­нию 4 x= минус 2, ло­га­рифм по ос­но­ва­нию 4 x боль­ше 3 конец со­во­куп­но­сти . рав­но­силь­но \"> <img src=\"https://ege.sdamgia.ru/formula/svg/ff/ff379c8c289e7abac130d1bec7d86526.svg\" class=\"tex\" style=\"vertical-align:-30.8pt\" alt=\" со­во­куп­ность вы­ра­же­ний 0 мень­ше x мень­ше дробь: чис­ли­тель: 1, зна­ме­на­тель: 64 конец дроби ,x= дробь: чис­ли­тель: 1, зна­ме­на­тель: 16 конец дроби ,x боль­ше 64. конец со­во­куп­но­сти . \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/75/75619b20894faf8872f39248366ff275.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая круг­лая скоб­ка 0; дробь: чис­ли­тель: 1, зна­ме­на­тель: 64 конец дроби пра­вая круг­лая скоб­ка \\cup левая фи­гур­ная скоб­ка дробь: чис­ли­тель: 1, зна­ме­на­тель: 16 конец дроби пра­вая фи­гур­ная скоб­ка \\cup левая круг­лая скоб­ка 64; плюс бес­ко­неч­ность пра­вая круг­лая скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/59/592d06a9b6d71aef95ba2aafea593287.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1abf6c9e0245da76ebecfac7a3eb19f9.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/075ff58c535de5e754126403febabaa2.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e9fc25ab89cd6648d14b16d83679e48d.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f98f4cfc1747ba40ab23586399c8ec48.svg",
+            "https://ege.sdamgia.ru/formula/svg/ff/ff379c8c289e7abac130d1bec7d86526.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/75619b20894faf8872f39248366ff275.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": [
+        517547,
+        517559,
+        517819
+    ]
+}

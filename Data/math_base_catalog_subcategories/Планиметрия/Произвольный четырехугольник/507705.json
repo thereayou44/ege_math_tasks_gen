@@ -1,0 +1,41 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 507705,
+    "condition": {
+        "text": "В правильной четырёхугольной пирамиде SABCD с основанием ABCD точка M   — середина ребра SA, точка K   — середина ребра SC. а)  Докажите, что прямые SB и MK перпендикулярны.б)  Найдите угол между плоскостями BMK и ABC, если AB = 8, SC = 6.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body643525\" class=\"pbody\"><p class=\"left_margin\">В пра­виль­ной четырёхуголь­ной пи­ра­ми­де <i>SABCD </i>с ос­но­ва­ни­ем <i>ABCD </i>точка <i>M </i>  — се­ре­ди­на ребра <i>SA</i>, точка <i>K </i>  — се­ре­ди­на ребра <i>SC</i>. </p><p class=\"left_margin\">а)  До­ка­жи­те, что пря­мые <i>SB</i> и <i>MK</i> пер­пен­ди­ку­ляр­ны.</p><p class=\"left_margin\">б)  Най­ди­те угол между плос­ко­стя­ми <i>BMK </i>и <i>ABC</i>, если <i>AB</i> = 8, <i>SC</i> = 6.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Заметим, что  как средняя линия треугольника ASC. Проекция прямой SB на плоскость ABC это прямая OB, где O - основание высоты пирамиды.  так как диагонали квадрата перпендикулярны. Тогда, по теореме о трех перпендикулярах,  а значит и б)  Проведём из точки B перпендикуляр BQ к MK, Q  — середина MK. Точка Q является серединой высоты SO. Прямая MK параллельна прямой пересечения плоскостей, QB⊥MK, OB⊥MK. Следовательно, ∠QBO  — линейный угол искомого угла. Найдём QO.Значит,  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol507705\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=132265\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  За­ме­тим, что <img src=\"https://ege.sdamgia.ru/formula/svg/e2/e202276e88926f917678a699a1749a33.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"MK||AC\"> как сред­няя линия тре­уголь­ни­ка <i>ASC</i>. Про­ек­ция пря­мой <i>SB</i> на плос­кость <i>ABC</i> это пря­мая <i>OB</i>, где <i>O</i> - ос­но­ва­ние вы­со­ты пи­ра­ми­ды. <img src=\"https://ege.sdamgia.ru/formula/svg/66/669303b81bea99c3605a279555f6d0ca.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"OB\\perp AC,\"> так как диа­го­на­ли квад­ра­та пер­пен­ди­ку­ляр­ны. Тогда, по тео­ре­ме о трех пер­пен­ди­ку­ля­рах, <img src=\"https://ege.sdamgia.ru/formula/svg/ce/cef739dbd195529105c28da778f2ae61.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"SB\\perp AC,\"> а зна­чит и <img src=\"https://ege.sdamgia.ru/formula/svg/eb/eb9107cfd34a4decba9f150992b03561.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"SB\\perp MK.\"></p><p class=\"left_margin\">б)  Про­ведём из точки B пер­пен­ди­ку­ляр <i>BQ</i> к <i>MK</i>, <i>Q</i>  — се­ре­ди­на <i>MK</i>. Точка <i>Q</i> яв­ля­ет­ся се­ре­ди­ной вы­со­ты <i>SO</i>. Пря­мая <i>MK</i> па­рал­лель­на пря­мой пе­ре­се­че­ния плос­ко­стей, <i>QB</i>⊥<i>MK</i>, <i>OB</i>⊥<i>MK</i>. Сле­до­ва­тель­но, ∠<i>QBO</i>  — ли­ней­ный угол ис­ко­мо­го угла. Найдём <i>QO</i>.</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/52/52399b994dbc3392a766baaa98c2f63e.svg\" class=\"tex\" style=\"vertical-align:-2.3pt\" alt=\"BO=4 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та ;\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/ca/ca9063d0fedd1030f0297ce51f131c88.svg\" class=\"tex\" style=\"vertical-align:-9.1pt\" alt=\"SO= ко­рень из: на­ча­ло ар­гу­мен­та: SB в квад­ра­те минус OB в квад­ра­те конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 6 в квад­ра­те минус левая круг­лая скоб­ка 4 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та пра­вая круг­лая скоб­ка в квад­ра­те конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 36 минус 32 конец ар­гу­мен­та =2;\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/ba/ba392dc009d824e32121d02d4aa6e8f8.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"QO= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби SO=1. \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/e8/e81271e14c3607930875e467744576a8.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" тан­генс \\angle QBO= дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та конец дроби = дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та , зна­ме­на­тель: 8 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/da/da9575aa6aec4b96de3be4a6c15b16e6.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" арк­тан­генс дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та , зна­ме­на­тель: 8 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e2/e202276e88926f917678a699a1749a33.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/669303b81bea99c3605a279555f6d0ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/ce/cef739dbd195529105c28da778f2ae61.svg",
+            "https://ege.sdamgia.ru/formula/svg/eb/eb9107cfd34a4decba9f150992b03561.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/52399b994dbc3392a766baaa98c2f63e.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/ca9063d0fedd1030f0297ce51f131c88.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/ba392dc009d824e32121d02d4aa6e8f8.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e81271e14c3607930875e467744576a8.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/da9575aa6aec4b96de3be4a6c15b16e6.svg",
+            "/get_file?id=132265"
+        ]
+    },
+    "answer": "",
+    "topic_id": 14,
+    "analog_ids": [
+        507705,
+        501045,
+        507457,
+        507639,
+        501045,
+        507457,
+        507639,
+        511351,
+        511430,
+        511457,
+        511479
+    ]
+}

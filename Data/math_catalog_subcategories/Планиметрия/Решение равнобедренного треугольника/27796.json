@@ -1,0 +1,56 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27796,
+    "condition": {
+        "text": "В остроугольном треугольнике ABC известно, что  AC  =  BC  =  6, высота AH равна 3. Найдите угол C. Ответ дайте в градусах.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918120\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=113304\" style=\"float:right;margin:10px;max-width:100%\">В ост­ро­уголь­ном тре­уголь­ни­ке <i>ABC</i> из­вест­но, что  <i>AC  =  BC</i>  =  6, вы­со­та <i>AH</i> равна 3. Най­ди­те угол <i>C</i>. Ответ дайте в гра­ду­сах.</p></div>",
+        "image_urls": [
+            "/get_file?id=113304"
+        ]
+    },
+    "solution": {
+        "text": "Решение. В треугольнике AHC угол C лежит против катета, равного половине гипотенузы, поэтому этот угол равен 30°. Ответ: 30. Приведем другое решение.По определению синуса угла  С  в  треугольнике AHC находим:  Приведем еще одно решение.Выразим площадь треугольника двумя способами: приравняем полученные выражения и выразим синус угла С:Таким образом, угол C равен 30°.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27796\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">В тре­уголь­ни­ке <i>AHC</i> угол <i>C</i> лежит про­тив ка­те­та, рав­но­го по­ло­ви­не ги­по­те­ну­зы, по­это­му этот угол равен 30°.</p><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ</span>: 30.</p><p>&nbsp;</p><p><b>При­ве­дем дру­гое ре­ше­ние.</b></p><p class=\"left_margin\">По опре­де­ле­нию си­ну­са угла  <i>С</i>  в  тре­уголь­ни­ке <i>AHC</i> на­хо­дим: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/30/3095cfbbaa28d4d297106a9f38130ebe.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" синус C = дробь: чис­ли­тель: AH, зна­ме­на­тель: AC конец дроби = дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби . \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><b>При­ве­дем еще одно ре­ше­ние.</b></p><p class=\"left_margin\">Вы­ра­зим пло­щадь тре­уголь­ни­ка двумя спо­со­ба­ми:</p><p></p><div class=\"flex-math\"><p><img src=\"https://ege.sdamgia.ru/formula/svg/de/de5f7decbe2208d8171cbfcbf5d68f89.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S = дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на BC умно­жить на AH,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/a1/a11c851653fe1fa9cf07683bef443f88.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S = дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на AC умно­жить на BC умно­жить на синус C\"> </p><p></p></div><p>при­рав­ня­ем по­лу­чен­ные вы­ра­же­ния и вы­ра­зим синус угла <i>С</i>:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e6/e6407fd50122ecf0f076caea14ff7271.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" синус C = дробь: чис­ли­тель: AH, зна­ме­на­тель: BC конец дроби = дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Таким об­ра­зом, угол <i>C</i> равен 30°.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/30/3095cfbbaa28d4d297106a9f38130ebe.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/de5f7decbe2208d8171cbfcbf5d68f89.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a11c851653fe1fa9cf07683bef443f88.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e6407fd50122ecf0f076caea14ff7271.svg"
+        ]
+    },
+    "answer": "30",
+    "topic_id": 1,
+    "analog_ids": [
+        27796,
+        48913,
+        4803,
+        48869,
+        48913,
+        4803,
+        48869,
+        48871,
+        48873,
+        48875,
+        48877,
+        48879,
+        48881,
+        48883,
+        48885,
+        48887,
+        48889,
+        48891,
+        48893,
+        48895,
+        48897,
+        48899,
+        48901,
+        48903,
+        48905,
+        48907,
+        48909,
+        48911,
+        48915,
+        48917
+    ]
+}

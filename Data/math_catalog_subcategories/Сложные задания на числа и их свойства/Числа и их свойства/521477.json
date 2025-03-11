@@ -1,0 +1,40 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521477,
+    "condition": {
+        "text": "Пусть S(N)  — сумма цифр натурального числа N. а)  Может ли  N + S(N)  равняться 96?   б)   Может ли  N + S(N)  равняться 97?   в)  Найдите все N, для которых  N + S(N)  =  2017.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629753\" class=\"pbody\"><p class=\"left_margin\">Пусть S(N)  — сумма цифр на­ту­раль­но­го числа <i>N</i>. </p><p class=\"left_margin\">а)  Может ли  <i>N</i> + <i>S</i>(<i>N</i>)  рав­нять­ся 96?   </p><p class=\"left_margin\">б)   Может ли  <i>N</i> + <i>S</i>(<i>N</i>)  рав­нять­ся 97?   </p><p class=\"left_margin\">в)  Най­ди­те все <i>N</i>, для ко­то­рых  <i>N</i> + <i>S</i>(<i>N</i>)  =  2017.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Да, например для числа  имеем  б)  Нет. Ясно, что число должно быть двузначным. Пусть его цифры равны a и b, тогда   Значит, a нечетно, но тогда  и   — противоречие. в)  Поскольку  то  и  Обозначим цифры числа за  тогда  Разберем два варианта. 1)   Тогда  и  очевидно это возможно лишь при  Итак,  2)   Тогда  и  откуда   Ответ: а) Да, для числа 84; б) Нет; в) 1994 или 2012.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521477\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Да, на­при­мер для числа <img src=\"https://ege.sdamgia.ru/formula/svg/68/68d30a9594728bc39aa24be94b319d21.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"84\"> имеем <img src=\"https://ege.sdamgia.ru/formula/svg/1c/1c57d041fa01c94579f07d6e0975a2c4.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"84 плюс 8 плюс 4=96.\"></p><p>&nbsp;</p><p class=\"left_margin\">б)  Нет. Ясно, что число долж­но быть дву­знач­ным. Пусть его цифры равны <i>a</i> и <i>b</i>, тогда <img src=\"https://ege.sdamgia.ru/formula/svg/ac/ac83008b9e8b7734fa2842718cf8da86.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"10a плюс b плюс a плюс b=97,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/4c/4cadbb742dcd53583210c8923cadfc50.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"11a плюс 2b=97.\"> Зна­чит, <i>a</i> не­чет­но, но тогда <img src=\"https://ege.sdamgia.ru/formula/svg/1c/1c71ee132f319fb43429a217e2fb9b24.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"a мень­ше или равно 7\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/a3/a383d1b9cf1dba5807ff5ffdc09977a1.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"2b боль­ше или равно 20\">  — про­ти­во­ре­чие.</p><p>&nbsp;</p><p class=\"left_margin\">в)  По­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/36/36d3b56cedbebdc6808f307be9d9d14b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"N мень­ше или равно 2017,\"> то <img src=\"https://ege.sdamgia.ru/formula/svg/4e/4ed48aefaf502d0491f7caac768963b3.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"S левая круг­лая скоб­ка N пра­вая круг­лая скоб­ка мень­ше или равно 1 плюс 9 плюс 9 плюс 9=28\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/f2/f22cc7a9df16634aa15f6b7d6d10ae39.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"N боль­ше или равно 2017 минус 28=1989.\"> Обо­зна­чим цифры числа за <img src=\"https://ege.sdamgia.ru/formula/svg/34/348728e84327a9461d94566beafe7d9c.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a,b,c,d,\"> тогда <img src=\"https://ege.sdamgia.ru/formula/svg/a6/a676b400dc2fd3651214f01a8531cc96.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"1001a плюс 101b плюс 11c плюс 2d=2017.\"> Раз­бе­рем два ва­ри­ан­та.</p><p>&nbsp;</p><p class=\"left_margin\">1)  <img src=\"https://ege.sdamgia.ru/formula/svg/62/622a095dc9edee90d21fc439afb1ab02.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=2.\"> Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/f6/f6d5eef5ee5e51fc839bb54201c62e3b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"b=0\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/21/2115ebcf86499c4f074f2dd28389e1d2.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"11c плюс 2d=15,\"> оче­вид­но это воз­мож­но лишь при <img src=\"https://ege.sdamgia.ru/formula/svg/39/3906bf0e5fc3731894f4be8a7b5cdb91.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"c=1, d=2.\"> Итак, <img src=\"https://ege.sdamgia.ru/formula/svg/c7/c76068f0100e23455cae174dbc0045db.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"N=2012.\"></p><p>&nbsp;</p><p class=\"left_margin\">2)  <img src=\"https://ege.sdamgia.ru/formula/svg/2a/2a1b71b785c0cb14bb665bfef5a37b68.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=1.\"> Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/26/262fd0431f12265576c923b3c1524cd5.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"b=9\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/84/8432dabbdb5861f7792421a8bce14581.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"11c плюс 2d=107,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/fb/fb32fc8c744afd96695af4f19f976430.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"c=9,d=4,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/36/369c9ec42e9af0a06984bd42aefb02e5.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"N=1994.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) Да, для числа 84; б) Нет; в) 1994 или 2012.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/68/68d30a9594728bc39aa24be94b319d21.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1c57d041fa01c94579f07d6e0975a2c4.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/ac83008b9e8b7734fa2842718cf8da86.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4cadbb742dcd53583210c8923cadfc50.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1c71ee132f319fb43429a217e2fb9b24.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a383d1b9cf1dba5807ff5ffdc09977a1.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/36d3b56cedbebdc6808f307be9d9d14b.svg",
+            "https://ege.sdamgia.ru/formula/svg/4e/4ed48aefaf502d0491f7caac768963b3.svg",
+            "https://ege.sdamgia.ru/formula/svg/f2/f22cc7a9df16634aa15f6b7d6d10ae39.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/348728e84327a9461d94566beafe7d9c.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a676b400dc2fd3651214f01a8531cc96.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/622a095dc9edee90d21fc439afb1ab02.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f6d5eef5ee5e51fc839bb54201c62e3b.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/2115ebcf86499c4f074f2dd28389e1d2.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/3906bf0e5fc3731894f4be8a7b5cdb91.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c76068f0100e23455cae174dbc0045db.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2a1b71b785c0cb14bb665bfef5a37b68.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/262fd0431f12265576c923b3c1524cd5.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/8432dabbdb5861f7792421a8bce14581.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fb32fc8c744afd96695af4f19f976430.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/369c9ec42e9af0a06984bd42aefb02e5.svg"
+        ]
+    },
+    "answer": "а) Да, для числа 84; б) Нет; в) 1994 или 2012.",
+    "topic_id": null,
+    "analog_ids": []
+}

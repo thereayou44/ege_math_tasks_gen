@@ -1,0 +1,35 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27141,
+    "condition": {
+        "text": " Площадь поверхности куба равна 24. Найдите его объем.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918777\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=111597\" style=\"float:right;margin:10px;max-width:100%\"> Пло­щадь по­верх­но­сти куба равна 24. Най­ди­те его объем.</p></div>",
+        "image_urls": [
+            "/get_file?id=111597"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Площадь поверхности куба со стороной a равна  Объем куба равен  Ответ: 8.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27141\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пло­щадь по­верх­но­сти куба со сто­ро­ной <i>a</i> равна <img src=\"https://ege.sdamgia.ru/formula/svg/cd/cde7681608f5135e9d5e386f252d1833.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"S=6a в квад­ра­те .\"> Объем куба равен </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f4/f4c15e1a87595dec75dfc7bdbbc86b72.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\"V=a в кубе = левая круг­лая скоб­ка ко­рень из: на­ча­ло ар­гу­мен­та: дробь: чис­ли­тель: S, зна­ме­на­тель: 6 конец дроби конец ар­гу­мен­та пра­вая круг­лая скоб­ка в кубе =2 в кубе =8. \"></p><p class=\"left_margin\"></p></center> <p><span style=\"letter-spacing: 2px;\">Ответ:</span> 8.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/cd/cde7681608f5135e9d5e386f252d1833.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f4c15e1a87595dec75dfc7bdbbc86b72.svg"
+        ]
+    },
+    "answer": "8",
+    "topic_id": 3,
+    "analog_ids": [
+        27141,
+        75835,
+        75837,
+        75839,
+        75835,
+        75837,
+        75839,
+        75841,
+        75843,
+        75845,
+        75847
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27384,
+    "condition": {
+        "text": "В треугольнике ABC угол C равен 90°,   Найдите косинус внешнего угла при вершине ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918532\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right; margin:10px\" src=\"/get_file?id=7668\">В тре­уголь­ни­ке <i>ABC</i> угол <i>C</i> равен 90°, <img src=\"https://ege.sdamgia.ru/formula/svg/d5/d54e530910387d78ac3ff3f9e4e0f0b8.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AC = 7,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/43/432c0249d8c3c4ac87b533038673211e.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BC = 24.\"> Най­ди­те ко­си­нус внеш­не­го угла при вер­ши­не <img src=\"https://ege.sdamgia.ru/formula/svg/e1/e1354cc842cc323c307b3424ed3dfa81.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"A.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d5/d54e530910387d78ac3ff3f9e4e0f0b8.svg",
+            "https://ege.sdamgia.ru/formula/svg/43/432c0249d8c3c4ac87b533038673211e.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e1354cc842cc323c307b3424ed3dfa81.svg",
+            "/get_file?id=7668"
+        ]
+    },
+    "solution": {
+        "text": "Решение. так как  Ответ: –0,28. ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27384\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">так как </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/55/55279381fa4d37ac42590df634e85d18.svg\" class=\"tex\" style=\"vertical-align:-11.0pt\" alt=\" ко­си­нус A_внеш= минус ко­си­нус A= минус дробь: чис­ли­тель: AC, зна­ме­на­тель: AB конец дроби = минус дробь: чис­ли­тель: минус AC, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: AC в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та плюс BC в квад­ра­те пра­вая круг­лая скоб­ка конец дроби = минус дробь: чис­ли­тель: 7, зна­ме­на­тель: 25 конец дроби = минус 0,28. \"></p><p class=\"left_margin\"></p></center> <p><span style=\"letter-spaceing:2px\">Ответ</span>: –0,28. </p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/55/55279381fa4d37ac42590df634e85d18.svg"
+        ]
+    },
+    "answer": "-0,28",
+    "topic_id": null,
+    "analog_ids": [
+        27384,
+        35609,
+        35611,
+        35613,
+        35609,
+        35611,
+        35613,
+        35615,
+        35617,
+        35619,
+        35621,
+        35623,
+        35625,
+        35627,
+        35629,
+        35631,
+        35633,
+        35635,
+        35637,
+        35639,
+        35641,
+        35643,
+        35645,
+        35647,
+        35649,
+        35651,
+        35653,
+        35655,
+        35657
+    ]
+}

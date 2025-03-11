@@ -1,0 +1,52 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27381,
+    "condition": {
+        "text": "В треугольнике ABC угол C равен 90°,   Найдите косинус внешнего угла при вершине ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918537\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right; margin:10px\" src=\"/get_file?id=7668\">В тре­уголь­ни­ке <i>ABC</i> угол <i>C</i> равен 90°, <img src=\"https://ege.sdamgia.ru/formula/svg/7d/7d6b9e09662635ed86a08484dae2d122.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AB = 8,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/ee/ee736fb93f3b50da78823c7a070fd3a8.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AC = 4.\"> Най­ди­те ко­си­нус внеш­не­го угла при вер­ши­не <img src=\"https://ege.sdamgia.ru/formula/svg/e1/e1354cc842cc323c307b3424ed3dfa81.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"A.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/7d/7d6b9e09662635ed86a08484dae2d122.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/ee736fb93f3b50da78823c7a070fd3a8.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e1354cc842cc323c307b3424ed3dfa81.svg",
+            "/get_file?id=7668"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Косинусы смежных углов противоположны, поэтому  Ответ: −0,5. ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27381\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Ко­си­ну­сы смеж­ных углов про­ти­во­по­лож­ны, по­это­му </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d3/d310c6611a8906c5e09a52bdf3f8e532.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" ко­си­нус A_внеш= минус ко­си­нус A= минус дробь: чис­ли­тель: AC, зна­ме­на­тель: AB конец дроби = минус 0,5. \"></p><p class=\"left_margin\"></p></center> <p><span style=\"letter-spaceing:2px\">Ответ</span>: −0,5. </p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d3/d310c6611a8906c5e09a52bdf3f8e532.svg"
+        ]
+    },
+    "answer": "-0,5",
+    "topic_id": null,
+    "analog_ids": [
+        27381,
+        35455,
+        35457,
+        35459,
+        35455,
+        35457,
+        35459,
+        35461,
+        35463,
+        35465,
+        35467,
+        35469,
+        35471,
+        35473,
+        35475,
+        35477,
+        35479,
+        35481,
+        35483,
+        35485,
+        35487,
+        35489,
+        35491,
+        35493,
+        35495,
+        35497
+    ]
+}

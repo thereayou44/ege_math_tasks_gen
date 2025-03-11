@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521828,
+    "condition": {
+        "text": "Дано уравнение а)  Решите уравнение.б)  Найдите корни этого уравнения, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body628888\" class=\"pbody\"><p class=\"left_margin\">Дано урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/49/498a12e342917b0359cf30a396b9355e.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 1, зна­ме­на­тель: ко­си­нус 2x ко­си­нус x конец дроби = дробь: чис­ли­тель: 1, зна­ме­на­тель: синус 2x синус x конец дроби . \"></p><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние.</p><p class=\"left_margin\">б)  Най­ди­те&nbsp;корни&nbsp;этого&nbsp;урав­не­ния,&nbsp;при­над­ле­жа­щие&nbsp;от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/a6/a601301ce076affc60417a316c5a81c7.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" левая квад­рат­ная скоб­ка минус 2 Пи ; минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/49/498a12e342917b0359cf30a396b9355e.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a601301ce076affc60417a316c5a81c7.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Преобразуя уравнение, получаем    Однако надо еще проверить, чтобы знаменатели в исходном уравнении не обращались в ноль.  Остаются ответы  б)  На указанном промежутке лежат  Ответ: а)  б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521828\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Пре­об­ра­зуя урав­не­ние, по­лу­ча­ем <img src=\"https://ege.sdamgia.ru/formula/svg/31/3100e851f080338adac3437b06f266b6.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" ко­си­нус 2x ко­си­нус x минус синус x синус 2x=0,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/37/37be8f29dec51cb7ba68b3ad41947860.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" ко­си­нус 3x=0,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/fd/fdf79b2bd22fca6e779ba03fe6e1e1c0.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"3x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби плюс Пи k, \"> <img src=\"https://ege.sdamgia.ru/formula/svg/85/85640c0208ca02695534500ec5da2f42.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби плюс дробь: чис­ли­тель: Пи k, зна­ме­на­тель: 3 конец дроби . \"></p><p class=\"left_margin\">Од­на­ко надо еще про­ве­рить, чтобы зна­ме­на­те­ли в ис­ход­ном урав­не­нии не об­ра­ща­лись в ноль. </p><p>&nbsp;</p><p class=\"left_margin\">Оста­ют­ся от­ве­ты <img src=\"https://ege.sdamgia.ru/formula/svg/97/97aacbc150f38ec57167e911d0f470e3.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k; дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k; дробь: чис­ли­тель: 7 Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k; дробь: чис­ли­тель: 11 Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k. \"></p><p>&nbsp;</p><p class=\"left_margin\">б)  На ука­зан­ном про­ме­жут­ке лежат <img src=\"https://ege.sdamgia.ru/formula/svg/76/76d88277d12efad1624ec0583f9f9694.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" минус дробь: чис­ли­тель: 11 Пи , зна­ме­на­тель: 6 конец дроби ; минус дробь: чис­ли­тель: 7 Пи , зна­ме­на­тель: 6 конец дроби ; минус дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) <img src=\"https://ege.sdamgia.ru/formula/svg/16/166d88e001c147db433742338855ef57.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая фи­гур­ная скоб­ка дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k; дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k; дробь: чис­ли­тель: 7 Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k; дробь: чис­ли­тель: 11 Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k;k при­над­ле­жит Z пра­вая фи­гур­ная скоб­ка ; \"> б) <img src=\"https://ege.sdamgia.ru/formula/svg/19/19f26453610d206ff009a31654f01d0a.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая фи­гур­ная скоб­ка минус дробь: чис­ли­тель: 11 Пи , зна­ме­на­тель: 6 конец дроби ; минус дробь: чис­ли­тель: 7 Пи , зна­ме­на­тель: 6 конец дроби ; минус дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби пра­вая фи­гур­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/31/3100e851f080338adac3437b06f266b6.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/37be8f29dec51cb7ba68b3ad41947860.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fdf79b2bd22fca6e779ba03fe6e1e1c0.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/85640c0208ca02695534500ec5da2f42.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/97aacbc150f38ec57167e911d0f470e3.svg",
+            "https://ege.sdamgia.ru/formula/svg/76/76d88277d12efad1624ec0583f9f9694.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/166d88e001c147db433742338855ef57.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/19f26453610d206ff009a31654f01d0a.svg"
+        ]
+    },
+    "answer": "а)  б)",
+    "topic_id": null,
+    "analog_ids": []
+}

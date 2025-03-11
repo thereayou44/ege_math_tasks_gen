@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 562492,
+    "condition": {
+        "text": "В основании прямой призмы ABCA1B1C1  лежит  треугольник ABC со  сторонами AB  =  BC,  На ребре BB1 выбрана  точка K так, что BK : B1K  =  2 : 3. Угол  между плоскостями ABC и AKC равен 45°.а)  Докажите,  что  расстояние  между  прямыми AB и A1C1 равно  боковому  ребру призмы. б)  Найдите расстояние между прямыми AB и A1C1, если KC  =  8.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body457664\" class=\"pbody\"><p class=\"left_margin\">В ос­но­ва­нии пря­мой приз­мы <i>ABCA</i><sub>1</sub><i>B</i><sub>1</sub><i>C</i><sub>1</sub>  лежит  тре­уголь­ник <i>ABC</i> со  сто­ро­на­ми <i>AB</i>  =  <i>BC</i>, <img src=\"https://ege.sdamgia.ru/formula/svg/d2/d2f5bad77115fbc491e40bfb543c31e9.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AC=4 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та .\"> На ребре <i>BB</i><sub>1</sub> вы­бра­на  точка <i>K</i> так, что <i>BK</i> : <i>B</i><sub>1</sub><i>K</i>  =  2 : 3. Угол  между плос­ко­стя­ми <i>ABC</i> и <i>AKC</i> равен 45°.</p><p class=\"left_margin\">а)  До­ка­жи­те,  что  рас­сто­я­ние  между  пря­мы­ми <i>AB</i> и <i>A</i><sub>1</sub><i>C</i><sub>1</sub> равно  бо­ко­во­му  ребру приз­мы. </p><p class=\"left_margin\">б)  Най­ди­те рас­сто­я­ние между пря­мы­ми <i>AB</i> и <i>A</i><sub>1</sub><i>C</i><sub>1</sub>, если <i>KC</i>  =  8.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d2/d2f5bad77115fbc491e40bfb543c31e9.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Прямые AB и A1C1  — скрещивающиеся и лежат в параллельных основаниях призмы. Поэтому расстояние между этими прямыми равно расстоянию между основаниями, то есть боковому ребру призмы.б)  Проведём BM  — высоту равнобедренного треугольника ABC, являющаяся также медианой. Прямая KM  — наклонная, по теореме о трёх перпендикулярах прямые KM и AC взаимно перпендикулярны. Таким образом, угол KMB  — линейный угол двугранного угла между плоскостями ABC и AKC, и, следовательно, равен 45°, а треугольник KMB  — прямоугольный и равнобедренный. Тогда:Далее, поскольку  находим:Ответ: б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol562492\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=141331\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Пря­мые <i>AB</i> и <i>A</i><sub>1</sub><i>C</i><sub>1</sub>  — скре­щи­ва­ю­щи­е­ся и лежат в па­рал­лель­ных ос­но­ва­ни­ях приз­мы. По­это­му рас­сто­я­ние между этими пря­мы­ми равно рас­сто­я­нию между ос­но­ва­ни­я­ми, то есть бо­ко­во­му ребру приз­мы.</p><p class=\"left_margin\">б)  Про­ведём <i>BM</i>  — вы­со­ту рав­но­бед­рен­но­го тре­уголь­ни­ка <i>ABC</i>, яв­ля­ю­ща­я­ся также ме­ди­а­ной. Пря­мая <i>KM</i>  — на­клон­ная, по тео­ре­ме о трёх пер­пен­ди­ку­ля­рах пря­мые <i>KM</i> и <i>AC</i> вза­им­но пер­пен­ди­ку­ляр­ны. Таким об­ра­зом, угол <i>KMB</i>  — ли­ней­ный угол дву­гран­но­го угла между плос­ко­стя­ми <i>ABC</i> и <i>AKC</i>, и, сле­до­ва­тель­но, равен 45°, а тре­уголь­ник <i>KMB</i>  — пря­мо­уголь­ный и рав­но­бед­рен­ный. Тогда:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/30/30a62e8682c279bdfd7bb2c402df6990.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"CM= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби AC=2 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та , \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/e7/e7b339736c8990a67f3034a04996a351.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"KM= ко­рень из: на­ча­ло ар­гу­мен­та: KC в квад­ра­те минус CM в квад­ра­те конец ар­гу­мен­та =2 ко­рень из: на­ча­ло ар­гу­мен­та: 14 конец ар­гу­мен­та .\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Далее, по­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/10/10cdce9ec3aabb042454723f7318d42d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"KB=BM,\"> на­хо­дим:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/b1/b15c639268375f28214147ee4d285d79.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"KB в квад­ра­те плюс BM в квад­ра­те =KM в квад­ра­те рав­но­силь­но KB=2 ко­рень из: на­ча­ло ар­гу­мен­та: 7 конец ар­гу­мен­та ,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/2b/2b03844b0bbe85e6a5afa2d9c06253c5.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"BB_1= дробь: чис­ли­тель: 5, зна­ме­на­тель: 2 конец дроби KB=5 ко­рень из: на­ча­ло ар­гу­мен­та: 7 конец ар­гу­мен­та . \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) <img src=\"https://ege.sdamgia.ru/formula/svg/3f/3f426d41803471a38e087d17c8301467.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"5 ко­рень из: на­ча­ло ар­гу­мен­та: 7 конец ар­гу­мен­та .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/30/30a62e8682c279bdfd7bb2c402df6990.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e7b339736c8990a67f3034a04996a351.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/10cdce9ec3aabb042454723f7318d42d.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b15c639268375f28214147ee4d285d79.svg",
+            "https://ege.sdamgia.ru/formula/svg/2b/2b03844b0bbe85e6a5afa2d9c06253c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/3f/3f426d41803471a38e087d17c8301467.svg",
+            "/get_file?id=141331"
+        ]
+    },
+    "answer": "б)",
+    "topic_id": 14,
+    "analog_ids": []
+}

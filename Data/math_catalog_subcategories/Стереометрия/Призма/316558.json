@@ -1,0 +1,42 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 316558,
+    "condition": {
+        "text": " В правильной треугольной призме  все ребра которой равны 3, найдите угол между прямыми  и  Ответ дайте в градусах.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body703090\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=111712\" style=\"float:right;margin:10px;max-width:100%\"> В пра­виль­ной тре­уголь­ной приз­ме <img src=\"https://ege.sdamgia.ru/formula/svg/de/de580ca41fa62b94405df2b0c4119d74.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"ABCA_1B_1C_1,\"> все ребра ко­то­рой равны 3, най­ди­те угол между пря­мы­ми <img src=\"https://ege.sdamgia.ru/formula/svg/49/49f3ee9283b111edad91e72f33f0c9b0.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AA_1\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/aa/aaf294a5d97ef72ef58d68df8e85c2ea.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"BC_1.\"> Ответ дайте в гра­ду­сах.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/de/de580ca41fa62b94405df2b0c4119d74.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/49f3ee9283b111edad91e72f33f0c9b0.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aaf294a5d97ef72ef58d68df8e85c2ea.svg",
+            "/get_file?id=111712"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Отрезки A1A и BB1 лежат на параллельных прямых, поэтому искомый угол между прямыми  A1A и  BC1 равен углу между прямыми  BB1 и  BC1. Боковая грань CBB1C1  — квадрат, поэтому угол между его стороной и диагональю равен 45°. Ответ: 45.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol316558\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=111713\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">От­рез­ки <i>A</i><sub>1</sub><i>A</i> и <i>B</i><i>B</i><sub>1</sub> лежат на па­рал­лель­ных пря­мых, по­это­му ис­ко­мый угол между пря­мы­ми  <i>A</i><sub>1</sub><i>A</i> и  <i>B</i><i>C</i><sub>1</sub> равен углу между пря­мы­ми  <i>B</i><i>B</i><sub>1</sub> и  <i>B</i><i>C</i><sub>1</sub>. Бо­ко­вая грань <i>CB</i><i>B</i><sub>1</sub><i>C</i><sub>1</sub>  — квад­рат, по­это­му угол между его сто­ро­ной и диа­го­на­лью равен 45°.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 45.</p></div>",
+        "image_urls": [
+            "/get_file?id=111713"
+        ]
+    },
+    "answer": "45",
+    "topic_id": 3,
+    "analog_ids": [
+        316558,
+        317091,
+        317073,
+        317075,
+        317091,
+        317073,
+        317075,
+        317077,
+        317079,
+        317081,
+        317083,
+        317085,
+        317087,
+        317089,
+        317093,
+        317095
+    ]
+}

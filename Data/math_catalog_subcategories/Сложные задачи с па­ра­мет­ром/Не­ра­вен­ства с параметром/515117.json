@@ -1,0 +1,33 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 515117,
+    "condition": {
+        "text": "Найдите все значения параметра а, при каждом из которых система уравнений    не имеет решений.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body635601\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те&nbsp;все&nbsp;зна­че­ния&nbsp;па­ра­мет­ра&nbsp;<i>а</i>,&nbsp;при&nbsp;каж­дом&nbsp;из&nbsp;ко­то­рых&nbsp;си­сте­ма&nbsp;урав­не­ний&nbsp;</p><p>&nbsp;</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/00/005a42770413c3b7af173d2100437c3e.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний ко­си­нус левая круг­лая скоб­ка ко­си­нус x пра­вая круг­лая скоб­ка минус ко­си­нус y= левая круг­лая скоб­ка a в квад­ра­те плюс 1 пра­вая круг­лая скоб­ка умно­жить на левая круг­лая скоб­ка y минус ко­си­нус x пра­вая круг­лая скоб­ка ,2y в квад­ра­те минус левая круг­лая скоб­ка 3a минус 8 пра­вая круг­лая скоб­ка умно­жить на ко­си­нус x плюс a в квад­ра­те минус 4a=0 конец си­сте­мы \"></p><p class=\"left_margin\"></p></center><p> </p><p>&nbsp;</p><p>не&nbsp;имеет&nbsp;ре­ше­ний.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/00/005a42770413c3b7af173d2100437c3e.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Докажем сначала вспомогательный факт:  при  В самом деле, поскольку синус не превосходит единицы (в первом неравенстве мы использовали  при ). Тогда первое уравнение может выполняться только если  (поскольку ). Тогда второе превращается в  Его корни  и  Чтобы не было решений, нужно, чтобы эти числа не могли быть значениями косинуса. Отсюда  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol515117\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">До­ка­жем сна­ча­ла вспо­мо­га­тель­ный факт: <img src=\"https://ege.sdamgia.ru/formula/svg/e8/e8ea78696a1524cb67599dbc744895b1.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" \\abs ко­си­нус альфа минус ко­си­нус бета мень­ше \\abs альфа минус бета \"> при <img src=\"https://ege.sdamgia.ru/formula/svg/12/128a628502f87af51eb2251af66f34e6.svg\" class=\"tex\" style=\"vertical-align:-3.3pt\" alt=\" альфа не равно бета .\"> В самом деле, </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/16/16fbef1e45c6af5f2c43d72ea6b96f24.svg\" class=\"tex\" style=\"vertical-align:-11.3pt\" alt=\" \\abs ко­си­нус альфа минус ко­си­нус бета =2\\abs синус дробь: чис­ли­тель: альфа плюс бета , зна­ме­на­тель: 2 конец дроби \\abs синус дробь: чис­ли­тель: альфа минус бета , зна­ме­на­тель: 2 конец дроби мень­ше 2\\abs синус дробь: чис­ли­тель: альфа плюс бета , зна­ме­на­тель: 2 конец дроби умно­жить на \\abs дробь: чис­ли­тель: альфа минус бета , зна­ме­на­тель: 2 конец дроби мень­ше или равно \\abs альфа минус бета , \"></p><p class=\"left_margin\"></p></center><p>по­сколь­ку синус не пре­вос­хо­дит еди­ни­цы (в пер­вом не­ра­вен­стве мы ис­поль­зо­ва­ли <img src=\"https://ege.sdamgia.ru/formula/svg/4b/4baba27edf0aa5ce58852cb87894c0a6.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" \\abs синус x мень­ше \\absx\"> при <img src=\"https://ege.sdamgia.ru/formula/svg/ac/ac594a002e11c4e00f62069afbdf8104.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" x не равно 0\">). Тогда пер­вое урав­не­ние может вы­пол­нять­ся толь­ко если <img src=\"https://ege.sdamgia.ru/formula/svg/6e/6e4488896861f142f500eb34e9507b63.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" y= ко­си­нус x\"> (по­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/4e/4e0d372c185edb8f9b1732c4db60fa0a.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\" a в квад­ра­те плюс 1 боль­ше или равно 1\">). Тогда вто­рое пре­вра­ща­ет­ся в </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f0/f03f9a561e0b2b1edc317b373a870092.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" 2y в квад­ра­те минус левая круг­лая скоб­ка 3a минус 8 пра­вая круг­лая скоб­ка y плюс a в квад­ра­те минус 4a=0.\"></p><p class=\"left_margin\"></p></center><p> Его корни <img src=\"https://ege.sdamgia.ru/formula/svg/86/8659aea9857f19418ac432b5e4046081.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" y=a минус 4\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/1c/1cc8a7fbc102bd3110e6ea6abe372213.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" y= дробь: чис­ли­тель: a, зна­ме­на­тель: 2 конец дроби . \"> Чтобы не было ре­ше­ний, нужно, чтобы эти числа не могли быть зна­че­ни­я­ми ко­си­ну­са. От­сю­да <img src=\"https://ege.sdamgia.ru/formula/svg/50/50928cc718f7ea3c58f820435800dbe3.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a мень­ше минус 2, 2 мень­ше a мень­ше 3, a боль­ше 5.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/27/27ce9be7a372ef78219cdba00b712dfa.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка минус бес­ко­неч­ность ; минус 2 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 2; 3 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 5; плюс бес­ко­неч­ность пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e8/e8ea78696a1524cb67599dbc744895b1.svg",
+            "https://ege.sdamgia.ru/formula/svg/12/128a628502f87af51eb2251af66f34e6.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/16fbef1e45c6af5f2c43d72ea6b96f24.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4baba27edf0aa5ce58852cb87894c0a6.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/ac594a002e11c4e00f62069afbdf8104.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6e4488896861f142f500eb34e9507b63.svg",
+            "https://ege.sdamgia.ru/formula/svg/4e/4e0d372c185edb8f9b1732c4db60fa0a.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f03f9a561e0b2b1edc317b373a870092.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/8659aea9857f19418ac432b5e4046081.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1cc8a7fbc102bd3110e6ea6abe372213.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50928cc718f7ea3c58f820435800dbe3.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/27ce9be7a372ef78219cdba00b712dfa.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

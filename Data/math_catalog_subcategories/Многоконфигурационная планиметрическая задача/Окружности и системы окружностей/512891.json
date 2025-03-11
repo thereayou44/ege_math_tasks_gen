@@ -1,0 +1,31 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 512891,
+    "condition": {
+        "text": "Радиусы окружностей с центрами O1 и O2 равны соответственно 2 и 10. Найдите радиус третьей окружности, которая касается двух данных и прямой O1O2, если O1O2  =  28.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body638343\" class=\"pbody\"><p class=\"left_margin\">Ра­ди­у­сы окруж­но­стей с цен­тра­ми <i>O</i><sub>1</sub> и <i>O</i><sub>2</sub> равны со­от­вет­ствен­но 2 и 10. Най­ди­те ра­ди­ус тре­тьей окруж­но­сти, ко­то­рая ка­са­ет­ся двух дан­ных и пря­мой <i>O</i><sub>1</sub><i>O</i><sub>2</sub>, если <i>O</i><sub>1</sub><i>O</i><sub>2</sub>  =  28.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Пусть O  — центр третьей окружности, A  — точка касания первой и третьей окружностей, B  — второй и третьей, C  — третьей окружности и прямой O1O2. Точки O1, A и O лежат на одной прямой. Точки O2, B и O также лежат на одной прямой.Пусть радиус третьей окружности равен x, тогда В прямоугольном треугольнике OCO1 имеем В прямоугольном треугольнике OCO2 имеем   Возможны два случая. первый случай: точка С лежит между точками O1 и O2 (рисунок 1), тогдаоткуда x  =  15.Второй случай: точка O1 лежит между точками C и O2 (рисунок 2), тогдаоткуда x  =  120. Ответ: 15 или 120.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol512891\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=30360\" style=\"float:right;margin:10px\">Пусть <i>O</i>  — центр тре­тьей окруж­но­сти, <i>A</i>  — точка ка­са­ния пер­вой и тре­тьей окруж­но­стей, <i>B</i>  — вто­рой и тре­тьей, <i>C</i>  — тре­тьей окруж­но­сти и пря­мой <i>O</i><sub>1</sub><i>O</i><sub>2</sub>. Точки <i>O</i><sub>1</sub>, <i>A</i> и <i>O</i> лежат на одной пря­мой. Точки <i>O</i><sub>2</sub>, <i>B</i> и <i>O</i> также лежат на одной пря­мой.</p><p class=\"left_margin\">Пусть ра­ди­ус тре­тьей окруж­но­сти равен <i>x</i>, тогда <img src=\"https://ege.sdamgia.ru/formula/svg/de/deccb046dc1706e385ff316633274d4c.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"OO_1=2 плюс x,OO_2=10 плюс x.\"></p><p class=\"left_margin\">В пря­мо­уголь­ном тре­уголь­ни­ке <i>OCO</i><sub>1</sub> имеем <img src=\"https://ege.sdamgia.ru/formula/svg/ac/acc23a2c98ad1aae10df8f2ee6d6097d.svg\" class=\"tex\" style=\"vertical-align:-6.8pt\" alt=\"O_1C= ко­рень из: на­ча­ло ар­гу­мен­та: OO_1 в квад­ра­те минус OC в квад­ра­те конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 4 плюс 4x конец ар­гу­мен­та .\"></p><p class=\"left_margin\">В пря­мо­уголь­ном тре­уголь­ни­ке <i>OCO</i><sub></sub><sub>2</sub> имеем <img src=\"https://ege.sdamgia.ru/formula/svg/c2/c2258bd6a7e8f3c8c9470726e9d0b4a8.svg\" class=\"tex\" style=\"vertical-align:-6.8pt\" alt=\"O_2C= ко­рень из: на­ча­ло ар­гу­мен­та: OO_2 в квад­ра­те минус OC в квад­ра­те конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 100 плюс 20x. конец ар­гу­мен­та \"></p><p>&nbsp;</p><p>&nbsp;</p><p class=\"left_margin\">Воз­мож­ны два слу­чая. пер­вый слу­чай: точка <i>С</i> лежит между точ­ка­ми <i>O</i><sub>1</sub> и <i>O</i><sub>2</sub> (ри­су­нок 1), тогда</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/74/747496e14fecbe07a50f3420603335e7.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"O_1O_2=O_1C плюс O_2C;\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/d7/d7d7893396fe2438a49907fa2bdc3669.svg\" class=\"tex\" style=\"vertical-align:-2.3pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 4 плюс 4x конец ар­гу­мен­та плюс ко­рень из: на­ча­ло ар­гу­мен­та: 100 плюс 20x конец ар­гу­мен­та =28;\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/bf/bf268acd45ffc7a92b7c90b704df7e43.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: левая круг­лая скоб­ка 1 плюс x пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 25 плюс 5x пра­вая круг­лая скоб­ка конец ар­гу­мен­та =85 минус 3x,\"></p><p class=\"left_margin\"></p></center><p>от­ку­да <i>x</i>  =  15.</p><p class=\"left_margin\">Вто­рой слу­чай: точка <i>O</i><sub>1</sub> лежит между точ­ка­ми <i>C</i> и <i>O</i><sub>2</sub> (ри­су­нок 2), тогда</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/fd/fd816e4f23b57143edbd7828d0903d54.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"O_1O_2=O_2C минус O_1C;\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/5f/5fb4b69bc49cc118d35da32bd7ea79d6.svg\" class=\"tex\" style=\"vertical-align:-2.3pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 100 плюс 20x конец ар­гу­мен­та минус ко­рень из: на­ча­ло ар­гу­мен­та: 4 плюс 4x конец ар­гу­мен­та =28;\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/95/952a07e5fc78475aa1d7ca136a58727d.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: левая круг­лая скоб­ка 1 плюс x пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 25 плюс 5x пра­вая круг­лая скоб­ка конец ар­гу­мен­та =3x минус 85,\"></p><p class=\"left_margin\"></p></center><p>от­ку­да <i>x</i>  =  120.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 15 или 120.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/de/deccb046dc1706e385ff316633274d4c.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/acc23a2c98ad1aae10df8f2ee6d6097d.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c2258bd6a7e8f3c8c9470726e9d0b4a8.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/747496e14fecbe07a50f3420603335e7.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d7d7893396fe2438a49907fa2bdc3669.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bf268acd45ffc7a92b7c90b704df7e43.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fd816e4f23b57143edbd7828d0903d54.svg",
+            "https://ege.sdamgia.ru/formula/svg/5f/5fb4b69bc49cc118d35da32bd7ea79d6.svg",
+            "https://ege.sdamgia.ru/formula/svg/95/952a07e5fc78475aa1d7ca136a58727d.svg",
+            "/get_file?id=30360"
+        ]
+    },
+    "answer": "15 или 120.",
+    "topic_id": null,
+    "analog_ids": [
+        512885
+    ]
+}

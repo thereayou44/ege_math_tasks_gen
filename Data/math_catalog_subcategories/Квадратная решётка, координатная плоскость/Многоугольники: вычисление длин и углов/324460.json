@@ -1,0 +1,26 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 324460,
+    "condition": {
+        "text": "На клетчатой бумаге с размером клетки 1×1 отмечены точки A и B. Найдите длину отрезка AB.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body695696\" class=\"pbody\"><p class=\"left_margin\">На клет­ча­той бу­ма­ге с раз­ме­ром клет­ки 1×1 от­ме­че­ны точки <i>A</i> и <i>B</i>. Най­ди­те длину от­рез­ка <i>AB</i>.</p><p><img src=\"/get_file?id=68948\" style=\"margin:10px auto;display:block;max-width:100%\"></p></div>",
+        "image_urls": [
+            "/get_file?id=68948"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Расстояние между точками  A и B равно длине гипотенузы треугольника  ABC, катеты которого равны 15 и 8. Поэтому искомая длина AB равна 17. Ответ: 17.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol324460\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Рас­сто­я­ние между точ­ка­ми  <i>A</i> и <i>B</i> равно длине ги­по­те­ну­зы тре­уголь­ни­ка  <i>ABC</i>, ка­те­ты ко­то­ро­го равны 15 и 8. По­это­му ис­ко­мая длина <i>AB</i> равна 17.</p><p><img src=\"/get_file?id=68949\" style=\"margin:10px auto;display:block;max-width:100%\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 17.</p></div>",
+        "image_urls": [
+            "/get_file?id=68949"
+        ]
+    },
+    "answer": "17",
+    "topic_id": null,
+    "analog_ids": [
+        324460,
+        561165,
+        561217
+    ]
+}

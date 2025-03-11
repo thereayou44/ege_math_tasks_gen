@@ -1,0 +1,31 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 505646,
+    "condition": {
+        "text": "а)  Решите уравнение б)  Найдите все корни на промежутке ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body645586\" class=\"pbody\"><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/51/51afb6f34ed81ed8168decac4882dbaa.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"4 в сте­пе­ни левая круг­лая скоб­ка ко­си­нус 2x пра­вая круг­лая скоб­ка плюс 4 в сте­пе­ни левая круг­лая скоб­ка ко­си­нус в квад­ра­те x пра­вая круг­лая скоб­ка =3.\"></p><p class=\"left_margin\">б)  Най­ди­те все корни на про­ме­жут­ке <img src=\"https://ege.sdamgia.ru/formula/svg/6e/6e7f99e1897601000bf38cff3e295cc4.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка дробь: чис­ли­тель: 3, зна­ме­на­тель: 4 конец дроби ;1 пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/51/51afb6f34ed81ed8168decac4882dbaa.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6e7f99e1897601000bf38cff3e295cc4.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)     Уравнение  решений не имеет.б)  Нетрудно заметить, что  искомый корень единственный:  Очевидно, что ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol505646\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)   </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/94/94f8f1f743119857ed87458a8594b0d6.svg\" class=\"tex\" style=\"vertical-align:-1.7pt\" alt=\"4 в сте­пе­ни левая круг­лая скоб­ка ко­си­нус 2x пра­вая круг­лая скоб­ка плюс 4 в сте­пе­ни левая круг­лая скоб­ка ко­си­нус в квад­ра­те x пра­вая круг­лая скоб­ка =3 рав­но­силь­но 2 в сте­пе­ни левая круг­лая скоб­ка 2 ко­си­нус 2x пра­вая круг­лая скоб­ка плюс 2 в сте­пе­ни левая круг­лая скоб­ка 2 ко­си­нус в квад­ра­те x пра­вая круг­лая скоб­ка =3 рав­но­силь­но 2 в сте­пе­ни левая круг­лая скоб­ка 2 ко­си­нус 2x пра­вая круг­лая скоб­ка плюс 2 в сте­пе­ни левая круг­лая скоб­ка 1 плюс ко­си­нус 2x пра­вая круг­лая скоб­ка =3 рав­но­силь­но \"></p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/1e/1e1c20bb0f54ce396b89010a07d69b50.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" рав­но­силь­но 2 в сте­пе­ни левая круг­лая скоб­ка 2 ко­си­нус 2x пра­вая круг­лая скоб­ка плюс 2 умно­жить на 2 в сте­пе­ни левая круг­лая скоб­ка ко­си­нус 2x пра­вая круг­лая скоб­ка минус 3=0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка 2 в сте­пе­ни левая круг­лая скоб­ка ко­си­нус 2x пра­вая круг­лая скоб­ка =1,  новая стро­ка 2 в сте­пе­ни левая круг­лая скоб­ка ко­си­нус 2x пра­вая круг­лая скоб­ка = минус 3 конец со­во­куп­но­сти . рав­но­силь­но 2 в сте­пе­ни левая круг­лая скоб­ка ко­си­нус 2x пра­вая круг­лая скоб­ка =2 в сте­пе­ни левая круг­лая скоб­ка 0 пра­вая круг­лая скоб­ка рав­но­силь­но \"></p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/38/380e9c6c68acfabadcfb19d805531102.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" рав­но­силь­но ко­си­нус 2x=0 рав­но­силь­но 2x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби плюс Пи n рав­но­силь­но x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби плюс дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби умно­жить на n,n при­над­ле­жит Z . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/2d/2ddf2d5e66b2fcd4cb192d25021a9db0.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2 в сте­пе­ни левая круг­лая скоб­ка ко­си­нус 2x пра­вая круг­лая скоб­ка = минус 3\"> ре­ше­ний не имеет.</p><p class=\"left_margin\">б)  Не­труд­но за­ме­тить, что  ис­ко­мый ко­рень един­ствен­ный: <img src=\"https://ege.sdamgia.ru/formula/svg/16/163a07e19353c8e03302f6e6fceac3bb.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби . \"> Оче­вид­но, что <img src=\"https://ege.sdamgia.ru/formula/svg/df/df388c429353ad9a40d3704580f491d5.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 3, зна­ме­на­тель: 4 конец дроби мень­ше дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби мень­ше дробь: чис­ли­тель: 4, зна­ме­на­тель: 4 конец дроби =1. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/94/94f8f1f743119857ed87458a8594b0d6.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1e1c20bb0f54ce396b89010a07d69b50.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/380e9c6c68acfabadcfb19d805531102.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2ddf2d5e66b2fcd4cb192d25021a9db0.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/163a07e19353c8e03302f6e6fceac3bb.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/df388c429353ad9a40d3704580f491d5.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": [
+        505646,
+        506044
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 522124,
+    "condition": {
+        "text": "Решите неравенство ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629104\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/4b/4b2ebae63afb326bd037f34dfd1352b6.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\"x в кубе плюс 5x в квад­ра­те плюс дробь: чис­ли­тель: 30x в квад­ра­те плюс x минус 8, зна­ме­на­тель: x минус 8 конец дроби \\leqslant1. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/4b/4b2ebae63afb326bd037f34dfd1352b6.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Решим неравенство методом интервалов:откуда  и  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol522124\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Решим не­ра­вен­ство ме­то­дом ин­тер­ва­лов:</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"6cb2790bd4f03912e3f8ef2d70ce6219\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/c5/c543fb7a782ca555a7e0f52a13c7914e.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: левая круг­лая скоб­ка x в кубе плюс 5x в квад­ра­те пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x минус 8 пра­вая круг­лая скоб­ка плюс 30x в квад­ра­те плюс x минус 8, зна­ме­на­тель: x минус 8 конец дроби \\leqslant1 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/63/635489bd15c995c55765600b9397146e.svg\" class=\"tex\" style=\"vertical-align:-9.2pt\" alt=\" рав­но­силь­но дробь: чис­ли­тель: x в сте­пе­ни 4 плюс 5x в кубе минус 8x в кубе минус 40x в квад­ра­те плюс 30x в квад­ра­те плюс x минус 8 минус x плюс 8, зна­ме­на­тель: x минус 8 конец дроби \\leqslant0 рав­но­силь­но дробь: чис­ли­тель: x в сте­пе­ни 4 минус 3x в кубе минус 10x в квад­ра­те , зна­ме­на­тель: x минус 8 конец дроби \\leqslant0 рав­но­силь­но \"></span><span data-width=\"465\" data-formulahash=\"6cb2790bd4f03912e3f8ef2d70ce6219\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/c5/c543fb7a782ca555a7e0f52a13c7914e.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: левая круг­лая скоб­ка x в кубе плюс 5x в квад­ра­те пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x минус 8 пра­вая круг­лая скоб­ка плюс 30x в квад­ра­те плюс x минус 8, зна­ме­на­тель: x минус 8 конец дроби \\leqslant1 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/1f/1fd4faf179f77117bd5ad10d9f5720e2.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" рав­но­силь­но дробь: чис­ли­тель: x в сте­пе­ни 4 плюс 5x в кубе минус 8x в кубе минус 40x в квад­ра­те плюс 30x в квад­ра­те плюс x минус 8 минус x плюс 8, зна­ме­на­тель: x минус 8 конец дроби \\leqslant0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/ee/ee20ffeaf03bc9eb70fef6401020fa08.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" рав­но­силь­но дробь: чис­ли­тель: x в сте­пе­ни 4 минус 3x в кубе минус 10x в квад­ра­те , зна­ме­на­тель: x минус 8 конец дроби \\leqslant0 рав­но­силь­но \"></span></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/e0/e06fea34f46847ec25e8d8dd76c6f286.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" рав­но­силь­но дробь: чис­ли­тель: x в квад­ра­те левая круг­лая скоб­ка x минус 5 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x плюс 2 пра­вая круг­лая скоб­ка , зна­ме­на­тель: x минус 8 конец дроби \\leqslant0, \"></p><p class=\"left_margin\"></p></center><p><img src=\"/get_file?id=142932\" style=\"margin:10px auto;display:block;max-width:100%\"></p><p>от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/49/49e4543d2576b0d3c8469dfda38d8ec8.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x\\leqslant минус 2,x=0\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/d3/d3f27054df8d1be8143a8b48ba44f13d.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"5 мень­ше или равно x мень­ше 8.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/e9/e9b67aec9e79d282c87a3fb471e2bef5.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка минус бес­ко­неч­ность ; минус 2 пра­вая квад­рат­ная скоб­ка \\cup левая фи­гур­ная скоб­ка 0 пра­вая фи­гур­ная скоб­ка \\cup левая квад­рат­ная скоб­ка 5; 8 пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c5/c543fb7a782ca555a7e0f52a13c7914e.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/635489bd15c995c55765600b9397146e.svg",
+            "https://ege.sdamgia.ru/formula/svg/c5/c543fb7a782ca555a7e0f52a13c7914e.svg",
+            "https://ege.sdamgia.ru/formula/svg/1f/1fd4faf179f77117bd5ad10d9f5720e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/ee20ffeaf03bc9eb70fef6401020fa08.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e06fea34f46847ec25e8d8dd76c6f286.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/49e4543d2576b0d3c8469dfda38d8ec8.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d3f27054df8d1be8143a8b48ba44f13d.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e9b67aec9e79d282c87a3fb471e2bef5.svg",
+            "/get_file?id=142932"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": [
+        522124,
+        522150
+    ]
+}

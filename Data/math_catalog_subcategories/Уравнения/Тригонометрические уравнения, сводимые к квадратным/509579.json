@@ -1,0 +1,35 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 509579,
+    "condition": {
+        "text": "а)  Решите уравнение  б)  Найдите все корни уравнения, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body632951\" class=\"pbody\"><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/22/22804629475909d495c634a24eb54c69.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­си­нус 2x минус 3 ко­си­нус x плюс 2 = 0.\"> </p><p class=\"left_margin\">б)  Най­ди­те все корни урав­не­ния, при­над­ле­жа­щие от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/d8/d8d6da8a0906948d61863d27f64056bc.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка минус 4 Пи ; минус дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 2 конец дроби пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/22/22804629475909d495c634a24eb54c69.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d8d6da8a0906948d61863d27f64056bc.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Преобразуем уравнение:б)  На отрезке  корни отберём с помощью единичной окружности. Получаем  и  Ответ:  а)  б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol509579\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=31573\" style=\"float:right;margin:10px\">а)  Пре­об­ра­зу­ем урав­не­ние:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/42/429d598979eb93be9f24fc71d4ead124.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2 ко­си­нус в квад­ра­те x минус 1 минус 3 ко­си­нус x плюс 2=0 рав­но­силь­но 2 ко­си­нус в квад­ра­те x минус 3 ко­си­нус x плюс 1=0 рав­но­силь­но \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/54/54d076e6b154a58d4e5907765a4f991d.svg\" class=\"tex\" style=\"vertical-align:-18.1pt\" alt=\" рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка ко­си­нус x=1,  новая стро­ка ко­си­нус x= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби  конец со­во­куп­но­сти . рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка x=2 Пи k,  новая стро­ка x=\\pm дробь: чис­ли­тель: Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k,  конец со­во­куп­но­сти .k при­над­ле­жит Z . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">б)  На от­рез­ке <img src=\"https://ege.sdamgia.ru/formula/svg/0b/0b4936adf9286a19f24879dca1c9e023.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка минус 4 Пи ; минус дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 2 конец дроби пра­вая квад­рат­ная скоб­ка \"> корни отберём с по­мо­щью еди­нич­ной окруж­но­сти. По­лу­ча­ем <img src=\"https://ege.sdamgia.ru/formula/svg/32/3294eb0109ec927619e11c758cfb56f5.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" минус 4 Пи \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/e9/e9443e2ba54da5641e54ecfa1a0ac3c4.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" минус дробь: чис­ли­тель: 11 Пи , зна­ме­на­тель: 3 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  а) <img src=\"https://ege.sdamgia.ru/formula/svg/84/84a2650017ab057f1e5ab33f1651c878.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" левая фи­гур­ная скоб­ка 2 Пи k, минус дробь: чис­ли­тель: зна­ме­на­тель: p конец дроби i3 плюс 2 Пи k, дробь: чис­ли­тель: Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k: k при­над­ле­жит Z пра­вая фи­гур­ная скоб­ка ;\"> б) <img src=\"https://ege.sdamgia.ru/formula/svg/30/303483bed4df9b9091a5396aae068fe1.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" минус 4 Пи ; минус дробь: чис­ли­тель: 11 Пи , зна­ме­на­тель: 3 конец дроби .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/42/429d598979eb93be9f24fc71d4ead124.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54d076e6b154a58d4e5907765a4f991d.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0b4936adf9286a19f24879dca1c9e023.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/3294eb0109ec927619e11c758cfb56f5.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e9443e2ba54da5641e54ecfa1a0ac3c4.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/84a2650017ab057f1e5ab33f1651c878.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/303483bed4df9b9091a5396aae068fe1.svg",
+            "/get_file?id=31573"
+        ]
+    },
+    "answer": "а)  б)",
+    "topic_id": 13,
+    "analog_ids": [
+        509579,
+        509926,
+        509947,
+        509968
+    ]
+}

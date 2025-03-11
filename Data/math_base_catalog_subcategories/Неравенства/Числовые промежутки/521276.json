@@ -1,0 +1,27 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521276,
+    "condition": {
+        "text": "Гражданка Васильева вложила 44 млрд рублей в два оффшорных банка на 3 года: часть денег в банк А, остальное в банк Б. Известно, что банк А ежегодно начисляет 10% годовых; банк Б в первый год начисляет 5% годовых, во второй  — 10%, а в третий  — 15%. Сколько рублей было вложено в каждый из банков, если через три года доход гражданки Васильевой от вложения денег составил 14 520 млн рублей.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629440\" class=\"pbody\"><p class=\"left_margin\">Граж­дан­ка Ва­си­лье­ва вло­жи­ла 44 млрд руб­лей в два офф­шор­ных банка на 3 года: часть денег в банк А, осталь­ное в банк Б. Из­вест­но, что банк А еже­год­но на­чис­ля­ет 10% го­до­вых; банк Б в пер­вый год на­чис­ля­ет 5% го­до­вых, во вто­рой  — 10%, а в тре­тий  — 15%. Сколь­ко руб­лей было вло­же­но в каж­дый из бан­ков, если через три года доход граж­дан­ки Ва­си­лье­вой от вло­же­ния денег со­ста­вил 14 520 млн руб­лей.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Допустим во второй банк вложено x миллиардов, тогда в первый  миллиардов. По условию:    Ответ: в банк A вложили  миллиардов, в банк B  —  миллиардов.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521276\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">До­пу­стим во вто­рой банк вло­же­но <i>x</i> мил­ли­ар­дов, тогда в пер­вый <img src=\"https://ege.sdamgia.ru/formula/svg/40/40f7a12b43bfdb72ec671473a9a828e0.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"44 минус x\"> мил­ли­ар­дов. По усло­вию: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/45/45f8c22e961a381fcb8af1f182bf165a.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"1,1 в кубе левая круг­лая скоб­ка 44 минус x пра­вая круг­лая скоб­ка плюс 1,05 умно­жить на 1,1 умно­жить на 1,15x=44 плюс 14,52 рав­но­силь­но \"></p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/c8/c8fab6d778eddeb7a9cd4b8aca66cc6d.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" рав­но­силь­но 1,331 левая круг­лая скоб­ка 44 минус x пра­вая круг­лая скоб­ка плюс 1,32825x=44 плюс 14,52 рав­но­силь­но \"></p><p>&nbsp;</p><p><span data-width=\"640\" data-formulahash=\"a027d9cf61b945793fb14319aec9bd22\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/a0/a027d9cf61b945793fb14319aec9bd22.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" рав­но­силь­но 58,564 минус 1,331x плюс 1,32825x=58,52 рав­но­силь­но 0,044=0,00275x рав­но­силь­но x=16.\"></span><span data-width=\"465\" data-formulahash=\"a027d9cf61b945793fb14319aec9bd22\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/8b/8b0b1d76ac9bdb0c9382d7bfc94780a2.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" рав­но­силь­но 58,564 минус 1,331x плюс 1,32825x=58,52 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/21/2150b259dbf065b5ffeb39a4127f091c.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" рав­но­силь­но 0,044=0,00275x рав­но­силь­но x=16.\"></span></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> в банк <i>A</i> вло­жи­ли <img src=\"https://ege.sdamgia.ru/formula/svg/33/33e75ff09dd601bbe69f351039152189.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"28\"> мил­ли­ар­дов, в банк <i>B</i>  — <img src=\"https://ege.sdamgia.ru/formula/svg/c7/c74d97b01eae257e44aa9d5bade97baf.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"16\"> мил­ли­ар­дов.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/40/40f7a12b43bfdb72ec671473a9a828e0.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/45f8c22e961a381fcb8af1f182bf165a.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c8fab6d778eddeb7a9cd4b8aca66cc6d.svg",
+            "https://ege.sdamgia.ru/formula/svg/a0/a027d9cf61b945793fb14319aec9bd22.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8b0b1d76ac9bdb0c9382d7bfc94780a2.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/2150b259dbf065b5ffeb39a4127f091c.svg",
+            "https://ege.sdamgia.ru/formula/svg/33/33e75ff09dd601bbe69f351039152189.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c74d97b01eae257e44aa9d5bade97baf.svg"
+        ]
+    },
+    "answer": "в банк A вло­жи­ли  мил­ли­ар­дов, в банк B  —  мил­ли­ар­дов.",
+    "topic_id": null,
+    "analog_ids": []
+}

@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 548424,
+    "condition": {
+        "text": "а)  Решите уравнение б)  Укажите корни этого уравнения, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body405684\" class=\"pbody\"><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/49/49b2e12ced08a16d1791a00edd10b375.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"2 ко­си­нус в квад­ра­те левая круг­лая скоб­ка дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби плюс x пра­вая круг­лая скоб­ка = синус 2x. \"></p><p class=\"left_margin\">б)  Ука­жи­те корни этого урав­не­ния, при­над­ле­жа­щие от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/9b/9b14a406e0f684c5a351d6c77ae4794a.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка минус дробь: чис­ли­тель: 9 Пи , зна­ме­на­тель: 2 конец дроби ; минус 3 Пи пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/49/49b2e12ced08a16d1791a00edd10b375.svg",
+            "https://ege.sdamgia.ru/formula/svg/9b/9b14a406e0f684c5a351d6c77ae4794a.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Применим формулу приведения, разложим на множители: б)  Отберем корни при помощи единичной тригонометрической окружности (см. рис.). Отрезку удовлетворяют корни:  Ответ: а) б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol548424\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=65321\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  При­ме­ним фор­му­лу при­ве­де­ния, раз­ло­жим на мно­жи­те­ли: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f9/f9af10cf266df4ec0f3c5d1059eecc55.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"2 ко­си­нус в квад­ра­те левая круг­лая скоб­ка дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби плюс x пра­вая круг­лая скоб­ка = синус 2x рав­но­силь­но 2 синус в квад­ра­те x минус 2 синус x ко­си­нус x = 0 рав­но­силь­но \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/86/86f6b77145e456dd9bd86518cfb32c54.svg\" class=\"tex\" style=\"vertical-align:-17.8pt\" alt=\" рав­но­силь­но 2 синус x левая круг­лая скоб­ка синус x минус ко­си­нус x пра­вая круг­лая скоб­ка =0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний синус x = 0, тан­генс x = 1 конец со­во­куп­но­сти . рав­но­силь­но со­во­куп­ность вы­ра­же­ний x= Пи k, x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби плюс Пи k, k при­над­ле­жит Z . конец со­во­куп­но­сти . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">б)  От­бе­рем корни при по­мо­щи еди­нич­ной три­го­но­мет­ри­че­ской окруж­но­сти (см. рис.). От­рез­ку удо­вле­тво­ря­ют корни: <img src=\"https://ege.sdamgia.ru/formula/svg/61/613561e8723d343e534d504ff83da5ef.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" минус 4 Пи , минус дробь: чис­ли­тель: 15 Пи , зна­ме­на­тель: 4 конец дроби , минус 3 Пи . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а)<img src=\"https://ege.sdamgia.ru/formula/svg/1c/1cf9b68343cc2bacbbdb213032387b44.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" левая фи­гур­ная скоб­ка Пи k, дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби плюс Пи k: k при­над­ле­жит Z пра­вая фи­гур­ная скоб­ка .; \"> б) <img src=\"https://ege.sdamgia.ru/formula/svg/61/613561e8723d343e534d504ff83da5ef.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" минус 4 Пи , минус дробь: чис­ли­тель: 15 Пи , зна­ме­на­тель: 4 конец дроби , минус 3 Пи . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f9/f9af10cf266df4ec0f3c5d1059eecc55.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/86f6b77145e456dd9bd86518cfb32c54.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/613561e8723d343e534d504ff83da5ef.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1cf9b68343cc2bacbbdb213032387b44.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/613561e8723d343e534d504ff83da5ef.svg",
+            "/get_file?id=65321"
+        ]
+    },
+    "answer": "а) б)",
+    "topic_id": 13,
+    "analog_ids": []
+}

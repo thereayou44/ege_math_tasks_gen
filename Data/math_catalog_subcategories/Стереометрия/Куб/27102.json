@@ -1,0 +1,56 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27102,
+    "condition": {
+        "text": " Если каждое ребро куба увеличить на 1, то его объем увеличится на 19. Найдите ребро куба.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919330\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=111605\" style=\"float:right;margin:10px;max-width:100%\"> Если каж­дое ребро куба уве­ли­чить на 1, то его объем уве­ли­чит­ся на 19. Най­ди­те ребро куба.</p></div>",
+        "image_urls": [
+            "/get_file?id=111605"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Объем куба с ребром a равен  Увеличение объема равно 19:  Решим уравнение:  Тем самым,   Ответ: 2.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27102\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Объем куба с реб­ром <i>a</i> равен <img src=\"https://ege.sdamgia.ru/formula/svg/37/373856a029e551ea88a201b8227794d6.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"V=a в кубе .\"> Уве­ли­че­ние объ­е­ма равно 19: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/0a/0a6a94feffff3fb41fbcc591b5ed49fc.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"V минус V_0= левая круг­лая скоб­ка a плюс 1 пра­вая круг­лая скоб­ка в кубе минус a в кубе =3a в квад­ра­те плюс 3a плюс 1=19.\"></p><p class=\"left_margin\"></p></center><p> Решим урав­не­ние: </p><p class=\"left_margin\"></p><p align=\"center\"><img src=\"https://ege.sdamgia.ru/formula/svg/cf/cf2c5838cf3df164e53bcdbf70156154.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\"3a в квад­ра­те плюс 3a плюс 1=19 рав­но­силь­но a в квад­ра­те плюс a минус 6=0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка a=2,  новая стро­ка a= минус 3. конец со­во­куп­но­сти \"> </p><p class=\"left_margin\">Тем самым, <img src=\"https://ege.sdamgia.ru/formula/svg/62/622a095dc9edee90d21fc439afb1ab02.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=2.\"> </p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 2.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/37/373856a029e551ea88a201b8227794d6.svg",
+            "https://ege.sdamgia.ru/formula/svg/0a/0a6a94feffff3fb41fbcc591b5ed49fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf2c5838cf3df164e53bcdbf70156154.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/622a095dc9edee90d21fc439afb1ab02.svg"
+        ]
+    },
+    "answer": "2",
+    "topic_id": 3,
+    "analog_ids": [
+        27102,
+        74555,
+        74557,
+        74559,
+        74555,
+        74557,
+        74559,
+        74561,
+        74563,
+        74565,
+        74567,
+        74569,
+        74571,
+        74573,
+        74575,
+        74577,
+        74579,
+        74581,
+        74583,
+        74585,
+        74587,
+        74589,
+        74591,
+        74593,
+        74595,
+        74597,
+        74599,
+        74601,
+        74603,
+        74605
+    ]
+}

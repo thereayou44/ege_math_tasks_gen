@@ -1,0 +1,36 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27396,
+    "condition": {
+        "text": "В треугольнике ABC угол C равен 90°, косинус внешнего угла при вершине A равен  Найдите ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919032\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right; margin:10px\" src=\"/get_file?id=7668\">В тре­уголь­ни­ке <i>ABC</i> угол <i>C</i> равен 90°, ко­си­нус внеш­не­го угла при вер­ши­не <i>A</i> равен <img src=\"https://ege.sdamgia.ru/formula/svg/ab/ab83f3cd6d78fe67d16aac8fb23f2730.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" минус дробь: чис­ли­тель: 7, зна­ме­на­тель: 25 конец дроби . \"> Най­ди­те <img src=\"https://ege.sdamgia.ru/formula/svg/b0/b036b16997b5bfb4b0eeeab60bec6ec8.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­си­нус B.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ab/ab83f3cd6d78fe67d16aac8fb23f2730.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b036b16997b5bfb4b0eeeab60bec6ec8.svg",
+            "/get_file?id=7668"
+        ]
+    },
+    "solution": {
+        "text": "Решение. так как  имеем  Ответ: 0,96. ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27396\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">так как </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/01/01ad2931f325e29974520d58220dd241.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" синус A= дробь: чис­ли­тель: CB, зна­ме­на­тель: AB конец дроби = ко­си­нус B, \"></p><p class=\"left_margin\"></p></center> имеем <p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/06/06ce93020fdae96a327b4d90f12d5bf3.svg\" class=\"tex\" style=\"vertical-align:-9.4pt\" alt=\" ко­си­нус B= синус A= ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус ко­си­нус в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та A пра­вая круг­лая скоб­ка = ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус дробь: чис­ли­тель: 49, зна­ме­на­тель: 625 конец дроби конец ар­гу­мен­та =0,96. \"></p><p class=\"left_margin\"></p></center> <p><span style=\"letter-spaceing:2px\">Ответ</span>: 0,96. </p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/01/01ad2931f325e29974520d58220dd241.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/06ce93020fdae96a327b4d90f12d5bf3.svg"
+        ]
+    },
+    "answer": "0,96",
+    "topic_id": null,
+    "analog_ids": [
+        27396,
+        36189,
+        36191,
+        36193,
+        36189,
+        36191,
+        36193,
+        36195,
+        36197,
+        36199
+    ]
+}

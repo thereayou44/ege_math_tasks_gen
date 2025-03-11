@@ -1,0 +1,29 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 630219,
+    "condition": {
+        "text": "В июле 2026 года планируется взять кредит на три года. Условия его возврата таковы:  — каждый январь долг будет возрастать на 20% по сравнению с концом предыдущего года;  — с февраля по июнь каждого года необходимо выплатить одним платежом часть долга;  — платежи в 2027 и в 2028 годах должны быть по 300 тыс. руб.;  — к июлю 2029 года долг должен быть выплачен полностью. Известно, что платёж в 2029 году будет равен 417,6 тыс. руб. Какую сумму планируется взять в кредит?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body521015\" class=\"pbody\"><p class=\"left_margin\">В июле 2026 года пла­ни­ру­ет­ся взять кре­дит на три года. Усло­вия его воз­вра­та та­ко­вы:</p><p>  — каж­дый ян­варь долг будет воз­рас­тать на 20% по срав­не­нию с кон­цом преды­ду­ще­го года;</p><p>  — с фев­ра­ля по июнь каж­до­го года не­об­хо­ди­мо вы­пла­тить одним пла­те­жом часть долга;</p><p>  — пла­те­жи в 2027 и в 2028 годах долж­ны быть по 300 тыс. руб.;</p><p>  — к июлю 2029 года долг дол­жен быть вы­пла­чен пол­но­стью. </p><p class=\"left_margin\">Из­вест­но, что платёж в 2029 году будет равен 417,6 тыс. руб. Какую сумму пла­ни­ру­ет­ся взять в кре­дит?</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Пусть сумма кредита равна S тыс. руб.В январе 2027 года долг (в тыс. руб.) будет равен 1,2S, а в июле равен  В январе 2028 года долг будет равен  а в июле равен  В январе 2029 года долг будет равен  По условию, к июлю 2029 года долг должен быть выплачен полностью, значит, платёж в 2029 году должен быть равен  тыс. руб. Получаем: Планируется взять кредит в размере 700 тыс. руб.  Ответ: 700 тыс. руб.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol630219\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть сумма кре­ди­та равна <i>S</i> тыс. руб.</p><p class=\"left_margin\">В ян­ва­ре 2027 года долг (в тыс. руб.) будет равен 1,2S, а в июле равен <img src=\"https://ege.sdamgia.ru/formula/svg/f3/f3590fb5debb786ff5f9af4a0243010b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1,2 S минус 300.\"> </p><p class=\"left_margin\">В ян­ва­ре 2028 года долг будет равен <img src=\"https://ege.sdamgia.ru/formula/svg/d0/d044d8e5ca3ab4731248863dcc1e6336.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1,44 S минус 360,\"> а в июле равен <img src=\"https://ege.sdamgia.ru/formula/svg/65/65d1d36c6c5cb3c2ddf97b02899472cc.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1,44 S минус 660.\"> </p><p class=\"left_margin\">В ян­ва­ре 2029 года долг будет равен <img src=\"https://ege.sdamgia.ru/formula/svg/06/0678af2e358d74cc5ec8cb7857a8f6fa.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1,728 S минус 792.\"> </p><p class=\"left_margin\">По усло­вию, к июлю 2029 года долг дол­жен быть вы­пла­чен пол­но­стью, зна­чит, платёж в 2029 году дол­жен быть равен <nobr><img src=\"https://ege.sdamgia.ru/formula/svg/e8/e8c4fec6d073db7ca3d7ae27262466ca.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 1,728 S минус 792 пра­вая круг­лая скоб­ка \"> тыс. руб.</nobr> По­лу­ча­ем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/11/113d0c48c950c2cb3ae3b7d2bdfe957d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1,728 S минус 792=417,6 рав­но­силь­но 1,728 S=1209,6 рав­но­силь­но S=700.\"></p><p class=\"left_margin\"></p></center><p> Пла­ни­ру­ет­ся взять кре­дит в раз­ме­ре 700 тыс. руб. </p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 700 тыс. руб.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f3/f3590fb5debb786ff5f9af4a0243010b.svg",
+            "https://ege.sdamgia.ru/formula/svg/d0/d044d8e5ca3ab4731248863dcc1e6336.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/65d1d36c6c5cb3c2ddf97b02899472cc.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/0678af2e358d74cc5ec8cb7857a8f6fa.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e8c4fec6d073db7ca3d7ae27262466ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/11/113d0c48c950c2cb3ae3b7d2bdfe957d.svg"
+        ]
+    },
+    "answer": "700 тыс. руб.",
+    "topic_id": 16,
+    "analog_ids": [
+        630219,
+        630226,
+        672902
+    ]
+}

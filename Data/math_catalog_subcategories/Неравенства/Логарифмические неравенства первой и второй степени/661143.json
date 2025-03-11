@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 661143,
+    "condition": {
+        "text": "Решите неравенство ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body292971\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/0a/0a173875ee66726e8cb697c2b4ea929c.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" ло­га­рифм по ос­но­ва­нию 2 левая круг­лая скоб­ка дробь: чис­ли­тель: 1, зна­ме­на­тель: x конец дроби минус 1 пра­вая круг­лая скоб­ка плюс ло­га­рифм по ос­но­ва­нию 2 левая круг­лая скоб­ка дробь: чис­ли­тель: 1, зна­ме­на­тель: x конец дроби плюс 1 пра­вая круг­лая скоб­ка мень­ше или равно ло­га­рифм по ос­но­ва­нию 2 левая круг­лая скоб­ка 27x минус 1 пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/0a/0a173875ee66726e8cb697c2b4ea929c.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Левая часть неравенства определена при  при таких значениях переменной находим:Учитывая ограничения  получаем:  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol661143\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Левая часть не­ра­вен­ства опре­де­ле­на при <img src=\"https://ege.sdamgia.ru/formula/svg/d7/d76be85340c379d1c5e2ab911c63c263.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"0 мень­ше x мень­ше 1,\"> при таких зна­че­ни­ях пе­ре­мен­ной на­хо­дим:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/3c/3c4cfb45cabcc177f9ab9e13a420057f.svg\" class=\"tex\" style=\"vertical-align:-9.8pt\" alt=\" дробь: чис­ли­тель: 1, зна­ме­на­тель: x в квад­ра­те конец дроби минус 1 мень­ше или равно 27x минус 1 рав­но­силь­но дробь: чис­ли­тель: 27x в кубе минус 1, зна­ме­на­тель: x в квад­ра­те конец дроби боль­ше или равно 0 \\underset x не равно 0 \\mathop рав­но­силь­но 27x в кубе минус 1 боль­ше или равно 0 рав­но­силь­но x боль­ше или равно дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Учи­ты­вая огра­ни­че­ния <img src=\"https://ege.sdamgia.ru/formula/svg/d7/d76be85340c379d1c5e2ab911c63c263.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"0 мень­ше x мень­ше 1,\"> по­лу­ча­ем: <img src=\"https://ege.sdamgia.ru/formula/svg/92/920e3c519c75d36c7d245603a0597d09.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби мень­ше или равно x мень­ше 1.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/73/73d9e972e0f726238ba12b98e2be9685.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби ; 1 пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d7/d76be85340c379d1c5e2ab911c63c263.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3c4cfb45cabcc177f9ab9e13a420057f.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d76be85340c379d1c5e2ab911c63c263.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/920e3c519c75d36c7d245603a0597d09.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/73d9e972e0f726238ba12b98e2be9685.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": [
+        520982
+    ]
+}

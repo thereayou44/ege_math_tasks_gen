@@ -1,0 +1,24 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 506069,
+    "condition": {
+        "text": "Две параллельные плоскости, расстояние между которыми 2, пересекают шар. Одна из плоскостей проходит через центр шара. Отношение площадей сечения шара этими плоскостями равно 0,84. Найдите радиус шара.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body644649\" class=\"pbody\"><p class=\"left_margin\">Две па­рал­лель­ные плос­ко­сти, рас­сто­я­ние между ко­то­ры­ми 2, пе­ре­се­ка­ют шар. Одна из плос­ко­стей про­хо­дит через центр шара. От­но­ше­ние пло­ща­дей се­че­ния шара этими плос­ко­стя­ми равно 0,84. Най­ди­те ра­ди­ус шара.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Пусть радиус шара равен R. Тогда радиус круга, полученного в сечении второй плоскостью, равен  Значит, отношение площадей равно откуда  Ответ:  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol506069\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=26170\" style=\"float:right;margin:10px\">Пусть ра­ди­ус шара равен <i>R</i>. Тогда ра­ди­ус круга, по­лу­чен­но­го в се­че­нии вто­рой плос­ко­стью, равен <img src=\"https://ege.sdamgia.ru/formula/svg/e0/e04e5d5024f1c8d0ebe2978903ddc7e4.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: R в квад­ра­те минус 4 конец ар­гу­мен­та .\"> Зна­чит, от­но­ше­ние пло­ща­дей равно</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/2f/2f53d309c193686ada9ec606029b1dc4.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"0,84= дробь: чис­ли­тель: Пи левая круг­лая скоб­ка R в квад­ра­те минус 4 пра­вая круг­лая скоб­ка , зна­ме­на­тель: Пи R в квад­ра­те конец дроби =1 минус дробь: чис­ли­тель: 4, зна­ме­на­тель: R в квад­ра­те конец дроби , \"> </p><p class=\"left_margin\"></p></center><p>от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/5a/5aff682a39b23e9a8dd14a5e3fdb0d60.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"R=5.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  <img src=\"https://ege.sdamgia.ru/formula/svg/5a/5aff682a39b23e9a8dd14a5e3fdb0d60.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"R=5.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e0/e04e5d5024f1c8d0ebe2978903ddc7e4.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2f53d309c193686ada9ec606029b1dc4.svg",
+            "https://ege.sdamgia.ru/formula/svg/5a/5aff682a39b23e9a8dd14a5e3fdb0d60.svg",
+            "https://ege.sdamgia.ru/formula/svg/5a/5aff682a39b23e9a8dd14a5e3fdb0d60.svg",
+            "/get_file?id=26170"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521383,
+    "condition": {
+        "text": "Решите неравенство: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629339\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те&nbsp;не­ра­вен­ство: <img src=\"https://ege.sdamgia.ru/formula/svg/e3/e39e51f2a83d3f8c7ed7916aa243eac8.svg\" class=\"tex\" style=\"vertical-align:-11.0pt\" alt=\" дробь: чис­ли­тель: x плюс 6 ко­рень из x плюс 28, зна­ме­на­тель: 120 конец дроби мень­ше или равно дробь: чис­ли­тель: 2 минус ко­рень из x , зна­ме­на­тель: x минус 6 ко­рень из x плюс 8 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e3/e39e51f2a83d3f8c7ed7916aa243eac8.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Пусть  тогда   Вторая дробь сократима на  После сокращения и приведения к общему знаменателю имеем:  Значит, Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521383\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/aa/aa508ac2630e016e3d86028a9ed74862.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: x конец ар­гу­мен­та =t,\"> тогда <img src=\"https://ege.sdamgia.ru/formula/svg/6b/6b1f3141df298cd3ccf14f652d07079a.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: t в квад­ра­те плюс 6t плюс 28, зна­ме­на­тель: 120 конец дроби минус дробь: чис­ли­тель: левая круг­лая скоб­ка 2 минус t пра­вая круг­лая скоб­ка , зна­ме­на­тель: t в квад­ра­те минус 6t плюс 8 конец дроби мень­ше или равно 0, \"> <img src=\"https://ege.sdamgia.ru/formula/svg/b9/b9503180f3c8928a86f9659265451597.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"t боль­ше или равно 0, t не равно 2, t не равно 4.\"></p><p>&nbsp;</p><p class=\"left_margin\">Вто­рая дробь со­кра­ти­ма на <img src=\"https://ege.sdamgia.ru/formula/svg/fa/fae7cca77fab1c2c9003cdbc12443033.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"t минус 2.\"> После со­кра­ще­ния и при­ве­де­ния к об­ще­му зна­ме­на­те­лю имеем: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/de/defd87734162bb48898b867c6a64e2c9.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: t в кубе плюс 2t в квад­ра­те плюс 4t плюс 8, зна­ме­на­тель: t минус 4 конец дроби мень­ше или равно 0. \"> Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/8c/8c22cec8f2fa437dcf317b20ffd8fb41.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"t мень­ше 4\"></p><p class=\"left_margin\"></p></center><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/94/94f5fdd85d6e0be997a34df09770e11e.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x при­над­ле­жит левая квад­рат­ная скоб­ка 0;4 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 4;16 пра­вая круг­лая скоб­ка .\"></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/aa/aa508ac2630e016e3d86028a9ed74862.svg",
+            "https://ege.sdamgia.ru/formula/svg/6b/6b1f3141df298cd3ccf14f652d07079a.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b9503180f3c8928a86f9659265451597.svg",
+            "https://ege.sdamgia.ru/formula/svg/fa/fae7cca77fab1c2c9003cdbc12443033.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/defd87734162bb48898b867c6a64e2c9.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8c22cec8f2fa437dcf317b20ffd8fb41.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/94f5fdd85d6e0be997a34df09770e11e.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

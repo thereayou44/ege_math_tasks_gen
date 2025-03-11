@@ -1,0 +1,48 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 77475,
+    "condition": {
+        "text": "Найдите наименьшее значение функции  на отрезке ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body999519\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те наи­мень­шее зна­че­ние функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/25/25a732d4ab8108a4d5e5082a7f8c5611.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y= левая круг­лая скоб­ка 8 минус x пра­вая круг­лая скоб­ка e в сте­пе­ни левая круг­лая скоб­ка 9 минус x пра­вая круг­лая скоб­ка \"> на от­рез­ке <img src=\"https://ege.sdamgia.ru/formula/svg/1a/1a2f0f689422e203ed24132e61d6d6d8.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка 3;10 пра­вая квад­рат­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/25/25a732d4ab8108a4d5e5082a7f8c5611.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1a2f0f689422e203ed24132e61d6d6d8.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Найдем производную заданной функции:    Найдем нули производной:  Определим знаки производной функции и изобразим на рисунке поведение функции на заданном отрезке:В точке  заданная функция имеет минимум, являющийся ее наименьшим значением на заданном отрезке. Найдем это наименьшее значение:  Ответ: −1.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol77475\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Най­дем про­из­вод­ную за­дан­ной функ­ции:  </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/30/30aa7c576854441d5ff55aeddfacbfb2.svg\" class=\"tex\" style=\"vertical-align:-4.6pt\" alt=\"y'= левая круг­лая скоб­ка левая круг­лая скоб­ка 8 минус x пра­вая круг­лая скоб­ка e в сте­пе­ни левая круг­лая скоб­ка 9 минус x пра­вая круг­лая скоб­ка пра­вая круг­лая скоб­ка в сте­пе­ни левая круг­лая скоб­ка \\prime пра­вая круг­лая скоб­ка = левая круг­лая скоб­ка 8 минус x пра­вая круг­лая скоб­ка 'e в сте­пе­ни левая круг­лая скоб­ка 9 минус x пра­вая круг­лая скоб­ка плюс левая круг­лая скоб­ка 8 минус x пра­вая круг­лая скоб­ка левая круг­лая скоб­ка e в сте­пе­ни левая круг­лая скоб­ка 9 минус x пра­вая круг­лая скоб­ка пра­вая круг­лая скоб­ка '=\"> </p><p><img src=\"https://ege.sdamgia.ru/formula/svg/9e/9ebdd56c2e8c3c84749fd1b63409d431.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"= минус e в сте­пе­ни левая круг­лая скоб­ка 9 минус x пра­вая круг­лая скоб­ка минус левая круг­лая скоб­ка 8 минус x пра­вая круг­лая скоб­ка e в сте­пе­ни левая круг­лая скоб­ка 9 минус x пра­вая круг­лая скоб­ка = левая круг­лая скоб­ка x минус 9 пра­вая круг­лая скоб­ка e в сте­пе­ни левая круг­лая скоб­ка 9 минус x пра­вая круг­лая скоб­ка .\"> </p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Най­дем нули про­из­вод­ной: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e3/e376202f1da428b2d4214ce9f2ea8d1d.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка x минус 9 пра­вая круг­лая скоб­ка e в сте­пе­ни левая круг­лая скоб­ка 9 минус x пра­вая круг­лая скоб­ка =0 рав­но­силь­но x=9.\"> </p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Опре­де­лим знаки про­из­вод­ной функ­ции и изоб­ра­зим на ри­сун­ке по­ве­де­ние функ­ции на за­дан­ном от­рез­ке:</p><p><img src=\"/get_file?id=141122\" style=\"margin:10px auto;display:block;max-width:100%\"></p><p class=\"left_margin\">В точке <img src=\"https://ege.sdamgia.ru/formula/svg/02/02fa9b11ec99323b86aeb27d72edb1ee.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=9\"> за­дан­ная функ­ция имеет ми­ни­мум, яв­ля­ю­щий­ся ее наи­мень­шим зна­че­ни­ем на за­дан­ном от­рез­ке. Най­дем это наи­мень­шее зна­че­ние:<img src=\"https://ege.sdamgia.ru/formula/svg/32/32bb0719a382e23a047e90b7c2bf6b41.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y левая круг­лая скоб­ка 9 пра­вая круг­лая скоб­ка = левая круг­лая скоб­ка 8 минус 9 пра­вая круг­лая скоб­ка e в сте­пе­ни левая круг­лая скоб­ка 9 минус 9 пра­вая круг­лая скоб­ка = минус 1 умно­жить на 1= минус 1.\"> </p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> −1.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/30/30aa7c576854441d5ff55aeddfacbfb2.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9ebdd56c2e8c3c84749fd1b63409d431.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e376202f1da428b2d4214ce9f2ea8d1d.svg",
+            "https://ege.sdamgia.ru/formula/svg/02/02fa9b11ec99323b86aeb27d72edb1ee.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/32bb0719a382e23a047e90b7c2bf6b41.svg",
+            "/get_file?id=141122"
+        ]
+    },
+    "answer": "-1",
+    "topic_id": 12,
+    "analog_ids": [
+        77475,
+        130191,
+        130163,
+        130165,
+        130191,
+        130163,
+        130165,
+        130167,
+        130169,
+        130171,
+        130173,
+        130175,
+        130177,
+        130179,
+        130181,
+        130183,
+        130185,
+        130187,
+        130189
+    ]
+}

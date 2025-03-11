@@ -1,0 +1,36 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 505244,
+    "condition": {
+        "text": "Найдите все значения a, при которых любое решение уравнения принадлежит отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body645984\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния <i>a,</i> при ко­то­рых любое ре­ше­ние урав­не­ния </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/03/03971570dab395781b146ddfda473ef5.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\"4 ко­рень 3 сте­пе­ни из: на­ча­ло ар­гу­мен­та: 3,5x минус 2,5 конец ар­гу­мен­та плюс 3 ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 2 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 3x минус 1 пра­вая круг­лая скоб­ка плюс 2a=0\"></p><p class=\"left_margin\"></p></center><p>при­над­ле­жит от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/b1/b1129369be969aa89286396fff340fb9.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка 1;3 пра­вая квад­рат­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/03/03971570dab395781b146ddfda473ef5.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b1129369be969aa89286396fff340fb9.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Рассмотрим функцию  Она определена при  возрастает на области определения и принимает все значения от  до  Значит, уравнение  имеет единственное решение. Это решение принадлежит отрезку  тогда и только тогда, когда  и  Получаем систему неравенств: Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol505244\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Рас­смот­рим функ­цию <img src=\"https://ege.sdamgia.ru/formula/svg/b4/b4c83ece3adada2b5a8ad4b91ac42ebc.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =4 ко­рень 3 сте­пе­ни из: на­ча­ло ар­гу­мен­та: 3,5x минус 2,5 конец ар­гу­мен­та плюс 3 ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 2 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 3x минус 1 пра­вая круг­лая скоб­ка плюс 2a.\"> Она опре­де­ле­на при <img src=\"https://ege.sdamgia.ru/formula/svg/64/6446887d6007f64521c8c545e8341000.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x боль­ше дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби , \"> воз­рас­та­ет на об­ла­сти опре­де­ле­ния и при­ни­ма­ет все зна­че­ния от <img src=\"https://ege.sdamgia.ru/formula/svg/aa/aad18c0a88969b4c1bdc3711475796c2.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" минус бес­ко­неч­ность \"> до <img src=\"https://ege.sdamgia.ru/formula/svg/4d/4d86e55c4fec3869a264c088f048641e.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" плюс бес­ко­неч­ность .\"> Зна­чит, урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/fd/fd05d8d90456c441c8f10641bd8576bc.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =0\"> имеет един­ствен­ное ре­ше­ние. Это ре­ше­ние при­над­ле­жит от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/56/56ef804e7aa90124474d45420750c957.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка 1;3 пра­вая квад­рат­ная скоб­ка \"> тогда и толь­ко тогда, когда <img src=\"https://ege.sdamgia.ru/formula/svg/22/22c22d7977b082f19eace5c2fe1d7fa1.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка 1 пра­вая круг­лая скоб­ка мень­ше или равно 0\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/74/74e6e0b32d958ba012f8b22d72ba1c74.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка 3 пра­вая круг­лая скоб­ка боль­ше или равно 0.\"> По­лу­ча­ем си­сте­му не­ра­венств:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/7f/7f85c52538f7d9d51882fedc8b06dad5.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний  новая стро­ка 4 плюс 3 плюс 2a мень­ше или равно 0, новая стро­ка 8 плюс 9 плюс 2a боль­ше или равно 0 конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний  новая стро­ка 2a плюс 7 мень­ше или равно 0, новая стро­ка 2a плюс 17 боль­ше или равно 0, конец си­сте­мы . рав­но­силь­но минус дробь: чис­ли­тель: 17, зна­ме­на­тель: 2 конец дроби мень­ше или равно a мень­ше или равно минус дробь: чис­ли­тель: 7, зна­ме­на­тель: 2 конец дроби . \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/d4/d4e51942bde84e7abbf88924c6bbe1ab.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка минус дробь: чис­ли­тель: 17, зна­ме­на­тель: 2 конец дроби ; минус дробь: чис­ли­тель: 7, зна­ме­на­тель: 2 конец дроби пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b4/b4c83ece3adada2b5a8ad4b91ac42ebc.svg",
+            "https://ege.sdamgia.ru/formula/svg/64/6446887d6007f64521c8c545e8341000.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aad18c0a88969b4c1bdc3711475796c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4d86e55c4fec3869a264c088f048641e.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fd05d8d90456c441c8f10641bd8576bc.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/56ef804e7aa90124474d45420750c957.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/22c22d7977b082f19eace5c2fe1d7fa1.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/74e6e0b32d958ba012f8b22d72ba1c74.svg",
+            "https://ege.sdamgia.ru/formula/svg/7f/7f85c52538f7d9d51882fedc8b06dad5.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d4e51942bde84e7abbf88924c6bbe1ab.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 18,
+    "analog_ids": [
+        505244,
+        505250,
+        511401
+    ]
+}

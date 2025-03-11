@@ -1,0 +1,33 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 505830,
+    "condition": {
+        "text": "Найдите все значения параметра a, при которых неравенство  не имеет решений на отрезке [−3; 0].",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body645402\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния па­ра­мет­ра <i>a</i>, при ко­то­рых не­ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/ad/ad4bac33a000900a7eec73f4b4864f29.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"|x в квад­ра­те плюс 4x минус a| боль­ше 6\"> не имеет ре­ше­ний на от­рез­ке [−3; 0].</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ad/ad4bac33a000900a7eec73f4b4864f29.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Требуется, чтобы  при всех  То есть чтобы  на всем этом отрезке.Очевидно, наименьшее значение выражение  принимает при  и это  а наибольшее либо при  либо при  Очевидно, второе больше.Итак, достаточно будет выполнения двух неравенств:  и  то есть  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol505830\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Тре­бу­ет­ся, чтобы <img src=\"https://ege.sdamgia.ru/formula/svg/d0/d0a2fb246e870477ba01153ac5b2c53b.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"|x в квад­ра­те плюс 4x минус a| мень­ше или равно 6\"> при всех <img src=\"https://ege.sdamgia.ru/formula/svg/52/525b6baa1e3ce48627330ac0e3eddb9a.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x при­над­ле­жит левая квад­рат­ная скоб­ка минус 3;0 пра­вая квад­рат­ная скоб­ка .\"> То есть чтобы <img src=\"https://ege.sdamgia.ru/formula/svg/0b/0bcb8a3d21f86bd8b8c0508aff6a4801.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\" минус 6 мень­ше или равно x в квад­ра­те плюс 4x минус a мень­ше или равно 6\"> на всем этом от­рез­ке.</p><p class=\"left_margin\">Оче­вид­но, наи­мень­шее зна­че­ние вы­ра­же­ние <img src=\"https://ege.sdamgia.ru/formula/svg/11/11bcb8396cce4928ea15b52aa490cae0.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x в квад­ра­те плюс 4x минус a\"> при­ни­ма­ет при <img src=\"https://ege.sdamgia.ru/formula/svg/61/6199c468b93a0bb0bf27da3b17043f54.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x= минус 2,\"> и это <img src=\"https://ege.sdamgia.ru/formula/svg/7f/7f2e3527b551a74c4caaf4be3d97021a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" минус 4 минус a,\"> а наи­боль­шее либо при <img src=\"https://ege.sdamgia.ru/formula/svg/52/52805d388d4a07409473f3998a5e013d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x= минус 3\"> либо при <img src=\"https://ege.sdamgia.ru/formula/svg/b2/b2e1a7a40f43fe57ecb152ce9a784a08.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=0.\"> Оче­вид­но, вто­рое боль­ше.</p><p class=\"left_margin\">Итак, до­ста­точ­но будет вы­пол­не­ния двух не­ра­венств: <img src=\"https://ege.sdamgia.ru/formula/svg/5b/5b5fd948d1bf52c8d8c75e7c29a4724b.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\" минус 6 мень­ше или равно минус 4 минус a\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/f5/f5b7efa28579e65057b3d34122c8b7df.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" минус a мень­ше или равно 6,\"> то есть <img src=\"https://ege.sdamgia.ru/formula/svg/29/2968c7df4c99337186f358367d60048c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"a при­над­ле­жит левая квад­рат­ная скоб­ка минус 6;2 пра­вая квад­рат­ная скоб­ка .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/29/2968c7df4c99337186f358367d60048c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"a при­над­ле­жит левая квад­рат­ная скоб­ка минус 6;2 пра­вая квад­рат­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d0/d0a2fb246e870477ba01153ac5b2c53b.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/525b6baa1e3ce48627330ac0e3eddb9a.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0bcb8a3d21f86bd8b8c0508aff6a4801.svg",
+            "https://ege.sdamgia.ru/formula/svg/11/11bcb8396cce4928ea15b52aa490cae0.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/6199c468b93a0bb0bf27da3b17043f54.svg",
+            "https://ege.sdamgia.ru/formula/svg/7f/7f2e3527b551a74c4caaf4be3d97021a.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/52805d388d4a07409473f3998a5e013d.svg",
+            "https://ege.sdamgia.ru/formula/svg/b2/b2e1a7a40f43fe57ecb152ce9a784a08.svg",
+            "https://ege.sdamgia.ru/formula/svg/5b/5b5fd948d1bf52c8d8c75e7c29a4724b.svg",
+            "https://ege.sdamgia.ru/formula/svg/f5/f5b7efa28579e65057b3d34122c8b7df.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/2968c7df4c99337186f358367d60048c.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/2968c7df4c99337186f358367d60048c.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

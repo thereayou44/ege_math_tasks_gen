@@ -1,0 +1,41 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 508367,
+    "condition": {
+        "text": "Решите неравенство: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body634675\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство: <img src=\"https://ege.sdamgia.ru/formula/svg/8f/8f1dc46e6d5c4f4581f038175357c214.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: x в квад­ра­те минус 2x минус 2, зна­ме­на­тель: x в квад­ра­те минус 2x конец дроби плюс дробь: чис­ли­тель: 7x минус 19, зна­ме­на­тель: x минус 3 конец дроби мень­ше или равно дробь: чис­ли­тель: 8x плюс 1, зна­ме­на­тель: x конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/8f/8f1dc46e6d5c4f4581f038175357c214.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Решим неравенство методом интервалов:   Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol508367\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Решим не­ра­вен­ство ме­то­дом ин­тер­ва­лов:</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"8897831820b1ea5e8e3dcdcca1e31489\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/88/8897831820b1ea5e8e3dcdcca1e31489.svg\" class=\"tex\" style=\"vertical-align:-9.2pt\" alt=\" дробь: чис­ли­тель: x в квад­ра­те минус 2x минус 2, зна­ме­на­тель: x в квад­ра­те минус 2x конец дроби плюс дробь: чис­ли­тель: 7x минус 19, зна­ме­на­тель: x минус 3 конец дроби мень­ше или равно дробь: чис­ли­тель: 8x плюс 1, зна­ме­на­тель: x конец дроби рав­но­силь­но 1 минус дробь: чис­ли­тель: 2, зна­ме­на­тель: x в квад­ра­те минус 2x конец дроби плюс 7 плюс дробь: чис­ли­тель: 2, зна­ме­на­тель: x минус 3 конец дроби минус 8 минус дробь: чис­ли­тель: 1, зна­ме­на­тель: x конец дроби \\leqslant0 рав­но­силь­но \"></span><span data-width=\"440\" data-formulahash=\"8897831820b1ea5e8e3dcdcca1e31489\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/93/935ecfedce531af08ae0c51a591793a0.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: x в квад­ра­те минус 2x минус 2, зна­ме­на­тель: x в квад­ра­те минус 2x конец дроби плюс дробь: чис­ли­тель: 7x минус 19, зна­ме­на­тель: x минус 3 конец дроби мень­ше или равно дробь: чис­ли­тель: 8x плюс 1, зна­ме­на­тель: x конец дроби рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/f9/f92c7be34a8b7ea7baeac34a6cf78cde.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" рав­но­силь­но 1 минус дробь: чис­ли­тель: 2, зна­ме­на­тель: x в квад­ра­те минус 2x конец дроби плюс 7 плюс дробь: чис­ли­тель: 2, зна­ме­на­тель: x минус 3 конец дроби минус 8 минус дробь: чис­ли­тель: 1, зна­ме­на­тель: x конец дроби \\leqslant0 рав­но­силь­но \"></span></p><p>&nbsp;</p><p><span data-width=\"640\" data-formulahash=\"71daf7ca91c51b9ed481f9ea0134f25e\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/1a/1ada59563bdf29beaea2f52c1087a000.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" рав­но­силь­но минус дробь: чис­ли­тель: 2, зна­ме­на­тель: x в квад­ра­те минус 2x конец дроби плюс дробь: чис­ли­тель: 2, зна­ме­на­тель: x минус 3 конец дроби минус дробь: чис­ли­тель: 1, зна­ме­на­тель: x конец дроби \\leqslant0 рав­но­силь­но минус дробь: чис­ли­тель: 2, зна­ме­на­тель: x левая круг­лая скоб­ка x минус 2 пра­вая круг­лая скоб­ка конец дроби плюс дробь: чис­ли­тель: 2, зна­ме­на­тель: x минус 3 конец дроби минус дробь: чис­ли­тель: 1, зна­ме­на­тель: x конец дроби \\leqslant0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/1c/1c0ac18feb4b64bca360ed81483efe4b.svg\" class=\"tex\" style=\"vertical-align:-20.9pt\" alt=\" рав­но­силь­но дробь: чис­ли­тель: x левая круг­лая скоб­ка x минус 1 пра­вая круг­лая скоб­ка , зна­ме­на­тель: x левая круг­лая скоб­ка x минус 3 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x минус 2 пра­вая круг­лая скоб­ка конец дроби \\leqslant0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка x мень­ше 0, новая стро­ка 0 мень­ше x мень­ше или равно 1, новая стро­ка 2 мень­ше x мень­ше 3. конец со­во­куп­но­сти . \"></span><span data-width=\"390\" data-formulahash=\"71daf7ca91c51b9ed481f9ea0134f25e\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/c6/c6b903f44d78946c9433ad835e745fd8.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" рав­но­силь­но минус дробь: чис­ли­тель: 2, зна­ме­на­тель: x в квад­ра­те минус 2x конец дроби плюс дробь: чис­ли­тель: 2, зна­ме­на­тель: x минус 3 конец дроби минус дробь: чис­ли­тель: 1, зна­ме­на­тель: x конец дроби \\leqslant0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/db/dbf8d7a9872381eea70571fe07bb5464.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\" рав­но­силь­но минус дробь: чис­ли­тель: 2, зна­ме­на­тель: x левая круг­лая скоб­ка x минус 2 пра­вая круг­лая скоб­ка конец дроби плюс дробь: чис­ли­тель: 2, зна­ме­на­тель: x минус 3 конец дроби минус дробь: чис­ли­тель: 1, зна­ме­на­тель: x конец дроби \\leqslant0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/1c/1c0ac18feb4b64bca360ed81483efe4b.svg\" class=\"tex\" style=\"vertical-align:-20.9pt\" alt=\" рав­но­силь­но дробь: чис­ли­тель: x левая круг­лая скоб­ка x минус 1 пра­вая круг­лая скоб­ка , зна­ме­на­тель: x левая круг­лая скоб­ка x минус 3 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x минус 2 пра­вая круг­лая скоб­ка конец дроби \\leqslant0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка x мень­ше 0, новая стро­ка 0 мень­ше x мень­ше или равно 1, новая стро­ка 2 мень­ше x мень­ше 3. конец со­во­куп­но­сти . \"></span> </p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><img src=\"/get_file?id=142912\" style=\"margin:10px auto;display:block;max-width:100%\"></p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/2b/2b5cb801319cf115c4fcc41018791bcd.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка минус бес­ко­неч­ность ;0 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 0;1 пра­вая квад­рат­ная скоб­ка \\cup левая круг­лая скоб­ка 2;3 пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/88/8897831820b1ea5e8e3dcdcca1e31489.svg",
+            "https://ege.sdamgia.ru/formula/svg/93/935ecfedce531af08ae0c51a591793a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f92c7be34a8b7ea7baeac34a6cf78cde.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1ada59563bdf29beaea2f52c1087a000.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1c0ac18feb4b64bca360ed81483efe4b.svg",
+            "https://ege.sdamgia.ru/formula/svg/c6/c6b903f44d78946c9433ad835e745fd8.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/dbf8d7a9872381eea70571fe07bb5464.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1c0ac18feb4b64bca360ed81483efe4b.svg",
+            "https://ege.sdamgia.ru/formula/svg/2b/2b5cb801319cf115c4fcc41018791bcd.svg",
+            "/get_file?id=142912"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": [
+        508367,
+        508369,
+        508377,
+        508379,
+        508369,
+        508377,
+        508379,
+        511517,
+        511521
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 484547,
+    "condition": {
+        "text": "а)  Решите уравнение б)  Укажите корни этого уравнения, принадлежащие промежутку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body592447\" class=\"pbody\"><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/b0/b0b43196dbdad59c70967aa197d3082d.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: 26 ко­си­нус в квад­ра­те x минус 23 ко­си­нус x плюс 5, зна­ме­на­тель: 13 синус x минус 12 конец дроби =0. \"></p><p class=\"left_margin\">б)  Ука­жи­те корни этого урав­не­ния, при­над­ле­жа­щие про­ме­жут­ку <img src=\"https://ege.sdamgia.ru/formula/svg/4e/4e1165b53fc278e00cbd20d8ecf9fcdb.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка минус дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 2 конец дроби ; минус Пи пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b0/b0b43196dbdad59c70967aa197d3082d.svg",
+            "https://ege.sdamgia.ru/formula/svg/4e/4e1165b53fc278e00cbd20d8ecf9fcdb.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Дробь равна нулю, если числитель равен нулю, а знаменатель не равен нулю и не теряет смысла. Поэтому данное уравнение равносильно системе:Решив уравнение системы как квадратное относительно  находим  либо  Если  то из основного тригонометрического тождества  то есть  Следовательно,  Если  то  В этом случае с учетом условия  системы получаем, что из двух точек единичной окружности, соответствующих решениям уравнения  нужно оставить только ту, для которой  Это точка четвертой четверти, и решение уравнении имеет вид  б)  На отрезке  корни отберём с помощью единичной окружности. Получаем:  Ответ: a) б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol484547\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Дробь равна нулю, если чис­ли­тель равен нулю, а зна­ме­на­тель не равен нулю и не те­ря­ет смыс­ла. По­это­му дан­ное урав­не­ние рав­но­силь­но си­сте­ме:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/01/01256a1cc43e5228e1e867f89694ed9c.svg\" class=\"tex\" style=\"vertical-align:-18.2pt\" alt=\" си­сте­ма вы­ра­же­ний 26 ко­си­нус в квад­ра­те x минус 23 ко­си­нус x плюс 5 =0, синус x не равно дробь: чис­ли­тель: 12, зна­ме­на­тель: 13 конец дроби . конец си­сте­мы . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Решив урав­не­ние си­сте­мы как квад­рат­ное от­но­си­тель­но <img src=\"https://ege.sdamgia.ru/formula/svg/b4/b43501fa844a7aaf35764d98780c05a9.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\" ко­си­нус x,\"> на­хо­дим <img src=\"https://ege.sdamgia.ru/formula/svg/ab/ab1a2b560a6a8c352fabc67f6d5cff98.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" ко­си­нус x= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби \"> либо <img src=\"https://ege.sdamgia.ru/formula/svg/d7/d74ab5f2ab36cb67a5fcd9f7d6678642.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" ко­си­нус x= дробь: чис­ли­тель: 5, зна­ме­на­тель: 13 конец дроби . \"> Если <img src=\"https://ege.sdamgia.ru/formula/svg/12/1289df6e705bf1d9e821f83b3e47a3c5.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" ко­си­нус x= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби , \"> то из ос­нов­но­го три­го­но­мет­ри­че­ско­го тож­де­ства <img src=\"https://ege.sdamgia.ru/formula/svg/54/54ac8feb29fd2f1c41dd638fb4c54577.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" синус x=\\pm дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби \"> то есть <img src=\"https://ege.sdamgia.ru/formula/svg/c8/c83352ca5b4018e27bf06ce38678682f.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" синус x не равно дробь: чис­ли­тель: 12, зна­ме­на­тель: 13 конец дроби . \"> <img src=\"/get_file?id=42099\" style=\"float:right;margin:10px\">Сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/76/76ebd040e82000ff97496be857b3e8b0.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x=\\pm дробь: чис­ли­тель: Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k, k при­над­ле­жит Z . \"> Если <img src=\"https://ege.sdamgia.ru/formula/svg/91/91e7cce0d75b5ac122c7abbd2eefe3d2.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" ко­си­нус x= дробь: чис­ли­тель: 5, зна­ме­на­тель: 13 конец дроби , \"> то <img src=\"https://ege.sdamgia.ru/formula/svg/54/548cb5514265dee736e4ed53b7a79afd.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" синус x=\\pm дробь: чис­ли­тель: 12, зна­ме­на­тель: 13 конец дроби . \"> В этом слу­чае с уче­том усло­вия <img src=\"https://ege.sdamgia.ru/formula/svg/26/2604b2567e01dcc34fe600c4a8ec26d8.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" синус x не равно дробь: чис­ли­тель: 12, зна­ме­на­тель: 13 конец дроби \"> си­сте­мы по­лу­ча­ем, что из двух точек еди­нич­ной окруж­но­сти, со­от­вет­ству­ю­щих ре­ше­ни­ям урав­не­ния <img src=\"https://ege.sdamgia.ru/formula/svg/91/91e7cce0d75b5ac122c7abbd2eefe3d2.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" ко­си­нус x= дробь: чис­ли­тель: 5, зна­ме­на­тель: 13 конец дроби , \"> нужно оста­вить толь­ко ту, для ко­то­рой <img src=\"https://ege.sdamgia.ru/formula/svg/eb/ebf28669cf3cc5ddf55e3e8a6a6a0da6.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" синус x= минус дробь: чис­ли­тель: 12, зна­ме­на­тель: 13 конец дроби . \"> Это точка чет­вер­той чет­вер­ти, и ре­ше­ние урав­не­нии имеет вид <img src=\"https://ege.sdamgia.ru/formula/svg/2d/2d6ad0b66511256cfb6e67249981ec41.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= минус арк­ко­си­нус дробь: чис­ли­тель: 5, зна­ме­на­тель: 13 конец дроби плюс 2 Пи k, k при­над­ле­жит Z . \"></p><p>&nbsp;</p><p class=\"left_margin\">б)  На от­рез­ке <img src=\"https://ege.sdamgia.ru/formula/svg/f6/f6547f1364bda5988fab1e05272bc393.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка минус дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 2 конец дроби ; минус Пи пра­вая квад­рат­ная скоб­ка \"> корни отберём с по­мо­щью еди­нич­ной окруж­но­сти. По­лу­ча­ем: <img src=\"https://ege.sdamgia.ru/formula/svg/26/2629f1dbd985ae14c5cf1a7ef58d6e63.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" минус 2 Пи минус арк­ко­си­нус дробь: чис­ли­тель: 5, зна­ме­на­тель: 13 конец дроби ; минус дробь: чис­ли­тель: 7 Пи , зна­ме­на­тель: 3 конец дроби ; минус дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 3 конец дроби . \"></p><p>&nbsp;</p><p class=\"left_margin\">Ответ: a)<img src=\"https://ege.sdamgia.ru/formula/svg/d8/d8ffc4e9bda8a8cfb09cba3fc86772fe.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая фи­гур­ная скоб­ка дробь: чис­ли­тель: Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k, минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k, минус арк­ко­си­нус дробь: чис­ли­тель: 5, зна­ме­на­тель: 13 конец дроби плюс 2 Пи k: k при­над­ле­жит Z пра­вая фи­гур­ная скоб­ка ; \"> б) <img src=\"https://ege.sdamgia.ru/formula/svg/26/2629f1dbd985ae14c5cf1a7ef58d6e63.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" минус 2 Пи минус арк­ко­си­нус дробь: чис­ли­тель: 5, зна­ме­на­тель: 13 конец дроби ; минус дробь: чис­ли­тель: 7 Пи , зна­ме­на­тель: 3 конец дроби ; минус дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 3 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/01/01256a1cc43e5228e1e867f89694ed9c.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b43501fa844a7aaf35764d98780c05a9.svg",
+            "https://ege.sdamgia.ru/formula/svg/ab/ab1a2b560a6a8c352fabc67f6d5cff98.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d74ab5f2ab36cb67a5fcd9f7d6678642.svg",
+            "https://ege.sdamgia.ru/formula/svg/12/1289df6e705bf1d9e821f83b3e47a3c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54ac8feb29fd2f1c41dd638fb4c54577.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c83352ca5b4018e27bf06ce38678682f.svg",
+            "https://ege.sdamgia.ru/formula/svg/76/76ebd040e82000ff97496be857b3e8b0.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/91e7cce0d75b5ac122c7abbd2eefe3d2.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/548cb5514265dee736e4ed53b7a79afd.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/2604b2567e01dcc34fe600c4a8ec26d8.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/91e7cce0d75b5ac122c7abbd2eefe3d2.svg",
+            "https://ege.sdamgia.ru/formula/svg/eb/ebf28669cf3cc5ddf55e3e8a6a6a0da6.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d6ad0b66511256cfb6e67249981ec41.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f6547f1364bda5988fab1e05272bc393.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/2629f1dbd985ae14c5cf1a7ef58d6e63.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d8ffc4e9bda8a8cfb09cba3fc86772fe.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/2629f1dbd985ae14c5cf1a7ef58d6e63.svg",
+            "/get_file?id=42099"
+        ]
+    },
+    "answer": "a) б)",
+    "topic_id": 13,
+    "analog_ids": [
+        484547,
+        507689,
+        507692,
+        511385,
+        507689,
+        507692,
+        511385,
+        511473,
+        513713
+    ]
+}

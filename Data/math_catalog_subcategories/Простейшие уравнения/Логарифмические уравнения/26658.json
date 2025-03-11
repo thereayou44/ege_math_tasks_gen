@@ -1,0 +1,52 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 26658,
+    "condition": {
+        "text": "Найдите корень уравнения ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919262\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те ко­рень урав­не­ния <img src=\"https://ege.sdamgia.ru/formula/svg/48/488655c801acaedca74525243f4e138b.svg\" class=\"tex\" style=\"vertical-align:-10.5pt\" alt=\"\\log _\\tfrac17 левая круг­лая скоб­ка 7 минус x пра­вая круг­лая скоб­ка = минус 2.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/48/488655c801acaedca74525243f4e138b.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Последовательно получаем: Ответ: −42.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol26658\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По­сле­до­ва­тель­но по­лу­ча­ем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/89/896e4bf4eb2dcd3cb71488bfedb4728e.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"\\log _\\tfrac17 левая круг­лая скоб­ка 7 минус x пра­вая круг­лая скоб­ка = минус 2 рав­но­силь­но 7 минус x= левая круг­лая скоб­ка дробь: чис­ли­тель: 1, зна­ме­на­тель: 7 конец дроби пра­вая круг­лая скоб­ка в сте­пе­ни левая круг­лая скоб­ка минус 2 пра­вая круг­лая скоб­ка рав­но­силь­но 7 минус x=49 рав­но­силь­но x= минус 42. \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> −42.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/89/896e4bf4eb2dcd3cb71488bfedb4728e.svg"
+        ]
+    },
+    "answer": "-42",
+    "topic_id": 6,
+    "analog_ids": [
+        26658,
+        3187,
+        3227,
+        3231,
+        3187,
+        3227,
+        3231,
+        517191,
+        517229,
+        3189,
+        3191,
+        3193,
+        3195,
+        3197,
+        3199,
+        3201,
+        3203,
+        3205,
+        3207,
+        3209,
+        3211,
+        3213,
+        3215,
+        3217,
+        3219,
+        3221,
+        3223,
+        3225,
+        3229
+    ]
+}

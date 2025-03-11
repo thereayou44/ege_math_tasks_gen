@@ -1,0 +1,26 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 548488,
+    "condition": {
+        "text": "В треугольнике ABC провели высоту CC1 и медиану AA1. Оказалось, что точки A, A1, C, C1 лежат на одной окружности. а)  Докажите, что треугольник ABC равнобедренный.б)  Найдите площадь треугольника ABC, если AA1 : CC1  =  3 : 2 и A1C1  =  2.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body405620\" class=\"pbody\"><p class=\"left_margin\">В тре­уголь­ни­ке <i>ABC</i> про­ве­ли вы­со­ту <i>CC</i><sub>1</sub> и ме­ди­а­ну <i>AA</i><sub>1</sub>. Ока­за­лось, что точки <i>A</i>, <i>A</i><sub>1</sub>, <i>C</i>, <i>C</i><sub>1</sub> лежат на одной окруж­но­сти. </p><p class=\"left_margin\">а)  До­ка­жи­те, что тре­уголь­ник <i>ABC</i> рав­но­бед­рен­ный.</p><p class=\"left_margin\">б)  Най­ди­те пло­щадь тре­уголь­ни­ка <i>ABC</i>, если <i>AA</i><sub>1</sub> : <i>CC</i><sub>1</sub>  =  3 : 2 и <i>A</i><sub>1</sub><i>C</i><sub>1</sub>  =  2.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Вписанные углы AC1C и  AA1C опираются на одну дугу AC, значит, они равны, то есть  В треугольнике ABC медиана AA1 является высотой, значит, треугольник ABC является равнобедренным и AB  =  AC.б)  В прямоугольном треугольнике BCC1 медиана C1A1 равна половине гипотенузы, значит, BC  =  4. Прямоугольные треугольники ABA1 и CBC1 подобны по общему углу B, значит, В прямоугольном треугольнике ACA1 получаем Площадь треугольника ABC равна  Ответ:  б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol548488\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=147453\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Впи­сан­ные углы <i>AC</i><sub>1</sub><i>C </i>и  <i>AA</i><sub>1</sub><i>C</i> опи­ра­ют­ся на одну дугу <i>AC</i>, зна­чит, они равны, то есть <img src=\"https://ege.sdamgia.ru/formula/svg/69/69eeef82f1c0d74dbe4bb264fd5e6ad2.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"\\angle AA_1C=90 гра­ду­сов.\"> В тре­уголь­ни­ке <i>ABC</i> ме­ди­а­на AA<sub>1</sub> яв­ля­ет­ся вы­со­той, зна­чит, тре­уголь­ник <i>ABC</i> яв­ля­ет­ся рав­но­бед­рен­ным и <i>AB</i>  =  <i>AC</i>.</p><p class=\"left_margin\">б)  В пря­мо­уголь­ном тре­уголь­ни­ке <i>BCC</i><sub>1</sub> ме­ди­а­на <i>C</i><sub>1</sub><i>A</i><sub>1</sub> равна по­ло­ви­не ги­по­те­ну­зы, зна­чит, <i>BC</i>  =  4. Пря­мо­уголь­ные тре­уголь­ни­ки <i>ABA</i><sub>1</sub> и <i>CBC</i><sub>1</sub> по­доб­ны по об­ще­му углу <i>B</i>, зна­чит, </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/6f/6f150d62280d006d8eb41245dcb8ac44.svg\" class=\"tex\" style=\"vertical-align:-10.0pt\" alt=\" дробь: чис­ли­тель: AB, зна­ме­на­тель: BC конец дроби = дробь: чис­ли­тель: AA_1, зна­ме­на­тель: CC_1 конец дроби = дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби ; \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/fc/fcd634e642112db78f1c0b371224b7c8.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"AC=AB= дробь: чис­ли­тель: 3BC, зна­ме­на­тель: 2 конец дроби =6. \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">В пря­мо­уголь­ном тре­уголь­ни­ке<i> ACA</i><sub>1</sub> по­лу­ча­ем</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/de/de72fa930e1fec893ce21bafe9573510.svg\" class=\"tex\" style=\"vertical-align:-6.8pt\" alt=\"AA_1= ко­рень из: на­ча­ло ар­гу­мен­та: AC в квад­ра­те минус CA_1 в квад­ра­те конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 36 минус 4 конец ар­гу­мен­та =4 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та .\"></p><p class=\"left_margin\"></p></center> <p class=\"left_margin\">Пло­щадь тре­уголь­ни­ка <i>ABC</i> равна <img src=\"https://ege.sdamgia.ru/formula/svg/99/992521d91bc9701c78d8387c171ad3ce.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" дробь: чис­ли­тель: AA_1 умно­жить на BC, зна­ме­на­тель: 2 конец дроби = 8 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  б) <img src=\"https://ege.sdamgia.ru/formula/svg/10/100b83cd1586847758776d727f898867.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"8 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/69/69eeef82f1c0d74dbe4bb264fd5e6ad2.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6f150d62280d006d8eb41245dcb8ac44.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fcd634e642112db78f1c0b371224b7c8.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/de72fa930e1fec893ce21bafe9573510.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/992521d91bc9701c78d8387c171ad3ce.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/100b83cd1586847758776d727f898867.svg",
+            "/get_file?id=147453"
+        ]
+    },
+    "answer": "б)",
+    "topic_id": 17,
+    "analog_ids": []
+}

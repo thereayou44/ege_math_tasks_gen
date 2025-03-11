@@ -1,0 +1,38 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27099,
+    "condition": {
+        "text": " Объем куба равен  Найдите его диагональ.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919335\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=111597\" style=\"float:right;margin:10px;max-width:100%\"> Объем куба равен <img src=\"https://ege.sdamgia.ru/formula/svg/f8/f8fac73fd7989c4cb4294182c9fea5d4.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"24 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та .\"> Най­ди­те его диа­го­наль.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f8/f8fac73fd7989c4cb4294182c9fea5d4.svg",
+            "/get_file?id=111597"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Если ребро куба равно a, то его объем и диагональ даются формулами  и  Следовательно,  Тогда диагональ равна 6.  Ответ: 6.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27099\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Если ребро куба равно <i>a</i>, то его объем и диа­го­наль да­ют­ся фор­му­ла­ми <img src=\"https://ege.sdamgia.ru/formula/svg/52/5279d51dc0baef61fc499ac9be60ba91.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"V=a в кубе \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/64/64f57c016c34ddd15b4a84392c768d4b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"d=a ко­рень из 3 .\"> Сле­до­ва­тель­но, </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/3d/3de9694360de6ceeb09542751fe92e2d.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\"d в кубе = левая круг­лая скоб­ка a ко­рень из 3 пра­вая круг­лая скоб­ка в кубе =a в кубе умно­жить на 3 ко­рень из 3 = 24 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та умно­жить на 3 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та = 216.\"></p><p class=\"left_margin\"></p></center><p> Тогда диа­го­наль равна 6. </p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 6.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/52/5279d51dc0baef61fc499ac9be60ba91.svg",
+            "https://ege.sdamgia.ru/formula/svg/64/64f57c016c34ddd15b4a84392c768d4b.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3de9694360de6ceeb09542751fe92e2d.svg"
+        ]
+    },
+    "answer": "6",
+    "topic_id": 3,
+    "analog_ids": [
+        27099,
+        74431,
+        628742,
+        628768,
+        74431,
+        628742,
+        628768,
+        74433,
+        74435,
+        74437,
+        74439,
+        74441
+    ]
+}

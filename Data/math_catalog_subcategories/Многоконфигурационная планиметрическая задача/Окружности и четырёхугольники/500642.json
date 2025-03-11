@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 500642,
+    "condition": {
+        "text": "Дан прямоугольник KLMN со сторонами: KN = 13, MN = 6. Прямая, проходящая через вершину М, касается окружности с центром К радиуса 3 и пересекается с прямой KN в точке Q. Найдите QK.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body642398\" class=\"pbody\"><p class=\"left_margin\">Дан пря­мо­уголь­ник <i>KLMN</i> со сто­ро­на­ми: <i>KN</i> = 13, <i>MN</i> = <i>6</i>. Пря­мая, про­хо­дя­щая через вер­ши­ну <i>М</i>, ка­са­ет­ся окруж­но­сти с цен­тром <i>К</i> ра­ди­у­са 3 и пе­ре­се­ка­ет­ся с пря­мой <i>KN</i> в точке <i>Q</i>. Най­ди­те <i>QK</i>.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Пусть точка Q лежит между K и N (рис. 1), P  — точка касания прямой MQ с данной окружностью. Обозначим KQ  =  x.Из прямоугольного треугольника QPK по теореме Пифагора находим Прямоугольные треугольники QPK и QNM подобны, поэтому  откуда  Тогда Если точка Q лежит на продолжении стороны NK за точку K (рис. 2), то, рассуждая аналогично, получим уравнение 3x2 − 26x − 205  =  0, из которого Ответ: 5 или ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol500642\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть точка <i>Q</i> лежит между <i>K</i> и <i>N</i> (рис. 1), <i>P</i>  — точка ка­са­ния пря­мой <i>MQ</i> с дан­ной окруж­но­стью. Обо­зна­чим <i>KQ</i>  =  <i>x</i>.</p><p><img src=\"/get_file?id=29370\" style=\"margin:10px auto;display:block\"></p><p class=\"left_margin\">Из пря­мо­уголь­но­го тре­уголь­ни­ка <i>QPK</i> по тео­ре­ме Пи­фа­го­ра на­хо­дим </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e9/e9395ec3ee3ca8b4eafe151567b134d0.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"PQ= ко­рень из: на­ча­ло ар­гу­мен­та: QK в квад­ра­те минус PK в квад­ра­те конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: x в квад­ра­те минус 9 конец ар­гу­мен­та .\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Пря­мо­уголь­ные тре­уголь­ни­ки <i>QPK</i> и <i>QNM</i> по­доб­ны, по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/e7/e7b006eede6845a594ea5c9eb863384f.svg\" class=\"tex\" style=\"vertical-align:-10.5pt\" alt=\" дробь: чис­ли­тель: PK, зна­ме­на­тель: PQ конец дроби = дробь: чис­ли­тель: MN, зна­ме­на­тель: QN конец дроби , \"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/10/10191ceec893f7d53ab314feeec37396.svg\" class=\"tex\" style=\"vertical-align:-10.9pt\" alt=\" дробь: чис­ли­тель: 3, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: x в квад­ра­те минус 9 конец ар­гу­мен­та конец дроби = дробь: чис­ли­тель: 6, зна­ме­на­тель: 13 минус x конец дроби . \"> </p><p class=\"left_margin\">Тогда</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/a7/a787679312bf05eb81bde4fcd5221c50.svg\" class=\"tex\" style=\"vertical-align:-4.7pt\" alt=\" левая круг­лая скоб­ка 13 минус x пра­вая круг­лая скоб­ка в квад­ра­те =4 левая круг­лая скоб­ка x в квад­ра­те минус 9 пра­вая круг­лая скоб­ка рав­но­силь­но 3x в квад­ра­те плюс 26x минус 205=0 рав­но­силь­но x=5.\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p class=\"left_margin\">Если точка <i>Q</i> лежит на про­дол­же­нии сто­ро­ны <i>NK</i> за точку <i>K</i> (рис. 2), то, рас­суж­дая ана­ло­гич­но, по­лу­чим урав­не­ние 3<i>x</i><sup>2</sup> − 26<i>x</i> − 205  =  0, из ко­то­ро­го <img src=\"https://ege.sdamgia.ru/formula/svg/a9/a93062c803e487dc6d874522298f58df.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x= дробь: чис­ли­тель: 41, зна­ме­на­тель: 3 конец дроби . \"></p><p class=\"left_margin\">Ответ: 5 или <img src=\"https://ege.sdamgia.ru/formula/svg/51/51f2719916bb109e08f85cc886d0d329.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 41, зна­ме­на­тель: 3 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e9/e9395ec3ee3ca8b4eafe151567b134d0.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e7b006eede6845a594ea5c9eb863384f.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/10191ceec893f7d53ab314feeec37396.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a787679312bf05eb81bde4fcd5221c50.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a93062c803e487dc6d874522298f58df.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/51f2719916bb109e08f85cc886d0d329.svg",
+            "/get_file?id=29370"
+        ]
+    },
+    "answer": "5 или",
+    "topic_id": null,
+    "analog_ids": [
+        500642,
+        500644,
+        511346
+    ]
+}

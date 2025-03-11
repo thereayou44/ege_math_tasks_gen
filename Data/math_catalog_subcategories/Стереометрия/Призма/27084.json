@@ -1,0 +1,53 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27084,
+    "condition": {
+        "text": "Найдите объем правильной шестиугольной призмы, стороны основания которой равны 1, а боковые ребра равны ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919344\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=113235\" style=\"float:right;margin:10px;max-width:100%\">Най­ди­те объем пра­виль­ной ше­сти­уголь­ной приз­мы, сто­ро­ны ос­но­ва­ния ко­то­рой равны 1, а бо­ко­вые ребра равны <img src=\"https://ege.sdamgia.ru/formula/svg/d1/d1b2e52808d71aa89a427c7b04b4ed9b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d1/d1b2e52808d71aa89a427c7b04b4ed9b.svg",
+            "/get_file?id=113235"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Объем прямой призмы равен V = Sh, где S  — площадь основания, а h  — боковое ребро. Площадь правильного шестиугольника со стороной a, лежащего в основании, задается формулой  Тогда объем призмы равен Ответ: 4,5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27084\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Объем пря­мой приз­мы равен <i>V = Sh</i>, где <i>S</i>  — пло­щадь ос­но­ва­ния, а <i>h</i>  — бо­ко­вое ребро. Пло­щадь пра­виль­но­го ше­сти­уголь­ни­ка со сто­ро­ной <i>a</i>, ле­жа­ще­го в ос­но­ва­нии, за­да­ет­ся фор­му­лой </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/b7/b7c436cccc4c4eb48961f8f5691a8fad.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"S= дробь: чис­ли­тель: 3 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби a в квад­ра­те = дробь: чис­ли­тель: 3 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби умно­жить на 1 в квад­ра­те = дробь: чис­ли­тель: 3 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби . \"></p><p class=\"left_margin\"></p></center><p> Тогда объем приз­мы равен </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/1a/1afd6ad20f0d9298490ebdd1eaef36af.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"V=Sh= дробь: чис­ли­тель: 3 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби умно­жить на ко­рень из 3 =4,5. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 4,5.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b7/b7c436cccc4c4eb48961f8f5691a8fad.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1afd6ad20f0d9298490ebdd1eaef36af.svg"
+        ]
+    },
+    "answer": "4,5",
+    "topic_id": 3,
+    "analog_ids": [
+        27084,
+        73767,
+        73813,
+        73769,
+        73767,
+        73813,
+        73769,
+        73771,
+        73773,
+        73775,
+        73777,
+        73779,
+        73781,
+        73783,
+        73785,
+        73787,
+        73789,
+        73791,
+        73793,
+        73795,
+        73797,
+        73799,
+        73801,
+        73803,
+        73805,
+        73807,
+        73809,
+        73811
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521810,
+    "condition": {
+        "text": "Сторона АВ треугольника АВС равна 3, ВС  =  2АС, Е  — точка пересечения продолжения биссектрисы CD данного треугольника с описанной около него окружностью, причем DE  =  1. а)  Докажите, что AE || BC.б)  Найдите длину стороны АС.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body628910\" class=\"pbody\"><p class=\"left_margin\">Сто­ро­на <i>АВ</i> тре­уголь­ни­ка <i>АВС</i> равна 3, <i>ВС</i>  =  2<i>АС</i>, <i>Е</i>  — точка пе­ре­се­че­ния про­дол­же­ния бис­сек­три­сы <i>CD</i> дан­но­го тре­уголь­ни­ка с опи­сан­ной около него окруж­но­стью, при­чем <i>DE</i>  =  1. </p><p class=\"left_margin\">а)  До­ка­жи­те, что <i>AE</i> || <i>BC</i>.</p><p class=\"left_margin\">б)  Най­ди­те длину сто­ро­ны <i>АС</i>.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Пусть  По свойству биссектрисы  поэтому  По свойству пересекающихся хорд  откуда  Значит,  (опираются на дугу BE описанной окружности), откуда  б)  По формуле для биссектрисы имеем  откуда  Ответ: б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521810\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=36450\" style=\"float:right;margin:10px\">а)  Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/79/7946553c3b20661639de3930beb8e314.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AC=x, BC=2x.\"> По свой­ству бис­сек­три­сы <img src=\"https://ege.sdamgia.ru/formula/svg/09/0986f9016a630e6753a8f788fc800356.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"BD:DA=BC:CA=2,\"> по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/8c/8cf454ea933e92c52d0a88b1b3690f85.svg\" class=\"tex\" style=\"vertical-align:-2.2pt\" alt=\"BD=2; AD=1.\"> По свой­ству пе­ре­се­ка­ю­щих­ся хорд <img src=\"https://ege.sdamgia.ru/formula/svg/31/311cde5b825e9b8b720db7aae5e780c6.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"BD умно­жить на DA=ED умно­жить на DC,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/6d/6da0f5ee3bc131b244409ab617efb871.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"DC=2.\"> Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/3d/3d34b3e8f5cbc60d62650f89d96831c5.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle CBD=\\angle BCD=\\angle BAE\"> (опи­ра­ют­ся на дугу <i>BE</i> опи­сан­ной окруж­но­сти), от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/ed/ed59bcaf222b6ee5d1cbc8254f170a71.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"AE\\parallel BC.\"></p><p>&nbsp;</p><p class=\"left_margin\">б)  По фор­му­ле для бис­сек­три­сы имеем <img src=\"https://ege.sdamgia.ru/formula/svg/4b/4b9057e07d711fdb7b6109ae3449d2a5.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2= ко­рень из: на­ча­ло ар­гу­мен­та: 2x умно­жить на x минус 2 умно­жить на 1 конец ар­гу­мен­та ,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/9f/9f7469b20cb6201c7c242d7e220a7771.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x= ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) <img src=\"https://ege.sdamgia.ru/formula/svg/d1/d1b2e52808d71aa89a427c7b04b4ed9b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/79/7946553c3b20661639de3930beb8e314.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/0986f9016a630e6753a8f788fc800356.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8cf454ea933e92c52d0a88b1b3690f85.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/311cde5b825e9b8b720db7aae5e780c6.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6da0f5ee3bc131b244409ab617efb871.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3d34b3e8f5cbc60d62650f89d96831c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/ed59bcaf222b6ee5d1cbc8254f170a71.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4b9057e07d711fdb7b6109ae3449d2a5.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9f7469b20cb6201c7c242d7e220a7771.svg",
+            "https://ege.sdamgia.ru/formula/svg/d1/d1b2e52808d71aa89a427c7b04b4ed9b.svg",
+            "/get_file?id=36450"
+        ]
+    },
+    "answer": "б)",
+    "topic_id": null,
+    "analog_ids": []
+}

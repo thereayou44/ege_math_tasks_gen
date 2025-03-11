@@ -1,0 +1,29 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27074,
+    "condition": {
+        "text": "Объем параллелепипеда  равен 9. Найдите объем треугольной пирамиды ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919358\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=138931\" style=\"float:right;margin:10px;max-width:100%\">Объем па­рал­ле­ле­пи­пе­да <img src=\"https://ege.sdamgia.ru/formula/svg/1f/1f98fd4abe2a7ebc84481105039f3a71.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"ABCDA_1B_1C_1D_1\"> равен 9. Най­ди­те объем тре­уголь­ной пи­ра­ми­ды <img src=\"https://ege.sdamgia.ru/formula/svg/c0/c0430353b40eb075e4919633d90bcbd2.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"ABCA_1.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/1f/1f98fd4abe2a7ebc84481105039f3a71.svg",
+            "https://ege.sdamgia.ru/formula/svg/c0/c0430353b40eb075e4919633d90bcbd2.svg",
+            "/get_file?id=138931"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Объем параллелепипеда равен  , где S  — площадь основания, h  — высота. Объем пирамиды равенгде   — площадь основания пирамиды, по построению равная половине площади основания параллелепипеда. Тогда объем пирамиды в 6 раз меньше объема параллелепипеда. Ответ: 1,5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27074\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Объем па­рал­ле­ле­пи­пе­да равен <img src=\"https://ege.sdamgia.ru/formula/svg/b8/b87c138964cee630fa6b15a51bee8ef3.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"V=Sh\"> , где <i>S</i>  — пло­щадь ос­но­ва­ния, <i>h</i>  — вы­со­та. Объем пи­ра­ми­ды равен</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/26/26528ddcee5794d862e0cffda9bcfb0b.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"V= дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби S_\\Delta h, \"></p><p class=\"left_margin\"></p></center><p>где <img src=\"https://ege.sdamgia.ru/formula/svg/13/1346bf53b2b94169403472f504b48e15.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"S_\\Delta \">  — пло­щадь ос­но­ва­ния пи­ра­ми­ды, по по­стро­е­нию рав­ная по­ло­ви­не пло­ща­ди ос­но­ва­ния па­рал­ле­ле­пи­пе­да. Тогда объем пи­ра­ми­ды в 6 раз мень­ше объ­е­ма па­рал­ле­ле­пи­пе­да.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 1,5.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b8/b87c138964cee630fa6b15a51bee8ef3.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/26528ddcee5794d862e0cffda9bcfb0b.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/1346bf53b2b94169403472f504b48e15.svg"
+        ]
+    },
+    "answer": "1,5",
+    "topic_id": 3,
+    "analog_ids": [
+        27074,
+        5079
+    ]
+}

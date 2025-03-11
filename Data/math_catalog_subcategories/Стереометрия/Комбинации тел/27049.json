@@ -1,0 +1,58 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27049,
+    "condition": {
+        "text": "В основании прямой призмы лежит прямоугольный треугольник с катетами 6 и 8. Боковые ребра равны  Найдите объем цилиндра, описанного около этой призмы.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919381\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=111405\" style=\"float:right;margin:10px;max-width:100%\">В ос­но­ва­нии пря­мой приз­мы лежит пря­мо­уголь­ный тре­уголь­ник с ка­те­та­ми 6 и 8. Бо­ко­вые ребра равны <img src=\"https://ege.sdamgia.ru/formula/svg/53/530a6b8a13486083ff59d05ff1309dc7.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 5, зна­ме­на­тель: Пи конец дроби . \"> Най­ди­те объем ци­лин­дра, опи­сан­но­го около этой приз­мы.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/53/530a6b8a13486083ff59d05ff1309dc7.svg",
+            "/get_file?id=111405"
+        ]
+    },
+    "solution": {
+        "text": "Решение. По теореме Пифагора длина гипотенузы треугольника в основании  Поскольку гипотенуза является диаметром основания описанного цилиндра, его объем равенОтвет: 125.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27049\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По тео­ре­ме Пи­фа­го­ра длина ги­по­те­ну­зы тре­уголь­ни­ка в ос­но­ва­нии <img src=\"https://ege.sdamgia.ru/formula/svg/5c/5cfedd5b230f19e78b764fa92f3f9de7.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 6 конец ар­гу­мен­та в квад­ра­те плюс 8 в квад­ра­те =10.\"> По­сколь­ку ги­по­те­ну­за яв­ля­ет­ся диа­мет­ром ос­но­ва­ния опи­сан­но­го ци­лин­дра, его объем равен</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/b7/b701fc9adb133ec3c2662a57b99e81df.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"V=H дробь: чис­ли­тель: Пи d в квад­ра­те , зна­ме­на­тель: 4 конец дроби = дробь: чис­ли­тель: 5, зна­ме­на­тель: Пи конец дроби умно­жить на дробь: чис­ли­тель: 100 Пи , зна­ме­на­тель: 4 конец дроби =125. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 125.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/5c/5cfedd5b230f19e78b764fa92f3f9de7.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b701fc9adb133ec3c2662a57b99e81df.svg"
+        ]
+    },
+    "answer": "125",
+    "topic_id": 3,
+    "analog_ids": [
+        27049,
+        4963,
+        4965,
+        4967,
+        4963,
+        4965,
+        4967,
+        4969,
+        72205,
+        72207,
+        72209,
+        72211,
+        72213,
+        72215,
+        72217,
+        72219,
+        72221,
+        72223,
+        72225,
+        72227,
+        72229,
+        72231,
+        72233,
+        72235,
+        72237,
+        72239,
+        72241,
+        72243,
+        72245,
+        72247,
+        72249,
+        72251,
+        72253
+    ]
+}

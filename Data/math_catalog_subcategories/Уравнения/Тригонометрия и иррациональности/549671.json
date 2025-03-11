@@ -1,0 +1,37 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 549671,
+    "condition": {
+        "text": "а)  Решите уравнение б)  Укажите корни этого уравнения, принадлежащие промежутку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body396763\" class=\"pbody\"><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/59/59dbd63cd57c7daf1aef7e6c42002252.svg\" class=\"tex\" style=\"vertical-align:-1.9pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: ко­си­нус 2x минус синус в кубе x плюс 3 конец ар­гу­мен­та = синус x.\"></p><p class=\"left_margin\">б)  Ука­жи­те корни этого урав­не­ния, при­над­ле­жа­щие про­ме­жут­ку <img src=\"https://ege.sdamgia.ru/formula/svg/c3/c33298b73362c179b7b88d3c765a0734.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая круг­лая скоб­ка дробь: чис­ли­тель: 73 Пи , зна­ме­на­тель: 2 конец дроби ; 41 Пи пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/59/59dbd63cd57c7daf1aef7e6c42002252.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c33298b73362c179b7b88d3c765a0734.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение.  a)  Уравнение  равносильно уравнению  при условии   Возведем обе части исходного уравнения в квадрат при условии  получим: Полученный корень удовлетворяет исходному ограничению.б)  Отберем корни при помощи единичной окружности (см. рис.), подходят числа  и  Ответ: а)  б)  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol549671\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=68780\" style=\"float:right;margin:10px;max-width:100%\"> a)  Урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/39/3970425a67520811e182a0d48ea8c56a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" ко­рень из x = y\"> рав­но­силь­но урав­не­нию <img src=\"https://ege.sdamgia.ru/formula/svg/73/730c60f36b6555a801432cc0d2a6f64d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x = y в квад­ра­те \"> при усло­вии <img src=\"https://ege.sdamgia.ru/formula/svg/f9/f9e77e7caf109c5308c731384be7160c.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y боль­ше или равно 0.\">  Воз­ве­дем обе части ис­ход­но­го урав­не­ния в квад­рат при усло­вии <img src=\"https://ege.sdamgia.ru/formula/svg/2d/2dc1f80cbcd737535cc54ac07c6adcc5.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" синус x боль­ше или равно 0,\"> по­лу­чим:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/c6/c6594eff19d8152f8dd36dfefce6cd5d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­си­нус 2x минус синус в кубе x плюс 3= синус в квад­ра­те x рав­но­силь­но 1 минус 2 синус в квад­ра­те x минус синус в кубе x плюс 3= синус в квад­ра­те x рав­но­силь­но \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/15/155f36f04266249971079303e79cb5c9.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" рав­но­силь­но синус в кубе x плюс 3 синус в квад­ра­те x минус 4=0 рав­но­силь­но синус в кубе x минус 1 плюс 3 синус в квад­ра­те x минус 3=0 рав­но­силь­но \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/ae/aee7d2ce411b5dbccdfe92f4efe5407e.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" рав­но­силь­но левая круг­лая скоб­ка синус x минус 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка синус в квад­ра­те x плюс синус x плюс 1 пра­вая круг­лая скоб­ка плюс 3 левая круг­лая скоб­ка синус x минус 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка синус x плюс 1 пра­вая круг­лая скоб­ка =0 рав­но­силь­но \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/31/31638bd949dc567e5b931cba702f6801.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" рав­но­силь­но левая круг­лая скоб­ка синус x минус 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка синус в квад­ра­те x плюс 4 синус x плюс 4 пра­вая круг­лая скоб­ка =0 рав­но­силь­но левая круг­лая скоб­ка синус x минус 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка синус x плюс 2 пра­вая круг­лая скоб­ка в квад­ра­те =0 рав­но­силь­но \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/d0/d0f500751e6093fb08f9eb088dac9ee0.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" рав­но­силь­но синус x=1 рав­но­силь­но x= дробь: чис­ли­тель: зна­ме­на­тель: p конец дроби i 2 плюс 2 Пи k, k при­над­ле­жит Z .\"></p><p class=\"left_margin\"></p></center><p> По­лу­чен­ный ко­рень удо­вле­тво­ря­ет ис­ход­но­му огра­ни­че­нию.</p><p class=\"left_margin\">б)  От­бе­рем корни при по­мо­щи еди­нич­ной окруж­но­сти (см. рис.), под­хо­дят числа <img src=\"https://ege.sdamgia.ru/formula/svg/f0/f093a56a42598063d51c23be03b15275.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 77 Пи , зна­ме­на­тель: 2 конец дроби \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/22/223363263177715fdf0f4772adece67f.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 81 Пи , зна­ме­на­тель: 2 конец дроби .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ</span>: а) <img src=\"https://ege.sdamgia.ru/formula/svg/47/47c417e2f23b2ef2dd681905dc3928fc.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" левая фи­гур­ная скоб­ка дробь: чис­ли­тель: зна­ме­на­тель: p конец дроби i 2 плюс 2 Пи k : k при­над­ле­жит Z пра­вая фи­гур­ная скоб­ка ;\"> б) <img src=\"https://ege.sdamgia.ru/formula/svg/a8/a8e28707b4c3a97f1b56302335bf7616.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 77 Пи , зна­ме­на­тель: 2 конец дроби ,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/22/223363263177715fdf0f4772adece67f.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 81 Пи , зна­ме­на­тель: 2 конец дроби .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/39/3970425a67520811e182a0d48ea8c56a.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/730c60f36b6555a801432cc0d2a6f64d.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f9e77e7caf109c5308c731384be7160c.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2dc1f80cbcd737535cc54ac07c6adcc5.svg",
+            "https://ege.sdamgia.ru/formula/svg/c6/c6594eff19d8152f8dd36dfefce6cd5d.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/155f36f04266249971079303e79cb5c9.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/aee7d2ce411b5dbccdfe92f4efe5407e.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/31638bd949dc567e5b931cba702f6801.svg",
+            "https://ege.sdamgia.ru/formula/svg/d0/d0f500751e6093fb08f9eb088dac9ee0.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f093a56a42598063d51c23be03b15275.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/223363263177715fdf0f4772adece67f.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/47c417e2f23b2ef2dd681905dc3928fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a8e28707b4c3a97f1b56302335bf7616.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/223363263177715fdf0f4772adece67f.svg",
+            "/get_file?id=68780"
+        ]
+    },
+    "answer": "",
+    "topic_id": 13,
+    "analog_ids": []
+}

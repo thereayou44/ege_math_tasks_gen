@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 530387,
+    "condition": {
+        "text": "Найдите значения параметра a, при которых система уравненийимеет ровно одно решение.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body424239\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те зна­че­ния па­ра­мет­ра <i>a</i>, при ко­то­рых си­сте­ма урав­не­ний</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/04/0496d0751e8fb24cf5376254a70acdf1.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний 6x в квад­ра­те минус 5xy плюс y в квад­ра­те плюс x минус y минус 2=0,y=ax минус 5 конец си­сте­мы . \"></p><p class=\"left_margin\"></p></center><p>имеет ровно одно ре­ше­ние.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/04/0496d0751e8fb24cf5376254a70acdf1.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Подставим y из второго уравнения в первое, получим уравнение    (*) Система будет иметь единственное решение, если полученное уравнение будет иметь ровно один корень. Найдём соответствующие значения параметра. Если старший коэффициент уравнения (*) равен нулю, то его степень не больше 1, поэтому оно может иметь единственное решение, не иметь решений или иметь бесконечно много решений. Из уравнения  находим  или  Эти значения приводят к уравнениям  и  соответственно, имеющим единственное решение.При прочих а уравнение (*) является квадратным и имеет единственное решение, тогда и только тогда, когда его дискриминант равен нулю: откуда   Ответ:  2, 3.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol530387\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Под­ста­вим <i>y</i> из вто­ро­го урав­не­ния в пер­вое, по­лу­чим урав­не­ние</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/88/888d9e5fa2f891eafaf73a459ad21dc5.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка a в квад­ра­те минус 5a плюс 6 пра­вая круг­лая скоб­ка x в квад­ра­те плюс левая круг­лая скоб­ка 26 минус 11a пра­вая круг­лая скоб­ка x плюс 28=0.\">    (*)</p><p class=\"left_margin\"></p></center><p> Си­сте­ма будет иметь един­ствен­ное ре­ше­ние, если по­лу­чен­ное урав­не­ние будет иметь ровно один ко­рень. Найдём со­от­вет­ству­ю­щие зна­че­ния па­ра­мет­ра. </p><p class=\"left_margin\">Если стар­ший ко­эф­фи­ци­ент урав­не­ния (*) равен нулю, то его сте­пень не боль­ше 1, по­это­му оно может иметь един­ствен­ное ре­ше­ние, не иметь ре­ше­ний или иметь бес­ко­неч­но много ре­ше­ний. Из урав­не­ния <img src=\"https://ege.sdamgia.ru/formula/svg/ab/abce604adf334596eaea7b0bb9fab42c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a в квад­ра­те минус 5a плюс 6=0\"> на­хо­дим <img src=\"https://ege.sdamgia.ru/formula/svg/83/83a88ab12cf3296e031df84985733d33.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=2\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/39/39245a0c4dfdf26b2e0665c996acde39.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=3.\"> Эти зна­че­ния при­во­дят к урав­не­ни­ям <img src=\"https://ege.sdamgia.ru/formula/svg/44/44b72a5f5291857bcc3a4ebfa9116587.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"4x плюс 28=0\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/4f/4fe1a664ff87f9417ffc093df01ee9dd.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" минус 7x плюс 28=0\"> со­от­вет­ствен­но, име­ю­щим един­ствен­ное ре­ше­ние.</p><p class=\"left_margin\">При про­чих <i>а</i> урав­не­ние (*) яв­ля­ет­ся квад­рат­ным и имеет един­ствен­ное ре­ше­ние, тогда и толь­ко тогда, когда его дис­кри­ми­нант равен нулю:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/2f/2f98562b3c2573412bc00ba125a9dc0c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"D= левая круг­лая скоб­ка 26 минус 11a пра­вая круг­лая скоб­ка в квад­ра­те минус 4 умно­жить на 28 левая круг­лая скоб­ка a в квад­ра­те минус 5a плюс 6 пра­вая круг­лая скоб­ка =9a в квад­ра­те минус 12a плюс 4= левая круг­лая скоб­ка 3a минус 2 пра­вая круг­лая скоб­ка в квад­ра­те ,\"></p><p class=\"left_margin\"></p></center><p> от­ку­да  <img src=\"https://ege.sdamgia.ru/formula/svg/54/5463d633cea58ccc732264ffb7f2234e.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"a= дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/4a/4af96cb08564e1c0714ebd0a517362e3.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби ,\"> 2, 3.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/88/888d9e5fa2f891eafaf73a459ad21dc5.svg",
+            "https://ege.sdamgia.ru/formula/svg/ab/abce604adf334596eaea7b0bb9fab42c.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83a88ab12cf3296e031df84985733d33.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/39245a0c4dfdf26b2e0665c996acde39.svg",
+            "https://ege.sdamgia.ru/formula/svg/44/44b72a5f5291857bcc3a4ebfa9116587.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4fe1a664ff87f9417ffc093df01ee9dd.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2f98562b3c2573412bc00ba125a9dc0c.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/5463d633cea58ccc732264ffb7f2234e.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4af96cb08564e1c0714ebd0a517362e3.svg"
+        ]
+    },
+    "answer": "2, 3.",
+    "topic_id": 18,
+    "analog_ids": []
+}

@@ -1,0 +1,35 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521410,
+    "condition": {
+        "text": "При каких значениях параметра a для всякого  верно неравенство",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629310\" class=\"pbody\"><p class=\"left_margin\">При каких зна­че­ни­ях па­ра­мет­ра a для вся­ко­го <img src=\"https://ege.sdamgia.ru/formula/svg/4b/4be02beb1e0070908b4919d04fd339e1.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x при­над­ле­жит левая квад­рат­ная скоб­ка 0;7 пра­вая квад­рат­ная скоб­ка \"> верно не­ра­вен­ство<img src=\"https://ege.sdamgia.ru/formula/svg/d2/d2e75249e86b1adc4e803aba652f238d.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"||x плюс 2a| минус 3a| плюс ||3x минус a| плюс 4a|\\leqslant7x плюс 24.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/4b/4be02beb1e0070908b4919d04fd339e1.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d2e75249e86b1adc4e803aba652f238d.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Заметим, что при любом раскрытии модулей в выражении  получается линейная функция с отрицательным коэффициентом при  Поэтому   — убывающая функция и необходимо следить только за значением   При  имеем   При  имеем   Откуда  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521410\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">За­ме­тим, что при любом рас­кры­тии мо­ду­лей в вы­ра­же­нии <img src=\"https://ege.sdamgia.ru/formula/svg/9c/9c16e42d88304711258d2c9eebf762ed.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =||x плюс 2a| минус 3a| плюс ||3x минус a| плюс 4a| минус 7x минус 24\"> по­лу­ча­ет­ся ли­ней­ная функ­ция с от­ри­ца­тель­ным ко­эф­фи­ци­ен­том при <img src=\"https://ege.sdamgia.ru/formula/svg/fd/fd3500a59568ee1c126a5e50c6bc8b91.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x.\"> По­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/50/50bbd36e1fd2333108437a2ca378be62.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка \">  — убы­ва­ю­щая функ­ция и не­об­хо­ди­мо сле­дить толь­ко за зна­че­ни­ем <img src=\"https://ege.sdamgia.ru/formula/svg/ff/ff7df3551fe0ca80a944b48ad282ff61.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка 0 пра­вая круг­лая скоб­ка .\"> <img src=\"https://ege.sdamgia.ru/formula/svg/ec/ecae2975dd6265013b8ff99d19cfcf68.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"||2a| минус 3a| плюс ||a| плюс 4a| мень­ше или равно 24:\"></p><p>&nbsp;</p><p class=\"left_margin\">При <img src=\"https://ege.sdamgia.ru/formula/svg/73/7304e683356ceb05ff68943d881e59fc.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"a боль­ше или равно 0\"> имеем <img src=\"https://ege.sdamgia.ru/formula/svg/dc/dcf7f5915a9986d712ef7aa72cf70c22.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a плюс 5a мень­ше или равно 24,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/4b/4bacc99fd4fe43a2b7585970f3f82dbe.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"a мень­ше или равно 4.\"></p><p>&nbsp;</p><p class=\"left_margin\">При <img src=\"https://ege.sdamgia.ru/formula/svg/cf/cf8298b0e273301afdd921e7e4cf6c2b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a мень­ше 0\"> имеем <img src=\"https://ege.sdamgia.ru/formula/svg/92/92bb7be90fb048104ef1118ad06fcf24.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" минус 5a минус 3a мень­ше или равно 24,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/4d/4d9d31de6dbcef42fdf185af05698ac2.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"a боль­ше или равно минус 3.\"></p><p>&nbsp;</p><p class=\"left_margin\">От­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/9a/9aab32a5119ae110b31c60d8c898ebaf.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"a при­над­ле­жит левая квад­рат­ная скоб­ка минус 3;4 пра­вая квад­рат­ная скоб­ка .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/a5/a5d894642b58cf402237272c05391606.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка минус 3;4 пра­вая квад­рат­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/9c/9c16e42d88304711258d2c9eebf762ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fd3500a59568ee1c126a5e50c6bc8b91.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50bbd36e1fd2333108437a2ca378be62.svg",
+            "https://ege.sdamgia.ru/formula/svg/ff/ff7df3551fe0ca80a944b48ad282ff61.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ecae2975dd6265013b8ff99d19cfcf68.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/7304e683356ceb05ff68943d881e59fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dcf7f5915a9986d712ef7aa72cf70c22.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4bacc99fd4fe43a2b7585970f3f82dbe.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf8298b0e273301afdd921e7e4cf6c2b.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/92bb7be90fb048104ef1118ad06fcf24.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4d9d31de6dbcef42fdf185af05698ac2.svg",
+            "https://ege.sdamgia.ru/formula/svg/9a/9aab32a5119ae110b31c60d8c898ebaf.svg",
+            "https://ege.sdamgia.ru/formula/svg/a5/a5d894642b58cf402237272c05391606.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

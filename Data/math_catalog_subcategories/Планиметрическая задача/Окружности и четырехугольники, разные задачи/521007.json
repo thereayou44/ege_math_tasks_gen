@@ -1,0 +1,31 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521007,
+    "condition": {
+        "text": "Окружность проходит через вершины  и C параллелограмма и пересекает продолжение стороны AD в точке E, а продолжение стороны CD в точке а)  Докажите, что отрезки BE и BK равны.б)  Найдите отношение KE к AC, если ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body630227\" class=\"pbody\"><p class=\"left_margin\">Окруж­ность про­хо­дит через вер­ши­ны <img src=\"https://ege.sdamgia.ru/formula/svg/68/680503aca25fb6f266848362d33f5e7a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"A,B\"> и <i>C</i> па­рал­ле­ло­грам­ма и пе­ре­се­ка­ет про­дол­же­ние сто­ро­ны <i>AD</i> в точке <i>E</i>, а про­дол­же­ние сто­ро­ны <i>CD</i> в точке <img src=\"https://ege.sdamgia.ru/formula/svg/57/57fbc7ee0cc06365d39eabde4079c0ef.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"K.\"></p><p class=\"left_margin\">а)  До­ка­жи­те, что от­рез­ки <i>BE</i> и <i>BK</i> равны.</p><p class=\"left_margin\">б)  Най­ди­те от­но­ше­ние <i>KE</i> к <i>AC</i>, если <img src=\"https://ege.sdamgia.ru/formula/svg/85/85944475096716a7682d04ef8122fb27.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle ABC=135 гра­ду­сов.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/68/680503aca25fb6f266848362d33f5e7a.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/57fbc7ee0cc06365d39eabde4079c0ef.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/85944475096716a7682d04ef8122fb27.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)   как противоположные углы в параллелограмме. Так как они также являются вписанными углами, то и дуги BE  и BK равны. Следовательно,  хорды BK и BE равны, так как они стягивают равные дуги.б)   как односторонние углы при параллельных прямых. Следовательно, дуги BK и BE равны  Тогда дуга KE равна  Поэтому вписанный  Тогда по теореме синусов для треугольников ABC и BKEОтвет: б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521007\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=150258\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  <img src=\"https://ege.sdamgia.ru/formula/svg/52/526d8875705839c410a5fcc68081d6f1.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle BAE = \\angle BCD\"> как про­ти­во­по­лож­ные углы в па­рал­ле­ло­грам­ме. Так как они также яв­ля­ют­ся впи­сан­ны­ми уг­ла­ми, то и дуги <i>BE</i>  и <i>BK</i> равны. Сле­до­ва­тель­но,  хорды <i>BK</i> и <i>BE</i> равны, так как они стя­ги­ва­ют рав­ные дуги.</p><p class=\"left_margin\">б)  <img src=\"https://ege.sdamgia.ru/formula/svg/08/08ffb83091158f686ae69d5344d48684.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle BAD=180 гра­ду­сов минус \\angle ABC=45 гра­ду­сов\"> как од­но­сто­рон­ние углы при па­рал­лель­ных пря­мых. Сле­до­ва­тель­но, дуги <i>BK</i> и <i>BE</i> равны <img src=\"https://ege.sdamgia.ru/formula/svg/b9/b9708e6099cf0931369aba2e1ae0fc79.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2 умно­жить на 45 гра­ду­сов=90 гра­ду­сов.\"> Тогда дуга <i>KE</i> равна <img src=\"https://ege.sdamgia.ru/formula/svg/dd/ddd23db5b3a4f229d11a6a7172286665.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"360 гра­ду­сов минус 2 умно­жить на 90 гра­ду­сов=180 гра­ду­сов.\"> По­это­му впи­сан­ный <img src=\"https://ege.sdamgia.ru/formula/svg/ba/badb95e5d32b7a8f7cc04912ed551265.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle KBE =90 гра­ду­сов.\"> Тогда по тео­ре­ме си­ну­сов для тре­уголь­ни­ков <i>ABC</i> и <i>BKE</i></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/6e/6e2d04038f67440463e642517aaa45ff.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: AC, зна­ме­на­тель: синус \\angle ABC конец дроби =2R= дробь: чис­ли­тель: KE, зна­ме­на­тель: синус 90 гра­ду­сов конец дроби рав­но­силь­но AC= дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби умно­жить на KE рав­но­силь­но дробь: чис­ли­тель: KE, зна­ме­на­тель: AC конец дроби = ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та . \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) <img src=\"https://ege.sdamgia.ru/formula/svg/59/59e6ed269715680d8e7a3d3fe05b94d5.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/52/526d8875705839c410a5fcc68081d6f1.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/08ffb83091158f686ae69d5344d48684.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b9708e6099cf0931369aba2e1ae0fc79.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/ddd23db5b3a4f229d11a6a7172286665.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/badb95e5d32b7a8f7cc04912ed551265.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6e2d04038f67440463e642517aaa45ff.svg",
+            "https://ege.sdamgia.ru/formula/svg/59/59e6ed269715680d8e7a3d3fe05b94d5.svg",
+            "/get_file?id=150258"
+        ]
+    },
+    "answer": "б)",
+    "topic_id": 17,
+    "analog_ids": []
+}

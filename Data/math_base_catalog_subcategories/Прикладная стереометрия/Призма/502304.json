@@ -1,0 +1,23 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 502304,
+    "condition": {
+        "text": "В равнобедренном треугольнике ABC основание AC равно 50, высота CH равна 30,1. Пользуясь таблицей тригонометрических функций, найдите угол ACB (при необходимости результат округлите до целого числа градусов).",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body640220\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right; margin:10px\" src=\"/get_file?id=11021\">В рав­но­бед­рен­ном тре­уголь­ни­ке <i>ABC</i> ос­но­ва­ние <i>AC</i> равно 50, вы­со­та <i>CH</i> равна 30,1. Поль­зу­ясь таб­ли­цей три­го­но­мет­ри­че­ских функ­ций, най­ди­те угол <i>ACB</i> (при не­об­хо­ди­мо­сти ре­зуль­тат округ­ли­те до це­ло­го числа гра­ду­сов).</p><p><img src=\"/get_file?id=11022\" style=\"margin:10px auto;display:block\"></p></div>",
+        "image_urls": [
+            "/get_file?id=11021",
+            "/get_file?id=11022"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Поскольку треугольник ABC равнобедренный, углы ACB и BAC равны. Треугольник AHC прямоугольный, тогда Из таблицы находим, что данному значению синуса соответствует угол равный 37°.   Ответ: 37.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol502304\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По­сколь­ку тре­уголь­ник <i>ABC</i> рав­но­бед­рен­ный, углы <i>ACB</i> и <i>BAC</i> равны. Тре­уголь­ник <i>AHC</i> пря­мо­уголь­ный, тогда </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/13/130105b05de37a77689d93e9fb6a695a.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" синус \\angle BAC = дробь: чис­ли­тель: CH, зна­ме­на­тель: AC конец дроби = дробь: чис­ли­тель: 30,1, зна­ме­на­тель: 50 конец дроби =0,602. \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Из таб­ли­цы на­хо­дим, что дан­но­му зна­че­нию си­ну­са со­от­вет­ству­ет угол рав­ный 37°.</p><p>&nbsp;</p><p> </p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 37.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/13/130105b05de37a77689d93e9fb6a695a.svg"
+        ]
+    },
+    "answer": "37",
+    "topic_id": null,
+    "analog_ids": []
+}

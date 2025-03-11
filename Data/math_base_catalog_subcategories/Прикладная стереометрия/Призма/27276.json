@@ -1,0 +1,54 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27276,
+    "condition": {
+        "text": "В треугольнике ABC угол C равен 90°, CH − высота,   Найдите ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918640\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right; margin:10px\" src=\"/get_file?id=1082\">В тре­уголь­ни­ке <i>ABC</i> угол <i>C</i> равен 90°, <i>CH</i> − вы­со­та, <img src=\"https://ege.sdamgia.ru/formula/svg/3a/3a978eadf770de0e96cda96d42c5b954.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AC = 5,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/af/afc9c3d8d99ad905bdf08d1140282e0a.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" синус A = дробь: чис­ли­тель: 7, зна­ме­на­тель: 25 конец дроби . \"> Най­ди­те <img src=\"https://ege.sdamgia.ru/formula/svg/28/28377a9ff96a61078915d0232bc96c3f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AH.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/3a/3a978eadf770de0e96cda96d42c5b954.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/afc9c3d8d99ad905bdf08d1140282e0a.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/28377a9ff96a61078915d0232bc96c3f.svg",
+            "/get_file?id=1082"
+        ]
+    },
+    "solution": {
+        "text": "Решение. ##   Ответ: 4,8. ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27276\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">##</p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/09/099759b69688a17dadceb4707c12d4f7.svg\" class=\"tex\" style=\"vertical-align:-12.2pt\" alt=\"AH=AC ко­си­нус A=AC ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус синус в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та A пра­вая круг­лая скоб­ка =5 ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус левая круг­лая скоб­ка дробь: чис­ли­тель: 7, зна­ме­на­тель: 25 конец дроби пра­вая круг­лая скоб­ка в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та пра­вая круг­лая скоб­ка =5 умно­жить на дробь: чис­ли­тель: 24, зна­ме­на­тель: 25 конец дроби =4,8. \"> </p><p class=\"left_margin\"></p></center>  <p><span style=\"letter-spaceing:2px\">Ответ</span>: 4,8. </p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/09/099759b69688a17dadceb4707c12d4f7.svg"
+        ]
+    },
+    "answer": "4,8",
+    "topic_id": null,
+    "analog_ids": [
+        27276,
+        31225,
+        31227,
+        31229,
+        31225,
+        31227,
+        31229,
+        31231,
+        31233,
+        31235,
+        31237,
+        31239,
+        31241,
+        31243,
+        31245,
+        31247,
+        31249,
+        31251,
+        31253,
+        31255,
+        31257,
+        31259,
+        31261,
+        31263,
+        31265,
+        31267,
+        31269,
+        31271
+    ]
+}

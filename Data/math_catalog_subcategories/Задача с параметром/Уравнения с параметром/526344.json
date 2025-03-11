@@ -1,0 +1,44 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 526344,
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых уравнение имеет ровно два различных корня.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body419572\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния па­ра­мет­ра <i>a</i>, при каж­дом из ко­то­рых урав­не­ние </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ba/ba8ec46c03b461935b41faea04b57037.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: 2a минус x в квад­ра­те минус 3x, зна­ме­на­тель: x плюс a в квад­ра­те конец дроби =0 \"></p><p class=\"left_margin\"></p></center><p>имеет ровно два раз­лич­ных корня.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ba/ba8ec46c03b461935b41faea04b57037.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Заметим, что Изобразим решение в системе координат xOa. Графиком системы, а значит, и графиком исходного уравнения является парабола с выколотыми точками.Ординаты точек пересечения парабол  и  найдём из уравнения   Получаем  или    или  Вершина параболы  в точке  Ровно два решения исходное уравнение имеет при     Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol526344\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">За­ме­тим, что </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/02/02df55cbaac027a430451accb8709295.svg\" class=\"tex\" style=\"vertical-align:-17.8pt\" alt=\" дробь: чис­ли­тель: 2a минус x в квад­ра­те минус 3x, зна­ме­на­тель: x плюс a в квад­ра­те конец дроби =0 рав­но­силь­но си­сте­ма вы­ра­же­ний 2a минус x в квад­ра­те минус 3x=0,x плюс a в квад­ра­те не равно 0 конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний a= дробь: чис­ли­тель: x в квад­ра­те плюс 3x, зна­ме­на­тель: 2 конец дроби ,x не равно минус a в квад­ра­те конец си­сте­мы . \"></p><p class=\"left_margin\"></p></center><p><img src=\"/get_file?id=151528\" style=\"float:right;margin:10px;max-width:100%\">Изоб­ра­зим ре­ше­ние в си­сте­ме ко­ор­ди­нат <i>xOa</i>. Гра­фи­ком си­сте­мы, а зна­чит, и гра­фи­ком ис­ход­но­го урав­не­ния яв­ля­ет­ся па­ра­бо­ла с вы­ко­ло­ты­ми точ­ка­ми.</p><p class=\"left_margin\">Ор­ди­на­ты точек пе­ре­се­че­ния па­ра­бол <img src=\"https://ege.sdamgia.ru/formula/svg/5e/5e8263b890500c065bb4fa78348d582c.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"a= дробь: чис­ли­тель: x в квад­ра­те плюс 3x, зна­ме­на­тель: 2 конец дроби \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/20/2038e00a02cbd98eee27187817e8d019.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x= минус a в квад­ра­те \"> найдём из урав­не­ния <img src=\"https://ege.sdamgia.ru/formula/svg/d5/d51de9ab0565afd0f624b25f97ebbedd.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"a= дробь: чис­ли­тель: a в сте­пе­ни 4 минус 3a в квад­ра­те , зна­ме­на­тель: 2 конец дроби . \"> </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/39/392ac6d7b7792fc15c28941422d020dd.svg\" class=\"tex\" style=\"vertical-align:-2.3pt\" alt=\"a в сте­пе­ни 4 минус 3a в квад­ра­те минус 2a=0;\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/f3/f3d23afbc015e3ae6d760ef302778f40.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"a левая круг­лая скоб­ка a в кубе минус 3a минус 2 пра­вая круг­лая скоб­ка =0;\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/a5/a585f6a2aa579d4afc94f41720ffc9b6.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"a левая круг­лая скоб­ка a плюс 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка a в квад­ра­те минус a минус 2 пра­вая круг­лая скоб­ка =0;\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/d6/d63db369d209a01d22af6580d6087d1e.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"a левая круг­лая скоб­ка a плюс 1 пра­вая круг­лая скоб­ка в квад­ра­те левая круг­лая скоб­ка a минус 2 пра­вая круг­лая скоб­ка =0.\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p class=\"left_margin\">По­лу­ча­ем <img src=\"https://ege.sdamgia.ru/formula/svg/f8/f836be878c290d77b060bdcaf6b3e25d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a= минус 1\"> или  <img src=\"https://ege.sdamgia.ru/formula/svg/de/ded681eaa02d11064c9a469dd1b3e04c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=0\">  или  <img src=\"https://ege.sdamgia.ru/formula/svg/62/622a095dc9edee90d21fc439afb1ab02.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=2.\"></p><p class=\"left_margin\">Вер­ши­на па­ра­бо­лы <img src=\"https://ege.sdamgia.ru/formula/svg/5e/5e8263b890500c065bb4fa78348d582c.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"a= дробь: чис­ли­тель: x в квад­ра­те плюс 3x, зна­ме­на­тель: 2 конец дроби \"> в точке <img src=\"https://ege.sdamgia.ru/formula/svg/0a/0a77a3c953b88e2baa3614035b454ec0.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая круг­лая скоб­ка минус дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби ; минус дробь: чис­ли­тель: 9, зна­ме­на­тель: 8 конец дроби пра­вая круг­лая скоб­ка \"> </p><p class=\"left_margin\">Ровно два ре­ше­ния ис­ход­ное урав­не­ние имеет при <img src=\"https://ege.sdamgia.ru/formula/svg/01/019b2b933e82b49804b7f256423c2a3d.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" минус дробь: чис­ли­тель: 9, зна­ме­на­тель: 8 конец дроби мень­ше a мень­ше минус 1,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/16/1629e7297eafbd883413b9f0dbd22292.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" минус 1 мень­ше a мень­ше 0,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/89/89ced37ce44d8e27b6cba6f478dcc260.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"0 мень­ше a мень­ше 2,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/f1/f1c7a00cc928c4863611dbc8a0e6e7d7.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a боль­ше 2.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/80/80654ffbbb818a705f8b5adedcfc9d83.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"a при­над­ле­жит левая круг­лая скоб­ка минус дробь: чис­ли­тель: 9, зна­ме­на­тель: 8 конец дроби ; минус 1 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка минус 1;0 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 0;2 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 2; плюс бес­ко­неч­ность пра­вая круг­лая скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/02/02df55cbaac027a430451accb8709295.svg",
+            "https://ege.sdamgia.ru/formula/svg/5e/5e8263b890500c065bb4fa78348d582c.svg",
+            "https://ege.sdamgia.ru/formula/svg/20/2038e00a02cbd98eee27187817e8d019.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d51de9ab0565afd0f624b25f97ebbedd.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/392ac6d7b7792fc15c28941422d020dd.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f3d23afbc015e3ae6d760ef302778f40.svg",
+            "https://ege.sdamgia.ru/formula/svg/a5/a585f6a2aa579d4afc94f41720ffc9b6.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d63db369d209a01d22af6580d6087d1e.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f836be878c290d77b060bdcaf6b3e25d.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/ded681eaa02d11064c9a469dd1b3e04c.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/622a095dc9edee90d21fc439afb1ab02.svg",
+            "https://ege.sdamgia.ru/formula/svg/5e/5e8263b890500c065bb4fa78348d582c.svg",
+            "https://ege.sdamgia.ru/formula/svg/0a/0a77a3c953b88e2baa3614035b454ec0.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/019b2b933e82b49804b7f256423c2a3d.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/1629e7297eafbd883413b9f0dbd22292.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/89ced37ce44d8e27b6cba6f478dcc260.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f1c7a00cc928c4863611dbc8a0e6e7d7.svg",
+            "https://ege.sdamgia.ru/formula/svg/80/80654ffbbb818a705f8b5adedcfc9d83.svg",
+            "/get_file?id=151528"
+        ]
+    },
+    "answer": "",
+    "topic_id": 18,
+    "analog_ids": [
+        526344,
+        526540,
+        526679
+    ]
+}

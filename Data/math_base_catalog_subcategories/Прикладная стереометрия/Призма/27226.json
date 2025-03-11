@@ -1,0 +1,39 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27226,
+    "condition": {
+        "text": "В треугольнике ABC угол C равен 90°,  Найдите ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918694\" class=\"pbody\"><p class=\"left_margin\">В тре­уголь­ни­ке <i>ABC</i> угол <i>C</i> равен 90°, <img src=\"https://ege.sdamgia.ru/formula/svg/a9/a9d273603ce2fb3057af63a14ded8c07.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" ко­си­нус A = дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 17 конец ар­гу­мен­та , зна­ме­на­тель: 17 конец дроби . \"> Най­ди­те <img src=\"https://ege.sdamgia.ru/formula/svg/b9/b9c45176e4c209fc5e39c8c2d67de00f.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\" тан­генс B.\"><img style=\"float:right\" src=\"/get_file?id=124\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a9/a9d273603ce2fb3057af63a14ded8c07.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b9c45176e4c209fc5e39c8c2d67de00f.svg",
+            "/get_file?id=124"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Тригонометрические функции дополнительных углов являются сходственными. Поэтому Ответ: 0,25.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27226\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Три­го­но­мет­ри­че­ские функ­ции до­пол­ни­тель­ных углов яв­ля­ют­ся сход­ствен­ны­ми. По­это­му</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/1e/1e1d82d1f3c05183d0661e3c44e08dfc.svg\" class=\"tex\" style=\"vertical-align:-19.7pt\" alt=\" тан­генс B = \\ctg A = ко­си­нус A \\over синус A = ко­си­нус A \\over ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус ко­си­нус в квад­ра­те A конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 17 конец ар­гу­мен­та \\over 17 \\over ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус 1 \\over 17 конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 17 конец ар­гу­мен­та \\over 17 умно­жить на ко­рень из: на­ча­ло ар­гу­мен­та: 17 конец ар­гу­мен­та \\over 4 = 0,25.\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 0,25.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/1e/1e1d82d1f3c05183d0661e3c44e08dfc.svg"
+        ]
+    },
+    "answer": "0,25",
+    "topic_id": null,
+    "analog_ids": [
+        27226,
+        29121,
+        29139,
+        29123,
+        29121,
+        29139,
+        29123,
+        29125,
+        29127,
+        29129,
+        29131,
+        29133,
+        29135,
+        29137
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 514718,
+    "condition": {
+        "text": "Сторона CD прямоугольника ABCD касается некоторой окружности в точке M. Продолжение стороны AD пересекает окружность в точках P и Q, причём точка P лежит между точками D и Q. Прямая BC касается окружности, а точка Q лежит на прямой BM.а)  Докажите, что ∠DMP = ∠CBM.б)  Известно, что CM = 17 и CD = 25. Найдите сторону AD.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body636002\" class=\"pbody\"><p class=\"left_margin\">Сто­ро­на <i>CD</i> пря­мо­уголь­ни­ка <i>ABCD</i> ка­са­ет­ся не­ко­то­рой окруж­но­сти в точке <i>M</i>. Про­дол­же­ние сто­ро­ны <i>AD</i> пе­ре­се­ка­ет окруж­ность в точ­ках <i>P</i> и <i>Q</i>, причём точка <i>P</i> лежит между точ­ка­ми <i>D</i> и <i>Q</i>. Пря­мая <i>BC</i> ка­са­ет­ся окруж­но­сти, а точка <i>Q</i> лежит на пря­мой <i>BM</i>.</p><p class=\"left_margin\">а)  До­ка­жи­те, что ∠<i>DMP</i> = ∠<i>CBM</i>.</p><p class=\"left_margin\">б)  Из­вест­но, что <i>CM</i> = 17 и <i>CD</i> = 25. Най­ди­те сто­ро­ну <i>AD</i>.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Заметим, что  поскольку прямые BC и AQ параллельны. Углы  и  равны, поскольку оба равны половине дуги MP (первый  — угол между касательной и хордой, второй  — вписанный угол), откуда и следует утверждение задачи.б)  Обозначим центр окружности за O, а основание перпендикуляра из точки O на прямую AD за K, на прямую BC  — за L. Тогда CMOL  — квадрат и, значит, радиус окружности равен 17. Тогда в треугольнике OPK имеем Значит,  Тогда  Тогда  и  откуда Ответ: 68.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol514718\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=150078\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  За­ме­тим, что <img src=\"https://ege.sdamgia.ru/formula/svg/02/024c1cad4f4ed8f5021f5963e8e087aa.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle CBM=\\angle MQD,\"> по­сколь­ку пря­мые <i>BC</i> и <i>AQ</i> па­рал­лель­ны. Углы <img src=\"https://ege.sdamgia.ru/formula/svg/5e/5ebb9b858bf4ee88d972ad3221b8a2f2.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle DMP\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/a2/a2291e26c56c2aa6fcf1b014b2d7fcbf.svg\" class=\"tex\" style=\"vertical-align:-2.9pt\" alt=\"\\angle MQD\"> равны, по­сколь­ку оба равны по­ло­ви­не дуги <i>MP</i> (пер­вый  — угол между ка­са­тель­ной и хор­дой, вто­рой  — впи­сан­ный угол), от­ку­да и сле­ду­ет утвер­жде­ние за­да­чи.</p><p class=\"left_margin\">б)  Обо­зна­чим центр окруж­но­сти за <i>O</i>, а ос­но­ва­ние пер­пен­ди­ку­ля­ра из точки <i>O</i> на пря­мую <i>AD</i> за <i>K</i>, на пря­мую <i>BC</i>  — за <i>L</i>. Тогда <i>CMOL</i>  — квад­рат и, зна­чит, ра­ди­ус окруж­но­сти равен 17. Тогда в тре­уголь­ни­ке <i>OPK</i> имеем </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/91/910b50da233d6280abdd576bca12bf39.svg\" class=\"tex\" style=\"vertical-align:-6.8pt\" alt=\"PK= ко­рень из: на­ча­ло ар­гу­мен­та: OP в квад­ра­те минус OK в квад­ра­те конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: OP в квад­ра­те минус MD в квад­ра­те конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 17 в квад­ра­те минус левая круг­лая скоб­ка 25 минус 17 пра­вая круг­лая скоб­ка в квад­ра­те конец ар­гу­мен­та =15.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/06/06220abb9c833230489b8ae773f49064.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"PQ=2PK=30.\"> Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/70/702e9f731b1452ac7962a45428519331.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"DK=17,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/69/696800f7636e410fc6b9bded4d32978e.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"PD=DK минус PK=2. \"></p><p class=\"left_margin\">Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/ab/aba093aee44ec6fc9cfa5433109a85ac.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"DQ=32\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/89/89f71825f5462abc30c0b55aabc0a71c.svg\" class=\"tex\" style=\"vertical-align:-10.5pt\" alt=\" тан­генс \\angle DQM= дробь: чис­ли­тель: MD, зна­ме­на­тель: DQ конец дроби = дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби , \"> от­ку­да</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/1a/1a2eb91794eb234b823480f1831085da.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\"AD=BC=CM умно­жить на \\ctg \\angle CBM=17 умно­жить на \\ctg \\angle MQD=17 умно­жить на 4=68.\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 68.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/02/024c1cad4f4ed8f5021f5963e8e087aa.svg",
+            "https://ege.sdamgia.ru/formula/svg/5e/5ebb9b858bf4ee88d972ad3221b8a2f2.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a2291e26c56c2aa6fcf1b014b2d7fcbf.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/910b50da233d6280abdd576bca12bf39.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/06220abb9c833230489b8ae773f49064.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/702e9f731b1452ac7962a45428519331.svg",
+            "https://ege.sdamgia.ru/formula/svg/69/696800f7636e410fc6b9bded4d32978e.svg",
+            "https://ege.sdamgia.ru/formula/svg/ab/aba093aee44ec6fc9cfa5433109a85ac.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/89f71825f5462abc30c0b55aabc0a71c.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1a2eb91794eb234b823480f1831085da.svg",
+            "/get_file?id=150078"
+        ]
+    },
+    "answer": "68.",
+    "topic_id": 17,
+    "analog_ids": []
+}

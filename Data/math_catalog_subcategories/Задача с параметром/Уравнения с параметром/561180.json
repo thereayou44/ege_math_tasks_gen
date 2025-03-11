@@ -1,0 +1,40 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 561180,
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых уравнение имеет хотя бы одно решение.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body458464\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния па­ра­мет­ра <i>a</i>, при каж­дом из ко­то­рых урав­не­ние</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/50/5021ca09b5864b92b89b7a7f17594046.svg\" class=\"tex\" style=\"vertical-align:-10.0pt\" alt=\" дробь: чис­ли­тель: a умно­жить на 25 в сте­пе­ни левая круг­лая скоб­ка x в квад­ра­те минус 1 пра­вая круг­лая скоб­ка плюс 15 в сте­пе­ни левая круг­лая скоб­ка x в квад­ра­те пра­вая круг­лая скоб­ка , зна­ме­на­тель: 2 умно­жить на 9 в сте­пе­ни левая круг­лая скоб­ка x в квад­ра­те пра­вая круг­лая скоб­ка минус 15 в сте­пе­ни левая круг­лая скоб­ка x в квад­ра­те пра­вая круг­лая скоб­ка конец дроби =1 \"></p><p class=\"left_margin\"></p></center> <p>имеет хотя бы одно ре­ше­ние.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/50/5021ca09b5864b92b89b7a7f17594046.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Положив   где  и разделив числитель и знаменатель левой части уравнения на  получаем уравнение  При   имеем:Рассмотрим функцию  при  Её графиком является парабола, ветви которой направлены вверх. Абсцисса вершины этой параболы равна 0,5, значит, функция будет иметь корни на промежутке (0; 1] тогда и только тогда, когда выполняются два условия  и  (см. рис.). Окончательно получаем:откуда  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol561180\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=151744\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">По­ло­жив <img src=\"https://ege.sdamgia.ru/formula/svg/64/640b48c4d4713d9cca862e3646f19630.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a=25b,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/c2/c2e0e5aabb80de4d94fce881380d55b3.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая круг­лая скоб­ка дробь: чис­ли­тель: 3, зна­ме­на­тель: 5 конец дроби пра­вая круг­лая скоб­ка в сте­пе­ни левая круг­лая скоб­ка x в квад­ра­те пра­вая круг­лая скоб­ка =u, \"> где <img src=\"https://ege.sdamgia.ru/formula/svg/d5/d5a014b2f5c9f98558256238b7cf578f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"0 мень­ше u\\leqslant1,\"> и раз­де­лив чис­ли­тель и зна­ме­на­тель левой части урав­не­ния на <img src=\"https://ege.sdamgia.ru/formula/svg/a3/a3e01b0fdb3357989f4d224772d7971d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"5 в сте­пе­ни левая круг­лая скоб­ка 2x в квад­ра­те пра­вая круг­лая скоб­ка ,\"> по­лу­ча­ем урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/d8/d8d71758100d751ba89fe8fa15d42717.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: b плюс u, зна­ме­на­тель: 2u в квад­ра­те минус u конец дроби =1. \"> При <img src=\"https://ege.sdamgia.ru/formula/svg/0e/0ed13d46ce67e7181069f8a47198a1d9.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"u не равно 0,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/b5/b5fc251d17389e00500aef5606514bb7.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"u не равно 0,5\"> имеем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/20/201dd99b56bf2ffc6a4660f0b4452d85.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: b плюс u, зна­ме­на­тель: 2u в квад­ра­те минус u конец дроби =1 рав­но­силь­но b плюс u=2u в квад­ра­те минус u рав­но­силь­но 2u в квад­ра­те минус 2u минус b=0. \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Рас­смот­рим функ­цию <img src=\"https://ege.sdamgia.ru/formula/svg/af/af3e5368afb910d75cf293963bccdb5d.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка u пра­вая круг­лая скоб­ка =2u в квад­ра­те минус 2u минус b\"> при <img src=\"https://ege.sdamgia.ru/formula/svg/a2/a28e8f8875b705f45d5a210a014dcac4.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"u не равно 0,5.\"> Её гра­фи­ком яв­ля­ет­ся па­ра­бо­ла, ветви ко­то­рой на­прав­ле­ны вверх. Абс­цис­са вер­ши­ны этой па­ра­бо­лы равна 0,5, зна­чит, функ­ция будет иметь корни на про­ме­жут­ке <nobr>(0; 1]</nobr> тогда и толь­ко тогда, когда вы­пол­ня­ют­ся два усло­вия <img src=\"https://ege.sdamgia.ru/formula/svg/d9/d9c83a6ec47d35f8b5aabfba1804b2b4.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка 0,5 пра­вая круг­лая скоб­ка мень­ше 0\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/a8/a8d92468f4b6b5247f7ad255023884ed.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка 1 пра­вая круг­лая скоб­ка \\geqslant0\"> (см. рис.). Окон­ча­тель­но по­лу­ча­ем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/eb/eb4fd1b3255c02faae45ac366e8cc913.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний 0,5 минус 1 минус b мень­ше 0, минус b\\geqslant0 конец си­сте­мы . рав­но­силь­но минус 0,5 мень­ше b\\leqslant0,\"></p><p class=\"left_margin\"></p></center><p>от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/e3/e3d169caf82a57b5fa00bd0e35e795fb.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" минус 12,5 мень­ше a\\leqslant0.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/e3/e3d169caf82a57b5fa00bd0e35e795fb.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" минус 12,5 мень­ше a\\leqslant0.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/64/640b48c4d4713d9cca862e3646f19630.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c2e0e5aabb80de4d94fce881380d55b3.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d5a014b2f5c9f98558256238b7cf578f.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a3e01b0fdb3357989f4d224772d7971d.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d8d71758100d751ba89fe8fa15d42717.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0ed13d46ce67e7181069f8a47198a1d9.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b5fc251d17389e00500aef5606514bb7.svg",
+            "https://ege.sdamgia.ru/formula/svg/20/201dd99b56bf2ffc6a4660f0b4452d85.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af3e5368afb910d75cf293963bccdb5d.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a28e8f8875b705f45d5a210a014dcac4.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d9c83a6ec47d35f8b5aabfba1804b2b4.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a8d92468f4b6b5247f7ad255023884ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/eb/eb4fd1b3255c02faae45ac366e8cc913.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e3d169caf82a57b5fa00bd0e35e795fb.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e3d169caf82a57b5fa00bd0e35e795fb.svg",
+            "/get_file?id=151744"
+        ]
+    },
+    "answer": "",
+    "topic_id": 18,
+    "analog_ids": [
+        561180,
+        561232
+    ]
+}

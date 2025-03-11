@@ -1,0 +1,48 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 523997,
+    "condition": {
+        "text": "На сторонах AC и BC треугольника ABC вне его построены квадраты ACDE и CBFG. Точка M  — середина стороны AB.а)  Докажите, что точка M равноудалена от центров квадратов.б)  Найдите площадь треугольника DMG, если ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body626721\" class=\"pbody\"><p class=\"left_margin\">На сто­ро­нах <i>AC</i> и <i>BC</i> тре­уголь­ни­ка <i>ABC</i> вне его по­стро­е­ны квад­ра­ты <i>ACDE</i> и <i>CBFG</i>. Точка <i>M</i>  — се­ре­ди­на сто­ро­ны <i>AB</i>.</p><p class=\"left_margin\">а)  До­ка­жи­те, что точка <i>M</i> рав­но­уда­ле­на от цен­тров квад­ра­тов.</p><p class=\"left_margin\">б)  Най­ди­те пло­щадь тре­уголь­ни­ка <i>DMG</i>, если <img src=\"https://ege.sdamgia.ru/formula/svg/b2/b2fea19fe369b9175ba02921ef9c61e3.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AC = 6,BC = 8,AB =10.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b2/b2fea19fe369b9175ba02921ef9c61e3.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Пусть  и   — центры квадратов АСDE и CBFG. Тогда  и   — средние линии треугольников АBD и АBG, поэтому достаточно доказать, что  Если  то  Если же  то образуются треугольники BCD и GCA, которые равны по двум сторонам ( ) и углу между ними:Значит,  Следовательно,  б)  Треугольник АBC прямоугольный с прямым углом при вершине C, поскольку: Треугольник DMG состоит из трёх треугольников: DCG, DCM и GCM. Прямоугольные треугольники DCG и АСB равны по двум катетам, поэтому  Далее,  Где   — точка пересечения прямых  и BD. Аналогично  Поэтому  Ответ: б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol523997\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=147432\" style=\"float:right;margin:10px;max-width:100%\">а)  Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/31/31b6eb924de49df799c3016cfea5a36b.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"O_1\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/49/49e4fe93c55ea5f2b7bf970512cbc408.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"O_2\">  — цен­тры квад­ра­тов <i>АСDE</i> и <i>CBFG</i>. Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/41/414a0abe89fba831428592cdd0a3ca62.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"MO_1\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/ea/ea30cd06f247cb39a14ae96a5d56aa6e.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"MO_2\">  — сред­ние линии тре­уголь­ни­ков <i>АBD</i> и <i>АBG</i>, по­это­му до­ста­точ­но до­ка­зать, что <img src=\"https://ege.sdamgia.ru/formula/svg/0c/0c6b6b4b70f479497438c8e3d233886b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BD = AG.\"> Если <img src=\"https://ege.sdamgia.ru/formula/svg/23/23ed6a702926bb632521fe9e79fc886f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle ACB = 90 гра­ду­сов,\"> то <img src=\"https://ege.sdamgia.ru/formula/svg/2d/2d00e01664e7a7c01ad68d8b26cd83f0.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AG = AC плюс CG = BC плюс CD = BD.\"> Если же <img src=\"https://ege.sdamgia.ru/formula/svg/cc/cc0a3f50bf9f528d1b015c2b35cee4f0.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle ACB не равно 90 гра­ду­сов,\"> то об­ра­зу­ют­ся тре­уголь­ни­ки <i>BCD</i> и <i>GCA</i>, ко­то­рые равны по двум сто­ро­нам (<img src=\"https://ege.sdamgia.ru/formula/svg/d7/d70480c0d5dc4a3a5ae4f8558a256faa.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"BC = CG,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/42/42005ad313490f5d31017790dde8d69e.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AC = CD\">) и углу между ними:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ad/adbb30f74a4b1be4e909068eebd790a4.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle BCD = \\angle ACB плюс \\angle ACD = \\angle ACB плюс 90 гра­ду­сов=\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/74/74e74d1343052883110dd85be593c124.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"=\\angle BCA плюс \\angle BCG=\\angle ACG.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/0c/0c6b6b4b70f479497438c8e3d233886b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BD = AG.\"> Сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/83/83acc65d43edf2f9734896ef73df10ba.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"MO_1= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби BD= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби AG=MO_2. \"></p><p>&nbsp;</p><p class=\"left_margin\">б)  Тре­уголь­ник <i>АBC</i> пря­мо­уголь­ный с пря­мым углом при вер­ши­не <i>C</i>, по­сколь­ку:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/bb/bbcdb96a093d772c2b8b34dc2253d9dc.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AC в квад­ра­те плюс BC в квад­ра­те =36 плюс 64=100=AB в квад­ра­те .\"> </p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Тре­уголь­ник <i>DMG</i> со­сто­ит из трёх тре­уголь­ни­ков: <i>DCG</i>, <i>DCM</i> и <i>GCM</i>. Пря­мо­уголь­ные тре­уголь­ни­ки <i>DCG</i> и <i>АСB</i> равны по двум ка­те­там, по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/64/64bd0f1d82c066ff51c8983c6705ec4b.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S_DCG=S_ABC= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на 6 умно­жить на 8=24. \"> <img src=\"/get_file?id=147433\" style=\"float:right;margin:10px;max-width:100%\">Далее, <img src=\"https://ege.sdamgia.ru/formula/svg/31/31d7aa74afc109951051e1947271745b.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S_DCM= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби DC умно­жить на MM_2= дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби AC в квад­ра­те =9, \"> Где <img src=\"https://ege.sdamgia.ru/formula/svg/2c/2ce2507b1ae2246c8fd6f465f7bd2a28.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"M_2\">  — точка пе­ре­се­че­ния пря­мых <img src=\"https://ege.sdamgia.ru/formula/svg/ea/ea30cd06f247cb39a14ae96a5d56aa6e.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"MO_2\"> и <i>BD</i>. Ана­ло­гич­но <img src=\"https://ege.sdamgia.ru/formula/svg/25/25f7e4a20d24d6e25f57cb4fa70314b3.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S_GCM= дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби BC в квад­ра­те =16. \"> По­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/3e/3e9d5bb703a5607deae867176f41f3e5.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"S_DMG=24 плюс 9 плюс 16=49.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) <img src=\"https://ege.sdamgia.ru/formula/svg/c4/c4c5af239e836f3ce10f5f590d6a96c3.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"49.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/31/31b6eb924de49df799c3016cfea5a36b.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/49e4fe93c55ea5f2b7bf970512cbc408.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/414a0abe89fba831428592cdd0a3ca62.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/ea30cd06f247cb39a14ae96a5d56aa6e.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c6b6b4b70f479497438c8e3d233886b.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/23ed6a702926bb632521fe9e79fc886f.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d00e01664e7a7c01ad68d8b26cd83f0.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/cc0a3f50bf9f528d1b015c2b35cee4f0.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d70480c0d5dc4a3a5ae4f8558a256faa.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/42005ad313490f5d31017790dde8d69e.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/adbb30f74a4b1be4e909068eebd790a4.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/74e74d1343052883110dd85be593c124.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c6b6b4b70f479497438c8e3d233886b.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83acc65d43edf2f9734896ef73df10ba.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bbcdb96a093d772c2b8b34dc2253d9dc.svg",
+            "https://ege.sdamgia.ru/formula/svg/64/64bd0f1d82c066ff51c8983c6705ec4b.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/31d7aa74afc109951051e1947271745b.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2ce2507b1ae2246c8fd6f465f7bd2a28.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/ea30cd06f247cb39a14ae96a5d56aa6e.svg",
+            "https://ege.sdamgia.ru/formula/svg/25/25f7e4a20d24d6e25f57cb4fa70314b3.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e9d5bb703a5607deae867176f41f3e5.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c4c5af239e836f3ce10f5f590d6a96c3.svg",
+            "/get_file?id=147432",
+            "/get_file?id=147433"
+        ]
+    },
+    "answer": "б)",
+    "topic_id": 17,
+    "analog_ids": [
+        523997,
+        524024
+    ]
+}

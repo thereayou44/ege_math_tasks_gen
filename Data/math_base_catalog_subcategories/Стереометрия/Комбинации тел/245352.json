@@ -1,0 +1,55 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 245352,
+    "condition": {
+        "text": "Конус вписан в шар. Радиус основания конуса равен радиусу шара. Объем конуса равен 6. Найдите объем шара.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body905364\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=139975\" style=\"float:right;margin:10px;max-width:100%\">Конус впи­сан в шар. Ра­ди­ус ос­но­ва­ния ко­ну­са равен ра­ди­у­су шара. Объем ко­ну­са равен 6. Най­ди­те объем шара.</p></div>",
+        "image_urls": [
+            "/get_file?id=139975"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Из формул для объема конуса и шара получаем: Ответ: 24.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol245352\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Из фор­мул для объ­е­ма ко­ну­са и шара по­лу­ча­ем:</p><p></p><div class=\"flex-math\"><p><img src=\"https://ege.sdamgia.ru/formula/svg/59/59cf65a66d19d249eca699c013b25965.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"V_кон= дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби S_оснh= дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби Пи R в квад­ра­те R=6,\"> </p><p><img src=\"https://ege.sdamgia.ru/formula/svg/83/8307070fa4cdfd2ac5f2a74b062f16db.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"V_шара= дробь: чис­ли­тель: 4, зна­ме­на­тель: 3 конец дроби Пи R в кубе =24.\"></p></div><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 24.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/59/59cf65a66d19d249eca699c013b25965.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/8307070fa4cdfd2ac5f2a74b062f16db.svg"
+        ]
+    },
+    "answer": "24",
+    "topic_id": 3,
+    "analog_ids": [
+        245352,
+        269491,
+        514181,
+        661280,
+        269491,
+        514181,
+        661280,
+        269493,
+        269495,
+        269497,
+        269499,
+        269501,
+        269503,
+        269505,
+        269507,
+        269509,
+        269511,
+        269513,
+        269515,
+        269517,
+        269519,
+        269521,
+        269523,
+        269525,
+        269527,
+        269529,
+        269531,
+        269533,
+        269535,
+        269537,
+        269539
+    ]
+}

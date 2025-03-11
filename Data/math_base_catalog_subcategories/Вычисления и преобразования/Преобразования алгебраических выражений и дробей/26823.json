@@ -1,0 +1,57 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 26823,
+    "condition": {
+        "text": "Найдите  если ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919099\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те <img src=\"https://ege.sdamgia.ru/formula/svg/e3/e3b626beed55d56c35480a82599e906e.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"2p левая круг­лая скоб­ка x минус 7 пра­вая круг­лая скоб­ка минус p левая круг­лая скоб­ка 2x пра­вая круг­лая скоб­ка ,\"> если <img src=\"https://ege.sdamgia.ru/formula/svg/dd/ddec0770e168a341a905505adb006ce6.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"p левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =x минус 3.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e3/e3b626beed55d56c35480a82599e906e.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/ddec0770e168a341a905505adb006ce6.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Заменяя аргумент в равенстве  находим  и  ТогдаОтвет: −17.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol26823\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">За­ме­няя ар­гу­мент в ра­вен­стве <img src=\"https://ege.sdamgia.ru/formula/svg/a5/a5264746e21e4c7b2cbef8c5963014d9.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"p левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =x минус 3,\"> на­хо­дим <img src=\"https://ege.sdamgia.ru/formula/svg/99/9958de4cde3f16b9ecfed5ebdfbd1b11.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"p левая круг­лая скоб­ка 2x пра­вая круг­лая скоб­ка =2x минус 3\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/87/87e91e755ecebd96d329cfb9a9660e1c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"p левая круг­лая скоб­ка x минус 7 пра­вая круг­лая скоб­ка = левая круг­лая скоб­ка x минус 7 пра­вая круг­лая скоб­ка минус 3=x минус 10.\"> Тогда</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ea/ea5ac8282bdca190e0e658ff3e4ddb6c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"2p левая круг­лая скоб­ка x минус 7 пра­вая круг­лая скоб­ка минус p левая круг­лая скоб­ка 2x пра­вая круг­лая скоб­ка =2 левая круг­лая скоб­ка x минус 10 пра­вая круг­лая скоб­ка минус левая круг­лая скоб­ка 2x минус 3 пра­вая круг­лая скоб­ка = минус 17.\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing:2px \">Ответ</span>: −17.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a5/a5264746e21e4c7b2cbef8c5963014d9.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/9958de4cde3f16b9ecfed5ebdfbd1b11.svg",
+            "https://ege.sdamgia.ru/formula/svg/87/87e91e755ecebd96d329cfb9a9660e1c.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/ea5ac8282bdca190e0e658ff3e4ddb6c.svg"
+        ]
+    },
+    "answer": "-17",
+    "topic_id": 7,
+    "analog_ids": [
+        26823,
+        67187,
+        67189,
+        67231,
+        67187,
+        67189,
+        67231,
+        27001,
+        67183,
+        67185,
+        67191,
+        67193,
+        67195,
+        67197,
+        67199,
+        67201,
+        67203,
+        67205,
+        67207,
+        67209,
+        67211,
+        67213,
+        67215,
+        67217,
+        67219,
+        67221,
+        67223,
+        67225,
+        67227,
+        67229
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27722,
+    "condition": {
+        "text": "Стороны правильного треугольника ABC равны 3. Найдите скалярное произведение векторов  и ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918198\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=145723\" style=\"float:right;margin:10px;max-width:100%\">Сто­ро­ны пра­виль­но­го тре­уголь­ни­ка <i>ABC</i> равны 3. Най­ди­те ска­ляр­ное про­из­ве­де­ние век­то­ров <img src=\"https://ege.sdamgia.ru/formula/svg/2d/2d1cceb556de3394ddc474f38c98e049.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overrightarrowAB\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/4e/4ee9b12f2e70a313d60c2ab04519e9d5.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overrightarrowAC.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/2d/2d1cceb556de3394ddc474f38c98e049.svg",
+            "https://ege.sdamgia.ru/formula/svg/4e/4ee9b12f2e70a313d60c2ab04519e9d5.svg",
+            "/get_file?id=145723"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Скалярное произведение двух векторов равно произведению их длин на косинус угла между ними. Углы в правильном треугольнике равны  Поэтому скалярное произведение равно  Ответ: 4,5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27722\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Ска­ляр­ное про­из­ве­де­ние двух век­то­ров равно про­из­ве­де­нию их длин на ко­си­нус угла между ними. Углы в пра­виль­ном тре­уголь­ни­ке равны <img src=\"https://ege.sdamgia.ru/formula/svg/a1/a1b7d029a8e8489b09d3cf12fe0d01d8.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"60 гра­ду­сов.\"> По­это­му ска­ляр­ное про­из­ве­де­ние равно <img src=\"https://ege.sdamgia.ru/formula/svg/e7/e7611ce4a2aaf74fc015e6069a656f85.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"3 умно­жить на 3 умно­жить на ко­си­нус 60 гра­ду­сов=4,5.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ</span>: 4,5.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a1/a1b7d029a8e8489b09d3cf12fe0d01d8.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e7611ce4a2aaf74fc015e6069a656f85.svg"
+        ]
+    },
+    "answer": "4,5",
+    "topic_id": 2,
+    "analog_ids": [
+        27722,
+        60905,
+        60907,
+        60909,
+        60905,
+        60907,
+        60909,
+        60911,
+        60913,
+        60915,
+        60917,
+        60919,
+        60921,
+        60923,
+        60925,
+        60927,
+        60929,
+        60931,
+        60933,
+        60935,
+        60937,
+        60939,
+        60941,
+        60943,
+        60945,
+        60947,
+        60949,
+        60951,
+        60953
+    ]
+}

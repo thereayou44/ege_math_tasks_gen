@@ -1,0 +1,26 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 515138,
+    "condition": {
+        "text": "В начале января 2017 года планируется взять кредит в банке на S млн рублей, где S  — целое число, на 4 года. Условия его возврата указаны ниже.  — Каждый июль долг возрастает на 10% по сравнению с началом текущего года.    — С августа по декабрь каждого года необходимо выплатить часть долга.  — В  январе  каждого  года  долг  должен  составлять  часть  кредита  в  соответствии  со следующей таблицей:  Начало года20172018201920202021Долг (в млн. рублей)S0,7S0,4S0,2S0Найдите наибольшее значение S, при котором разность между наибольшей им наименьшей выплатами не будет превышать 2 млн рублей.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body635582\" class=\"pbody\"><p class=\"left_margin\">В&nbsp;на­ча­ле&nbsp;ян­ва­ря&nbsp;2017&nbsp;года&nbsp;пла­ни­ру­ет­ся&nbsp;взять&nbsp;кре­дит&nbsp;в&nbsp;банке&nbsp;на&nbsp;<i>S</i>&nbsp;млн&nbsp;руб­лей,&nbsp;где&nbsp;<i>S</i>  — целое число,&nbsp;на&nbsp;4&nbsp;года.&nbsp;Усло­вия&nbsp;его&nbsp;воз­вра­та&nbsp;ука­за­ны ниже.</p><p class=\"left_margin\">  — Каж­дый&nbsp;июль&nbsp;долг&nbsp;воз­рас­та­ет&nbsp;на&nbsp;10%&nbsp;по&nbsp;срав­не­нию&nbsp;с&nbsp;на­ча­лом&nbsp;те­ку­ще­го&nbsp;года.&nbsp;&nbsp;</p><p class=\"left_margin\">  — С&nbsp;ав­гу­ста&nbsp;по&nbsp;де­кабрь&nbsp;каж­до­го&nbsp;года&nbsp;не­об­хо­ди­мо&nbsp;вы­пла­тить&nbsp;часть&nbsp;долга.</p><p class=\"left_margin\">  — В&nbsp; ян­ва­ре&nbsp; каж­до­го&nbsp; года&nbsp; долг&nbsp; дол­жен&nbsp; со­став­лять&nbsp; часть&nbsp; кре­ди­та&nbsp; в&nbsp; со­от­вет­ствии&nbsp; со&nbsp;сле­ду­ю­щей&nbsp;таб­ли­цей:&nbsp;</p><p>&nbsp;</p><p></p><table style=\"margin:auto\"><tbody><tr><td style=\"text-align:center\">На­ча­ло года</td><td style=\"text-align:center\">2017</td><td style=\"text-align:center\">2018</td><td style=\"text-align:center\">2019</td><td style=\"text-align:center\">2020</td><td style=\"text-align:center\">2021</td></tr><tr><td style=\"text-align:center\">Долг (в млн. руб­лей)</td><td style=\"text-align:center\"><i>S</i></td><td style=\"text-align:center\">0,7<i>S</i></td><td style=\"text-align:center\">0,4<i>S</i></td><td style=\"text-align:center\">0,2<i>S</i></td><td style=\"text-align:center\">0</td></tr></tbody></table><p class=\"left_margin\">Най­ди­те наи­боль­шее зна­че­ние <i>S</i>, при ко­то­ром раз­ность между наи­боль­шей им наи­мень­шей вы­пла­та­ми не будет пре­вы­шать 2 млн руб­лей.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Выплаты составят     Поэтому искомая разность равна  Поскольку   — целое, наибольший ответ  Ответ: 11.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol515138\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Вы­пла­ты со­ста­вят <img src=\"https://ege.sdamgia.ru/formula/svg/16/166a95bfcfc15d58b3aab9e5c63bfbfb.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" 1,1S минус 0,7S=0,4S,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/ac/ac7eaa796f7f89cadf5b0483d48bc3c9.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" 0,77S минус 0,4S=0,37S,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/b0/b0d3f62545673c9330415578590a0829.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" 0,44S минус 0,2S=0,24S,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/00/00cae0590c9ec80a4c984aef21d0dd25.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" 0,22S.\"> По­это­му ис­ко­мая раз­ность равна <img src=\"https://ege.sdamgia.ru/formula/svg/37/37c1d5f65a543023598ad827d4e5555e.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" 0,4S минус 0,22S=0,18S мень­ше или равно 2 рав­но­силь­но S мень­ше или равно дробь: чис­ли­тель: 200, зна­ме­на­тель: 18 конец дроби \\approx 11,\\ldots. \"> По­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/e3/e3b803fa99a440fefee4d18e57cc6642.svg\" class=\"tex\" style=\"vertical-align:-0.8pt\" alt=\" S\">  — целое, наи­боль­ший ответ <img src=\"https://ege.sdamgia.ru/formula/svg/f4/f451e697da04748bd05b0af93425b2db.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" 11.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 11.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/16/166a95bfcfc15d58b3aab9e5c63bfbfb.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/ac7eaa796f7f89cadf5b0483d48bc3c9.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b0d3f62545673c9330415578590a0829.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/00cae0590c9ec80a4c984aef21d0dd25.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/37c1d5f65a543023598ad827d4e5555e.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e3b803fa99a440fefee4d18e57cc6642.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f451e697da04748bd05b0af93425b2db.svg"
+        ]
+    },
+    "answer": "11.",
+    "topic_id": null,
+    "analog_ids": []
+}

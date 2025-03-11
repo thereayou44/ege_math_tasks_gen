@@ -1,0 +1,68 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 26776,
+    "condition": {
+        "text": "Найдите  если  и ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919140\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те <img src=\"https://ege.sdamgia.ru/formula/svg/a8/a86cef9f699f8c2bc21727572571f792.svg\" class=\"tex\" style=\"vertical-align:-3.3pt\" alt=\" тан­генс альфа ,\"> если <img src=\"https://ege.sdamgia.ru/formula/svg/23/23af8025142f2684f89d7a6bc3ce8938.svg\" class=\"tex\" style=\"vertical-align:-10.9pt\" alt=\" синус альфа = минус дробь: чис­ли­тель: 5, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 26 конец ар­гу­мен­та конец дроби \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/a8/a89e3efc2e97e87dbfbcc9f9b7b2248f.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" альфа при­над­ле­жит левая круг­лая скоб­ка Пи ; дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби пра­вая круг­лая скоб­ка \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a8/a86cef9f699f8c2bc21727572571f792.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/23af8025142f2684f89d7a6bc3ce8938.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a89e3efc2e97e87dbfbcc9f9b7b2248f.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Поскольку угол альфа лежит в третьей четверти,  его тангенс положителен. Поэтому Тогда   Ответ: 5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol26776\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По­сколь­ку угол альфа лежит в тре­тьей чет­вер­ти,  его тан­генс по­ло­жи­те­лен. По­это­му</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ef/efccbbb35a2b4b54797a9db157346e5a.svg\" class=\"tex\" style=\"vertical-align:-9.8pt\" alt=\"\\ctg альфа = ко­рень из: на­ча­ло ар­гу­мен­та: дробь: чис­ли­тель: 1, зна­ме­на­тель: синус конец ар­гу­мен­та в квад­ра­те альфа конец дроби минус 1= ко­рень из: на­ча­ло ар­гу­мен­та: дробь: чис­ли­тель: 26, зна­ме­на­тель: 25 конец дроби минус 1 конец ар­гу­мен­та = дробь: чис­ли­тель: 1, зна­ме­на­тель: 5 конец дроби . \"></p><p class=\"left_margin\"></p></center><p> Тогда </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/9b/9b5f48399c22c4d33034c0e97cc43793.svg\" class=\"tex\" style=\"vertical-align:-10.8pt\" alt=\" тан­генс альфа = дробь: чис­ли­тель: 1, зна­ме­на­тель: \\ctg альфа конец дроби =5. \"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 5.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ef/efccbbb35a2b4b54797a9db157346e5a.svg",
+            "https://ege.sdamgia.ru/formula/svg/9b/9b5f48399c22c4d33034c0e97cc43793.svg"
+        ]
+    },
+    "answer": "5",
+    "topic_id": 7,
+    "analog_ids": [
+        26776,
+        64275,
+        64279,
+        64341,
+        64275,
+        64279,
+        64341,
+        64345,
+        516251,
+        516270,
+        64277,
+        64281,
+        64283,
+        64285,
+        64287,
+        64289,
+        64291,
+        64293,
+        64295,
+        64297,
+        64299,
+        64301,
+        64303,
+        64305,
+        64307,
+        64309,
+        64311,
+        64313,
+        64315,
+        64317,
+        64319,
+        64321,
+        64323,
+        64325,
+        64327,
+        64329,
+        64331,
+        64333,
+        64335,
+        64337,
+        64339,
+        64343
+    ]
+}

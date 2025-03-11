@@ -1,0 +1,24 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 547304,
+    "condition": {
+        "text": "Точки  А  и  В  лежат  на  окружности  с  центром  О  и  радиусом  6,  а  точка  С равноудалена от точек А, В и О. Другая окружность с центром Q и радиусом 8 описана около треугольника АСО. а)  Докажите, что точка пересечения прямых АВ и СQ лежит на окружности, описанной около треугольника ОСВ. б)  Найдите длину отрезка QB.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body407316\" class=\"pbody\"><p class=\"left_margin\">Точки  <i>А</i>  и <i> В </i> лежат  на  окруж­но­сти  с  цен­тром <i> О </i> и  ра­ди­у­сом  6,  а  точка  <i>С</i> рав­но­уда­ле­на от точек<i> А, В</i> и <i>О</i>. Дру­гая окруж­ность с цен­тром <i>Q</i> и ра­ди­у­сом 8 опи­са­на около тре­уголь­ни­ка <i>АСО</i>. </p><p class=\"left_margin\">а)  До­ка­жи­те, что точка пе­ре­се­че­ния пря­мых <i>АВ</i> и <i>СQ</i> лежит на окруж­но­сти, опи­сан­ной около тре­уголь­ни­ка <i>ОСВ</i>. </p><p class=\"left_margin\">б)  Най­ди­те длину от­рез­ка <i>Q</i>B.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Пусть AB и CQ пересекаются в точке T. Треугольник AOB  — равнобедренный. Треугольник ATO также равнобедренный, так как CT  — серединный перпендикуляр к AO. Тогда  Поэтому точки B, O, T, C лежат на одной окружности. б)  Треугольник QCO  — равнобедренный, поэтому  откуда  По условию, QO  =  8 и OB  =  6. Значит,  тогда QB  =  10. Ответ: б) 10.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol547304\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=63029\" style=\"float:right;margin:10px;max-width:100% ;width:20%\"></p><p class=\"left_margin\">а)  Пусть <i>AB</i> и <i>CQ</i> пе­ре­се­ка­ют­ся в точке <i>T</i>. Тре­уголь­ник <i>AOB</i>  — рав­но­бед­рен­ный. Тре­уголь­ник <i>ATO</i> также рав­но­бед­рен­ный, так как <i>CT</i>  — се­ре­дин­ный пер­пен­ди­ку­ляр к <i>AO.</i> Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/60/608838812e4fae6743d7b03ae160b517.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle OBT = \\angle OBA = 90 гра­ду­сов минус \\angle BOC = 90 гра­ду­сов минус \\angle AOC=\\angle OCT.\"> По­это­му точки <i>B, O, T, C</i> лежат на одной окруж­но­сти. </p><p class=\"left_margin\">б)  Тре­уголь­ник <i>QCO</i>  — рав­но­бед­рен­ный, по­это­му</p><p class=\"left_margin\"></p><center><p> <img src=\"https://ege.sdamgia.ru/formula/svg/6f/6ff35b5d14a91e88271ae98ef3f88607.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle QOC = \\angle QCO = \\angle TBO = 90 гра­ду­сов минус \\angle BOC,\"> </p><p class=\"left_margin\"></p></center><p>от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/20/2064d180dc6cc077b4ae715eb04f2632.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle QOB=90 гра­ду­сов.\"> По усло­вию, <i>QO</i>  =  8 и <i>OB</i>  =  6. Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/d2/d2b51e46b3576d03f8631655d1f7248b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"QB в квад­ра­те = 8 в квад­ра­те плюс 6 в квад­ра­те = 100,\"> тогда <i>QB</i>  =  10.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) 10.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/60/608838812e4fae6743d7b03ae160b517.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6ff35b5d14a91e88271ae98ef3f88607.svg",
+            "https://ege.sdamgia.ru/formula/svg/20/2064d180dc6cc077b4ae715eb04f2632.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d2b51e46b3576d03f8631655d1f7248b.svg",
+            "/get_file?id=63029"
+        ]
+    },
+    "answer": "б) 10.",
+    "topic_id": null,
+    "analog_ids": []
+}

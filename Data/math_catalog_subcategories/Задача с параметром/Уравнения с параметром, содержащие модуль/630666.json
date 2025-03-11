@@ -1,0 +1,39 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 630666,
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых любое число из отрезка  является решением уравнения",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body520566\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния <i>a</i>, при каж­дом из ко­то­рых любое число из от­рез­ка <img src=\"https://ege.sdamgia.ru/formula/svg/4b/4b226c00dad62e309e3b2a57c31dfc5b.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"3 мень­ше или равно x мень­ше или равно 6\"> яв­ля­ет­ся ре­ше­ни­ем урав­не­ния</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/de/de72c078d5de7be69275301741c1e664.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"|x минус a плюс 5| плюс |x плюс a минус 1|=2a минус 6.\"></p><p class=\"left_margin\"></p></center></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/4b/4b226c00dad62e309e3b2a57c31dfc5b.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/de72c078d5de7be69275301741c1e664.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Если  то есть a < 3, то уравнение решений не имеет. При a  =  3 уравнение имеет вид  и ни одно число из отрезка [3; 6] не является его решением. При a > 3 запишем уравнение в виде При a > 3 верно неравенство  и поэтому решением уравнения является любое число из отрезка  поскольку длина этого отрезка равна  а уравнению удовлетворяют те и только те точки x, сумма расстояний от каждой из которых до точек  и  равна 2a – 6.Отрезок  содержит отрезок [3; 6] тогда и только тогда, когда  и  откуда следует, что  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol630666\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Если <img src=\"https://ege.sdamgia.ru/formula/svg/23/2357dbc2e674b398712dc71145c4f1fc.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2a минус 6 мень­ше 0,\"> то есть <i>a</i> &lt; 3, то урав­не­ние</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/83/83ba00b4ceb8e796a11b0ea411cf6d90.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"|x минус a плюс 5| плюс |x плюс a минус 1|=2a минус 6\"></p><p class=\"left_margin\"></p></center><p> ре­ше­ний не имеет. При <i>a</i>  =  3 урав­не­ние имеет вид <img src=\"https://ege.sdamgia.ru/formula/svg/57/57952c4cc7b9c6955ffa4ccf78503513.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"|x плюс 2| плюс |x плюс 2|=0\"> и ни одно число из от­рез­ка [3; 6] не яв­ля­ет­ся его ре­ше­ни­ем. При <i>a</i> &gt; 3 за­пи­шем урав­не­ние в виде</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/14/149d3bfbf853e396013024a7199acf3e.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"|x минус левая круг­лая скоб­ка a минус 5 пра­вая круг­лая скоб­ка | плюс |x минус левая круг­лая скоб­ка минус a плюс 1 пра­вая круг­лая скоб­ка |=2a минус 6.\"></p><p class=\"left_margin\"></p></center><p> При <i>a</i> &gt; 3 верно не­ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/73/734dd1ea9a4d9956ab4303198f4d4563.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" минус a плюс 1 мень­ше a минус 5,\"> и по­это­му ре­ше­ни­ем урав­не­ния яв­ля­ет­ся любое число из от­рез­ка <img src=\"https://ege.sdamgia.ru/formula/svg/ec/ecefaf35467470d81f0ec6c4663fc7f9.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка минус a плюс 1;a минус 5 пра­вая квад­рат­ная скоб­ка ,\"> по­сколь­ку длина этого от­рез­ка равна <img src=\"https://ege.sdamgia.ru/formula/svg/74/742085588e0588407f3d7cc05d3a0cf0.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка a минус 5 пра­вая круг­лая скоб­ка минус левая круг­лая скоб­ка минус a плюс 1 пра­вая круг­лая скоб­ка =2a минус 6,\"> а урав­не­нию удо­вле­тво­ря­ют те и толь­ко те точки <i>x</i>, сумма рас­сто­я­ний от каж­дой из ко­то­рых до точек <img src=\"https://ege.sdamgia.ru/formula/svg/36/368db7c6bdf1c76c25ff7d52842ad706.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=a минус 5\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/db/db41b6445a71f134d31c0a75c074b918.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x= минус a плюс 1\"> равна <nobr>2<i>a</i> – 6.</nobr></p><p class=\"left_margin\">От­ре­зок <img src=\"https://ege.sdamgia.ru/formula/svg/04/04b78ed2840a45e05afd5c5ddcc5e8df.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка минус a плюс 1;a минус 5 пра­вая квад­рат­ная скоб­ка \"> со­дер­жит от­ре­зок [3; 6] тогда и толь­ко тогда, когда <img src=\"https://ege.sdamgia.ru/formula/svg/64/6428fd0f990b83ec64cf743689a483e3.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\" минус a плюс 1 мень­ше или равно 3\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/4b/4b0c85df0d8560d0bd1480500c0596d4.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a минус 5 боль­ше или равно 6,\"> от­ку­да сле­ду­ет, что <img src=\"https://ege.sdamgia.ru/formula/svg/7f/7f1caa9945d35ed2082dc1605d0cb954.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"a боль­ше или равно 11.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/7f/7f1caa9945d35ed2082dc1605d0cb954.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"a боль­ше или равно 11.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/23/2357dbc2e674b398712dc71145c4f1fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83ba00b4ceb8e796a11b0ea411cf6d90.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/57952c4cc7b9c6955ffa4ccf78503513.svg",
+            "https://ege.sdamgia.ru/formula/svg/14/149d3bfbf853e396013024a7199acf3e.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/734dd1ea9a4d9956ab4303198f4d4563.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ecefaf35467470d81f0ec6c4663fc7f9.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/742085588e0588407f3d7cc05d3a0cf0.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/368db7c6bdf1c76c25ff7d52842ad706.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/db41b6445a71f134d31c0a75c074b918.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/04b78ed2840a45e05afd5c5ddcc5e8df.svg",
+            "https://ege.sdamgia.ru/formula/svg/64/6428fd0f990b83ec64cf743689a483e3.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4b0c85df0d8560d0bd1480500c0596d4.svg",
+            "https://ege.sdamgia.ru/formula/svg/7f/7f1caa9945d35ed2082dc1605d0cb954.svg",
+            "https://ege.sdamgia.ru/formula/svg/7f/7f1caa9945d35ed2082dc1605d0cb954.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 18,
+    "analog_ids": [
+        630666,
+        630674
+    ]
+}

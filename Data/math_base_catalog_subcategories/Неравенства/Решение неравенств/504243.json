@@ -1,0 +1,29 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 504243,
+    "condition": {
+        "text": "Две окружности пересекаются в точках P и Q. Прямая, проходящая через точку P, второй раз пересекает первую окружность в точке A, а вторую  — в точке D. Прямая, проходящая через точку Q параллельно AD, второй раз пересекает первую окружность в точке B, а вторую  — в точке C.а)  Докажите, что четырёхугольник ABCD  — параллелограмм.б)  Найдите отношение BP : PC, если радиус первой окружности вдвое больше радиуса второй.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body646991\" class=\"pbody\"><p class=\"left_margin\">Две окруж­но­сти пе­ре­се­ка­ют­ся в точ­ках <i>P</i> и <i>Q.</i> Пря­мая, про­хо­дя­щая через точку <i>P,</i> вто­рой раз пе­ре­се­ка­ет первую окруж­ность в точке <i>A,</i> а вто­рую  — в точке <i>D.</i> Пря­мая, про­хо­дя­щая через точку <i>Q</i> па­рал­лель­но <i>AD</i>, вто­рой раз пе­ре­се­ка­ет первую окруж­ность в точке <i>B</i>, а вто­рую  — в точке <i>C</i>.</p><p class=\"left_margin\">а)  До­ка­жи­те, что четырёхуголь­ник <i>ABCD</i>  — па­рал­ле­ло­грамм.</p><p class=\"left_margin\">б)  Най­ди­те от­но­ше­ние <i>BP : PC</i>, если ра­ди­ус пер­вой окруж­но­сти вдвое боль­ше ра­ди­у­са вто­рой.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Обозначим ∠BAD = ∠ PAB  =  α. Поскольку ABPQ и CDPQ  — вписанные четырёхугольники.  Значит, ∠BAD + ∠ADC  =  180°, и поэтому AB || CD. Противоположные стороны четырёхугольника ABCD попарно параллельны, следовательно, это параллелограмм. б)  Пусть R  — радиус второй (меньшей) окружности. Тогда радиус большей окружности равен 2R. По теореме синусов: Следовательно,  Ответ: 2.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol504243\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  <img src=\"/get_file?id=30336\" style=\"float:right;margin:10px\">Обо­зна­чим ∠<i>BAD</i> = ∠<i> PAB</i>  =  α. По­сколь­ку <i>ABPQ</i> и <i>CDPQ</i>  — впи­сан­ные четырёхуголь­ни­ки.</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/1a/1ae709c03c800a460b9ef0432860fff3.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle BQP=180 гра­ду­сов минус альфа ,\"></p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/27/2791acced60b7fe51744b2d7d32068c9.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\angle CQP=180 гра­ду­сов минус \\angle BQP=180 гра­ду­сов минус левая круг­лая скоб­ка 180 гра­ду­сов минус альфа пра­вая круг­лая скоб­ка = альфа ,\"></p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/01/01c1ebd8b1467cbc61071a3584f03b68.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle ADC=\\angle PDC=180 гра­ду­сов минус \\angle PQC=180 гра­ду­сов минус альфа .\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Зна­чит, ∠<i>BAD</i> + ∠<i>ADC</i>  =  180°, и по­это­му <i>AB</i> || <i>CD</i>. Про­ти­во­по­лож­ные сто­ро­ны четырёхуголь­ни­ка <i>ABCD</i> по­пар­но па­рал­лель­ны, сле­до­ва­тель­но, это па­рал­ле­ло­грамм.</p><p>&nbsp;</p><p class=\"left_margin\">б)  Пусть <i>R</i>  — ра­ди­ус вто­рой (мень­шей) окруж­но­сти. Тогда ра­ди­ус боль­шей окруж­но­сти равен 2<i>R</i>. По тео­ре­ме си­ну­сов:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/45/4501cad355ab8d1fc1a992d13a84c5fb.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"BP=2 умно­жить на 2R синус \\angle BQP=4R синус левая круг­лая скоб­ка 180 гра­ду­сов минус альфа пра­вая круг­лая скоб­ка =4R синус альфа ,\"></p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/3c/3c07206ba97305278447faf2c654c71e.svg\" class=\"tex\" style=\"vertical-align:-2.9pt\" alt=\"PC=2R синус \\angle CQP=2R синус альфа .\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Сле­до­ва­тель­но, </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/91/91275728d44c01a1bff0debcac213d00.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: BP, зна­ме­на­тель: PC конец дроби = дробь: чис­ли­тель: 4R синус альфа , зна­ме­на­тель: 2R синус альфа конец дроби =2. \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ</span>: 2.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/1a/1ae709c03c800a460b9ef0432860fff3.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/2791acced60b7fe51744b2d7d32068c9.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/01c1ebd8b1467cbc61071a3584f03b68.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/4501cad355ab8d1fc1a992d13a84c5fb.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3c07206ba97305278447faf2c654c71e.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/91275728d44c01a1bff0debcac213d00.svg",
+            "/get_file?id=30336"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": [
+        504243,
+        510365
+    ]
+}

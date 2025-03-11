@@ -1,0 +1,27 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 505745,
+    "condition": {
+        "text": "Точка D делит сторону AC в отношении AD : DC  =  1 : 2.а)  Докажите, что в треугольнике ABD найдётся медиана, равная одной из медиан треугольника DBC.б)  Найдите длину этой медианы в случае, если AB = 7, BC = 8, и AC = 9.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body645485\" class=\"pbody\"><p class=\"left_margin\">Точка <i>D</i> делит сто­ро­ну <i>AC</i> в от­но­ше­нии <i>AD</i> : <i>DC</i>  =  1 : 2.</p><p class=\"left_margin\">а)  До­ка­жи­те, что в тре­уголь­ни­ке <i>ABD</i> найдётся ме­ди­а­на, рав­ная одной из ме­ди­ан тре­уголь­ни­ка <i>DBC</i>.</p><p class=\"left_margin\">б)  Най­ди­те длину этой ме­ди­а­ны в слу­чае, если <i>AB</i> = 7, <i>BC</i> = 8, и <i>AC</i> = 9.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Обозначим середины отрезков BA, BD, BC за E, F, G соответственно. Тогда EG  — средняя линия треугольника ABC, и точка F лежит на ней. Поскольку FG  — средняя линия DBC, то  Итак, в четырехугольнике AFGD две стороны равны и параллельны, значит, он параллелограмм и б)  По теореме косинусов в треугольнике ABC имеем  откуда По теореме косинусов в треугольнике DGC имеем  откуда  Ответ:  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol505745\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=39237\" style=\"float:right;margin:10px\"></p><p class=\"left_margin\">а)  Обо­зна­чим се­ре­ди­ны от­рез­ков <i>BA</i>, <i>BD</i>, <i>BC</i> за <i>E</i>, <i>F</i>, <i>G</i> со­от­вет­ствен­но. Тогда <i>EG</i>  — сред­няя линия тре­уголь­ни­ка <i>ABC</i>, и точка <i>F</i> лежит на ней. По­сколь­ку <i>FG</i>  — сред­няя линия <i>DBC</i>, то <img src=\"https://ege.sdamgia.ru/formula/svg/e7/e7e930e993405259654c8671c8b2335d.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"FG= дробь: чис­ли­тель: DC, зна­ме­на­тель: 2 конец дроби =AD. \"> Итак, в че­ты­рех­уголь­ни­ке <i>AFGD</i> две сто­ро­ны равны и па­рал­лель­ны, зна­чит, он па­рал­ле­ло­грамм и <img src=\"https://ege.sdamgia.ru/formula/svg/36/36657842b63d41eba75719f02cb6a9eb.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AF=DG.\"></p><p class=\"left_margin\">б)  По тео­ре­ме ко­си­ну­сов в тре­уголь­ни­ке <i>ABC</i> имеем <img src=\"https://ege.sdamgia.ru/formula/svg/9b/9b3a7083f54dc6a508bcc1a8d61aafdc.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"49=64 плюс 81 минус 144 ко­си­нус C,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/18/18203fd880c7d91c4752996a57c8b0d7.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" ко­си­нус C= дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби .\"></p><p class=\"left_margin\">По тео­ре­ме ко­си­ну­сов в тре­уголь­ни­ке <i>DGC</i> имеем <img src=\"https://ege.sdamgia.ru/formula/svg/68/685580d5cde9c0e9d002d31faf717689.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"DG в квад­ра­те =16 плюс 36 минус 48 ко­си­нус C=20,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/01/013e42f051e3ff501bedaca60b51b77d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"DG=2 ко­рень из: на­ча­ло ар­гу­мен­та: 5 конец ар­гу­мен­та .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  <img src=\"https://ege.sdamgia.ru/formula/svg/b9/b90ad7d8b16aebc87984c7c948f3521e.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2 ко­рень из: на­ча­ло ар­гу­мен­та: 5 конец ар­гу­мен­та .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e7/e7e930e993405259654c8671c8b2335d.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/36657842b63d41eba75719f02cb6a9eb.svg",
+            "https://ege.sdamgia.ru/formula/svg/9b/9b3a7083f54dc6a508bcc1a8d61aafdc.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/18203fd880c7d91c4752996a57c8b0d7.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/685580d5cde9c0e9d002d31faf717689.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/013e42f051e3ff501bedaca60b51b77d.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b90ad7d8b16aebc87984c7c948f3521e.svg",
+            "/get_file?id=39237"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

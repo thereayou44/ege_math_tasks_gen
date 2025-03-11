@@ -1,0 +1,65 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 245350,
+    "condition": {
+        "text": " Конус и цилиндр имеют общее основание и общую высоту (конус вписан в цилиндр). Вычислите объём цилиндра, если объём конуса равен 5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body905370\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=137704\" style=\"float:right;margin:10px;max-width:100%\"> Конус и ци­линдр имеют общее ос­но­ва­ние и общую вы­со­ту (конус впи­сан в ци­линдр). Вы­чис­ли­те объём ци­лин­дра, если объём ко­ну­са равен 5.</p></div>",
+        "image_urls": [
+            "/get_file?id=137704"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Поскольку объем конуса равена конус и цилиндр имеют общую высоту и основание, имеем: Ответ: 15.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol245350\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По­сколь­ку объем ко­ну­са равен</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f8/f874b4a7d1c1761d88c1792e9a09fd31.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"V_кон= дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби S_оснh=5,\"></p><p class=\"left_margin\"></p></center><p>а конус и ци­линдр имеют общую вы­со­ту и ос­но­ва­ние, имеем: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/dc/dc85496744c0f4336364d0fdc63aca19.svg\" class=\"tex\" style=\"vertical-align:-3.8pt\" alt=\"V_цил=S_оснh=3V_кон=15.\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 15.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f8/f874b4a7d1c1761d88c1792e9a09fd31.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dc85496744c0f4336364d0fdc63aca19.svg"
+        ]
+    },
+    "answer": "15",
+    "topic_id": 3,
+    "analog_ids": [
+        245350,
+        269369,
+        269433,
+        269437,
+        269369,
+        269433,
+        269437,
+        269365,
+        269367,
+        269371,
+        269373,
+        269375,
+        269377,
+        269379,
+        269381,
+        269383,
+        269385,
+        269387,
+        269389,
+        269391,
+        269393,
+        269395,
+        269397,
+        269399,
+        269401,
+        269403,
+        269405,
+        269407,
+        269409,
+        269411,
+        269413,
+        269415,
+        269417,
+        269419,
+        269421,
+        269423,
+        269425,
+        269427,
+        269429,
+        269431,
+        269435
+    ]
+}

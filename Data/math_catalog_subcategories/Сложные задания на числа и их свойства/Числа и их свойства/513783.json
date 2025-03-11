@@ -1,0 +1,27 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 513783,
+    "condition": {
+        "text": "а)  Можно ли занумеровать рёбра куба натуральными числами от 1 до 12 так, чтобы для каждой вершины куба сумма номеров рёбер, которые в ней сходятся, была одинаковой? б)  Аналогичный вопрос, если расставлять по рёбрам куба числа –6, –5, –4, –3, –2, –1, 1, 2, 3, 4, 5, 6. ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body636939\" class=\"pbody\"><p class=\"left_margin\">а)  Можно ли за­ну­ме­ро­вать рёбра куба на­ту­раль­ны­ми чис­ла­ми от 1 до 12 так,&nbsp;чтобы для каж­дой вер­ши­ны куба сумма но­ме­ров рёбер, ко­то­рые в ней схо­дят­ся, была оди­на­ко­вой?&nbsp;</p><p class=\"left_margin\">б)  Ана­ло­гич­ный во­прос, если рас­став­лять по рёбрам куба числа&nbsp;–6,&nbsp;–5,&nbsp;–4,&nbsp;–3,&nbsp;–2,&nbsp;–1,&nbsp;1,&nbsp;2,&nbsp;3,&nbsp;4,&nbsp;5,&nbsp;6.&nbsp;</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Сложим числа вокруг каждой вершины и потом сложим все 8 сумм. С одной стороны, каждое число на ребре посчитано два раза, поэтому сумма равна  с другой стороны, она равна 8x, где x  — сумма чисел на ребрах вокруг одной вершины. Но 156 не делится на 8.б)  Пусть вершины куба названы  Поставим на ребрах числа так:Тогда суммы вокруг всех вершин равны 0. Ответ а) нет, б) да. ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol513783\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Сло­жим числа во­круг каж­дой вер­ши­ны и потом сло­жим все 8 сумм. С одной сто­ро­ны, каж­дое число на ребре по­счи­та­но два раза, по­это­му сумма равна <img src=\"https://ege.sdamgia.ru/formula/svg/be/bea09486366f7d516186db2c215b4970.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"2 левая круг­лая скоб­ка 1 плюс 2 плюс \\ldots плюс 12 пра­вая круг­лая скоб­ка =156,\"> с дру­гой сто­ро­ны, она равна 8<i>x</i>, где x  — сумма чисел на реб­рах во­круг одной вер­ши­ны. Но 156 не де­лит­ся на 8.</p><p class=\"left_margin\">б)  Пусть вер­ши­ны куба на­зва­ны <img src=\"https://ege.sdamgia.ru/formula/svg/a6/a646c7825be81ffe6a7b5e882e628956.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"ABCDA_1B_1C_1D_1.\"> По­ста­вим на реб­рах числа так:</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"fdb91431921a62d6ee08824db9fd53d1\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/eb/ebcff58a8f8c88f8359499cdc992f6d0.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AB минус минус 1, BC минус минус 3, CD минус минус 2, DA минус минус минус \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/7c/7c4a973e554c8be18d92c7a3d85819dd.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" минус 6, A_1B_1 минус минус минус 2, B_1C_1 минус минус 6, C_1D_1 минус минус минус 1, \"></span><span data-width=\"390\" data-formulahash=\"fdb91431921a62d6ee08824db9fd53d1\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/9b/9bc46fd09a22f5a77120ded0b7780111.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AB минус минус 1, BC минус минус 3, CD минус минус \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/7d/7da817656a8ede09cab2842d339995a7.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" минус 2, DA минус минус минус 6, A_1B_1 минус минус минус \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/76/7616e7bb39df905b0e041a6753c5f8c0.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" минус 2, B_1C_1 минус минус 6, C_1D_1 минус минус минус 1, \"></span></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/64/64c603ac7fce88c9bbb641e856da5f20.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"D_1A_1 минус минус минус 3, AA_1 минус минус 5, BB_1 минус минус минус 4, CC_1 минус минус минус 5,DD_1 минус минус 4.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Тогда суммы во­круг всех вер­шин равны 0.</p><p>&nbsp;</p><p class=\"left_margin\">Ответ а) нет, б) да. </p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/be/bea09486366f7d516186db2c215b4970.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a646c7825be81ffe6a7b5e882e628956.svg",
+            "https://ege.sdamgia.ru/formula/svg/eb/ebcff58a8f8c88f8359499cdc992f6d0.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7c4a973e554c8be18d92c7a3d85819dd.svg",
+            "https://ege.sdamgia.ru/formula/svg/9b/9bc46fd09a22f5a77120ded0b7780111.svg",
+            "https://ege.sdamgia.ru/formula/svg/7d/7da817656a8ede09cab2842d339995a7.svg",
+            "https://ege.sdamgia.ru/formula/svg/76/7616e7bb39df905b0e041a6753c5f8c0.svg",
+            "https://ege.sdamgia.ru/formula/svg/64/64c603ac7fce88c9bbb641e856da5f20.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

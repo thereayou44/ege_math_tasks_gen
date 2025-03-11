@@ -1,0 +1,54 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27807,
+    "condition": {
+        "text": "Один угол параллелограмма больше другого на  Найдите больший угол. Ответ дайте в градусах.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918115\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=29623\" style=\"float:right;margin:10px\">Один угол па­рал­ле­ло­грам­ма боль­ше дру­го­го на <img src=\"https://ege.sdamgia.ru/formula/svg/d3/d38bfb6cbe26b7860bfeac7ff373ebd9.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"70 гра­ду­сов.\"> Най­ди­те боль­ший угол. Ответ дайте в гра­ду­сах.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d3/d38bfb6cbe26b7860bfeac7ff373ebd9.svg",
+            "/get_file?id=29623"
+        ]
+    },
+    "solution": {
+        "text": "Решение. сумма углов, прилежащих к одной стороне параллелограмма равна  а их разница равна   Ответ: 125.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27807\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">сумма углов, при­ле­жа­щих к одной сто­ро­не па­рал­ле­ло­грам­ма равна <img src=\"https://ege.sdamgia.ru/formula/svg/8a/8a70c34cca6f92423b6b2f30d84f1ba4.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"180 гра­ду­сов ,\"> а их раз­ни­ца равна <img src=\"https://ege.sdamgia.ru/formula/svg/ea/ea892451d3dff31f83d014193ec041a9.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"70 гра­ду­сов .\"></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/0c/0c22141b8f6187f67b109d063d2b197b.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\angle B плюс левая круг­лая скоб­ка \\angle B минус 70 гра­ду­сов пра­вая круг­лая скоб­ка =180 гра­ду­сов рав­но­силь­но 2\\angle B=250 гра­ду­сов рав­но­силь­но \\angle B=125 гра­ду­сов .\"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 125.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/8a/8a70c34cca6f92423b6b2f30d84f1ba4.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/ea892451d3dff31f83d014193ec041a9.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c22141b8f6187f67b109d063d2b197b.svg"
+        ]
+    },
+    "answer": "125",
+    "topic_id": 1,
+    "analog_ids": [
+        27807,
+        49197,
+        49199,
+        49201,
+        49197,
+        49199,
+        49201,
+        49203,
+        49205,
+        49207,
+        49209,
+        49211,
+        49213,
+        49215,
+        49217,
+        49219,
+        49221,
+        49223,
+        49225,
+        49227,
+        49229,
+        49231,
+        49233,
+        49235,
+        49237,
+        49239,
+        49241,
+        49243
+    ]
+}

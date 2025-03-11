@@ -1,0 +1,31 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 561193,
+    "condition": {
+        "text": "а)  Решите уравнение б)  Укажите корни этого уравнения, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body458453\" class=\"pbody\"><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/ee/eeaad2992560bfe6f677360b468c18de.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" дробь: чис­ли­тель: 16 в сте­пе­ни левая круг­лая скоб­ка синус x пра­вая круг­лая скоб­ка минус 3 умно­жить на 4 в сте­пе­ни левая круг­лая скоб­ка дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби плюс синус x пра­вая круг­лая скоб­ка плюс 8, зна­ме­на­тель: ло­га­рифм по ос­но­ва­нию 2 левая круг­лая скоб­ка 1 минус 3 ко­си­нус x пра­вая круг­лая скоб­ка конец дроби =0. \"></p><p class=\"left_margin\">б)  Ука­жи­те корни этого урав­не­ния, при­над­ле­жа­щие от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/28/2808b87e8c3f940082b09d036bab8136.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка минус дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 4 конец дроби ; дробь: чис­ли­тель: 6 Пи , зна­ме­на­тель: 5 конец дроби пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ee/eeaad2992560bfe6f677360b468c18de.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/2808b87e8c3f940082b09d036bab8136.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  При условии  и  исходное уравнение сводится к квадратному относительно показательной функции: Условию равносильности удовлетворяет только серия б)  Отберём корни при помощи единичной окружности (см. рис.). Подходит только  Ответ: а)  б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol561193\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=81558\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  При усло­вии <img src=\"https://ege.sdamgia.ru/formula/svg/4a/4aa5097d6167c4789d18c824213f9207.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" ко­си­нус x мень­ше дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/25/250b45e0aac57cf214f6922c158b495b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" ко­си­нус x не равно 0\"> ис­ход­ное урав­не­ние сво­дит­ся к квад­рат­но­му от­но­си­тель­но по­ка­за­тель­ной функ­ции:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/78/783abfad621556e9e63a195674f213cd.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"16 в сте­пе­ни левая круг­лая скоб­ка синус x пра­вая круг­лая скоб­ка минус 3 умно­жить на 4 в сте­пе­ни левая круг­лая скоб­ка дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби плюс синус x пра­вая круг­лая скоб­ка плюс 8=0 рав­но­силь­но левая круг­лая скоб­ка 4 в сте­пе­ни левая круг­лая скоб­ка синус x пра­вая круг­лая скоб­ка пра­вая круг­лая скоб­ка в квад­ра­те минус 6 умно­жить на 4 в сте­пе­ни левая круг­лая скоб­ка синус x пра­вая круг­лая скоб­ка плюс 8=0 рав­но­силь­но \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/b1/b1a9ebec7d1daa90022ee7cebaf418df.svg\" class=\"tex\" style=\"vertical-align:-34.0pt\" alt=\" рав­но­силь­но со­во­куп­ность вы­ра­же­ний 4 в сте­пе­ни левая круг­лая скоб­ка синус x пра­вая круг­лая скоб­ка =2,4 в сте­пе­ни левая круг­лая скоб­ка синус x пра­вая круг­лая скоб­ка =4 конец со­во­куп­но­сти . рав­но­силь­но со­во­куп­ность вы­ра­же­ний синус x= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби , синус x=1 конец со­во­куп­но­сти . рав­но­силь­но со­во­куп­ность вы­ра­же­ний x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k,x= дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k,x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби плюс 2 Пи k, конец со­во­куп­но­сти . k при­над­ле­жит Z . \"></p><p class=\"left_margin\"></p></center><p> Усло­вию рав­но­силь­но­сти удо­вле­тво­ря­ет толь­ко серия <img src=\"https://ege.sdamgia.ru/formula/svg/38/38250a902787f01a6d143664762fa04d.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k,k при­над­ле­жит Z . \"></p><p class=\"left_margin\">б)  Отберём корни при по­мо­щи еди­нич­ной окруж­но­сти (см. рис.). Под­хо­дит толь­ко <img src=\"https://ege.sdamgia.ru/formula/svg/93/937fa3417a2fae3efe3ccd1b7910307c.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) <img src=\"https://ege.sdamgia.ru/formula/svg/40/40ea236e6bdf6e74cde77d2ed543178f.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая фи­гур­ная скоб­ка дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k:k при­над­ле­жит Z пра­вая фи­гур­ная скоб­ка ; \"> б) <img src=\"https://ege.sdamgia.ru/formula/svg/93/937fa3417a2fae3efe3ccd1b7910307c.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/4a/4aa5097d6167c4789d18c824213f9207.svg",
+            "https://ege.sdamgia.ru/formula/svg/25/250b45e0aac57cf214f6922c158b495b.svg",
+            "https://ege.sdamgia.ru/formula/svg/78/783abfad621556e9e63a195674f213cd.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b1a9ebec7d1daa90022ee7cebaf418df.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/38250a902787f01a6d143664762fa04d.svg",
+            "https://ege.sdamgia.ru/formula/svg/93/937fa3417a2fae3efe3ccd1b7910307c.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/40ea236e6bdf6e74cde77d2ed543178f.svg",
+            "https://ege.sdamgia.ru/formula/svg/93/937fa3417a2fae3efe3ccd1b7910307c.svg",
+            "/get_file?id=81558"
+        ]
+    },
+    "answer": "а)  б)",
+    "topic_id": 13,
+    "analog_ids": []
+}

@@ -1,0 +1,44 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 505236,
+    "condition": {
+        "text": "а)  Решите уравнение б)  Найдите все корни этого уравнения, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body645992\" class=\"pbody\"><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/72/7277329263f085bdaff448abd32788a8.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\" левая круг­лая скоб­ка дробь: чис­ли­тель: 2, зна­ме­на­тель: 5 конец дроби пра­вая круг­лая скоб­ка в сте­пе­ни левая круг­лая скоб­ка ко­си­нус x пра­вая круг­лая скоб­ка плюс левая круг­лая скоб­ка дробь: чис­ли­тель: 5, зна­ме­на­тель: 2 конец дроби пра­вая круг­лая скоб­ка в сте­пе­ни левая круг­лая скоб­ка ко­си­нус x пра­вая круг­лая скоб­ка =2. \"></p><p class=\"left_margin\">б)  Най­ди­те все корни этого урав­не­ния, при­над­ле­жа­щие от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/f8/f8c59c246de91d142eff21e964dfe9c6.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка минус 3 Пи , минус дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/72/7277329263f085bdaff448abd32788a8.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f8c59c246de91d142eff21e964dfe9c6.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Пусть  тогда исходное уравнение можно преобразовать так б)  С помощью числовой окружности отберем корни, принадлежащие отрезку Получим числа:   Ответ: а)   б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol505236\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=31742\" style=\"float:right;margin:10px\">а)  Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/14/14c0cc9ada4f330fa40dcdcc1bf40672.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\" t= левая круг­лая скоб­ка дробь: чис­ли­тель: 2, зна­ме­на­тель: 5 конец дроби пра­вая круг­лая скоб­ка в сте­пе­ни левая круг­лая скоб­ка ко­си­нус x пра­вая круг­лая скоб­ка , \"> тогда ис­ход­ное урав­не­ние можно пре­об­ра­зо­вать так </p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"a5a8fb65989e834abf753ab71045bafa\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/a5/a5a8fb65989e834abf753ab71045bafa.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\"t плюс дробь: чис­ли­тель: 1, зна­ме­на­тель: t конец дроби =2 рав­но­силь­но дробь: чис­ли­тель: t в квад­ра­те плюс 1 минус 2t, зна­ме­на­тель: t конец дроби =0 рав­но­силь­но t=1 рав­но­силь­но левая круг­лая скоб­ка дробь: чис­ли­тель: 2, зна­ме­на­тель: 5 конец дроби пра­вая круг­лая скоб­ка в сте­пе­ни левая круг­лая скоб­ка ко­си­нус x пра­вая круг­лая скоб­ка =1 рав­но­силь­но ко­си­нус x=0 рав­но­силь­но x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби плюс Пи n,n при­над­ле­жит Z . \"></span><span data-width=\"615\" data-formulahash=\"a5a8fb65989e834abf753ab71045bafa\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/f8/f8473ff53e7f5f5b5422cb8e5d845c80.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"t плюс дробь: чис­ли­тель: 1, зна­ме­на­тель: t конец дроби =2 рав­но­силь­но дробь: чис­ли­тель: t в квад­ра­те плюс 1 минус 2t, зна­ме­на­тель: t конец дроби =0 рав­но­силь­но t=1 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/44/442531c9165ec0ee9447e45a138f4e7a.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\" рав­но­силь­но левая круг­лая скоб­ка дробь: чис­ли­тель: 2, зна­ме­на­тель: 5 конец дроби пра­вая круг­лая скоб­ка в сте­пе­ни левая круг­лая скоб­ка ко­си­нус x пра­вая круг­лая скоб­ка =1 рав­но­силь­но ко­си­нус x=0 рав­но­силь­но x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби плюс Пи n,n при­над­ле­жит Z . \"></span><span data-width=\"340\" data-formulahash=\"a5a8fb65989e834abf753ab71045bafa\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/28/285269dbf15ca9ff04f4746003ea692a.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"t плюс дробь: чис­ли­тель: 1, зна­ме­на­тель: t конец дроби =2 рав­но­силь­но дробь: чис­ли­тель: t в квад­ра­те плюс 1 минус 2t, зна­ме­на­тель: t конец дроби =0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/2c/2cfc8891d961e16d3f5642e5eb84b851.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\" рав­но­силь­но t=1 рав­но­силь­но левая круг­лая скоб­ка дробь: чис­ли­тель: 2, зна­ме­на­тель: 5 конец дроби пра­вая круг­лая скоб­ка в сте­пе­ни левая круг­лая скоб­ка ко­си­нус x пра­вая круг­лая скоб­ка =1 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/8c/8c5d93aa20b988678f91888abfa7da16.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" рав­но­силь­но ко­си­нус x=0 рав­но­силь­но x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби плюс Пи n,n при­над­ле­жит Z . \"></span></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">б)  С по­мо­щью чис­ло­вой окруж­но­сти от­бе­рем корни, при­над­ле­жа­щие от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/f8/f8c59c246de91d142eff21e964dfe9c6.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка минус 3 Пи , минус дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби пра­вая квад­рат­ная скоб­ка . \"></p><p class=\"left_margin\">По­лу­чим числа: <img src=\"https://ege.sdamgia.ru/formula/svg/e9/e93812ee0aefe098437ae0c5991ad02b.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" минус дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 2 конец дроби , минус дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби . \"> </p><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ:</span> а) <img src=\"https://ege.sdamgia.ru/formula/svg/d6/d60c43fe7cc0e5c4d498b01d75e48245.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" левая фи­гур­ная скоб­ка дробь: чис­ли­тель: зна­ме­на­тель: p конец дроби i 2 плюс Пи n: n при­над­ле­жит Z пра­вая фи­гур­ная скоб­ка ;\">  б) <img src=\"https://ege.sdamgia.ru/formula/svg/08/08aa4aea402d9db9615c7d86f9f32f31.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" минус дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 2 конец дроби ; минус дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/14/14c0cc9ada4f330fa40dcdcc1bf40672.svg",
+            "https://ege.sdamgia.ru/formula/svg/a5/a5a8fb65989e834abf753ab71045bafa.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f8473ff53e7f5f5b5422cb8e5d845c80.svg",
+            "https://ege.sdamgia.ru/formula/svg/44/442531c9165ec0ee9447e45a138f4e7a.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/285269dbf15ca9ff04f4746003ea692a.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2cfc8891d961e16d3f5642e5eb84b851.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8c5d93aa20b988678f91888abfa7da16.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f8c59c246de91d142eff21e964dfe9c6.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e93812ee0aefe098437ae0c5991ad02b.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d60c43fe7cc0e5c4d498b01d75e48245.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/08aa4aea402d9db9615c7d86f9f32f31.svg",
+            "/get_file?id=31742"
+        ]
+    },
+    "answer": "а)   б)",
+    "topic_id": 13,
+    "analog_ids": [
+        505236,
+        620475,
+        505246,
+        505386,
+        620475,
+        505246,
+        505386,
+        505407,
+        517499
+    ]
+}

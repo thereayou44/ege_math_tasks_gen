@@ -1,0 +1,26 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 527606,
+    "condition": {
+        "text": "В правильном тетраэдре ABCD точка K  — центр грани ABD, точка M  — центр грани ACD.а)  Докажите, что прямые BC и KM параллельны.б)  Найдите угол между прямой KM и плоскостью ABD.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body418314\" class=\"pbody\"><p class=\"left_margin\">В пра­виль­ном тет­ра­эд­ре <i>ABCD</i> точка <i>K</i>  — центр грани <i>ABD</i>, точка <i>M</i>  — центр грани <i>ACD</i>.</p><p class=\"left_margin\">а)  До­ка­жи­те, что пря­мые <i>BC</i> и <i>KM</i> па­рал­лель­ны.</p><p class=\"left_margin\">б)  Най­ди­те угол между пря­мой <i>KM</i> и плос­ко­стью <i>ABD</i>.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Пусть T  — середина AD. Тогда  откуда прямая KM параллельна прямой BC.б)  Имеем: Обозначим ребро тетраэдра за  тогда  (высота правильного треугольника).  Тогда в равнобедренном треугольнике BTC имеем Ответ: б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol527606\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=67427\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Пусть <i>T</i>  — се­ре­ди­на <i>AD</i>. Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/9a/9ab7048801019e7b9ea277d8b295f3f1.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"CM:MT=BK:KT=2:1,\"> от­ку­да пря­мая <i>KM</i> па­рал­лель­на пря­мой <i>BC</i>.</p><p class=\"left_margin\">б)  Имеем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/00/0091bfb27a13e9ad7fb430380aba2a9e.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\angle левая круг­лая скоб­ка KM,ABD пра­вая круг­лая скоб­ка =\\angle левая круг­лая скоб­ка BC,ABD пра­вая круг­лая скоб­ка =\\angle левая круг­лая скоб­ка BC,BK пра­вая круг­лая скоб­ка =\\angle левая круг­лая скоб­ка BC,BT пра­вая круг­лая скоб­ка =\\angle CBT.\"> </p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Обо­зна­чим ребро тет­ра­эд­ра за <img src=\"https://ege.sdamgia.ru/formula/svg/50/50477ead28df15168cfabc09bed03428.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2x,\"> тогда <img src=\"https://ege.sdamgia.ru/formula/svg/97/97308d36413b1a2d62b7b4b0897ef98b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BT=CT= ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та x\"> (вы­со­та пра­виль­но­го тре­уголь­ни­ка).  Тогда в рав­но­бед­рен­ном тре­уголь­ни­ке <i>BTC</i> имеем </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/9e/9ec797d955c53265844c394f7901fd2f.svg\" class=\"tex\" style=\"vertical-align:-10.9pt\" alt=\" ко­си­нус \\angle CBT= дробь: чис­ли­тель: BC, зна­ме­на­тель: 2BT конец дроби = дробь: чис­ли­тель: 1, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та конец дроби . \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) <img src=\"https://ege.sdamgia.ru/formula/svg/b3/b33eae96f62c7a518ffe2abf072eb58c.svg\" class=\"tex\" style=\"vertical-align:-11.0pt\" alt=\" арк­ко­си­нус дробь: чис­ли­тель: 1, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/9a/9ab7048801019e7b9ea277d8b295f3f1.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/0091bfb27a13e9ad7fb430380aba2a9e.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50477ead28df15168cfabc09bed03428.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/97308d36413b1a2d62b7b4b0897ef98b.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9ec797d955c53265844c394f7901fd2f.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b33eae96f62c7a518ffe2abf072eb58c.svg",
+            "/get_file?id=67427"
+        ]
+    },
+    "answer": "б)",
+    "topic_id": null,
+    "analog_ids": []
+}

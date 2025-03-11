@@ -1,0 +1,53 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 99584,
+    "condition": {
+        "text": "Улитка ползет от одного дерева до другого. Каждый день она проползает на одно и то же расстояние больше, чем в предыдущий день. Известно, что за первый и последний дни улитка проползла в общей сложности 10 метров. Определите, сколько дней улитка потратила на весь путь, если расстояние между деревьями равно 150 метрам.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body1043452\" class=\"pbody\"><p class=\"left_margin\">Улит­ка пол­зет от од­но­го де­ре­ва до дру­го­го. Каж­дый день она про­пол­за­ет на одно и то же рас­сто­я­ние боль­ше, чем в преды­ду­щий день. Из­вест­но, что за пер­вый и по­след­ний дни улит­ка про­полз­ла в общей слож­но­сти 10 мет­ров. Опре­де­ли­те, сколь­ко дней улит­ка по­тра­ти­ла на весь путь, если рас­сто­я­ние между де­ре­вья­ми равно 150 мет­рам.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Пусть улитка проползла в первый день  метров, во второй −  ... , в последний −  метров. Тогда  м, а за n дней проползла  метров. Поскольку всего она проползла 150 метров, имеем:  откуда  Таким образом, улитка потратила на весь путь 30 дней. Ответ: 30.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol99584\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть улит­ка про­полз­ла в пер­вый день <img src=\"https://ege.sdamgia.ru/formula/svg/19/19034064db55a4b3099824e4b3234f03.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"a_1\"> мет­ров, во вто­рой − <img src=\"https://ege.sdamgia.ru/formula/svg/94/941820a987b9181fd8f13032241cbb5f.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"a_2,\"> … , в по­след­ний − <img src=\"https://ege.sdamgia.ru/formula/svg/40/40946a3e1e1ca1b9a8cbe88e187f4172.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"a_n\"> мет­ров. Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/dc/dce259610e000ee07c95c4fe1204ab18.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"a_1 плюс a_n=10\"> м, а за <i>n</i> дней про­полз­ла <img src=\"https://ege.sdamgia.ru/formula/svg/03/0349ebd48c2bcb4cab10fce50b1fb311.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"S_n= дробь: чис­ли­тель: a_1 плюс a_n, зна­ме­на­тель: 2 конец дроби n=5n \"> мет­ров. По­сколь­ку всего она про­полз­ла 150 мет­ров, имеем: <img src=\"https://ege.sdamgia.ru/formula/svg/8d/8d44f9b25539ae775df02c8f1d1eda80.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"5n=150,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/8f/8fe31805fcfa1330ab8e4d5a1cfb59cf.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"n=30.\"> Таким об­ра­зом, улит­ка по­тра­ти­ла на весь путь 30 дней.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 30.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/19/19034064db55a4b3099824e4b3234f03.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/941820a987b9181fd8f13032241cbb5f.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/40946a3e1e1ca1b9a8cbe88e187f4172.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dce259610e000ee07c95c4fe1204ab18.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/0349ebd48c2bcb4cab10fce50b1fb311.svg",
+            "https://ege.sdamgia.ru/formula/svg/8d/8d44f9b25539ae775df02c8f1d1eda80.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8fe31805fcfa1330ab8e4d5a1cfb59cf.svg"
+        ]
+    },
+    "answer": "30",
+    "topic_id": 10,
+    "analog_ids": [
+        99584,
+        111869,
+        111911,
+        111871,
+        111869,
+        111911,
+        111871,
+        111873,
+        111875,
+        111877,
+        111879,
+        111881,
+        111883,
+        111885,
+        111887,
+        111889,
+        111891,
+        111893,
+        111895,
+        111897,
+        111899,
+        111901,
+        111903,
+        111905,
+        111907,
+        111909
+    ]
+}

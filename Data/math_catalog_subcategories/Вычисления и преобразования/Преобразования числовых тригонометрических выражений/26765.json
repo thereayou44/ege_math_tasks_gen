@@ -1,0 +1,56 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 26765,
+    "condition": {
+        "text": "Найдите значение выражения ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919153\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те зна­че­ние вы­ра­же­ния <img src=\"https://ege.sdamgia.ru/formula/svg/db/db9576880e72ad462bbc681c099c7073.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 14 синус 19 гра­ду­сов , зна­ме­на­тель: синус 341 гра­ду­сов конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/db/db9576880e72ad462bbc681c099c7073.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Выполним преобразования:  =   Ответ: −14.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol26765\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Вы­пол­ним пре­об­ра­зо­ва­ния: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ed/ed7acdae4179638ff48e867db763b4cd.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 14 синус 19 гра­ду­сов , зна­ме­на­тель: синус 341 гра­ду­сов конец дроби \"> = <img src=\"https://ege.sdamgia.ru/formula/svg/95/959284b038af9861c980612b3edb8691.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" дробь: чис­ли­тель: 14 синус 19 гра­ду­сов , зна­ме­на­тель: синус левая круг­лая скоб­ка 360 минус 19 пра­вая круг­лая скоб­ка гра­ду­сов конец дроби = дробь: чис­ли­тель: 14 синус 19 гра­ду­сов , зна­ме­на­тель: минус синус 19 гра­ду­сов конец дроби = минус 14. \"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> −14.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ed/ed7acdae4179638ff48e867db763b4cd.svg",
+            "https://ege.sdamgia.ru/formula/svg/95/959284b038af9861c980612b3edb8691.svg"
+        ]
+    },
+    "answer": "-14",
+    "topic_id": 7,
+    "analog_ids": [
+        26765,
+        63763,
+        63709,
+        63711,
+        63763,
+        63709,
+        63711,
+        63713,
+        63715,
+        63717,
+        63719,
+        63721,
+        63723,
+        63725,
+        63727,
+        63729,
+        63731,
+        63733,
+        63735,
+        63737,
+        63739,
+        63741,
+        63743,
+        63745,
+        63747,
+        63749,
+        63751,
+        63753,
+        63755,
+        63757,
+        63759,
+        63761
+    ]
+}

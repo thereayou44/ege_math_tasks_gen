@@ -1,0 +1,35 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27311,
+    "condition": {
+        "text": "В треугольнике ABC AC  =  BC, AH  — высота,  Найдите ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918611\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right; margin:10px\" src=\"/get_file?id=1124\">В тре­уголь­ни­ке <i>ABC</i> <i>AC</i>  =  <i>BC</i>, <i>AH</i>  — вы­со­та, <img src=\"https://ege.sdamgia.ru/formula/svg/c0/c0c82002f1929c27db8c8b092ef51343.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" синус BAC = дробь: чис­ли­тель: 7, зна­ме­на­тель: 25 конец дроби . \"> Най­ди­те <img src=\"https://ege.sdamgia.ru/formula/svg/a8/a891e0350b65c6e7f35d34d559268395.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" синус BAH.\"></p><p></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c0/c0c82002f1929c27db8c8b092ef51343.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a891e0350b65c6e7f35d34d559268395.svg",
+            "/get_file?id=1124"
+        ]
+    },
+    "solution": {
+        "text": "Решение.  Треугольник АВС равнобедренный, значит, углы ВАС и АВН равны как углы при его основании.   ТогдаОтвет: 0,96. ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27311\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"> Тре­уголь­ник <i>АВС </i>рав­но­бед­рен­ный, зна­чит, углы <i>ВАС </i>и <i>АВН</i> равны как углы при его ос­но­ва­нии.   Тогда</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/c5/c57542f736199144a7b489ab489262a1.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" синус \\widehatBAH= ко­си­нус \\widehatHBA= ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус синус в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та \\angle BAC пра­вая круг­лая скоб­ка =0,96.\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spaceing:2px\">Ответ</span>: 0,96. </p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c5/c57542f736199144a7b489ab489262a1.svg"
+        ]
+    },
+    "answer": "0,96",
+    "topic_id": null,
+    "analog_ids": [
+        27311,
+        32887,
+        32889,
+        32891,
+        32887,
+        32889,
+        32891,
+        32893,
+        32895,
+        32897
+    ]
+}

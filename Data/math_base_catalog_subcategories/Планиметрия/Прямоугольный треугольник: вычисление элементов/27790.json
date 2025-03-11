@@ -1,0 +1,57 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27790,
+    "condition": {
+        "text": "В треугольнике ABC угол C равен 90°, CH − высота, угол A равен   Найдите ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918130\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=144894\" style=\"float:right;margin:10px;max-width:100%\">В тре­уголь­ни­ке <i>ABC</i> угол <i>C</i> равен 90°, <i>CH</i> − вы­со­та, угол <i>A</i> равен <img src=\"https://ege.sdamgia.ru/formula/svg/06/064a9078aa8834cb544e53c12d560fdf.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"30 гра­ду­сов,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/6d/6dd6ff981113752b1d0c6816e96a633b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AB = 2.\"> Най­ди­те <img src=\"https://ege.sdamgia.ru/formula/svg/28/28377a9ff96a61078915d0232bc96c3f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AH.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/06/064a9078aa8834cb544e53c12d560fdf.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6dd6ff981113752b1d0c6816e96a633b.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/28377a9ff96a61078915d0232bc96c3f.svg",
+            "/get_file?id=144894"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Выполним преобразования:Ответ: 1,5. Приведем другое решение:Катет, лежащий напротив угла в 30°, равен половине гипотенузы, следовательно, Углы CAB и HCB равны по свойству высоты прямоугольного треугольника, тогда в треугольнике CHB катет HB равен половине гипотенузы CB:  Тогда AH  =  AB − HB = 2 − 0,5  =  1,5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27790\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Вы­пол­ним пре­об­ра­зо­ва­ния:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/da/daccab7e4d3a640b93f55694d89c471f.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\"AH=AC ко­си­нус A=AB ко­си­нус в квад­ра­те A=2 ко­си­нус в квад­ра­те 30 гра­ду­сов =2 умно­жить на левая круг­лая скоб­ка дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби пра­вая круг­лая скоб­ка в квад­ра­те =1,5. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing:2px \">Ответ</span>: 1,5.</p><p>&nbsp;</p><p><b>При­ве­дем дру­гое ре­ше­ние:</b></p><p class=\"left_margin\">Катет, ле­жа­щий на­про­тив угла в 30°, равен по­ло­ви­не ги­по­те­ну­зы, сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/08/08d91d892389e72c22b4289b861d7bf7.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"CB= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби AB=1.\"></p><p class=\"left_margin\">Углы <i>CAB</i> и <i>HCB</i> равны по свой­ству вы­со­ты пря­мо­уголь­но­го тре­уголь­ни­ка, тогда в тре­уголь­ни­ке <i>CHB</i> катет <i>HB</i> равен по­ло­ви­не ги­по­те­ну­зы <i>CB</i>: <img src=\"https://ege.sdamgia.ru/formula/svg/27/27d59eedd011823451f2df10605a1579.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"HB= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби CB=0,5.\"> Тогда <i>AH  =  AB − HB </i>= 2 − 0,5  =  1,5.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/da/daccab7e4d3a640b93f55694d89c471f.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/08d91d892389e72c22b4289b861d7bf7.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/27d59eedd011823451f2df10605a1579.svg"
+        ]
+    },
+    "answer": "1,5",
+    "topic_id": 1,
+    "analog_ids": [
+        27790,
+        48569,
+        48571,
+        48573,
+        48569,
+        48571,
+        48573,
+        48575,
+        48577,
+        48579,
+        48581,
+        48583,
+        48585,
+        48587,
+        48589,
+        48591,
+        48593,
+        48595,
+        48597,
+        48599,
+        48601,
+        48603,
+        48605,
+        48607,
+        48609,
+        48611,
+        48613,
+        48615,
+        48617
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 502994,
+    "condition": {
+        "text": "Найдите значение выражения ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body639534\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те зна­че­ние вы­ра­же­ния </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/58/58a1a4ca480ea3c3b34c35b9c49ba4bd.svg\" class=\"tex\" style=\"vertical-align:-10.4pt\" alt=\" минус дробь: чис­ли­тель: 4, зна­ме­на­тель: синус в квад­ра­те 27 гра­ду­сов плюс синус в квад­ра­те 117 гра­ду­сов конец дроби . \"></p><p class=\"left_margin\"></p></center></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/58/58a1a4ca480ea3c3b34c35b9c49ba4bd.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Выполним преобразования:   Ответ: −4.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol502994\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Вы­пол­ним пре­об­ра­зо­ва­ния: </p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"bf94b38fbaedce3717e620fbec4cb58b\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/bf/bf94b38fbaedce3717e620fbec4cb58b.svg\" class=\"tex\" style=\"vertical-align:-12.1pt\" alt=\" минус дробь: чис­ли­тель: 4, зна­ме­на­тель: синус в квад­ра­те 27 в сте­пе­ни левая круг­лая скоб­ка пра­вая круг­лая скоб­ка гра­ду­сов плюс синус в квад­ра­те 117 в сте­пе­ни левая круг­лая скоб­ка пра­вая круг­лая скоб­ка гра­ду­сов конец дроби = минус дробь: чис­ли­тель: 4, зна­ме­на­тель: синус в квад­ра­те 27 гра­ду­сов плюс синус в квад­ра­те левая круг­лая скоб­ка 90 гра­ду­сов плюс 27 гра­ду­сов пра­вая круг­лая скоб­ка конец дроби = минус дробь: чис­ли­тель: 4, зна­ме­на­тель: синус в квад­ра­те 27 гра­ду­сов плюс ко­си­нус в квад­ра­те 27 гра­ду­сов конец дроби = минус 4. \"></span><span data-width=\"515\" data-formulahash=\"bf94b38fbaedce3717e620fbec4cb58b\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/f5/f5cb5ad1138b4855b831ce0e39e7b0d3.svg\" class=\"tex\" style=\"vertical-align:-12.2pt\" alt=\" минус дробь: чис­ли­тель: 4, зна­ме­на­тель: синус в квад­ра­те 27 в сте­пе­ни левая круг­лая скоб­ка пра­вая круг­лая скоб­ка гра­ду­сов плюс синус в квад­ра­те 117 в сте­пе­ни левая круг­лая скоб­ка пра­вая круг­лая скоб­ка гра­ду­сов конец дроби = минус дробь: чис­ли­тель: 4, зна­ме­на­тель: синус в квад­ра­те 27 гра­ду­сов плюс синус в квад­ра­те левая круг­лая скоб­ка 90 гра­ду­сов плюс 27 гра­ду­сов пра­вая круг­лая скоб­ка конец дроби = \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/18/1856fc4298d89c1d6c8cee0d4d2eefc4.svg\" class=\"tex\" style=\"vertical-align:-10.4pt\" alt=\"= минус дробь: чис­ли­тель: 4, зна­ме­на­тель: синус в квад­ра­те 27 гра­ду­сов плюс ко­си­нус в квад­ра­те 27 гра­ду­сов конец дроби = минус 4. \"></span><span data-width=\"340\" data-formulahash=\"bf94b38fbaedce3717e620fbec4cb58b\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/da/da4439f7a1d14044cd63a3fcef1897c6.svg\" class=\"tex\" style=\"vertical-align:-10.4pt\" alt=\" минус дробь: чис­ли­тель: 4, зна­ме­на­тель: синус в квад­ра­те 27 в сте­пе­ни левая круг­лая скоб­ка пра­вая круг­лая скоб­ка гра­ду­сов плюс синус в квад­ра­те 117 в сте­пе­ни левая круг­лая скоб­ка пра­вая круг­лая скоб­ка гра­ду­сов конец дроби = \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/31/31cc446a70fce6760870342b56c39e62.svg\" class=\"tex\" style=\"vertical-align:-12.2pt\" alt=\"= минус дробь: чис­ли­тель: 4, зна­ме­на­тель: синус в квад­ра­те 27 гра­ду­сов плюс синус в квад­ра­те левая круг­лая скоб­ка 90 гра­ду­сов плюс 27 гра­ду­сов пра­вая круг­лая скоб­ка конец дроби = \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/18/1856fc4298d89c1d6c8cee0d4d2eefc4.svg\" class=\"tex\" style=\"vertical-align:-10.4pt\" alt=\"= минус дробь: чис­ли­тель: 4, зна­ме­на­тель: синус в квад­ра­те 27 гра­ду­сов плюс ко­си­нус в квад­ра­те 27 гра­ду­сов конец дроби = минус 4. \"></span></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> −4.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/bf/bf94b38fbaedce3717e620fbec4cb58b.svg",
+            "https://ege.sdamgia.ru/formula/svg/f5/f5cb5ad1138b4855b831ce0e39e7b0d3.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/1856fc4298d89c1d6c8cee0d4d2eefc4.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/da4439f7a1d14044cd63a3fcef1897c6.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/31cc446a70fce6760870342b56c39e62.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/1856fc4298d89c1d6c8cee0d4d2eefc4.svg"
+        ]
+    },
+    "answer": "-4",
+    "topic_id": 7,
+    "analog_ids": []
+}

@@ -1,0 +1,31 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 556617,
+    "condition": {
+        "text": "Точка A расположена вне квадрата KLMN с центром O, причём треугольник KAN прямоугольный (∠A  =  90°) и AK  =  2AN. Точка B  — середина стороны KN.а)  Докажите, что прямая BM параллельна прямой AN.б)  Прямая AO пересекает сторону ML квадрата в точке P. Найдите отношение LP : PM.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body397493\" class=\"pbody\"><p class=\"left_margin\">Точка <i>A</i> рас­по­ло­же­на вне квад­ра­та <i>KLMN</i> с цен­тром <i>O</i>, причём тре­уголь­ник <i>KAN</i> пря­мо­уголь­ный (∠<i>A</i>  =  90°) и <i>AK</i>  =  2<i>AN</i>. Точка <i>B</i>  — се­ре­ди­на сто­ро­ны <i>KN</i>.</p><p class=\"left_margin\">а)  До­ка­жи­те, что пря­мая <i>BM</i> па­рал­лель­на пря­мой <i>AN</i>.</p><p class=\"left_margin\">б)  Пря­мая <i>AO</i> пе­ре­се­ка­ет сто­ро­ну <i>ML</i> квад­ра­та в точке <i>P</i>. Най­ди­те от­но­ше­ние <i>LP</i> : <i>PM</i>.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Заметим, что  следовательно, треугольники BMN и NKA подобны по соотношению двух сторон и равенству углов, заключенных между этими сторонами. Тогда  следовательно, прямая BM параллельна прямой AN.б)  Диагонали квадрата перпендикулярны, равны и делятся точкой пересечения пополам, поэтому  и  Из точек A и O отрезок KN виден под прямым углом, значит, эти точки лежат на окружности с диаметром KN. Вписанные в эту окружность углы KAO и NAO опираются на равные хорды, поэтому AO  — биссектриса угла KAN.Пусть отрезок AP пересекает сторону KN в точке Q. Тогда AQ  — биссектриса треугольника KAN. По свойству биссектрисыТреугольник LOP равен треугольнику NOQ по стороне и двум прилежащим к ней углам, значит,  Тогда  Следовательно,Ответ: б) 1 : 2.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol556617\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=147868\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  За­ме­тим, что <img src=\"https://ege.sdamgia.ru/formula/svg/0e/0ee06ce4531581f0ca0d65385c0c49a0.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: AK, зна­ме­на­тель: AN конец дроби = дробь: чис­ли­тель: MN, зна­ме­на­тель: BN конец дроби =2, \"> сле­до­ва­тель­но, тре­уголь­ни­ки <i>BMN</i> и <i>NKA</i> по­доб­ны по со­от­но­ше­нию двух сто­рон и ра­вен­ству углов, за­клю­чен­ных между этими сто­ро­на­ми. Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/f3/f36c285b589f163d47475db72cefc837.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle MBN=\\angle ANK,\"> сле­до­ва­тель­но, пря­мая <i>BM</i> па­рал­лель­на пря­мой <i>AN</i>.</p><p class=\"left_margin\">б)  Диа­го­на­ли квад­ра­та пер­пен­ди­ку­ляр­ны, равны и де­лят­ся точ­кой пе­ре­се­че­ния по­по­лам, по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/b7/b7be0c5c664d700e03b1657d41ae47be.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle KON=90 гра­ду­сов\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/26/26f2d7bdba9951b986fe4b4549c1e97a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"OK=ON.\"> Из точек <i>A</i> и <i>O</i> от­ре­зок <i>KN</i> виден под пря­мым углом, зна­чит, эти точки лежат на окруж­но­сти с диа­мет­ром <i>KN</i>. Впи­сан­ные в эту окруж­ность углы <i>KAO</i> и <i>NAO</i> опи­ра­ют­ся на рав­ные хорды, по­это­му <i>AO</i>  — бис­сек­три­са угла <i>KAN</i>.</p><p class=\"left_margin\">Пусть от­ре­зок <i>AP</i> пе­ре­се­ка­ет сто­ро­ну <i>KN</i> в точке <i>Q</i>. Тогда <i>AQ</i>  — бис­сек­три­са тре­уголь­ни­ка <i>KAN</i>. По свой­ству бис­сек­три­сы</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/13/138dd61dbaf5c35991f1453d6bc2384a.svg\" class=\"tex\" style=\"vertical-align:-10.4pt\" alt=\" дробь: чис­ли­тель: NQ, зна­ме­на­тель: QK конец дроби = дробь: чис­ли­тель: AN, зна­ме­на­тель: AK конец дроби = дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Тре­уголь­ник <i>LOP</i> равен тре­уголь­ни­ку <i>NOQ</i> по сто­ро­не и двум при­ле­жа­щим к ней углам, зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/60/60ec4bbeea7455bd797c6835cab18cde.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"LP=NQ.\"> Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/8e/8e80b3d9119190b567da6ad9ac3f457e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"MP=KQ.\"> Сле­до­ва­тель­но,</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/7c/7c4af8974de3f137a9ab8ca2e4844baf.svg\" class=\"tex\" style=\"vertical-align:-10.4pt\" alt=\" дробь: чис­ли­тель: LP, зна­ме­на­тель: PM конец дроби = дробь: чис­ли­тель: NQ, зна­ме­на­тель: QK конец дроби = дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби . \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) 1 : 2.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/0e/0ee06ce4531581f0ca0d65385c0c49a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f36c285b589f163d47475db72cefc837.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b7be0c5c664d700e03b1657d41ae47be.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/26f2d7bdba9951b986fe4b4549c1e97a.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/138dd61dbaf5c35991f1453d6bc2384a.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/60ec4bbeea7455bd797c6835cab18cde.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8e80b3d9119190b567da6ad9ac3f457e.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7c4af8974de3f137a9ab8ca2e4844baf.svg",
+            "/get_file?id=147868"
+        ]
+    },
+    "answer": "б) 1 : 2.",
+    "topic_id": 17,
+    "analog_ids": [
+        556617,
+        556624
+    ]
+}

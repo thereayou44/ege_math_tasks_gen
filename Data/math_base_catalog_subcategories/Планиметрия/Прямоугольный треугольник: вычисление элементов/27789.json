@@ -1,0 +1,62 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27789,
+    "condition": {
+        "text": "В треугольнике ABC угол C равен 90°, угол A равен   Найдите высоту ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918129\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=144894\" style=\"float:right;margin:10px;max-width:100%\">В тре­уголь­ни­ке <i>ABC</i> угол <i>C</i> равен 90°, угол <i>A</i> равен <img src=\"https://ege.sdamgia.ru/formula/svg/06/064a9078aa8834cb544e53c12d560fdf.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"30 гра­ду­сов,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/ac/acb382a9d0ecd9dfa2b9b1c76be290be.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AB = 2 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та .\"> Най­ди­те вы­со­ту <img src=\"https://ege.sdamgia.ru/formula/svg/f8/f810945d972ee50d8a0064119377c188.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"CH.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/06/064a9078aa8834cb544e53c12d560fdf.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/acb382a9d0ecd9dfa2b9b1c76be290be.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f810945d972ee50d8a0064119377c188.svg",
+            "/get_file?id=144894"
+        ]
+    },
+    "solution": {
+        "text": "Решение.   Ответ: 1,5. Приведем другое решение.Катет, лежащий напротив угла в 30°, равен половине гипотенузы, тогда из треугольника ABC получим Угол HCB равен углу CAB по свойству высоты прямоугольного треугольника, тогда из треугольника HCB получим  По теореме Пифагора",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27789\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"6dfb7e767cef7d5d7f8d1dd563841e23\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/6d/6dfb7e767cef7d5d7f8d1dd563841e23.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"CH=AC синус A=AB ко­си­нус A синус A=2 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та ко­си­нус 30 гра­ду­сов синус 30 гра­ду­сов =2 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та умно­жить на дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби умно­жить на дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби =1,5. \"></span><span data-width=\"515\" data-formulahash=\"6dfb7e767cef7d5d7f8d1dd563841e23\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/bf/bfe990e8373951d89bedacaf2609ae5f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"CH=AC синус A=AB ко­си­нус A синус A=\"><br><img src=\"https://ege.sdamgia.ru/formula/svg/11/11b2d6336b39f91e760dadb006c2367c.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"=2 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та ко­си­нус 30 гра­ду­сов синус 30 гра­ду­сов =2 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та умно­жить на дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби умно­жить на дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби =1,5. \"></span></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 1,5.</p><p>&nbsp;</p><p><b>При­ве­дем дру­гое ре­ше­ние.</b></p><p class=\"left_margin\">Катет, ле­жа­щий на­про­тив угла в 30°, равен по­ло­ви­не ги­по­те­ну­зы, тогда из тре­уголь­ни­ка <i>ABC</i> по­лу­чим <img src=\"https://ege.sdamgia.ru/formula/svg/ef/ef1233a4619b274e4cec5844cf97c3c8.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"BC= дробь: чис­ли­тель: AB, зна­ме­на­тель: 2 конец дроби = ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та . \"></p><p class=\"left_margin\">Угол <i>HCB</i> равен углу <i>CAB</i> по свой­ству вы­со­ты пря­мо­уголь­но­го тре­уголь­ни­ка, тогда из тре­уголь­ни­ка <i>HCB</i> по­лу­чим <img src=\"https://ege.sdamgia.ru/formula/svg/0c/0c944102d2ff3e34019478fb0ddc7bd0.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"HB= дробь: чис­ли­тель: BC, зна­ме­на­тель: 2 конец дроби = дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби . \"> По тео­ре­ме Пи­фа­го­ра</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/91/91b2c4157ba45fc8459c203cc0d04979.svg\" class=\"tex\" style=\"vertical-align:-15.6pt\" alt=\"CH= ко­рень из: на­ча­ло ар­гу­мен­та: BC в квад­ра­те минус BH в квад­ра­те конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: левая круг­лая скоб­ка ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та пра­вая круг­лая скоб­ка в квад­ра­те минус левая круг­лая скоб­ка дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби пра­вая круг­лая скоб­ка в квад­ра­те конец ар­гу­мен­та }= ко­рень из: на­ча­ло ар­гу­мен­та: 3 минус дробь: чис­ли­тель: 3, зна­ме­на­тель: 4 конец дроби конец ар­гу­мен­та =1,5. \"></p><p class=\"left_margin\"></p></center></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/6d/6dfb7e767cef7d5d7f8d1dd563841e23.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bfe990e8373951d89bedacaf2609ae5f.svg",
+            "https://ege.sdamgia.ru/formula/svg/11/11b2d6336b39f91e760dadb006c2367c.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/ef1233a4619b274e4cec5844cf97c3c8.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c944102d2ff3e34019478fb0ddc7bd0.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/91b2c4157ba45fc8459c203cc0d04979.svg"
+        ]
+    },
+    "answer": "1,5",
+    "topic_id": 1,
+    "analog_ids": [
+        27789,
+        4795,
+        4799,
+        48519,
+        4795,
+        4799,
+        48519,
+        48521,
+        48523,
+        48525,
+        48527,
+        48529,
+        48531,
+        48533,
+        48535,
+        48537,
+        48539,
+        48541,
+        48543,
+        48545,
+        48547,
+        48549,
+        48551,
+        48553,
+        48555,
+        48557,
+        48559,
+        48561,
+        48563,
+        48565,
+        48567
+    ]
+}

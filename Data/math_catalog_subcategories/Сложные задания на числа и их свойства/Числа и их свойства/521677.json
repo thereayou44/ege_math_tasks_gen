@@ -1,0 +1,26 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521677,
+    "condition": {
+        "text": "а)  Можно ли записать точный квадрат, использовав по 10 раз цифры 1, 2, 3? б)  Можно ли записать точный квадрат, использовав по 10 раз цифры 2, 3, 6? в)  Может ли сумма цифр точного квадрата равняться 1970?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629553\" class=\"pbody\"><p class=\"left_margin\">а)  Можно ли за­пи­сать точ­ный квад­рат, ис­поль­зо­вав по 10 раз цифры 1, 2, 3? </p><p class=\"left_margin\">б)  Можно ли за­пи­сать точ­ный квад­рат, ис­поль­зо­вав по 10 раз цифры 2, 3, 6? </p><p class=\"left_margin\">в)  Может ли сумма цифр точ­но­го квад­ра­та рав­нять­ся 1970?</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Сумма цифр такого числа будет равна 60, поэтому число делится на  но не делится на  Для квадратов это невозможно. б,в) Сумма цифр этих чисел будет  или  то есть будет давать остаток 2 при делении на 3. Но квадраты не могут давать такой остаток. В самом деле, если n кратно трем, то его квадрат тоже. А если нет, то  кратно трем, поэтому  дает остаток  при делении на 3. Ответ: а) Нет; б) Нет; в) Нет.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521677\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Сумма цифр та­ко­го числа будет равна 60, по­это­му число де­лит­ся на <img src=\"https://ege.sdamgia.ru/formula/svg/24/24cccdfe8b9dddaed87bb893d7abcfc2.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"3,\"> но не де­лит­ся на <img src=\"https://ege.sdamgia.ru/formula/svg/d3/d39aeb060e81b0fc04267ae08255938a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"9.\"> Для квад­ра­тов это не­воз­мож­но.</p><p>&nbsp;</p><p>б,в) Сумма цифр этих чисел будет <img src=\"https://ege.sdamgia.ru/formula/svg/5f/5f93f983524def3dca464469d2cf9f3e.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"110\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/e1/e11ff7c57724a5e5c8b48059b49d9eb5.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1970,\"> то есть будет да­вать оста­ток 2 при де­ле­нии на 3. Но квад­ра­ты не могут да­вать такой оста­ток. В самом деле, если <i>n</i> крат­но трем, то его квад­рат тоже. А если нет, то <img src=\"https://ege.sdamgia.ru/formula/svg/70/7064e7d2cc44a7910363855fc826ada0.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"n в квад­ра­те минус 1= левая круг­лая скоб­ка n минус 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка n плюс 1 пра­вая круг­лая скоб­ка \"> крат­но трем, по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/65/6595d679e306a127a3fe53268bcaddb2.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"n в квад­ра­те \"> дает оста­ток <img src=\"https://ege.sdamgia.ru/formula/svg/c4/c4ca4238a0b923820dcc509a6f75849b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"1\"> при де­ле­нии на 3.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) Нет; б) Нет; в) Нет.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/24/24cccdfe8b9dddaed87bb893d7abcfc2.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d39aeb060e81b0fc04267ae08255938a.svg",
+            "https://ege.sdamgia.ru/formula/svg/5f/5f93f983524def3dca464469d2cf9f3e.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e11ff7c57724a5e5c8b48059b49d9eb5.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/7064e7d2cc44a7910363855fc826ada0.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/6595d679e306a127a3fe53268bcaddb2.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c4ca4238a0b923820dcc509a6f75849b.svg"
+        ]
+    },
+    "answer": "а) Нет; б) Нет; в) Нет.",
+    "topic_id": null,
+    "analog_ids": []
+}

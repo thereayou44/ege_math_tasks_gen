@@ -1,0 +1,36 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521258,
+    "condition": {
+        "text": "Решите неравенство: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629462\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те&nbsp;не­ра­вен­ство: <img src=\"https://ege.sdamgia.ru/formula/svg/dc/dca201d26c19596ad0109979adf5b6b0.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"|x в квад­ра­те минус 3x| умно­жить на ло­га­рифм по ос­но­ва­нию 2 левая круг­лая скоб­ка x плюс 1 пра­вая круг­лая скоб­ка мень­ше или равно 3x минус x в квад­ра­те .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/dc/dca201d26c19596ad0109979adf5b6b0.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. При  имеем  поэтому можно поделить на   — положительное число.Подходит При  или  обе части неравенства обращаются в 0, неравенство верно.При   или  имеем  поэтому можно поделить на   — положительное число. Имеем:все такие x подходят в  условие   или  Ответ ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521258\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">При <img src=\"https://ege.sdamgia.ru/formula/svg/7b/7b6d98f3066463164984245c2eb50bbd.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x при­над­ле­жит левая круг­лая скоб­ка 0;3 пра­вая круг­лая скоб­ка \"> имеем <img src=\"https://ege.sdamgia.ru/formula/svg/b3/b362df06993c68c170b08558a077e87c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x в квад­ра­те минус 3x=x левая круг­лая скоб­ка x минус 3 пра­вая круг­лая скоб­ка мень­ше 0,\"> по­это­му можно по­де­лить на <img src=\"https://ege.sdamgia.ru/formula/svg/55/55904f461159b63583b2790b56d21e4a.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"|x в квад­ра­те минус 3x|=3x минус x в квад­ра­те \">  — по­ло­жи­тель­ное число.</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/81/816a2c10482b0c03ba3c336e3595348c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" ло­га­рифм по ос­но­ва­нию 2 левая круг­лая скоб­ка x плюс 1 пра­вая круг­лая скоб­ка мень­ше или равно 1 рав­но­силь­но 0 мень­ше x плюс 1 мень­ше или равно 2 рав­но­силь­но минус 1 мень­ше x мень­ше или равно 1.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Под­хо­дит <img src=\"https://ege.sdamgia.ru/formula/svg/94/949ac3ae302ce8f75e7c9c560b380cb8.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x при­над­ле­жит левая круг­лая скоб­ка 0;1 пра­вая квад­рат­ная скоб­ка .\"></p><p class=\"left_margin\">При <img src=\"https://ege.sdamgia.ru/formula/svg/e1/e11729b0b65ecade3fc272548a3883fc.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=0\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/58/5870bb658ee9e8a6900c138365d64c80.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=3\"> обе части не­ра­вен­ства об­ра­ща­ют­ся в 0, не­ра­вен­ство верно.</p><p class=\"left_margin\">При <img src=\"https://ege.sdamgia.ru/formula/svg/97/97fdf90850f660f05349f4ad145b62dc.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x мень­ше 0\">  или <img src=\"https://ege.sdamgia.ru/formula/svg/70/70bd59c13dc73bf9bd6d754179e97497.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x боль­ше 3\"> имеем <img src=\"https://ege.sdamgia.ru/formula/svg/be/bee7486f81ebfedb8004f5b3a217cbc1.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x в квад­ра­те минус 3x боль­ше 0,\"> по­это­му можно по­де­лить на <img src=\"https://ege.sdamgia.ru/formula/svg/65/65ae4bfa7929052af975a899b3497df1.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"|x в квад­ра­те минус 3x|=x в квад­ра­те минус 3x\">  — по­ло­жи­тель­ное число. Имеем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/cd/cd29790a86254f518054cd52ef014706.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" ло­га­рифм по ос­но­ва­нию 2 левая круг­лая скоб­ка x плюс 1 пра­вая круг­лая скоб­ка мень­ше или равно минус 1 рав­но­силь­но 0 мень­ше x плюс 1 мень­ше или равно дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби рав­но­силь­но минус 1 мень­ше x мень­ше или равно минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби ,\"></p><p class=\"left_margin\"></p></center><p>все такие <i>x</i> под­хо­дят в  усло­вие <img src=\"https://ege.sdamgia.ru/formula/svg/97/97fdf90850f660f05349f4ad145b62dc.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x мень­ше 0\">  или <img src=\"https://ege.sdamgia.ru/formula/svg/14/14877e6ba1256d6d16e589db091e87f6.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x боль­ше 3.\"></p><p>&nbsp;</p><p class=\"left_margin\">Ответ <img src=\"https://ege.sdamgia.ru/formula/svg/3a/3a179ebec9607f05b66a04d25e277a65.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"x при­над­ле­жит левая круг­лая скоб­ка минус 1; минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби пра­вая квад­рат­ная скоб­ка \\cup левая квад­рат­ная скоб­ка 0;1 пра­вая квад­рат­ная скоб­ка \\cup левая фи­гур­ная скоб­ка 3 пра­вая фи­гур­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/7b/7b6d98f3066463164984245c2eb50bbd.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b362df06993c68c170b08558a077e87c.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/55904f461159b63583b2790b56d21e4a.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/816a2c10482b0c03ba3c336e3595348c.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/949ac3ae302ce8f75e7c9c560b380cb8.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e11729b0b65ecade3fc272548a3883fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/58/5870bb658ee9e8a6900c138365d64c80.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/97fdf90850f660f05349f4ad145b62dc.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/70bd59c13dc73bf9bd6d754179e97497.svg",
+            "https://ege.sdamgia.ru/formula/svg/be/bee7486f81ebfedb8004f5b3a217cbc1.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/65ae4bfa7929052af975a899b3497df1.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cd29790a86254f518054cd52ef014706.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/97fdf90850f660f05349f4ad145b62dc.svg",
+            "https://ege.sdamgia.ru/formula/svg/14/14877e6ba1256d6d16e589db091e87f6.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3a179ebec9607f05b66a04d25e277a65.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

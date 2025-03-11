@@ -1,0 +1,37 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 526890,
+    "condition": {
+        "text": "На гипотенузе AB и  на катетах BC и AC прямоугольного треугольника ABC отмечены точки M, N и K соответственно, причем прямая KN параллельна прямой AB и BM  =  BN  =   Точка P  — середина отрезка KN.а)  Докажите, что четырехугольник BCPM  — равнобедренная трапеция.б)  Найдите площадь треугольника ABC, если  и ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body419030\" class=\"pbody\"><p class=\"left_margin\">На ги­по­те­ну­зе <i>AB</i> и  на ка­те­тах <i>BC</i> и <i>AC</i> пря­мо­уголь­но­го тре­уголь­ни­ка <i>ABC</i> от­ме­че­ны точки <i>M</i>, <i>N</i> и <i>K</i> со­от­вет­ствен­но, при­чем пря­мая <i>KN</i> па­рал­лель­на пря­мой <i>AB</i> и <i>BM</i>  =  <i>BN</i>  =  <img src=\"https://ege.sdamgia.ru/formula/svg/15/15787011f23e37ab9cb49c7f4ad65632.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби KN.\"> Точка <i>P</i>  — се­ре­ди­на от­рез­ка <i>KN</i>.</p><p class=\"left_margin\">а)  До­ка­жи­те, что че­ты­рех­уголь­ник <i>BCPM</i>  — рав­но­бед­рен­ная тра­пе­ция.</p><p class=\"left_margin\">б)  Най­ди­те пло­щадь тре­уголь­ни­ка <i>ABC</i>, если <img src=\"https://ege.sdamgia.ru/formula/svg/cd/cd1c94c47f559cdd613da30522bf09c2.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BM=1\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/c2/c2f52a5486ffb3c114a0edef08826dd8.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle BCM=15 гра­ду­сов.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/15/15787011f23e37ab9cb49c7f4ad65632.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cd1c94c47f559cdd613da30522bf09c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c2f52a5486ffb3c114a0edef08826dd8.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Поскольку прямая NP параллельна прямой BM и   четырехугольник BNPM  — ромб. Значит, прямая PM параллельна прямой BC, а так как CP  — медиана прямоугольного треугольника KCN, проведенная из вершины прямого угла, то  Следовательно, четырехугольник BCPM  — равнобедренная трапеция.б)  Поскольку  треугольник CPM равнобедренный, поэтому  Значит, CM  — биссектриса угла BCP. Тогда:  Следовательно,  Ответ: б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol526890\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  По­сколь­ку пря­мая <i>NP</i> па­рал­лель­на пря­мой <i>BM</i> и <img src=\"https://ege.sdamgia.ru/formula/svg/cf/cf4af894324020462dda377a832da619.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"NP= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби KN = BM = BN,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/60/60b490d84b76926f1d81cf1171af9645.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"NP= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби \"> че­ты­рех­уголь­ник <i>BNPM</i>  — ромб. Зна­чит, пря­мая <i>PM</i> па­рал­лель­на пря­мой <i>BC</i>, а так как <i>CP</i>  — ме­ди­а­на пря­мо­уголь­но­го тре­уголь­ни­ка <i>KCN</i>, про­ве­ден­ная из вер­ши­ны пря­мо­го угла, то <img src=\"https://ege.sdamgia.ru/formula/svg/b0/b07f7597c7a079c06d63c0995f6b82f2.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"CP= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби KN=BN=PM=BM.\"> Сле­до­ва­тель­но, че­ты­рех­уголь­ник <i>BCPM</i>  — рав­но­бед­рен­ная тра­пе­ция.</p><p class=\"left_margin\">б)  По­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/ae/ae7e9957556c96514e9fd981c08b76c5.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"CP= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби KN=BN=PM,\"> тре­уголь­ник <i>CPM</i> рав­но­бед­рен­ный, по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/a4/a45ed65cbc300b99f564ea2bb14a0b4e.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle PCM =\\angle CMP= \\angle BCM.\"> Зна­чит, <i>CM</i>  — бис­сек­три­са угла <i>BCP</i>. Тогда: <img src=\"/get_file?id=147448\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/16/165b103ec271ebb0ca036ccd54a74f9a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle ABC=\\angle MBC=\\angle BCP=2\\angle BCM=2 умно­жить на 15 гра­ду­сов=30 гра­ду­сов,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/76/76a0056c1fb372687db64a91ee0b84bb.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"\\angle KNC=\\angle ABC=30 гра­ду­сов, CN=KN ко­си­нус 30 гра­ду­сов=2 умно­жить на дробь: чис­ли­тель: ко­рень из 3 , зна­ме­на­тель: 2 конец дроби = ко­рень из 3 , \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/f1/f151477f0688f6fe2949e7994a8fed2c.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"BC=CN плюс BN= ко­рень из 3 плюс 1, AC=BC тан­генс 30 гра­ду­сов = дробь: чис­ли­тель: ко­рень из 3 плюс 1, зна­ме­на­тель: ко­рень из 3 конец дроби . \"></p><p class=\"left_margin\"></p></center><p> Сле­до­ва­тель­но, </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e4/e49b6c9cfb4b76b729bc921c8a67f6fc.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"S_ABC= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби AC умно­жить на BC= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби левая круг­лая скоб­ка ко­рень из 3 плюс 1 пра­вая круг­лая скоб­ка умно­жить на дробь: чис­ли­тель: ко­рень из 3 плюс 1, зна­ме­на­тель: ко­рень из 3 конец дроби = дробь: чис­ли­тель: 2 ко­рень из 3 плюс 3, зна­ме­на­тель: 3 конец дроби . \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) <img src=\"https://ege.sdamgia.ru/formula/svg/1c/1c8000af3678352b72b9df28bea04346.svg\" class=\"tex\" style=\"vertical-align:-8.6pt\" alt=\" дробь: чис­ли­тель: 2 ко­рень из 3 плюс 3, зна­ме­на­тель: 3 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/cf/cf4af894324020462dda377a832da619.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/60b490d84b76926f1d81cf1171af9645.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b07f7597c7a079c06d63c0995f6b82f2.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/ae7e9957556c96514e9fd981c08b76c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a45ed65cbc300b99f564ea2bb14a0b4e.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/165b103ec271ebb0ca036ccd54a74f9a.svg",
+            "https://ege.sdamgia.ru/formula/svg/76/76a0056c1fb372687db64a91ee0b84bb.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f151477f0688f6fe2949e7994a8fed2c.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e49b6c9cfb4b76b729bc921c8a67f6fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1c8000af3678352b72b9df28bea04346.svg",
+            "/get_file?id=147448"
+        ]
+    },
+    "answer": "б)",
+    "topic_id": 17,
+    "analog_ids": [
+        526890,
+        526897
+    ]
+}

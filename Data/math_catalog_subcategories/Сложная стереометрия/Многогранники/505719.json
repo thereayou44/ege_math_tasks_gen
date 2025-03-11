@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 505719,
+    "condition": {
+        "text": "На продолжении ребра ST за точку T правильной четырехугольной пирамиды SPQRT с вершиной S взята точка B так, что расстояние от этой точки до плоскости SPQ равно  Найти длину отрезка BT, если QR = 12, SR = 10.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body645515\" class=\"pbody\"><p class=\"left_margin\">На про­дол­же­нии ребра <i>ST</i> за точку <i>T</i> пра­виль­ной че­ты­рех­уголь­ной пи­ра­ми­ды <i>SPQRT</i> с вер­ши­ной <i>S</i> взята точка <i>B</i> так, что рас­сто­я­ние от этой точки до плос­ко­сти <i>SPQ</i> равно <img src=\"https://ege.sdamgia.ru/formula/svg/d9/d950b2b28f246e7c651f37573c15ae0d.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 9 ко­рень из: на­ча­ло ар­гу­мен­та: 7 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби . \"> Найти длину от­рез­ка <i>BT</i>, если <i>QR</i> = 12, <i>SR</i> = 10.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d9/d950b2b28f246e7c651f37573c15ae0d.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Пусть X и Y  — середины TR и QP соответственно. Заметим сразу, что  Тогда  (так как высота треугольника SXY будет перпендикулярна PQ по теореме о трех перпендикулярах). Опустим перпендикуляры TH и BG на плоскость  Треугольники STH и SBG будут подобны, откуда  значит,  и  Ответ:  5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol505719\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть <i>X</i> и <i>Y</i>  — се­ре­ди­ны <i>TR</i> и <i>QP</i> со­от­вет­ствен­но. За­ме­тим сразу, что <img src=\"https://ege.sdamgia.ru/formula/svg/12/1208a943d5eb09bba4db1d89b8b5fb80.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"SX=SY= ко­рень из: на­ча­ло ар­гу­мен­та: 10 в квад­ра­те минус 6 в квад­ра­те конец ар­гу­мен­та =8.\"> Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/5b/5b34cead15954c28fd3c3260c5bbd5ac.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"d левая круг­лая скоб­ка T,SPQ пра­вая круг­лая скоб­ка =d левая круг­лая скоб­ка X,SPQ пра­вая круг­лая скоб­ка =d левая круг­лая скоб­ка X,SY пра­вая круг­лая скоб­ка \"> (так как вы­со­та тре­уголь­ни­ка <i>SXY</i> будет пер­пен­ди­ку­ляр­на <i>PQ</i> по тео­ре­ме о трех пер­пен­ди­ку­ля­рах). </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/0c/0ce5e5e3a8a7244f5e2d5fc7e83164f2.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"d левая круг­лая скоб­ка X,SY пра­вая круг­лая скоб­ка = дробь: чис­ли­тель: 2S_SXY, зна­ме­на­тель: SY конец дроби = дробь: чис­ли­тель: 12d левая круг­лая скоб­ка S,XY пра­вая круг­лая скоб­ка , зна­ме­на­тель: 8 конец дроби = дробь: чис­ли­тель: 3 ко­рень из: на­ча­ло ар­гу­мен­та: 8 в квад­ра­те минус 6 в квад­ра­те конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби =3 ко­рень из: на­ча­ло ар­гу­мен­та: 7 конец ар­гу­мен­та . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Опу­стим пер­пен­ди­ку­ля­ры <i>TH</i> и <i>BG</i> на плос­кость <img src=\"https://ege.sdamgia.ru/formula/svg/3b/3b93730c398686289c9e84a1fde0a04f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"SPQ.\"> Тре­уголь­ни­ки <i>STH</i> и <i>SBG</i> будут по­доб­ны, от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/d5/d5f429ffc517eab299cafadbbcbe2a2f.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: TH, зна­ме­на­тель: BG конец дроби = дробь: чис­ли­тель: TS, зна­ме­на­тель: BS конец дроби , \"> зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/37/3725bef661d8ac465d101900b997e6fb.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: TS, зна­ме­на­тель: BS конец дроби = дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/00/00f75c8dad6d4c2e1a194128eb08685f.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"BT= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби TS=5.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  5.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/12/1208a943d5eb09bba4db1d89b8b5fb80.svg",
+            "https://ege.sdamgia.ru/formula/svg/5b/5b34cead15954c28fd3c3260c5bbd5ac.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0ce5e5e3a8a7244f5e2d5fc7e83164f2.svg",
+            "https://ege.sdamgia.ru/formula/svg/3b/3b93730c398686289c9e84a1fde0a04f.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d5f429ffc517eab299cafadbbcbe2a2f.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/3725bef661d8ac465d101900b997e6fb.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/00f75c8dad6d4c2e1a194128eb08685f.svg"
+        ]
+    },
+    "answer": "5.",
+    "topic_id": null,
+    "analog_ids": []
+}

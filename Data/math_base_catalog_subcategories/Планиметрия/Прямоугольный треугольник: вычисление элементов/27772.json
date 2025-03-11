@@ -1,0 +1,58 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27772,
+    "condition": {
+        "text": " Острый угол В прямоугольного треугольника равен 66°. Найдите угол между высотой СН и медианой СМ, проведенными из вершины прямого угла. Ответ дайте в градусах.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918144\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=144888\" style=\"float:right;margin:10px;max-width:100%\"> Ост­рый угол <i>В</i> пря­мо­уголь­но­го тре­уголь­ни­ка равен 66°. Най­ди­те угол между вы­со­той <i>СН</i> и ме­ди­а­ной <i>СМ</i>, про­ве­ден­ны­ми из вер­ши­ны пря­мо­го угла. Ответ дайте в гра­ду­сах.</p></div>",
+        "image_urls": [
+            "/get_file?id=144888"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Медиана, проведенная к гипотенузе прямоугольного треугольника, равна ее половине, поэтому AM  =  MC. Следовательно, углы A и ACM равны как углы при основании равнобедренного треугольника АМС. Основание высоты ближе к вершине большего острого угла. Имеем: Ответ: 42.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27772\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Ме­ди­а­на, про­ве­ден­ная к ги­по­те­ну­зе пря­мо­уголь­но­го тре­уголь­ни­ка, равна ее по­ло­ви­не, по­это­му <i>AM  =  MC</i>. Сле­до­ва­тель­но, углы <i>A</i> и <i>ACM</i> равны как углы при ос­но­ва­нии рав­но­бед­рен­но­го тре­уголь­ни­ка <i>АМС</i>. Ос­но­ва­ние вы­со­ты ближе к вер­ши­не боль­ше­го остро­го угла. Имеем: </p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"71230579471977b1089a9ede471c0af6\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/71/71230579471977b1089a9ede471c0af6.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\angle MCH=\\angle C минус \\angle ACM минус \\angle BCH=90 гра­ду­сов минус 24 гра­ду­сов минус левая круг­лая скоб­ка 90 гра­ду­сов минус 66 гра­ду­сов пра­вая круг­лая скоб­ка = 66 гра­ду­сов минус 24 гра­ду­сов = 42 гра­ду­сов .\"></span><span data-width=\"515\" data-formulahash=\"71230579471977b1089a9ede471c0af6\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/5f/5f036a26282abc70912f6346126c1658.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle MCH=\\angle C минус \\angle ACM минус \\angle BCH=\"><br><img src=\"https://ege.sdamgia.ru/formula/svg/06/06448ef425cb60233cf46b627e258627.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"=90 гра­ду­сов минус 24 гра­ду­сов минус левая круг­лая скоб­ка 90 гра­ду­сов минус 66 гра­ду­сов пра­вая круг­лая скоб­ка = 66 гра­ду­сов минус 24 гра­ду­сов = 42 гра­ду­сов .\"></span></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing:2px \">Ответ</span>: 42.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/71/71230579471977b1089a9ede471c0af6.svg",
+            "https://ege.sdamgia.ru/formula/svg/5f/5f036a26282abc70912f6346126c1658.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/06448ef425cb60233cf46b627e258627.svg"
+        ]
+    },
+    "answer": "42",
+    "topic_id": 1,
+    "analog_ids": [
+        27772,
+        500908,
+        502085,
+        504535,
+        500908,
+        502085,
+        504535,
+        504556,
+        520488,
+        520508,
+        639471,
+        47715,
+        47717,
+        47719,
+        47721,
+        47723,
+        47725,
+        47727,
+        47729,
+        47731,
+        47733,
+        47735,
+        47737,
+        47739,
+        47741,
+        47743,
+        47745,
+        47747,
+        47749,
+        47751,
+        47753,
+        47755,
+        47757
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 26847,
+    "condition": {
+        "text": "Найдите значение выражения ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919075\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те зна­че­ние вы­ра­же­ния <img src=\"https://ege.sdamgia.ru/formula/svg/c2/c28b328c35fe164e854433a762b68c34.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\log _48.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c2/c28b328c35fe164e854433a762b68c34.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Выполним преобразования:   Ответ: 1,5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol26847\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Вы­пол­ним пре­об­ра­зо­ва­ния: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/dd/ddb3c1b9dddcddeed5feb5916d411cbd.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"\\log _48 = ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 2 в квад­ра­те пра­вая круг­лая скоб­ка 2 в кубе = дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби { ло­га­рифм по ос­но­ва­нию 2 2=1,5.\"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 1,5.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/dd/ddb3c1b9dddcddeed5feb5916d411cbd.svg"
+        ]
+    },
+    "answer": "1,5",
+    "topic_id": 7,
+    "analog_ids": [
+        26847,
+        68553,
+        68511,
+        68513,
+        68553,
+        68511,
+        68513,
+        68515,
+        68517,
+        68519,
+        68521,
+        68523,
+        68525,
+        68527,
+        68529,
+        68531,
+        68533,
+        68535,
+        68537,
+        68539,
+        68541,
+        68543,
+        68545,
+        68547,
+        68549,
+        68551
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521913,
+    "condition": {
+        "text": "В ряду чисел 3 * 4 * 5 * 6 * 12 * 13 * 14 * 15 на месте каждой звездочки поставили знак сложения или вычитания (по своему усмотрению) и подсчитали результат. а)  Могло ли в результате вычисления получиться число 9?    б)  Какое наименьшее натуральное число могло получиться в результате вычисления?  в)  В ряду чисел 3 * 4 * 5 * 6 * 12 * 13 * 14 * 15 на месте каждой звездочки поставили знак умножения или деления (по своему усмотрению) и подсчитали результат. Какое наименьшее натуральное число могло получиться в результате вычисления?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body628805\" class=\"pbody\"><p class=\"left_margin\">В ряду чисел 3 * 4 * 5 * 6 * 12 * 13 * 14 * 15 на месте каж­дой звез­доч­ки по­ста­ви­ли знак сло­же­ния или вы­чи­та­ния (по сво­е­му усмот­ре­нию) и под­счи­та­ли ре­зуль­тат. </p><p class=\"left_margin\">а)  Могло ли в ре­зуль­та­те вы­чис­ле­ния по­лу­чить­ся число 9?    </p><p class=\"left_margin\">б)  Какое наи­мень­шее на­ту­раль­ное число могло по­лу­чить­ся в ре­зуль­та­те вы­чис­ле­ния?  </p><p class=\"left_margin\">в)  В ряду чисел 3 * 4 * 5 * 6 * 12 * 13 * 14 * 15 на месте каж­дой звез­доч­ки по­ста­ви­ли знак умно­же­ния или де­ле­ния (по сво­е­му усмот­ре­нию) и под­счи­та­ли ре­зуль­тат. Какое наи­мень­шее на­ту­раль­ное число могло по­лу­чить­ся в ре­зуль­та­те вы­чис­ле­ния?</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Сумма всех чисел четна, а при замене знака перед числом x сумма меняется на  поэтому всегда остается четной и не может быть равна б)  По предыдущему рассуждению, получить  нельзя. В то же время в)  В результате получится дробь, в которой некоторые из чисел отправлены в числитель, а некоторые в знаменатель. Чтобы получилось целое число, степень вхождения каждого простого в знаменатель должна быть не больше, чем степень вхождения в числитель. Всего в данных числах есть шесть множителей  четыре множителя  два множителя  и по одному множителю  и  поэтому результат будет не меньше  Этого добиться можно, например так  —  Ответ: а) Нет; б) 2; в) 91.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521913\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Сумма всех чисел четна, а при за­ме­не знака перед чис­лом <i>x</i> сумма ме­ня­ет­ся на <img src=\"https://ege.sdamgia.ru/formula/svg/50/50477ead28df15168cfabc09bed03428.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2x,\"> по­это­му все­гда оста­ет­ся чет­ной и не может быть равна <img src=\"https://ege.sdamgia.ru/formula/svg/d3/d39aeb060e81b0fc04267ae08255938a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"9.\"></p><p class=\"left_margin\">б)  По преды­ду­ще­му рас­суж­де­нию, по­лу­чить <img src=\"https://ege.sdamgia.ru/formula/svg/c4/c4ca4238a0b923820dcc509a6f75849b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"1\"> нель­зя. В то же время <img src=\"https://ege.sdamgia.ru/formula/svg/14/1443c245ef34d9b7fb0c6dd94c259967.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2=3 минус 4 плюс 5 минус 6 минус 12 минус 13 плюс 14 плюс 15.\"></p><p class=\"left_margin\">в)  В ре­зуль­та­те по­лу­чит­ся дробь, в ко­то­рой не­ко­то­рые из чисел от­прав­ле­ны в чис­ли­тель, а не­ко­то­рые в зна­ме­на­тель. Чтобы по­лу­чи­лось целое число, сте­пень вхож­де­ния каж­до­го про­сто­го в зна­ме­на­тель долж­на быть не боль­ше, чем сте­пень вхож­де­ния в чис­ли­тель. Всего в дан­ных чис­лах есть шесть мно­жи­те­лей <img src=\"https://ege.sdamgia.ru/formula/svg/70/70623d96ac2e03af814c12d092c446fc.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2,\"> че­ты­ре мно­жи­те­ля <img src=\"https://ege.sdamgia.ru/formula/svg/24/24cccdfe8b9dddaed87bb893d7abcfc2.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"3,\"> два мно­жи­те­ля <img src=\"https://ege.sdamgia.ru/formula/svg/e4/e4da3b7fbbce2345d7772b0674a318d5.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"5\"> и по од­но­му мно­жи­те­лю <img src=\"https://ege.sdamgia.ru/formula/svg/8f/8f14e45fceea167a5a36dedd4bea2543.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"7\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/62/623cd18ef301873839dc7a6e8bb8dbfd.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"13,\"> по­это­му ре­зуль­тат будет не мень­ше <img src=\"https://ege.sdamgia.ru/formula/svg/c1/c1e4b459944fb9713d8237cb854f3aa3.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"91.\"> Этого до­бить­ся можно, на­при­мер так  — <img src=\"https://ege.sdamgia.ru/formula/svg/1d/1def386109de1606c4e9c2c980495376.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"3\\times 4:5:6:12\\times 13\\times 14\\times 15.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) Нет; б) 2; в) 91.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/50/50477ead28df15168cfabc09bed03428.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d39aeb060e81b0fc04267ae08255938a.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c4ca4238a0b923820dcc509a6f75849b.svg",
+            "https://ege.sdamgia.ru/formula/svg/14/1443c245ef34d9b7fb0c6dd94c259967.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/70623d96ac2e03af814c12d092c446fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/24/24cccdfe8b9dddaed87bb893d7abcfc2.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e4da3b7fbbce2345d7772b0674a318d5.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8f14e45fceea167a5a36dedd4bea2543.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/623cd18ef301873839dc7a6e8bb8dbfd.svg",
+            "https://ege.sdamgia.ru/formula/svg/c1/c1e4b459944fb9713d8237cb854f3aa3.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1def386109de1606c4e9c2c980495376.svg"
+        ]
+    },
+    "answer": "а) Нет; б) 2; в) 91.",
+    "topic_id": null,
+    "analog_ids": []
+}

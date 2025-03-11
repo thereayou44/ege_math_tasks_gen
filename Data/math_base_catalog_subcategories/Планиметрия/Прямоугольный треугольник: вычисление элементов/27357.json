@@ -1,0 +1,49 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27357,
+    "condition": {
+        "text": "В треугольнике ABC угол C равен 90°, CH  — высота,   Найдите ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918561\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=144900\" style=\"float:right;margin:10px;max-width:100%\">В тре­уголь­ни­ке <i>ABC</i> угол <i>C</i> равен 90°, <i>CH</i>  — вы­со­та, <img src=\"https://ege.sdamgia.ru/formula/svg/80/8064a161bd1cb91f4f85278ce7475969.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AH = 27,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/2e/2ea3f5f12cfe00be3bb5300739b5c7ec.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" тан­генс A = дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби . \"> Най­ди­те <img src=\"https://ege.sdamgia.ru/formula/svg/2e/2ede603c967cea8137120223a538a2c4.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BH.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/80/8064a161bd1cb91f4f85278ce7475969.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2ea3f5f12cfe00be3bb5300739b5c7ec.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2ede603c967cea8137120223a538a2c4.svg",
+            "/get_file?id=144900"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Углы A и HCB равны как углы со взаимно перпендикулярными сторонами. Поэтому из треугольников BHC и BCA имеем:      Ответ: 12. Приведем другое решение.Из треугольника ACH по определению тангенса находим, что  Тогда:По свойству высоты прямоугольного треугольника, проведенной к гипотенузе, получим:  следовательно:",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27357\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Углы <i>A</i> и <i>HCB</i> равны как углы со вза­им­но пер­пен­ди­ку­ляр­ны­ми сто­ро­на­ми. По­это­му из тре­уголь­ни­ков <i>BHC</i> и <i>BCA</i> имеем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/6f/6fad951772dbc47e8772b2fa0fd2c6fc.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"BH=CH тан­генс \\angle HCB = CH тан­генс A = AH тан­генс в квад­ра­те A = 27 умно­жить на дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби умно­жить на дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби =12. \"></p><p class=\"left_margin\"></p></center>      <p><span style=\"letter-spaceing:2px\">Ответ</span>: 12.</p><p>&nbsp;</p><p><b>При­ве­дем дру­гое ре­ше­ние.</b></p><p class=\"left_margin\">Из тре­уголь­ни­ка <i>ACH</i> по опре­де­ле­нию тан­ген­са на­хо­дим, что <img src=\"https://ege.sdamgia.ru/formula/svg/fd/fd9aa8ee3a2dd56f560edbd8080cced9.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" тан­генс A= дробь: чис­ли­тель: CH, зна­ме­на­тель: AH конец дроби . \"> Тогда:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/80/801e5b9f756411124cfe47d7a8474922.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"CH=AH умно­жить на тан­генс A=27 умно­жить на дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби =18.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">По свой­ству вы­со­ты пря­мо­уголь­но­го тре­уголь­ни­ка, про­ве­ден­ной к ги­по­те­ну­зе, по­лу­чим: <img src=\"https://ege.sdamgia.ru/formula/svg/c1/c161191769094c5bb93b6b97ac26fefa.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"CH в квад­ра­те =AH умно­жить на HB,\"> сле­до­ва­тель­но:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f4/f4b65eb7c3f5aeee46ff8713d7aa0eb2.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" BH= дробь: чис­ли­тель: CH в квад­ра­те , зна­ме­на­тель: AH конец дроби = дробь: чис­ли­тель: 18 умно­жить на 18, зна­ме­на­тель: 27 конец дроби =12. \"></p><p class=\"left_margin\"></p><center></center></center></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/6f/6fad951772dbc47e8772b2fa0fd2c6fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fd9aa8ee3a2dd56f560edbd8080cced9.svg",
+            "https://ege.sdamgia.ru/formula/svg/80/801e5b9f756411124cfe47d7a8474922.svg",
+            "https://ege.sdamgia.ru/formula/svg/c1/c161191769094c5bb93b6b97ac26fefa.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f4b65eb7c3f5aeee46ff8713d7aa0eb2.svg"
+        ]
+    },
+    "answer": "12",
+    "topic_id": 1,
+    "analog_ids": [
+        27357,
+        19899,
+        19901,
+        19903,
+        19899,
+        19901,
+        19903,
+        19905,
+        19907,
+        19909,
+        19911,
+        19913,
+        19915,
+        19917,
+        19919,
+        19921,
+        19923,
+        19925,
+        19927
+    ]
+}

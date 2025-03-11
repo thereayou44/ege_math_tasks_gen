@@ -1,0 +1,48 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 507893,
+    "condition": {
+        "text": "Решите неравенство ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body643337\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/0f/0f736b5a7572bfd17ae2704ee6738eb7.svg\" class=\"tex\" style=\"vertical-align:-4.7pt\" alt=\" ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка x в квад­ра­те плюс x пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x в квад­ра­те минус 2x плюс 1 пра­вая круг­лая скоб­ка \\leqslant1.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/0f/0f736b5a7572bfd17ae2704ee6738eb7.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение.  1)  Если  то откуда  или  2)  Если  то откуда  или Объединяя найденные промежутки, получаем решение неравенства: или  или  или  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol507893\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=143331\" style=\"float:right;margin:10px;max-width:100%\"> 1)  Если <img src=\"https://ege.sdamgia.ru/formula/svg/6f/6fc7c562580b8f416b027508f15b2595.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x в квад­ра­те плюс x боль­ше 1,\"> то</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e2/e2d5b6f03afed8045a5dc2831cd88840.svg\" class=\"tex\" style=\"vertical-align:-21.0pt\" alt=\" си­сте­ма вы­ра­же­ний x в квад­ра­те плюс x минус 1 боль­ше 0, 0 мень­ше x в квад­ра­те минус 2x плюс 1 мень­ше или равно x в квад­ра­те плюс x конец си­сте­мы рав­но­силь­но си­сте­ма вы­ра­же­ний x в квад­ра­те плюс x минус 1 боль­ше 0, x не равно 1, 3x боль­ше или равно 1, конец си­сте­мы \"></p><p>&nbsp;</p><p>от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/8c/8c4ff6d2fad8c0cd7c170618b405a23c.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: минус 1 плюс ко­рень из: на­ча­ло ар­гу­мен­та: 5 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби мень­ше x мень­ше 1 \"> или <img src=\"https://ege.sdamgia.ru/formula/svg/81/81ca628b26eb0aa0666b1a7fcb9b2544.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x боль­ше 1.\"></p><p class=\"left_margin\"></p></center><p><img src=\"/get_file?id=143334\" style=\"float:right;margin:10px;max-width:100%\"> 2)  Если <img src=\"https://ege.sdamgia.ru/formula/svg/5a/5a585eee347451d330aa169b85d4dbfd.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"0 мень­ше x в квад­ра­те плюс x мень­ше 1,\"> то</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/7a/7adf90ad36eb30629dca833628ef6d7d.svg\" class=\"tex\" style=\"vertical-align:-21.1pt\" alt=\" си­сте­ма вы­ра­же­ний x в квад­ра­те плюс x минус 1 мень­ше 0, x в квад­ра­те плюс x боль­ше 0 , x в квад­ра­те минус 2x плюс 1 боль­ше или равно x в квад­ра­те плюс x конец си­сте­мы рав­но­силь­но си­сте­ма вы­ра­же­ний x в квад­ра­те плюс x минус 1 мень­ше 0 , x левая круг­лая скоб­ка x плюс 1 пра­вая круг­лая скоб­ка боль­ше 0, 3x мень­ше или равно 1, конец си­сте­мы \"></p><p>&nbsp;</p><p>от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/6f/6f9f42b9167c6618e18afda8cc1f6b71.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: минус 1 минус ко­рень из: на­ча­ло ар­гу­мен­та: 5 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби мень­ше x мень­ше минус 1 \"> или <img src=\"https://ege.sdamgia.ru/formula/svg/71/71a7edd79b15004a3cee037e3aacc0f7.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"0 мень­ше x мень­ше или равно дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби .\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Объ­еди­няя най­ден­ные про­ме­жут­ки, по­лу­ча­ем ре­ше­ние не­ра­вен­ства:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/6f/6f9f42b9167c6618e18afda8cc1f6b71.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: минус 1 минус ко­рень из: на­ча­ло ар­гу­мен­та: 5 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби мень­ше x мень­ше минус 1 \"> или <img src=\"https://ege.sdamgia.ru/formula/svg/b0/b02866796cc5aba6f476602b710b7fae.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"0 мень­ше x мень­ше или равно дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби \"> или <img src=\"https://ege.sdamgia.ru/formula/svg/8c/8c4ff6d2fad8c0cd7c170618b405a23c.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: минус 1 плюс ко­рень из: на­ча­ло ар­гу­мен­та: 5 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби мень­ше x мень­ше 1 \"> или <img src=\"https://ege.sdamgia.ru/formula/svg/81/81ca628b26eb0aa0666b1a7fcb9b2544.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x боль­ше 1.\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/0b/0bb785b032f6baea003439df30bddcea.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" левая круг­лая скоб­ка дробь: чис­ли­тель: минус 1 минус ко­рень из: на­ча­ло ар­гу­мен­та: 5 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби ; минус 1 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 0; дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби пра­вая квад­рат­ная скоб­ка \\cup левая круг­лая скоб­ка дробь: чис­ли­тель: минус 1 плюс ко­рень из: на­ча­ло ар­гу­мен­та: 5 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби ;1 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 1; плюс бес­ко­неч­ность пра­вая круг­лая скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/6f/6fc7c562580b8f416b027508f15b2595.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e2d5b6f03afed8045a5dc2831cd88840.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8c4ff6d2fad8c0cd7c170618b405a23c.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/81ca628b26eb0aa0666b1a7fcb9b2544.svg",
+            "https://ege.sdamgia.ru/formula/svg/5a/5a585eee347451d330aa169b85d4dbfd.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7adf90ad36eb30629dca833628ef6d7d.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6f9f42b9167c6618e18afda8cc1f6b71.svg",
+            "https://ege.sdamgia.ru/formula/svg/71/71a7edd79b15004a3cee037e3aacc0f7.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6f9f42b9167c6618e18afda8cc1f6b71.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b02866796cc5aba6f476602b710b7fae.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8c4ff6d2fad8c0cd7c170618b405a23c.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/81ca628b26eb0aa0666b1a7fcb9b2544.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0bb785b032f6baea003439df30bddcea.svg",
+            "/get_file?id=143331",
+            "/get_file?id=143334"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": [
+        507893,
+        507921,
+        508498,
+        508500,
+        507921,
+        508498,
+        508500,
+        508506,
+        508508,
+        511555,
+        511557
+    ]
+}

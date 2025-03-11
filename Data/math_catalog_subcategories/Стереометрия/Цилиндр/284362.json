@@ -1,0 +1,50 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 284362,
+    "condition": {
+        "text": "Площадь боковой поверхности цилиндра равна  а высота  — 1. Найдите диаметр основания.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body669750\" class=\"pbody\"><p class=\"left_margin\">Пло­щадь бо­ко­вой по­верх­но­сти ци­лин­дра равна <img src=\"https://ege.sdamgia.ru/formula/svg/6e/6e5350c20fdcc28266b4afcec073a245.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2 Пи ,\"> а вы­со­та  — 1. Най­ди­те диа­метр ос­но­ва­ния.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/6e/6e5350c20fdcc28266b4afcec073a245.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Площадь боковой поверхности цилиндра находится по формуле:  значит,  Ответ: 2.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol284362\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=113397\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">Пло­щадь бо­ко­вой по­верх­но­сти ци­лин­дра на­хо­дит­ся по фор­му­ле: <img src=\"https://ege.sdamgia.ru/formula/svg/b1/b1a406a3a58236bac02c55e37782429c.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"S_бок=2 Пи rh,\"> зна­чит, </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/1d/1df7c05404ced06fd39cc566b357180f.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"d=2r=2 дробь: чис­ли­тель: S_бок, зна­ме­на­тель: 2 Пи h конец дроби = дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: Пи h конец дроби =2. \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 2.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b1/b1a406a3a58236bac02c55e37782429c.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1df7c05404ced06fd39cc566b357180f.svg",
+            "/get_file?id=113397"
+        ]
+    },
+    "answer": "2",
+    "topic_id": 3,
+    "analog_ids": [
+        284362,
+        285799,
+        285839,
+        285801,
+        285799,
+        285839,
+        285801,
+        285803,
+        285805,
+        285807,
+        285809,
+        285811,
+        285813,
+        285815,
+        285817,
+        285819,
+        285821,
+        285823,
+        285825,
+        285827,
+        285829,
+        285831,
+        285833,
+        285835,
+        285837
+    ]
+}

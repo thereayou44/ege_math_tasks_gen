@@ -1,0 +1,25 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521502,
+    "condition": {
+        "text": "В  трапеции  ABCD BC||AD,  Прямая, перпендикулярная стороне CD, пересекает сторону АВ в точке М, а сторону CD  — в точке N. а)  Докажите подобие треугольников АВN и DCM б)  Найдите расстояние от точки А до прямой ВN, если МС  =  5, ВN  =  3, а расстояние от точки D до прямой МС равно 6.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629730\" class=\"pbody\"><p class=\"left_margin\">В  тра­пе­ции  <i>ABCD</i> <i>BC</i>||<i>AD</i>, <img src=\"https://ege.sdamgia.ru/formula/svg/2d/2d2046b3d5c122184b51b0ef7204727c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle ABC=90 гра­ду­сов.\"> Пря­мая, пер­пен­ди­ку­ляр­ная </p><p>сто­ро­не <i>CD</i>, пе­ре­се­ка­ет сто­ро­ну <i>АВ</i> в точке <i>М</i>, а сто­ро­ну <i>CD</i>  — в точке <i>N</i>. </p><p class=\"left_margin\">а)  До­ка­жи­те по­до­бие тре­уголь­ни­ков <i>АВN</i> и <i>DCM</i> </p><p class=\"left_margin\">б)  Най­ди­те рас­сто­я­ние от точки <i>А</i> до пря­мой <i>ВN</i>, если <i>МС</i>  =  5, <i>ВN</i>  =  3, а рас­сто­я­ние от точки <i>D</i> до пря­мой <i>МС</i> равно 6.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/2d/2d2046b3d5c122184b51b0ef7204727c.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Из вписанности четырехгольников BCNM и AMND, имеющих по два противоположных прямых угла, имеем  откуда и следует подобие треугольников ABN и DCM по двум углам. б)   где k  — коэффициент подобия треугольников из п. а). Значит,  Ответ: 3,6.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521502\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=36404\" style=\"float:right;margin:10px\">а)  Из впи­сан­но­сти че­ты­рех­голь­ни­ков <i>BCNM</i> и <i>AMND</i>, име­ю­щих по два про­ти­во­по­лож­ных пря­мых угла, имеем <img src=\"https://ege.sdamgia.ru/formula/svg/7e/7e48f057fe2e8bfcebb4c57849eaa9ba.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle MBN=\\angle MCN, \\angle MAN=\\angle MDN,\"> от­ку­да и сле­ду­ет по­до­бие тре­уголь­ни­ков <i>ABN</i> и <i>DCM</i> по двум углам.</p><p>&nbsp;</p><p class=\"left_margin\">б)  <img src=\"https://ege.sdamgia.ru/formula/svg/a7/a74601aab36c66479921c3875a819448.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"d левая круг­лая скоб­ка A,BN пра­вая круг­лая скоб­ка =d левая круг­лая скоб­ка D,MC пра­вая круг­лая скоб­ка умно­жить на k,\"> где <i>k</i>  — ко­эф­фи­ци­ент по­до­бия тре­уголь­ни­ков из п. а). Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/30/3044076566ffe6a2500aefee542776fd.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"d левая круг­лая скоб­ка A,BN пра­вая круг­лая скоб­ка =6 умно­жить на дробь: чис­ли­тель: BN, зна­ме­на­тель: MC конец дроби = дробь: чис­ли­тель: 18, зна­ме­на­тель: 5 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 3,6.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/7e/7e48f057fe2e8bfcebb4c57849eaa9ba.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a74601aab36c66479921c3875a819448.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/3044076566ffe6a2500aefee542776fd.svg",
+            "/get_file?id=36404"
+        ]
+    },
+    "answer": "3,6.",
+    "topic_id": null,
+    "analog_ids": []
+}

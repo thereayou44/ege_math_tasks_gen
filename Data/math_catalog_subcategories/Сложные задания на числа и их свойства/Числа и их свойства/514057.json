@@ -1,0 +1,31 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 514057,
+    "condition": {
+        "text": "а)  Можно ли число 2016 представить в виде суммы семи последовательных натуральных чисел?  б)  Можно ли число 2016 представить в виде суммы шести последовательных натуральных чисел?в)  Представьте число 2016 в виде суммы наибольшего количества последовательных чётных натуральных чисел.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body636661\" class=\"pbody\"><p class=\"left_margin\">а)  Можно&nbsp;ли&nbsp;число&nbsp;2016&nbsp;пред­ста­вить&nbsp;в&nbsp;виде&nbsp;суммы&nbsp;семи&nbsp;по­сле­до­ва­тель­ных&nbsp;на­ту­раль­ных&nbsp;чисел?&nbsp;&nbsp;</p><p class=\"left_margin\">б)  Можно&nbsp;ли&nbsp;число&nbsp;2016&nbsp;пред­ста­вить&nbsp;в&nbsp;виде&nbsp;суммы&nbsp;шести&nbsp;по­сле­до­ва­тель­ных&nbsp;на­ту­раль­ных&nbsp;чисел?</p><p class=\"left_margin\">в)  Пред­ставь­те&nbsp;число&nbsp;2016 в&nbsp;виде&nbsp;суммы&nbsp;наи­боль­ше­го&nbsp;ко­ли­че­ства&nbsp;по­сле­до­ва­тель­ных&nbsp;чётных&nbsp;на­ту­раль­ных&nbsp;чисел.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Да, б)  Нет. Среди шести подряд идущих натуральных чисел всегда ровно три нечетных, поэтому сумма окажется нечетной.в)  Пусть это числа от 2k до  (тем самым их n штук).Получаем  и требуется сделать n как можно больше. Заметим, что  откуда n < 45. Кроме того, 2016 кратно n.Самое большое такое  но тогда  и k получается нецелым.Следующее по величине  тогда  и k получается нецелым.Следующее по величине  тогда  и Итак, если взять 32 последовательных чётных натуральных числа, начав с числа 32, то получим нужную сумму. Ответ:  а) да, б) нет, в) 32+34+36+ ... +94=2016.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol514057\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Да, <img src=\"https://ege.sdamgia.ru/formula/svg/07/07969244e5fc42bd8e54d73954fbbe38.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"285 плюс 286 плюс 287 плюс 288 плюс 289 плюс 290 плюс 291=2016.\"></p><p class=\"left_margin\">б)  Нет. Среди шести под­ряд иду­щих на­ту­раль­ных чисел все­гда ровно три не­чет­ных, по­это­му сумма ока­жет­ся не­чет­ной.</p><p class=\"left_margin\">в)  Пусть это числа от 2<i>k</i> до <img src=\"https://ege.sdamgia.ru/formula/svg/87/870d25af426b28f5b0aab1668e3bd524.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2k плюс 2n минус 2\"> (тем самым их <i>n</i> штук).</p><p class=\"left_margin\">По­лу­ча­ем <img src=\"https://ege.sdamgia.ru/formula/svg/1f/1f4377457bfd17aeeac18a676525b07a.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"n умно­жить на дробь: чис­ли­тель: 2k плюс 2k плюс 2n минус 2, зна­ме­на­тель: 2 конец дроби =2016. \"></p><p class=\"left_margin\"><img src=\"https://ege.sdamgia.ru/formula/svg/e6/e6d15479d68b9123b802c867929b0ec9.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"n левая круг­лая скоб­ка 2k плюс n минус 1 пра­вая круг­лая скоб­ка =2016\"> и тре­бу­ет­ся сде­лать <i>n</i> как можно боль­ше. За­ме­тим, что <img src=\"https://ege.sdamgia.ru/formula/svg/7d/7ddc4cadaaf15e877b6de51b6ae6cff7.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"n левая круг­лая скоб­ка 2k плюс n минус 1 пра­вая круг­лая скоб­ка боль­ше или равно n в квад­ра­те ,\"> от­ку­да <i>n</i> &lt; 45. Кроме того, 2016 крат­но <i>n</i>.</p><p class=\"left_margin\">Самое боль­шое такое <img src=\"https://ege.sdamgia.ru/formula/svg/f4/f465c424061670b8bcedf449d06b670c.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"n минус 42,\"> но тогда <img src=\"https://ege.sdamgia.ru/formula/svg/d6/d664a0665a55a1e3c7e9f3d7451da959.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2k плюс n минус 1=48,\"> и <i>k</i> по­лу­ча­ет­ся не­це­лым.</p><p class=\"left_margin\">Сле­ду­ю­щее по ве­ли­чи­не <img src=\"https://ege.sdamgia.ru/formula/svg/1a/1aff2926985f2208a2d12ba1fe0dba87.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"n минус 36,\"> тогда <img src=\"https://ege.sdamgia.ru/formula/svg/6f/6fd7615ba885ac6a648dadca0ede5ccc.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2k плюс n минус 1=56,\"> и <i>k</i> по­лу­ча­ет­ся не­це­лым.</p><p class=\"left_margin\">Сле­ду­ю­щее по ве­ли­чи­не <img src=\"https://ege.sdamgia.ru/formula/svg/23/23a3e40873414e0013dad7eee52f33fd.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"n минус 32,\"> тогда <img src=\"https://ege.sdamgia.ru/formula/svg/7c/7ce6419462ee67592c40d5f7fb9fa7ec.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2k плюс n минус 1=63,\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/42/42032765f5cf5fa16230f977ddbf9e81.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"k=16.\"></p><p class=\"left_margin\">Итак, если взять 32 по­сле­до­ва­тель­ных чётных на­ту­раль­ных числа, начав с числа 32, то по­лу­чим нуж­ную сумму.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  а) да, б) нет, в) 32+34+36+ ... +94=2016.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/07/07969244e5fc42bd8e54d73954fbbe38.svg",
+            "https://ege.sdamgia.ru/formula/svg/87/870d25af426b28f5b0aab1668e3bd524.svg",
+            "https://ege.sdamgia.ru/formula/svg/1f/1f4377457bfd17aeeac18a676525b07a.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e6d15479d68b9123b802c867929b0ec9.svg",
+            "https://ege.sdamgia.ru/formula/svg/7d/7ddc4cadaaf15e877b6de51b6ae6cff7.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f465c424061670b8bcedf449d06b670c.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d664a0665a55a1e3c7e9f3d7451da959.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1aff2926985f2208a2d12ba1fe0dba87.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6fd7615ba885ac6a648dadca0ede5ccc.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/23a3e40873414e0013dad7eee52f33fd.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7ce6419462ee67592c40d5f7fb9fa7ec.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/42032765f5cf5fa16230f977ddbf9e81.svg"
+        ]
+    },
+    "answer": "а) да, б) нет, в) 32+34+36+ ... +94=2016.",
+    "topic_id": null,
+    "analog_ids": []
+}

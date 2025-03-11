@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 501189,
+    "condition": {
+        "text": " В правильной четырёхугольной пирамиде SABCD высота SO равна 13, диагональ основания BD равна 8. Точки K и М  — середины ребер CD и ВС соответственно. Найдите тангенс угла между плоскостью SMK и плоскостью основания AВС.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body641849\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=114497\" style=\"float:right;margin:10px;max-width:100%\"> В пра­виль­ной четырёхуголь­ной пи­ра­ми­де <i>SABCD</i> вы­со­та <i>SO</i> равна 13, диа­го­наль ос­но­ва­ния <i>BD</i> равна 8. Точки <i>K</i> и <i>М</i>  — се­ре­ди­ны ребер <i>CD</i> и <i>ВС</i> со­от­вет­ствен­но. Най­ди­те тан­генс угла между плос­ко­стью <i>SMK</i> и плос­ко­стью ос­но­ва­ния <i>AВС</i>.</p></div>",
+        "image_urls": [
+            "/get_file?id=114497"
+        ]
+    },
+    "solution": {
+        "text": "Решение.  Пусть  Поскольку OH  — проекция SH на плоскость ABC и  по теореме о трех перпендикулярах  Поскольку   угол  является линейным углом двугранного угла между плоскостями SMK и  Тогда Ответ: 6,5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol501189\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=114498\" style=\"float:right;margin:10px;max-width:100%\"> Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/32/3234b4e1b0503957cc425a375e2b0d2f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"OC \\cap KM =H. \"> По­сколь­ку <i>OH</i>  — про­ек­ция <i>SH</i> на плос­кость <i>ABC</i> и <img src=\"https://ege.sdamgia.ru/formula/svg/1c/1cdaf7d5b62c430fdffa7bf1f10e5457.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"KM \\perp OH,\"> по тео­ре­ме о трех пер­пен­ди­ку­ля­рах <img src=\"https://ege.sdamgia.ru/formula/svg/e8/e8a2cb8d477b58e830b89127391abb32.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"SH\\perp KM.\"> По­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/b6/b61900985bac8497c7ab86913b60154e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"OH \\perp KM,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/fb/fbce21078f07304a657393ecf3e1457f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"SH \\perp KM,\"> угол <img src=\"https://ege.sdamgia.ru/formula/svg/0b/0b53e0bcbf67077cf509eb27234bac77.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\widehatOHS\"> яв­ля­ет­ся ли­ней­ным углом дву­гран­но­го угла между плос­ко­стя­ми <i>SMK</i> и <img src=\"https://ege.sdamgia.ru/formula/svg/4b/4b5b9eab089a2e0ff9b286f012e61feb.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"ABC.\"> Тогда </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/b6/b6b537b7317e8122c03c98957176d6c0.svg\" class=\"tex\" style=\"vertical-align:-13.0pt\" alt=\" тан­генс \\widehatOHS= дробь: чис­ли­тель: SO, зна­ме­на­тель: OH конец дроби = дробь: чис­ли­тель: SO, зна­ме­на­тель: дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби OC конец дроби = дробь: чис­ли­тель: 13, зна­ме­на­тель: 2 конец дроби =6,5. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 6,5.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/32/3234b4e1b0503957cc425a375e2b0d2f.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1cdaf7d5b62c430fdffa7bf1f10e5457.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e8a2cb8d477b58e830b89127391abb32.svg",
+            "https://ege.sdamgia.ru/formula/svg/b6/b61900985bac8497c7ab86913b60154e.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fbce21078f07304a657393ecf3e1457f.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0b53e0bcbf67077cf509eb27234bac77.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4b5b9eab089a2e0ff9b286f012e61feb.svg",
+            "https://ege.sdamgia.ru/formula/svg/b6/b6b537b7317e8122c03c98957176d6c0.svg",
+            "/get_file?id=114498"
+        ]
+    },
+    "answer": "6,5",
+    "topic_id": 3,
+    "analog_ids": []
+}

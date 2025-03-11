@@ -1,0 +1,25 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 527389,
+    "condition": {
+        "text": "Две окружности пересекаются в точках A и B. Через точку B проведена прямая, пересекающая окружности в точках C и D, лежащих по разные стороны от прямой AB. Касательные к этим окружностям в точках C и D пересекаются в точке E.а)  Докажите, что вокруг четырехугольника ACED можно описать окружностьб)  Найдите AE, если AB  =  10, AC  =  16, AD  =  15.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body418529\" class=\"pbody\"><p class=\"left_margin\">Две окруж­но­сти пе­ре­се­ка­ют­ся в точ­ках <i>A</i> и <i>B</i>. Через точку <i>B</i> про­ве­де­на пря­мая, пе­ре­се­ка­ю­щая окруж­но­сти в точ­ках <i>C</i> и <i>D</i>, ле­жа­щих по раз­ные сто­ро­ны от пря­мой <i>AB</i>. Ка­са­тель­ные к этим окруж­но­стям в точ­ках <i>C</i> и <i>D</i> пе­ре­се­ка­ют­ся в точке <i>E</i>.</p><p class=\"left_margin\">а)  До­ка­жи­те, что во­круг че­ты­рех­уголь­ни­ка <i>ACED</i> можно опи­сать окруж­ность</p><p class=\"left_margin\">б)  Най­ди­те <i>AE</i>, если <i>AB</i>  =  10, <i>AC</i>  =  16, <i>AD</i>  =  15.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  По теореме об угле между касательной и хордой   Поэтому: Следовательно, четырёхугольник ACED вписан в окружность.б)  Поскольку четырёхугольник ACED вписан в окружность, углы AED и ACD равны, так как опираются на одну дугу. Аналогично, углы ECD и EAD равны. Значит, треугольники ACB и AED подобны по двум углам. Следовательно, Ответ: 24.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol527389\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=42756\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  По тео­ре­ме об угле между ка­са­тель­ной и хор­дой <img src=\"https://ege.sdamgia.ru/formula/svg/8b/8b509f0e55ba02f85733c071514ebd44.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle ECB=\\angle CAB,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/e9/e918048b4b95d8d3ccbe4c79b6cee10b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle EDB=\\angle DAB.\"> По­это­му:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/99/9972a75f6ad561d6f7f71c59c8fadfbb.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle CED плюс \\angle CAD=\\angle CED плюс \\angle ECB плюс \\angle EDB=180 гра­ду­сов.\"></p><p class=\"left_margin\"></p></center><p> Сле­до­ва­тель­но, четырёхуголь­ник <i>ACED</i> впи­сан в окруж­ность.</p><p class=\"left_margin\">б)  По­сколь­ку четырёхуголь­ник <i>ACED</i> впи­сан в окруж­ность, углы <i>AED</i> и <i>ACD</i> равны, так как опи­ра­ют­ся на одну дугу. Ана­ло­гич­но, углы <i>ECD</i> и <i>EAD</i> равны. Зна­чит, тре­уголь­ни­ки <i>ACB</i> и <i>AED</i> по­доб­ны по двум углам. Сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/9d/9dcb0aef52b6024348eef53ec8ccff49.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" дробь: чис­ли­тель: AC, зна­ме­на­тель: AE конец дроби = дробь: чис­ли­тель: AB, зна­ме­на­тель: AD конец дроби , \"></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/97/97104942045ba12be0baf90ac97dc448.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"AE= дробь: чис­ли­тель: AC умно­жить на AD, зна­ме­на­тель: AB конец дроби = дробь: чис­ли­тель: 15 умно­жить на 16, зна­ме­на­тель: 10 конец дроби =24. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 24.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/8b/8b509f0e55ba02f85733c071514ebd44.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e918048b4b95d8d3ccbe4c79b6cee10b.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/9972a75f6ad561d6f7f71c59c8fadfbb.svg",
+            "https://ege.sdamgia.ru/formula/svg/9d/9dcb0aef52b6024348eef53ec8ccff49.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/97104942045ba12be0baf90ac97dc448.svg",
+            "/get_file?id=42756"
+        ]
+    },
+    "answer": "24.",
+    "topic_id": null,
+    "analog_ids": []
+}

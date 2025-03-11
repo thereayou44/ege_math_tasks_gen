@@ -1,0 +1,56 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27631,
+    "condition": {
+        "text": "Основания равнобедренной трапеции равны 14 и 26, а ее периметр равен 60. Найдите площадь трапеции.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918803\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=138336\" style=\"float:right;margin:10px;max-width:100%\">Ос­но­ва­ния рав­но­бед­рен­ной тра­пе­ции равны 14 и 26, а ее пе­ри­метр равен 60. Най­ди­те пло­щадь тра­пе­ции.</p></div>",
+        "image_urls": [
+            "/get_file?id=138336"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Трапеция равнобедренная, значит, и Тогда, по теореме Пифагора  Ответ: 160.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27631\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=138335\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">Тра­пе­ция рав­но­бед­рен­ная, зна­чит,</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/7a/7a1dbae3295962683d9057a30e35a0ea.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"AH= дробь: чис­ли­тель: AB минус DC, зна­ме­на­тель: 2 конец дроби =6 \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/40/40b47bf213a749705f049b3098cb13c8.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"AD= дробь: чис­ли­тель: P_ABCD минус левая круг­лая скоб­ка AB плюс DC пра­вая круг­лая скоб­ка , зна­ме­на­тель: 2 конец дроби =10. \"></p><p class=\"left_margin\"></p></center>Тогда, по тео­ре­ме Пи­фа­го­ра <img src=\"https://ege.sdamgia.ru/formula/svg/00/0047266af82817bf4bcbbd3603fae7da.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"DH= ко­рень из: на­ча­ло ар­гу­мен­та: AD в квад­ра­те минус AH в квад­ра­те конец ар­гу­мен­та =8.\"><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/18/185da9f112a18ba8cc153c0e308e19bf.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"S= дробь: чис­ли­тель: AB плюс CD, зна­ме­на­тель: 2 конец дроби умно­жить на DH=20 умно­жить на 8=160. \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 160.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/7a/7a1dbae3295962683d9057a30e35a0ea.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/40b47bf213a749705f049b3098cb13c8.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/0047266af82817bf4bcbbd3603fae7da.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/185da9f112a18ba8cc153c0e308e19bf.svg",
+            "/get_file?id=138335"
+        ]
+    },
+    "answer": "160",
+    "topic_id": 1,
+    "analog_ids": [
+        27631,
+        57107,
+        57109,
+        57111,
+        57107,
+        57109,
+        57111,
+        57113,
+        57115,
+        57117,
+        57119,
+        57121,
+        57123,
+        57125,
+        57127,
+        57129,
+        57131,
+        57133,
+        57135,
+        57137,
+        57139,
+        57141,
+        57143,
+        57145,
+        57147,
+        57149,
+        57151,
+        57153,
+        57155
+    ]
+}

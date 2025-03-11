@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 527169,
+    "condition": {
+        "text": "Дана четырехугольная пирамида SABCD с вершиной S и прямоугольником ABCD в основании. Известно, что    Из точки А на ребро SC опущен перпендикуляр АН.а)  Докажите, что б)  Найдите длину отрезка HK, где K  — точка пересечения ребра SB плоскостью, проходящей через точку H перпендикулярно ребру SB.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body419261\" class=\"pbody\"><p class=\"left_margin\">Дана че­ты­рех­уголь­ная пи­ра­ми­да <i>SABCD</i> с вер­ши­ной <i>S</i> и пря­мо­уголь­ни­ком <i>ABCD</i> в ос­но­ва­нии. Из­вест­но, что <img src=\"https://ege.sdamgia.ru/formula/svg/c3/c3a532eb352d0ca073b3b30d50856d35.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"SA=SB=SC=SD=13,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/e4/e41674546d160ed9b00c8a276c198519.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AD=BC=12,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/48/48006c2c42faed28c74482636d89112e.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AB=CD=5.\"> Из точки <i>А</i> на ребро <i>SC</i> опу­щен пер­пен­ди­ку­ляр <i>АН</i>.</p><p class=\"left_margin\">а)  До­ка­жи­те, что <img src=\"https://ege.sdamgia.ru/formula/svg/75/7571cabf9e97aa2590dbeed250b49455.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"SH=CH.\"></p><p class=\"left_margin\">б)  Най­ди­те длину от­рез­ка <i>HK</i>, где <i>K</i>  — точка пе­ре­се­че­ния ребра <i>SB</i> плос­ко­стью, про­хо­дя­щей через точку <i>H</i> пер­пен­ди­ку­ляр­но ребру <i>SB</i>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c3/c3a532eb352d0ca073b3b30d50856d35.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e41674546d160ed9b00c8a276c198519.svg",
+            "https://ege.sdamgia.ru/formula/svg/48/48006c2c42faed28c74482636d89112e.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/7571cabf9e97aa2590dbeed250b49455.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Поскольку  треугольник ASC равнобедренный и его высота совпадает с медианой, то есть б)  Заметим, что прямая HK перпендикулярна прямой SB, поэтому:Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol527169\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=42467\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  По­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/57/57e747f243ffe8d2960a1832e6af6a1a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AC= ко­рень из: на­ча­ло ар­гу­мен­та: AB в квад­ра­те плюс BC в квад­ра­те конец ар­гу­мен­та =13=AS,\"> тре­уголь­ник <i>ASC</i> рав­но­бед­рен­ный и его вы­со­та сов­па­да­ет с ме­ди­а­ной, то есть <img src=\"https://ege.sdamgia.ru/formula/svg/48/48f4b42c3883b937ad3f9829319bd038.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"SH=HC.\"></p><p class=\"left_margin\">б)  За­ме­тим, что пря­мая <i>HK</i> пер­пен­ди­ку­ляр­на пря­мой <i>SB</i>, по­это­му:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/dc/dc475a8ef1e77cd55595b8a7f786af8e.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"HK=d левая круг­лая скоб­ка H,SB пра­вая круг­лая скоб­ка = дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби d левая круг­лая скоб­ка C,SB пра­вая круг­лая скоб­ка = дробь: чис­ли­тель: S_SCB, зна­ме­на­тель: SB конец дроби = \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/46/46935d2d2a2bf7276aba8a5aafad4cbb.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"= дробь: чис­ли­тель: дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби BC умно­жить на d левая круг­лая скоб­ка S,BC пра­вая круг­лая скоб­ка , зна­ме­на­тель: 13 конец дроби = дробь: чис­ли­тель: 6 ко­рень из: на­ча­ло ар­гу­мен­та: 13 в квад­ра­те минус 6 в квад­ра­те конец ар­гу­мен­та , зна­ме­на­тель: 13 конец дроби = дробь: чис­ли­тель: 6 ко­рень из: на­ча­ло ар­гу­мен­та: 133 конец ар­гу­мен­та , зна­ме­на­тель: 13 конец дроби . \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/24/24820b312d192b1e5fa020c8c7c87db3.svg\" class=\"tex\" style=\"vertical-align:-8.6pt\" alt=\" дробь: чис­ли­тель: 6 ко­рень из: на­ча­ло ар­гу­мен­та: 133 конец ар­гу­мен­та , зна­ме­на­тель: 13 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/57/57e747f243ffe8d2960a1832e6af6a1a.svg",
+            "https://ege.sdamgia.ru/formula/svg/48/48f4b42c3883b937ad3f9829319bd038.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dc475a8ef1e77cd55595b8a7f786af8e.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/46935d2d2a2bf7276aba8a5aafad4cbb.svg",
+            "https://ege.sdamgia.ru/formula/svg/24/24820b312d192b1e5fa020c8c7c87db3.svg",
+            "/get_file?id=42467"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

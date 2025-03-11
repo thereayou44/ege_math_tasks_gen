@@ -1,0 +1,33 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 559574,
+    "condition": {
+        "text": "а)  Решите уравнение б)  Укажите корни этого уравнения, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body452394\" class=\"pbody\"><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/7e/7e76d7544ed891f3b2aa66ff8c4804b6.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та синус x пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 1 плюс ко­си­нус x пра­вая круг­лая скоб­ка =2.\"></p><p class=\"left_margin\">б)  Ука­жи­те корни этого урав­не­ния, при­над­ле­жа­щие от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/e4/e4ef0f8c0f4bc5c43c51fcb5842451e4.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка минус дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби ; дробь: чис­ли­тель: Пи , зна­ме­на­тель: 3 конец дроби пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/7e/7e76d7544ed891f3b2aa66ff8c4804b6.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e4ef0f8c0f4bc5c43c51fcb5842451e4.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Преобразуем уравнение при условиях    (⁎). Имеем: Условиям (⁎) удовлетворяет только серия б)  Длина отрезка  равна π, поэтому из найденной серии решений в отрезок может попасть не более одного корня. Следовательно, число   соответствующее   — единственное решение, лежащее в этом отрезке. Ответ: а)  б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol559574\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Пре­об­ра­зу­ем урав­не­ние при усло­ви­ях  <img src=\"https://ege.sdamgia.ru/formula/svg/97/972b0b11ae57cf8528882b737ec24e0e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" синус x боль­ше 0,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/35/35e06ab3c91fdaeae933f36e6280a032.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" ко­рень из 2 синус x не равно 1\"> (⁎). Имеем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e8/e80b44ac4e8e197c7d643857b7bfc0c3.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка ко­рень из 2 синус x пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 1 плюс ко­си­нус x пра­вая круг­лая скоб­ка =2 рав­но­силь­но 1 плюс ко­си­нус x=2 синус в квад­ра­те x рав­но­силь­но \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/b7/b79cfbacf8f04d765f3f4cdc5cadc358.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" рав­но­силь­но 1 плюс ко­си­нус x=2 минус 2 ко­си­нус в квад­ра­те x рав­но­силь­но 2 ко­си­нус в квад­ра­те x плюс ко­си­нус x минус 1=0 рав­но­силь­но \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/72/72740ce12d1888bc0d16678dcd28e8d4.svg\" class=\"tex\" style=\"vertical-align:-26.5pt\" alt=\" рав­но­силь­но ко­си­нус x= дробь: чис­ли­тель: минус 1\\pm3, зна­ме­на­тель: 4 конец дроби рав­но­силь­но со­во­куп­ность вы­ра­же­ний ко­си­нус x= минус 1, ко­си­нус x= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби рав­но­силь­но со­во­куп­ность вы­ра­же­ний x= Пи плюс 2 Пи k,x=\\pm дробь: чис­ли­тель: Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k, конец со­во­куп­но­сти .k при­над­ле­жит Z . конец со­во­куп­но­сти . \"></p><p class=\"left_margin\"></p></center><p> Усло­ви­ям (⁎) удо­вле­тво­ря­ет толь­ко серия <img src=\"https://ege.sdamgia.ru/formula/svg/7f/7fb1aba77d791635a003dcdcad33b0ca.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k,k при­над­ле­жит Z . \"></p><p class=\"left_margin\">б)  Длина от­рез­ка <img src=\"https://ege.sdamgia.ru/formula/svg/6d/6d093561bb750e46099541cc0b7b24ba.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка минус дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби ; дробь: чис­ли­тель: Пи , зна­ме­на­тель: 3 конец дроби пра­вая квад­рат­ная скоб­ка \"> равна π, по­это­му из най­ден­ной серии ре­ше­ний в от­ре­зок может по­пасть не более од­но­го корня. Сле­до­ва­тель­но, число <img src=\"https://ege.sdamgia.ru/formula/svg/13/131391bb0d850e404a7495f5dd92ff81.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: Пи , зна­ме­на­тель: 3 конец дроби , \">  со­от­вет­ству­ю­щее <img src=\"https://ege.sdamgia.ru/formula/svg/22/22d9bb2875d7a70aeb68696096f3b9b2.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"k=0\">  — един­ствен­ное ре­ше­ние, ле­жа­щее в этом от­рез­ке.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) <img src=\"https://ege.sdamgia.ru/formula/svg/93/9382be17b4eb7c0a5ae9efe73c14ded8.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" левая фи­гур­ная скоб­ка дробь: чис­ли­тель: Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k: k при­над­ле­жит Z пра­вая фи­гур­ная скоб­ка ; \"> б) <img src=\"https://ege.sdamgia.ru/formula/svg/95/95704890504ba913a704b51b69a17d7e.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: Пи , зна­ме­на­тель: 3 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/97/972b0b11ae57cf8528882b737ec24e0e.svg",
+            "https://ege.sdamgia.ru/formula/svg/35/35e06ab3c91fdaeae933f36e6280a032.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e80b44ac4e8e197c7d643857b7bfc0c3.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b79cfbacf8f04d765f3f4cdc5cadc358.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/72740ce12d1888bc0d16678dcd28e8d4.svg",
+            "https://ege.sdamgia.ru/formula/svg/7f/7fb1aba77d791635a003dcdcad33b0ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6d093561bb750e46099541cc0b7b24ba.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/131391bb0d850e404a7495f5dd92ff81.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/22d9bb2875d7a70aeb68696096f3b9b2.svg",
+            "https://ege.sdamgia.ru/formula/svg/93/9382be17b4eb7c0a5ae9efe73c14ded8.svg",
+            "https://ege.sdamgia.ru/formula/svg/95/95704890504ba913a704b51b69a17d7e.svg"
+        ]
+    },
+    "answer": "а)  б)",
+    "topic_id": 13,
+    "analog_ids": []
+}

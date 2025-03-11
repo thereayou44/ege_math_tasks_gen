@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 245345,
+    "condition": {
+        "text": " Найдите объем многогранника, вершинами которого являются точки A, B, D, E,     правильной шестиугольной призмы  площадь основания которой равна 6, а боковое ребро равно 2.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body905373\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=111536\" style=\"float:right;margin:10px;max-width:100%\"> Най­ди­те объем мно­го­гран­ни­ка, вер­ши­на­ми ко­то­ро­го яв­ля­ют­ся точки <i>A</i>, <i>B</i>, <i>D</i>, <i>E</i>, <img src=\"https://ege.sdamgia.ru/formula/svg/a5/a54c8c353567bd70449ffc01eaf2f2a8.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"A_1,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/af/affee60558ddeb54289b1016642b6a03.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"B_1,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/d8/d84ae84f41f2d0c8282b61174d84d325.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"D_1,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/69/696de7240ea53e1220ef352d18e8a2cd.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"E_1\"> пра­виль­ной ше­сти­уголь­ной приз­мы <img src=\"https://ege.sdamgia.ru/formula/svg/cd/cd62f27a9e4812d335761e2beb1026d4.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"ABCDEFA_1B_1C_1D_1E_1F_1,\"> пло­щадь ос­но­ва­ния ко­то­рой равна 6, а бо­ко­вое ребро равно 2.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a5/a54c8c353567bd70449ffc01eaf2f2a8.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/affee60558ddeb54289b1016642b6a03.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d84ae84f41f2d0c8282b61174d84d325.svg",
+            "https://ege.sdamgia.ru/formula/svg/69/696de7240ea53e1220ef352d18e8a2cd.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cd62f27a9e4812d335761e2beb1026d4.svg",
+            "/get_file?id=111536"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Площадь основания четырехугольной призмы равна двум третьим площади основания правильной шестиугольной призмы, а высота у них общая. ПоэтомуОтвет: 8.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol245345\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=113249\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">Пло­щадь ос­но­ва­ния че­ты­рех­уголь­ной приз­мы равна двум тре­тьим пло­ща­ди ос­но­ва­ния пра­виль­ной ше­сти­уголь­ной приз­мы, а вы­со­та у них общая. По­это­му</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/c1/c1878aa8bf66a14f54fdd9706b9e010b.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"V_чет= дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби V_шест= дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби умно­жить на 6 умно­жить на 2=8.\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 8.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c1/c1878aa8bf66a14f54fdd9706b9e010b.svg",
+            "/get_file?id=113249"
+        ]
+    },
+    "answer": "8",
+    "topic_id": 3,
+    "analog_ids": []
+}

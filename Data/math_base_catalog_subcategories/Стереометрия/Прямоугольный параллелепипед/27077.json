@@ -1,0 +1,57 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27077,
+    "condition": {
+        "text": " Объем прямоугольного параллелепипеда равен 24. Одно из его ребер равно 3. Найдите площадь грани параллелепипеда, перпендикулярной этому ребру.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919353\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=113349\" style=\"float:right;margin:10px;max-width:100%\"> Объем пря­мо­уголь­но­го па­рал­ле­ле­пи­пе­да равен 24. Одно из его ребер равно 3. Най­ди­те пло­щадь грани па­рал­ле­ле­пи­пе­да, пер­пен­ди­ку­ляр­ной этому ребру.</p></div>",
+        "image_urls": [
+            "/get_file?id=113349"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Объем прямоугольного параллелепипеда равен  где S  — площадь грани, а h  — высота перпендикулярного к ней ребра. Тогда площадь грани Ответ: 8.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27077\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Объем пря­мо­уголь­но­го па­рал­ле­ле­пи­пе­да равен <img src=\"https://ege.sdamgia.ru/formula/svg/bd/bd68ae422cbd23d999c74b3712ef744f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"V=Sh,\"> где <i>S</i>  — пло­щадь грани, а <i>h</i>  — вы­со­та пер­пен­ди­ку­ляр­но­го к ней ребра. Тогда пло­щадь грани </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/59/5993cc202c965a9a07fbf217c5856edc.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"S= дробь: чис­ли­тель: V, зна­ме­на­тель: h конец дроби = дробь: чис­ли­тель: 24, зна­ме­на­тель: 3 конец дроби =8. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 8.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/bd/bd68ae422cbd23d999c74b3712ef744f.svg",
+            "https://ege.sdamgia.ru/formula/svg/59/5993cc202c965a9a07fbf217c5856edc.svg"
+        ]
+    },
+    "answer": "8",
+    "topic_id": 3,
+    "analog_ids": [
+        27077,
+        73397,
+        73399,
+        73401,
+        73397,
+        73399,
+        73401,
+        73403,
+        73405,
+        73407,
+        73409,
+        73411,
+        73413,
+        73415,
+        73417,
+        73419,
+        73421,
+        73423,
+        73425,
+        73427,
+        73429,
+        73431,
+        73433,
+        73435,
+        73437,
+        73439,
+        73441,
+        73443,
+        73445,
+        73447,
+        73449,
+        73451,
+        73453
+    ]
+}

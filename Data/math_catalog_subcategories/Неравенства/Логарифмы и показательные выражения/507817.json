@@ -1,0 +1,29 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 507817,
+    "condition": {
+        "text": "Решите неравенство ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body643413\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/20/202b94494d45a40f46d13ee47db292b8.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\" ло­га­рифм по ос­но­ва­нию x левая круг­лая скоб­ка ло­га­рифм по ос­но­ва­нию 9 левая круг­лая скоб­ка 3 в сте­пе­ни x минус 9 пра­вая круг­лая скоб­ка пра­вая круг­лая скоб­ка мень­ше 1.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/20/202b94494d45a40f46d13ee47db292b8.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Поскольку  сразу имеем x > 2. Поэтому  Это значит, что  Для первого неравенства имеем  Второе неравенство выполнено всегда, так как  при всех t из-за отрицательности дискриминанта (замена ). Таким образом,  Ответ:  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol507817\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/93/9327ba0c9bbc7e421b46ae90acfd08f7.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"3 в сте­пе­ни x боль­ше 9,\"> сразу имеем <i>x</i> &gt; 2. По­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/8e/8e36be74e84a61b30acc92d30ba1454e.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\"0 мень­ше ло­га­рифм по ос­но­ва­нию 9 левая круг­лая скоб­ка 3 в сте­пе­ни x минус 9 пра­вая круг­лая скоб­ка мень­ше x.\"> Это зна­чит, что <img src=\"https://ege.sdamgia.ru/formula/svg/2f/2f1caa0df3e59c681221a7399c606ea8.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"1 мень­ше 3 в сте­пе­ни x минус 9 мень­ше 9 в сте­пе­ни x .\"> Для пер­во­го не­ра­вен­ства имеем <img src=\"https://ege.sdamgia.ru/formula/svg/a0/a0381a0c45e1018a985a23a4d7f1b9d1.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\"x боль­ше ло­га­рифм по ос­но­ва­нию 3 10.\"> Вто­рое не­ра­вен­ство вы­пол­не­но все­гда, так как <img src=\"https://ege.sdamgia.ru/formula/svg/1c/1c1b2a773669f721a558fd98d301e73f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"t в квад­ра­те минус t плюс 9 боль­ше 0\"> при всех <i>t</i> из-за от­ри­ца­тель­но­сти дис­кри­ми­нан­та (за­ме­на <img src=\"https://ege.sdamgia.ru/formula/svg/34/34b637e6e2a99b1b327019f047bd302e.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"3 в сте­пе­ни x =t\">). Таким об­ра­зом, <img src=\"https://ege.sdamgia.ru/formula/svg/bb/bb2e3aac9d2e0c2695f6f6726d090a64.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\" левая круг­лая скоб­ка ло­га­рифм по ос­но­ва­нию 3 10; плюс бес­ко­неч­ность пра­вая круг­лая скоб­ка .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  <img src=\"https://ege.sdamgia.ru/formula/svg/33/339f1f46eba272ded43ddfc651f5e38b.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\" левая круг­лая скоб­ка ло­га­рифм по ос­но­ва­нию 3 10; плюс бес­ко­неч­ность пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/93/9327ba0c9bbc7e421b46ae90acfd08f7.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8e36be74e84a61b30acc92d30ba1454e.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2f1caa0df3e59c681221a7399c606ea8.svg",
+            "https://ege.sdamgia.ru/formula/svg/a0/a0381a0c45e1018a985a23a4d7f1b9d1.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1c1b2a773669f721a558fd98d301e73f.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/34b637e6e2a99b1b327019f047bd302e.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bb2e3aac9d2e0c2695f6f6726d090a64.svg",
+            "https://ege.sdamgia.ru/formula/svg/33/339f1f46eba272ded43ddfc651f5e38b.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": []
+}

@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 484595,
+    "condition": {
+        "text": "Решите неравенство ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body592399\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/14/14266b9c3ee48529bdc9d5ec0147a766.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка ко­рень из: на­ча­ло ар­гу­мен­та: 2x в квад­ра­те минус 7x плюс 6 конец ар­гу­мен­та пра­вая круг­лая скоб­ка левая круг­лая скоб­ка дробь: чис­ли­тель: x, зна­ме­на­тель: 3 конец дроби пра­вая круг­лая скоб­ка боль­ше 0. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/14/14266b9c3ee48529bdc9d5ec0147a766.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Решение будем искать при условиях:Рассмотрим исходное неравенство на множестве  тогда  откуда  то есть Рассмотрим исходное неравенство на множестве  тогда  откуда  то есть  или  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol484595\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Ре­ше­ние будем ис­кать при усло­ви­ях:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/15/159ebadbad838806ddfdb680fc3e1a11.svg\" class=\"tex\" style=\"vertical-align:-44.3pt\" alt=\" си­сте­ма вы­ра­же­ний 2x в квад­ра­те минус 7x плюс 6 боль­ше 0, 2x в квад­ра­те минус 7x плюс 6 не равно 1, x боль­ше 0, конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний левая круг­лая скоб­ка 2x минус 3 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x минус 2 пра­вая круг­лая скоб­ка боль­ше 0, левая круг­лая скоб­ка 2x минус 5 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x минус 1 пра­вая круг­лая скоб­ка не равно 0, x боль­ше 0, конец си­сте­мы . рав­но­силь­но со­во­куп­ность вы­ра­же­ний 0 мень­ше x мень­ше 1, 1 мень­ше x мень­ше дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби , 2 мень­ше x мень­ше дробь: чис­ли­тель: 5, зна­ме­на­тель: 2 конец дроби , дробь: чис­ли­тель: 5, зна­ме­на­тель: 2 конец дроби мень­ше x мень­ше плюс бес­ко­неч­ность . конец со­во­куп­но­сти . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Рас­смот­рим ис­ход­ное не­ра­вен­ство на мно­же­стве <img src=\"https://ege.sdamgia.ru/formula/svg/42/42e3c4c8289a9709295fb973577d203d.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая круг­лая скоб­ка 0;1 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка дробь: чис­ли­тель: 5, зна­ме­на­тель: 2 конец дроби ; плюс бес­ко­неч­ность пра­вая круг­лая скоб­ка . \"> тогда <img src=\"https://ege.sdamgia.ru/formula/svg/9e/9e3caa6dd40f9e2c0bf25870395bd17a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2x в квад­ра­те минус 7x плюс 6 боль­ше 1,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/99/99c8537b141847468dfe2bf66119894a.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: x, зна­ме­на­тель: 3 конец дроби боль­ше 1, \"> то есть <img src=\"https://ege.sdamgia.ru/formula/svg/93/93bd7a916b5d170a44b84e9f10f5b35b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" 3 мень­ше x мень­ше плюс бес­ко­неч­ность .\"></p><p class=\"left_margin\">Рас­смот­рим ис­ход­ное не­ра­вен­ство на мно­же­стве <img src=\"https://ege.sdamgia.ru/formula/svg/5b/5b242678446adee773961eaaac1bb41f.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая круг­лая скоб­ка 1; дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 2; дробь: чис­ли­тель: 5, зна­ме­на­тель: 2 конец дроби пра­вая круг­лая скоб­ка , \"> тогда <img src=\"https://ege.sdamgia.ru/formula/svg/35/35176fcd80b67467d1f429ce7a6f13b5.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2x в квад­ра­те минус 7x плюс 6 мень­ше 1,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/26/2684f2b2032d913e7972426982bbb458.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"0 мень­ше дробь: чис­ли­тель: x, зна­ме­на­тель: 3 конец дроби мень­ше 1 \"> то есть <img src=\"https://ege.sdamgia.ru/formula/svg/e9/e95101d328ca99810e0c421f570a64aa.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"1 мень­ше x мень­ше дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби \"> или <img src=\"https://ege.sdamgia.ru/formula/svg/f1/f1136e2ef9d13f80705bee327a4300d5.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"2 мень­ше x мень­ше дробь: чис­ли­тель: 5, зна­ме­на­тель: 2 конец дроби . \"></p><p>&nbsp;</p><p class=\"left_margin\">Ответ: <img src=\"https://ege.sdamgia.ru/formula/svg/3b/3b8a0aa565659f7b5983e094a714cd50.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая круг­лая скоб­ка 1, дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 2, дробь: чис­ли­тель: 5, зна­ме­на­тель: 2 конец дроби пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 3, плюс бес­ко­неч­ность пра­вая круг­лая скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/15/159ebadbad838806ddfdb680fc3e1a11.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/42e3c4c8289a9709295fb973577d203d.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9e3caa6dd40f9e2c0bf25870395bd17a.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/99c8537b141847468dfe2bf66119894a.svg",
+            "https://ege.sdamgia.ru/formula/svg/93/93bd7a916b5d170a44b84e9f10f5b35b.svg",
+            "https://ege.sdamgia.ru/formula/svg/5b/5b242678446adee773961eaaac1bb41f.svg",
+            "https://ege.sdamgia.ru/formula/svg/35/35176fcd80b67467d1f429ce7a6f13b5.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/2684f2b2032d913e7972426982bbb458.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e95101d328ca99810e0c421f570a64aa.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f1136e2ef9d13f80705bee327a4300d5.svg",
+            "https://ege.sdamgia.ru/formula/svg/3b/3b8a0aa565659f7b5983e094a714cd50.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": []
+}

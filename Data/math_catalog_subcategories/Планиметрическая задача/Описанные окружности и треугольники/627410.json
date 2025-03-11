@@ -1,0 +1,31 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 627410,
+    "condition": {
+        "text": "В  треугольнике  ABC угол  C  — тупой,  угол  B  равен  45°  и  AH  — высота.  Прямая  AH пересекает описанную около треугольника ABC окружность в точке D. а)  Докажите, что дуги BC и DA равны. б)  Найдите BC, если AC  =  8 и площадь треугольника BDH равна 9.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body523310\" class=\"pbody\"><p class=\"left_margin\">В  тре­уголь­ни­ке  <i>ABC</i> угол  <i>C</i>  — тупой,  угол  <i>B</i>  равен  45°  и  <i>AH</i>  — вы­со­та.  Пря­мая  <i>AH</i> пе­ре­се­ка­ет опи­сан­ную около тре­уголь­ни­ка <i>ABC</i> окруж­ность в точке <i>D</i>. </p><p class=\"left_margin\">а)  До­ка­жи­те, что дуги <i>BC</i> и <i>DA</i> равны. </p><p class=\"left_margin\">б)  Най­ди­те <i>BC</i>, если <i>AC</i>  =  8 и пло­щадь тре­уголь­ни­ка <i>BDH</i> равна 9.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Треугольник BHA  — равнобедренный и прямоугольный, в нем   следовательно,   что и требовалось доказать.б)  Дуги  и  равны, значит, BC  =  AD, HC  =  HD. Из условия получаем, что   Пусть BH  =  x, HD  =  y, тогда Отсюда  Ответ: б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol627410\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=104119\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Тре­уголь­ник <i>BHA</i>  — рав­но­бед­рен­ный и пря­мо­уголь­ный, в нем <img src=\"https://ege.sdamgia.ru/formula/svg/00/00884616892873937b89986e32bf8fe1.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"\\angle DAB=45 гра­ду­сов = дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби \\overset\\smileBD,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/86/868fa987b07d1eb37162b2ed3db27ad4.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"\\angle CBA= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби \\overset\\smileAC,\"> сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/ed/edda3baa31e1c3ddeba75f9fa55221ff.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\overset\\smileBD=\\overset\\smileAC,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/01/01e00d8b4b4b485b1e4e794116f0a997.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\overset\\smileBC=\\overset\\smileDA,\"> что и тре­бо­ва­лось до­ка­зать.</p><p class=\"left_margin\">б)  Дуги <img src=\"https://ege.sdamgia.ru/formula/svg/6a/6a412b82643d235940288eb197ab77ab.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overset\\smileBC\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/d9/d926aaeec9c763cb9c21a0f9a29aeaa4.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overset\\smileDA\"> равны, зна­чит, <i>BC</i>  =  <i>AD</i>, <i>HC</i>  =  <i>HD</i>. Из усло­вия по­лу­ча­ем, что <img src=\"https://ege.sdamgia.ru/formula/svg/4c/4c6d9a2f3c6f5a66c5f5dc46560511c3.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: BH умно­жить на HD, зна­ме­на­тель: 2 конец дроби =9, \"> <img src=\"https://ege.sdamgia.ru/formula/svg/f7/f7abcc6b52df9355095b47e7e32ce436.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"HC в квад­ра­те плюс HA в квад­ра­те =8 в квад­ра­те .\"> Пусть <i>BH</i>  =  <i>x</i>, <i>HD</i>  =  <i>y</i>, тогда</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/74/749139e15c55d4c93f0ac0258e0ce52a.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний x в квад­ра­те плюс y в квад­ра­те =64,xy=18 конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний x=5 плюс ко­рень из: на­ча­ло ар­гу­мен­та: 7 конец ар­гу­мен­та ,y=5 минус ко­рень из: на­ча­ло ар­гу­мен­та: 7 конец ар­гу­мен­та . конец си­сте­мы . \"></p><p class=\"left_margin\"></p></center><p> От­сю­да <img src=\"https://ege.sdamgia.ru/formula/svg/bf/bf81843f1f2ef8291eb74075acbf09b1.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"BC=x минус y=2 ко­рень из: на­ча­ло ар­гу­мен­та: 7 конец ар­гу­мен­та .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) <img src=\"https://ege.sdamgia.ru/formula/svg/75/75bd2fa6b54bb4891f4dcb9e65f360d5.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2 ко­рень из: на­ча­ло ар­гу­мен­та: 7 конец ар­гу­мен­та .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/00/00884616892873937b89986e32bf8fe1.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/868fa987b07d1eb37162b2ed3db27ad4.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/edda3baa31e1c3ddeba75f9fa55221ff.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/01e00d8b4b4b485b1e4e794116f0a997.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a412b82643d235940288eb197ab77ab.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d926aaeec9c763cb9c21a0f9a29aeaa4.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c6d9a2f3c6f5a66c5f5dc46560511c3.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f7abcc6b52df9355095b47e7e32ce436.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/749139e15c55d4c93f0ac0258e0ce52a.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bf81843f1f2ef8291eb74075acbf09b1.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/75bd2fa6b54bb4891f4dcb9e65f360d5.svg",
+            "/get_file?id=104119"
+        ]
+    },
+    "answer": "б)",
+    "topic_id": 17,
+    "analog_ids": []
+}

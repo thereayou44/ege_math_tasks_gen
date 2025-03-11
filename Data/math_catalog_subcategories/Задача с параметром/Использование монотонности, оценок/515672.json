@@ -1,0 +1,37 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 515672,
+    "condition": {
+        "text": "Найдите все значения а, при каждом из которых уравнение  не имеет корней.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body635044\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния <i>а</i>, при каж­дом из ко­то­рых урав­не­ние </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d7/d713ddf307f3963e849dd387efdd78c3.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"8x в сте­пе­ни 6 плюс 4x в квад­ра­те = левая круг­лая скоб­ка 3x плюс 5a пра­вая круг­лая скоб­ка в кубе плюс 6x плюс 10a\"></p><p class=\"left_margin\"></p></center> не имеет кор­ней.</div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d7/d713ddf307f3963e849dd387efdd78c3.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Заметим, что исходное уравнение можно записать в виде Рассмотрим функцию Её производная  значит, функция  является возрастающей и каждое свое значение принимает ровно один раз. Тогда исходное уравнение равносильно квадратному уравнению  которое не имеет корней при   Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol515672\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">За­ме­тим, что ис­ход­ное урав­не­ние можно за­пи­сать в виде </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/9d/9de758755b8d04c17182eed96327b606.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 2x в квад­ра­те пра­вая круг­лая скоб­ка в кубе плюс 2 умно­жить на левая круг­лая скоб­ка 2x в квад­ра­те пра­вая круг­лая скоб­ка = левая круг­лая скоб­ка 3x плюс 5a пра­вая круг­лая скоб­ка в кубе плюс 2 умно­жить на левая круг­лая скоб­ка 3x плюс 5a пра­вая круг­лая скоб­ка \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Рас­смот­рим функ­цию <img src=\"https://ege.sdamgia.ru/formula/svg/80/808b62fd93a9fb776a5839b04033a4a0.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y левая круг­лая скоб­ка t пра­вая круг­лая скоб­ка =t в кубе плюс 2t.\"></p><p class=\"left_margin\">Её про­из­вод­ная <img src=\"https://ege.sdamgia.ru/formula/svg/eb/eb44c34be154e21d57ccb121d76848c7.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y' левая круг­лая скоб­ка t пра­вая круг­лая скоб­ка =3t в квад­ра­те плюс 2 боль­ше 0,\"> зна­чит, функ­ция <img src=\"https://ege.sdamgia.ru/formula/svg/07/0707669836d19443cf6c5cc89ca963e6.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y левая круг­лая скоб­ка t пра­вая круг­лая скоб­ка \"> яв­ля­ет­ся воз­рас­та­ю­щей и каж­дое свое зна­че­ние при­ни­ма­ет ровно один раз. </p><p class=\"left_margin\">Тогда ис­ход­ное урав­не­ние рав­но­силь­но квад­рат­но­му урав­не­нию</p><p class=\"left_margin\"></p><center><p> <img src=\"https://ege.sdamgia.ru/formula/svg/13/13ad33fe785a8691aa3c3f7d32c20538.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2x в квад­ра­те =3x плюс 5a\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/13/136668d4d5d0e37aba9f22d8bcbb2c2b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2x в квад­ра­те минус 3x минус 5a=0,\"></p><p class=\"left_margin\"></p></center> <p>ко­то­рое не имеет кор­ней при </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f4/f45dcedf6e8ed53d6008900e44cddbfc.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"D=9 плюс 40a мень­ше 0\"> </p><p><img src=\"https://ege.sdamgia.ru/formula/svg/c7/c78e0d6298d76b9596220d64b63aebf1.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"a мень­ше минус дробь: чис­ли­тель: 9, зна­ме­на­тель: 40 конец дроби \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/d5/d530d8e60fe1996c7ee1a3721d299bf4.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая круг­лая скоб­ка минус бес­ко­неч­ность ; минус дробь: чис­ли­тель: 9, зна­ме­на­тель: 40 конец дроби пра­вая круг­лая скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/9d/9de758755b8d04c17182eed96327b606.svg",
+            "https://ege.sdamgia.ru/formula/svg/80/808b62fd93a9fb776a5839b04033a4a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/eb/eb44c34be154e21d57ccb121d76848c7.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/0707669836d19443cf6c5cc89ca963e6.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/13ad33fe785a8691aa3c3f7d32c20538.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/136668d4d5d0e37aba9f22d8bcbb2c2b.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f45dcedf6e8ed53d6008900e44cddbfc.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c78e0d6298d76b9596220d64b63aebf1.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d530d8e60fe1996c7ee1a3721d299bf4.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 18,
+    "analog_ids": [
+        512996,
+        513262,
+        513265,
+        513262,
+        513265,
+        515691
+    ]
+}

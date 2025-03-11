@@ -1,0 +1,46 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 500212,
+    "condition": {
+        "text": "а)  Решите уравнение б)  Найдите все корни этого уравнения, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body642824\" class=\"pbody\"><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/46/46944fb56d30310be5607f78b02c2a88.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"6 синус в квад­ра­те x плюс 5 синус левая круг­лая скоб­ка дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби минус x пра­вая круг­лая скоб­ка минус 2=0. \"></p><p class=\"left_margin\">б)  Най­ди­те все корни этого урав­не­ния, при­над­ле­жа­щие от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/11/11a6b01a374902f581b6cd1df3017863.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка минус 5 Пи , минус дробь: чис­ли­тель: 7 Пи , зна­ме­на­тель: 2 конец дроби пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/46/46944fb56d30310be5607f78b02c2a88.svg",
+            "https://ege.sdamgia.ru/formula/svg/11/11a6b01a374902f581b6cd1df3017863.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Запишем уравнение в виде  Значит, или   — уравнение не имеет корней, или  откуда  или   б)  С помощью числовой окружности отберем корни уравнения, принадлежащие отрезку  Получим число Ответ: а)  б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol500212\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=31602\" style=\"float:right;margin:10px\">а)  За­пи­шем урав­не­ние в виде</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ba/bad6604c975e24f75aa16b43b6608712.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"6 минус 6 ко­си­нус в квад­ра­те x плюс 5 ко­си­нус x минус 2=0 рав­но­силь­но 6 ко­си­нус в квад­ра­те x минус 5 ко­си­нус x минус 4=0 рав­но­силь­но \"> </p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/c4/c428f8304d61ca06478902277c95611d.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 3 ко­си­нус x минус 4 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 2 ко­си­нус x плюс 1 пра­вая круг­лая скоб­ка =0\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Зна­чит, или <img src=\"https://ege.sdamgia.ru/formula/svg/ea/ea5c9c9149d7da92e9e0aca9f7b8d107.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" ко­си­нус x= дробь: чис­ли­тель: 4, зна­ме­на­тель: 3 конец дроби \">  — урав­не­ние не имеет кор­ней, или <img src=\"https://ege.sdamgia.ru/formula/svg/4b/4bf0084dd596a0770039e5cd0adc03d5.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" ко­си­нус x= минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби , \"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/35/35486ee77fc2b52544b7522fcdea61ed.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x= минус дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k \"> или  <img src=\"https://ege.sdamgia.ru/formula/svg/22/225c587ae103b4f672d30066640f14c5.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x= дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k, \"> <img src=\"https://ege.sdamgia.ru/formula/svg/33/33e06099b41cfec4c69b4fb75258e954.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"k при­над­ле­жит Z.\"></p><p class=\"left_margin\">б)  С по­мо­щью чис­ло­вой окруж­но­сти от­бе­рем корни урав­не­ния, при­над­ле­жа­щие от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/11/11a6b01a374902f581b6cd1df3017863.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка минус 5 Пи , минус дробь: чис­ли­тель: 7 Пи , зна­ме­на­тель: 2 конец дроби пра­вая квад­рат­ная скоб­ка . \"> По­лу­чим число <img src=\"https://ege.sdamgia.ru/formula/svg/af/af820e47f297aa5d7018b38cdc7b55a0.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" минус дробь: чис­ли­тель: 14 Пи , зна­ме­на­тель: 3 конец дроби . \"></p><p class=\"left_margin\">Ответ: а) <img src=\"https://ege.sdamgia.ru/formula/svg/94/9445275c8bfea4920f6ae7fff44e3c55.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая фи­гур­ная скоб­ка минус дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k, дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k: k при­над­ле­жит Z пра­вая фи­гур­ная скоб­ка ; \"> б) <img src=\"https://ege.sdamgia.ru/formula/svg/af/af820e47f297aa5d7018b38cdc7b55a0.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" минус дробь: чис­ли­тель: 14 Пи , зна­ме­на­тель: 3 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ba/bad6604c975e24f75aa16b43b6608712.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c428f8304d61ca06478902277c95611d.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/ea5c9c9149d7da92e9e0aca9f7b8d107.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4bf0084dd596a0770039e5cd0adc03d5.svg",
+            "https://ege.sdamgia.ru/formula/svg/35/35486ee77fc2b52544b7522fcdea61ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/225c587ae103b4f672d30066640f14c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/33/33e06099b41cfec4c69b4fb75258e954.svg",
+            "https://ege.sdamgia.ru/formula/svg/11/11a6b01a374902f581b6cd1df3017863.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af820e47f297aa5d7018b38cdc7b55a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/9445275c8bfea4920f6ae7fff44e3c55.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af820e47f297aa5d7018b38cdc7b55a0.svg",
+            "/get_file?id=31602"
+        ]
+    },
+    "answer": "а)  б)",
+    "topic_id": 13,
+    "analog_ids": [
+        500212,
+        500063,
+        500386,
+        505449,
+        500063,
+        500386,
+        505449,
+        510829,
+        511404,
+        514512,
+        514554
+    ]
+}

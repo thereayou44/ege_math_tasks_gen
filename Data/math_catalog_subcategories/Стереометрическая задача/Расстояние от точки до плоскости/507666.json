@@ -1,0 +1,39 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 507666,
+    "condition": {
+        "text": "Дан куб ABCDA1B1C1D1 с ребром 1, T  — середина ребра AD.а)  Докажите, что объем пирамиды  в 12 раз меньше объема куба.б)  Найдите расстояние от вершины A до плоскости A1BT.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body643566\" class=\"pbody\"><p class=\"left_margin\">Дан куб <i>ABCDA</i><sub>1</sub><i>B</i><sub>1</sub><i>C</i><sub>1</sub><i>D</i><sub>1</sub> с реб­ром 1, <i>T</i>  — се­ре­ди­на ребра <i>AD</i>.</p><p class=\"left_margin\">а)  До­ка­жи­те, что объем пи­ра­ми­ды <img src=\"https://ege.sdamgia.ru/formula/svg/99/991ef32c6b1807396464dd02ce41a7e1.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AA_1TB\"> в 12 раз мень­ше объ­е­ма куба.</p><p class=\"left_margin\">б)  Най­ди­те рас­сто­я­ние от вер­ши­ны <i>A</i> до плос­ко­сти <i>A</i><sub>1</sub><i>BT</i>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/99/991ef32c6b1807396464dd02ce41a7e1.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Объем куба равен 1. Найдём объём пирамиды  Он равен Рис. 1Рис. 2  б)Пусть h  — искомое расстояние. Найдём теперь объём пирамиды  другим способом. Он равен  Треугольник   — равнобедренный, его основание  равно  а боковые стороны равны  Если H  — середина основания  то  поэтому  Следовательно, объём пирамиды  равен  Приравняем выражения для объёма:  откуда Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol507666\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Объем куба равен 1. Найдём объём пи­ра­ми­ды <img src=\"https://ege.sdamgia.ru/formula/svg/cd/cde4f8efec531a004e8028f85fc2223c.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"A_1ATB.\"> Он равен <img src=\"https://ege.sdamgia.ru/formula/svg/16/163b7803c2c3a1dbf57249ab17a4eadc.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби умно­жить на AA_1 умно­жить на S_ATB= дробь: чис­ли­тель: 1, зна­ме­на­тель: 12 конец дроби . \"></p><div class=\"flex-img\" style=\"align-items: flex-end;\"><p></p><div><img src=\"/get_file?id=132130\" style=\"margin:10px auto;display:block;max-width:none\"><p><nobr>Рис. 1</nobr></p><p></p></div><p></p><div><img src=\"/get_file?id=132131\" style=\"margin:10px auto;display:block;max-width:none\"><p><nobr>Рис. 2 </nobr></p><p></p></div><p></p></div> <p class=\"left_margin\">б)Пусть <i>h</i>  — ис­ко­мое рас­сто­я­ние. Найдём те­перь объём пи­ра­ми­ды <img src=\"https://ege.sdamgia.ru/formula/svg/0e/0e26011b2f6e76b272cc52f0ef60a1f5.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"A_1ATB\"> дру­гим спо­со­бом. Он равен <img src=\"https://ege.sdamgia.ru/formula/svg/4a/4ab0d589adf6febf3fa8223b5d90e85b.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби h умно­жить на S_A_1TB. \"> Тре­уголь­ник <img src=\"https://ege.sdamgia.ru/formula/svg/52/52b85f99ff2bcbd8829cfac630e31504.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"A_1BT\">  — рав­но­бед­рен­ный, его ос­но­ва­ние <img src=\"https://ege.sdamgia.ru/formula/svg/45/45c84d2253876c6a94448fa3f24dfd98.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"A_1B\"> равно <img src=\"https://ege.sdamgia.ru/formula/svg/85/8528e7c505189ea2d6e910809abc9224.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та ,\"> а бо­ко­вые сто­ро­ны равны <img src=\"https://ege.sdamgia.ru/formula/svg/63/633492693d1b2e9c286002d14d9c5a02.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 5 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби . \"> Если <i>H</i>  — се­ре­ди­на ос­но­ва­ния <img src=\"https://ege.sdamgia.ru/formula/svg/c8/c84b808338ccff3b25cfc78537893560.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"A_1B,\"> то <img src=\"https://ege.sdamgia.ru/formula/svg/32/3201491235cfb1b8aa197287aa4d6494.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"TH= дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби , \"> по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/e6/e6e6f6d838a5b1a7b106bb0e30c7a8ce.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"S_A_1BT= дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 6 конец ар­гу­мен­та , зна­ме­на­тель: 4 конец дроби . \"> Сле­до­ва­тель­но, объём пи­ра­ми­ды <img src=\"https://ege.sdamgia.ru/formula/svg/0e/0e26011b2f6e76b272cc52f0ef60a1f5.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"A_1ATB\"> равен <img src=\"https://ege.sdamgia.ru/formula/svg/85/856dd060d60dc82991895827aca60602.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"h умно­жить на дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 6 конец ар­гу­мен­та , зна­ме­на­тель: 12 конец дроби . \"> При­рав­ня­ем вы­ра­же­ния для объёма: <img src=\"https://ege.sdamgia.ru/formula/svg/84/841a5e748e56adc133e0dcfbb7e419fc.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"h умно­жить на дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 6 конец ар­гу­мен­та , зна­ме­на­тель: 12 конец дроби = дробь: чис­ли­тель: 1, зна­ме­на­тель: 12 конец дроби , \"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/87/878b05d87a46139725027ed75383d152.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"h= дробь: чис­ли­тель: 1, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 6 конец ар­гу­мен­та конец дроби = дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 6 конец ар­гу­мен­та , зна­ме­на­тель: 6 конец дроби . \"></p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/80/8031df4adcd024a35d056033051580af.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 6 конец ар­гу­мен­та , зна­ме­на­тель: 6 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/cd/cde4f8efec531a004e8028f85fc2223c.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/163b7803c2c3a1dbf57249ab17a4eadc.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0e26011b2f6e76b272cc52f0ef60a1f5.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4ab0d589adf6febf3fa8223b5d90e85b.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/52b85f99ff2bcbd8829cfac630e31504.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/45c84d2253876c6a94448fa3f24dfd98.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/8528e7c505189ea2d6e910809abc9224.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/633492693d1b2e9c286002d14d9c5a02.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c84b808338ccff3b25cfc78537893560.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/3201491235cfb1b8aa197287aa4d6494.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e6e6f6d838a5b1a7b106bb0e30c7a8ce.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0e26011b2f6e76b272cc52f0ef60a1f5.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/856dd060d60dc82991895827aca60602.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/841a5e748e56adc133e0dcfbb7e419fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/87/878b05d87a46139725027ed75383d152.svg",
+            "https://ege.sdamgia.ru/formula/svg/80/8031df4adcd024a35d056033051580af.svg",
+            "/get_file?id=132130",
+            "/get_file?id=132131"
+        ]
+    },
+    "answer": "",
+    "topic_id": 14,
+    "analog_ids": []
+}

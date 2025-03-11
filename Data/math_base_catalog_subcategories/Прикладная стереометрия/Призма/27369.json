@@ -1,0 +1,36 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27369,
+    "condition": {
+        "text": "В треугольнике ABC угол C равен 90°,  Найдите косинус внешнего угла при вершине ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918549\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right; margin:10px\" src=\"/get_file?id=7707\">В тре­уголь­ни­ке <i>ABC</i> угол <i>C</i> равен 90°, <img src=\"https://ege.sdamgia.ru/formula/svg/1b/1b73dc76776fcf92219fb17c9c8d5b87.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" ко­си­нус A = дробь: чис­ли­тель: 7, зна­ме­на­тель: 25 конец дроби . \"> Най­ди­те ко­си­нус внеш­не­го угла при вер­ши­не <img src=\"https://ege.sdamgia.ru/formula/svg/b0/b06c26aed02d969d0f2315ba11b5432b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"B.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/1b/1b73dc76776fcf92219fb17c9c8d5b87.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b06c26aed02d969d0f2315ba11b5432b.svg",
+            "/get_file?id=7707"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Поскольку  имеем   Ответ: – 0,96. ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27369\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По­сколь­ку </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/01/01ad2931f325e29974520d58220dd241.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" синус A= дробь: чис­ли­тель: CB, зна­ме­на­тель: AB конец дроби = ко­си­нус B, \"></p><p class=\"left_margin\"></p></center> имеем <p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/30/3053f0820bfc7bb06db832c14cc80928.svg\" class=\"tex\" style=\"vertical-align:-9.4pt\" alt=\" ко­си­нус B_внеш= минус ко­си­нус B= минус синус A= минус ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус дробь: чис­ли­тель: 49, зна­ме­на­тель: 625 конец дроби конец ар­гу­мен­та = минус дробь: чис­ли­тель: 24, зна­ме­на­тель: 25 конец дроби = минус 0,96. \"></p><p class=\"left_margin\"></p></center>  <p><span style=\"letter-spaceing:2px\">Ответ</span>: – 0,96. </p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/01/01ad2931f325e29974520d58220dd241.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/3053f0820bfc7bb06db832c14cc80928.svg"
+        ]
+    },
+    "answer": "-0,96",
+    "topic_id": null,
+    "analog_ids": [
+        27369,
+        19575,
+        19577,
+        19579,
+        19575,
+        19577,
+        19579,
+        19581,
+        19583,
+        19585
+    ]
+}

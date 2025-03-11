@@ -1,0 +1,27 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521753,
+    "condition": {
+        "text": "АК  — биссектриса треугольника АВС, причем ВК:КС=2:7. Из точек В и К проведены параллельные прямые, которые пересекают сторону АС в точках D и F соответственно, причем AD:FC=3:14.а)  Докажите, что АВ в 2 раза больше AD.б)  Найдите площадь четырехугольника DBKF, если Р  — точка пересечения BD и AK и площадь треугольника АВР равна 27.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body628965\" class=\"pbody\"><p class=\"left_margin\"><i>АК</i>  — бис­сек­три­са тре­уголь­ни­ка <i>АВС</i>, при­чем <i>ВК</i>:<i>КС</i>=2:7. Из точек <i>В</i> и <i>К</i> про­ве­де­ны па­рал­лель­ные пря­мые, ко­то­рые пе­ре­се­ка­ют сто­ро­ну <i>АС</i> в точ­ках <i>D</i> и <i>F</i> со­от­вет­ствен­но, при­чем <i>AD</i>:<i>FC</i>=3:14.</p><p class=\"left_margin\">а)  До­ка­жи­те, что <i>АВ</i> в 2 раза боль­ше <i>AD</i>.</p><p class=\"left_margin\">б)  Най­ди­те пло­щадь че­ты­рех­уголь­ни­ка <i>DBKF</i>, если <i>Р</i>  — точка пе­ре­се­че­ния <i>BD</i> и <i>AK</i> и пло­щадь тре­уголь­ни­ка <i>АВР</i> равна 27.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Пусть  По теореме Фалеса  и Значит,  По свойству биссектрисы  откуда  что и требовалось.б)  Заметим, что  по свойству биссектрисы. Значит,Ответ: б) 96.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521753\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/52/52863e8f70f09f5183700fabcea78e35.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"BK=2x,KC=7x,AD=3y,FC=14y.\"> По тео­ре­ме Фа­ле­са <img src=\"https://ege.sdamgia.ru/formula/svg/92/928d48b6e094458b3fa8bd524fb5b48e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"DF=4y\"> и Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/01/0130dd69c9f637ff6715c9f894f74f93.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AC=21y.\"> По свой­ству бис­сек­три­сы <img src=\"https://ege.sdamgia.ru/formula/svg/ec/ec500d6bd7395eb5b2f6caeb5cca32fb.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AC:AB=CK:KB,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/bc/bccf362fb2762059ce61642d60862b2a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AB=6y,\"> что и тре­бо­ва­лось.</p><p><img src=\"/get_file?id=36438\" style=\"margin:10px auto;display:block\"></p><p class=\"left_margin\">б)  За­ме­тим, что <img src=\"https://ege.sdamgia.ru/formula/svg/7a/7a07ab1f365ed7b4701c81dfd607f82c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"DP:PB=DA:AB=1:2\"> по свой­ству бис­сек­три­сы. Зна­чит,</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f4/f4177509631e798dc0982d2ed913b2ec.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"S_DBKF=S_CBD минус S_CKF= дробь: чис­ли­тель: 81 минус 49, зна­ме­на­тель: 81 конец дроби S_BDC= дробь: чис­ли­тель: 32, зна­ме­на­тель: 81 конец дроби умно­жить на 6S_ADB= дробь: чис­ли­тель: 64, зна­ме­на­тель: 27 конец дроби умно­жить на дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби S_APB=96. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) 96.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/52/52863e8f70f09f5183700fabcea78e35.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/928d48b6e094458b3fa8bd524fb5b48e.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/0130dd69c9f637ff6715c9f894f74f93.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ec500d6bd7395eb5b2f6caeb5cca32fb.svg",
+            "https://ege.sdamgia.ru/formula/svg/bc/bccf362fb2762059ce61642d60862b2a.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7a07ab1f365ed7b4701c81dfd607f82c.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f4177509631e798dc0982d2ed913b2ec.svg",
+            "/get_file?id=36438"
+        ]
+    },
+    "answer": "б) 96.",
+    "topic_id": null,
+    "analog_ids": []
+}

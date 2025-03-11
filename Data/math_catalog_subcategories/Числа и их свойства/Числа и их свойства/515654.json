@@ -1,0 +1,36 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 515654,
+    "condition": {
+        "text": "Решите в целых числах уравнение ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body635066\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те в целых чис­лах урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/46/466589270cd0ac746ee4a535b094d923.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"3 в сте­пе­ни n плюс 8=x в квад­ра­те .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/46/466589270cd0ac746ee4a535b094d923.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Если   — не целое число, тогда  тоже нецелое, решений нет.Если Если  при делении на 3 дает остаток два.Пусть  тогда   — кратно 3.Пусть  тогда   — при делении на 3 остаток 1.Пусть  тогда   — при делении на 3 остаток 1.Таким образом, квадрат целого числа не дает остаток 2 при делении на 3, значит, при  решений нет. Ответ:    ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol515654\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Если <img src=\"https://ege.sdamgia.ru/formula/svg/7f/7fd0bef87fccc22243a7d9270c92a014.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"n мень­ше 0, 3 в сте­пе­ни n минус 8\">  — не целое число, тогда <img src=\"https://ege.sdamgia.ru/formula/svg/32/32f5240d0dbf2ccbe75ef7f8ef2015e0.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x в квад­ра­те \"> тоже не­це­лое, ре­ше­ний нет.</p><p class=\"left_margin\">Если <img src=\"https://ege.sdamgia.ru/formula/svg/5c/5c99655c69c4a6b2df985fb2404f1b00.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"n=0, 9=x в квад­ра­те рав­но­силь­но x=\\pm3.\"></p><p class=\"left_margin\">Если <img src=\"https://ege.sdamgia.ru/formula/svg/c6/c6c4e10c0498c3d3aa73ac86d8d570f7.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"n боль­ше 0, 3 в сте­пе­ни n плюс 8 \"> при де­ле­нии на 3 дает оста­ток два.</p><p class=\"left_margin\">Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/7b/7bbe5a0197b3cb3e296c8e072c6e0618.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x=3k,\"> тогда <img src=\"https://ege.sdamgia.ru/formula/svg/50/50041a31dbb5570497876de32fe71445.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x в квад­ра­те =9k в квад­ра­те \">  — крат­но 3.</p><p class=\"left_margin\">Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/ba/bad48f35ce582e5f642a6e8656b46185.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x=3k плюс 1,\"> тогда <img src=\"https://ege.sdamgia.ru/formula/svg/73/739955e52ad2d02d18a48218609ba436.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x в квад­ра­те = левая круг­лая скоб­ка 3k плюс 1 пра­вая круг­лая скоб­ка в квад­ра­те =9k в квад­ра­те плюс 6k плюс 1\">  — при де­ле­нии на 3 оста­ток 1.</p><p class=\"left_margin\">Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/c8/c8d84fdd1be8488b1aca0a9ef6cf88a8.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x=3k плюс 2,\"> тогда <img src=\"https://ege.sdamgia.ru/formula/svg/d5/d56f64b5a6ab29d114c0bf6c0e70018e.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x в квад­ра­те = левая круг­лая скоб­ка 3k плюс 2 пра­вая круг­лая скоб­ка в квад­ра­те =9k в квад­ра­те плюс 12k плюс 3 плюс 1\">  — при де­ле­нии на 3 оста­ток 1.</p><p class=\"left_margin\">Таким об­ра­зом, квад­рат це­ло­го числа не дает оста­ток 2 при де­ле­нии на 3, зна­чит, при <img src=\"https://ege.sdamgia.ru/formula/svg/3a/3a17f57d9af78403b7ac2dd5f82c2d3c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"n боль­ше 0\"> ре­ше­ний нет.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/c4/c4fb5cd86b2cdf8da7d5f01970dcc095.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"n=0,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/46/46bec1c7c6173256e2354bf35061c038.svg\" class=\"tex\" style=\"vertical-align:-2.2pt\" alt=\"x=3;\"> <img src=\"https://ege.sdamgia.ru/formula/svg/c4/c4fb5cd86b2cdf8da7d5f01970dcc095.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"n=0,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/77/776b28d1cac7c6070068724f54346fe1.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x= минус 3.,\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/7f/7fd0bef87fccc22243a7d9270c92a014.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/32f5240d0dbf2ccbe75ef7f8ef2015e0.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5c99655c69c4a6b2df985fb2404f1b00.svg",
+            "https://ege.sdamgia.ru/formula/svg/c6/c6c4e10c0498c3d3aa73ac86d8d570f7.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7bbe5a0197b3cb3e296c8e072c6e0618.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50041a31dbb5570497876de32fe71445.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/bad48f35ce582e5f642a6e8656b46185.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/739955e52ad2d02d18a48218609ba436.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c8d84fdd1be8488b1aca0a9ef6cf88a8.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d56f64b5a6ab29d114c0bf6c0e70018e.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3a17f57d9af78403b7ac2dd5f82c2d3c.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c4fb5cd86b2cdf8da7d5f01970dcc095.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/46bec1c7c6173256e2354bf35061c038.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c4fb5cd86b2cdf8da7d5f01970dcc095.svg",
+            "https://ege.sdamgia.ru/formula/svg/77/776b28d1cac7c6070068724f54346fe1.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

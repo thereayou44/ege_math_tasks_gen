@@ -1,0 +1,27 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 506011,
+    "condition": {
+        "text": "Найти длины сторон AB и AC треугольника ABC, если BC = 8, а длины высот, проведенных к AC и BC, равны соответственно 6,4 и 4.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body644711\" class=\"pbody\"><p class=\"left_margin\">Найти длины сто­рон <i>AB</i> и <i>AC</i> тре­уголь­ни­ка <i>ABC</i>, если <i>BC</i> = 8, а длины высот, про­ве­ден­ных к <i>AC</i> и <i>BC</i>, равны со­от­вет­ствен­но 6,4 и 4.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Заметим, что  кроме того,  откуда AC  =  5.Также  откуда Тогда, наконец,  Ответ:   или  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol506011\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=66970\" style=\"float:right;margin:10px\"></p><p class=\"left_margin\">За­ме­тим, что <img src=\"https://ege.sdamgia.ru/formula/svg/56/564549be6428e9db053c97296e5f89ea.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S_ABC= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на 8 умно­жить на 4=16, \"> кроме того, <img src=\"https://ege.sdamgia.ru/formula/svg/e4/e4258a2f46e8fa7fc7f1f6cd5532a3bd.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на 6.4 умно­жить на AC, \"> от­ку­да <i>AC</i>  =  5.</p><p class=\"left_margin\">Также </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/b1/b1b0ceaf7a4a415a4af53c71d1536a6d.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"16=S_ABC= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на BC умно­жить на AC умно­жить на синус C=20 синус C, \"> </p><p class=\"left_margin\"></p></center><p>от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/0b/0ba8032f21e713142b8c469ccbd7cae9.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" синус C= дробь: чис­ли­тель: 4, зна­ме­на­тель: 5 конец дроби , ко­си­нус C=\\pm дробь: чис­ли­тель: 3, зна­ме­на­тель: 5 конец дроби .\"></p><p class=\"left_margin\">Тогда, на­ко­нец, <img src=\"https://ege.sdamgia.ru/formula/svg/a3/a32e0bf9eb7549d015f2a370d7ebe0af.svg\" class=\"tex\" style=\"vertical-align:-9.4pt\" alt=\"AB= ко­рень из: на­ча­ло ар­гу­мен­та: 8 в квад­ра­те плюс 5 в квад­ра­те \\pm 2 умно­жить на 8 умно­жить на 5 умно­жить на дробь: чис­ли­тель: 3, зна­ме­на­тель: 5 конец дроби конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 89\\pm 48 конец ар­гу­мен­та .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  <img src=\"https://ege.sdamgia.ru/formula/svg/5e/5ec9b007842185a20f4cfd4ffc30b785.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AC=5,AB= ко­рень из: на­ча­ло ар­гу­мен­та: 41 конец ар­гу­мен­та \"> или  <img src=\"https://ege.sdamgia.ru/formula/svg/27/277e7b327b8a2b59f665fa05c9f003a1.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"AC=5,AB= ко­рень из: на­ча­ло ар­гу­мен­та: 137 конец ар­гу­мен­та .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/56/564549be6428e9db053c97296e5f89ea.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e4258a2f46e8fa7fc7f1f6cd5532a3bd.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b1b0ceaf7a4a415a4af53c71d1536a6d.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0ba8032f21e713142b8c469ccbd7cae9.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a32e0bf9eb7549d015f2a370d7ebe0af.svg",
+            "https://ege.sdamgia.ru/formula/svg/5e/5ec9b007842185a20f4cfd4ffc30b785.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/277e7b327b8a2b59f665fa05c9f003a1.svg",
+            "/get_file?id=66970"
+        ]
+    },
+    "answer": "или",
+    "topic_id": null,
+    "analog_ids": []
+}

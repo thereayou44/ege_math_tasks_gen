@@ -1,0 +1,62 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27994,
+    "condition": {
+        "text": "Ёмкость высоковольтного конденсатора в телевизоре  Ф. Параллельно с конденсатором подключeн резистор с сопротивлением  Ом. Во время работы телевизора напряжение на конденсаторе  кВ. После выключения телевизора напряжение на конденсаторе убывает до значения U (кВ) за время, определяемое выражением  (с), где  − постоянная. Определите  напряжение на конденсаторе, если после выключения телевизора прошла  21 с. Ответ дайте в киловольтах.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918438\" class=\"pbody\"><p class=\"left_margin\">Ёмкость вы­со­ко­вольт­но­го кон­ден­са­то­ра в те­ле­ви­зо­ре <img src=\"https://ege.sdamgia.ru/formula/svg/03/035151e9e04a23b5f5028057c9615213.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"C = 2 умно­жить на 10 в сте­пе­ни левая круг­лая скоб­ка минус 6 пра­вая круг­лая скоб­ка \"> Ф. Па­рал­лель­но с кон­ден­са­то­ром под­ключeн ре­зи­стор с со­про­тив­ле­ни­ем <img src=\"https://ege.sdamgia.ru/formula/svg/eb/eb9a222c98cc798e9b60f40af7360996.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"R = 5 умно­жить на 10 в сте­пе­ни 6 \"> Ом. Во время ра­бо­ты те­ле­ви­зо­ра на­пря­же­ние на кон­ден­са­то­ре <img src=\"https://ege.sdamgia.ru/formula/svg/17/17ba2c32eb128195732dd7a5680cb333.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"U_0 = 16\"> кВ. После вы­клю­че­ния те­ле­ви­зо­ра на­пря­же­ние на кон­ден­са­то­ре убы­ва­ет до зна­че­ния <i>U</i> (кВ) за время, опре­де­ля­е­мое вы­ра­же­ни­ем <img src=\"https://ege.sdamgia.ru/formula/svg/75/75a176911bbf42de0bd53619bad9ffd8.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"t= альфа RC ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 2 пра­вая круг­лая скоб­ка дробь: чис­ли­тель: U_0 , зна­ме­на­тель: U конец дроби \"> (с), где <img src=\"https://ege.sdamgia.ru/formula/svg/a4/a40635179928719a96d0ccd47bd153b8.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" альфа =0,7\"> − по­сто­ян­ная. Опре­де­ли­те  на­пря­же­ние на кон­ден­са­то­ре, если после вы­клю­че­ния те­ле­ви­зо­ра про­шла  21 с. Ответ дайте в ки­ло­воль­тах.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/03/035151e9e04a23b5f5028057c9615213.svg",
+            "https://ege.sdamgia.ru/formula/svg/eb/eb9a222c98cc798e9b60f40af7360996.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/17ba2c32eb128195732dd7a5680cb333.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/75a176911bbf42de0bd53619bad9ffd8.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a40635179928719a96d0ccd47bd153b8.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Задача сводится к решению уравнения  при заданных значениях начального напряжения на конденсаторе  кВ, сопротивления резистора  Ом и ёмкости конденсатора  Ф: кВ.  Ответ: 2.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27994\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">За­да­ча сво­дит­ся к ре­ше­нию урав­не­ния <img src=\"https://ege.sdamgia.ru/formula/svg/79/79e89d2f17759b8c2a0c91145db63814.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"t= 21\"> при за­дан­ных зна­че­ни­ях на­чаль­но­го на­пря­же­ния на кон­ден­са­то­ре <img src=\"https://ege.sdamgia.ru/formula/svg/33/332fae69677eca055dbb2c39f8d16054.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"U_0=16\"> кВ, со­про­тив­ле­ния ре­зи­сто­ра <img src=\"https://ege.sdamgia.ru/formula/svg/54/54de0a37b44f4021b452ce7ce3f489c0.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"R=5 умно­жить на 10 в сте­пе­ни 6 \"> Ом и ёмко­сти кон­ден­са­то­ра <img src=\"https://ege.sdamgia.ru/formula/svg/68/6821c4950ba898db542cb4306e49d583.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"C=2 умно­жить на 10 в сте­пе­ни левая круг­лая скоб­ка минус 6 пра­вая круг­лая скоб­ка \"> Ф:</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"ab016dec137f9aa5c12b6c978fd96814\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/ab/ab016dec137f9aa5c12b6c978fd96814.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"t= 21 рав­но­силь­но 0,7 умно­жить на 2 умно­жить на 10 в сте­пе­ни левая круг­лая скоб­ка минус 6 пра­вая круг­лая скоб­ка умно­жить на 5 умно­жить на 10 в сте­пе­ни 6 умно­жить на ло­га­рифм по ос­но­ва­нию 2 дробь: чис­ли­тель: 16, зна­ме­на­тель: U конец дроби =21 рав­но­силь­но ло­га­рифм по ос­но­ва­нию 2 дробь: чис­ли­тель: 16, зна­ме­на­тель: U конец дроби = 3 рав­но­силь­но дробь: чис­ли­тель: 16, зна­ме­на­тель: U конец дроби = 8 рав­но­силь­но U= 2 \"></span> кВ.</p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 2.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/79/79e89d2f17759b8c2a0c91145db63814.svg",
+            "https://ege.sdamgia.ru/formula/svg/33/332fae69677eca055dbb2c39f8d16054.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54de0a37b44f4021b452ce7ce3f489c0.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/6821c4950ba898db542cb4306e49d583.svg",
+            "https://ege.sdamgia.ru/formula/svg/ab/ab016dec137f9aa5c12b6c978fd96814.svg"
+        ]
+    },
+    "answer": "2",
+    "topic_id": 9,
+    "analog_ids": [
+        27994,
+        28463,
+        42993,
+        42997,
+        28463,
+        42993,
+        42997,
+        42999,
+        520186,
+        520205,
+        28465,
+        28467,
+        28469,
+        28471,
+        28473,
+        28475,
+        42965,
+        42967,
+        42969,
+        42971,
+        42973,
+        42975,
+        42977,
+        42979,
+        42981,
+        42983,
+        42985,
+        42987,
+        42989,
+        42991,
+        42995
+    ]
+}

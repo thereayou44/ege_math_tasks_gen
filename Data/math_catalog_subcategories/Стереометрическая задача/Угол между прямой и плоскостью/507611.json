@@ -1,0 +1,33 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 507611,
+    "condition": {
+        "text": "а)  Дан прямоугольный параллелепипед ABCDA1B1C1D1. Докажите, что все грани тетраэдра ACB1D1  — равные треугольники (тетраэдр, обладающий таким свойством, называют равногранным). б)  В прямоугольном параллелепипеде ABCDA1B1C1D1, у которого AA1  =  4, A1D1  =  6, C1D1  =  6, найдите тангенс угла между плоскостью ADD1 и прямой EF, проходящей через середины ребер AB и B1C1.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body643111\" class=\"pbody\"><p class=\"left_margin\">а)  Дан пря­мо­уголь­ный па­рал­ле­ле­пи­пед <i>ABCDA</i><sub>1</sub><i>B</i><sub>1</sub><i>C</i><sub>1</sub><i>D</i><sub>1</sub>. До­ка­жи­те, что все грани тет­ра­эд­ра <i>ACB</i><sub>1</sub><i>D</i><sub>1</sub>  — рав­ные тре­уголь­ни­ки (тет­ра­эдр, об­ла­да­ю­щий таким свой­ством, на­зы­ва­ют <i>рав­но­гран­ным</i>). </p><p class=\"left_margin\">б)  В пря­мо­уголь­ном па­рал­ле­ле­пи­пе­де <i>ABCDA</i><sub>1</sub><i>B</i><sub>1</sub><i>C</i><sub>1</sub><i>D</i><sub>1</sub>, у ко­то­ро­го <i>AA</i><sub>1</sub>  =  4, <i>A</i><sub>1</sub><i>D</i><sub>1</sub>  =  6, <i>C</i><sub>1</sub><i>D</i><sub>1</sub>  =  6, най­ди­те тан­генс угла между плос­ко­стью <i>ADD</i><sub>1</sub> и пря­мой <i>EF</i>, про­хо­дя­щей через се­ре­ди­ны ребер <i>AB</i> и <i>B</i><sub>1</sub><i>C</i><sub>1</sub>.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Противоположные грани прямоугольного параллелепипеда  — равные прямоугольники, поэтому их диагонали равны. Таким образом,    Значит, все грани равны по третьему признаку равенства треугольников.б)  Найдем угол между прямой EF и плоскостью BB1C1C. Точка B  — проекция точки E на эту плоскость. Искомый угол есть     Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol507611\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=141934\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Про­ти­во­по­лож­ные грани пря­мо­уголь­но­го па­рал­ле­ле­пи­пе­да  — рав­ные пря­мо­уголь­ни­ки, по­это­му их диа­го­на­ли равны. Таким об­ра­зом, <img src=\"https://ege.sdamgia.ru/formula/svg/0b/0bb7287b035d3e0532851ac061810b3d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AC=B_1D_1,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/27/27d1cbe67f554890da49acf233225352.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"CB_1=AD_1,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/ce/ce85c7a04f089723e4894061deb4c57c.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AB_1=CD_1.\"> Зна­чит, все грани равны по тре­тье­му при­зна­ку ра­вен­ства тре­уголь­ни­ков.</p><p class=\"left_margin\">б)  Най­дем угол между пря­мой <i>EF</i> и плос­ко­стью <i>BB</i><sub>1</sub><i>C</i><sub>1</sub><i>C</i>. Точка <i>B</i>  — про­ек­ция точки <i>E</i> на эту плос­кость. Ис­ко­мый угол есть <img src=\"https://ege.sdamgia.ru/formula/svg/a8/a81cf50f1da1b0da65b6dea0e5281a7a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle EFB.\"> <img src=\"https://ege.sdamgia.ru/formula/svg/b5/b590a0240ae6d0eae0cdbd1cfffda92a.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"EB= дробь: чис­ли­тель: 6, зна­ме­на­тель: 2 конец дроби =3. \"> <img src=\"https://ege.sdamgia.ru/formula/svg/30/30ff861d7aebb3c2240dd81472567c9f.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"FB= ко­рень из: на­ча­ло ар­гу­мен­та: 4 в квад­ра­те плюс 3 в квад­ра­те конец ар­гу­мен­та =5.\"> <img src=\"https://ege.sdamgia.ru/formula/svg/91/91d2236a9b0838f086177caae956bf3c.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" тан­генс \\angle EFB= дробь: чис­ли­тель: 3, зна­ме­на­тель: 5 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/b6/b6ae9de4a5210225702da2021e46364d.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 3, зна­ме­на­тель: 5 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/0b/0bb7287b035d3e0532851ac061810b3d.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/27d1cbe67f554890da49acf233225352.svg",
+            "https://ege.sdamgia.ru/formula/svg/ce/ce85c7a04f089723e4894061deb4c57c.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a81cf50f1da1b0da65b6dea0e5281a7a.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b590a0240ae6d0eae0cdbd1cfffda92a.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/30ff861d7aebb3c2240dd81472567c9f.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/91d2236a9b0838f086177caae956bf3c.svg",
+            "https://ege.sdamgia.ru/formula/svg/b6/b6ae9de4a5210225702da2021e46364d.svg",
+            "/get_file?id=141934"
+        ]
+    },
+    "answer": "",
+    "topic_id": 14,
+    "analog_ids": [
+        507611,
+        507615,
+        507657,
+        507660
+    ]
+}

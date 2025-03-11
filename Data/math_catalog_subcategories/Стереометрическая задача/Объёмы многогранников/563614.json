@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 563614,
+    "condition": {
+        "text": "Дана правильная треугольная пирамида SABC, сторона основания AB  =  16, высота SH  =  10, точка K  — середина AS. Плоскость, проходящая через точку K и параллельная основанию пирамиды, пересекает ребра SB и SC в точках Q и P соответственно.а)  Докажите, что площадь PQBС относится к площади как 3 : 4.б)  Найдите объем пирамиды KBQPC.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body456546\" class=\"pbody\"><p class=\"left_margin\">Дана пра­виль­ная тре­уголь­ная пи­ра­ми­да <i>SABC</i>, сто­ро­на ос­но­ва­ния <i>AB</i>  =  16, вы­со­та <i>SH</i>  =  10, точка <i>K</i>  — се­ре­ди­на <i>AS</i>. Плос­кость, про­хо­дя­щая через точку <i>K</i> и па­рал­лель­ная ос­но­ва­нию пи­ра­ми­ды, пе­ре­се­ка­ет ребра <i>SB</i> и <i>SC </i>в точ­ках <i>Q</i> и <i>P</i> со­от­вет­ствен­но.</p><p class=\"left_margin\">а)  До­ка­жи­те, что пло­щадь <i>PQBС</i> от­но­сит­ся к пло­ща­ди<img src=\"https://ege.sdamgia.ru/formula/svg/12/12c96f3c530ffb5045d7668ec7e37455.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" BSC\"> как 3 : 4.</p><p class=\"left_margin\">б)  Най­ди­те объем пи­ра­ми­ды <i>KBQPC</i>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/12/12c96f3c530ffb5045d7668ec7e37455.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Плоскость ASB пересекает параллельные плоскости KQP и ABC по параллельным прямым, поэтому прямые KQ  и  AB   параллельны. Аналогично доказывается параллельность прямых KP и AC. Значит, точка Q  — середина отрезка BS, а точка P  — середина отрезка CS. Тогда площадь треугольника SQP в четыре раза меньше площади треугольника BCS. Значит,  Это и требовалось доказать.б)  Найдем сначала объем пирамиды SABC:  Заметим, что высота пирамиды KBQPC, проведенная из вершины K, вдвое меньше высоты пирамиды ABCS, проведенной из вершины A, а площади оснований этих пирамид согласно пункту а) относятся как  Поэтому объем пирамиды KBQPC относится к объему пирамиды ABCS как  Отсюда получаем, что искомый объем равен  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol563614\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=141633\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Плос­кость <i>ASB</i> пе­ре­се­ка­ет па­рал­лель­ные плос­ко­сти <i>KQP</i> и <i>ABC</i> по па­рал­лель­ным пря­мым, по­это­му пря­мые <i>KQ </i> и  <i>AB</i>   па­рал­лель­ны. Ана­ло­гич­но до­ка­зы­ва­ет­ся па­рал­лель­ность пря­мых <i>KP</i> и <i>AC</i>. Зна­чит, точка <i>Q</i>  — се­ре­ди­на от­рез­ка <i>BS</i>, а точка <i>P</i>  — се­ре­ди­на от­рез­ка <i>CS</i>. Тогда пло­щадь тре­уголь­ни­ка <i>SQP</i> в че­ты­ре раза мень­ше пло­ща­ди тре­уголь­ни­ка <i>BCS.</i> Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/85/85f04215bb849a952680e695bf38739b.svg\" class=\"tex\" style=\"vertical-align:-4.0pt\" alt=\"S_BQPC:S_BSC=3:4.\"> Это и тре­бо­ва­лось до­ка­зать.</p><p class=\"left_margin\">б)  Най­дем сна­ча­ла объем пи­ра­ми­ды <i>SABC</i>: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/79/79d044f022bcbe4aa08f716e1d7c4a9c.svg\" class=\"tex\" style=\"vertical-align:-8.6pt\" alt=\" V = дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби умно­жить на 10 умно­жить на 16 в квад­ра­те дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та }4= дробь: чис­ли­тель: 640 ко­рень из { 3, зна­ме­на­тель: , конец дроби зна­ме­на­тель: 3 конец дроби . \"></p><p class=\"left_margin\"></p></center><p> За­ме­тим, что вы­со­та пи­ра­ми­ды <i>KBQPC</i>, про­ве­ден­ная из вер­ши­ны <i>K</i>, вдвое мень­ше вы­со­ты пи­ра­ми­ды <i>ABCS</i>, про­ве­ден­ной из вер­ши­ны <i>A</i>, а пло­ща­ди ос­но­ва­ний этих пи­ра­мид со­глас­но пунк­ту а) от­но­сят­ся как <img src=\"https://ege.sdamgia.ru/formula/svg/0d/0ddef6bfffbab87bec181b492a8e31a2.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"3:4.\"> По­это­му объем пи­ра­ми­ды <i>KBQPC</i> от­но­сит­ся к объ­е­му пи­ра­ми­ды <i>ABCS</i> как <img src=\"https://ege.sdamgia.ru/formula/svg/53/53d6481792f9a3d73f8b5cb3fbc78db1.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"3:8.\"> От­сю­да по­лу­ча­ем, что ис­ко­мый объем равен <img src=\"https://ege.sdamgia.ru/formula/svg/2d/2d1fb64a2c52c9779ea690535ef39903.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"80 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/2d/2d1fb64a2c52c9779ea690535ef39903.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"80 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/85/85f04215bb849a952680e695bf38739b.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/79d044f022bcbe4aa08f716e1d7c4a9c.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0ddef6bfffbab87bec181b492a8e31a2.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/53d6481792f9a3d73f8b5cb3fbc78db1.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d1fb64a2c52c9779ea690535ef39903.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d1fb64a2c52c9779ea690535ef39903.svg",
+            "/get_file?id=141633"
+        ]
+    },
+    "answer": "",
+    "topic_id": 14,
+    "analog_ids": []
+}

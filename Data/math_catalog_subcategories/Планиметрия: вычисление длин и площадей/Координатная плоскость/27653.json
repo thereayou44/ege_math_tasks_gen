@@ -1,0 +1,50 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27653,
+    "condition": {
+        "text": "Найдите ординату точки, симметричной точке A(6; 8) относительно оси Ox.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918265\" class=\"pbody\"><p class=\"left_margin\"><img width=\"190\" style=\"float:right; margin:10px\" src=\"/get_file?id=304\">Най­ди­те ор­ди­на­ту точки, сим­мет­рич­ной точке <i>A</i>(6; 8) от­но­си­тель­но оси <i>Ox</i>.</p></div>",
+        "image_urls": [
+            "/get_file?id=304"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Так как точка симметрична относительно оси Ox, то абсцисса равна 6, а ордината равна −8. Ответ: −8.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27653\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Так как точка сим­мет­рич­на от­но­си­тель­но оси <i>Ox</i>, то абс­цис­са равна <i>6</i>, а ор­ди­на­та равна −8.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> −8.</p></div>",
+        "image_urls": []
+    },
+    "answer": "-8",
+    "topic_id": null,
+    "analog_ids": [
+        27653,
+        57957,
+        57959,
+        57961,
+        57957,
+        57959,
+        57961,
+        57963,
+        57965,
+        57967,
+        57969,
+        57971,
+        57973,
+        57975,
+        57977,
+        57979,
+        57981,
+        57983,
+        57985,
+        57987,
+        57989,
+        57991,
+        57993,
+        57995,
+        57997,
+        57999,
+        58001,
+        58003,
+        58005
+    ]
+}

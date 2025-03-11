@@ -1,0 +1,35 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 507671,
+    "condition": {
+        "text": "Прямая, проведённая через середину N стороны AB квадрата ABCD, пересекает прямые CD и AD в точках M и T соответственно и образует с прямой AB угол, тангенс которого равен 0,5. Найдите площадь треугольника BMT, если сторона квадрата ABCD равна 8.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body643563\" class=\"pbody\"><p class=\"left_margin\">Пря­мая, про­ведённая через се­ре­ди­ну <i>N</i> сто­ро­ны <i>AB</i> квад­ра­та <i>ABCD</i>, пе­ре­се­ка­ет пря­мые <i>CD</i> и <i>AD</i> в точ­ках <i>M</i> и <i>T</i> со­от­вет­ствен­но и об­ра­зу­ет с пря­мой <i>AB</i> угол, тан­генс ко­то­ро­го равен 0,5. Най­ди­те пло­щадь тре­уголь­ни­ка <i>BMT</i>, если сто­ро­на квад­ра­та <i>ABCD</i> равна 8.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Возможны два случая: точка M лежит на продолжении стороны CD за точку C или на продолжении стороны CD за точку D. Пусть   — угол между прямыми MT и AB.Рассмотрим первый случай. Заметим, что  Отрезок  поэтому  Значит,  Кроме того,  Следовательно, Во втором случае  По-прежнему  Следовательно,  Ответ: 12 или 20.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol507671\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Воз­мож­ны два слу­чая: точка <i>M</i> лежит на про­дол­же­нии сто­ро­ны <i>CD</i> за точку <i>C</i> или на про­дол­же­нии сто­ро­ны <i>CD</i> за точку <i>D.</i> Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/7b/7b7f9dbfea05c83784f8b85149852f08.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" альфа \">  — угол между пря­мы­ми <i>MT</i> и <i>AB.</i></p><p class=\"left_margin\">Рас­смот­рим пер­вый слу­чай. За­ме­тим, что <img src=\"https://ege.sdamgia.ru/formula/svg/50/504055d9b51c9693a552f45a448ee699.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"S_BMT=S_BNT плюс S_BMN.\"> От­ре­зок <img src=\"https://ege.sdamgia.ru/formula/svg/09/095f4526eee2a1e9271bde3a1cb18155.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AN=4,\"> по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/8e/8e44fd2a7a14823b633bf25369045c08.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\"AT=AN тан­генс альфа =2.\"> Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/6f/6fc114a9ceefd9b7042b20f7a0b2aa99.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S_BNT= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на BN умно­жить на AT=4. \"> Кроме того, <img src=\"https://ege.sdamgia.ru/formula/svg/45/4519c0e2e2b7290b9dd15713e64f9a44.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S_BMN= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби BN умно­жить на BC=16. \"> Сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/8b/8bfd6ae20dfcf6b7bbcd81607bf2b302.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"S_BMT=4 плюс 16=20.\"></p><p class=\"left_margin\"></p><center><p><img src=\"/get_file?id=29308\" style=\"margin:10px\"><img src=\"/get_file?id=29307\" style=\"margin:10px\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Во вто­ром слу­чае <img src=\"https://ege.sdamgia.ru/formula/svg/1a/1ab68cd4c73a2c432b32017895723b7b.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"S_BMT=S_BMN минус S_BNT.\"> По-преж­не­му <img src=\"https://ege.sdamgia.ru/formula/svg/16/16b010cd174461bab90e8a2c965c1390.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AT=2, S_BNT=4, S_BMN=16.\"> Сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/a7/a736ae9bde14ae2764f2bf3b3bac3ffd.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"S_BMT=16 минус 4=12.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 12 или 20.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/7b/7b7f9dbfea05c83784f8b85149852f08.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/504055d9b51c9693a552f45a448ee699.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/095f4526eee2a1e9271bde3a1cb18155.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8e44fd2a7a14823b633bf25369045c08.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6fc114a9ceefd9b7042b20f7a0b2aa99.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/4519c0e2e2b7290b9dd15713e64f9a44.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8bfd6ae20dfcf6b7bbcd81607bf2b302.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1ab68cd4c73a2c432b32017895723b7b.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/16b010cd174461bab90e8a2c965c1390.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a736ae9bde14ae2764f2bf3b3bac3ffd.svg",
+            "/get_file?id=29308",
+            "/get_file?id=29307"
+        ]
+    },
+    "answer": "12 или 20.",
+    "topic_id": null,
+    "analog_ids": [
+        507368,
+        507392,
+        511427
+    ]
+}

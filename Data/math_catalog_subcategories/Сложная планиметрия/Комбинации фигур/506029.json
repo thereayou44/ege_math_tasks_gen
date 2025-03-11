@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 506029,
+    "condition": {
+        "text": "Пусть O  — центр окружности, описанной около треугольника ABC, угол AOC равен 60 градусов. Найдите угол AMC, где M  — центр окружности, вписанной в треугольник ABC.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body644689\" class=\"pbody\"><p class=\"left_margin\">Пусть <i>O</i>  — центр окруж­но­сти, опи­сан­ной около тре­уголь­ни­ка <i>ABC</i>, угол <i>AOC</i> равен 60 гра­ду­сов. Най­ди­те угол <i>AMC</i>, где <i>M</i>  — центр окруж­но­сти, впи­сан­ной в тре­уголь­ник <i>ABC</i>.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. 1)  Исходный треугольник остроугольный (∠B < 90°), рисунок справа. Острый вписанный угол, опирающийся на дугу AC, в 2 раза меньше центрального, то есть ∠ABC  =  30°. Центр вписанной в треугольник окружности лежит в точке пересечения его биссектрис, поэтому из треугольника ABC получаем:  Из треугольника AMC получим:2)  Исходный треугольник тупоугольный (), рисунок слева (для экономии места изображена часть окружности). Тупой вписанный угол, опирающийся на дугу AC, находится как разность  и острого вписанного угла: тогда  Далее аналогично первому случаю: из треугольника ABC получаем:  Из треугольника AMC получим:  Ответ: 105° или 165°.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol506029\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=21828\" style=\"float:right;margin:5px\" width=\"320\"></p><p class=\"left_margin\">1)  Ис­ход­ный тре­уголь­ник ост­ро­уголь­ный (∠<i>B</i> &lt; 90°), ри­су­нок спра­ва. Ост­рый впи­сан­ный угол, опи­ра­ю­щий­ся на дугу <i>AC</i>, в 2 раза мень­ше цен­траль­но­го, то есть ∠<i>ABC</i>  =  30°. Центр впи­сан­ной в тре­уголь­ник окруж­но­сти лежит в точке пе­ре­се­че­ния его бис­сек­трис, по­это­му из тре­уголь­ни­ка <i>ABC</i> по­лу­ча­ем: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/5b/5b22fd5b33a372bc1e02ee0beb7e347e.svg\" class=\"tex\" style=\"vertical-align:-3.4pt\" alt=\"2 альфа плюс 2 бета плюс 30 гра­ду­сов = 180 гра­ду­сов рав­но­силь­но альфа плюс бета = 75 гра­ду­сов.\"></p><p class=\"left_margin\"></p></center><p> Из тре­уголь­ни­ка <i>AMC</i> по­лу­чим:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/42/42870afc9bdc3eac9c3f51bd678a97ff.svg\" class=\"tex\" style=\"vertical-align:-3.4pt\" alt=\"\\angle AMC = 180 гра­ду­сов минус альфа минус бета = 180 гра­ду­сов минус 75 гра­ду­сов = 105 гра­ду­сов.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">2)  Ис­ход­ный тре­уголь­ник ту­по­уголь­ный (<img src=\"https://ege.sdamgia.ru/formula/svg/dd/dd7efb4b3430976e8f4f94e6c28ebb10.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle B боль­ше 90 гра­ду­сов\">), ри­су­нок слева (для эко­но­мии места изоб­ра­же­на часть окруж­но­сти). Тупой впи­сан­ный угол, опи­ра­ю­щий­ся на дугу <i>AC</i>, на­хо­дит­ся как раз­ность <img src=\"https://ege.sdamgia.ru/formula/svg/04/043007c6e9c962c3726d72e9b02baa57.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"180 гра­ду­сов\"> и остро­го впи­сан­но­го угла: тогда <img src=\"https://ege.sdamgia.ru/formula/svg/83/839b5306fd3dcacfa34fc3f39633e2f4.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"\\angle ABC = 180 гра­ду­сов минус дробь: чис­ли­тель: \\angle AOC, зна­ме­на­тель: 2 конец дроби = 150 гра­ду­сов. \"> Далее ана­ло­гич­но пер­во­му слу­чаю: из тре­уголь­ни­ка <i>ABC</i> по­лу­ча­ем: <img src=\"https://ege.sdamgia.ru/formula/svg/70/7037bd7f226b80afee1b6e2e035382a1.svg\" class=\"tex\" style=\"vertical-align:-3.4pt\" alt=\"2 альфа плюс 2 бета плюс 150 гра­ду­сов = 180 гра­ду­сов рав­но­силь­но альфа плюс бета = 15 гра­ду­сов.\"> Из тре­уголь­ни­ка <i>AMC</i> по­лу­чим:</p><p>&nbsp;</p><p><img src=\"/get_file?id=21827\" style=\"float:right;margin:5px\" width=\"380\"></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/83/83b466b3b0a9a52422f0ac848169cea7.svg\" class=\"tex\" style=\"vertical-align:-3.4pt\" alt=\"\\angle AMC = 180 гра­ду­сов минус альфа минус бета = 180 гра­ду­сов минус 15 гра­ду­сов = 165 гра­ду­сов.\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 105° или 165°.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/5b/5b22fd5b33a372bc1e02ee0beb7e347e.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/42870afc9bdc3eac9c3f51bd678a97ff.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/dd7efb4b3430976e8f4f94e6c28ebb10.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/043007c6e9c962c3726d72e9b02baa57.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/839b5306fd3dcacfa34fc3f39633e2f4.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/7037bd7f226b80afee1b6e2e035382a1.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83b466b3b0a9a52422f0ac848169cea7.svg",
+            "/get_file?id=21828",
+            "/get_file?id=21827"
+        ]
+    },
+    "answer": "105° или 165°.",
+    "topic_id": null,
+    "analog_ids": []
+}

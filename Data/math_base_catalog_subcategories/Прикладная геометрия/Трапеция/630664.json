@@ -1,0 +1,31 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 630664,
+    "condition": {
+        "text": "По бизнес-плану четырёхлетний проект предполагает начальное вложение  — 12 млн рублей. По итогам каждого года планируется прирост вложенных средств на 10% по сравнению с началом года. Начисленные проценты планируется оставлять вложенными в проект. Кроме этого, сразу после начислений процентов потребуются дополнительные вложения: целое число n млн рублей в первый и во второй годы, а также целое число m млн рублей в третий и в четвёртый годы. Найдите наименьшее значение n, при котором первоначальные вложения за два года как минимум удвоятся, и наименьшее такое значение m, что при найденном ранее значении n первоначальные вложения за четыре года как минимум утроятся.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body520564\" class=\"pbody\"><p class=\"left_margin\">По биз­нес-плану четырёхлет­ний про­ект пред­по­ла­га­ет на­чаль­ное вло­же­ние  — 12 млн руб­лей. По ито­гам каж­до­го года пла­ни­ру­ет­ся при­рост вло­жен­ных средств на 10% по срав­не­нию с на­ча­лом года. На­чис­лен­ные про­цен­ты пла­ни­ру­ет­ся остав­лять вло­жен­ны­ми в про­ект. Кроме этого, сразу после на­чис­ле­ний про­цен­тов по­тре­бу­ют­ся до­пол­ни­тель­ные вло­же­ния: целое число <i>n</i> млн руб­лей в пер­вый и во вто­рой годы, а также целое число <i>m</i> млн руб­лей в тре­тий и в четвёртый годы. Най­ди­те наи­мень­шее зна­че­ние <i>n</i>, при ко­то­ром пер­во­на­чаль­ные вло­же­ния за два года как ми­ни­мум удво­ят­ся, и наи­мень­шее такое зна­че­ние <i>m</i>, что при най­ден­ном ранее зна­че­нии <i>n</i> пер­во­на­чаль­ные вло­же­ния за че­ты­ре года как ми­ни­мум утро­ят­ся.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. К началу 2-го года получится  млн рублей вложений, а к началу 3-го года  —  По условию  откуда следует, что  Наименьшее целое значение n  =  5 . Тогда к началу 3-го года получится  млн рублей.  К началу 4-года получим  млн рублей, а к концу проекта  —  По условию  откуда следует, что  Наименьшее целое значение m  =  3. Ответ: n  =  5 млн рублей и m  =  3 млн рублей.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol630664\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">К на­ча­лу 2-го года по­лу­чит­ся <img src=\"https://ege.sdamgia.ru/formula/svg/9c/9c1302ae6b057b4e507076b6bc960a3c.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1,1 умно­жить на 12 плюс n=13,2 плюс n\"> млн руб­лей вло­же­ний, а к на­ча­лу 3-го года  — </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/02/02e1e72213c118ba39680b47f1951e1a.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"1,1 левая круг­лая скоб­ка 13,2 плюс n пра­вая круг­лая скоб­ка плюс n=14,52 плюс 2,1n.\"></p><p class=\"left_margin\"></p></center><p> По усло­вию <img src=\"https://ege.sdamgia.ru/formula/svg/b0/b07a4ba6e7006c02df59c394e5116a98.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"14,52 плюс 2,1n боль­ше или равно 24,\"> от­ку­да сле­ду­ет, что <img src=\"https://ege.sdamgia.ru/formula/svg/97/97fc866da1c8c080ba60ae8da271d968.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"n боль­ше или равно целая часть: 4, дроб­ная часть: чис­ли­тель: 18, зна­ме­на­тель: 35 .\"> Наи­мень­шее целое зна­че­ние <i>n</i>  =  5 . Тогда к на­ча­лу 3-го года по­лу­чит­ся </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/40/407ca241e3b94d21f8af5b0c9db734a2.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"14,52 плюс 10,5=25,02\"> млн руб­лей. </p><p class=\"left_margin\"></p></center><p> К на­ча­лу 4-года по­лу­чим <img src=\"https://ege.sdamgia.ru/formula/svg/e0/e027e16a8587115ef515250a4d905224.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1,1 умно­жить на 25,02 плюс m\"> млн руб­лей, а к концу про­ек­та  — </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e9/e9066dae0edb88b97eb6b8b5869d7e84.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"1,1 левая круг­лая скоб­ка 1,1 умно­жить на 25,02 плюс m пра­вая круг­лая скоб­ка плюс m=30,2742 плюс 2,1m.\"></p><p class=\"left_margin\"></p></center><p> По усло­вию <img src=\"https://ege.sdamgia.ru/formula/svg/ca/ca916f3b1680ff94753eabd399387137.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"30,2742 плюс 2,1m боль­ше или равно 36,\"> от­ку­да сле­ду­ет, что <img src=\"https://ege.sdamgia.ru/formula/svg/1a/1a7d504258c541a32a7c9403efe51883.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"m боль­ше или равно целая часть: 2, дроб­ная часть: чис­ли­тель: 2543, зна­ме­на­тель: 3500 .\"> Наи­мень­шее целое зна­че­ние <i>m</i>  =  3.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <i>n</i>  =  5 млн руб­лей и <i>m</i>  =  3 млн руб­лей.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/9c/9c1302ae6b057b4e507076b6bc960a3c.svg",
+            "https://ege.sdamgia.ru/formula/svg/02/02e1e72213c118ba39680b47f1951e1a.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b07a4ba6e7006c02df59c394e5116a98.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/97fc866da1c8c080ba60ae8da271d968.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/407ca241e3b94d21f8af5b0c9db734a2.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e027e16a8587115ef515250a4d905224.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e9066dae0edb88b97eb6b8b5869d7e84.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/ca916f3b1680ff94753eabd399387137.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1a7d504258c541a32a7c9403efe51883.svg"
+        ]
+    },
+    "answer": "n  =  5 млн руб­лей и m  =  3 млн руб­лей.",
+    "topic_id": 16,
+    "analog_ids": [
+        630664,
+        630672
+    ]
+}

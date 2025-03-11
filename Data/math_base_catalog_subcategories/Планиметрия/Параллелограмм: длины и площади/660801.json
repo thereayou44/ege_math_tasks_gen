@@ -1,0 +1,24 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 660801,
+    "condition": {
+        "text": "На рисунке изображён график функции  Найдите f(10).",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body293821\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=179607\" style=\"float:right;margin:10px;max-width:100%\">На ри­сун­ке изоб­ражён гра­фик функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/db/db0957d9b5195f087e0041d5dca18289.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка = дробь: чис­ли­тель: k, зна­ме­на­тель: x конец дроби .\"> Най­ди­те <i>f</i>(10).</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/db/db0957d9b5195f087e0041d5dca18289.svg",
+            "/get_file?id=179607"
+        ]
+    },
+    "solution": {
+        "text": "Решение. По графику f(1)  =  1, тогда  откуда k  =  1. Таким образом,Ответ: 0,1.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol660801\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По гра­фи­ку <i>f</i>(1)  =  1, тогда <img src=\"https://ege.sdamgia.ru/formula/svg/89/89b9dae28febf6a14ec573a57f0149cf.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: k, зна­ме­на­тель: 1 конец дроби =1,\"> от­ку­да <i>k</i>  =  1. Таким об­ра­зом,</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/5e/5edd5782860c7a7926da5de4042367f9.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"f левая круг­лая скоб­ка 10 пра­вая круг­лая скоб­ка = дробь: чис­ли­тель: 1, зна­ме­на­тель: 10 конец дроби =0,1. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 0,1.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/89/89b9dae28febf6a14ec573a57f0149cf.svg",
+            "https://ege.sdamgia.ru/formula/svg/5e/5edd5782860c7a7926da5de4042367f9.svg"
+        ]
+    },
+    "answer": "0,1",
+    "topic_id": 11,
+    "analog_ids": []
+}

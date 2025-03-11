@@ -1,0 +1,64 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27301,
+    "condition": {
+        "text": "В треугольнике ABC AC  =  BC, высота СН равна 20,  Найдите АС.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918617\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right; margin:10px\" src=\"/get_file?id=1095\">В тре­уголь­ни­ке <i>ABC</i> <i>AC</i>  =  <i>BC</i>, вы­со­та <i>СН</i> равна 20, <img src=\"https://ege.sdamgia.ru/formula/svg/cb/cb382ff1eeafe9577dd293771eb7151a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" ко­си­нус A = 0,6.\"> Най­ди­те <i>АС</i>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/cb/cb382ff1eeafe9577dd293771eb7151a.svg",
+            "/get_file?id=1095"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Имеем: Ответ: 25. ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27301\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Имеем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/aa/aa014bf95109ee6550359b341277003f.svg\" class=\"tex\" style=\"vertical-align:-10.9pt\" alt=\"AC= дробь: чис­ли­тель: CH, зна­ме­на­тель: синус A конец дроби = дробь: чис­ли­тель: CH, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус ко­си­нус в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та A пра­вая круг­лая скоб­ка конец дроби = дробь: чис­ли­тель: 20, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус 0,36 конец ар­гу­мен­та конец дроби = дробь: чис­ли­тель: 20, зна­ме­на­тель: 0,8 конец дроби =25. \"></p><p class=\"left_margin\"></p></center> <p><span style=\"letter-spaceing:2px\">Ответ</span>: 25. </p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/aa/aa014bf95109ee6550359b341277003f.svg"
+        ]
+    },
+    "answer": "25",
+    "topic_id": null,
+    "analog_ids": [
+        27301,
+        32357,
+        32359,
+        32361,
+        32357,
+        32359,
+        32361,
+        32363,
+        32365,
+        32367,
+        32369,
+        32371,
+        32373,
+        32375,
+        32377,
+        32379,
+        32381,
+        32383,
+        32385,
+        32387,
+        32389,
+        32391,
+        32393,
+        32395,
+        32397,
+        32399,
+        32401,
+        32403,
+        32405,
+        32407,
+        32409,
+        32411,
+        32413,
+        32415,
+        32417,
+        32419,
+        32421,
+        32423,
+        32425,
+        32427
+    ]
+}

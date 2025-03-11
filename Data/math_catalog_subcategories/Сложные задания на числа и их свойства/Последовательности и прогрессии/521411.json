@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521411,
+    "condition": {
+        "text": "Даны  n  различных  натуральных  чисел,  составляющих  арифметическую прогрессию (n > 3).а)  Может ли сумма всех данных чисел быть равной 14?  б)  Каково наибольшее значение n, если сумма всех данных чисел меньше 900?  в)  Найдите все возможные значения n, если сумма всех данных чисел равна 123.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629311\" class=\"pbody\"><p class=\"left_margin\">Даны  <i>n</i>  раз­лич­ных  на­ту­раль­ных  чисел,  со­став­ля­ю­щих  ариф­ме­ти­че­скую про­грес­сию (<i>n</i> &gt; 3).</p><p class=\"left_margin\">а)  Может ли сумма всех дан­ных чисел быть рав­ной 14?  </p><p class=\"left_margin\">б)  Ка­ко­во наи­боль­шее зна­че­ние <i>n</i>, если сумма всех дан­ных чисел мень­ше 900?  </p><p class=\"left_margin\">в)  Най­ди­те все воз­мож­ные зна­че­ния <i>n</i>, если сумма всех дан­ных чисел равна 123.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Да, например:  б)  Заменим в нашей последовательности первый член на единицу, а потом и разность на единицу. От этого сумма первых нескольких только уменьшится. Получим  что верно при  и неверно при  в)  Обозначая первый член за a и разность за d получим  поэтому n  — делитель  причем  то есть это делитель, меньший парного к нему (в произведении с которым он дает 246). Значит,  (по условию ). Такой пример возможен. Например,  Ответ: а) Да,  б) 41; в) 6.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521411\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Да, на­при­мер: <img src=\"https://ege.sdamgia.ru/formula/svg/8d/8d6ea1ad8bf21b554085c17b6056f896.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2 плюс 3 плюс 4 плюс 5=14.\"></p><p>&nbsp;</p><p class=\"left_margin\">б)  За­ме­ним в нашей по­сле­до­ва­тель­но­сти пер­вый член на еди­ни­цу, а потом и раз­ность на еди­ни­цу. От этого сумма пер­вых не­сколь­ких толь­ко умень­шит­ся. По­лу­чим <img src=\"https://ege.sdamgia.ru/formula/svg/e4/e4b659b99ea66cc5496d419d512e4a4b.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: n левая круг­лая скоб­ка n плюс 1 пра­вая круг­лая скоб­ка , зна­ме­на­тель: 2 конец дроби мень­ше или равно 900, \"> что верно при <img src=\"https://ege.sdamgia.ru/formula/svg/9f/9f9bab7bbc3332443f2384dd074ad20a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"n=41\"> и не­вер­но при <img src=\"https://ege.sdamgia.ru/formula/svg/39/394ce18c2c70fd2f081ac569ba55dc43.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"n боль­ше или равно 42.\"></p><p>&nbsp;</p><p class=\"left_margin\">в)  Обо­зна­чая пер­вый член за <i>a</i> и раз­ность за <i>d</i> по­лу­чим <img src=\"https://ege.sdamgia.ru/formula/svg/fa/fadff358c5615f8cee5f5f1d20ed4264.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 2a плюс левая круг­лая скоб­ка n минус 1 пра­вая круг­лая скоб­ка d пра­вая круг­лая скоб­ка n=246=6 умно­жить на 41,\"> по­это­му <i>n</i>  — де­ли­тель <img src=\"https://ege.sdamgia.ru/formula/svg/b7/b782cd850f7ceac1afdb53e043ef0ecf.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"246,\"> при­чем <img src=\"https://ege.sdamgia.ru/formula/svg/c4/c4e5a6f436da60c2a27cf331d4f7dbb2.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"2a плюс левая круг­лая скоб­ка n минус 1 пра­вая круг­лая скоб­ка d боль­ше или равно 2 плюс n минус 1 боль­ше n,\"> то есть это де­ли­тель, мень­ший пар­но­го к нему (в про­из­ве­де­нии с ко­то­рым он дает 246). Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/f7/f713080e186baab15f88c1f6008ceb50.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"n=6\"> (по усло­вию <img src=\"https://ege.sdamgia.ru/formula/svg/c9/c9f2b49f42dbc410f73959629b867c19.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"n боль­ше 3\">). Такой при­мер воз­мо­жен. На­при­мер, <img src=\"https://ege.sdamgia.ru/formula/svg/da/daf2fef18596ec9ca759e3d563b0d3fa.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"18,19,20,21,22,23.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) Да, <img src=\"https://ege.sdamgia.ru/formula/svg/3e/3eb6943b5443bd8e6acd0c6841f186cb.svg\" class=\"tex\" style=\"vertical-align:-2.2pt\" alt=\"2 плюс 3 плюс 4 плюс 5=14;\"> б) 41; в) 6.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/8d/8d6ea1ad8bf21b554085c17b6056f896.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e4b659b99ea66cc5496d419d512e4a4b.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9f9bab7bbc3332443f2384dd074ad20a.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/394ce18c2c70fd2f081ac569ba55dc43.svg",
+            "https://ege.sdamgia.ru/formula/svg/fa/fadff358c5615f8cee5f5f1d20ed4264.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b782cd850f7ceac1afdb53e043ef0ecf.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c4e5a6f436da60c2a27cf331d4f7dbb2.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f713080e186baab15f88c1f6008ceb50.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c9f2b49f42dbc410f73959629b867c19.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/daf2fef18596ec9ca759e3d563b0d3fa.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3eb6943b5443bd8e6acd0c6841f186cb.svg"
+        ]
+    },
+    "answer": "а) Да,  б) 41; в) 6.",
+    "topic_id": null,
+    "analog_ids": []
+}

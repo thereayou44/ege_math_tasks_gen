@@ -1,0 +1,27 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 514869,
+    "condition": {
+        "text": "1 августа 2016 года Валерий открыл в банке счёт «Пополняй» на четыре года под 10% годовых, вложив 100 тысяч рублей.  1 августа 2017 и 1 августа 2019 года он планирует докладывать на счёт по n тысяч рублей. Найдите наименьшее целое n, при котором к 1 августа  2020  года на счету y Валерия окажется не менее 200 тысяч рублей.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body636361\" class=\"pbody\"><p class=\"left_margin\">1 ав­гу­ста 2016 года Ва­ле­рий от­крыл в банке счёт «По­пол­няй» на че­ты­ре года под 10% го­до­вых, вло­жив 100 тысяч руб­лей.  1 ав­гу­ста 2017 и 1 ав­гу­ста 2019 года он пла­ни­ру­ет до­кла­ды­вать на счёт по <i>n</i> тысяч руб­лей. Най­ди­те наи­мень­шее целое <i>n</i>, при ко­то­ром к 1 ав­гу­ста  2020  года на счету <i>y</i> Ва­ле­рия ока­жет­ся не менее 200 тысяч руб­лей.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. После первого года у него на счету станет  тысяч рублей. После второго  тысяч. После третьего  тысяч. Наконец, после четвертого  тысяч.По условию, имеем: Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol514869\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">После пер­во­го года у него на счету ста­нет <img src=\"https://ege.sdamgia.ru/formula/svg/58/58af9819155653305d786ba3baa75b6d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"110 плюс n\"> тысяч руб­лей. После вто­ро­го <img src=\"https://ege.sdamgia.ru/formula/svg/f2/f22f56d1b0e8db7ea85811262a63fc93.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"121 плюс 1,1n\"> тысяч. После тре­тье­го <img src=\"https://ege.sdamgia.ru/formula/svg/c0/c00ecae3555d381d679c01090ee64ccb.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"133,1 плюс 1,21n плюс n=133,1 плюс 2,21n \"> тысяч. На­ко­нец, после чет­вер­то­го <img src=\"https://ege.sdamgia.ru/formula/svg/88/88e877621b6069756615580c7781bfcb.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"146,41 плюс 2,431n\"> тысяч.</p><p class=\"left_margin\">По усло­вию, имеем: </p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"b98017eaf93ab71fd0a7caf00a636f85\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/b9/b98017eaf93ab71fd0a7caf00a636f85.svg\" class=\"tex\" style=\"vertical-align:-8.6pt\" alt=\"146,41 плюс 2,431n боль­ше или равно 200 рав­но­силь­но 2,431n боль­ше или равно 53,59, рав­но­силь­но n боль­ше или равно дробь: чис­ли­тель: 53590, зна­ме­на­тель: 2431 конец дроби =22,04\\ldots\\undersetn при­над­ле­жит N \\mathop рав­но­силь­но n=23. \"></span><span data-width=\"515\" data-formulahash=\"b98017eaf93ab71fd0a7caf00a636f85\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/49/49a08613e2c062ec33642c058fd3f7ea.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"146,41 плюс 2,431n боль­ше или равно 200 рав­но­силь­но 2,431n боль­ше или равно 53,59, рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/0c/0c05cb587b6f0fe4619c9341998a192b.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" рав­но­силь­но n боль­ше или равно дробь: чис­ли­тель: 53590, зна­ме­на­тель: 2431 конец дроби =22,04\\ldots\\undersetn при­над­ле­жит N \\mathop рав­но­силь­но n=23. \"></span></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/77/771dcf5dd7e4637c96e0a0c453ac5ac9.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"n=23.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/58/58af9819155653305d786ba3baa75b6d.svg",
+            "https://ege.sdamgia.ru/formula/svg/f2/f22f56d1b0e8db7ea85811262a63fc93.svg",
+            "https://ege.sdamgia.ru/formula/svg/c0/c00ecae3555d381d679c01090ee64ccb.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/88e877621b6069756615580c7781bfcb.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b98017eaf93ab71fd0a7caf00a636f85.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/49a08613e2c062ec33642c058fd3f7ea.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c05cb587b6f0fe4619c9341998a192b.svg",
+            "https://ege.sdamgia.ru/formula/svg/77/771dcf5dd7e4637c96e0a0c453ac5ac9.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

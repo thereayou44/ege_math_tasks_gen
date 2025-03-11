@@ -1,0 +1,52 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27630,
+    "condition": {
+        "text": "Средняя линия трапеции равна 12, площадь равна 96. Найдите высоту трапеции.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918802\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right\" src=\"/get_file?id=282\">Сред­няя линия тра­пе­ции равна 12, пло­щадь равна 96. Най­ди­те вы­со­ту тра­пе­ции.</p></div>",
+        "image_urls": [
+            "/get_file?id=282"
+        ]
+    },
+    "solution": {
+        "text": "Решение. ## Ответ: 8.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27630\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">##</p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f4/f41582b7b13238b867b64f40a2db24fd.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"S_ABCD=EF умно­жить на BH рав­но­силь­но BH= дробь: чис­ли­тель: S_ABCD, зна­ме­на­тель: EF конец дроби = дробь: чис­ли­тель: 96, зна­ме­на­тель: 12 конец дроби =8. \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 8.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f4/f41582b7b13238b867b64f40a2db24fd.svg"
+        ]
+    },
+    "answer": "8",
+    "topic_id": null,
+    "analog_ids": [
+        27630,
+        57057,
+        57059,
+        57061,
+        57057,
+        57059,
+        57061,
+        57063,
+        57065,
+        57067,
+        57069,
+        57071,
+        57073,
+        57075,
+        57077,
+        57079,
+        57081,
+        57083,
+        57085,
+        57087,
+        57089,
+        57091,
+        57093,
+        57095,
+        57097,
+        57099,
+        57101,
+        57103,
+        57105
+    ]
+}

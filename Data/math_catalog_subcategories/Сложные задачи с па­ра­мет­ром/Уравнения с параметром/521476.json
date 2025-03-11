@@ -1,0 +1,34 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521476,
+    "condition": {
+        "text": "Найдите все а, при каждом из которых система  имеет ровно одно решение.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629752\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все <i>а</i>, при каж­дом из ко­то­рых си­сте­ма <img src=\"https://ege.sdamgia.ru/formula/svg/64/648cae07b975e15f3a8b5647ce3975c4.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"3 умно­жить на 2 в сте­пе­ни левая круг­лая скоб­ка x плюс 1 пра­вая круг­лая скоб­ка плюс дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 в сте­пе­ни левая круг­лая скоб­ка x минус 1 пра­вая круг­лая скоб­ка конец дроби плюс a левая круг­лая скоб­ка 18 минус x в квад­ра­те пра­вая круг­лая скоб­ка =6 левая круг­лая скоб­ка a в квад­ра­те плюс 2 пра­вая круг­лая скоб­ка \"> имеет ровно одно ре­ше­ние.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/64/648cae07b975e15f3a8b5647ce3975c4.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Перепишем условие в виде  Ясно, что если x является корнем уравнения, то и  тоже. Поэтому единственный корень может быть только равным нулю. Тогда  откуда  или При  получаем уравнение  у которого действительно один корень При  получаем уравнение  у которого есть корни  и  поэтому оно не подходит. Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521476\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пе­ре­пи­шем усло­вие в виде <img src=\"https://ege.sdamgia.ru/formula/svg/31/319004c2399abf1d7b570bd55fb4eae8.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"6 левая круг­лая скоб­ка 2 в сте­пе­ни x плюс 2 в сте­пе­ни левая круг­лая скоб­ка минус x пра­вая круг­лая скоб­ка пра­вая круг­лая скоб­ка плюс a левая круг­лая скоб­ка 18 минус x в квад­ра­те пра­вая круг­лая скоб­ка =6 левая круг­лая скоб­ка a в квад­ра­те плюс 2 пра­вая круг­лая скоб­ка .\"> Ясно, что если <i>x</i> яв­ля­ет­ся кор­нем урав­не­ния, то и <img src=\"https://ege.sdamgia.ru/formula/svg/d2/d25c186e3f3096a9ff4a918f7b3141d4.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" минус x\"> тоже. По­это­му един­ствен­ный ко­рень может быть толь­ко рав­ным нулю. Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/f1/f18b3dfbccf9f3c91da297691242b565.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"12 плюс 18a=6 левая круг­лая скоб­ка a в квад­ра­те плюс 2 пра­вая круг­лая скоб­ка ,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/de/ded681eaa02d11064c9a469dd1b3e04c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=0\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/39/39245a0c4dfdf26b2e0665c996acde39.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=3.\"></p><p class=\"left_margin\">При <img src=\"https://ege.sdamgia.ru/formula/svg/de/ded681eaa02d11064c9a469dd1b3e04c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=0\"> по­лу­ча­ем урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/1b/1b01d2932cbe236f034787cca8c590cd.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"2 в сте­пе­ни x плюс 2 в сте­пе­ни левая круг­лая скоб­ка минус x пра­вая круг­лая скоб­ка =2,\"> у ко­то­ро­го дей­стви­тель­но один ко­рень <img src=\"https://ege.sdamgia.ru/formula/svg/b2/b2e1a7a40f43fe57ecb152ce9a784a08.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=0.\"></p><p class=\"left_margin\">При <img src=\"https://ege.sdamgia.ru/formula/svg/3d/3d7b566aaed7713dfc5583dfc4b9c386.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=3\"> по­лу­ча­ем урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/38/389c13667c3dbe23f715d187b2736e50.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"6 левая круг­лая скоб­ка 2 в сте­пе­ни x плюс 2 в сте­пе­ни левая круг­лая скоб­ка минус x пра­вая круг­лая скоб­ка пра­вая круг­лая скоб­ка минус 3x в квад­ра­те =12,\"> у ко­то­ро­го есть корни <img src=\"https://ege.sdamgia.ru/formula/svg/e1/e11729b0b65ecade3fc272548a3883fc.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=0\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/52/52634a5ce8aca5756be2274cf2f12b91.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x=1,\"> по­это­му оно не под­хо­дит.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/79/79739438408054c228825520f737ae5f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=0.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/31/319004c2399abf1d7b570bd55fb4eae8.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d25c186e3f3096a9ff4a918f7b3141d4.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f18b3dfbccf9f3c91da297691242b565.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/ded681eaa02d11064c9a469dd1b3e04c.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/39245a0c4dfdf26b2e0665c996acde39.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/ded681eaa02d11064c9a469dd1b3e04c.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1b01d2932cbe236f034787cca8c590cd.svg",
+            "https://ege.sdamgia.ru/formula/svg/b2/b2e1a7a40f43fe57ecb152ce9a784a08.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3d7b566aaed7713dfc5583dfc4b9c386.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/389c13667c3dbe23f715d187b2736e50.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e11729b0b65ecade3fc272548a3883fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/52634a5ce8aca5756be2274cf2f12b91.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/79739438408054c228825520f737ae5f.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

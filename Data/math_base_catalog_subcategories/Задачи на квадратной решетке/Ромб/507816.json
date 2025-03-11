@@ -1,0 +1,33 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 507816,
+    "condition": {
+        "text": "Дана правильная шестиугольная призма ABCDEFA1B1C1D1E1F1 все рёбра которой равны 1.а)  Докажите, что б)  Найдите косинус угла между прямыми AB1 и BC1.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body643412\" class=\"pbody\"><p class=\"left_margin\">Дана пра­виль­ная ше­сти­уголь­ная приз­ма <i>ABCDEFA</i><sub>1</sub><i>B</i><sub>1</sub><i>C</i><sub>1</sub><i>D</i><sub>1</sub><i>E</i><sub>1</sub><i>F</i><sub>1</sub> все рёбра ко­то­рой равны 1.</p><p class=\"left_margin\">а)  До­ка­жи­те, что <img src=\"https://ege.sdamgia.ru/formula/svg/86/864d8bf4ea68b55c468e2b371a211e4b.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AC_1\\perp BE.\"></p><p class=\"left_margin\">б)  Най­ди­те ко­си­нус угла между пря­мы­ми <i>AB</i><sub>1</sub> и <i>BC</i><sub>1</sub>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/86/864d8bf4ea68b55c468e2b371a211e4b.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Проекция прямой  на плоскость основания ABC  — это прямая  В правильном шестиугольнике диагонали AC и BE перпендикулярны. Значит, по теореме о трех перпендикулярах, б)  Угол между  прямыми AB1 и BC1 равен углу между  прямыми OC1 и BC1.В треугольнике OBC1 OB = 1, BC1=OC1=Из теоремы косинусов получаемКосинус положителен, значит,   —  острый, значит, это искомый угол между прямыми AB1 и BC1. Ответ: 0,75.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol507816\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=132538\" style=\"float:right;margin:10px;max-width:100%\">а)  Про­ек­ция пря­мой <img src=\"https://ege.sdamgia.ru/formula/svg/23/23adb77097362e4f5e12c46b39d5b75a.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AC_1\"> на плос­кость ос­но­ва­ния <i>ABC</i>  — это пря­мая <img src=\"https://ege.sdamgia.ru/formula/svg/55/55c9ee3beff9b131586901889ba3714f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AC.\"> В пра­виль­ном ше­сти­уголь­ни­ке диа­го­на­ли <i>AC</i> и <i>BE</i> пер­пен­ди­ку­ляр­ны. Зна­чит, по тео­ре­ме о трех пер­пен­ди­ку­ля­рах, <img src=\"https://ege.sdamgia.ru/formula/svg/86/864d8bf4ea68b55c468e2b371a211e4b.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AC_1\\perp BE.\"></p><p class=\"left_margin\">б)  Угол между  пря­мы­ми <i>AB</i><sub>1</sub> и <i>BC</i><sub>1</sub> равен углу между  пря­мы­ми <i>OC</i><sub>1</sub> и <i>BC</i><sub>1</sub>.</p><p class=\"left_margin\">В тре­уголь­ни­ке <i>OBC</i><sub>1</sub> <i>OB</i> = 1, <i>BC</i><sub>1</sub>=<i>OC</i><sub>1</sub>=<img src=\"https://ege.sdamgia.ru/formula/svg/d2/d21848cdd835abcb491be1f151e9b6c6.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та \"></p><p class=\"left_margin\">Из тео­ре­мы ко­си­ну­сов по­лу­ча­ем</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"d5ef4bfe60b58f5f2159961139061d8c\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/d5/d5ef4bfe60b58f5f2159961139061d8c.svg\" class=\"tex\" style=\"vertical-align:-11.0pt\" alt=\" ко­си­нус левая круг­лая скоб­ка \\angle OC_1B пра­вая круг­лая скоб­ка = дробь: чис­ли­тель: левая круг­лая скоб­ка OC_1 пра­вая круг­лая скоб­ка в квад­ра­те плюс левая круг­лая скоб­ка BC_1 пра­вая круг­лая скоб­ка в квад­ра­те минус левая круг­лая скоб­ка OB пра­вая круг­лая скоб­ка в квад­ра­те , зна­ме­на­тель: 2 умно­жить на OC_1 умно­жить на BC_1 конец дроби = дробь: чис­ли­тель: левая круг­лая скоб­ка ко­рень из 2 пра­вая круг­лая скоб­ка в квад­ра­те плюс ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та в квад­ра­те минус 1 в квад­ра­те , зна­ме­на­тель: 2 умно­жить на ко­рень из 2 умно­жить на ко­рень из 2 конец дроби = дробь: чис­ли­тель: 2 плюс 2 минус 1, зна­ме­на­тель: 2 умно­жить на 2 конец дроби = дробь: чис­ли­тель: 3, зна­ме­на­тель: 4 конец дроби =0,75. \"></span><span data-width=\"590\" data-formulahash=\"d5ef4bfe60b58f5f2159961139061d8c\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/a9/a9f0153218c6cbf945645ed0238cd174.svg\" class=\"tex\" style=\"vertical-align:-10.0pt\" alt=\" ко­си­нус левая круг­лая скоб­ка \\angle OC_1B пра­вая круг­лая скоб­ка = дробь: чис­ли­тель: левая круг­лая скоб­ка OC_1 пра­вая круг­лая скоб­ка в квад­ра­те плюс левая круг­лая скоб­ка BC_1 пра­вая круг­лая скоб­ка в квад­ра­те минус левая круг­лая скоб­ка OB пра­вая круг­лая скоб­ка в квад­ра­те , зна­ме­на­тель: 2 умно­жить на OC_1 умно­жить на BC_1 конец дроби = \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/70/70342e8ec01b6257691a254ad6faa6e2.svg\" class=\"tex\" style=\"vertical-align:-11.0pt\" alt=\"= дробь: чис­ли­тель: левая круг­лая скоб­ка ко­рень из 2 пра­вая круг­лая скоб­ка в квад­ра­те плюс ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та в квад­ра­те минус 1 в квад­ра­те , зна­ме­на­тель: 2 умно­жить на ко­рень из 2 умно­жить на ко­рень из 2 конец дроби = дробь: чис­ли­тель: 2 плюс 2 минус 1, зна­ме­на­тель: 2 умно­жить на 2 конец дроби = дробь: чис­ли­тель: 3, зна­ме­на­тель: 4 конец дроби =0,75. \"></span></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Ко­си­нус по­ло­жи­те­лен, зна­чит, <nobr><img src=\"https://ege.sdamgia.ru/formula/svg/d6/d6ea5e33ff4c1323cb406284fbfb7b80.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"\\angle OC_1B\">  — </nobr> ост­рый, зна­чит, это ис­ко­мый угол между пря­мы­ми <i>AB</i><sub>1</sub> и <i>BC</i><sub>1</sub>.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 0,75.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/23/23adb77097362e4f5e12c46b39d5b75a.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/55c9ee3beff9b131586901889ba3714f.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/864d8bf4ea68b55c468e2b371a211e4b.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d21848cdd835abcb491be1f151e9b6c6.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d5ef4bfe60b58f5f2159961139061d8c.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a9f0153218c6cbf945645ed0238cd174.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/70342e8ec01b6257691a254ad6faa6e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d6ea5e33ff4c1323cb406284fbfb7b80.svg",
+            "/get_file?id=132538"
+        ]
+    },
+    "answer": "0,75.",
+    "topic_id": 14,
+    "analog_ids": [
+        507816,
+        507822
+    ]
+}

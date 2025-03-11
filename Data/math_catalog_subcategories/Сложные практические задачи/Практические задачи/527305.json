@@ -1,0 +1,26 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 527305,
+    "condition": {
+        "text": "Производительность первого цеха завода не более 730 произведённых телевизоров в сутки. Производительность второго цеха завода до реконструкции составляла 75% от производительности первого цеха. После реконструкции второй цех увеличил производительность на 20% и стал выпускать более 640 телевизоров в сутки. Найдите, сколько телевизоров в сутки выпускает второй цех после реконструкции, если оба цеха выпускают в сутки целое число телевизоров.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body419125\" class=\"pbody\"><p class=\"left_margin\">Про­из­во­ди­тель­ность пер­во­го цеха за­во­да не более 730 про­из­ведённых те­ле­ви­зо­ров в сутки. Про­из­во­ди­тель­ность вто­ро­го цеха за­во­да до ре­кон­струк­ции со­став­ля­ла 75% от про­из­во­ди­тель­но­сти пер­во­го цеха. После ре­кон­струк­ции вто­рой цех уве­ли­чил про­из­во­ди­тель­ность на 20% и стал вы­пус­кать более 640 те­ле­ви­зо­ров в сутки. Най­ди­те, сколь­ко те­ле­ви­зо­ров в сутки вы­пус­ка­ет вто­рой цех после ре­кон­струк­ции, если оба цеха вы­пус­ка­ют в сутки целое число те­ле­ви­зо­ров.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Пусть первый цех производил  телевизоров в сутки, а второй  телевизоров в сутки. После реконструкции он стал производить телевизоров в сутки, поэтому Кроме того,  и  должны быть целыми, поэтому x делится на 4 и на 10. Между 712 и 730 всего одно такое число, это 720. Значит, ответ будет  Ответ: 648.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol527305\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть пер­вый цех про­из­во­дил <img src=\"https://ege.sdamgia.ru/formula/svg/25/2568353ed4e2a44d970dca9eff23707e.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"x мень­ше или равно 730\"> те­ле­ви­зо­ров в сутки, а вто­рой <img src=\"https://ege.sdamgia.ru/formula/svg/36/36f1375e1c4922d5d9f85858b454e493.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"0,75x\"> те­ле­ви­зо­ров в сутки. После ре­кон­струк­ции он стал про­из­во­дить </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/50/508868ec92d34e0eac1387e05b4d32a1.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"0,75x умно­жить на 1,2=0,9x боль­ше или равно 640\"></p><p class=\"left_margin\"></p></center><p>те­ле­ви­зо­ров в сутки, по­это­му </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/6b/6b5d38352014d2b6cbf548173d9f44b2.svg\" class=\"tex\" style=\"vertical-align:-10.5pt\" alt=\"x боль­ше или равно дробь: чис­ли­тель: 640, зна­ме­на­тель: 0,9 конец дроби = целая часть: 711, дроб­ная часть: чис­ли­тель: 1, зна­ме­на­тель: 9 . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Кроме того, <img src=\"https://ege.sdamgia.ru/formula/svg/74/74367daa36ca0045288067712d906bb0.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 3, зна­ме­на­тель: 4 конец дроби x\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/73/732e72c428ef9f4949f026764152e034.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 9, зна­ме­на­тель: 10 конец дроби x \"> долж­ны быть це­лы­ми, по­это­му <i>x</i> де­лит­ся на 4 и на 10. Между 712 и 730 всего одно такое число, это 720. Зна­чит, ответ будет <img src=\"https://ege.sdamgia.ru/formula/svg/4d/4d735a65b3e8ecd05f134c47f0f082e4.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"720 умно­жить на 0,9=648.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 648.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/25/2568353ed4e2a44d970dca9eff23707e.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/36f1375e1c4922d5d9f85858b454e493.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/508868ec92d34e0eac1387e05b4d32a1.svg",
+            "https://ege.sdamgia.ru/formula/svg/6b/6b5d38352014d2b6cbf548173d9f44b2.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/74367daa36ca0045288067712d906bb0.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/732e72c428ef9f4949f026764152e034.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4d735a65b3e8ecd05f134c47f0f082e4.svg"
+        ]
+    },
+    "answer": "648.",
+    "topic_id": null,
+    "analog_ids": []
+}

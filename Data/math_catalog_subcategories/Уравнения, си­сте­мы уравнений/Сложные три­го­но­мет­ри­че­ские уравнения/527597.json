@@ -1,0 +1,33 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 527597,
+    "condition": {
+        "text": "а)  Решите уравнение б)  Укажите корни этого уравнения, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body418321\" class=\"pbody\"><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/c6/c62c6420d9ef4a3063ed2c32484a3b85.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" синус 3x плюс ко­си­нус 2x плюс 2=0.\"></p><p class=\"left_margin\">б)  Ука­жи­те корни этого урав­не­ния, при­над­ле­жа­щие от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/b7/b70af9a87554b24a8953668a4f1b142d.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" левая квад­рат­ная скоб­ка дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби ; Пи пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c6/c62c6420d9ef4a3063ed2c32484a3b85.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b70af9a87554b24a8953668a4f1b142d.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Поскольку   уравнение может выполняться только если  Второе возможно только при  то есть  Тогда  Это равно  только при четных k. Окончательно имеем   б)  С помощью тригонометрического круга отберем корни. На указанном промежутке лежит    Ответ: а)   б)  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol527597\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/27/2795b4c56f35e9da296d2f3a616e54a0.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" синус 3x\\geqslant минус 1,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/72/72990917683f5cddf061a847dc522a68.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" ко­си­нус 2x боль­ше или равно минус 1,\"> урав­не­ние может вы­пол­нять­ся толь­ко если <img src=\"https://ege.sdamgia.ru/formula/svg/38/3882bfcdfd635c0b1f6143078557666e.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" синус 3x= ко­си­нус 2x= минус 1.\"> Вто­рое воз­мож­но толь­ко при <img src=\"https://ege.sdamgia.ru/formula/svg/b3/b363854b1d7a0badf7a37169687852c9.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2x= Пи плюс 2 Пи k,\"> то есть <img src=\"https://ege.sdamgia.ru/formula/svg/19/19e865458b26df923726fd3003e0e11d.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби плюс Пи k. \"> Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/a6/a617da18220fa82540c5bafed3bb519f.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" синус 3x= синус левая круг­лая скоб­ка дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби плюс 3 Пи k пра­вая круг­лая скоб­ка . \"> Это равно <img src=\"https://ege.sdamgia.ru/formula/svg/6b/6bb61e3b7bce0931da574d19d1d82c88.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" минус 1\"> толь­ко при чет­ных <i>k</i>. Окон­ча­тель­но имеем   <img src=\"https://ege.sdamgia.ru/formula/svg/08/086279410d0881db943e4dc6551c941c.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби плюс 2 Пи n. \"></p><p class=\"left_margin\">б)  С по­мо­щью три­го­но­мет­ри­че­ско­го круга от­бе­рем корни. На ука­зан­ном про­ме­жут­ке лежит   <img src=\"https://ege.sdamgia.ru/formula/svg/b1/b16f0554141c0396c7002a968fb8e054.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) <img src=\"https://ege.sdamgia.ru/formula/svg/cc/cc79b2cd5db740c895db884051bb75bf.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" левая фи­гур­ная скоб­ка дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби плюс 2 Пи n:n при­над­ле­жит Z пра­вая фи­гур­ная скоб­ка ; \">  б)  <img src=\"https://ege.sdamgia.ru/formula/svg/42/42affa250aeca5ce9ddd99787cfc0ebb.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/27/2795b4c56f35e9da296d2f3a616e54a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/72990917683f5cddf061a847dc522a68.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/3882bfcdfd635c0b1f6143078557666e.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b363854b1d7a0badf7a37169687852c9.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/19e865458b26df923726fd3003e0e11d.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a617da18220fa82540c5bafed3bb519f.svg",
+            "https://ege.sdamgia.ru/formula/svg/6b/6bb61e3b7bce0931da574d19d1d82c88.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/086279410d0881db943e4dc6551c941c.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b16f0554141c0396c7002a968fb8e054.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/cc79b2cd5db740c895db884051bb75bf.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/42affa250aeca5ce9ddd99787cfc0ebb.svg"
+        ]
+    },
+    "answer": "а)   б)",
+    "topic_id": null,
+    "analog_ids": []
+}

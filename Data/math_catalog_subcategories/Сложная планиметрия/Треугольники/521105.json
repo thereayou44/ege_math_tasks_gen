@@ -1,0 +1,36 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521105,
+    "condition": {
+        "text": "Первая окружность, вписанная в равнобедренный треугольник АВС, касается основания АС в точке М. Вторая окружность касается основания АС и продолжений боковых сторон. а)  Докажите,  что  длина  основания  треугольника  является  средним  геометрическим диаметров первой и второй окружностей.  б)  Найдите радиус второй окружности, если радиус первой равен 3, а ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body630125\" class=\"pbody\"><p class=\"left_margin\">Пер­вая окруж­ность, впи­сан­ная в рав­но­бед­рен­ный тре­уголь­ник <i>АВС</i>, ка­са­ет­ся ос­но­ва­ния <i>АС</i> в точке <i>М</i>. Вто­рая окруж­ность ка­са­ет­ся ос­но­ва­ния <i>АС</i> и про­дол­же­ний бо­ко­вых сто­рон. </p><p class=\"left_margin\">а)  До­ка­жи­те,  что  длина  ос­но­ва­ния  тре­уголь­ни­ка  яв­ля­ет­ся  сред­ним  гео­мет­ри­че­ским диа­мет­ров пер­вой и вто­рой окруж­но­стей.  </p><p class=\"left_margin\">б)  Най­ди­те ра­ди­ус вто­рой окруж­но­сти, если ра­ди­ус пер­вой равен 3, а <img src=\"https://ege.sdamgia.ru/formula/svg/99/9945843c418bcfb93592efce7b597c6f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BM=8.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/99/9945843c418bcfb93592efce7b597c6f.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Обозначим:     тогда   Радиус вписанной окружности равен   а вневписанной  Тогда: что и требовалось доказать.б)  В обозначениях предыдущего пункта имеем:  и   Из второго уравнения:     Подставляя в первое, получаем:       Тогда:Ответ: б) 12.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521105\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=41529\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Обо­зна­чим: <img src=\"https://ege.sdamgia.ru/formula/svg/f9/f9b5a128ef39242f07d2ff62112e470e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" AC=2a,\">  <img src=\"https://ege.sdamgia.ru/formula/svg/37/37ceb8078f41f8460baf95ab21b6054c.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" AB=BC=b,\">  тогда <img src=\"https://ege.sdamgia.ru/formula/svg/07/07d00971acd29ce46ac1254147b5a9fd.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" AM=a.\">  Ра­ди­ус впи­сан­ной окруж­но­сти равен <img src=\"https://ege.sdamgia.ru/formula/svg/0b/0bdea21b1fb84dc5021cdc8020c61fbd.svg\" class=\"tex\" style=\"vertical-align:-10.4pt\" alt=\" r= дробь: чис­ли­тель: S_ABC, зна­ме­на­тель: p_ABC конец дроби , \">  а внев­пи­сан­ной <img src=\"https://ege.sdamgia.ru/formula/svg/6b/6b6218b3a4e4d6b09eb39a1f1518d230.svg\" class=\"tex\" style=\"vertical-align:-10.4pt\" alt=\" r_AC= дробь: чис­ли­тель: S_ABC, зна­ме­на­тель: p_ABC минус AC конец дроби . \"> Тогда: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/45/452139aecdfb45e51bf404145a3e9886.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" 2r умно­жить на 2r_AC= дробь: чис­ли­тель: 4S в квад­ра­те _ABC, зна­ме­на­тель: левая круг­лая скоб­ка a плюс b пра­вая круг­лая скоб­ка левая круг­лая скоб­ка b минус a конец дроби = дробь: чис­ли­тель: 4S в квад­ра­те _ABC, зна­ме­на­тель: b в квад­ра­те минус a в квад­ра­те конец дроби = дробь: чис­ли­тель: AC в квад­ра­те умно­жить на BM в квад­ра­те , зна­ме­на­тель: BM в квад­ра­те конец дроби =AC в квад­ра­те , \"></p><p class=\"left_margin\"></p></center><p>что и тре­бо­ва­лось до­ка­зать.</p><p class=\"left_margin\">б)  В обо­зна­че­ни­ях преды­ду­ще­го пунк­та имеем: <img src=\"https://ege.sdamgia.ru/formula/svg/51/512d22ae57abd869db73d49b52c57de5.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" b в квад­ра­те минус a в квад­ра­те =64\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/ef/efa4d1fff711a0952ff75a48b1be41ea.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" 3= дробь: чис­ли­тель: 8a, зна­ме­на­тель: a плюс b конец дроби . \">  </p><p class=\"left_margin\">Из вто­ро­го урав­не­ния: <img src=\"https://ege.sdamgia.ru/formula/svg/ba/bacf5445b90a4fa2ecf3c4cc46fa4c12.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" 3b=5a,\">  <img src=\"https://ege.sdamgia.ru/formula/svg/40/40e9229b393e23e66a2ef9c19b93ba20.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" b= дробь: чис­ли­тель: 5a, зна­ме­на­тель: 3 конец дроби . \">  Под­став­ляя в пер­вое, по­лу­ча­ем: <img src=\"https://ege.sdamgia.ru/formula/svg/cc/ccd456d5d7583b635a9278822dfaae63.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 25a в квад­ра­те , зна­ме­на­тель: 9 конец дроби минус a в квад­ра­те =64, \">  <img src=\"https://ege.sdamgia.ru/formula/svg/01/0113246f0b8579f3506753323e1e67f8.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" a=6,\">  <img src=\"https://ege.sdamgia.ru/formula/svg/22/2254cdbd56e60e86ca92064b701a58ed.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" b=10.\">  Тогда:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/3e/3e46ea7e4dc35d28569e89e670fb8710.svg\" class=\"tex\" style=\"vertical-align:-9.2pt\" alt=\" r_AC= дробь: чис­ли­тель: BM умно­жить на AM, зна­ме­на­тель: AB плюс AM минус AC конец дроби = дробь: чис­ли­тель: 48, зна­ме­на­тель: 4 конец дроби =12. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) 12.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f9/f9b5a128ef39242f07d2ff62112e470e.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/37ceb8078f41f8460baf95ab21b6054c.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/07d00971acd29ce46ac1254147b5a9fd.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0bdea21b1fb84dc5021cdc8020c61fbd.svg",
+            "https://ege.sdamgia.ru/formula/svg/6b/6b6218b3a4e4d6b09eb39a1f1518d230.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/452139aecdfb45e51bf404145a3e9886.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/512d22ae57abd869db73d49b52c57de5.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/efa4d1fff711a0952ff75a48b1be41ea.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/bacf5445b90a4fa2ecf3c4cc46fa4c12.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/40e9229b393e23e66a2ef9c19b93ba20.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/ccd456d5d7583b635a9278822dfaae63.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/0113246f0b8579f3506753323e1e67f8.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/2254cdbd56e60e86ca92064b701a58ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e46ea7e4dc35d28569e89e670fb8710.svg",
+            "/get_file?id=41529"
+        ]
+    },
+    "answer": "б) 12.",
+    "topic_id": null,
+    "analog_ids": []
+}

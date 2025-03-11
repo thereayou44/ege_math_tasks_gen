@@ -1,0 +1,55 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 77497,
+    "condition": {
+        "text": "Найдите наибольшее значение функции  на отрезке ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body999493\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те наи­боль­шее зна­че­ние функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/f0/f0e3b239f4c3cdb93fcb53fd887f2b29.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=5 синус x минус 6x плюс 3\"> на от­рез­ке <img src=\"https://ege.sdamgia.ru/formula/svg/66/66d20adcbb0eca07333ca8183b7354f9.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" левая квад­рат­ная скоб­ка 0; дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f0/f0e3b239f4c3cdb93fcb53fd887f2b29.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/66d20adcbb0eca07333ca8183b7354f9.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Найдем производную заданной функции:  Уравнение  не имеет решений, производная отрицательна при всех значениях переменной, поэтому заданная функция является убывающей. Следовательно, наибольшим значением функции на заданном отрезке является   Ответ: 3.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol77497\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Най­дем про­из­вод­ную за­дан­ной функ­ции:  </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/6b/6be0190a0da3ecd6ea0a587f9e24dbd3.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y'=5 ко­си­нус x минус 6.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/27/27b9ce7cf29756216fd36fa2c2c5e142.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y'=0\"> не имеет ре­ше­ний, про­из­вод­ная от­ри­ца­тель­на при всех зна­че­ни­ях пе­ре­мен­ной, по­это­му за­дан­ная функ­ция яв­ля­ет­ся убы­ва­ю­щей. Сле­до­ва­тель­но, наи­боль­шим зна­че­ни­ем функ­ции на за­дан­ном от­рез­ке яв­ля­ет­ся </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f4/f466ff0c68f9411936798b9d3bd75f96.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y левая круг­лая скоб­ка 0 пра­вая круг­лая скоб­ка =5 синус 0 плюс 3=3.\"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 3.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/6b/6be0190a0da3ecd6ea0a587f9e24dbd3.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/27b9ce7cf29756216fd36fa2c2c5e142.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f466ff0c68f9411936798b9d3bd75f96.svg"
+        ]
+    },
+    "answer": "3",
+    "topic_id": 12,
+    "analog_ids": [
+        77497,
+        132367,
+        132319,
+        132321,
+        132367,
+        132319,
+        132321,
+        132323,
+        132325,
+        132327,
+        132329,
+        132331,
+        132333,
+        132335,
+        132337,
+        132339,
+        132341,
+        132343,
+        132345,
+        132347,
+        132349,
+        132351,
+        132353,
+        132355,
+        132357,
+        132359,
+        132361,
+        132363,
+        132365
+    ]
+}

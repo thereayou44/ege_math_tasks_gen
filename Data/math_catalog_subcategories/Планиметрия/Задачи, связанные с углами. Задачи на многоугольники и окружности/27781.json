@@ -1,0 +1,54 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27781,
+    "condition": {
+        "text": "В треугольнике ABC угол C равен 90°, угол A равен   Найдите ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918137\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right; margin:10px\" src=\"/get_file?id=1355\">В тре­уголь­ни­ке <i>ABC</i> угол <i>C</i> равен 90°, угол <i>A</i> равен <img src=\"https://ege.sdamgia.ru/formula/svg/06/064a9078aa8834cb544e53c12d560fdf.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"30 гра­ду­сов,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/d2/d2df6a9a2ffbe42a0ac028f9bd6f7ab6.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AB = 4.\"> Най­ди­те <img src=\"https://ege.sdamgia.ru/formula/svg/90/90b425c2898f0ee7d2629aad1e09646f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BC.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/06/064a9078aa8834cb544e53c12d560fdf.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d2df6a9a2ffbe42a0ac028f9bd6f7ab6.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/90b425c2898f0ee7d2629aad1e09646f.svg",
+            "/get_file?id=1355"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Катет, лежащий напротив угла 30°, равен половине гипотенузы. Ответ: 2.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27781\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Катет, ле­жа­щий на­про­тив угла 30°, равен по­ло­ви­не ги­по­те­ну­зы.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 2.</p></div>",
+        "image_urls": []
+    },
+    "answer": "2",
+    "topic_id": null,
+    "analog_ids": [
+        27781,
+        48161,
+        48163,
+        48165,
+        48161,
+        48163,
+        48165,
+        48167,
+        48169,
+        48171,
+        48173,
+        48175,
+        48177,
+        48179,
+        48181,
+        48183,
+        48185,
+        48187,
+        48189,
+        48191,
+        48193,
+        48195,
+        48197,
+        48199,
+        48201,
+        48203,
+        48205,
+        48207,
+        48209,
+        77153
+    ]
+}

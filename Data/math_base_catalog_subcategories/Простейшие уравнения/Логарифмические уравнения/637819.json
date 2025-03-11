@@ -1,0 +1,33 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 637819,
+    "condition": {
+        "text": "Решите неравенство ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body513415\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство </p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"ef1e521bd39aec74091d5b5ee38e82b3\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/ef/ef1e521bd39aec74091d5b5ee38e82b3.svg\" class=\"tex\" style=\"vertical-align:-4.7pt\" alt=\" левая круг­лая скоб­ка 3 x в кубе минус 18 x в квад­ра­те плюс 27 x пра­вая круг­лая скоб­ка умно­жить на левая круг­лая скоб­ка x минус 3 пра­вая круг­лая скоб­ка в сте­пе­ни левая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка минус левая круг­лая скоб­ка 6 x в кубе минус 11 x в квад­ра­те минус 44 x минус 30 пра­вая круг­лая скоб­ка умно­жить на левая круг­лая скоб­ка 2 x плюс 3 пра­вая круг­лая скоб­ка в сте­пе­ни левая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка мень­ше или равно 11 . \"></span><span data-width=\"440\" data-formulahash=\"ef1e521bd39aec74091d5b5ee38e82b3\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/7c/7cfa91f3488041381960ec96bee56316.svg\" class=\"tex\" style=\"vertical-align:-4.7pt\" alt=\" левая круг­лая скоб­ка 3 x в кубе минус 18 x в квад­ра­те плюс 27 x пра­вая круг­лая скоб­ка умно­жить на левая круг­лая скоб­ка x минус 3 пра­вая круг­лая скоб­ка в сте­пе­ни левая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка минус \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/56/56c2637fbbd63667e3b1a46670e8edf5.svg\" class=\"tex\" style=\"vertical-align:-4.7pt\" alt=\" минус левая круг­лая скоб­ка 6 x в кубе минус 11 x в квад­ра­те минус 44 x минус 30 пра­вая круг­лая скоб­ка умно­жить на левая круг­лая скоб­ка 2 x плюс 3 пра­вая круг­лая скоб­ка в сте­пе­ни левая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка мень­ше или равно 11 . \"></span></p><p class=\"left_margin\"></p></center></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ef/ef1e521bd39aec74091d5b5ee38e82b3.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7cfa91f3488041381960ec96bee56316.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/56c2637fbbd63667e3b1a46670e8edf5.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Преобразуем неравенство:  При  получаем  откуда  или   Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol637819\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пре­об­ра­зу­ем не­ра­вен­ство: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/b6/b6e12f792c8859b96a3ac2ce755fc471.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: 3 x левая круг­лая скоб­ка x минус 3 пра­вая круг­лая скоб­ка в квад­ра­те , зна­ме­на­тель: x минус 3 конец дроби минус дробь: чис­ли­тель: 6 x в кубе минус 11 x в квад­ра­те минус 44 x минус 30, зна­ме­на­тель: 2 x плюс 3 конец дроби мень­ше или равно 11 . \"></p><p class=\"left_margin\"></p></center><p> При <img src=\"https://ege.sdamgia.ru/formula/svg/0a/0ac84646af380f2ef93f7f136ccc17f2.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x не равно q 3\"> по­лу­ча­ем </p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"7e4eb1f8ff0f2da4c33d1080131500c6\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/2a/2acc07bf66ea871f08ae633406d129aa.svg\" class=\"tex\" style=\"vertical-align:-9.2pt\" alt=\" дробь: чис­ли­тель: 6 x в кубе минус 18 x в квад­ра­те плюс 9 x в квад­ра­те минус 27 x минус 6 x в кубе плюс 11 x в квад­ра­те плюс 44 x плюс 30 минус 22 x минус 33, зна­ме­на­тель: 2 x плюс 3 конец дроби мень­ше или равно 0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/06/066f81ffd5c15fff9fe8cb64117c2678.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" рав­но­силь­но дробь: чис­ли­тель: 2 x в квад­ра­те минус 5 x минус 3, зна­ме­на­тель: 2 x плюс 3 конец дроби мень­ше или равно 0 рав­но­силь­но дробь: чис­ли­тель: левая круг­лая скоб­ка 2 x плюс 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x минус 3 пра­вая круг­лая скоб­ка , зна­ме­на­тель: 2 x плюс 3 конец дроби мень­ше или равно 0, \"></span></p><p class=\"left_margin\"></p></center><p> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/39/39a7e8145c3728d772f39eba86cf2050.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x мень­ше минус дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби \"> или <img src=\"https://ege.sdamgia.ru/formula/svg/43/438f9041c958ccba7a9f492fe2aef466.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби мень­ше или равно x мень­ше 3. \"> </p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/a0/a0d3ad8a74cac01e35b4b050628a890e.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка минус бес­ко­неч­ность ; минус 1,5 пра­вая круг­лая скоб­ка , левая квад­рат­ная скоб­ка минус 0,5; 3 пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b6/b6e12f792c8859b96a3ac2ce755fc471.svg",
+            "https://ege.sdamgia.ru/formula/svg/0a/0ac84646af380f2ef93f7f136ccc17f2.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2acc07bf66ea871f08ae633406d129aa.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/066f81ffd5c15fff9fe8cb64117c2678.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/39a7e8145c3728d772f39eba86cf2050.svg",
+            "https://ege.sdamgia.ru/formula/svg/43/438f9041c958ccba7a9f492fe2aef466.svg",
+            "https://ege.sdamgia.ru/formula/svg/a0/a0d3ad8a74cac01e35b4b050628a890e.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": [
+        637819,
+        637848
+    ]
+}

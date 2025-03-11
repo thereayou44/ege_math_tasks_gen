@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 520499,
+    "condition": {
+        "text": "В июле планируется взять кредит на сумму 69 510 рублей. Условия его возврата таковы:  — каждый январь долг возрастает на 10% по сравнению с концом предыдущего года;  — с февраля по июнь каждого года необходимо выплатить некоторую часть долга.На сколько рублей больше придётся отдать в случае, если кредит будет полностью погашен тремя равными платежами (то есть за три года), по сравнению со случаем, если кредит будет полностью погашен двумя равными платежами (то есть за два года)?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body630735\" class=\"pbody\"><p class=\"left_margin\">В июле пла­ни­ру­ет­ся взять кре­дит на сумму 69 510 руб­лей. Усло­вия его воз­вра­та та­ко­вы:</p><p>  — каж­дый ян­варь долг воз­рас­та­ет на 10% по срав­не­нию с кон­цом преды­ду­ще­го года;</p><p>  — с фев­ра­ля по июнь каж­до­го года не­об­хо­ди­мо вы­пла­тить не­ко­то­рую часть долга.</p><p class=\"left_margin\">На сколь­ко руб­лей боль­ше придётся от­дать в слу­чае, если кре­дит будет пол­но­стью по­га­шен тремя рав­ны­ми пла­те­жа­ми (то есть за три года), по срав­не­нию со слу­ча­ем, если кре­дит будет пол­но­стью по­га­шен двумя рав­ны­ми пла­те­жа­ми (то есть за два года)?</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Пусть сумма ежегодного платежа x рублей, а взятая в кредит сумма составляет a рублей. Получаем уравнениеоткуда Рассуждая аналогично, получим, что если бы долг выплачи вали двумя р авными платежами по y рублей, то общая сумма платежа равнялась быПодставляя a  =  69 510, получаемОтвет: 3751 руб.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol520499\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть сумма еже­год­но­го пла­те­жа <i>x</i> руб­лей, а взя­тая в кре­дит сумма со­став­ля­ет <i>a</i> руб­лей. По­лу­ча­ем урав­не­ние</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/69/6903aa716aa3830edb09ec70a1fbe0d0.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка левая круг­лая скоб­ка 1,1a минус x пра­вая круг­лая скоб­ка умно­жить на 1,1 минус x пра­вая круг­лая скоб­ка умно­жить на 1,1 минус x=0,\"></p><p class=\"left_margin\"></p></center><p>от­ку­да </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/4c/4c50b1c222e600ccb7426f03c978d61a.svg\" class=\"tex\" style=\"vertical-align:-10.4pt\" alt=\"1,1 в кубе a минус левая круг­лая скоб­ка 1,1 в квад­ра­те плюс 1,1 плюс 1 пра­вая круг­лая скоб­ка x=0 рав­но­силь­но 3x= дробь: чис­ли­тель: 3 умно­жить на 1,1 в кубе a, зна­ме­на­тель: 1 плюс 1,1 плюс 1,1 в квад­ра­те конец дроби = дробь: чис­ли­тель: 3,993a, зна­ме­на­тель: 3,31 конец дроби . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Рас­суж­дая ана­ло­гич­но, по­лу­чим, что если бы долг вы­пла­чи вали двумя р ав­ны­ми пла­те­жа­ми по <i>y</i> руб­лей, то общая сумма пла­те­жа рав­ня­лась бы</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ff/ff768055057635015a07749b81338760.svg\" class=\"tex\" style=\"vertical-align:-10.5pt\" alt=\"2y= дробь: чис­ли­тель: 2 умно­жить на 1,1 в квад­ра­те a, зна­ме­на­тель: 1 плюс 1,1 конец дроби = дробь: чис­ли­тель: 2,42a, зна­ме­на­тель: 2,1 конец дроби . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Под­став­ляя <i>a</i>  =  69 510, по­лу­ча­ем</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"d7a75e56b0ae7fa005ede4f9965ac064\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/b6/b6d7df6c9f15d1c53a84f72b10630d1c.svg\" class=\"tex\" style=\"vertical-align:-10.5pt\" alt=\"3x минус 2y= дробь: чис­ли­тель: 3,993 умно­жить на 69510, зна­ме­на­тель: 3,31 конец дроби минус дробь: чис­ли­тель: 2,42 умно­жить на 69510, зна­ме­на­тель: 2,1 конец дроби = \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/51/515d5eb7d6a67dc4ba4957ab24cfc01b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"=3,993 умно­жить на 21000 минус 2,42 умно­жить на 33100=83853 минус 80102=3751.\"></span><span data-width=\"365\" data-formulahash=\"d7a75e56b0ae7fa005ede4f9965ac064\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/b6/b6d7df6c9f15d1c53a84f72b10630d1c.svg\" class=\"tex\" style=\"vertical-align:-10.5pt\" alt=\"3x минус 2y= дробь: чис­ли­тель: 3,993 умно­жить на 69510, зна­ме­на­тель: 3,31 конец дроби минус дробь: чис­ли­тель: 2,42 умно­жить на 69510, зна­ме­на­тель: 2,1 конец дроби = \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/83/837687767c07528b2384ff40c40f53d1.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"=3,993 умно­жить на 21000 минус 2,42 умно­жить на 33100=\"><br><img src=\"https://ege.sdamgia.ru/formula/svg/1f/1f7ccf636b2c59689bc737af4e439ddc.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"=83853 минус 80102=3751.\"></span></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 3751 руб.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/69/6903aa716aa3830edb09ec70a1fbe0d0.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c50b1c222e600ccb7426f03c978d61a.svg",
+            "https://ege.sdamgia.ru/formula/svg/ff/ff768055057635015a07749b81338760.svg",
+            "https://ege.sdamgia.ru/formula/svg/b6/b6d7df6c9f15d1c53a84f72b10630d1c.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/515d5eb7d6a67dc4ba4957ab24cfc01b.svg",
+            "https://ege.sdamgia.ru/formula/svg/b6/b6d7df6c9f15d1c53a84f72b10630d1c.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/837687767c07528b2384ff40c40f53d1.svg",
+            "https://ege.sdamgia.ru/formula/svg/1f/1f7ccf636b2c59689bc737af4e439ddc.svg"
+        ]
+    },
+    "answer": "3751 руб.",
+    "topic_id": 16,
+    "analog_ids": [
+        520499,
+        520519,
+        520662,
+        520703
+    ]
+}

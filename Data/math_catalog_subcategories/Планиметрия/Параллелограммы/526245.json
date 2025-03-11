@@ -1,0 +1,21 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 526245,
+    "condition": {
+        "text": "Угол между стороной и диагональю ромба равен  Найдите острый угол ромба.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body420185\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=114408\" style=\"float:right;margin:10px;max-width:100%\">Угол между сто­ро­ной и диа­го­на­лью ромба равен <img src=\"https://ege.sdamgia.ru/formula/svg/2c/2c46b52e10f6eaa6bf205b98c033784f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"54 гра­ду­сов.\"> Най­ди­те ост­рый угол ромба.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/2c/2c46b52e10f6eaa6bf205b98c033784f.svg",
+            "/get_file?id=114408"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Диагональ ромба является биссектрисой тупого угла, поэтому тупой угол равен 108°. Сумма тупого и острого углов ромба равна 180°, поэтому острый угол равен 180° − 108°  =  72°.  Ответ: 72.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol526245\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Диа­го­наль ромба яв­ля­ет­ся бис­сек­три­сой ту­по­го угла, по­это­му тупой угол равен 108°. Сумма ту­по­го и остро­го углов ромба равна 180°, по­это­му ост­рый угол равен 180° − 108°  =  72°. </p><p>&nbsp;</p><p><span style=\"letter-spacing:2px\">Ответ</span>: 72.</p></div>",
+        "image_urls": []
+    },
+    "answer": "72",
+    "topic_id": 1,
+    "analog_ids": []
+}

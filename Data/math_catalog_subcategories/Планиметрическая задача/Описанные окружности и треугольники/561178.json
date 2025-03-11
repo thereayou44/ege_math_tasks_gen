@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 561178,
+    "condition": {
+        "text": "В треугольнике ABC биссектриса угла A пересекает сторону BC в точке D. Окружность, описанная около треугольника ACD пересекает сторону AB в точке E.а)  Докажите, что треугольник CDE равнобедренный.б)  Найдите площадь треугольника CDE, если AB  =  8, BC  =  7, AC  =  6.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body458470\" class=\"pbody\"><p class=\"left_margin\">В тре­уголь­ни­ке <i>ABC</i> бис­сек­три­са угла <i>A</i> пе­ре­се­ка­ет сто­ро­ну <i>BC</i> в точке <i>D</i>. Окруж­ность, опи­сан­ная около тре­уголь­ни­ка <i>ACD</i> пе­ре­се­ка­ет сто­ро­ну <i>AB</i> в точке <i>E</i>.</p><p class=\"left_margin\">а)  До­ка­жи­те, что тре­уголь­ник <i>CDE</i> рав­но­бед­рен­ный.</p><p class=\"left_margin\">б)  Най­ди­те пло­щадь тре­уголь­ни­ка <i>CDE</i>, если <i>AB</i>  =  8, <i>BC</i>  =  7, <i>AC</i>  =  6.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Дуги DE и CD равны, так как на них опираются равные вписанные углы DAE и DAC, значит, равны и стягивающие их хорды DE и DC, треугольник DCE равнобедренный по определению.б)  Из треугольника ABC по теореме косинусов найдемЧетырехугольник AEDC вписан в окружность, значит, его противолежащие углы в сумме дают 180°. Имеем:По теореме о биссектрисе внутреннего угла треугольника откуда находим, что CD  =  DE  =  3. Теперь найдём площадь треугольника CDE:Ответ: б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol561178\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=148914\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Дуги <i>DE</i> и <i>CD</i> равны, так как на них опи­ра­ют­ся рав­ные впи­сан­ные углы <i>DAE</i> и <i>DAC</i>, зна­чит, равны и стя­ги­ва­ю­щие их хорды <i>DE</i> и <i>DC</i>, тре­уголь­ник <i>DCE</i> рав­но­бед­рен­ный по опре­де­ле­нию.</p><p class=\"left_margin\">б)  Из тре­уголь­ни­ка <i>ABC</i> по тео­ре­ме ко­си­ну­сов най­дем</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/30/3079b8f2853042feacc6658b95e2f467.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" ко­си­нус \\angle BAC= дробь: чис­ли­тель: AB в квад­ра­те плюс AC в квад­ра­те минус BC в квад­ра­те , зна­ме­на­тель: 2 умно­жить на AB умно­жить на AC конец дроби = дробь: чис­ли­тель: 64 плюс 36 минус 49, зна­ме­на­тель: 2 умно­жить на 8 умно­жить на 6 конец дроби = дробь: чис­ли­тель: 17, зна­ме­на­тель: 32 конец дроби . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Че­ты­рех­уголь­ник <i>AEDC</i> впи­сан в окруж­ность, зна­чит, его про­ти­во­ле­жа­щие углы в сумме дают 180°. Имеем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ba/ba28fd610e3b180e2ce14e335fc14313.svg\" class=\"tex\" style=\"vertical-align:-12.2pt\" alt=\" синус \\angle CDE= синус \\angle BAC= ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус ко­си­нус в квад­ра­те \\angle BAC конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус левая круг­лая скоб­ка дробь: чис­ли­тель: 17, зна­ме­на­тель: 32 конец дроби пра­вая круг­лая скоб­ка в квад­ра­те конец ар­гу­мен­та = дробь: чис­ли­тель: 7 ко­рень из: на­ча­ло ар­гу­мен­та: 15 конец ар­гу­мен­та , зна­ме­на­тель: 32 конец дроби . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">По тео­ре­ме о бис­сек­три­се внут­рен­не­го угла тре­уголь­ни­ка</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/18/18811b368186e7a23c4a0bcb2c440a2b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"BD:CD=AB:AC=8:6,\"></p><p class=\"left_margin\"></p></center><p> от­ку­да на­хо­дим, что <i>CD</i>  =  <i>DE</i>  =  3. Те­перь найдём пло­щадь тре­уголь­ни­ка <i>CDE</i>:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f5/f51f994feb6a409eea90c6f8b10edf90.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"S_CDE= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби CD умно­жить на DE умно­жить на синус \\angle CDE= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на 3 умно­жить на 3 умно­жить на дробь: чис­ли­тель: 7 ко­рень из: на­ча­ло ар­гу­мен­та: 15 конец ар­гу­мен­та , зна­ме­на­тель: 32 конец дроби = дробь: чис­ли­тель: 63 ко­рень из: на­ча­ло ар­гу­мен­та: 15 конец ар­гу­мен­та , зна­ме­на­тель: 64 конец дроби . \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) <img src=\"https://ege.sdamgia.ru/formula/svg/30/303f55f13efbe3100acc0f7955f7343b.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 63 ко­рень из: на­ча­ло ар­гу­мен­та: 15 конец ар­гу­мен­та , зна­ме­на­тель: 64 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/30/3079b8f2853042feacc6658b95e2f467.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/ba28fd610e3b180e2ce14e335fc14313.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/18811b368186e7a23c4a0bcb2c440a2b.svg",
+            "https://ege.sdamgia.ru/formula/svg/f5/f51f994feb6a409eea90c6f8b10edf90.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/303f55f13efbe3100acc0f7955f7343b.svg",
+            "/get_file?id=148914"
+        ]
+    },
+    "answer": "б)",
+    "topic_id": 17,
+    "analog_ids": [
+        561178,
+        561230
+    ]
+}

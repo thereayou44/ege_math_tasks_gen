@@ -1,0 +1,59 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27083,
+    "condition": {
+        "text": "Основанием прямой треугольной призмы служит прямоугольный треугольник с катетами 3 и 5. Объем призмы равен 30. Найдите ее боковое ребро.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919351\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=138723\" style=\"float:right;margin:10px;max-width:100%\">Ос­но­ва­ни­ем пря­мой тре­уголь­ной приз­мы слу­жит пря­мо­уголь­ный тре­уголь­ник с ка­те­та­ми 3 и 5. Объем приз­мы равен 30. Най­ди­те ее бо­ко­вое ребро.</p></div>",
+        "image_urls": [
+            "/get_file?id=138723"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Объем прямой призмы равен  где S  — площадь основания, а h  — боковое ребро. Тогда длина ее бокового ребра равнаОтвет: 4.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27083\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Объем пря­мой приз­мы равен <img src=\"https://ege.sdamgia.ru/formula/svg/bd/bd68ae422cbd23d999c74b3712ef744f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"V=Sh,\"> где <i>S</i>  — пло­щадь ос­но­ва­ния, а <i>h</i>  — бо­ко­вое ребро. Тогда длина ее бо­ко­во­го ребра равна</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ab/ab971aea4e79aced1a9a23f7d5b3a116.svg\" class=\"tex\" style=\"vertical-align:-13.1pt\" alt=\"h= дробь: чис­ли­тель: V, зна­ме­на­тель: S конец дроби = дробь: чис­ли­тель: 30, зна­ме­на­тель: дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на 3 умно­жить на 5 конец дроби =4. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 4.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/bd/bd68ae422cbd23d999c74b3712ef744f.svg",
+            "https://ege.sdamgia.ru/formula/svg/ab/ab971aea4e79aced1a9a23f7d5b3a116.svg"
+        ]
+    },
+    "answer": "4",
+    "topic_id": 3,
+    "analog_ids": [
+        27083,
+        73705,
+        73707,
+        73709,
+        73705,
+        73707,
+        73709,
+        73711,
+        73713,
+        73715,
+        73717,
+        73719,
+        73721,
+        73723,
+        73725,
+        73727,
+        73729,
+        73731,
+        73733,
+        73735,
+        73737,
+        73739,
+        73741,
+        73743,
+        73745,
+        73747,
+        73749,
+        73751,
+        73753,
+        73755,
+        73757,
+        73759,
+        73761,
+        73763,
+        73765
+    ]
+}

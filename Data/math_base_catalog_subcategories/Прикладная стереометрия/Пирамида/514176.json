@@ -1,0 +1,26 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 514176,
+    "condition": {
+        "text": "На клетчатой бумаге с размером клетки 1×1 изображён треугольник ABC. Найдите длину его высоты, опущенной на сторону AB.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body636540\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=68922\" style=\"float:right;margin:10px;max-width:100%\">На клет­ча­той бу­ма­ге с раз­ме­ром клет­ки 1×1 изоб­ражён тре­уголь­ник <i>ABC</i>. Най­ди­те длину его вы­со­ты, опу­щен­ной на сто­ро­ну <i>AB</i>.</p></div>",
+        "image_urls": [
+            "/get_file?id=68922"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Длина высоты, опущенной на сторону AB равна пяти сторонам клетки, или 5 см. Ответ: 5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol514176\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=68923\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">Длина вы­со­ты, опу­щен­ной на сто­ро­ну <i>AB</i> равна пяти сто­ро­нам клет­ки, или 5 см.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 5.</p></div>",
+        "image_urls": [
+            "/get_file?id=68923"
+        ]
+    },
+    "answer": "5",
+    "topic_id": null,
+    "analog_ids": [
+        514176,
+        512367,
+        514015
+    ]
+}

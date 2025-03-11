@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 505788,
+    "condition": {
+        "text": "Найдите все значения параметра a, при которых уравнениеимеет решение.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body645440\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния па­ра­мет­ра <i>a</i>, при ко­то­рых урав­не­ние</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/07/07856442f9d3e2428e6e445f70c230ff.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\" левая круг­лая скоб­ка a плюс 2 пра­вая круг­лая скоб­ка в квад­ра­те ло­га­рифм по ос­но­ва­нию 3 левая круг­лая скоб­ка 2x минус x в квад­ра­те пра­вая круг­лая скоб­ка плюс левая круг­лая скоб­ка 3a минус 1 пра­вая круг­лая скоб­ка в квад­ра­те ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 11 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 1 минус дробь: чис­ли­тель: x в квад­ра­те , зна­ме­на­тель: 2 конец дроби пра­вая круг­лая скоб­ка =0 \"></p><p class=\"left_margin\"></p></center><p>имеет ре­ше­ние.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/07/07856442f9d3e2428e6e445f70c230ff.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Поскольку  и  то оба логарифма неположительны. С другой стороны,  и  неотрицательны. Поэтому все выражение неположительно и может быть равно нулю только если в каждом произведении есть нулевой множитель. Это дает два варианта.1)   Тогда можно взять x  =  1.2)  a любое другое число. Тогда необходимо  то есть x  =  0. Но такое x не входит в ОДЗ. Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol505788\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/c1/c1612b14bac060351be025448f550efe.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"2x минус x в квад­ра­те мень­ше или равно 1\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/73/7331c471655a8f3cc117f0dfb5098dc9.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"1 минус дробь: чис­ли­тель: x в квад­ра­те , зна­ме­на­тель: 2 конец дроби мень­ше или равно 1, \"> то оба ло­га­риф­ма не­по­ло­жи­тель­ны. С дру­гой сто­ро­ны, <img src=\"https://ege.sdamgia.ru/formula/svg/64/6456954cd97e355e57dd3f2ebae73974.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка a плюс 2 пра­вая круг­лая скоб­ка в квад­ра­те \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/96/96bfe9fb66295d9b016995282b480b59.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 3a минус 1 пра­вая круг­лая скоб­ка в квад­ра­те \"> не­от­ри­ца­тель­ны. По­это­му все вы­ра­же­ние не­по­ло­жи­тель­но и может быть равно нулю толь­ко если в каж­дом про­из­ве­де­нии есть ну­ле­вой мно­жи­тель. Это дает два ва­ри­ан­та.</p><p class=\"left_margin\">1)  <img src=\"https://ege.sdamgia.ru/formula/svg/97/976060549f80571aaa571cf47fd2ef2a.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"a= дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби .\"> Тогда можно взять <i>x</i>  =  1.</p><p class=\"left_margin\">2)  <i>a</i> любое дру­гое число. Тогда не­об­хо­ди­мо <img src=\"https://ege.sdamgia.ru/formula/svg/3f/3f51bf5f90e7f0930f70148a7b08d243.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"1 минус дробь: чис­ли­тель: x в квад­ра­те , зна­ме­на­тель: 2 конец дроби = 1, \"> то есть <i>x</i>  =  0. Но такое <i>x</i> не вхо­дит в ОДЗ.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/97/976060549f80571aaa571cf47fd2ef2a.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"a= дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c1/c1612b14bac060351be025448f550efe.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/7331c471655a8f3cc117f0dfb5098dc9.svg",
+            "https://ege.sdamgia.ru/formula/svg/64/6456954cd97e355e57dd3f2ebae73974.svg",
+            "https://ege.sdamgia.ru/formula/svg/96/96bfe9fb66295d9b016995282b480b59.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/976060549f80571aaa571cf47fd2ef2a.svg",
+            "https://ege.sdamgia.ru/formula/svg/3f/3f51bf5f90e7f0930f70148a7b08d243.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/976060549f80571aaa571cf47fd2ef2a.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

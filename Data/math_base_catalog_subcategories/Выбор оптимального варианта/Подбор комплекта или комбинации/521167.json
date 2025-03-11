@@ -1,0 +1,27 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521167,
+    "condition": {
+        "text": "В правильной треугольной пирамиде SABC ребро основания AB равно 2, а боковое ребро АS равно  Через точки S, A и середину стороны BC  — точку К проведено сечение. Найти:а)  Площадь сечения.б)  Косинус угла между сечением и плоскостью ABC.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body630067\" class=\"pbody\"><p class=\"left_margin\">В пра­виль­ной тре­уголь­ной пи­ра­ми­де <i>SABC</i> ребро ос­но­ва­ния <i>AB</i> равно 2, а бо­ко­вое ребро <i>АS</i> равно <img src=\"https://ege.sdamgia.ru/formula/svg/e9/e9b386ff28486242066510ef8de8d4d2.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­рень из 5 .\"> Через точки <i>S</i>, <i>A</i> и се­ре­ди­ну сто­ро­ны <i>BC</i>  — точку <i>К</i> про­ве­де­но се­че­ние. Найти:</p><p class=\"left_margin\">а)  Пло­щадь се­че­ния.</p><p class=\"left_margin\">б)  Ко­си­нус угла между се­че­ни­ем и плос­ко­стью <i>ABC</i>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e9/e9b386ff28486242066510ef8de8d4d2.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Найдем высоту пирамиды. Она равна: поскольку падает в такую точку T на высоте основания AK, что  и  Тогда: б)  Поскольку плоскость SAK содержит прямую ST  — высоту пирамиды  — перпендикулярную плоскости ABC, то плоскости ABC и ACK перпендикулярны.  Ответ:  б) 0.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521167\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=41749\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Най­дем вы­со­ту пи­ра­ми­ды. Она равна: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/98/98c14bea5719e7d3974457e8d795aa21.svg\" class=\"tex\" style=\"vertical-align:-11.3pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: AS в квад­ра­те минус левая круг­лая скоб­ка дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби умно­жить на дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби умно­жить на AB пра­вая круг­лая скоб­ка в квад­ра­те конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: дробь: чис­ли­тель: 11, зна­ме­на­тель: 3 конец дроби конец ар­гу­мен­та , \"></p><p class=\"left_margin\"></p></center><p>по­сколь­ку па­да­ет в такую точку <i>T</i> на вы­со­те ос­но­ва­ния <i>AK</i>, что <img src=\"https://ege.sdamgia.ru/formula/svg/4b/4b97e4838d7584f357579aedb9e51020.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AT:TK=2:1\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/04/0491d81df81fd7a8573c4ff9693f2a9a.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"AK= дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби умно­жить на AB. \"> Тогда: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e5/e53f7f6ecc681ba692ed47bae90765f2.svg\" class=\"tex\" style=\"vertical-align:-9.4pt\" alt=\"S_SAK= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби ST умно­жить на AK= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби ко­рень из: на­ча­ло ар­гу­мен­та: дробь: чис­ли­тель: 11, зна­ме­на­тель: 3 конец дроби конец ар­гу­мен­та умно­жить на ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та = дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби ко­рень из: на­ча­ло ар­гу­мен­та: 11 конец ар­гу­мен­та . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">б)  По­сколь­ку плос­кость <i>SAK</i> со­дер­жит пря­мую <i>ST</i>  — вы­со­ту пи­ра­ми­ды  — пер­пен­ди­ку­ляр­ную плос­ко­сти <i>ABC</i>, то плос­ко­сти <i>ABC</i> и <i>ACK</i> пер­пен­ди­ку­ляр­ны. </p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/92/929ac3d8ab296a0957c10b3a272bf83b.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" а пра­вая круг­лая скоб­ка дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 11 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби ; \"> б) 0.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/98/98c14bea5719e7d3974457e8d795aa21.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4b97e4838d7584f357579aedb9e51020.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/0491d81df81fd7a8573c4ff9693f2a9a.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e53f7f6ecc681ba692ed47bae90765f2.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/929ac3d8ab296a0957c10b3a272bf83b.svg",
+            "/get_file?id=41749"
+        ]
+    },
+    "answer": "б) 0.",
+    "topic_id": null,
+    "analog_ids": []
+}

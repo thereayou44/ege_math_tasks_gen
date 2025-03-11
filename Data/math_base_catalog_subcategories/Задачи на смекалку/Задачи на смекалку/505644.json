@@ -1,0 +1,43 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 505644,
+    "condition": {
+        "text": "Найти все значения параметра a, при каждом из которых уравнение имеет ровно три корня.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body645584\" class=\"pbody\"><p class=\"left_margin\">Найти все зна­че­ния па­ра­мет­ра <i>a</i>, при каж­дом из ко­то­рых урав­не­ние</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f9/f93c5e28b88e69640fcb5b9c5b6408ac.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x минус дробь: чис­ли­тель: a, зна­ме­на­тель: 2 конец дроби =4|4|x| минус a в квад­ра­те | \"> </p><p class=\"left_margin\"></p></center><p>имеет ровно три корня.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f9/f93c5e28b88e69640fcb5b9c5b6408ac.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Если  то уравнение принимает вид  и имеет один корень.В остальных случаях представим график обеих частей уравнения.График левой части  — прямая, параллельная прямой График функции   — два луча с общим началом в точке  и угловыми коэффициентами Поэтому график правой части  — два луча (с началами в точках  и угловыми коэффициентами ) и два отрезка, соединяющих те же точки с точкой Из графика правой части видно, что прямая, параллельная  имеет с ним ровно три общих точки тогда и только тогда, когда проходит либо через  либо через  Осталось выяснить, при каких a это происходит.В первом случае  откуда  (уже разбиралось) либо  (подходит)Во втором случае  откуда  (уже разбиралось) либо  (подходит). Ответ:   или   ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol505644\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Если <img src=\"https://ege.sdamgia.ru/formula/svg/2d/2d47c3b48318fcef886f7705dfd2b566.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a=0,\"> то урав­не­ние при­ни­ма­ет вид <img src=\"https://ege.sdamgia.ru/formula/svg/72/721e460a8576325eebaaf462bbe05eb7.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x=16|x|\"> и имеет один ко­рень.</p><p class=\"left_margin\">В осталь­ных слу­ча­ях пред­ста­вим гра­фик обеих ча­стей урав­не­ния.</p><p class=\"left_margin\">Гра­фик левой части  — пря­мая, па­рал­лель­ная пря­мой <img src=\"https://ege.sdamgia.ru/formula/svg/10/10529ae692c6506344abdd790d6fb960.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=x.\"></p><p class=\"left_margin\">Гра­фик функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/81/817c054af92e19f9832445e62384ac57.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"4|x| минус a в квад­ра­те \">  — два луча с общим на­ча­лом в точке <img src=\"https://ege.sdamgia.ru/formula/svg/70/705fccaeef23308f86ec100cb47a8c7d.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 0; минус a в квад­ра­те пра­вая круг­лая скоб­ка \"> и уг­ло­вы­ми ко­эф­фи­ци­ен­та­ми <img src=\"https://ege.sdamgia.ru/formula/svg/89/897488a07434cba75e167e2385f32535.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\pm 4.\"></p><p class=\"left_margin\">По­это­му гра­фик пра­вой части  — два луча (с на­ча­ла­ми в точ­ках <img src=\"https://ege.sdamgia.ru/formula/svg/dc/dcda1059f1127842a6a4385f4c5d722d.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\" левая круг­лая скоб­ка \\pm дробь: чис­ли­тель: a в квад­ра­те , зна­ме­на­тель: 4 конец дроби ;0 пра­вая круг­лая скоб­ка \"> и уг­ло­вы­ми ко­эф­фи­ци­ен­та­ми <img src=\"https://ege.sdamgia.ru/formula/svg/3e/3ee6ee9a1c05184cfe51fa1a2c1c65c2.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\pm 16\">) и два от­рез­ка, со­еди­ня­ю­щих те же точки с точ­кой <img src=\"https://ege.sdamgia.ru/formula/svg/b9/b97df7d2c36b7c0adf256c43a4e77079.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 0;4a в квад­ра­те пра­вая круг­лая скоб­ка .\"></p><p class=\"left_margin\">Из гра­фи­ка пра­вой части видно, что пря­мая, па­рал­лель­ная <img src=\"https://ege.sdamgia.ru/formula/svg/74/74a02e39b7685bf323916a8b8e6f7595.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"y=x,\"> имеет с ним ровно три общих точки тогда и толь­ко тогда, когда про­хо­дит либо через <img src=\"https://ege.sdamgia.ru/formula/svg/6d/6d7ac048fdad46eb534dedf14cfd5ffc.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 0;4a в квад­ра­те пра­вая круг­лая скоб­ка ,\"> либо через <img src=\"https://ege.sdamgia.ru/formula/svg/9b/9b1e5637b7bdf7f2563ee7c592236bc4.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\" левая круг­лая скоб­ка минус дробь: чис­ли­тель: a в квад­ра­те , зна­ме­на­тель: 4 конец дроби ;0 пра­вая круг­лая скоб­ка . \"> Оста­лось вы­яс­нить, при каких a это про­ис­хо­дит.</p><p class=\"left_margin\">В пер­вом слу­чае <img src=\"https://ege.sdamgia.ru/formula/svg/e1/e1c01e8a6275490ece446bf00b514fe5.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" минус дробь: чис­ли­тель: a, зна­ме­на­тель: 2 конец дроби =4a в квад­ра­те , \"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/de/ded681eaa02d11064c9a469dd1b3e04c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=0\"> (уже раз­би­ра­лось) либо <img src=\"https://ege.sdamgia.ru/formula/svg/80/80d81c5393e9234f64f4f8de0c4be909.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"a= минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 8 конец дроби \"> (под­хо­дит)</p><p class=\"left_margin\">Во вто­ром слу­чае <img src=\"https://ege.sdamgia.ru/formula/svg/17/17b151520b24b5975adcbd54191ea420.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" минус дробь: чис­ли­тель: a в квад­ра­те , зна­ме­на­тель: 4 конец дроби минус дробь: чис­ли­тель: a, зна­ме­на­тель: 2 конец дроби =0, \"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/de/ded681eaa02d11064c9a469dd1b3e04c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=0\"> (уже раз­би­ра­лось) либо <img src=\"https://ege.sdamgia.ru/formula/svg/7a/7a55a9b0bf5dbcd9ce04cd4a6fee3ddc.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a= минус 2\"> (под­хо­дит).</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  <img src=\"https://ege.sdamgia.ru/formula/svg/7a/7a55a9b0bf5dbcd9ce04cd4a6fee3ddc.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a= минус 2\"> или  <img src=\"https://ege.sdamgia.ru/formula/svg/c0/c06be30f7ffe6d4f0d35967d766269af.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"a= минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 8 конец дроби . \"> </p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/2d/2d47c3b48318fcef886f7705dfd2b566.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/721e460a8576325eebaaf462bbe05eb7.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/10529ae692c6506344abdd790d6fb960.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/817c054af92e19f9832445e62384ac57.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/705fccaeef23308f86ec100cb47a8c7d.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/897488a07434cba75e167e2385f32535.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dcda1059f1127842a6a4385f4c5d722d.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3ee6ee9a1c05184cfe51fa1a2c1c65c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b97df7d2c36b7c0adf256c43a4e77079.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/74a02e39b7685bf323916a8b8e6f7595.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6d7ac048fdad46eb534dedf14cfd5ffc.svg",
+            "https://ege.sdamgia.ru/formula/svg/9b/9b1e5637b7bdf7f2563ee7c592236bc4.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e1c01e8a6275490ece446bf00b514fe5.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/ded681eaa02d11064c9a469dd1b3e04c.svg",
+            "https://ege.sdamgia.ru/formula/svg/80/80d81c5393e9234f64f4f8de0c4be909.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/17b151520b24b5975adcbd54191ea420.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/ded681eaa02d11064c9a469dd1b3e04c.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7a55a9b0bf5dbcd9ce04cd4a6fee3ddc.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7a55a9b0bf5dbcd9ce04cd4a6fee3ddc.svg",
+            "https://ege.sdamgia.ru/formula/svg/c0/c06be30f7ffe6d4f0d35967d766269af.svg"
+        ]
+    },
+    "answer": "или",
+    "topic_id": null,
+    "analog_ids": [
+        505608
+    ]
+}

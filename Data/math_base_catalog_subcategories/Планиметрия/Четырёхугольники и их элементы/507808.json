@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 507808,
+    "condition": {
+        "text": "Последние члены двух конечных арифметических прогрессий a1 = 5, a2 = 8, ..., aN и b1 = 9, b2 = 14, ..., bM совпадают, а сумма всех совпадающих (взятых по одному разу) членов этих прогрессий равна 815. Найдите число членов в каждой прогрессии.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body643420\" class=\"pbody\"><p class=\"left_margin\">По­след­ние члены двух ко­неч­ных ариф­ме­ти­че­ских про­грес­сий <i>a</i><sub>1</sub> = 5, <i>a</i><sub>2</sub> = 8, ..., <i>a</i><sub><i>N</i></sub> и <i>b</i><sub>1</sub> = 9, <i>b</i><sub>2</sub> = 14, ..., <i>b</i><sub><i>M</i></sub> сов­па­да­ют, а сумма всех сов­па­да­ю­щих (взя­тых по од­но­му разу) чле­нов этих про­грес­сий равна 815. Най­ди­те число чле­нов в каж­дой про­грес­сии.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Ясно, что Общие члены прогрессий удовлетворяют уравнению:Левая часть последнего уравнения делится на 3, поэтому  то есть  или   где  Найдём  Общие члены двух прогрессий сами образуют арифметическую прогрессию с первым членом равным 14, а последним  — равным  Значит,  откуда  Поэтому  Ответ: 49 и 29.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol507808\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Ясно, что </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/49/49644a9751db78db63c62f5a2776cc85.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"a_m=5 плюс 3 левая круг­лая скоб­ка m минус 1 пра­вая круг­лая скоб­ка ,m=1,..., N,b_k=9 плюс 5 левая круг­лая скоб­ка k минус 1 пра­вая круг­лая скоб­ка ,k=1,..., M.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Общие члены про­грес­сий удо­вле­тво­ря­ют урав­не­нию:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/31/3180a75b87118c66a34da930e1736740.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"5 плюс 3 левая круг­лая скоб­ка m минус 1 пра­вая круг­лая скоб­ка =9 плюс 5 левая круг­лая скоб­ка k минус 1 пра­вая круг­лая скоб­ка рав­но­силь­но 3m=5k плюс 2.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Левая часть по­след­не­го урав­не­ния де­лит­ся на 3, по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/a3/a3a5f7d2ab0a7be49d9544b8b522b3c3.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"k=3n минус 1,\"> то есть <img src=\"https://ege.sdamgia.ru/formula/svg/0d/0dc833a2f1f2661a7ff626ae7b494d64.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"3m=15n минус 3,\"> или  <img src=\"https://ege.sdamgia.ru/formula/svg/85/850feafa2cf6947db19fbad8e4d47fd9.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"m=5n минус 1,\"> где <img src=\"https://ege.sdamgia.ru/formula/svg/97/979567dc8aafe4128bbb1d38b190d36e.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"1 мень­ше или равно n мень­ше или равно L.\"> Найдём <img src=\"https://ege.sdamgia.ru/formula/svg/ca/ca0b0549db85f718a48e0505ac9273a2.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"L.\"> Общие члены двух про­грес­сий сами об­ра­зу­ют ариф­ме­ти­че­скую про­грес­сию с пер­вым чле­ном рав­ным 14, а по­след­ним  — рав­ным <img src=\"https://ege.sdamgia.ru/formula/svg/ce/ceb64a7e96193fb952718b885026a261.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"15L минус 1.\"> Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/ed/ed50ba7fb05e90f6828b73022c5a1eff.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" дробь: чис­ли­тель: 14 плюс 15L минус 1, зна­ме­на­тель: 2 конец дроби L=815 рав­но­силь­но 15L в квад­ра­те плюс 13L минус 1630=0, \"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/bf/bffaee0c01707245be5580956eda54f6.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"L=10.\"> По­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/0a/0ac7cb5b2a33259711371f5f30ebf76b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"N=5L минус 1=49,M=3L минус 1=29.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 49 и 29.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/49/49644a9751db78db63c62f5a2776cc85.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/3180a75b87118c66a34da930e1736740.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a3a5f7d2ab0a7be49d9544b8b522b3c3.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0dc833a2f1f2661a7ff626ae7b494d64.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/850feafa2cf6947db19fbad8e4d47fd9.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/979567dc8aafe4128bbb1d38b190d36e.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/ca0b0549db85f718a48e0505ac9273a2.svg",
+            "https://ege.sdamgia.ru/formula/svg/ce/ceb64a7e96193fb952718b885026a261.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/ed50ba7fb05e90f6828b73022c5a1eff.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bffaee0c01707245be5580956eda54f6.svg",
+            "https://ege.sdamgia.ru/formula/svg/0a/0ac7cb5b2a33259711371f5f30ebf76b.svg"
+        ]
+    },
+    "answer": "49 и 29.",
+    "topic_id": null,
+    "analog_ids": []
+}

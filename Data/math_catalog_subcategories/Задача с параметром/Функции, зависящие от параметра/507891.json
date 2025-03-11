@@ -1,0 +1,41 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 507891,
+    "condition": {
+        "text": "Найдите все значения параметра а, при каждом из которых множество значений функции  содержит отрезок ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body643343\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния па­ра­мет­ра <i>а</i>, при каж­дом из ко­то­рых мно­же­ство зна­че­ний функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/70/703651d362e36d53264e6eb6fbe33122.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\"y= дробь: чис­ли­тель: a плюс 3x минус ax, зна­ме­на­тель: x в квад­ра­те плюс 2ax плюс a в квад­ра­те плюс 1 конец дроби \"> со­дер­жит от­ре­зок <img src=\"https://ege.sdamgia.ru/formula/svg/83/832897c6bcd2692796d56e2431d00259.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка 0;1 пра­вая квад­рат­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/70/703651d362e36d53264e6eb6fbe33122.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/832897c6bcd2692796d56e2431d00259.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Запишем знаменатель дроби в виде  и заметим, что для любого значения параметра а знаменатель положителен при всех значениях переменной x. Следовательно, заданная функция непрерывна, а тогда отрезок  [0; 1] лежит во множестве ее значений тогда и только тогда, когда уравнения  и  имеют решения.Уравнение  записывается в виде  оно имеет решение при любом Уравнение  приведем к виду   Оно имеет решение тогда и только тогда, когда его дискриминант неотрицателен: Учитывая условие   окончательно имеем:   или  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol507891\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">За­пи­шем зна­ме­на­тель дроби в виде <img src=\"https://ege.sdamgia.ru/formula/svg/ec/ec5c60fc00c1f4a6dec017077222df7c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка x плюс a пра­вая круг­лая скоб­ка в квад­ра­те плюс 1\"> и за­ме­тим, что для лю­бо­го зна­че­ния па­ра­мет­ра <i>а</i> зна­ме­на­тель по­ло­жи­те­лен при всех зна­че­ни­ях пе­ре­мен­ной <i>x</i>. Сле­до­ва­тель­но, за­дан­ная функ­ция не­пре­рыв­на, а тогда от­ре­зок  [0; 1] лежит во мно­же­стве ее зна­че­ний тогда и толь­ко тогда, когда урав­не­ния <img src=\"https://ege.sdamgia.ru/formula/svg/9e/9ea9cb9ce42bf75cea56016fd7a5b66c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка = 0\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/26/2620872d7d8ba4fa9124131fbcdd9fd1.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка = 1\"> имеют ре­ше­ния.</p><p class=\"left_margin\">Урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/9e/9ea9cb9ce42bf75cea56016fd7a5b66c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка = 0\"> за­пи­сы­ва­ет­ся в виде <img src=\"https://ege.sdamgia.ru/formula/svg/8f/8ffb8d7691e630f0c339d5791a87a021.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка a минус 3 пра­вая круг­лая скоб­ка x=a,\"> оно имеет ре­ше­ние при любом <img src=\"https://ege.sdamgia.ru/formula/svg/da/da3e3b4f7f7619c2600296e952f7d5a2.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a не равно 3.\"></p><p class=\"left_margin\">Урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/26/2620872d7d8ba4fa9124131fbcdd9fd1.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка = 1\"> при­ве­дем к виду  <img src=\"https://ege.sdamgia.ru/formula/svg/7d/7d172bea47dade286b73f1fc6fad0889.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x в квад­ра­те плюс 3 левая круг­лая скоб­ка a минус 1 пра­вая круг­лая скоб­ка x плюс a в квад­ра­те минус a плюс 1=0.\"> Оно имеет ре­ше­ние тогда и толь­ко тогда, когда его дис­кри­ми­нант не­от­ри­ца­те­лен:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e8/e88132ba2854d326e31d56ea11c1a974.svg\" class=\"tex\" style=\"vertical-align:-4.7pt\" alt=\"D=9 левая круг­лая скоб­ка a минус 1 пра­вая круг­лая скоб­ка в квад­ра­те минус 4 левая круг­лая скоб­ка a в квад­ра­те минус a плюс 1 пра­вая круг­лая скоб­ка =5a в квад­ра­те минус 14a плюс 5,\"></p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/c4/c4fc9082df7e3514db717bc6b7ac53bb.svg\" class=\"tex\" style=\"vertical-align:-25.2pt\" alt=\"5a в квад­ра­те минус 14a плюс 5 боль­ше или равно 0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний a боль­ше или равно дробь: чис­ли­тель: 7 плюс 2 ко­рень из 6 , зна­ме­на­тель: 5 конец дроби ,a мень­ше или равно дробь: чис­ли­тель: 7 минус 2 ко­рень из 6 , зна­ме­на­тель: 5 конец дроби . конец со­во­куп­но­сти . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Учи­ты­вая усло­вие <img src=\"https://ege.sdamgia.ru/formula/svg/5d/5dc7359a11076f5b2daecddaac356b52.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a не равно 3,\">  окон­ча­тель­но имеем: <img src=\"https://ege.sdamgia.ru/formula/svg/e5/e5cb30e435690ee627a0fb6d5f38786e.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"a мень­ше или равно дробь: чис­ли­тель: 7 минус 2 ко­рень из 6 , зна­ме­на­тель: 5 конец дроби , \"> <img src=\"https://ege.sdamgia.ru/formula/svg/6d/6d75c83cf3b37d161f1a06789be147a0.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 7 плюс 2 ко­рень из 6 , зна­ме­на­тель: 5 конец дроби мень­ше или равно a мень­ше 3 \"> или <img src=\"https://ege.sdamgia.ru/formula/svg/e6/e65f7287cfc23ef12b3129190044128c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a боль­ше 3.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/09/09bf89ebe4055f0bfa2904efe352cb65.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" левая круг­лая скоб­ка минус бес­ко­неч­ность ; дробь: чис­ли­тель: 7 минус 2 ко­рень из 6 , зна­ме­на­тель: 5 конец дроби пра­вая квад­рат­ная скоб­ка \\cup левая квад­рат­ная скоб­ка дробь: чис­ли­тель: 7 плюс 2 ко­рень из 6 , зна­ме­на­тель: 5 конец дроби ; 3 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 3; плюс бес­ко­неч­ность пра­вая круг­лая скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ec/ec5c60fc00c1f4a6dec017077222df7c.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9ea9cb9ce42bf75cea56016fd7a5b66c.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/2620872d7d8ba4fa9124131fbcdd9fd1.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9ea9cb9ce42bf75cea56016fd7a5b66c.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8ffb8d7691e630f0c339d5791a87a021.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/da3e3b4f7f7619c2600296e952f7d5a2.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/2620872d7d8ba4fa9124131fbcdd9fd1.svg",
+            "https://ege.sdamgia.ru/formula/svg/7d/7d172bea47dade286b73f1fc6fad0889.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e88132ba2854d326e31d56ea11c1a974.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c4fc9082df7e3514db717bc6b7ac53bb.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5dc7359a11076f5b2daecddaac356b52.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e5cb30e435690ee627a0fb6d5f38786e.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6d75c83cf3b37d161f1a06789be147a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e65f7287cfc23ef12b3129190044128c.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/09bf89ebe4055f0bfa2904efe352cb65.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 18,
+    "analog_ids": [
+        507891,
+        507914,
+        511503
+    ]
+}

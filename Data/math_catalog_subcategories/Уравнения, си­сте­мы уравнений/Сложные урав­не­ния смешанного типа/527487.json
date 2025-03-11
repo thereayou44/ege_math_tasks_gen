@@ -1,0 +1,33 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 527487,
+    "condition": {
+        "text": "а)  Решите уравнение б)  Укажите корни этого уравнения, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body418435\" class=\"pbody\"><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/10/10a9bc8e713c59cb0f0285d51c4183e6.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"2| синус x| плюс ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка тан­генс x пра­вая круг­лая скоб­ка левая круг­лая скоб­ка минус дробь: чис­ли­тель: | ко­си­нус x|, зна­ме­на­тель: синус x конец дроби пра­вая круг­лая скоб­ка =0. \"></p><p class=\"left_margin\">б)  Ука­жи­те корни этого урав­не­ния, при­над­ле­жа­щие от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/72/725eda63a3884e017cec4f9c0aab89d5.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка минус дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби ;0 пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/10/10a9bc8e713c59cb0f0285d51c4183e6.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/725eda63a3884e017cec4f9c0aab89d5.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Имеем:  то есть  и  имеют одинаковые знаки. При этом  поэтому  Итак, x лежит в третьей четверти тригонометрического круга. Теперь мы можем упростить уравнение: (второй набор решений не лежит в третьей четверти). Дляэтого набора все условия выполнены, в том числе не пригодившееся до сих пор б)  С помощью тригонометрического круга отберем корни. На указанном промежутке лежит  Ответ: а)   б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol527487\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Имеем: <img src=\"https://ege.sdamgia.ru/formula/svg/6d/6d7dc0a1b34495bb90498f6fb82540a2.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\" тан­генс x боль­ше 0,\"> то есть <img src=\"https://ege.sdamgia.ru/formula/svg/cd/cdba58911c590ced3e2435dfa39f6873.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" синус x\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/96/96eb9bf5314b593783ee57983efbed9d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­си­нус x\"> имеют оди­на­ко­вые знаки. При этом <img src=\"https://ege.sdamgia.ru/formula/svg/e3/e3ec67ffb9906c9a0c050df3b6fe6df3.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: | ко­си­нус x|, зна­ме­на­тель: синус x конец дроби мень­ше 0, \"> по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/43/43215d600666e23965a4012d68ccba90.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" синус x мень­ше 0.\"> Итак, <i>x</i> лежит в тре­тьей чет­вер­ти три­го­но­мет­ри­че­ско­го круга. Те­перь мы можем упро­стить урав­не­ние:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/3a/3a05ded10052b88143e7e9d71b148778.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\" минус 2 синус x плюс ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка тан­генс x пра­вая круг­лая скоб­ка левая круг­лая скоб­ка минус дробь: чис­ли­тель: минус ко­си­нус x, зна­ме­на­тель: синус x конец дроби пра­вая круг­лая скоб­ка =0 рав­но­силь­но минус 2 синус x плюс ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка тан­генс x пра­вая круг­лая скоб­ка левая круг­лая скоб­ка дробь: чис­ли­тель: 1, зна­ме­на­тель: тан­генс x конец дроби пра­вая круг­лая скоб­ка =0 рав­но­силь­но \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/03/03376d37d08f0bcfa941e8ce81d5b322.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" рав­но­силь­но минус 2 синус x минус 1=0 рав­но­силь­но синус x= минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби рав­но­силь­но x= минус дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k. \"> </p><p class=\"left_margin\"></p></center><p class=\"left_margin\">(вто­рой набор ре­ше­ний не лежит в тре­тьей чет­вер­ти). Для­это­го на­бо­ра все усло­вия вы­пол­не­ны, в том числе не при­го­див­ше­е­ся до сих пор <img src=\"https://ege.sdamgia.ru/formula/svg/2e/2e535d15d3e75e7ac19718455a82b530.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\" тан­генс x не равно 1.\"></p><p class=\"left_margin\">б)  С по­мо­щью три­го­но­мет­ри­че­ско­го круга от­бе­рем корни. На ука­зан­ном про­ме­жут­ке лежит <img src=\"https://ege.sdamgia.ru/formula/svg/94/94bb5ad973502a37ec29e621e54bfb66.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" минус дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) <img src=\"https://ege.sdamgia.ru/formula/svg/aa/aa88ffb7c4a65ac4458edc74188cf840.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая фи­гур­ная скоб­ка минус дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k:k при­над­ле­жит Z пра­вая фи­гур­ная скоб­ка ; \">  б) <img src=\"https://ege.sdamgia.ru/formula/svg/94/94bb5ad973502a37ec29e621e54bfb66.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" минус дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/6d/6d7dc0a1b34495bb90498f6fb82540a2.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cdba58911c590ced3e2435dfa39f6873.svg",
+            "https://ege.sdamgia.ru/formula/svg/96/96eb9bf5314b593783ee57983efbed9d.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e3ec67ffb9906c9a0c050df3b6fe6df3.svg",
+            "https://ege.sdamgia.ru/formula/svg/43/43215d600666e23965a4012d68ccba90.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3a05ded10052b88143e7e9d71b148778.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/03376d37d08f0bcfa941e8ce81d5b322.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2e535d15d3e75e7ac19718455a82b530.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/94bb5ad973502a37ec29e621e54bfb66.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa88ffb7c4a65ac4458edc74188cf840.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/94bb5ad973502a37ec29e621e54bfb66.svg"
+        ]
+    },
+    "answer": "а)   б)",
+    "topic_id": null,
+    "analog_ids": []
+}

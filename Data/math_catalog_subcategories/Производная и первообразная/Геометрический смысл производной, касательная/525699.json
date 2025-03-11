@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 525699,
+    "condition": {
+        "text": " На рисунке изображены график функции  и касательная к этому графику, проведённая в точке x0. Найдите значение производной функции  в точке x0.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body420735\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=110047\" style=\"float:right;margin:10px;max-width:100%\"> На ри­сун­ке изоб­ра­же­ны гра­фик функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/7c/7c1c9491ba7c6e8d6d2cfa82e39b22ca.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y=f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка \"> и ка­са­тель­ная к этому гра­фи­ку, про­ведённая в точке <i>x</i><sub>0</sub>. Най­ди­те зна­че­ние про­из­вод­ной функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/6b/6b2a4f3052dd24ac69486d3966f2de74.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"g левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =9f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка минус дробь: чис­ли­тель: 2, зна­ме­на­тель: 7 конец дроби x плюс 7\"> в точке <i>x</i><sub>0</sub>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/7c/7c1c9491ba7c6e8d6d2cfa82e39b22ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/6b/6b2a4f3052dd24ac69486d3966f2de74.svg",
+            "/get_file?id=110047"
+        ]
+    },
+    "solution": {
+        "text": "Решение.  Найдём производную функции g(x):По рисунку найдём значение  Значение производной в точке касания равно угловому коэффициенту касательной, который, в свою очередь, равен тангенсу угла наклона данной касательной к оси абсцисс.  Поэтому Тогда искомое значение  Ответ: 1.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol525699\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=110046\" style=\"float:right;margin:10px;max-width:100%\"> Найдём про­из­вод­ную функ­ции <i>g</i>(<i>x</i>):</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/67/675a600cb64b093a6f2ebb82e38a2b1e.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"g' левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка = 9 умно­жить на f' левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка минус дробь: чис­ли­тель: 2, зна­ме­на­тель: 7 конец дроби .\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">По ри­сун­ку найдём зна­че­ние <img src=\"https://ege.sdamgia.ru/formula/svg/1a/1a740c24ec606125fef1916fba5259a0.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f' левая круг­лая скоб­ка x_0 пра­вая круг­лая скоб­ка .\"> Зна­че­ние про­из­вод­ной в точке ка­са­ния равно уг­ло­во­му ко­эф­фи­ци­ен­ту ка­са­тель­ной, ко­то­рый, в свою оче­редь, равен тан­ген­су угла на­кло­на дан­ной ка­са­тель­ной к оси абс­цисс.  По­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/f1/f19677d239f80da565a3705491f173a4.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"f' левая круг­лая скоб­ка x_0 пра­вая круг­лая скоб­ка = дробь: чис­ли­тель: 1, зна­ме­на­тель: 7 конец дроби .\"></p><p class=\"left_margin\">Тогда ис­ко­мое зна­че­ние </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/5a/5a17f245979204cda62a498a56dc7c7e.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"g' левая круг­лая скоб­ка x_0 пра­вая круг­лая скоб­ка = 9 умно­жить на f' левая круг­лая скоб­ка x_0 пра­вая круг­лая скоб­ка минус дробь: чис­ли­тель: 2, зна­ме­на­тель: 7 конец дроби =9 умно­жить на дробь: чис­ли­тель: 1, зна­ме­на­тель: 7 конец дроби минус дробь: чис­ли­тель: 2, зна­ме­на­тель: 7 конец дроби =1.\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 1.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/67/675a600cb64b093a6f2ebb82e38a2b1e.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1a740c24ec606125fef1916fba5259a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f19677d239f80da565a3705491f173a4.svg",
+            "https://ege.sdamgia.ru/formula/svg/5a/5a17f245979204cda62a498a56dc7c7e.svg",
+            "/get_file?id=110046"
+        ]
+    },
+    "answer": "1",
+    "topic_id": 8,
+    "analog_ids": [
+        525688
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 507701,
+    "condition": {
+        "text": "Дан треугольник ABC со сторонами AB = 34, AC = 65 и BC = 93. На стороне BC взята точка M, причём AM  =  20. Найдите площадь треугольника AMB.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body643529\" class=\"pbody\"><p class=\"left_margin\">Дан тре­уголь­ник <i>ABC</i> со сто­ро­на­ми <i>AB</i> = 34, <i>AC</i> = 65 и <i>BC</i> = 93. На сто­ро­не <i>BC</i> взята точка <i>M</i>, причём <i>AM</i>  =  20. Най­ди­те пло­щадь тре­уголь­ни­ка <i>AMB</i>.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение.  Пусть p  — полупериметр треугольника ABC, AH  — высота треугольника. ТогдаПо формуле ГеронаТогда Из прямоугольных треугольников AHM и AHB находим, чтоЕсли точка M лежит между точками B и H (рис. 1), тоСледовательно,  Если же точка M лежит между точками C и H (рис. 2), тоСледовательно,  Ответ: 144 или 336.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol507701\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=30204\" style=\"float:right;margin:10px\"></p><p> Пусть <i>p</i>  — по­лу­пе­ри­метр тре­уголь­ни­ка <i>ABC</i>, <i>AH</i>  — вы­со­та тре­уголь­ни­ка. Тогда</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/8a/8aa2f243982bf9094ca6f2adf933d1ea.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"p= дробь: чис­ли­тель: 34 плюс 65 плюс 93, зна­ме­на­тель: 2 конец дроби = дробь: чис­ли­тель: 192, зна­ме­на­тель: 2 конец дроби =96. \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">По фор­му­ле Ге­ро­на</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e0/e0bbe0b87a1d7fded07cda49b98a60a5.svg\" class=\"tex\" style=\"vertical-align:-4.2pt\" alt=\"S_\\triangle ABC= ко­рень из: на­ча­ло ар­гу­мен­та: p левая круг­лая скоб­ка p минус AB пра­вая круг­лая скоб­ка левая круг­лая скоб­ка p минус AC пра­вая круг­лая скоб­ка левая круг­лая скоб­ка p минус BC пра­вая круг­лая скоб­ка конец ар­гу­мен­та =\"><span data-width=\"640\" data-formulahash=\"4500e364358be265849cb5b32d4835e8\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/45/4500e364358be265849cb5b32d4835e8.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"= ко­рень из: на­ча­ло ар­гу­мен­та: 96 левая круг­лая скоб­ка 96 минус 34 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 96 минус 65 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 96 минус 93 пра­вая круг­лая скоб­ка конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 96 умно­жить на 62 умно­жить на 31 умно­жить на 3 конец ар­гу­мен­та =31 умно­жить на 4 умно­жить на 6=31 умно­жить на 24.\"></span></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/2a/2abb2624a492a99138bca36b90cd3b6f.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"AH= дробь: чис­ли­тель: 2S_\\triangle ABC, зна­ме­на­тель: BC конец дроби = дробь: чис­ли­тель: 2 умно­жить на 31 умно­жить на 24, зна­ме­на­тель: 93 конец дроби =16. \"></p><p class=\"left_margin\">Из пря­мо­уголь­ных тре­уголь­ни­ков <i>AHM</i> и <i>AHB</i> на­хо­дим, что</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f7/f75eed035050aece0bc63b1505c5867c.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"MH= ко­рень из: на­ча­ло ар­гу­мен­та: AM в квад­ра­те минус AH в квад­ра­те конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 20 в квад­ра­те минус 16 в квад­ра­те конец ар­гу­мен­та =12,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/38/38e9ae157f4a0d268ee07b878a57d5fe.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"BH= ко­рень из: на­ча­ло ар­гу­мен­та: AB в квад­ра­те минус AH в квад­ра­те конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 34 в квад­ра­те минус 16 в квад­ра­те конец ар­гу­мен­та =30.\"></p><p class=\"left_margin\"></p></center><img src=\"/get_file?id=30205\" style=\"float:right;margin:10px\"><p class=\"left_margin\">Если точка <i>M</i> лежит между точ­ка­ми <i>B</i> и <i>H</i> (рис. 1), то</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/96/967b7f8903dd3d6037b8f166e355ff52.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BM=BH минус MH=30 минус 12=18.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/d4/d4319c875c7a3718e6379fbe352fbbb7.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S_\\triangle AMB= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби BM умно­жить на AH= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на 18 умно­жить на 16=144. \"> Если же точка <mathi>M лежит между точ­ка­ми <i>C</i> и <i>H</i> (рис. 2), то</mathi></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/46/460a14d2f84e7be4de92a0d0ac2d54c6.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BM=BH плюс MH=30 плюс 12=42.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/c6/c6d6ecebf3944dc468bd761967467c46.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S_\\triangle AMB= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби BM умно­жить на AH= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на 42 умно­жить на 16=336. \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 144 или 336.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/8a/8aa2f243982bf9094ca6f2adf933d1ea.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e0bbe0b87a1d7fded07cda49b98a60a5.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/4500e364358be265849cb5b32d4835e8.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2abb2624a492a99138bca36b90cd3b6f.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f75eed035050aece0bc63b1505c5867c.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/38e9ae157f4a0d268ee07b878a57d5fe.svg",
+            "https://ege.sdamgia.ru/formula/svg/96/967b7f8903dd3d6037b8f166e355ff52.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d4319c875c7a3718e6379fbe352fbbb7.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/460a14d2f84e7be4de92a0d0ac2d54c6.svg",
+            "https://ege.sdamgia.ru/formula/svg/c6/c6d6ecebf3944dc468bd761967467c46.svg",
+            "/get_file?id=30204",
+            "/get_file?id=30205"
+        ]
+    },
+    "answer": "144 или 336.",
+    "topic_id": null,
+    "analog_ids": [
+        507701,
+        511477,
+        507697
+    ]
+}
