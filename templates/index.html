@@ -1,5 +1,13 @@
 {% extends "base.html" %}
 {% block title %}Генератор задач ЕГЭ{% endblock %}
+
+{% block head %}
+<script>
+// Загружаем данные категорий напрямую в глобальную переменную
+var categoriesData = {{ categories|tojson|safe }};
+</script>
+{% endblock %}
+
 {% block content %}
 <h1 class="mb-4">Генератор задач ЕГЭ</h1>
 <form id="taskForm" class="mb-3">
@@ -13,90 +21,309 @@
         </select>
     </div>
     <div class="mb-3">
-        <label for="subcategory" class="form-label">Подкатегория:</label>
+        <label for="subcategory" class="form-label">Подкатегория (опционально):</label>
         <select name="subcategory" id="subcategory" class="form-select">
-            <option value="">Не выбрана (опционально)</option>
+            <option value="">Не выбрана</option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <label for="difficulty_level" class="form-label">Уровень подсказок (1-5):</label>
+        <select name="difficulty_level" id="difficulty_level" class="form-select">
+            <option value="1">1 - Минимальные</option>
+            <option value="2">2 - Краткие</option>
+            <option value="3" selected>3 - Средние</option>
+            <option value="4">4 - Подробные</option>
+            <option value="5">5 - Очень подробные</option>
         </select>
     </div>
     <button type="submit" class="btn btn-primary">Сгенерировать задачу</button>
 </form>
 <!-- Кнопка для перегенерации задачи, оставляя выбранные параметры -->
-<button id="regenerateBtn" class="btn btn-secondary mb-3">Перегенерировать задачу</button>
+<button id="regenerateBtn" class="btn btn-secondary mb-3" style="display: none;">Перегенерировать задачу</button>
+
+<!-- Загрузчик -->
+<div id="loadingIndicator" class="text-center mt-4" style="display: none;">
+    <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">Загрузка...</span>
+    </div>
+    <p class="mt-2">Идет генерация задачи, пожалуйста, подождите...</p>
+</div>
 
 <!-- Блок для отображения сгенерированной задачи -->
-<div id="taskOutput" class="mt-4 border p-3">
-    <p>Здесь будет отображаться задача</p>
+<div id="taskContainer" class="mt-4" style="display: none;">
+    <div class="card mb-4">
+        <div class="card-header bg-primary text-white">
+            <h5 class="card-title mb-0">Задача</h5>
+        </div>
+        <div class="card-body">
+            <div id="taskOutput"></div>
+        </div>
+    </div>
+    
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <button id="showHintBtn" class="btn btn-warning w-100">Показать подсказку</button>
+        </div>
+        <div class="col-md-6">
+            <button id="showSolutionBtn" class="btn btn-success w-100">Показать ответ</button>
+        </div>
+    </div>
+    
+    <!-- Блок для подсказок -->
+    <div id="hintsContainer" class="card mb-4" style="display: none;">
+        <div class="card-header bg-warning text-dark">
+            <h5 class="card-title mb-0">Подсказка <span id="hintLevel">1</span>/3</h5>
+        </div>
+        <div class="card-body">
+            <div id="hintOutput">Загрузка подсказки...</div>
+            <div class="mt-3 d-flex justify-content-between">
+                <div id="prevHintBtnContainer" style="display: none;">
+                    <button id="prevHintBtn" class="btn btn-outline-secondary">← Предыдущая</button>
+                </div>
+                <div id="nextHintBtnContainer" class="ms-auto">
+                    <button id="nextHintBtn" class="btn btn-outline-warning">Следующая →</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Блок для ответа -->
+    <div id="answerContainer" class="card mb-4" style="display: none;">
+        <div class="card-header bg-success text-white">
+            <h5 class="card-title mb-0">Ответ</h5>
+        </div>
+        <div class="card-body">
+            <div id="answerOutput">Загрузка ответа...</div>
+        </div>
+    </div>
+    
+    <!-- Кнопка для показа решения -->
+    <a id="fullSolutionLink" href="/solution" target="_blank" class="btn btn-outline-success d-block" style="display: none;">
+        Открыть полное решение в новом окне
+    </a>
 </div>
 {% endblock %}
 
 {% block scripts %}
-<script type="text/javascript">
+<script>
+    // Объявляем переменные
+    var currentHintIndex = 0;
+    var hints = [];
+    var taskData = null;
+    
     // Функция для обновления списка подкатегорий
     function updateSubcategories() {
         var category = document.getElementById("category").value;
         var subcategorySelect = document.getElementById("subcategory");
         subcategorySelect.innerHTML = ""; // Очистить список подкатегорий
 
-        var categories = {{ categories | tojson }};
-        var selectedCategory = categories.find(cat => cat.category === category);
+        // Находим выбранную категорию в данных
+        var selectedCategory = null;
+        for (var i = 0; i < categoriesData.length; i++) {
+            if (categoriesData[i].category === category) {
+                selectedCategory = categoriesData[i];
+                break;
+            }
+        }
 
-        // Добавляем опцию "Не выбрана (опционально)"
+        // Добавляем опцию "Не выбрана"
         var defaultOption = document.createElement("option");
         defaultOption.value = "";
-        defaultOption.textContent = "Не выбрана (опционально)";
+        defaultOption.textContent = "Не выбрана";
         subcategorySelect.appendChild(defaultOption);
 
-        if (selectedCategory) {
-            selectedCategory.subcategories.forEach(function(subcat) {
+        // Если категория найдена и у нее есть подкатегории, добавляем их в выпадающий список
+        if (selectedCategory && selectedCategory.subcategories) {
+            for (var j = 0; j < selectedCategory.subcategories.length; j++) {
+                var subcat = selectedCategory.subcategories[j];
                 var option = document.createElement("option");
                 option.value = subcat.name;
                 option.textContent = subcat.number + " " + subcat.name;
                 subcategorySelect.appendChild(option);
-            });
+            }
         }
     }
 
     // При выборе категории обновляем подкатегории
     document.getElementById("category").addEventListener("change", updateSubcategories);
 
+    // Вызываем функцию при загрузке страницы, если категория уже выбрана
+    window.addEventListener("DOMContentLoaded", function() {
+        var categorySelect = document.getElementById("category");
+        if (categorySelect.value) {
+            updateSubcategories();
+        }
+    });
+    
     // Функция генерации задачи через AJAX
     function generateTask(event) {
-        event.preventDefault();
+        if (event) event.preventDefault();
+        
+        // Скрываем блоки с задачей, подсказками и ответом
+        document.getElementById("taskContainer").style.display = "none";
+        document.getElementById("hintsContainer").style.display = "none";
+        document.getElementById("answerContainer").style.display = "none";
+        document.getElementById("fullSolutionLink").style.display = "none";
+        
+        // Показываем индикатор загрузки
+        document.getElementById("loadingIndicator").style.display = "block";
+        
         var category = document.getElementById("category").value;
         var subcategory = document.getElementById("subcategory").value;
+        var difficulty_level = document.getElementById("difficulty_level").value;
 
         if (!category) {
             alert("Пожалуйста, выберите категорию");
+            document.getElementById("loadingIndicator").style.display = "none";
             return;
         }
 
-        var data = { category: category, subcategory: subcategory };
+        var data = { 
+            category: category, 
+            subcategory: subcategory,
+            difficulty_level: difficulty_level
+        };
 
         fetch('/generate_task', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(data)
         })
-            .then(response => {
-                if (!response.ok) throw new Error("Ошибка сервера");
-                return response.json();
-            })
-            .then(data => {
-                // Обновляем блок с задачей
-                document.getElementById("taskOutput").innerHTML = data.task;
-                // Перерендериваем MathJax для корректного отображения формул
-                if (typeof MathJax !== 'undefined') {
-                    MathJax.Hub.Queue(["Typeset", MathJax.Hub, "taskOutput"]);
+        .then(function(response) {
+            if (!response.ok) {
+                return response.json().then(function(data) {
+                    throw new Error(data.error || "Ошибка сервера");
+                });
+            }
+            return response.json();
+        })
+        .then(function(data) {
+            // Сохраняем полученные данные
+            taskData = data;
+            hints = data.hints || [];
+            currentHintIndex = 0;
+            
+            // Скрываем индикатор загрузки
+            document.getElementById("loadingIndicator").style.display = "none";
+            
+            // Показываем блок с задачей
+            document.getElementById("taskContainer").style.display = "block";
+            
+            // Обновляем блок с задачей
+            document.getElementById("taskOutput").innerHTML = data.task;
+            
+            // Показываем кнопку перегенерации
+            document.getElementById("regenerateBtn").style.display = "block";
+            
+            // Обрабатываем изображение, если оно есть
+            if (data.image_url) {
+                // Проверяем, есть ли уже контейнер для изображения
+                var imageContainer = document.getElementById("taskImageContainer");
+                if (!imageContainer) {
+                    // Создаем контейнер для изображения, если его еще нет
+                    imageContainer = document.createElement("div");
+                    imageContainer.id = "taskImageContainer";
+                    imageContainer.className = "text-center mt-3 mb-3";
+                    
+                    // Вставляем контейнер перед блоком с текстом задачи или после него
+                    var taskOutput = document.getElementById("taskOutput");
+                    taskOutput.parentNode.insertBefore(imageContainer, taskOutput);
                 }
-            })
-            .catch(error => {
-                console.error('Ошибка:', error);
-                alert("Ошибка генерации задачи");
-            });
+                
+                // Создаем изображение
+                imageContainer.innerHTML = '<img src="' + data.image_url + '" class="img-fluid rounded" alt="Изображение к задаче" style="max-height: 400px;">';
+            } else {
+                // Удаляем контейнер с изображением, если он есть
+                var imageContainer = document.getElementById("taskImageContainer");
+                if (imageContainer) {
+                    imageContainer.remove();
+                }
+            }
+            
+            // Перерендериваем MathJax для корректного отображения формул
+            if (typeof MathJax !== 'undefined') {
+                MathJax.Hub.Queue(["Typeset", MathJax.Hub, "taskOutput"]);
+            }
+        })
+        .catch(function(error) {
+            console.error('Ошибка:', error);
+            document.getElementById("loadingIndicator").style.display = "none";
+            alert(error.message || "Ошибка генерации задачи");
+        });
+    }
+    
+    // Функция для отображения подсказки
+    function showHint() {
+        if (!hints || hints.length === 0) {
+            alert("Подсказки недоступны для этой задачи");
+            return;
+        }
+        
+        // Показываем блок с подсказками
+        document.getElementById("hintsContainer").style.display = "block";
+        
+        // Обновляем номер текущей подсказки
+        document.getElementById("hintLevel").textContent = currentHintIndex + 1;
+        
+        // Отображаем текущую подсказку
+        document.getElementById("hintOutput").innerHTML = hints[currentHintIndex];
+        
+        // Управляем видимостью кнопок навигации по подсказкам
+        document.getElementById("prevHintBtnContainer").style.display = 
+            currentHintIndex > 0 ? "block" : "none";
+        document.getElementById("nextHintBtnContainer").style.display = 
+            currentHintIndex < hints.length - 1 ? "block" : "none";
+        
+        // Перерендериваем MathJax для корректного отображения формул
+        if (typeof MathJax !== 'undefined') {
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub, "hintOutput"]);
+        }
+    }
+    
+    // Функция для отображения ответа
+    function showSolution() {
+        if (!taskData) {
+            alert("Сначала сгенерируйте задачу");
+            return;
+        }
+        
+        // Показываем блок с ответом
+        document.getElementById("answerContainer").style.display = "block";
+        
+        // Отображаем ответ
+        document.getElementById("answerOutput").innerHTML = taskData.answer || "Ответ не найден";
+        
+        // Показываем ссылку на полное решение
+        document.getElementById("fullSolutionLink").style.display = "block";
+        
+        // Перерендериваем MathJax для корректного отображения формул
+        if (typeof MathJax !== 'undefined') {
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub, "answerOutput"]);
+        }
+    }
+    
+    // Функция для перехода к следующей подсказке
+    function nextHint() {
+        if (currentHintIndex < hints.length - 1) {
+            currentHintIndex++;
+            showHint();
+        }
+    }
+    
+    // Функция для возврата к предыдущей подсказке
+    function prevHint() {
+        if (currentHintIndex > 0) {
+            currentHintIndex--;
+            showHint();
+        }
     }
 
-    // Обработчики отправки формы и кнопки перегенерации
+    // Обработчики событий
     document.getElementById("taskForm").addEventListener("submit", generateTask);
     document.getElementById("regenerateBtn").addEventListener("click", generateTask);
+    document.getElementById("showHintBtn").addEventListener("click", showHint);
+    document.getElementById("showSolutionBtn").addEventListener("click", showSolution);
+    document.getElementById("nextHintBtn").addEventListener("click", nextHint);
+    document.getElementById("prevHintBtn").addEventListener("click", prevHint);
 </script>
-{% endblock %}
+{% endblock %} 

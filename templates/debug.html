@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% block title %}Debug Page{% endblock %}
+
+{% block head %}
+<script>
+    // Прямое присваивание для отладки
+    window.categoriesData = {{ categories|tojson|safe }};
+</script>
+{% endblock %}
+
+{% block content %}
+<h1>Debug Page</h1>
+<div class="alert alert-info">
+    Откройте консоль разработчика (F12) для просмотра отладочной информации
+</div>
+
+<div class="card">
+    <div class="card-header">
+        <h5 class="card-title">Категории и подкатегории</h5>
+    </div>
+    <div class="card-body">
+        <div id="debug-output"></div>
+    </div>
+</div>
+
+<div class="mt-3">
+    <a href="/" class="btn btn-primary">Вернуться на главную</a>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/debug.js') }}"></script>
+<script>
+    // Выводим данные на страницу
+    const debugOutput = document.getElementById('debug-output');
+    
+    function displayCategories() {
+        if (!window.categoriesData || !Array.isArray(window.categoriesData)) {
+            debugOutput.innerHTML = '<div class="alert alert-danger">Ошибка: Данные категорий не найдены или не являются массивом</div>';
+            return;
+        }
+        
+        let html = '<ul class="list-group">';
+        for (let i = 0; i < window.categoriesData.length; i++) {
+            const cat = window.categoriesData[i];
+            html += `<li class="list-group-item">
+                <strong>${cat.category_number}. ${cat.category}</strong>`;
+            
+            if (cat.subcategories && cat.subcategories.length > 0) {
+                html += '<ul class="list-group mt-2">';
+                for (let j = 0; j < cat.subcategories.length; j++) {
+                    const subcat = cat.subcategories[j];
+                    html += `<li class="list-group-item list-group-item-light">
+                        ${subcat.number} ${subcat.name}
+                    </li>`;
+                }
+                html += '</ul>';
+            } else {
+                html += '<div class="alert alert-warning mt-2">Нет подкатегорий</div>';
+            }
+            
+            html += '</li>';
+        }
+        html += '</ul>';
+        
+        debugOutput.innerHTML = html;
+    }
+    
+    // Вызываем функцию отображения
+    displayCategories();
+</script>
+{% endblock %} 
