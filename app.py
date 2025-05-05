@@ -209,10 +209,6 @@ def generate_task():
             image_path = result["image_path"]
             image_url = f"/static/images/generated/{os.path.basename(image_path)}"
             response_data["image_url"] = image_url
-            
-            # Если есть base64-представление, добавляем его тоже
-            if "image_base64" in result:
-                response_data["image_base64"] = result["image_base64"]
         
         return jsonify(response_data)
     except Exception as e:

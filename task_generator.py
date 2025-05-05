@@ -14,7 +14,9 @@ import matplotlib
 matplotlib.use('Agg')  # Используем не-интерактивный бэкенд
 import uuid
 import base64
-from prompts import HINT_PROMPTS, SYSTEM_PROMPT, create_complete_task_prompt
+from prompts import HINT_PROMPTS, SYSTEM_PROMPT, create_complete_task_prompt, REGEX_PATTERNS, DEFAULT_VISUALIZATION_PARAMS
+import traceback
+import matplotlib.patches as patches
 
 # Настройка логирования
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -29,45 +31,8 @@ YANDEX_FOLDER_ID = os.getenv("YANDEX_FOLDER_ID")
 # Кэш для хранения результатов запросов API
 _task_cache = {}
 
-# Словарь с готовыми инструкциями для подсказок разных уровней
-hint_prompts = {
-    0: """
----ПОДСКАЗКИ---
-1. Для данного уровня подсказки не предусмотрены.
-2. Для данного уровня подсказки не предусмотрены.
-3. Для данного уровня подсказки не предусмотрены.
-""",
-    1: """
----ПОДСКАЗКИ---
-1. [Краткое указание на конкретный метод/теорему без объяснений (например: "Используй теорему Виета для решения квадратного уравнения")]
-2. [Направляющий вопрос или утверждение (например: "Какие тригонометрические функции можно использовать для этого треугольника?")]
-3. [Конкретное указание первого шага решения (например: "Начни с составления уравнения равномерного движения: S = v·t")]
-""",
-    2: """
----ПОДСКАЗКИ---
-1. [Конкретная подсказка о методе с аналогией (например: "Эта задача решается аналогично нахождению площади криволинейной трапеции с помощью интеграла")]
-2. [Ключевая формула или уравнение (например: "Используй формулу площади сферы S = 4πr²")]
-3. [Детальный первый шаг с примером (например: "Составь систему уравнений: { x + y = 10, xy = 21 } и примени теорему Виета")]
-""",
-    3: """
----ПОДСКАЗКИ---
-1. [Подробное объяснение метода решения с формулами (например: "Для нахождения наибольшего значения функции f(x) = x³ - 3x² + 3 найди производную f'(x) и приравняй её к нулю")]
-2. [Преобразования уравнения с объяснением (например: "После дифференцирования получаем: f'(x) = 3x² - 6x = 0; вынесем общий множитель: 3x(x - 2) = 0, откуда x = 0 или x = 2")]
-3. [Почти полное решение (например: "Проверим точки x = 0 и x = 2: f(0) = 3, f(2) = -1. Также проверим граничные точки интервала: x = -1 → f(-1) = -1 и x = 3 → f(3) = 3. Максимальное значение равно...")]
-""",
-    4: """
----ПОДСКАЗКИ---
-1. [Начало решения с формулами и преобразованиями (например: "Запиши уравнение движения тела, брошенного под углом к горизонту: x = v₀·t·cos α, y = v₀·t·sin α - gt²/2")]
-2. [Продолжение решения с подстановками (например: "Подставь v₀ = 20 м/с, α = 30°, g = 10 м/с². Получаем: x = 20t·cos 30° = 20t·√3/2 = 10√3·t, y = 20t·sin 30° - 5t² = 10t - 5t²")]
-3. [Почти готовый ответ (например: "Максимальная высота достигается при t = 1 с: yₘₐₓ = 10·1 - 5·1² = ... м")]
-""",
-    5: """
----ПОДСКАЗКИ---
-1. [Первая часть полного решения (например: "Для логарифмического уравнения log₃(x+4) + log₃(x-1) = 2 запишем: log₃((x+4)(x-1)) = 2. По определению: (x+4)(x-1) = 3²")]
-2. [Вторая часть с вычислениями (например: "(x+4)(x-1) = 9; x² + 3x - 4 = 9; x² + 3x - 13 = 0. По формуле дискриминанта: D = 3² + 4·13 = 9 + 52 = 61; x = (-3 ± √61)/2")]
-3. [Финальная часть решения (например: "x₁ = (-3 + √61)/2 ≈ 3.4, x₂ = (-3 - √61)/2 ≈ -6.4. Проверяем x₁: log₃(3.4+4) + log₃(3.4-1) = log₃(7.4) + log₃(2.4) = log₃(17.76) = 2. Ответ: x = ...")]
-"""
-}
+# Используем готовые инструкции для подсказок из модуля prompts
+from prompts import HINT_PROMPTS, SYSTEM_PROMPT, REGEX_PATTERNS, DEFAULT_VISUALIZATION_PARAMS
 
 def select_file(category, subcategory=""):
     """
@@ -147,14 +112,14 @@ def extract_text_and_formulas(html_content):
     
     return text
 
-def yandex_gpt_generate(prompt, temperature=0.3, max_tokens=3000):
+def yandex_gpt_generate(prompt, temperature=0.3, max_tokens=5000):
     """
     Отправляет запрос к API YandexGPT и возвращает ответ.
     
     Args:
         prompt: Текст запроса
         temperature: Температура генерации (от 0 до 1)
-        max_tokens: Максимальное количество токенов в ответе
+        max_tokens: Максимальное количество токенов в ответе (увеличено до 5000)
         
     Returns:
         str: Сгенерированный текст ответа
@@ -227,15 +192,20 @@ def extract_answer_with_latex(solution):
         answer = answer_match.group(1).strip()
         logging.info(f"Найден ответ: {answer}")
         
-        # Проверяем, есть ли в ответе формулы LaTeX и корректируем их
-        # Ищем выражения без окружения $ и оборачиваем их
-        formula_pattern = r'(\\frac|\\sqrt|\\sum|\\prod|\\int|\\lim|\\sin|\\cos|\\tan|\\log|\\ln)'
-        answer = re.sub(formula_pattern, r'$\1', answer)
-        
-        # Если мы добавили открывающий символ $, но нет закрывающего, добавляем его
-        open_count = answer.count('$')
-        if open_count % 2 != 0:
-            answer += '$'
+        # Если ответ уже содержит $, заменяем их на $$
+        if '$' in answer:
+            # Заменяем одинарные $ на двойные $$
+            answer = answer.replace('$', '$$')
+        else:
+            # Проверяем, есть ли в ответе формулы LaTeX и корректируем их
+            # Ищем выражения без окружения $ и оборачиваем их
+            formula_pattern = r'(\\frac|\\sqrt|\\sum|\\prod|\\int|\\lim|\\sin|\\cos|\\tan|\\log|\\ln)'
+            answer = re.sub(formula_pattern, r'$$\1', answer)
+            
+            # Если мы добавили открывающий символ $$, но нет закрывающего, добавляем его
+            open_count = answer.count('$$')
+            if open_count % 2 != 0:
+                answer += '$$'
             
         # Экранируем угловые скобки, если они не являются частью HTML-тега
         # (чтобы они не интерпретировались как теги)
@@ -255,15 +225,21 @@ def extract_answer_with_latex(solution):
         alt_match = re.search(pattern, solution, re.IGNORECASE | re.DOTALL)
         if alt_match:
             answer = alt_match.group(1).strip()
-            logging.info(f"Найден альтернативный ответ: {answer}")
+            logging.info(f"Найден ответ: {answer}")
             
-            # Применяем те же преобразования, что и выше
-            formula_pattern = r'(\\frac|\\sqrt|\\sum|\\prod|\\int|\\lim|\\sin|\\cos|\\tan|\\log|\\ln)'
-            answer = re.sub(formula_pattern, r'$\1', answer)
-            
-            open_count = answer.count('$')
-            if open_count % 2 != 0:
-                answer += '$'
+            # Если ответ уже содержит $, заменяем их на $$
+            if '$' in answer:
+                # Заменяем одинарные $ на двойные $$
+                answer = answer.replace('$', '$$')
+            else:
+                # Применяем те же преобразования, что и выше
+                formula_pattern = r'(\\frac|\\sqrt|\\sum|\\prod|\\int|\\lim|\\sin|\\cos|\\tan|\\log|\\ln)'
+                answer = re.sub(formula_pattern, r'$$\1', answer)
+                
+                # Если мы добавили открывающий символ $$, но нет закрывающего, добавляем его
+                open_count = answer.count('$$')
+                if open_count % 2 != 0:
+                    answer += '$$'
                 
             if '<' in answer and not re.search(r'<[a-z/]', answer):
                 answer = answer.replace('<', '&lt;').replace('>', '&gt;')
@@ -566,117 +542,259 @@ def add_vertex_labels(params, figure_type, pts):
 def generate_geometric_figure(figure_type, params, filename=None):
     print(f"generate_geometric_figure: {figure_type}, {params}, {filename}")
     """
-    Универсальный генератор:
-     - Для любых ftype != 'circle': сначала ищем params['points'], иначе — строим своими compute_*.
-     - Потом единым draw+labels+lengths+angles.
+    Универсальный генератор геометрических фигур, использующий matplotlib.patches.
+    Поддерживает отображение длин сторон в соответствии с параметрами.
     """
     try:
-        fig, ax = plt.subplots(figsize=(6,6))
+        # Увеличиваем размер фигуры для лучшего качества
+        fig, ax = plt.subplots(figsize=(8, 8))
         ax.set_aspect('equal')
         ax.axis('off')
 
-        # 1) Вершины для многоугольников
+        # Создаем фигуру и точки в зависимости от типа
         pts = None
+        patch = None
+
         if figure_type == 'circle':
-            # circle рисуем отдельно ниже
-            pass
-        else:
+            cx, cy = params.get('center', (0,0))
+            r = params.get('radius', 3)
+            patch = plt.Circle((cx, cy), r, fill=False, edgecolor='blue', linewidth=2)
+            ax.add_patch(patch)
+            xs, ys = [cx-r, cx+r], [cy-r, cy+r]
+            
+            # Отображение центра
+            if params.get('show_center', True):
+                ax.text(cx, cy, params.get('center_label', 'O'),
+                       ha='center', va='center', fontsize=14,  # Увеличен размер шрифта
+                       bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
+            
+            # Отображение радиуса, если задан
+            radius_value = params.get('radius_value', None)
+            if params.get('show_radius', False) or radius_value is not None:
+                ax.plot([cx, cx+r], [cy, cy], 'r-', lw=1.5)  # Увеличена толщина
+                displayed_radius = radius_value if radius_value is not None else r
+                ax.text(cx+r/2, cy+0.3, f"r={displayed_radius}", ha='center', fontsize=12)  # Увеличен размер шрифта
+                
+            # Отображение диаметра, если задан
+            diameter_value = params.get('diameter_value', None)
+            if params.get('show_diameter', False) or diameter_value is not None:
+                ax.plot([cx-r, cx+r], [cy, cy], 'g-', lw=1.5)  # Увеличена толщина
+                displayed_diameter = diameter_value if diameter_value is not None else 2*r
+                ax.text(cx, cy-0.3, f"d={displayed_diameter}", ha='center', fontsize=12)  # Увеличен размер шрифта
+                
+            # Отображение хорды, если задано значение (исправлено)
+            chord_value = params.get('chord_value', None)
+            if params.get('show_chord', False) or chord_value is not None:
+                if chord_value is not None:
+                    # Проверяем, что хорда не больше диаметра
+                    chord_value = min(chord_value, 2*r)
+                    
+                    # Вычисляем положение хорды
+                    half_chord = chord_value / 2
+                    
+                    # Расстояние от центра до хорды (по теореме Пифагора)
+                    if half_chord < r:  # Защита от ошибок вычисления
+                        h = np.sqrt(r**2 - half_chord**2)
+                    else:
+                        h = 0
+                    
+                    # Рисуем хорду горизонтально ниже центра
+                    chord_y = cy - h
+                    chord_start_x = cx - half_chord
+                    chord_end_x = cx + half_chord
+                    
+                    # Рисуем хорду
+                    ax.plot([chord_start_x, chord_end_x], [chord_y, chord_y], 'b-', lw=1.5)
+                    
+                    # Подпись расположена четко под хордой
+                    ax.text((chord_start_x + chord_end_x)/2, chord_y-0.4, 
+                            f"{chord_value}", ha='center', fontsize=12)
+                    
+        else:  # Многоугольники
             if 'points' in params:
                 pts = params['points']
             else:
                 if figure_type == 'triangle':
                     pts = params.get('points', [(0,0),(1,0),(0.5,0.86)])
+                    
+                    # Для прямоугольного треугольника
+                    if params.get('is_right', False):
+                        pts = [(0,0), (0,3), (4,0)]  # Прямоугольный треугольник
+                        
                 elif figure_type == 'rectangle':
                     x, y = params.get('x',0), params.get('y',0)
                     w, h = params.get('width',4), params.get('height',3)
                     pts = [(x,y), (x+w,y), (x+w,y+h), (x,y+h)]
+                    
                 elif figure_type == 'parallelogram':
-                    base   = params.get('width',4)
+                    base = params.get('width',4)
                     height = params.get('height',3)
-                    skew   = params.get('skew',60)
-                    raw    = compute_parallelogram(base, height, skew)
-                    x, y   = params.get('x',0), params.get('y',0)
-                    pts    = [(px+x, py+y) for px,py in raw]
+                    skew = params.get('skew',60)
+                    raw = compute_parallelogram(base, height, skew)
+                    x, y = params.get('x',0), params.get('y',0)
+                    pts = [(px+x, py+y) for px,py in raw]
+                    
                 elif figure_type == 'trapezoid':
                     bottom = params.get('bottom_width',6)
-                    top    = params.get('top_width',3)
+                    top = params.get('top_width',3)
                     height = params.get('height',3)
-                    raw    = compute_trapezoid(bottom, top, height)
-                    x, y   = params.get('x',0), params.get('y',0)
-                    pts    = [(px+x, py+y) for px,py in raw]
+                    raw = compute_trapezoid(bottom, top, height)
+                    x, y = params.get('x',0), params.get('y',0)
+                    pts = [(px+x, py+y) for px,py in raw]
                 else:
                     raise ValueError(f"Неизвестный тип: {figure_type}")
 
-            # рисуем полигон
-            xs, ys = zip(*pts)
-            pts_closed = np.vstack([pts, pts[0]])
-            ax.plot(pts_closed[:,0], pts_closed[:,1], 'b-', lw=2)
+            # Создаем патч для многоугольника
+            if pts:
+                xs, ys = zip(*pts)
+                patch = plt.Polygon(pts, fill=False, edgecolor='blue', linewidth=2)
+                ax.add_patch(patch)
+                
+                # Подписи вершин
+                if params.get('show_labels', True):
+                    labels = params.get('vertex_labels')
+                    if not labels:
+                        labels = [chr(65+i) for i in range(len(pts))]
+                    for (x0,y0), lab in zip(pts, labels):
+                        ax.text(x0, y0, lab, ha='center', va='center', fontsize=14,  # Увеличен размер шрифта
+                               bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
+                
+                # Длины сторон
+                side_lengths = params.get('side_lengths', None)
+                show_lengths = params.get('show_lengths', False)
+                
+                if side_lengths or show_lengths:
+                    for i in range(len(pts)):
+                        x0, y0 = pts[i]
+                        x1, y1 = pts[(i+1)%len(pts)]
+                        mx, my = (x0+x1)/2, (y0+y1)/2
+                        
+                        # Рассчитываем длину стороны
+                        L = np.hypot(x1-x0, y1-y0)
+                        
+                        # Вектор нормали к стороне для размещения текста (увеличен вынос подписи)
+                        nx, ny = -(y1-y0)/L, (x1-x0)/L
+                        offset = 0.35  # Увеличен отступ для лучшей видимости
+                        
+                        # Выбираем значение для отображения
+                        if side_lengths and i < len(side_lengths) and side_lengths[i] is not None:
+                            # Если указано конкретное значение
+                            ax.text(mx+nx*offset, my+ny*offset, f"{side_lengths[i]}", 
+                                   ha='center', fontsize=12,  # Увеличен размер шрифта
+                                   bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
+                        elif show_lengths:
+                            # Показываем фактическую длину
+                            ax.text(mx+nx*offset, my+ny*offset, f"{L:.2f}", 
+                                   ha='center', fontsize=12,  # Увеличен размер шрифта
+                                   bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
+                
+                # Углы (для любого многоугольника)
+                if params.get('show_angles', False):
+                    angle_values = params.get('angle_values', None)
+                    
+                    for i in range(len(pts)):
+                        # Получаем три последовательные точки для вычисления угла
+                        A, B, C = np.array(pts[(i-1)%len(pts)]), np.array(pts[i]), np.array(pts[(i+1)%len(pts)])
+                        
+                        # Вычисляем векторы от вершины к соседним точкам
+                        v1, v2 = A-B, C-B
+                        
+                        # Вычисляем угол в градусах
+                        if np.linalg.norm(v1) > 0 and np.linalg.norm(v2) > 0:  # Проверка на нулевой вектор
+                            cos_angle = v1.dot(v2)/(np.linalg.norm(v1)*np.linalg.norm(v2))
+                            # Ограничиваем значение в диапазоне [-1, 1] для arccos
+                            cos_angle = max(-1, min(1, cos_angle))
+                            ang = np.degrees(np.arccos(cos_angle))
+                            
+                            # Проверяем внутренний или внешний угол (для выпуклых многоугольников)
+                            # Определяем направление по часовой или против часовой стрелки
+                            if len(pts) > 3:  # Для четырехугольников и более
+                                # Вычисляем векторное произведение для определения выпуклости
+                                cross_product = np.cross(np.append(v1, 0), np.append(v2, 0))[2]
+                                if cross_product < 0:  # Если угол выпуклый (внешний)
+                                    ang = 360 - ang
+                            
+                            # Используем значение угла из параметров, если оно предоставлено
+                            if angle_values and i < len(angle_values) and angle_values[i] is not None:
+                                displayed_angle = angle_values[i]
+                            else:
+                                displayed_angle = round(ang, 1)
+                            
+                            # Размещение текста - усреднение направлений
+                            uv = (v1/np.linalg.norm(v1) + v2/np.linalg.norm(v2))
+                            if np.linalg.norm(uv) > 0:  # Проверка на нулевой вектор
+                                uv = uv/np.linalg.norm(uv) * 0.4  # Увеличено для лучшей видимости
+                                
+                                # Отображение значения угла
+                                ax.text(*(B+uv), f"{displayed_angle}°", ha='center', fontsize=12,
+                                       bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
+                                
+                                # Рисуем дугу угла
+                                theta1 = np.arctan2(v1[1], v1[0]) * 180 / np.pi
+                                theta2 = np.arctan2(v2[1], v2[0]) * 180 / np.pi
+                                
+                                # Обеспечиваем правильное направление дуги
+                                if theta2 < theta1:
+                                    theta2 += 360
+                                
+                                # Регулируем радиус дуги в зависимости от размера фигуры
+                                radius = min(np.linalg.norm(v1), np.linalg.norm(v2)) * 0.2
+                                arc = patches.Arc(B, 2*radius, 2*radius, 
+                                                 theta1=theta1, theta2=theta2, 
+                                                 color='red', linewidth=1.5)
+                                ax.add_patch(arc)
+                
+                # Прямые углы для четырехугольников
+                if figure_type in ['rectangle', 'parallelogram', 'trapezoid'] and params.get('is_right', False):
+                    # Обработка прямых углов в четырехугольниках
+                    for i in range(len(pts)):
+                        A, B, C = np.array(pts[(i-1)%len(pts)]), np.array(pts[i]), np.array(pts[(i+1)%len(pts)])
+                        v1, v2 = A-B, C-B
+                        
+                        if np.linalg.norm(v1) > 0 and np.linalg.norm(v2) > 0:
+                            cos_angle = v1.dot(v2)/(np.linalg.norm(v1)*np.linalg.norm(v2))
+                            cos_angle = max(-1, min(1, cos_angle))
+                            ang = np.degrees(np.arccos(cos_angle))
+                            
+                            if abs(ang - 90) < 5:  # Допуск 5 градусов для прямого угла
+                                # Рисуем символ прямого угла
+                                v1 = v1 / np.linalg.norm(v1) * 0.4  # Увеличен размер символа прямого угла
+                                v2 = v2 / np.linalg.norm(v2) * 0.4
+                                
+                                p1 = np.array(B)
+                                p2 = p1 + v1
+                                p3 = p1 + v1 + v2
+                                p4 = p1 + v2
+                                
+                                ax.plot([p1[0], p2[0], p3[0], p4[0], p1[0]], 
+                                       [p1[1], p2[1], p3[1], p4[1], p1[1]], 'r-', linewidth=1.5)
 
-            # подписи вершин
-            if params.get('show_labels', True):
-                labels = params.get('vertex_labels')
-                if not labels:
-                    labels = [chr(65+i) for i in range(len(pts))]
-                for (x0,y0), lab in zip(pts, labels):
-                    ax.text(x0, y0, lab, ha='center', va='center', fontsize=12,
-                            bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
-
-            # длины сторон
-            if params.get('show_lengths', False):
-                for i in range(len(pts)):
-                    x0,y0 = pts[i]
-                    x1,y1 = pts[(i+1)%len(pts)]
-                    L = np.hypot(x1-x0, y1-y0)
-                    mx,my = (x0+x1)/2, (y0+y1)/2
-                    nx,ny = -(y1-y0)/L, (x1-x0)/L
-                    ax.text(mx+nx*0.2, my+ny*0.2, f"{L:.2f}", ha='center', fontsize=10)
-
-            # углы (только для треугольника)
-            if figure_type=='triangle' and params.get('show_angles', False):
-                for i in range(3):
-                    A,B,C = np.array(pts[(i-1)%3]), np.array(pts[i]), np.array(pts[(i+1)%3])
-                    v1,v2 = A-B, C-B
-                    ang = np.degrees(np.arccos(v1.dot(v2)/(np.linalg.norm(v1)*np.linalg.norm(v2))))
-                    uv = (v1/np.linalg.norm(v1)+v2/np.linalg.norm(v2))
-                    uv = uv/np.linalg.norm(uv)*0.3
-                    ax.text(*(B+uv), f"{ang:.1f}°", ha='center', fontsize=10)
-
-        # 2) Окружность
-        if figure_type == 'circle':
-            cx, cy = params.get('center',(0,0))
-            r      = params.get('radius',3)
-            circ   = plt.Circle((cx,cy), r, fill=False, edgecolor='blue', linewidth=2)
-            ax.add_patch(circ)
-            xs, ys = [cx-r, cx+r], [cy-r, cy+r]
-            if params.get('show_center', True):
-                ax.text(cx, cy, params.get('center_label','O'),
-                        ha='center', va='center', fontsize=12,
-                        bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
-            if params.get('show_radius', False):
-                ax.plot([cx, cx+r], [cy, cy], 'r-', lw=1)
-                ax.text(cx+r/2, cy+0.2, f"r={r}", ha='center', fontsize=10)
-            if params.get('show_diameter', False):
-                ax.plot([cx-r, cx+r], [cy, cy], 'g-', lw=1)
-                ax.text(cx, cy-0.2, f"d={2*r}", ha='center', fontsize=10)
-
-        # 3) Авто-лимиты
+        # Авто-лимиты для осей
         if 'xs' in locals() and 'ys' in locals():
-            m = 1
+            m = 1.5  # Увеличен отступ от краев
             ax.set_xlim(min(xs)-m, max(xs)+m)
             ax.set_ylim(min(ys)-m, max(ys)+m)
 
-        # 4) Сохранение
-        out = 'static/images/generated'
-        os.makedirs(out, exist_ok=True)
-        if not filename:
-            filename = f"{figure_type}_{uuid.uuid4().hex[:8]}.png"
-        path = os.path.join(out, filename)
-        plt.savefig(path, dpi=100, bbox_inches='tight')
+        # Сохранение изображения
+        if filename and os.path.dirname(filename):
+            # Если filename содержит путь, используем его напрямую
+            os.makedirs(os.path.dirname(filename), exist_ok=True)
+            path = filename
+        else:
+            # Иначе сохраняем в стандартную директорию
+            out = 'static/images/generated'
+            os.makedirs(out, exist_ok=True)
+            if not filename:
+                filename = f"{figure_type}_{uuid.uuid4().hex[:8]}.png"
+            path = os.path.join(out, filename)
+            
+        plt.savefig(path, dpi=300, bbox_inches='tight')  # Увеличено разрешение (DPI)
         plt.close(fig)
         return path
 
     except Exception as e:
         logging.error(f"Ошибка при генерации фигуры: {e}")
+        traceback.print_exc()  # Печатаем стек трейс для отладки
         return None
 
 
@@ -697,70 +815,95 @@ def get_image_base64(image_path):
         logging.error(f"Ошибка при конвертации изображения в base64: {e}")
         return None
 
-def process_visualization_params(visualization_params_text):
+def process_visualization_params(params_text):
     """
-    Обрабатывает параметры визуализации и генерирует соответствующее изображение.
-    
-    Args:
-        visualization_params_text: Текст с параметрами визуализации
-        
-    Returns:
-        tuple: (путь к изображению, base64 представление изображения)
+    Обрабатывает параметры визуализации из текста и генерирует изображение.
+    Возвращает путь к сгенерированному изображению.
     """
-    image_path = None
-    image_base64 = None
-    
-    # Функция для извлечения параметра по шаблону
-    def extract_param(pattern, text, default=None):
-        match = re.search(pattern, text, re.IGNORECASE)
-        return match.group(1).strip() if match else default
-    
     try:
+        # Функция извлечения параметров с помощью regex
+        def extract_param(pattern, text, default=None):
+            match = re.search(pattern, text)
+            if match:
+                return match.group(1).strip()
+            return default
+        
         # Определяем тип изображения
-        image_type_match = re.search(r'Тип изображения[^:]*:\s*["\']?([^"\'\n]+)["\']?', visualization_params_text, re.IGNORECASE)
-
-        print(f"image_type_match: {image_type_match}")
-        if image_type_match:
-            image_type = image_type_match.group(1).strip().lower()
+        image_type = extract_param(REGEX_PATTERNS["generic"]["type"], params_text)
+        
+        if not image_type:
+            logging.error("Тип изображения не найден в параметрах визуализации")
+            return None, None
+        
+        # Приводим тип к стандартному виду
+        image_type = image_type.lower().strip()
+        
+        # Маппинг типов визуализации
+        type_mapping = {
+            "треугольник": "triangle",
+            "прямоугольник": "rectangle",
+            "квадрат": "rectangle", 
+            "параллелограмм": "parallelogram",
+            "трапеция": "trapezoid",
+            "окружность": "circle",
+            "круг": "circle",
+            "график": "graph",
+            "координатная_плоскость": "coordinate"
+        }
+        
+        # Преобразуем русский тип в английский для внутреннего использования
+        eng_type = type_mapping.get(image_type, image_type)
+        
+        # Обрабатываем параметры в зависимости от типа
+        if eng_type == "triangle":
+            image_path = process_triangle_visualization(params_text, extract_param)
+        elif eng_type == "rectangle":
+            image_path = process_rectangle_visualization(params_text, extract_param)
+        elif eng_type == "parallelogram":
+            image_path = process_parallelogram_visualization(params_text, extract_param)
+        elif eng_type == "trapezoid":
+            image_path = process_trapezoid_visualization(params_text, extract_param)
+        elif eng_type == "circle":
+            image_path = process_circle_visualization(params_text, extract_param)
+        elif eng_type == "graph":
+            func_str = extract_param(REGEX_PATTERNS["graph"]["function"], params_text)
+            x_range_str = extract_param(REGEX_PATTERNS["graph"]["x_range"], params_text)
+            y_range_str = extract_param(REGEX_PATTERNS["graph"]["y_range"], params_text)
             
-            # Параметры в зависимости от типа изображения
-            if image_type == "график":
-                image_path = process_graph_visualization(visualization_params_text, extract_param)
+            # Парсим диапазоны для осей
+            try:
+                x_min, x_max = map(float, x_range_str.split(','))
+            except:
+                x_min, x_max = -10, 10
                 
-            elif image_type in ["треугольник", "triangle"]:
-                image_path = process_triangle_visualization(visualization_params_text, extract_param)
-                
-            elif image_type in ["четырехугольник", "прямоугольник", "rectangle"]:
-                # Определяем конкретный тип четырехугольника
-                shape_type = extract_param(r'Тип[^:]*:\s*["\']?([^"\'\n]+)["\']?', visualization_params_text, "прямоугольник").lower()
-                
-                if shape_type in ["трапеция", "trapezoid"]:
-                    image_path = process_trapezoid_visualization(visualization_params_text, extract_param)
-                elif shape_type in ["параллелограмм", "parallelogram"]:
-                    image_path = process_parallelogram_visualization(visualization_params_text, extract_param)
-                else:  # По умолчанию - прямоугольник
-                    image_path = process_rectangle_visualization(visualization_params_text, extract_param)
+            if y_range_str and y_range_str.lower() != "авто":
+                try:
+                    y_min, y_max = map(float, y_range_str.split(','))
+                except:
+                    y_min, y_max = None, None
+            else:
+                y_min, y_max = None, None
             
-            elif image_type in ["трапеция", "trapezoid"]:
-                image_path = process_trapezoid_visualization(visualization_params_text, extract_param)
-                
-            elif image_type in ["параллелограмм", "parallelogram"]:
-                image_path = process_parallelogram_visualization(visualization_params_text, extract_param)
-                
-            elif image_type in ["окружность", "круг", "circle"]:
-                image_path = process_circle_visualization(visualization_params_text, extract_param)
-                
-            elif image_type in ["координатная_плоскость", "coordinate"]:
-                image_path = process_coordinate_visualization(visualization_params_text, extract_param)
-    
-        # Если изображение было сгенерировано, конвертируем его в base64
+            image_path = process_function_plot(func_str, x_min, x_max, y_min, y_max)
+        elif eng_type == "coordinate":
+            image_path = process_coordinate_visualization(params_text, extract_param)
+        else:
+            logging.error(f"Неизвестный тип изображения: {image_type}")
+            return None, None
+        
+        # Если изображение создано успешно, конвертируем его в base64
         if image_path:
-            image_base64 = get_image_base64(image_path)
-    
+            with open(image_path, "rb") as img_file:
+                img_data = img_file.read()
+                img_base64 = base64.b64encode(img_data).decode('utf-8')
+                return image_path, img_base64
+        
+        return None, None
+        
     except Exception as e:
         logging.error(f"Ошибка при обработке параметров визуализации: {e}")
-    
-    return image_path, image_base64
+        traceback.print_exc()
+        return None, None
 
 def process_graph_visualization(params_text, extract_param):
     """Обрабатывает параметры для графика функции"""
@@ -791,442 +934,407 @@ def process_graph_visualization(params_text, extract_param):
 def process_triangle_visualization(params_text, extract_param):
     """Обрабатывает параметры для треугольника"""
     # Извлекаем параметры для треугольника
-    coords_str = extract_param(r'Координаты вершин[^:]*:\s*["\']?([^"\'\n]+)["\']?', params_text)
-    show_angles = extract_param(r'Показать углы[^:]*:\s*["\']?([^"\'\n]+)["\']?', params_text, "нет").lower() in ["да", "yes", "true"]
-    show_lengths = extract_param(r'Показать длины[^:]*:\s*["\']?([^"\'\n]+)["\']?', params_text, "нет").lower() in ["да", "yes", "true"]
-    vertex_labels_str = extract_param(r'Подписи вершин[^:]*:\s*["\']?([^"\'\n]+)["\']?', params_text, "A,B,C")
+    coords_str = extract_param(REGEX_PATTERNS["triangle"]["coords"], params_text)
+    show_angles = extract_param(REGEX_PATTERNS["triangle"]["angles"], params_text, "нет").lower() in ["да", "yes", "true"]
+    show_lengths = extract_param(REGEX_PATTERNS["triangle"]["lengths"], params_text, "нет").lower() in ["да", "yes", "true"]
+    vertex_labels_str = extract_param(REGEX_PATTERNS["triangle"]["vertex_labels"], params_text)
+    is_right = extract_param(REGEX_PATTERNS["triangle"]["is_right"], params_text, "нет").lower() in ["да", "yes", "true"]
+    side_lengths_str = extract_param(REGEX_PATTERNS["triangle"]["side_lengths"], params_text)
     
-    # Парсим метки вершин
-    vertex_labels = [lbl.strip() for lbl in vertex_labels_str.split(',') if lbl.strip()]
-    if len(vertex_labels) < 3:
-        vertex_labels = ['A', 'B', 'C']
+    # Параметры для отображения треугольника
+    params = DEFAULT_VISUALIZATION_PARAMS["triangle"].copy()
     
-    # Парсим координаты вершин
-    points = []
+    # Парсинг координат
     if coords_str:
-        coords_pattern = r'\((-?\d+(?:\.\d+)?),\s*(-?\d+(?:\.\d+)?)\)'
-        coords_matches = re.findall(coords_pattern, coords_str)
-        points = [(float(x), float(y)) for x, y in coords_matches]
+        try:
+            coords = coords_str.strip()
+            # Преобразуем строку с координатами в список кортежей
+            points = []
+            
+            # Разбираем строку типа "(x1,y1),(x2,y2),(x3,y3)"
+            for match in re.finditer(r'\(([^)]+)\)', coords):
+                coord_str = match.group(1)
+                x, y = map(float, coord_str.split(','))
+                points.append((x, y))
+            
+            if len(points) == 3:
+                params['points'] = points
+        except Exception as e:
+            logging.warning(f"Ошибка при разборе координат треугольника: {e}")
     
-    # Если не удалось извлечь координаты, используем значения по умолчанию
-    if len(points) < 3:
-        points = [(1, 1), (8, 2), (4, 8)]
-        
-    # Создаем параметры для треугольника
-    triangle_params = {
-        'points': points,
-        'show_angles': show_angles,
-        'show_lengths': show_lengths,
-        'show_labels': True,  # Показывать подписи вершин
-        'vertex_labels': vertex_labels
-    }
+    # Парсинг меток вершин
+    if vertex_labels_str:
+        try:
+            labels = [label.strip() for label in vertex_labels_str.split(',')]
+            if len(labels) >= 3:
+                params['vertex_labels'] = labels[:3]
+            params['show_labels'] = True
+        except Exception as e:
+            logging.warning(f"Ошибка при разборе меток вершин треугольника: {e}")
     
-    # Генерируем изображение треугольника
-    return generate_geometric_figure("triangle", triangle_params)
+    # Парсинг длин сторон
+    if side_lengths_str:
+        try:
+            side_lengths = []
+            for length_str in side_lengths_str.split(','):
+                length_str = length_str.strip()
+                if length_str.lower() in ["нет", "no", "none", "-"]:
+                    side_lengths.append(None)
+                else:
+                    side_lengths.append(float(length_str))
+            params['side_lengths'] = side_lengths
+        except Exception as e:
+            logging.warning(f"Ошибка при разборе длин сторон треугольника: {e}")
+    
+    # Добавляем другие параметры
+    params['show_angles'] = show_angles
+    params['is_right'] = is_right
+    
+    # Генерируем треугольник
+    output_image = generate_geometric_figure('triangle', params, f'triangle_{uuid.uuid4().hex[:8]}.png')
+    return output_image
 
 def process_rectangle_visualization(params_text, extract_param):
     """Обрабатывает параметры для прямоугольника"""
-    # Извлекаем параметры
-    dimensions_str = extract_param(r'Размеры[^:]*:\s*["\']?([^"\'\n]+)["\']?', params_text, "6,4")
-    coords_str = extract_param(r'Координаты[^:]*:\s*["\']?([^"\'\n]+)["\']?', params_text, "(2,2)")
-    vertex_labels_str = extract_param(r'Подписи вершин[^:]*:\s*["\']?([^"\'\n]+)["\']?', params_text, "A,B,C,D")
-    show_dimensions_str = extract_param(r'Показать размеры[^:]*:\s*["\']?([^"\'\n]+)["\']?', params_text, "нет").lower()
-    show_dimensions = show_dimensions_str in ["да", "yes", "true"]
-    show_labels_str = extract_param(r'Показать метки[^:]*:\s*["\']?([^"\'\n]+)["\']?', params_text, "да").lower()
-    show_labels = show_labels_str in ["да", "yes", "true"]
+    # Извлекаем параметры для прямоугольника
+    dimensions_str = extract_param(REGEX_PATTERNS["rectangle"]["dimensions"], params_text)
+    coords_str = extract_param(REGEX_PATTERNS["rectangle"]["coords"], params_text)
+    vertex_labels_str = extract_param(REGEX_PATTERNS["rectangle"]["vertex_labels"], params_text)
+    show_dimensions = extract_param(REGEX_PATTERNS["rectangle"]["show_dimensions"], params_text, "нет").lower() in ["да", "yes", "true"]
+    show_labels = extract_param(REGEX_PATTERNS["rectangle"]["show_labels"], params_text, "нет").lower() in ["да", "yes", "true"]
+    side_lengths_str = extract_param(REGEX_PATTERNS["rectangle"]["side_lengths"], params_text)
+    show_angles = extract_param(REGEX_PATTERNS["rectangle"]["show_angles"], params_text, "нет").lower() in ["да", "yes", "true"]
+    angle_values_str = extract_param(REGEX_PATTERNS["rectangle"]["angle_values"], params_text)
     
-    # Парсим метки вершин
-    vertex_labels = [lbl.strip() for lbl in vertex_labels_str.split(',') if lbl.strip()]
-    if len(vertex_labels) < 4:
-        vertex_labels = ['A', 'B', 'C', 'D']
+    # Параметры для отображения прямоугольника
+    params = DEFAULT_VISUALIZATION_PARAMS["rectangle"].copy()
     
-    # Парсим координаты
-    try:
-        coord_match = re.search(r'\((-?\d+(?:\.\d+)?),\s*(-?\d+(?:\.\d+)?)\)', coords_str)
-        if coord_match:
-            x, y = float(coord_match.group(1)), float(coord_match.group(2))
-        else:
-            x, y = 2, 2
-    except:
-        x, y = 2, 2
-        
-    # Парсим размеры
-    try:
-        if ',' in dimensions_str:
-            width, height = map(float, dimensions_str.split(','))
-        else:
-            width = height = float(dimensions_str)
-    except:
-        width, height = 6, 4
-
-    # Параметры для прямоугольника
-    rect_params = {
-        'x': x,
-        'y': y,
-        'width': width,
-        'height': height,
-        'show_dimensions': show_dimensions,
-        'show_labels': show_labels,
-        'vertex_labels': vertex_labels
-    }
+    # Парсинг размеров
+    if dimensions_str:
+        try:
+            dimensions = dimensions_str.strip()
+            width, height = map(float, dimensions.split(','))
+            params['width'] = width
+            params['height'] = height
+        except Exception as e:
+            logging.warning(f"Ошибка при разборе размеров прямоугольника: {e}")
     
-    # Генерируем изображение прямоугольника
-    return generate_geometric_figure("rectangle", rect_params)
+    # Парсинг координат
+    if coords_str:
+        try:
+            coords = coords_str.strip()
+            match = re.search(r'\(([^,]+),([^)]+)\)', coords)
+            if match:
+                x, y = float(match.group(1)), float(match.group(2))
+                params['x'] = x
+                params['y'] = y
+        except Exception as e:
+            logging.warning(f"Ошибка при разборе координат прямоугольника: {e}")
+    
+    # Парсинг меток вершин
+    if vertex_labels_str:
+        try:
+            labels = [label.strip() for label in vertex_labels_str.split(',')]
+            if len(labels) >= 4:
+                params['vertex_labels'] = labels[:4]
+            params['show_labels'] = True
+        except Exception as e:
+            logging.warning(f"Ошибка при разборе меток вершин прямоугольника: {e}")
+    
+    # Парсинг длин сторон
+    if side_lengths_str:
+        try:
+            side_lengths = []
+            for length_str in side_lengths_str.split(','):
+                length_str = length_str.strip()
+                if length_str.lower() in ["нет", "no", "none", "-"]:
+                    side_lengths.append(None)
+                else:
+                    side_lengths.append(float(length_str))
+            params['side_lengths'] = side_lengths
+        except Exception as e:
+            logging.warning(f"Ошибка при разборе длин сторон прямоугольника: {e}")
+    
+    # Парсинг значений углов
+    if angle_values_str:
+        try:
+            angle_values = []
+            for angle_str in angle_values_str.split(','):
+                angle_str = angle_str.strip()
+                if angle_str.lower() in ["нет", "no", "none", "-"]:
+                    angle_values.append(None)
+                else:
+                    angle_values.append(float(angle_str))
+            params['angle_values'] = angle_values
+        except Exception as e:
+            logging.warning(f"Ошибка при разборе значений углов прямоугольника: {e}")
+    
+    # Добавляем другие параметры
+    params['show_labels'] = show_labels
+    params['show_lengths'] = show_dimensions
+    params['show_angles'] = show_angles
+    
+    # Генерируем прямоугольник
+    output_image = generate_geometric_figure('rectangle', params, f'rectangle_{uuid.uuid4().hex[:8]}.png')
+    return output_image
 
 def process_parallelogram_visualization(params_text, extract_param):
     """Обрабатывает параметры для параллелограмма"""
-    # Извлекаем параметры
-    dimensions_str = extract_param(r'Размеры[^:]*:\s*["\']?([^"\'\n]+)["\']?', params_text, "6,4")
-    coords_str = extract_param(r'Координаты[^:]*:\s*["\']?([^"\'\n]+)["\']?', params_text, "(2,2)")
-    vertex_labels_str = extract_param(r'Подписи вершин[^:]*:\s*["\']?([^"\'\n]+)["\']?', params_text, "A,B,C,D")
-    show_dimensions_str = extract_param(r'Показать размеры[^:]*:\s*["\']?([^"\'\n]+)["\']?', params_text, "нет").lower()
-    show_dimensions = show_dimensions_str in ["да", "yes", "true"]
-    show_labels_str = extract_param(r'Показать метки[^:]*:\s*["\']?([^"\'\n]+)["\']?', params_text, "да").lower()
-    show_labels = show_labels_str in ["да", "yes", "true"]
-    skew_str = extract_param(r'Наклон[^:]*:\s*["\']?([^"\'\n]+)["\']?', params_text, "30")
+    # Извлекаем параметры для параллелограмма
+    dimensions_str = extract_param(REGEX_PATTERNS["parallelogram"]["dimensions"], params_text)
+    coords_str = extract_param(REGEX_PATTERNS["parallelogram"]["coords"], params_text)
+    vertex_labels_str = extract_param(REGEX_PATTERNS["parallelogram"]["vertex_labels"], params_text)
+    show_dimensions = extract_param(REGEX_PATTERNS["parallelogram"]["show_dimensions"], params_text, "нет").lower() in ["да", "yes", "true"]
+    show_labels = extract_param(REGEX_PATTERNS["parallelogram"]["show_labels"], params_text, "нет").lower() in ["да", "yes", "true"]
+    skew_str = extract_param(REGEX_PATTERNS["parallelogram"]["skew"], params_text)
+    side_lengths_str = extract_param(REGEX_PATTERNS["parallelogram"]["side_lengths"], params_text)
+    show_angles = extract_param(REGEX_PATTERNS["parallelogram"]["show_angles"], params_text, "нет").lower() in ["да", "yes", "true"]
+    angle_values_str = extract_param(REGEX_PATTERNS["parallelogram"]["angle_values"], params_text)
     
-    # Парсим метки вершин
-    vertex_labels = [lbl.strip() for lbl in vertex_labels_str.split(',') if lbl.strip()]
-    if len(vertex_labels) < 4:
-        vertex_labels = ['A', 'B', 'C', 'D']
+    # Параметры для отображения параллелограмма
+    params = DEFAULT_VISUALIZATION_PARAMS["parallelogram"].copy()
     
-    # Парсим координаты
-    try:
-        coord_match = re.search(r'\((-?\d+(?:\.\d+)?),\s*(-?\d+(?:\.\d+)?)\)', coords_str)
-        if coord_match:
-            x, y = float(coord_match.group(1)), float(coord_match.group(2))
-        else:
-            x, y = 2, 2
-    except:
-        x, y = 2, 2
-        
-    # Парсим размеры
-    try:
-        if ',' in dimensions_str:
-            width, height = map(float, dimensions_str.split(','))
-        else:
-            width = height = float(dimensions_str)
-    except:
-        width, height = 6, 4
+    # Парсинг размеров
+    if dimensions_str:
+        try:
+            dimensions = dimensions_str.strip()
+            width, height = map(float, dimensions.split(','))
+            params['width'] = width
+            params['height'] = height
+        except Exception as e:
+            logging.warning(f"Ошибка при разборе размеров параллелограмма: {e}")
     
-    # Парсим наклон
-    try:
-        skew = float(skew_str)
-    except:
-        skew = 30
-        
-    # Параметры для параллелограмма
-    parallelogram_params = {
-        'x': x,
-        'y': y,
-        'width': width,
-        'height': height,
-        'skew': skew,
-        'show_dimensions': show_dimensions,
-        'show_labels': show_labels,
-        'vertex_labels': vertex_labels
-    }
+    # Парсинг координат
+    if coords_str:
+        try:
+            coords = coords_str.strip()
+            match = re.search(r'\(([^,]+),([^)]+)\)', coords)
+            if match:
+                x, y = float(match.group(1)), float(match.group(2))
+                params['x'] = x
+                params['y'] = y
+        except Exception as e:
+            logging.warning(f"Ошибка при разборе координат параллелограмма: {e}")
     
-    # Генерируем изображение параллелограмма
-    return generate_geometric_figure("parallelogram", parallelogram_params)
+    # Парсинг угла наклона
+    if skew_str:
+        try:
+            skew = float(skew_str.strip())
+            params['skew'] = skew
+        except Exception as e:
+            logging.warning(f"Ошибка при разборе угла наклона параллелограмма: {e}")
+    
+    # Парсинг меток вершин
+    if vertex_labels_str:
+        try:
+            labels = [label.strip() for label in vertex_labels_str.split(',')]
+            if len(labels) >= 4:
+                params['vertex_labels'] = labels[:4]
+            params['show_labels'] = True
+        except Exception as e:
+            logging.warning(f"Ошибка при разборе меток вершин параллелограмма: {e}")
+    
+    # Парсинг длин сторон
+    if side_lengths_str:
+        try:
+            side_lengths = []
+            for length_str in side_lengths_str.split(','):
+                length_str = length_str.strip()
+                if length_str.lower() in ["нет", "no", "none", "-"]:
+                    side_lengths.append(None)
+                else:
+                    side_lengths.append(float(length_str))
+            params['side_lengths'] = side_lengths
+        except Exception as e:
+            logging.warning(f"Ошибка при разборе длин сторон параллелограмма: {e}")
+    
+    # Парсинг значений углов
+    if angle_values_str:
+        try:
+            angle_values = []
+            for angle_str in angle_values_str.split(','):
+                angle_str = angle_str.strip()
+                if angle_str.lower() in ["нет", "no", "none", "-"]:
+                    angle_values.append(None)
+                else:
+                    angle_values.append(float(angle_str))
+            params['angle_values'] = angle_values
+        except Exception as e:
+            logging.warning(f"Ошибка при разборе значений углов параллелограмма: {e}")
+    
+    # Добавляем другие параметры
+    params['show_labels'] = show_labels
+    params['show_lengths'] = show_dimensions
+    params['show_angles'] = show_angles
+    
+    # Генерируем параллелограмм
+    output_image = generate_geometric_figure('parallelogram', params, f'parallelogram_{uuid.uuid4().hex[:8]}.png')
+    return output_image
 
 def process_trapezoid_visualization(params_text, extract_param):
     """Обрабатывает параметры для трапеции"""
-    # Извлекаем параметры
-    dimensions_str = extract_param(r'Размеры[^:]*:\s*["\']?([^"\'\n]+)["\']?', params_text, "6,4")
-    coords_str = extract_param(r'Координаты[^:]*:\s*["\']?([^"\'\n]+)["\']?', params_text, "(2,2)")
-    vertex_labels_str = extract_param(r'Подписи вершин[^:]*:\s*["\']?([^"\'\n]+)["\']?', params_text, "A,B,C,D")
-    show_dimensions_str = extract_param(r'Показать размеры[^:]*:\s*["\']?([^"\'\n]+)["\']?', params_text, "нет").lower()
-    show_dimensions = show_dimensions_str in ["да", "yes", "true"]
-    show_labels_str = extract_param(r'Показать метки[^:]*:\s*["\']?([^"\'\n]+)["\']?', params_text, "да").lower()
-    show_labels = show_labels_str in ["да", "yes", "true"]
-    top_width_str = extract_param(r'Верхняя база[^:]*:\s*["\']?([^"\'\n]+)["\']?', params_text, "3")
+    # Извлекаем параметры для трапеции
+    dimensions_str = extract_param(REGEX_PATTERNS["trapezoid"]["dimensions"], params_text)
+    coords_str = extract_param(REGEX_PATTERNS["trapezoid"]["coords"], params_text)
+    vertex_labels_str = extract_param(REGEX_PATTERNS["trapezoid"]["vertex_labels"], params_text)
+    show_dimensions = extract_param(REGEX_PATTERNS["trapezoid"]["show_dimensions"], params_text, "нет").lower() in ["да", "yes", "true"]
+    show_labels = extract_param(REGEX_PATTERNS["trapezoid"]["show_labels"], params_text, "нет").lower() in ["да", "yes", "true"]
+    top_width_str = extract_param(REGEX_PATTERNS["trapezoid"]["top_width"], params_text)
+    side_lengths_str = extract_param(REGEX_PATTERNS["trapezoid"]["side_lengths"], params_text)
+    show_angles = extract_param(REGEX_PATTERNS["trapezoid"]["show_angles"], params_text, "нет").lower() in ["да", "yes", "true"]
+    angle_values_str = extract_param(REGEX_PATTERNS["trapezoid"]["angle_values"], params_text)
     
-    # Парсим метки вершин
-    vertex_labels = [lbl.strip() for lbl in vertex_labels_str.split(',') if lbl.strip()]
-    if len(vertex_labels) < 4:
-        vertex_labels = ['A', 'B', 'C', 'D']
+    # Параметры для отображения трапеции
+    params = DEFAULT_VISUALIZATION_PARAMS["trapezoid"].copy()
     
-    # Парсим координаты
-    try:
-        coord_match = re.search(r'\((-?\d+(?:\.\d+)?),\s*(-?\d+(?:\.\d+)?)\)', coords_str)
-        if coord_match:
-            x, y = float(coord_match.group(1)), float(coord_match.group(2))
-        else:
-            x, y = 2, 2
-    except:
-        x, y = 2, 2
-        
-    # Парсим размеры
-    try:
-        if ',' in dimensions_str:
-            width, height = map(float, dimensions_str.split(','))
-        else:
-            width = height = float(dimensions_str)
-    except:
-        width, height = 6, 4
+    # Парсинг размеров
+    if dimensions_str:
+        try:
+            dimensions = dimensions_str.strip()
+            bottom_width, height = map(float, dimensions.split(','))
+            params['bottom_width'] = bottom_width
+            params['height'] = height
+        except Exception as e:
+            logging.warning(f"Ошибка при разборе размеров трапеции: {e}")
     
-    # Парсим верхнюю базу
-    try:
-        top_width = float(top_width_str)
-    except:
-        top_width = width / 2
-        
-    # Параметры для трапеции
-    trapezoid_params = {
-        'x': x,
-        'y': y,
-        'bottom_width': width,
-        'top_width': top_width,
-        'height': height,
-        'show_dimensions': show_dimensions,
-        'show_labels': show_labels,
-        'vertex_labels': vertex_labels
-    }
+    # Парсинг верхнего основания
+    if top_width_str:
+        try:
+            top_width = float(top_width_str.strip())
+            params['top_width'] = top_width
+        except Exception as e:
+            logging.warning(f"Ошибка при разборе верхнего основания трапеции: {e}")
     
-    # Генерируем изображение трапеции
-    return generate_geometric_figure("trapezoid", trapezoid_params)
+    # Парсинг координат
+    if coords_str:
+        try:
+            coords = coords_str.strip()
+            match = re.search(r'\(([^,]+),([^)]+)\)', coords)
+            if match:
+                x, y = float(match.group(1)), float(match.group(2))
+                params['x'] = x
+                params['y'] = y
+        except Exception as e:
+            logging.warning(f"Ошибка при разборе координат трапеции: {e}")
+    
+    # Парсинг меток вершин
+    if vertex_labels_str:
+        try:
+            labels = [label.strip() for label in vertex_labels_str.split(',')]
+            if len(labels) >= 4:
+                params['vertex_labels'] = labels[:4]
+            params['show_labels'] = True
+        except Exception as e:
+            logging.warning(f"Ошибка при разборе меток вершин трапеции: {e}")
+    
+    # Парсинг длин сторон
+    if side_lengths_str:
+        try:
+            side_lengths = []
+            for length_str in side_lengths_str.split(','):
+                length_str = length_str.strip()
+                if length_str.lower() in ["нет", "no", "none", "-"]:
+                    side_lengths.append(None)
+                else:
+                    side_lengths.append(float(length_str))
+            params['side_lengths'] = side_lengths
+        except Exception as e:
+            logging.warning(f"Ошибка при разборе длин сторон трапеции: {e}")
+    
+    # Парсинг значений углов
+    if angle_values_str:
+        try:
+            angle_values = []
+            for angle_str in angle_values_str.split(','):
+                angle_str = angle_str.strip()
+                if angle_str.lower() in ["нет", "no", "none", "-"]:
+                    angle_values.append(None)
+                else:
+                    angle_values.append(float(angle_str))
+            params['angle_values'] = angle_values
+        except Exception as e:
+            logging.warning(f"Ошибка при разборе значений углов трапеции: {e}")
+    
+    # Добавляем другие параметры
+    params['show_labels'] = show_labels
+    params['show_lengths'] = show_dimensions
+    params['show_angles'] = show_angles
+    
+    # Генерируем трапецию
+    output_image = generate_geometric_figure('trapezoid', params, f'trapezoid_{uuid.uuid4().hex[:8]}.png')
+    return output_image
 
 def process_circle_visualization(params_text, extract_param):
     """Обрабатывает параметры для окружности"""
     # Извлекаем параметры для окружности
-    center_str = extract_param(r'Центр[^:]*:\s*["\']?([^"\'\n]+)["\']?', params_text, "(0,0)")
-    radius_str = extract_param(r'Радиус[^:]*:\s*["\']?([^"\'\n]+)["\']?', params_text, "3")
-    show_diameter = extract_param(r'Показать диаметр[^:]*:\s*["\']?([^"\'\n]+)["\']?', params_text, "нет").lower() in ["да", "yes", "true"]
-    center_label = extract_param(r'Метка центра[^:]*:\s*["\']?([^"\'\n]+)["\']?', params_text, "O")
-    show_center = center_label.lower() != "нет"
-    show_radius = extract_param(r'Показать радиус[^:]*:\s*["\']?([^"\'\n]+)["\']?', params_text, "нет").lower() in ["да", "yes", "true"]
+    center_str = extract_param(REGEX_PATTERNS["circle"]["center"], params_text)
+    radius_str = extract_param(REGEX_PATTERNS["circle"]["radius"], params_text)
+    center_label = extract_param(REGEX_PATTERNS["circle"]["center_label"], params_text, "O")
+    show_radius = extract_param(REGEX_PATTERNS["circle"]["show_radius"], params_text, "нет").lower() in ["да", "yes", "true"]
+    show_diameter = extract_param(REGEX_PATTERNS["circle"]["show_diameter"], params_text, "нет").lower() in ["да", "yes", "true"]
+    show_chord = extract_param(REGEX_PATTERNS["circle"]["show_chord"], params_text, "нет").lower() in ["да", "yes", "true"]
+    radius_value_str = extract_param(REGEX_PATTERNS["circle"]["radius_value"], params_text)
+    diameter_value_str = extract_param(REGEX_PATTERNS["circle"]["diameter_value"], params_text)
+    chord_value_str = extract_param(REGEX_PATTERNS["circle"]["chord_value"], params_text)
     
-    # Парсим центр
-    try:
-        center_match = re.search(r'\((-?\d+(?:\.\d+)?),\s*(-?\d+(?:\.\d+)?)\)', center_str)
-        if center_match:
-            cx, cy = float(center_match.group(1)), float(center_match.group(2))
-        else:
-            cx, cy = 0, 0
-    except:
-        cx, cy = 0, 0
-        
-    # Парсим радиус
-    try:
-        radius = float(radius_str)
-    except:
-        radius = 3
-        
-    # Создаем параметры для окружности
-    circle_params = {
-        'center': (cx, cy),
-        'radius': radius,
-        'show_radius': show_radius,
-        'show_diameter': show_diameter,
-        'show_center': show_center,
-        'center_label': center_label
-    }
+    # Параметры для отображения окружности
+    params = DEFAULT_VISUALIZATION_PARAMS["circle"].copy()
     
-    # Генерируем изображение окружности
-    return generate_geometric_figure("circle", circle_params)
-
-def process_coordinate_visualization(params_text, extract_param):
-    """Обрабатывает параметры для координатной плоскости"""
-    # Извлекаем параметры для координатной плоскости
-    points_str = extract_param(r'Точки[^:]*:\s*["\']?([^"\'\n]+)["\']?', params_text, "")
-    vectors_str = extract_param(r'Векторы[^:]*:\s*["\']?([^"\'\n]+)["\']?', params_text, "")
-    functions_str = extract_param(r'Функции[^:]*:\s*["\']?([^"\'\n]+)["\']?', params_text, "")
-    
-    # Парсим точки
-    points = []
-    if points_str:
-        point_pattern = r'([A-Z])\s*\(\s*(-?\d+(?:\.\d+)?)\s*,\s*(-?\d+(?:\.\d+)?)\s*\)'
-        point_matches = re.findall(point_pattern, points_str)
-        points = [(float(x), float(y), label) for label, x, y in point_matches]
-        
-        # Если точки заданы без меток, парсим просто координаты
-        if not points:
-            coords_pattern = r'\(\s*(-?\d+(?:\.\d+)?)\s*,\s*(-?\d+(?:\.\d+)?)\s*\)'
-            coords_matches = re.findall(coords_pattern, points_str)
-            # Не добавляем метки, только координаты
-            points = [(float(x), float(y)) for x, y in coords_matches]
-        
-    # Парсим векторы
-    vectors = []
-    if vectors_str:
-        # Проверяем формат векторов
-        if re.search(r'[A-Z]{2}', vectors_str):  # Формат AB, BC, ...
-            vector_labels = re.findall(r'([A-Z]{2})', vectors_str)
-            # Находим точки для каждого вектора
-            for label in vector_labels:
-                start_label, end_label = label[0], label[1]
-                start_point = next((p for p in points if len(p) > 2 and p[2] == start_label), None)
-                end_point = next((p for p in points if len(p) > 2 and p[2] == end_label), None)
-                if start_point and end_point:
-                    vectors.append((start_point[0], start_point[1], end_point[0], end_point[1], label))
-        else:  # Предполагаем числовой формат
-            # Ищем обозначения векторов в формате "(x1,y1,x2,y2[,label])"
-            vector_pattern_with_label = r'\(\s*(-?\d+(?:\.\d+)?)\s*,\s*(-?\d+(?:\.\d+)?)\s*,\s*(-?\d+(?:\.\d+)?)\s*,\s*(-?\d+(?:\.\d+)?)\s*,\s*([A-Za-z0-9]+)\s*\)'
-            vector_matches_with_label = re.findall(vector_pattern_with_label, vectors_str)
-            if vector_matches_with_label:
-                vectors = [(float(x1), float(y1), float(x2), float(y2), label) for x1, y1, x2, y2, label in vector_matches_with_label]
-            else:
-                # Ищем векторы без меток
-                vector_pattern = r'\(\s*(-?\d+(?:\.\d+)?)\s*,\s*(-?\d+(?:\.\d+)?)\s*,\s*(-?\d+(?:\.\d+)?)\s*,\s*(-?\d+(?:\.\d+)?)\s*\)'
-                vector_matches = re.findall(vector_pattern, vectors_str)
-                # Не добавляем метки к векторам
-                vectors = [(float(x1), float(y1), float(x2), float(y2)) for x1, y1, x2, y2 in vector_matches]
-    
-    # Парсим функции
-    functions = []
-    if functions_str:
-        function_parts = [p.strip() for p in functions_str.split(',')]
-        colors = ['blue', 'red', 'green', 'purple', 'orange']
-        functions = [(f, colors[i % len(colors)]) for i, f in enumerate(function_parts) if f]
-    
-    # Генерируем координатную плоскость с точками, векторами и функциями
-    return generate_coordinate_system(points, functions, vectors)
-
-def generate_complete_task(category, subcategory="", difficulty_level=3):
-    """
-    Генерирует полный пакет: задачу, решение и подсказки за один запрос к API.
-    """
-    logging.info(f"Начало генерации задачи для категории: {category}, подкатегории: {subcategory}")
-    try:
-        difficulty_level = int(difficulty_level)
-        original_data = select_file(category, subcategory)
-        if not original_data:
-            logging.error("Не удалось выбрать задачу из базы.")
-            return {"error": "Не удалось выбрать задачу из базы"}
-        
-        original_task = extract_text_and_formulas(original_data.get("condition", {}).get("html", ""))
-        original_solution = original_data.get("solution", {}).get("text", "")
-        
-        if not original_task or not original_solution:
-            logging.error("Недостаточно данных в исходной задаче.")
-            return {"error": "Недостаточно данных в исходной задаче"}
-        
-        # Проверяем кэш перед генерацией новой задачи
-        cache_key = f"{category}_{subcategory}_{original_task}"
-        if cache_key in _task_cache and isinstance(_task_cache[cache_key], dict):
-            logging.info(f"Задача найдена в кэше: {cache_key}")
-            cached_result = _task_cache[cache_key]
-            
-            # Формируем полный текст задачи из кэша для сохранения в файл
-            full_text = f"""===ЗАДАЧА===
-{cached_result.get('task', '')}
-
-===РЕШЕНИЕ===
-{cached_result.get('solution', '')}
-
-===ПОДСКАЗКИ===
-1. {cached_result.get('hints', [''])[0] if len(cached_result.get('hints', [])) > 0 else ''}
-2. {cached_result.get('hints', ['', ''])[1] if len(cached_result.get('hints', [])) > 1 else ''}
-3. {cached_result.get('hints', ['', '', ''])[2] if len(cached_result.get('hints', [])) > 2 else ''}
-"""
-            save_to_file(full_text)
-            return cached_result
-        
-        # Создаем промпт для генерации полного материала
-        prompt = create_complete_task_prompt(
-            category, 
-            subcategory, 
-            original_task, 
-            original_solution, 
-            difficulty_level
-        )
-
-        # Делаем запрос к API с увеличенным лимитом токенов и фиксированной температурой 0.3
-        result_text = yandex_gpt_generate(prompt, temperature=0.3, max_tokens=3000)
-        
-        # Сохраняем полный ответ API в файл
-        save_to_file(result_text)
-        
-        if not result_text:
-            logging.error("Не удалось сгенерировать задачу.")
-            return {"error": "Не удалось сгенерировать задачу"}
-        
-        # Парсим результат
+    # Парсинг центра
+    if center_str:
         try:
-            task_match = re.search(r'---ЗАДАЧА---\s*(.*?)(?=---РЕШЕНИЕ---)', result_text, re.DOTALL)
-            solution_match = re.search(r'---РЕШЕНИЕ---\s*(.*?)(?=---ПОДСКАЗКИ---|---ПАРАМЕТРЫ ДЛЯ ВИЗУАЛИЗАЦИИ---)', result_text, re.DOTALL)
-            hints_match = re.search(r'---ПОДСКАЗКИ---\s*(.*?)(?=---ПАРАМЕТРЫ ДЛЯ ВИЗУАЛИЗАЦИИ---|$)', result_text, re.DOTALL)
-            visualization_match = re.search(r'---ПАРАМЕТРЫ ДЛЯ ВИЗУАЛИЗАЦИИ---\s*(.*?)$', result_text, re.DOTALL)
-            
-            task = task_match.group(1).strip() if task_match else "Не удалось извлечь текст задачи"
-            solution = solution_match.group(1).strip() if solution_match else "Не удалось извлечь решение"
-            
-            # Если решение пустое или слишком короткое, выходим с ошибкой
-            if len(solution.strip()) < 50:
-                logging.error("Решение отсутствует или слишком короткое")
-                return {"error": "Не удалось сгенерировать полное решение, попробуйте еще раз"}
-            
-            # Извлекаем подсказки
-            hints_text = hints_match.group(1).strip() if hints_match else ""
-            hints = parse_hints(hints_text)
-            
-            # Извлекаем ответ из решения
-            answer = extract_answer_with_latex(solution)
-            
-            # Проверяем качество полученного материала
-            if len(task) < 20 or len(solution) < 50:
-                logging.error("Сгенерированный материал слишком короткий или некачественный.")
-                return {"error": "Не удалось сгенерировать качественный материал"}
-            
-            # Заменяем Markdown-форматирование на HTML-форматирование, если оно осталось
-            task = convert_markdown_to_html(task)
-            solution = convert_markdown_to_html(solution)
-            hints = [convert_markdown_to_html(hint) for hint in hints]
-            
-            # Проверяем наличие открывающих и закрывающих HTML-тегов в решении
-            solution = fix_html_tags(solution)
-            
-            # Формируем структурированный полный текст для сохранения в файл
-            formatted_text = f"""===ЗАДАЧА===
-{task}
-
-===РЕШЕНИЕ===
-{solution}
-
-===ПОДСКАЗКИ===
-1. {hints[0] if len(hints) > 0 else ''}
-2. {hints[1] if len(hints) > 1 else ''}
-3. {hints[2] if len(hints) > 2 else ''}
-"""
-            # Перезаписываем файл с отформатированным текстом
-            save_to_file(formatted_text)
-            
-            # Обрабатываем параметры для визуализации, если они есть
-            image_path = None
-            image_base64 = None
-            
-            if visualization_match:
-                visualization_params_text = visualization_match.group(1).strip()
-                image_path, image_base64 = process_visualization_params(visualization_params_text)
-        
-            # Сохраняем результат в кэше
-            result = {
-                "task": task,
-                "solution": solution,
-                "answer": answer,
-                "hints": hints,
-                "difficulty_level": difficulty_level
-            }
-            
-            # Если сгенерировано изображение, добавляем его путь в результат
-            if image_path:
-                result["image_path"] = image_path
-                if image_base64:
-                    result["image_base64"] = image_base64
-            
-            _task_cache[cache_key] = result
-            
-            logging.info(f"Задача успешно сгенерирована за один запрос: {task[:30]}...")
-            return result
-            
+            center = center_str.strip()
+            match = re.search(r'\(([^,]+),([^)]+)\)', center)
+            if match:
+                cx, cy = float(match.group(1)), float(match.group(2))
+                params['center'] = (cx, cy)
         except Exception as e:
-            logging.error(f"Ошибка при парсинге результатов: {e}")
-            return {"error": f"Ошибка при обработке результатов: {str(e)}"}
-        
-    except Exception as e:
-        logging.error(f"Ошибка при генерации полного пакета: {e}")
-        return {"error": f"Произошла ошибка: {str(e)}"}
+            logging.warning(f"Ошибка при разборе центра окружности: {e}")
+    
+    # Парсинг радиуса
+    if radius_str:
+        try:
+            radius = float(radius_str.strip())
+            params['radius'] = radius
+        except Exception as e:
+            logging.warning(f"Ошибка при разборе радиуса окружности: {e}")
+    
+    # Добавляем метку центра
+    if center_label and center_label.lower() not in ["нет", "no", "none", "-"]:
+        params['center_label'] = center_label
+        params['show_center'] = True
+    else:
+        params['show_center'] = False
+    
+    # Добавляем значение радиуса для отображения
+    if radius_value_str and radius_value_str.lower() not in ["нет", "no", "none", "-"]:
+        try:
+            params['radius_value'] = float(radius_value_str.strip())
+        except Exception as e:
+            logging.warning(f"Ошибка при разборе значения радиуса для отображения: {e}")
+    
+    # Добавляем значение диаметра для отображения
+    if diameter_value_str and diameter_value_str.lower() not in ["нет", "no", "none", "-"]:
+        try:
+            params['diameter_value'] = float(diameter_value_str.strip())
+        except Exception as e:
+            logging.warning(f"Ошибка при разборе значения диаметра для отображения: {e}")
+    
+    # Добавляем значение хорды для отображения
+    if chord_value_str and chord_value_str.lower() not in ["нет", "no", "none", "-"]:
+        try:
+            params['chord_value'] = float(chord_value_str.strip())
+        except Exception as e:
+            logging.warning(f"Ошибка при разборе значения хорды для отображения: {e}")
+    
+    # Добавляем флаги отображения
+    params['show_radius'] = show_radius
+    params['show_diameter'] = show_diameter
+    params['show_chord'] = show_chord
+    
+    # Генерируем окружность
+    output_image = generate_geometric_figure('circle', params, f'circle_{uuid.uuid4().hex[:8]}.png')
+    return output_image
 
 def convert_markdown_to_html(text):
     """
@@ -1313,8 +1421,22 @@ def fix_html_tags(html_text):
     # Если текст не начинается с <p> и не заканчивается </p>, оборачиваем его
     if not html_text.startswith("<p>") and not html_text.endswith("</p>"):
         html_text = f"<p>{html_text}</p>"
+    elif not html_text.endswith("</p>"):
+        # Если текст не заканчивается </p>, но содержит HTML-теги, добавляем закрывающий тег
+        html_text += "</p>"
     
-    return html_text
+    # Дополнительная обработка для случая с несколькими абзацами
+    lines = html_text.split('\n')
+    result = []
+    
+    for line in lines:
+        # Если строка не пустая и не начинается с HTML-тега, оборачиваем её в <p>
+        if line.strip() and not line.strip().startswith('<'):
+            if not line.strip().endswith('</p>'):
+                line = f"<p>{line}</p>"
+        result.append(line)
+    
+    return '\n'.join(result)
 
 def generate_markdown_task(category, subcategory="", difficulty_level=3):
     """
@@ -1484,13 +1606,9 @@ def generate_json_task(category, subcategory="", difficulty_level=3):
         image_filename = os.path.basename(image_path)
         image_url = f"/static/images/generated/{image_filename}"
         
-        # Если есть base64 изображения, добавляем его
-        image_base64 = result.get("image_base64", "")
-        
         # Добавляем изображение к задаче
         task_images.append({
             "url": image_url,
-            "base64": image_base64,
             "alt": "Изображение к задаче"
         })
     
@@ -1560,13 +1678,9 @@ def generate_json_markdown_task(category, subcategory="", difficulty_level=3):
         image_filename = os.path.basename(image_path)
         image_url = f"/static/images/generated/{image_filename}"
         
-        # Если есть base64 изображения, добавляем его
-        image_base64 = result.get("image_base64", "")
-        
         # Добавляем изображение к задаче
         task_images.append({
             "url": image_url,
-            "base64": image_base64,
             "alt": "Изображение к задаче"
         })
         
@@ -1592,6 +1706,173 @@ def generate_json_markdown_task(category, subcategory="", difficulty_level=3):
     }
     
     return json_result
+
+def generate_complete_task(category, subcategory="", difficulty_level=3):
+    """
+    Генерирует полный пакет: задачу, решение и подсказки.
+    
+    Args:
+        category: Категория задачи
+        subcategory: Подкатегория задачи (опционально)
+        difficulty_level: Уровень сложности подсказок (1-5)
+        
+    Returns:
+        dict: Словарь с задачей, решением, подсказками и другими данными
+    """
+    try:
+        # Выбираем случайную задачу из каталога
+        data = select_file(category, subcategory)
+        
+        if not data:
+            return {"error": f"Не удалось найти задачи в категории '{category}' и подкатегории '{subcategory}'"}
+        
+        # Извлекаем задачу и решение из данных
+        html_task = data.get("html")
+        original_task = extract_text_and_formulas(html_task) if html_task else data.get("task", "")
+        original_solution = data.get("solution", "")
+        
+        logging.info(f"Выбрана исходная задача: {original_task[:100]}...")
+        
+        # Генерируем промпт для создания полного материала
+        prompt = create_complete_task_prompt(category, subcategory, original_task, original_solution, difficulty_level)
+        
+        # Генерируем текст с помощью YandexGPT с повышенной температурой для разнообразия
+        generated_text = yandex_gpt_generate(prompt, temperature=0.6)
+        
+        if not generated_text:
+            return {"error": "Не удалось получить ответ от YandexGPT API"}
+        
+        # Сохраняем сгенерированный текст
+        save_to_file(generated_text)
+        
+        # Извлекаем части из сгенерированного текста
+        task_match = re.search(r'---ЗАДАЧА---\s*(.*?)(?=\s*---РЕШЕНИЕ---|\s*$)', generated_text, re.DOTALL)
+        solution_match = re.search(r'---РЕШЕНИЕ---\s*(.*?)(?=\s*---ПОДСКАЗКИ---|\s*$)', generated_text, re.DOTALL)
+        hints_match = re.search(r'---ПОДСКАЗКИ---\s*(.*?)(?=\s*---ПАРАМЕТРЫ ДЛЯ ВИЗУАЛИЗАЦИИ---|\s*$)', generated_text, re.DOTALL)
+        
+        task = task_match.group(1).strip() if task_match else "Не удалось извлечь задачу"
+        solution = solution_match.group(1).strip() if solution_match else "Не удалось извлечь решение"
+        hints_string = hints_match.group(1).strip() if hints_match else ""
+        
+        # Парсим подсказки
+        hints = parse_hints(hints_string)
+        
+        # Извлекаем ответ из решения
+        answer = extract_answer_with_latex(solution)
+        
+        # Проверяем наличие параметров для визуализации
+        visualization_match = re.search(r'---ПАРАМЕТРЫ ДЛЯ ВИЗУАЛИЗАЦИИ---\s*(.*?)(?=\s*$)', generated_text, re.DOTALL)
+        
+        image_path = None
+        image_base64 = None
+        
+        if visualization_match:
+            # Обрабатываем параметры визуализации
+            params_text = visualization_match.group(1).strip()
+            image_path, image_base64 = process_visualization_params(params_text)
+        
+        # Формируем результат
+        result = {
+            "task": convert_markdown_to_html(task),
+            "solution": convert_markdown_to_html(solution),
+            "hints": [convert_markdown_to_html(hint) for hint in hints],
+            "answer": answer,
+            "difficulty_level": difficulty_level,
+            "category": category,
+            "subcategory": subcategory
+        }
+        
+        # Добавляем информацию об изображении, если оно есть
+        if image_path:
+            result["image_path"] = image_path
+            result["image_base64"] = image_base64
+        
+        return result
+    except Exception as e:
+        logging.error(f"Ошибка при генерации задачи: {e}")
+        return {"error": f"Произошла ошибка при генерации задачи: {str(e)}"}
+
+def process_function_plot(func_expr, x_min, x_max, y_min=None, y_max=None):
+    """
+    Обрабатывает параметры для графика функции и генерирует изображение.
+    
+    Args:
+        func_expr: Выражение функции
+        x_min, x_max: Диапазон по оси X
+        y_min, y_max: Диапазон по оси Y (опционально)
+        
+    Returns:
+        str: Путь к сгенерированному изображению
+    """
+    y_range = None
+    if y_min is not None and y_max is not None:
+        y_range = (y_min, y_max)
+    
+    return generate_graph_image(func_expr, (x_min, x_max), y_range)
+
+def process_coordinate_visualization(params_text, extract_param):
+    """Обрабатывает параметры для координатной плоскости"""
+    # Извлекаем параметры координатной плоскости
+    points_str = extract_param(REGEX_PATTERNS["coordinate"]["points"], params_text)
+    vectors_str = extract_param(REGEX_PATTERNS["coordinate"]["vectors"], params_text)
+    functions_str = extract_param(REGEX_PATTERNS["coordinate"]["functions"], params_text)
+    
+    points = []
+    vectors = []
+    functions = []
+    
+    # Парсинг точек
+    if points_str:
+        try:
+            # Формат A(1,2),B(3,4),C(5,6) или (1,2),(3,4),(5,6)
+            for match in re.finditer(r'([A-Za-z]?)\s*\(([^,]+),([^)]+)\)', points_str):
+                label, x, y = match.groups()
+                x, y = float(x.strip()), float(y.strip())
+                if label:
+                    points.append((x, y, label))
+                else:
+                    points.append((x, y))
+        except Exception as e:
+            logging.warning(f"Ошибка при разборе точек: {e}")
+    
+    # Парсинг векторов
+    if vectors_str:
+        try:
+            # Формат AB, CD или (1,2,3,4), (5,6,7,8)
+            for match in re.finditer(r'([A-Za-z]{2})|(?:\(([^,]+),([^,]+),([^,]+),([^)]+)\))', vectors_str):
+                if match.group(1):  # Формат AB
+                    vector_name = match.group(1)
+                    # Нужно найти точки A и B среди уже введенных
+                    start_point = None
+                    end_point = None
+                    for point in points:
+                        if len(point) > 2:  # Есть метка
+                            if point[2] == vector_name[0]:
+                                start_point = (point[0], point[1])
+                            elif point[2] == vector_name[1]:
+                                end_point = (point[0], point[1])
+                    
+                    if start_point and end_point:
+                        vectors.append((start_point[0], start_point[1], end_point[0], end_point[1], vector_name))
+                else:  # Формат (1,2,3,4)
+                    x1, y1, x2, y2 = map(float, match.groups()[1:5])
+                    vectors.append((x1, y1, x2, y2))
+        except Exception as e:
+            logging.warning(f"Ошибка при разборе векторов: {e}")
+    
+    # Парсинг функций
+    if functions_str:
+        try:
+            # Формат x**2, 2*x+1
+            for func in functions_str.split(','):
+                func = func.strip()
+                if func:
+                    functions.append((func, 'blue'))  # Цвет по умолчанию - синий
+        except Exception as e:
+            logging.warning(f"Ошибка при разборе функций: {e}")
+    
+    # Генерируем координатную плоскость
+    return generate_coordinate_system(points, functions, vectors)
 
 # Пример использования
 if __name__ == "__main__":
@@ -1623,4 +1904,4 @@ if __name__ == "__main__":
         print(f"\nПолный текст задачи сохранен в файл 'last_generated_task.txt'")
     else:
         print("API ключ Яндекса или ID каталога не найдены в .env файле.")
-        print("Пожалуйста, заполните эти данные для работы с YandexGPT API.") 
+        print("Пожалуйста, заполните эти данные для работы с YandexGPT API.")
