@@ -203,14 +203,14 @@ def extract_answer_with_latex(solution):
             # Заменяем одинарные $ на двойные $$
             answer = answer.replace('$', '$$')
         else:
-            # Проверяем, есть ли в ответе формулы LaTeX и корректируем их
-            # Ищем выражения без окружения $ и оборачиваем их
-            formula_pattern = r'(\\frac|\\sqrt|\\sum|\\prod|\\int|\\lim|\\sin|\\cos|\\tan|\\log|\\ln)'
+        # Проверяем, есть ли в ответе формулы LaTeX и корректируем их
+        # Ищем выражения без окружения $ и оборачиваем их
+        formula_pattern = r'(\\frac|\\sqrt|\\sum|\\prod|\\int|\\lim|\\sin|\\cos|\\tan|\\log|\\ln)'
             answer = re.sub(formula_pattern, r'$$\1', answer)
         
             # Если мы добавили открывающий символ $$, но нет закрывающего, добавляем его
             open_count = answer.count('$$')
-            if open_count % 2 != 0:
+        if open_count % 2 != 0:
                 answer += '$$'
             
         # Экранируем угловые скобки, если они не являются частью HTML-тега
@@ -238,15 +238,15 @@ def extract_answer_with_latex(solution):
                 # Заменяем одинарные $ на двойные $$
                 answer = answer.replace('$', '$$')
             else:
-                # Применяем те же преобразования, что и выше
-                formula_pattern = r'(\\frac|\\sqrt|\\sum|\\prod|\\int|\\lim|\\sin|\\cos|\\tan|\\log|\\ln)'
+            # Применяем те же преобразования, что и выше
+            formula_pattern = r'(\\frac|\\sqrt|\\sum|\\prod|\\int|\\lim|\\sin|\\cos|\\tan|\\log|\\ln)'
                 answer = re.sub(formula_pattern, r'$$\1', answer)
             
                 # Если мы добавили открывающий символ $$, но нет закрывающего, добавляем его
                 open_count = answer.count('$$')
-                if open_count % 2 != 0:
+            if open_count % 2 != 0:
                     answer += '$$'
-            
+                
             if '<' in answer and not re.search(r'<[a-z/]', answer):
                 answer = answer.replace('<', '&lt;').replace('>', '&gt;')
                 

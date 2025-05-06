@@ -77,7 +77,7 @@
 ### Настройка
 
 1. Клонируйте репозиторий:
-   ```
+```
    git clone https://github.com/yourusername/ege-math-tasks-gen.git
    cd ege-math-tasks-gen
    ```
@@ -90,14 +90,14 @@
 
 3. Установите зависимости:
    ```
-   pip install -r requirements.txt
-   ```
+pip install -r requirements.txt
+```
 
 4. Создайте файл .env в корневой директории и добавьте ваши API-ключи:
-   ```
+```
    YANDEX_API_KEY=ваш_ключ_api
    YANDEX_FOLDER_ID=ваш_folder_id
-   ```
+```
 
 ### Запуск приложения
 
