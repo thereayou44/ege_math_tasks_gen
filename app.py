@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 import traceback
 import re
 from dotenv import load_dotenv
-from task_generator import generate_complete_task, convert_markdown_to_html
+from app.task_generator import generate_complete_task, convert_markdown_to_html
 
 app = Flask(__name__)
 
@@ -14,7 +14,7 @@ app = Flask(__name__)
 load_dotenv()
 
 try:
-    from task_generator import generate_complete_task
+    from app.task_generator import generate_complete_task
     print("Используется YandexGPT API для генерации задач")
 except ImportError as e:
     print(f"Ошибка при импорте модуля task_generator: {e}")
@@ -398,7 +398,7 @@ def debug_categories_console():
 @app.route('/api/generate_markdown_task', methods=['POST'])
 def api_generate_markdown_task():
     try:
-        from task_generator import generate_markdown_task
+        from app.task_generator import generate_markdown_task
         
         data = request.get_json()
         category = data.get("category")
@@ -423,7 +423,7 @@ def api_generate_markdown_task():
 @app.route('/api/task', methods=['GET'])
 def api_get_task():
     try:
-        from task_generator import generate_complete_task
+        from app.task_generator import generate_complete_task
         
         category = request.args.get("category")
         subcategory = request.args.get("subcategory", "")
@@ -455,7 +455,7 @@ def api_get_json_task():
     - markdown - текст в формате Markdown
     """
     try:
-        from task_generator import generate_json_task, generate_json_markdown_task
+        from app.task_generator import generate_json_task, generate_json_markdown_task
         
         category = request.args.get("category")
         subcategory = request.args.get("subcategory", "")
