@@ -1,0 +1,23 @@
+{
+    "id": "916",
+    "topic": "Д13",
+    "condition": {
+        "text": "В прямоугольном параллелепипеде известно, что Найдите длину ребра",
+        "images": [
+            "https://mathb-ege.sdamgia.ru/get_file?id=111642",
+            "https://ege.sdamgia.ru/formula/svg/f1/f1e6bb9151e25757c8ade7c108595056.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0f9b2f4a03bd1fe85c7f987829120189.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/605c51d963a8bc7347999c532ae7db90.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/60421c9a7ca5ccc676879ca55c9e014c.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c6ed112a9eb109891082295b6e83622.svg"
+        ]
+    },
+    "answer": "3",
+    "analogs": [
+        "916",
+        "917",
+        "918",
+        "919"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=916"
+}

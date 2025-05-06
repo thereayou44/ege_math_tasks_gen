@@ -1,0 +1,48 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27933,
+    "condition": {
+        "text": " В треугольнике ABC стороны AC = 4, BC = 3, угол C равен 90°. Найдите радиус вписанной окружности.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918497\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=113356\" style=\"float:right;margin:10px;max-width:100%\"> В тре­уголь­ни­ке <i>ABC</i> сто­ро­ны <i>AC</i> = 4, <i>BC</i> = 3, угол <i>C</i> равен 90°. Най­ди­те ра­ди­ус впи­сан­ной окруж­но­сти.</p></div>",
+        "image_urls": [
+            "/get_file?id=113356"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Имеем: Ответ: 1. Приведем решение Айши Гучиговой.Найдем гипотенузу треугольника: Площадь треугольника ABC равна  С другой стороны,  откуда",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27933\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Имеем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/cd/cd55712d988da6379de059b2870c818c.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"r= дробь: чис­ли­тель: AC плюс BC минус AB, зна­ме­на­тель: 2 конец дроби = дробь: чис­ли­тель: AC плюс BC минус ко­рень из: на­ча­ло ар­гу­мен­та: AC конец ар­гу­мен­та в квад­ра­те плюс BC в квад­ра­те , зна­ме­на­тель: 2 конец дроби = дробь: чис­ли­тель: 7 минус ко­рень из: на­ча­ло ар­гу­мен­та: 25 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби =1. \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ</span>: 1.</p><p>&nbsp;</p><p><b>При­ве­дем ре­ше­ние Айши Гу­чи­го­вой.</b></p><p class=\"left_margin\">Най­дем ги­по­те­ну­зу тре­уголь­ни­ка: <img src=\"https://ege.sdamgia.ru/formula/svg/8c/8c879c1187cb45c883836b4cc446bc4d.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AB в квад­ра­те = ко­рень из: на­ча­ло ар­гу­мен­та: AC в квад­ра­те плюс BC в квад­ра­те конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 3 в квад­ра­те плюс 4 в квад­ра­те конец ар­гу­мен­та =5.\"></p><p class=\"left_margin\">Пло­щадь тре­уголь­ни­ка <i>ABC</i> равна <img src=\"https://ege.sdamgia.ru/formula/svg/33/333c2816e38733ede45e813b33966198.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S_ABC= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на AC умно­жить на BC. \"> С дру­гой сто­ро­ны, <img src=\"https://ege.sdamgia.ru/formula/svg/4b/4bf150c61a78365780b433a51f562dad.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S_ABC= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на P_ABC умно­жить на r, \"> от­ку­да</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/bc/bcacec9be02b67ed18975f190ee7c381.svg\" class=\"tex\" style=\"vertical-align:-10.0pt\" alt=\"r= дробь: чис­ли­тель: AC умно­жить на BC, зна­ме­на­тель: P_ABC конец дроби = дробь: чис­ли­тель: 3 умно­жить на 4, зна­ме­на­тель: 3 плюс 4 плюс 5 конец дроби =1. \"></p><p class=\"left_margin\"></p></center></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/cd/cd55712d988da6379de059b2870c818c.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8c879c1187cb45c883836b4cc446bc4d.svg",
+            "https://ege.sdamgia.ru/formula/svg/33/333c2816e38733ede45e813b33966198.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4bf150c61a78365780b433a51f562dad.svg",
+            "https://ege.sdamgia.ru/formula/svg/bc/bcacec9be02b67ed18975f190ee7c381.svg"
+        ]
+    },
+    "answer": "1",
+    "topic_id": 1,
+    "analog_ids": [
+        27933,
+        54219,
+        516373,
+        516393,
+        54219,
+        516373,
+        516393,
+        559400,
+        559594,
+        54221,
+        54223,
+        54225,
+        54227,
+        54229,
+        54231,
+        54233,
+        54235,
+        54237,
+        54239,
+        54241,
+        54243
+    ]
+}

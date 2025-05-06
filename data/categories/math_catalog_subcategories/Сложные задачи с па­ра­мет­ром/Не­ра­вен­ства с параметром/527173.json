@@ -1,0 +1,31 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 527173,
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых уравнениеимеет решения, и определите то решение, которое получается только при единственном значении параметра a.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body419257\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния па­ра­мет­ра <i>a</i>, при каж­дом из ко­то­рых урав­не­ние</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/43/436a0ddaa37144950fe02b21bcac22b2.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x в сте­пе­ни 4 минус 2x в кубе минус левая круг­лая скоб­ка 2a плюс 3 пра­вая круг­лая скоб­ка x в квад­ра­те плюс 2ax плюс 3a плюс a в квад­ра­те =0\"></p><p class=\"left_margin\"></p></center><p>имеет ре­ше­ния, и опре­де­ли­те то ре­ше­ние, ко­то­рое по­лу­ча­ет­ся толь­ко при един­ствен­ном зна­че­нии па­ра­мет­ра <i>a</i>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/43/436a0ddaa37144950fe02b21bcac22b2.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Запишем уравнение в виде  Тогда либо  либо  поэтому решения будут лишь при  Заметим далее, что при подстановке вместо x любого числа в оба уравнения легко найти два значения a, при которых x будет корнем. Значит, полученные значения должны совпасть, то есть x годится сразу в оба уравнения. Решим системуТогда  то есть  Оно получается лишь при  Ответ:  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol527173\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">За­пи­шем урав­не­ние в виде <img src=\"https://ege.sdamgia.ru/formula/svg/85/85ad562b00c3ba7898f6aa25ea90c597.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка x в квад­ра­те минус a пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x в квад­ра­те минус 2x минус a минус 3 пра­вая круг­лая скоб­ка =0.\"> Тогда либо <img src=\"https://ege.sdamgia.ru/formula/svg/55/55f372cdba8963b98d2e7cea368f7ec9.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x в квад­ра­те =a,\"> либо <img src=\"https://ege.sdamgia.ru/formula/svg/90/90fa6e65d36e2a65a7436e20d789f0ba.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка x минус 1 пра­вая круг­лая скоб­ка в квад­ра­те =a плюс 4,\"> по­это­му ре­ше­ния будут лишь при <img src=\"https://ege.sdamgia.ru/formula/svg/f9/f9947c1c2354d8c4f7a06fd09009880d.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"a боль­ше или равно минус 4.\"> За­ме­тим далее, что при под­ста­нов­ке вме­сто <i>x</i> лю­бо­го числа в оба урав­не­ния легко найти два зна­че­ния <i>a</i>, при ко­то­рых <i>x</i> будет кор­нем. Зна­чит, по­лу­чен­ные зна­че­ния долж­ны сов­пасть, то есть <i>x</i> го­дит­ся сразу в оба урав­не­ния. Решим си­сте­му</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/83/83385ac7096078160da6d7bd358a33a9.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" левая фи­гур­ная скоб­ка \\beginaligned новая стро­ка x в квад­ра­те =a, новая стро­ка x в квад­ра­те минус 2x минус a минус 3=0. \\endaligned .\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/c3/c32cde322b11ac91af7ec52f538179f6.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a минус 2x минус a минус 3=0,\"> то есть <img src=\"https://ege.sdamgia.ru/formula/svg/56/5600d759d87deab906f98e062916f4a3.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= минус дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби .\"> Оно по­лу­ча­ет­ся лишь при <img src=\"https://ege.sdamgia.ru/formula/svg/51/511fceccadd2556b9989cc106c26834e.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"a= дробь: чис­ли­тель: 9, зна­ме­на­тель: 4 конец дроби .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/56/5612e7eac7d2273926b18c46b964826a.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"a боль­ше или равно минус 4;\"> <img src=\"https://ege.sdamgia.ru/formula/svg/56/5600d759d87deab906f98e062916f4a3.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= минус дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/85/85ad562b00c3ba7898f6aa25ea90c597.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/55f372cdba8963b98d2e7cea368f7ec9.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/90fa6e65d36e2a65a7436e20d789f0ba.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f9947c1c2354d8c4f7a06fd09009880d.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83385ac7096078160da6d7bd358a33a9.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c32cde322b11ac91af7ec52f538179f6.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/5600d759d87deab906f98e062916f4a3.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/511fceccadd2556b9989cc106c26834e.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/5612e7eac7d2273926b18c46b964826a.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/5600d759d87deab906f98e062916f4a3.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

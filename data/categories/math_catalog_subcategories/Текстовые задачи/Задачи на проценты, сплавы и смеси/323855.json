@@ -1,0 +1,53 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 323855,
+    "condition": {
+        "text": "Клиент А. сделал вклад в банке в размере 7700 рублей. Проценты по вкладу начисляются раз в год и прибавляются к текущей сумме вклада. Ровно через год на тех же условиях такой же вклад в том же банке сделал клиент Б. Еще ровно через год клиенты А. и Б. закрыли вклады и забрали все накопившиеся деньги. При этом клиент А. получил на 847 рублей больше клиента Б. Какой процент годовых начислял банк по этим вкладам?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body696307\" class=\"pbody\"><p class=\"left_margin\">Кли­ент А. сде­лал вклад в банке в раз­ме­ре 7700 руб­лей. Про­цен­ты по вкла­ду на­чис­ля­ют­ся раз в год и при­бав­ля­ют­ся к те­ку­щей сумме вкла­да. Ровно через год на тех же усло­ви­ях такой же вклад в том же банке сде­лал кли­ент Б. Еще ровно через год кли­ен­ты А. и Б. за­кры­ли вкла­ды и за­бра­ли все на­ко­пив­ши­е­ся день­ги. При этом кли­ент А. по­лу­чил на 847 руб­лей боль­ше кли­ен­та Б. Какой про­цент го­до­вых на­чис­лял банк по этим вкла­дам?</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Пусть банк начислял  годовых. Тогда клиент А. за два года получил  руб., а клиент Б. за один год получил  руб. Обозначим  тогда поскольку А. получил на 847 руб. больше, имеем:Поскольку  получаем:  откуда  Тем самым, банк начислял вкладчикам по 10% годовых. Ответ: 10.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol323855\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть банк на­чис­лял <img src=\"https://ege.sdamgia.ru/formula/svg/c8/c8d8b681756c11607865ce33abd8f3ec.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"p \\%\"> го­до­вых. Тогда кли­ент А. за два года по­лу­чил <img src=\"https://ege.sdamgia.ru/formula/svg/6d/6d178d9d2707083ea0d5b9068450b2aa.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"7700 левая круг­лая скоб­ка 1 плюс 0,01p пра­вая круг­лая скоб­ка в квад­ра­те \"> руб., а кли­ент Б. за один год по­лу­чил <img src=\"https://ege.sdamgia.ru/formula/svg/72/72f8aeadc6dadb09ca477ea00a5a9f91.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"7700 левая круг­лая скоб­ка 1 плюс 0,01p пра­вая круг­лая скоб­ка \"> руб. Обо­зна­чим <img src=\"https://ege.sdamgia.ru/formula/svg/71/7184a0c29288aa77ce61ba60733bdf21.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x=1 плюс 0,01p,\"> тогда по­сколь­ку А. по­лу­чил на 847 руб. боль­ше, имеем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d1/d1ac345aa91b80c1b7731b9864662ab3.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\"7700x в квад­ра­те минус 7700x = 847 рав­но­силь­но 100x в квад­ра­те минус 100x минус 11 = 0 рав­но­силь­но рав­но­силь­но со­во­куп­ность вы­ра­же­ний x= 1,1, x= минус 0,1. конец со­во­куп­но­сти \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">По­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/88/887fb68a10cbd4369b27c90bee0334d8.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x боль­ше 0\"> по­лу­ча­ем: <img src=\"https://ege.sdamgia.ru/formula/svg/f0/f052d1c011f50d9f04a4014f1b8b61eb.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x=1,1,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/42/42f0e5a0b18438a75a6305ac2d9d8df3.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"p=10.\"> Тем самым, банк на­чис­лял вклад­чи­кам по 10% го­до­вых.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 10.</p><p></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c8/c8d8b681756c11607865ce33abd8f3ec.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6d178d9d2707083ea0d5b9068450b2aa.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/72f8aeadc6dadb09ca477ea00a5a9f91.svg",
+            "https://ege.sdamgia.ru/formula/svg/71/7184a0c29288aa77ce61ba60733bdf21.svg",
+            "https://ege.sdamgia.ru/formula/svg/d1/d1ac345aa91b80c1b7731b9864662ab3.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/887fb68a10cbd4369b27c90bee0334d8.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f052d1c011f50d9f04a4014f1b8b61eb.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/42f0e5a0b18438a75a6305ac2d9d8df3.svg"
+        ]
+    },
+    "answer": "10",
+    "topic_id": 10,
+    "analog_ids": [
+        323855,
+        324147,
+        502311,
+        324113,
+        324147,
+        502311,
+        324113,
+        324115,
+        324117,
+        324119,
+        324121,
+        324123,
+        324125,
+        324127,
+        324129,
+        324131,
+        324133,
+        324135,
+        324137,
+        324139,
+        324141,
+        324143,
+        324145,
+        324149,
+        324151
+    ]
+}

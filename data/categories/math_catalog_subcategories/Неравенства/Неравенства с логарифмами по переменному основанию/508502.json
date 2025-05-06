@@ -1,0 +1,33 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 508502,
+    "condition": {
+        "text": "Решите неравенство: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body634026\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство: <img src=\"https://ege.sdamgia.ru/formula/svg/94/94966cd17cf861ca1166c0caa5648193.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\" ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 2x пра­вая круг­лая скоб­ка 0,25 мень­ше или равно ло­га­рифм по ос­но­ва­нию 2 32x минус 1.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/94/94966cd17cf861ca1166c0caa5648193.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Заметим, что в ОДЗ данного неравенства входят все положительные числа за исключением  Преобразуем неравенство:Сделаем замену Откуда получаем: Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol508502\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">За­ме­тим, что в ОДЗ дан­но­го не­ра­вен­ства вхо­дят все по­ло­жи­тель­ные числа за ис­клю­че­ни­ем <img src=\"https://ege.sdamgia.ru/formula/svg/b9/b97fcf083d92a4aa858e4dfd748ded7f.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби . \"> Пре­об­ра­зу­ем не­ра­вен­ство:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/b8/b818a555ac21e9cbba1966a461c12bb8.svg\" class=\"tex\" style=\"vertical-align:-12.7pt\" alt=\" дробь: чис­ли­тель: 1, зна­ме­на­тель: ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 0,25 пра­вая круг­лая скоб­ка 2x конец дроби мень­ше или равно ло­га­рифм по ос­но­ва­нию 2 32x минус 1 рав­но­силь­но минус дробь: чис­ли­тель: 2, зна­ме­на­тель: ло­га­рифм по ос­но­ва­нию 2 x плюс 1 конец дроби мень­ше или равно ло­га­рифм по ос­но­ва­нию 2 x плюс 4. \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Сде­ла­ем за­ме­ну <img src=\"https://ege.sdamgia.ru/formula/svg/c1/c1fda40ef72b89bc01c974caea7049fc.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"z= ло­га­рифм по ос­но­ва­нию 2 x.\"></p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"eb5890f63d946ba2d1fff6849956643f\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/eb/eb5890f63d946ba2d1fff6849956643f.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" минус дробь: чис­ли­тель: 2, зна­ме­на­тель: z плюс 1 конец дроби мень­ше или равно z плюс 4 рав­но­силь­но дробь: чис­ли­тель: z в квад­ра­те плюс 5z плюс 6, зна­ме­на­тель: z плюс 1 конец дроби боль­ше или равно 0 рав­но­силь­но дробь: чис­ли­тель: левая круг­лая скоб­ка z плюс 2 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка z плюс 3 пра­вая круг­лая скоб­ка , зна­ме­на­тель: z плюс 1 конец дроби боль­ше или равно 0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка минус 3 мень­ше или равно z мень­ше или равно минус 2,  новая стро­ка z боль­ше минус 1  конец со­во­куп­но­сти .\"></span><span data-width=\"490\" data-formulahash=\"eb5890f63d946ba2d1fff6849956643f\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/51/5162e1ac6b6bc2da95c197aa2aaef0ca.svg\" class=\"tex\" style=\"vertical-align:-9.4pt\" alt=\" минус дробь: чис­ли­тель: 2, зна­ме­на­тель: z плюс 1 конец дроби мень­ше или равно z плюс 4 рав­но­силь­но дробь: чис­ли­тель: z в квад­ра­те плюс 5z плюс 6, зна­ме­на­тель: z плюс 1 конец дроби боль­ше или равно 0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/92/9202d222a8af677515b735c6cc2df959.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" рав­но­силь­но дробь: чис­ли­тель: левая круг­лая скоб­ка z плюс 2 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка z плюс 3 пра­вая круг­лая скоб­ка , зна­ме­на­тель: z плюс 1 конец дроби боль­ше или равно 0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка минус 3 мень­ше или равно z мень­ше или равно минус 2,  новая стро­ка z боль­ше минус 1  конец со­во­куп­но­сти .\"></span></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">От­ку­да по­лу­ча­ем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/bf/bf40086b48bf9fde472a4f632e264b68.svg\" class=\"tex\" style=\"vertical-align:-22.5pt\" alt=\" со­во­куп­ность вы­ра­же­ний  новая стро­ка минус 3 мень­ше или равно ло­га­рифм по ос­но­ва­нию 2 x мень­ше или равно минус 2,  новая стро­ка ло­га­рифм по ос­но­ва­нию 2 x боль­ше минус 1. конец со­во­куп­но­сти . рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка дробь: чис­ли­тель: 1, зна­ме­на­тель: 8 конец дроби мень­ше или равно x мень­ше или равно дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби , новая стро­ка x боль­ше дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби . конец со­во­куп­но­сти . \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/a0/a057995c9f41f8423d703b0d8193733b.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка дробь: чис­ли­тель: 1, зна­ме­на­тель: 8 конец дроби ; дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби пра­вая квад­рат­ная скоб­ка \\cup левая круг­лая скоб­ка дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби ; плюс бес­ко­неч­ность пра­вая круг­лая скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b9/b97fcf083d92a4aa858e4dfd748ded7f.svg",
+            "https://ege.sdamgia.ru/formula/svg/b8/b818a555ac21e9cbba1966a461c12bb8.svg",
+            "https://ege.sdamgia.ru/formula/svg/c1/c1fda40ef72b89bc01c974caea7049fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/eb/eb5890f63d946ba2d1fff6849956643f.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/5162e1ac6b6bc2da95c197aa2aaef0ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/9202d222a8af677515b735c6cc2df959.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bf40086b48bf9fde472a4f632e264b68.svg",
+            "https://ege.sdamgia.ru/formula/svg/a0/a057995c9f41f8423d703b0d8193733b.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": [
+        508502,
+        508504,
+        511556
+    ]
+}

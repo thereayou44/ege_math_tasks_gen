@@ -1,0 +1,38 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 500639,
+    "condition": {
+        "text": "В правильной четырёхугольной пирамиде SABCD с основанием ABCD проведено сечение через середины ребер АВ и ВС и вершину S. а)  Докажите, что указанное сечение делит объем пирамиды в отношении б)  Найдите площадь этого сечения, если все ребра пирамиды равны 8.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body642403\" class=\"pbody\"><p class=\"left_margin\">В пра­виль­ной четырёхуголь­ной пи­ра­ми­де <i>SABCD</i> с ос­но­ва­ни­ем <i>ABCD</i> про­ве­де­но се­че­ние через се­ре­ди­ны ребер <i>АВ</i> и <i>ВС</i> и вер­ши­ну <i>S</i>. </p><p class=\"left_margin\">а)  До­ка­жи­те, что ука­зан­ное се­че­ние делит объем пи­ра­ми­ды в от­но­ше­нии <img src=\"https://ege.sdamgia.ru/formula/svg/80/80769ddf17dbf90255a300b9aff51e97.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"1:7.\"></p><p class=\"left_margin\">б)  Най­ди­те пло­щадь этого се­че­ния, если все ребра пи­ра­ми­ды равны 8.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/80/80769ddf17dbf90255a300b9aff51e97.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Пусть M  — середина AB, а N  — середина BC. Плоскость SMN делит пирамиду на пирамиды SBNM и SMADCN. У этих пирамид общая высота, проведенная из вершины S, поэтому их объемы относятся как площади многоугольников BNM и MADCN. Площадь треугольника BNM равна половине от четверти квадрата ABCD, то есть  поэтому б)  Площадь сечения равна площади треугольника SMN. Найдем последовательно SM, MN и SN.SM и SN  — медианы треугольников SAB и SBC соответственно. Т. к. эти треугольники равносторонние (поскольку все ребра пирамиды одинаковой длины), Найдем теперь MN из прямоугольного треугольника MBN. В нем катеты равны 4. Гипотенуза MN, по теореме Пифагора, будет равна Теперь найдем площадь равнобедренного треугольника SMN. Для этого проведем высоту SH, по теореме Пифагора равную  и вычислим площадь: Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol500639\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=132559\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Пусть <i>M</i>  — се­ре­ди­на <i>AB</i>, а <i>N</i>  — се­ре­ди­на <i>BC</i>. Плос­кость <i>SMN</i> делит пи­ра­ми­ду на пи­ра­ми­ды <i>SBNM</i> и <i>SMADCN</i>. У этих пи­ра­мид общая вы­со­та, про­ве­ден­ная из вер­ши­ны <i>S</i>, по­это­му их объ­е­мы от­но­сят­ся как пло­ща­ди мно­го­уголь­ни­ков <i>BNM</i> и <i>MADCN</i>. Пло­щадь тре­уголь­ни­ка <i>BNM</i> равна по­ло­ви­не от чет­вер­ти квад­ра­та <i>ABCD</i>, то есть <img src=\"https://ege.sdamgia.ru/formula/svg/6d/6d200e19c4c4f8479b682a65fdf56aae.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"S_BNM=1/8 умно­жить на S_ABCD,\"> по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/1e/1e5af9715acc274471ad00bc090e2bf1.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"V_SBNM:V_SMADCN=S_BNM:S_MADCN=1/8: левая круг­лая скоб­ка 1 минус 1/8 пра­вая круг­лая скоб­ка =1:7.\"></p><p class=\"left_margin\">б)  Пло­щадь се­че­ния равна пло­ща­ди тре­уголь­ни­ка <i>SMN</i>. Най­дем по­сле­до­ва­тель­но <i>SM</i>, <i>MN</i> и <i>SN</i>.</p><p><i>SM</i> и <i>SN</i>  — ме­ди­а­ны тре­уголь­ни­ков <i>SAB</i> и <i>SBC</i> со­от­вет­ствен­но. Т. к. эти тре­уголь­ни­ки рав­но­сто­рон­ние (по­сколь­ку все ребра пи­ра­ми­ды оди­на­ко­вой длины), </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/0c/0cdc98f1b93c7dce465624e30e47151d.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"SM=SN= дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби умно­жить на 8 = 4 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Най­дем те­перь <i>MN</i> из пря­мо­уголь­но­го тре­уголь­ни­ка <i>MBN</i>. В нем ка­те­ты равны 4. Ги­по­те­ну­за <i>MN</i>, по тео­ре­ме Пи­фа­го­ра, будет равна <img src=\"https://ege.sdamgia.ru/formula/svg/e1/e1dc04484ffcb8dd78f7dcb58030c494.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"4 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та .\"></p><p class=\"left_margin\">Те­перь най­дем пло­щадь рав­но­бед­рен­но­го тре­уголь­ни­ка <i>SMN</i>. Для этого про­ве­дем вы­со­ту <i>SH</i>, по тео­ре­ме Пи­фа­го­ра рав­ную <img src=\"https://ege.sdamgia.ru/formula/svg/df/dfbbce4ddb5b5ca65692a03e5ab50031.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"2 ко­рень из: на­ча­ло ар­гу­мен­та: 10 конец ар­гу­мен­та ,\"> и вы­чис­лим пло­щадь: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/3c/3cd337a0996ae006f2297a079ca9e28f.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на SH умно­жить на MN = дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на 2 ко­рень из: на­ча­ло ар­гу­мен­та: 10 конец ар­гу­мен­та умно­жить на 4 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та =8 ко­рень из: на­ча­ло ар­гу­мен­та: 5 конец ар­гу­мен­та . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Ответ: <img src=\"https://ege.sdamgia.ru/formula/svg/6c/6cab9ed30e0820597db25636bdcf79a8.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"8 ко­рень из: на­ча­ло ар­гу­мен­та: 5 конец ар­гу­мен­та .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/6d/6d200e19c4c4f8479b682a65fdf56aae.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1e5af9715acc274471ad00bc090e2bf1.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0cdc98f1b93c7dce465624e30e47151d.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e1dc04484ffcb8dd78f7dcb58030c494.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/dfbbce4ddb5b5ca65692a03e5ab50031.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3cd337a0996ae006f2297a079ca9e28f.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6cab9ed30e0820597db25636bdcf79a8.svg",
+            "/get_file?id=132559"
+        ]
+    },
+    "answer": "",
+    "topic_id": 14,
+    "analog_ids": [
+        500639,
+        500643,
+        507830,
+        511345,
+        500643,
+        507830,
+        511345,
+        511501
+    ]
+}

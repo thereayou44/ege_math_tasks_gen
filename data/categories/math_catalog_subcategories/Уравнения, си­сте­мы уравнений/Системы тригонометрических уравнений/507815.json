@@ -1,0 +1,31 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 507815,
+    "condition": {
+        "text": "Решите систему уравнений ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body643419\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те си­сте­му урав­не­ний <img src=\"https://ege.sdamgia.ru/formula/svg/3c/3caca6764e8987f4b54ba50937c11b42.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний  новая стро­ка 16 в сте­пе­ни левая круг­лая скоб­ка ко­си­нус x пра­вая круг­лая скоб­ка минус 10 умно­жить на 4 в сте­пе­ни левая круг­лая скоб­ка ко­си­нус x пра­вая круг­лая скоб­ка плюс 16=0, новая стро­ка ко­рень из: на­ча­ло ар­гу­мен­та: y конец ар­гу­мен­та плюс 2 синус x=0. конец си­сте­мы \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/3c/3caca6764e8987f4b54ba50937c11b42.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Решим первое уравнение:Решим второе уравнение:  Серия  не удовлетворяет уравнению (*).Серия  удовлетворяет уравнению (*).Тогда  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol507815\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Решим пер­вое урав­не­ние:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/a9/a97a7cabd838d6139d4819550ec5070b.svg\" class=\"tex\" style=\"vertical-align:-22.3pt\" alt=\" со­во­куп­ность вы­ра­же­ний 4 в сте­пе­ни левая круг­лая скоб­ка ко­си­нус x пра­вая круг­лая скоб­ка =2,4 в сте­пе­ни левая круг­лая скоб­ка ко­си­нус x пра­вая круг­лая скоб­ка =8. конец со­во­куп­но­сти . рав­но­силь­но со­во­куп­ность вы­ра­же­ний ко­си­нус x = дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби , ко­си­нус x= дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби . конец со­во­куп­но­сти . рав­но­силь­но ко­си­нус x= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби рав­но­силь­но x=\\pm дробь: чис­ли­тель: зна­ме­на­тель: p конец дроби i3 плюс 2 Пи k, k при­над­ле­жит Z \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Решим вто­рое урав­не­ние: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ae/aecfa7f3775c118abde0f2036211c0fc.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" ко­рень из y = минус 2 синус x рав­но­силь­но си­сте­ма вы­ра­же­ний y=4 синус в квад­ра­те x, синус x\\leqslant0. левая круг­лая скоб­ка в сте­пе­ни * пра­вая круг­лая скоб­ка конец си­сте­мы .\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p class=\"left_margin\">Серия <img src=\"https://ege.sdamgia.ru/formula/svg/31/31d94a77918b55c728cafb4ac7362925.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x= дробь: чис­ли­тель: зна­ме­на­тель: p конец дроби i3 плюс 2 Пи k, k при­над­ле­жит Z \"> не удо­вле­тво­ря­ет урав­не­нию (*).</p><p class=\"left_margin\">Серия <img src=\"https://ege.sdamgia.ru/formula/svg/d8/d80df56d2c8f0f458b8ddc63b58ca08e.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x= минус дробь: чис­ли­тель: зна­ме­на­тель: p конец дроби i3 плюс 2 Пи k, k при­над­ле­жит Z \"> удо­вле­тво­ря­ет урав­не­нию (*).</p><p class=\"left_margin\">Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/9b/9b619479e42be6907bae42983ef6b8b1.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\"y=4 умно­жить на синус в квад­ра­те левая круг­лая скоб­ка минус дробь: чис­ли­тель: зна­ме­на­тель: p конец дроби i3 пра­вая круг­лая скоб­ка плюс 2 Пи k=4 умно­жить на левая круг­лая скоб­ка минус дробь: чис­ли­тель: ко­рень из 3 , зна­ме­на­тель: 2 конец дроби пра­вая круг­лая скоб­ка в квад­ра­те =3.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/f8/f8c40767f4c4eaabd0557e0d4c9cca23.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" левая круг­лая скоб­ка минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k;3 пра­вая круг­лая скоб­ка ,k при­над­ле­жит Z . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a9/a97a7cabd838d6139d4819550ec5070b.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/aecfa7f3775c118abde0f2036211c0fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/31d94a77918b55c728cafb4ac7362925.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d80df56d2c8f0f458b8ddc63b58ca08e.svg",
+            "https://ege.sdamgia.ru/formula/svg/9b/9b619479e42be6907bae42983ef6b8b1.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f8c40767f4c4eaabd0557e0d4c9cca23.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": [
+        507815,
+        507821,
+        511496
+    ]
+}

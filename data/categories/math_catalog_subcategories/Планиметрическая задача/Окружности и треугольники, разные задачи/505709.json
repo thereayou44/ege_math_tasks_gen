@@ -1,0 +1,27 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 505709,
+    "condition": {
+        "text": "Окружность радиуса  с центром на стороне AC треугольника ABC касается сторон AB и BC, равных соответственно 10 и 24.а)  Докажите, что треугольник ABC  — прямоугольный.б)  Найдите высоту, опущенную из вершины прямого угла треугольника ABC.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body645521\" class=\"pbody\"><p class=\"left_margin\">Окруж­ность ра­ди­у­са <img src=\"https://ege.sdamgia.ru/formula/svg/12/125a9e8b157842931360501966495153.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 120, зна­ме­на­тель: 17 конец дроби \"> с цен­тром на сто­ро­не <i>AC</i> тре­уголь­ни­ка <i>ABC</i> ка­са­ет­ся сто­рон <i>AB</i> и <i>BC</i>, рав­ных со­от­вет­ствен­но 10 и 24.</p><p class=\"left_margin\">а)  До­ка­жи­те, что тре­уголь­ник <i>ABC</i>  — пря­мо­уголь­ный.</p><p class=\"left_margin\">б)  Най­ди­те вы­со­ту, опу­щен­ную из вер­ши­ны пря­мо­го угла тре­уголь­ни­ка <i>ABC</i>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/12/125a9e8b157842931360501966495153.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Пусть центр окружности  — точка O. Запишем площадь ABC двумя способами: откуда  Значит, угол B равен 90°. Что и требовалось доказать.б)  Пусть BH  — искомая высота, тогда откудаОтвет: б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol505709\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=115198\" style=\"float:right;margin:10px;max-width:100%\">а)  Пусть центр окруж­но­сти  — точка <i>O</i>. За­пи­шем пло­щадь <i>ABC</i> двумя спо­со­ба­ми:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/77/772d97f1534790582eb68c35fc6241da.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби AB умно­жить на R плюс дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби BC умно­жить на R= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на AB умно­жить на BC умно­жить на синус B,\"></p><p class=\"left_margin\"></p></center> от­ку­да<p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/9d/9d10722a6ea5585618fd534d997861fb.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" синус B= дробь: чис­ли­тель: R левая круг­лая скоб­ка AB плюс BC пра­вая круг­лая скоб­ка , зна­ме­на­тель: AB умно­жить на BC конец дроби = дробь: чис­ли­тель: дробь: чис­ли­тель: 120, зна­ме­на­тель: 17 конец дроби умно­жить на 34, зна­ме­на­тель: 10 умно­жить на 24 конец дроби =1. \"></p><p class=\"left_margin\"></p></center> <p> Зна­чит, угол <i>B</i> равен 90°. Что и тре­бо­ва­лось до­ка­зать.</p><p class=\"left_margin\">б)  Пусть <i>BH</i>  — ис­ко­мая вы­со­та, тогда</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/6c/6ca8e18e3a8fd6b979b83bc6340f8116.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби BH умно­жить на AC= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби AB умно­жить на BC,\"></p><p class=\"left_margin\"></p></center> от­ку­да<p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/35/351972032f9bf0b41988d33f1ca76da1.svg\" class=\"tex\" style=\"vertical-align:-10.9pt\" alt=\"BH= дробь: чис­ли­тель: AB умно­жить на BC, зна­ме­на­тель: AC конец дроби = дробь: чис­ли­тель: 10 умно­жить на 24, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 10 в квад­ра­те плюс 24 в квад­ра­те конец ар­гу­мен­та конец дроби = дробь: чис­ли­тель: 10 умно­жить на 24, зна­ме­на­тель: 26 конец дроби = дробь: чис­ли­тель: 120, зна­ме­на­тель: 13 конец дроби . \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) <img src=\"https://ege.sdamgia.ru/formula/svg/b4/b4b0c443403e2285cb01625b4d1f9fa3.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 120, зна­ме­на­тель: 13 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/77/772d97f1534790582eb68c35fc6241da.svg",
+            "https://ege.sdamgia.ru/formula/svg/9d/9d10722a6ea5585618fd534d997861fb.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6ca8e18e3a8fd6b979b83bc6340f8116.svg",
+            "https://ege.sdamgia.ru/formula/svg/35/351972032f9bf0b41988d33f1ca76da1.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b4b0c443403e2285cb01625b4d1f9fa3.svg",
+            "/get_file?id=115198"
+        ]
+    },
+    "answer": "б)",
+    "topic_id": 17,
+    "analog_ids": []
+}

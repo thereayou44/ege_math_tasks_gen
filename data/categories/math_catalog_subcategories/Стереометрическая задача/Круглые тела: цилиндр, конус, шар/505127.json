@@ -1,0 +1,27 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 505127,
+    "condition": {
+        "text": "Радиус основания конуса с вершиной P равен 6, а длина его образующей равна 9. На окружности основания конуса выбраны точки A и B, делящие окружность на две дуги, длины которых относятся как 1 : 5. а)  Докажите, что сечение конуса плоскостью ABP  — равнобедренный остроугольный треугольник.б)  Найдите площадь сечения конуса плоскостью ABP.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body646107\" class=\"pbody\"><p class=\"left_margin\">Ра­ди­ус ос­но­ва­ния ко­ну­са с вер­ши­ной <i>P</i> равен 6, а длина его об­ра­зу­ю­щей равна 9. На окруж­но­сти ос­но­ва­ния ко­ну­са вы­бра­ны точки <i>A</i> и <i>B</i>, де­ля­щие окруж­ность на две дуги, длины ко­то­рых от­но­сят­ся как 1 : 5. </p><p class=\"left_margin\">а)  До­ка­жи­те, что се­че­ние ко­ну­са плос­ко­стью <i>ABP</i>  — рав­но­бед­рен­ный ост­ро­уголь­ный тре­уголь­ник.</p><p class=\"left_margin\">б)  Най­ди­те пло­щадь се­че­ния ко­ну­са плос­ко­стью <i>ABP</i>.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Пусть O  — центр основания конуса, M  — середина хорды  Дуга AB составляет шестую часть окружности основания, поэтому  Треугольник AOB  — равноcтороний, следовательно, Треугольник APB  — искомое сечение.  как образующие конуса. Треугольник равнобедренный, значит, его углы при основании - острые. Но угол P меньше угла B, так как он лежит напротив меньшей стороны, поэтому и угол P тоже острый. Таким образом, доказано, что треугольник  APB равнобедренный и остроугольный. б)  Отрезок PM  — высота треугольника APBПлощадь искомого сечения  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol505127\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=132394\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Пусть <i>O</i>  — центр ос­но­ва­ния ко­ну­са, <i>M</i>  — се­ре­ди­на хорды <img src=\"https://ege.sdamgia.ru/formula/svg/0c/0c6ed112a9eb109891082295b6e83622.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AB.\"> Дуга <i>AB</i> со­став­ля­ет ше­стую часть окруж­но­сти ос­но­ва­ния, по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/82/8292ab5dcec7741c7becfc103fcdaec7.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle AOB = 60 гра­ду­сов.\"> Тре­уголь­ник <i>AOB</i>  — равноcто­ро­ний, сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/8d/8d1aaa9a79d51252f2a6f9ee2c4ac0f6.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AB=AO=6.\"></p><p class=\"left_margin\">Тре­уголь­ник <i>APB</i>  — ис­ко­мое се­че­ние. <img src=\"https://ege.sdamgia.ru/formula/svg/5a/5a198fa9fd5de8208a6db9d8f6a33d12.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AP=PB,\"> как об­ра­зу­ю­щие ко­ну­са. Тре­уголь­ник рав­но­бед­рен­ный, зна­чит, его углы при ос­но­ва­нии - ост­рые. Но угол P мень­ше угла B, так как он лежит на­про­тив мень­шей сто­ро­ны, по­это­му и угол P тоже ост­рый. Таким об­ра­зом, до­ка­за­но, что тре­уголь­ник  <i>APB</i> рав­но­бед­рен­ный и ост­ро­уголь­ный.</p><p>&nbsp;</p><p class=\"left_margin\">б)  От­ре­зок <i>PM</i>  — вы­со­та тре­уголь­ни­ка <i>APB</i></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/07/076247601113d2bf1e18be797fd3d164.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"PM = ко­рень из: на­ча­ло ар­гу­мен­та: AP в квад­ра­те минус AM в квад­ра­те конец ар­гу­мен­та = 6 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та .\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Пло­щадь ис­ко­мо­го се­че­ния <img src=\"https://ege.sdamgia.ru/formula/svg/79/7924a6180744aef05c1756eaeb30211a.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби PM умно­жить на AB = 18 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/80/8004151254a0286d52aec68b0a0d31cd.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"18 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/0c/0c6ed112a9eb109891082295b6e83622.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/8292ab5dcec7741c7becfc103fcdaec7.svg",
+            "https://ege.sdamgia.ru/formula/svg/8d/8d1aaa9a79d51252f2a6f9ee2c4ac0f6.svg",
+            "https://ege.sdamgia.ru/formula/svg/5a/5a198fa9fd5de8208a6db9d8f6a33d12.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/076247601113d2bf1e18be797fd3d164.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/7924a6180744aef05c1756eaeb30211a.svg",
+            "https://ege.sdamgia.ru/formula/svg/80/8004151254a0286d52aec68b0a0d31cd.svg",
+            "/get_file?id=132394"
+        ]
+    },
+    "answer": "",
+    "topic_id": 14,
+    "analog_ids": []
+}

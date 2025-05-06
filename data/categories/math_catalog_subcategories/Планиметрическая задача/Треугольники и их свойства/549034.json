@@ -1,0 +1,26 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 549034,
+    "condition": {
+        "text": "В прямоугольном треугольнике АВС точка M лежит на катете АС, а точка N лежит на продолжении катета ВС за точку С причем СМ  =  ВС и CN = AC.а)  Отрезки СH и CF  — высоты треугольников АСВ и NCM соответственно. Докажите, что прямые СН и CF перпендикулярны.б)  Прямые ВМ и AN пересекаются в точке L. Найдите LM если ВС  =  4, а АС  =   8.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body396886\" class=\"pbody\"><p class=\"left_margin\">В пря­мо­уголь­ном тре­уголь­ни­ке <i>АВС</i> точка <i>M</i> лежит на ка­те­те <i>АС</i>, а точка <i>N</i> лежит на про­дол­же­нии ка­те­та <i>ВС</i> за точку <i>С</i> при­чем <i>СМ</i>  =  <i>ВС </i>и <i>CN</i> =&nbsp;<i>AC</i>.</p><p class=\"left_margin\">а)  От­рез­ки <i>СH</i> и <i>CF</i>  — вы­со­ты тре­уголь­ни­ков <i>АСВ</i> и <i>NCM</i> со­от­вет­ствен­но. До­ка­жи­те, что пря­мые <i>СН</i> и <i>CF</i> пер­пен­ди­ку­ляр­ны.</p><p class=\"left_margin\">б)  Пря­мые <i>ВМ </i>и <i>AN</i> пе­ре­се­ка­ют­ся в точке <i>L</i>. Най­ди­те <i>LM</i> если <i>ВС</i>  =  4, а <i>АС</i>  =   8.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Прямоугольные треугольники ABC и NMC равны по двум катетам. Пусть угол BAC равен α, тогда по свойству высоты в прямоугольном треугольнике:откудаб)  По условию CN  =  AC и CM  =  BC, поэтомуоткуда  то есть ALM  — равнобедренный прямоугольный треугольник. Значит,Ответ:  б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol549034\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=147469\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Пря­мо­уголь­ные тре­уголь­ни­ки <i>ABC</i> и <i>NMC</i> равны по двум ка­те­там. Пусть угол <i>BAC </i>равен α, тогда по свой­ству вы­со­ты в пря­мо­уголь­ном тре­уголь­ни­ке:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/16/16d74985d9f2f8bbf7332a435d7c946a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle ACH = 90 гра­ду­сов минус альфа , \\angle FCM = \\angle CNM= \\angle CAB = альфа , \"></p><p class=\"left_margin\"></p></center><p>от­ку­да</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/9c/9c69f54d2b8fdc75950f5214db3be129.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\angle FCH = \\angle FCM плюс \\angle ACH = альфа плюс левая круг­лая скоб­ка 90 гра­ду­сов минус альфа пра­вая круг­лая скоб­ка = 90 гра­ду­сов.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">б)  По усло­вию <i>CN</i>  =  <i>AC</i> и <i>CM</i>  =  <i>BC</i>, по­это­му</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/29/298f5dbc3d0b7557af1e97413690c711.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle LAM = \\angle NAC = 45 гра­ду­сов, \\angle AML=\\angle CMB = 45 гра­ду­сов,\"></p><p class=\"left_margin\"></p></center><p>от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/5b/5b28eda676336a3c82ab41c9e926decc.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle ALM=90 гра­ду­сов, \"> то есть<i> ALM</i>  — рав­но­бед­рен­ный пря­мо­уголь­ный тре­уголь­ник. Зна­чит,</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/25/25f6783116583194e16d1efcdd0cbbe1.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"LM = дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби AM = 2 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та . \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  б) <img src=\"https://ege.sdamgia.ru/formula/svg/f4/f4d37e7851c16136e1b284902603ca2e.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/16/16d74985d9f2f8bbf7332a435d7c946a.svg",
+            "https://ege.sdamgia.ru/formula/svg/9c/9c69f54d2b8fdc75950f5214db3be129.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/298f5dbc3d0b7557af1e97413690c711.svg",
+            "https://ege.sdamgia.ru/formula/svg/5b/5b28eda676336a3c82ab41c9e926decc.svg",
+            "https://ege.sdamgia.ru/formula/svg/25/25f6783116583194e16d1efcdd0cbbe1.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f4d37e7851c16136e1b284902603ca2e.svg",
+            "/get_file?id=147469"
+        ]
+    },
+    "answer": "б)",
+    "topic_id": 17,
+    "analog_ids": []
+}

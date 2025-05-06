@@ -1,0 +1,25 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 507887,
+    "condition": {
+        "text": "В основании правильной треугольной призмы ABCA1B1C1 лежит треугольник со стороной 6. Высота призмы равна 4. Точка N  — середина ребра A1C1.а)  Постройте сечение призмы плоскостью BAN.б)  Найдите периметр этого сечения.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body643347\" class=\"pbody\"><p class=\"left_margin\">В ос­но­ва­нии пра­виль­ной тре­уголь­ной приз­мы <i>ABCA</i><sub>1</sub><i>B</i><sub>1</sub><i>C</i><sub>1</sub> лежит тре­уголь­ник со сто­ро­ной 6. Вы­со­та приз­мы равна 4. Точка <i>N</i>  — се­ре­ди­на ребра <i>A</i><sub>1</sub><i>C</i><sub>1</sub>.</p><p class=\"left_margin\">а)  По­строй­те се­че­ние приз­мы плос­ко­стью <i>BAN</i>.</p><p class=\"left_margin\">б)  Най­ди­те пе­ри­метр этого се­че­ния.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Проведём через точку N прямую, параллельную прямой AB, до пересечения с прямой B1C1 в точке K. Трапеция ABKN  — искомое сечение.б)  Имеем A1N= 3, так как точка N  — середина ребра A1C1. Значит,  Аналогично BK = 5.Далее NK = 3, как средняя линия треугольника A1B1C1. Следовательно, искомый периметр сечения равен 6 + 5 + 5 + 3 = 19. Ответ: 19.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol507887\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=141432\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Про­ведём через точку <i>N</i> пря­мую, па­рал­лель­ную пря­мой <i>AB</i>, до пе­ре­се­че­ния с пря­мой <i>B</i><sub>1</sub><i>C</i><sub>1</sub> в точке <i>K</i>. Тра­пе­ция <i>ABKN</i>  — ис­ко­мое се­че­ние.</p><p class=\"left_margin\">б)  Имеем <i>A</i><sub>1</sub><i>N</i>= 3, так как точка <i>N</i>  — се­ре­ди­на ребра <i>A</i><sub>1</sub><i>C</i><sub>1</sub>. Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/a9/a9bd19e75649d48e2f0ac6d6c4bff2f3.svg\" class=\"tex\" style=\"vertical-align:-2.0pt\" alt=\"AN= ко­рень из: на­ча­ло ар­гу­мен­та: 16 плюс 9 конец ар­гу­мен­та =5.\"> Ана­ло­гич­но <i>BK</i> = 5.</p><p class=\"left_margin\">Далее <i>NK</i> = 3, как сред­няя линия тре­уголь­ни­ка <i>A</i><sub>1</sub><i>B</i><sub>1</sub><i>C</i><sub>1</sub>. Сле­до­ва­тель­но, ис­ко­мый пе­ри­метр се­че­ния равен 6 + 5 + 5 + 3 = 19.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 19.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a9/a9bd19e75649d48e2f0ac6d6c4bff2f3.svg",
+            "/get_file?id=141432"
+        ]
+    },
+    "answer": "19.",
+    "topic_id": 14,
+    "analog_ids": [
+        507887,
+        507910,
+        510460
+    ]
+}

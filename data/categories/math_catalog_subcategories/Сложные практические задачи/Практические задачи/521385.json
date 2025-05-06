@@ -1,0 +1,22 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521385,
+    "condition": {
+        "text": "В начале января 2018 года планируется взять кредит в банке на 4 года на S млн.  рублей, где  S  — целое число. Условия его возврата таковы:     — каждый июль долг возрастает на 10% по сравнению с началом текущего года;     — с августа по декабрь каждого года необходимо выплатить часть долга;   — В январе каждого года долг должен составлять часть кредита в соответствии со следующей таблицей: Начало года2018 2019202020212022Долг (в млн. рублей) S0,8S0,5S0,3S0 Найдите  наименьшее  значение  S,  при  котором  сумма  выплат  банку  за  все  4  года составит не менее 10 млн. рублей.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629333\" class=\"pbody\"><p class=\"left_margin\">В на­ча­ле ян­ва­ря 2018 года пла­ни­ру­ет­ся взять кре­дит в банке на 4 года на S млн.  руб­лей, где  S  — целое число. Усло­вия его воз­вра­та та­ко­вы:   </p><p>  — каж­дый июль долг воз­рас­та­ет на 10% по срав­не­нию с на­ча­лом те­ку­ще­го года;   </p><p>  — с ав­гу­ста по де­кабрь каж­до­го года не­об­хо­ди­мо вы­пла­тить часть долга; </p><p>  — В ян­ва­ре каж­до­го года долг дол­жен со­став­лять часть кре­ди­та в со­от­вет­ствии со сле­ду­ю­щей таб­ли­цей:</p><p>&nbsp;</p><p></p><table style=\"margin:auto\"><tbody><tr><td style=\"text-align:center\">На­ча­ло года</td><td style=\"text-align:center\">2018 </td><td style=\"text-align:center\">2019</td><td style=\"text-align:center\">2020</td><td style=\"text-align:center\">2021</td><td style=\"text-align:center\">2022</td></tr><tr><td style=\"text-align:center\">Долг (в млн. <p>руб­лей) </p></td><td style=\"text-align:center\"><i>S</i></td><td style=\"text-align:center\">0,8<i>S</i></td><td style=\"text-align:center\">0,5<i>S</i></td><td style=\"text-align:center\">0,3<i>S</i></td><td style=\"text-align:center\">0</td></tr></tbody></table><p>&nbsp;</p><p class=\"left_margin\">Най­ди­те  наи­мень­шее  зна­че­ние  S,  при  ко­то­ром  сумма  вы­плат  банку  за  все  4  года со­ста­вит не менее 10 млн. руб­лей.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Сумма выплат составит  Значит,  откуда минимальное S это  Ответ: 8.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521385\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Сумма вы­плат со­ста­вит <span data-width=\"640\" data-formulahash=\"9f109be1519c24184101e546a633bd2c\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/9f/9f109be1519c24184101e546a633bd2c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 1,1S минус 0,8S пра­вая круг­лая скоб­ка плюс левая круг­лая скоб­ка 0,88S минус 0,5S пра­вая круг­лая скоб­ка плюс левая круг­лая скоб­ка 0,55S минус 0,3S пра­вая круг­лая скоб­ка плюс левая круг­лая скоб­ка 0,33S минус 0 пра­вая круг­лая скоб­ка =1,26S\"></span></p><p>&nbsp;</p><p class=\"left_margin\">Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/57/577a5f35fdb5556750c904fc4f174904.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1,26S боль­ше или равно 10,\"> от­ку­да ми­ни­маль­ное <i>S</i> это <img src=\"https://ege.sdamgia.ru/formula/svg/25/25419da0c8dabdf8e3437f3cbbd94fd6.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"8.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 8.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/9f/9f109be1519c24184101e546a633bd2c.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/577a5f35fdb5556750c904fc4f174904.svg",
+            "https://ege.sdamgia.ru/formula/svg/25/25419da0c8dabdf8e3437f3cbbd94fd6.svg"
+        ]
+    },
+    "answer": "8.",
+    "topic_id": null,
+    "analog_ids": []
+}

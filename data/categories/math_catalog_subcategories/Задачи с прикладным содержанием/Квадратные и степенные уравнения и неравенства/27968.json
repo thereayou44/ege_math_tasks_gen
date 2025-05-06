@@ -1,0 +1,61 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27968,
+    "condition": {
+        "text": "На верфи инженеры проектируют новый аппарат для погружения на небольшие глубины. Конструкция имеет форму сферы, а значит, действующая на аппарат выталкивающая (архимедова) сила, выражаемая в ньютонах, будет определяться по формуле:   где  − постоянная, r − радиус аппарата в метрах,  кг/м3 − плотность воды, а g − ускорение свободного падения (считайте  Н/кг). Каков может быть максимальный радиус аппарата, чтобы выталкивающая сила при погружении была не больше, чем 336 000 Н? Ответ выразите в метрах.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918460\" class=\"pbody\"><p class=\"left_margin\">На верфи ин­же­не­ры про­ек­ти­ру­ют новый ап­па­рат для по­гру­же­ния на не­боль­шие глу­би­ны. Кон­струк­ция имеет форму сферы, а зна­чит, дей­ству­ю­щая на ап­па­рат вы­тал­ки­ва­ю­щая (ар­хи­ме­до­ва) сила, вы­ра­жа­е­мая в нью­то­нах, будет опре­де­лять­ся по фор­му­ле:  <img src=\"https://ege.sdamgia.ru/formula/svg/39/393aa68d9115794bb21c7df63824aee0.svg\" class=\"tex\" style=\"vertical-align:-3.3pt\" alt=\"F_A = альфа \\rho gr в кубе ,\"> где <img src=\"https://ege.sdamgia.ru/formula/svg/95/959060f5e7c6ea128723b9bf4a8db97d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" альфа = 4,2\"> − по­сто­ян­ная, <i>r</i> − ра­ди­ус ап­па­ра­та в мет­рах, <img src=\"https://ege.sdamgia.ru/formula/svg/c0/c0ba9202b1fde2e54cb71de864126bad.svg\" class=\"tex\" style=\"vertical-align:-3.3pt\" alt=\"\\rho = 1000\"> кг/м<sup>3</sup> − плот­ность воды, а <i>g</i> − уско­ре­ние сво­бод­но­го па­де­ния (счи­тай­те <img src=\"https://ege.sdamgia.ru/formula/svg/e7/e79477c53628c7df7627b460b15f5cc5.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"g = 10\"> Н/кг). Каков может быть мак­си­маль­ный ра­ди­ус ап­па­ра­та, чтобы вы­тал­ки­ва­ю­щая сила при по­гру­же­нии была не боль­ше, чем 336 000 Н? Ответ вы­ра­зи­те в мет­рах.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/39/393aa68d9115794bb21c7df63824aee0.svg",
+            "https://ege.sdamgia.ru/formula/svg/95/959060f5e7c6ea128723b9bf4a8db97d.svg",
+            "https://ege.sdamgia.ru/formula/svg/c0/c0ba9202b1fde2e54cb71de864126bad.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e79477c53628c7df7627b460b15f5cc5.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Задача сводится к решению неравенства  при заданных значениях плотности воды и ускорении свободного падения: м. Ответ: 2.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27968\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">За­да­ча сво­дит­ся к ре­ше­нию не­ра­вен­ства <img src=\"https://ege.sdamgia.ru/formula/svg/e6/e625dedae3b69ea345cad3dcd0779cc9.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"F_A мень­ше или равно 336000\"> при за­дан­ных зна­че­ни­ях плот­но­сти воды и уско­ре­нии сво­бод­но­го па­де­ния:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/fc/fc25663215295888a78164ce43c8ff8d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"F_А мень­ше или равно 336000 рав­но­силь­но 4,2 умно­жить на 1000 умно­жить на 10 умно­жить на r в кубе мень­ше или равно 336000 рав­но­силь­но r в кубе мень­ше или равно 8 рав­но­силь­но r мень­ше или равно 2\"> м.</p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ</span>: 2.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e6/e625dedae3b69ea345cad3dcd0779cc9.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fc25663215295888a78164ce43c8ff8d.svg"
+        ]
+    },
+    "answer": "2",
+    "topic_id": 9,
+    "analog_ids": [
+        27968,
+        41787,
+        41791,
+        28183,
+        41787,
+        41791,
+        28183,
+        28185,
+        28187,
+        28189,
+        28191,
+        41743,
+        41745,
+        41747,
+        41749,
+        41751,
+        41753,
+        41755,
+        41757,
+        41759,
+        41761,
+        41763,
+        41765,
+        41767,
+        41769,
+        41771,
+        41773,
+        41775,
+        41777,
+        41779,
+        41781,
+        41783,
+        41785,
+        41789
+    ]
+}

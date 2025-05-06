@@ -1,0 +1,58 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 510447,
+    "condition": {
+        "text": "Найдите наибольшее значение функции  на отрезке [−3; 3].",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body632595\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те наи­боль­шее зна­че­ние функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/99/99bc0c0219575e78b9c68e7af2a6452b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=3 плюс 27x минус x в кубе \"> на от­рез­ке [−3; 3].</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/99/99bc0c0219575e78b9c68e7af2a6452b.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Найдем производную заданной функции: Найдем нули производной: Определим знаки производной функции и изобразим на рисунке поведение функции: На отрезке  заданная функция возрастает. Она принимает наибольшее значение в точке  Найдем его: Ответ: 57.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol510447\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Най­дем про­из­вод­ную за­дан­ной функ­ции: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/7d/7d4fd9fb1256b6cde0c8fdd858f481e6.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y'=27 минус 3x в квад­ра­те .\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Най­дем нули про­из­вод­ной: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f1/f1893a08b8c704a27c750c1463f83d22.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\"27 минус 3x в квад­ра­те =0 рав­но­силь­но x в квад­ра­те =9 рав­но­силь­но со­во­куп­ность вы­ра­же­ний x= минус 3, x=3. конец со­во­куп­но­сти \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Опре­де­лим знаки про­из­вод­ной функ­ции и изоб­ра­зим на ри­сун­ке по­ве­де­ние функ­ции: </p><p><img src=\"/get_file?id=108383\" style=\"margin:10px auto;display:block;max-width:100%\"></p><p class=\"left_margin\">На от­рез­ке <img src=\"https://ege.sdamgia.ru/formula/svg/a2/a28243d9953ef1658c0abe3b3c518d08.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка −3; 3 пра­вая квад­рат­ная скоб­ка \"> за­дан­ная функ­ция воз­рас­та­ет. Она при­ни­ма­ет наи­боль­шее зна­че­ние в точке <img src=\"https://ege.sdamgia.ru/formula/svg/47/47edeb48db51f023fd03b4cb0946bc76.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=3.\"> Най­дем его:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/1a/1a572078580b370f297d5a05737aa72d.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y левая круг­лая скоб­ка 3 пра­вая круг­лая скоб­ка =3 плюс 27 умно­жить на 3 минус 3 в кубе =3 плюс 81 минус 27=57.\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ</span>: 57.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/7d/7d4fd9fb1256b6cde0c8fdd858f481e6.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f1893a08b8c704a27c750c1463f83d22.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a28243d9953ef1658c0abe3b3c518d08.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/47edeb48db51f023fd03b4cb0946bc76.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1a572078580b370f297d5a05737aa72d.svg",
+            "/get_file?id=108383"
+        ]
+    },
+    "answer": "57",
+    "topic_id": 12,
+    "analog_ids": [
+        77438,
+        127287,
+        127335,
+        127287,
+        127335,
+        505385,
+        505406,
+        127289,
+        127291,
+        127293,
+        127295,
+        127297,
+        127299,
+        127301,
+        127303,
+        127305,
+        127307,
+        127309,
+        127311,
+        127313,
+        127315,
+        127317,
+        127319,
+        127321,
+        127323,
+        127325,
+        127327,
+        127329,
+        127331,
+        127333
+    ]
+}

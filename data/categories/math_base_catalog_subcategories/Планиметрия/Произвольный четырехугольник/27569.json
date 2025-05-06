@@ -1,0 +1,16 @@
+{
+    "id": "27569",
+    "topic": "Д15",
+    "condition": {
+        "text": "Найдите площадь четырехугольника, вершины которого имеют координаты (8;0), (10;8), (2;10), (0;2).",
+        "images": [
+            "https://mathb-ege.sdamgia.ru/get_file?id=213"
+        ]
+    },
+    "answer": "68",
+    "analogs": [
+        "27569",
+        "21347"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=27569"
+}

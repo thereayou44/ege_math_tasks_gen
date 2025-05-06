@@ -1,0 +1,52 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27617,
+    "condition": {
+        "text": "Найдите площадь прямоугольного треугольника, если его катет и гипотенуза равны соответственно 6 и 10.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918813\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=138129\" style=\"float:right;margin:10px;max-width:100%\">Най­ди­те пло­щадь пря­мо­уголь­но­го тре­уголь­ни­ка, если его катет и ги­по­те­ну­за равны со­от­вет­ствен­но 6 и 10.</p></div>",
+        "image_urls": [
+            "/get_file?id=138129"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Площадь прямоугольного треугольника равна половине произведения его катетов. По теореме Пифагора a2  =  100 − 36  =  64, a  =  8, где a  — второй катет. Поэтому Ответ: 24.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27617\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пло­щадь пря­мо­уголь­но­го тре­уголь­ни­ка равна по­ло­ви­не про­из­ве­де­ния его ка­те­тов. По тео­ре­ме Пи­фа­го­ра <i>a</i><sup>2</sup>  =  100 − 36  =  64, <i>a</i>  =  8, где <i>a</i>  — вто­рой катет. По­это­му</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/50/50a412ca329eae40772ddfc050a64f40.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на 6 умно­жить на 8=24. \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 24.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/50/50a412ca329eae40772ddfc050a64f40.svg"
+        ]
+    },
+    "answer": "24",
+    "topic_id": 1,
+    "analog_ids": [
+        27617,
+        56455,
+        56457,
+        56459,
+        56455,
+        56457,
+        56459,
+        56461,
+        56463,
+        56465,
+        56467,
+        56469,
+        56471,
+        56473,
+        56475,
+        56477,
+        56479,
+        56481,
+        56483,
+        56485,
+        56487,
+        56489,
+        56491,
+        56493,
+        56495,
+        56497,
+        56499,
+        56501,
+        56503
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 507460,
+    "condition": {
+        "text": "В правильной шестиугольной призме ABCDEFA1B1C1D1E1F1, все рёбра равны 1.а)  Докажите, что точки D1, E и F1 лежат на сфере с центром в точке B.б)  Найдите расстояние от точки B до прямой F1E1.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body643256\" class=\"pbody\"><p class=\"left_margin\">В пра­виль­ной ше­сти­уголь­ной приз­ме <i>ABCDEFA</i><sub>1</sub><i>B</i><sub>1</sub><i>C</i><sub>1</sub><i>D</i><sub>1</sub><i>E</i><sub>1</sub><i>F</i><sub>1</sub>, все рёбра равны 1.</p><p class=\"left_margin\">а)  До­ка­жи­те, что точки <i>D</i><sub>1</sub>, <i>E</i> и <i>F</i><sub>1</sub> лежат на сфере с цен­тром в точке <i>B</i>.</p><p class=\"left_margin\">б)  Най­ди­те рас­сто­я­ние от точки <i>B</i> до пря­мой <i>F</i><sub>1</sub><i>E</i><sub>1</sub>.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Достаточно доказать, что равны между собой отрезки BD1, BE и BF1.Действительно, BE  =  2 как большая диагональ правильного шестиугольника со стороной 1. Далее, так как меньшая диагональ правильного шестиугольника со стороной 1 равна  Тогда  откуда BD1  =  2. Совершенно аналогично BF1  =  2. Поэтому точки D1, E, F1 лежат на сфере радиуса 2 с центром B. Что и требовалось доказать.б)  Проведем отрезки BF и BF1, тогда отрезок BF перпендикулярен BC, поскольку  а  Отрезок BF  — проекция BF1 на плоскость основания. По теореме о трех перпендикулярах отрезок BF1 перпендикулярен стороне E1F1. Таким образом, искомое расстояние  — длина отрезка BF1.Рассмотрим треугольник BFF1. Он прямоугольный,  и  По теореме Пифагора находим:  Ответ: б)  2.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol507460\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=145429\" style=\"float:right;margin:10px;max-width:100%\">а)  До­ста­точ­но до­ка­зать, что равны между собой от­рез­ки <i>BD</i><sub>1</sub>, <i>BE</i> и <i>BF</i><sub>1</sub>.</p><p class=\"left_margin\">Дей­стви­тель­но, <i>BE</i>  =  2 как боль­шая диа­го­наль пра­виль­но­го ше­сти­уголь­ни­ка со сто­ро­ной 1. Далее, так как мень­шая диа­го­наль пра­виль­но­го ше­сти­уголь­ни­ка со сто­ро­ной 1 равна <img src=\"https://ege.sdamgia.ru/formula/svg/d1/d1b2e52808d71aa89a427c7b04b4ed9b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та .\"> Тогда </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/27/2706c304443d5f38017a38eb89301fc0.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"BD_1 в квад­ра­те = BD в квад­ра­те плюс DD_1 в квад­ра­те = 3 плюс 1 = 4,\"></p><p class=\"left_margin\"></p></center><p> от­ку­да <i>BD</i><sub>1</sub>  =  2. Со­вер­шен­но ана­ло­гич­но <i>BF</i><sub>1</sub>  =  2. По­это­му точки <i>D</i><sub>1</sub>, <i>E</i>, <i>F</i><sub>1</sub> лежат на сфере ра­ди­у­са 2 с цен­тром <i>B</i>. Что и тре­бо­ва­лось до­ка­зать.</p><p class=\"left_margin\">б)  Про­ве­дем от­рез­ки <i>BF</i> и <i>BF</i><sub>1</sub>, тогда от­ре­зок <i>BF</i> пер­пен­ди­ку­ля­рен <i>BC</i>, по­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/35/357894dbd63272b9c5b5d4133369f740.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle CBA = 120 гра­ду­сов ,\"> а <img src=\"https://ege.sdamgia.ru/formula/svg/91/91934b17b595684ee4b420c10fe36596.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle ABF = 30 гра­ду­сов .\"> От­ре­зок <i>BF</i>  — про­ек­ция <i>BF</i><sub>1</sub> на плос­кость ос­но­ва­ния. По тео­ре­ме о трех пер­пен­ди­ку­ля­рах от­ре­зок <i>BF</i><sub>1</sub> пер­пен­ди­ку­ля­рен сто­ро­не <i>E</i><sub>1</sub><i>F</i><sub>1</sub>. Таким об­ра­зом, ис­ко­мое рас­сто­я­ние  — длина от­рез­ка <i>BF</i><sub>1</sub>.</p><p class=\"left_margin\">Рас­смот­рим тре­уголь­ник <i>BFF</i><sub>1</sub>. Он пря­мо­уголь­ный, <img src=\"https://ege.sdamgia.ru/formula/svg/90/9080f97ca6dd5c824632567d76339c17.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BF = ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/63/63166fa98c5f4dee1cfb952923f5f7ab.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"FF_1 = 1.\"> По тео­ре­ме Пи­фа­го­ра на­хо­дим: <img src=\"https://ege.sdamgia.ru/formula/svg/6d/6d500a259171918087f066d623933a6f.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"BF_1 = ко­рень из: на­ча­ло ар­гу­мен­та: 3 плюс 1 конец ар­гу­мен­та = 2.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б)  2.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d1/d1b2e52808d71aa89a427c7b04b4ed9b.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/2706c304443d5f38017a38eb89301fc0.svg",
+            "https://ege.sdamgia.ru/formula/svg/35/357894dbd63272b9c5b5d4133369f740.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/91934b17b595684ee4b420c10fe36596.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/9080f97ca6dd5c824632567d76339c17.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/63166fa98c5f4dee1cfb952923f5f7ab.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6d500a259171918087f066d623933a6f.svg",
+            "/get_file?id=145429"
+        ]
+    },
+    "answer": "б)  2.",
+    "topic_id": 14,
+    "analog_ids": []
+}

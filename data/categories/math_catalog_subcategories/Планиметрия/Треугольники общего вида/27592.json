@@ -1,0 +1,54 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27592,
+    "condition": {
+        "text": "Площадь треугольника ABC равна 4, DE   — средняя линия, параллельная стороне AB. Найдите площадь треугольника CDE.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918836\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=110221\" style=\"float:right;margin:10px;max-width:100%\">Пло­щадь тре­уголь­ни­ка <i>ABC</i> равна 4, <i>DE </i>  — сред­няя линия, па­рал­лель­ная сто­ро­не <i>AB</i>. Най­ди­те пло­щадь тре­уголь­ни­ка <i>CDE</i>.</p></div>",
+        "image_urls": [
+            "/get_file?id=110221"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Средняя линия отсекает от треугольника подобный ему с коэффициентом подобия  Площади подобных фигур относятся как квадрат коэффициента подобия. ТогдаОтвет: 1.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27592\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Сред­няя линия от­се­ка­ет от тре­уголь­ни­ка по­доб­ный ему с ко­эф­фи­ци­ен­том по­до­бия <img src=\"https://ege.sdamgia.ru/formula/svg/b9/b97fcf083d92a4aa858e4dfd748ded7f.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби . \"> Пло­ща­ди по­доб­ных фигур от­но­сят­ся как квад­рат ко­эф­фи­ци­ен­та по­до­бия. Тогда</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/12/12bc6a6d5fded8854106b73a995afb19.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S= дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби умно­жить на 4=1. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing:2px \">Ответ</span>: 1.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b9/b97fcf083d92a4aa858e4dfd748ded7f.svg",
+            "https://ege.sdamgia.ru/formula/svg/12/12bc6a6d5fded8854106b73a995afb19.svg"
+        ]
+    },
+    "answer": "1",
+    "topic_id": 1,
+    "analog_ids": [
+        27592,
+        55305,
+        55353,
+        549312,
+        55305,
+        55353,
+        549312,
+        55307,
+        55309,
+        55311,
+        55313,
+        55315,
+        55317,
+        55319,
+        55321,
+        55323,
+        55325,
+        55327,
+        55329,
+        55331,
+        55333,
+        55335,
+        55337,
+        55339,
+        55341,
+        55343,
+        55345,
+        55347,
+        55349,
+        55351
+    ]
+}

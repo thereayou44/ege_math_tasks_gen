@@ -1,0 +1,17 @@
+{
+    "id": "515747",
+    "topic": "13",
+    "condition": {
+        "text": "В прямоугольном параллелепипеде ABCDA1B1C1D1 рёбра CD, CB и диагональ CD1 боковой грани равны соответственно 2, 4 и Найдите площадь поверхности параллелепипеда ABCDA1B1C1D1.",
+        "images": [
+            "https://mathb-ege.sdamgia.ru/get_file?id=64360",
+            "https://ege.sdamgia.ru/formula/svg/1c/1c823de82af72b2b388870a274926715.svg"
+        ]
+    },
+    "answer": "88",
+    "analogs": [
+        "515747",
+        "515769"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=515747"
+}

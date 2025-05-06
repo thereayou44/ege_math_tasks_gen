@@ -1,0 +1,29 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 1024,
+    "condition": {
+        "text": "На тарелке 16 пирожков: 7 с рыбой, 5 с вареньем и 4 с вишней. Юля наугад выбирает один пирожок. Найдите вероятность того, что он окажется с вишней.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body944892\" class=\"pbody\"><p class=\"left_margin\">На та­рел­ке 16 пи­рож­ков: 7 с рыбой, 5 с ва­ре­ньем и 4 с виш­ней. Юля на­у­гад вы­би­ра­ет один пи­ро­жок. Най­ди­те ве­ро­ят­ность того, что он ока­жет­ся с виш­ней.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. вероятность того, что пирожок окажется с вишней равна Ответ: 0,25.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol1024\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">ве­ро­ят­ность того, что пи­ро­жок ока­жет­ся с виш­ней равна</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/18/18396f626aca1503ffa80281396d1981.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 4, зна­ме­на­тель: 16 конец дроби = дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби =0,25. \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 0,25.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/18/18396f626aca1503ffa80281396d1981.svg"
+        ]
+    },
+    "answer": "0,25",
+    "topic_id": 4,
+    "analog_ids": [
+        1024,
+        1025,
+        1026,
+        1027,
+        1025,
+        1026,
+        1027,
+        1028
+    ]
+}

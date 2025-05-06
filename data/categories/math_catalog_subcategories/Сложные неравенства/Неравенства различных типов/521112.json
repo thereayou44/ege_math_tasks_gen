@@ -1,0 +1,35 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521112,
+    "condition": {
+        "text": "Решите неравенство ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body630116\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те&nbsp;не­ра­вен­ство&nbsp;<img src=\"https://ege.sdamgia.ru/formula/svg/20/20655f5765521808903294d9aa712e7a.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\"\\log в квад­ра­те _x левая круг­лая скоб­ка 3x минус 1 пра­вая круг­лая скоб­ка минус ло­га­рифм по ос­но­ва­нию x левая круг­лая скоб­ка 3x минус 1 пра­вая круг­лая скоб­ка \\geqslant0.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/20/20655f5765521808903294d9aa712e7a.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Обозначая  получим  то есть  или   При  получим  или  Второе всегда верно. При  получим  или  Первое верно при  второе при  Еще следует учесть, что  иначе логарифмы не определены.  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521112\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Обо­зна­чая <img src=\"https://ege.sdamgia.ru/formula/svg/19/197ebeb50d1aec9a9fdaef1402220545.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\" ло­га­рифм по ос­но­ва­нию x левая круг­лая скоб­ка 3x минус 1 пра­вая круг­лая скоб­ка =t\"> по­лу­чим <img src=\"https://ege.sdamgia.ru/formula/svg/70/7064274cfb534976db34ca8b177cc0ec.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"t в квад­ра­те минус t боль­ше или равно 0,\"> то есть <img src=\"https://ege.sdamgia.ru/formula/svg/cd/cdcf3cff25957fb1fe4c1fcbdc3244e0.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"t мень­ше или равно 0\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/64/64d2b12f02b40afcd924eb70e0260063.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"t боль­ше или равно 1.\">  При <img src=\"https://ege.sdamgia.ru/formula/svg/3d/3d3e00e0b84ad6b64a3461fe9092698a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x боль­ше 1\"> по­лу­чим <img src=\"https://ege.sdamgia.ru/formula/svg/ff/ff7faef4520c8cbb12a2eaa4fedd9308.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"3x минус 1 мень­ше или равно 1\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/de/de8721449d3e8e78603225f6b8f1fb01.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"3x минус 1 боль­ше или равно x.\"> Вто­рое все­гда верно. При <img src=\"https://ege.sdamgia.ru/formula/svg/aa/aa135e67321926f181d788c1a35afdf2.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"0 мень­ше x мень­ше 1\"> по­лу­чим <img src=\"https://ege.sdamgia.ru/formula/svg/31/31cdf4c6dfb80bdcba5ec9344703be63.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"3x минус 1 боль­ше или равно 1\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/c2/c25c850934f964927d84263ec0ac6b2f.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"3x минус 1 мень­ше или равно x.\"> Пер­вое верно при <img src=\"https://ege.sdamgia.ru/formula/svg/fe/fedef2959174e04b15259cb88a96333b.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x боль­ше или равно дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби ,\"> вто­рое при <img src=\"https://ege.sdamgia.ru/formula/svg/5a/5a8d5138cebc405cbfafcef04b4d8213.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x мень­ше дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби .\"> Еще сле­ду­ет учесть, что <img src=\"https://ege.sdamgia.ru/formula/svg/39/39060e1c871d579d7d89a5ba31c4446b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"3x минус 1 боль­ше 0,\"> иначе ло­га­риф­мы не опре­де­ле­ны. </p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/08/083d31402de69d8aeb4a99d4a373c954.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая круг­лая скоб­ка дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби ; дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби пра­вая квад­рат­ная скоб­ка \\cup левая квад­рат­ная скоб­ка дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби ; 1 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 1; плюс бес­ко­неч­ность пра­вая круг­лая скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/19/197ebeb50d1aec9a9fdaef1402220545.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/7064274cfb534976db34ca8b177cc0ec.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cdcf3cff25957fb1fe4c1fcbdc3244e0.svg",
+            "https://ege.sdamgia.ru/formula/svg/64/64d2b12f02b40afcd924eb70e0260063.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3d3e00e0b84ad6b64a3461fe9092698a.svg",
+            "https://ege.sdamgia.ru/formula/svg/ff/ff7faef4520c8cbb12a2eaa4fedd9308.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/de8721449d3e8e78603225f6b8f1fb01.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa135e67321926f181d788c1a35afdf2.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/31cdf4c6dfb80bdcba5ec9344703be63.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c25c850934f964927d84263ec0ac6b2f.svg",
+            "https://ege.sdamgia.ru/formula/svg/fe/fedef2959174e04b15259cb88a96333b.svg",
+            "https://ege.sdamgia.ru/formula/svg/5a/5a8d5138cebc405cbfafcef04b4d8213.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/39060e1c871d579d7d89a5ba31c4446b.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/083d31402de69d8aeb4a99d4a373c954.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

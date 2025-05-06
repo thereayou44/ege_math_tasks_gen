@@ -1,0 +1,34 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 505910,
+    "condition": {
+        "text": "Найдите все значения параметра a, при которых система уравненийимеет ровно 4 различных решения.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body644810\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния па­ра­мет­ра <i>a</i>, при ко­то­рых си­сте­ма урав­не­ний</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/52/521cda62620217e8ac6ed2ca8c0c3395.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний ко­рень из: на­ча­ло ар­гу­мен­та: y плюс a конец ар­гу­мен­та =2x минус x в квад­ра­те ,y плюс x в квад­ра­те =2x плюс a в квад­ра­те . конец си­сте­мы . \"></p><p class=\"left_margin\"></p></center><p>имеет ровно 4 раз­лич­ных ре­ше­ния.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/52/521cda62620217e8ac6ed2ca8c0c3395.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Сделаем замену  Очевидно, каждому y соответствует ровно одно t, и каждому неотрицательному t соответствует ровно одно значение y, а именно  Поэтому нас будет интересовать количество решений системы   при неотрицательных t.Заметим, что функция  принимает по два раза значения на промежутке  один раз принимает значение 1 и не принимает других неотрицательных значений.Поэтому нужно, чтобы нашлось два различных  для решений этой системы (каждому из них мы потом сопоставим два различных значения x. Иными словами, уравнение  имеет два корня на  Его корни  —  и  они оба попадают на нужный промежуток при  При  эти корни равны. Таким образом, получаем ответ. Ответ:   ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol505910\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Сде­ла­ем за­ме­ну <img src=\"https://ege.sdamgia.ru/formula/svg/93/9344e02ccd9b75d99d14335d946060f5.svg\" class=\"tex\" style=\"vertical-align:-3.3pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: y плюс a конец ар­гу­мен­та =t.\"> Оче­вид­но, каж­до­му <i>y</i> со­от­вет­ству­ет ровно одно <i>t</i>, и каж­до­му не­от­ри­ца­тель­но­му <i>t</i> со­от­вет­ству­ет ровно одно зна­че­ние <i>y</i>, а имен­но <img src=\"https://ege.sdamgia.ru/formula/svg/d7/d74aedcf93fedc0fefc7c6503dc4dc96.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=t в квад­ра­те минус a.\"> По­это­му нас будет ин­те­ре­со­вать ко­ли­че­ство ре­ше­ний си­сте­мы  </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/df/dfc62c3b183af6002dfd13d4588f1433.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" левая фи­гур­ная скоб­ка \\beginaligned t=2x минус x в квад­ра­те ,t в квад­ра­те минус a минус a в квад­ра­те =2x минус x в квад­ра­те \\endaligned.\"> </p><p class=\"left_margin\"></p></center><p>при не­от­ри­ца­тель­ных <i>t</i>.</p><p class=\"left_margin\">За­ме­тим, что функ­ция <img src=\"https://ege.sdamgia.ru/formula/svg/42/4229311ee38f7d0ca2a3186d997312d7.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"t=2x минус x в квад­ра­те \"> при­ни­ма­ет по два раза зна­че­ния на про­ме­жут­ке <img src=\"https://ege.sdamgia.ru/formula/svg/70/707e214d930a07ab84f6a2cf2d2354e5.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка 0;1 пра­вая круг­лая скоб­ка ,\"> один раз при­ни­ма­ет зна­че­ние 1 и не при­ни­ма­ет дру­гих не­от­ри­ца­тель­ных зна­че­ний.</p><p class=\"left_margin\">По­это­му нужно, чтобы на­шлось два раз­лич­ных <img src=\"https://ege.sdamgia.ru/formula/svg/55/55002dae92f3b8d5be380f8fd2dc0268.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"t при­над­ле­жит левая квад­рат­ная скоб­ка 0;1 пра­вая круг­лая скоб­ка \"> для ре­ше­ний этой си­сте­мы (каж­до­му из них мы потом со­по­ста­вим два раз­лич­ных зна­че­ния <i>x</i>. Иными сло­ва­ми, урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/59/59e92bf016f875afdf67091bfeecd727.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"t в квад­ра­те минус t минус a минус a в квад­ра­те =0\"> имеет два корня на <img src=\"https://ege.sdamgia.ru/formula/svg/be/be6fb316d9492966d968afbc949c0979.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка 0;1 пра­вая круг­лая скоб­ка .\"> Его корни  — <img src=\"https://ege.sdamgia.ru/formula/svg/37/37caf0ee262229a9ddc60877eec6883f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" минус a\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/1d/1dd8afb8eb6df68c31436606189b8d8a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a плюс 1,\"> они оба по­па­да­ют на нуж­ный про­ме­жу­ток при <img src=\"https://ege.sdamgia.ru/formula/svg/94/94fe18eabec8444f553db9e85eeff611.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"a при­над­ле­жит левая круг­лая скоб­ка минус 1;0 пра­вая круг­лая скоб­ка .\"> При <img src=\"https://ege.sdamgia.ru/formula/svg/86/861a651e47d2601eaed8ba964ca94cb3.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a= минус 0,5\"> эти корни равны. Таким об­ра­зом, по­лу­ча­ем ответ.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>   <img src=\"https://ege.sdamgia.ru/formula/svg/16/164a7a852ff9fc7592b282f345430da0.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"a при­над­ле­жит левая круг­лая скоб­ка минус 1; минус 0,5 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка минус 0,5;0 пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/93/9344e02ccd9b75d99d14335d946060f5.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d74aedcf93fedc0fefc7c6503dc4dc96.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/dfc62c3b183af6002dfd13d4588f1433.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/4229311ee38f7d0ca2a3186d997312d7.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/707e214d930a07ab84f6a2cf2d2354e5.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/55002dae92f3b8d5be380f8fd2dc0268.svg",
+            "https://ege.sdamgia.ru/formula/svg/59/59e92bf016f875afdf67091bfeecd727.svg",
+            "https://ege.sdamgia.ru/formula/svg/be/be6fb316d9492966d968afbc949c0979.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/37caf0ee262229a9ddc60877eec6883f.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1dd8afb8eb6df68c31436606189b8d8a.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/94fe18eabec8444f553db9e85eeff611.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/861a651e47d2601eaed8ba964ca94cb3.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/164a7a852ff9fc7592b282f345430da0.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

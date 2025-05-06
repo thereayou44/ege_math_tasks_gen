@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 485988,
+    "condition": {
+        "text": "Дана правильная четырехугольная пирамида SABCD. Боковое ребро  сторона основания равна 2. а)  Докажите, что точки B и S равноудалены от плоскости ADM, где M  — середина ребра SC.б)  Найдите расстояние от точки B до плоскости ADM.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body591000\" class=\"pbody\"><p class=\"left_margin\">Дана пра­виль­ная че­ты­рех­уголь­ная пи­ра­ми­да <i>SABCD.</i> Бо­ко­вое ребро <img src=\"https://ege.sdamgia.ru/formula/svg/89/8932f157b247054ec625aa04f2565d61.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"SA= ко­рень из: на­ча­ло ар­гу­мен­та: 5 конец ар­гу­мен­та ,\"> сто­ро­на ос­но­ва­ния равна 2. </p><p class=\"left_margin\">а)  До­ка­жи­те, что точки <i>B</i> и <i>S</i> рав­но­уда­ле­ны от плос­ко­сти <i>ADM</i>, где <i>M</i>  — се­ре­ди­на ребра <i>SC.</i></p><p class=\"left_margin\">б)  Най­ди­те рас­сто­я­ние от точки <i>B</i> до плос­ко­сти <i>ADM</i>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/89/8932f157b247054ec625aa04f2565d61.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Прямая BC параллельна AD, значит, плоскость ADM проходит через среднюю линию  KM треугольника    — середина ребра SB. где Построим сечение ADMK. Отрезок BS делится плоскостью этого сечения пополам, поэтому и расстояния от B и S до этой плоскости равны. б)  Пусть P  — середина AD, N  — середина BC. Рассмотрим сечение NSP:Значит, треугольник SNP равносторонний. Искомое расстояние равно расстоянию от N до PQ, где Q  — середина SN, PQ  — медиана и высота треугольника SNP. Поэтому искомое расстояние равно  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol485988\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=132163\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Пря­мая <i>BC</i> па­рал­лель­на <i>AD,</i> зна­чит, плос­кость <i>ADM</i> про­хо­дит через сред­нюю линию  <i>KM</i> тре­уголь­ни­ка  <img src=\"https://ege.sdamgia.ru/formula/svg/b7/b767f753efb5725f1c6af74f83cbc6ce.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"SBC,K\">  — се­ре­ди­на ребра <i>SB.</i> где </p><p class=\"left_margin\">По­стро­им се­че­ние <i>ADMK.</i> От­ре­зок <i>BS</i> де­лит­ся плос­ко­стью этого се­че­ния по­по­лам, по­это­му и рас­сто­я­ния от <i>B</i> и <i>S</i> до этой плос­ко­сти равны.</p><p>&nbsp;</p><p class=\"left_margin\">б)  Пусть <i>P</i>  — се­ре­ди­на <i>AD,</i> <i>N</i>  — се­ре­ди­на <i>BC.</i> Рас­смот­рим се­че­ние <i>NSP</i>:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/c4/c463153cc68de8e2a10b8c3f286bb7e3.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"SN=SP= ко­рень из: на­ча­ло ар­гу­мен­та: SA в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та минус AP в квад­ра­те пра­вая круг­лая скоб­ка = ко­рень из: на­ча­ло ар­гу­мен­та: 5 минус 1 конец ар­гу­мен­та =2.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Зна­чит, тре­уголь­ник <i>SNP</i> рав­но­сто­рон­ний. Ис­ко­мое рас­сто­я­ние равно рас­сто­я­нию от <i>N</i> до <i>PQ,</i> где <i>Q</i>  — се­ре­ди­на <i>SN,</i> <i>PQ</i>  — ме­ди­а­на и вы­со­та тре­уголь­ни­ка <i>SNP.</i> По­это­му ис­ко­мое рас­сто­я­ние равно <img src=\"https://ege.sdamgia.ru/formula/svg/07/072d7c505955f4f8290caf4c286c56b7.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"NQ= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби SN=1.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/1d/1d41e6f55521cdba4fc73febd09d2eb4.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"1.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b7/b767f753efb5725f1c6af74f83cbc6ce.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c463153cc68de8e2a10b8c3f286bb7e3.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/072d7c505955f4f8290caf4c286c56b7.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1d41e6f55521cdba4fc73febd09d2eb4.svg",
+            "/get_file?id=132163"
+        ]
+    },
+    "answer": "",
+    "topic_id": 14,
+    "analog_ids": [
+        485988,
+        485992,
+        511329
+    ]
+}

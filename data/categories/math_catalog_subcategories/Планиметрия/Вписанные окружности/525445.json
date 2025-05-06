@@ -1,0 +1,27 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 525445,
+    "condition": {
+        "text": "В треугольнике ABC известно, что АС  =  36, ВС  =  15, а угол C равен 90°. Найдите радиус вписанной в этот треугольник окружности.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body420473\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=113357\" style=\"float:right;margin:10px;max-width:100%\">В тре­уголь­ни­ке <i>ABC</i> из­вест­но, что <i>АС</i>  =  36, <i>ВС</i>  =  15, а угол <i>C</i> равен 90°. Най­ди­те ра­ди­ус впи­сан­ной в этот тре­уголь­ник окруж­но­сти.</p></div>",
+        "image_urls": [
+            "/get_file?id=113357"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Найдём гипотенузу AB:    Радиус вписанной в прямоугольный треугольник окружности равен половине разности суммы катетов и  гипотенузы: Ответ: 6. Приведем решение Марселя Давыдова (Абакан).Найдем площадь треугольника, как полупроизведение катетов:По теореме Пифагора:откуда полупериметр треугольника  Далее имеем:",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol525445\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Найдём ги­по­те­ну­зу <i>AB</i>: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e3/e3982df0ab67f8e9b505475cba2bfc71.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AB= ко­рень из: на­ча­ло ар­гу­мен­та: 36 в квад­ра­те плюс 15 в квад­ра­те конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 1296 плюс 225 конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 1521 конец ар­гу­мен­та =39.\"> </p><p class=\"left_margin\"></p></center> <p> Ра­ди­ус впи­сан­ной в пря­мо­уголь­ный тре­уголь­ник окруж­но­сти равен по­ло­ви­не раз­но­сти суммы ка­те­тов и  ги­по­те­ну­зы: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/6c/6c0d8b19605ad0e9afbff1250d700886.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"r= дробь: чис­ли­тель: a плюс b минус c, зна­ме­на­тель: 2 конец дроби = дробь: чис­ли­тель: 36 плюс 15 минус 39, зна­ме­на­тель: 2 конец дроби = дробь: чис­ли­тель: 12, зна­ме­на­тель: 2 конец дроби =6. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 6.</p><p>&nbsp;</p><p><b>При­ве­дем ре­ше­ние Мар­се­ля Да­вы­до­ва (Аба­кан).</b></p><p class=\"left_margin\">Най­дем пло­щадь тре­уголь­ни­ка, как по­лу­про­из­ве­де­ние ка­те­тов:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d0/d055b1c3292cfef0ea6c9ca1ea4dda7d.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"S = дробь: чис­ли­тель: AC умно­жить на BC, зна­ме­на­тель: 2 конец дроби = дробь: чис­ли­тель: 36 умно­жить на 15, зна­ме­на­тель: 2 конец дроби = 18 умно­жить на 15 = 270. \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">По тео­ре­ме Пи­фа­го­ра:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d9/d9a65c0fff186215904edeb64786ff3f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AB = ко­рень из: на­ча­ло ар­гу­мен­та: AC в квад­ра­те плюс BC в квад­ра­те конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 36 в квад­ра­те плюс 15 в квад­ра­те конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 1296 плюс 225 конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 1521 конец ар­гу­мен­та =39,\"></p><p class=\"left_margin\"></p></center><p>от­ку­да по­лу­пе­ри­метр тре­уголь­ни­ка <img src=\"https://ege.sdamgia.ru/formula/svg/35/354e3b6d63d9154995ce32a7e32cbfcd.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"p= дробь: чис­ли­тель: 36 плюс 15 плюс 39, зна­ме­на­тель: 2 конец дроби =45. \"> Далее имеем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/de/de5f6d46acfa67d4f66038da88929a2c.svg\" class=\"tex\" style=\"vertical-align:-10.4pt\" alt=\"r = дробь: чис­ли­тель: S, зна­ме­на­тель: p конец дроби = дробь: чис­ли­тель: 270, зна­ме­на­тель: 45 конец дроби = 6. \"></p><p class=\"left_margin\"></p></center></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e3/e3982df0ab67f8e9b505475cba2bfc71.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6c0d8b19605ad0e9afbff1250d700886.svg",
+            "https://ege.sdamgia.ru/formula/svg/d0/d055b1c3292cfef0ea6c9ca1ea4dda7d.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d9a65c0fff186215904edeb64786ff3f.svg",
+            "https://ege.sdamgia.ru/formula/svg/35/354e3b6d63d9154995ce32a7e32cbfcd.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/de5f6d46acfa67d4f66038da88929a2c.svg"
+        ]
+    },
+    "answer": "6",
+    "topic_id": 1,
+    "analog_ids": []
+}

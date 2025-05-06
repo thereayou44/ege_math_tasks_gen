@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27204,
+    "condition": {
+        "text": "Найдите объем V части конуса, изображенной на рисунке. В ответе укажите ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918712\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=167034\" style=\"float:right;margin:10px;max-width:100%\">Най­ди­те объем <i>V</i> части ко­ну­са, изоб­ра­жен­ной на ри­сун­ке. В от­ве­те ука­жи­те <img src=\"https://ege.sdamgia.ru/formula/svg/58/58865cd180143a61b2e54ae6da5e5fee.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: V, зна­ме­на­тель: Пи конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/58/58865cd180143a61b2e54ae6da5e5fee.svg",
+            "/get_file?id=167034"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Объем данной части конуса равен  Ответ: 216.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27204\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Объем дан­ной части ко­ну­са равен </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/6c/6c86fcbac13fcbdc621c7fbc4de6f4e8.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 60 в сте­пе­ни левая круг­лая скоб­ка \\circ пра­вая круг­лая скоб­ка , зна­ме­на­тель: 360 в сте­пе­ни левая круг­лая скоб­ка \\circ пра­вая круг­лая скоб­ка конец дроби дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби Пи R в квад­ра­те H= дробь: чис­ли­тель: 1, зна­ме­на­тель: 18 конец дроби 12 в квад­ра­те } умно­жить на 27 Пи =216 Пи . \"></p><p class=\"left_margin\"></p></center> <p><span style=\"letter-spacing: 2px;\">Ответ:</span> 216.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/6c/6c86fcbac13fcbdc621c7fbc4de6f4e8.svg"
+        ]
+    },
+    "answer": "216",
+    "topic_id": 3,
+    "analog_ids": [
+        27204,
+        25813,
+        25815,
+        25817,
+        25813,
+        25815,
+        25817,
+        25819
+    ]
+}

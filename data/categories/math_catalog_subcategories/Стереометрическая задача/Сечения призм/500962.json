@@ -1,0 +1,35 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 500962,
+    "condition": {
+        "text": "В правильной треугольной призме ABCA1B1C1 стороны основания равны 6, боковые рёбра равны 4. а)  Изобразите сечение, проходящее через вершины A, B и середину ребра A1C1, и докажите, что это равнобокая трапеция. б)  Найдите площадь этого сечения.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body641566\" class=\"pbody\"><p class=\"left_margin\">В пра­виль­ной тре­уголь­ной приз­ме <i>ABCA</i><sub>1</sub><i>B</i><sub>1</sub><i>C</i><sub>1</sub> сто­ро­ны ос­но­ва­ния равны 6, бо­ко­вые рёбра равны 4. </p><p class=\"left_margin\">а)  Изоб­ра­зи­те се­че­ние, про­хо­дя­щее через вер­ши­ны <i>A</i>, <i>B</i> и се­ре­ди­ну ребра <i>A</i><sub>1</sub><i>C</i><sub>1</sub>, и до­ка­жи­те, что это рав­но­бо­кая тра­пе­ция. </p><p class=\"left_margin\">б)  Най­ди­те пло­щадь этого се­че­ния.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Обозначим через M и N середины ребер  и  соответственно. По теореме о средней линии треугольника   так что прямые MN и AB лежат в одной плоскости. Искомое сечение  — это равнобедренная трапеция  б)  Основания трапеции  по теореме Пифагора найдем боковую сторону:Проведем в трапеции высоту  Отрезок AH равен полуразности оснований трапеции:Следовательно, высота трапеции   Зная её, находим площадь трапеции: Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol500962\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=141544\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Обо­зна­чим через <i>M</i> и <i>N</i> се­ре­ди­ны ребер <img src=\"https://ege.sdamgia.ru/formula/svg/46/460ba4435b7505c3024b789435c226dd.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"A_1C_1\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/1e/1e48b5ad66af9d9ff373632074b3af96.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"B_1C_1\"> со­от­вет­ствен­но.</p><p> По тео­ре­ме о сред­ней линии тре­уголь­ни­ка <img src=\"https://ege.sdamgia.ru/formula/svg/e7/e798d286e32e254b8e3ccf1d3d30a14b.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"MN||A_1B_1||AB,\">  так что пря­мые <i>MN</i> и <i>AB</i> лежат в одной плос­ко­сти. Ис­ко­мое се­че­ние  — это рав­но­бед­рен­ная тра­пе­ция <img src=\"https://ege.sdamgia.ru/formula/svg/a9/a9506558577f065f06013ccbea6629d8.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AMNB.\"> </p><p class=\"left_margin\">б)  Ос­но­ва­ния тра­пе­ции <img src=\"https://ege.sdamgia.ru/formula/svg/55/556ccfbdcc03fb6073f63370ff1be0f9.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AB=6,MN=3,\"> по тео­ре­ме Пи­фа­го­ра най­дем бо­ко­вую сто­ро­ну:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ad/ad72b6e2a5818b998665273e48604d39.svg\" class=\"tex\" style=\"vertical-align:-6.8pt\" alt=\"AM= ко­рень из: на­ча­ло ар­гу­мен­та: AA_1 в квад­ра­те плюс A_1M в квад­ра­те конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 16 плюс 9 конец ар­гу­мен­та =5.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Про­ве­дем в тра­пе­ции вы­со­ту <img src=\"https://ege.sdamgia.ru/formula/svg/c2/c2869da9ca173b07a7e1261f69c4a461.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"MH.\"> От­ре­зок <i>AH</i> равен по­лу­раз­но­сти ос­но­ва­ний тра­пе­ции:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/fd/fde8531933eb965c4b6e06517f42cbfa.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"AH= дробь: чис­ли­тель: AB минус MN, зна­ме­на­тель: 2 конец дроби = дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Сле­до­ва­тель­но, вы­со­та тра­пе­ции <img src=\"https://ege.sdamgia.ru/formula/svg/4a/4a8aeda3e2c438bc95a9899d54071a48.svg\" class=\"tex\" style=\"vertical-align:-12.3pt\" alt=\"MH= ко­рень из: на­ча­ло ар­гу­мен­та: 5 в квад­ра­те минус левая круг­лая скоб­ка дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби пра­вая круг­лая скоб­ка в квад­ра­те конец ар­гу­мен­та = дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 91 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби . \">  Зная её, на­хо­дим пло­щадь тра­пе­ции:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/0c/0cd0b2382aa612e3e2e61564188e6223.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S_AMNB= дробь: чис­ли­тель: MN плюс AB, зна­ме­на­тель: 2 конец дроби умно­жить на MH= дробь: чис­ли­тель: 9, зна­ме­на­тель: 2 конец дроби умно­жить на дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 91 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби = дробь: чис­ли­тель: 9, зна­ме­на­тель: 4 конец дроби ко­рень из: на­ча­ло ар­гу­мен­та: 91 конец ар­гу­мен­та . \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/22/22bdd61991823a7846b4fb11caf323f2.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 9, зна­ме­на­тель: 4 конец дроби ко­рень из: на­ча­ло ар­гу­мен­та: 91 конец ар­гу­мен­та . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/46/460ba4435b7505c3024b789435c226dd.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1e48b5ad66af9d9ff373632074b3af96.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e798d286e32e254b8e3ccf1d3d30a14b.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a9506558577f065f06013ccbea6629d8.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/556ccfbdcc03fb6073f63370ff1be0f9.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/ad72b6e2a5818b998665273e48604d39.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c2869da9ca173b07a7e1261f69c4a461.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fde8531933eb965c4b6e06517f42cbfa.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4a8aeda3e2c438bc95a9899d54071a48.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0cd0b2382aa612e3e2e61564188e6223.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/22bdd61991823a7846b4fb11caf323f2.svg",
+            "/get_file?id=141544"
+        ]
+    },
+    "answer": "",
+    "topic_id": 14,
+    "analog_ids": [
+        500962,
+        500968,
+        501124
+    ]
+}

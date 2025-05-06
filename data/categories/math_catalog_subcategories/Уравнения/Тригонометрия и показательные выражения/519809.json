@@ -1,0 +1,42 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 519809,
+    "condition": {
+        "text": "а)  Решите уравнение  б)  Найдите все корни этого уравнения, принадлежащие промежутку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body622717\" class=\"pbody\"><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/40/40130c94560c2d86084c1d22884022fa.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2 в сте­пе­ни левая круг­лая скоб­ка синус в квад­ра­те x пра­вая круг­лая скоб­ка плюс 2 в сте­пе­ни левая круг­лая скоб­ка ко­си­нус в квад­ра­те x пра­вая круг­лая скоб­ка =3.\"></p><p>&nbsp;</p><p class=\"left_margin\">б)  Най­ди­те все корни этого урав­не­ния, при­над­ле­жа­щие про­ме­жут­ку <img src=\"https://ege.sdamgia.ru/formula/svg/67/673a8c2a3dd0f02cca358b908c7e81fd.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка минус дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 2 конец дроби ; минус Пи пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/40/40130c94560c2d86084c1d22884022fa.svg",
+            "https://ege.sdamgia.ru/formula/svg/67/673a8c2a3dd0f02cca358b908c7e81fd.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Запишем уравнение в виде  Сделаем замену  Получаем:  Тогда  или  откуда  или  Тогда  или  откуда  где  б)  Отберём корни на отрезке  с помощью единичной окружности. Получаем  и  Ответ: а)  б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol519809\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=33796\" style=\"float:right;margin:10px\"></p><p class=\"left_margin\">а)  За­пи­шем урав­не­ние в виде <img src=\"https://ege.sdamgia.ru/formula/svg/e8/e895a902a3979d1bc5d43bc74a7e9c26.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2 в сте­пе­ни левая круг­лая скоб­ка 1 минус ко­си­нус в квад­ра­те x пра­вая круг­лая скоб­ка плюс 2 в сте­пе­ни левая круг­лая скоб­ка ко­си­нус в квад­ра­те x пра­вая круг­лая скоб­ка =3.\"> Сде­ла­ем за­ме­ну <img src=\"https://ege.sdamgia.ru/formula/svg/cb/cb7af44d0331c0aff257031d7448369f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=2 в сте­пе­ни левая круг­лая скоб­ка ко­си­нус в квад­ра­те x пра­вая круг­лая скоб­ка .\"> По­лу­ча­ем: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/29/29bffae7d5c3070f8e1048ca6395231a.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" дробь: чис­ли­тель: 2, зна­ме­на­тель: y конец дроби плюс y=3 рав­но­силь­но дробь: чис­ли­тель: y в квад­ра­те минус 3y плюс 2, зна­ме­на­тель: y конец дроби =0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний y = 1,y = 2. конец со­во­куп­но­сти . \"></p><p class=\"left_margin\"></p></center> <p class=\"left_margin\">Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/de/de8b5b5a2dab0e78f1b47fd9380283c3.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2 в сте­пе­ни левая круг­лая скоб­ка ко­си­нус в квад­ра­те x пра­вая круг­лая скоб­ка = 1 \"> или <img src=\"https://ege.sdamgia.ru/formula/svg/bb/bbcd90eda60412e63683d8277d63f678.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2 в сте­пе­ни левая круг­лая скоб­ка ко­си­нус в квад­ра­те x пра­вая круг­лая скоб­ка = 2,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/8c/8c860caf28f49c6b48100404bebe4325.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­си­нус в квад­ра­те x=0\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/f0/f0e07b84bc25b2ee55b7510583d8233d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­си­нус в квад­ра­те x=1.\"></p><p>&nbsp;</p><p class=\"left_margin\">Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/51/51a638cf2b0253f8f060f16520082ab3.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" ко­си­нус x=0, ко­си­нус x= минус 1\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/67/670866c09aad9fb4c74a9d1649e51df1.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" ко­си­нус x=1,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/a7/a7d322331df2465a4c6814b6c77698ea.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= дробь: чис­ли­тель: Пи n, зна­ме­на­тель: 2 конец дроби , \"> где <img src=\"https://ege.sdamgia.ru/formula/svg/ae/ae7f5ae6d71becb16dcb18bbf4449a1c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"n при­над­ле­жит Z .\"></p><p>&nbsp;</p><p class=\"left_margin\">б)  Отберём корни на от­рез­ке <img src=\"https://ege.sdamgia.ru/formula/svg/cb/cba718884782aed01c0e697c60ddc091.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка минус дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 2 конец дроби ; минус Пи пра­вая квад­рат­ная скоб­ка , \"> с по­мо­щью еди­нич­ной окруж­но­сти. По­лу­ча­ем <img src=\"https://ege.sdamgia.ru/formula/svg/7d/7db498dc745981c96ba82d342b418476.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" минус дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 2 конец дроби , минус 2 Пи , минус дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/ae/aec19db4057cd0531c54ef0eb5a14081.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" минус Пи .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) <img src=\"https://ege.sdamgia.ru/formula/svg/10/100ba9d85a9b16544693726c4c5cb551.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"x= левая фи­гур­ная скоб­ка дробь: чис­ли­тель: Пи n, зна­ме­на­тель: 2 конец дроби ;n при­над­ле­жит Z пра­вая фи­гур­ная скоб­ка ; \"> б) <img src=\"https://ege.sdamgia.ru/formula/svg/ea/eaac1a2c58eed1f3990bcc611ba4f795.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" минус дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 2 конец дроби , минус 2 Пи , минус дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби , минус Пи . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e8/e895a902a3979d1bc5d43bc74a7e9c26.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cb7af44d0331c0aff257031d7448369f.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/29bffae7d5c3070f8e1048ca6395231a.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/de8b5b5a2dab0e78f1b47fd9380283c3.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bbcd90eda60412e63683d8277d63f678.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8c860caf28f49c6b48100404bebe4325.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f0e07b84bc25b2ee55b7510583d8233d.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/51a638cf2b0253f8f060f16520082ab3.svg",
+            "https://ege.sdamgia.ru/formula/svg/67/670866c09aad9fb4c74a9d1649e51df1.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a7d322331df2465a4c6814b6c77698ea.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/ae7f5ae6d71becb16dcb18bbf4449a1c.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cba718884782aed01c0e697c60ddc091.svg",
+            "https://ege.sdamgia.ru/formula/svg/7d/7db498dc745981c96ba82d342b418476.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/aec19db4057cd0531c54ef0eb5a14081.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/100ba9d85a9b16544693726c4c5cb551.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/eaac1a2c58eed1f3990bcc611ba4f795.svg",
+            "/get_file?id=33796"
+        ]
+    },
+    "answer": "а)  б)",
+    "topic_id": 13,
+    "analog_ids": [
+        519809,
+        519828
+    ]
+}

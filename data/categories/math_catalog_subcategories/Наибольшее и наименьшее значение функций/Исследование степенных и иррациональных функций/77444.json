@@ -1,0 +1,58 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 77444,
+    "condition": {
+        "text": "Найдите точку минимума функции ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body999544\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те точку ми­ни­му­ма функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/87/879b0aafe9a261176e603e0ea1b7642c.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"y= дробь: чис­ли­тель: x в кубе , зна­ме­на­тель: 3 конец дроби минус 9x минус 7. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/87/879b0aafe9a261176e603e0ea1b7642c.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Найдем производную заданной функции:  Найдем нули производной:   Определим знаки производной функции и изобразим на рисунке поведение функции:  Искомая точка минимума  Ответ: 3.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol77444\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Най­дем про­из­вод­ную за­дан­ной функ­ции: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/04/04459bf3c8fa1aeeb40a2f88ebb30efa.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y'=x в квад­ра­те минус 9= левая круг­лая скоб­ка x минус 3 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x плюс 3 пра­вая круг­лая скоб­ка .\"></p><p class=\"left_margin\"></p></center> <p class=\"left_margin\">Най­дем нули про­из­вод­ной: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/58/580dd911b6236a5443da9894f7450773.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\"x в квад­ра­те минус 9=0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний x=3, x= минус 3. конец со­во­куп­но­сти .\"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p class=\"left_margin\">Опре­де­лим знаки про­из­вод­ной функ­ции и изоб­ра­зим на ри­сун­ке по­ве­де­ние функ­ции: </p><p class=\"left_margin\"></p><center><p><img src=\"/get_file?id=108401\" style=\"margin:10px auto;display:block;max-width:100%\"></p><p class=\"left_margin\"></p></center> <p class=\"left_margin\">Ис­ко­мая точка ми­ни­му­ма <img src=\"https://ege.sdamgia.ru/formula/svg/47/47edeb48db51f023fd03b4cb0946bc76.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=3.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ</span>: 3.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/04/04459bf3c8fa1aeeb40a2f88ebb30efa.svg",
+            "https://ege.sdamgia.ru/formula/svg/58/580dd911b6236a5443da9894f7450773.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/47edeb48db51f023fd03b4cb0946bc76.svg",
+            "/get_file?id=108401"
+        ]
+    },
+    "answer": "3",
+    "topic_id": 12,
+    "analog_ids": [
+        77444,
+        541377,
+        541821,
+        127785,
+        541377,
+        541821,
+        127785,
+        127833,
+        672797,
+        127787,
+        127789,
+        127791,
+        127793,
+        127795,
+        127797,
+        127799,
+        127801,
+        127803,
+        127805,
+        127807,
+        127809,
+        127811,
+        127813,
+        127815,
+        127817,
+        127819,
+        127821,
+        127823,
+        127825,
+        127827,
+        127829,
+        127831
+    ]
+}

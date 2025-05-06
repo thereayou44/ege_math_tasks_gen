@@ -1,0 +1,59 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27931,
+    "condition": {
+        "text": "Радиус окружности, вписанной в равнобедренный прямоугольный треугольник, равен 2. Найдите гипотенузу c этого треугольника. В ответе укажите ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918503\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right; margin:10px\" src=\"/get_file?id=1537\">Ра­ди­ус окруж­но­сти, впи­сан­ной в рав­но­бед­рен­ный пря­мо­уголь­ный тре­уголь­ник, равен 2. Най­ди­те ги­по­те­ну­зу <i>c</i> этого тре­уголь­ни­ка. В от­ве­те ука­жи­те <img src=\"https://ege.sdamgia.ru/formula/svg/15/15e15fd028bbb7f3040cee1293488d48.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"c левая круг­лая скоб­ка ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та минус 1 пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/15/15e15fd028bbb7f3040cee1293488d48.svg",
+            "/get_file?id=1537"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Пусть длина катетов равна x, тогда длина гипотенузы равна  а радиус вписанной окружности, вычисляемый по формуле  равен   По условию  откудаТребовалось найти  имеем: Ответ: 4.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27931\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть длина ка­те­тов равна <i>x</i>, тогда длина ги­по­те­ну­зы равна <img src=\"https://ege.sdamgia.ru/formula/svg/14/14b19f28a1cb108356cd7e5261f14a68.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x ко­рень из 2 ,\"> а ра­ди­ус впи­сан­ной окруж­но­сти, вы­чис­ля­е­мый по фор­му­ле <img src=\"https://ege.sdamgia.ru/formula/svg/53/5355b7425b849ce202d03546c780837d.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"r=0,5 левая круг­лая скоб­ка a плюс b минус c пра­вая круг­лая скоб­ка ,\"> равен </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/61/617a7c0892ab80c4e1988f529aa29b51.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"r= дробь: чис­ли­тель: x плюс x минус x ко­рень из 2 , зна­ме­на­тель: 2 конец дроби = дробь: чис­ли­тель: 2 минус ко­рень из 2 , зна­ме­на­тель: 2 конец дроби x. \"> </p><p class=\"left_margin\"></p></center> <p class=\"left_margin\">По усло­вию <img src=\"https://ege.sdamgia.ru/formula/svg/77/7735ad66a5ab57d2a35709f0644d0dc7.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"r=2,\"> от­ку­да</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/db/dbc1f62877b8aa06cb77373d42877810.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" дробь: чис­ли­тель: 2 минус ко­рень из 2 , зна­ме­на­тель: 2 конец дроби x=2 рав­но­силь­но x= дробь: чис­ли­тель: 4, зна­ме­на­тель: конец дроби 2 минус ко­рень из 2 . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Тре­бо­ва­лось найти <img src=\"https://ege.sdamgia.ru/formula/svg/a5/a53e672ec5bc8587c5928733ceb6fcc4.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"c левая круг­лая скоб­ка ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та минус 1 пра­вая круг­лая скоб­ка ,\"> имеем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/4e/4e941d222dffaef7811d24190f512324.svg\" class=\"tex\" style=\"vertical-align:-10.9pt\" alt=\"c левая круг­лая скоб­ка ко­рень из 2 минус 1 пра­вая круг­лая скоб­ка =x ко­рень из 2 левая круг­лая скоб­ка ко­рень из 2 минус 1 пра­вая круг­лая скоб­ка =x левая круг­лая скоб­ка 2 минус ко­рень из 2 пра­вая круг­лая скоб­ка = дробь: чис­ли­тель: 4, зна­ме­на­тель: 2 минус ко­рень из 2 конец дроби умно­жить на левая круг­лая скоб­ка 2 минус ко­рень из 2 пра­вая круг­лая скоб­ка =4. \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 4.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/14/14b19f28a1cb108356cd7e5261f14a68.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/5355b7425b849ce202d03546c780837d.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/617a7c0892ab80c4e1988f529aa29b51.svg",
+            "https://ege.sdamgia.ru/formula/svg/77/7735ad66a5ab57d2a35709f0644d0dc7.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/dbc1f62877b8aa06cb77373d42877810.svg",
+            "https://ege.sdamgia.ru/formula/svg/a5/a53e672ec5bc8587c5928733ceb6fcc4.svg",
+            "https://ege.sdamgia.ru/formula/svg/4e/4e941d222dffaef7811d24190f512324.svg"
+        ]
+    },
+    "answer": "4",
+    "topic_id": null,
+    "analog_ids": [
+        27931,
+        54119,
+        54121,
+        54123,
+        54119,
+        54121,
+        54123,
+        54125,
+        54127,
+        54129,
+        54131,
+        54133,
+        54135,
+        54137,
+        54139,
+        54141,
+        54143,
+        54145,
+        54147,
+        54149,
+        54151,
+        54153,
+        54155,
+        54157,
+        54159,
+        54161,
+        54163,
+        54165,
+        54167
+    ]
+}

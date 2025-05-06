@@ -1,0 +1,31 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 529299,
+    "condition": {
+        "text": "Решите неравенство: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body425327\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство: <img src=\"https://ege.sdamgia.ru/formula/svg/64/64e8357370a13b5d9474194cdc87a5e5.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"2 ко­рень из: на­ча­ло ар­гу­мен­та: ло­га­рифм по ос­но­ва­нию 2 левая круг­лая скоб­ка минус x пра­вая круг­лая скоб­ка конец ар­гу­мен­та мень­ше ло­га­рифм по ос­но­ва­нию 2 ко­рень из: на­ча­ло ар­гу­мен­та: x в квад­ра­те конец ар­гу­мен­та минус 3.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/64/64e8357370a13b5d9474194cdc87a5e5.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Выражение  определено при  Для отрицательных значений переменной  поэтому неравенство записывается в видеПусть  тогдаВернёмся к исходной переменной: Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol529299\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Вы­ра­же­ние <img src=\"https://ege.sdamgia.ru/formula/svg/5e/5e036a5ede26a27c2f9224be0eb3a830.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" ло­га­рифм по ос­но­ва­нию 2 левая круг­лая скоб­ка минус x пра­вая круг­лая скоб­ка \"> опре­де­ле­но при <img src=\"https://ege.sdamgia.ru/formula/svg/1a/1af83d7ff7838c3eda79c44f64855123.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x мень­ше 0.\"> Для от­ри­ца­тель­ных зна­че­ний пе­ре­мен­ной <img src=\"https://ege.sdamgia.ru/formula/svg/b0/b016167e9e0e7d1d7e0bb614ae6fd3d2.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: x в квад­ра­те конец ар­гу­мен­та =|x|= минус x,\"> по­это­му не­ра­вен­ство за­пи­сы­ва­ет­ся в виде</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/a7/a78669628ea896f1cba4d209f7ae90ce.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"2 ко­рень из: на­ча­ло ар­гу­мен­та: ло­га­рифм по ос­но­ва­нию 2 левая круг­лая скоб­ка минус x пра­вая круг­лая скоб­ка конец ар­гу­мен­та мень­ше ло­га­рифм по ос­но­ва­нию 2 левая круг­лая скоб­ка минус x пра­вая круг­лая скоб­ка минус 3.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/b5/b59eb8951d8ca5a4ec4b69c7864a3a57.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: ло­га­рифм по ос­но­ва­нию 2 левая круг­лая скоб­ка минус x пра­вая круг­лая скоб­ка конец ар­гу­мен­та =t боль­ше или равно 0,\"> тогда</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"d953a54c0b77ed5cdb4582d32a445581\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/d9/d953a54c0b77ed5cdb4582d32a445581.svg\" class=\"tex\" style=\"vertical-align:-9.1pt\" alt=\"2t мень­ше t в квад­ра­те минус 3 рав­но­силь­но t в квад­ра­те минус 2t минус 3 боль­ше 0 рав­но­силь­но левая круг­лая скоб­ка t минус 3 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка t плюс 1 пра­вая круг­лая скоб­ка боль­ше 0 \\undersett\\geqslant0\\mathop рав­но­силь­но t минус 3 боль­ше 0 рав­но­силь­но t боль­ше 3.\"></span><span data-width=\"490\" data-formulahash=\"d953a54c0b77ed5cdb4582d32a445581\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/34/344c446d69ec16fc2b523e060c43dc91.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2t мень­ше t в квад­ра­те минус 3 рав­но­силь­но t в квад­ра­те минус 2t минус 3 боль­ше 0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/55/556d84f58d76765622b3bebebabd23a8.svg\" class=\"tex\" style=\"vertical-align:-9.1pt\" alt=\" рав­но­силь­но левая круг­лая скоб­ка t минус 3 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка t плюс 1 пра­вая круг­лая скоб­ка боль­ше 0 \\undersett\\geqslant0\\mathop рав­но­силь­но t минус 3 боль­ше 0 рав­но­силь­но t боль­ше 3.\"></span></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Вернёмся к ис­ход­ной пе­ре­мен­ной:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/26/26d2a5efe709efbb72be1651d98f199a.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: ло­га­рифм по ос­но­ва­нию 2 левая круг­лая скоб­ка минус x пра­вая круг­лая скоб­ка конец ар­гу­мен­та боль­ше 3 рав­но­силь­но ло­га­рифм по ос­но­ва­нию 2 левая круг­лая скоб­ка минус x пра­вая круг­лая скоб­ка боль­ше 9 рав­но­силь­но минус x боль­ше 2 в сте­пе­ни 9 рав­но­силь­но x мень­ше минус 512.\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/9d/9d77de1631c8c4d38ce36dcdf6f213fb.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка минус бес­ко­неч­ность ; минус 512 пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/5e/5e036a5ede26a27c2f9224be0eb3a830.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1af83d7ff7838c3eda79c44f64855123.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b016167e9e0e7d1d7e0bb614ae6fd3d2.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a78669628ea896f1cba4d209f7ae90ce.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b59eb8951d8ca5a4ec4b69c7864a3a57.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d953a54c0b77ed5cdb4582d32a445581.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/344c446d69ec16fc2b523e060c43dc91.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/556d84f58d76765622b3bebebabd23a8.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/26d2a5efe709efbb72be1651d98f199a.svg",
+            "https://ege.sdamgia.ru/formula/svg/9d/9d77de1631c8c4d38ce36dcdf6f213fb.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": []
+}

@@ -1,0 +1,27 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 515727,
+    "condition": {
+        "text": "На катетах AC и BC прямоугольного треугольника ABC вне треугольника построены квадраты ACDE и BFKC. Точка M  — середина гипотенузы AB, H  — точка пересечения прямых CM и DK.а)  Докажите, что CMDK.б)  Найдите MH, если известно, что катеты треугольника ABC равны 130 и 312.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body634995\" class=\"pbody\"><p class=\"left_margin\">На ка­те­тах <i>AC</i> и <i>BC</i> пря­мо­уголь­но­го тре­уголь­ни­ка <i>ABC</i> вне тре­уголь­ни­ка по­стро­е­ны квад­ра­ты <i>ACDE</i> и <i>BFKC</i>. Точка <i>M</i>  — се­ре­ди­на ги­по­те­ну­зы <i>AB</i>, <i>H</i>  — точка пе­ре­се­че­ния пря­мых <i>CM</i> и <i>DK</i>.</p><p class=\"left_margin\">а)  До­ка­жи­те, что <i>CM</i><img src=\"https://ege.sdamgia.ru/formula/svg/78/7814a0e7fffecda9cebb60d2bc160257.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\bot\"><i>DK</i>.</p><p class=\"left_margin\">б)  Най­ди­те <i>MH</i>, если из­вест­но, что ка­те­ты тре­уголь­ни­ка <i>ABC</i> равны 130 и 312.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/78/7814a0e7fffecda9cebb60d2bc160257.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Поскольку треугольник ABC  — прямоугольный, то AK ⊥ DB. Поскольку M  — середина AB, то CM  — медиана прямоугольного треугольника, откуда CM  =  MB  =  AM. Тогда ∠MBC = ∠MCB = ∠DCH (поскольку ∠DCH и ∠MCB  — вертикальные). Поскольку AK ⊥ DB, DC  =  AC и KC  =  CB, то треугольники DCK и ACB равны. Значит, ∠CDK = ∠CAB. Так как  ∠CDK = ∠CAB и ∠DCH = ∠CBA, то треугольники DCH и ABC подобны по двум углам. Значит, DCH  — прямоугольный и CH ⊥ DK.б)  По теореме Пифагора AB  =  338. Тогда MC  =  169. Имеем  то есть DH  =  50, тогда HK  =  288. Значит,  Тогда MH = 120 + 169 = 289. Ответ: 289.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol515727\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=147384\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  По­сколь­ку тре­уголь­ник <i>ABC</i>  — пря­мо­уголь­ный, то <i>AK</i> ⊥ <i>DB</i>. По­сколь­ку <i>M</i>  — се­ре­ди­на <i>AB</i>, то <i>CM</i>  — ме­ди­а­на пря­мо­уголь­но­го тре­уголь­ни­ка, от­ку­да <i>CM</i>  =  <i>MB</i>  =  <i>AM</i>. Тогда ∠<i>MBC</i> = ∠<i>MCB</i> = ∠<i>DCH</i> (по­сколь­ку ∠<i>DCH</i> и ∠<i>MCB</i>  — вер­ти­каль­ные). </p><p class=\"left_margin\">По­сколь­ку <i>AK</i> ⊥ <i>DB</i>, <i>DC</i>  =  <i>AC</i> и <i>KC</i>  =  <i>CB</i>, то тре­уголь­ни­ки <i>DCK</i> и <i>ACB</i> равны. Зна­чит, ∠<i>CDK</i> = ∠<i>CAB</i>. Так как  ∠<i>CDK</i> = ∠<i>CAB</i> и ∠<i>DCH</i> = ∠<i>CBA</i>, то тре­уголь­ни­ки <i>DCH</i> и <i>ABC</i> по­доб­ны по двум углам. Зна­чит, <i>DCH</i>  — пря­мо­уголь­ный и <i>CH</i> ⊥ <i>DK</i>.</p><p class=\"left_margin\">б)  По тео­ре­ме Пи­фа­го­ра <i>AB</i>  =  338. Тогда <i>MC</i>  =  169. Имеем <img src=\"https://ege.sdamgia.ru/formula/svg/a5/a57137801378717c1890a20fa7d74ee4.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"DC в квад­ра­те =DK умно­жить на DH,\"> то есть <i>DH</i>  =  50, тогда <i>HK</i>  =  288. Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/ef/ef6d15ac6712b604a722de221460b4e4.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"CH= ко­рень из: на­ча­ло ар­гу­мен­та: 50 умно­жить на 288 конец ар­гу­мен­та =120.\"> Тогда <i>MH</i> = 120 + 169 = 289.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 289.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a5/a57137801378717c1890a20fa7d74ee4.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/ef6d15ac6712b604a722de221460b4e4.svg",
+            "/get_file?id=147384"
+        ]
+    },
+    "answer": "289.",
+    "topic_id": 17,
+    "analog_ids": [
+        515727,
+        515803
+    ]
+}

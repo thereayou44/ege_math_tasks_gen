@@ -1,0 +1,33 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 638316,
+    "condition": {
+        "text": "В треугольнике ABC продолжения высоты CC1 и биссектрисы BB1 пересекают описанную окружность в точках N и М соответственно,  и а)  Докажите, что ВM   =   CN.б)  Прямые BC и MN пересекаются в точке D. Найдите площадь треугольника BDN, если его высота ВН равна 6.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body512912\" class=\"pbody\"><p class=\"left_margin\">В тре­уголь­ни­ке <i>ABC</i> про­дол­же­ния вы­со­ты <i>CC</i><sub>1</sub> и бис­сек­три­сы <i>BB</i><sub>1</sub> пе­ре­се­ка­ют опи­сан­ную окруж­ность в точ­ках <i>N</i> и <i>М</i> со­от­вет­ствен­но, <img src=\"https://ege.sdamgia.ru/formula/svg/da/da9f7d66f6d1a757f0572b04a1d75fc9.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle A B C=40 в сте­пе­ни левая круг­лая скоб­ка \\circ пра­вая круг­лая скоб­ка \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/df/df745d4c4ca0efa302c3020fc5030ed8.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" \\angle A C B=85 в сте­пе­ни левая круг­лая скоб­ка \\circ пра­вая круг­лая скоб­ка .\"></p><p class=\"left_margin\">а)  До­ка­жи­те, что <i>ВM</i>   =   <i>CN</i>.</p><p class=\"left_margin\">б)  Пря­мые <i>BC</i> и <i>MN</i> пе­ре­се­ка­ют­ся в точке <i>D</i>. Най­ди­те пло­щадь тре­уголь­ни­ка <i>BDN</i>, если его вы­со­та <i>ВН</i> равна 6.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/da/da9f7d66f6d1a757f0572b04a1d75fc9.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/df745d4c4ca0efa302c3020fc5030ed8.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Заметим, что   и Тогда  следовательно,  Значит,  откуда следует, что CN  =  BM как хорды, стягивающие равные дуги. б)  Найдем углы BND и DBN: Тогда  а значит, Тогда для площади треугольника BDN имеем:  Ответ: б)  36.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol638316\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=124164\" style=\"float:right;margin:10px;max-width:100%\">а)  За­ме­тим, что </p><p></p><div class=\"flex-math\"> <p><img src=\"https://ege.sdamgia.ru/formula/svg/0d/0dd69e9fbf2fd10ab413150d50467047.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle BAC=180 гра­ду­сов минус 40 гра­ду­сов минус 85 гра­ду­сов =55 гра­ду­сов\"> </p><p>и</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/1f/1fd07774695b535788a599498b88b0e4.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"\\angle ACC_1=90 гра­ду­сов минус 55 гра­ду­сов =35 гра­ду­сов .\"></p><p></p></div><p> Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/4a/4a693954afba9b366104e657149b370b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\smile AN=70 гра­ду­сов ,\"> сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/46/4615d3a4ca49168b4c4ac2939baebb44.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\smile CAN= 2 умно­жить на 40 гра­ду­сов плюс 70 гра­ду­сов=150 гра­ду­сов.\"> Зна­чит, </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/22/229941a25656da2df0bbdb4a276e3c96.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"\\smile BCM=\\smile BC плюс \\smile CM= 2 умно­жить на 55 гра­ду­сов плюс 2 умно­жить на дробь: чис­ли­тель: 40 гра­ду­сов, зна­ме­на­тель: 2 конец дроби = 150 гра­ду­сов, \"></p><p class=\"left_margin\"></p></center><p> от­ку­да сле­ду­ет, что <i>CN</i>  =  <i>BM</i> как хорды, стя­ги­ва­ю­щие рав­ные дуги. </p><p class=\"left_margin\">б)  Най­дем углы <i>BND</i> и <i>DBN</i>:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/b2/b2831e7817b23814fa18a0a6e00fa168.svg\" class=\"tex\" style=\"vertical-align:-2.2pt\" alt=\"\\angle BND = \\angle BNC плюс \\angle CNM = \\angle BAC плюс \\angle CBM=55 гра­ду­сов плюс 20 гра­ду­сов=75 гра­ду­сов;\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/13/13ef8d66ab2c5ba14e365726f9c14d02.svg\" class=\"tex\" style=\"vertical-align:-1.7pt\" alt=\"\\angle DBN=\\angle CBA плюс \\angle ABN =\\angle CBA плюс \\angle ACN=40 гра­ду­сов плюс 35 гра­ду­сов=75 гра­ду­сов.\"></p><p class=\"left_margin\"></p></center><p> Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/ef/efdd3de058c8a080d4d5f94bc4e56ace.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle BDN=30 гра­ду­сов,\"> а зна­чит, </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/23/2315345da8518406e0d42c2964b9688a.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"BD=ND= дробь: чис­ли­тель: BH, зна­ме­на­тель: синус 30 гра­ду­сов конец дроби = 12. \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Тогда для пло­ща­ди тре­уголь­ни­ка <i>BDN</i> имеем: <img src=\"https://ege.sdamgia.ru/formula/svg/63/63e209b9d8851d7ace99bd89d7618e1b.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S_BDN= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на 12 умно­жить на 12 умно­жить на синус 30 в сте­пе­ни левая круг­лая скоб­ка \\circ пра­вая круг­лая скоб­ка =36.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б)  36.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/0d/0dd69e9fbf2fd10ab413150d50467047.svg",
+            "https://ege.sdamgia.ru/formula/svg/1f/1fd07774695b535788a599498b88b0e4.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4a693954afba9b366104e657149b370b.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/4615d3a4ca49168b4c4ac2939baebb44.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/229941a25656da2df0bbdb4a276e3c96.svg",
+            "https://ege.sdamgia.ru/formula/svg/b2/b2831e7817b23814fa18a0a6e00fa168.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/13ef8d66ab2c5ba14e365726f9c14d02.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/efdd3de058c8a080d4d5f94bc4e56ace.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/2315345da8518406e0d42c2964b9688a.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/63e209b9d8851d7ace99bd89d7618e1b.svg",
+            "/get_file?id=124164"
+        ]
+    },
+    "answer": "б)  36.",
+    "topic_id": 17,
+    "analog_ids": []
+}

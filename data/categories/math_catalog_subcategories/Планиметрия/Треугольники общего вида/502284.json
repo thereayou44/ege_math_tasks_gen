@@ -1,0 +1,22 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 502284,
+    "condition": {
+        "text": "В треугольнике ABC угол A равен 14°, внешний угол при вершине B равен 91°. Найдите угол C. Ответ дайте в градусах.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body640240\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=138182\" style=\"float:right;margin:10px;max-width:100%\">В тре­уголь­ни­ке <i>ABC</i> угол <i>A</i> равен 14°, внеш­ний угол при вер­ши­не <i>B</i> равен 91°. Най­ди­те угол <i>C</i>. Ответ дайте в гра­ду­сах.</p></div>",
+        "image_urls": [
+            "/get_file?id=138182"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Сумма внешнего угла при вершине B и самого угла B равна 180°. Поскольку сумма углов треугольника равна 180°, угол C равен  Ответ: 77.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol502284\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Сумма внеш­не­го угла при вер­ши­не <i>B</i> и са­мо­го угла <i>B</i> равна 180°. По­сколь­ку сумма углов тре­уголь­ни­ка равна 180°, угол <i>C</i> равен</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/c9/c9b0232e1a74790b616f390d71fc6cdb.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"180 гра­ду­сов минус \\angle A минус левая круг­лая скоб­ка 180 гра­ду­сов минус \\angle B пра­вая круг­лая скоб­ка =180 гра­ду­сов минус 14 гра­ду­сов минус левая круг­лая скоб­ка 180 гра­ду­сов минус 91 гра­ду­сов пра­вая круг­лая скоб­ка =77 гра­ду­сов .\"></p><p class=\"left_margin\"></p></center><p> </p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 77.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c9/c9b0232e1a74790b616f390d71fc6cdb.svg"
+        ]
+    },
+    "answer": "77",
+    "topic_id": 1,
+    "analog_ids": []
+}

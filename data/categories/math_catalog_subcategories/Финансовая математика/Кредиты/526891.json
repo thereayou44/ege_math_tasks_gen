@@ -1,0 +1,31 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 526891,
+    "condition": {
+        "text": "Планируется выдать льготный кредит на целое число миллионов рублей на четыре года. В середине каждого года действия кредита долг заемщика возрастает на 20% по сравнению с началом года. В конце 1-го и 2-го годов заемщик выплачивает только проценты по кредиту, оставляя долг неизменно равным первоначальному. В конце 3-го и 4-го годов заемщик выплачивает одинаковые суммы, погашая весь долг полностью. Найдите наименьший размер кредита, при котором общая сумма выплат заемщика превысит 8 млн рублей.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body419031\" class=\"pbody\"><p class=\"left_margin\">Пла­ни­ру­ет­ся вы­дать льгот­ный кре­дит на целое число мил­ли­о­нов руб­лей на че­ты­ре года. В се­ре­ди­не каж­до­го года дей­ствия кре­ди­та долг за­ем­щи­ка воз­рас­та­ет на 20% по срав­не­нию с на­ча­лом года. В конце 1-го и 2-го годов за­ем­щик вы­пла­чи­ва­ет толь­ко про­цен­ты по кре­ди­ту, остав­ляя долг не­из­мен­но рав­ным пер­во­на­чаль­но­му. В конце 3-го и 4-го годов за­ем­щик вы­пла­чи­ва­ет оди­на­ко­вые суммы, по­га­шая весь долг пол­но­стью. Най­ди­те наи­мень­ший раз­мер кре­ди­та, при ко­то­ром общая сумма вы­плат за­ем­щи­ка пре­вы­сит 8 млн руб­лей.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Обозначим размер кредита за S млн рублей. В конце 1-го и 2-го годов  заемщик выплачивает по  Всего  за два года.Рассмотрим погашение кредита за следующие два года. В середине 3-го года долг возрастет до  Обозначим через x размер выплачиваемой суммы в конце 3-го и 4-го годов. После выплаты в конце 3-го года долг равен  в в середине 4-го года он равен  В конце 4-го года весь долг должен быть погашен, то есть последняя выплата равна  и по условию равна x.  Значит,и общий размер выплат равен По условию, Наименьшее целое S  =  5.  Ответ: 5 млн руб.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol526891\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Обо­зна­чим раз­мер кре­ди­та за <i>S</i> млн руб­лей. В конце 1-го и 2-го годов  за­ем­щик вы­пла­чи­ва­ет по <img src=\"https://ege.sdamgia.ru/formula/svg/9c/9ca252b0687088d564be4d6438a635ea.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"0,2S.\"> Всего <img src=\"https://ege.sdamgia.ru/formula/svg/52/52724ca75e66f8ba875abc45ef580129.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"0,4S\"> за два года.</p><p class=\"left_margin\">Рас­смот­рим по­га­ше­ние кре­ди­та за сле­ду­ю­щие два года. В се­ре­ди­не 3-го года долг воз­рас­тет до <img src=\"https://ege.sdamgia.ru/formula/svg/4c/4c4e5d72e4680da4d0c8dbf97ff5cb49.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1,2S.\"> Обо­зна­чим через <i>x</i> раз­мер вы­пла­чи­ва­е­мой суммы в конце 3-го и 4-го годов. После вы­пла­ты в конце 3-го года долг равен <img src=\"https://ege.sdamgia.ru/formula/svg/c7/c764a22a777f0b789bf6203ffe658313.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1,2S минус x,\"> в в се­ре­ди­не 4-го года он равен <img src=\"https://ege.sdamgia.ru/formula/svg/49/492c73af6336a156780676bee0ec77a0.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"1,2 левая круг­лая скоб­ка 1,2S минус x пра­вая круг­лая скоб­ка .\"> В конце 4-го года весь долг дол­жен быть по­га­шен, то есть по­след­няя вы­пла­та равна <img src=\"https://ege.sdamgia.ru/formula/svg/a2/a24a59d254219a64e9987a006d5ab314.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"1,2 левая круг­лая скоб­ка 1,2S минус x пра­вая круг­лая скоб­ка \"> и по усло­вию равна <i>x</i>. </p><p> Зна­чит,</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d1/d1e058357c648da53980c86e47f4994c.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"1,2 левая круг­лая скоб­ка 1,2S минус x пра­вая круг­лая скоб­ка =x рав­но­силь­но 2,2x=1,44S рав­но­силь­но x= дробь: чис­ли­тель: 36S, зна­ме­на­тель: 55 конец дроби , \"></p><p class=\"left_margin\"></p></center><p>и общий раз­мер вы­плат равен</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/a1/a14e0234f0443fd83eb657b8572d56e9.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"0,4S плюс 2 умно­жить на дробь: чис­ли­тель: 36S, зна­ме­на­тель: 55 конец дроби = дробь: чис­ли­тель: 94S, зна­ме­на­тель: 55 конец дроби . \"></p><p class=\"left_margin\"></p></center><p> По усло­вию, </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/bd/bd6305ab699b1affdee9a39a9a06c52c.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 94S, зна­ме­на­тель: 55 конец дроби боль­ше 8 рав­но­силь­но 94S боль­ше 440 рав­но­силь­но S боль­ше целая часть: 4, дроб­ная часть: чис­ли­тель: 32, зна­ме­на­тель: 47 . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Наи­мень­шее целое <i>S</i>  =  5. </p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 5 млн руб.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/9c/9ca252b0687088d564be4d6438a635ea.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/52724ca75e66f8ba875abc45ef580129.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c4e5d72e4680da4d0c8dbf97ff5cb49.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c764a22a777f0b789bf6203ffe658313.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/492c73af6336a156780676bee0ec77a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a24a59d254219a64e9987a006d5ab314.svg",
+            "https://ege.sdamgia.ru/formula/svg/d1/d1e058357c648da53980c86e47f4994c.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a14e0234f0443fd83eb657b8572d56e9.svg",
+            "https://ege.sdamgia.ru/formula/svg/bd/bd6305ab699b1affdee9a39a9a06c52c.svg"
+        ]
+    },
+    "answer": "5 млн руб.",
+    "topic_id": 16,
+    "analog_ids": [
+        526891,
+        526898
+    ]
+}

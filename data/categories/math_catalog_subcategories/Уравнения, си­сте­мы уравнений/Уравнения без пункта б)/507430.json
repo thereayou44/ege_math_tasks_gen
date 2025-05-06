@@ -1,0 +1,29 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 507430,
+    "condition": {
+        "text": "Решите уравнение: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body643290\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те урав­не­ние: <img src=\"https://ege.sdamgia.ru/formula/svg/9c/9c7cd44ee63e30c33e7129a7f27477ba.svg\" class=\"tex\" style=\"vertical-align:-13.2pt\" alt=\" дробь: чис­ли­тель: 2 синус в квад­ра­те x минус 5 синус x минус 3, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: x плюс дробь: чис­ли­тель: зна­ме­на­тель: p конец дроби i6 конец ар­гу­мен­та конец дроби =0. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/9c/9c7cd44ee63e30c33e7129a7f27477ba.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Уравнение равносильно системе:Уравнение  решений не имеет. Учитывая, что  получаем:  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol507430\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Урав­не­ние рав­но­силь­но си­сте­ме:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/7c/7cb8a67350aacd1704bfa734d741cd23.svg\" class=\"tex\" style=\"vertical-align:-29.7pt\" alt=\" си­сте­ма вы­ра­же­ний  новая стро­ка 2 синус в квад­ра­те x минус 5 синус x минус 3=0, новая стро­ка x боль­ше минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби конец си­сте­мы рав­но­силь­но си­сте­ма вы­ра­же­ний x боль­ше минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби , со­во­куп­ность вы­ра­же­ний  синус x= минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби , синус x=3. конец си­сте­мы . конец со­во­куп­но­сти \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/31/319e18a1533df15e4e21cb0adf1eda1e.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" синус x=3\"> ре­ше­ний не имеет. Учи­ты­вая, что <img src=\"https://ege.sdamgia.ru/formula/svg/60/60d84a62bfac9a81e2688777f067fa65.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x боль­ше минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби , \"> по­лу­ча­ем: <img src=\"https://ege.sdamgia.ru/formula/svg/0a/0a2c9180e609c3db5e1b9fd641f2f2ab.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x= левая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка в сте­пе­ни левая круг­лая скоб­ка n плюс 1 пра­вая круг­лая скоб­ка дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби плюс Пи n,n=1,2,3,... \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/0c/0c259f9f706449defc3e7280a7856f64.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" левая фи­гур­ная скоб­ка левая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка в сте­пе­ни левая круг­лая скоб­ка n плюс 1 пра­вая круг­лая скоб­ка дробь: чис­ли­тель: зна­ме­на­тель: p конец дроби i6 плюс Пи n: n при­над­ле­жит N пра­вая фи­гур­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/7c/7cb8a67350aacd1704bfa734d741cd23.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/319e18a1533df15e4e21cb0adf1eda1e.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/60d84a62bfac9a81e2688777f067fa65.svg",
+            "https://ege.sdamgia.ru/formula/svg/0a/0a2c9180e609c3db5e1b9fd641f2f2ab.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c259f9f706449defc3e7280a7856f64.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": [
+        507430,
+        511429
+    ]
+}

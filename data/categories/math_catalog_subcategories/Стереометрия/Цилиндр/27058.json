@@ -1,0 +1,52 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27058,
+    "condition": {
+        "text": " Радиус основания цилиндра равен 2, высота равна 3. Найдите площадь боковой поверхности цилиндра, деленную на ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919374\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=139983\" style=\"float:right;margin:10px;max-width:100%\"> Ра­ди­ус ос­но­ва­ния ци­лин­дра равен 2, вы­со­та равна 3. Най­ди­те пло­щадь бо­ко­вой по­верх­но­сти ци­лин­дра, де­лен­ную на <img src=\"https://ege.sdamgia.ru/formula/svg/20/20eb0232474c508d356a7b4ebf331607.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" Пи .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/20/20eb0232474c508d356a7b4ebf331607.svg",
+            "/get_file?id=139983"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Площадь боковой поверхности цилиндра  поэтому  Ответ: 12.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27058\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пло­щадь бо­ко­вой по­верх­но­сти ци­лин­дра <img src=\"https://ege.sdamgia.ru/formula/svg/87/876530a73dc7e46936f2d5786c599461.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"S=2 Пи rH,\"> по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/31/3199f069d05ecd0bcfd5866d677b3635.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"S=2 Пи умно­жить на 2 умно­жить на 3=12 Пи . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 12.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/87/876530a73dc7e46936f2d5786c599461.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/3199f069d05ecd0bcfd5866d677b3635.svg"
+        ]
+    },
+    "answer": "12",
+    "topic_id": 3,
+    "analog_ids": [
+        27058,
+        72673,
+        72675,
+        72677,
+        72673,
+        72675,
+        72677,
+        72679,
+        72681,
+        72683,
+        72685,
+        72687,
+        72689,
+        72691,
+        72693,
+        72695,
+        72697,
+        72699,
+        72701,
+        72703,
+        72705,
+        72707,
+        72709,
+        72711,
+        72713,
+        72715,
+        72717
+    ]
+}

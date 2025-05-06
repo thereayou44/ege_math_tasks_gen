@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 527491,
+    "condition": {
+        "text": "На счет, который вкладчик имел в начале первого квартала, начисляется в конце этого квартала  процентов, а на тот счет, который вкладчик имел в конце второго квартала, начисляется в конце этого квартала  процентов, причем  Вкладчик положил на счет в начале первого квартала некоторую сумму и снял в конце того же квартала половину этой суммы. При каком значении  счет вкладчика в конце второго квартала окажется максимально возможным?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body418431\" class=\"pbody\"><p class=\"left_margin\">На счет, ко­то­рый вклад­чик имел в на­ча­ле пер­во­го квар­та­ла, на­чис­ля­ет­ся в конце этого квар­та­ла <img src=\"https://ege.sdamgia.ru/formula/svg/ba/baf606802b02a2603db47ea634c06429.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"r_1\"> про­цен­тов, а на тот счет, ко­то­рый вклад­чик имел в конце вто­ро­го квар­та­ла, на­чис­ля­ет­ся в конце этого квар­та­ла <img src=\"https://ege.sdamgia.ru/formula/svg/99/9968fc4470c99482a3c991158a8e9448.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"r_2\"> про­цен­тов, при­чем <img src=\"https://ege.sdamgia.ru/formula/svg/b1/b1a777cb5f81f724c1d428ac9e5f814f.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"r_1 плюс r_2=150.\"> Вклад­чик по­ло­жил на счет в на­ча­ле пер­во­го квар­та­ла не­ко­то­рую сумму и снял в конце того же квар­та­ла по­ло­ви­ну этой суммы. При каком зна­че­нии <img src=\"https://ege.sdamgia.ru/formula/svg/ba/baf606802b02a2603db47ea634c06429.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"r_1\"> счет вклад­чи­ка в конце вто­ро­го квар­та­ла ока­жет­ся мак­си­маль­но воз­мож­ным?</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ba/baf606802b02a2603db47ea634c06429.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/9968fc4470c99482a3c991158a8e9448.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b1a777cb5f81f724c1d428ac9e5f814f.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/baf606802b02a2603db47ea634c06429.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Пусть   — множитель, на который умножается вклад после первого квартала, а   — размер вклада. Тогда множитель после второго квартала это  Размер вклада по итогам двух кварталов составит: Наибольшее значение выражения в скобках достигается при  то есть при  Ответ: 100.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol527491\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/ad/ad4bdbc7cd1cd5e155e6473c20590878.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"p=1 плюс 0,01r_1\">  — мно­жи­тель, на ко­то­рый умно­жа­ет­ся вклад после пер­во­го квар­та­ла, а <img src=\"https://ege.sdamgia.ru/formula/svg/e3/e3ea649cdf1edd0eb02c4d8c2a15168e.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2S\">  — раз­мер вкла­да. Тогда мно­жи­тель после вто­ро­го квар­та­ла это <img src=\"https://ege.sdamgia.ru/formula/svg/8e/8ef6bdc75856f83590ad3c10be602e5e.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"1 плюс 0,01 левая круг­лая скоб­ка 150 минус r_1 пра­вая круг­лая скоб­ка =3,5 минус p.\"> Раз­мер вкла­да по ито­гам двух квар­та­лов со­ста­вит:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e0/e048f80719cff5e84468e04e278f7a19.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 2Sp минус S пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 3,5 минус p пра­вая круг­лая скоб­ка =S левая круг­лая скоб­ка 2p минус 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 3,5 минус p пра­вая круг­лая скоб­ка =S левая круг­лая скоб­ка 8p минус 3,5 минус 2p в квад­ра­те пра­вая круг­лая скоб­ка .\"> </p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Наи­боль­шее зна­че­ние вы­ра­же­ния в скоб­ках до­сти­га­ет­ся при <img src=\"https://ege.sdamgia.ru/formula/svg/d3/d3a5a08d612a75b49c5ac5c611ee9c2f.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\"p= минус дробь: чис­ли­тель: 8, зна­ме­на­тель: 2 левая круг­лая скоб­ка минус 2 пра­вая круг­лая скоб­ка конец дроби =2, \"> то есть при <img src=\"https://ege.sdamgia.ru/formula/svg/ec/ec92701dd5214e6cffc1b57bf3a9ee1b.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"r_1=100.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 100.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ad/ad4bdbc7cd1cd5e155e6473c20590878.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e3ea649cdf1edd0eb02c4d8c2a15168e.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8ef6bdc75856f83590ad3c10be602e5e.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e048f80719cff5e84468e04e278f7a19.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d3a5a08d612a75b49c5ac5c611ee9c2f.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ec92701dd5214e6cffc1b57bf3a9ee1b.svg"
+        ]
+    },
+    "answer": "100.",
+    "topic_id": null,
+    "analog_ids": []
+}

@@ -1,0 +1,39 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 508347,
+    "condition": {
+        "text": "Решите неравенство: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body634695\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство: <img src=\"https://ege.sdamgia.ru/formula/svg/18/18cbf44647475afc892ada46231decaa.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" дробь: чис­ли­тель: 6, зна­ме­на­тель: конец дроби x ко­рень из 3 минус 3 плюс дробь: чис­ли­тель: x ко­рень из 3 минус 6, зна­ме­на­тель: x ко­рень из 3 минус 9 конец дроби \\geqslant2. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/18/18cbf44647475afc892ada46231decaa.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Пусть  получаем: Возвращаясь к исходной переменной, получаем:  или  Ответ:  Приведем замечание Андрея Анатольевича.Заметим, что преобразования будут проще при замене  тогда получим",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol508347\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/e0/e0411d18e354e86ad2ece1e076e48f13.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"z=x ко­рень из 3 ,\"> по­лу­ча­ем:</p><p class=\"left_margin\"></p><center><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/1e/1e4fa1da1837275ef336ac2e6ca2a16b.svg\" class=\"tex\" style=\"vertical-align:-11.0pt\" alt=\" дробь: чис­ли­тель: 6, зна­ме­на­тель: конец дроби z минус 3 плюс дробь: чис­ли­тель: z минус 6, зна­ме­на­тель: z минус 9 конец дроби \\geqslant2 рав­но­силь­но дробь: чис­ли­тель: 6 левая круг­лая скоб­ка z минус 9 пра­вая круг­лая скоб­ка плюс левая круг­лая скоб­ка z минус 6 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка z минус 3 пра­вая круг­лая скоб­ка минус 2 левая круг­лая скоб­ка z минус 3 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка z минус 9 пра­вая круг­лая скоб­ка , зна­ме­на­тель: левая круг­лая скоб­ка z минус 3 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка z минус 9 пра­вая круг­лая скоб­ка конец дроби \\geqslant0 рав­но­силь­но \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/74/743d06cad090868198175d4ff078364c.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" рав­но­силь­но дробь: чис­ли­тель: z в квад­ра­те минус 21z плюс 90, зна­ме­на­тель: левая круг­лая скоб­ка z минус 3 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка z минус 9 пра­вая круг­лая скоб­ка конец дроби \\leqslant0 рав­но­силь­но дробь: чис­ли­тель: левая круг­лая скоб­ка z минус 6 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка z минус 15 пра­вая круг­лая скоб­ка , зна­ме­на­тель: левая круг­лая скоб­ка z минус 3 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка z минус 9 пра­вая круг­лая скоб­ка конец дроби \\leqslant0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка 3 мень­ше z\\leqslant6, новая стро­ка 9 мень­ше z\\leqslant15. конец со­во­куп­но­сти . \"></p><p class=\"left_margin\"></p></center><p><img src=\"/get_file?id=142904\" style=\"margin:10px auto;display:block;max-width:100%\"></p><p class=\"left_margin\">Воз­вра­ща­ясь к ис­ход­ной пе­ре­мен­ной, по­лу­ча­ем: <img src=\"https://ege.sdamgia.ru/formula/svg/57/5713c155b3470c70b0b9aaffaf74fef7.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\" ко­рень из 3 мень­ше x\\leqslant2 ко­рень из 3 \"> или <img src=\"https://ege.sdamgia.ru/formula/svg/e8/e82568aefca2f3c35a3d508799a22001.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"3 ко­рень из 3 мень­ше x\\leqslant5 ко­рень из 3 .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/eb/eb280acc6aabbbfba138b924c48db5bc.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\" левая круг­лая скоб­ка ко­рень из 3 ;2 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та пра­вая квад­рат­ная скоб­ка \\cup левая круг­лая скоб­ка 3 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та ;5 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та пра­вая квад­рат­ная скоб­ка .\"></p><p>&nbsp;</p><p><b>При­ве­дем за­ме­ча­ние Ан­дрея Ана­то­лье­ви­ча.</b></p><p class=\"left_margin\">За­ме­тим, что пре­об­ра­зо­ва­ния будут проще при за­ме­не <img src=\"https://ege.sdamgia.ru/formula/svg/e4/e4834f049672b0fe67f877bdb254e951.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"z=x ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та минус 6,\"> тогда по­лу­чим</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/b8/b831d4151721fa91813f1b1a252094c7.svg\" class=\"tex\" style=\"vertical-align:-9.4pt\" alt=\" дробь: чис­ли­тель: 6, зна­ме­на­тель: конец дроби z плюс 3 плюс дробь: чис­ли­тель: z, зна­ме­на­тель: z минус 3 конец дроби \\geqslant2 рав­но­силь­но дробь: чис­ли­тель: 6 левая круг­лая скоб­ка z минус 3 пра­вая круг­лая скоб­ка плюс z левая круг­лая скоб­ка z плюс 3 пра­вая круг­лая скоб­ка минус 2 левая круг­лая скоб­ка z в квад­ра­те минус 9 пра­вая круг­лая скоб­ка , зна­ме­на­тель: z в квад­ра­те минус 9 конец дроби \\geqslant0. \"></p><p class=\"left_margin\"></p></center></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e0/e0411d18e354e86ad2ece1e076e48f13.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1e4fa1da1837275ef336ac2e6ca2a16b.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/743d06cad090868198175d4ff078364c.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/5713c155b3470c70b0b9aaffaf74fef7.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e82568aefca2f3c35a3d508799a22001.svg",
+            "https://ege.sdamgia.ru/formula/svg/eb/eb280acc6aabbbfba138b924c48db5bc.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e4834f049672b0fe67f877bdb254e951.svg",
+            "https://ege.sdamgia.ru/formula/svg/b8/b831d4151721fa91813f1b1a252094c7.svg",
+            "/get_file?id=142904"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": [
+        508347,
+        508426,
+        508448,
+        511512,
+        508426,
+        508448,
+        511512,
+        511537
+    ]
+}

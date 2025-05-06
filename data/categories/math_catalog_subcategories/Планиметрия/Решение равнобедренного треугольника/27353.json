@@ -1,0 +1,51 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27353,
+    "condition": {
+        "text": " В тупоугольном треугольнике ABC  высота AH равна 4,  Найдите ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918565\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=109594\" style=\"float:right;margin:10px;max-width:100%\"> В ту­по­уголь­ном тре­уголь­ни­ке <i>ABC</i> <img src=\"https://ege.sdamgia.ru/formula/svg/d7/d7f135eda8661def45358444c0a7603a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AC = BC,\"> вы­со­та <i>AH</i> равна 4, <img src=\"https://ege.sdamgia.ru/formula/svg/5d/5da2c2135c16fd8da3a31b95c6dc1c7a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"CH = 8.\"> Най­ди­те <img src=\"https://ege.sdamgia.ru/formula/svg/1a/1ad9be33541c6ba1595916f73332e75c.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\" тан­генс ACB.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d7/d7f135eda8661def45358444c0a7603a.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5da2c2135c16fd8da3a31b95c6dc1c7a.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1ad9be33541c6ba1595916f73332e75c.svg",
+            "/get_file?id=109594"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Вычислим:Ответ: –0,5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27353\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Вы­чис­лим:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/21/21807ca759ca7866db76f745eb794e71.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" тан­генс \\angle ACB= тан­генс левая круг­лая скоб­ка Пи минус \\angle ACH пра­вая круг­лая скоб­ка = минус тан­генс \\angle ACH= минус дробь: чис­ли­тель: AH, зна­ме­на­тель: CH конец дроби = минус 0,5. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spaceing:2px\">Ответ</span>: –0,5.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/21/21807ca759ca7866db76f745eb794e71.svg"
+        ]
+    },
+    "answer": "-0,5",
+    "topic_id": 1,
+    "analog_ids": [
+        27353,
+        34515,
+        34517,
+        34519,
+        34515,
+        34517,
+        34519,
+        34521,
+        34523,
+        34525,
+        34527,
+        34529,
+        34531,
+        34533,
+        34535,
+        34537,
+        34539,
+        34541,
+        34543,
+        34545,
+        34547,
+        34549,
+        34551,
+        34553,
+        34555
+    ]
+}

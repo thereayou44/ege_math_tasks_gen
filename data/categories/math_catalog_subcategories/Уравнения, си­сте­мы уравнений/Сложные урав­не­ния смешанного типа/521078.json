@@ -1,0 +1,33 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521078,
+    "condition": {
+        "text": "а)  Решите уравнение б)  Укажите корни этого уравнения, принадлежащие отрезку",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body630154\" class=\"pbody\"><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/c5/c57db325ebda60d6dcc8fcd1eb343c9b.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\" ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 2 ко­си­нус в квад­ра­те x пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 3 минус 3 синус x пра­вая круг­лая скоб­ка = 1.\"></p><p class=\"left_margin\">б)  Ука­жи­те&nbsp;корни этого урав­не­ния, при­над­ле­жа­щие&nbsp;от­рез­ку<img src=\"https://ege.sdamgia.ru/formula/svg/2e/2ec3d12aa60d9d708b85fbb994df1ee4.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка дробь: чис­ли­тель: 13 Пи , зна­ме­на­тель: 2 конец дроби ; 8 Пи пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c5/c57db325ebda60d6dcc8fcd1eb343c9b.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2ec3d12aa60d9d708b85fbb994df1ee4.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Уравнение сводится к   при условиях      Решим его:  Обе серии лежат в ОДЗ.б)  С помощью тригонометрического круга найдем ответ:  Ответ: а)     б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521078\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=41520\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Урав­не­ние сво­дит­ся к <img src=\"https://ege.sdamgia.ru/formula/svg/ae/aea7c998c9b00ebd22da6d939e3b8681.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" 2 ко­си­нус в квад­ра­те x=3 минус 3 синус x,\">  при усло­ви­ях <img src=\"https://ege.sdamgia.ru/formula/svg/b0/b0c4690e2312ba09df79158f3495a83e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" 3 минус 3 синус x боль­ше 0,\">  <img src=\"https://ege.sdamgia.ru/formula/svg/ad/ad6167340838851904c7915eee14963d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" 2 ко­си­нус в квад­ра­те x боль­ше 0,\">  <img src=\"https://ege.sdamgia.ru/formula/svg/c9/c95917d69ea301fb4a77b952a08487e9.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" 2 ко­си­нус в квад­ра­те x не равно 1.\"> </p><p class=\"left_margin\">Решим его: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ef/ef3f4580e50a52edb22bf1b2e0516023.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" 2 левая круг­лая скоб­ка 1 минус синус x пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 1 плюс синус x пра­вая круг­лая скоб­ка =3 левая круг­лая скоб­ка 1 минус синус x пра­вая круг­лая скоб­ка рав­но­силь­но 2 плюс 2 синус x=3 рав­но­силь­но \"></p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/7e/7ec4d84afe131b4bd8fd6814770afffd.svg\" class=\"tex\" style=\"vertical-align:-21.3pt\" alt=\" рав­но­силь­но синус x= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби рав­но­силь­но со­во­куп­ность вы­ра­же­ний x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k,k при­над­ле­жит Z ,x= дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k,k при­над­ле­жит Z . конец со­во­куп­но­сти . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Обе серии лежат в ОДЗ.</p><p class=\"left_margin\">б)  С по­мо­щью три­го­но­мет­ри­че­ско­го круга най­дем ответ: <img src=\"https://ege.sdamgia.ru/formula/svg/8a/8ad714245932a1b3ffaa4a34519ee41c.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби плюс 6 Пи = дробь: чис­ли­тель: 41 Пи , зна­ме­на­тель: 6 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) <img src=\"https://ege.sdamgia.ru/formula/svg/c5/c5eb0c91bd416f308f630e3b21c1104f.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая фи­гур­ная скоб­ка дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k, дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k:k при­над­ле­жит Z пра­вая фи­гур­ная скоб­ка \">  <img src=\"https://ege.sdamgia.ru/formula/svg/bc/bcdc34a37df3a70a6b6ab786fa6c77d4.svg\" class=\"tex\" style=\"vertical-align:-2.3pt\" alt=\" k при­над­ле­жит Z ;\">  б) <img src=\"https://ege.sdamgia.ru/formula/svg/e6/e6e2c44e61ff72d74bc8fa919cf17b3e.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 41 Пи , зна­ме­на­тель: 6 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ae/aea7c998c9b00ebd22da6d939e3b8681.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b0c4690e2312ba09df79158f3495a83e.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/ad6167340838851904c7915eee14963d.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c95917d69ea301fb4a77b952a08487e9.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/ef3f4580e50a52edb22bf1b2e0516023.svg",
+            "https://ege.sdamgia.ru/formula/svg/7e/7ec4d84afe131b4bd8fd6814770afffd.svg",
+            "https://ege.sdamgia.ru/formula/svg/8a/8ad714245932a1b3ffaa4a34519ee41c.svg",
+            "https://ege.sdamgia.ru/formula/svg/c5/c5eb0c91bd416f308f630e3b21c1104f.svg",
+            "https://ege.sdamgia.ru/formula/svg/bc/bcdc34a37df3a70a6b6ab786fa6c77d4.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e6e2c44e61ff72d74bc8fa919cf17b3e.svg",
+            "/get_file?id=41520"
+        ]
+    },
+    "answer": "а)     б)",
+    "topic_id": null,
+    "analog_ids": []
+}

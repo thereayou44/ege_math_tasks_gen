@@ -1,0 +1,36 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 513232,
+    "condition": {
+        "text": "Дано уравнение а)  Решите уравнение.                                           б)  Укажите корни этого уравнения, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body637484\" class=\"pbody\"><p class=\"left_margin\">Дано&nbsp;урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/22/22096b0ce15e7b2d76ecd9e782859c4b.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 1 плюс ко­рень из 3 , зна­ме­на­тель: 2 конец дроби синус 2x= левая круг­лая скоб­ка ко­рень из 3 минус 1 пра­вая круг­лая скоб­ка ко­си­нус в квад­ра­те x плюс 1. \"></p><p class=\"left_margin\">а)  Ре­ши­те&nbsp;урав­не­ние.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class=\"left_margin\">б)  Ука­жи­те&nbsp;корни&nbsp;этого&nbsp;урав­не­ния,&nbsp;при­над­ле­жа­щие&nbsp;от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/d9/d97affd02569167a130b3ee4e69bf169.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби ;3 Пи пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/22/22096b0ce15e7b2d76ecd9e782859c4b.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d97affd02569167a130b3ee4e69bf169.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Преобразуем уравнение Ясно, что точки, в которых  в уравнение не подходят. Поэтому можно поделить на   или  или  б)  На указанном отрезке лежат точки   Ответ:  а)   или  б)  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol513232\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Пре­об­ра­зу­ем урав­не­ние</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e1/e1ec52230809d9eaddcf1785377dc013.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\" левая круг­лая скоб­ка 1 плюс ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та пра­вая круг­лая скоб­ка синус x ко­си­нус x= ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та ко­си­нус в квад­ра­те x плюс синус в квад­ра­те x.\"> </p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Ясно, что точки, в ко­то­рых <img src=\"https://ege.sdamgia.ru/formula/svg/03/039d4934223cd30006d2c2f0b9aa8113.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" ко­си­нус x=0,\"> в урав­не­ние не под­хо­дят. По­это­му можно по­де­лить на <img src=\"https://ege.sdamgia.ru/formula/svg/05/05a78f7ab92c7c8aedd9b36254863706.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­си­нус в квад­ра­те x.\"></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/04/042534c95ed70b7a1321323778522517.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\" тан­генс в квад­ра­те x минус левая круг­лая скоб­ка 1 плюс ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та пра­вая круг­лая скоб­ка тан­генс x плюс ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та =0;\"> <img src=\"https://ege.sdamgia.ru/formula/svg/55/5512770d47b1f2ae33bd9e739026bae7.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\" тан­генс x=1\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/dd/dd219d08597bcf78d76bdb45da972845.svg\" class=\"tex\" style=\"vertical-align:-3.3pt\" alt=\" тан­генс x= ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та ,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/d5/d5a0897a35d617507ef5b4b80bb33df5.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби плюс Пи k \"> или <img src=\"https://ege.sdamgia.ru/formula/svg/58/587d111f49c6aded79bd3aeb6e28fea6.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 3 конец дроби плюс Пи k. \"> </p><p class=\"left_margin\"></p></center><p class=\"left_margin\">б)  На ука­зан­ном от­рез­ке лежат точки <img src=\"https://ege.sdamgia.ru/formula/svg/bb/bbb10654d28b6eebeb1fcac050b56669.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= дробь: чис­ли­тель: 9 Пи , зна­ме­на­тель: 4 конец дроби , \"> <img src=\"https://ege.sdamgia.ru/formula/svg/01/01964cbaac541e6c752dd636c62bc8ca.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x= дробь: чис­ли­тель: 7 Пи , зна­ме­на­тель: 3 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  а)  <img src=\"https://ege.sdamgia.ru/formula/svg/d5/d5a0897a35d617507ef5b4b80bb33df5.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби плюс Пи k \"> или <img src=\"https://ege.sdamgia.ru/formula/svg/7b/7b44f1cd817f828cacc0a60710f90f9a.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 3 конец дроби плюс Пи k; \"> б) <img src=\"https://ege.sdamgia.ru/formula/svg/bb/bbb10654d28b6eebeb1fcac050b56669.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= дробь: чис­ли­тель: 9 Пи , зна­ме­на­тель: 4 конец дроби , \"> <img src=\"https://ege.sdamgia.ru/formula/svg/01/01964cbaac541e6c752dd636c62bc8ca.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x= дробь: чис­ли­тель: 7 Пи , зна­ме­на­тель: 3 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e1/e1ec52230809d9eaddcf1785377dc013.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/039d4934223cd30006d2c2f0b9aa8113.svg",
+            "https://ege.sdamgia.ru/formula/svg/05/05a78f7ab92c7c8aedd9b36254863706.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/042534c95ed70b7a1321323778522517.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/5512770d47b1f2ae33bd9e739026bae7.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/dd219d08597bcf78d76bdb45da972845.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d5a0897a35d617507ef5b4b80bb33df5.svg",
+            "https://ege.sdamgia.ru/formula/svg/58/587d111f49c6aded79bd3aeb6e28fea6.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bbb10654d28b6eebeb1fcac050b56669.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/01964cbaac541e6c752dd636c62bc8ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d5a0897a35d617507ef5b4b80bb33df5.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7b44f1cd817f828cacc0a60710f90f9a.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bbb10654d28b6eebeb1fcac050b56669.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/01964cbaac541e6c752dd636c62bc8ca.svg"
+        ]
+    },
+    "answer": "а)   или  б)",
+    "topic_id": null,
+    "analog_ids": []
+}

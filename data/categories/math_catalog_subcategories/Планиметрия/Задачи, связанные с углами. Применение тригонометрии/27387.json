@@ -1,0 +1,35 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27387,
+    "condition": {
+        "text": "В треугольнике ABC угол C равен 90°, синус внешнего угла при вершине A равен  Найдите ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918535\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right; margin:10px\" src=\"/get_file?id=7668\">В тре­уголь­ни­ке <i>ABC</i> угол <i>C</i> равен 90°, синус внеш­не­го угла при вер­ши­не <i>A</i> равен <img src=\"https://ege.sdamgia.ru/formula/svg/7b/7bed5a5d50801a86e2c8c79d3cb0e9fe.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 7, зна­ме­на­тель: 25 конец дроби . \"> Най­ди­те <img src=\"https://ege.sdamgia.ru/formula/svg/01/01f4793c2ed47090b60a31cbc95e9f89.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­си­нус A.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/7b/7bed5a5d50801a86e2c8c79d3cb0e9fe.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/01f4793c2ed47090b60a31cbc95e9f89.svg",
+            "/get_file?id=7668"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Синусы смежных углов равны. Поэтому  Ответ: 0,96. ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27387\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Си­ну­сы смеж­ных углов равны. По­это­му </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/9e/9e4cfcf714384e4fbedbb8587ffeccf8.svg\" class=\"tex\" style=\"vertical-align:-9.4pt\" alt=\" ко­си­нус A= ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус синус в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та A пра­вая круг­лая скоб­ка = ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус дробь: чис­ли­тель: 49, зна­ме­на­тель: 625 конец дроби конец ар­гу­мен­та = дробь: чис­ли­тель: 24, зна­ме­на­тель: 25 конец дроби =0,96. \"></p><p class=\"left_margin\"></p></center> <p><span style=\"letter-spaceing:2px\">Ответ</span>: 0,96. </p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/9e/9e4cfcf714384e4fbedbb8587ffeccf8.svg"
+        ]
+    },
+    "answer": "0,96",
+    "topic_id": null,
+    "analog_ids": [
+        27387,
+        35807,
+        35801,
+        35803,
+        35807,
+        35801,
+        35803,
+        35805,
+        35809,
+        35811
+    ]
+}

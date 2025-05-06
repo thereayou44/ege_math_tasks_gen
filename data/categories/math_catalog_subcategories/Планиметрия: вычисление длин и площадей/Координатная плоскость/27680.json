@@ -1,0 +1,34 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27680,
+    "condition": {
+        "text": "Точки O(0; 0), A(10; 8), B(8; 2) и C являются вершинами параллелограмма. Найдите ординату точки ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918236\" class=\"pbody\"><p class=\"left_margin\"><img width=\"190\" style=\"float:right; margin:10px\" src=\"/get_file?id=380\">Точки <i>O</i>(0; 0), <i>A</i>(10; 8), <i>B</i>(8; 2) и <i>C</i> яв­ля­ют­ся вер­ши­на­ми па­рал­ле­ло­грам­ма. Най­ди­те ор­ди­на­ту точки <img src=\"https://ege.sdamgia.ru/formula/svg/9b/9bce147872014965a531500da2666847.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"C.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/9b/9bce147872014965a531500da2666847.svg",
+            "/get_file?id=380"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Пусть точка P является серединой отрезков OA и BC. Координаты точки P вычисляются следующим образом:  но с другой стороны,   Поэтому   Ответ: 6. Приведем другое решение.Поскольку  имеем:  Следовательно, ордината точки С равна 6.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27680\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть точка <i>P</i> яв­ля­ет­ся се­ре­ди­ной от­рез­ков <i>OA</i> и <i>BC</i>. Ко­ор­ди­на­ты точки <i>P</i> вы­чис­ля­ют­ся сле­ду­ю­щим об­ра­зом: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/88/88c8b0797d41d3f9223548b126fe8759.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= дробь: чис­ли­тель: 10 плюс 0, зна­ме­на­тель: 2 конец дроби =5, \"> <img src=\"https://ege.sdamgia.ru/formula/svg/de/decc580d6810e12d009886ad56e45d21.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"y= дробь: чис­ли­тель: 8 плюс 0, зна­ме­на­тель: 2 конец дроби =4, \"></p><p class=\"left_margin\"></p></center>но с дру­гой сто­ро­ны, <p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/7c/7c8a6dc7e46da75183eb793ee7fb2d66.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= дробь: чис­ли­тель: 8 плюс x_c, зна­ме­на­тель: 2 конец дроби =5, \"> <img src=\"https://ege.sdamgia.ru/formula/svg/78/78e588bdadd3dd8f62539021d1936d16.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"y= дробь: чис­ли­тель: 2 плюс y_c, зна­ме­на­тель: 2 конец дроби =4. \"> </p><p class=\"left_margin\"></p></center>По­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/5f/5f3fc11d09f6ba6422459821f6ada147.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x_c=2,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/ac/ac1b18290e84b468965f2504420f84f2.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y_c=6.\"><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 6.</p><p>&nbsp;</p><p><b>При­ве­дем дру­гое ре­ше­ние.</b></p><p class=\"left_margin\">По­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/67/6704568731d87a5c962ab0426ed0edbc.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overrightarrowOC = \\overrightarrowAB \"> имеем: <img src=\"https://ege.sdamgia.ru/formula/svg/fd/fd9dbca53f9fa0da16c7cd06cb64fb71.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y_A минус y_B=8 минус 2=6.\"> Сле­до­ва­тель­но, ор­ди­на­та точки <i>С</i> равна 6.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/88/88c8b0797d41d3f9223548b126fe8759.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/decc580d6810e12d009886ad56e45d21.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7c8a6dc7e46da75183eb793ee7fb2d66.svg",
+            "https://ege.sdamgia.ru/formula/svg/78/78e588bdadd3dd8f62539021d1936d16.svg",
+            "https://ege.sdamgia.ru/formula/svg/5f/5f3fc11d09f6ba6422459821f6ada147.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/ac1b18290e84b468965f2504420f84f2.svg",
+            "https://ege.sdamgia.ru/formula/svg/67/6704568731d87a5c962ab0426ed0edbc.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fd9dbca53f9fa0da16c7cd06cb64fb71.svg"
+        ]
+    },
+    "answer": "6",
+    "topic_id": null,
+    "analog_ids": [
+        27680,
+        27679,
+        26411
+    ]
+}

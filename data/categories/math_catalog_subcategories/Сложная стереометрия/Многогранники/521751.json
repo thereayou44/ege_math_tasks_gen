@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521751,
+    "condition": {
+        "text": "Основанием четырехугольной пирамиды SABCD является квадрат ABCD со стороной АВ  =  4. Боковое ребро SC, равное 4, перпендикулярно основанию пирамиды. Плоскость α, проходящая через вершину С параллельно прямой BD, пересекает ребро SA в точке М, причем SM : MA  =  1 : 2. а)  Докажите, что SA перпендикулярно α.б)  Найдите площадь сечения пирамиды SABCD плоскостью α.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body628971\" class=\"pbody\"><p class=\"left_margin\">Ос­но­ва­ни­ем че­ты­рех­уголь­ной пи­ра­ми­ды <i>SABCD</i> яв­ля­ет­ся квад­рат <i>ABCD</i> со сто­ро­ной <i>АВ</i>  =  4. Бо­ко­вое ребро <i>SC</i>, рав­ное 4, пер­пен­ди­ку­ляр­но ос­но­ва­нию пи­ра­ми­ды. Плос­кость <i>α</i>, про­хо­дя­щая через вер­ши­ну <i>С</i> па­рал­лель­но пря­мой <i>BD</i>, пе­ре­се­ка­ет ребро <i>SA</i> в точке <i>М</i>, при­чем <i>SM</i> : MA  =  1 : 2. </p><p class=\"left_margin\">а)  До­ка­жи­те, что <i>SA</i> пер­пен­ди­ку­ляр­но <i>α</i>.</p><p class=\"left_margin\">б)  Най­ди­те пло­щадь се­че­ния пи­ра­ми­ды <i>SABCD</i> плос­ко­стью <i>α</i>.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Достроим пирамиду до куба  Тогда указанная плоскость  — это плоскость  которая перпендикулярна главной диагонали куба.  б)  Очевидно в сечении лежат точки пересечения линий SD и  а также  и  Назовем из  и  Тогда сечение  — четырехугольник  с перпендикулярными диагоналями (поскольку  и ). ТогдаОтвет: б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521751\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=36437\" style=\"float:right;margin:10px\">а)  До­стро­им пи­ра­ми­ду до куба <img src=\"https://ege.sdamgia.ru/formula/svg/db/dbde772f0c731b8e4f25d94a7452ca6d.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"ABCDA_1B_1SD_1.\"> Тогда ука­зан­ная плос­кость  — это плос­кость <img src=\"https://ege.sdamgia.ru/formula/svg/18/18195afc6ce6df57b544c638613624e1.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"CB_1D_1,\"> ко­то­рая пер­пен­ди­ку­ляр­на глав­ной диа­го­на­ли куба. </p><p>&nbsp;</p><p class=\"left_margin\">б)  Оче­вид­но в се­че­нии лежат точки пе­ре­се­че­ния линий <i>SD</i> и <img src=\"https://ege.sdamgia.ru/formula/svg/cc/ccc90da2734c2fdc28710c5c5a76ebac.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"CD_1,\"> а также <img src=\"https://ege.sdamgia.ru/formula/svg/dc/dc273b8a0b922cce6b77d9cd5601f54c.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"CB_1\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/7d/7d6f1dfce31d76af8dff298de3084c1c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BS.\"> На­зо­вем из <img src=\"https://ege.sdamgia.ru/formula/svg/31/31b6eb924de49df799c3016cfea5a36b.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"O_1\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/be/bee1518ebcbd4d757334d1595573a27b.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"O_2.\"> Тогда се­че­ние  — че­ты­рех­уголь­ник <img src=\"https://ege.sdamgia.ru/formula/svg/24/248e0eb66ef8a747b79047e2dbcb9f0b.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"CO_1MO_2\"> с пер­пен­ди­ку­ляр­ны­ми диа­го­на­ля­ми (по­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/57/57cf732d230832e1ea9cbb9ff3257761.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"O_1O_2\\parallel B_1D_1\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/ce/ce43960a345f2ab5b3012041a4e14d49.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"B_1D_1\\perp SA\">). Тогда</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/b4/b4eed7e4af5944518e322651cdd94ed4.svg\" class=\"tex\" style=\"vertical-align:-11.0pt\" alt=\"S_CO_1MO_2= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби O_1O_2 умно­жить на CM= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби BD умно­жить на дробь: чис­ли­тель: SC умно­жить на CA, зна­ме­на­тель: SA конец дроби = дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби умно­жить на 4 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та умно­жить на дробь: чис­ли­тель: 4 умно­жить на 4 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та , зна­ме­на­тель: 4 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та конец дроби = дробь: чис­ли­тель: 8, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та конец дроби . \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) <img src=\"https://ege.sdamgia.ru/formula/svg/92/9288f9c3cea6c418a3e759e444a02b1d.svg\" class=\"tex\" style=\"vertical-align:-11.0pt\" alt=\" дробь: чис­ли­тель: 8, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/db/dbde772f0c731b8e4f25d94a7452ca6d.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/18195afc6ce6df57b544c638613624e1.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/ccc90da2734c2fdc28710c5c5a76ebac.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dc273b8a0b922cce6b77d9cd5601f54c.svg",
+            "https://ege.sdamgia.ru/formula/svg/7d/7d6f1dfce31d76af8dff298de3084c1c.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/31b6eb924de49df799c3016cfea5a36b.svg",
+            "https://ege.sdamgia.ru/formula/svg/be/bee1518ebcbd4d757334d1595573a27b.svg",
+            "https://ege.sdamgia.ru/formula/svg/24/248e0eb66ef8a747b79047e2dbcb9f0b.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/57cf732d230832e1ea9cbb9ff3257761.svg",
+            "https://ege.sdamgia.ru/formula/svg/ce/ce43960a345f2ab5b3012041a4e14d49.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b4eed7e4af5944518e322651cdd94ed4.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/9288f9c3cea6c418a3e759e444a02b1d.svg",
+            "/get_file?id=36437"
+        ]
+    },
+    "answer": "б)",
+    "topic_id": null,
+    "analog_ids": []
+}

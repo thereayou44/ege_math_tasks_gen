@@ -1,0 +1,29 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 541371,
+    "condition": {
+        "text": "В треугольнике ABC сторона AB равна  угол С равен 135°. Найдите радиус описанной около этого треугольника окружности.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body404551\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=138371\" style=\"float:right;margin:10px;max-width:100%\">В тре­уголь­ни­ке <i>ABC</i> сто­ро­на <i>AB</i> равна <img src=\"https://ege.sdamgia.ru/formula/svg/d7/d7b5e5615810d672a2d23fc7fa9c8dd6.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"3 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та ,\"> угол <i>С</i> равен 135°. Най­ди­те ра­ди­ус опи­сан­ной около этого тре­уголь­ни­ка окруж­но­сти.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d7/d7b5e5615810d672a2d23fc7fa9c8dd6.svg",
+            "/get_file?id=138371"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Воспользуемся теоремой синусов:  откуда получаем: Ответ: 3. Приведем решение Александра Походиева.Угол ACB является вписанным, следовательно, дуга AB, не содержащая точку C, составляет 135° · 2  =  270°. Тогда дуга AB, содержащая точку C, составляет 360°  –  270°  =  90°. Пусть O  — центр окружности, тогда треугольник AOB равнобедренный прямоугольный, его катет равен радиусу окружности. По теореме Пифагора  тогда ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol541371\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Вос­поль­зу­ем­ся тео­ре­мой си­ну­сов: <img src=\"https://ege.sdamgia.ru/formula/svg/fb/fbc6a0ecf2779975871c148ff5a4a53e.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"2R = дробь: чис­ли­тель: AB, зна­ме­на­тель: синус \\angle C конец дроби , \"> от­ку­да по­лу­ча­ем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/cb/cb25e3e3ff4b8e6989109a3f6ac6ff73.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"R= дробь: чис­ли­тель: AB, зна­ме­на­тель: 2 синус \\angle C конец дроби = дробь: чис­ли­тель: 3 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та , зна­ме­на­тель: 2 синус 135 гра­ду­сов конец дроби =3. \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 3.</p><p>&nbsp;</p><p><b>При­ве­дем ре­ше­ние Алек­сандра По­хо­ди­е­ва.</b></p><p class=\"left_margin\">Угол <i>ACB</i> яв­ля­ет­ся впи­сан­ным, сле­до­ва­тель­но, дуга <i>AB</i>, не со­дер­жа­щая точку <i>C</i>, со­став­ля­ет 135° · 2  =  270°. Тогда дуга <i>AB</i>, со­дер­жа­щая точку <i>C</i>, со­став­ля­ет 360°  –  270°  =  90°. Пусть <i>O</i>  — центр окруж­но­сти, тогда тре­уголь­ник <i>AOB</i> рав­но­бед­рен­ный пря­мо­уголь­ный, его катет равен ра­ди­у­су окруж­но­сти. По тео­ре­ме Пи­фа­го­ра <img src=\"https://ege.sdamgia.ru/formula/svg/84/84e7c521cc8fc412cc74ff03ebc904bb.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"R в квад­ра­те плюс R в квад­ра­те =AB в квад­ра­те ,\"> тогда <img src=\"https://ege.sdamgia.ru/formula/svg/b2/b2ecb8a405eca7f8544976aac035e56d.svg\" class=\"tex\" style=\"vertical-align:-10.9pt\" alt=\"R= дробь: чис­ли­тель: AB, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та конец дроби =3. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/fb/fbc6a0ecf2779975871c148ff5a4a53e.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cb25e3e3ff4b8e6989109a3f6ac6ff73.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/84e7c521cc8fc412cc74ff03ebc904bb.svg",
+            "https://ege.sdamgia.ru/formula/svg/b2/b2ecb8a405eca7f8544976aac035e56d.svg"
+        ]
+    },
+    "answer": "3",
+    "topic_id": 1,
+    "analog_ids": [
+        541371,
+        541815
+    ]
+}

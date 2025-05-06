@@ -1,0 +1,33 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521336,
+    "condition": {
+        "text": "Найдите все значения параметра а, при каждом из которых уравнениеимеет ровно два различных корня.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629380\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те&nbsp;все&nbsp;зна­че­ния&nbsp;па­ра­мет­ра&nbsp;а,&nbsp;при&nbsp;каж­дом&nbsp;из&nbsp;ко­то­рых&nbsp;урав­не­ние</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/51/511eca54c01d39e90699bfb0f5ca411f.svg\" class=\"tex\" style=\"vertical-align:-4.7pt\" alt=\" левая круг­лая скоб­ка 4 в сте­пе­ни x минус 3 умно­жить на 2 в сте­пе­ни x плюс 3a минус a в квад­ра­те пра­вая круг­лая скоб­ка умно­жить на ко­рень из: на­ча­ло ар­гу­мен­та: 2 минус x конец ар­гу­мен­та =0\"></p><p class=\"left_margin\"></p></center>имеет ровно два раз­лич­ных корня.</div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/51/511eca54c01d39e90699bfb0f5ca411f.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Очевидно, x  =  2 корень при любом a. Кроме него должен быть еще ровно один корень, причем он  должен быть меньше 2. Представим первую скобку в виде  получим  или  Возможны следующие варианты существования или несуществования корней у этих уравнений 1)   Первое уравнение не имеет корней, второе имеет корень, больший или равный двум. 2)   Первое уравнение не имеет корней, второе имеет корень, меньший двух. Годится. 3)   Оба уравнения имеют корень, меньший двух. 4)     Годится. 5)   Первое уравнение имеет корень, меньший двух, второе  не имеет корней. Годится. 6)   Первое уравнение имеет корень, больший или равный двум, второе не имеет корней. Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521336\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Оче­вид­но, <i>x</i>  =  2 ко­рень при любом <i>a</i>. Кроме него дол­жен быть еще ровно один ко­рень, при­чем он  дол­жен быть мень­ше 2. Пред­ста­вим первую скоб­ку в виде <img src=\"https://ege.sdamgia.ru/formula/svg/91/9164471f9defcabd8548e3e061938c9b.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 2 в сте­пе­ни x минус a пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 2 в сте­пе­ни x плюс a минус 3 пра­вая круг­лая скоб­ка ,\"> по­лу­чим <img src=\"https://ege.sdamgia.ru/formula/svg/22/220c16b52d4b17b893897bc4d44edcf8.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2 в сте­пе­ни x =a\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/23/23d91d5e60e9c23c2a9411e5029c2c89.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2 в сте­пе­ни x =3 минус a.\"></p><p>&nbsp;</p><p class=\"left_margin\">Воз­мож­ны сле­ду­ю­щие ва­ри­ан­ты су­ще­ство­ва­ния или не­су­ще­ство­ва­ния кор­ней у этих урав­не­ний</p><p>&nbsp;</p><p class=\"left_margin\">1)  <img src=\"https://ege.sdamgia.ru/formula/svg/b7/b700298ac8f0eb4015788278817a1a33.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"a\\leqslant минус 1.\"> Пер­вое урав­не­ние не имеет кор­ней, вто­рое имеет ко­рень, боль­ший или рав­ный двум.</p><p>&nbsp;</p><p class=\"left_margin\">2)  <img src=\"https://ege.sdamgia.ru/formula/svg/ad/adb19d744c5ef982bf5bc354185e459d.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\" минус 1 мень­ше a\\leqslant0.\"> Пер­вое урав­не­ние не имеет кор­ней, вто­рое имеет ко­рень, мень­ший двух. Го­дит­ся.</p><p>&nbsp;</p><p class=\"left_margin\">3)  <img src=\"https://ege.sdamgia.ru/formula/svg/85/85b9c14157a15eb7e8aef8caf226614b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"0 мень­ше a мень­ше 3, a не равно 3 минус a.\"> Оба урав­не­ния имеют ко­рень, мень­ший двух.</p><p>&nbsp;</p><p class=\"left_margin\">4)  <img src=\"https://ege.sdamgia.ru/formula/svg/6e/6ed627e825c64de920e5e35d362f0dea.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=3 минус a\"> <img src=\"https://ege.sdamgia.ru/formula/svg/da/da7d5a9c00275a01e70119adb525772d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a=1,5\"> <img src=\"https://ege.sdamgia.ru/formula/svg/c1/c16ddafdbca1245f17314bf1f5089abe.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x= ло­га­рифм по ос­но­ва­нию 2 1,5 мень­ше 2.\"> Го­дит­ся.</p><p>&nbsp;</p><p class=\"left_margin\">5)  <img src=\"https://ege.sdamgia.ru/formula/svg/54/545be66bdedaa56825695fa76b76e41c.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"3 мень­ше или равно a мень­ше 4.\"> Пер­вое урав­не­ние имеет ко­рень, мень­ший двух, вто­рое  не имеет кор­ней. Го­дит­ся.</p><p>&nbsp;</p><p class=\"left_margin\">6)  <img src=\"https://ege.sdamgia.ru/formula/svg/ed/ed9e6c0de3e382b377e888aaebfda95a.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"4 мень­ше или равно a.\"> Пер­вое урав­не­ние имеет ко­рень, боль­ший или рав­ный двум, вто­рое не имеет кор­ней.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/fc/fc6dfd39f3f04ecd2b49335b5053f40f.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"a при­над­ле­жит левая круг­лая скоб­ка минус 1;0 пра­вая квад­рат­ная скоб­ка \\cup левая фи­гур­ная скоб­ка 1,5 пра­вая фи­гур­ная скоб­ка \\cup левая квад­рат­ная скоб­ка 3;4 пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/91/9164471f9defcabd8548e3e061938c9b.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/220c16b52d4b17b893897bc4d44edcf8.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/23d91d5e60e9c23c2a9411e5029c2c89.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b700298ac8f0eb4015788278817a1a33.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/adb19d744c5ef982bf5bc354185e459d.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/85b9c14157a15eb7e8aef8caf226614b.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6ed627e825c64de920e5e35d362f0dea.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/da7d5a9c00275a01e70119adb525772d.svg",
+            "https://ege.sdamgia.ru/formula/svg/c1/c16ddafdbca1245f17314bf1f5089abe.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/545be66bdedaa56825695fa76b76e41c.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/ed9e6c0de3e382b377e888aaebfda95a.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fc6dfd39f3f04ecd2b49335b5053f40f.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

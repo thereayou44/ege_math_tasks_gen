@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521473,
+    "condition": {
+        "text": "Решите неравенство: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629757\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те&nbsp;не­ра­вен­ство: <img src=\"https://ege.sdamgia.ru/formula/svg/60/6021ed85f98cd43dda27e452d0d060b6.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x ло­га­рифм по ос­но­ва­нию 2 дробь: чис­ли­тель: x, зна­ме­на­тель: 2 конец дроби плюс ло­га­рифм по ос­но­ва­нию x 4 \\leqslant2. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/60/6021ed85f98cd43dda27e452d0d060b6.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Преобразуем неравенство при :При  первая скобка положительна, а вторая отрицательна. При  первая скобка отрицательна  и вторая тоже. При  получаем равенство. При  обе скобки положительны  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521473\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пре­об­ра­зу­ем не­ра­вен­ство при <img src=\"https://ege.sdamgia.ru/formula/svg/3e/3e933918d3dfc75345b7f4d63a14544d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x боль­ше 0;x не равно 1\">:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/3a/3ab120ed86cb06cfee90b1f3b9b741cc.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\"x левая круг­лая скоб­ка ло­га­рифм по ос­но­ва­нию 2 x минус 1 пра­вая круг­лая скоб­ка плюс дробь: чис­ли­тель: 2, зна­ме­на­тель: ло­га­рифм по ос­но­ва­нию 2 x конец дроби минус 2 мень­ше или равно 0 рав­но­силь­но левая круг­лая скоб­ка x минус дробь: чис­ли­тель: 2, зна­ме­на­тель: ло­га­рифм по ос­но­ва­нию 2 x конец дроби пра­вая круг­лая скоб­ка левая круг­лая скоб­ка ло­га­рифм по ос­но­ва­нию 2 x минус 1 пра­вая круг­лая скоб­ка мень­ше или равно 0. \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">При <img src=\"https://ege.sdamgia.ru/formula/svg/35/35312a379d97ebe2dc54063260b5cfb8.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x при­над­ле­жит левая круг­лая скоб­ка 0;1 пра­вая круг­лая скоб­ка \"> пер­вая скоб­ка по­ло­жи­тель­на, а вто­рая от­ри­ца­тель­на.</p><p>&nbsp;</p><p class=\"left_margin\">При <img src=\"https://ege.sdamgia.ru/formula/svg/0d/0df40dcad5eef95ebf8dbdac396e7139.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x при­над­ле­жит левая круг­лая скоб­ка 1;2 пра­вая круг­лая скоб­ка \"> пер­вая скоб­ка от­ри­ца­тель­на <img src=\"https://ege.sdamgia.ru/formula/svg/61/617664510673e1d20d0f2d963e3493d1.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая круг­лая скоб­ка x мень­ше 2= дробь: чис­ли­тель: 2, зна­ме­на­тель: ло­га­рифм по ос­но­ва­нию 2 2 конец дроби мень­ше дробь: чис­ли­тель: 2, зна­ме­на­тель: ло­га­рифм по ос­но­ва­нию 2 x конец дроби пра­вая круг­лая скоб­ка \"> и вто­рая тоже.</p><p>&nbsp;</p><p class=\"left_margin\">При <img src=\"https://ege.sdamgia.ru/formula/svg/56/566162f3afaf9f5f67e7d7ca7a4b424e.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=2\"> по­лу­ча­ем ра­вен­ство.</p><p>&nbsp;</p><p class=\"left_margin\">При <img src=\"https://ege.sdamgia.ru/formula/svg/49/49f800f6a17487df9bd707b818acbd8c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x боль­ше 2\"> обе скоб­ки по­ло­жи­тель­ны <img src=\"https://ege.sdamgia.ru/formula/svg/db/db658babecbc469054a7221e9dbb75e1.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая круг­лая скоб­ка x боль­ше 2= дробь: чис­ли­тель: 2, зна­ме­на­тель: ло­га­рифм по ос­но­ва­нию 2 2 конец дроби боль­ше дробь: чис­ли­тель: 2, зна­ме­на­тель: ло­га­рифм по ос­но­ва­нию 2 x конец дроби пра­вая круг­лая скоб­ка . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/78/780b8df76dc6bbf7fb130a1906ae8c2d.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 0;1 пра­вая круг­лая скоб­ка \\cup левая фи­гур­ная скоб­ка 2 пра­вая фи­гур­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/3e/3e933918d3dfc75345b7f4d63a14544d.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3ab120ed86cb06cfee90b1f3b9b741cc.svg",
+            "https://ege.sdamgia.ru/formula/svg/35/35312a379d97ebe2dc54063260b5cfb8.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0df40dcad5eef95ebf8dbdac396e7139.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/617664510673e1d20d0f2d963e3493d1.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/566162f3afaf9f5f67e7d7ca7a4b424e.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/49f800f6a17487df9bd707b818acbd8c.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/db658babecbc469054a7221e9dbb75e1.svg",
+            "https://ege.sdamgia.ru/formula/svg/78/780b8df76dc6bbf7fb130a1906ae8c2d.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

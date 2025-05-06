@@ -1,0 +1,51 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27167,
+    "condition": {
+        "text": "Радиус основания конуса равен 3, высота равна 4. Найдите площадь полной поверхности конуса, деленную на ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918755\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=139999\" style=\"float:right;margin:10px;max-width:100%\">Ра­ди­ус ос­но­ва­ния ко­ну­са равен 3, вы­со­та равна 4. Най­ди­те пло­щадь пол­ной по­верх­но­сти ко­ну­са, де­лен­ную на <img src=\"https://ege.sdamgia.ru/formula/svg/20/20eb0232474c508d356a7b4ebf331607.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" Пи .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/20/20eb0232474c508d356a7b4ebf331607.svg",
+            "/get_file?id=139999"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Найдем образующую по теореме Пифагора:  Площадь полной поверхности конуса Ответ: 24.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27167\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Най­дем об­ра­зу­ю­щую по тео­ре­ме Пи­фа­го­ра: <img src=\"https://ege.sdamgia.ru/formula/svg/04/047c9432f92f626ce3dc22bd035650c1.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"l= ко­рень из: на­ча­ло ар­гу­мен­та: h конец ар­гу­мен­та в квад­ра­те плюс r в квад­ра­те =5.\"> Пло­щадь пол­ной по­верх­но­сти ко­ну­са </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/3a/3acd72103e5b6cac38ade6363d81fb66.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"S= Пи r в квад­ра­те плюс l Пи r= Пи r левая круг­лая скоб­ка l плюс r пра­вая круг­лая скоб­ка = Пи умно­жить на 3 умно­жить на 8=24 Пи .\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 24.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/04/047c9432f92f626ce3dc22bd035650c1.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3acd72103e5b6cac38ade6363d81fb66.svg"
+        ]
+    },
+    "answer": "24",
+    "topic_id": 3,
+    "analog_ids": [
+        27167,
+        76383,
+        76385,
+        76387,
+        76383,
+        76385,
+        76387,
+        76389,
+        76391,
+        76393,
+        76395,
+        76397,
+        76399,
+        76401,
+        76403,
+        76405,
+        76407,
+        76409,
+        76411,
+        76413,
+        76415,
+        76417,
+        76419,
+        76421,
+        76423,
+        76425
+    ]
+}

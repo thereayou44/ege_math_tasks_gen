@@ -1,0 +1,23 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 505727,
+    "condition": {
+        "text": "Площадь треугольника АВС равна 12. На прямой АС взята точка D так, что точка С является серединой отрезка AD. Точка K  — середина стороны AB, прямая KD пересекает сторону BC в точке L.a) Докажите, что BL : LC = 2 : 1.б)  Найдите площадь треугольника  BLK.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body645507\" class=\"pbody\"><p class=\"left_margin\">Пло­щадь тре­уголь­ни­ка <i>АВС</i> равна 12. На пря­мой <i>АС</i> взята точка <i>D</i> так, что точка <i>С</i> яв­ля­ет­ся се­ре­ди­ной от­рез­ка <i>AD</i>. Точка <i>K</i>  — се­ре­ди­на сто­ро­ны <i>AB</i>, пря­мая <i>KD</i> пе­ре­се­ка­ет сто­ро­ну <i>BC</i> в точке <i>L</i>.</p><p class=\"left_margin\">a) До­ка­жи­те, что <i>BL</i> : <i>LC</i> = 2 : 1.</p><p class=\"left_margin\">б)  Най­ди­те пло­щадь тре­уголь­ни­ка  <i>BLK</i>.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Соединим отрезками точки B и D,  A и L. Рассмотрим треугольник АВD. Ясно, что L  — точка пересечения медиан этого треугольника. Отсюда BL : LC  =  2 : 1, что и требовалось доказать.б)  Как известно, медианы треугольника, пересекаясь в одной точке, делят его на 6 равновеликих треугольников. Учитывая то, что L  — точка пересечения медиан  а также  получим: Ответ: 4.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol505727\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=18594\" width=\"250\" style=\"float:right;margin:10px\">а)  Со­еди­ним от­рез­ка­ми точки <i>B</i> и <i>D</i>,  <i>A</i> и <i>L</i>. Рас­смот­рим тре­уголь­ник <i>АВD</i>. Ясно, что <i>L</i>  — точка пе­ре­се­че­ния ме­ди­ан этого тре­уголь­ни­ка. От­сю­да <i>BL</i> : <i>LC</i>  =  2 : 1, что и тре­бо­ва­лось до­ка­зать.</p><p class=\"left_margin\">б)  Как из­вест­но, ме­ди­а­ны тре­уголь­ни­ка, пе­ре­се­ка­ясь в одной точке, делят его на 6 рав­но­ве­ли­ких тре­уголь­ни­ков. Учи­ты­вая то, что <i>L</i>  — точка пе­ре­се­че­ния ме­ди­ан <img src=\"https://ege.sdamgia.ru/formula/svg/c9/c9fff73bdfd6d4c21a9080b044f07ad1.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\Delta ABD,\"> а также <img src=\"https://ege.sdamgia.ru/formula/svg/80/80e0c8ebb42cc50380816f0d9566feb1.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"S левая круг­лая скоб­ка ABC пра­вая круг­лая скоб­ка =S левая круг­лая скоб­ка DBC пра­вая круг­лая скоб­ка ,\"> по­лу­чим: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/48/4888bfb0361c3bc6f9e852ff062fbd01.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"S левая круг­лая скоб­ка BLK пра­вая круг­лая скоб­ка = дробь: чис­ли­тель: 1, зна­ме­на­тель: 6 конец дроби S левая круг­лая скоб­ка ABD пра­вая круг­лая скоб­ка = дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби S левая круг­лая скоб­ка ABC пра­вая круг­лая скоб­ка =4. \"></p><p class=\"left_margin\"></p></center><span style=\"letter-spacing: 2px;\">Ответ:</span> 4.</div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c9/c9fff73bdfd6d4c21a9080b044f07ad1.svg",
+            "https://ege.sdamgia.ru/formula/svg/80/80e0c8ebb42cc50380816f0d9566feb1.svg",
+            "https://ege.sdamgia.ru/formula/svg/48/4888bfb0361c3bc6f9e852ff062fbd01.svg",
+            "/get_file?id=18594"
+        ]
+    },
+    "answer": "4.",
+    "topic_id": null,
+    "analog_ids": []
+}

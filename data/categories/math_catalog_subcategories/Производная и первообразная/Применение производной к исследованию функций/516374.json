@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 516374,
+    "condition": {
+        "text": " На рисунке изображён график функции  определенной на интервале  .  Сколько из отмеченных точек  принадлежат промежуткам убывания функции?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body626666\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=111302\" style=\"float:right;margin:10px;max-width:100%\"> На ри­сун­ке изоб­ражён гра­фик функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/cc/cc362482dbcf7cd9226f96a2edb4fc5f.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y=f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка ,\"> опре­де­лен­ной на ин­тер­ва­ле <img src=\"https://ege.sdamgia.ru/formula/svg/83/83851926bc4c1a6d9b83547fc7427faf.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка минус 8;3 пра­вая круг­лая скоб­ка \"> .  Сколь­ко из от­ме­чен­ных точек <img src=\"https://ege.sdamgia.ru/formula/svg/6a/6a92defc84da016b819601d71eda696b.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"x_1 , x_2 , x_3 , x_4 , x_5 , x_6 , x_7, x_8\"> при­над­ле­жат про­ме­жут­кам убы­ва­ния функ­ции?</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/cc/cc362482dbcf7cd9226f96a2edb4fc5f.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83851926bc4c1a6d9b83547fc7427faf.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a92defc84da016b819601d71eda696b.svg",
+            "/get_file?id=111302"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Точки  принадлежат промежуткам убывания функции. Таких точек 4. Ответ: 4.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol516374\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Точки <img src=\"https://ege.sdamgia.ru/formula/svg/50/50e3b3986852af201e3babcc2edc5b0e.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"x_1, x_2, x_3, x_6\"> при­над­ле­жат про­ме­жут­кам убы­ва­ния функ­ции. Таких точек 4.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 4.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/50/50e3b3986852af201e3babcc2edc5b0e.svg"
+        ]
+    },
+    "answer": "4",
+    "topic_id": 8,
+    "analog_ids": [
+        516374,
+        516394
+    ]
+}

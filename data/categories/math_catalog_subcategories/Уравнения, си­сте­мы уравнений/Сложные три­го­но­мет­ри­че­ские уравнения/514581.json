@@ -1,0 +1,37 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 514581,
+    "condition": {
+        "text": "Дано уравнение а)  Решите уравнение.б)  Укажите корни этого уравнения, принадлежащие промежутку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body636137\" class=\"pbody\"><p class=\"left_margin\">Дано&nbsp;урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/3e/3e0a30ce258db71e5610f97e4f5d98e1.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2 ко­рень из 3 синус в квад­ра­те x плюс синус 2x минус ко­рень из 3 =0.\"></p><p class=\"left_margin\">а)  Ре­ши­те&nbsp;урав­не­ние.</p><p class=\"left_margin\">б)  Ука­жи­те&nbsp;корни&nbsp;этого&nbsp;урав­не­ния,&nbsp;при­над­ле­жа­щие&nbsp;про­ме­жут­ку <img src=\"https://ege.sdamgia.ru/formula/svg/c9/c9e455d4f5d445eadcefb6e5078e8c02.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка дробь: чис­ли­тель: 9 Пи , зна­ме­на­тель: 2 конец дроби ;6 Пи пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/3e/3e0a30ce258db71e5610f97e4f5d98e1.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c9e455d4f5d445eadcefb6e5078e8c02.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Преобразуем уравнение: б)  На указанном промежутке лежат   Ответ:  а)  или   б)   ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol514581\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Пре­об­ра­зу­ем урав­не­ние: <img src=\"/get_file?id=38010\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f5/f540af3f9d7b605c74313e7138771999.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та синус в квад­ра­те x плюс 2 синус x ко­си­нус x минус ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та ко­си­нус в квад­ра­те x=0,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/e6/e69cbba66ebddc73ee7d306f5089ea7c.svg\" class=\"tex\" style=\"vertical-align:-3.3pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та тан­генс в квад­ра­те x плюс 2 тан­генс x минус ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та =0,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/11/110216b0a0b16184d8fb15d26cd7cee5.svg\" class=\"tex\" style=\"vertical-align:-11.0pt\" alt=\" тан­генс x= минус ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та или тан­генс x= дробь: чис­ли­тель: 1, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та конец дроби , \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/bf/bfb9a14cb5e30600a2767f2ca42fbc06.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x= минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 3 конец дроби плюс Пи kилиx= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби плюс Пи k, k при­над­ле­жит Z \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">б)  На ука­зан­ном про­ме­жут­ке лежат <img src=\"https://ege.sdamgia.ru/formula/svg/75/75835a2d9d06d1b1ae286df04f6855a2.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 3 конец дроби плюс 5 Пи , дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби плюс 5 Пи , \"> <img src=\"https://ege.sdamgia.ru/formula/svg/c7/c7d2c380734627887ad6633908c65876.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 3 конец дроби плюс 6 Пи . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  а) <img src=\"https://ege.sdamgia.ru/formula/svg/d9/d99af39e5e601e8f61df29ff0c254cc5.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x= минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 3 конец дроби плюс Пи k \"> или <img src=\"https://ege.sdamgia.ru/formula/svg/c0/c02330bcdfceb4ae9871c443dc22cf80.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби плюс Пи k, k при­над­ле­жит Z ; \">  б) <img src=\"https://ege.sdamgia.ru/formula/svg/39/39573b82ce292b37e1b4fda750bbd52d.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 14 Пи , зна­ме­на­тель: 3 конец дроби , \"> <img src=\"https://ege.sdamgia.ru/formula/svg/17/17ab82a2f6e2fbbb58f891e2bb080e50.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 31 Пи , зна­ме­на­тель: 6 конец дроби , \"> <img src=\"https://ege.sdamgia.ru/formula/svg/83/83f8a9cf6d64eb608a5053a2c37b8c32.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 17 Пи , зна­ме­на­тель: 3 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f5/f540af3f9d7b605c74313e7138771999.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e69cbba66ebddc73ee7d306f5089ea7c.svg",
+            "https://ege.sdamgia.ru/formula/svg/11/110216b0a0b16184d8fb15d26cd7cee5.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bfb9a14cb5e30600a2767f2ca42fbc06.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/75835a2d9d06d1b1ae286df04f6855a2.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c7d2c380734627887ad6633908c65876.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d99af39e5e601e8f61df29ff0c254cc5.svg",
+            "https://ege.sdamgia.ru/formula/svg/c0/c02330bcdfceb4ae9871c443dc22cf80.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/39573b82ce292b37e1b4fda750bbd52d.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/17ab82a2f6e2fbbb58f891e2bb080e50.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83f8a9cf6d64eb608a5053a2c37b8c32.svg",
+            "/get_file?id=38010"
+        ]
+    },
+    "answer": "а)  или   б)",
+    "topic_id": null,
+    "analog_ids": [
+        514567,
+        514588
+    ]
+}

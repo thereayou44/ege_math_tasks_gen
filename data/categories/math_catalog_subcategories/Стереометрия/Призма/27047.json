@@ -1,0 +1,66 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27047,
+    "condition": {
+        "text": "В сосуд, имеющий форму правильной треугольной призмы, налили 2300 см3 воды и погрузили в воду деталь. При этом уровень воды поднялся с отметки 25 см до отметки 27 см. Найдите объем детали. Ответ выразите в см3.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919387\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=139945\" style=\"float:right;margin:10px;max-width:100%\">В сосуд, име­ю­щий форму пра­виль­ной тре­уголь­ной приз­мы, на­ли­ли 2300 см<sup>3</sup> воды и по­гру­зи­ли в воду де­таль. При этом уро­вень воды под­нял­ся с от­мет­ки 25 см до от­мет­ки 27 см. Най­ди­те объем де­та­ли. Ответ вы­ра­зи­те в см<sup>3</sup>.</p></div>",
+        "image_urls": [
+            "/get_file?id=139945"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Объём детали равен объёму вытесненной ею жидкости. Объём вытесненной жидкости равен 2/25 исходного объёма:Ответ: 184. Приведем решение Георгия Таксы.Из формулы для объема призмы  найдем площадь основания: Объём детали равен объёму вытесненной ею жидкости: Приведем решение Ивана Лободы.1.  Найдем площадь основания сосуда: 2.  Найдем суммарный объем воды и детали: 3.  Разность объемов воды с деталью и начального объема равна объему детали: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27047\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Объём де­та­ли равен объёму вы­тес­нен­ной ею жид­ко­сти. Объём вы­тес­нен­ной жид­ко­сти равен 2/25 ис­ход­но­го объёма:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/1d/1d7d5310eaa6c7aecf6529ee943d7c43.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"V_дет= дробь: чис­ли­тель: 2, зна­ме­на­тель: 25 конец дроби умно­жить на 2300=184 см в кубе . \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 184.</p><p>&nbsp;</p><p><b>При­ве­дем ре­ше­ние Ге­ор­гия Таксы.</b></p><p class=\"left_margin\">Из фор­му­лы для объ­е­ма приз­мы <img src=\"https://ege.sdamgia.ru/formula/svg/a6/a6d5d319ddfc9ed042f2fa31ce6571c1.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"V=S_осн H\"> най­дем пло­щадь ос­но­ва­ния:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f9/f966c1a932c24a3e66b72430008c42ee.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"S_осн= дробь: чис­ли­тель: V, зна­ме­на­тель: H конец дроби = дробь: чис­ли­тель: 2300, зна­ме­на­тель: 25 конец дроби =92 см в квад­ра­те . \"></p><p class=\"left_margin\"></p></center><p> Объём де­та­ли равен объёму вы­тес­нен­ной ею жид­ко­сти:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/66/66808d1e555f5e18b23c1fe6d6e32942.svg\" class=\"tex\" style=\"vertical-align:-3.8pt\" alt=\"V_дет=92 умно­жить на левая круг­лая скоб­ка 27 минус 25 пра­вая круг­лая скоб­ка =92 умно­жить на 2=184 см в кубе .\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><b>При­ве­дем ре­ше­ние Ивана Ло­бо­ды.</b></p><p class=\"left_margin\">1.  Най­дем пло­щадь ос­но­ва­ния со­су­да: <img src=\"https://ege.sdamgia.ru/formula/svg/d3/d3037d438fe50e16790d0df32ed507f6.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"S = дробь: чис­ли­тель: V, зна­ме­на­тель: h конец дроби = дробь: чис­ли­тель: 2300, зна­ме­на­тель: 25 конец дроби = 92 см в квад­ра­те . \"></p><p class=\"left_margin\">2.  Най­дем сум­мар­ный объем воды и де­та­ли: <img src=\"https://ege.sdamgia.ru/formula/svg/16/164662900262185fcc5bab45decbe4b4.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"V = Sh = 92 умно­жить на 27 = 2484 см в кубе .\"></p><p class=\"left_margin\">3.  Раз­ность объ­е­мов воды с де­та­лью и на­чаль­но­го объ­е­ма равна объ­е­му де­та­ли: <img src=\"https://ege.sdamgia.ru/formula/svg/f9/f9eb5a4ed74a09dbbc7abfb3275985df.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2484 минус 2300 = 184 см в кубе .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/1d/1d7d5310eaa6c7aecf6529ee943d7c43.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a6d5d319ddfc9ed042f2fa31ce6571c1.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f966c1a932c24a3e66b72430008c42ee.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/66808d1e555f5e18b23c1fe6d6e32942.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d3037d438fe50e16790d0df32ed507f6.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/164662900262185fcc5bab45decbe4b4.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f9eb5a4ed74a09dbbc7abfb3275985df.svg"
+        ]
+    },
+    "answer": "184",
+    "topic_id": 3,
+    "analog_ids": [
+        27047,
+        72151,
+        522089,
+        4937,
+        72151,
+        522089,
+        4937,
+        4939,
+        4941,
+        4943,
+        4945,
+        4947,
+        4949,
+        72107,
+        72109,
+        72111,
+        72113,
+        72115,
+        72117,
+        72119,
+        72121,
+        72123,
+        72125,
+        72127,
+        72129,
+        72131,
+        72133,
+        72135,
+        72137,
+        72139,
+        72141,
+        72143,
+        72145,
+        72147,
+        72149,
+        72153,
+        72155
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 26701,
+    "condition": {
+        "text": "Найдите наименьшее значение функции  на отрезке ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919217\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те наи­мень­шее зна­че­ние функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/d5/d542a48dcd4e75c4654f9f823df53fc2.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"y=5 синус x плюс дробь: чис­ли­тель: 24, зна­ме­на­тель: Пи конец дроби x плюс 6 \"> на от­рез­ке <img src=\"https://ege.sdamgia.ru/formula/svg/6a/6a7fede9150050ce31deb9d998d1a92d.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка минус дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби ;0 пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d5/d542a48dcd4e75c4654f9f823df53fc2.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a7fede9150050ce31deb9d998d1a92d.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Найдем производную заданной функции:  Уравнение  не имеет решений, производная положительна при всех значениях переменной, поэтому заданная функция является возрастающей.  Следовательно, наименьшим значением функции на заданном отрезке является   Ответ: −16,5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol26701\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Най­дем про­из­вод­ную за­дан­ной функ­ции: <img src=\"https://ege.sdamgia.ru/formula/svg/6d/6d1952b74d3eed6952f55a4e5a4ed692.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"y'=5 ко­си­нус x плюс дробь: чис­ли­тель: 24, зна­ме­на­тель: Пи конец дроби . \"> Урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/27/27b9ce7cf29756216fd36fa2c2c5e142.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y'=0\"> не имеет ре­ше­ний, про­из­вод­ная по­ло­жи­тель­на при всех зна­че­ни­ях пе­ре­мен­ной, по­это­му за­дан­ная функ­ция яв­ля­ет­ся воз­рас­та­ю­щей. </p><p>&nbsp;</p><p>Сле­до­ва­тель­но, наи­мень­шим зна­че­ни­ем функ­ции на за­дан­ном от­рез­ке яв­ля­ет­ся </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d4/d433a0dc3965f41203f6460f6a9bae6c.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"y левая круг­лая скоб­ка минус дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби пра­вая круг­лая скоб­ка =5 синус левая круг­лая скоб­ка минус дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби пра­вая круг­лая скоб­ка минус дробь: чис­ли­тель: 24, зна­ме­на­тель: Пи конец дроби умно­жить на дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби плюс 6= минус 16,5. \"></p><p class=\"left_margin\"></p></center> <p></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> −16,5.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/6d/6d1952b74d3eed6952f55a4e5a4ed692.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/27b9ce7cf29756216fd36fa2c2c5e142.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d433a0dc3965f41203f6460f6a9bae6c.svg"
+        ]
+    },
+    "answer": "-16,5",
+    "topic_id": 12,
+    "analog_ids": [
+        26701,
+        3567,
+        3571,
+        70487,
+        3567,
+        3571,
+        70487,
+        3569,
+        3573,
+        3575,
+        3577,
+        3579,
+        3581,
+        3583,
+        70439,
+        70441,
+        70443,
+        70445,
+        70447,
+        70449,
+        70451,
+        70453,
+        70455,
+        70457,
+        70459,
+        70461,
+        70463,
+        70465,
+        70467,
+        70469,
+        70471,
+        70473,
+        70475,
+        70477,
+        70479,
+        70481,
+        70483,
+        70485
+    ]
+}

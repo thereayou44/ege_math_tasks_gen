@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 530402,
+    "condition": {
+        "text": "В основании прямой треугольной призмы ABCA1B1C1 лежит равнобедренный треугольник ABC с равными сторонами AB и BC. Точки K и M  — середины рёбер A1B1 и AC соответственно.а)  Докажите, что KM  =  KB.б)  Найдите угол между прямой KM и плоскостью ABB1, если AB  =  8, AC  =  6 и AA1  =  3.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body424222\" class=\"pbody\"><p class=\"left_margin\">В ос­но­ва­нии пря­мой тре­уголь­ной приз­мы <i>ABCA</i><sub>1</sub><i>B</i><sub>1</sub><i>C</i><sub>1</sub> лежит рав­но­бед­рен­ный тре­уголь­ник <i>ABC</i> с рав­ны­ми сто­ро­на­ми <i>AB</i> и <i>BC</i>. Точки <i>K</i> и <i>M</i>  — се­ре­ди­ны рёбер <i>A</i><sub>1</sub><i>B</i><sub>1</sub> и <i>AC</i> со­от­вет­ствен­но.</p><p class=\"left_margin\">а)  До­ка­жи­те, что <i>KM</i>  =  <i>KB</i>.</p><p class=\"left_margin\">б)  Най­ди­те угол между пря­мой <i>KM</i> и плос­ко­стью <i>ABB</i><sub>1</sub>, если <i>AB</i>  =  8, <i>AC</i>  =  6 и <i>AA</i><sub>1</sub>  =  3.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Пусть L  — середина ребра AB. Треугольник AMB прямоугольный, поэтому его медиана LM равна половине гипотенузы и равна LB. Из равенства треугольников KLM и KLB следует, что KM  =  KB.б)  Пусть MH  — высота в треугольнике AMB. Прямая MH перпендикулярна прямым AB и BB1, следовательно, она перпендикулярна плоскости ABB1 и угол HKM искомый. Вычисляя двумя способами площадь треугольника AMB, получим  откуда Поэтомутогда  Ответ: б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol530402\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=141960\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Пусть <i>L</i>  — се­ре­ди­на ребра <i>AB</i>. Тре­уголь­ник <i>AMB</i> пря­мо­уголь­ный, по­это­му его ме­ди­а­на <i>LM</i> равна по­ло­ви­не ги­по­те­ну­зы и равна <i>LB</i>. Из ра­вен­ства тре­уголь­ни­ков <i>KLM</i> и <i>KLB</i> сле­ду­ет, что <i>KM</i>  =  <i>KB</i>.</p><p class=\"left_margin\">б)  Пусть <i>MH</i>  — вы­со­та в тре­уголь­ни­ке <i>AMB</i>. Пря­мая <i>MH</i> пер­пен­ди­ку­ляр­на пря­мым <i>AB</i> и <i>BB</i><sub>1</sub>, сле­до­ва­тель­но, она пер­пен­ди­ку­ляр­на плос­ко­сти <i>ABB</i><sub>1</sub> и угол <i>HKM</i> ис­ко­мый. </p><p class=\"left_margin\">Вы­чис­ляя двумя спо­со­ба­ми пло­щадь тре­уголь­ни­ка <i>AMB</i>, по­лу­чим <img src=\"https://ege.sdamgia.ru/formula/svg/52/5223d87d32c811b2badd01eca9c66142.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"MH умно­жить на AB=MA умно­жить на MB,\"> от­ку­да</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/6d/6d56247e58c38e5dd70bc0735bccddd7.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"MH= дробь: чис­ли­тель: MA умно­жить на MB, зна­ме­на­тель: AB конец дроби = дробь: чис­ли­тель: 3 ко­рень из: на­ча­ло ар­гу­мен­та: 8 в квад­ра­те минус 3 в квад­ра­те конец ар­гу­мен­та , зна­ме­на­тель: 8 конец дроби = дробь: чис­ли­тель: 3 ко­рень из: на­ча­ло ар­гу­мен­та: 55 конец ар­гу­мен­та , зна­ме­на­тель: 8 конец дроби . \"></p><p class=\"left_margin\"></p></center><p> По­это­му</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/3b/3b70f4d4de6fee77e2a1b50b706ff87f.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" синус \\angle HKM= дробь: чис­ли­тель: HM, зна­ме­на­тель: KM конец дроби = дробь: чис­ли­тель: HM, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 в квад­ра­те плюс 4 в квад­ра­те конец ар­гу­мен­та конец дроби = дробь: чис­ли­тель: 3 ко­рень из: на­ча­ло ар­гу­мен­та: 55 конец ар­гу­мен­та , зна­ме­на­тель: 40 конец дроби , \"></p><p class=\"left_margin\"></p></center><p>тогда <img src=\"https://ege.sdamgia.ru/formula/svg/35/35285c21cdaf09fb188e7fba39545c93.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"\\angle HKM= арк­си­нус дробь: чис­ли­тель: 3 ко­рень из: на­ча­ло ар­гу­мен­та: 55 конец ар­гу­мен­та , зна­ме­на­тель: 40 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) <img src=\"https://ege.sdamgia.ru/formula/svg/65/65cf4c9b335274d4e060b538e7a9a3f4.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" арк­си­нус дробь: чис­ли­тель: 3 ко­рень из: на­ча­ло ар­гу­мен­та: 55 конец ар­гу­мен­та , зна­ме­на­тель: 40 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/52/5223d87d32c811b2badd01eca9c66142.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6d56247e58c38e5dd70bc0735bccddd7.svg",
+            "https://ege.sdamgia.ru/formula/svg/3b/3b70f4d4de6fee77e2a1b50b706ff87f.svg",
+            "https://ege.sdamgia.ru/formula/svg/35/35285c21cdaf09fb188e7fba39545c93.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/65cf4c9b335274d4e060b538e7a9a3f4.svg",
+            "/get_file?id=141960"
+        ]
+    },
+    "answer": "б)",
+    "topic_id": 14,
+    "analog_ids": [
+        530402,
+        530434
+    ]
+}

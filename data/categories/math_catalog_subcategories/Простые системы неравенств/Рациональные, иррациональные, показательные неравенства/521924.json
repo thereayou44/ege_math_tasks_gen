@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521924,
+    "condition": {
+        "text": "Решите неравенство: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body628792\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те&nbsp;не­ра­вен­ство: <img src=\"https://ege.sdamgia.ru/formula/svg/89/89a08b16fa34078d72be1449143dd052.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка x в квад­ра­те минус 8x плюс 15 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 2 в сте­пе­ни левая круг­лая скоб­ка x минус 3 пра­вая круг­лая скоб­ка плюс 2 в сте­пе­ни левая круг­лая скоб­ка 3 минус x пра­вая круг­лая скоб­ка минус 2 пра­вая круг­лая скоб­ка в сте­пе­ни левая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка умно­жить на ко­рень из: на­ча­ло ар­гу­мен­та: x минус 1 конец ар­гу­мен­та \\leqslant0.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/89/89a08b16fa34078d72be1449143dd052.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Ясно, что  подходит, а прочие решения должны быть больше и на них не оказывает влияния последний множитель.Далее, обозначив  получим  при всех положительных t, кроме  достижимого при  Значит, множитель  не влияет на знак, кроме как при  при котором вообще не определен. Осталось неравенство  с ответом  Итоговый ответ   Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521924\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Ясно, что <img src=\"https://ege.sdamgia.ru/formula/svg/a2/a255512f9d61a6777bd5a304235bd26d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=1\"> под­хо­дит, а про­чие ре­ше­ния долж­ны быть боль­ше и на них не ока­зы­ва­ет вли­я­ния по­след­ний мно­жи­тель.</p><p class=\"left_margin\">Далее, обо­зна­чив <img src=\"https://ege.sdamgia.ru/formula/svg/c5/c5145bcd3c02a81f3071ea551b1ab9bf.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2 в сте­пе­ни левая круг­лая скоб­ка 3 минус x пра­вая круг­лая скоб­ка =t,\"> по­лу­чим <img src=\"https://ege.sdamgia.ru/formula/svg/a0/a0fff7250e98528d9a8dcf8751dfa35b.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"t плюс дробь: чис­ли­тель: 1, зна­ме­на­тель: t конец дроби минус 2 боль­ше 0 \"> при всех по­ло­жи­тель­ных <i>t</i>, кроме <img src=\"https://ege.sdamgia.ru/formula/svg/fc/fce7ada0b30811940cddb0b1fbe1a299.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"t=1,\"> до­сти­жи­мо­го при <img src=\"https://ege.sdamgia.ru/formula/svg/47/47edeb48db51f023fd03b4cb0946bc76.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=3.\"> Зна­чит, мно­жи­тель <img src=\"https://ege.sdamgia.ru/formula/svg/86/8685be5c3a891f2374f1e1e1ec8efe68.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 2 в сте­пе­ни левая круг­лая скоб­ка x минус 3 пра­вая круг­лая скоб­ка плюс 2 в сте­пе­ни левая круг­лая скоб­ка 3 минус x пра­вая круг­лая скоб­ка минус 2 пра­вая круг­лая скоб­ка в сте­пе­ни левая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка \"> не вли­я­ет на знак, кроме как при <img src=\"https://ege.sdamgia.ru/formula/svg/50/50b8bd4730b0e35c88481f8b866d193a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x=3,\"> при ко­то­ром во­об­ще не опре­де­лен.</p><p>&nbsp;</p><p class=\"left_margin\">Оста­лось не­ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/8b/8b8b9dc96ece33f244e832894c92c0de.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка x минус 3 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x минус 5 пра­вая круг­лая скоб­ка мень­ше или равно 0\"> с от­ве­том <img src=\"https://ege.sdamgia.ru/formula/svg/06/06a394d49e913b188cfb56bd48cbe4b7.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x при­над­ле­жит левая квад­рат­ная скоб­ка 3;5 пра­вая квад­рат­ная скоб­ка .\"></p><p>&nbsp;</p><p class=\"left_margin\">Ито­го­вый ответ <img src=\"https://ege.sdamgia.ru/formula/svg/b1/b1b2389faacad18c9fda0f468f0070ff.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x при­над­ле­жит левая фи­гур­ная скоб­ка 1 пра­вая фи­гур­ная скоб­ка \\cup левая круг­лая скоб­ка 3;5 пра­вая квад­рат­ная скоб­ка .\"> </p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/cb/cb18861b261ab0dde40ca633734e79de.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая фи­гур­ная скоб­ка 1 пра­вая фи­гур­ная скоб­ка \\cup левая круг­лая скоб­ка 3;5 пра­вая квад­рат­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a2/a255512f9d61a6777bd5a304235bd26d.svg",
+            "https://ege.sdamgia.ru/formula/svg/c5/c5145bcd3c02a81f3071ea551b1ab9bf.svg",
+            "https://ege.sdamgia.ru/formula/svg/a0/a0fff7250e98528d9a8dcf8751dfa35b.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fce7ada0b30811940cddb0b1fbe1a299.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/47edeb48db51f023fd03b4cb0946bc76.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/8685be5c3a891f2374f1e1e1ec8efe68.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50b8bd4730b0e35c88481f8b866d193a.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8b8b9dc96ece33f244e832894c92c0de.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/06a394d49e913b188cfb56bd48cbe4b7.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b1b2389faacad18c9fda0f468f0070ff.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cb18861b261ab0dde40ca633734e79de.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

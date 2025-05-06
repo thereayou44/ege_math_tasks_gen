@@ -1,0 +1,52 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27279,
+    "condition": {
+        "text": "В треугольнике ABC угол C равен 90°, CH − высота,   Найдите ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918643\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right; margin:10px\" src=\"/get_file?id=1084\">В тре­уголь­ни­ке <i>ABC</i> угол <i>C</i> равен 90°, <i>CH</i> − вы­со­та, <img src=\"https://ege.sdamgia.ru/formula/svg/dc/dc9ebdb4afd25757093bc766bbe39d4a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AC = 8,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/cb/cb4d8fe346f2f291ad402412c58ba022.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" ко­си­нус A = 0,5.\"> Най­ди­те <img src=\"https://ege.sdamgia.ru/formula/svg/28/28377a9ff96a61078915d0232bc96c3f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AH.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/dc/dc9ebdb4afd25757093bc766bbe39d4a.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cb4d8fe346f2f291ad402412c58ba022.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/28377a9ff96a61078915d0232bc96c3f.svg",
+            "/get_file?id=1084"
+        ]
+    },
+    "solution": {
+        "text": "Решение. ##  Ответ: 4. ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27279\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">##</p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/df/df45437abc3991d01447f820932e8d13.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"AH=AC ко­си­нус A=8 умно­жить на дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби =4. \"></p><p class=\"left_margin\"></p></center>  <p><span style=\"letter-spaceing:2px\">Ответ</span>: 4. </p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/df/df45437abc3991d01447f820932e8d13.svg"
+        ]
+    },
+    "answer": "4",
+    "topic_id": null,
+    "analog_ids": [
+        27279,
+        4813,
+        31367,
+        31369,
+        4813,
+        31367,
+        31369,
+        31371,
+        31373,
+        31375,
+        31377,
+        31379,
+        31381,
+        31383,
+        31385,
+        31387,
+        31389,
+        31391,
+        31393,
+        31395,
+        31397,
+        31399,
+        31401,
+        31403,
+        31405,
+        31407
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "id": "911",
+    "topic": "Д13",
+    "condition": {
+        "text": "В правильной четырехугольной пирамиде SABCD точка O − центр основания, S − вершина, Найдите боковое ребро",
+        "images": [
+            "https://mathb-ege.sdamgia.ru/get_file?id=111729",
+            "https://ege.sdamgia.ru/formula/svg/6d/6d56979fdedc09d52692d6cfaebdc83e.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f3e3f86766e505f88867d20004b0c9b3.svg",
+            "https://ege.sdamgia.ru/formula/svg/c0/c04fe9a6b97a1a3b05543c426b63b4ef.svg"
+        ]
+    },
+    "answer": "17",
+    "analogs": [
+        "911",
+        "913",
+        "915"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=911"
+}

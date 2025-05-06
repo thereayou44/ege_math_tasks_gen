@@ -1,0 +1,20 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 528875,
+    "condition": {
+        "text": "Сева экспериментирует с таблицей 3 на 3 клетки. Его задача  — разместить в ней монеты таким образом, чтобы во всех строках и столбцах таблицы количество монет было различным. Некоторые клетки могут остаться пустыми. а)  Есть ли шанс у Севы расположить в таблице 18 монет указанным способом?б)  А 6 монет указанным способом? в)  Какое наименьшее количество монет потребуется Севе для выполнения поставленной задачи?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body425751\" class=\"pbody\"><p class=\"left_margin\">Сева экс­пе­ри­мен­ти­ру­ет с таб­ли­цей 3 на 3 клет­ки. Его за­да­ча  — раз­ме­стить в ней мо­не­ты таким об­ра­зом, чтобы во всех стро­ках и столб­цах таб­ли­цы ко­ли­че­ство монет было раз­лич­ным. Не­ко­то­рые клет­ки могут остать­ся пу­сты­ми. </p><p class=\"left_margin\">а)  Есть ли шанс у Севы рас­по­ло­жить в таб­ли­це 18 монет ука­зан­ным спо­со­бом?</p><p class=\"left_margin\">б)  А 6 монет ука­зан­ным спо­со­бом? </p><p class=\"left_margin\">в)  Какое наи­мень­шее ко­ли­че­ство монет по­тре­бу­ет­ся Севе для вы­пол­не­ния по­став­лен­ной за­да­чи?</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Да, например, можно расположить монеты так: 012220335 б)  Нет. Минимально возможные суммы составляют 0 + 1 + 2 + 3 + 4 + 5  =  15 монет, при этом каждая монета считается ровно два раза. Значит, их количество не меньше в)  Из предыдущего пункта ясно, что обойтись менее чем 8 монетами невозможно; 8 монет можно разместить, например, так: 024110000 Ответ: а) да; б) нет; в) 8.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol528875\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Да, на­при­мер, можно рас­по­ло­жить мо­не­ты так:</p><p>&nbsp;</p><p></p><table style=\"margin:auto\"><tbody><tr><td style=\"text-align:center;width:30px;\">0</td><td style=\"text-align:center;width:30px;\">1</td><td style=\"text-align:center;width:30px;\">2</td></tr><tr><td style=\"text-align:center\">2</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">0</td></tr><tr><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">5</td></tr></tbody></table><p>&nbsp;</p><p class=\"left_margin\">б)  Нет. Ми­ни­маль­но воз­мож­ные суммы со­став­ля­ют 0 + 1 + 2 + 3 + 4 + 5  =  15 монет, при этом каж­дая мо­не­та счи­та­ет­ся ровно два раза. Зна­чит, их ко­ли­че­ство не мень­ше <img src=\"https://ege.sdamgia.ru/formula/svg/35/358aa004b09c039813e56553837da8c7.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"15/2 = 7,5 боль­ше 6.\"></p><p class=\"left_margin\">в)  Из преды­ду­ще­го пунк­та ясно, что обой­тись менее чем 8 мо­не­та­ми не­воз­мож­но; 8 монет можно раз­ме­стить, на­при­мер, так:</p><p>&nbsp;</p><p></p><table style=\"margin:auto\"><tbody><tr><td style=\"text-align:center;width:30px;\">0</td><td style=\"text-align:center;width:30px;\">2</td><td style=\"text-align:center;width:30px;\">4</td></tr><tr><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">0</td></tr><tr><td style=\"text-align:center\">0</td><td style=\"text-align:center\">0</td><td style=\"text-align:center\">0</td></tr></tbody></table><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ:</span> а) да; б) нет; в) 8.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/35/358aa004b09c039813e56553837da8c7.svg"
+        ]
+    },
+    "answer": "а) да; б) нет; в) 8.",
+    "topic_id": null,
+    "analog_ids": []
+}

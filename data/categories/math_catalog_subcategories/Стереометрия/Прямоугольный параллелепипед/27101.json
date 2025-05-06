@@ -1,0 +1,57 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27101,
+    "condition": {
+        "text": "Два ребра прямоугольного параллелепипеда, выходящие из одной вершины, равны 2, 3. Объем параллелепипеда равен 36. Найдите его диагональ.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919329\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=113209\" style=\"float:right;margin:10px;max-width:100%\">Два ребра пря­мо­уголь­но­го па­рал­ле­ле­пи­пе­да, вы­хо­дя­щие из одной вер­ши­ны, равны 2, 3. Объем па­рал­ле­ле­пи­пе­да равен 36. Най­ди­те его диа­го­наль.</p></div>",
+        "image_urls": [
+            "/get_file?id=113209"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Объем параллелепипеда равен  Отсюда найдем третье ребро:  Длина диагонали параллелепипеда равна  Ответ: 7.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27101\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Объем па­рал­ле­ле­пи­пе­да равен </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f2/f266d603d129d7213d84e6db2d0f0677.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"V=a_1a_2a_3=36.\"></p><p class=\"left_margin\"></p></center><p> От­сю­да най­дем тре­тье ребро: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/07/078b8ae07abb65e43311129e88d27f0e.svg\" class=\"tex\" style=\"vertical-align:-10.1pt\" alt=\"a_3= дробь: чис­ли­тель: V, зна­ме­на­тель: a_1a_2 конец дроби =6. \"></p><p class=\"left_margin\"></p></center><p> Длина диа­го­на­ли па­рал­ле­ле­пи­пе­да равна </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/8a/8a6ef7ccee5b82034b37b5f3a1e6183e.svg\" class=\"tex\" style=\"vertical-align:-6.9pt\" alt=\"d= ко­рень из: на­ча­ло ар­гу­мен­та: a_1 конец ар­гу­мен­та в квад­ра­те плюс a_2 в квад­ра­те плюс a_3 в квад­ра­те = ко­рень из: на­ча­ло ар­гу­мен­та: 36 плюс 4 плюс 9 конец ар­гу­мен­та =7.\"></p><p class=\"left_margin\"></p></center> <p><span style=\"letter-spacing: 2px;\">Ответ:</span> 7.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f2/f266d603d129d7213d84e6db2d0f0677.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/078b8ae07abb65e43311129e88d27f0e.svg",
+            "https://ege.sdamgia.ru/formula/svg/8a/8a6ef7ccee5b82034b37b5f3a1e6183e.svg"
+        ]
+    },
+    "answer": "7",
+    "topic_id": 3,
+    "analog_ids": [
+        27101,
+        74499,
+        74501,
+        74503,
+        74499,
+        74501,
+        74503,
+        74505,
+        74507,
+        74509,
+        74511,
+        74513,
+        74515,
+        74517,
+        74519,
+        74521,
+        74523,
+        74525,
+        74527,
+        74529,
+        74531,
+        74533,
+        74535,
+        74537,
+        74539,
+        74541,
+        74543,
+        74545,
+        74547,
+        74549,
+        74551,
+        74553
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 514738,
+    "condition": {
+        "text": "Задачу No1 правильно решили 13230 человек, что составляет 42% от выпускников города. Сколько всего выпускников в этом городе?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body635982\" class=\"pbody\"><p class=\"left_margin\">За­да­чу №1 пра­виль­но ре­ши­ли 13230 че­ло­век, что со­став­ля­ет 42% от вы­пуск­ни­ков го­ро­да. Сколь­ко всего вы­пуск­ни­ков в этом го­ро­де?</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Разделим 13 230 на 0,42:  Значит, всего в этом городе  — 31 500 выпускников. Ответ: 31 500.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol514738\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Раз­де­лим 13 230 на 0,42: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/27/270a0b3255b79a9e1223da6ea346b75a.svg\" class=\"tex\" style=\"vertical-align:-10.6pt\" alt=\" дробь: чис­ли­тель: 13230, зна­ме­на­тель: 0,42 конец дроби = дробь: чис­ли­тель: 13230 умно­жить на 100, зна­ме­на­тель: 42 конец дроби =31500. \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p class=\"left_margin\">Зна­чит, всего в этом го­ро­де  — 31 500 вы­пуск­ни­ков.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 31 500.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/27/270a0b3255b79a9e1223da6ea346b75a.svg"
+        ]
+    },
+    "answer": "31500",
+    "topic_id": null,
+    "analog_ids": [
+        514738,
+        520483,
+        520503,
+        525011,
+        520483,
+        520503,
+        525011,
+        525034,
+        559395,
+        559589
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 526257,
+    "condition": {
+        "text": "При каких значениях параметра a уравнениеимеет ровно 2 различных решения.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body420173\" class=\"pbody\"><p class=\"left_margin\">При каких зна­че­ни­ях па­ра­мет­ра <i>a</i> урав­не­ние</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d4/d41aea760e1c9b7c77daa57280bfbfe2.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: |4x| минус x минус 3 минус a, зна­ме­на­тель: x в квад­ра­те минус x минус a конец дроби =0 \"></p><p class=\"left_margin\"></p></center><p>имеет ровно 2 раз­лич­ных ре­ше­ния.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d4/d41aea760e1c9b7c77daa57280bfbfe2.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. В системе координат хOa изобразим ломаную, задаваемую уравнением  все точки которой обращают числитель дроби в нуль, и параболу  точки которой соответствуют нулям знаменателя. Подставляя  в уравнение  и решая полученное уравнение на x, найдем абсциссы точки пересечения ломаной и параболы:   Ординаты точек пересечения суть 0, 6, 2 и 12 соответственно. Для найденных значений параметра числитель и знаменатель обращаются в нуль одновременно. Следовательно, заданное уравнение имеет ровно два решения, когда  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol526257\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=151336\" style=\"float:right;margin:10px;max-width:100%\">В си­сте­ме ко­ор­ди­нат <i>хOa</i> изоб­ра­зим ло­ма­ную, за­да­ва­е­мую урав­не­ни­ем <img src=\"https://ege.sdamgia.ru/formula/svg/12/121b31a92c9bed34b42207c977779eb3.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"a = |4x| минус x минус 3,\"> все точки ко­то­рой об­ра­ща­ют чис­ли­тель дроби в нуль, и па­ра­бо­лу <img src=\"https://ege.sdamgia.ru/formula/svg/b0/b09ab16fa583d24d896ca84544c566d3.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a=x в квад­ра­те минус x,\"> точки ко­то­рой со­от­вет­ству­ют нулям зна­ме­на­те­ля. </p><p class=\"left_margin\">Под­став­ляя <img src=\"https://ege.sdamgia.ru/formula/svg/d6/d66db94103973dd72cf87ea98d7f70d1.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=x в квад­ра­те минус x\"> в урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/28/28131683d4a07dd552b07bd596990519.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"a = |4x| минус x минус 3\"> и решая по­лу­чен­ное урав­не­ние на <i>x</i>, най­дем абс­цис­сы точки пе­ре­се­че­ния ло­ма­ной и па­ра­бо­лы: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/fa/fa7a11d1530fa3d6900b66448ea34ff1.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\"|4x| минус x минус 3 = x в квад­ра­те минус x рав­но­силь­но |4x| = x в квад­ра­те плюс 3 рав­но­силь­но со­во­куп­ность вы­ра­же­ний 4x = x в квад­ра­те плюс 3,4x = минус левая круг­лая скоб­ка x в квад­ра­те плюс 3 пра­вая круг­лая скоб­ка конец со­во­куп­но­сти . рав­но­силь­но \"></p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/09/09547506baf2cdcaa93cc4ca75751fb6.svg\" class=\"tex\" style=\"vertical-align:-27.6pt\" alt=\" рав­но­силь­но со­во­куп­ность вы­ра­же­ний x в квад­ра­те минус 4x плюс 3 = 0, x в квад­ра­те плюс 4x плюс 3 = 0 конец со­во­куп­но­сти . рав­но­силь­но со­во­куп­ность вы­ра­же­ний x = 1,x = 3, x= минус 1, x = минус 3. конец со­во­куп­но­сти . \"></p><p class=\"left_margin\"></p></center><p> Ор­ди­на­ты точек пе­ре­се­че­ния суть 0, 6, 2 и 12 со­от­вет­ствен­но. Для най­ден­ных зна­че­ний па­ра­мет­ра чис­ли­тель и зна­ме­на­тель об­ра­ща­ют­ся в нуль од­но­вре­мен­но. </p><p class=\"left_margin\">Сле­до­ва­тель­но, за­дан­ное урав­не­ние имеет ровно два ре­ше­ния, когда <img src=\"https://ege.sdamgia.ru/formula/svg/de/de3b632b64f70bb23c51ac22b6b210af.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"a при­над­ле­жит левая круг­лая скоб­ка минус 3;0 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 0;2 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 2;6 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 6;12 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 12; плюс бес­ко­неч­ность пра­вая круг­лая скоб­ка .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/de/de3b632b64f70bb23c51ac22b6b210af.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"a при­над­ле­жит левая круг­лая скоб­ка минус 3;0 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 0;2 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 2;6 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 6;12 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 12; плюс бес­ко­неч­ность пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/12/121b31a92c9bed34b42207c977779eb3.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b09ab16fa583d24d896ca84544c566d3.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d66db94103973dd72cf87ea98d7f70d1.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/28131683d4a07dd552b07bd596990519.svg",
+            "https://ege.sdamgia.ru/formula/svg/fa/fa7a11d1530fa3d6900b66448ea34ff1.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/09547506baf2cdcaa93cc4ca75751fb6.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/de3b632b64f70bb23c51ac22b6b210af.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/de3b632b64f70bb23c51ac22b6b210af.svg",
+            "/get_file?id=151336"
+        ]
+    },
+    "answer": "",
+    "topic_id": 18,
+    "analog_ids": []
+}

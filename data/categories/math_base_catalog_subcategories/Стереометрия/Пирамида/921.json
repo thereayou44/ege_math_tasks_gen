@@ -1,0 +1,16 @@
+{
+    "id": "921",
+    "topic": "Д13",
+    "condition": {
+        "text": "В правильной треугольной пирамиде SABC точка L — середина ребра AC, S — вершина. Известно, что BC = 6, а SL = 5. Найдите площадь боковой поверхности пирамиды.",
+        "images": [
+            "https://mathb-ege.sdamgia.ru/get_file?id=111739"
+        ]
+    },
+    "answer": "45",
+    "analogs": [
+        "921",
+        "923"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=921"
+}

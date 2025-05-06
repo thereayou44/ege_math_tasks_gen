@@ -1,0 +1,47 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 26734,
+    "condition": {
+        "text": "Найдите точку минимума функции ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919186\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те точку ми­ни­му­ма функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/39/395f13778a32b20337059e6d5bbf9453.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y=2x минус на­ту­раль­ный ло­га­рифм левая круг­лая скоб­ка x плюс 3 пра­вая круг­лая скоб­ка плюс 7.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/39/395f13778a32b20337059e6d5bbf9453.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Найдем производную заданной функции:  Найдем нули производной:  Определим знаки производной функции и изобразим на рисунке поведение функции: Искомая точка минимума  Ответ: −2,5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol26734\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Най­дем про­из­вод­ную за­дан­ной функ­ции: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/4b/4b4e63da9ede127261edc7cfc5353401.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\"y'=2 минус дробь: чис­ли­тель: 1, зна­ме­на­тель: x плюс 3 конец дроби . \"></p><p class=\"left_margin\"></p></center> <p class=\"left_margin\">Най­дем нули про­из­вод­ной: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/24/24cbbbf261c83a2ebb497f7e80f98eac.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\"2 минус дробь: чис­ли­тель: 1, зна­ме­на­тель: x плюс 3 конец дроби =0 рав­но­силь­но дробь: чис­ли­тель: 1, зна­ме­на­тель: x плюс 3 конец дроби =2 рав­но­силь­но x плюс 3= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби рав­но­силь­но x= минус 2,5. \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p class=\"left_margin\">Опре­де­лим знаки про­из­вод­ной функ­ции и изоб­ра­зим на ри­сун­ке по­ве­де­ние функ­ции: </p><p><img src=\"/get_file?id=141226\" style=\"margin:10px auto;display:block;max-width:100%\"></p><p class=\"left_margin\">Ис­ко­мая точка ми­ни­му­ма <img src=\"https://ege.sdamgia.ru/formula/svg/11/11ec47a5daf431eed84235a9bb175454.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x= минус 2,5.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ</span>: −2,5.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/4b/4b4e63da9ede127261edc7cfc5353401.svg",
+            "https://ege.sdamgia.ru/formula/svg/24/24cbbbf261c83a2ebb497f7e80f98eac.svg",
+            "https://ege.sdamgia.ru/formula/svg/11/11ec47a5daf431eed84235a9bb175454.svg",
+            "/get_file?id=141226"
+        ]
+    },
+    "answer": "-2,5",
+    "topic_id": 12,
+    "analog_ids": [
+        26734,
+        4283,
+        4301,
+        563894,
+        4283,
+        4301,
+        563894,
+        654840,
+        654931,
+        656083,
+        656253,
+        660927,
+        661024,
+        4285,
+        4287,
+        4289,
+        4291,
+        4293,
+        4295,
+        4297,
+        4299
+    ]
+}

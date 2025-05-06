@@ -1,0 +1,41 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521553,
+    "condition": {
+        "text": "Брокерская фирма выставила на торги пакет акций, состоящий из акций двух компаний: нефтяной компании (по 100 долларов за акцию) и газовой компании (по 65 долларов 60 центов за акцию). Всего было выставлено 200 акций. Все акции газовой компании были проданы, а часть акций нефтяной компании осталась непроданной. Общая сумма выручки оказалась равной 13120 долларов. Определите процент акций газовой компании в выставленном на продажу пакете и найдите сумму выручки, полученной за акции газовой компании.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629677\" class=\"pbody\"><p class=\"left_margin\">Бро­кер­ская фирма вы­ста­ви­ла на торги пакет акций, со­сто­я­щий из акций двух ком­па­ний: неф­тя­ной ком­па­нии (по 100 дол­ла­ров за акцию) и га­зо­вой ком­па­нии (по 65 дол­ла­ров 60 цен­тов за акцию). Всего было вы­став­ле­но 200 акций. Все акции га­зо­вой ком­па­нии были про­да­ны, а часть акций неф­тя­ной ком­па­нии оста­лась не­про­дан­ной. Общая сумма вы­руч­ки ока­за­лась рав­ной 13120 дол­ла­ров. Опре­де­ли­те про­цент акций га­зо­вой ком­па­нии в вы­став­лен­ном на про­да­жу па­ке­те и най­ди­те сумму вы­руч­ки, по­лу­чен­ной за акции га­зо­вой ком­па­нии.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Пусть было продано x акций по  долларов и y акций по  долларов. Тогда  Значит,   Значит, y кратно  Пусть  тогда  причем  Переберем возможные варианты z от  до  проверяя каждый раз, делится ли  на  Единственный подходящий вариант таков  —  тогда   Итак,было выставлено  газовых акций и  нефтяных, из которых  были проданы. Значит, газовые составляли  и принесли доход  долларов. Ответ:  долларов.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521553\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть было про­да­но <i>x</i> акций по <img src=\"https://ege.sdamgia.ru/formula/svg/f8/f899139df5e1059396431415e770c6dd.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"100\"> дол­ла­ров и <i>y</i> акций по <img src=\"https://ege.sdamgia.ru/formula/svg/10/10bc0e7728fdb34b64c0711be63b1f0d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"65,6\"> дол­ла­ров. Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/10/106e5c3aac9215f3d1c680ab8e873cc0.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"100x плюс 65,6y=13120.\"> Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/16/1637511dc3081254f24ceabedaa5af3b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1000x плюс 656y=131200,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/e8/e80dbaf9b162c7c40f972a3db499ae83.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"125x плюс 82y=16400.\"> Зна­чит, <i>y</i> крат­но <img src=\"https://ege.sdamgia.ru/formula/svg/13/13f3022d707d2db79b2bbc152c21c483.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"25.\"> Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/5e/5eb13dd22265ce8cb0acf059cd7cc1e0.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=25z,\"> тогда <img src=\"https://ege.sdamgia.ru/formula/svg/4a/4ab1bc4f0765a9855c3d3177c12915aa.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"5x плюс 82z=656,\"> при­чем <img src=\"https://ege.sdamgia.ru/formula/svg/bf/bf10dbab1bc56817a4d0168a4ea50813.svg\" class=\"tex\" style=\"vertical-align:-1.9pt\" alt=\"x плюс 25z мень­ше 200.\"> Пе­ре­бе­рем воз­мож­ные ва­ри­ан­ты <i>z</i> от <img src=\"https://ege.sdamgia.ru/formula/svg/c4/c4ca4238a0b923820dcc509a6f75849b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"1\"> до <img src=\"https://ege.sdamgia.ru/formula/svg/6a/6a05cf6f2fea323c2503bd0efd0b31cb.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"7,\"> про­ве­ряя каж­дый раз, де­лит­ся ли <img src=\"https://ege.sdamgia.ru/formula/svg/23/23defcdec9678ceeddd28f4fc90574b7.svg\" class=\"tex\" style=\"vertical-align:-1.9pt\" alt=\"656 минус 82z\"> на <img src=\"https://ege.sdamgia.ru/formula/svg/a8/a85803f14639bef7f4539bad631d088c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"5.\"> Един­ствен­ный под­хо­дя­щий ва­ри­ант таков  — <img src=\"https://ege.sdamgia.ru/formula/svg/57/57d3c9ff1df1b73ba191ccb15a2b8b89.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"z=3,\"> тогда <img src=\"https://ege.sdamgia.ru/formula/svg/e3/e349c5537ca9c691e5501a5ee5a919bf.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x=82,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/b4/b48e86086dbe6cde7316205d2c6155d9.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=75.\"></p><p>&nbsp;</p><p class=\"left_margin\">Итак,было вы­став­ле­но <img src=\"https://ege.sdamgia.ru/formula/svg/d0/d09bf41544a3365a46c9077ebb5e35c3.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"75\"> га­зо­вых акций и <img src=\"https://ege.sdamgia.ru/formula/svg/3d/3def184ad8f4755ff269862ea77393dd.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"125\"> неф­тя­ных, из ко­то­рых <img src=\"https://ege.sdamgia.ru/formula/svg/97/9778d5d219c5080b9a6a17bef029331c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"82\"> были про­да­ны. Зна­чит, га­зо­вые со­став­ля­ли <img src=\"https://ege.sdamgia.ru/formula/svg/3a/3a42f5a46be3dbfedbdf088ae54ca573.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 75, зна­ме­на­тель: 200 конец дроби =37,5\\% \"> и при­нес­ли доход <img src=\"https://ege.sdamgia.ru/formula/svg/d1/d1942a3ab01eb59220e2b3a46e7ef09d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"4920\"> дол­ла­ров.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/db/db857a5840a3cb01ad38f296a09807b3.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"37,5\\%,4920\"> дол­ла­ров.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f8/f899139df5e1059396431415e770c6dd.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/10bc0e7728fdb34b64c0711be63b1f0d.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/106e5c3aac9215f3d1c680ab8e873cc0.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/1637511dc3081254f24ceabedaa5af3b.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e80dbaf9b162c7c40f972a3db499ae83.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/13f3022d707d2db79b2bbc152c21c483.svg",
+            "https://ege.sdamgia.ru/formula/svg/5e/5eb13dd22265ce8cb0acf059cd7cc1e0.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4ab1bc4f0765a9855c3d3177c12915aa.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bf10dbab1bc56817a4d0168a4ea50813.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c4ca4238a0b923820dcc509a6f75849b.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a05cf6f2fea323c2503bd0efd0b31cb.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/23defcdec9678ceeddd28f4fc90574b7.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a85803f14639bef7f4539bad631d088c.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/57d3c9ff1df1b73ba191ccb15a2b8b89.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e349c5537ca9c691e5501a5ee5a919bf.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b48e86086dbe6cde7316205d2c6155d9.svg",
+            "https://ege.sdamgia.ru/formula/svg/d0/d09bf41544a3365a46c9077ebb5e35c3.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3def184ad8f4755ff269862ea77393dd.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/9778d5d219c5080b9a6a17bef029331c.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3a42f5a46be3dbfedbdf088ae54ca573.svg",
+            "https://ege.sdamgia.ru/formula/svg/d1/d1942a3ab01eb59220e2b3a46e7ef09d.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/db857a5840a3cb01ad38f296a09807b3.svg"
+        ]
+    },
+    "answer": "дол­ла­ров.",
+    "topic_id": null,
+    "analog_ids": []
+}

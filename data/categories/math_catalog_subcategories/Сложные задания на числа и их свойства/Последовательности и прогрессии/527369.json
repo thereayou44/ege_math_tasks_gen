@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 527369,
+    "condition": {
+        "text": "В последовательности натуральных чисел  каждый следующий член равен произведению суммы цифр предыдущего члена и а)  Найдите пятый член последовательности.б)  Найдите 50‐й член последовательности.в)  Вычислите сумму первых пятидесяти членов этой последовательности.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body418549\" class=\"pbody\"><p class=\"left_margin\">В по­сле­до­ва­тель­но­сти на­ту­раль­ных чисел <img src=\"https://ege.sdamgia.ru/formula/svg/57/577059b12fba49fb721e809824dbdf1b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a_1=47,\"> каж­дый сле­ду­ю­щий член равен про­из­ве­де­нию суммы цифр преды­ду­ще­го члена и <img src=\"https://ege.sdamgia.ru/formula/svg/bf/bf30f8dbfab23837c896a854a3c41cd6.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"a_1.\"></p><p class=\"left_margin\">а)  Най­ди­те пятый член по­сле­до­ва­тель­но­сти.</p><p class=\"left_margin\">б)  Най­ди­те 50‐й член по­сле­до­ва­тель­но­сти.</p><p class=\"left_margin\">в)  Вы­чис­ли­те сумму пер­вых пя­ти­де­ся­ти чле­нов этой по­сле­до­ва­тель­но­сти.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/57/577059b12fba49fb721e809824dbdf1b.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bf30f8dbfab23837c896a854a3c41cd6.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Вычислим несколько первых членов последовательности: 47, 517, 611, 376, 752, 658, 893, 940, 611, ...Дальше последовательность 611, 376, 752, 658, 893, 940будет все время повторяться. В частности, если повторить ее 8 раз, вместе с двумя первыми членами будет ровно 50 членов. Итак,  Сумма первых 50 членов будет равна Ответ: а) 752; б) 940;  в) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol527369\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Вы­чис­лим не­сколь­ко пер­вых чле­нов по­сле­до­ва­тель­но­сти: </p><p class=\"left_margin\"></p><center><p class=\"left_margin\">47, 517, 611, 376, 752, 658, 893, 940, 611, ...</p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Даль­ше по­сле­до­ва­тель­ность </p><p class=\"left_margin\"></p><center><p class=\"left_margin\">611, 376, 752, 658, 893, 940</p><p class=\"left_margin\"></p></center><p>будет все время по­вто­рять­ся. В част­но­сти, если по­вто­рить ее 8 раз, вме­сте с двумя пер­вы­ми чле­на­ми будет ровно 50 чле­нов. Итак, <img src=\"https://ege.sdamgia.ru/formula/svg/1e/1e325a02948c63748d895458f41b9d2f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a_50=940,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/79/7904dab8bf3b47cea2e02d2acefc9eb4.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"a_5=752.\"></p><p class=\"left_margin\">Сумма пер­вых 50 чле­нов будет равна </p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"e596739e1e352dcc070c14012e4f331e\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/e5/e596739e1e352dcc070c14012e4f331e.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"47 плюс 517 плюс 8 левая круг­лая скоб­ка 611 плюс 376 плюс 752 плюс 658 плюс 893 плюс 940 пра­вая круг­лая скоб­ка =564 плюс 8 умно­жить на 4230=34404.\"></span><span data-width=\"465\" data-formulahash=\"e596739e1e352dcc070c14012e4f331e\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/ad/adf58745f4b26459f7cc989ea4573dd3.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"47 плюс 517 плюс 8 левая круг­лая скоб­ка 611 плюс 376 плюс 752 плюс 658 плюс 893 плюс 940 пра­вая круг­лая скоб­ка =\"><br><img src=\"https://ege.sdamgia.ru/formula/svg/88/88e708190779134c1a61d271ab1d6703.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"=564 плюс 8 умно­жить на 4230=34404.\"></span></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) 752; б) 940;  в) <img src=\"https://ege.sdamgia.ru/formula/svg/4c/4c040d32983fd241ca7dbc2932119af0.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"34404.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/1e/1e325a02948c63748d895458f41b9d2f.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/7904dab8bf3b47cea2e02d2acefc9eb4.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e596739e1e352dcc070c14012e4f331e.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/adf58745f4b26459f7cc989ea4573dd3.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/88e708190779134c1a61d271ab1d6703.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c040d32983fd241ca7dbc2932119af0.svg"
+        ]
+    },
+    "answer": "а) 752; б) 940;  в)",
+    "topic_id": null,
+    "analog_ids": []
+}

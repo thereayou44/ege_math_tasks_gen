@@ -1,0 +1,38 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 668211,
+    "condition": {
+        "text": "Найдите все значения параметра p, при каждом из которых уравнение  не имеет решений.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body285903\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния па­ра­мет­ра <i>p</i>, при каж­дом из ко­то­рых урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/92/9275aa52cdcc3251705083ee60b61ee4.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"8 синус в кубе x = p плюс 9 ко­си­нус 2x\"> не имеет ре­ше­ний.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/92/9275aa52cdcc3251705083ee60b61ee4.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Преобразуем уравнение:Пусть  Заметим, что каждому значению t  из промежутка  найдётся хотя бы одно соответствующее значение x, а любому прочему t не соответствует ни одного значения x. Рассмотрим функцию  где  найдём множество ее значений при помощи производной: Производная равна нулю только в точке  ( не входит в область определения функции f ). Вычислим значения функции в граничных точках области определения и в стационарной точке: Множеством значений функции f(t) является промежуток Тем самым уравнение  а значит, и исходное уравнение,  не имеет решений при  или  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol668211\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пре­об­ра­зу­ем урав­не­ние:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/b2/b28c9a115601513680f0775da899d064.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"8 синус в кубе x = p плюс 9 ко­си­нус 2x рав­но­силь­но p=8 синус в кубе x плюс 18 синус в квад­ра­те x минус 9.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/31/3105eed32599e0e5bfd07bc65f71c627.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" синус x=t.\"> За­ме­тим, что каж­до­му зна­че­нию <i>t</i>  из про­ме­жут­ка <img src=\"https://ege.sdamgia.ru/formula/svg/3f/3f2c3241a373bbe25b2ea25dfd0eebd8.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка минус 1; 1 пра­вая квад­рат­ная скоб­ка \"> найдётся хотя бы одно со­от­вет­ству­ю­щее зна­че­ние <i>x</i>, а лю­бо­му про­че­му <i>t</i> не со­от­вет­ству­ет ни од­но­го зна­че­ния <i>x</i>. Рас­смот­рим функ­цию <img src=\"https://ege.sdamgia.ru/formula/svg/00/0022c02a0808b61373fdbb3dc196dde4.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка t пра­вая круг­лая скоб­ка =8t в кубе плюс 18t в квад­ра­те минус 9,\"> где <img src=\"https://ege.sdamgia.ru/formula/svg/db/db35e0676dcd044705dd1eb57cdba7a6.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" минус 1 мень­ше или равно t мень­ше или равно 1,\"> найдём мно­же­ство ее зна­че­ний при по­мо­щи про­из­вод­ной:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/5d/5daac93a81b9fa3f5a3bbc8ac29c50f8.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f' левая круг­лая скоб­ка t пра­вая круг­лая скоб­ка =24t в квад­ра­те плюс 36t=12t левая круг­лая скоб­ка 2t плюс 3 пра­вая круг­лая скоб­ка .\"></p><p class=\"left_margin\"></p></center><p><img src=\"/get_file?id=188067\" style=\"float:right;margin:10px;max-width:100%\"></p><p> Про­из­вод­ная равна нулю толь­ко в точке <img src=\"https://ege.sdamgia.ru/formula/svg/3e/3e8f7b0adf6d7024b951f29a18225e4a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"t=0\"> (<img src=\"https://ege.sdamgia.ru/formula/svg/e4/e4b350bfab3b438bcc52d225d3fe6ee7.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"t= минус 1,5\"> не вхо­дит в об­ласть опре­де­ле­ния функ­ции <i>f</i> ). Вы­чис­лим зна­че­ния функ­ции в гра­нич­ных точ­ках об­ла­сти опре­де­ле­ния и в ста­ци­о­нар­ной точке:</p><p></p><div class=\"flex-math\"><p><img src=\"https://ege.sdamgia.ru/formula/svg/54/54616a68c6f34741ed4b1e7dee330270.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка = минус 8 плюс 18 минус 9=1,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/cf/cfe292e2b28f80c126042d241ea88749.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка 0 пра­вая круг­лая скоб­ка = минус 9,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/24/24d3046c9b7194905e4f2cbce8347ca0.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка 1 пра­вая круг­лая скоб­ка =8 плюс 18 минус 9=17.\"></p><p></p></div><p> Мно­же­ством зна­че­ний функ­ции <i>f</i>(<i>t</i>) яв­ля­ет­ся про­ме­жу­ток <img src=\"https://ege.sdamgia.ru/formula/svg/08/081fbfde0f6bd27f8a05c3ac879c6286.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка минус 9; 17 пра­вая квад­рат­ная скоб­ка .\"></p><p class=\"left_margin\">Тем самым урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/e7/e7be6e704194d6dab727b4309acd6859.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"p=f левая круг­лая скоб­ка t пра­вая круг­лая скоб­ка ,\"> а зна­чит, и ис­ход­ное урав­не­ние,  не имеет ре­ше­ний при <img src=\"https://ege.sdamgia.ru/formula/svg/30/30842fad6ae3e153106357d3fb563cac.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"p мень­ше минус 9\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/a3/a34765738035c8f1f56b0d3712c0091e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"p боль­ше 17.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/51/512a2316e9d3d2663b274b628e6ccbb5.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка минус бес­ко­неч­ность ; минус 9 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 17; плюс бес­ко­неч­ность пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b2/b28c9a115601513680f0775da899d064.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/3105eed32599e0e5bfd07bc65f71c627.svg",
+            "https://ege.sdamgia.ru/formula/svg/3f/3f2c3241a373bbe25b2ea25dfd0eebd8.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/0022c02a0808b61373fdbb3dc196dde4.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/db35e0676dcd044705dd1eb57cdba7a6.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5daac93a81b9fa3f5a3bbc8ac29c50f8.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e8f7b0adf6d7024b951f29a18225e4a.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e4b350bfab3b438bcc52d225d3fe6ee7.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54616a68c6f34741ed4b1e7dee330270.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cfe292e2b28f80c126042d241ea88749.svg",
+            "https://ege.sdamgia.ru/formula/svg/24/24d3046c9b7194905e4f2cbce8347ca0.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/081fbfde0f6bd27f8a05c3ac879c6286.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e7be6e704194d6dab727b4309acd6859.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/30842fad6ae3e153106357d3fb563cac.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a34765738035c8f1f56b0d3712c0091e.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/512a2316e9d3d2663b274b628e6ccbb5.svg",
+            "/get_file?id=188067"
+        ]
+    },
+    "answer": "",
+    "topic_id": 18,
+    "analog_ids": []
+}

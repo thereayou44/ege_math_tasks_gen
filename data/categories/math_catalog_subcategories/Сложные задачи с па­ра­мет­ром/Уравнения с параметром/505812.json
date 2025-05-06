@@ -1,0 +1,37 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 505812,
+    "condition": {
+        "text": "Найдите все значения параметра a, при которых среди корней уравнения найдутся два корня, разница между которыми равна ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body645416\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния па­ра­мет­ра <i>a</i>, при ко­то­рых среди кор­ней урав­не­ния </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/96/96e5d1780934eb9f183c393f8afc5814.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" синус 2x плюс 4a синус x минус ко­си­нус x минус 2a=0\"></p><p class=\"left_margin\"></p></center><p>най­дут­ся два корня, раз­ни­ца между ко­то­ры­ми равна <img src=\"https://ege.sdamgia.ru/formula/svg/4e/4e5c4f68f0dfcc52d2e0a7a7616cc25c.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/96/96e5d1780934eb9f183c393f8afc5814.svg",
+            "https://ege.sdamgia.ru/formula/svg/4e/4e5c4f68f0dfcc52d2e0a7a7616cc25c.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Преобразуем уравнениеКорнями уравнения  являются числа   Они не могут отличаться друг от друга на  Они отличаются на  от чисел вида  косинусы которых равны  поэтому такие числа будут корнями исходного уравнения при Наконец, возможна ситуация, когда два корня уравнения  отличаются на  Поскольку точки, изображающие корни этого уравнения на тригонометрической окружности, симметричны относительно горизонтальной оси, это возможно только если  то есть при  Ответ:  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol505812\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пре­об­ра­зу­ем урав­не­ние</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/c9/c9abb0984f4a23a9afe20a2de91a3c59.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2 синус x ко­си­нус x плюс 4a синус x минус ко­си­нус x минус 2a=0,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/53/53007ceb3a8869a585551a9195765acb.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 2 синус x минус 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка ко­си­нус x плюс 2a пра­вая круг­лая скоб­ка =0.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Кор­ня­ми урав­не­ния <img src=\"https://ege.sdamgia.ru/formula/svg/0e/0e0f37c608edad17a8c0d842a7fb39cc.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2 синус x минус 1=0\"> яв­ля­ют­ся числа <img src=\"https://ege.sdamgia.ru/formula/svg/4b/4be58a1cadb6b07a317587e14c8275d9.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k, \"> <img src=\"https://ege.sdamgia.ru/formula/svg/22/220fc2d626bec2f68aeb42a6b6746fc6.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k, k при­над­ле­жит Z . \"> Они не могут от­ли­чать­ся друг от друга на <img src=\"https://ege.sdamgia.ru/formula/svg/4e/4e5c4f68f0dfcc52d2e0a7a7616cc25c.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби . \"> Они от­ли­ча­ют­ся на <img src=\"https://ege.sdamgia.ru/formula/svg/dd/ddf7b443e8d8596f2edee8914799b5fa.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби \"> от чисел вида <img src=\"https://ege.sdamgia.ru/formula/svg/02/0229f21c18bd5eba7b2ad88e7525876e.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"\\pm дробь: чис­ли­тель: Пи , зна­ме­на­тель: 3 конец дроби плюс Пи n, n при­над­ле­жит Z , \"> ко­си­ну­сы ко­то­рых равны <img src=\"https://ege.sdamgia.ru/formula/svg/dd/ddd97b4383869a98e617e3013d4c8497.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"\\pm дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби ,\"> по­это­му такие числа будут кор­ня­ми ис­ход­но­го урав­не­ния при <img src=\"https://ege.sdamgia.ru/formula/svg/79/792373a4172a86585f30a2e40e6b1195.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"a=\\pm дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби .\"></p><p class=\"left_margin\">На­ко­нец, воз­мож­на си­ту­а­ция, когда два корня урав­не­ния <img src=\"https://ege.sdamgia.ru/formula/svg/fb/fbe2ba19a8f38cf3e3268816630b3894.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­си­нус x плюс 2a=0\"> от­ли­ча­ют­ся на <img src=\"https://ege.sdamgia.ru/formula/svg/4e/4e5c4f68f0dfcc52d2e0a7a7616cc25c.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби . \"> По­сколь­ку точки, изоб­ра­жа­ю­щие корни этого урав­не­ния на три­го­но­мет­ри­че­ской окруж­но­сти, сим­мет­рич­ны от­но­си­тель­но го­ри­зон­таль­ной оси, это воз­мож­но толь­ко если <img src=\"https://ege.sdamgia.ru/formula/svg/83/8337e576780222186e49e9fbb4f172b7.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x=\\pm дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби плюс Пи m, m при­над­ле­жит Z \"> то есть при <img src=\"https://ege.sdamgia.ru/formula/svg/0a/0a82b48370a7b8359d3f0d49fc2a01af.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"a=\\pm дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та , зна­ме­на­тель: 4 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  <img src=\"https://ege.sdamgia.ru/formula/svg/be/bef2e8f4df979ca6528262a226db1c2d.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"\\pm дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби ,\\pm дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та , зна­ме­на­тель: 4 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c9/c9abb0984f4a23a9afe20a2de91a3c59.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/53007ceb3a8869a585551a9195765acb.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0e0f37c608edad17a8c0d842a7fb39cc.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4be58a1cadb6b07a317587e14c8275d9.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/220fc2d626bec2f68aeb42a6b6746fc6.svg",
+            "https://ege.sdamgia.ru/formula/svg/4e/4e5c4f68f0dfcc52d2e0a7a7616cc25c.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/ddf7b443e8d8596f2edee8914799b5fa.svg",
+            "https://ege.sdamgia.ru/formula/svg/02/0229f21c18bd5eba7b2ad88e7525876e.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/ddd97b4383869a98e617e3013d4c8497.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/792373a4172a86585f30a2e40e6b1195.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fbe2ba19a8f38cf3e3268816630b3894.svg",
+            "https://ege.sdamgia.ru/formula/svg/4e/4e5c4f68f0dfcc52d2e0a7a7616cc25c.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/8337e576780222186e49e9fbb4f172b7.svg",
+            "https://ege.sdamgia.ru/formula/svg/0a/0a82b48370a7b8359d3f0d49fc2a01af.svg",
+            "https://ege.sdamgia.ru/formula/svg/be/bef2e8f4df979ca6528262a226db1c2d.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

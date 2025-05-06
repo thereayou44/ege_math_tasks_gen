@@ -1,0 +1,52 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27651,
+    "condition": {
+        "text": "Найдите расстояние от точки A с координатами (6; 8) до начала координат.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918271\" class=\"pbody\"><p class=\"left_margin\"><img width=\"190\" style=\"float:right; margin:10px\" src=\"/get_file?id=304\">Най­ди­те рас­сто­я­ние от точки <i>A</i> с ко­ор­ди­на­та­ми (6; 8) до на­ча­ла ко­ор­ди­нат.</p></div>",
+        "image_urls": [
+            "/get_file?id=304"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Расстояние от точки до начала координат (0; 0) определяется соотношением:  Ответ: 10.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27651\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Рас­сто­я­ние от точки до на­ча­ла ко­ор­ди­нат (0; 0) опре­де­ля­ет­ся со­от­но­ше­ни­ем: <img src=\"https://ege.sdamgia.ru/formula/svg/c7/c7fb8cba168a22ea8de7c20038d891ed.svg\" class=\"tex\" style=\"vertical-align:-5.9pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: левая круг­лая скоб­ка 0 минус 6 пра­вая круг­лая скоб­ка конец ар­гу­мен­та в квад­ра­те плюс левая круг­лая скоб­ка 0 минус 8 пра­вая круг­лая скоб­ка в квад­ра­те =10.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 10.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c7/c7fb8cba168a22ea8de7c20038d891ed.svg"
+        ]
+    },
+    "answer": "10",
+    "topic_id": null,
+    "analog_ids": [
+        27651,
+        57857,
+        57859,
+        57861,
+        57857,
+        57859,
+        57861,
+        57863,
+        57865,
+        57867,
+        57869,
+        57871,
+        57873,
+        57875,
+        57877,
+        57879,
+        57881,
+        57883,
+        57885,
+        57887,
+        57889,
+        57891,
+        57893,
+        57895,
+        57897,
+        57899,
+        57901,
+        57903,
+        57905
+    ]
+}

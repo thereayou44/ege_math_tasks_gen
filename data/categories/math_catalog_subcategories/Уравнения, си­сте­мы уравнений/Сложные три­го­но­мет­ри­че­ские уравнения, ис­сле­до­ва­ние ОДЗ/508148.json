@@ -1,0 +1,44 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 508148,
+    "condition": {
+        "text": "Дано уравнение а)  Решите уравнение.б)  Укажите корни, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body634376\" class=\"pbody\"><p class=\"left_margin\">Дано урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/65/655426bc2d64d42c43feff23ba6d8d0f.svg\" class=\"tex\" style=\"vertical-align:-2.0pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 7 минус 8 синус x конец ар­гу­мен­та = минус 2 ко­си­нус x.\"></p><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние.</p><p class=\"left_margin\">б)  Ука­жи­те корни, при­над­ле­жа­щие от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/37/3737d3233f60946ae1c299fcfc7d81e7.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка минус дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби ;2 Пи пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/65/655426bc2d64d42c43feff23ba6d8d0f.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/3737d3233f60946ae1c299fcfc7d81e7.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Последовательно получаем: б)  Решим неравенство   в целых числах. Получим: При    при    Ответ:  а)   б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol508148\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  По­сле­до­ва­тель­но по­лу­ча­ем:</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"1a9b7d8961bb2782c63d2aca5daa464c\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/1a/1a9b7d8961bb2782c63d2aca5daa464c.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 7 минус 8 синус x конец ар­гу­мен­та = минус 2 ко­си­нус x рав­но­силь­но си­сте­ма вы­ра­же­ний  новая стро­ка ко­си­нус x мень­ше или равно 0 , новая стро­ка 7 минус 8 синус x=4 ко­си­нус в квад­ра­те x конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний  новая стро­ка ко­си­нус x мень­ше или равно 0 , новая стро­ка минус 4 плюс 4 синус в квад­ра­те x минус 8 синус x плюс 7=0 конец си­сте­мы . рав­но­силь­но \"></span><span data-width=\"540\" data-formulahash=\"1a9b7d8961bb2782c63d2aca5daa464c\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/60/60a1143a60d0c8013e00b3a95cd14e6b.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 7 минус 8 синус x конец ар­гу­мен­та = минус 2 ко­си­нус x рав­но­силь­но си­сте­ма вы­ра­же­ний  новая стро­ка ко­си­нус x мень­ше или равно 0 , новая стро­ка 7 минус 8 синус x=4 ко­си­нус в квад­ра­те x конец си­сте­мы . рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/72/72908766d3368bda35bace2f1df25f9c.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" рав­но­силь­но си­сте­ма вы­ра­же­ний  новая стро­ка ко­си­нус x мень­ше или равно 0 , новая стро­ка минус 4 плюс 4 синус в квад­ра­те x минус 8 синус x плюс 7=0 конец си­сте­мы . рав­но­силь­но \"></span> </p><p><img src=\"https://ege.sdamgia.ru/formula/svg/ba/baa857d4fc94fceaa076cb177b6bef12.svg\" class=\"tex\" style=\"vertical-align:-19.2pt\" alt=\" рав­но­силь­но си­сте­ма вы­ра­же­ний  новая стро­ка ко­си­нус x мень­ше или равно 0 , новая стро­ка 4 синус в квад­ра­те x минус 8 синус x плюс 3=0 конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний  новая стро­ка ко­си­нус x мень­ше или равно 0 , новая стро­ка синус x= дробь: чис­ли­тель: 4\\pm ко­рень из: на­ча­ло ар­гу­мен­та: 16 минус 12 конец ар­гу­мен­та , зна­ме­на­тель: 4 конец дроби  конец си­сте­мы . рав­но­силь­но \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/8b/8b22ed50716c81f5130301fc5352aa41.svg\" class=\"tex\" style=\"vertical-align:-31.1pt\" alt=\" рав­но­силь­но си­сте­ма вы­ра­же­ний ко­си­нус x мень­ше или равно 0, со­во­куп­ность вы­ра­же­ний синус x = дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби , синус x = дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби конец си­сте­мы . конец со­во­куп­но­сти рав­но­силь­но си­сте­ма вы­ра­же­ний  новая стро­ка ко­си­нус x мень­ше или равно 0 , новая стро­ка синус x= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби  конец си­сте­мы . рав­но­силь­но x= дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи n,n при­над­ле­жит Z. \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">б)  Решим не­ра­вен­ство  <img src=\"https://ege.sdamgia.ru/formula/svg/00/0047fd7ae1241e54598b80c6317b837b.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" минус дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби мень­ше или равно дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи n мень­ше или равно 2 Пи \"> в целых чис­лах. По­лу­чим: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/9b/9b1eb4d930aac36c41bcdf10ce9ab806.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" минус 9 мень­ше или равно 5 плюс 12n мень­ше или равно 12 рав­но­силь­но минус 14 мень­ше или равно 12n мень­ше или равно 7 рав­но­силь­но минус дробь: чис­ли­тель: 7, зна­ме­на­тель: 6 конец дроби мень­ше или равно n мень­ше или равно дробь: чис­ли­тель: 7, зна­ме­на­тель: 12 конец дроби рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка n= минус 1 , новая стро­ка n=0 . конец со­во­куп­но­сти .\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">При <img src=\"https://ege.sdamgia.ru/formula/svg/bf/bf8f8535c855a7b7c5ea9a79e53c3c70.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"n=0:\">  <img src=\"https://ege.sdamgia.ru/formula/svg/b6/b632a5119cafffe987e42d788327bbef.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x_1= дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби ; \"> при <img src=\"https://ege.sdamgia.ru/formula/svg/bf/bfc35510a516f53e1eae9bd70509001e.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"n= минус 1:\">  <img src=\"https://ege.sdamgia.ru/formula/svg/1e/1e3de0052b428763e41a6dffc5f69afa.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x_2= дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби минус 2 Пи = минус дробь: чис­ли­тель: 7 Пи , зна­ме­на­тель: 6 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  а) <img src=\"https://ege.sdamgia.ru/formula/svg/44/445121189b9586f19e59e8e1553a5eea.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи n,n при­над­ле­жит Z. \">  б) <img src=\"https://ege.sdamgia.ru/formula/svg/92/9264cbc3cd03ee8a4236366d2c3ba314.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" минус дробь: чис­ли­тель: 7 Пи , зна­ме­на­тель: 6 конец дроби ; дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/1a/1a9b7d8961bb2782c63d2aca5daa464c.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/60a1143a60d0c8013e00b3a95cd14e6b.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/72908766d3368bda35bace2f1df25f9c.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/baa857d4fc94fceaa076cb177b6bef12.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8b22ed50716c81f5130301fc5352aa41.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/0047fd7ae1241e54598b80c6317b837b.svg",
+            "https://ege.sdamgia.ru/formula/svg/9b/9b1eb4d930aac36c41bcdf10ce9ab806.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bf8f8535c855a7b7c5ea9a79e53c3c70.svg",
+            "https://ege.sdamgia.ru/formula/svg/b6/b632a5119cafffe987e42d788327bbef.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bfc35510a516f53e1eae9bd70509001e.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1e3de0052b428763e41a6dffc5f69afa.svg",
+            "https://ege.sdamgia.ru/formula/svg/44/445121189b9586f19e59e8e1553a5eea.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/9264cbc3cd03ee8a4236366d2c3ba314.svg"
+        ]
+    },
+    "answer": "а)   б)",
+    "topic_id": null,
+    "analog_ids": [
+        508148,
+        511237,
+        513770,
+        513784,
+        511237,
+        513770,
+        513784,
+        514065
+    ]
+}

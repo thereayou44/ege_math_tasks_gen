@@ -1,0 +1,38 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 513431,
+    "condition": {
+        "text": "По бизнес-плану предполагается изначально вложить в четырёхлетний проект 10 млн рублей. По итогам каждого года планируется прирост вложенных средств на 15% по сравнению с началом года. Начисленные проценты остаются вложенными в проект. Кроме этого, сразу после начислений процентов нужны дополнительные вложения: по целому числу n млн рублей в  первый и второй годы, а также по целому числу m млн рублей в третий и четвёртый годы.Найдите наименьшие значения n и m, при которых первоначальные вложения за два года как минимум удвоятся, а за четыре года как минимум утроятся.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body637803\" class=\"pbody\"><p class=\"left_margin\">По биз­нес-плану пред­по­ла­га­ет­ся из­на­чаль­но вло­жить в четырёхлет­ний про­ект 10 млн руб­лей. По ито­гам каж­до­го года пла­ни­ру­ет­ся при­рост вло­жен­ных средств на 15% по срав­не­нию с на­ча­лом года. На­чис­лен­ные про­цен­ты оста­ют­ся вло­жен­ны­ми в про­ект. Кроме этого, сразу после на­чис­ле­ний про­цен­тов нужны до­пол­ни­тель­ные вло­же­ния: по це­ло­му числу <i>n</i> млн руб­лей в  пер­вый и вто­рой годы, а также по це­ло­му числу <i>m</i> млн руб­лей в тре­тий и четвёртый годы.</p><p class=\"left_margin\">Най­ди­те наи­мень­шие зна­че­ния <i>n</i> и <i>m</i>, при ко­то­рых пер­во­на­чаль­ные вло­же­ния за два года как ми­ни­мум удво­ят­ся, а за че­ты­ре года как ми­ни­мум утро­ят­ся.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. К началу 2-го года получится  млн вложений, а к началу 3-го года  — По условию  Наименьшее целое решение n  =  4. Тогда к началу 3-го года получится млн.К началу 4-года имеем  млн, а в конце проектаПо условию  Получаем, что m  =  1  — наименьшее целое решение. Ответ: 4 и 1 млн руб.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol513431\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">К на­ча­лу 2-го года по­лу­чит­ся <img src=\"https://ege.sdamgia.ru/formula/svg/ae/aef770e7df9a2d2a60147071fb386958.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1,15 умно­жить на 10 плюс n=11,5 плюс n\"> млн вло­же­ний, а к на­ча­лу 3-го года  — </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/a9/a937b993ab6312ae681a32b0d6321a9b.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"1,15 левая круг­лая скоб­ка 11,5 плюс n пра­вая круг­лая скоб­ка плюс n=13,225 плюс 2,15n.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">По усло­вию <img src=\"https://ege.sdamgia.ru/formula/svg/c2/c2b9424aca720ed9d684bbb476e8de38.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"13,225 плюс 2,15n\\geqslant20.\"> Наи­мень­шее целое ре­ше­ние <i>n</i>  =  4. Тогда к на­ча­лу 3-го года по­лу­чит­ся</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f1/f1de1da84a4408c8db14c9de3409798c.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"13,225 плюс 8,6=21,825\"> млн.</p><p class=\"left_margin\"></p></center><p class=\"left_margin\">К на­ча­лу 4-года имеем <img src=\"https://ege.sdamgia.ru/formula/svg/79/799cef4b9e08033df8319050c4c29223.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1,15 умно­жить на 21,825 плюс m\"> млн, а в конце про­ек­та</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"dd01cc221a212541771ee61cfeb6d91a\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/dd/dd01cc221a212541771ee61cfeb6d91a.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"1,15 левая круг­лая скоб­ка 1,15 умно­жить на 21,825 плюс m пра­вая круг­лая скоб­ка плюс m=1,3225 умно­жить на 21,825 плюс 2,15m=28,8635625 плюс 2,15m.\"></span><span data-width=\"490\" data-formulahash=\"dd01cc221a212541771ee61cfeb6d91a\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/d2/d2d3c729bf776848f6ab6fa7f1a3bf71.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"1,15 левая круг­лая скоб­ка 1,15 умно­жить на 21,825 плюс m пра­вая круг­лая скоб­ка плюс m=\"><br><img src=\"https://ege.sdamgia.ru/formula/svg/93/93f86a2d74d76034bb258c3404e9e0c2.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"=1,3225 умно­жить на 21,825 плюс 2,15m=28,8635625 плюс 2,15m.\"></span></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">По усло­вию <img src=\"https://ege.sdamgia.ru/formula/svg/f3/f39bf83c3be331affbefbc6817d4ee61.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"28,8635625 плюс 2,15m\\geqslant30.\"> По­лу­ча­ем, что <i>m</i>  =  1  — наи­мень­шее целое ре­ше­ние.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 4 и 1 млн руб.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ae/aef770e7df9a2d2a60147071fb386958.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a937b993ab6312ae681a32b0d6321a9b.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c2b9424aca720ed9d684bbb476e8de38.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f1de1da84a4408c8db14c9de3409798c.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/799cef4b9e08033df8319050c4c29223.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/dd01cc221a212541771ee61cfeb6d91a.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d2d3c729bf776848f6ab6fa7f1a3bf71.svg",
+            "https://ege.sdamgia.ru/formula/svg/93/93f86a2d74d76034bb258c3404e9e0c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f39bf83c3be331affbefbc6817d4ee61.svg"
+        ]
+    },
+    "answer": "4 и 1 млн руб.",
+    "topic_id": 16,
+    "analog_ids": [
+        513431,
+        513450,
+        513628,
+        552112,
+        513450,
+        513628,
+        552112,
+        555719,
+        555899
+    ]
+}

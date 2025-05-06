@@ -1,0 +1,29 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 508453,
+    "condition": {
+        "text": "Решите неравенство: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body634073\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство: <img src=\"https://ege.sdamgia.ru/formula/svg/78/780be36c0ccbc9dc52e22fefc8e3ee87.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"4 в сте­пе­ни x плюс 4 в сте­пе­ни левая круг­лая скоб­ка минус x пра­вая круг­лая скоб­ка боль­ше или равно дробь: чис­ли­тель: 10, зна­ме­на­тель: 3 конец дроби .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/78/780be36c0ccbc9dc52e22fefc8e3ee87.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Пусть  тогда:Откуда  или  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol508453\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/b8/b86aca7bf9ecd8b8604c0b18268e952f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y = 4 в сте­пе­ни x ,y боль­ше 0\"> тогда:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/50/50ef74ebae5365220c9dac40d849f63d.svg\" class=\"tex\" style=\"vertical-align:-17.8pt\" alt=\"y плюс дробь: чис­ли­тель: 1, зна­ме­на­тель: y конец дроби боль­ше или равно дробь: чис­ли­тель: 10, зна­ме­на­тель: 3 конец дроби \\undersety боль­ше 0\\mathop рав­но­силь­но 3y в квад­ра­те минус 10y плюс 3\\geqslant0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка y мень­ше или равно дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби , новая стро­ка y боль­ше или равно 3. конец со­во­куп­но­сти . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">От­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/04/04d89b49536391cf0715be414aad303d.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x мень­ше или равно минус ло­га­рифм по ос­но­ва­нию 4 3\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/c6/c6b23ee12d43cc43c95d3827d5718c95.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x боль­ше или равно ло­га­рифм по ос­но­ва­нию 4 3.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/37/375aea348bd641a4d4b82750fa07444c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка минус бес­ко­неч­ность ; минус ло­га­рифм по ос­но­ва­нию 4 3 пра­вая квад­рат­ная скоб­ка \\cup левая квад­рат­ная скоб­ка ло­га­рифм по ос­но­ва­нию 4 3; плюс бес­ко­неч­ность пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b8/b86aca7bf9ecd8b8604c0b18268e952f.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50ef74ebae5365220c9dac40d849f63d.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/04d89b49536391cf0715be414aad303d.svg",
+            "https://ege.sdamgia.ru/formula/svg/c6/c6b23ee12d43cc43c95d3827d5718c95.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/375aea348bd641a4d4b82750fa07444c.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": [
+        508453,
+        508455
+    ]
+}

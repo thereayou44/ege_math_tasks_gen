@@ -1,0 +1,65 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 26714,
+    "condition": {
+        "text": "Найдите наименьшее значение функции  на отрезке [−2,5; 0].",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919206\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те наи­мень­шее зна­че­ние функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/ae/ae527b3c0d248a855efffbfbb51641a4.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y=3x минус на­ту­раль­ный ло­га­рифм левая круг­лая скоб­ка x плюс 3 пра­вая круг­лая скоб­ка в кубе \"> на от­рез­ке [−2,5; 0].</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ae/ae527b3c0d248a855efffbfbb51641a4.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Найдем производную заданной функции:    Найдем нули производной на заданном отрезке:  Определим знаки производной функции на заданном отрезке и изобразим на рисунке поведение функции: В точке  заданная функция имеет минимум, являющийся ее наименьшим значением на заданном отрезке. Найдем это наименьшее значение:  Ответ: −6.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol26714\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Най­дем про­из­вод­ную за­дан­ной функ­ции: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e8/e8933e76bbad2a321f4fe8c91d3f5c82.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\"y' левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =3 минус дробь: чис­ли­тель: 3, зна­ме­на­тель: x плюс 3 конец дроби . \"> </p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p class=\"left_margin\">Най­дем нули про­из­вод­ной на за­дан­ном от­рез­ке: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/c4/c404acdf9cf629e7954a371a714c1bcc.svg\" class=\"tex\" style=\"vertical-align:-17.8pt\" alt=\" си­сте­ма вы­ра­же­ний  новая стро­ка 3 минус дробь: чис­ли­тель: 3, зна­ме­на­тель: x плюс 3 конец дроби =0,  новая стро­ка минус 2,5 мень­ше или равно x мень­ше или равно 0  конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний  новая стро­ка дробь: чис­ли­тель: 1, зна­ме­на­тель: x плюс 3 конец дроби =1,  новая стро­ка минус 2,5 мень­ше или равно x мень­ше или равно 0  конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний  новая стро­ка x= минус 2,  новая стро­ка минус 2,5 мень­ше или равно x мень­ше или равно 0 конец си­сте­мы . рав­но­силь­но x= минус 2.\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p class=\"left_margin\">Опре­де­лим знаки про­из­вод­ной функ­ции на за­дан­ном от­рез­ке и изоб­ра­зим на ри­сун­ке по­ве­де­ние функ­ции: </p><p><img src=\"/get_file?id=141195\" style=\"margin:10px auto;display:block;max-width:100%\"></p><p class=\"left_margin\">В точке <img src=\"https://ege.sdamgia.ru/formula/svg/36/363be1a1694c88fafb86bd7b8f3bfffc.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x= минус 2\"> за­дан­ная функ­ция имеет ми­ни­мум, яв­ля­ю­щий­ся ее наи­мень­шим зна­че­ни­ем на за­дан­ном от­рез­ке. Най­дем это наи­мень­шее зна­че­ние: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ff/ffaf5b184152d8011bff6ba478c51faa.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y левая круг­лая скоб­ка минус 2 пра­вая круг­лая скоб­ка = минус 2 умно­жить на 3 минус на­ту­раль­ный ло­га­рифм 1= минус 6.\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ</span>: −6.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e8/e8933e76bbad2a321f4fe8c91d3f5c82.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c404acdf9cf629e7954a371a714c1bcc.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/363be1a1694c88fafb86bd7b8f3bfffc.svg",
+            "https://ege.sdamgia.ru/formula/svg/ff/ffaf5b184152d8011bff6ba478c51faa.svg",
+            "/get_file?id=141195"
+        ]
+    },
+    "answer": "-6",
+    "topic_id": 12,
+    "analog_ids": [
+        26714,
+        3847,
+        71037,
+        3849,
+        3847,
+        71037,
+        3849,
+        3851,
+        3853,
+        3855,
+        3857,
+        3859,
+        3861,
+        3863,
+        70989,
+        70991,
+        70993,
+        70995,
+        70997,
+        70999,
+        71001,
+        71003,
+        71005,
+        71007,
+        71009,
+        71011,
+        71013,
+        71015,
+        71017,
+        71019,
+        71021,
+        71023,
+        71025,
+        71027,
+        71029,
+        71031,
+        71033,
+        71035
+    ]
+}

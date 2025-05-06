@@ -1,0 +1,55 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 26767,
+    "condition": {
+        "text": "Найдите значение выражения ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919155\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те зна­че­ние вы­ра­же­ния <img src=\"https://ege.sdamgia.ru/formula/svg/76/76b7a94c2d0aa5e0f42af46111e0e5a5.svg\" class=\"tex\" style=\"vertical-align:-10.7pt\" alt=\" дробь: чис­ли­тель: 5 тан­генс 163 гра­ду­сов , зна­ме­на­тель: тан­генс 17 гра­ду­сов конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/76/76b7a94c2d0aa5e0f42af46111e0e5a5.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Выполним преобразования:   Ответ: −5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol26767\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Вы­пол­ним пре­об­ра­зо­ва­ния: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/25/251b249044323b30cee33ad6f9428669.svg\" class=\"tex\" style=\"vertical-align:-10.8pt\" alt=\" дробь: чис­ли­тель: 5 тан­генс 163 гра­ду­сов , зна­ме­на­тель: тан­генс 17 гра­ду­сов конец дроби = дробь: чис­ли­тель: 5 тан­генс левая круг­лая скоб­ка 180 минус 17 пра­вая круг­лая скоб­ка гра­ду­сов , зна­ме­на­тель: тан­генс 17 гра­ду­сов конец дроби = дробь: чис­ли­тель: минус 5 тан­генс 17 гра­ду­сов , зна­ме­на­тель: тан­генс 17 гра­ду­сов конец дроби = минус 5. \"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> −5.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/25/251b249044323b30cee33ad6f9428669.svg"
+        ]
+    },
+    "answer": "-5",
+    "topic_id": 7,
+    "analog_ids": [
+        26767,
+        63875,
+        63821,
+        63823,
+        63875,
+        63821,
+        63823,
+        63825,
+        63827,
+        63829,
+        63831,
+        63833,
+        63835,
+        63837,
+        63839,
+        63841,
+        63843,
+        63845,
+        63847,
+        63849,
+        63851,
+        63853,
+        63855,
+        63857,
+        63859,
+        63861,
+        63863,
+        63865,
+        63867,
+        63869,
+        63871,
+        63873
+    ]
+}

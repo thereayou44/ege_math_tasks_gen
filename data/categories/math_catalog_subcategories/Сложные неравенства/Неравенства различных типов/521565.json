@@ -1,0 +1,27 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521565,
+    "condition": {
+        "text": "Решите неравенство: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629665\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те&nbsp;не­ра­вен­ство: <img src=\"https://ege.sdamgia.ru/formula/svg/d2/d200ebef2ce9f4eecf0f79f71a5fb5ff.svg\" class=\"tex\" style=\"vertical-align:-12.7pt\" alt=\" дробь: чис­ли­тель: 3 ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 0,5 пра­вая круг­лая скоб­ка x, зна­ме­на­тель: 2 минус ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 0,5 пра­вая круг­лая скоб­ка x конец дроби боль­ше или равно 2 ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 0,5 пра­вая круг­лая скоб­ка x плюс 1. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d2/d200ebef2ce9f4eecf0f79f71a5fb5ff.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Обозначая  получаем   Значит, Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521565\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Обо­зна­чая <img src=\"https://ege.sdamgia.ru/formula/svg/54/54259ae32ecb6950d8b6e188717f806f.svg\" class=\"tex\" style=\"vertical-align:-5.2pt\" alt=\"t= ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 0,5 пра­вая круг­лая скоб­ка x,\"> по­лу­ча­ем</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/c9/c9ab89811844d4e93d9b14bf32a7bf5b.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: 3t, зна­ме­на­тель: 2 минус t конец дроби боль­ше или равно 2t плюс 1, \"> <img src=\"https://ege.sdamgia.ru/formula/svg/f3/f396642a9981d7cd85d23465d8d0fda5.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: 2t в квад­ра­те минус 2, зна­ме­на­тель: t минус 2 конец дроби мень­ше или равно 0, \"> <img src=\"https://ege.sdamgia.ru/formula/svg/c8/c8b01aa427a0b7df053bfd48620ad0b4.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"t при­над­ле­жит левая круг­лая скоб­ка минус бес­ко­неч­ность ; минус 1 пра­вая квад­рат­ная скоб­ка \\cup левая квад­рат­ная скоб­ка 1;2 пра­вая круг­лая скоб­ка .\"> Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/74/7405f34bd78fedb82aa536241718d448.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"x при­над­ле­жит левая круг­лая скоб­ка дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби ; дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби пра­вая квад­рат­ная скоб­ка \\cup левая квад­рат­ная скоб­ка 2; бес­ко­неч­ность пра­вая круг­лая скоб­ка .\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/f8/f8515a330f5c572947c653fb7206c88b.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая круг­лая скоб­ка дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби ; дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби пра­вая квад­рат­ная скоб­ка \\cup левая квад­рат­ная скоб­ка 2; бес­ко­неч­ность пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/54/54259ae32ecb6950d8b6e188717f806f.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c9ab89811844d4e93d9b14bf32a7bf5b.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f396642a9981d7cd85d23465d8d0fda5.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c8b01aa427a0b7df053bfd48620ad0b4.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/7405f34bd78fedb82aa536241718d448.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f8515a330f5c572947c653fb7206c88b.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

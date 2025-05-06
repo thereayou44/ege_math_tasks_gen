@@ -1,0 +1,27 @@
+{
+    "id": "27309",
+    "topic": "12",
+    "condition": {
+        "text": "В треугольнике ABC высота CH равна 20. Найдите",
+        "images": [
+            "https://mathb-ege.sdamgia.ru/get_file?id=164167",
+            "https://ege.sdamgia.ru/formula/svg/da/daef0ec1b3ef36ebb9bb8750e93a4499.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/01f4793c2ed47090b60a31cbc95e9f89.svg"
+        ]
+    },
+    "answer": "0,6",
+    "analogs": [
+        "27309",
+        "4563",
+        "4565",
+        "4567",
+        "...",
+        "4563",
+        "4565",
+        "4567",
+        "4569",
+        "4571",
+        "4573"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=27309"
+}

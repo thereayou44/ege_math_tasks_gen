@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521503,
+    "condition": {
+        "text": "Мебельная фабрика производит книжные шкафы и серванты. На изготовление одного книжного шкафа расходуется 4/3 м2 древесно‐стружечной плиты, 4/3 м2 сосновой доски и 2/3 человеко‐часа рабочего времени. На изготовление одного серванта расходуется 2 м2 древесно‐стружечной плиты, 1,5 м2 сосновой доски и 2 человеко‐часа рабочего времени. Прибыль от реализации одного книжного шкафа составляет 500 руб., а серванта  — 1200 руб. В течение одного месяца в распоряжении фабрики имеются: 180 м2 древесно‐стружечной плиты, 165 м2 сосновых досок и 160 человеко‐часов рабочего времени. Какова максимально ожидаемая месячная прибыль?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629731\" class=\"pbody\"><p class=\"left_margin\">Ме­бель­ная фаб­ри­ка про­из­во­дит книж­ные шкафы и сер­ван­ты. На из­го­тов­ле­ние од­но­го книж­но­го шкафа рас­хо­ду­ет­ся 4/3 м<sup>2</sup> дре­вес­но‐стру­жеч­ной плиты, 4/3 м<sup>2</sup> сос­но­вой доски и 2/3 че­ло­ве­ко‐часа ра­бо­че­го вре­ме­ни. На из­го­тов­ле­ние од­но­го сер­ван­та рас­хо­ду­ет­ся 2 м<sup>2</sup> дре­вес­но‐стру­жеч­ной плиты, 1,5 м<sup></sup>2 сос­но­вой доски и 2 че­ло­ве­ко‐часа ра­бо­че­го вре­ме­ни. При­быль от ре­а­ли­за­ции од­но­го книж­но­го шкафа со­став­ля­ет 500 руб., а сер­ван­та  — 1200 руб. В те­че­ние од­но­го ме­ся­ца в рас­по­ря­же­нии фаб­ри­ки име­ют­ся: 180 м<sup>2</sup> дре­вес­но‐стру­жеч­ной плиты, 165 м<sup>2</sup> сос­но­вых досок и 160 че­ло­ве­ко‐часов ра­бо­че­го вре­ме­ни. Ка­ко­ва мак­си­маль­но ожи­да­е­мая ме­сяч­ная при­быль?</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Обозначим число выпущенных шкафов за x, а сервантов за  По условию имеем то есть   то есть   то есть В таком случае общая стоимость мебели  причем это значение возможно при  (тогда первое и третье неравенства обращаюся в равенства, а второе выполняется). Ответ: 99 000.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521503\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Обо­зна­чим число вы­пу­щен­ных шка­фов за <i>x</i>, а сер­ван­тов за <img src=\"https://ege.sdamgia.ru/formula/svg/11/11fc3d25620edbaebea78565eaee7e97.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y.\"> По усло­вию имеем</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/de/de58a8f77562f58fee71303c4a7b2a9d.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 4, зна­ме­на­тель: 3 конец дроби x плюс 2y мень­ше или равно 180,\"> то есть <img src=\"https://ege.sdamgia.ru/formula/svg/b1/b1e3f45cbc7b4e306b4db6af2e92e472.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2x плюс 3y мень­ше или равно 270\"></p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/67/67359a4218e6f4000012e27d7e6de2de.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 4, зна­ме­на­тель: 3 конец дроби x плюс дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби y мень­ше или равно 165,\"> то есть <img src=\"https://ege.sdamgia.ru/formula/svg/6a/6a95a8d0c69030500acde4df67c99895.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"8x плюс 9y мень­ше или равно 990\"></p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/d5/d55e13496e43f0ff3a3fb42db41f1378.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби x плюс 2y мень­ше или равно 160,\"> то есть <img src=\"https://ege.sdamgia.ru/formula/svg/f0/f0b96911930e1b7cf191665f7e195094.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x плюс 3y мень­ше или равно 240\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">В таком слу­чае общая сто­и­мость ме­бе­ли <span data-width=\"640\" data-formulahash=\"fcfa2ee59f85348e0f0209fe2c722c92\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/fc/fcfa2ee59f85348e0f0209fe2c722c92.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"500x плюс 1200y=100 левая круг­лая скоб­ка 2x плюс 3y пра­вая круг­лая скоб­ка плюс 300 левая круг­лая скоб­ка x плюс 3y пра­вая круг­лая скоб­ка мень­ше или равно 100 умно­жить на 270 плюс 300 умно­жить на 240=99000,\"></span> при­чем это зна­че­ние воз­мож­но при <img src=\"https://ege.sdamgia.ru/formula/svg/6f/6f2589e3fbb5732ecbff56ced38591af.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x=30, y=70\"> (тогда пер­вое и тре­тье не­ра­вен­ства об­ра­ща­ю­ся в ра­вен­ства, а вто­рое вы­пол­ня­ет­ся).</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 99 000.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/11/11fc3d25620edbaebea78565eaee7e97.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/de58a8f77562f58fee71303c4a7b2a9d.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b1e3f45cbc7b4e306b4db6af2e92e472.svg",
+            "https://ege.sdamgia.ru/formula/svg/67/67359a4218e6f4000012e27d7e6de2de.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a95a8d0c69030500acde4df67c99895.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d55e13496e43f0ff3a3fb42db41f1378.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f0b96911930e1b7cf191665f7e195094.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fcfa2ee59f85348e0f0209fe2c722c92.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6f2589e3fbb5732ecbff56ced38591af.svg"
+        ]
+    },
+    "answer": "99 000.",
+    "topic_id": null,
+    "analog_ids": []
+}

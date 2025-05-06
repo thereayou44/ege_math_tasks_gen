@@ -1,0 +1,31 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27740,
+    "condition": {
+        "text": "Найдите скалярное произведение векторов  и ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918176\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=143485\" style=\"float:right;margin:10px;max-width:100%\">Най­ди­те ска­ляр­ное про­из­ве­де­ние век­то­ров <img src=\"https://ege.sdamgia.ru/formula/svg/24/2443510e25925dc900c862964b3b7e39.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overrightarrowa\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/23/23e6a333868e447f8e40904b85ad2d9c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overrightarrowb.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/24/2443510e25925dc900c862964b3b7e39.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/23e6a333868e447f8e40904b85ad2d9c.svg",
+            "/get_file?id=143485"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Координаты вектора равны разности координат конца вектора и его начала. Поэтому вектор  имеет координаты  вектор  имеет координаты  Скалярное произведение векторов равно: Ответ: 40.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27740\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Ко­ор­ди­на­ты век­то­ра равны раз­но­сти ко­ор­ди­нат конца век­то­ра и его на­ча­ла. По­это­му век­тор <img src=\"https://ege.sdamgia.ru/formula/svg/e7/e71e9033038a9139280e3b90f671cd00.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overrightarrowa~\"> имеет ко­ор­ди­на­ты <img src=\"https://ege.sdamgia.ru/formula/svg/ef/eff94f4e09037e39c4272d341a22db1e.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 2;6 пра­вая круг­лая скоб­ка ,\"> век­тор <img src=\"https://ege.sdamgia.ru/formula/svg/1c/1c0880b7bd3fe5d834c9f7d18b8d89e9.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overrightarrowb~\"> имеет ко­ор­ди­на­ты <img src=\"https://ege.sdamgia.ru/formula/svg/4b/4b07e238c6e8f14f681cc937efaf2352.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 8;4 пра­вая круг­лая скоб­ка .\"> Ска­ляр­ное про­из­ве­де­ние век­то­ров равно:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/70/7008ce0abad5e280af0236a065011e77.svg\" class=\"tex\" style=\"vertical-align:-2.9pt\" alt=\" \\overrightarrowa \\overrightarrowb =x_a умно­жить на x_b плюс y_a умно­жить на y_b=2 умно­жить на 8 плюс 6 умно­жить на 4=40.\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 40.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e7/e71e9033038a9139280e3b90f671cd00.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/eff94f4e09037e39c4272d341a22db1e.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1c0880b7bd3fe5d834c9f7d18b8d89e9.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4b07e238c6e8f14f681cc937efaf2352.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/7008ce0abad5e280af0236a065011e77.svg"
+        ]
+    },
+    "answer": "40",
+    "topic_id": 2,
+    "analog_ids": [
+        27740,
+        654474
+    ]
+}

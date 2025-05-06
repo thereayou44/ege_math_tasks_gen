@@ -1,0 +1,31 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 505705,
+    "condition": {
+        "text": "В бесконечной возрастающей последовательности натуральных чисел каждое делится хотя бы на одно из чисел 1005 и 1006 , но ни одно не делится на 97. Кроме того, каждые два соседних числа отличаются не более, чем на k. При каком наименьшем k такое возможно?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body645525\" class=\"pbody\"><p class=\"left_margin\">В бес­ко­неч­ной воз­рас­та­ю­щей по­сле­до­ва­тель­но­сти на­ту­раль­ных чисел каж­дое де­лит­ся хотя бы на одно из чисел 1005 и 1006 , но ни одно не де­лит­ся на 97. Кроме того, каж­дые два со­сед­них числа от­ли­ча­ют­ся не более, чем на <i>k</i>. При каком наи­мень­шем <i>k</i> такое воз­мож­но?</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Обозначим нашу последовательность (an). Ясно, что  при некотором натуральном   Тогда найдется такое n, что  но  (при этом  из условия). Но наибольшими числами, меньшими D и делящимися на 1005 и 1006, являются числа   и   соответственно; поэтому Аналогично,  отсюда  Значит, и При  подходит, например, последовательность всех чисел, кратных 1005, но не кратных 97 (заметим, что 1005 не кратно 97). Ответ: 2010.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol505705\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Обо­зна­чим нашу по­сле­до­ва­тель­ность (<i>a<sub>n</sub></i>). Ясно, что <img src=\"https://ege.sdamgia.ru/formula/svg/a4/a40ea27989356aa07d5ad226ba7aff0b.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"a_1 мень­ше 1005 умно­жить на 1006 умно­жить на 91 умно­жить на N=D\"> при не­ко­то­ром на­ту­раль­ном  <img src=\"https://ege.sdamgia.ru/formula/svg/2c/2c45f80c650c95d1b2dc2b9115fe543b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"N.\"> Тогда най­дет­ся такое <i>n</i>, что <img src=\"https://ege.sdamgia.ru/formula/svg/5f/5f017af226d0dae8f638f33768c00a97.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a_n мень­ше или равно D,\"> но <img src=\"https://ege.sdamgia.ru/formula/svg/a8/a86799074a01813eb5ac1ad8469d352a.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\"a_n плюс 1 боль­ше D\"> (при этом <img src=\"https://ege.sdamgia.ru/formula/svg/a4/a4f1359dcdff7d0ab10755942834c096.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a_n не равно D\"> из усло­вия). Но наи­боль­ши­ми чис­ла­ми, мень­ши­ми <i>D</i> и де­ля­щи­ми­ся на 1005 и 1006, яв­ля­ют­ся числа <img src=\"https://ege.sdamgia.ru/formula/svg/d6/d68b3d43cb559cdc2cda118593c17a2b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"D минус 1005\">  и  <img src=\"https://ege.sdamgia.ru/formula/svg/ba/bab2cebb030f2f519934ac1190e5f45e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"D минус 1006,\"> со­от­вет­ствен­но; по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/f6/f60e92d7442fa20210ce48aef7f97a42.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"a_n мень­ше или равно D минус 1005.\"></p><p class=\"left_margin\">Ана­ло­гич­но, <img src=\"https://ege.sdamgia.ru/formula/svg/3f/3f9bece5304c9a9c5eeb671ea46ff6e8.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\"a_n плюс 1 боль­ше или равно D плюс 1005;\"> от­сю­да <img src=\"https://ege.sdamgia.ru/formula/svg/83/83de03aa9ca9f9c0acaf01b2b6df8d07.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"a_n плюс 1 минус a_n\\geqslant левая круг­лая скоб­ка D плюс 1005 пра­вая круг­лая скоб­ка минус левая круг­лая скоб­ка D минус 1005 пра­вая круг­лая скоб­ка =2010.\"> Зна­чит, и <img src=\"https://ege.sdamgia.ru/formula/svg/c1/c1260a922264896b029ed54ae686be8f.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"k боль­ше или равно 2010.\"></p><p class=\"left_margin\">При <img src=\"https://ege.sdamgia.ru/formula/svg/aa/aa6682494d83c56a4c7be31c66154dcd.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"k =2010\"> под­хо­дит, на­при­мер, по­сле­до­ва­тель­ность всех чисел, крат­ных 1005, но не крат­ных 97 (за­ме­тим, что 1005 не крат­но 97).</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 2010.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a4/a40ea27989356aa07d5ad226ba7aff0b.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2c45f80c650c95d1b2dc2b9115fe543b.svg",
+            "https://ege.sdamgia.ru/formula/svg/5f/5f017af226d0dae8f638f33768c00a97.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a86799074a01813eb5ac1ad8469d352a.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a4f1359dcdff7d0ab10755942834c096.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d68b3d43cb559cdc2cda118593c17a2b.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/bab2cebb030f2f519934ac1190e5f45e.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f60e92d7442fa20210ce48aef7f97a42.svg",
+            "https://ege.sdamgia.ru/formula/svg/3f/3f9bece5304c9a9c5eeb671ea46ff6e8.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83de03aa9ca9f9c0acaf01b2b6df8d07.svg",
+            "https://ege.sdamgia.ru/formula/svg/c1/c1260a922264896b029ed54ae686be8f.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa6682494d83c56a4c7be31c66154dcd.svg"
+        ]
+    },
+    "answer": "2010.",
+    "topic_id": null,
+    "analog_ids": []
+}

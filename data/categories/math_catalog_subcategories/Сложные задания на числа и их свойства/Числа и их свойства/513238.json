@@ -1,0 +1,21 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 513238,
+    "condition": {
+        "text": "Из целых чисел от 1 до 100 удалили k чисел. Обязательно ли среди оставшихся чисел можно выбрать k различных чисел с суммой 100, еслиа)  k  =  9;б)  k  =  8?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body637482\" class=\"pbody\"><p class=\"left_margin\">Из целых чисел от 1 до 100 уда­ли­ли <i>k</i> чисел. Обя­за­тель­но ли среди остав­ших­ся чисел можно вы­брать <i>k</i> раз­лич­ных чисел с сум­мой 100, если</p><p class=\"left_margin\">а)  <i>k</i>  =  9;</p><p class=\"left_margin\">б)  <i>k</i>  =  8?</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Если удалить числа от 1 до 9, то сумма девяти даже самых маленьких из оставшихся будет Поэтому набрать сумму 100 будет нельзя.б)  Рассмотрим пары чисел  Если удалить 8 чисел, то минимум 4 пары останутся целыми. В каждой из них сумма 25 и общая сумма 100. Ответ а) нет, б) да.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol513238\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Если уда­лить числа от 1 до 9, то сумма де­вя­ти даже самых ма­лень­ких из остав­ших­ся будет</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/8b/8b60a1cadf7545d71a400693ef7db7d9.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"10 плюс 11 плюс \\ldots плюс 18=140 боль­ше 100.\"> </p><p class=\"left_margin\"></p></center><p class=\"left_margin\">По­это­му на­брать сумму 100 будет нель­зя.</p><p class=\"left_margin\">б)  Рас­смот­рим пары чисел <img src=\"https://ege.sdamgia.ru/formula/svg/b3/b300ce77f1bb217f5751b1b63bf42569.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1 минус 24,2 минус 23,3 минус 22,\\ldots,12 минус 13.\"> Если уда­лить 8 чисел, то ми­ни­мум 4 пары оста­нут­ся це­лы­ми. В каж­дой из них сумма 25 и общая сумма 100.</p><p>&nbsp;</p><p class=\"left_margin\">Ответ а) нет, б) да.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/8b/8b60a1cadf7545d71a400693ef7db7d9.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b300ce77f1bb217f5751b1b63bf42569.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

@@ -1,0 +1,33 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 621858,
+    "condition": {
+        "text": "Найдите все значения параметра  a, при каждом из которых система уравненийимеет ровно два решения.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body463838\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния па­ра­мет­ра  <i>a</i>, при каж­дом из ко­то­рых си­сте­ма урав­не­ний</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/71/715d27d33c7ade7040d19a86712984eb.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний 3|x минус 2| плюс |y| минус 3=0,ax минус y плюс 2a плюс 2=0 конец си­сте­мы . \"></p><p class=\"left_margin\"></p></center><p>имеет ровно два ре­ше­ния.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/71/715d27d33c7ade7040d19a86712984eb.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Решим задачу графо-аналитическим методом. В системе координат xOy графиком первого уравнения системы являются отрезки, являющиеся сторонами ромба с вершинами в точках    и  Графиком второго уравнения системы является пучок прямых проходящих через точку  Тогда при  система не имеет решений, при  система имеет одно решение, при  система имеет два решения,  система имеет одно решение, при  система  не имеет решений. Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol621858\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=104732\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">Решим за­да­чу графо-ана­ли­ти­че­ским ме­то­дом. В си­сте­ме ко­ор­ди­нат <i>xOy</i> гра­фи­ком пер­во­го урав­не­ния си­сте­мы яв­ля­ют­ся от­рез­ки, яв­ля­ю­щи­е­ся сто­ро­на­ми ромба с вер­ши­на­ми в точ­ках <img src=\"https://ege.sdamgia.ru/formula/svg/bc/bc4f01903e5298dc1f8e339c5c195cad.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 1; 0 пра­вая круг­лая скоб­ка ,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/7e/7ecce03b33239029cd7d99e34cb19450.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 3; 0 пра­вая круг­лая скоб­ка ,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/74/74694ea30ec88874f7abfe620c466415.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 2; 3 пра­вая круг­лая скоб­ка \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/4f/4fa15434dd11ff182b3bbfd613a95763.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 2; минус 3 пра­вая круг­лая скоб­ка .\"> Гра­фи­ком вто­ро­го урав­не­ния си­сте­мы яв­ля­ет­ся пучок пря­мых про­хо­дя­щих через точку <img src=\"https://ege.sdamgia.ru/formula/svg/13/13caebe9c05f653c6e511812313045b7.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка минус 2; 2 пра­вая круг­лая скоб­ка .\"> </p><p class=\"left_margin\">Тогда при <img src=\"https://ege.sdamgia.ru/formula/svg/dc/dc78080deb9f40447194cb233b05b5d1.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"a мень­ше минус дробь: чис­ли­тель: 5, зна­ме­на­тель: 4 конец дроби \"> си­сте­ма не имеет ре­ше­ний, при <img src=\"https://ege.sdamgia.ru/formula/svg/90/90bcaad8784a74cac4333c2de3c10a31.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"a= минус дробь: чис­ли­тель: 5, зна­ме­на­тель: 4 конец дроби \"> си­сте­ма имеет одно ре­ше­ние, при <img src=\"https://ege.sdamgia.ru/formula/svg/13/13a3e01be3d7c1af74b091a062baaaa0.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" минус дробь: чис­ли­тель: 5, зна­ме­на­тель: 4 конец дроби мень­ше a мень­ше дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби \"> си­сте­ма имеет два ре­ше­ния, <img src=\"https://ege.sdamgia.ru/formula/svg/e3/e331b517147ee6d7332e68ea49c02983.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"a= дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби \"> си­сте­ма имеет одно ре­ше­ние, при <img src=\"https://ege.sdamgia.ru/formula/svg/24/245e94bd4e4da863db23faa56bd352a6.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"a боль­ше дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби \"> си­сте­ма  не имеет ре­ше­ний.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/fb/fb406c9974d0cd6705d72dba7f888baf.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая круг­лая скоб­ка минус дробь: чис­ли­тель: 5, зна­ме­на­тель: 4 конец дроби ; дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/bc/bc4f01903e5298dc1f8e339c5c195cad.svg",
+            "https://ege.sdamgia.ru/formula/svg/7e/7ecce03b33239029cd7d99e34cb19450.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/74694ea30ec88874f7abfe620c466415.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4fa15434dd11ff182b3bbfd613a95763.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/13caebe9c05f653c6e511812313045b7.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dc78080deb9f40447194cb233b05b5d1.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/90bcaad8784a74cac4333c2de3c10a31.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/13a3e01be3d7c1af74b091a062baaaa0.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e331b517147ee6d7332e68ea49c02983.svg",
+            "https://ege.sdamgia.ru/formula/svg/24/245e94bd4e4da863db23faa56bd352a6.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fb406c9974d0cd6705d72dba7f888baf.svg",
+            "/get_file?id=104732"
+        ]
+    },
+    "answer": "",
+    "topic_id": 18,
+    "analog_ids": []
+}

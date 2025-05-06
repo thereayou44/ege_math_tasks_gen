@@ -1,0 +1,50 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27689,
+    "condition": {
+        "text": "Найдите абсциссу точки пересечения прямых, заданных уравнениями 3x + 2y  =  6 и y  =  x.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918229\" class=\"pbody\"><p class=\"left_margin\"><img width=\"160\" style=\"float:right; margin:10px\" src=\"/get_file?id=411\">Най­ди­те абс­цис­су точки пе­ре­се­че­ния пря­мых, за­дан­ных урав­не­ни­я­ми 3<i>x</i> + 2<i>y</i>  =  6 и <i>y</i>  =  <i>x</i>.</p></div>",
+        "image_urls": [
+            "/get_file?id=411"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Решая систему этих двух уравнений, получаем, что y  =  x  =  1,2. Ответ: 1,2.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27689\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Решая си­сте­му этих двух урав­не­ний, по­лу­ча­ем, что <i>y  =  x</i>  =  1,2.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 1,2.</p></div>",
+        "image_urls": []
+    },
+    "answer": "1,2",
+    "topic_id": null,
+    "analog_ids": [
+        27689,
+        59255,
+        59257,
+        59259,
+        59255,
+        59257,
+        59259,
+        59261,
+        59263,
+        59265,
+        59267,
+        59269,
+        59271,
+        59273,
+        59275,
+        59277,
+        59279,
+        59281,
+        59283,
+        59285,
+        59287,
+        59289,
+        59291,
+        59293,
+        59295,
+        59297,
+        59299,
+        59301,
+        59303
+    ]
+}

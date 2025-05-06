@@ -1,0 +1,36 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 484655,
+    "condition": {
+        "text": "Найдите все такие пары натуральных чисел a и b, что если к десятичной записи числа a приписать справа десятичную запись числа b, то получится число, большее произведения чисел a и b на ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body592851\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все такие пары на­ту­раль­ных чисел <i>a</i> и <i>b</i>, что если к де­ся­тич­ной за­пи­си числа <i>a</i> при­пи­сать спра­ва де­ся­тич­ную за­пись числа <i>b</i>, то по­лу­чит­ся число, боль­шее про­из­ве­де­ния чисел <i>a</i> и <i>b</i> на <img src=\"https://ege.sdamgia.ru/formula/svg/3e/3ee68dd8c816db4fe61d42a07ed12794.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"32.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/3e/3ee68dd8c816db4fe61d42a07ed12794.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Имеем:  где   — число цифр в числе  Запишем последнее  равенство следующим образом  очевидно, Если  то Тогда  Получаем равенство Значит  может быть равно только 1 или 2, откуда  Соответственно, Ответ:  23 и 9, 12 и 8.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol484655\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Имеем: <img src=\"https://ege.sdamgia.ru/formula/svg/f3/f3f005a0b0aea2555c0b7ddeb6298f6a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\overlineab=ab плюс 32 рав­но­силь­но a умно­жить на 10 в сте­пе­ни k плюс b=ab плюс 32,\"> где <img src=\"https://ege.sdamgia.ru/formula/svg/62/62d86d56c5e87f8ffcea26cc238da1a6.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"k при­над­ле­жит N \">  — число цифр в числе <img src=\"https://ege.sdamgia.ru/formula/svg/2d/2dd7ce2d41fb3bc94a98a058ea9f3832.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"b.\"> За­пи­шем по­след­нее  ра­вен­ство сле­ду­ю­щим об­ра­зом <img src=\"https://ege.sdamgia.ru/formula/svg/66/6641c7e1b4e65e909682857fafaf59d3.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 10 в сте­пе­ни k минус b пра­вая круг­лая скоб­ка a=32 минус b,\"> оче­вид­но, <img src=\"https://ege.sdamgia.ru/formula/svg/ff/ff3d6015225d5d3d0f669867e4562a85.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"b мень­ше 32.\"></p><p class=\"left_margin\">Если <img src=\"https://ege.sdamgia.ru/formula/svg/de/dee871b34b16f47f534ce692ceba31cb.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"k боль­ше или равно 2,\"> то <img src=\"https://ege.sdamgia.ru/formula/svg/34/34785a633009d201ad9485a6ed548503.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 10 в сте­пе­ни k минус b пра­вая круг­лая скоб­ка a боль­ше 68 боль­ше 32 минус b.\"></p><p class=\"left_margin\">Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/ef/ef9d611c117418160ecb46f94f8b922e.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" k=1.\"> По­лу­ча­ем ра­вен­ство <span data-width=\"640\" data-formulahash=\"c809fd12a093a551ca81443595eed6ac\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/c8/c809fd12a093a551ca81443595eed6ac.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 10 минус b пра­вая круг­лая скоб­ка a=32 минус b рав­но­силь­но левая круг­лая скоб­ка a минус 1 пра­вая круг­лая скоб­ка b=10 левая круг­лая скоб­ка a минус 1 пра­вая круг­лая скоб­ка минус 22 рав­но­силь­но левая круг­лая скоб­ка a минус 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 10 минус b пра­вая круг­лая скоб­ка =22.\"></span></p><p class=\"left_margin\">Зна­чит <img src=\"https://ege.sdamgia.ru/formula/svg/ea/eab4cf91d34e64c937583edcb84402ef.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"10 минус b\"> может быть равно толь­ко 1 или 2, от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/ad/adecd32e82942a2f5e08b4271504410e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"b_1=9,b_2=8,\"> Со­от­вет­ствен­но, <img src=\"https://ege.sdamgia.ru/formula/svg/83/83563e6d7b5a108a8f4d64cb052cf230.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a_1=23,a_2=12.\"></p><p class=\"left_margin\">Ответ:  23 и 9, 12 и 8.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f3/f3f005a0b0aea2555c0b7ddeb6298f6a.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/62d86d56c5e87f8ffcea26cc238da1a6.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2dd7ce2d41fb3bc94a98a058ea9f3832.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/6641c7e1b4e65e909682857fafaf59d3.svg",
+            "https://ege.sdamgia.ru/formula/svg/ff/ff3d6015225d5d3d0f669867e4562a85.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/dee871b34b16f47f534ce692ceba31cb.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/34785a633009d201ad9485a6ed548503.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/ef9d611c117418160ecb46f94f8b922e.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c809fd12a093a551ca81443595eed6ac.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/eab4cf91d34e64c937583edcb84402ef.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/adecd32e82942a2f5e08b4271504410e.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83563e6d7b5a108a8f4d64cb052cf230.svg"
+        ]
+    },
+    "answer": "23 и 9, 12 и 8.",
+    "topic_id": null,
+    "analog_ids": [
+        484655,
+        511318
+    ]
+}

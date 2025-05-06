@@ -1,0 +1,57 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27080,
+    "condition": {
+        "text": "Три ребра прямоугольного параллелепипеда, выходящие из одной вершины, равны 4, 6, 9. Найдите ребро равновеликого ему куба.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919348\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=113352\" style=\"float:right;margin:10px;max-width:100%\">Три ребра пря­мо­уголь­но­го па­рал­ле­ле­пи­пе­да, вы­хо­дя­щие из одной вер­ши­ны, равны 4, 6, 9. Най­ди­те ребро рав­но­ве­ли­ко­го ему куба.</p></div>",
+        "image_urls": [
+            "/get_file?id=113352"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Объем куба V = a3 равен объему параллелепипеда: Значит, для ребра куба имеем:Ответ: 6.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27080\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Объем куба <i>V</i> = <i>a</i><sup>3</sup> равен объ­е­му па­рал­ле­ле­пи­пе­да:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/6b/6bbc4f5f43c0cd6aa8bf5a215dede874.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"V=4 умно­жить на 6 умно­жить на 9=216.\"></p><p class=\"left_margin\"></p></center><p> Зна­чит, для ребра куба имеем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/7e/7efaf3d3273818735949262148c8b0a7.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a= ко­рень 3 сте­пе­ни из: на­ча­ло ар­гу­мен­та: 216 конец ар­гу­мен­та =6.\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 6.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/6b/6bbc4f5f43c0cd6aa8bf5a215dede874.svg",
+            "https://ege.sdamgia.ru/formula/svg/7e/7efaf3d3273818735949262148c8b0a7.svg"
+        ]
+    },
+    "answer": "6",
+    "topic_id": 3,
+    "analog_ids": [
+        27080,
+        73569,
+        73621,
+        73625,
+        73569,
+        73621,
+        73625,
+        73571,
+        73573,
+        73575,
+        73577,
+        73579,
+        73581,
+        73583,
+        73585,
+        73587,
+        73589,
+        73591,
+        73593,
+        73595,
+        73597,
+        73599,
+        73601,
+        73603,
+        73605,
+        73607,
+        73609,
+        73611,
+        73613,
+        73615,
+        73617,
+        73619,
+        73623
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 620969,
+    "condition": {
+        "text": "Дан прямой круговой конус с вершиной M. Осевое сечение конуса  — треугольник с  углом  120°  при  вершине  M.  Образующая  конуса  равна  Через  точку  M проведено сечение конуса, перпендикулярное одной из образующих.а)  Докажите, что получившийся в сечении треугольник  — тупоугольный б)  Найдите расстояние от центра O основания конуса до плоскости сечения.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body464725\" class=\"pbody\"><p class=\"left_margin\">Дан пря­мой кру­го­вой конус с вер­ши­ной <i>M</i>. Осе­вое се­че­ние ко­ну­са  — тре­уголь­ник с  углом  120°  при  вер­ши­не  <i>M</i>.  Об­ра­зу­ю­щая  ко­ну­са  равна <img src=\"https://ege.sdamgia.ru/formula/svg/da/dab1057313b295e7064da64ef9cf2a91.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"6 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та .\"> Через  точку  <i>M</i> про­ве­де­но се­че­ние ко­ну­са, пер­пен­ди­ку­ляр­ное одной из об­ра­зу­ю­щих.</p><p class=\"left_margin\">а)  До­ка­жи­те, что по­лу­чив­ший­ся в се­че­нии тре­уголь­ник  — ту­по­уголь­ный </p><p class=\"left_margin\">б)  Най­ди­те рас­сто­я­ние от цен­тра <i>O</i> ос­но­ва­ния ко­ну­са до плос­ко­сти се­че­ния.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/da/dab1057313b295e7064da64ef9cf2a91.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Пусть сечение MRS перпендикулярно образующей MK, при этом KL  — диаметр. Так как прямая KM перпендикулярна плоскости MRS, следовательно, прямая KM перпендикулярна прямой RS, и, по теореме о трёх перпендикулярах, прямая KL перпендикулярна прямой RS. Назовём N точку их пересечения. Заметим, что угол KMO равен 60°, угол MKO равен 30°, тогда KO  =  9,   ON  =  3,  Таким образом, в равнобедренном треугольнике MRS высота  следовательно, треугольник тупоугольный.б)  Из центра основания O опустим на MN перпендикуляр OH. Заметим, что OH лежит в плоскости KMN. Из п. а следует, что прямая RS перпендикулярна плоскости KMN, следовательно, прямая OH перпендикулярна прямой RS. Таким образом, OH  — искомое расстояние. Имеем:   Ответ: б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol620969\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=142488\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Пусть се­че­ние <i>MRS</i> пер­пен­ди­ку­ляр­но об­ра­зу­ю­щей <i>MK</i>, при этом <i>KL</i>  — диа­метр. Так как пря­мая <i>KM</i> пер­пен­ди­ку­ляр­на плос­ко­сти <i>MRS</i>, сле­до­ва­тель­но, пря­мая <i>KM</i> пер­пен­ди­ку­ляр­на пря­мой <i>RS</i>, и, по тео­ре­ме о трёх пер­пен­ди­ку­ля­рах, пря­мая <i>KL</i> пер­пен­ди­ку­ляр­на пря­мой <i>RS</i>. Назовём <i>N</i> точку их пе­ре­се­че­ния. За­ме­тим, что угол <i>KMO</i> равен 60°, угол <i>MKO</i> равен 30°, тогда <i>KO</i>  =  9, <img src=\"https://ege.sdamgia.ru/formula/svg/35/35926a7a5bde9273655d44311da80af1.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"MO=3 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та ,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/ea/eac4e282e0fa0ecd5694f39fd36bbf4b.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"KN= дробь: чис­ли­тель: KM, зна­ме­на­тель: ко­си­нус 30 гра­ду­сов конец дроби =12, \"><img src=\"https://ege.sdamgia.ru/formula/svg/47/47fd851e287e541955b8254aa51e764f.svg\" class=\"tex\" style=\"vertical-align:-3.3pt\" alt=\"MN=KM тан­генс 30 гра­ду­сов =6,\"> <i>ON</i>  =  3, <img src=\"https://ege.sdamgia.ru/formula/svg/59/59108f5e20c343ff62fecc47fce38db8.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"RN= ко­рень из: на­ча­ло ар­гу­мен­та: OR в квад­ра­те минус ON в квад­ра­те конец ар­гу­мен­та =6 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та .\"> Таким об­ра­зом, в рав­но­бед­рен­ном тре­уголь­ни­ке <i>MRS</i> вы­со­та <img src=\"https://ege.sdamgia.ru/formula/svg/dc/dc9d5e6715d560ee0b0b21b555cb1b16.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"MN мень­ше RN= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби RS, \"> сле­до­ва­тель­но, тре­уголь­ник ту­по­уголь­ный.</p><p class=\"left_margin\">б)  Из цен­тра ос­но­ва­ния <i>O</i> опу­стим на <i>MN</i> пер­пен­ди­ку­ляр <i>OH</i>. За­ме­тим, что <i>OH</i> лежит в плос­ко­сти <i>KMN</i>. Из п. <i>а</i> сле­ду­ет, что пря­мая <i>RS</i> пер­пен­ди­ку­ляр­на плос­ко­сти <i>KMN</i>, сле­до­ва­тель­но, пря­мая <i>OH</i> пер­пен­ди­ку­ляр­на пря­мой <i>RS</i>. Таким об­ра­зом, <i>OH</i>  — ис­ко­мое рас­сто­я­ние. Имеем: <img src=\"https://ege.sdamgia.ru/formula/svg/74/74a9438cba286ecc1791e07e9c581f2c.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle OMH=\\angle KMN минус \\angle KMO=30 гра­ду­сов,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/c9/c9bc2e5edf1a22724000449233876c2e.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"OH= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби MO= дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) <img src=\"https://ege.sdamgia.ru/formula/svg/c8/c81d88803ee6f9e0e9a7855ab6c74915.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/35/35926a7a5bde9273655d44311da80af1.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/eac4e282e0fa0ecd5694f39fd36bbf4b.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/47fd851e287e541955b8254aa51e764f.svg",
+            "https://ege.sdamgia.ru/formula/svg/59/59108f5e20c343ff62fecc47fce38db8.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dc9d5e6715d560ee0b0b21b555cb1b16.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/74a9438cba286ecc1791e07e9c581f2c.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c9bc2e5edf1a22724000449233876c2e.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c81d88803ee6f9e0e9a7855ab6c74915.svg",
+            "/get_file?id=142488"
+        ]
+    },
+    "answer": "б)",
+    "topic_id": 14,
+    "analog_ids": [
+        514045
+    ]
+}

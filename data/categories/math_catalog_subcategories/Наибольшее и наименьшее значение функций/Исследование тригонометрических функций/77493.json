@@ -1,0 +1,56 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 77493,
+    "condition": {
+        "text": "Найдите точку минимума функции  принадлежащую промежутку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body999497\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те точку ми­ни­му­ма функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/b2/b2129917aee5597114d59e0f170c0172.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y= левая круг­лая скоб­ка 0,5 минус x пра­вая круг­лая скоб­ка ко­си­нус x плюс синус x,\"> при­над­ле­жа­щую про­ме­жут­ку <img src=\"https://ege.sdamgia.ru/formula/svg/94/94d4391a16620cb9469135fee38293db.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" левая круг­лая скоб­ка 0; дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби пра­вая круг­лая скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b2/b2129917aee5597114d59e0f170c0172.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/94d4391a16620cb9469135fee38293db.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Найдем производную заданной функции:   Найдем нули производной на заданном промежутке:   Определим знаки производной функции и изобразим на рисунке поведение функции: Искомая точка минимума  Ответ: 0,5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol77493\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Най­дем про­из­вод­ную за­дан­ной функ­ции: </p><p>&nbsp;</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/46/46c421072977cc5783bf90d0dec0fa6c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y'= минус ко­си­нус x минус левая круг­лая скоб­ка 0,5 минус x пра­вая круг­лая скоб­ка синус x плюс ко­си­нус x= левая круг­лая скоб­ка x минус 0,5 пра­вая круг­лая скоб­ка синус x.\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p class=\"left_margin\">Най­дем нули про­из­вод­ной на за­дан­ном про­ме­жут­ке:</p><p> </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/93/93a582fb6eb2f191e3448e00bc101576.svg\" class=\"tex\" style=\"vertical-align:-30.0pt\" alt=\" си­сте­ма вы­ра­же­ний  новая стро­ка левая круг­лая скоб­ка x минус 0,5 пра­вая круг­лая скоб­ка синус x=0,  новая стро­ка 0 мень­ше x мень­ше дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби  конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний  новая стро­ка со­во­куп­ность вы­ра­же­ний x= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби ,  новая стро­ка x= Пи k,k при­над­ле­жит Z , конец си­сте­мы .  новая стро­ка 0 мень­ше x мень­ше дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби  конец со­во­куп­но­сти . рав­но­силь­но x= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби . \"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p class=\"left_margin\">Опре­де­лим знаки про­из­вод­ной функ­ции и изоб­ра­зим на ри­сун­ке по­ве­де­ние функ­ции: </p><p><img src=\"/get_file?id=141271\" style=\"margin:10px auto;display:block;max-width:100%\"></p><p class=\"left_margin\">Ис­ко­мая точка ми­ни­му­ма <img src=\"https://ege.sdamgia.ru/formula/svg/f8/f8adf7df711499e951d067695c59ec0c.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 0,5.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/46/46c421072977cc5783bf90d0dec0fa6c.svg",
+            "https://ege.sdamgia.ru/formula/svg/93/93a582fb6eb2f191e3448e00bc101576.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f8adf7df711499e951d067695c59ec0c.svg",
+            "/get_file?id=141271"
+        ]
+    },
+    "answer": "0,5",
+    "topic_id": 12,
+    "analog_ids": [
+        77493,
+        132163,
+        132167,
+        514185,
+        132163,
+        132167,
+        514185,
+        525376,
+        132123,
+        132125,
+        132127,
+        132129,
+        132131,
+        132133,
+        132135,
+        132137,
+        132139,
+        132141,
+        132143,
+        132145,
+        132147,
+        132149,
+        132151,
+        132153,
+        132155,
+        132157,
+        132159,
+        132161,
+        132165
+    ]
+}

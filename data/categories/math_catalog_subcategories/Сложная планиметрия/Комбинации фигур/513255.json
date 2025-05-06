@@ -1,0 +1,31 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 513255,
+    "condition": {
+        "text": "В параллелограмм вписана окружность.а)  Докажите, что этот параллелограмм  — ромб.б)  Окружность, касающаяся стороны ромба, делит её на отрезки, равные 5 и 3. Найдите площадь четырёхугольника с вершинами в точках касания окружности со сторонами ромба.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body637467\" class=\"pbody\"><p class=\"left_margin\">В па­рал­ле­ло­грамм впи­са­на окруж­ность.</p><p class=\"left_margin\">а)  До­ка­жи­те, что этот па­рал­ле­ло­грамм  — ромб.</p><p class=\"left_margin\">б)  Окруж­ность, ка­са­ю­ща­я­ся сто­ро­ны ромба, делит её на от­рез­ки, рав­ные 5 и 3. Най­ди­те пло­щадь четырёхуголь­ни­ка с вер­ши­на­ми в точ­ках ка­са­ния окруж­но­сти со сто­ро­на­ми ромба.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Пусть это параллелограмм ABCD, а точки касания со сторонами AB, BC, CD, DA обозначены за E, F, G, H соответственно.а)  Из описанности ABCD следует, что AB + CD  =  AD + BC, то есть 2AB  =  2AD, значит, все стороны параллелограмма равны и это ромб.б)  Будем считать, что AE  =  3, EB  =  5. Центром окружности будет точка пересечения диагоналей ромба O, а радиус этой окружности  — высота прямоугольного треугольника  Тогда по теореме Пифагора находим  Значит, Поскольку точки E и F делят стороны AB и BC в одинаковом отношении 3 : 5, треугольники BEF и BAC подобны с коэффициентом  и  Рассматривая аналогично остальные стороны EFGH, получаем, что это параллелограмм и даже прямоугольник (так как ). Значит, его площадь равна: Ответ:",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol513255\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=30377\" style=\"float:right;margin:10px\"></p><p class=\"left_margin\">Пусть это па­рал­ле­ло­грамм <i>ABCD</i>, а точки ка­са­ния со сто­ро­на­ми <i>AB, BC, CD, DA</i> обо­зна­че­ны за <i>E, F, G, H</i> со­от­вет­ствен­но.</p><p class=\"left_margin\">а)  Из опи­сан­но­сти <i>ABCD</i> сле­ду­ет, что <i>AB + CD  =  AD + BC</i>, то есть <i>2AB  =  2AD</i>, зна­чит, все сто­ро­ны па­рал­ле­ло­грам­ма равны и это ромб.</p><p class=\"left_margin\">б)  Будем счи­тать, что <i>AE  =  </i>3, <i>EB  =  </i>5. Цен­тром окруж­но­сти будет точка пе­ре­се­че­ния диа­го­на­лей ромба <i>O</i>, а ра­ди­ус этой окруж­но­сти  — вы­со­та пря­мо­уголь­но­го тре­уголь­ни­ка <img src=\"https://ege.sdamgia.ru/formula/svg/a9/a9eae54bd1163a581830cbbbb7a01e3c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AOB минус OE= ко­рень из: на­ча­ло ар­гу­мен­та: 5 умно­жить на 3 конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 15 конец ар­гу­мен­та .\"> Тогда по тео­ре­ме Пи­фа­го­ра на­хо­дим <img src=\"https://ege.sdamgia.ru/formula/svg/92/92def5c58af60df515c372a7352b8fd1.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"BO= ко­рень из: на­ча­ло ар­гу­мен­та: 15 плюс 25 конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 40 конец ар­гу­мен­та ,AO= ко­рень из: на­ча­ло ар­гу­мен­та: 24 конец ар­гу­мен­та .\"> Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/8c/8ce0ae9842bb2997084a1f30f9d2a9bb.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AC=2 ко­рень из: на­ча­ло ар­гу­мен­та: 24 конец ар­гу­мен­та ,BD=2 ко­рень из: на­ча­ло ар­гу­мен­та: 40 конец ар­гу­мен­та .\"></p><p class=\"left_margin\">По­сколь­ку точки <i>E</i> и <i>F</i> делят сто­ро­ны <i>AB</i> и <i>BC</i> в оди­на­ко­вом от­но­ше­нии 3 : 5, тре­уголь­ни­ки <i>BEF</i> и <i>BAC</i> по­доб­ны с ко­эф­фи­ци­ен­том <img src=\"https://ege.sdamgia.ru/formula/svg/a9/a9cc82d663554f18ebbfc896d113e759.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"k= дробь: чис­ли­тель: 5, зна­ме­на­тель: 8 конец дроби ,\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/6b/6b68a4fddde63e939fa02dc2d499f6ea.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"EF\\parallel AC.\"> Рас­смат­ри­вая ана­ло­гич­но осталь­ные сто­ро­ны <i>EFGH</i>, по­лу­ча­ем, что это па­рал­ле­ло­грамм и даже пря­мо­уголь­ник (так как <img src=\"https://ege.sdamgia.ru/formula/svg/d9/d96b83f5d37b9de249f20a403fbcebe5.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AC\\perp BD\">). Зна­чит, его пло­щадь равна:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/6a/6ae6273be29a2493a4127d8aa691cbf8.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"EF умно­жить на EG= дробь: чис­ли­тель: 5, зна­ме­на­тель: 8 конец дроби AC умно­жить на дробь: чис­ли­тель: 3, зна­ме­на­тель: 8 конец дроби BD= дробь: чис­ли­тель: 15, зна­ме­на­тель: 64 конец дроби умно­жить на 2 ко­рень из 2 4 умно­жить на 2 ко­рень из: на­ча­ло ар­гу­мен­та: 40 конец ар­гу­мен­та = дробь: чис­ли­тель: 15 ко­рень из: на­ча­ло ар­гу­мен­та: 15 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби . \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span><img src=\"https://ege.sdamgia.ru/formula/svg/21/219e71b3a3315dc442272b750923cc1b.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 15 ко­рень из: на­ча­ло ар­гу­мен­та: 15 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a9/a9eae54bd1163a581830cbbbb7a01e3c.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/92def5c58af60df515c372a7352b8fd1.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8ce0ae9842bb2997084a1f30f9d2a9bb.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a9cc82d663554f18ebbfc896d113e759.svg",
+            "https://ege.sdamgia.ru/formula/svg/6b/6b68a4fddde63e939fa02dc2d499f6ea.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d96b83f5d37b9de249f20a403fbcebe5.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6ae6273be29a2493a4127d8aa691cbf8.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/219e71b3a3315dc442272b750923cc1b.svg",
+            "/get_file?id=30377"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": [
+        513255,
+        514720
+    ]
+}

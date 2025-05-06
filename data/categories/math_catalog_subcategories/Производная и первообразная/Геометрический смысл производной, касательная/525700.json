@@ -1,0 +1,33 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 525700,
+    "condition": {
+        "text": " На рисунке изображены график функции  и касательная к этому графику, проведённая в  точке  Найдите значение производной функции  в точке x0.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body420728\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=110052\" style=\"float:right;margin:10px;max-width:100%\"> На ри­сун­ке изоб­ра­же­ны гра­фик функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/7c/7c1c9491ba7c6e8d6d2cfa82e39b22ca.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y=f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка \"> и ка­са­тель­ная к этому гра­фи­ку, про­ведённая в  точке <img src=\"https://ege.sdamgia.ru/formula/svg/5d/5da6a072238deaa8570876fc4ff8acb2.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"x_0= минус 3.\"> Най­ди­те зна­че­ние про­из­вод­ной функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/d8/d8ff1ef587fe4e4f2e3c2c3c4ddf0d2c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"g левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =x в кубе плюс f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка \"> в точке <i>x</i><sub>0</sub>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/7c/7c1c9491ba7c6e8d6d2cfa82e39b22ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5da6a072238deaa8570876fc4ff8acb2.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d8ff1ef587fe4e4f2e3c2c3c4ddf0d2c.svg",
+            "/get_file?id=110052"
+        ]
+    },
+    "solution": {
+        "text": "Решение.  Найдём производную функции g(x):По рисунку найдём значение  Значение производной в точке касания равно угловому коэффициенту касательной, который, в свою очередь, равен тангенсу угла наклона данной касательной к оси абсцисс.  Поэтому Тогда для искомого значения получаем  Ответ: 26,8.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol525700\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=110053\" style=\"float:right;margin:10px;max-width:100%\"> Найдём про­из­вод­ную функ­ции <i>g</i>(<i>x</i>):</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ef/ef4ea8cb2c8c227c3311f14c4203d2c5.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"g' левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка = 3x в квад­ра­те плюс f' левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка .\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">По ри­сун­ку найдём зна­че­ние <img src=\"https://ege.sdamgia.ru/formula/svg/1a/1a740c24ec606125fef1916fba5259a0.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f' левая круг­лая скоб­ка x_0 пра­вая круг­лая скоб­ка .\"> Зна­че­ние про­из­вод­ной в точке ка­са­ния равно уг­ло­во­му ко­эф­фи­ци­ен­ту ка­са­тель­ной, ко­то­рый, в свою оче­редь, равен тан­ген­су угла на­кло­на дан­ной ка­са­тель­ной к оси абс­цисс.  По­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/95/95f410eba8387d5686cab9cf145909a5.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"f' левая круг­лая скоб­ка x_0 пра­вая круг­лая скоб­ка =f' левая круг­лая скоб­ка минус 3 пра­вая круг­лая скоб­ка = минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 5 конец дроби = минус 0,2.\"></p><p class=\"left_margin\">Тогда для ис­ко­мо­го зна­че­ния по­лу­ча­ем </p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"10108d824bb4ab94f909e440fecafe18\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/10/10108d824bb4ab94f909e440fecafe18.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"g' левая круг­лая скоб­ка x_0 пра­вая круг­лая скоб­ка =g' левая круг­лая скоб­ка минус 3 пра­вая круг­лая скоб­ка = 3 умно­жить на x_0 в квад­ра­те плюс f' левая круг­лая скоб­ка x_0 пра­вая круг­лая скоб­ка =3 умно­жить на левая круг­лая скоб­ка минус 3 пра­вая круг­лая скоб­ка в квад­ра­те плюс f' левая круг­лая скоб­ка минус 3 пра­вая круг­лая скоб­ка =3 умно­жить на 9 минус 0,2=26,8.\"></span><span data-width=\"515\" data-formulahash=\"10108d824bb4ab94f909e440fecafe18\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/2a/2a2efb5a428f95ead62d82b849b42d92.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"g' левая круг­лая скоб­ка x_0 пра­вая круг­лая скоб­ка =g' левая круг­лая скоб­ка минус 3 пра­вая круг­лая скоб­ка = 3 умно­жить на x_0 в квад­ра­те плюс f' левая круг­лая скоб­ка x_0 пра­вая круг­лая скоб­ка =\"><br><img src=\"https://ege.sdamgia.ru/formula/svg/fd/fd3d77d100ece07653e46c408c7d13a6.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"=3 умно­жить на левая круг­лая скоб­ка минус 3 пра­вая круг­лая скоб­ка в квад­ра­те плюс f' левая круг­лая скоб­ка минус 3 пра­вая круг­лая скоб­ка =3 умно­жить на 9 минус 0,2=26,8.\"></span></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 26,8.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ef/ef4ea8cb2c8c227c3311f14c4203d2c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1a740c24ec606125fef1916fba5259a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/95/95f410eba8387d5686cab9cf145909a5.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/10108d824bb4ab94f909e440fecafe18.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2a2efb5a428f95ead62d82b849b42d92.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fd3d77d100ece07653e46c408c7d13a6.svg",
+            "/get_file?id=110053"
+        ]
+    },
+    "answer": "26,8",
+    "topic_id": 8,
+    "analog_ids": [
+        525689
+    ]
+}

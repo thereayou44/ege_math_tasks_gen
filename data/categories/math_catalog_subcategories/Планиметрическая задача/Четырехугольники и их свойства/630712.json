@@ -1,0 +1,24 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 630712,
+    "condition": {
+        "text": "В трапеции ABCD с основанием AD диагонали пересекаются в точке O, AD  =  2BC. Через вершину A проведена прямая параллельная диагонали BD, а  через вершину D проведена прямая параллельная диагонали AC, и эти прямые пересекаются в точке E. а)  Докажите, что BO : AE  =  1 : 2. б)  Прямые BE и CE пересекают сторону AD  в точках M и N соответственно. Найдите MN, если AD  =  10.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body520516\" class=\"pbody\"><p class=\"left_margin\">В тра­пе­ции <i>ABCD</i> с ос­но­ва­ни­ем <i>AD</i> диа­го­на­ли пе­ре­се­ка­ют­ся в точке <i>O</i>, <i>AD</i>  =  2<i>BC</i>. Через вер­ши­ну <i>A</i> про­ве­де­на пря­мая па­рал­лель­ная диа­го­на­ли <i>BD</i>, а  через вер­ши­ну <i>D</i> про­ве­де­на пря­мая па­рал­лель­ная диа­го­на­ли <i>AC</i>, и эти пря­мые пе­ре­се­ка­ют­ся в точке <i>E</i>. </p><p class=\"left_margin\">а)  До­ка­жи­те, что <i>BO</i> : <i>AE</i>  =  1 : 2. </p><p class=\"left_margin\">б)  Пря­мые <i>BE</i> и <i>CE</i> пе­ре­се­ка­ют сто­ро­ну <i>AD</i>  в точ­ках <i>M</i> и <i>N</i> со­от­вет­ствен­но. Най­ди­те <i>MN</i>, если <i>AD</i>  =  10.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Треугольник BOC подобен треугольнику DOA по двум углам, поэтому Так как отрезки AO и ED, DO и AE соответственно параллельны, следовательно, AODE  — параллелограмм, значит,  и BO : AE  =  1 : 2, ч. т. д.б)  Треугольник AME подобен треугольнику DMB по двум углам, отсюда следует, что Аналогично Ответ: б) 2.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol630712\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=113524\" style=\"float:right;margin:10px;max-width:100%\">а)  Тре­уголь­ник <i>BOC</i> по­до­бен тре­уголь­ни­ку <i>DOA</i> по двум углам, по­это­му</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/67/676342e5be74a1aa057e9d9ca0cd5674.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: BO, зна­ме­на­тель: OD конец дроби = дробь: чис­ли­тель: BC, зна­ме­на­тель: AD конец дроби = дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби . \"></p><p class=\"left_margin\"></p></center><p> Так как от­рез­ки <i>AO</i> и <i>ED</i>, <i>DO</i> и <i>AE</i> со­от­вет­ствен­но па­рал­лель­ны, сле­до­ва­тель­но, <i>AODE</i>  — па­рал­ле­ло­грамм, зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/66/6657a3664f2414192195ff51969aba41.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AE=DO\"> и <i>BO</i> : <i>AE</i>  =  1 : 2, ч. т. д.</p><p class=\"left_margin\">б)  Тре­уголь­ник <i>AME</i> по­до­бен тре­уголь­ни­ку <i>DMB</i> по двум углам, от­сю­да сле­ду­ет, что</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e5/e53f938b0712d756be385ce73eae72fa.svg\" class=\"tex\" style=\"vertical-align:-10.5pt\" alt=\" дробь: чис­ли­тель: AM, зна­ме­на­тель: MD конец дроби = дробь: чис­ли­тель: AE, зна­ме­на­тель: BD конец дроби = дробь: чис­ли­тель: AE, зна­ме­на­тель: 1,5AE конец дроби = дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби \\Rightarrow AM= дробь: чис­ли­тель: 2, зна­ме­на­тель: 5 конец дроби AD. \"></p><p class=\"left_margin\"></p></center><p> Ана­ло­гич­но </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/3e/3e4a247e67851297c8aed00b0ff8129b.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"CO= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби AO= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби DE \\Rightarrow AC=1,5 DE \\Rightarrow DN= дробь: чис­ли­тель: 2, зна­ме­на­тель: 5 конец дроби AD \\Rightarrow MN= дробь: чис­ли­тель: 1, зна­ме­на­тель: 5 конец дроби AD=2.\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) 2.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/67/676342e5be74a1aa057e9d9ca0cd5674.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/6657a3664f2414192195ff51969aba41.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e53f938b0712d756be385ce73eae72fa.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e4a247e67851297c8aed00b0ff8129b.svg",
+            "/get_file?id=113524"
+        ]
+    },
+    "answer": "б) 2.",
+    "topic_id": 17,
+    "analog_ids": []
+}

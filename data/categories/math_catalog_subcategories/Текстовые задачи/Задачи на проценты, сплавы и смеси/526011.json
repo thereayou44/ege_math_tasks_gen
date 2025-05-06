@@ -1,0 +1,63 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 526011,
+    "condition": {
+        "text": "Имеется два сплава. Первый содержит 15% никеля, второй  — 35% никеля. Из этих двух сплавов получили третий сплав массой 140 кг, содержащий 30% никеля. На сколько килограммов масса первого сплава была меньше массы второго?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body419911\" class=\"pbody\"><p class=\"left_margin\">Име­ет­ся два спла­ва. Пер­вый со­дер­жит 15% ни­ке­ля, вто­рой  — 35% ни­ке­ля. Из этих двух спла­вов по­лу­чи­ли тре­тий сплав мас­сой 140 кг, со­дер­жа­щий 30% ни­ке­ля. На сколь­ко ки­ло­грам­мов масса пер­во­го спла­ва была мень­ше массы вто­ро­го?</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Пусть масса первого сплава  а масса второго  —   Тогда массовое содержание никеля в первом и втором сплавах  и  соответственно. Из этих двух сплавов получили третий сплав массой 140 кг, содержащий 30% никеля. Получаем систему уравнений:Таким образом, первый сплав легче второго на 70 килограммов.  Ответ: 70.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol526011\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть масса пер­во­го спла­ва <img src=\"https://ege.sdamgia.ru/formula/svg/28/28816efd727116b6d38cd575c3dd224b.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"m_1кг,\"> а масса вто­ро­го  — <img src=\"https://ege.sdamgia.ru/formula/svg/c4/c4a1e0dbd880c10122962eee504bf5ce.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"m_2кг.\">  Тогда мас­со­вое со­дер­жа­ние ни­ке­ля в пер­вом и вто­ром спла­вах <img src=\"https://ege.sdamgia.ru/formula/svg/50/50ad3f5442e9bf93a44006e4e6c7308a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"0,15m_1\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/3d/3dfce07a64a173a32686518fd7dc5a86.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"0,35m_2,\"> со­от­вет­ствен­но. Из этих двух спла­вов по­лу­чи­ли тре­тий сплав мас­сой 140 кг, со­дер­жа­щий 30% ни­ке­ля. По­лу­ча­ем си­сте­му урав­не­ний:</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"8ec2c0fed2b71786a336827473c38854\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/a0/a0686a814704d87d3a54571d565ae23f.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний  новая стро­ка m_1 плюс m_2=140,  новая стро­ка 0,15m_1 плюс 0,35m_2=0,3 умно­жить на 140, конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний  новая стро­ка m_2=140 минус m_1,  новая стро­ка 0,15m_1 плюс 0,35 левая круг­лая скоб­ка 140 минус m_1 пра­вая круг­лая скоб­ка =42 конец си­сте­мы . рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/67/673b57e5cda672555e9bf41d88f78529.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" рав­но­силь­но си­сте­ма вы­ра­же­ний  новая стро­ка m_2=140 минус m_1,  новая стро­ка 0,2m_1= 7 конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний  новая стро­ка m_1=35,  новая стро­ка m_2=105. конец си­сте­мы .\"></span><span data-width=\"440\" data-formulahash=\"8ec2c0fed2b71786a336827473c38854\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/4d/4da87729742d29d5c1d9059dab797a94.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний  новая стро­ка m_1 плюс m_2=140,  новая стро­ка 0,15m_1 плюс 0,35m_2=0,3 умно­жить на 140, конец си­сте­мы . рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/f4/f400ae15aa1ca04f79cef885a7fac61e.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" рав­но­силь­но си­сте­ма вы­ра­же­ний  новая стро­ка m_2=140 минус m_1,  новая стро­ка 0,15m_1 плюс 0,35 левая круг­лая скоб­ка 140 минус m_1 пра­вая круг­лая скоб­ка =42 конец си­сте­мы . рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/67/673b57e5cda672555e9bf41d88f78529.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" рав­но­силь­но си­сте­ма вы­ра­же­ний  новая стро­ка m_2=140 минус m_1,  новая стро­ка 0,2m_1= 7 конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний  новая стро­ка m_1=35,  новая стро­ка m_2=105. конец си­сте­мы .\"></span></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Таким об­ра­зом, пер­вый сплав легче вто­ро­го на 70 ки­ло­грам­мов. </p><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ</span>: 70.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/28/28816efd727116b6d38cd575c3dd224b.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c4a1e0dbd880c10122962eee504bf5ce.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50ad3f5442e9bf93a44006e4e6c7308a.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3dfce07a64a173a32686518fd7dc5a86.svg",
+            "https://ege.sdamgia.ru/formula/svg/a0/a0686a814704d87d3a54571d565ae23f.svg",
+            "https://ege.sdamgia.ru/formula/svg/67/673b57e5cda672555e9bf41d88f78529.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4da87729742d29d5c1d9059dab797a94.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f400ae15aa1ca04f79cef885a7fac61e.svg",
+            "https://ege.sdamgia.ru/formula/svg/67/673b57e5cda672555e9bf41d88f78529.svg"
+        ]
+    },
+    "answer": "70",
+    "topic_id": 10,
+    "analog_ids": [
+        99575,
+        109111,
+        109113,
+        109111,
+        109113,
+        109157,
+        505447,
+        505468,
+        512333,
+        512375,
+        530670,
+        628237,
+        628268,
+        109115,
+        109117,
+        109119,
+        109121,
+        109123,
+        109125,
+        109127,
+        109129,
+        109131,
+        109133,
+        109135,
+        109137,
+        109139,
+        109141,
+        109143,
+        109145,
+        109147,
+        109149,
+        109151,
+        109153,
+        109155
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 513215,
+    "condition": {
+        "text": "Имеется три сплава. Первый содержит 30% меди и 70% олова, второй  — 45% олова, 20% серебра и 35% меди, третий  — 60% олова и 40% серебра. Из них необходимо составить новый сплав,  содержащий 25% серебра. Какое наименьшее и наибольшее процентное содержание олова может быть в этом новом сплаве?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body637507\" class=\"pbody\"><p class=\"left_margin\">Име­ет­ся&nbsp;три&nbsp;спла­ва.&nbsp;Пер­вый&nbsp;со­дер­жит&nbsp;30%&nbsp;меди&nbsp;и&nbsp;70%&nbsp;олова,&nbsp;вто­рой  — 45%&nbsp;олова,&nbsp;20%&nbsp;се­реб­ра&nbsp;и&nbsp;35%&nbsp;меди,&nbsp;тре­тий  — 60%&nbsp;олова&nbsp;и&nbsp;40%&nbsp;се­реб­ра.&nbsp;Из&nbsp;них&nbsp;не­об­хо­ди­мо&nbsp;со­ста­вить&nbsp;новый&nbsp;сплав,&nbsp; со­дер­жа­щий&nbsp;25%&nbsp;се­реб­ра.&nbsp;Какое&nbsp;наи­мень­шее&nbsp;и&nbsp;наи­боль­шее&nbsp;про­цент­ное&nbsp;со­дер­жа­ние&nbsp;олова&nbsp;может&nbsp;быть&nbsp;в&nbsp;этом&nbsp;новом&nbsp;спла­ве?</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Возьмем сплавы так, чтобы суммарная масса оказалась равна 1 килограмм. Пусть третьего сплава взято x кг, второго y кг. Тогда масса первого равна  кг. Серебра в результате будет  откуда  Значит, первого сплава взяли  Ясно, что  и любое такое x допустимо.Масса олова составляет   то есть лежит в пределах [0,4875, 0,6375]. Ответ:  от 48,75% до 63,75%.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol513215\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Возь­мем спла­вы так, чтобы сум­мар­ная масса ока­за­лась равна 1 ки­ло­грамм. Пусть тре­тье­го спла­ва взято <i>x</i> кг, вто­ро­го <i>y</i> кг. Тогда масса пер­во­го равна <img src=\"https://ege.sdamgia.ru/formula/svg/83/8359420266c0cb8119b02d3c7c50201f.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 1 минус x минус y пра­вая круг­лая скоб­ка \"> кг. Се­реб­ра в ре­зуль­та­те будет <img src=\"https://ege.sdamgia.ru/formula/svg/1a/1a65c9a99e98e82a13b10eba2e37eb33.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"0,2y плюс 0,4x=0,25,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/fb/fb72fb7fb6b9a04f02c8805784fbae08.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=1,25 минус 2x.\"> Зна­чит, пер­во­го спла­ва взяли <img src=\"https://ege.sdamgia.ru/formula/svg/f8/f810ffbd86476e105ac867aaa675363b.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка x минус 0,25 пра­вая круг­лая скоб­ка .\"> Ясно, что <img src=\"https://ege.sdamgia.ru/formula/svg/8f/8f7a797baea45799c344753fa2c31f6d.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x при­над­ле­жит левая квад­рат­ная скоб­ка 0,25;0,625 пра­вая квад­рат­ная скоб­ка ,\"> и любое такое <i>x</i> до­пу­сти­мо.</p><p class=\"left_margin\">Масса олова со­став­ля­ет </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/00/00ce9b5f28a0a238db31abb1804230e9.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"0,7 левая круг­лая скоб­ка x минус 0,25 пра­вая круг­лая скоб­ка плюс 0,45 левая круг­лая скоб­ка 1,25 минус 2x пра­вая круг­лая скоб­ка плюс 0,6x=0,3875 плюс 0,4x,\"> </p><p class=\"left_margin\"></p></center><p> то есть лежит в пре­де­лах [0,4875, 0,6375].</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  от 48,75% до 63,75%.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/83/8359420266c0cb8119b02d3c7c50201f.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1a65c9a99e98e82a13b10eba2e37eb33.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fb72fb7fb6b9a04f02c8805784fbae08.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f810ffbd86476e105ac867aaa675363b.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8f7a797baea45799c344753fa2c31f6d.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/00ce9b5f28a0a238db31abb1804230e9.svg"
+        ]
+    },
+    "answer": "от 48,75% до 63,75%.",
+    "topic_id": null,
+    "analog_ids": []
+}

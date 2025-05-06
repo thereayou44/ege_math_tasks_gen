@@ -1,0 +1,33 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 649905,
+    "condition": {
+        "text": "На координатной плоскости изображены векторы  и  Найдите длину вектора ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body492621\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=160455\" style=\"float:right;margin:10px;max-width:100%\">На ко­ор­ди­нат­ной плос­ко­сти изоб­ра­же­ны век­то­ры <img src=\"https://ege.sdamgia.ru/formula/svg/03/032e291fd1e5592fcd3b7abe2ea18bef.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\vec a\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/91/9123a02603bf84810303449dc2b862bf.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\vec b.\"> Най­ди­те длину век­то­ра <img src=\"https://ege.sdamgia.ru/formula/svg/de/de63b198133fc8cabcbb8ffe0b8584af.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2\\vec a минус \\vec b.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/03/032e291fd1e5592fcd3b7abe2ea18bef.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/9123a02603bf84810303449dc2b862bf.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/de63b198133fc8cabcbb8ffe0b8584af.svg",
+            "/get_file?id=160455"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Выпишем координаты векторов:  и  Найдем координаты вектора Найдем длину вектора:Ответ: 5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol649905\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Вы­пи­шем ко­ор­ди­на­ты век­то­ров: <img src=\"https://ege.sdamgia.ru/formula/svg/7d/7d790acccce7c85d9e15820a20e7ed01.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\vec a левая круг­лая скоб­ка 1; минус 1 пра­вая круг­лая скоб­ка \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/b7/b772c3fb8f70f38482bc3001f73aee2a.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\vec b левая круг­лая скоб­ка минус 2; 1 пра­вая круг­лая скоб­ка .\"> Най­дем ко­ор­ди­на­ты век­то­ра <img src=\"https://ege.sdamgia.ru/formula/svg/13/13febe8c9305e6d3a2d392c5ff1a9562.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2\\vec a минус \\vec b:\"></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/97/970c4da0046f822de3f7346501180db3.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"2\\vec a минус \\vec b = левая круг­лая скоб­ка 2 умно­жить на 1 минус левая круг­лая скоб­ка минус 2 пра­вая круг­лая скоб­ка ; 2 умно­жить на левая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка = левая круг­лая скоб­ка 4; минус 3 пра­вая круг­лая скоб­ка .\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Най­дем длину век­то­ра:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/2a/2a78408be08e9db9287cb61d0b42f947.svg\" class=\"tex\" style=\"vertical-align:-6.8pt\" alt=\"|2\\vec a минус \\vec b| = ко­рень из: на­ча­ло ар­гу­мен­та: 4 в квад­ра­те плюс левая круг­лая скоб­ка минус 3 пра­вая круг­лая скоб­ка в квад­ра­те конец ар­гу­мен­та = 5.\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 5.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/7d/7d790acccce7c85d9e15820a20e7ed01.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b772c3fb8f70f38482bc3001f73aee2a.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/13febe8c9305e6d3a2d392c5ff1a9562.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/970c4da0046f822de3f7346501180db3.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2a78408be08e9db9287cb61d0b42f947.svg"
+        ]
+    },
+    "answer": "5",
+    "topic_id": 2,
+    "analog_ids": [
+        649905,
+        654476,
+        661301
+    ]
+}

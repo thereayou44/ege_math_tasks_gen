@@ -1,0 +1,24 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 502066,
+    "condition": {
+        "text": "Найдите значение выражения  ( − ) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body640974\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те зна­че­ние вы­ра­же­ния  (<img src=\"https://ege.sdamgia.ru/formula/svg/ce/ce32ca989afa14fb464ca38d95c82e8f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 63 конец ар­гу­мен­та \"> − <img src=\"https://ege.sdamgia.ru/formula/svg/b5/b5e6268f8a3db07e7c23ff5d9bb1c516.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 28 конец ар­гу­мен­та \">) <img src=\"https://ege.sdamgia.ru/formula/svg/68/6852dca3fbddb6e1be2eb7cbaf1bf1be.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" умно­жить на ко­рень из: на­ча­ло ар­гу­мен­та: 7 конец ар­гу­мен­та .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ce/ce32ca989afa14fb464ca38d95c82e8f.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b5e6268f8a3db07e7c23ff5d9bb1c516.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/6852dca3fbddb6e1be2eb7cbaf1bf1be.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Последовательно получаем: Ответ:7.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol502066\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По­сле­до­ва­тель­но по­лу­ча­ем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/2e/2e6afd4d95981a4181c210ab9754ad62.svg\" class=\"tex\" style=\"vertical-align:-7.9pt\" alt=\" левая круг­лая скоб­ка ко­рень из: на­ча­ло ар­гу­мен­та: 63 конец ар­гу­мен­та минус ко­рень из: на­ча­ло ар­гу­мен­та: 28 конец ар­гу­мен­та пра­вая круг­лая скоб­ка умно­жить на ко­рень из: на­ча­ло ар­гу­мен­та: 7 конец ар­гу­мен­та = левая круг­лая скоб­ка 3 ко­рень из: на­ча­ло ар­гу­мен­та: 7 конец ар­гу­мен­та минус 2 ко­рень из: на­ча­ло ар­гу­мен­та: 7 конец ар­гу­мен­та пра­вая круг­лая скоб­ка умно­жить на ко­рень из: на­ча­ло ар­гу­мен­та: 7 конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 7 конец ар­гу­мен­та умно­жить на ко­рень из: на­ча­ло ар­гу­мен­та: 7 конец ар­гу­мен­та =7.\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ:</span>7.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/2e/2e6afd4d95981a4181c210ab9754ad62.svg"
+        ]
+    },
+    "answer": "7",
+    "topic_id": 7,
+    "analog_ids": []
+}

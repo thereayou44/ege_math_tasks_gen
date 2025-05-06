@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 513795,
+    "condition": {
+        "text": "Подруги Полина и Кристина мечтают стать моделями. 1 января они решили начать  худеть. При этом вес у Полины оказался на 10% больше, чем у Кристины.31 января выяснилось, что Полина сбросила 4% своего веса, а Кристина 1%. В феврале Кристина собирается похудеть еще на 2%. а)  На какое наименьшее целое число % нужно похудеть в феврале Полине, чтобы к 1 марта её вес стал меньше, чем у Кристины?б)  Сколько будет весить к концу февраля Кристина, если известно, что 1 января Полина весила 55 кг?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body637439\" class=\"pbody\"><p class=\"left_margin\">По­дру­ги По­ли­на и Кри­сти­на меч­та­ют стать мо­де­ля­ми. 1 ян­ва­ря они ре­ши­ли на­чать  ху­деть. При этом вес у По­ли­ны ока­зал­ся на 10% боль­ше, чем у&nbsp;Кри­сти­ны.</p><p class=\"left_margin\">31&nbsp;ян­ва­ря&nbsp;вы­яс­ни­лось,&nbsp;что&nbsp;По­ли­на&nbsp;сбро­си­ла&nbsp;4%&nbsp;сво­е­го&nbsp;веса,&nbsp;а&nbsp;Кри­сти­на&nbsp;1%. В фев­ра­ле Кри­сти­на со­би­ра­ет­ся по­ху­деть еще на 2%. </p><p class=\"left_margin\">а)  На какое наи­мень­шее целое число&nbsp;%&nbsp;нужно по­ху­деть в фев­ра­ле&nbsp;По­ли­не,&nbsp;чтобы&nbsp;к&nbsp;1 марта её вес стал мень­ше, чем у Кри­сти­ны?</p><p class=\"left_margin\">б)  Сколь­ко будет ве­сить к концу фев­ра­ля Кри­сти­на, если из­вест­но, что 1 ян­ва­ря По­ли­на ве­си­ла 55 кг?</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Пусть Кристина весила x, а Полина 1,1x. Полина после января стала весить  а Кристина  и собирается после февраля весить  Значит, вес Полины составит  веса Кристины.Если она похудеет на 8 процентов, то будет весить   так что этого не хватит.Если она похудеет на 9 процентов, то будет весить  так что этого хватит.б)  Поскольку  то  и Кристина будет весить  кг.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol513795\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Пусть Кри­сти­на ве­си­ла <i>x</i>, а По­ли­на 1,1<i>x</i>. По­ли­на после ян­ва­ря стала ве­сить <img src=\"https://ege.sdamgia.ru/formula/svg/50/5063a3265405698e8c77ea54e1d1e79f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"0,96 умно­жить на 1,1x,\"> а Кри­сти­на <img src=\"https://ege.sdamgia.ru/formula/svg/96/9681e63b79792487a4725cbf34466589.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"0,99x\"> и со­би­ра­ет­ся после фев­ра­ля ве­сить <img src=\"https://ege.sdamgia.ru/formula/svg/7c/7c2e156676bd9ea86798b256b3a64592.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"0,98 умно­жить на 0,99x=0,9702x.\"> Зна­чит, вес По­ли­ны со­ста­вит <img src=\"https://ege.sdamgia.ru/formula/svg/af/af0b493472ae2e9a48a50fd5316fbd47.svg\" class=\"tex\" style=\"vertical-align:-10.5pt\" alt=\" дробь: чис­ли­тель: 0.96 умно­жить на 1,1x, зна­ме­на­тель: 0,98 умно­жить на 0,99x конец дроби =1,088\\ldots \"> веса Кри­сти­ны.</p><p class=\"left_margin\">Если она по­ху­де­ет на 8 про­цен­тов, то будет ве­сить  <img src=\"https://ege.sdamgia.ru/formula/svg/94/94f5007678ca4c2e5b619f5aaa703a83.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"0,92 умно­жить на 0,96 умно­жить на 1,1x=0,97152x боль­ше 0,9702x,\"> так что этого не хва­тит.</p><p class=\"left_margin\">Если она по­ху­де­ет на 9 про­цен­тов, то будет ве­сить <img src=\"https://ege.sdamgia.ru/formula/svg/53/538aaecee6a8e60fd15f75fb94b7db2e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"0,92 умно­жить на 0,96 умно­жить на 1,1x=0,96096x мень­ше 0,9702x,\"> так что этого хва­тит.</p><p class=\"left_margin\">б)  По­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/70/705840d4111095885e2d8bd43a18448a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1,1x=55,\"> то <img src=\"https://ege.sdamgia.ru/formula/svg/30/3062d7a9e547e75beb74fb691565caa0.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x=50,\"> и Кри­сти­на будет ве­сить <img src=\"https://ege.sdamgia.ru/formula/svg/6c/6cf361def4335fb860268f02b4d9d35a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"0,9702 умно­жить на 50=48,51\"> кг.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/50/5063a3265405698e8c77ea54e1d1e79f.svg",
+            "https://ege.sdamgia.ru/formula/svg/96/9681e63b79792487a4725cbf34466589.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7c2e156676bd9ea86798b256b3a64592.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af0b493472ae2e9a48a50fd5316fbd47.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/94f5007678ca4c2e5b619f5aaa703a83.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/538aaecee6a8e60fd15f75fb94b7db2e.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/705840d4111095885e2d8bd43a18448a.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/3062d7a9e547e75beb74fb691565caa0.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6cf361def4335fb860268f02b4d9d35a.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

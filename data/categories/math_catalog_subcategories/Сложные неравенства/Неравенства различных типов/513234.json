@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 513234,
+    "condition": {
+        "text": "Решите неравенство ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body637486\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те&nbsp;не­ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/41/412cebe25b87ca83c3734f1450cdcd03.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка x минус 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x в квад­ра­те минус 8x плюс 16 пра­вая круг­лая скоб­ка плюс ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 4 минус x пра­вая круг­лая скоб­ка левая круг­лая скоб­ка минус x в квад­ра­те плюс 5x минус 4 пра­вая круг­лая скоб­ка боль­ше 3.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/41/412cebe25b87ca83c3734f1450cdcd03.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Преобразуем неравенство, учитывая Итак, сумма двух взаимно обратных чисел больше двух. Так бывает, если они положительны и не равны 1. только при  то есть при  возможно в двух случаях  — либо  (то есть  либо  (что невозможно). Ответ:   ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol513234\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пре­об­ра­зу­ем не­ра­вен­ство, учи­ты­вая <img src=\"https://ege.sdamgia.ru/formula/svg/ac/ac6ccb6f2fc61386106ca9786492a6f2.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"4 минус x боль­ше 0.\"></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/9f/9f9753b00a4197d8fa4c1812ab4e64c1.svg\" class=\"tex\" style=\"vertical-align:-4.3pt\" alt=\" ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка x минус 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 4 минус x пра­вая круг­лая скоб­ка плюс ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 4 минус x пра­вая круг­лая скоб­ка левая круг­лая скоб­ка левая круг­лая скоб­ка x минус 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 4 минус x пра­вая круг­лая скоб­ка пра­вая круг­лая скоб­ка боль­ше 3,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/fa/fa6044b09cf1e5a539fb44c7df5c6b4a.svg\" class=\"tex\" style=\"vertical-align:-4.3pt\" alt=\" ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка x минус 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 4 минус x пра­вая круг­лая скоб­ка плюс ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 4 минус x пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x минус 1 пра­вая круг­лая скоб­ка боль­ше 2.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Итак, сумма двух вза­им­но об­рат­ных чисел боль­ше двух. Так бы­ва­ет, если они по­ло­жи­тель­ны и не равны 1.</p><p class=\"left_margin\"><img src=\"https://ege.sdamgia.ru/formula/svg/14/14d1edbedd1cc185166be7876c26bb63.svg\" class=\"tex\" style=\"vertical-align:-4.3pt\" alt=\" ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка x минус 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 4 минус x пра­вая круг­лая скоб­ка =1\"> толь­ко при <img src=\"https://ege.sdamgia.ru/formula/svg/9f/9f5c89f500739a17029ca1218794541f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x минус 1=4 минус x,\"> то есть при <img src=\"https://ege.sdamgia.ru/formula/svg/4f/4f75b1fe1dee3203c08a9f3a1a5f9c69.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x=2,5.\"></p><p class=\"left_margin\"><img src=\"https://ege.sdamgia.ru/formula/svg/60/60b3a210665cfb970c432dafa4187d94.svg\" class=\"tex\" style=\"vertical-align:-4.3pt\" alt=\" ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка x минус 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 4 минус x пра­вая круг­лая скоб­ка боль­ше 0\"> воз­мож­но в двух слу­ча­ях  — либо <img src=\"https://ege.sdamgia.ru/formula/svg/e7/e73683c9a2b28a05ea3e554f364ecea6.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x минус 1 боль­ше 1,4 минус x боль­ше 1\"> (то есть <img src=\"https://ege.sdamgia.ru/formula/svg/8a/8a9f150585ef6e3ef56d04c5f8818de4.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x при­над­ле­жит левая круг­лая скоб­ка 2,3 пра­вая круг­лая скоб­ка пра­вая круг­лая скоб­ка ,\"> либо <img src=\"https://ege.sdamgia.ru/formula/svg/70/70d52e9e8555f399695ff2e2b378a682.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x минус 1 мень­ше 1,4 минус x мень­ше 1\"> (что не­воз­мож­но).</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  <img src=\"https://ege.sdamgia.ru/formula/svg/06/06c51003813acab6ff006112294fe4fb.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x при­над­ле­жит левая круг­лая скоб­ка 2,2,5 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 2,5,3 пра­вая круг­лая скоб­ка .\"> </p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ac/ac6ccb6f2fc61386106ca9786492a6f2.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9f9753b00a4197d8fa4c1812ab4e64c1.svg",
+            "https://ege.sdamgia.ru/formula/svg/fa/fa6044b09cf1e5a539fb44c7df5c6b4a.svg",
+            "https://ege.sdamgia.ru/formula/svg/14/14d1edbedd1cc185166be7876c26bb63.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9f5c89f500739a17029ca1218794541f.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4f75b1fe1dee3203c08a9f3a1a5f9c69.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/60b3a210665cfb970c432dafa4187d94.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e73683c9a2b28a05ea3e554f364ecea6.svg",
+            "https://ege.sdamgia.ru/formula/svg/8a/8a9f150585ef6e3ef56d04c5f8818de4.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/70d52e9e8555f399695ff2e2b378a682.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/06c51003813acab6ff006112294fe4fb.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

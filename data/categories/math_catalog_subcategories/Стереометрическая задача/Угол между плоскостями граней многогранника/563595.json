@@ -1,0 +1,29 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 563595,
+    "condition": {
+        "text": "В основании треугольной пирамиды SABC лежит прямоугольный треугольник ABC с прямым углом C. Основание высоты SO этой пирамиды является серединой ребра AB.а)  Докажите, что SA  =  SC.б)  Найдите угол между плоскостями SAC и ABC, если AB  =  30, SC  =  17, СB  =  24.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body456567\" class=\"pbody\"><p class=\"left_margin\">В ос­но­ва­нии тре­уголь­ной пи­ра­ми­ды <i>SABC</i> лежит пря­мо­уголь­ный тре­уголь­ник <i>ABC</i> с пря­мым углом <i>C</i>. Ос­но­ва­ние вы­со­ты <i>SO</i> этой пи­ра­ми­ды яв­ля­ет­ся се­ре­ди­ной ребра <i>AB</i>.</p><p class=\"left_margin\">а)  До­ка­жи­те, что <i>SA</i>  =  <i>SC</i>.</p><p class=\"left_margin\">б)  Най­ди­те угол между плос­ко­стя­ми <i>SAC</i> и <i>ABC</i>, если <i>AB</i>  =  30, <i>SC</i>  =  17, <i>СB</i>  =  24.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  По свойству прямоугольного треугольника ABC медиана CO равна половине гипотенузы AB, иными словами CO = AO. Тогда наклонные SA и SC имеют равные проекции AO и CO соответственно, следовательно, SA = SC, что и требовалось.б)  Опустим из точки O перпендикуляр OK на AC. Так как OK   — проекция SK на плоскость ABC, то по теореме о трех перпендикулярах SK⊥AC, и ∠SKO   — искомый по определению угла между плоскостями.В прямоугольном треугольнике SAO имеем:  по доказанному ранее,  = 15. Тогда по теореме Пифагора SO  =  8. Далее, так как O  — середина AB, а OK || BC (как перпендикуляры к AC), отрезок OK  — средняя линия треугольника ABC, откуда  Наконец,  а  Ответ:",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol563595\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=141922\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  По свой­ству пря­мо­уголь­но­го тре­уголь­ни­ка <i>ABC </i>ме­ди­а­на <i>CO </i>равна по­ло­ви­не ги­по­те­ну­зы <i>AB</i>, иными сло­ва­ми <i>CO </i>= <i>AO</i>. Тогда на­клон­ные <i>SA </i>и <i>SC </i>имеют рав­ные про­ек­ции <i>AO </i>и <i>CO </i>со­от­вет­ствен­но, сле­до­ва­тель­но, <i>SA </i>= <i>SC</i>, что и тре­бо­ва­лось.</p><p class=\"left_margin\">б)  Опу­стим из точки <i>O </i>пер­пен­ди­ку­ляр <i>OK </i>на <i>AC</i>. Так как <i>OK </i>  — про­ек­ция <i>SK </i>на плос­кость <i>ABC</i>, то по тео­ре­ме о трех пер­пен­ди­ку­ля­рах <i>SK</i>⊥<i>AC</i>, и ∠<i>SKO </i>  — ис­ко­мый по опре­де­ле­нию угла между плос­ко­стя­ми.</p><p class=\"left_margin\">В пря­мо­уголь­ном тре­уголь­ни­ке <i>SAO</i> имеем: <img src=\"https://ege.sdamgia.ru/formula/svg/0f/0f1ea4e172f9dcaa6f5105e14147f18b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" SA = SC = 17\"> по до­ка­зан­но­му ранее, <img src=\"https://ege.sdamgia.ru/formula/svg/ef/eff63fbda0a7c396bdc2abd9723d7def.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"AO = дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби AB\"> = 15. Тогда по тео­ре­ме Пи­фа­го­ра <nobr><i>SO</i>  =  8.</nobr> Далее, так как <i>O</i>  — се­ре­ди­на <i>AB</i>, а <i>OK || BC</i> (как пер­пен­ди­ку­ля­ры к <i>AC</i>), от­ре­зок <i>OK</i>  — сред­няя линия тре­уголь­ни­ка <i>ABC,</i> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/6d/6dfbb5905e7e39a49db45ee6852b8b11.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"OK = 12.\"> На­ко­нец, <img src=\"https://ege.sdamgia.ru/formula/svg/b7/b73924352e9db007d45bb8d849e0dc2a.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" тан­генс \\angle SKO = дробь: чис­ли­тель: SO, зна­ме­на­тель: OK конец дроби = дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби , \"> а <img src=\"https://ege.sdamgia.ru/formula/svg/8f/8f3795b6487bcbff953cb8a70a7b5bc0.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"\\angle SKO = арк­тан­генс дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span><img src=\"https://ege.sdamgia.ru/formula/svg/5a/5a06a61d6c96ebb4ca7701cd4f5833cc.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" арк­тан­генс дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/0f/0f1ea4e172f9dcaa6f5105e14147f18b.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/eff63fbda0a7c396bdc2abd9723d7def.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6dfbb5905e7e39a49db45ee6852b8b11.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b73924352e9db007d45bb8d849e0dc2a.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8f3795b6487bcbff953cb8a70a7b5bc0.svg",
+            "https://ege.sdamgia.ru/formula/svg/5a/5a06a61d6c96ebb4ca7701cd4f5833cc.svg",
+            "/get_file?id=141922"
+        ]
+    },
+    "answer": "",
+    "topic_id": 14,
+    "analog_ids": [
+        563595,
+        563654
+    ]
+}

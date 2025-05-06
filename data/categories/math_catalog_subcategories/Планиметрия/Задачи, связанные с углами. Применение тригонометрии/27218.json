@@ -1,0 +1,39 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27218,
+    "condition": {
+        "text": "В треугольнике ABC угол C равен 90°,  Найдите ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918702\" class=\"pbody\"><p class=\"left_margin\">В тре­уголь­ни­ке <i>ABC</i> угол <i>C</i> равен 90°, <img src=\"https://ege.sdamgia.ru/formula/svg/bb/bb22fbf2af1184bc36abb2264cbdebe6.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" синус A = дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 17 конец ар­гу­мен­та , зна­ме­на­тель: 17 конец дроби . \"> Най­ди­те <img src=\"https://ege.sdamgia.ru/formula/svg/55/555d408c2fe21941015b3c76ad9c47ef.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\" тан­генс A.\"><img style=\"float:right\" src=\"/get_file?id=7669\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/bb/bb22fbf2af1184bc36abb2264cbdebe6.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/555d408c2fe21941015b3c76ad9c47ef.svg",
+            "/get_file?id=7669"
+        ]
+    },
+    "solution": {
+        "text": "Решение. ## Имеем: Ответ: 0,25.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27218\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">##</p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ce/ceb0b5f2bddca760565ef42d1a376248.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" синус в квад­ра­те A= левая круг­лая скоб­ка дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 17 конец ар­гу­мен­та , зна­ме­на­тель: 17 конец дроби пра­вая круг­лая скоб­ка в квад­ра­те = дробь: чис­ли­тель: 17, зна­ме­на­тель: 289 конец дроби = дробь: чис­ли­тель: 1, зна­ме­на­тель: 17 конец дроби \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p class=\"left_margin\">Имеем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e3/e379e0cd6cab65954b2d7ba920ae5212.svg\" class=\"tex\" style=\"vertical-align:-19.7pt\" alt=\" тан­генс A = синус A \\over ко­си­нус A = синус A \\over ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус синус в квад­ра­те A конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 17 конец ар­гу­мен­та \\over 17 \\over ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус 1 \\over 17 конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 17 конец ар­гу­мен­та \\over 17 умно­жить на ко­рень из: на­ча­ло ар­гу­мен­та: 17 конец ар­гу­мен­та \\over 4 = 0,25.\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 0,25.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ce/ceb0b5f2bddca760565ef42d1a376248.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e379e0cd6cab65954b2d7ba920ae5212.svg"
+        ]
+    },
+    "answer": "0,25",
+    "topic_id": null,
+    "analog_ids": [
+        27218,
+        28851,
+        28863,
+        28867,
+        28851,
+        28863,
+        28867,
+        28853,
+        28855,
+        28857,
+        28859,
+        28861,
+        28865
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521690,
+    "condition": {
+        "text": "При каких значениях параметра p система имеет единственное решение?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629542\" class=\"pbody\"><p class=\"left_margin\">При каких зна­че­ни­ях па­ра­мет­ра <i>p</i> си­сте­ма </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/fd/fd5e381e9f1b4b739e4e9b3e621d2c65.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний x в квад­ра­те плюс 2px плюс 3p в квад­ра­те плюс 3p плюс 3 мень­ше или равно 3 синус y минус 4 ко­си­нус y,0 мень­ше или равно y мень­ше или равно 2 Пи конец си­сте­мы . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">имеет един­ствен­ное ре­ше­ние?</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/fd/fd5e381e9f1b4b739e4e9b3e621d2c65.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Перепишем первое неравенство в видеЕсли у этого неравенства решение единственно, то  1)   иначе можно изменить x и уменьшить правую часть  2)   принимает свое максимальное значение  (иначе можно увеличить левую часть).  3)  выполнено равенство, иначе по непрерывности можно немного изменить x или y с сохранением неравенства. Значит,  откуда  или  При таких p получается неравенство  что возможно только при  и  иначе неравенство нарушится по знаку выражений. Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521690\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пе­ре­пи­шем пер­вое не­ра­вен­ство в виде</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/89/898d00cc88933c563dc838de82adc181.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая круг­лая скоб­ка x плюс p пра­вая круг­лая скоб­ка в квад­ра­те плюс 2p в квад­ра­те плюс 3p плюс 3 мень­ше или равно 5 левая круг­лая скоб­ка дробь: чис­ли­тель: 3, зна­ме­на­тель: 5 конец дроби синус y минус дробь: чис­ли­тель: 4, зна­ме­на­тель: 5 конец дроби ко­си­нус y пра­вая круг­лая скоб­ка .\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Если у этого не­ра­вен­ства ре­ше­ние един­ствен­но, то </p><p> 1)  <img src=\"https://ege.sdamgia.ru/formula/svg/1e/1ec102b008ef70b6e00b3a9f7730083e.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"x= минус p,\"> иначе можно из­ме­нить <i>x</i> и умень­шить пра­вую часть </p><p> 2)  <img src=\"https://ege.sdamgia.ru/formula/svg/32/32c074119e0f485b8e5ddb902190d9b7.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" дробь: чис­ли­тель: 3, зна­ме­на­тель: 5 конец дроби синус y минус дробь: чис­ли­тель: 4, зна­ме­на­тель: 5 конец дроби ко­си­нус y= синус левая круг­лая скоб­ка y минус арк­си­нус дробь: чис­ли­тель: 4, зна­ме­на­тель: 5 конец дроби пра­вая круг­лая скоб­ка \"> при­ни­ма­ет свое мак­си­маль­ное зна­че­ние <img src=\"https://ege.sdamgia.ru/formula/svg/c4/c4ca4238a0b923820dcc509a6f75849b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"1\"> (иначе можно уве­ли­чить левую часть). </p><p> 3)  вы­пол­не­но ра­вен­ство, иначе по не­пре­рыв­но­сти можно не­мно­го из­ме­нить <i>x</i> или <i>y</i> с со­хра­не­ни­ем не­ра­вен­ства.</p><p>&nbsp;</p><p class=\"left_margin\">Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/d9/d9f24dc0e179035051587bcb2c6c6c92.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2p в квад­ра­те плюс 3p плюс 3=5,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/7c/7cf6b4f725e83bfc64500529c56ee970.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"p= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби \"> или <img src=\"https://ege.sdamgia.ru/formula/svg/c5/c5024c644b2e1fe2ab52e807c8459ea2.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"p= минус 2.\"> При таких <i>p</i> по­лу­ча­ет­ся не­ра­вен­ство</p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/fc/fcd4a228f41db751e1c280cc3fdcb23b.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" левая круг­лая скоб­ка x плюс p пра­вая круг­лая скоб­ка в квад­ра­те мень­ше или равно 5 синус левая круг­лая скоб­ка y минус арк­си­нус дробь: чис­ли­тель: 4, зна­ме­на­тель: 5 конец дроби пра­вая круг­лая скоб­ка минус 5,\"> что воз­мож­но толь­ко при <img src=\"https://ege.sdamgia.ru/formula/svg/64/647dae155033c471735d8cc3fbc0faed.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x= минус p\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/70/7056cfe4bad7d7698867b771f62e7323.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"y= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби плюс арк­си­нус дробь: чис­ли­тель: 4, зна­ме­на­тель: 5 конец дроби , \"> иначе не­ра­вен­ство на­ру­шит­ся по знаку вы­ра­же­ний.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/91/9122ac51a4fc0b292bb738abf299284a.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая фи­гур­ная скоб­ка минус 2; дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби пра­вая фи­гур­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/89/898d00cc88933c563dc838de82adc181.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1ec102b008ef70b6e00b3a9f7730083e.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/32c074119e0f485b8e5ddb902190d9b7.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c4ca4238a0b923820dcc509a6f75849b.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d9f24dc0e179035051587bcb2c6c6c92.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7cf6b4f725e83bfc64500529c56ee970.svg",
+            "https://ege.sdamgia.ru/formula/svg/c5/c5024c644b2e1fe2ab52e807c8459ea2.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fcd4a228f41db751e1c280cc3fdcb23b.svg",
+            "https://ege.sdamgia.ru/formula/svg/64/647dae155033c471735d8cc3fbc0faed.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/7056cfe4bad7d7698867b771f62e7323.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/9122ac51a4fc0b292bb738abf299284a.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

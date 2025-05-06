@@ -1,0 +1,31 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 515211,
+    "condition": {
+        "text": "На  диагонали  AC  параллелограмма  АВСD  отмечены  точки  Е  и  Р,  причем АЕ : ЕР : РС  =  1 : 2 : 1.  Прямые  DЕ  и  DР  пересекают  стороны  АВ  и  ВС  в  точках  К  и  М соответственно.  А)  Докажите, что КМ параллельна АС. Б)  Найдите  площадь  параллелограмма  АВСD,  если  известно,  что  площадь пятиугольника ВКЕРМ  равна 30.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body635511\" class=\"pbody\"><p class=\"left_margin\">На&nbsp; диа­го­на­ли&nbsp; <i>AC</i>&nbsp; па­рал­ле­ло­грам­ма&nbsp; <i>АВСD</i>&nbsp; от­ме­че­ны&nbsp; точки&nbsp; <i>Е</i>&nbsp; и&nbsp; <i>Р</i>,&nbsp; при­чем&nbsp;<i>АЕ</i> : <i>ЕР</i> : <i>РС</i>  =  1 : 2 : 1.&nbsp; Пря­мые&nbsp; <i>DЕ</i>&nbsp; и&nbsp; <i>DР</i>&nbsp; пе­ре­се­ка­ют&nbsp; сто­ро­ны&nbsp; <i>АВ</i>&nbsp; и&nbsp; <i>ВС</i>&nbsp; в&nbsp; точ­ках&nbsp; <i>К</i>&nbsp; и&nbsp; <i>М</i> со­от­вет­ствен­но.&nbsp;&nbsp;</p><p class=\"left_margin\">А)  До­ка­жи­те,&nbsp;что&nbsp;<i>КМ</i>&nbsp;па­рал­лель­на <i>АС</i>.&nbsp;</p><p class=\"left_margin\">Б)  Най­ди­те&nbsp; пло­щадь&nbsp; па­рал­ле­ло­грам­ма&nbsp; <i>АВСD</i>,&nbsp; если&nbsp; из­вест­но,&nbsp; что&nbsp; пло­щадь&nbsp;пя­ти­уголь­ни­ка&nbsp;<i>ВКЕРМ</i>&nbsp;&nbsp;равна&nbsp;30.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Пусть   — точка пересечения диагоналей параллелограмма. Тогда  По теореме Менелая для треугольника BCO и прямой MPD имеем  откуда   Аналогично получим, что   Тогда KM параллельна AC,  поскольку треугольники  и  подобны по углу и отношению двух сторон.б)  Площадь   Заметим, что  Поэтому  Значит,  Ответ: б) 72.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol515211\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/57/57158877c651e39f9a4206a8d8db572c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" O\">  — точка пе­ре­се­че­ния диа­го­на­лей па­рал­ле­ло­грам­ма. Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/0c/0ca83392b9c5d3e4ebeb269141f934ab.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" EO=OP= дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби AC.\"> </p><p class=\"left_margin\">По тео­ре­ме Ме­не­лая для тре­уголь­ни­ка <i>BCO</i> и пря­мой <i>MPD</i> имеем <img src=\"https://ege.sdamgia.ru/formula/svg/69/693777100beb635f8e43e4c4b2f86db8.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: BM, зна­ме­на­тель: MC конец дроби умно­жить на дробь: чис­ли­тель: CP, зна­ме­на­тель: PO конец дроби умно­жить на дробь: чис­ли­тель: OD, зна­ме­на­тель: DB конец дроби =1, \"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/13/13d489afb91d26454c3672b941c38177.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: BM, зна­ме­на­тель: MC конец дроби =2. \">  Ана­ло­гич­но по­лу­чим, что <img src=\"https://ege.sdamgia.ru/formula/svg/e2/e2741468af4ed45c8125bc45705b8ef9.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: BK, зна­ме­на­тель: KA конец дроби =2. \">  Тогда <i>KM</i> па­рал­лель­на <i>AC</i>,  по­сколь­ку тре­уголь­ни­ки <img src=\"https://ege.sdamgia.ru/formula/svg/b7/b7be0195ec75fdee8606a3e516bcfc2d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" KBM\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/12/124717154995833bbfe38034a798d365.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ABC\"> по­доб­ны по углу и от­но­ше­нию двух сто­рон.</p><p><img src=\"/get_file?id=41491\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">б)  Пло­щадь <img src=\"https://ege.sdamgia.ru/formula/svg/c5/c5448aad25b6e6b97cf3ee73f2561426.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\" S_ABCD=2S_ABC.\">  За­ме­тим, что </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/2f/2f8ee4a75b29db6f23ff8f11df8eceac.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" S_CMP=S_AKE= дробь: чис­ли­тель: AK, зна­ме­на­тель: AB конец дроби умно­жить на дробь: чис­ли­тель: AE, зна­ме­на­тель: AC конец дроби S_ABC= дробь: чис­ли­тель: 1, зна­ме­на­тель: 12 конец дроби S_ABC. \"></p><p class=\"left_margin\"></p></center><p> По­это­му </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/8e/8e89fb6f117a690135df77f43f20d8a1.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" S_BKEPM=S_ABC минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 6 конец дроби S_ABC= дробь: чис­ли­тель: 5, зна­ме­на­тель: 6 конец дроби S_ABC. \"></p><p class=\"left_margin\"></p></center><p> Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/e9/e94f661152889f53637e7c67377c47b9.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" S_ABCD= дробь: чис­ли­тель: 12, зна­ме­на­тель: 5 конец дроби S_ABC=72. \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) 72.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/57/57158877c651e39f9a4206a8d8db572c.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0ca83392b9c5d3e4ebeb269141f934ab.svg",
+            "https://ege.sdamgia.ru/formula/svg/69/693777100beb635f8e43e4c4b2f86db8.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/13d489afb91d26454c3672b941c38177.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e2741468af4ed45c8125bc45705b8ef9.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b7be0195ec75fdee8606a3e516bcfc2d.svg",
+            "https://ege.sdamgia.ru/formula/svg/12/124717154995833bbfe38034a798d365.svg",
+            "https://ege.sdamgia.ru/formula/svg/c5/c5448aad25b6e6b97cf3ee73f2561426.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2f8ee4a75b29db6f23ff8f11df8eceac.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8e89fb6f117a690135df77f43f20d8a1.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e94f661152889f53637e7c67377c47b9.svg",
+            "/get_file?id=41491"
+        ]
+    },
+    "answer": "б) 72.",
+    "topic_id": null,
+    "analog_ids": []
+}

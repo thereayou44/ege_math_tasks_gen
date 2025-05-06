@@ -1,0 +1,64 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 26703,
+    "condition": {
+        "text": "Найдите наименьшее значение функции  на отрезке ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919219\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те наи­мень­шее зна­че­ние функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/cd/cd6761ce125828630680b20f387a616d.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\"y=5 тан­генс x минус 5x плюс 6\"> на от­рез­ке <img src=\"https://ege.sdamgia.ru/formula/svg/70/70c08349b4e17dc40cc29ff4a4cf16ba.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" левая квад­рат­ная скоб­ка 0; дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/cd/cd6761ce125828630680b20f387a616d.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/70c08349b4e17dc40cc29ff4a4cf16ba.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Найдем производную заданной функции:  Найденная производная неотрицательна на заданном отрезке, заданная функция возрастает на нем, поэтому наименьшим значением функции на отрезке является   Ответ: 6.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol26703\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Най­дем про­из­вод­ную за­дан­ной функ­ции: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/5a/5a7c14f1b9877b359fa2a97f6ecd24af.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"y'= дробь: чис­ли­тель: 5, зна­ме­на­тель: ко­си­нус в квад­ра­те x конец дроби } минус 5=5 левая круг­лая скоб­ка дробь: чис­ли­тель: 1, зна­ме­на­тель: ко­си­нус в квад­ра­те x конец дроби минус 1 пра­вая круг­лая скоб­ка =5 тан­генс в квад­ра­те x. \"></p><p class=\"left_margin\"></p></center><p> Най­ден­ная про­из­вод­ная не­от­ри­ца­тель­на на за­дан­ном от­рез­ке, за­дан­ная функ­ция воз­рас­та­ет на нем, по­это­му наи­мень­шим зна­че­ни­ем функ­ции на от­рез­ке яв­ля­ет­ся <img src=\"https://ege.sdamgia.ru/formula/svg/57/579197aeb05eb5c54a01d42752ee3023.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y левая круг­лая скоб­ка 0 пра­вая круг­лая скоб­ка =5 тан­генс 0 минус 5 умно­жить на 0 плюс 6=6.\"> </p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 6.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/5a/5a7c14f1b9877b359fa2a97f6ecd24af.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/579197aeb05eb5c54a01d42752ee3023.svg"
+        ]
+    },
+    "answer": "6",
+    "topic_id": 12,
+    "analog_ids": [
+        26703,
+        70587,
+        3603,
+        3605,
+        70587,
+        3603,
+        3605,
+        3607,
+        3609,
+        3611,
+        3613,
+        3615,
+        3617,
+        3619,
+        3621,
+        70539,
+        70541,
+        70543,
+        70545,
+        70547,
+        70549,
+        70551,
+        70553,
+        70555,
+        70557,
+        70559,
+        70561,
+        70563,
+        70565,
+        70567,
+        70569,
+        70571,
+        70573,
+        70575,
+        70577,
+        70579,
+        70581,
+        70583,
+        70585
+    ]
+}

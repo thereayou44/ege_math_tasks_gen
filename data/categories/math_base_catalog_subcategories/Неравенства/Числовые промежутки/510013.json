@@ -1,0 +1,22 @@
+{
+    "id": "510013",
+    "topic": "18",
+    "condition": {
+        "text": "На координатной прямой отмечены точки A, B, C, и D.Каждой точке соответствует одно из чисел в правом столбце. Установите соответствие между указанными точками и числами.ТОЧКИА) AБ) BВ) CГ) DЧИСЛА1) 2) 3) 4) В таблице под каждой буквой укажите соответствующий номер. АБВГ",
+        "images": [
+            "https://mathb-ege.sdamgia.ru/get_file?id=108832",
+            "https://ege.sdamgia.ru/formula/svg/80/80fb1fcb13f95685780b653c45670d1f.svg",
+            "https://ege.sdamgia.ru/formula/svg/05/05489f41d0c233109ff5328c8f62daa7.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dc57e6f0868773b2d3bf271062e4350f.svg",
+            "https://ege.sdamgia.ru/formula/svg/ce/ce31ab0c7ae29dd51ed3da08e0130331.svg"
+        ]
+    },
+    "answer": "2431",
+    "analogs": [
+        "510013",
+        "506790",
+        "509742",
+        "512679"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=510013"
+}

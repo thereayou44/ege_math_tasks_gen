@@ -1,0 +1,35 @@
+{
+    "id": "27284",
+    "topic": "Д15",
+    "condition": {
+        "text": "В треугольнике ABC Найдите",
+        "images": [
+            "https://mathb-ege.sdamgia.ru/get_file?id=1089",
+            "https://ege.sdamgia.ru/formula/svg/ee/ee404b8f71edcc9f5753e8777ce234d9.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/afc9c3d8d99ad905bdf08d1140282e0a.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c6ed112a9eb109891082295b6e83622.svg"
+        ]
+    },
+    "answer": "9,6",
+    "analogs": [
+        "27284",
+        "4829",
+        "19979",
+        "19981",
+        "...",
+        "4829",
+        "19979",
+        "19981",
+        "19983",
+        "19985",
+        "19987",
+        "19989",
+        "19991",
+        "19993",
+        "19995",
+        "19997",
+        "19999",
+        "20001"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=27284"
+}

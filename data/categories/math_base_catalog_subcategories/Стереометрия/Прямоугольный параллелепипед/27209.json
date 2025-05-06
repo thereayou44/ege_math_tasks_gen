@@ -1,0 +1,26 @@
+{
+    "id": "27209",
+    "topic": "Д13",
+    "condition": {
+        "text": "Объем параллелепипеда равен 4,5. Найдите объем треугольной пирамиды",
+        "images": [
+            "https://mathb-ege.sdamgia.ru/get_file?id=910",
+            "https://ege.sdamgia.ru/formula/svg/1f/1f98fd4abe2a7ebc84481105039f3a71.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b3e3d4391b61a14325aeca16b0893652.svg"
+        ]
+    },
+    "answer": "1,5",
+    "analogs": [
+        "27209",
+        "25865",
+        "25861",
+        "25863",
+        "...",
+        "25865",
+        "25861",
+        "25863",
+        "25867",
+        "25869"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=27209"
+}

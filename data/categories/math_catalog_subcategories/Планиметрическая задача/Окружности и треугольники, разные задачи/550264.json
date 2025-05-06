@@ -1,0 +1,25 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 550264,
+    "condition": {
+        "text": "Точка О1  — центр вписанной окружности равнобедренного треугольника АВС, а точка О2  — центр вневписанной окружности, касающейся основания ВС. а)  Докажите, что расстояние от середины отрезка О1О2  до точки С вдвое меньше О1О2. б)  Известно, что радиус первой окружности в пять раз меньше радиуса второй. В каком отношении точка касания первой окружности с боковой стороной треугольника делит эту сторону?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body396164\" class=\"pbody\"><p class=\"left_margin\">Точка <i>О</i><sub>1</sub>  — центр впи­сан­ной окруж­но­сти рав­но­бед­рен­но­го тре­уголь­ни­ка <i>АВС</i>, а точка <i>О</i><sub>2</sub>  — центр внев­пи­сан­ной окруж­но­сти, ка­са­ю­щей­ся ос­но­ва­ния <i>ВС</i>. </p><p class=\"left_margin\">а)  До­ка­жи­те, что рас­сто­я­ние от се­ре­ди­ны от­рез­ка <i>О</i><sub>1</sub><i>О</i><sub>2</sub>  до точки <i>С</i> вдвое мень­ше <i>О</i><sub>1</sub><i>О</i><sub>2</sub>. </p><p class=\"left_margin\">б)  Из­вест­но, что ра­ди­ус пер­вой окруж­но­сти в пять раз мень­ше ра­ди­у­са вто­рой. В каком от­но­ше­нии точка ка­са­ния пер­вой окруж­но­сти с бо­ко­вой сто­ро­ной тре­уголь­ни­ка делит эту сто­ро­ну?</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Пусть M  — середина отрезка O1O2. Заметим, что CO1 и CO2  — биссектрисы внутреннего и внешнего угла при вершине C.  Значит,   Тогда по свойству медиан прямоугольного треугольника б)  Пусть вписанная окружность касается стороны AB  в точке K, вневписанная окружность касается AB в точке N, а точка P  — середина стороны BC. Тогда Следовательно, таким образом,Ответ: б) 1 : 2.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol550264\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=148635\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Пусть <i>M</i>  — се­ре­ди­на от­рез­ка <i>O</i><sub>1</sub><i>O</i><sub>2</sub>. За­ме­тим, что <i>CO</i><sub>1</sub> и <i>CO</i><sub>2</sub>  — бис­сек­три­сы внут­рен­не­го и внеш­не­го угла при вер­ши­не <i>C</i>.  Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/1e/1efe365da77b39c9315b20a556dab900.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"\\angle O_1CO_2 = 90 гра­ду­сов. \">  Тогда по свой­ству ме­ди­ан пря­мо­уголь­но­го тре­уголь­ни­ка <img src=\"https://ege.sdamgia.ru/formula/svg/8f/8f683520aed4611fc5b02f1fd35f480f.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"CM = дробь: чис­ли­тель: O_1O_2, зна­ме­на­тель: 2 конец дроби . \"></p><p class=\"left_margin\">б)  Пусть впи­сан­ная окруж­ность ка­са­ет­ся сто­ро­ны <i>AB</i>  в точке <i>K</i>, внев­пи­сан­ная окруж­ность ка­са­ет­ся <i>AB</i> в точке <i>N</i>, а точка <i>P</i>  — се­ре­ди­на сто­ро­ны <i>BC</i>. Тогда</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/c9/c9fa0b162909e993d23b87643c49df28.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"O_2N:O_1K = 5:1 = AN: AK.\"></p><p class=\"left_margin\"></p></center><p> Сле­до­ва­тель­но, </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/6e/6e6ab16858eddf8574c6ef58894533cd.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AN=5AK, BP=BK=BN,\"></p><p class=\"left_margin\"></p></center><p>таким об­ра­зом,</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/02/0286ea2630a9ee279bec9cdd7a50a84f.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"AK:KB = AK: дробь: чис­ли­тель: AN минус AK, зна­ме­на­тель: 2 конец дроби = AK:2AK = 1:2. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) 1 : 2.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/1e/1efe365da77b39c9315b20a556dab900.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8f683520aed4611fc5b02f1fd35f480f.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c9fa0b162909e993d23b87643c49df28.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6e6ab16858eddf8574c6ef58894533cd.svg",
+            "https://ege.sdamgia.ru/formula/svg/02/0286ea2630a9ee279bec9cdd7a50a84f.svg",
+            "/get_file?id=148635"
+        ]
+    },
+    "answer": "б) 1 : 2.",
+    "topic_id": 17,
+    "analog_ids": []
+}

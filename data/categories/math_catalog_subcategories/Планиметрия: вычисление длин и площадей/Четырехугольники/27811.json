@@ -1,0 +1,50 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27811,
+    "condition": {
+        "text": "Найдите диагональ прямоугольника, две стороны которого равны  и ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918111\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right; margin:10px\" src=\"/get_file?id=1387\">Най­ди­те диа­го­наль пря­мо­уголь­ни­ка, две сто­ро­ны ко­то­ро­го равны <img src=\"https://ege.sdamgia.ru/formula/svg/16/1679091c5a880faf6fb5e6087eb1b2dc.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"6\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/25/25419da0c8dabdf8e3437f3cbbd94fd6.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"8.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/16/1679091c5a880faf6fb5e6087eb1b2dc.svg",
+            "https://ege.sdamgia.ru/formula/svg/25/25419da0c8dabdf8e3437f3cbbd94fd6.svg",
+            "/get_file?id=1387"
+        ]
+    },
+    "solution": {
+        "text": "Решение. по теореме Пифагора диагональ равна   Ответ: 10.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27811\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">по тео­ре­ме Пи­фа­го­ра диа­го­наль равна <img src=\"https://ege.sdamgia.ru/formula/svg/5c/5cfedd5b230f19e78b764fa92f3f9de7.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 6 конец ар­гу­мен­та в квад­ра­те плюс 8 в квад­ра­те =10.\"> </p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 10.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/5c/5cfedd5b230f19e78b764fa92f3f9de7.svg"
+        ]
+    },
+    "answer": "10",
+    "topic_id": null,
+    "analog_ids": [
+        27811,
+        49455,
+        49415,
+        49417,
+        49455,
+        49415,
+        49417,
+        49419,
+        49421,
+        49423,
+        49425,
+        49427,
+        49429,
+        49431,
+        49433,
+        49435,
+        49437,
+        49439,
+        49441,
+        49443,
+        49445,
+        49447,
+        49449,
+        49451,
+        49453
+    ]
+}

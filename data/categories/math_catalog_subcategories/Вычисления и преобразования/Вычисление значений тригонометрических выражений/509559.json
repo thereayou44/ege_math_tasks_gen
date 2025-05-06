@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 509559,
+    "condition": {
+        "text": "Найдите  если ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body632971\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те <img src=\"https://ege.sdamgia.ru/formula/svg/93/93e9bd327a0f71ae07bb4e8ce401da32.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2 ко­си­нус 2 альфа ,\"> если <img src=\"https://ege.sdamgia.ru/formula/svg/b4/b49acba580fc7902b95a37b14785a61e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" синус альфа = минус 0,7.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/93/93e9bd327a0f71ae07bb4e8ce401da32.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b49acba580fc7902b95a37b14785a61e.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Используем формулу косинуса двойного угла:  Получаем: Ответ: 0,04.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol509559\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Ис­поль­зу­ем фор­му­лу ко­си­ну­са двой­но­го угла: <img src=\"https://ege.sdamgia.ru/formula/svg/e5/e5b2b868297bc55f2f12c9c23adca7bb.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­си­нус 2 альфа =1 минус 2 синус в квад­ра­те альфа .\"> По­лу­ча­ем:</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"79d4ff25f7daced2e82e9540a2b31274\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/79/79d4ff25f7daced2e82e9540a2b31274.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"2 ко­си­нус 2 альфа =2 левая круг­лая скоб­ка 1 минус 2 синус в квад­ра­те альфа пра­вая круг­лая скоб­ка =2 умно­жить на левая круг­лая скоб­ка 1 минус 2 умно­жить на левая круг­лая скоб­ка минус 0,7 пра­вая круг­лая скоб­ка в квад­ра­те пра­вая круг­лая скоб­ка =2 умно­жить на левая круг­лая скоб­ка 1 минус 2 умно­жить на 0,49 пра­вая круг­лая скоб­ка =0,04.\"></span><span data-width=\"490\" data-formulahash=\"79d4ff25f7daced2e82e9540a2b31274\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/4a/4a104d433602e85ca39fefb6157bd83e.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"2 ко­си­нус 2 альфа =2 левая круг­лая скоб­ка 1 минус 2 синус в квад­ра­те альфа пра­вая круг­лая скоб­ка =\"><br><img src=\"https://ege.sdamgia.ru/formula/svg/fa/faa6ad849a08f19cef0c386484e1a9a5.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"=2 умно­жить на левая круг­лая скоб­ка 1 минус 2 умно­жить на левая круг­лая скоб­ка минус 0,7 пра­вая круг­лая скоб­ка в квад­ра­те пра­вая круг­лая скоб­ка =2 умно­жить на левая круг­лая скоб­ка 1 минус 2 умно­жить на 0,49 пра­вая круг­лая скоб­ка =0,04.\"></span></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 0,04.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e5/e5b2b868297bc55f2f12c9c23adca7bb.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/79d4ff25f7daced2e82e9540a2b31274.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4a104d433602e85ca39fefb6157bd83e.svg",
+            "https://ege.sdamgia.ru/formula/svg/fa/faa6ad849a08f19cef0c386484e1a9a5.svg"
+        ]
+    },
+    "answer": "0,04",
+    "topic_id": 7,
+    "analog_ids": [
+        509559,
+        509601,
+        665312
+    ]
+}

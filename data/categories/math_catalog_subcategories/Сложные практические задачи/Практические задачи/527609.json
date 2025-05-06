@@ -1,0 +1,26 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 527609,
+    "condition": {
+        "text": "В январе 2005 года ставка по депозитам в банке «Фантазия» составила годовых, тогда как в январе 2006 года  — y% годовых, причем известно, что  В январе 2005 года вкладчик открыл депозитный счёт в банке «Фантазия», положив на него некоторую сумму. В январе 2006 года, по прошествии года со дня открытия счёта, вкладчик снял со счёта пятую часть этой суммы. Укажите значение x, при котором сумма на счёте вкладчика в январе 2007 года станет максимально возможной.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body418309\" class=\"pbody\"><p class=\"left_margin\">В ян­ва­ре 2005 года став­ка по де­по­зи­там в банке «Фан­та­зия» со­ста­ви­ла го­до­вых, тогда как в ян­ва­ре 2006 года  — <i>y</i>% го­до­вых, при­чем из­вест­но, что <img src=\"https://ege.sdamgia.ru/formula/svg/a0/a0f3f511456aa34d609f3d1a48fb11ad.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x плюс y=30.\"> В ян­ва­ре 2005 года вклад­чик от­крыл де­по­зит­ный счёт в банке «Фан­та­зия», по­ло­жив на него не­ко­то­рую сумму. В ян­ва­ре 2006 года, по про­ше­ствии года со дня от­кры­тия счёта, вклад­чик снял со счёта пятую часть этой суммы. Ука­жи­те зна­че­ние <i>x</i>, при ко­то­ром сумма на счёте вклад­чи­ка в ян­ва­ре 2007 года ста­нет мак­си­маль­но воз­мож­ной.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a0/a0f3f511456aa34d609f3d1a48fb11ad.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Пусть вкладчик положил на счет S рублей, тогда за первый год его вклад был умножен на  а за второй год  — на  Учитывая частичное снятие, итоговый размер вклада составит Очевидно наибольшее значение выражения в скобках будет при  то есть при  Ответ: 25.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol527609\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть вклад­чик по­ло­жил на счет <i>S</i> руб­лей, тогда за пер­вый год его вклад был умно­жен на <img src=\"https://ege.sdamgia.ru/formula/svg/4e/4ea242cec183920e8560f21050c9fbd2.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"p= левая круг­лая скоб­ка 1 плюс 0,01x пра­вая круг­лая скоб­ка ,\"> а за вто­рой год  — на </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/c1/c1b0a217b58869b8fb6f60bd1d81d09f.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 1 плюс 0,01y пра­вая круг­лая скоб­ка = левая круг­лая скоб­ка 1,3 минус 0,01x пра­вая круг­лая скоб­ка =2,3 минус p.\"> </p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Учи­ты­вая ча­стич­ное сня­тие, ито­го­вый раз­мер вкла­да со­ста­вит</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/2b/2bca8c018945289a37dd9aa8ec26f9a5.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка pS минус 0,2S пра­вая круг­лая скоб­ка умно­жить на левая круг­лая скоб­ка 2,3 минус p пра­вая круг­лая скоб­ка =S левая круг­лая скоб­ка минус 0,46 плюс 2,5p минус p в квад­ра­те пра­вая круг­лая скоб­ка .\"> </p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Оче­вид­но наи­боль­шее зна­че­ние вы­ра­же­ния в скоб­ках будет при <img src=\"https://ege.sdamgia.ru/formula/svg/d7/d7e390a43260860bee6fbab74b7a6dc5.svg\" class=\"tex\" style=\"vertical-align:-9.2pt\" alt=\"p= минус дробь: чис­ли­тель: 2,5, зна­ме­на­тель: минус 2 конец дроби =1,25, \"> то есть при <img src=\"https://ege.sdamgia.ru/formula/svg/5b/5b1463f1038099a40aaaf04f987eaf21.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=25.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 25.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/4e/4ea242cec183920e8560f21050c9fbd2.svg",
+            "https://ege.sdamgia.ru/formula/svg/c1/c1b0a217b58869b8fb6f60bd1d81d09f.svg",
+            "https://ege.sdamgia.ru/formula/svg/2b/2bca8c018945289a37dd9aa8ec26f9a5.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d7e390a43260860bee6fbab74b7a6dc5.svg",
+            "https://ege.sdamgia.ru/formula/svg/5b/5b1463f1038099a40aaaf04f987eaf21.svg"
+        ]
+    },
+    "answer": "25.",
+    "topic_id": null,
+    "analog_ids": []
+}

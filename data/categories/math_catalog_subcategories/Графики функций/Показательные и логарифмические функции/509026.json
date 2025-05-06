@@ -1,0 +1,49 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 509026,
+    "condition": {
+        "text": "На рисунке изображён график функции  Найдите значение x, при котором ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body633502\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=91935\" style=\"float:right;margin:10px;max-width:100%\">На ри­сун­ке изоб­ражён гра­фик функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/66/66f67554abdacedbeaa20ba7983ec903.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =b плюс ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка a пра­вая круг­лая скоб­ка x.\"> Най­ди­те зна­че­ние <i>x</i>, при ко­то­ром <img src=\"https://ege.sdamgia.ru/formula/svg/55/55b0075d4dac2fe2ebf2302f25d25c6b.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =1.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/66/66f67554abdacedbeaa20ba7983ec903.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/55b0075d4dac2fe2ebf2302f25d25c6b.svg",
+            "/get_file?id=91935"
+        ]
+    },
+    "solution": {
+        "text": "Решение. По рисунку определяем, что   ТогдаЗначит,  Решим уравнение  Ответ: 16.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol509026\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По ри­сун­ку опре­де­ля­ем, что <img src=\"https://ege.sdamgia.ru/formula/svg/6b/6ba20685303e6b4eb9802158457b5549.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка 2 пра­вая круг­лая скоб­ка = минус 2,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/0a/0a68919b212dbe5705ef96d52e67d55f.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка 4 пра­вая круг­лая скоб­ка = минус 1.\"> Тогда</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/38/38a775c41b1ec8ed5a005139721d115c.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний минус 2=b плюс ло­га­рифм по ос­но­ва­нию a 2, минус 1=b плюс ло­га­рифм по ос­но­ва­нию a 4 конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний минус 4=2b плюс 2 ло­га­рифм по ос­но­ва­нию a 2, минус 1=b плюс 2 ло­га­рифм по ос­но­ва­нию a 2 конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний b= минус 3,a=2. конец си­сте­мы . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/49/49d8f33996b6f68dad2de2e95271f21d.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка = минус 3 плюс ло­га­рифм по ос­но­ва­нию 2 x. \"> Решим урав­не­ние  <img src=\"https://ege.sdamgia.ru/formula/svg/c8/c8e64f0a396cc5110c2d300c07965b34.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =1:\"></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/56/563a2e7bcaf185cdec438b1cf416dd0f.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"1= минус 3 плюс ло­га­рифм по ос­но­ва­нию 2 x рав­но­силь­но 4= ло­га­рифм по ос­но­ва­нию 2 x рав­но­силь­но x=16.\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 16.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/6b/6ba20685303e6b4eb9802158457b5549.svg",
+            "https://ege.sdamgia.ru/formula/svg/0a/0a68919b212dbe5705ef96d52e67d55f.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/38a775c41b1ec8ed5a005139721d115c.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/49d8f33996b6f68dad2de2e95271f21d.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c8e64f0a396cc5110c2d300c07965b34.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/563a2e7bcaf185cdec438b1cf416dd0f.svg"
+        ]
+    },
+    "answer": "16",
+    "topic_id": 11,
+    "analog_ids": [
+        509026,
+        509027,
+        509028,
+        509029,
+        509027,
+        509028,
+        509029,
+        509030,
+        509031,
+        509032,
+        509033,
+        509034,
+        509035,
+        509036,
+        509037,
+        509038,
+        509039,
+        509040,
+        509041
+    ]
+}

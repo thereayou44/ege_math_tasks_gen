@@ -1,0 +1,22 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 639619,
+    "condition": {
+        "text": "Найдите объем пирамиды, вписанной в куб, если ребро куба равно 3.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body502911\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=127850\" style=\"float:right;margin:10px;max-width:100%\">Най­ди­те объем пи­ра­ми­ды, впи­сан­ной в куб, если ребро куба равно 3.</p></div>",
+        "image_urls": [
+            "/get_file?id=127850"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Площадь основания пирамиды равна площади одной грани куба, а высота пирамиды равна ребру куба. Имеем:Ответ: 9.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol639619\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пло­щадь ос­но­ва­ния пи­ра­ми­ды равна пло­ща­ди одной грани куба, а вы­со­та пи­ра­ми­ды равна ребру куба. Имеем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d2/d21e7f465c4a828463844ff65d820575.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"V = дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби S_осн умно­жить на h = дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби умно­жить на 3 в квад­ра­те умно­жить на 3 = 9.\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 9.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d2/d21e7f465c4a828463844ff65d820575.svg"
+        ]
+    },
+    "answer": "9",
+    "topic_id": 3,
+    "analog_ids": []
+}

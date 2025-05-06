@@ -1,0 +1,34 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 514522,
+    "condition": {
+        "text": "Квадрат ABCD вписан в окружность. Хорда CE пересекает его диагональ BD в точке K.а)  Докажите, что б)  Найдите отношение CK и KE, если ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body636710\" class=\"pbody\"><p class=\"left_margin\">Квад­рат <i>ABCD</i> впи­сан в окруж­ность. Хорда <i>CE</i> пе­ре­се­ка­ет его диа­го­наль <i>BD</i> в точке <i>K</i>.</p><p class=\"left_margin\">а)  До­ка­жи­те, что <img src=\"https://ege.sdamgia.ru/formula/svg/87/872941229dc83637d1383d175a189fdb.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"CK умно­жить на CE=AB умно­жить на CD.\"></p><p class=\"left_margin\">б)  Най­ди­те от­но­ше­ние <i>CK</i> и <i>KE</i>, если <img src=\"https://ege.sdamgia.ru/formula/svg/6f/6f6a68ae1f34cb2a3a89c13fc46b0616.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle ECD=15 гра­ду­сов.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/87/872941229dc83637d1383d175a189fdb.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6f6a68ae1f34cb2a3a89c13fc46b0616.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  В треугольниках CKD и CDE угол KCD  — общий, Значит, эти треугольники подобны, откудаб)  В треугольнике CKD имеем:   откуда  Из подобия треугольников CKD и CDE получаем, что  В треугольнике CKD имеем:то есть  откуда CK : KE = 2 : 1. Ответ: б) 2 : 1.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol514522\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=150092\" style=\"float:right;margin:10px;max-width:100%\">а)  В тре­уголь­ни­ках <i>CKD</i> и <i>CDE</i> угол <i>KCD</i>  — общий,</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/3a/3a1d38cf5111e14e5a27d1cbdd824c55.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle CED = \\angle CBD = \\angle BDC=45 гра­ду­сов.\"></p><p class=\"left_margin\"></p></center><p> Зна­чит, эти тре­уголь­ни­ки по­доб­ны, от­ку­да</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/6e/6e7abd0fcf906f17ced259964fd4d09b.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: CK, зна­ме­на­тель: CD конец дроби = дробь: чис­ли­тель: CD, зна­ме­на­тель: CE конец дроби рав­но­силь­но CK умно­жить на CE=CD в квад­ра­те рав­но­силь­но CK умно­жить на CE= AB умно­жить на CD. \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">б)  В тре­уголь­ни­ке <i>CKD</i> имеем: <img src=\"https://ege.sdamgia.ru/formula/svg/df/df19b27b37d8838c68aa2aa93b463ce3.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle KCD=15 гра­ду­сов,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/33/338699ab36145a99e920e811c2b1ce8b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle CDK=45 гра­ду­сов,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/23/23a81b3aca8df13085c9dbd2d8d013af.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle CKD=120 гра­ду­сов.\"> Из по­до­бия тре­уголь­ни­ков <i>CKD</i> и <i>CDE</i> по­лу­ча­ем, что <img src=\"https://ege.sdamgia.ru/formula/svg/b7/b74c8c74514b5340615bbab86e831bcd.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: CD, зна­ме­на­тель: CE конец дроби = дробь: чис­ли­тель: CK, зна­ме­на­тель: CD конец дроби . \"> В тре­уголь­ни­ке <i>CKD</i> имеем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/2e/2e031f7edbcfd5e5f37d67ef3d800fc0.svg\" class=\"tex\" style=\"vertical-align:-9.4pt\" alt=\" дробь: чис­ли­тель: CK, зна­ме­на­тель: CD конец дроби = дробь: чис­ли­тель: синус 45 гра­ду­сов, зна­ме­на­тель: синус 120 гра­ду­сов конец дроби = ко­рень из: на­ча­ло ар­гу­мен­та: дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби конец ар­гу­мен­та , \"></p><p class=\"left_margin\"></p></center><p>то есть </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f9/f97f7392ecd482daf38cfd63b905f391.svg\" class=\"tex\" style=\"vertical-align:-9.4pt\" alt=\"CK:CE= дробь: чис­ли­тель: CK, зна­ме­на­тель: CD конец дроби : дробь: чис­ли­тель: CE, зна­ме­на­тель: CD конец дроби = ко­рень из: на­ча­ло ар­гу­мен­та: дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби конец ар­гу­мен­та : ко­рень из: на­ча­ло ар­гу­мен­та: дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби конец ар­гу­мен­та =2:3, \"> </p><p class=\"left_margin\"></p></center><p>от­ку­да <i>CK</i> : <i>KE</i> = 2 : 1.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) 2 : 1.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/3a/3a1d38cf5111e14e5a27d1cbdd824c55.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6e7abd0fcf906f17ced259964fd4d09b.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/df19b27b37d8838c68aa2aa93b463ce3.svg",
+            "https://ege.sdamgia.ru/formula/svg/33/338699ab36145a99e920e811c2b1ce8b.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/23a81b3aca8df13085c9dbd2d8d013af.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b74c8c74514b5340615bbab86e831bcd.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2e031f7edbcfd5e5f37d67ef3d800fc0.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f97f7392ecd482daf38cfd63b905f391.svg",
+            "/get_file?id=150092"
+        ]
+    },
+    "answer": "б) 2 : 1.",
+    "topic_id": 17,
+    "analog_ids": [
+        514522,
+        514557
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 635151,
+    "condition": {
+        "text": "Из двух городов, расстояние между которыми 720 км, по параллельным путям отправляются навстречу друг другу два поезда и встречаются на середине пути. Второй поезд вышел на 1 ч позже первого со скоростью, на 4 км/ч большей, чем скорость первого поезда. Найдите скорость второго поезда. Ответ дайте в км/ч.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body516083\" class=\"pbody\"><p class=\"left_margin\">Из двух го­ро­дов, рас­сто­я­ние между ко­то­ры­ми 720 км, по па­рал­лель­ным путям от­прав­ля­ют­ся нав­стре­чу друг другу два по­ез­да и встре­ча­ют­ся на се­ре­ди­не пути. Вто­рой поезд вышел на 1 ч позже пер­во­го со ско­ро­стью, на 4 км/ч боль­шей, чем ско­рость пер­во­го по­ез­да. Най­ди­те ско­рость вто­ро­го по­ез­да. Ответ дайте <nobr>в км/ч.</nobr></p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Пусть скорость первого поезда равна x км/ч, тогда он проходит свой путь за  ч. Скорость второго поезда равна x + 4 км/ч. Второй поезд проходит путь за  ч. Второй поезд вышел на 1 ч позже первого, тогда Таким образом, скорость второго поезда равна 36 + 4  =  40 км/ч. Ответ: 40.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol635151\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть ско­рость пер­во­го по­ез­да равна <nobr><i>x</i> км/ч,</nobr> тогда он про­хо­дит свой путь за <img src=\"https://ege.sdamgia.ru/formula/svg/fd/fd55c266e80e143607a37586280ee639.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 360, зна­ме­на­тель: x конец дроби \"> ч. Ско­рость вто­ро­го по­ез­да равна <nobr><i>x</i> + 4 км/ч.</nobr> Вто­рой поезд про­хо­дит путь за <img src=\"https://ege.sdamgia.ru/formula/svg/c7/c758767b74c33af3bc7dd06d846a11ac.svg\" class=\"tex\" style=\"vertical-align:-9.2pt\" alt=\" дробь: чис­ли­тель: 360, зна­ме­на­тель: x плюс 4 конец дроби \"> ч. Вто­рой поезд вышел на 1 ч позже пер­во­го, тогда </p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"b0457860cf3a5207a58859369bc1ec46\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/84/84bad8b77ae6833604505fd1de4dbd7c.svg\" class=\"tex\" style=\"vertical-align:-9.2pt\" alt=\" дробь: чис­ли­тель: 360, зна­ме­на­тель: x конец дроби = дробь: чис­ли­тель: 360, зна­ме­на­тель: x плюс 4 конец дроби плюс 1 \\undersetx боль­ше 0\\mathop рав­но­силь­но 360 левая круг­лая скоб­ка x плюс 4 пра­вая круг­лая скоб­ка =360x плюс x левая круг­лая скоб­ка x плюс 4 пра­вая круг­лая скоб­ка рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/7e/7ed79336c1ceaac868159a666de217a4.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" рав­но­силь­но 360x плюс 1440=360x плюс x в квад­ра­те плюс 4x рав­но­силь­но x в квад­ра­те плюс 4x минус 1440=0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний x=36,x= минус 40 конец со­во­куп­но­сти . \\undersetx боль­ше 0\\mathop рав­но­силь­но x=36.\"></span><span data-width=\"515\" data-formulahash=\"b0457860cf3a5207a58859369bc1ec46\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/84/84bad8b77ae6833604505fd1de4dbd7c.svg\" class=\"tex\" style=\"vertical-align:-9.2pt\" alt=\" дробь: чис­ли­тель: 360, зна­ме­на­тель: x конец дроби = дробь: чис­ли­тель: 360, зна­ме­на­тель: x плюс 4 конец дроби плюс 1 \\undersetx боль­ше 0\\mathop рав­но­силь­но 360 левая круг­лая скоб­ка x плюс 4 пра­вая круг­лая скоб­ка =360x плюс x левая круг­лая скоб­ка x плюс 4 пра­вая круг­лая скоб­ка рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/4c/4c1ec1728875893f6368702e49a724b1.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" рав­но­силь­но 360x плюс 1440=360x плюс x в квад­ра­те плюс 4x рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/9d/9d8694e9420484f62c017d2811923236.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" рав­но­силь­но x в квад­ра­те плюс 4x минус 1440=0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний x=36,x= минус 40 конец со­во­куп­но­сти . \\undersetx боль­ше 0\\mathop рав­но­силь­но x=36.\"></span></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Таким об­ра­зом, ско­рость вто­ро­го по­ез­да равна <nobr>36 + 4  =  40 км/ч.</nobr></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 40.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/fd/fd55c266e80e143607a37586280ee639.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c758767b74c33af3bc7dd06d846a11ac.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/84bad8b77ae6833604505fd1de4dbd7c.svg",
+            "https://ege.sdamgia.ru/formula/svg/7e/7ed79336c1ceaac868159a666de217a4.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/84bad8b77ae6833604505fd1de4dbd7c.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c1ec1728875893f6368702e49a724b1.svg",
+            "https://ege.sdamgia.ru/formula/svg/9d/9d8694e9420484f62c017d2811923236.svg"
+        ]
+    },
+    "answer": "40",
+    "topic_id": 10,
+    "analog_ids": []
+}

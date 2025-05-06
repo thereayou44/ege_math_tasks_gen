@@ -1,0 +1,63 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 26859,
+    "condition": {
+        "text": "Найдите значение выражения ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919063\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те зна­че­ние вы­ра­же­ния <img src=\"https://ege.sdamgia.ru/formula/svg/6c/6cade1cf1cb5cd47f938519a88e45de6.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\" дробь: чис­ли­тель: \\log _35, зна­ме­на­тель: \\log _37 конец дроби плюс \\log _70,2. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/6c/6cade1cf1cb5cd47f938519a88e45de6.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Выполним преобразования:   Ответ: 0.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol26859\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Вы­пол­ним пре­об­ра­зо­ва­ния: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/4d/4dbe868d0081dde321400e727e0be2b6.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\" дробь: чис­ли­тель: \\log _35, зна­ме­на­тель: \\log _37 конец дроби плюс \\log _70,2 = \\log _75 плюс \\log _70,2=\\log _71=0. \"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 0.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/4d/4dbe868d0081dde321400e727e0be2b6.svg"
+        ]
+    },
+    "answer": "0",
+    "topic_id": 7,
+    "analog_ids": [
+        26859,
+        69201,
+        69205,
+        642322,
+        69201,
+        69205,
+        642322,
+        642401,
+        665313,
+        69157,
+        69159,
+        69161,
+        69163,
+        69165,
+        69167,
+        69169,
+        69171,
+        69173,
+        69175,
+        69177,
+        69179,
+        69181,
+        69183,
+        69185,
+        69187,
+        69189,
+        69191,
+        69193,
+        69195,
+        69197,
+        69199,
+        69203,
+        642465,
+        642466,
+        642535,
+        642536,
+        642605,
+        642606,
+        642675,
+        642676
+    ]
+}

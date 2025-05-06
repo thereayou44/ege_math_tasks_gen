@@ -1,0 +1,38 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 630123,
+    "condition": {
+        "text": "В параллелограмме ABCD угол BAC вдвое больше угла CAD. Биссектриса угла BAC пересекает отрезок BC в точке L. На продолжении стороны CD за точку D выбрана такая точка E, что а)  Докажите, что б)  Найдите EL, если  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body521111\" class=\"pbody\"><p class=\"left_margin\">В па­рал­ле­ло­грам­ме <i>ABCD</i> угол <i>BAC</i> вдвое боль­ше угла <i>CAD</i>. Бис­сек­три­са угла <i>BAC</i> пе­ре­се­ка­ет от­ре­зок <i>BC</i> в точке <i>L</i>. На про­дол­же­нии сто­ро­ны <i>CD</i> за точку <i>D</i> вы­бра­на такая точка <i>E</i>, что <img src=\"https://ege.sdamgia.ru/formula/svg/3f/3f1260b814d4d3f6ed12214998312509.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AE=CE.\"></p><p class=\"left_margin\">а)  До­ка­жи­те, что <img src=\"https://ege.sdamgia.ru/formula/svg/9e/9ebe97ad038293de4d9cac4b745bab1d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AL умно­жить на BC=AB умно­жить на AC.\"></p><p class=\"left_margin\">б)  Най­ди­те <i>EL</i>, если <img src=\"https://ege.sdamgia.ru/formula/svg/93/934739942fd9a95261fa2d1004716566.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AC=8,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/74/74b9fcd8fd9c014542eb44050bed8351.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" тан­генс \\angle BCA = дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/3f/3f1260b814d4d3f6ed12214998312509.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9ebe97ad038293de4d9cac4b745bab1d.svg",
+            "https://ege.sdamgia.ru/formula/svg/93/934739942fd9a95261fa2d1004716566.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/74b9fcd8fd9c014542eb44050bed8351.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Из условия следует, что  Пусть площадь параллелограмма ABCD равна   Треугольник ALD имеет общие с параллелограммом ABCD высоту и основание, следовательно,  Таким образом, б)  Пусть O  — точка пересечения диагоналей параллелограмма. Тогда О делит диагонали пополам. Треугольник ACE  — равнобедренный, следовательно, EO и AC взаимно перпендикулярны. Из условия следует, что  Таким образом, треугольник ALC  — равнобедренный,  следовательно, EL проходит через точку O. Получаем:откуда  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol630123\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=111795\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Из усло­вия сле­ду­ет, что <img src=\"https://ege.sdamgia.ru/formula/svg/98/98281b6115bb00d07f3169e7a689dd25.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" \\angle CAD = \\angle CAL = \\angle LAB = альфа .\"> Пусть пло­щадь па­рал­ле­ло­грам­ма <i>ABCD</i> равна  <img src=\"https://ege.sdamgia.ru/formula/svg/43/435bdf0e1c60922ffda2971b4e64a9fe.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"S= 2S_ABC= AB умно­жить на AC умно­жить на синус 2 альфа .\"> Тре­уголь­ник <i>ALD</i> имеет общие с па­рал­ле­ло­грам­мом <i>ABCD</i> вы­со­ту и ос­но­ва­ние, сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/e4/e488442431a1b8dc9dfa5f29c034aa85.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"S=2S_ALD=AL умно­жить на AD умно­жить на синус 2 альфа .\"> Таким об­ра­зом, <img src=\"https://ege.sdamgia.ru/formula/svg/2f/2f9bbc45d9a27a97f3a3e51d888fb69a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AB умно­жить на AC =AL умно­жить на AD=AL умно­жить на BC.\"></p><p class=\"left_margin\">б)  Пусть <i>O</i>  — точка пе­ре­се­че­ния диа­го­на­лей па­рал­ле­ло­грам­ма. Тогда <i>О</i> делит диа­го­на­ли по­по­лам. Тре­уголь­ник <i>ACE</i>  — рав­но­бед­рен­ный, сле­до­ва­тель­но, <i>EO</i> и <i>AC</i> вза­им­но пер­пен­ди­ку­ляр­ны. Из усло­вия сле­ду­ет, что <img src=\"https://ege.sdamgia.ru/formula/svg/96/964a83b25a0fb865a462a5af976e6c62.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle LCA =\\angle CAD = \\angle CAL = альфа .\"> Таким об­ра­зом, тре­уголь­ник <i>ALC</i>  — рав­но­бед­рен­ный, <img src=\"https://ege.sdamgia.ru/formula/svg/4f/4f4604a3f1bffbc41de3490d4e8b328c.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"LO \\perp AC,\"> сле­до­ва­тель­но, <i>EL</i> про­хо­дит через точку <i>O</i>. По­лу­ча­ем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/b3/b368de8d9821312b4cf15f7d5e75ef78.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"LO= AO умно­жить на тан­генс альфа = дробь: чис­ли­тель: AC, зна­ме­на­тель: 2 конец дроби тан­генс альфа =2, \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/28/28e2805467d2d90207d0db3110240be6.svg\" class=\"tex\" style=\"vertical-align:-10.7pt\" alt=\"EO = AO умно­жить на тан­генс 2 альфа = AO умно­жить на дробь: чис­ли­тель: 2 тан­генс альфа , зна­ме­на­тель: 1 минус тан­генс в квад­ра­те альфа конец дроби = дробь: чис­ли­тель: 16, зна­ме­на­тель: 3 конец дроби , \"></p><p class=\"left_margin\"></p></center><p>от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/b3/b392115ad2458b3c13e7cbf71e2b7356.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"EL= LO плюс EO = дробь: чис­ли­тель: 22, зна­ме­на­тель: 3 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/2b/2bdfb9d5caa6406f87c36477867a09e7.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 22, зна­ме­на­тель: 3 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/98/98281b6115bb00d07f3169e7a689dd25.svg",
+            "https://ege.sdamgia.ru/formula/svg/43/435bdf0e1c60922ffda2971b4e64a9fe.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e488442431a1b8dc9dfa5f29c034aa85.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2f9bbc45d9a27a97f3a3e51d888fb69a.svg",
+            "https://ege.sdamgia.ru/formula/svg/96/964a83b25a0fb865a462a5af976e6c62.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4f4604a3f1bffbc41de3490d4e8b328c.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b368de8d9821312b4cf15f7d5e75ef78.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/28e2805467d2d90207d0db3110240be6.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b392115ad2458b3c13e7cbf71e2b7356.svg",
+            "https://ege.sdamgia.ru/formula/svg/2b/2bdfb9d5caa6406f87c36477867a09e7.svg",
+            "/get_file?id=111795"
+        ]
+    },
+    "answer": "",
+    "topic_id": 17,
+    "analog_ids": [
+        630123,
+        630159
+    ]
+}

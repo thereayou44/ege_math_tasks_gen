@@ -1,0 +1,51 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 505693,
+    "condition": {
+        "text": "a1, a2, a3, ... – возрастающая последовательность натуральных чисел. Известно, что  для любого  Найти:а)  a100;б)  a1983.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body645537\" class=\"pbody\"><p class=\"left_margin\"><i>a</i><sub>1</sub>, <i>a</i><sub>2</sub>, <i>a</i><sub>3</sub>, ... – воз­рас­та­ю­щая по­сле­до­ва­тель­ность на­ту­раль­ных чисел. Из­вест­но, что <img src=\"https://ege.sdamgia.ru/formula/svg/d5/d52eb048c47a559ed6c26760109d8fa4.svg\" class=\"tex\" style=\"vertical-align:-3.9pt\" alt=\"a_a_k=3k\"> для лю­бо­го <img src=\"https://ege.sdamgia.ru/formula/svg/00/00884c5e389a26ffde2fb1e712dac2e2.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"k.\"> Найти:</p><p class=\"left_margin\">а)  <i>a</i><sub>100</sub>;</p><p class=\"left_margin\">б)  <i>a</i><sub>1983</sub>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d5/d52eb048c47a559ed6c26760109d8fa4.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/00884c5e389a26ffde2fb1e712dac2e2.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)   Сразу заметим, что последовательность ak строго возрастает. Действительно, предположение  немедленно приводит к противоречию:  Кроме того,  (в противном случае ).  Отсюда следует, что  для всех  С другой стороны,    Поэтому               А поскольку   то  для всех k от 81 до 162.  В частности, б)     Поскольку  то  для всех k от 243 до 486. В частности,  а значит,   ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol505693\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)   Сразу за­ме­тим, что по­сле­до­ва­тель­ность <i>a<sub>k</sub></i> стро­го воз­рас­та­ет. Дей­стви­тель­но, пред­по­ло­же­ние <img src=\"https://ege.sdamgia.ru/formula/svg/83/837bee27eee96b554d27c4d5c20cab55.svg\" class=\"tex\" style=\"vertical-align:-3.3pt\" alt=\"a_k=a_k плюс 1=n\"> не­мед­лен­но при­во­дит к про­ти­во­ре­чию: <img src=\"https://ege.sdamgia.ru/formula/svg/f4/f43b87781a7928db9f3a453ff4bee042.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"a_n=3k=3 левая круг­лая скоб­ка k плюс 1 пра­вая круг­лая скоб­ка .\"> Кроме того, <img src=\"https://ege.sdamgia.ru/formula/svg/2b/2b408af9dce2633adb4be161f3200ca3.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"a_1 боль­ше 1\"> (в про­тив­ном слу­чае <img src=\"https://ege.sdamgia.ru/formula/svg/bf/bf22552aa8ee7190aba3fcc1273a5c47.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\"a_a_1=a_1=1 не равно 3\">).  От­сю­да сле­ду­ет, что <img src=\"https://ege.sdamgia.ru/formula/svg/e8/e89221f95be17c59cca8a253b7dd85e8.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"a_k боль­ше k\"> для всех <img src=\"https://ege.sdamgia.ru/formula/svg/00/00884c5e389a26ffde2fb1e712dac2e2.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"k.\"> С дру­гой сто­ро­ны,  <img src=\"https://ege.sdamgia.ru/formula/svg/06/068ad13f25acdb1f91c819f6c79711a7.svg\" class=\"tex\" style=\"vertical-align:-3.8pt\" alt=\"a_1 мень­ше a_a_1 = 3.\">  По­это­му  <img src=\"https://ege.sdamgia.ru/formula/svg/ba/ba837bae840fe45665fe5f53cf0ef408.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a_1=2,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/b5/b5343db856e90d60b479bd38e2464a3a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a_2=3,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/83/8399001e9c23322ccf66ffa7f39a05e8.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a_3=6,\">  <img src=\"https://ege.sdamgia.ru/formula/svg/34/34d7955ad99eb952056a9bd810a8594d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a_6=9,\">  <img src=\"https://ege.sdamgia.ru/formula/svg/49/49d96a2ba1762d60f372c487aff27afe.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a_9=18,\">  <img src=\"https://ege.sdamgia.ru/formula/svg/4c/4c9ca3b6f1e9d10f6a12bd478fa5c104.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a_18=27,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/15/154864dbc58bb51aae4fe1405f123b2c.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a_27=54,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/4f/4f48b2b0ad0a087fba97549fc1d74ed5.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a_54=81,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/d2/d2e9d6d8c8a7875fe02a0b60c49696bf.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a_81=162,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/cb/cb6d63ff0fb9c8bef4375b7970a926be.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"a_162=243.\"> А по­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/07/07fa9d282ac62ecf48d674269531dda2.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"162 минус 81=243 минус 162,\">  то <img src=\"https://ege.sdamgia.ru/formula/svg/8b/8b2b4065afb5085ed29c7b84a8351e6f.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"a_k=81 плюс k\"> для всех <i>k</i> от 81 до 162.  В част­но­сти, <img src=\"https://ege.sdamgia.ru/formula/svg/30/30a650f6d67a3f7e50608eb9b21ac4ae.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"a_100=181.\"></p><p class=\"left_margin\">б)  <img src=\"https://ege.sdamgia.ru/formula/svg/0e/0e804caea4b9a3d0bb24ebd3c2886658.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a_162=243,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/71/719edcae1ffed62ac044f234593b68bf.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a_243=486,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/30/3010af026ad9ea8a632e267521aedf20.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"a_486=729.\"> По­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/41/4190b37fe2f819eeb3fac1df7d9ea5de.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"729 минус 486=486 минус 243,\"> то <img src=\"https://ege.sdamgia.ru/formula/svg/2f/2ff2f50f9d32a62127e90dbbabc0fac4.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"a_k=243 плюс k\"> для всех <i>k</i> от 243 до 486. В част­но­сти, <img src=\"https://ege.sdamgia.ru/formula/svg/a7/a71f4e93e7ff253fed9a639b065a668d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a_418=661,\"> а зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/3c/3c246672f78b845ceb3a49209a209bf6.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a_661=1254,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/5c/5cc86d285d8f87ae03a467e2c518a3fe.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a_1254=1983,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/0c/0ceef8d43b6746956f0ba9a3a7065762.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"a_1983=3762.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/83/837bee27eee96b554d27c4d5c20cab55.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f43b87781a7928db9f3a453ff4bee042.svg",
+            "https://ege.sdamgia.ru/formula/svg/2b/2b408af9dce2633adb4be161f3200ca3.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bf22552aa8ee7190aba3fcc1273a5c47.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e89221f95be17c59cca8a253b7dd85e8.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/00884c5e389a26ffde2fb1e712dac2e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/068ad13f25acdb1f91c819f6c79711a7.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/ba837bae840fe45665fe5f53cf0ef408.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b5343db856e90d60b479bd38e2464a3a.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/8399001e9c23322ccf66ffa7f39a05e8.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/34d7955ad99eb952056a9bd810a8594d.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/49d96a2ba1762d60f372c487aff27afe.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c9ca3b6f1e9d10f6a12bd478fa5c104.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/154864dbc58bb51aae4fe1405f123b2c.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4f48b2b0ad0a087fba97549fc1d74ed5.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d2e9d6d8c8a7875fe02a0b60c49696bf.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cb6d63ff0fb9c8bef4375b7970a926be.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/07fa9d282ac62ecf48d674269531dda2.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8b2b4065afb5085ed29c7b84a8351e6f.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/30a650f6d67a3f7e50608eb9b21ac4ae.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0e804caea4b9a3d0bb24ebd3c2886658.svg",
+            "https://ege.sdamgia.ru/formula/svg/71/719edcae1ffed62ac044f234593b68bf.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/3010af026ad9ea8a632e267521aedf20.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/4190b37fe2f819eeb3fac1df7d9ea5de.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2ff2f50f9d32a62127e90dbbabc0fac4.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a71f4e93e7ff253fed9a639b065a668d.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3c246672f78b845ceb3a49209a209bf6.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5cc86d285d8f87ae03a467e2c518a3fe.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0ceef8d43b6746956f0ba9a3a7065762.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

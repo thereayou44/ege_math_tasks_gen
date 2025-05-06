@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 507319,
+    "condition": {
+        "text": "Площадь боковой поверхности правильной четырёхугольной пирамиды SABCD равна 108, а площадь полной поверхности этой пирамиды равна 144. а)  Докажите, что высота этой пирамиды равна диагонали её основания.б)  Найдите площадь сечения, проходящего через вершину S этой пирамиды и через диагональ её основания.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body643915\" class=\"pbody\"><p class=\"left_margin\">Пло­щадь бо­ко­вой по­верх­но­сти пра­виль­ной четырёхуголь­ной пи­ра­ми­ды <i>SABCD</i> равна 108, а пло­щадь пол­ной по­верх­но­сти этой пи­ра­ми­ды равна 144. </p><p class=\"left_margin\">а)  До­ка­жи­те, что вы­со­та этой пи­ра­ми­ды равна диа­го­на­ли её ос­но­ва­ния.</p><p class=\"left_margin\">б)  Най­ди­те пло­щадь се­че­ния, про­хо­дя­ще­го через вер­ши­ну <i>S</i> этой пи­ра­ми­ды и через диа­го­наль её ос­но­ва­ния.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Площадь основания пирамиды равна 144 − 108 = 36, поэтому AB = 6. Площадь боковой грани равна  Пусть SM  — высота грани SAB. Тогда  поэтому SM = 9. Пусть SH  — высота пирамиды. ИмеемОднако диагональ квадрата ABCD тоже равна  б)  Из пункта а) получаем:   Ответ: 36.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol507319\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=132542\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Пло­щадь ос­но­ва­ния пи­ра­ми­ды равна 144 − 108 = 36, по­это­му <i>AB</i> = 6. Пло­щадь бо­ко­вой грани равна <img src=\"https://ege.sdamgia.ru/formula/svg/d3/d33c65690495447e7dcffb6593b35886.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 108, зна­ме­на­тель: 4 конец дроби =27.\"> Пусть <i>SM</i>  — вы­со­та грани <i>SAB</i>. Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/ff/ff57ccbbd76827af896626977c57537c.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"S_SAB= дробь: чис­ли­тель: SM умно­жить на AB, зна­ме­на­тель: 2 конец дроби =SM умно­жить на 3=27,\"> по­это­му <i>SM</i> = 9. Пусть <i>SH</i>  — вы­со­та пи­ра­ми­ды. Имеем</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/4b/4bf138bd359d5f2a3ec5ad258bc833e6.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"SH= ко­рень из: на­ча­ло ар­гу­мен­та: SM в квад­ра­те минус MH в квад­ра­те конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 72 конец ар­гу­мен­та =6 ко­рень из 2 .\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Од­на­ко диа­го­наль квад­ра­та <i>ABCD</i> тоже равна <img src=\"https://ege.sdamgia.ru/formula/svg/45/45cbfdea90c9b733b7d04f0884abb195.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 6 в квад­ра­те плюс 6 в квад­ра­те конец ар­гу­мен­та =6 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та .\"></p><p>&nbsp;</p><p class=\"left_margin\">б)  Из пунк­та а) по­лу­ча­ем:  <img src=\"https://ege.sdamgia.ru/formula/svg/ee/ee5ff6a43517711147962ad32b1c0d72.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"S_SAC= дробь: чис­ли­тель: SH умно­жить на AC, зна­ме­на­тель: 2 конец дроби =6 ко­рень из 2 умно­жить на 3 ко­рень из 2 =36.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 36.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d3/d33c65690495447e7dcffb6593b35886.svg",
+            "https://ege.sdamgia.ru/formula/svg/ff/ff57ccbbd76827af896626977c57537c.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4bf138bd359d5f2a3ec5ad258bc833e6.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/45cbfdea90c9b733b7d04f0884abb195.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/ee5ff6a43517711147962ad32b1c0d72.svg",
+            "/get_file?id=132542"
+        ]
+    },
+    "answer": "36.",
+    "topic_id": 14,
+    "analog_ids": [
+        507319,
+        511421
+    ]
+}

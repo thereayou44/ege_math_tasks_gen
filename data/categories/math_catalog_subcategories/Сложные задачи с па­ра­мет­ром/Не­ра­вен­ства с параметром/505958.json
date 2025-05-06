@@ -1,0 +1,31 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 505958,
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых неравенствовыполняется для любых пар (x; y), таких, что | x | = | y |.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body644762\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния па­ра­мет­ра <i>a</i>, при каж­дом из ко­то­рых не­ра­вен­ство</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/77/77ba3503ced2544d4e8c8d819cd1a10d.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"25y в квад­ра­те плюс дробь: чис­ли­тель: 1, зна­ме­на­тель: 100 конец дроби боль­ше или равно x минус axy плюс y минус 25x в квад­ра­те \"></p><p class=\"left_margin\"></p></center><p>вы­пол­ня­ет­ся для любых пар (<i>x</i>; <i>y</i>), таких, что | <i>x</i> | = | <i>y</i> |.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/77/77ba3503ced2544d4e8c8d819cd1a10d.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Случай 1.  Тогда требуется, чтобы при всех x выполнялось  Значит,  и  откуда Случай 2.  Тогда требуется, чтобы при всех x выполнялось  Значит, Совмещая эти условия, получаем, что  Ответ:  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol505958\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Слу­чай 1. <img src=\"https://ege.sdamgia.ru/formula/svg/72/7276133e9589411af8b6a8e74609bec3.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x=y.\"> Тогда тре­бу­ет­ся, чтобы при всех <i>x</i> вы­пол­ня­лось <img src=\"https://ege.sdamgia.ru/formula/svg/4e/4ed7634003164a612c21da512e0a032d.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" левая круг­лая скоб­ка 50 плюс a пра­вая круг­лая скоб­ка x в квад­ра­те минус 2x плюс дробь: чис­ли­тель: 1, зна­ме­на­тель: 100 конец дроби боль­ше или равно 0. \"> Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/f2/f22478044840f85a8eb9798224ef1d73.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a боль­ше минус 50\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/d1/d1f028a1b3295d1cca282450b55afc8a.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"4 минус дробь: чис­ли­тель: 4 левая круг­лая скоб­ка 50 плюс a пра­вая круг­лая скоб­ка , зна­ме­на­тель: 100 конец дроби мень­ше или равно 0, \"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/0b/0bc4c6255a8f03b7e19c781a9e6ad32c.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"a боль­ше или равно 50.\"></p><p class=\"left_margin\">Слу­чай 2. <img src=\"https://ege.sdamgia.ru/formula/svg/ba/ba3953a31c2f7e4224cf3d56457820e4.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x= минус y.\"> Тогда тре­бу­ет­ся, чтобы при всех <i>x</i> вы­пол­ня­лось <img src=\"https://ege.sdamgia.ru/formula/svg/64/647323a2809921015a87095fa9283e6e.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" левая круг­лая скоб­ка 50 минус a пра­вая круг­лая скоб­ка x в квад­ра­те плюс дробь: чис­ли­тель: 1, зна­ме­на­тель: 100 конец дроби боль­ше или равно 0. \"> Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/ef/efc961c9e812c5285566f68fbd9a0fda.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"a мень­ше или равно 50.\"></p><p class=\"left_margin\">Сов­ме­щая эти усло­вия, по­лу­ча­ем, что <img src=\"https://ege.sdamgia.ru/formula/svg/fc/fc864d58dc50b740b921d8c3ca5b28f9.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=50.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  <img src=\"https://ege.sdamgia.ru/formula/svg/fc/fc864d58dc50b740b921d8c3ca5b28f9.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=50.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/72/7276133e9589411af8b6a8e74609bec3.svg",
+            "https://ege.sdamgia.ru/formula/svg/4e/4ed7634003164a612c21da512e0a032d.svg",
+            "https://ege.sdamgia.ru/formula/svg/f2/f22478044840f85a8eb9798224ef1d73.svg",
+            "https://ege.sdamgia.ru/formula/svg/d1/d1f028a1b3295d1cca282450b55afc8a.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0bc4c6255a8f03b7e19c781a9e6ad32c.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/ba3953a31c2f7e4224cf3d56457820e4.svg",
+            "https://ege.sdamgia.ru/formula/svg/64/647323a2809921015a87095fa9283e6e.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/efc961c9e812c5285566f68fbd9a0fda.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fc864d58dc50b740b921d8c3ca5b28f9.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fc864d58dc50b740b921d8c3ca5b28f9.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

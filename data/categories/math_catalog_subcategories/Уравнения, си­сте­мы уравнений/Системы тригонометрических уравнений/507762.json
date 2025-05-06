@@ -1,0 +1,34 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 507762,
+    "condition": {
+        "text": "Решите систему уравнений: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body643470\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те си­сте­му урав­не­ний: <img src=\"https://ege.sdamgia.ru/formula/svg/6a/6a3634bb1a3edd0345ec4b17b2de47a8.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний  новая стро­ка 2 ко­си­нус в квад­ра­те x минус ко­си­нус x минус 1=0, новая стро­ка ко­рень из: на­ча­ло ар­гу­мен­та: y в квад­ра­те минус y минус 3 конец ар­гу­мен­та плюс 2 синус x=0. конец си­сте­мы \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/6a/6a3634bb1a3edd0345ec4b17b2de47a8.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Решим первое уравнение. Пусть  тогда получим:Пусть  Тогда  И из второго уравнения получаем:  откуда Пусть  Из второго уравнения следует, что  Тогда  откуда  а из второго уравнения получаем:  откуда  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol507762\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Решим пер­вое урав­не­ние. Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/e4/e4c8ce83596e4fc16944d0f7450f0c87.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" ко­си­нус x=t,|t| мень­ше или равно 1\"> тогда по­лу­чим:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/fa/facf5e4718f8ae142e45d35ee4707ba2.svg\" class=\"tex\" style=\"vertical-align:-25.5pt\" alt=\" си­сте­ма вы­ра­же­ний  новая стро­ка 2t в квад­ра­те минус t минус 1=0, новая стро­ка |t| мень­ше или равно 1 конец си­сте­мы рав­но­силь­но си­сте­ма вы­ра­же­ний со­во­куп­ность вы­ра­же­ний t= минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби , t=1, конец си­сте­мы , |t| мень­ше или равно 1 конец со­во­куп­но­сти рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка ко­си­нус x= минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби , новая стро­ка ко­си­нус x=1. конец со­во­куп­но­сти \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/2f/2f3589aa3a1689db4c9384898b73e63f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­си­нус x=1.\"> Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/ca/ca719900d3c15ad781faf2f56deacb58.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x=2 Пи n,n при­над­ле­жит Z , синус x=0.\"> И из вто­ро­го урав­не­ния по­лу­ча­ем: <img src=\"https://ege.sdamgia.ru/formula/svg/47/479292f6e5d2a3e51c7ef32512dcb48e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y в квад­ра­те минус y минус 3=0,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/22/227fd798f9eda1a7e92a6bd49de2ea41.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"y= дробь: чис­ли­тель: 1\\pm ко­рень из: на­ча­ло ар­гу­мен­та: 13 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби . \"></p><p class=\"left_margin\">Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/f0/f0084489e7728ba79a712091f7282019.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" ко­си­нус x= минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби . \"> Из вто­ро­го урав­не­ния сле­ду­ет, что <img src=\"https://ege.sdamgia.ru/formula/svg/47/47f3a8f50c0ad1855a445bbdd6e4b4e4.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\" синус x мень­ше или равно 0.\"> Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/5d/5defa8c26c4c70a527b9519e42b9ec4d.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" синус x= минус дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби , \"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/df/dfe94333c64956ed8076e2aef6c7266a.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x= минус дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи n,n при­над­ле­жит Z , \"> а из вто­ро­го урав­не­ния по­лу­ча­ем: <img src=\"https://ege.sdamgia.ru/formula/svg/b1/b17867360ba33b1a5eebcfd7b824ec81.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: y в квад­ра­те минус y минус 3 конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та ,\"> от­ку­да </p><p><img src=\"https://ege.sdamgia.ru/formula/svg/6e/6eab29bd279688c22f48d2f4b9a8c734.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\"y в квад­ра­те минус y минус 6=0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка y= минус 2, новая стро­ка y=3. конец со­во­куп­но­сти \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/42/428040786380882aa9a2d523eae929ff.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" левая круг­лая скоб­ка 2 Пи n, дробь: чис­ли­тель: 1\\pm ко­рень из: на­ча­ло ар­гу­мен­та: 13 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби пра­вая круг­лая скоб­ка , левая круг­лая скоб­ка минус дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи n, минус 2 пра­вая круг­лая скоб­ка , левая круг­лая скоб­ка минус дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи n, 3 пра­вая круг­лая скоб­ка ,n при­над­ле­жит Z . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e4/e4c8ce83596e4fc16944d0f7450f0c87.svg",
+            "https://ege.sdamgia.ru/formula/svg/fa/facf5e4718f8ae142e45d35ee4707ba2.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2f3589aa3a1689db4c9384898b73e63f.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/ca719900d3c15ad781faf2f56deacb58.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/479292f6e5d2a3e51c7ef32512dcb48e.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/227fd798f9eda1a7e92a6bd49de2ea41.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f0084489e7728ba79a712091f7282019.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/47f3a8f50c0ad1855a445bbdd6e4b4e4.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5defa8c26c4c70a527b9519e42b9ec4d.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/dfe94333c64956ed8076e2aef6c7266a.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b17867360ba33b1a5eebcfd7b824ec81.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6eab29bd279688c22f48d2f4b9a8c734.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/428040786380882aa9a2d523eae929ff.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

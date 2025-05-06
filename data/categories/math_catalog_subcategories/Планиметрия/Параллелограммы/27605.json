@@ -1,0 +1,57 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27605,
+    "condition": {
+        "text": " Периметр прямоугольника равен 28, а диагональ равна 10. Найдите площадь этого прямоугольника.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918825\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=113307\" style=\"float:right;margin:10px;max-width:100%\"> Пе­ри­метр пря­мо­уголь­ни­ка равен 28, а диа­го­наль равна 10. Най­ди­те пло­щадь этого пря­мо­уголь­ни­ка.</p></div>",
+        "image_urls": [
+            "/get_file?id=113307"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Периметр прямоугольника равен сумме длин его сторон. Площадь прямоугольника равна произведению его длины на ширину. Пусть одна из сторон прямоугольника равна a, вторая равна b. Периметр прямоугольника будет соответственно равен P  =  2 · a + 2 · b  =  28. Диагональ образует в прямоугольнике два прямоугольных треугольника. По теореме Пифагора a2 + b2  =  100. Тогда имеем: Тем самым, S  =  a · b  =  48. Ответ: 48.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27605\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пе­ри­метр пря­мо­уголь­ни­ка равен сумме длин его сто­рон. Пло­щадь пря­мо­уголь­ни­ка равна про­из­ве­де­нию его длины на ши­ри­ну. Пусть одна из сто­рон пря­мо­уголь­ни­ка равна <i>a</i>, вто­рая равна <i>b</i>. Пе­ри­метр пря­мо­уголь­ни­ка будет со­от­вет­ствен­но равен <i>P</i>  =  2 · <i>a</i> + 2 · <i>b</i>  =  28. Диа­го­наль об­ра­зу­ет в пря­мо­уголь­ни­ке два пря­мо­уголь­ных тре­уголь­ни­ка. По тео­ре­ме Пи­фа­го­ра <i>a</i><sup>2</sup> + <i>b</i><sup>2</sup>  =  100. Тогда имеем: </p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"ed5d3d8c71cfdf8680e42358bfbd2fd2\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/ed/ed5d3d8c71cfdf8680e42358bfbd2fd2.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний a плюс b=14, a в квад­ра­те плюс b в квад­ра­те =100 конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний a плюс b=14 , левая круг­лая скоб­ка a плюс b пра­вая круг­лая скоб­ка в квад­ра­те минус левая круг­лая скоб­ка a в квад­ра­те плюс b в квад­ра­те пра­вая круг­лая скоб­ка =196 минус 100 конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний a плюс b=14 , 2ab=96 конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний a плюс b=14 , ab=48. конец си­сте­мы .\"></span><span data-width=\"565\" data-formulahash=\"ed5d3d8c71cfdf8680e42358bfbd2fd2\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/40/409a1ce7b04b9c76b82aeae5c07da6b6.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний a плюс b=14, a в квад­ра­те плюс b в квад­ра­те =100 конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний a плюс b=14 , левая круг­лая скоб­ка a плюс b пра­вая круг­лая скоб­ка в квад­ра­те минус левая круг­лая скоб­ка a в квад­ра­те плюс b в квад­ра­те пра­вая круг­лая скоб­ка =196 минус 100 конец си­сте­мы . рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/5c/5c6cf312bd94ef9e7931154e267ba46d.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" рав­но­силь­но си­сте­ма вы­ра­же­ний a плюс b=14 , 2ab=96 конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний a плюс b=14 , ab=48. конец си­сте­мы .\"></span><span data-width=\"340\" data-formulahash=\"ed5d3d8c71cfdf8680e42358bfbd2fd2\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/05/05d4ad148db5d05db4908dfba35987d6.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний a плюс b=14, a в квад­ра­те плюс b в квад­ра­те =100 конец си­сте­мы . рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/2e/2e4d1d966b6f4f09ec13e865348f82fa.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" рав­но­силь­но си­сте­ма вы­ра­же­ний a плюс b=14 , левая круг­лая скоб­ка a плюс b пра­вая круг­лая скоб­ка в квад­ра­те минус левая круг­лая скоб­ка a в квад­ра­те плюс b в квад­ра­те пра­вая круг­лая скоб­ка =196 минус 100 конец си­сте­мы . рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/5c/5c6cf312bd94ef9e7931154e267ba46d.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" рав­но­силь­но си­сте­ма вы­ра­же­ний a плюс b=14 , 2ab=96 конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний a плюс b=14 , ab=48. конец си­сте­мы .\"></span></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Тем самым, <i>S</i>  =  <i>a · b</i>  =  48.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 48.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ed/ed5d3d8c71cfdf8680e42358bfbd2fd2.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/409a1ce7b04b9c76b82aeae5c07da6b6.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5c6cf312bd94ef9e7931154e267ba46d.svg",
+            "https://ege.sdamgia.ru/formula/svg/05/05d4ad148db5d05db4908dfba35987d6.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2e4d1d966b6f4f09ec13e865348f82fa.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5c6cf312bd94ef9e7931154e267ba46d.svg"
+        ]
+    },
+    "answer": "48",
+    "topic_id": 1,
+    "analog_ids": [
+        27605,
+        55955,
+        55999,
+        55957,
+        55955,
+        55999,
+        55957,
+        55959,
+        55961,
+        55963,
+        55965,
+        55967,
+        55969,
+        55971,
+        55973,
+        55975,
+        55977,
+        55979,
+        55981,
+        55983,
+        55985,
+        55987,
+        55989,
+        55991,
+        55993,
+        55995,
+        55997,
+        56001,
+        56003
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 515214,
+    "condition": {
+        "text": "А)  Может ли разность квадратов двух натуральных чисел равняться кубу натурального числа? Б)  Может ли разность кубов двух натуральных чисел равняться квадрату натурального числа? В)  Найдите все простые числа, каждое из которых равно разности кубов двух простых чисел.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body635506\" class=\"pbody\"><p class=\"left_margin\">А)  Может ли раз­ность квад­ра­тов&nbsp;двух на­ту­раль­ных&nbsp;чисел&nbsp;рав­нять­ся&nbsp;кубу&nbsp;на­ту­раль­но­го&nbsp;числа?&nbsp;</p><p class=\"left_margin\">Б)  Может&nbsp;ли&nbsp;раз­ность&nbsp;кубов&nbsp;двух&nbsp;на­ту­раль­ных&nbsp;чисел&nbsp;рав­нять­ся&nbsp;квад­ра­ту&nbsp;на­ту­раль­но­го&nbsp;числа?&nbsp;</p><p class=\"left_margin\">В)  Най­ди­те&nbsp;все&nbsp;про­стые&nbsp;числа,&nbsp;каж­дое&nbsp;из&nbsp;ко­то­рых&nbsp;равно&nbsp;раз­но­сти&nbsp;кубов&nbsp;двух&nbsp;про­стых&nbsp;чисел.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Да, например  б)  Да, например  (взяли равенство  и домножили его на ).в)  Допустим   Тогда   следовательно,   Значит, одно из простых чисел  и  четно. Тогда это числа  и   И действительно   — простое число. Ответ: а) да;  б) да;  в) 19.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol515214\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Да, на­при­мер <img src=\"https://ege.sdamgia.ru/formula/svg/e9/e9a64739e476257ba5722151b8d883c3.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" 3 в квад­ра­те минус 1 в квад­ра­те =2 в кубе .\"> </p><p class=\"left_margin\">б)  Да, на­при­мер <img src=\"https://ege.sdamgia.ru/formula/svg/10/10445f13df319037320dbfe214a23a74.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" 14 в кубе минус 7 в кубе =49 в квад­ра­те \"> (взяли ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/56/56cc0ae829b2dd397b7cd07f928b2da8.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" 2 в кубе минус 1 в кубе =7\"> и до­мно­жи­ли его на <img src=\"https://ege.sdamgia.ru/formula/svg/f5/f5776da2dce790e317d50d315abde511.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" 7 в кубе \">).</p><p class=\"left_margin\">в)  До­пу­стим <img src=\"https://ege.sdamgia.ru/formula/svg/6b/6b325b5ffbc0284004963bc6b9e9c767.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" p=x в кубе минус y в кубе .\">  Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/4c/4c99782be8bbf6b4f90adab90b977d1e.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" p: левая круг­лая скоб­ка x минус y пра­вая круг­лая скоб­ка =x в квад­ра­те плюс xy плюс y в квад­ра­те боль­ше 1,\">  сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/c2/c230c203fa401b928252a6cd31208d48.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" x минус y=1.\">  Зна­чит, одно из про­стых чисел <img src=\"https://ege.sdamgia.ru/formula/svg/f6/f6ad5d21eaa32e5b71fa58df6050314c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" x\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/db/db5b03412096cc319683894f69bca2d4.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" y\"> четно. Тогда это числа <img src=\"https://ege.sdamgia.ru/formula/svg/9b/9b35dd1fd8fb2e8ba4a972122aca50b4.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" 2\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/4d/4dbe956335e95dba8d3977237fb26298.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" 3.\">  И дей­стви­тель­но <img src=\"https://ege.sdamgia.ru/formula/svg/ff/ffe5c83766a7167443f21cc12d9a792c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" 3 в кубе минус 2 в кубе =19\">  — про­стое число.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) да;  б) да;  в) 19.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e9/e9a64739e476257ba5722151b8d883c3.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/10445f13df319037320dbfe214a23a74.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/56cc0ae829b2dd397b7cd07f928b2da8.svg",
+            "https://ege.sdamgia.ru/formula/svg/f5/f5776da2dce790e317d50d315abde511.svg",
+            "https://ege.sdamgia.ru/formula/svg/6b/6b325b5ffbc0284004963bc6b9e9c767.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c99782be8bbf6b4f90adab90b977d1e.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c230c203fa401b928252a6cd31208d48.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f6ad5d21eaa32e5b71fa58df6050314c.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/db5b03412096cc319683894f69bca2d4.svg",
+            "https://ege.sdamgia.ru/formula/svg/9b/9b35dd1fd8fb2e8ba4a972122aca50b4.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4dbe956335e95dba8d3977237fb26298.svg",
+            "https://ege.sdamgia.ru/formula/svg/ff/ffe5c83766a7167443f21cc12d9a792c.svg"
+        ]
+    },
+    "answer": "а) да;  б) да;  в) 19.",
+    "topic_id": null,
+    "analog_ids": []
+}

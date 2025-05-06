@@ -1,0 +1,59 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27708,
+    "condition": {
+        "text": "Две стороны прямоугольника ABCD равны 6 и 8. Найдите длину суммы векторов  и ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918208\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=143410\" style=\"float:right;margin:10px;max-width:100%\">Две сто­ро­ны пря­мо­уголь­ни­ка <i>ABCD</i> равны 6 и 8. Най­ди­те длину суммы век­то­ров <img src=\"https://ege.sdamgia.ru/formula/svg/2d/2d1cceb556de3394ddc474f38c98e049.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overrightarrowAB\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/c7/c78ec31e2a229e0b1204757b7cd74d36.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overrightarrowAD.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/2d/2d1cceb556de3394ddc474f38c98e049.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c78ec31e2a229e0b1204757b7cd74d36.svg",
+            "/get_file?id=143410"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Сумма векторов  и  равна вектору  Вектор  образует в прямоугольнике два прямоугольных треугольника. Поэтому по теореме Пифагора  Ответ: 10.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27708\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Сумма век­то­ров <img src=\"https://ege.sdamgia.ru/formula/svg/2d/2d1cceb556de3394ddc474f38c98e049.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overrightarrowAB\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/a3/a39da478750333de819f18fad9409f8a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overrightarrowAD\"> равна век­то­ру <img src=\"https://ege.sdamgia.ru/formula/svg/4e/4ee9b12f2e70a313d60c2ab04519e9d5.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overrightarrowAC.\"> Век­тор <img src=\"https://ege.sdamgia.ru/formula/svg/b6/b666b77b438240cc41b2abccb9e25b66.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overrightarrowAC\"> об­ра­зу­ет в пря­мо­уголь­ни­ке два пря­мо­уголь­ных тре­уголь­ни­ка. По­это­му по тео­ре­ме Пи­фа­го­ра <img src=\"https://ege.sdamgia.ru/formula/svg/da/da2f933590fd7cd7388716edf857eda1.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"\\overset\\mathopAC= ко­рень из: на­ча­ло ар­гу­мен­та: 6 конец ар­гу­мен­та в квад­ра­те плюс 8 в квад­ра­те =10.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 10.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/2d/2d1cceb556de3394ddc474f38c98e049.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a39da478750333de819f18fad9409f8a.svg",
+            "https://ege.sdamgia.ru/formula/svg/4e/4ee9b12f2e70a313d60c2ab04519e9d5.svg",
+            "https://ege.sdamgia.ru/formula/svg/b6/b666b77b438240cc41b2abccb9e25b66.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/da2f933590fd7cd7388716edf857eda1.svg"
+        ]
+    },
+    "answer": "10",
+    "topic_id": 2,
+    "analog_ids": [
+        27708,
+        26441,
+        60205,
+        60207,
+        26441,
+        60205,
+        60207,
+        60209,
+        60211,
+        60213,
+        60215,
+        60217,
+        60219,
+        60221,
+        60223,
+        60225,
+        60227,
+        60229,
+        60231,
+        60233,
+        60235,
+        60237,
+        60239,
+        60241,
+        60243,
+        60245,
+        60247,
+        60249,
+        60251,
+        60253
+    ]
+}

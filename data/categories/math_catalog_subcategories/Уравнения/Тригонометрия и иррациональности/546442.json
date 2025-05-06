@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 546442,
+    "condition": {
+        "text": "а)  Решите уравнение б)  Укажите корни этого уравнения, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body407670\" class=\"pbody\"><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/bd/bd9dd193fa0a93f9a53a9db78eb52bea.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: \\ctg x конец ар­гу­мен­та левая круг­лая скоб­ка синус в квад­ра­те x минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби пра­вая круг­лая скоб­ка =0. \"></p><p class=\"left_margin\">б)  Ука­жи­те корни этого урав­не­ния, при­над­ле­жа­щие от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/2e/2e3aa39566df98d35152d6026d4c601f.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка минус дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби ; 0 пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/bd/bd9dd193fa0a93f9a53a9db78eb52bea.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2e3aa39566df98d35152d6026d4c601f.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Данное уравнение определено при  тогда оно эквивалентно совокупности:В ОДЗ лежат серии  и б)   Отберем корни при помощи единичной окружности. На заданном отрезке лежат корни   Ответ:  а)  б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol546442\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=62307\" style=\"float:right;margin:10px;max-width:100%; width:23%\"></p><p class=\"left_margin\">а)  Дан­ное урав­не­ние опре­де­ле­но при <img src=\"https://ege.sdamgia.ru/formula/svg/a9/a93f99d131da66f34676d46902644f93.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\"\\ctg x боль­ше или равно 0, синус x не равно 0, \"> тогда оно эк­ви­ва­лент­но со­во­куп­но­сти:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/24/248c60b35d1b89172ce8cb016a423ca1.svg\" class=\"tex\" style=\"vertical-align:-20.9pt\" alt=\" со­во­куп­ность вы­ра­же­ний \\ctg x = 0, синус в квад­ра­те x = дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби конец со­во­куп­но­сти . рав­но­силь­но со­во­куп­ность вы­ра­же­ний x = дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби плюс Пи k , x = \\pm дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби плюс Пи k, k при­над­ле­жит Z . конец со­во­куп­но­сти . \"></p><p class=\"left_margin\"></p></center>В ОДЗ лежат серии <img src=\"https://ege.sdamgia.ru/formula/svg/85/85746b948d2120966e07a8214e1ae616.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби плюс Пи k \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/22/22230e70e663231ff4cb0aaa1431c9ab.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби плюс Пи k, k при­над­ле­жит Z . \"><p class=\"left_margin\">б)   От­бе­рем корни при по­мо­щи еди­нич­ной окруж­но­сти. На за­дан­ном от­рез­ке лежат корни <img src=\"https://ege.sdamgia.ru/formula/svg/a7/a7211af374f28b37c0e0706ca51e4569.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" минус дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби , минус дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби , минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби . \"> </p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  а) <img src=\"https://ege.sdamgia.ru/formula/svg/cd/cd96f6f69c3250e5c19e054ff6f071c0.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" левая фи­гур­ная скоб­ка дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби плюс Пи k; дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби плюс Пи k: k при­над­ле­жит Z пра­вая фи­гур­ная скоб­ка ; \"> б) <img src=\"https://ege.sdamgia.ru/formula/svg/a7/a7211af374f28b37c0e0706ca51e4569.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" минус дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби , минус дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби , минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a9/a93f99d131da66f34676d46902644f93.svg",
+            "https://ege.sdamgia.ru/formula/svg/24/248c60b35d1b89172ce8cb016a423ca1.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/85746b948d2120966e07a8214e1ae616.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/22230e70e663231ff4cb0aaa1431c9ab.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a7211af374f28b37c0e0706ca51e4569.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cd96f6f69c3250e5c19e054ff6f071c0.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a7211af374f28b37c0e0706ca51e4569.svg",
+            "/get_file?id=62307"
+        ]
+    },
+    "answer": "а)  б)",
+    "topic_id": 13,
+    "analog_ids": []
+}

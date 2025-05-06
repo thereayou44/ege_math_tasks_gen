@@ -1,0 +1,33 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 513256,
+    "condition": {
+        "text": "В правильной шестиугольной призме ABCDEFA1B1C1D1E1F1 все рёбра равны 1.а)  Докажите, что плоскости AA1D1 и DB1F1 перпендикулярны.б)  Найдите тангенс угла между плоскостями ABC и DB1F1.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body637460\" class=\"pbody\"><p class=\"left_margin\">В пра­виль­ной ше­сти­уголь­ной приз­ме <i>ABCDEFA</i><sub>1</sub><i>B</i><sub>1</sub><i>C</i><sub>1</sub><i>D</i><sub>1</sub><i>E</i><sub>1</sub><i>F</i><sub>1</sub> все рёбра равны 1.</p><p class=\"left_margin\">а)  До­ка­жи­те, что плос­ко­сти <i>AA</i><sub>1</sub><i>D</i><sub>1</sub> и <i>DB</i><sub>1</sub><i>F</i><sub>1</sub> пер­пен­ди­ку­ляр­ны.</p><p class=\"left_margin\">б)  Най­ди­те тан­генс угла между плос­ко­стя­ми <i>ABC</i> и <i>DB</i><sub>1</sub><i>F</i><sub>1</sub>.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Поскольку  (свойство диагоналей правильного шестиугольника) и   (поскольку верхнее основание призмы перпеникулярно боковому ребру), то  а тогда и  (признак перпендикулярности плоскостей). б)  Отметим середину  (точка K). Тогда  откуда  Кроме того  поскольку  Тогда Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol513256\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=141662\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  По­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/64/641315c0f103091bcc47964bac3005cf.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"B_1F_1\\perp A_1D_1\"> (свой­ство диа­го­на­лей пра­виль­но­го ше­сти­уголь­ни­ка) и  <img src=\"https://ege.sdamgia.ru/formula/svg/a0/a0551c46bbc2187e8a93ece6a7d1f1bf.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"B_1F_1\\perp A_1A\"> (по­сколь­ку верх­нее ос­но­ва­ние приз­мы пер­пе­ни­ку­ляр­но бо­ко­во­му ребру), то <img src=\"https://ege.sdamgia.ru/formula/svg/c7/c78302b0d59576c634f3a940f273c833.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"B_1F_1\\perp AA_1D_1,\"> а тогда и <img src=\"https://ege.sdamgia.ru/formula/svg/15/15e52ee665a2249740f1e9d6f6cde361.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"DB_1F_1\\perp AA_1D_1\"> (при­знак пер­пен­ди­ку­ляр­но­сти плос­ко­стей).</p><p>&nbsp;</p><p class=\"left_margin\">б)  От­ме­тим се­ре­ди­ну <img src=\"https://ege.sdamgia.ru/formula/svg/f0/f052c44f776eff01410c005fc91330d8.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"B_1F_1\"> (точка <i>K</i>). Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/7b/7b218bedb4a2f0ac393f8e50d2972635.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"K при­над­ле­жит A_1D_1,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/85/85bea0d81417f7120968babb91b86503.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"D_1K\\perp B_1F_1.\"> Кроме того <img src=\"https://ege.sdamgia.ru/formula/svg/3f/3f21e10d37333ce78a52536daebc8d14.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"DK\\perp B_1F_1,\"> по­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/9a/9a301d4dafbed6be4df9ea37db5bb19e.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"B_1F_1\\perp AA_1D_1.\"> Тогда</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"ac75a9130c39134a625a04e712a3de7b\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/ac/ac75a9130c39134a625a04e712a3de7b.svg\" class=\"tex\" style=\"vertical-align:-13.0pt\" alt=\" тан­генс \\angle левая круг­лая скоб­ка ABC,DB_1F_1 пра­вая круг­лая скоб­ка = тан­генс \\angle левая круг­лая скоб­ка A_1B_1C_1,DB_1F_1 пра­вая круг­лая скоб­ка = тан­генс \\angle D_1KD= дробь: чис­ли­тель: D_1D, зна­ме­на­тель: D_1K конец дроби = дробь: чис­ли­тель: 1, зна­ме­на­тель: дробь: чис­ли­тель: 3, зна­ме­на­тель: 4 конец дроби D_1A_1 конец дроби = дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби . \"></span><span data-width=\"540\" data-formulahash=\"ac75a9130c39134a625a04e712a3de7b\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/29/29f960ba901814170b329b72f45bd17c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" тан­генс \\angle левая круг­лая скоб­ка ABC,DB_1F_1 пра­вая круг­лая скоб­ка = тан­генс \\angle левая круг­лая скоб­ка A_1B_1C_1,DB_1F_1 пра­вая круг­лая скоб­ка =\"><br><img src=\"https://ege.sdamgia.ru/formula/svg/82/821cb86a36e48b5c1092f1d94f850a87.svg\" class=\"tex\" style=\"vertical-align:-13.1pt\" alt=\"= тан­генс \\angle D_1KD= дробь: чис­ли­тель: D_1D, зна­ме­на­тель: D_1K конец дроби = дробь: чис­ли­тель: 1, зна­ме­на­тель: дробь: чис­ли­тель: 3, зна­ме­на­тель: 4 конец дроби D_1A_1 конец дроби = дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби . \"></span></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/2f/2f95863f44d956523891e82ab6b16139.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/64/641315c0f103091bcc47964bac3005cf.svg",
+            "https://ege.sdamgia.ru/formula/svg/a0/a0551c46bbc2187e8a93ece6a7d1f1bf.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c78302b0d59576c634f3a940f273c833.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/15e52ee665a2249740f1e9d6f6cde361.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f052c44f776eff01410c005fc91330d8.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7b218bedb4a2f0ac393f8e50d2972635.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/85bea0d81417f7120968babb91b86503.svg",
+            "https://ege.sdamgia.ru/formula/svg/3f/3f21e10d37333ce78a52536daebc8d14.svg",
+            "https://ege.sdamgia.ru/formula/svg/9a/9a301d4dafbed6be4df9ea37db5bb19e.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/ac75a9130c39134a625a04e712a3de7b.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/29f960ba901814170b329b72f45bd17c.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/821cb86a36e48b5c1092f1d94f850a87.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2f95863f44d956523891e82ab6b16139.svg",
+            "/get_file?id=141662"
+        ]
+    },
+    "answer": "",
+    "topic_id": 14,
+    "analog_ids": []
+}

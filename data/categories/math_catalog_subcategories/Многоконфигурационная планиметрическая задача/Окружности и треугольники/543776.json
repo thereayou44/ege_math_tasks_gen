@@ -1,0 +1,29 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 543776,
+    "condition": {
+        "text": "В треугольнике ABC   BD  — диаметр описанной около треугольника  ABC окружности. Продолжение высоты BH пересекает окружность в точке L.а)  Докажите, что б)  Найдите длину отрезка DL, если радиус описанной окружности равен ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body402140\" class=\"pbody\"><p class=\"left_margin\">В тре­уголь­ни­ке <i>ABC</i> <img src=\"https://ege.sdamgia.ru/formula/svg/a2/a2842a307a1c1f8cd5698d76743e9f38.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle B=70 гра­ду­сов,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/ad/ad3245b6147e7cc3eefffcb637949c5e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle C=25 гра­ду­сов,\"> <i>BD</i>  — диа­метр опи­сан­ной около тре­уголь­ни­ка  <i>ABC</i> окруж­но­сти. Про­дол­же­ние вы­со­ты <i>BH</i> пе­ре­се­ка­ет окруж­ность в точке <i>L</i>.</p><p class=\"left_margin\">а)  До­ка­жи­те, что <img src=\"https://ege.sdamgia.ru/formula/svg/80/805a01cda87f5284a5f937dee73d6aad.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle ACD=\\angle CAL.\"></p><p class=\"left_margin\">б)  Най­ди­те длину от­рез­ка <i>DL</i>, если ра­ди­ус опи­сан­ной окруж­но­сти равен <img src=\"https://ege.sdamgia.ru/formula/svg/1a/1ac224a4aaaa880744d81fe90b690df2.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"4 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a2/a2842a307a1c1f8cd5698d76743e9f38.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/ad3245b6147e7cc3eefffcb637949c5e.svg",
+            "https://ege.sdamgia.ru/formula/svg/80/805a01cda87f5284a5f937dee73d6aad.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1ac224a4aaaa880744d81fe90b690df2.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Углы ACD и ABD равны так как опираются на одну дугу. Находим:  тогда б)  Вычиcлим:  Тогда по теореме синусов Ответ: 12.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol543776\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=60591\" style=\"float:right;margin:10px;max-width:100%; width:25%\"></p><p class=\"left_margin\">а)  Углы <i>ACD</i> и <i>ABD</i> равны так как опи­ра­ют­ся на одну дугу. На­хо­дим:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/98/98af06fae061d4fc9c4770b0832f7862.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle ABL = 90 гра­ду­сов минус \\angle BAC = 90 гра­ду­сов минус \\angle BDC = \\angle CBD,\"> </p><p class=\"left_margin\"></p></center><p> тогда <img src=\"https://ege.sdamgia.ru/formula/svg/13/139f625d45793b46f4071f9be51caffb.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle ABD = \\angle LBC = \\angle CAL. \"></p><p class=\"left_margin\">б)  Вычиcлим: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/96/96bde2a2d73a5d6bb1e24712d76dca53.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\angle DBL = \\angle CBA минус 2\\angle ABL = 70 гра­ду­сов минус 2 левая круг­лая скоб­ка 90 гра­ду­сов минус \\angle A пра­вая круг­лая скоб­ка = 60 гра­ду­сов.\"></p><p class=\"left_margin\"></p></center><p> Тогда по тео­ре­ме си­ну­сов </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/00/00f9a75cb7057a697212e1c37bf9361e.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"DL = 2R синус \\angle DBL = 2 умно­жить на 4 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та умно­жить на дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби = 12. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 12.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/98/98af06fae061d4fc9c4770b0832f7862.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/139f625d45793b46f4071f9be51caffb.svg",
+            "https://ege.sdamgia.ru/formula/svg/96/96bde2a2d73a5d6bb1e24712d76dca53.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/00f9a75cb7057a697212e1c37bf9361e.svg",
+            "/get_file?id=60591"
+        ]
+    },
+    "answer": "12.",
+    "topic_id": null,
+    "analog_ids": []
+}

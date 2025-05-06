@@ -1,0 +1,33 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 505774,
+    "condition": {
+        "text": "Решите систему неравенств: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body645458\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те си­сте­му не­ра­венств: <img src=\"https://ege.sdamgia.ru/formula/svg/f6/f658961c7bd6043b9852c5832ff8a8f0.svg\" class=\"tex\" style=\"vertical-align:-19.1pt\" alt=\" си­сте­ма вы­ра­же­ний  новая стро­ка дробь: чис­ли­тель: 11 умно­жить на 3 в сте­пе­ни левая круг­лая скоб­ка x минус 1 пра­вая круг­лая скоб­ка минус 31, зна­ме­на­тель: 4 умно­жить на 9 в сте­пе­ни левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка минус 11 умно­жить на 3 в сте­пе­ни левая круг­лая скоб­ка x минус 1 пра­вая круг­лая скоб­ка минус 5 конец дроби боль­ше или равно 5,  новая стро­ка \\log _x плюс 1 левая круг­лая скоб­ка x в квад­ра­те плюс x минус 6 пра­вая круг­лая скоб­ка боль­ше или равно 4.  конец си­сте­мы .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f6/f658961c7bd6043b9852c5832ff8a8f0.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Рассмотрим второе неравенство системы. Найдем ограничения на    Для таких   Очевидно, что при всех  следовательно, второе неравенство системы решений не имеет. А это значит, что исследование первого неравенства той же системы не имеет никакого смысла, у системы решений нет. Ответ: решений нет.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol505774\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Рас­смот­рим вто­рое не­ра­вен­ство си­сте­мы. Най­дем огра­ни­че­ния на <img src=\"https://ege.sdamgia.ru/formula/svg/89/89c090488479a41cad9954347908e91c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x:\"></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/bd/bdbc9801e5a098be96d20940426ecb9e.svg\" class=\"tex\" style=\"vertical-align:-23.2pt\" alt=\" си­сте­ма вы­ра­же­ний  новая стро­ка x боль­ше минус 1,  новая стро­ка x не равно 0,  новая стро­ка левая круг­лая скоб­ка x минус 2 пра­вая круг­лая скоб­ка умно­жить на левая круг­лая скоб­ка x плюс 3 пра­вая круг­лая скоб­ка боль­ше 0 конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний  новая стро­ка x боль­ше минус 1,  новая стро­ка со­во­куп­ность вы­ра­же­ний x мень­ше минус 3, x боль­ше 2 конец си­сте­мы . конец со­во­куп­но­сти . рав­но­силь­но x боль­ше 2.\"></p><p class=\"left_margin\"></p></center>   <p class=\"left_margin\">Для таких <img src=\"https://ege.sdamgia.ru/formula/svg/89/89c090488479a41cad9954347908e91c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x:\"></p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"6c3f22b05c90e1ba972cf9e49e08de6d\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/6c/6c3f22b05c90e1ba972cf9e49e08de6d.svg\" class=\"tex\" style=\"vertical-align:-4.3pt\" alt=\"\\log _x плюс 1 левая круг­лая скоб­ка x в квад­ра­те плюс x минус 6 пра­вая круг­лая скоб­ка боль­ше или равно 4 рав­но­силь­но левая круг­лая скоб­ка x плюс 1 минус 1 пра­вая круг­лая скоб­ка умно­жить на левая круг­лая скоб­ка x в квад­ра­те плюс x минус 6 минус x в сте­пе­ни левая круг­лая скоб­ка 4 пра­вая круг­лая скоб­ка минус 4x в кубе минус 6x в квад­ра­те минус 4x минус 1 пра­вая круг­лая скоб­ка боль­ше или равно 0 рав­но­силь­но \"></span><span data-width=\"490\" data-formulahash=\"6c3f22b05c90e1ba972cf9e49e08de6d\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/cf/cf7e3bd453ceeb749fdb66b01314709e.svg\" class=\"tex\" style=\"vertical-align:-4.3pt\" alt=\"\\log _x плюс 1 левая круг­лая скоб­ка x в квад­ра­те плюс x минус 6 пра­вая круг­лая скоб­ка боль­ше или равно 4 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/6e/6e6d00e69924fc08a2628f48da1c7acd.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" рав­но­силь­но левая круг­лая скоб­ка x плюс 1 минус 1 пра­вая круг­лая скоб­ка умно­жить на левая круг­лая скоб­ка x в квад­ра­те плюс x минус 6 минус x в сте­пе­ни левая круг­лая скоб­ка 4 пра­вая круг­лая скоб­ка минус 4x в кубе минус 6x в квад­ра­те минус 4x минус 1 пра­вая круг­лая скоб­ка боль­ше или равно 0 рав­но­силь­но \"></span> </p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/99/997ef80c901680d7a1f86ada1efcb8d5.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" рав­но­силь­но x умно­жить на левая круг­лая скоб­ка x в сте­пе­ни левая круг­лая скоб­ка 4 пра­вая круг­лая скоб­ка плюс 4x в кубе плюс 5x в квад­ра­те плюс 3x плюс 7 пра­вая круг­лая скоб­ка мень­ше или равно 0 рав­но­силь­но x в сте­пе­ни левая круг­лая скоб­ка 4 пра­вая круг­лая скоб­ка плюс 4x в кубе плюс 5x в квад­ра­те плюс 3x плюс 7 мень­ше или равно 0.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Оче­вид­но, что при всех <img src=\"https://ege.sdamgia.ru/formula/svg/49/49f800f6a17487df9bd707b818acbd8c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x боль­ше 2\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/47/470b32866936d9ef2b8adc6140cff59b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" x в сте­пе­ни левая круг­лая скоб­ка 4 пра­вая круг­лая скоб­ка плюс 4x в кубе плюс 5x в квад­ра­те плюс 3x плюс 7 боль­ше 0,\"> сле­до­ва­тель­но, вто­рое не­ра­вен­ство си­сте­мы ре­ше­ний не имеет. А это зна­чит, что ис­сле­до­ва­ние пер­во­го не­ра­вен­ства той же си­сте­мы не имеет ни­ка­ко­го смыс­ла, у си­сте­мы ре­ше­ний нет.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> ре­ше­ний нет.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/89/89c090488479a41cad9954347908e91c.svg",
+            "https://ege.sdamgia.ru/formula/svg/bd/bdbc9801e5a098be96d20940426ecb9e.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/89c090488479a41cad9954347908e91c.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6c3f22b05c90e1ba972cf9e49e08de6d.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf7e3bd453ceeb749fdb66b01314709e.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6e6d00e69924fc08a2628f48da1c7acd.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/997ef80c901680d7a1f86ada1efcb8d5.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/49f800f6a17487df9bd707b818acbd8c.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/470b32866936d9ef2b8adc6140cff59b.svg"
+        ]
+    },
+    "answer": "ре­ше­ний нет.",
+    "topic_id": null,
+    "analog_ids": [
+        505774,
+        505968
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 507681,
+    "condition": {
+        "text": "Ребро основания правильной треугольной призмы LMNL1M1N1 равно её высоте и равно  а)  Докажите, что сечение призмы, проходящее через  и точку T  — середину ребра является прямоугольным треугольником.б)  Найдите расстояние от точки L1 до плоскости LM1T.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body643549\" class=\"pbody\"><p class=\"left_margin\">Ребро ос­но­ва­ния пра­виль­ной тре­уголь­ной приз­мы <i>LMNL</i><sub>1</sub><i>M</i><sub>1</sub><i>N</i><sub>1</sub> равно её вы­со­те и равно <img src=\"https://ege.sdamgia.ru/formula/svg/d1/d1a02cba53e4665ec547d8f44a3e29b3.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2 ко­рень из 5 .\"> </p><p class=\"left_margin\">а)  До­ка­жи­те, что се­че­ние приз­мы, про­хо­дя­щее через <img src=\"https://ege.sdamgia.ru/formula/svg/79/7959ae6c24edf8ab30ced3e5aededf91.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"L, M_1\"> и точку <i>T</i>  — се­ре­ди­ну ребра<img src=\"https://ege.sdamgia.ru/formula/svg/14/14065ff62b7aaed47c3f326021bff16b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" L_1N_1,\"> яв­ля­ет­ся пря­мо­уголь­ным тре­уголь­ни­ком.</p><p class=\"left_margin\">б)  Най­ди­те рас­сто­я­ние от точки <i>L</i><sub>1</sub> до плос­ко­сти <i>LM</i><sub>1</sub><i>T</i>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d1/d1a02cba53e4665ec547d8f44a3e29b3.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/7959ae6c24edf8ab30ced3e5aededf91.svg",
+            "https://ege.sdamgia.ru/formula/svg/14/14065ff62b7aaed47c3f326021bff16b.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Призма  — прямая, поэтому прямая  перпендикулярна плоскости  и, значит,  Значит, треугольник  − прямоугольный.б)  Пусть   — высота треугольника  Призма  — прямая, поэтому прямая  перпендикулярна плоскости  и, значит, Рис. 1Рис. 2  Следовательно,  Отсюда следует, что расстояние от точки  до плоскости  равно длине отрезка  По теореме Пифагора  Найдём  Ответ: 2.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol507681\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Приз­ма  — пря­мая, по­это­му пря­мая <img src=\"https://ege.sdamgia.ru/formula/svg/82/823f3c16bcfa6fe1cf6b13446aaf1862.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"M_1T\"> пер­пен­ди­ку­ляр­на плос­ко­сти <img src=\"https://ege.sdamgia.ru/formula/svg/1a/1ae0e10c194e3a1239ef04ca67a8a5fb.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"LNN_1\"> и, зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/9c/9cf41571b5f73422f7da1c1bc74b258f.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"M_1T\\perp LT.\"> Зна­чит, тре­уголь­ник <img src=\"https://ege.sdamgia.ru/formula/svg/51/51b4a4372711290fc036ae8461dad798.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"LTM_1\"> − пря­мо­уголь­ный.</p><p class=\"left_margin\">б)  Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/30/304e2d43d1c9bd480aa183d2dbe3091d.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"L_1P\">  — вы­со­та тре­уголь­ни­ка <img src=\"https://ege.sdamgia.ru/formula/svg/3a/3a07f37904f75128b5b81ef7fbf42b72.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"LL_1T.\"> Приз­ма  — пря­мая, по­это­му пря­мая <img src=\"https://ege.sdamgia.ru/formula/svg/82/823f3c16bcfa6fe1cf6b13446aaf1862.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"M_1T\"> пер­пен­ди­ку­ляр­на плос­ко­сти <img src=\"https://ege.sdamgia.ru/formula/svg/1a/1ae0e10c194e3a1239ef04ca67a8a5fb.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"LNN_1\"> и, зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/84/84d1af11bca861b3275cbfc8ba346eca.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"M_1T\\perp L_1P.\"></p><p></p><div class=\"flex-img\" style=\"align-items: flex-end;\"><p></p><div><img src=\"/get_file?id=132137\" style=\"margin:10px auto;display:block;max-width:none\"><p><nobr>Рис. 1</nobr></p><p></p></div><p></p><div><img src=\"/get_file?id=132138\" style=\"margin:10px auto;display:block;max-width:none\"><p><nobr>Рис. 2 </nobr></p><p></p></div><p></p></div> Сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/be/be7d3c2a3249b97d61b3c778fd42e6ed.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"L_1P\\perp LM_1T.\"> От­сю­да сле­ду­ет, что рас­сто­я­ние от точки <img src=\"https://ege.sdamgia.ru/formula/svg/2c/2c6f3b6c16df97a1b00e04ff17e4906e.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"L_1\"> до плос­ко­сти <img src=\"https://ege.sdamgia.ru/formula/svg/ce/cee9001ae07204b2ce1f4813579acd73.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"LM_1T\"> равно длине от­рез­ка <img src=\"https://ege.sdamgia.ru/formula/svg/19/1977e179c1a5234f14afe8035db1e720.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"L_1P.\"> По тео­ре­ме Пи­фа­го­ра <img src=\"https://ege.sdamgia.ru/formula/svg/d2/d20283a48e05ec449b41cbbf7cb95080.svg\" class=\"tex\" style=\"vertical-align:-6.8pt\" alt=\"LT= ко­рень из: на­ча­ло ар­гу­мен­та: LL_1 в квад­ра­те плюс L_1T в квад­ра­те конец ар­гу­мен­та =5.\"> Найдём <img src=\"https://ege.sdamgia.ru/formula/svg/05/05b90ca69ec5f475b23fdf4c25e0f406.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"L_1P:\"><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e3/e3ce7fa7437ee9df7ef3c1f662e95442.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"L_1P= дробь: чис­ли­тель: L_1L умно­жить на L_1T, зна­ме­на­тель: LT конец дроби = дробь: чис­ли­тель: 2 ко­рень из: на­ча­ло ар­гу­мен­та: 5 конец ар­гу­мен­та умно­жить на ко­рень из: на­ча­ло ар­гу­мен­та: 5 конец ар­гу­мен­та , зна­ме­на­тель: 5 конец дроби =2. \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 2.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/82/823f3c16bcfa6fe1cf6b13446aaf1862.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1ae0e10c194e3a1239ef04ca67a8a5fb.svg",
+            "https://ege.sdamgia.ru/formula/svg/9c/9cf41571b5f73422f7da1c1bc74b258f.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/51b4a4372711290fc036ae8461dad798.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/304e2d43d1c9bd480aa183d2dbe3091d.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3a07f37904f75128b5b81ef7fbf42b72.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/823f3c16bcfa6fe1cf6b13446aaf1862.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1ae0e10c194e3a1239ef04ca67a8a5fb.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/84d1af11bca861b3275cbfc8ba346eca.svg",
+            "https://ege.sdamgia.ru/formula/svg/be/be7d3c2a3249b97d61b3c778fd42e6ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2c6f3b6c16df97a1b00e04ff17e4906e.svg",
+            "https://ege.sdamgia.ru/formula/svg/ce/cee9001ae07204b2ce1f4813579acd73.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/1977e179c1a5234f14afe8035db1e720.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d20283a48e05ec449b41cbbf7cb95080.svg",
+            "https://ege.sdamgia.ru/formula/svg/05/05b90ca69ec5f475b23fdf4c25e0f406.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e3ce7fa7437ee9df7ef3c1f662e95442.svg",
+            "/get_file?id=132137",
+            "/get_file?id=132138"
+        ]
+    },
+    "answer": "2.",
+    "topic_id": 14,
+    "analog_ids": [
+        507681,
+        511470
+    ]
+}

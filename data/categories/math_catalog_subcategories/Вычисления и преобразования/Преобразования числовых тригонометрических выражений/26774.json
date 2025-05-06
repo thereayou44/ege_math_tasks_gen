@@ -1,0 +1,58 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 26774,
+    "condition": {
+        "text": "Найдите значение выражения ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919146\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те зна­че­ние вы­ра­же­ния <img src=\"https://ege.sdamgia.ru/formula/svg/83/832d6ec3c345dfbcfbef9b473326d0b8.svg\" class=\"tex\" style=\"vertical-align:-10.4pt\" alt=\" дробь: чис­ли­тель: 12, зна­ме­на­тель: синус в квад­ра­те 27 в сте­пе­ни левая круг­лая скоб­ка \\circ пра­вая круг­лая скоб­ка плюс ко­си­нус в квад­ра­те 207 в сте­пе­ни левая круг­лая скоб­ка \\circ пра­вая круг­лая скоб­ка конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/83/832d6ec3c345dfbcfbef9b473326d0b8.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Поскольку  имеем:   Ответ: 12.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol26774\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/1e/1ed4139adff10106cc71ac807cd19ad6.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" ко­си­нус в квад­ра­те левая круг­лая скоб­ка 180 гра­ду­сов плюс альфа пра­вая круг­лая скоб­ка = ко­си­нус в квад­ра­те альфа \"> имеем: </p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"54fa72bfe7ea9c905fa54e440b26f185\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/54/54fa72bfe7ea9c905fa54e440b26f185.svg\" class=\"tex\" style=\"vertical-align:-12.1pt\" alt=\" дробь: чис­ли­тель: 12, зна­ме­на­тель: синус в квад­ра­те 27 гра­ду­сов плюс ко­си­нус в квад­ра­те 207 гра­ду­сов конец дроби = дробь: чис­ли­тель: 12, зна­ме­на­тель: синус в квад­ра­те 27 гра­ду­сов плюс ко­си­нус в квад­ра­те левая круг­лая скоб­ка 180 гра­ду­сов плюс 27 гра­ду­сов пра­вая круг­лая скоб­ка конец дроби = дробь: чис­ли­тель: 12, зна­ме­на­тель: синус в квад­ра­те 27 гра­ду­сов плюс ко­си­нус в квад­ра­те 27 гра­ду­сов конец дроби =12. \"></span><span data-width=\"490\" data-formulahash=\"54fa72bfe7ea9c905fa54e440b26f185\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/d3/d3d2efbc387a6fc62dfea0024ebfbd64.svg\" class=\"tex\" style=\"vertical-align:-12.2pt\" alt=\" дробь: чис­ли­тель: 12, зна­ме­на­тель: синус в квад­ра­те 27 гра­ду­сов плюс ко­си­нус в квад­ра­те 207 гра­ду­сов конец дроби = дробь: чис­ли­тель: 12, зна­ме­на­тель: синус в квад­ра­те 27 гра­ду­сов плюс ко­си­нус в квад­ра­те левая круг­лая скоб­ка 180 гра­ду­сов плюс 27 гра­ду­сов пра­вая круг­лая скоб­ка конец дроби = \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/19/197a5dbfd371021caa3c9034de50b395.svg\" class=\"tex\" style=\"vertical-align:-10.4pt\" alt=\"= дробь: чис­ли­тель: 12, зна­ме­на­тель: синус в квад­ра­те 27 гра­ду­сов плюс ко­си­нус в квад­ра­те 27 гра­ду­сов конец дроби =12. \"></span></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 12.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/1e/1ed4139adff10106cc71ac807cd19ad6.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54fa72bfe7ea9c905fa54e440b26f185.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d3d2efbc387a6fc62dfea0024ebfbd64.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/197a5dbfd371021caa3c9034de50b395.svg"
+        ]
+    },
+    "answer": "12",
+    "topic_id": 7,
+    "analog_ids": [
+        26774,
+        64155,
+        64205,
+        64209,
+        64155,
+        64205,
+        64209,
+        64157,
+        64159,
+        64161,
+        64163,
+        64165,
+        64167,
+        64169,
+        64171,
+        64173,
+        64175,
+        64177,
+        64179,
+        64181,
+        64183,
+        64185,
+        64187,
+        64189,
+        64191,
+        64193,
+        64195,
+        64197,
+        64199,
+        64201,
+        64203,
+        64207
+    ]
+}

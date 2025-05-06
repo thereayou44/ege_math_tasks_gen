@@ -1,0 +1,59 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27761,
+    "condition": {
+        "text": "В треугольнике ABC угол ACB равен °, угол B равен °, CD  — медиана. Найдите угол ACD. Ответ дайте в градусах.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918157\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=144289\" style=\"float:right;margin:10px;max-width:100%\">В тре­уголь­ни­ке <i>ABC</i> угол <i>ACB</i> равен <img src=\"https://ege.sdamgia.ru/formula/svg/86/8613985ec49eb8f757ae6439e879bb2a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"90\">°, угол <i>B</i> равен <img src=\"https://ege.sdamgia.ru/formula/svg/66/66f041e16a60928b05a7e228a89c3799.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"58\">°, <i>CD</i>  — ме­ди­а­на. Най­ди­те угол <i>ACD</i>. Ответ дайте в гра­ду­сах.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/86/8613985ec49eb8f757ae6439e879bb2a.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/66f041e16a60928b05a7e228a89c3799.svg",
+            "/get_file?id=144289"
+        ]
+    },
+    "solution": {
+        "text": "Решение. CD  — медиана в прямоугольном треугольнике, значит, CD  =  AD  =  BD. Тогда треугольник ACD  — равнобедренный, углы при его основании равны.  Ответ: 32.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27761\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><i>CD</i>  — ме­ди­а­на в пря­мо­уголь­ном тре­уголь­ни­ке, зна­чит, <i>CD  =  AD  =  BD</i>. Тогда тре­уголь­ник <i>ACD</i>  — рав­но­бед­рен­ный, углы при его ос­но­ва­нии равны.</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/0b/0b10ca43c6e6ec0a25a439accda4fe4a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle ACD=\\angle A=90 гра­ду­сов минус 58 гра­ду­сов =32 гра­ду­сов .\"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 32.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/0b/0b10ca43c6e6ec0a25a439accda4fe4a.svg"
+        ]
+    },
+    "answer": "32",
+    "topic_id": 1,
+    "analog_ids": [
+        27761,
+        47259,
+        47205,
+        47207,
+        47259,
+        47205,
+        47207,
+        47209,
+        47211,
+        47213,
+        47215,
+        47217,
+        47219,
+        47221,
+        47223,
+        47225,
+        47227,
+        47229,
+        47231,
+        47233,
+        47235,
+        47237,
+        47239,
+        47241,
+        47243,
+        47245,
+        47247,
+        47249,
+        47251,
+        47253,
+        47255,
+        47257,
+        47261,
+        47263
+    ]
+}

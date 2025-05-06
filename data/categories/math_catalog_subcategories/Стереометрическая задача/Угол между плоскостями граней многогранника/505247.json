@@ -1,0 +1,34 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 505247,
+    "condition": {
+        "text": "Дана правильная треугольная пирамида. а)  Докажите, что её противоположные ребра перпендикулярны.б)  Пусть косинус угла между боковой гранью и основанием равен  Найдите угол между боковыми гранями этой пирамиды.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body645987\" class=\"pbody\"><p class=\"left_margin\">Дана пра­виль­ная тре­уголь­ная пи­ра­ми­да. </p><p class=\"left_margin\">а)  До­ка­жи­те, что её про­ти­во­по­лож­ные ребра пер­пен­ди­ку­ляр­ны.</p><p class=\"left_margin\">б)  Пусть ко­си­нус угла между бо­ко­вой гра­нью и ос­но­ва­ни­ем равен <img src=\"https://ege.sdamgia.ru/formula/svg/80/8031df4adcd024a35d056033051580af.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 6 конец ар­гу­мен­та , зна­ме­на­тель: 6 конец дроби . \"> Най­ди­те угол между бо­ко­вы­ми гра­ня­ми этой пи­ра­ми­ды.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/80/8031df4adcd024a35d056033051580af.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Пусть SABC  — данная пирамида с вершиной S, SH  — ее высота, M  — середина BC. Проекцией прямой AS на плоскость основания пирамиды является прямая AM. Но AM − высота треугольника ABC, поэтому  Следовательно, по теореме о трех перпендикулярах,  Аналогично доказывается, что б)  Пусть CK  — высота равнобедренного треугольника BSC, а AK  — равного ему треугольника ASB. Таким образом, искомый угол AKC. Угол SMH  — угол между боковой гранью пирамиды и основанием.Пусть SM = 6a. тогда Заметим, что площадь треугольника BSC может быть вычислена двумя способами:  Значит, Теперь мы можем найти  искомый угол AKC при вершине равнобедренного треугольника  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol505247\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=132096\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Пусть <i>SABC</i>  — дан­ная пи­ра­ми­да с вер­ши­ной <i>S,</i> <i>SH</i>  — ее вы­со­та, <i>M</i>  — се­ре­ди­на <i>BC</i>. Про­ек­ци­ей пря­мой <i>AS</i> на плос­кость ос­но­ва­ния пи­ра­ми­ды яв­ля­ет­ся пря­мая <i>AM</i>. Но <i>AM</i> − вы­со­та тре­уголь­ни­ка <i>ABC</i>, по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/86/865ad3ce10c357069c7e86b8de216bee.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AM\\perp BC.\"> Сле­до­ва­тель­но, по тео­ре­ме о трех пер­пен­ди­ку­ля­рах, <img src=\"https://ege.sdamgia.ru/formula/svg/6e/6ebb802a174d0b204971bbf509700a8f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AS\\perp BC.\"> Ана­ло­гич­но до­ка­зы­ва­ет­ся, что <img src=\"https://ege.sdamgia.ru/formula/svg/de/de5ea27b452cf672412b4656d24f4237.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"BS\\perp AC, CS\\perp AB.\"></p><p class=\"left_margin\">б)  Пусть <i>CK</i>  — вы­со­та рав­но­бед­рен­но­го тре­уголь­ни­ка <i>BSC,</i> а <i>AK</i>  — рав­но­го ему тре­уголь­ни­ка <i>ASB.</i> Таким об­ра­зом, ис­ко­мый угол <i>AKC.</i> Угол <i>SMH</i>  — угол между бо­ко­вой гра­нью пи­ра­ми­ды и ос­но­ва­ни­ем.</p><p class=\"left_margin\">Пусть <i>SM = 6a.</i> тогда </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/83/83ce7a21c5b255c3b5c9582ca4d8eef7.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"MH=SM ко­си­нус \\angleSMH=a ко­рень из: на­ча­ло ар­гу­мен­та: 6 конец ар­гу­мен­та ,AM=3a ко­рень из: на­ча­ло ар­гу­мен­та: 6 конец ар­гу­мен­та ,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/da/dae39831f4777ca84fe7a686082880c3.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"BC=6a ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та ,SB= ко­рень из: на­ча­ло ар­гу­мен­та: BM в квад­ра­те плюс SM в квад­ра­те конец ар­гу­мен­та =3a ко­рень из: на­ча­ло ар­гу­мен­та: 6 конец ар­гу­мен­та .\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">За­ме­тим, что пло­щадь тре­уголь­ни­ка <i>BSC</i> может быть вы­чис­ле­на двумя спо­со­ба­ми: <img src=\"https://ege.sdamgia.ru/formula/svg/72/72b9d240d3914e1b5fca0482e66df51c.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S_BSC= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби SM умно­жить на BC= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби CK умно­жить на SB. \"> Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/01/0139eff0c7705e3e538a8b0510f752e2.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"CK=4a ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та .\"></p><p class=\"left_margin\">Те­перь мы можем найти  ис­ко­мый угол <i>AKC</i> при вер­ши­не рав­но­бед­рен­но­го тре­уголь­ни­ка </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/78/78627b5b84f7852a864f0767dde6da30.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" ко­си­нус \\angleAKC= дробь: чис­ли­тель: 2KC в квад­ра­те минус AC в квад­ра­те , зна­ме­на­тель: 2KC в квад­ра­те конец дроби = дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби . \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/bb/bbb4159a45c0215293bd24607ccdd8bd.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" арк­ко­си­нус дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/86/865ad3ce10c357069c7e86b8de216bee.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6ebb802a174d0b204971bbf509700a8f.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/de5ea27b452cf672412b4656d24f4237.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83ce7a21c5b255c3b5c9582ca4d8eef7.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/dae39831f4777ca84fe7a686082880c3.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/72b9d240d3914e1b5fca0482e66df51c.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/0139eff0c7705e3e538a8b0510f752e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/78/78627b5b84f7852a864f0767dde6da30.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bbb4159a45c0215293bd24607ccdd8bd.svg",
+            "/get_file?id=132096"
+        ]
+    },
+    "answer": "",
+    "topic_id": 14,
+    "analog_ids": [
+        505237,
+        511399
+    ]
+}

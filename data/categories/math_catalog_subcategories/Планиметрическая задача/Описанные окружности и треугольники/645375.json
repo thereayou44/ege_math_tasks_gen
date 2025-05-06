@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 645375,
+    "condition": {
+        "text": "В треугольнике ABC угол C острый, угол B равен 45° и AH  — высота. Прямая АН пересекает описанную около треугольника окружность в точке D.а)  Докажите, что прямые AB и CD параллельны.б)  Найдите AC, если CB  =  8 и площадь треугольника CAD равна 12.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body505347\" class=\"pbody\"><p class=\"left_margin\">В тре­уголь­ни­ке <i>ABC</i> угол <i>C</i> ост­рый, угол B равен 45° и <i>AH</i>  — вы­со­та. Пря­мая <i>АН</i> пе­ре­се­ка­ет опи­сан­ную около тре­уголь­ни­ка окруж­ность в точке <i>D</i>.</p><p class=\"left_margin\">а)  До­ка­жи­те, что пря­мые <i>AB</i> и <i>CD</i> па­рал­лель­ны.</p><p class=\"left_margin\">б)  Най­ди­те <i>AC</i>, если <i>CB</i>  =  8 и пло­щадь тре­уголь­ни­ка <i>CAD</i> равна 12.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Заметим, что  Тогда  как вписанные, опирающиеся на одну и ту же дугу. Поэтому  следовательно, прямые AB и CD параллельны.б)  Треугольник BAH равнобедренный. Пусть  Тогда  и DH  =  CH, так как треугольник CHD тоже равнобедренный. Находим:  откуда x  =  3. Тогда Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol645375\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=143401\" style=\"float:right;margin:10px;max-width:100%\">а)  За­ме­тим, что <img src=\"https://ege.sdamgia.ru/formula/svg/bd/bdabb514cb4a5f3fb8c4ed6f6c8168e4.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle BAH = 90 гра­ду­сов минус \\angle ABH = 45 гра­ду­сов .\"> Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/7d/7d70ef8adfe54334fe8ef6fb8422ffe0.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle BAD = \\angle BCD\"> как впи­сан­ные, опи­ра­ю­щи­е­ся на одну и ту же дугу. По­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/ac/ac958b4b9452cc1c23104b2d241fb42d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle ABC = \\angl BCD = 45 гра­ду­сов,\"> сле­до­ва­тель­но, пря­мые <i>AB</i> и <i>CD</i> па­рал­лель­ны.</p><p class=\"left_margin\">б)  Тре­уголь­ник <i>BAH</i> рав­но­бед­рен­ный. Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/61/61f9591884d7d0eed2807d28c779233f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BH = AH = x.\"> Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/aa/aa25c2176349fbd8a41cc3cdc0bb8627.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"CH = 8 минус x \"> и <i>DH</i>  =  <i>CH</i>, так как тре­уголь­ник <i>CHD</i> тоже рав­но­бед­рен­ный. На­хо­дим: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ab/ab7eb8ac8b6ba3e4dabfeddaf2e2c7a3.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"S_CAD = дробь: чис­ли­тель: AD умно­жить на CH, зна­ме­на­тель: 2 конец дроби = дробь: чис­ли­тель: x умно­жить на 8, зна­ме­на­тель: 2 конец дроби = 12, \"></p><p class=\"left_margin\"></p></center><p> от­ку­да <i>x</i>  =  3. Тогда </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/a2/a2c991aae7dc1a856a743bfb076bd5b0.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AC = ко­рень из: на­ча­ло ар­гу­мен­та: AH в квад­ра­те плюс CH в квад­ра­те конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 3 в квад­ра­те плюс 5 в квад­ра­те конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 34 конец ар­гу­мен­та .\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/e2/e2adca2b8d90630edd9e4418b2db6bde.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 34 конец ар­гу­мен­та .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/bd/bdabb514cb4a5f3fb8c4ed6f6c8168e4.svg",
+            "https://ege.sdamgia.ru/formula/svg/7d/7d70ef8adfe54334fe8ef6fb8422ffe0.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/ac958b4b9452cc1c23104b2d241fb42d.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/61f9591884d7d0eed2807d28c779233f.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa25c2176349fbd8a41cc3cdc0bb8627.svg",
+            "https://ege.sdamgia.ru/formula/svg/ab/ab7eb8ac8b6ba3e4dabfeddaf2e2c7a3.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a2c991aae7dc1a856a743bfb076bd5b0.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e2adca2b8d90630edd9e4418b2db6bde.svg",
+            "/get_file?id=143401"
+        ]
+    },
+    "answer": "",
+    "topic_id": 17,
+    "analog_ids": []
+}

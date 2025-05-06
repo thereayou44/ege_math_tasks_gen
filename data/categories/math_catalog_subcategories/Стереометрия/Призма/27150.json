@@ -1,0 +1,52 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27150,
+    "condition": {
+        "text": "В треугольной призме две боковые грани перпендикулярны. Их общее ребро равно 10 и отстоит от других боковых ребер на 6 и 8. Найдите площадь боковой поверхности этой призмы.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918770\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=113264\" style=\"float:right;margin:10px;max-width:100%\">В тре­уголь­ной приз­ме две бо­ко­вые грани пер­пен­ди­ку­ляр­ны. Их общее ребро равно 10 и от­сто­ит от дру­гих бо­ко­вых ребер на 6 и 8. Най­ди­те пло­щадь бо­ко­вой по­верх­но­сти этой приз­мы.</p></div>",
+        "image_urls": [
+            "/get_file?id=113264"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Для вычисления боковой поверхности призмы воспользуемся формулой, где l  — длина бокового ребра, а   — периметр перпендикулярного сечения призмы: Ответ: 240.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27150\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Для вы­чис­ле­ния бо­ко­вой по­верх­но­сти приз­мы вос­поль­зу­ем­ся фор­му­лой, где <i>l</i>  — длина бо­ко­во­го ребра, а <img src=\"https://ege.sdamgia.ru/formula/svg/b8/b8ec99d36e4e857aacce348fc0b466e8.svg\" class=\"tex\" style=\"vertical-align:-2.7pt\" alt=\"P_\\bot \">  — пе­ри­метр пер­пен­ди­ку­ляр­но­го се­че­ния приз­мы:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/2d/2d02376a719f0d43b6493df50d3d4199.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"S_бок=l умно­жить на P_\\bot =10 умно­жить на левая круг­лая скоб­ка 10 плюс 6 плюс 8 пра­вая круг­лая скоб­ка =240.\"></p><p class=\"left_margin\"></p></center> <p><span style=\"letter-spacing: 2px;\">Ответ:</span> 240.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b8/b8ec99d36e4e857aacce348fc0b466e8.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d02376a719f0d43b6493df50d3d4199.svg"
+        ]
+    },
+    "answer": "240",
+    "topic_id": 3,
+    "analog_ids": [
+        27150,
+        76011,
+        76013,
+        76015,
+        76011,
+        76013,
+        76015,
+        76017,
+        76019,
+        76021,
+        76023,
+        76025,
+        76027,
+        76029,
+        76031,
+        76033,
+        76035,
+        76037,
+        76039,
+        76041,
+        76043,
+        76045,
+        76047,
+        76049,
+        76051,
+        76053,
+        76055,
+        76057
+    ]
+}

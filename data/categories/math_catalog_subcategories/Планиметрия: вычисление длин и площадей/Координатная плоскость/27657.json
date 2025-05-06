@@ -1,0 +1,53 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27657,
+    "condition": {
+        "text": "Найдите абсциссу середины отрезка, соединяющего точки O(0; 0) и A(6; 8).",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918261\" class=\"pbody\"><p class=\"left_margin\"><img width=\"190\" style=\"float:right; margin:10px\" src=\"/get_file?id=321\">Най­ди­те абс­цис­су се­ре­ди­ны от­рез­ка, со­еди­ня­ю­ще­го точки <i>O</i>(0; 0) и <i>A</i>(6; 8).</p></div>",
+        "image_urls": [
+            "/get_file?id=321"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Координаты точки, делящей отрезок пополам , считаются по формуле:   Ответ: 3.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27657\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Ко­ор­ди­на­ты точки, де­ля­щей от­ре­зок по­по­лам , счи­та­ют­ся по фор­му­ле: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/96/960e693418d085518a6e5d95ceb256f3.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"x= дробь: чис­ли­тель: 6 плюс 0, зна­ме­на­тель: 2 конец дроби =3, \"> <img src=\"https://ege.sdamgia.ru/formula/svg/5c/5c28969f4f3d8001e49aebeb1662672b.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"y= дробь: чис­ли­тель: 8 плюс 0, зна­ме­на­тель: 2 конец дроби =4. \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 3.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/96/960e693418d085518a6e5d95ceb256f3.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5c28969f4f3d8001e49aebeb1662672b.svg"
+        ]
+    },
+    "answer": "3",
+    "topic_id": null,
+    "analog_ids": [
+        27657,
+        58157,
+        58159,
+        58161,
+        58157,
+        58159,
+        58161,
+        58163,
+        58165,
+        58167,
+        58169,
+        58171,
+        58173,
+        58175,
+        58177,
+        58179,
+        58181,
+        58183,
+        58185,
+        58187,
+        58189,
+        58191,
+        58193,
+        58195,
+        58197,
+        58199,
+        58201,
+        58203,
+        58205
+    ]
+}

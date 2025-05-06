@@ -1,0 +1,29 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 530242,
+    "condition": {
+        "text": "а)  Существует ли пара натуральных чисел, наибольший общий делитель которых равен 5, а наименьшее общее кратное  — 123?б)  Существует ли пара натуральных чисел, наибольший общий делитель которых равен 7, а наименьшее общее кратное  — 294?в)  Найдите все пары натуральных чисел, наибольший общий делитель которых равен 13, а наименьшее общее кратное  — 78.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body424382\" class=\"pbody\"><p class=\"left_margin\">а)  Су­ще­ству­ет ли пара на­ту­раль­ных чисел, наи­боль­ший общий де­ли­тель ко­то­рых равен 5, а наи­мень­шее общее крат­ное  — 123?</p><p class=\"left_margin\">б)  Су­ще­ству­ет ли пара на­ту­раль­ных чисел, наи­боль­ший общий де­ли­тель ко­то­рых равен 7, а наи­мень­шее общее крат­ное  — 294?</p><p class=\"left_margin\">в)  Най­ди­те все пары на­ту­раль­ных чисел, наи­боль­ший общий де­ли­тель ко­то­рых равен 13, а наи­мень­шее общее крат­ное  — 78.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Нет. Наименьшее общее кратное делится на любое из этих чисел, а они, в свою очередь делятся, на их наибольший общий делитель. Значит, и наименьшее общее кратное делится на их наибольший общий делитель. Но 123 не делится на 5.б)  Да, например, 7 и 294 или 42 и 49.в)  Пусть эти числа равны 13x и 13y, где x и y не имеют общих делителей. Тогда наименьшее общее кратное данных чисел  откуда  натуральными решениями полученного уравнения являются   или     или   Тогда  исходные числа равны либо 13 и 78, либо 26 и 39. Ответ: а) нет; б) да, например, 7 и 294; в) 13 и 78, 26 и 39.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol530242\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Нет. Наи­мень­шее общее крат­ное де­лит­ся на любое из этих чисел, а они, в свою оче­редь де­лят­ся, на их наи­боль­ший общий де­ли­тель. Зна­чит, и наи­мень­шее общее крат­ное де­лит­ся на их наи­боль­ший общий де­ли­тель. Но 123 не де­лит­ся на 5.</p><p class=\"left_margin\">б)  Да, на­при­мер, 7 и 294 или 42 и 49.</p><p class=\"left_margin\">в)  Пусть эти числа равны 13<i>x</i> и 13<i>y</i>, где <i>x</i> и <i>y</i> не имеют общих де­ли­те­лей. Тогда наи­мень­шее общее крат­ное дан­ных чисел <img src=\"https://ege.sdamgia.ru/formula/svg/23/231c3ef27360d31a8dcacd57d510efa6.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"13xy=78,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/af/aff7d16ef70fe328e1c0a1e45bc909f8.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"xy=6.\"> на­ту­раль­ны­ми ре­ше­ни­я­ми по­лу­чен­но­го урав­не­ния яв­ля­ют­ся <img src=\"https://ege.sdamgia.ru/formula/svg/52/52634a5ce8aca5756be2274cf2f12b91.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x=1,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/c0/c017f3fd1ce4ccded766ca2a40f9832d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=6,\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/c9/c976bcb9d7042b88df5cde9e1dd52923.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x=2,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/a6/a6b47b2c9919f1e9cba4c1b39a5aaea8.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=3,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/50/50b8bd4730b0e35c88481f8b866d193a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x=3,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/82/828ada233bb827371cbdd1dab8f7cad9.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=2,\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/46/469e7dbf6dd20331356bf735de215de8.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x=6,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/23/231f8e81717b1ec7976960f21afbfeaf.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=1.\"> Тогда  ис­ход­ные числа равны либо 13 и 78, либо 26 и 39.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) нет; б) да, на­при­мер, 7 и 294; в) 13 и 78, 26 и 39.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/23/231c3ef27360d31a8dcacd57d510efa6.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/aff7d16ef70fe328e1c0a1e45bc909f8.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/52634a5ce8aca5756be2274cf2f12b91.svg",
+            "https://ege.sdamgia.ru/formula/svg/c0/c017f3fd1ce4ccded766ca2a40f9832d.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c976bcb9d7042b88df5cde9e1dd52923.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a6b47b2c9919f1e9cba4c1b39a5aaea8.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50b8bd4730b0e35c88481f8b866d193a.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/828ada233bb827371cbdd1dab8f7cad9.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/469e7dbf6dd20331356bf735de215de8.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/231f8e81717b1ec7976960f21afbfeaf.svg"
+        ]
+    },
+    "answer": "а) нет; б) да, на­при­мер, 7 и 294; в) 13 и 78, 26 и 39.",
+    "topic_id": null,
+    "analog_ids": []
+}

@@ -1,0 +1,54 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27633,
+    "condition": {
+        "text": "Найдите площадь прямоугольной трапеции, основания которой равны 6 и 2, большая боковая сторона составляет с основанием угол 45°.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918797\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=66804\" style=\"float:right;margin:10px;max-width:100%\">Най­ди­те пло­щадь пря­мо­уголь­ной тра­пе­ции, ос­но­ва­ния ко­то­рой равны 6 и 2, боль­шая бо­ко­вая сто­ро­на со­став­ля­ет с ос­но­ва­ни­ем угол 45°.</p></div>",
+        "image_urls": [
+            "/get_file?id=66804"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Проведем высоту CH. Треугольник CHB  — прямоугольный с  значит, он также равнобедренный: CH = HB = 4. Ответ: 16.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27633\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=114421\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">Про­ве­дем вы­со­ту <i>CH</i>. Тре­уголь­ник <i>CHB</i>  — пря­мо­уголь­ный с <img src=\"https://ege.sdamgia.ru/formula/svg/cf/cfadb9d8afc3e308d21246fcf43945c1.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle B=45 гра­ду­сов ,\"> зна­чит, он также рав­но­бед­рен­ный: <i>CH = HB</i> = 4.</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/c6/c6a1f7108094011bc0dd74d9f99043fa.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"S_ABCD= дробь: чис­ли­тель: AB плюс CD, зна­ме­на­тель: 2 конец дроби умно­жить на CH=4 умно­жить на 4=16. \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 16.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/cf/cfadb9d8afc3e308d21246fcf43945c1.svg",
+            "https://ege.sdamgia.ru/formula/svg/c6/c6a1f7108094011bc0dd74d9f99043fa.svg",
+            "/get_file?id=114421"
+        ]
+    },
+    "answer": "16",
+    "topic_id": 1,
+    "analog_ids": [
+        27633,
+        57157,
+        57159,
+        57161,
+        57157,
+        57159,
+        57161,
+        57163,
+        57165,
+        57167,
+        57169,
+        57171,
+        57173,
+        57175,
+        57177,
+        57179,
+        57181,
+        57183,
+        57185,
+        57187,
+        57189,
+        57191,
+        57193,
+        57195,
+        57197,
+        57199,
+        57201,
+        57203,
+        57205
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521660,
+    "condition": {
+        "text": "Из середины D гипотенузы АВ прямоугольного треугольника АВС проведен луч, перпендикулярный к гипотенузе и пересекающий катет АС. На нем отложен отрезок DE, длина которого равна половине отрезка АВ. Длина отрезка СЕ равна 1 и совпадает с длиной одного из катетов. а)  Докажите, что угол АСЕ равен 45 градусов б)  Найдите площадь треугольника АВС.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629568\" class=\"pbody\"><p class=\"left_margin\">Из се­ре­ди­ны <i>D</i> ги­по­те­ну­зы <i>АВ</i> пря­мо­уголь­но­го тре­уголь­ни­ка <i>АВС</i> про­ве­ден луч, пер­пен­ди­ку­ляр­ный к ги­по­те­ну­зе и пе­ре­се­ка­ю­щий катет <i>АС</i>. На нем от­ло­жен от­ре­зок <i>DE</i>, длина ко­то­ро­го равна по­ло­ви­не от­рез­ка <i>АВ</i>. Длина от­рез­ка <i>СЕ</i> равна 1 и сов­па­да­ет с дли­ной од­но­го из ка­те­тов. </p><p class=\"left_margin\">а)  До­ка­жи­те, что угол <i>АСЕ</i> равен 45 гра­ду­сов </p><p class=\"left_margin\">б)  Най­ди­те пло­щадь тре­уголь­ни­ка <i>АВС</i>.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Описанная окружность треугольника ABC имеет точку D своим центром, поэтому E тоже лежит на этой окружности. По условию и теореме о вписанном угле имеем  что и требовалось доказать.б)  Поскольку дуга CE является частью дуги CA меньшей  то стягивающая ее хорда меньше хорды  Значит,  при этом дуга CE равна четверти окружности. Значит, хорда длины  стягивает дугу  откуда   и площадь треугольника равна  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521660\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=36424\" style=\"float:right;margin:10px\">а)  Опи­сан­ная окруж­ность тре­уголь­ни­ка <i>ABC</i> имеет точку <i>D</i> своим цен­тром, по­это­му <i>E</i> тоже лежит на этой окруж­но­сти. По усло­вию и тео­ре­ме о впи­сан­ном угле имеем <img src=\"https://ege.sdamgia.ru/formula/svg/13/13460a1363a21a9ba9027d4c33371e6a.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"\\angle ECA= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби \\angle EDA= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на 90 в сте­пе­ни левая круг­лая скоб­ка \\circ пра­вая круг­лая скоб­ка =45 в сте­пе­ни левая круг­лая скоб­ка \\circ пра­вая круг­лая скоб­ка ,\"> что и тре­бо­ва­лось до­ка­зать.</p><p class=\"left_margin\">б)  По­сколь­ку дуга <i>CE</i> яв­ля­ет­ся ча­стью дуги <i>CA</i> мень­шей <img src=\"https://ege.sdamgia.ru/formula/svg/a9/a9c32b90f621ef5724725e5cbecd3cf5.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"180 в сте­пе­ни левая круг­лая скоб­ка \\circ пра­вая круг­лая скоб­ка ,\"> то стя­ги­ва­ю­щая ее хорда мень­ше хорды <img src=\"https://ege.sdamgia.ru/formula/svg/9d/9d7474780e2af69a67da5dc47eaef9db.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"CA.\"> Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/8d/8d638711a5f99b0e9173ace43347a9c6.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"CE=CB=1,\"> при этом дуга <i>CE</i> равна чет­вер­ти окруж­но­сти. Зна­чит, хорда длины <img src=\"https://ege.sdamgia.ru/formula/svg/c4/c4ca4238a0b923820dcc509a6f75849b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"1\"> стя­ги­ва­ет дугу <img src=\"https://ege.sdamgia.ru/formula/svg/40/40806e575305ddea3dabaf13f61a63d9.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"45 в сте­пе­ни левая круг­лая скоб­ка \\circ пра­вая круг­лая скоб­ка ,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/d6/d6b795b9ecbe346187d904e423955f31.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle BAC=22,5 в сте­пе­ни левая круг­лая скоб­ка \\circ пра­вая круг­лая скоб­ка ,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/77/7732bc0bfb158e4d144581080a8550a5.svg\" class=\"tex\" style=\"vertical-align:-3.3pt\" alt=\"AC=\\ctg 22,5 в сте­пе­ни левая круг­лая скоб­ка \\circ пра­вая круг­лая скоб­ка \"> и пло­щадь тре­уголь­ни­ка равна <img src=\"https://ege.sdamgia.ru/formula/svg/43/43cbd6c6ccbee5034c112ad188eb601f.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: \\ctg 22,5 в сте­пе­ни левая круг­лая скоб­ка \\circ пра­вая круг­лая скоб­ка , зна­ме­на­тель: 2 конец дроби = дробь: чис­ли­тель: 1 плюс ко­си­нус 45 в сте­пе­ни левая круг­лая скоб­ка \\circ пра­вая круг­лая скоб­ка , зна­ме­на­тель: 2 синус 45 в сте­пе­ни левая круг­лая скоб­ка \\circ пра­вая круг­лая скоб­ка конец дроби = дробь: чис­ли­тель: 1 плюс ко­рень из 2 , зна­ме­на­тель: 2 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/e8/e80cdc84a5cc51a90537f29dfdb44c87.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 1 плюс ко­рень из 2 , зна­ме­на­тель: 2 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/13/13460a1363a21a9ba9027d4c33371e6a.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a9c32b90f621ef5724725e5cbecd3cf5.svg",
+            "https://ege.sdamgia.ru/formula/svg/9d/9d7474780e2af69a67da5dc47eaef9db.svg",
+            "https://ege.sdamgia.ru/formula/svg/8d/8d638711a5f99b0e9173ace43347a9c6.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c4ca4238a0b923820dcc509a6f75849b.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/40806e575305ddea3dabaf13f61a63d9.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d6b795b9ecbe346187d904e423955f31.svg",
+            "https://ege.sdamgia.ru/formula/svg/77/7732bc0bfb158e4d144581080a8550a5.svg",
+            "https://ege.sdamgia.ru/formula/svg/43/43cbd6c6ccbee5034c112ad188eb601f.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e80cdc84a5cc51a90537f29dfdb44c87.svg",
+            "/get_file?id=36424"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

@@ -1,0 +1,25 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 500891,
+    "condition": {
+        "text": "В правильной четырехугольной пирамиде SABCD точка O  — центр основания, S  — вершина,   Найдите длину отрезка ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body641639\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=111773\" style=\"float:right;margin:10px;max-width:100%\">В пра­виль­ной че­ты­рех­уголь­ной пи­ра­ми­де <i>SABCD</i> точка <i>O</i>  — центр ос­но­ва­ния, <i>S</i>  — вер­ши­на, <img src=\"https://ege.sdamgia.ru/formula/svg/d7/d7b2ae7161c60bf1e4510751113de650.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"SA=13,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/38/38252c6a3e46d9b820b82dc83e33f185.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BD=10.\"> Най­ди­те длину от­рез­ка <img src=\"https://ege.sdamgia.ru/formula/svg/7b/7bfb99a268fb1d78079ad3eec3ce2ef7.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"SO.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d7/d7b2ae7161c60bf1e4510751113de650.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/38252c6a3e46d9b820b82dc83e33f185.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7bfb99a268fb1d78079ad3eec3ce2ef7.svg",
+            "/get_file?id=111773"
+        ]
+    },
+    "solution": {
+        "text": "Решение. В правильной пирамиде вершина проецируется в центр основания, следовательно, SO является высотой пирамиды. Тогда по теореме ПифагораОтвет: 12.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol500891\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">В пра­виль­ной пи­ра­ми­де вер­ши­на про­еци­ру­ет­ся в центр ос­но­ва­ния, сле­до­ва­тель­но, <i>SO</i> яв­ля­ет­ся вы­со­той пи­ра­ми­ды. Тогда по тео­ре­ме Пи­фа­го­ра</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/9f/9f0fa79e40d23e235a8521210f9fff77.svg\" class=\"tex\" style=\"vertical-align:-12.3pt\" alt=\"SO= ко­рень из: на­ча­ло ар­гу­мен­та: SB конец ар­гу­мен­та в квад­ра­те минус BO в квад­ра­те = ко­рень из: на­ча­ло ар­гу­мен­та: SB конец ар­гу­мен­та в квад­ра­те минус левая круг­лая скоб­ка дробь: чис­ли­тель: BD, зна­ме­на­тель: 2 конец дроби пра­вая круг­лая скоб­ка в квад­ра­те = ко­рень из: на­ча­ло ар­гу­мен­та: 169 минус 25 конец ар­гу­мен­та =12. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing:2px \">Ответ</span>: 12.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/9f/9f0fa79e40d23e235a8521210f9fff77.svg"
+        ]
+    },
+    "answer": "12",
+    "topic_id": 3,
+    "analog_ids": []
+}

@@ -1,0 +1,29 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27674,
+    "condition": {
+        "text": "Точки O(0; 0), A(6; 8), B(6; 2) и C являются вершинами параллелограмма. Найдите ординату точки C.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918246\" class=\"pbody\"><p class=\"left_margin\"><img width=\"190\" style=\"float:right; margin:10px\" src=\"/get_file?id=336\">Точки <i>O</i>(0; 0), <i>A</i>(6; 8), <i>B</i>(6; 2) и <i>C</i> яв­ля­ют­ся вер­ши­на­ми па­рал­ле­ло­грам­ма. Най­ди­те ор­ди­на­ту точки <i>C</i>.</p></div>",
+        "image_urls": [
+            "/get_file?id=336"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Так как у параллелограмма противоположные стороны попарно равны, то   Известно, что C имеет координаты  следовательно, Поэтому  Ответ: 6.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27674\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Так как у па­рал­ле­ло­грам­ма про­ти­во­по­лож­ные сто­ро­ны по­пар­но равны, то <img src=\"https://ege.sdamgia.ru/formula/svg/32/323571a4c1b83365c915435d36e47906.svg\" class=\"tex\" style=\"vertical-align:-5.9pt\" alt=\"BA= ко­рень из: на­ча­ло ар­гу­мен­та: левая круг­лая скоб­ка 6 минус 6 пра­вая круг­лая скоб­ка конец ар­гу­мен­та в квад­ра­те плюс левая круг­лая скоб­ка 8 минус 2 пра­вая круг­лая скоб­ка в квад­ра­те =6,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/5f/5f33be89d96f36b9d499cab9581217d7.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BA=OC=6.\"> Из­вест­но, что <i>C</i> имеет ко­ор­ди­на­ты <img src=\"https://ege.sdamgia.ru/formula/svg/04/04acdc62639a11885e8d0efffbe8f089.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 0;y пра­вая круг­лая скоб­ка ,\"> сле­до­ва­тель­но,</p><p class=\"left_margin\"></p><center><p> <img src=\"https://ege.sdamgia.ru/formula/svg/19/19c92c176a45e3f087d14dcce0a78368.svg\" class=\"tex\" style=\"vertical-align:-5.9pt\" alt=\"OC= ко­рень из: на­ча­ло ар­гу­мен­та: левая круг­лая скоб­ка 0 минус 0 пра­вая круг­лая скоб­ка конец ар­гу­мен­та в квад­ра­те плюс левая круг­лая скоб­ка y минус 0 пра­вая круг­лая скоб­ка в квад­ра­те = ко­рень из: на­ча­ло ар­гу­мен­та: y конец ар­гу­мен­та в квад­ра­те =6.\"></p><p class=\"left_margin\"></p></center>По­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/fc/fca41f0fdb760c58e9d16d7d45b764cd.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=6.\"><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 6.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/32/323571a4c1b83365c915435d36e47906.svg",
+            "https://ege.sdamgia.ru/formula/svg/5f/5f33be89d96f36b9d499cab9581217d7.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/04acdc62639a11885e8d0efffbe8f089.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/19c92c176a45e3f087d14dcce0a78368.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fca41f0fdb760c58e9d16d7d45b764cd.svg"
+        ]
+    },
+    "answer": "6",
+    "topic_id": null,
+    "analog_ids": [
+        27674,
+        26405
+    ]
+}

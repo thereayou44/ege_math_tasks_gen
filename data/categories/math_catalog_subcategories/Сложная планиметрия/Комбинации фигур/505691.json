@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 505691,
+    "condition": {
+        "text": "В окружность вписан четырехугольник ABCD, диагонали которого взаимно перпендикулярны и пересекаются в точке E. Прямая, проходящая через точку E и перпендикулярная к AB, пересекает сторону CD в точке M.а)  Докажите, что EM  — медиана треугольника CED.б)  Найдите EM, если AD = 8, AB = 4 и угол CDB равен 60°.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body645543\" class=\"pbody\"><p class=\"left_margin\">В окруж­ность впи­сан че­ты­рех­уголь­ник <i>ABCD</i>, диа­го­на­ли ко­то­ро­го вза­им­но пер­пен­ди­ку­ляр­ны и пе­ре­се­ка­ют­ся в точке <i>E</i>. Пря­мая, про­хо­дя­щая через точку <i>E</i> и пер­пен­ди­ку­ляр­ная к <i>AB</i>, пе­ре­се­ка­ет сто­ро­ну <i>CD</i> в точке <i>M</i>.</p><p class=\"left_margin\">а)  До­ка­жи­те, что <i>EM</i>  — ме­ди­а­на тре­уголь­ни­ка <i>CED</i>.</p><p class=\"left_margin\">б)  Най­ди­те <i>EM</i>, если <i>AD</i> = 8, <i>AB</i> = 4 и угол <i>CDB</i> равен 60°.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  углы  ∠BDC и ∠BAC равны, так как они опираются на одну и ту же дугу BC. Тогда в треугольнике ABE угол ∠ABE  =  30° (так как ∠BAC  =  60°). Обозначим точку пересечения прямой ME со стороной AB за K. Тогда в прямоугольном треугольнике BKE угол ∠BEK  =  60°. Далее, ∠BEK = ∠MED  =  60° (как вертикальные). Отсюда получаем, что   — равносторонний (так как все углы по ), то есть EM  =  ED  =  MD  =  x. Так как в прямоугольном треугольнике CED против угла в 30° лежит катет, в 2 раза меньший гипотенузы, то CD = 2x. Получили, что так как DM = x, точка M является серединой гипотенузы CD, то есть EM  — медиана ΔCED. Что и требовалось доказать. б)  из ΔABE получаем, что  Тогда по теореме Пифагора из ΔADE получаем:Отсюда получаем, что  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol505691\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=21954\" style=\"float:right;margin:5px\" width=\"300\"></p><p class=\"left_margin\">а)  углы  ∠<i>BDC</i> и ∠<i>BAC</i> равны, так как они опи­ра­ют­ся на одну и ту же дугу <i>BC</i>. Тогда в тре­уголь­ни­ке <i>ABE</i> угол ∠<i>ABE</i>  =  30° (так как ∠<i>BAC</i>  =  60°). Обо­зна­чим точку пе­ре­се­че­ния пря­мой <i>ME</i> со сто­ро­ной <i>AB</i> за <i>K</i>. Тогда в пря­мо­уголь­ном тре­уголь­ни­ке <i>BKE</i> угол ∠<i>BEK</i>  =  60°. Далее, ∠<i>BEK</i> = ∠<i>MED</i>  =  60° (как вер­ти­каль­ные). От­сю­да по­лу­ча­ем, что <img src=\"https://ege.sdamgia.ru/formula/svg/70/708c0b2f72c9716c1db3a0c2351886f0.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\triangle EDM\">  — рав­но­сто­рон­ний (так как все углы по <img src=\"https://ege.sdamgia.ru/formula/svg/23/23829213233f0fa5d36e06b1c80e5db9.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"60 гра­ду­сов\">), то есть <i>EM</i>  =  <i>ED</i>  =  <i>MD</i>  =  <i>x</i>. Так как в пря­мо­уголь­ном тре­уголь­ни­ке <i>CED</i> про­тив угла в 30° лежит катет, в 2 раза мень­ший ги­по­те­ну­зы, то <i>CD</i> = 2<i>x</i>. По­лу­чи­ли, что так как <i>DM</i> = <i>x</i>, точка <i>M</i> яв­ля­ет­ся се­ре­ди­ной ги­по­те­ну­зы <i>CD</i>, то есть <i>EM</i>  — ме­ди­а­на Δ<i>CED</i>. Что и тре­бо­ва­лось до­ка­зать.</p><p>&nbsp;</p><p class=\"left_margin\">б)  из Δ<i>ABE</i> по­лу­ча­ем, что <img src=\"https://ege.sdamgia.ru/formula/svg/88/88fe925a6a906db9f751ec644713d59b.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"AE = дробь: чис­ли­тель: AB, зна­ме­на­тель: 2 конец дроби = 2.\"> Тогда по тео­ре­ме Пи­фа­го­ра из Δ<i>ADE</i> по­лу­ча­ем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/b1/b1a1d6cda8c44c1f628562cee6a2466c.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"ED = ко­рень из: на­ча­ло ар­гу­мен­та: AD в квад­ра­те минус AE в квад­ра­те конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 64 минус 4 конец ар­гу­мен­та = 2 ко­рень из: на­ча­ло ар­гу­мен­та: 15 конец ар­гу­мен­та .\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">От­сю­да по­лу­ча­ем, что <img src=\"https://ege.sdamgia.ru/formula/svg/3c/3ca8087774956ad148986c360cb7b483.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"EM = ED = 2 ко­рень из: на­ча­ло ар­гу­мен­та: 15 конец ар­гу­мен­та .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/7d/7d39e105280b98cae5c998a3cda8ee4e.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2 ко­рень из: на­ча­ло ар­гу­мен­та: 15 конец ар­гу­мен­та .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/70/708c0b2f72c9716c1db3a0c2351886f0.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/23829213233f0fa5d36e06b1c80e5db9.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/88fe925a6a906db9f751ec644713d59b.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b1a1d6cda8c44c1f628562cee6a2466c.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3ca8087774956ad148986c360cb7b483.svg",
+            "https://ege.sdamgia.ru/formula/svg/7d/7d39e105280b98cae5c998a3cda8ee4e.svg",
+            "/get_file?id=21954"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": [
+        505691,
+        505787,
+        508157
+    ]
+}

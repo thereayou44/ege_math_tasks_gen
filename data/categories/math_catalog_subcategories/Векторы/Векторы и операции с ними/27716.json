@@ -1,0 +1,58 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27716,
+    "condition": {
+        "text": "Диагонали ромба ABCD равны 12 и 16. Найдите длину вектора ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918200\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=143414\" style=\"float:right;margin:10px;max-width:100%\">Диа­го­на­ли ромба <i>ABCD</i> равны 12 и 16. Най­ди­те длину век­то­ра <img src=\"https://ege.sdamgia.ru/formula/svg/32/32aa48a4203e8ca55e180bb7d77dc3aa.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overrightarrowAB минус \\overrightarrowAC.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/32/32aa48a4203e8ca55e180bb7d77dc3aa.svg",
+            "/get_file?id=143414"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Разность векторов  равна вектору  Диагонали ромба перпендикулярны и точкой пересечения делятся пополам. Пусть O  — точка пересечения диагоналей. Вектор  является гипотенузой в прямоугольном треугольнике  Поэтому  Ответ: 10.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27716\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Раз­ность век­то­ров <img src=\"https://ege.sdamgia.ru/formula/svg/88/885e2bfdd9d73549b77ab468fa95e220.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overrightarrowAB минус \\overrightarrowAC\"> равна век­то­ру <img src=\"https://ege.sdamgia.ru/formula/svg/5c/5c83351a42c092a2c1e6d4e64c1f8ec6.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overrightarrowCB.\"> Диа­го­на­ли ромба пер­пен­ди­ку­ляр­ны и точ­кой пе­ре­се­че­ния де­лят­ся по­по­лам. Пусть <i>O</i>  — точка пе­ре­се­че­ния диа­го­на­лей. Век­тор <img src=\"https://ege.sdamgia.ru/formula/svg/5c/5c3a894e9cc9c03bdfd7dc5243b62daa.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overrightarrowCB\"> яв­ля­ет­ся ги­по­те­ну­зой в пря­мо­уголь­ном тре­уголь­ни­ке <img src=\"https://ege.sdamgia.ru/formula/svg/b5/b592d0e061d9272375e504e3241478d1.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BOC.\"> По­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/70/708a009128907bd338868d5b7e8e2f9e.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"\\overset\\mathopCB= ко­рень из: на­ча­ло ар­гу­мен­та: 8 конец ар­гу­мен­та в квад­ра­те плюс 6 в квад­ра­те =10.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 10.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/88/885e2bfdd9d73549b77ab468fa95e220.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5c83351a42c092a2c1e6d4e64c1f8ec6.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5c3a894e9cc9c03bdfd7dc5243b62daa.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b592d0e061d9272375e504e3241478d1.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/708a009128907bd338868d5b7e8e2f9e.svg"
+        ]
+    },
+    "answer": "10",
+    "topic_id": 2,
+    "analog_ids": [
+        27716,
+        26449,
+        60605,
+        60607,
+        26449,
+        60605,
+        60607,
+        60609,
+        60611,
+        60613,
+        60615,
+        60617,
+        60619,
+        60621,
+        60623,
+        60625,
+        60627,
+        60629,
+        60631,
+        60633,
+        60635,
+        60637,
+        60639,
+        60641,
+        60643,
+        60645,
+        60647,
+        60649,
+        60651,
+        60653
+    ]
+}

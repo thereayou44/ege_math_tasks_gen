@@ -1,0 +1,29 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 500644,
+    "condition": {
+        "text": "Дан прямоугольник KLMN со сторонами: KN = 11, MN = 8. Прямая, проходящая через вершину М, касается окружности с центром К радиуса 4 и пересекается с прямой KN в точке Q. Найдите QK.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body642392\" class=\"pbody\"><p class=\"left_margin\">Дан пря­мо­уголь­ник <i>KLMN</i> со сто­ро­на­ми: <i>KN</i> = 11, <i>MN</i> = 8. Пря­мая, про­хо­дя­щая через вер­ши­ну <i>М</i>, ка­са­ет­ся окруж­но­сти с цен­тром <i>К</i> ра­ди­у­са 4 и пе­ре­се­ка­ет­ся с пря­мой <i>KN</i> в точке <i>Q</i>. Най­ди­те <i>QK</i>.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Пусть точка Q лежит между K и N (рис. 1), P  — точка касания прямой MQ с данной окружностью. Обозначим KQ  =  x.Из прямоугольного треугольника QPK по теореме Пифагора находим  Прямоугольные треугольники QPK и QNM подобны, поэтому  откуда  Если точка Q лежит на продолжении стороны NK за точку K (рис. 2), то, рассуждая аналогично, получим уравнение 3x2 − 22x − 185  =  0, из которого  Ответ: 5 или ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol500644\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть точка <i>Q</i> лежит между <i>K</i> и <i>N</i> (рис. 1), <i>P</i>  — точка ка­са­ния пря­мой <i>MQ</i> с дан­ной окруж­но­стью. Обо­зна­чим <i>KQ</i>  =  <i>x</i>.</p><p><img src=\"/get_file?id=29370\" style=\"margin:10px auto;display:block\"></p><p class=\"left_margin\">Из пря­мо­уголь­но­го тре­уголь­ни­ка <i>QPK</i> по тео­ре­ме Пи­фа­го­ра на­хо­дим </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/a1/a135c3d85282c69a3a31c75873f273ca.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"PQ= ко­рень из: на­ча­ло ар­гу­мен­та: QK в квад­ра­те минус PK в квад­ра­те конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: x в квад­ра­те минус 16 конец ар­гу­мен­та .\"></p><p class=\"left_margin\"></p></center> <p class=\"left_margin\">Пря­мо­уголь­ные тре­уголь­ни­ки <i>QPK</i> и <i>QNM</i> по­доб­ны, по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/e7/e7b006eede6845a594ea5c9eb863384f.svg\" class=\"tex\" style=\"vertical-align:-10.5pt\" alt=\" дробь: чис­ли­тель: PK, зна­ме­на­тель: PQ конец дроби = дробь: чис­ли­тель: MN, зна­ме­на­тель: QN конец дроби , \"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/bf/bf90354395a44c6b4a109d9936a74e58.svg\" class=\"tex\" style=\"vertical-align:-11.0pt\" alt=\" дробь: чис­ли­тель: 4, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: x в квад­ра­те минус 16 конец ар­гу­мен­та конец дроби = дробь: чис­ли­тель: 8, зна­ме­на­тель: 11 минус x конец дроби . \"> </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/23/23db41ebf1e6b393fa41cf22f7d879a3.svg\" class=\"tex\" style=\"vertical-align:-4.7pt\" alt=\" левая круг­лая скоб­ка 11 минус x пра­вая круг­лая скоб­ка в квад­ра­те =4 левая круг­лая скоб­ка x в квад­ра­те минус 16 пра­вая круг­лая скоб­ка рав­но­силь­но 3x в квад­ра­те плюс 22x минус 185=0 рав­но­силь­но x=5.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Если точка <i>Q</i> лежит на про­дол­же­нии сто­ро­ны <i>NK</i> за точку <i>K</i> (рис. 2), то, рас­суж­дая ана­ло­гич­но, по­лу­чим урав­не­ние 3<i>x</i><sup>2</sup> − 22<i>x</i> − 185  =  0, из ко­то­ро­го <img src=\"https://ege.sdamgia.ru/formula/svg/41/41b5c97026d8034e8a1b3bdedaa5a661.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x= дробь: чис­ли­тель: 37, зна­ме­на­тель: 3 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 5 или <img src=\"https://ege.sdamgia.ru/formula/svg/79/7959ae7594eb16abfc99654cce3befa3.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 37, зна­ме­на­тель: 3 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a1/a135c3d85282c69a3a31c75873f273ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e7b006eede6845a594ea5c9eb863384f.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bf90354395a44c6b4a109d9936a74e58.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/23db41ebf1e6b393fa41cf22f7d879a3.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/41b5c97026d8034e8a1b3bdedaa5a661.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/7959ae7594eb16abfc99654cce3befa3.svg",
+            "/get_file?id=29370"
+        ]
+    },
+    "answer": "5 или",
+    "topic_id": null,
+    "analog_ids": [
+        500642,
+        511346
+    ]
+}

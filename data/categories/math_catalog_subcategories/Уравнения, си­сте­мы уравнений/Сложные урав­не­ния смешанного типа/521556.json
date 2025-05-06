@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521556,
+    "condition": {
+        "text": "Дано уравнение а)  Решите уравнение.б)  Найдите корни этого уравнения, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629672\" class=\"pbody\"><p class=\"left_margin\">Дано урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/07/07a0603e6c7ca25aafd11868ccd58e9e.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"8 в сте­пе­ни x плюс 3=3 умно­жить на 4 в сте­пе­ни x плюс 2 в сте­пе­ни x .\"></p><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние.</p><p class=\"left_margin\">б)  Най­ди­те&nbsp;корни&nbsp;этого&nbsp;урав­не­ния,&nbsp;при­над­ле­жа­щие&nbsp;от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/17/173483f0401f936a30c048e9cec5755d.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби ; дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби } пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/07/07a0603e6c7ca25aafd11868ccd58e9e.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/173483f0401f936a30c048e9cec5755d.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Обозначая  имеем  то есть  Значит,  или  то есть  или  Поскольку  на указанном отрезке лежит только  Ответ: а)  б) 0.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521556\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Обо­зна­чая <img src=\"https://ege.sdamgia.ru/formula/svg/bb/bbd85a5b267f2d39960cb1ec94a5fdcc.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"t=2 в сте­пе­ни x ,\"> имеем <img src=\"https://ege.sdamgia.ru/formula/svg/45/45e803ffecafb2cc48952e91337896ce.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"t в кубе плюс 3=3t в квад­ра­те плюс t,\"> то есть <img src=\"https://ege.sdamgia.ru/formula/svg/19/190e92041613cff9332169c016c4e1f9.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка t минус 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка t плюс 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка t минус 3 пра­вая круг­лая скоб­ка =0.\"> Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/09/09abaa68eb1e605bc39b8741f04db196.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2 в сте­пе­ни x =1\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/5c/5cc06f5f618a486d85481464f0a556e0.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2 в сте­пе­ни x =3,\"> то есть <img src=\"https://ege.sdamgia.ru/formula/svg/e1/e11729b0b65ecade3fc272548a3883fc.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=0\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/60/6060756cbb9a69fa3eaedf3335abea9c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x= ло­га­рифм по ос­но­ва­нию 2 3.\"></p><p>&nbsp;</p><p class=\"left_margin\">По­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/7b/7b47ec9a434ceff985cb7951886d9199.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2 в сте­пе­ни левая круг­лая скоб­ка 1,5 пра­вая круг­лая скоб­ка =2 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та мень­ше 3,\"> на ука­зан­ном от­рез­ке лежит толь­ко <img src=\"https://ege.sdamgia.ru/formula/svg/b2/b2e1a7a40f43fe57ecb152ce9a784a08.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=0.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) <img src=\"https://ege.sdamgia.ru/formula/svg/0d/0d27d7bb6caa7a88663f0602ee2350c5.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"0; ло­га­рифм по ос­но­ва­нию 2 3;\"> б) 0.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/bb/bbd85a5b267f2d39960cb1ec94a5fdcc.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/45e803ffecafb2cc48952e91337896ce.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/190e92041613cff9332169c016c4e1f9.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/09abaa68eb1e605bc39b8741f04db196.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5cc06f5f618a486d85481464f0a556e0.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e11729b0b65ecade3fc272548a3883fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/6060756cbb9a69fa3eaedf3335abea9c.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7b47ec9a434ceff985cb7951886d9199.svg",
+            "https://ege.sdamgia.ru/formula/svg/b2/b2e1a7a40f43fe57ecb152ce9a784a08.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0d27d7bb6caa7a88663f0602ee2350c5.svg"
+        ]
+    },
+    "answer": "а)  б) 0.",
+    "topic_id": null,
+    "analog_ids": []
+}

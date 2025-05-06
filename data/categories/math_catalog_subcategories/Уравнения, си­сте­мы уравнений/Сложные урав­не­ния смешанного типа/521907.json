@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521907,
+    "condition": {
+        "text": "Дано уравнение а)  Решите уравнение.б)  Найдите корни этого уравнения, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body628815\" class=\"pbody\"><p class=\"left_margin\">Дано урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/26/26988e751a4692a63e934160a927d3ed.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\"2 умно­жить на 8 в сте­пе­ни левая круг­лая скоб­ка ко­си­нус левая круг­лая скоб­ка дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби плюс x пра­вая круг­лая скоб­ка пра­вая круг­лая скоб­ка = левая круг­лая скоб­ка дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби пра­вая круг­лая скоб­ка в сте­пе­ни левая круг­лая скоб­ка ко­си­нус 2x пра­вая круг­лая скоб­ка . \"></p><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние.</p><p class=\"left_margin\">б)  Най­ди­те&nbsp;корни&nbsp;этого&nbsp;урав­не­ния,&nbsp;при­над­ле­жа­щие&nbsp;от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/fc/fc2a8e8671c7f34980c875cc7180772c.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка 2 Пи ; дробь: чис­ли­тель: 7 Пи , зна­ме­на­тель: 2 конец дроби пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/26/26988e751a4692a63e934160a927d3ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fc2a8e8671c7f34980c875cc7180772c.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Преобразуем уравнениеоткуда  или  Первый вариант невозможен.  б)  Отберём корни на указанном промежутке с помощью тригонометрической окружности.  Ответ: а)  б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521907\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Пре­об­ра­зу­ем урав­не­ние</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/02/0214b561152e3c97c49cf7c0ae6e343a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2 в сте­пе­ни левая круг­лая скоб­ка 1 плюс 3 синус x пра­вая круг­лая скоб­ка =2 в сте­пе­ни левая круг­лая скоб­ка минус ко­си­нус 2x пра­вая круг­лая скоб­ка рав­но­силь­но 1 плюс 3 синус x плюс ко­си­нус 2x=0 рав­но­силь­но 2 плюс 3 синус x минус 2 синус в квад­ра­те x\"></p><p class=\"left_margin\"></p></center><img src=\"/get_file?id=35933\" style=\"float:right;margin:10px\"><p>от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/fe/fe572ecc5c660dc7af6c79da31a3f47c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" синус x=2\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/25/25f2dfe9abdec33af55db8decdb1cb41.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" синус x= минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби .\"> Пер­вый ва­ри­ант не­воз­мо­жен.</p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/28/289df7340029bc7425440c33b0571728.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k;x= минус дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k, k при­над­ле­жит Z . \"></p><p>&nbsp;</p><p class=\"left_margin\">б)  Отберём корни на ука­зан­ном про­ме­жут­ке с по­мо­щью три­го­но­мет­ри­че­ской окруж­но­сти. <img src=\"https://ege.sdamgia.ru/formula/svg/2a/2af4d96c3e84e38cc6f87f6fb0fe4677.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x=3 Пи плюс дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби = дробь: чис­ли­тель: 19 Пи , зна­ме­на­тель: 6 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) <img src=\"https://ege.sdamgia.ru/formula/svg/ac/ac753b8fe1a7a0e7d86cf5f41d9f6ae5.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая фи­гур­ная скоб­ка минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k; минус дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 6 конец дроби плюс 2 Пи k;k при­над­ле­жит Z пра­вая фи­гур­ная скоб­ка ; \"> б) <img src=\"https://ege.sdamgia.ru/formula/svg/78/7851ea6476b4274ef0ec5554d47c728c.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая фи­гур­ная скоб­ка дробь: чис­ли­тель: 19 Пи , зна­ме­на­тель: 6 конец дроби пра­вая фи­гур­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/02/0214b561152e3c97c49cf7c0ae6e343a.svg",
+            "https://ege.sdamgia.ru/formula/svg/fe/fe572ecc5c660dc7af6c79da31a3f47c.svg",
+            "https://ege.sdamgia.ru/formula/svg/25/25f2dfe9abdec33af55db8decdb1cb41.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/289df7340029bc7425440c33b0571728.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2af4d96c3e84e38cc6f87f6fb0fe4677.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/ac753b8fe1a7a0e7d86cf5f41d9f6ae5.svg",
+            "https://ege.sdamgia.ru/formula/svg/78/7851ea6476b4274ef0ec5554d47c728c.svg",
+            "/get_file?id=35933"
+        ]
+    },
+    "answer": "а)  б)",
+    "topic_id": null,
+    "analog_ids": []
+}

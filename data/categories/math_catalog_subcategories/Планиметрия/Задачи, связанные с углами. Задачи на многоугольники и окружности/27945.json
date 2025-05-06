@@ -1,0 +1,55 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27945,
+    "condition": {
+        "text": "Около окружности, радиус которой равен  описан правильный шестиугольник. Найдите радиус окружности, описанной около этого шестиугольника.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918485\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right; margin:10px\" src=\"/get_file?id=1554\">Около окруж­но­сти, ра­ди­ус ко­то­рой равен <img src=\"https://ege.sdamgia.ru/formula/svg/e5/e5d19bf0eb5e30e22b46eff52ac2f1dc.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби , \"> опи­сан пра­виль­ный ше­сти­уголь­ник. Най­ди­те ра­ди­ус окруж­но­сти, опи­сан­ной около этого ше­сти­уголь­ни­ка.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e5/e5d19bf0eb5e30e22b46eff52ac2f1dc.svg",
+            "/get_file?id=1554"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Угол AOH равен  следовательно, угол OAH равен 60°. В прямоугольном треугольнике OHA имеем:   Ответ: 1.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27945\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img style=\"float:right; margin:10px\" src=\"/get_file?id=1555\">Угол <i>AOH</i> равен <img src=\"https://ege.sdamgia.ru/formula/svg/d9/d9daed783ac9bb6358a2a6ec28609057.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на дробь: чис­ли­тель: 360 гра­ду­сов, зна­ме­на­тель: 6 конец дроби =30 гра­ду­сов , \"> сле­до­ва­тель­но, угол <i>OAH</i> равен 60°. В пря­мо­уголь­ном тре­уголь­ни­ке <i>OHA</i> имеем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/33/33faa6e5bbbf451241f2c651913c76c1.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"R=OA= дробь: чис­ли­тель: OH, зна­ме­на­тель: синус \\angle OAH конец дроби = дробь: чис­ли­тель: r, зна­ме­на­тель: синус \\angle OAH конец дроби = дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби умно­жить на дробь: чис­ли­тель: 2, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та конец дроби =1. \"></p><p class=\"left_margin\"></p></center>  <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 1.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d9/d9daed783ac9bb6358a2a6ec28609057.svg",
+            "https://ege.sdamgia.ru/formula/svg/33/33faa6e5bbbf451241f2c651913c76c1.svg",
+            "/get_file?id=1555"
+        ]
+    },
+    "answer": "1",
+    "topic_id": null,
+    "analog_ids": [
+        27945,
+        54747,
+        54749,
+        54751,
+        54747,
+        54749,
+        54751,
+        54753,
+        54755,
+        54757,
+        54759,
+        54761,
+        54763,
+        54765,
+        54767,
+        54769,
+        54771,
+        54773,
+        54775,
+        54777,
+        54779,
+        54781,
+        54783,
+        54785,
+        54787,
+        54789,
+        54791,
+        54793,
+        54795
+    ]
+}

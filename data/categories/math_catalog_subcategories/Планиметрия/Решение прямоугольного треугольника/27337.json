@@ -1,0 +1,40 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27337,
+    "condition": {
+        "text": "В треугольнике ABC угол C равен 90°, CH  — высота, BC  =  25, BH  =  20. Найдите ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918581\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=144894\" style=\"float:right;margin:10px;max-width:100%\">В тре­уголь­ни­ке <i>ABC</i> угол <i>C</i> равен 90°, <i>CH</i>  — вы­со­та, <i>BC</i>  =  25, <i>BH</i>  =  20. Най­ди­те <img src=\"https://ege.sdamgia.ru/formula/svg/01/01f4793c2ed47090b60a31cbc95e9f89.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­си­нус A.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/01/01f4793c2ed47090b60a31cbc95e9f89.svg",
+            "/get_file?id=144894"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Углы A и HCB равны как углы со взаимно перпендикулярными сторонами.Ответ: 0,6.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27337\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Углы <i>A</i> и <i>HCB</i> равны как углы со вза­им­но пер­пен­ди­ку­ляр­ны­ми сто­ро­на­ми.</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/27/274673f7b6fb29f2cf3e9fced3766975.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" ко­си­нус A= ко­си­нус \\angle HCB= дробь: чис­ли­тель: CH, зна­ме­на­тель: CB конец дроби = дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: CB в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та минус HB в квад­ра­те пра­вая круг­лая скоб­ка , зна­ме­на­тель: CB конец дроби = дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 625 минус 400 конец ар­гу­мен­та , зна­ме­на­тель: 25 конец дроби =0,6. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spaceing:2px\">Ответ</span>: 0,6.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/27/274673f7b6fb29f2cf3e9fced3766975.svg"
+        ]
+    },
+    "answer": "0,6",
+    "topic_id": 1,
+    "analog_ids": [
+        27337,
+        19129,
+        19131,
+        19133,
+        19129,
+        19131,
+        19133,
+        19135,
+        19137,
+        19139,
+        19141,
+        19143,
+        19145,
+        19147,
+        19149,
+        19151
+    ]
+}

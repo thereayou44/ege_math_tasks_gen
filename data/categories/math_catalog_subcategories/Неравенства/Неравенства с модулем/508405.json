@@ -1,0 +1,33 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 508405,
+    "condition": {
+        "text": "Решите неравенство: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body634633\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство: <img src=\"https://ege.sdamgia.ru/formula/svg/f4/f44b7d10d2965dd0998d96e8e97f2321.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"25x в квад­ра­те минус 3\\left| 3 минус 5x | мень­ше 30x минус 9.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f4/f44b7d10d2965dd0998d96e8e97f2321.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Преобразуем неравенство:Сделав замену  получаем неравенство  откуда  Тогда:  откуда   или  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol508405\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пре­об­ра­зу­ем не­ра­вен­ство:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/8a/8a680b2b329c609763300199e6c769e1.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"25x в квад­ра­те минус 30x плюс 9 минус 3 |3 минус . 5x| мень­ше 0 рав­но­силь­но левая круг­лая скоб­ка 5x минус 3 пра­вая круг­лая скоб­ка в квад­ра­те минус 3|3. минус . 5x | мень­ше 0.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Сде­лав за­ме­ну <img src=\"https://ege.sdamgia.ru/formula/svg/e6/e621521cc4b9ae0c4dffddcb48a8425b.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"t=| 3 минус 5x|,\"> по­лу­ча­ем не­ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/89/890a98d22d49fc4d3b9305aa7059e5cf.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"t в квад­ра­те минус 3t мень­ше 0,\"> от­ку­да  <img src=\"https://ege.sdamgia.ru/formula/svg/a0/a0f2c4eab6774b8f29c53c3ff9223a59.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"0 мень­ше t мень­ше 3,\"></p><p class=\"left_margin\">Тогда: <img src=\"https://ege.sdamgia.ru/formula/svg/ac/ac65fbdae637a6776fd608b6ab8f7f49.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"0 мень­ше | 5x минус 3| мень­ше 3,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/4e/4e3f56bab81071e3551d26b262847b0f.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"0 мень­ше x мень­ше дробь: чис­ли­тель: 3, зна­ме­на­тель: 5 конец дроби \">  или <img src=\"https://ege.sdamgia.ru/formula/svg/ed/ed236876fe402afcb6b9821a389ba79e.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 3, зна­ме­на­тель: 5 конец дроби мень­ше x мень­ше дробь: чис­ли­тель: 6, зна­ме­на­тель: 5 конец дроби .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/50/50860f1945c4d353491ed75250c3844d.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая круг­лая скоб­ка 0; дробь: чис­ли­тель: 3, зна­ме­на­тель: 5 конец дроби пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка дробь: чис­ли­тель: 3, зна­ме­на­тель: 5 конец дроби ; дробь: чис­ли­тель: 6, зна­ме­на­тель: 5 конец дроби пра­вая круг­лая скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/8a/8a680b2b329c609763300199e6c769e1.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e621521cc4b9ae0c4dffddcb48a8425b.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/890a98d22d49fc4d3b9305aa7059e5cf.svg",
+            "https://ege.sdamgia.ru/formula/svg/a0/a0f2c4eab6774b8f29c53c3ff9223a59.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/ac65fbdae637a6776fd608b6ab8f7f49.svg",
+            "https://ege.sdamgia.ru/formula/svg/4e/4e3f56bab81071e3551d26b262847b0f.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/ed236876fe402afcb6b9821a389ba79e.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50860f1945c4d353491ed75250c3844d.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": [
+        508405,
+        508407,
+        511515
+    ]
+}

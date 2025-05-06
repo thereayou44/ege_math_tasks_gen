@@ -1,0 +1,52 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 506047,
+    "condition": {
+        "text": "Две окружности касаются внутренним образом. Хорда AB большей окружности касается меньшей окружности в точке M. Найдите радиус меньшей окружности, если известно, что длины отрезков AM = 28, MB = 4, а радиус большей окружности равен 20.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body644675\" class=\"pbody\"><p class=\"left_margin\">Две окруж­но­сти ка­са­ют­ся внут­рен­ним об­ра­зом. Хорда <i>AB</i> боль­шей окруж­но­сти ка­са­ет­ся мень­шей окруж­но­сти в точке <i>M</i>. Най­ди­те ра­ди­ус мень­шей окруж­но­сти, если из­вест­но, что длины от­рез­ков <i>AM</i> = 28, <i>MB</i> = 4, а ра­ди­ус боль­шей окруж­но­сти равен 20.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Обозначим искомый радиус за Опустим перпендикуляры из центров маленькой () и большой () окружностей на  Основание перпендикуляра из  назовем  Случай 1.  и  лежат по одну сторону от  Тогда   — прямоугольная трапеция, в которой    и (опуская высоту из  на ) по теореме Пифагора имеем  откуда  Случай 2.  и  лежат по разные стороны от  Тогда   — трапеция, в которой    и (опуская высоту из  на ) по теореме Пифагора имеем  откуда  Ответ:   или ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol506047\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Обо­зна­чим ис­ко­мый ра­ди­ус за <img src=\"https://ege.sdamgia.ru/formula/svg/55/5502ba4322d9a442426f01433bf092ff.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"r.\"></p><p class=\"left_margin\">Опу­стим пер­пен­ди­ку­ля­ры из цен­тров ма­лень­кой (<img src=\"https://ege.sdamgia.ru/formula/svg/31/31b6eb924de49df799c3016cfea5a36b.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"O_1\">) и боль­шой (<img src=\"https://ege.sdamgia.ru/formula/svg/49/49e4fe93c55ea5f2b7bf970512cbc408.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"O_2\">) окруж­но­стей на <img src=\"https://ege.sdamgia.ru/formula/svg/0c/0c6ed112a9eb109891082295b6e83622.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AB.\"> Ос­но­ва­ние пер­пен­ди­ку­ля­ра из <img src=\"https://ege.sdamgia.ru/formula/svg/49/49e4fe93c55ea5f2b7bf970512cbc408.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"O_2\"> на­зо­вем <img src=\"https://ege.sdamgia.ru/formula/svg/2c/2c45f80c650c95d1b2dc2b9115fe543b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"N.\"></p><p>&nbsp;</p><p class=\"left_margin\">Слу­чай 1. <img src=\"https://ege.sdamgia.ru/formula/svg/31/31b6eb924de49df799c3016cfea5a36b.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"O_1\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/49/49e4fe93c55ea5f2b7bf970512cbc408.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"O_2\"> лежат по одну сто­ро­ну от <img src=\"https://ege.sdamgia.ru/formula/svg/0c/0c6ed112a9eb109891082295b6e83622.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AB.\"> Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/b0/b04221609db24a0511b1a6eb107241b1.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"O_2NMO_1\">  — пря­мо­уголь­ная тра­пе­ция, в ко­то­рой <img src=\"https://ege.sdamgia.ru/formula/svg/73/7396ecd519398c9a0fb3ff4ab9b2ccf8.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"O_2N= ко­рень из: на­ча­ло ар­гу­мен­та: 20 в квад­ра­те минус 0.25AB в квад­ра­те конец ар­гу­мен­та =12,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/73/73b59df103e7952fa5ab48d72bc8875d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"O_1O_2=20 минус r,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/49/49753671d165f862999718c073133cd3.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"MN=0.5AB минус MB=12\"> и (опус­кая вы­со­ту из <img src=\"https://ege.sdamgia.ru/formula/svg/49/49e4fe93c55ea5f2b7bf970512cbc408.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"O_2\"> на <img src=\"https://ege.sdamgia.ru/formula/svg/41/414a0abe89fba831428592cdd0a3ca62.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"MO_1\">) по тео­ре­ме Пи­фа­го­ра имеем <img src=\"https://ege.sdamgia.ru/formula/svg/17/173bdf458c82bd9b0caccfa348363db1.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 12 минус r пра­вая круг­лая скоб­ка в квад­ра­те плюс 12 в квад­ра­те = левая круг­лая скоб­ка 20 минус r пра­вая круг­лая скоб­ка в квад­ра­те ,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/ae/ae01fe77984634d6445801a2baad8cd4.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"r=7.\"></p><p>&nbsp;</p><p class=\"left_margin\">Слу­чай 2. <img src=\"https://ege.sdamgia.ru/formula/svg/31/31b6eb924de49df799c3016cfea5a36b.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"O_1\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/49/49e4fe93c55ea5f2b7bf970512cbc408.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"O_2\"> лежат по раз­ные сто­ро­ны от <img src=\"https://ege.sdamgia.ru/formula/svg/0c/0c6ed112a9eb109891082295b6e83622.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AB.\"> Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/42/42fa0b183e21abc04a7e43abeaa4eac8.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"O_2MO_1N\">  — тра­пе­ция, в ко­то­рой <img src=\"https://ege.sdamgia.ru/formula/svg/73/7396ecd519398c9a0fb3ff4ab9b2ccf8.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"O_2N= ко­рень из: на­ча­ло ар­гу­мен­та: 20 в квад­ра­те минус 0.25AB в квад­ра­те конец ар­гу­мен­та =12,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/73/73b59df103e7952fa5ab48d72bc8875d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"O_1O_2=20 минус r,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/49/49753671d165f862999718c073133cd3.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"MN=0.5AB минус MB=12\"> и (опус­кая вы­со­ту из <img src=\"https://ege.sdamgia.ru/formula/svg/49/49e4fe93c55ea5f2b7bf970512cbc408.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"O_2\"> на <img src=\"https://ege.sdamgia.ru/formula/svg/41/414a0abe89fba831428592cdd0a3ca62.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"MO_1\">) по тео­ре­ме Пи­фа­го­ра имеем <img src=\"https://ege.sdamgia.ru/formula/svg/8c/8cae6167250a26f4edd6ea7a5bc123ed.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 12 плюс r пра­вая круг­лая скоб­ка в квад­ра­те плюс 12 в квад­ра­те = левая круг­лая скоб­ка 20 минус r пра­вая круг­лая скоб­ка в квад­ра­те ,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/48/485e3ff511872709295f05a3497c3599.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"r= дробь: чис­ли­тель: 7, зна­ме­на­тель: 4 конец дроби .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  <img src=\"https://ege.sdamgia.ru/formula/svg/8f/8f14e45fceea167a5a36dedd4bea2543.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"7\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/90/90287548a4ff75b5f4d8e8054d308a27.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 7, зна­ме­на­тель: 4 конец дроби .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/55/5502ba4322d9a442426f01433bf092ff.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/31b6eb924de49df799c3016cfea5a36b.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/49e4fe93c55ea5f2b7bf970512cbc408.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c6ed112a9eb109891082295b6e83622.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/49e4fe93c55ea5f2b7bf970512cbc408.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2c45f80c650c95d1b2dc2b9115fe543b.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/31b6eb924de49df799c3016cfea5a36b.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/49e4fe93c55ea5f2b7bf970512cbc408.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c6ed112a9eb109891082295b6e83622.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b04221609db24a0511b1a6eb107241b1.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/7396ecd519398c9a0fb3ff4ab9b2ccf8.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/73b59df103e7952fa5ab48d72bc8875d.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/49753671d165f862999718c073133cd3.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/49e4fe93c55ea5f2b7bf970512cbc408.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/414a0abe89fba831428592cdd0a3ca62.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/173bdf458c82bd9b0caccfa348363db1.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/ae01fe77984634d6445801a2baad8cd4.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/31b6eb924de49df799c3016cfea5a36b.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/49e4fe93c55ea5f2b7bf970512cbc408.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c6ed112a9eb109891082295b6e83622.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/42fa0b183e21abc04a7e43abeaa4eac8.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/7396ecd519398c9a0fb3ff4ab9b2ccf8.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/73b59df103e7952fa5ab48d72bc8875d.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/49753671d165f862999718c073133cd3.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/49e4fe93c55ea5f2b7bf970512cbc408.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/414a0abe89fba831428592cdd0a3ca62.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8cae6167250a26f4edd6ea7a5bc123ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/48/485e3ff511872709295f05a3497c3599.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8f14e45fceea167a5a36dedd4bea2543.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/90287548a4ff75b5f4d8e8054d308a27.svg"
+        ]
+    },
+    "answer": "или",
+    "topic_id": null,
+    "analog_ids": [
+        506047,
+        505951
+    ]
+}

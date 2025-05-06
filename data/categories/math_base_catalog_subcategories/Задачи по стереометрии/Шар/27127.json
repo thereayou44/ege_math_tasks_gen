@@ -1,0 +1,28 @@
+{
+    "id": "27127",
+    "topic": "Д16",
+    "condition": {
+        "text": "Около куба с ребром описан шар. Найдите объем этого шара, деленный на",
+        "images": [
+            "https://mathb-ege.sdamgia.ru/get_file?id=139955",
+            "https://ege.sdamgia.ru/formula/svg/91/91a24814efa2661939c57367281c819c.svg",
+            "https://ege.sdamgia.ru/formula/svg/20/20eb0232474c508d356a7b4ebf331607.svg"
+        ]
+    },
+    "answer": "4,5",
+    "analogs": [
+        "27127",
+        "75321",
+        "75323",
+        "75325",
+        "...",
+        "75321",
+        "75323",
+        "75325",
+        "75327",
+        "75329",
+        "75331",
+        "75333"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=27127"
+}

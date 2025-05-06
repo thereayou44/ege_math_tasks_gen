@@ -1,0 +1,35 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 507763,
+    "condition": {
+        "text": "В правильной шестиугольной пирамиде SABCDEF стороны основания равны 1, а боковые рёбра равны 2.а)  Докажите, что прямые SE и AC перпендикулярны.б)  Найдите расстояние от точки C до прямой SA.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body643471\" class=\"pbody\"><p class=\"left_margin\">В пра­виль­ной ше­сти­уголь­ной пи­ра­ми­де <i>SABCDEF</i> сто­ро­ны ос­но­ва­ния равны 1, а бо­ко­вые рёбра равны 2.</p><p class=\"left_margin\">а)  До­ка­жи­те, что пря­мые <i>SE</i> и <i>AC</i> пер­пен­ди­ку­ляр­ны.</p><p class=\"left_margin\">б)  Най­ди­те рас­сто­я­ние от точки <i>C</i> до пря­мой <i>SA.</i></p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Заметим, что в правильном шестиугольнике диагонали AC и перпендикулярны. Вершина S проектируется в центр шестиугольника, который лежит на BE, поэтому проекция SE на плоскость основания  — прямая  Тогда, по теореме о трех перпендикулярах, б)  В треугольнике ASC проведём высоты CM и  Искомое расстояние  — длина отрезка  Ясно, что,  откуда  Треугольник ASC равнобедренный,  Тогда Следовательно,  Ответ:  Примечание.Длину отрезка AC можно найти как длину основания равнобедренного треугольника с боковыми сторонами AB  =  BC  =  1 и углом при вершине, равным 120° (угол правильного шестиугольника).",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol507763\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=132264\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  За­ме­тим, что в пра­виль­ном ше­сти­уголь­ни­ке диа­го­на­ли <i>AC</i> и <img src=\"https://ege.sdamgia.ru/formula/svg/a7/a7929beb3a64dd6864f6aaa41d557c9f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BE \">пер­пен­ди­ку­ляр­ны. Вер­ши­на <i>S</i> про­ек­ти­ру­ет­ся в центр ше­сти­уголь­ни­ка, ко­то­рый лежит на <i>BE</i>, по­это­му про­ек­ция <i>SE</i> на плос­кость ос­но­ва­ния  — пря­мая <img src=\"https://ege.sdamgia.ru/formula/svg/72/72435babaa7f214cd30fe0707e2abd66.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BE.\"> Тогда, по тео­ре­ме о трех пер­пен­ди­ку­ля­рах, <img src=\"https://ege.sdamgia.ru/formula/svg/ef/efdd8f3acb2f770a0d168010ef1d5c30.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BE\\perp AC.\"></p><p class=\"left_margin\">б)  В тре­уголь­ни­ке <i>ASC</i> про­ведём вы­со­ты <i>CM</i> и <img src=\"https://ege.sdamgia.ru/formula/svg/f4/f4aea2fdfca2ac97a7b044a74f07add3.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"SH.\"> Ис­ко­мое рас­сто­я­ние  — длина от­рез­ка <img src=\"https://ege.sdamgia.ru/formula/svg/d8/d8d5ada245594fef08bb7165d80bce9d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"CM.\"> Ясно, что, <img src=\"https://ege.sdamgia.ru/formula/svg/3f/3fe1ab20bedcb3ba366b55e0ed68a538.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AC умно­жить на SH=AS умно­жить на CM,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/7c/7c483b75676861a9ee7781d3df3dce4a.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"CM= дробь: чис­ли­тель: AC умно­жить на SH, зна­ме­на­тель: AS конец дроби . \"> Тре­уголь­ник <i>ASC</i> рав­но­бед­рен­ный, <img src=\"https://ege.sdamgia.ru/formula/svg/45/45dd042344b036fb7e15bd894ad4e6c7.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"AS=SC=2,AC= ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та .\"> Тогда </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/a8/a850776df5f8b4f3118bb1cdc1a5e196.svg\" class=\"tex\" style=\"vertical-align:-15.6pt\" alt=\"SH= ко­рень из: на­ча­ло ар­гу­мен­та: 2 в квад­ра­те минус левая круг­лая скоб­ка дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби пра­вая круг­лая скоб­ка в квад­ра­те конец ар­гу­мен­та = дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 13 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/1e/1ec4e449ac4522b5b3a70cbb33708677.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"CM= дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та умно­жить на ко­рень из: на­ча­ло ар­гу­мен­та: 13 конец ар­гу­мен­та , зна­ме­на­тель: 2 умно­жить на 2 конец дроби = дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 39 конец ар­гу­мен­та , зна­ме­на­тель: 4 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/1b/1b7f199b588012cc5485d0e550fb6f90.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 39 конец ар­гу­мен­та , зна­ме­на­тель: 4 конец дроби . \"></p><p>&nbsp;</p><p><b>При­ме­ча­ние.</b></p><p class=\"left_margin\">Длину от­рез­ка <i>AC</i> можно найти как длину ос­но­ва­ния рав­но­бед­рен­но­го тре­уголь­ни­ка с бо­ко­вы­ми сто­ро­на­ми <i>AB</i>  =  <i>BC</i>  =  1 и углом при вер­ши­не, рав­ным 120° (угол пра­виль­но­го ше­сти­уголь­ни­ка).</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a7/a7929beb3a64dd6864f6aaa41d557c9f.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/72435babaa7f214cd30fe0707e2abd66.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/efdd8f3acb2f770a0d168010ef1d5c30.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f4aea2fdfca2ac97a7b044a74f07add3.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d8d5ada245594fef08bb7165d80bce9d.svg",
+            "https://ege.sdamgia.ru/formula/svg/3f/3fe1ab20bedcb3ba366b55e0ed68a538.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7c483b75676861a9ee7781d3df3dce4a.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/45dd042344b036fb7e15bd894ad4e6c7.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a850776df5f8b4f3118bb1cdc1a5e196.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1ec4e449ac4522b5b3a70cbb33708677.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1b7f199b588012cc5485d0e550fb6f90.svg",
+            "/get_file?id=132264"
+        ]
+    },
+    "answer": "",
+    "topic_id": 14,
+    "analog_ids": [
+        507763,
+        507766,
+        511484
+    ]
+}

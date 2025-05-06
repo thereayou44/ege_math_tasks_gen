@@ -1,0 +1,27 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521236,
+    "condition": {
+        "text": "Али‐Баба пришел в пещеру, где есть золото и алмазы. У Али‐Бабы с собой оказался мешок. Известно, что полный мешок золота весит 200 кг, полный мешок алмазов  — 40 кг, а пустой мешок ничего не весит. Килограмм золота стоит 20 динаров, а килограмм алмазов  — 60 динаров. Какую наибольшую сумму денег может выручить Али‐Баба за сокровища, если он может унести с собой не более 100 кг?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629480\" class=\"pbody\"><p class=\"left_margin\">Али‐Баба при­шел в пе­ще­ру, где есть зо­ло­то и ал­ма­зы. У Али‐Бабы с собой ока­зал­ся мешок. Из­вест­но, что пол­ный мешок зо­ло­та весит 200 кг, пол­ный мешок ал­ма­зов  — 40 кг, а пу­стой мешок ни­че­го не весит. Ки­ло­грамм зо­ло­та стоит 20 ди­на­ров, а ки­ло­грамм ал­ма­зов  — 60 ди­на­ров. Какую наи­боль­шую сумму денег может вы­ру­чить Али‐Баба за со­кро­ви­ща, если он может уне­сти с собой не более 100 кг?</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Пусть Али-баба уносит x кг золота и y кг алмазов. Тогда  (вес унесенного),  (объем унесенного, измеренный в мешках) и нужно максимизировать  Перепишем второе условие в виде  Имеем:Унести товара на  динаров можно, достаточно чтобы оба неравенства обратились в равенства, это бывает при   Ответ: 3000 динаров.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521236\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть Али-баба уно­сит <i>x</i> кг зо­ло­та и <i>y</i> кг ал­ма­зов. Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/5d/5df3cd26c2b93262f30f7ef9257838f8.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x плюс y мень­ше или равно 100\"> (вес уне­сен­но­го), <img src=\"https://ege.sdamgia.ru/formula/svg/3e/3ea87af7e9a5142c71d5f2535f070c75.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: x, зна­ме­на­тель: 200 конец дроби плюс дробь: чис­ли­тель: y, зна­ме­на­тель: 40 конец дроби мень­ше или равно 1 \"> (объем уне­сен­но­го, из­ме­рен­ный в меш­ках) и нужно мак­си­ми­зи­ро­вать <img src=\"https://ege.sdamgia.ru/formula/svg/2b/2b1cee09eb6ee6576dfe82fef994fd56.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"20x плюс 60y.\"> Пе­ре­пи­шем вто­рое усло­вие в виде <img src=\"https://ege.sdamgia.ru/formula/svg/b4/b4c45d7b51df30a1d9580084737b26a1.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x плюс 5y мень­ше или равно 200.\"> Имеем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/cc/cc0d3a043cb7ac0b9d7e8e04c5967fe5.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"20x плюс 60y=10 левая круг­лая скоб­ка x плюс y плюс x плюс 5y пра­вая круг­лая скоб­ка мень­ше или равно 10 левая круг­лая скоб­ка 100 плюс 200 пра­вая круг­лая скоб­ка =3000.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Уне­сти то­ва­ра на <img src=\"https://ege.sdamgia.ru/formula/svg/e9/e93028bdc1aacdfb3687181f2031765d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"3000\"> ди­на­ров можно, до­ста­точ­но чтобы оба не­ра­вен­ства об­ра­ти­лись в ра­вен­ства, это бы­ва­ет при <img src=\"https://ege.sdamgia.ru/formula/svg/a6/a689965ba6b2d83bfd9f18f137a86b7c.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=25,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/47/47f9d65844421e8ffe8d99e261f5c89f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=75.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 3000 ди­на­ров.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/5d/5df3cd26c2b93262f30f7ef9257838f8.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3ea87af7e9a5142c71d5f2535f070c75.svg",
+            "https://ege.sdamgia.ru/formula/svg/2b/2b1cee09eb6ee6576dfe82fef994fd56.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b4c45d7b51df30a1d9580084737b26a1.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/cc0d3a043cb7ac0b9d7e8e04c5967fe5.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e93028bdc1aacdfb3687181f2031765d.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a689965ba6b2d83bfd9f18f137a86b7c.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/47f9d65844421e8ffe8d99e261f5c89f.svg"
+        ]
+    },
+    "answer": "3000 ди­на­ров.",
+    "topic_id": null,
+    "analog_ids": []
+}

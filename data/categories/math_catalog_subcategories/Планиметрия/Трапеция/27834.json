@@ -1,0 +1,60 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27834,
+    "condition": {
+        "text": "В равнобедренной трапеции основания равны 12 и 27, острый угол равен 60°. Найдите ее периметр.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918086\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=29491\" style=\"float:right;margin:10px\">В рав­но­бед­рен­ной тра­пе­ции ос­но­ва­ния равны 12 и 27, ост­рый угол равен 60°. Най­ди­те ее пе­ри­метр.</p></div>",
+        "image_urls": [
+            "/get_file?id=29491"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Проведем высоту DH, в равнобедренной трапеции  Имеем:Ответ: 69. Приведем другое решение. Высота равнобокой трапеции, опущенная из вершины на большее основание, делит его на больший отрезок, который равен полусумме оснований, и меньший, который равен полуразности оснований. Проведем высоту AH, тогда  В прямоугольном треугольнике ADH угол  так как катет, лежащий против угла в 30°, равен половине гипотенузы, получаем  Найдем периметр трапеции:",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27834\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=113332\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">Про­ве­дем вы­со­ту <i>DH</i>, в рав­но­бед­рен­ной тра­пе­ции <img src=\"https://ege.sdamgia.ru/formula/svg/fd/fda2cc034ac175c428e4e684a49d1f52.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" AH = дробь: чис­ли­тель: AB минус DC, зна­ме­на­тель: 2 конец дроби . \"> Имеем:</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"39c12793048b94104649b2d99c522d00\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/39/39c12793048b94104649b2d99c522d00.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" P_ABCD = AB плюс DC плюс 2AD = AB плюс DC плюс 2 дробь: чис­ли­тель: AH, зна­ме­на­тель: ко­си­нус A конец дроби = AB плюс DC плюс дробь: чис­ли­тель: AB минус DC, зна­ме­на­тель: ко­си­нус A конец дроби = 39 плюс дробь: чис­ли­тель: 15, зна­ме­на­тель: ко­си­нус 60 гра­ду­сов конец дроби = 69. \"></span><span data-width=\"615\" data-formulahash=\"39c12793048b94104649b2d99c522d00\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/b0/b0cb6453e472cd6f0475e764ab55ab84.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" P_ABCD = AB плюс DC плюс 2AD = AB плюс DC плюс 2 дробь: чис­ли­тель: AH, зна­ме­на­тель: ко­си­нус A конец дроби = \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/60/600b6c05ad2e0396137c24a8506ed986.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"= AB плюс DC плюс дробь: чис­ли­тель: AB минус DC, зна­ме­на­тель: ко­си­нус A конец дроби = 39 плюс дробь: чис­ли­тель: 15, зна­ме­на­тель: ко­си­нус 60 гра­ду­сов конец дроби = 69. \"></span></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing:2px \">Ответ</span>: 69.</p><p>&nbsp;</p><p class=\"left_margin\"><b>При­ве­дем дру­гое ре­ше­ние</b>. Вы­со­та рав­но­бо­кой тра­пе­ции, опу­щен­ная из вер­ши­ны на боль­шее ос­но­ва­ние, делит его на боль­ший от­ре­зок, ко­то­рый равен по­лу­сум­ме ос­но­ва­ний, и мень­ший, ко­то­рый равен по­лу­раз­но­сти ос­но­ва­ний. Про­ве­дем вы­со­ту <i>AH</i>, тогда <img src=\"https://ege.sdamgia.ru/formula/svg/54/54bdec03edbebe537b56fd7b5f9ba281.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" AH = дробь: чис­ли­тель: 27 минус 12, зна­ме­на­тель: 2 конец дроби = 7,5. \"> В пря­мо­уголь­ном тре­уголь­ни­ке <i>ADH</i> угол <img src=\"https://ege.sdamgia.ru/formula/svg/61/61211cd4abb2ba976bd468944d8fb499.svg\" class=\"tex\" style=\"vertical-align:-2.3pt\" alt=\" \\angle ADH = 90 гра­ду­сов минус 60 гра­ду­сов = 30 гра­ду­сов;\"> так как катет, ле­жа­щий про­тив угла в 30°, равен по­ло­ви­не ги­по­те­ну­зы, по­лу­ча­ем <img src=\"https://ege.sdamgia.ru/formula/svg/8c/8c7814ec60188c848b8bb869da0bbcc5.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" AD = 2AH = 15 = CB.\"> Най­дем пе­ри­метр тра­пе­ции:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/71/7158a13652c03c31471e3afaee87c87a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" P = AD плюс CD плюс CB плюс AB = 15 плюс 12 плюс 15 плюс 27 = 69.\"></p><p class=\"left_margin\"></p></center></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/fd/fda2cc034ac175c428e4e684a49d1f52.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/39c12793048b94104649b2d99c522d00.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b0cb6453e472cd6f0475e764ab55ab84.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/600b6c05ad2e0396137c24a8506ed986.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54bdec03edbebe537b56fd7b5f9ba281.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/61211cd4abb2ba976bd468944d8fb499.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8c7814ec60188c848b8bb869da0bbcc5.svg",
+            "https://ege.sdamgia.ru/formula/svg/71/7158a13652c03c31471e3afaee87c87a.svg",
+            "/get_file?id=113332"
+        ]
+    },
+    "answer": "69",
+    "topic_id": 1,
+    "analog_ids": [
+        27834,
+        50383,
+        50385,
+        50387,
+        50383,
+        50385,
+        50387,
+        50389,
+        50391,
+        50393,
+        50395,
+        50397,
+        50399,
+        50401,
+        50403,
+        50405,
+        50407,
+        50409,
+        50411,
+        50413,
+        50415,
+        50417,
+        50419,
+        50421,
+        50423,
+        50425,
+        50427,
+        50429,
+        50431
+    ]
+}

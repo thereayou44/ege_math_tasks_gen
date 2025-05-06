@@ -1,0 +1,42 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 509280,
+    "condition": {
+        "text": "На рисунке изображены графики функций  и  которые пересекаются в точке A. Найдите ординату точки A.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body633756\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=149666\" style=\"float:right;margin:10px;max-width:100%\">На ри­сун­ке изоб­ра­же­ны гра­фи­ки функ­ций <img src=\"https://ege.sdamgia.ru/formula/svg/05/056bc99d7b2e863d3e614bb99606cbea.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =a ко­рень из: на­ча­ло ар­гу­мен­та: x конец ар­гу­мен­та \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/d8/d8e9d1bdb39f21c0fc574408d8a15a64.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"g левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =kx плюс b,\"> ко­то­рые пе­ре­се­ка­ют­ся в точке <i>A</i>. Най­ди­те ор­ди­на­ту точки <i>A</i>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/05/056bc99d7b2e863d3e614bb99606cbea.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d8e9d1bdb39f21c0fc574408d8a15a64.svg",
+            "/get_file?id=149666"
+        ]
+    },
+    "solution": {
+        "text": "Решение. По графику, f(4)  =  −3, тогда  Тогда уравнение функции имеет вид Заметим, что k  — тангенс угла наклона прямой. Тогда  По графику, g(0)  =  3, значит,  Тогда уравнение прямой имеет вид Теперь найдём ординату точки A: Таким образом, y  =  −9. Ответ: −9.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol509280\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По гра­фи­ку, <i>f</i>(4)  =  −3, тогда <img src=\"https://ege.sdamgia.ru/formula/svg/c1/c105653f44b52633aad87d22f1ae9f83.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a ко­рень из: на­ча­ло ар­гу­мен­та: 4 конец ар­гу­мен­та = минус 3 рав­но­силь­но 2a= минус 3 рав­но­силь­но a= минус 1,5.\"> Тогда урав­не­ние функ­ции имеет вид <img src=\"https://ege.sdamgia.ru/formula/svg/0f/0f41c910e0ca3e18e54fb20cc58bcd72.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка = минус 1,5 ко­рень из: на­ча­ло ар­гу­мен­та: x конец ар­гу­мен­та .\"></p><p class=\"left_margin\">За­ме­тим, что <i>k</i>  — тан­генс угла на­кло­на пря­мой. Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/5d/5d1a2008ef5d9e95247f11987ffb18d7.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"k= минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби . \"> По гра­фи­ку, <i>g</i>(0)  =  3, зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/d4/d48fa86ae6185d6b001791cc1c2a0104.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби умно­жить на 0 плюс b=3 рав­но­силь­но b=3.\"> Тогда урав­не­ние пря­мой имеет вид <img src=\"https://ege.sdamgia.ru/formula/svg/7e/7e1a400074607c0c533571d6571c836e.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"g левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка = минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби x плюс 3.\"></p><p class=\"left_margin\">Те­перь найдём ор­ди­на­ту точки <i>A</i>:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/1f/1fe01dc24906311afd6cba75a12dc537.svg\" class=\"tex\" style=\"vertical-align:-22.3pt\" alt=\" си­сте­ма вы­ра­же­ний y= минус 1,5 ко­рень из: на­ча­ло ар­гу­мен­та: x конец ар­гу­мен­та ,y= минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби x плюс 3 конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний минус 1,5 ко­рень из: на­ча­ло ар­гу­мен­та: x конец ар­гу­мен­та = минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби x плюс 3,y= минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби x плюс 3 конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний x минус 4,5 ко­рень из: на­ча­ло ар­гу­мен­та: x конец ар­гу­мен­та минус 9=0,y= минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби x плюс 3 конец си­сте­мы . рав­но­силь­но \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/40/40bd4cc446223fe5adad2eaea0420079.svg\" class=\"tex\" style=\"vertical-align:-27.6pt\" alt=\" рав­но­силь­но си­сте­ма вы­ра­же­ний со­во­куп­ность вы­ра­же­ний ко­рень из: на­ча­ло ар­гу­мен­та: x конец ар­гу­мен­та =6, ко­рень из: на­ча­ло ар­гу­мен­та: x конец ар­гу­мен­та = минус 1,5 конец си­сте­мы . ,y= минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби x плюс 3 конец со­во­куп­но­сти . рав­но­силь­но си­сте­ма вы­ра­же­ний ко­рень из: на­ча­ло ар­гу­мен­та: x конец ар­гу­мен­та =6,y= минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби x плюс 3 конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний x=36,y= минус 9. конец си­сте­мы . \"></p><p class=\"left_margin\"></p></center><p> Таким об­ра­зом, <i>y</i>  =  −9.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> −9.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c1/c105653f44b52633aad87d22f1ae9f83.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0f41c910e0ca3e18e54fb20cc58bcd72.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5d1a2008ef5d9e95247f11987ffb18d7.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d48fa86ae6185d6b001791cc1c2a0104.svg",
+            "https://ege.sdamgia.ru/formula/svg/7e/7e1a400074607c0c533571d6571c836e.svg",
+            "https://ege.sdamgia.ru/formula/svg/1f/1fe01dc24906311afd6cba75a12dc537.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/40bd4cc446223fe5adad2eaea0420079.svg"
+        ]
+    },
+    "answer": "-9",
+    "topic_id": 11,
+    "analog_ids": [
+        509280,
+        509279,
+        509281,
+        509282,
+        509279,
+        509281,
+        509282,
+        509283,
+        509284,
+        509285,
+        509286
+    ]
+}

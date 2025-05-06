@@ -1,0 +1,63 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27143,
+    "condition": {
+        "text": " Два ребра прямоугольного параллелепипеда, выходящие из одной вершины, равны 2, 4. Диагональ параллелепипеда равна 6. Найдите площадь поверхности параллелепипеда.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918779\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=113209\" style=\"float:right;margin:10px;max-width:100%\"> Два ребра пря­мо­уголь­но­го па­рал­ле­ле­пи­пе­да, вы­хо­дя­щие из одной вер­ши­ны, равны 2, 4. Диа­го­наль па­рал­ле­ле­пи­пе­да равна 6. Най­ди­те пло­щадь по­верх­но­сти па­рал­ле­ле­пи­пе­да.</p></div>",
+        "image_urls": [
+            "/get_file?id=113209"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Обозначим известные ребра за  и  а неизвестное за  Площадь поверхности параллелепипеда выражается как  Диагональ параллелепипеда находится как  Выразим :  Тогда площадь поверхности параллелепипеда равна   Ответ: 64.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27143\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Обо­зна­чим из­вест­ные ребра за <img src=\"https://ege.sdamgia.ru/formula/svg/19/19034064db55a4b3099824e4b3234f03.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"a_1\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/94/941820a987b9181fd8f13032241cbb5f.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"a_2,\"> а не­из­вест­ное за <img src=\"https://ege.sdamgia.ru/formula/svg/7c/7cd67097ef0ac5ba4ede3192750e801e.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"a_3.\"> Пло­щадь по­верх­но­сти па­рал­ле­ле­пи­пе­да вы­ра­жа­ет­ся как </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/2b/2b9a86169893decb46cdbce59ed6b88c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"S=2 левая круг­лая скоб­ка a_1a_2 плюс a_1a_3 плюс a_2a_3 пра­вая круг­лая скоб­ка .\"></p><p class=\"left_margin\"></p></center><p> Диа­го­наль па­рал­ле­ле­пи­пе­да на­хо­дит­ся как </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/10/10bef1c1474a356934d29270f1728bc2.svg\" class=\"tex\" style=\"vertical-align:-6.9pt\" alt=\"d= ко­рень из: на­ча­ло ар­гу­мен­та: a_1 конец ар­гу­мен­та в квад­ра­те плюс a_2 в квад­ра­те плюс a_3 в квад­ра­те .\"></p><p class=\"left_margin\"></p></center><p> Вы­ра­зим <img src=\"https://ege.sdamgia.ru/formula/svg/1f/1fddb94489a68066feaa03abac6eb4cb.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"a_3\">: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/2c/2c7b578aef129176ad7d6624d9914f55.svg\" class=\"tex\" style=\"vertical-align:-6.8pt\" alt=\"a_3= ко­рень из: на­ча­ло ар­гу­мен­та: d конец ар­гу­мен­та в квад­ра­те минус a_1 в квад­ра­те минус a_2 в квад­ра­те .\"></p><p class=\"left_margin\"></p></center><p> Тогда пло­щадь по­верх­но­сти па­рал­ле­ле­пи­пе­да равна </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/df/df57625838250d3c9771052b3bdcc4d8.svg\" class=\"tex\" style=\"vertical-align:-6.8pt\" alt=\"S=2 левая круг­лая скоб­ка a_1a_2 плюс a_1a_3 плюс a_2a_3 пра­вая круг­лая скоб­ка =2 левая круг­лая скоб­ка a_1a_2 плюс левая круг­лая скоб­ка a_1 плюс a_2 пра­вая круг­лая скоб­ка ко­рень из: на­ча­ло ар­гу­мен­та: d конец ар­гу­мен­та в квад­ра­те минус a_1 в квад­ра­те минус a_2 в квад­ра­те пра­вая круг­лая скоб­ка =\"></p><p class=\"left_margin\"></p></center> <p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/5e/5e20ebd201aa927707f559dfa4853251.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"=2 левая круг­лая скоб­ка 8 плюс левая круг­лая скоб­ка 2 плюс 4 пра­вая круг­лая скоб­ка ко­рень из: на­ча­ло ар­гу­мен­та: 36 минус 4 минус 16 конец ар­гу­мен­та пра­вая круг­лая скоб­ка =64.\"></p><p class=\"left_margin\"></p></center> <p><span style=\"letter-spacing: 2px;\">Ответ:</span> 64.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/19/19034064db55a4b3099824e4b3234f03.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/941820a987b9181fd8f13032241cbb5f.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7cd67097ef0ac5ba4ede3192750e801e.svg",
+            "https://ege.sdamgia.ru/formula/svg/2b/2b9a86169893decb46cdbce59ed6b88c.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/10bef1c1474a356934d29270f1728bc2.svg",
+            "https://ege.sdamgia.ru/formula/svg/1f/1fddb94489a68066feaa03abac6eb4cb.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2c7b578aef129176ad7d6624d9914f55.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/df57625838250d3c9771052b3bdcc4d8.svg",
+            "https://ege.sdamgia.ru/formula/svg/5e/5e20ebd201aa927707f559dfa4853251.svg"
+        ]
+    },
+    "answer": "64",
+    "topic_id": 3,
+    "analog_ids": [
+        27143,
+        75849,
+        75851,
+        75853,
+        75849,
+        75851,
+        75853,
+        75855,
+        75857,
+        75859,
+        75861,
+        75863,
+        75865,
+        75867,
+        75869,
+        75871,
+        75873,
+        75875,
+        75877,
+        75879,
+        75881,
+        75883,
+        75885,
+        75887,
+        75889,
+        75891,
+        75893,
+        75895,
+        75897,
+        75899,
+        75901,
+        75903
+    ]
+}

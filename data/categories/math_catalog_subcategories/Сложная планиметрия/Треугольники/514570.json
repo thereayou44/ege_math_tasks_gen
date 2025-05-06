@@ -1,0 +1,35 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 514570,
+    "condition": {
+        "text": "Медиана AA1 и BB1 треугольника ABC перпендикулярны и пересекаются в точке O.а)  Докажите, что CO  =  AB.б)  Найдите площадь треугольника ABC, если известно, что AC  =  4, BC  =  3.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body636150\" class=\"pbody\"><p class=\"left_margin\">Ме­ди­а­на <i>AA</i><sub>1</sub> и <i>BB</i><sub>1</sub> тре­уголь­ни­ка <i>ABC</i> пер­пен­ди­ку­ляр­ны и пе­ре­се­ка­ют­ся в точке <i>O</i>.</p><p class=\"left_margin\">а)  До­ка­жи­те, что <i>CO</i>  =  <i>AB</i>.</p><p class=\"left_margin\">б)  Най­ди­те пло­щадь тре­уголь­ни­ка <i>ABC</i>, если из­вест­но, что <i>AC</i>  =  4, <i>BC</i>  =  3.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Проведем медиану  (она пройдет через точку O) и продлим ее (до точки K) за точку  на расстояние  Тогда четырехугольник AOBK  — параллелограмм (его диагонали делятся пополам точкой пересечения))с прямым углом, поэтому его диагонали равны, то есть  что и требовалось.б)  Пусть     По теореме пифагора имеем  откуда Аналогично Решая эти уравнения, находим  Тогда  Ответ:  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol514570\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=26330\" style=\"float:right;margin:10px\"></p><p class=\"left_margin\">а)  Про­ве­дем ме­ди­а­ну <img src=\"https://ege.sdamgia.ru/formula/svg/1d/1d1a5eb698955091aadf0a6a26c747c0.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"CC_1\"> (она прой­дет через точку <i>O</i>) и про­длим ее (до точки <i>K</i>) за точку <img src=\"https://ege.sdamgia.ru/formula/svg/4f/4fa71d007c094ac3c858919aec515277.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"C_1\"> на рас­сто­я­ние <img src=\"https://ege.sdamgia.ru/formula/svg/61/618dabbeadae47382c30c969d856326f.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"OC_1= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби OC.\"> Тогда че­ты­рех­уголь­ник <i>AOBK</i>  — па­рал­ле­ло­грамм (его диа­го­на­ли де­лят­ся по­по­лам точ­кой пе­ре­се­че­ния))с пря­мым углом, по­это­му его диа­го­на­ли равны, то есть <img src=\"https://ege.sdamgia.ru/formula/svg/a9/a93c4a12f8906af32dee7cc6059b46d5.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AB=OK=CO,\"> что и тре­бо­ва­лось.</p><p class=\"left_margin\">б)  Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/b7/b77bffafa6d5fd585431680c7d26f6ec.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AO=2y,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/83/83d2d32fdc9aa0cad6996a4e6de0787e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"OA_1=y,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/12/12c9b5b4d76ed8e8a0262c6571641c5b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"BO=2x,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/12/12ab216ab4d56868de469cd0ffe08484.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"OB_1=x.\"> По тео­ре­ме пи­фа­го­ра имеем <img src=\"https://ege.sdamgia.ru/formula/svg/01/016062b5817da9b7c28261a84f601383.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\"2=AB_1= ко­рень из: на­ча­ло ар­гу­мен­та: 4y в квад­ра­те плюс x в квад­ра­те конец ар­гу­мен­та ,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/02/02475ae42454a3c03ee445cd9d5c1ac3.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"4y в квад­ра­те плюс x в квад­ра­те =4.\"></p><p class=\"left_margin\">Ана­ло­гич­но <img src=\"https://ege.sdamgia.ru/formula/svg/ff/ff4d5792e5ccf2675e41dfe5f5741b72.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"4x в квад­ра­те плюс y в квад­ра­те = дробь: чис­ли­тель: 9, зна­ме­на­тель: 4 конец дроби . \">Решая эти урав­не­ния, на­хо­дим <img src=\"https://ege.sdamgia.ru/formula/svg/eb/ebd8fa9cb99f97bcb8742267d9e75815.svg\" class=\"tex\" style=\"vertical-align:-11.0pt\" alt=\"x= дробь: чис­ли­тель: 1, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та конец дроби , \"> <img src=\"https://ege.sdamgia.ru/formula/svg/db/db9be2afa28886a0b9b7a317c281ecbf.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"y= дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 11 конец ар­гу­мен­та , зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 12 конец ар­гу­мен­та конец дроби . \"></p><p class=\"left_margin\">Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/ca/ca83d10c7e51b4ca3af4256189105ac5.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S_ABC=3S_ACO=6S_AOB_1=6 умно­жить на дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби AO умно­жить на OB_1=6xy= ко­рень из: на­ча­ло ар­гу­мен­та: 11 конец ар­гу­мен­та .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  <img src=\"https://ege.sdamgia.ru/formula/svg/bd/bdd247254f1026065b1041fc423a266e.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 11 конец ар­гу­мен­та .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/1d/1d1a5eb698955091aadf0a6a26c747c0.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4fa71d007c094ac3c858919aec515277.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/618dabbeadae47382c30c969d856326f.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a93c4a12f8906af32dee7cc6059b46d5.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b77bffafa6d5fd585431680c7d26f6ec.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83d2d32fdc9aa0cad6996a4e6de0787e.svg",
+            "https://ege.sdamgia.ru/formula/svg/12/12c9b5b4d76ed8e8a0262c6571641c5b.svg",
+            "https://ege.sdamgia.ru/formula/svg/12/12ab216ab4d56868de469cd0ffe08484.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/016062b5817da9b7c28261a84f601383.svg",
+            "https://ege.sdamgia.ru/formula/svg/02/02475ae42454a3c03ee445cd9d5c1ac3.svg",
+            "https://ege.sdamgia.ru/formula/svg/ff/ff4d5792e5ccf2675e41dfe5f5741b72.svg",
+            "https://ege.sdamgia.ru/formula/svg/eb/ebd8fa9cb99f97bcb8742267d9e75815.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/db9be2afa28886a0b9b7a317c281ecbf.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/ca83d10c7e51b4ca3af4256189105ac5.svg",
+            "https://ege.sdamgia.ru/formula/svg/bd/bdd247254f1026065b1041fc423a266e.svg",
+            "/get_file?id=26330"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

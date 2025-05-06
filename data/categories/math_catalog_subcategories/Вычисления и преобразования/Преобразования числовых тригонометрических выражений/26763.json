@@ -1,0 +1,59 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 26763,
+    "condition": {
+        "text": "Найдите значение выражения ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919159\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те зна­че­ние вы­ра­же­ния <img src=\"https://ege.sdamgia.ru/formula/svg/90/90d16ece7a791efd469de76715b8e01b.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" минус 18 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та синус левая круг­лая скоб­ка минус 135 гра­ду­сов пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/90/90d16ece7a791efd469de76715b8e01b.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Выполним преобразования:   Ответ: 18.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol26763\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Вы­пол­ним пре­об­ра­зо­ва­ния: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d9/d9a041fbf849f9c2a4d11fc0d53d3ea8.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" минус 18 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та синус левая круг­лая скоб­ка минус 135 гра­ду­сов пра­вая круг­лая скоб­ка = минус 18 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та левая круг­лая скоб­ка минус дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби пра­вая круг­лая скоб­ка =18. \"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 18.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d9/d9a041fbf849f9c2a4d11fc0d53d3ea8.svg"
+        ]
+    },
+    "answer": "18",
+    "topic_id": 7,
+    "analog_ids": [
+        26763,
+        63651,
+        63589,
+        63591,
+        63651,
+        63589,
+        63591,
+        63593,
+        63595,
+        63597,
+        63599,
+        63601,
+        63603,
+        63605,
+        63607,
+        63609,
+        63611,
+        63613,
+        63615,
+        63617,
+        63619,
+        63621,
+        63623,
+        63625,
+        63627,
+        63629,
+        63631,
+        63633,
+        63635,
+        63637,
+        63639,
+        63641,
+        63643,
+        63645,
+        63647,
+        63649
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 635862,
+    "condition": {
+        "text": "а)  Решите уравнение б)  Найдите все корни этого уравнения, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body515370\" class=\"pbody\"><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/99/99e37a034556378fa66ff755d0327945.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" ко­си­нус в квад­ра­те x минус ко­си­нус 2 x=0,75.\"></p><p class=\"left_margin\">б)  Най­ди­те все корни этого урав­не­ния, при­над­ле­жа­щие от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/74/74fc7d9ffada333f4b475a8f52cc1f56.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби ; 3 Пи пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/99/99e37a034556378fa66ff755d0327945.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/74fc7d9ffada333f4b475a8f52cc1f56.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Применим формулу косинуса двойного угла: Значит,  следовательно,  при б)  С помощью числовой окружности отберём корни, принадлежащие отрезку  Получим числа    Ответ: а)  б)   ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol635862\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=120245\" style=\"float:right;margin:10px;max-width:100%\">а)  При­ме­ним фор­му­лу ко­си­ну­са двой­но­го угла:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ad/ad0eccb5cc16c3478d338135cc9f34a5.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" ко­си­нус в квад­ра­те x минус левая круг­лая скоб­ка ко­си­нус в квад­ра­те x минус синус в квад­ра­те x пра­вая круг­лая скоб­ка = 0,75 рав­но­силь­но синус в квад­ра­те x= дробь: чис­ли­тель: 3, зна­ме­на­тель: 4 конец дроби . \"></p><p class=\"left_margin\"></p></center><p> Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/be/be1cefa99c3ac5263d384df4fd744f0c.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" синус x=\\pm дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби , \"> сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/30/30fee5ae6fc09c175a898111c7aecc23.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x=\\pm дробь: чис­ли­тель: Пи , зна­ме­на­тель: 3 конец дроби плюс Пи k \"> при <img src=\"https://ege.sdamgia.ru/formula/svg/b6/b605ef6c59212624a2cf0996e8e76813.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" k при­над­ле­жит Z .\"></p><p class=\"left_margin\">б)  С по­мо­щью чис­ло­вой окруж­но­сти отберём корни, при­над­ле­жа­щие от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/74/74fc7d9ffada333f4b475a8f52cc1f56.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби ; 3 Пи пра­вая квад­рат­ная скоб­ка . \"> По­лу­чим числа <img src=\"https://ege.sdamgia.ru/formula/svg/0b/0bef54a091bf1ce82078bf49d79c8267.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 3 конец дроби ; \"> <img src=\"https://ege.sdamgia.ru/formula/svg/15/15e7eb8325936c62e85627be1504950c.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 7 Пи , зна­ме­на­тель: 3 конец дроби ; \"> <img src=\"https://ege.sdamgia.ru/formula/svg/56/56deb07557419c0cb79015f0dd3903a5.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 8 Пи , зна­ме­на­тель: 3 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) <img src=\"https://ege.sdamgia.ru/formula/svg/9a/9affe545e296a3b0b77b82817bc6401e.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" левая фи­гур­ная скоб­ка \\pm дробь: чис­ли­тель: Пи , зна­ме­на­тель: 3 конец дроби плюс Пи k : k при­над­ле­жит Z пра­вая фи­гур­ная скоб­ка , \"> б) <img src=\"https://ege.sdamgia.ru/formula/svg/0b/0bef54a091bf1ce82078bf49d79c8267.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 3 конец дроби ; \"> <img src=\"https://ege.sdamgia.ru/formula/svg/15/15e7eb8325936c62e85627be1504950c.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 7 Пи , зна­ме­на­тель: 3 конец дроби ; \"> <img src=\"https://ege.sdamgia.ru/formula/svg/56/56deb07557419c0cb79015f0dd3903a5.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 8 Пи , зна­ме­на­тель: 3 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ad/ad0eccb5cc16c3478d338135cc9f34a5.svg",
+            "https://ege.sdamgia.ru/formula/svg/be/be1cefa99c3ac5263d384df4fd744f0c.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/30fee5ae6fc09c175a898111c7aecc23.svg",
+            "https://ege.sdamgia.ru/formula/svg/b6/b605ef6c59212624a2cf0996e8e76813.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/74fc7d9ffada333f4b475a8f52cc1f56.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0bef54a091bf1ce82078bf49d79c8267.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/15e7eb8325936c62e85627be1504950c.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/56deb07557419c0cb79015f0dd3903a5.svg",
+            "https://ege.sdamgia.ru/formula/svg/9a/9affe545e296a3b0b77b82817bc6401e.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0bef54a091bf1ce82078bf49d79c8267.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/15e7eb8325936c62e85627be1504950c.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/56deb07557419c0cb79015f0dd3903a5.svg",
+            "/get_file?id=120245"
+        ]
+    },
+    "answer": "а)  б)",
+    "topic_id": 13,
+    "analog_ids": [
+        635862,
+        635964
+    ]
+}

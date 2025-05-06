@@ -1,0 +1,58 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27720,
+    "condition": {
+        "text": "Стороны правильного треугольника ABC равны  Найдите длину вектора ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918196\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=145723\" style=\"float:right;margin:10px;max-width:100%\">Сто­ро­ны пра­виль­но­го тре­уголь­ни­ка <i>ABC</i> равны <img src=\"https://ege.sdamgia.ru/formula/svg/fd/fdfbb42df7a5ce999654af7934100d75.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та .\"> Най­ди­те длину век­то­ра <img src=\"https://ege.sdamgia.ru/formula/svg/4c/4c7126d15f5aa4df0b2d66b7e2943fba.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overrightarrowAB плюс \\overrightarrowAC.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/fd/fdfbb42df7a5ce999654af7934100d75.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c7126d15f5aa4df0b2d66b7e2943fba.svg",
+            "/get_file?id=145723"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Достраиваем треугольник до ромба. Поскольку  необходимо найти длину большей диагонали ромба, равную удвоенной длине медианы равностороннего треугольника  Таким образом, имеем: Ответ: 6.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27720\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=145724\" style=\"float:right;margin:10px;max-width:100%\">До­стра­и­ва­ем тре­уголь­ник до ромба. По­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/a8/a84c5291c6e705cae55dd682cc5778a0.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overrightarrowAB плюс \\overrightarrowAC = \\overrightarrowAD\"> не­об­хо­ди­мо найти длину боль­шей диа­го­на­ли ромба, рав­ную удво­ен­ной длине ме­ди­а­ны рав­но­сто­рон­не­го тре­уголь­ни­ка <img src=\"https://ege.sdamgia.ru/formula/svg/4b/4b5b9eab089a2e0ff9b286f012e61feb.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"ABC.\"> Таким об­ра­зом, имеем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f9/f9dfe5a303da6737d3621e6c9ea16a52.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"AD=2 умно­жить на дробь: чис­ли­тель: AB ко­рень из 3 , зна­ме­на­тель: 2 конец дроби =6. \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ</span>: 6.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a8/a84c5291c6e705cae55dd682cc5778a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4b5b9eab089a2e0ff9b286f012e61feb.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f9dfe5a303da6737d3621e6c9ea16a52.svg",
+            "/get_file?id=145724"
+        ]
+    },
+    "answer": "6",
+    "topic_id": 2,
+    "analog_ids": [
+        27720,
+        26453,
+        60805,
+        60807,
+        26453,
+        60805,
+        60807,
+        60809,
+        60811,
+        60813,
+        60815,
+        60817,
+        60819,
+        60821,
+        60823,
+        60825,
+        60827,
+        60829,
+        60831,
+        60833,
+        60835,
+        60837,
+        60839,
+        60841,
+        60843,
+        60845,
+        60847,
+        60849,
+        60851,
+        60853
+    ]
+}

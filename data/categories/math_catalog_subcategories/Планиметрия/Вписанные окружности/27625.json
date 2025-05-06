@@ -1,0 +1,53 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27625,
+    "condition": {
+        "text": "Площадь треугольника равна 24, а радиус вписанной окружности равен 2. Найдите периметр этого треугольника.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918805\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=113273\" style=\"float:right;margin:10px;max-width:100%\">Пло­щадь тре­уголь­ни­ка равна 24, а ра­ди­ус впи­сан­ной окруж­но­сти равен 2. Най­ди­те пе­ри­метр этого тре­уголь­ни­ка.</p></div>",
+        "image_urls": [
+            "/get_file?id=113273"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Из формулы  где p  — полупериметр,  находим, что периметр описанного многоугольника равен отношению удвоенной площади к радиусу вписанной окружности: Ответ: 24.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27625\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Из фор­му­лы <img src=\"https://ege.sdamgia.ru/formula/svg/5f/5f6daf5553578941266c61327ce19856.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"S=pr,\"> где <i>p</i>  — по­лу­пе­ри­метр,  на­хо­дим, что пе­ри­метр опи­сан­но­го мно­го­уголь­ни­ка равен от­но­ше­нию удво­ен­ной пло­ща­ди к ра­ди­у­су впи­сан­ной окруж­но­сти:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/5b/5bafbbe5cfd47e194fd952a946550469.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"P= дробь: чис­ли­тель: 2S, зна­ме­на­тель: r конец дроби = дробь: чис­ли­тель: 2 умно­жить на 24, зна­ме­на­тель: 2 конец дроби =24. \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 24.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/5f/5f6daf5553578941266c61327ce19856.svg",
+            "https://ege.sdamgia.ru/formula/svg/5b/5bafbbe5cfd47e194fd952a946550469.svg"
+        ]
+    },
+    "answer": "24",
+    "topic_id": 1,
+    "analog_ids": [
+        27625,
+        56857,
+        56859,
+        56861,
+        56857,
+        56859,
+        56861,
+        56863,
+        56865,
+        56867,
+        56869,
+        56871,
+        56873,
+        56875,
+        56877,
+        56879,
+        56881,
+        56883,
+        56885,
+        56887,
+        56889,
+        56891,
+        56893,
+        56895,
+        56897,
+        56899,
+        56901,
+        56903,
+        56905
+    ]
+}

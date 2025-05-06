@@ -1,0 +1,33 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521761,
+    "condition": {
+        "text": "Ученики второго, третьего четвертого классов собирали макулатуру. Каждый второклассник работал по 3 дня, третьеклассник  — по 12 дней, четвероклассник  — по 16 дней. При этом каждый второклассник собрал 30 кг макулатуры, каждый третьеклассник  — 130 кг, а каждый четвероклассник  — 170 кг. Все дети вместе отработали 95 дней. Сколько учеников каждого класса участвовало в работе, если общее количество макулатуры оказалось максимальным?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body628957\" class=\"pbody\"><p class=\"left_margin\">Уче­ни­ки вто­ро­го, тре­тье­го чет­вер­то­го клас­сов со­би­ра­ли ма­ку­ла­ту­ру. Каж­дый вто­ро­класс­ник ра­бо­тал по 3 дня, тре­тье­класс­ник  — по 12 дней, чет­ве­ро­класс­ник  — по 16 дней. При этом каж­дый вто­ро­класс­ник со­брал 30 кг ма­ку­ла­ту­ры, каж­дый тре­тье­класс­ник  — 130 кг, а каж­дый чет­ве­ро­класс­ник  — 170 кг. Все дети вме­сте от­ра­бо­та­ли 95 дней. Сколь­ко уче­ни­ков каж­до­го клас­са участ­во­ва­ло в ра­бо­те, если общее ко­ли­че­ство ма­ку­ла­ту­ры ока­за­лось мак­си­маль­ным?</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Допустим было x учеников второго, y третьего и z четвертого классов. Они работали  часов и собрали  Значит, надо максимизировать  Очевидно  или  иначе в равенстве  не сойдется остаток от деления на три. Если  то  и  а если  то  (можно взять ) и  причем это значение достигается и дает ответ  килограмм. Итак, был один второклассник, пять третьеклассников и два четвероклассника. Ответ: 1  — второй, 5  — третий, 2  — четвертый классы.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521761\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">До­пу­стим было <i>x</i> уче­ни­ков вто­ро­го, <i>y</i> тре­тье­го и <i>z</i> чет­вер­то­го клас­сов. Они ра­бо­та­ли <img src=\"https://ege.sdamgia.ru/formula/svg/ad/ad8be68826c4cb08c67afdb133da6ee8.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"3x плюс 12y плюс 16z=95\"> часов и со­бра­ли <img src=\"https://ege.sdamgia.ru/formula/svg/2f/2f01351d93600da86e75b58663920ed2.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"30x плюс 130y плюс 170z= 10 левая круг­лая скоб­ка 3x плюс 12y плюс 16z пра­вая круг­лая скоб­ка плюс 10 левая круг­лая скоб­ка y плюс z пра­вая круг­лая скоб­ка =950 плюс 10 левая круг­лая скоб­ка y плюс z пра­вая круг­лая скоб­ка ,\"> Зна­чит, надо мак­си­ми­зи­ро­вать <img src=\"https://ege.sdamgia.ru/formula/svg/0c/0cabb901de8dbe1fcf34ffdb00a6e431.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y плюс z.\"> Оче­вид­но <img src=\"https://ege.sdamgia.ru/formula/svg/c6/c6c6aa9b314f0b77c1e5fd9aeeafa6ed.svg\" class=\"tex\" style=\"vertical-align:-1.9pt\" alt=\"z=2\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/fb/fbab294e75dcc92eb4ea04c2a605baed.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"z=5,\"> иначе в ра­вен­стве <img src=\"https://ege.sdamgia.ru/formula/svg/ad/ad8be68826c4cb08c67afdb133da6ee8.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"3x плюс 12y плюс 16z=95\"> не сой­дет­ся оста­ток от де­ле­ния на три. Если <img src=\"https://ege.sdamgia.ru/formula/svg/fb/fbab294e75dcc92eb4ea04c2a605baed.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"z=5,\"> то <img src=\"https://ege.sdamgia.ru/formula/svg/40/40c4f533dbb08500c8b3377341c90c95.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y мень­ше или равно 1\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/a6/a68bbbd0612e99fa640e741eb63165be.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y плюс z мень­ше или равно 6,\"> а если <img src=\"https://ege.sdamgia.ru/formula/svg/ee/ee17c21f7a2d283960ca618b7631f957.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"z=2,\"> то <img src=\"https://ege.sdamgia.ru/formula/svg/c7/c700ac1a4ae34002d30c1c35b9d7dc0a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y мень­ше или равно 5\"> (можно взять <img src=\"https://ege.sdamgia.ru/formula/svg/a2/a255512f9d61a6777bd5a304235bd26d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=1\">) и <img src=\"https://ege.sdamgia.ru/formula/svg/1f/1fcbd29a1f6a03a04ef5a3e1c75a7750.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x плюс y мень­ше или равно 7,\"> при­чем это зна­че­ние до­сти­га­ет­ся и дает ответ <img src=\"https://ege.sdamgia.ru/formula/svg/65/65cc2c8205a05d7379fa3a6386f710e1.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"1020\"> ки­ло­грамм. Итак, был один вто­ро­класс­ник, пять тре­тье­класс­ни­ков и два чет­ве­ро­класс­ни­ка.</p><p> </p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 1  — вто­рой, 5  — тре­тий, 2  — чет­вер­тый клас­сы.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ad/ad8be68826c4cb08c67afdb133da6ee8.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2f01351d93600da86e75b58663920ed2.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0cabb901de8dbe1fcf34ffdb00a6e431.svg",
+            "https://ege.sdamgia.ru/formula/svg/c6/c6c6aa9b314f0b77c1e5fd9aeeafa6ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fbab294e75dcc92eb4ea04c2a605baed.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/ad8be68826c4cb08c67afdb133da6ee8.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fbab294e75dcc92eb4ea04c2a605baed.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/40c4f533dbb08500c8b3377341c90c95.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a68bbbd0612e99fa640e741eb63165be.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/ee17c21f7a2d283960ca618b7631f957.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c700ac1a4ae34002d30c1c35b9d7dc0a.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a255512f9d61a6777bd5a304235bd26d.svg",
+            "https://ege.sdamgia.ru/formula/svg/1f/1fcbd29a1f6a03a04ef5a3e1c75a7750.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/65cc2c8205a05d7379fa3a6386f710e1.svg"
+        ]
+    },
+    "answer": "1  — вто­рой, 5  — тре­тий, 2  — чет­вер­тый клас­сы.",
+    "topic_id": null,
+    "analog_ids": []
+}

@@ -1,0 +1,26 @@
+{
+    "id": "27930",
+    "topic": "Д15",
+    "condition": {
+        "text": "Угол между стороной правильного n-угольника, вписанного в окружность, и радиусом этой окружности, проведенным в одну из вершин стороны, равен Найдите",
+        "images": [
+            "https://mathb-ege.sdamgia.ru/get_file?id=1533",
+            "https://ege.sdamgia.ru/formula/svg/2c/2c46b52e10f6eaa6bf205b98c033784f.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/36cb6ed5283e452800c275dd6934aecc.svg"
+        ]
+    },
+    "answer": "5",
+    "analogs": [
+        "27930",
+        "54109",
+        "54113",
+        "54111",
+        "...",
+        "54109",
+        "54113",
+        "54111",
+        "54115",
+        "54117"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=27930"
+}

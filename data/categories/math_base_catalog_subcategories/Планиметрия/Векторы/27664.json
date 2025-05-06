@@ -1,0 +1,17 @@
+{
+    "id": "27664",
+    "topic": "Д15",
+    "condition": {
+        "text": "Найдите квадрат длины вектора",
+        "images": [
+            "https://mathb-ege.sdamgia.ru/get_file?id=164993",
+            "https://ege.sdamgia.ru/formula/svg/1b/1ba45e2a75306b79d945622732021806.svg"
+        ]
+    },
+    "answer": "40",
+    "analogs": [
+        "27664",
+        "26395"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=27664"
+}

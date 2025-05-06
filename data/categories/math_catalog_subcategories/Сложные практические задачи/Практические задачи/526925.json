@@ -1,0 +1,26 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 526925,
+    "condition": {
+        "text": "1 мая 2017 г. Татьяна Константиновна положила  10 000 000  рублей в банк сроком на 1 год с ежемесячным начислением процентов и капитализацией под  а% годовых. Это означает, что первого числа каждого месяца сумма вклада увеличивается на одно и  то  же  количество  процентов,  рассчитанное  таким  образом,  что  за  12  месяцев  она увеличится ровно на а%. Найдите  а, если известно, что через 6 месяцев сумма вклада Татьяны Константиновны составила 10 400 000  рублей.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body418993\" class=\"pbody\"><p class=\"left_margin\">1 мая 2017 г. Та­тья­на Кон­стан­ти­нов­на по­ло­жи­ла  10 000 000  руб­лей в банк сро­ком на 1 год с еже­ме­сяч­ным на­чис­ле­ни­ем про­цен­тов и ка­пи­та­ли­за­ци­ей под  <i>а</i>% го­до­вых. Это озна­ча­ет, что пер­во­го числа каж­до­го ме­ся­ца сумма вкла­да уве­ли­чи­ва­ет­ся на одно и  то  же  ко­ли­че­ство  про­цен­тов,  рас­счи­тан­ное  таким  об­ра­зом,  что  за  12  ме­ся­цев  она уве­ли­чит­ся ровно на <i>а</i>%. Най­ди­те  <i>а</i>, если из­вест­но, что через 6 ме­ся­цев сумма вкла­да Та­тья­ны Кон­стан­ти­нов­ны со­ста­ви­ла 10 400 000  руб­лей.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Каждый месяц сумма умножается на одно и то же число. Поскольку за  месяцев сумма увеличилась в  раза, то за следующие  месяцев она снова увеличится в  раза. Итоговое увеличение будет в  раза, поэтому  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol526925\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Каж­дый месяц сумма умно­жа­ет­ся на одно и то же число. По­сколь­ку за <img src=\"https://ege.sdamgia.ru/formula/svg/16/1679091c5a880faf6fb5e6087eb1b2dc.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"6\"> ме­ся­цев сумма уве­ли­чи­лась в <img src=\"https://ege.sdamgia.ru/formula/svg/9e/9e67a9f428ac2af92dfea3b369fbc670.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 10400000, зна­ме­на­тель: 10000000 конец дроби =1,04 \"> раза, то за сле­ду­ю­щие <img src=\"https://ege.sdamgia.ru/formula/svg/16/1679091c5a880faf6fb5e6087eb1b2dc.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"6\"> ме­ся­цев она снова уве­ли­чит­ся в <img src=\"https://ege.sdamgia.ru/formula/svg/67/67d390da5be4efd06a910f62fe99b170.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1,04\"> раза. Ито­го­вое уве­ли­че­ние будет в <img src=\"https://ege.sdamgia.ru/formula/svg/87/874174a3347fd0a46df2df7a4191f5c0.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1,04 в квад­ра­те =1,0816\"> раза, по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/6c/6cd1e84d46d11a5a3beddfd2fd3a0c17.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a=8,16.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/6f/6f5c0b2316f2b9f4f674b8ae20d5d147.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"8,16.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/16/1679091c5a880faf6fb5e6087eb1b2dc.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9e67a9f428ac2af92dfea3b369fbc670.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/1679091c5a880faf6fb5e6087eb1b2dc.svg",
+            "https://ege.sdamgia.ru/formula/svg/67/67d390da5be4efd06a910f62fe99b170.svg",
+            "https://ege.sdamgia.ru/formula/svg/87/874174a3347fd0a46df2df7a4191f5c0.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6cd1e84d46d11a5a3beddfd2fd3a0c17.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6f5c0b2316f2b9f4f674b8ae20d5d147.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

@@ -1,0 +1,26 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 505835,
+    "condition": {
+        "text": "В остроугольном треугольнике ABC проведены высоты AD и CE, H  — точка пересечения высот.а)  Докажите, что точки A, E, D и С лежат на одной окружности.б)  Известно, что радиус этой окружности равен 2, а радиус описанной окружности треугольника ABC равен 4. Найдите угол ABC.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body645399\" class=\"pbody\"><p class=\"left_margin\">В ост­ро­уголь­ном тре­уголь­ни­ке <i>ABC</i> про­ве­де­ны вы­со­ты <i>AD</i> и <i>CE</i>, <i>H</i>  — точка пе­ре­се­че­ния высот.</p><p class=\"left_margin\">а)  До­ка­жи­те, что точки <i>A</i>, <i>E</i>, <i>D</i> и <i>С</i> лежат на одной окруж­но­сти.</p><p class=\"left_margin\">б)  Из­вест­но, что ра­ди­ус этой окруж­но­сти равен 2, а ра­ди­ус опи­сан­ной окруж­но­сти тре­уголь­ни­ка <i>ABC</i> равен 4. Най­ди­те угол <i>ABC</i>.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Поскольку треугольники AEC и ADC  — прямоугольные, их центры описанных окружностей совпадают с серединой AC, а радиусы окружностей равны  То есть это одна и та же окружность. Значит, все четыре точки лежат на одной окружности.б)    По усиленной теореме синусов в треугольнике ABC имеем  откуда  и  Ответ:  30°.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol505835\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=26257\" style=\"float:right;margin:10px\"></p><p class=\"left_margin\">а)  По­сколь­ку тре­уголь­ни­ки <i>AEC</i> и <i>ADC</i>  — пря­мо­уголь­ные, их цен­тры опи­сан­ных окруж­но­стей сов­па­да­ют с се­ре­ди­ной <i>AC</i>, а ра­ди­у­сы окруж­но­стей равны <img src=\"https://ege.sdamgia.ru/formula/svg/c2/c2e5da006a972be2d56b39cb68199c91.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" дробь: чис­ли­тель: AC, зна­ме­на­тель: 2 конец дроби . \"> То есть это одна и та же окруж­ность. Зна­чит, все че­ты­ре точки лежат на одной окруж­но­сти.</p><p class=\"left_margin\">б)  <img src=\"https://ege.sdamgia.ru/formula/svg/27/276117bebcfb665f530c9296b523879d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AC=2R_AEDC=4,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/81/81576b80edf31d27a9c99b15b4fd3ff3.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"R_ABC=4.\"> По уси­лен­ной тео­ре­ме си­ну­сов в тре­уголь­ни­ке <i>ABC</i> имеем <img src=\"https://ege.sdamgia.ru/formula/svg/e1/e1dde561c1c08469a523e9eda15924e3.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: AC, зна­ме­на­тель: синус \\angle ABC конец дроби =2R_ABC, \"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/a4/a462e880b4dc289362223fe886a670cc.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" синус \\angle ABC= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/7e/7e27e7993c4398d914863aba21c12994.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle ABC=30 гра­ду­сов.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  30°.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c2/c2e5da006a972be2d56b39cb68199c91.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/276117bebcfb665f530c9296b523879d.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/81576b80edf31d27a9c99b15b4fd3ff3.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e1dde561c1c08469a523e9eda15924e3.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a462e880b4dc289362223fe886a670cc.svg",
+            "https://ege.sdamgia.ru/formula/svg/7e/7e27e7993c4398d914863aba21c12994.svg",
+            "/get_file?id=26257"
+        ]
+    },
+    "answer": "30°.",
+    "topic_id": null,
+    "analog_ids": []
+}

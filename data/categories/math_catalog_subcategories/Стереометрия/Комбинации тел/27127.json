@@ -1,0 +1,38 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27127,
+    "condition": {
+        "text": "Около куба с ребром  описан шар. Найдите объем этого шара, деленный на ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919307\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=139955\" style=\"float:right;margin:10px;max-width:100%\">Около куба с реб­ром <img src=\"https://ege.sdamgia.ru/formula/svg/91/91a24814efa2661939c57367281c819c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та \"> опи­сан шар. Най­ди­те объем этого шара, де­лен­ный на <img src=\"https://ege.sdamgia.ru/formula/svg/20/20eb0232474c508d356a7b4ebf331607.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" Пи .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/91/91a24814efa2661939c57367281c819c.svg",
+            "https://ege.sdamgia.ru/formula/svg/20/20eb0232474c508d356a7b4ebf331607.svg",
+            "/get_file?id=139955"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Пусть длина ребра куба равна а, а его диагональ равна d. Радиус описанного шара R равен половине диагонали куба:  Поэтому объем шара равен  Тогда объем шара, деленный на π, равен Ответ: 4,5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27127\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть длина ребра куба равна <i>а</i>, а его диа­го­наль равна <i>d</i>. Ра­ди­ус опи­сан­но­го шара <i>R</i> равен по­ло­ви­не диа­го­на­ли куба:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/72/726cae272506ba100b5b304d19cbb70b.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"R= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби d= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби a ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та = дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби ко­рень из 3 ко­рень из 3 = дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби . \"></p><p class=\"left_margin\"></p></center> <p> По­это­му объем шара равен </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/fd/fd95354c333b633c79ef8164af9c2d9c.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\"V= дробь: чис­ли­тель: 4, зна­ме­на­тель: 3 конец дроби Пи R в кубе = дробь: чис­ли­тель: 4, зна­ме­на­тель: 3 конец дроби Пи левая круг­лая скоб­ка дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби пра­вая круг­лая скоб­ка в кубе = дробь: чис­ли­тель: 9, зна­ме­на­тель: 2 конец дроби Пи . \"></p><p class=\"left_margin\"></p></center><p> Тогда объем шара, де­лен­ный на π, равен</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/53/537810b5261fb4bf9657da885cd03848.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: V, зна­ме­на­тель: Пи конец дроби = дробь: чис­ли­тель: 9, зна­ме­на­тель: 2 конец дроби =4,5. \"></p><p class=\"left_margin\"></p></center> <p><span style=\"letter-spacing: 2px;\">Ответ:</span> 4,5.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/72/726cae272506ba100b5b304d19cbb70b.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fd95354c333b633c79ef8164af9c2d9c.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/537810b5261fb4bf9657da885cd03848.svg"
+        ]
+    },
+    "answer": "4,5",
+    "topic_id": 3,
+    "analog_ids": [
+        27127,
+        75321,
+        75323,
+        75325,
+        75321,
+        75323,
+        75325,
+        75327,
+        75329,
+        75331,
+        75333
+    ]
+}

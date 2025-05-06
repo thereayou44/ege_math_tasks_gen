@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 505821,
+    "condition": {
+        "text": "Дана треугольная призма ABCA1B1C1 (AA1 || BB1 || CC1). На ребре CC1 выбрана точка D. Сечение, проходящее через точки A, B1 и D, делит призму на два многогранника ABCDB1 и B1AA1C1D, отношение объёмов которых равно 13 : 17. В каком отношении точка D делит ребро CC1?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body645409\" class=\"pbody\"><p class=\"left_margin\">Дана тре­уголь­ная приз­ма <i>ABCA</i><sub>1</sub><i>B</i><sub>1</sub><i>C</i><sub>1</sub> (<i>AA</i><sub>1</sub> || <i>BB</i><sub>1</sub> || <i>CC</i><sub>1</sub>). На ребре <i>CC</i><sub>1</sub> вы­бра­на точка <i>D</i>. Се­че­ние, про­хо­дя­щее через точки <i>A</i>, <i>B</i><sub>1</sub> и <i>D</i>, делит приз­му на два мно­го­гран­ни­ка <i>ABCDB</i><sub>1</sub> и <i>B</i><sub>1</sub><i>AA</i><sub>1</sub><i>C</i><sub>1</sub><i>D</i>, от­но­ше­ние объёмов ко­то­рых равно 13 : 17. В каком от­но­ше­нии точка <i>D</i> делит ребро <i>CC</i><sub>1</sub>?</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Очевидно, многогранник   — четырехугольная пирамида с вершиной A и прямоугольной трапецией в основании. Найдем ее объем. По условию  Значит,  откуда    и  Ответ:  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol505821\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=26155\" style=\"float:right;margin:10px\"></p><p class=\"left_margin\">Оче­вид­но, мно­го­гран­ник <img src=\"https://ege.sdamgia.ru/formula/svg/83/833c78ffb64b2f79d142dd9eb9aee82a.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"ABCDB_1\">  — че­ты­рех­уголь­ная пи­ра­ми­да с вер­ши­ной <i>A</i> и пря­мо­уголь­ной тра­пе­ци­ей в ос­но­ва­нии. Най­дем ее объем.</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f9/f94ab11aa7f3de5c568063c445f828d4.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"V_ABCDB_1= дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби умно­жить на d левая круг­лая скоб­ка A,BCD пра­вая круг­лая скоб­ка умно­жить на S_BCDB_1= дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби умно­жить на d левая круг­лая скоб­ка A,BC пра­вая круг­лая скоб­ка умно­жить на BC умно­жить на дробь: чис­ли­тель: BB_1 плюс CD, зна­ме­на­тель: 2 конец дроби = \"></p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/d0/d0c2f4b9c71cd081a7753aed828294e6.svg\" class=\"tex\" style=\"vertical-align:-10.0pt\" alt=\"= дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби умно­жить на 2S_ABC умно­жить на дробь: чис­ли­тель: BB_1 плюс CD, зна­ме­на­тель: 2 конец дроби = дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби умно­жить на дробь: чис­ли­тель: V_ABCA_1B_1C_1, зна­ме­на­тель: BB_1 конец дроби умно­жить на левая круг­лая скоб­ка BB_1 плюс CD пра­вая круг­лая скоб­ка . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">По усло­вию <img src=\"https://ege.sdamgia.ru/formula/svg/4f/4fdbc6f0308b4657a76b04c42b6fec43.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"V_ABCDB_1= дробь: чис­ли­тель: 13, зна­ме­на­тель: 30 конец дроби V_ABCA_1B_1C_1. \"> Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/b1/b1651440a20780d0bfd9f2b0daea2cfe.svg\" class=\"tex\" style=\"vertical-align:-10.0pt\" alt=\" дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби умно­жить на дробь: чис­ли­тель: BB_1 плюс CD, зна­ме­на­тель: BB_1 конец дроби = дробь: чис­ли­тель: 13, зна­ме­на­тель: 30 конец дроби , \"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/55/55095cada2e052fa569f77d2bf7054e4.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"10 левая круг­лая скоб­ка BB_1 плюс CD пра­вая круг­лая скоб­ка =13BB_1,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/29/29ea2102379f4a9812fa7aa761dc98e3.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"10CD=3BB_1,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/f9/f973ab915b3f4f99c79442c56260a9cd.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"CD=0,3BB_1\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/c6/c6e1e679f781b8c6d66d00610108665d.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: C_1D, зна­ме­на­тель: CD конец дроби = дробь: чис­ли­тель: 7, зна­ме­на­тель: 3 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  <img src=\"https://ege.sdamgia.ru/formula/svg/fe/fea3506cecd316f80ce5b56b563b1acc.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 7, зна­ме­на­тель: 3 конец дроби .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/83/833c78ffb64b2f79d142dd9eb9aee82a.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f94ab11aa7f3de5c568063c445f828d4.svg",
+            "https://ege.sdamgia.ru/formula/svg/d0/d0c2f4b9c71cd081a7753aed828294e6.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4fdbc6f0308b4657a76b04c42b6fec43.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b1651440a20780d0bfd9f2b0daea2cfe.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/55095cada2e052fa569f77d2bf7054e4.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/29ea2102379f4a9812fa7aa761dc98e3.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f973ab915b3f4f99c79442c56260a9cd.svg",
+            "https://ege.sdamgia.ru/formula/svg/c6/c6e1e679f781b8c6d66d00610108665d.svg",
+            "https://ege.sdamgia.ru/formula/svg/fe/fea3506cecd316f80ce5b56b563b1acc.svg",
+            "/get_file?id=26155"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

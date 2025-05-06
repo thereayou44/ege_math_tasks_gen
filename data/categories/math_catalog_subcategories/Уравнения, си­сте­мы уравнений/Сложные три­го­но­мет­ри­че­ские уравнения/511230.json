@@ -1,0 +1,33 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 511230,
+    "condition": {
+        "text": "Дано уравнение а)  Решите уравнение.б)  Укажите его корни, принадлежащие отрезку  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body631298\" class=\"pbody\"><p class=\"left_margin\">Дано урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/7f/7ffe9111a244f17013a60df17bb2beef.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2 ко­си­нус в квад­ра­те x минус 2 синус 2x плюс 1=0.\"></p><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние.</p><p class=\"left_margin\">б)  Ука­жи­те его корни, при­над­ле­жа­щие от­рез­ку  <img src=\"https://ege.sdamgia.ru/formula/svg/62/62dd9f6b15692f7c61adf3cf60c911f0.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" левая квад­рат­ная скоб­ка дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби ;2 Пи пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/7f/7ffe9111a244f17013a60df17bb2beef.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/62dd9f6b15692f7c61adf3cf60c911f0.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Последовательно получаем:  б)  Отбор корней сделаем с помощью единичной окружности.  Ответ:  а)  б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol511230\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=20955\" style=\"float:right;margin:10px\"></p><p class=\"left_margin\">а)  По­сле­до­ва­тель­но по­лу­ча­ем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f8/f83dcad87b109d96595fc6825bb715f3.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2 ко­си­нус в квад­ра­те x минус 2 синус 2x плюс 1=0 рав­но­силь­но \"> </p><p><img src=\"https://ege.sdamgia.ru/formula/svg/89/8900fe69617efb0760ffa38b40257d3b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" рав­но­силь­но 2 ко­си­нус в квад­ра­те x минус 4 синус x умно­жить на ко­си­нус x плюс синус в квад­ра­те x плюс ко­си­нус в квад­ра­те x=0 рав­но­силь­но \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/d9/d904264218653e4ba0beb221f62a6513.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" рав­но­силь­но синус в квад­ра­те x минус 4 синус x умно­жить на ко­си­нус x плюс 3 ко­си­нус в квад­ра­те x=0 рав­но­силь­но \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/1c/1c93b5ff0df5d48e68dc5f8bd79b6b32.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\" рав­но­силь­но тан­генс в квад­ра­те }x минус 4 тан­генс x плюс 3=0 рав­но­силь­но \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/66/66f755a1e868ffef17ce5f9424690991.svg\" class=\"tex\" style=\"vertical-align:-17.7pt\" alt=\" рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка тан­генс x=1 , новая стро­ка тан­генс x=3 конец со­во­куп­но­сти . рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби плюс Пи n,n при­над­ле­жит Z , новая стро­ка x= арк­тан­генс 3 плюс Пи n,n при­над­ле­жит Z .  конец со­во­куп­но­сти .\"> </p><p class=\"left_margin\"></p></center><p class=\"left_margin\">б)  Отбор кор­ней сде­ла­ем с по­мо­щью еди­нич­ной окруж­но­сти. </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/6d/6d892b1fc5ceae4350ebdf7fdb41d45e.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"x_1= Пи плюс дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби = дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 4 конец дроби ;x_2= Пи плюс арк­тан­генс 3. \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  а) <img src=\"https://ege.sdamgia.ru/formula/svg/23/23c1dbafa6d5783585a7170e4c72d542.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби плюс Пи n,n при­над­ле­жит Z ; арк­тан­генс 3 плюс Пи n,n при­над­ле­жит Z . \"> б) <img src=\"https://ege.sdamgia.ru/formula/svg/4b/4bbed62edc437b492e8560da8d07dd1d.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 4 конец дроби ; Пи плюс арк­тан­генс 3. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f8/f83dcad87b109d96595fc6825bb715f3.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/8900fe69617efb0760ffa38b40257d3b.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d904264218653e4ba0beb221f62a6513.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1c93b5ff0df5d48e68dc5f8bd79b6b32.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/66f755a1e868ffef17ce5f9424690991.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6d892b1fc5ceae4350ebdf7fdb41d45e.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/23c1dbafa6d5783585a7170e4c72d542.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4bbed62edc437b492e8560da8d07dd1d.svg",
+            "/get_file?id=20955"
+        ]
+    },
+    "answer": "а)  б)",
+    "topic_id": null,
+    "analog_ids": [
+        508178
+    ]
+}

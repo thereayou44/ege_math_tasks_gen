@@ -1,0 +1,54 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27935,
+    "condition": {
+        "text": "Окружность, вписанная в равнобедренный треугольник, делит в точке касания одну из боковых сторон на два отрезка, длины которых равны 5 и 3, считая от вершины, противолежащей основанию. Найдите периметр треугольника.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918499\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=113287\" style=\"float:right;margin:10px;max-width:100%\">Окруж­ность, впи­сан­ная в рав­но­бед­рен­ный тре­уголь­ник, делит в точке ка­са­ния одну из бо­ко­вых сто­рон на два от­рез­ка, длины ко­то­рых равны 5 и 3, счи­тая от вер­ши­ны, про­ти­во­ле­жа­щей ос­но­ва­нию. Най­ди­те пе­ри­метр тре­уголь­ни­ка.</p></div>",
+        "image_urls": [
+            "/get_file?id=113287"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Пусть точки H и K являются точками касания окружности со сторонами AB и СВ соответственно. Треугольники HOB и KOB равны, т. к. являются прямоугольными с общей гипотенузой и равными катетами, значит,   Ответ: 22.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27935\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=113288\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">Пусть точки <i>H</i> и <i>K</i> яв­ля­ют­ся точ­ка­ми ка­са­ния окруж­но­сти со сто­ро­на­ми <i>AB</i> и <i>СВ</i> со­от­вет­ствен­но. Тре­уголь­ни­ки <i>HOB</i> и <i>KOB</i> равны, т. к. яв­ля­ют­ся пря­мо­уголь­ны­ми с общей ги­по­те­ну­зой и рав­ны­ми ка­те­та­ми, зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/71/713dc1718e27b29363c87a39fe69bebe.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"HB=KB=3.\"></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/83/83946ef22b2beb237209afd719a05b74.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"P_ABC=AC плюс CB плюс AH плюс HB=2CB плюс 2HB=16 плюс 6=22.\"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 22.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/71/713dc1718e27b29363c87a39fe69bebe.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83946ef22b2beb237209afd719a05b74.svg",
+            "/get_file?id=113288"
+        ]
+    },
+    "answer": "22",
+    "topic_id": 1,
+    "analog_ids": [
+        27935,
+        54273,
+        54275,
+        54283,
+        54273,
+        54275,
+        54283,
+        54277,
+        54279,
+        54281,
+        54285,
+        54287,
+        54289,
+        54291,
+        54293,
+        54295,
+        54297,
+        54299,
+        54301,
+        54303,
+        54305,
+        54307,
+        54309,
+        54311,
+        54313,
+        54315,
+        54317,
+        54319,
+        54321
+    ]
+}

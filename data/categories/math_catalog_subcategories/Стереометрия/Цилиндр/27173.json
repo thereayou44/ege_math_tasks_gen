@@ -1,0 +1,54 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27173,
+    "condition": {
+        "text": "Площадь осевого сечения цилиндра равна 4. Найдите площадь боковой поверхности цилиндра, деленную на ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918745\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=139984\" style=\"float:right;margin:10px;max-width:100%\">Пло­щадь осе­во­го се­че­ния ци­лин­дра равна 4. Най­ди­те пло­щадь бо­ко­вой по­верх­но­сти ци­лин­дра, де­лен­ную на <img src=\"https://ege.sdamgia.ru/formula/svg/20/20eb0232474c508d356a7b4ebf331607.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" Пи .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/20/20eb0232474c508d356a7b4ebf331607.svg",
+            "/get_file?id=139984"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Площадь осевого сечения цилиндра равна  так как это прямоугольник. Тогда для площади боковой поверхности имеем: Ответ: 4.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27173\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пло­щадь осе­во­го се­че­ния ци­лин­дра равна <img src=\"https://ege.sdamgia.ru/formula/svg/01/0141164a1926de2cb11b3cd26e27ee9c.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"S=2rh,\"> так как это пря­мо­уголь­ник. Тогда для пло­ща­ди бо­ко­вой по­верх­но­сти имеем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ac/ac369c569f6cc121d2eb2848de8caa0f.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"S_бок=2 Пи rh=S_1 Пи =4 Пи .\"></p><p class=\"left_margin\"></p></center> <p><span style=\"letter-spacing: 2px;\">Ответ:</span> 4.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/01/0141164a1926de2cb11b3cd26e27ee9c.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/ac369c569f6cc121d2eb2848de8caa0f.svg"
+        ]
+    },
+    "answer": "4",
+    "topic_id": 3,
+    "analog_ids": [
+        27173,
+        76555,
+        76561,
+        76557,
+        76555,
+        76561,
+        76557,
+        76559,
+        76563,
+        76565,
+        76567,
+        76569,
+        76571,
+        76573,
+        76575,
+        76577,
+        76579,
+        76581,
+        76583,
+        76585,
+        76587,
+        76589,
+        76591,
+        76593,
+        76595,
+        76597,
+        76599,
+        76601,
+        76603
+    ]
+}

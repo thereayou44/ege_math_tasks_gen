@@ -1,0 +1,24 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 507623,
+    "condition": {
+        "text": "В треугольнике ABC AB = 13, BC = 10, CA = 7. Точка D лежит на прямой BC так, что BD : DC  =  1 : 4. Окружности, вписанные в каждый из треугольников ADC и ADB, касаются стороны AD в точках E и F. Найдите длину отрезка EF.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body643099\" class=\"pbody\"><p class=\"left_margin\">В тре­уголь­ни­ке <i>ABC</i> <i>AB</i> = 13, <i>BC</i> = 10, <i>CA</i> = 7. Точка <i>D</i> лежит на пря­мой <i>BC</i> так, что <i>BD</i> : <i>DC</i>  =  1 : 4. Окруж­но­сти, впи­сан­ные в каж­дый из тре­уголь­ни­ков <i>ADC</i> и <i>ADB</i>, ка­са­ют­ся сто­ро­ны <i>AD</i> в точ­ках <i>E</i> и <i>F</i>. Най­ди­те длину от­рез­ка <i>EF</i>.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Пусть AD  =  d, BD  =  x, DC  =  y. Возможны два случая.Первый случай. Точка D лежит на отрезке BC (верхний рисунок):Значит, Второй случай. Точка D лежит вне отрезка BC (нижний рисунок): Значит,  Ответ:  6 или 8.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol507623\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=29379\" style=\"float:right;margin:10px\">Пусть <i>AD</i>  =  <i>d</i>, <i>BD</i>  =  <i>x</i>, <i>DC</i>  =  <i>y</i>. Воз­мож­ны два слу­чая.</p><p><b>Пер­вый слу­чай.</b> Точка <i>D</i> лежит на от­рез­ке <i>BC</i> (верх­ний ри­су­нок):</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d3/d303255f7e9b947ae3982fbb35b76edd.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x=2,y=8,DE= дробь: чис­ли­тель: d плюс y минус 7, зна­ме­на­тель: 2 конец дроби ,DF= дробь: чис­ли­тель: d плюс x минус 13, зна­ме­на­тель: 2 конец дроби . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/46/46f8cc280b4e149e7849bf95f39c62de.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"EF= дробь: чис­ли­тель: 6 плюс y минус x, зна­ме­на­тель: 2 конец дроби =6. \"></p><p><b>Вто­рой слу­чай.</b> Точка <i>D</i> лежит вне от­рез­ка <i>BC</i> (ниж­ний ри­су­нок): </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/34/34d1b3ac6d414e5fbf857d847dcc3b63.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x= дробь: чис­ли­тель: 10, зна­ме­на­тель: 3 конец дроби ,y= дробь: чис­ли­тель: 40, зна­ме­на­тель: 3 конец дроби ,DE= дробь: чис­ли­тель: d плюс y минус 7, зна­ме­на­тель: 2 конец дроби ,DF= дробь: чис­ли­тель: d плюс x минус 13, зна­ме­на­тель: 2 конец дроби . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/76/76cb434435b86bf3b156d3257087c163.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"EF= дробь: чис­ли­тель: 6 плюс y минус x, зна­ме­на­тель: 2 конец дроби =8. \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  6 или 8.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d3/d303255f7e9b947ae3982fbb35b76edd.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/46f8cc280b4e149e7849bf95f39c62de.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/34d1b3ac6d414e5fbf857d847dcc3b63.svg",
+            "https://ege.sdamgia.ru/formula/svg/76/76cb434435b86bf3b156d3257087c163.svg",
+            "/get_file?id=29379"
+        ]
+    },
+    "answer": "6 или 8.",
+    "topic_id": null,
+    "analog_ids": []
+}

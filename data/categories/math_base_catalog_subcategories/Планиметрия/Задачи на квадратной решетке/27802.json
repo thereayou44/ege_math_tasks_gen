@@ -1,0 +1,13 @@
+{
+    "id": "27802",
+    "topic": "Д15",
+    "condition": {
+        "text": "Найдите биссектрису треугольника ABC, проведенную из вершины B, если стороны квадратных клеток равны 1.",
+        "images": [
+            "https://mathb-ege.sdamgia.ru/get_file?id=1376"
+        ]
+    },
+    "answer": "4",
+    "analogs": [],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=27802"
+}

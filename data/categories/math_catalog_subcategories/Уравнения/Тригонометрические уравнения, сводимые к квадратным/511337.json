@@ -1,0 +1,41 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 511337,
+    "condition": {
+        "text": "а)  Решите уравнение б)  Найдите все корни этого уравнения, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body631701\" class=\"pbody\"><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/f3/f341117b5e823d06ad29451117116a52.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" ко­си­нус 2x плюс синус в квад­ра­те x =0,75.\"></p><p class=\"left_margin\">б)  Най­ди­те все корни этого урав­не­ния, при­над­ле­жа­щие от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/23/232c1ec36e69d0673ed23ab70e2b4234.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка минус 3 Пи ; минус дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f3/f341117b5e823d06ad29451117116a52.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/232c1ec36e69d0673ed23ab70e2b4234.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Имеем:  б)  С помощью числовой окружности отберём корни, принадлежащие отрезку  Получим числа:  Ответ: а)  б)   ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol511337\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=49056\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Имеем:</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"8d8fb748f26da3416d3cdcfff1201604\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/8d/8d8fb748f26da3416d3cdcfff1201604.svg\" class=\"tex\" style=\"vertical-align:-25.0pt\" alt=\" ко­си­нус в квад­ра­те x минус синус в квад­ра­те x плюс синус в квад­ра­те x=0,75 рав­но­силь­но ко­си­нус в квад­ра­те x= дробь: чис­ли­тель: 3, зна­ме­на­тель: 4 конец дроби рав­но­силь­но со­во­куп­ность вы­ра­же­ний ко­си­нус x= минус дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби , ко­си­нус x= дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби конец со­во­куп­но­сти . рав­но­силь­но со­во­куп­ность вы­ра­же­ний x= минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби плюс Пи k,x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби плюс Пи k, k при­над­ле­жит Z . конец со­во­куп­но­сти . \"></span><span data-width=\"565\" data-formulahash=\"8d8fb748f26da3416d3cdcfff1201604\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/2c/2c9340da4c62c0f950e8f73238266357.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" ко­си­нус в квад­ра­те x минус синус в квад­ра­те x плюс синус в квад­ра­те x=0,75 рав­но­силь­но ко­си­нус в квад­ра­те x= дробь: чис­ли­тель: 3, зна­ме­на­тель: 4 конец дроби рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/50/505133537dd7f60bc8b280a3ac050bad.svg\" class=\"tex\" style=\"vertical-align:-25.0pt\" alt=\" рав­но­силь­но со­во­куп­ность вы­ра­же­ний ко­си­нус x= минус дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби , ко­си­нус x= дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби конец со­во­куп­но­сти . рав­но­силь­но со­во­куп­ность вы­ра­же­ний x= минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби плюс Пи k,x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби плюс Пи k, k при­над­ле­жит Z . конец со­во­куп­но­сти . \"></span>  </p><p class=\"left_margin\"></p></center><p class=\"left_margin\">б)  С по­мо­щью чис­ло­вой окруж­но­сти отберём корни, при­над­ле­жа­щие от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/62/6277702eba454a33585c9a2fe3e34233.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка минус 3 Пи ; минус дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби пра­вая квад­рат­ная скоб­ка . \"> По­лу­чим числа: <img src=\"https://ege.sdamgia.ru/formula/svg/df/dffd67bdb8cc7e664882d97886e7dc15.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" минус дробь: чис­ли­тель: 17 Пи , зна­ме­на­тель: 6 конец дроби ; минус дробь: чис­ли­тель: 13 Пи , зна­ме­на­тель: 6 конец дроби ; минус дробь: чис­ли­тель: 11 Пи , зна­ме­на­тель: 6 конец дроби . \"></p><p>&nbsp;</p><p class=\"left_margin\">Ответ: а) <img src=\"https://ege.sdamgia.ru/formula/svg/5e/5ee3bab14176b96b4e3facbeff9cd29b.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" левая фи­гур­ная скоб­ка минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби плюс Пи k, дробь: чис­ли­тель: Пи , зна­ме­на­тель: 6 конец дроби плюс Пи k: k при­над­ле­жит Z пра­вая фи­гур­ная скоб­ка ; \"> б) <img src=\"https://ege.sdamgia.ru/formula/svg/d1/d11e337189bd0020ca487aab15ffa112.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" минус дробь: чис­ли­тель: 17 Пи , зна­ме­на­тель: 6 конец дроби ; \"> <img src=\"https://ege.sdamgia.ru/formula/svg/cc/cccc24aba5cbfdc3617e08532a84d982.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" минус дробь: чис­ли­тель: 13 Пи , зна­ме­на­тель: 6 конец дроби ; \"> <img src=\"https://ege.sdamgia.ru/formula/svg/ba/ba38b5b308e5b990715799faf7589da3.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" минус дробь: чис­ли­тель: 11 Пи , зна­ме­на­тель: 6 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/8d/8d8fb748f26da3416d3cdcfff1201604.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2c9340da4c62c0f950e8f73238266357.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/505133537dd7f60bc8b280a3ac050bad.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/6277702eba454a33585c9a2fe3e34233.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/dffd67bdb8cc7e664882d97886e7dc15.svg",
+            "https://ege.sdamgia.ru/formula/svg/5e/5ee3bab14176b96b4e3facbeff9cd29b.svg",
+            "https://ege.sdamgia.ru/formula/svg/d1/d11e337189bd0020ca487aab15ffa112.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/cccc24aba5cbfdc3617e08532a84d982.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/ba38b5b308e5b990715799faf7589da3.svg",
+            "/get_file?id=49056"
+        ]
+    },
+    "answer": "а)  б)",
+    "topic_id": 13,
+    "analog_ids": [
+        511337,
+        500131,
+        500592,
+        505547,
+        500131,
+        500592,
+        505547,
+        526252
+    ]
+}

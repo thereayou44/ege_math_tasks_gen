@@ -1,0 +1,34 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 527547,
+    "condition": {
+        "text": "а)  Решите уравнение б)  Укажите корни этого уравнения, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body418375\" class=\"pbody\"><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/42/42bb8cb16cb1c853aeeb55b7ba561581.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка синус левая круг­лая скоб­ка минус x пра­вая круг­лая скоб­ка пра­вая круг­лая скоб­ка левая круг­лая скоб­ка синус дробь: чис­ли­тель: x, зна­ме­на­тель: 2 конец дроби плюс синус дробь: чис­ли­тель: 3x, зна­ме­на­тель: 2 конец дроби пра­вая круг­лая скоб­ка =1. \"></p><p class=\"left_margin\">б)  Ука­жи­те корни этого урав­не­ния, при­над­ле­жа­щие от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/fe/fef464b60f52fc0b98460626b5700f4c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка минус 2 Пи ;2 Пи пра­вая квад­рат­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/42/42bb8cb16cb1c853aeeb55b7ba561581.svg",
+            "https://ege.sdamgia.ru/formula/svg/fe/fef464b60f52fc0b98460626b5700f4c.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. При условиях  и  преобразуем уравнение: В (⁎) делить можно, поскольку основание логарифма не равно нулю. Условиям  и  удовлетворяет только серия б)  Очевидно,  что на любом промежутке длины  лежит ровно одна точка из этого набора (или две, если это концы промежутка). Поэтому на данном отрезке решением является только  Ответ: а)   б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol527547\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">При усло­ви­ях <img src=\"https://ege.sdamgia.ru/formula/svg/13/13be2989dbd6a66a0a912602c167eb93.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" минус синус x боль­ше 0\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/43/4378b874006208443c083eb49f3313ed.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" минус синус x не равно 1,\"> пре­об­ра­зу­ем урав­не­ние:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/25/25abd42f4bc32d7e4ce1bd6e3b096eed.svg\" class=\"tex\" style=\"vertical-align:-10.7pt\" alt=\" минус синус x= синус дробь: чис­ли­тель: x, зна­ме­на­тель: 2 конец дроби плюс синус дробь: чис­ли­тель: 3x, зна­ме­на­тель: 2 конец дроби рав­но­силь­но минус синус x=2 синус x ко­си­нус дробь: чис­ли­тель: x, зна­ме­на­тель: 2 конец дроби \\underset левая круг­лая скоб­ка * пра­вая круг­лая скоб­ка \\mathop рав­но­силь­но \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/e2/e294cda88527819d0c17aecf600f6ecd.svg\" class=\"tex\" style=\"vertical-align:-10.7pt\" alt=\"\\underset левая круг­лая скоб­ка * пра­вая круг­лая скоб­ка \\mathop рав­но­силь­но минус 1=2 ко­си­нус дробь: чис­ли­тель: x, зна­ме­на­тель: 2 конец дроби рав­но­силь­но ко­си­нус дробь: чис­ли­тель: x, зна­ме­на­тель: 2 конец дроби = минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби рав­но­силь­но \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/18/18fe24d33bb1d34ac5caa4f80c724022.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" рав­но­силь­но дробь: чис­ли­тель: x, зна­ме­на­тель: 2 конец дроби =\\pm дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k рав­но­силь­но x=\\pm дробь: чис­ли­тель: 4 Пи , зна­ме­на­тель: 3 конец дроби плюс 4 Пи k, k при­над­ле­жит Z . \"></p><p class=\"left_margin\"></p></center><p> В (⁎) де­лить можно, по­сколь­ку ос­но­ва­ние ло­га­риф­ма не равно нулю. Усло­ви­ям <img src=\"https://ege.sdamgia.ru/formula/svg/cc/cc294d2a5ca57f4e9e96d00042511342.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" синус x мень­ше 0\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/bb/bbd3f739f5aea1e883016c2c4738bcb2.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" синус x не равно минус 1\"> удо­вле­тво­ря­ет толь­ко серия <img src=\"https://ege.sdamgia.ru/formula/svg/df/dfb199ef24dad9b6cd4331c5bb10bd7e.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x= дробь: чис­ли­тель: 4 Пи , зна­ме­на­тель: 3 конец дроби плюс 4 Пи k, k при­над­ле­жит Z \"></p><p class=\"left_margin\">б)  Оче­вид­но,  что на любом про­ме­жут­ке длины <img src=\"https://ege.sdamgia.ru/formula/svg/73/73b5437942acf48dac148d13b3b81ac9.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"4 Пи \"> лежит ровно одна точка из этого на­бо­ра (или две, если это концы про­ме­жут­ка). По­это­му на дан­ном от­рез­ке ре­ше­ни­ем яв­ля­ет­ся толь­ко <img src=\"https://ege.sdamgia.ru/formula/svg/ba/ba7fd8e70fd671a72afa963ac286dd9a.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 4 Пи , зна­ме­на­тель: 3 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) <img src=\"https://ege.sdamgia.ru/formula/svg/b2/b24222d127c8cfa42f4c730c318577b8.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая фи­гур­ная скоб­ка дробь: чис­ли­тель: 4 Пи , зна­ме­на­тель: 3 конец дроби плюс 4 Пи k:k при­над­ле­жит Z пра­вая фи­гур­ная скоб­ка ; \">  б) <img src=\"https://ege.sdamgia.ru/formula/svg/ba/ba7fd8e70fd671a72afa963ac286dd9a.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 4 Пи , зна­ме­на­тель: 3 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/13/13be2989dbd6a66a0a912602c167eb93.svg",
+            "https://ege.sdamgia.ru/formula/svg/43/4378b874006208443c083eb49f3313ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/25/25abd42f4bc32d7e4ce1bd6e3b096eed.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e294cda88527819d0c17aecf600f6ecd.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/18fe24d33bb1d34ac5caa4f80c724022.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/cc294d2a5ca57f4e9e96d00042511342.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bbd3f739f5aea1e883016c2c4738bcb2.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/dfb199ef24dad9b6cd4331c5bb10bd7e.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/73b5437942acf48dac148d13b3b81ac9.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/ba7fd8e70fd671a72afa963ac286dd9a.svg",
+            "https://ege.sdamgia.ru/formula/svg/b2/b24222d127c8cfa42f4c730c318577b8.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/ba7fd8e70fd671a72afa963ac286dd9a.svg"
+        ]
+    },
+    "answer": "а)   б)",
+    "topic_id": null,
+    "analog_ids": []
+}

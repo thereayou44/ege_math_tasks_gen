@@ -1,0 +1,27 @@
+{
+    "id": "27360",
+    "topic": "Д15",
+    "condition": {
+        "text": "В треугольнике ABC угол C равен 90°, Найдите косинус внешнего угла при вершине",
+        "images": [
+            "https://mathb-ege.sdamgia.ru/get_file?id=7668",
+            "https://ege.sdamgia.ru/formula/svg/af/afc9c3d8d99ad905bdf08d1140282e0a.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e1354cc842cc323c307b3424ed3dfa81.svg"
+        ]
+    },
+    "answer": "-0,96",
+    "analogs": [
+        "27360",
+        "34829",
+        "34831",
+        "34833",
+        "...",
+        "34829",
+        "34831",
+        "34833",
+        "34835",
+        "34837",
+        "34839"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=27360"
+}

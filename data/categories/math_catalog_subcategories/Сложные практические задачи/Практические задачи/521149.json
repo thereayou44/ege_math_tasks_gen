@@ -1,0 +1,26 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521149,
+    "condition": {
+        "text": "Гражданин положил 1 млн рублей в банк на 4 года. В конце каждого года на лежащую сумму начисляется 10%. Он решил в конце каждого из 3‐х первых лет (после начисления процентов) снимать одинаковую сумму денег. Эта сумма должна быть такой, чтобы после 4‐х лет после начисления процентов за 4‐й год у него на счету было не менее 1200 тыс. рублей. Какую максимальную сумму может снимать гражданин? Ответ округлите до целой тысячи в меньшую сторону.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body630081\" class=\"pbody\"><p class=\"left_margin\">Граж­да­нин по­ло­жил 1 млн руб­лей в банк на 4 года. В конце каж­до­го года на ле­жа­щую сумму на­чис­ля­ет­ся 10%. Он решил в конце каж­до­го из 3‐х пер­вых лет (после на­чис­ле­ния про­цен­тов) сни­мать оди­на­ко­вую сумму денег. Эта сумма долж­на быть такой, чтобы после 4‐х лет после на­чис­ле­ния про­цен­тов за 4‐й год у него на счету было не менее 1200 тыс. руб­лей. Какую мак­си­маль­ную сумму может сни­мать граж­да­нин? Ответ округ­ли­те до целой ты­ся­чи в мень­шую сто­ро­ну.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Пусть гражданин снимает n тысяч рублей ежегодно. Тогда на его счету будет:− после первого года сумма увеличивается на 10% и уменьшается на n:  тыс. руб.;− после второго года сумма увеличивается на 10% и уменьшается на n:   тыс. руб.;− после третьего года сумма увеличивается на 10% и уменьшается на n:   тыс. руб.;− после четвертого года сумма увеличивается на 10% :  тыс. руб.По условию, найденная величина не менее 120 тыс. руб.:  поэтому гражданин может снимать по 72 тыс. руб. ежегодно. Ответ: 72 тысячи рублей.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521149\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть граж­да­нин сни­ма­ет <i>n</i> тысяч руб­лей еже­год­но. Тогда на его счету будет:</p><p>− после пер­во­го года сумма уве­ли­чи­ва­ет­ся на 10% и умень­ша­ет­ся на <i>n</i>: <img src=\"https://ege.sdamgia.ru/formula/svg/83/83f56df5ca0fe02a258a74bae8d24422.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"1100 минус n\"> тыс. руб.;</p><p>− после вто­ро­го года сумма уве­ли­чи­ва­ет­ся на 10% и умень­ша­ет­ся на <i>n</i>: <img src=\"https://ege.sdamgia.ru/formula/svg/0f/0fc504b2b83ccecce9213f185fee32de.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1210 минус 1,1n минус n=1210 минус 2,1n\">  тыс. руб.;</p><p>− после тре­тье­го года сумма уве­ли­чи­ва­ет­ся на 10% и умень­ша­ет­ся на <i>n</i>: <img src=\"https://ege.sdamgia.ru/formula/svg/12/120c2d94f9012f55b1bf8b06d7b4fa12.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1331 минус 2,31n минус n=1331 минус 3,31n\">  тыс. руб.;</p><p>− после чет­вер­то­го года сумма уве­ли­чи­ва­ет­ся на 10% :<img src=\"https://ege.sdamgia.ru/formula/svg/db/dbed95df357f3943366ed61bad30b434.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1464,1 минус 3,641n\">  тыс. руб.</p><p class=\"left_margin\">По усло­вию, най­ден­ная ве­ли­чи­на не менее 120 тыс. руб.: </p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"57063c5f7080af804fb7ce89ddd4fe9a\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/57/57063c5f7080af804fb7ce89ddd4fe9a.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"1464,1 минус 3,641n боль­ше или равно 1200 рав­но­силь­но 264,1 боль­ше 3,641n рав­но­силь­но n мень­ше или равно дробь: чис­ли­тель: 264100, зна­ме­на­тель: 3641 конец дроби \\approx 72,54 \\ldots, \"></span><span data-width=\"465\" data-formulahash=\"57063c5f7080af804fb7ce89ddd4fe9a\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/ae/ae2c03414cb6e62e2490ef8ea764961d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1464,1 минус 3,641n боль­ше или равно 1200 рав­но­силь­но 264,1 боль­ше 3,641n рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/d7/d7ad364020cbc92de0ce62e2e7272546.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" рав­но­силь­но n мень­ше или равно дробь: чис­ли­тель: 264100, зна­ме­на­тель: 3641 конец дроби \\approx 72,54 \\ldots, \"></span></p><p class=\"left_margin\"></p></center><p> по­это­му граж­да­нин может сни­мать по 72 тыс. руб. еже­год­но.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 72 ты­ся­чи руб­лей.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/83/83f56df5ca0fe02a258a74bae8d24422.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0fc504b2b83ccecce9213f185fee32de.svg",
+            "https://ege.sdamgia.ru/formula/svg/12/120c2d94f9012f55b1bf8b06d7b4fa12.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/dbed95df357f3943366ed61bad30b434.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/57063c5f7080af804fb7ce89ddd4fe9a.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/ae2c03414cb6e62e2490ef8ea764961d.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d7ad364020cbc92de0ce62e2e7272546.svg"
+        ]
+    },
+    "answer": "72 ты­ся­чи руб­лей.",
+    "topic_id": null,
+    "analog_ids": []
+}

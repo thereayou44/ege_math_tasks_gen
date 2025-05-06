@@ -1,0 +1,38 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 514885,
+    "condition": {
+        "text": "Решите в целых числах уравнение:а)  б)  в)  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body636345\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те&nbsp;в&nbsp;целых&nbsp;чис­лах&nbsp;урав­не­ние:</p><p class=\"left_margin\">а)  <img src=\"https://ege.sdamgia.ru/formula/svg/37/37f698cc97f738b7919ec13e652f6262.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2x в квад­ра­те плюс 5y в квад­ра­те =7;\"></p><p class=\"left_margin\">б)  <img src=\"https://ege.sdamgia.ru/formula/svg/c9/c92e1d97b6a788c807912083ec323c41.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2x в квад­ра­те минус 5y в квад­ра­те = 7;\"></p><p class=\"left_margin\">в)  <img src=\"https://ege.sdamgia.ru/formula/svg/18/187362da59b2c8f19c13d2e241a71aec.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2x в квад­ра­те плюс 5y в квад­ра­те = 7xy.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/37/37f698cc97f738b7919ec13e652f6262.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c92e1d97b6a788c807912083ec323c41.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/187362da59b2c8f19c13d2e241a71aec.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Ясно, что  Перебирая возможные x и y, находим 4 ответа:    б)  Рассмотрим остатки от деления чисел и их квадратов на 7. Квадрат числа при делении на 7 дает остатки 0, 1, 2, 4. Поэтому  дает остатки 0, 2, 4, 1. А  при делении на 7 дает остатки 0, 5, 3, 6. Значит, их разность кратна 7 только тогда, когда они оба кратны 7. Но тогда  кратно 49. Поэтому уравнение не имеет решений.в)  Перепишем уравнение в виде  Отсюда видно, что либо  либо y  — четное число. Следовательно,   Ответ: а)   б) нет решений; в)  при всех целых ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol514885\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Ясно, что <img src=\"https://ege.sdamgia.ru/formula/svg/32/329098aa7b3e2ddc93f6313a8c0bb71b.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"|x|, |y| мень­ше или равно 1.\"> Пе­ре­би­рая воз­мож­ные <i>x</i> и <i>y,</i> на­хо­дим 4 от­ве­та: <img src=\"https://ege.sdamgia.ru/formula/svg/3e/3e641f080866ac68c7ba26f0c5c3d799.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка минус 1; минус 1 пра­вая круг­лая скоб­ка ,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/a9/a9e83acb8d11f05cd2ef2e553cd2ab83.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка минус 1; 1 пра­вая круг­лая скоб­ка ,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/25/250dfff6116e6a7c9be4ca7889200639.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 1; минус 1 пра­вая круг­лая скоб­ка ,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/0c/0ce179b04797021d29b54e4bc2ee4630.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 1; 1 пра­вая круг­лая скоб­ка .\"></p><p class=\"left_margin\">б)  Рас­смот­рим остат­ки от де­ле­ния чисел и их квад­ра­тов на 7. Квад­рат числа при де­ле­нии на 7 дает остат­ки 0, 1, 2, 4. По­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/2c/2cdc589a7858098568fa21e9b5727a74.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2x в квад­ра­те \"> дает остат­ки 0, 2, 4, 1. А <img src=\"https://ege.sdamgia.ru/formula/svg/03/0396e5dcd697dcdea3c1705a5cacb19c.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"5y в квад­ра­те \"> при де­ле­нии на 7 дает остат­ки 0, 5, 3, 6. Зна­чит, их раз­ность крат­на 7 толь­ко тогда, когда они оба крат­ны 7. Но тогда <img src=\"https://ege.sdamgia.ru/formula/svg/84/844670f65d358007961946701ba386df.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2x в квад­ра­те минус 5y в квад­ра­те \"> крат­но 49. По­это­му урав­не­ние не имеет ре­ше­ний.</p><p class=\"left_margin\">в)  Пе­ре­пи­шем урав­не­ние в виде <img src=\"https://ege.sdamgia.ru/formula/svg/27/27f9f1e35c6ed02a84a3e4daf4e6037c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка x минус y пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 2x минус 5y пра­вая круг­лая скоб­ка =0.\"> От­сю­да видно, что либо <img src=\"https://ege.sdamgia.ru/formula/svg/15/15a3b9765ee5efcbe25b12bc6137dfcb.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"x=y,\"> либо <i>y</i>  — чет­ное число. Сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/28/28d2e66cde166db6516c4879a22e6d83.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=2t,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/e8/e8878735b1ede16cffc31b7743d4e8da.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=5t.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) <img src=\"https://ege.sdamgia.ru/formula/svg/46/4699efe347ddc15102bcb541259a24a5.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 1; 1 пра­вая круг­лая скоб­ка ; левая круг­лая скоб­ка 1; минус 1 пра­вая круг­лая скоб­ка ; левая круг­лая скоб­ка минус 1; 1 пра­вая круг­лая скоб­ка ; левая круг­лая скоб­ка минус 1; минус 1 пра­вая круг­лая скоб­ка ;\">  б) нет ре­ше­ний; в) <img src=\"https://ege.sdamgia.ru/formula/svg/56/56ae33048debec6b137ba8e75a03417d.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка t; t пра­вая круг­лая скоб­ка , левая круг­лая скоб­ка 5t; 2t пра­вая круг­лая скоб­ка \"> при всех целых <img src=\"https://ege.sdamgia.ru/formula/svg/da/da60012cc5a08022d6e117767c2a5a09.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"t.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/32/329098aa7b3e2ddc93f6313a8c0bb71b.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e641f080866ac68c7ba26f0c5c3d799.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a9e83acb8d11f05cd2ef2e553cd2ab83.svg",
+            "https://ege.sdamgia.ru/formula/svg/25/250dfff6116e6a7c9be4ca7889200639.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0ce179b04797021d29b54e4bc2ee4630.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2cdc589a7858098568fa21e9b5727a74.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/0396e5dcd697dcdea3c1705a5cacb19c.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/844670f65d358007961946701ba386df.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/27f9f1e35c6ed02a84a3e4daf4e6037c.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/15a3b9765ee5efcbe25b12bc6137dfcb.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/28d2e66cde166db6516c4879a22e6d83.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e8878735b1ede16cffc31b7743d4e8da.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/4699efe347ddc15102bcb541259a24a5.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/56ae33048debec6b137ba8e75a03417d.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/da60012cc5a08022d6e117767c2a5a09.svg"
+        ]
+    },
+    "answer": "а)   б) нет ре­ше­ний; в)  при всех целых",
+    "topic_id": null,
+    "analog_ids": []
+}

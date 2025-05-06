@@ -1,0 +1,31 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 507202,
+    "condition": {
+        "text": "Площадь основания правильной четырёхугольной пирамиды SABCD равна 64.а)  Постройте прямую пересечения плоскости SAC и плоскости, проходящей через вершину S этой пирамиды, середину стороны АВ и центр основания.б)  Найдите площадь боковой поверхности этой пирамиды, если площадь сечения пирамиды плоскостью SAC  равна 64.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body644030\" class=\"pbody\"><p class=\"left_margin\">Пло­щадь ос­но­ва­ния пра­виль­ной четырёхуголь­ной пи­ра­ми­ды <i>SABCD</i> равна 64.</p><p class=\"left_margin\">а)  По­строй­те пря­мую пе­ре­се­че­ния плос­ко­сти <i>SAC</i> и плос­ко­сти, про­хо­дя­щей через вер­ши­ну <i>S</i> этой пи­ра­ми­ды, се­ре­ди­ну сто­ро­ны <i>АВ</i> и центр ос­но­ва­ния.</p><p class=\"left_margin\">б)  Най­ди­те пло­щадь бо­ко­вой по­верх­но­сти этой пи­ра­ми­ды, если пло­щадь се­че­ния пи­ра­ми­ды плос­ко­стью <i>SAC </i> равна 64.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Сторона основания пирамиды равна  Тогда диагональ основания а)  Пусть SH  — высота пирамиды. Тогда H  — середина основания пирамиды. Значит, SH  — искомая прямая.б)  Площадь сечения, проходящего через S и диагональ AC, равна  откуда  Пусть SM  — высота грани  ТогдаСледовательно,  Поэтому  Ответ: 192.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol507202\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=141468\" style=\"float:right;margin:10px;max-width:100%\">Сто­ро­на ос­но­ва­ния пи­ра­ми­ды равна <img src=\"https://ege.sdamgia.ru/formula/svg/25/25419da0c8dabdf8e3437f3cbbd94fd6.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"8.\"> Тогда диа­го­наль ос­но­ва­ния <img src=\"https://ege.sdamgia.ru/formula/svg/75/7520f6fb0c5c083224f364e9c4c0e3b7.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AC=8 ко­рень из 2 .\"></p><p class=\"left_margin\">а)  Пусть <i>SH</i>  — вы­со­та пи­ра­ми­ды. Тогда <i>H</i>  — се­ре­ди­на ос­но­ва­ния пи­ра­ми­ды. Зна­чит, <i>SH</i>  — ис­ко­мая пря­мая.</p><p class=\"left_margin\">б)  Пло­щадь се­че­ния, про­хо­дя­ще­го через <i>S</i> и диа­го­наль <i>AC</i>, равна <img src=\"https://ege.sdamgia.ru/formula/svg/b9/b940d1c57f6797cfa9464dd43da85459.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби AC умно­жить на SH = 64,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/2f/2f4ec1d77bc1c71ccf770e05ef40980d.svg\" class=\"tex\" style=\"vertical-align:-10.9pt\" alt=\"SH = дробь: чис­ли­тель: 2 умно­жить на 64, зна­ме­на­тель: 8 ко­рень из 2 конец дроби . \"> Пусть <i>SM</i>  — вы­со­та грани <img src=\"https://ege.sdamgia.ru/formula/svg/67/6722c9253db46f5223ac5e32b94f70dd.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"SAB.\"> Тогда</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d6/d6f505a78ca5a632157d1225953926fd.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"SM= ко­рень из: на­ча­ло ар­гу­мен­та: SH в квад­ра­те плюс HM в квад­ра­те конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 128 плюс 16 конец ар­гу­мен­та = 12.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/6e/6ef2317b4a65bcc265781313ca299c81.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"S_SAB = дробь: чис­ли­тель: SM умно­жить на AB, зна­ме­на­тель: 2 конец дроби = 12 умно­жить на 4 = 48. \"> По­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/16/167b61f0570ea77e19168b6c37689b96.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\" S_бок= 48 умно­жить на 4 = 192.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 192.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/25/25419da0c8dabdf8e3437f3cbbd94fd6.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/7520f6fb0c5c083224f364e9c4c0e3b7.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b940d1c57f6797cfa9464dd43da85459.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2f4ec1d77bc1c71ccf770e05ef40980d.svg",
+            "https://ege.sdamgia.ru/formula/svg/67/6722c9253db46f5223ac5e32b94f70dd.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d6f505a78ca5a632157d1225953926fd.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6ef2317b4a65bcc265781313ca299c81.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/167b61f0570ea77e19168b6c37689b96.svg",
+            "/get_file?id=141468"
+        ]
+    },
+    "answer": "192.",
+    "topic_id": 14,
+    "analog_ids": [
+        507202,
+        515826
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27990,
+    "condition": {
+        "text": "При адиабатическом процессе для идеального газа выполняется закон   Пам5, где p − давление газа в паскалях, V − объeм газа в кубических метрах,  Найдите, какой объём  V (в куб. м) будет занимать газ при давлении p, равном   Па.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918442\" class=\"pbody\"><p class=\"left_margin\">При адиа­ба­ти­че­ском про­цес­се для иде­аль­но­го газа вы­пол­ня­ет­ся закон  <img src=\"https://ege.sdamgia.ru/formula/svg/30/302494279f3b9f3d7aca8e6a3acfa790.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"pV в сте­пе­ни k = 10 в сте­пе­ни 5 \"> Па<img src=\"https://ege.sdamgia.ru/formula/svg/36/36f8ae4c86b69d52d037a6802d91cc4a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" умно­жить на \">м<sup>5</sup>, где <i>p</i> − дав­ле­ние газа в пас­ка­лях, <i>V</i> − объeм газа в ку­би­че­ских мет­рах, <img src=\"https://ege.sdamgia.ru/formula/svg/bb/bb496111c1fbaa6da4746687aba31f3e.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"k= дробь: чис­ли­тель: 5, зна­ме­на­тель: 3 конец дроби . \"> Най­ди­те, какой объём  <i>V</i> (в куб. м) будет за­ни­мать газ при дав­ле­нии <i>p</i>, рав­ном  <img src=\"https://ege.sdamgia.ru/formula/svg/45/45980bc1427ff55c398009417d39998a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"3,2 умно­жить на 10 в сте­пе­ни 6 \"> Па.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/30/302494279f3b9f3d7aca8e6a3acfa790.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/36f8ae4c86b69d52d037a6802d91cc4a.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bb496111c1fbaa6da4746687aba31f3e.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/45980bc1427ff55c398009417d39998a.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Поскольку произведение давления на степень объёма постоянно, а давление равно  при заданных значениях параметров  и  имеем равенство:  Ответ: 0,125.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27990\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По­сколь­ку про­из­ве­де­ние дав­ле­ния на сте­пень объёма по­сто­ян­но, а дав­ле­ние равно <img src=\"https://ege.sdamgia.ru/formula/svg/dd/dda32c0b281763a9691c872a7110270b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"3,2 умно­жить на 10 в сте­пе­ни 6 Па,\"> при за­дан­ных зна­че­ни­ях па­ра­мет­ров <img src=\"https://ege.sdamgia.ru/formula/svg/fb/fbf63a7243367b6ea88fffad81e554b9.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"k= дробь: чис­ли­тель: 5, зна­ме­на­тель: 3 конец дроби \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/a0/a05e7417ee7116f547f9010c24efbb77.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\mathrmconst=10 в сте­пе­ни 5 Па умно­жить на м в сте­пе­ни 5 \"> имеем ра­вен­ство:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e7/e763f06e35cb348fd1631325487776ea.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\"3,2 умно­жить на 10 в сте­пе­ни 6 V в сте­пе­ни левая круг­лая скоб­ка дробь: чис­ли­тель: 5, зна­ме­на­тель: 3 конец дроби пра­вая круг­лая скоб­ка = 10 в сте­пе­ни 5 рав­но­силь­но V в сте­пе­ни левая круг­лая скоб­ка дробь: чис­ли­тель: 5, зна­ме­на­тель: 3 конец дроби пра­вая круг­лая скоб­ка = дробь: чис­ли­тель: 1, зна­ме­на­тель: 32 конец дроби рав­но­силь­но V = левая круг­лая скоб­ка дробь: чис­ли­тель: 1, зна­ме­на­тель: 32 конец дроби пра­вая круг­лая скоб­ка в сте­пе­ни левая круг­лая скоб­ка дробь: чис­ли­тель: 3, зна­ме­на­тель: 5 конец дроби пра­вая круг­лая скоб­ка рав­но­силь­но V = дробь: чис­ли­тель: 1, зна­ме­на­тель: 8 конец дроби м в кубе . \"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 0,125.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/dd/dda32c0b281763a9691c872a7110270b.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fbf63a7243367b6ea88fffad81e554b9.svg",
+            "https://ege.sdamgia.ru/formula/svg/a0/a05e7417ee7116f547f9010c24efbb77.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e763f06e35cb348fd1631325487776ea.svg"
+        ]
+    },
+    "answer": "0,125",
+    "topic_id": 9,
+    "analog_ids": [
+        27990,
+        526010,
+        28419,
+        42787,
+        526010,
+        28419,
+        42787,
+        505148,
+        505169,
+        28423,
+        28425,
+        28427,
+        28429,
+        42741,
+        42743,
+        42745,
+        42747,
+        42749,
+        42751,
+        42753,
+        42755,
+        42757,
+        42759,
+        42761,
+        42763,
+        42765,
+        42767,
+        42769,
+        42771,
+        42773,
+        42775,
+        42777,
+        42779,
+        42781,
+        42783,
+        42785
+    ]
+}

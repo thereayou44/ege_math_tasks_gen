@@ -1,0 +1,59 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27669,
+    "condition": {
+        "text": "Прямая a проходит через точки с координатами (0; 4) и (6; 0). Прямая b проходит через точку с координатами (0; 8) и параллельна прямой a. Найдите абсциссу точки пересечения прямой b с осью Ox",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918249\" class=\"pbody\"><p class=\"left_margin\"><img width=\"190\" style=\"float:right; margin:10px\" src=\"/get_file?id=331\">Пря­мая <i>a</i> про­хо­дит через точки с ко­ор­ди­на­та­ми (0; 4) и (6; 0). Пря­мая <i>b</i> про­хо­дит через точку с ко­ор­ди­на­та­ми (0; 8) и па­рал­лель­на пря­мой <i>a</i>. Най­ди­те абс­цис­су точки пе­ре­се­че­ния пря­мой <i>b</i> с осью <i>Ox</i></p></div>",
+        "image_urls": [
+            "/get_file?id=331"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Уравнение прямой имеет вид  где k  — угловой коэффициент, равный тангенсу угла наклона прямой к оси абсцисс. Угловой коэффициент прямой a отрицателен и равен  Прямые а и b параллельны, поэтому их угловые коэффициенты равны. Следовательно, уравнение прямой b имеет вид   Точка  лежит на прямой b, поэтому  откуда  Тогда прямая b задается уравнением  Осталось найти абсциссу точки пересечения b с осью абсцисс: Приведем другое решение.Параллельные прямые отсекают на сторонах угла пропорциональные отрезки. Прямая b на оси ординат отсекает отрезок вдвое больше, чем прямая a. Следовательно, на оси абсцисс она тоже отсекает отрезок вдвое большей длины. Поэтому искомая абсцисса равна 12.  Ответ: 12.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27669\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Урав­не­ние пря­мой имеет вид <img src=\"https://ege.sdamgia.ru/formula/svg/4a/4ae2faf0c268ed6d8b2a3496d8cfa811.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=kx плюс b,\"> где <i>k</i>  — уг­ло­вой ко­эф­фи­ци­ент, рав­ный тан­ген­су угла на­кло­на пря­мой к оси абс­цисс. Уг­ло­вой ко­эф­фи­ци­ент пря­мой <i>a</i> от­ри­ца­те­лен и равен <img src=\"https://ege.sdamgia.ru/formula/svg/5d/5dffa09603e6bb8b386f317f90411c6c.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"k= минус дробь: чис­ли­тель: 4, зна­ме­на­тель: 6 конец дроби = минус дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби . \"> Пря­мые <i>а</i> и <i>b</i> па­рал­лель­ны, по­это­му их уг­ло­вые ко­эф­фи­ци­ен­ты равны. Сле­до­ва­тель­но, урав­не­ние пря­мой <i>b</i> имеет вид <img src=\"https://ege.sdamgia.ru/formula/svg/79/79386775809d722a28ffae5aa5dda872.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"y= минус дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби x плюс b. \"> </p><p>&nbsp;</p><p class=\"left_margin\">Точка <img src=\"https://ege.sdamgia.ru/formula/svg/57/573c33c3f5e0ba19142ee8b6590db24b.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 0; 8 пра­вая круг­лая скоб­ка \"> лежит на пря­мой <i>b</i>, по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/c5/c5e8f8ead00b89bf81148945e3fcad33.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"8= минус дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби умно­жить на 0 плюс b, \"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/f9/f9ee9031f7d4c6d0c9da131fbe73e79c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"b=8.\"> Тогда пря­мая <i>b</i> за­да­ет­ся урав­не­ни­ем <img src=\"https://ege.sdamgia.ru/formula/svg/7f/7f9ff6b2f62e1a9f5cfdcf9babbc081a.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"y= минус дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби x плюс 8. \"> Оста­лось найти абс­цис­су точки пе­ре­се­че­ния <i>b</i> с осью абс­цисс:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/19/19a66b47f00c178558df2389fba233f7.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" минус дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби x плюс 8=0 рав­но­силь­но минус дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби x= минус 8 рав­но­силь­но x=12. \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><i>При­ве­дем дру­гое ре­ше­ние.</i></p><p class=\"left_margin\">Па­рал­лель­ные пря­мые от­се­ка­ют на сто­ро­нах угла про­пор­ци­о­наль­ные от­рез­ки. Пря­мая <i>b</i> на оси ор­ди­нат от­се­ка­ет от­ре­зок вдвое боль­ше, чем пря­мая <i>a</i>. Сле­до­ва­тель­но, на оси абс­цисс она тоже от­се­ка­ет от­ре­зок вдвое боль­шей длины. По­это­му ис­ко­мая абс­цис­са равна 12.</p><p>&nbsp;</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 12.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/4a/4ae2faf0c268ed6d8b2a3496d8cfa811.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5dffa09603e6bb8b386f317f90411c6c.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/79386775809d722a28ffae5aa5dda872.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/573c33c3f5e0ba19142ee8b6590db24b.svg",
+            "https://ege.sdamgia.ru/formula/svg/c5/c5e8f8ead00b89bf81148945e3fcad33.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f9ee9031f7d4c6d0c9da131fbe73e79c.svg",
+            "https://ege.sdamgia.ru/formula/svg/7f/7f9ff6b2f62e1a9f5cfdcf9babbc081a.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/19a66b47f00c178558df2389fba233f7.svg"
+        ]
+    },
+    "answer": "12",
+    "topic_id": null,
+    "analog_ids": [
+        27669,
+        58749,
+        58705,
+        58707,
+        58749,
+        58705,
+        58707,
+        58709,
+        58711,
+        58713,
+        58715,
+        58717,
+        58719,
+        58721,
+        58723,
+        58725,
+        58727,
+        58729,
+        58731,
+        58733,
+        58735,
+        58737,
+        58739,
+        58741,
+        58743,
+        58745,
+        58747,
+        58751,
+        58753
+    ]
+}

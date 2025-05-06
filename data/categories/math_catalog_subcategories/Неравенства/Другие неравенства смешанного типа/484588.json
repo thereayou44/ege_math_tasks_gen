@@ -1,0 +1,29 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 484588,
+    "condition": {
+        "text": "Решите неравенство ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body592400\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/c6/c6e50ee8823ce22eaec50ea438c13b71.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"7 в сте­пе­ни левая круг­лая скоб­ка минус |x минус 3| пра­вая круг­лая скоб­ка умно­жить на \\log _2 левая круг­лая скоб­ка 6x минус x в квад­ра­те минус 7 пра­вая круг­лая скоб­ка боль­ше или равно 1.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c6/c6e50ee8823ce22eaec50ea438c13b71.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Покажем, что наибольшее значение левой части неравенства равно 1. Действительно, В силу тождества  имеем:Поскольку левая часть не больше 1, а правая равна 1, неравенство выполнено тогда и только тогда, когда оба множителя равны 1, откуда Ответ: 3.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol484588\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По­ка­жем, что наи­боль­шее зна­че­ние левой части не­ра­вен­ства равно 1. Дей­стви­тель­но, </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/7d/7d46220b3ff4822c396ed96bfc47dedf.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"~0 мень­ше 7 в сте­пе­ни левая круг­лая скоб­ка минус |x минус 3| пра­вая круг­лая скоб­ка мень­ше или равно 7 в сте­пе­ни 0 = 1.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">В силу тож­де­ства <img src=\"https://ege.sdamgia.ru/formula/svg/f2/f23fddd404b3162acb04d882f2a41caa.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"6x минус x в квад­ра­те минус 7 = минус левая круг­лая скоб­ка x в квад­ра­те минус 6x плюс 9 пра­вая круг­лая скоб­ка плюс 2 =2 минус левая круг­лая скоб­ка x минус 3 пра­вая круг­лая скоб­ка в квад­ра­те \"> имеем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/34/34af999283deebaf9601c2f9a297844e.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 2 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 6x минус x в квад­ра­те минус 7 пра­вая круг­лая скоб­ка = ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 2 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 2 минус левая круг­лая скоб­ка x минус 3 пра­вая круг­лая скоб­ка в квад­ра­те пра­вая круг­лая скоб­ка мень­ше или равно ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 2 пра­вая круг­лая скоб­ка 2 = 1 .\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">По­сколь­ку левая часть не боль­ше 1, а пра­вая равна 1, не­ра­вен­ство вы­пол­не­но тогда и толь­ко тогда, когда оба мно­жи­те­ля равны 1, от­ку­да</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/6a/6a01d9ee8cbd8ce3a36c8d529dae7e23.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний \\log _2 левая круг­лая скоб­ка 2 минус левая круг­лая скоб­ка x минус 3 пра­вая круг­лая скоб­ка в квад­ра­те пра­вая круг­лая скоб­ка =1, 7 в сте­пе­ни левая круг­лая скоб­ка минус |x минус 3| пра­вая круг­лая скоб­ка =1 конец си­сте­мы рав­но­силь­но си­сте­ма вы­ра­же­ний 2 минус левая круг­лая скоб­ка x минус 3 пра­вая круг­лая скоб­ка в квад­ра­те =2, |x минус 3|=0 конец си­сте­мы рав­но­силь­но x=3. \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p class=\"left_margin\">Ответ: 3.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/7d/7d46220b3ff4822c396ed96bfc47dedf.svg",
+            "https://ege.sdamgia.ru/formula/svg/f2/f23fddd404b3162acb04d882f2a41caa.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/34af999283deebaf9601c2f9a297844e.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a01d9ee8cbd8ce3a36c8d529dae7e23.svg"
+        ]
+    },
+    "answer": "3.",
+    "topic_id": 15,
+    "analog_ids": [
+        484588,
+        507652,
+        511461
+    ]
+}

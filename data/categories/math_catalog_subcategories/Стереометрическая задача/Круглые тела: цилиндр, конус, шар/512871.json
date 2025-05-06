@@ -1,0 +1,25 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 512871,
+    "condition": {
+        "text": "Высота цилиндра равна 5, а радиус основания 10. а)  Докажите, что площадь боковой поверхности цилиндра равна площади его основания.б)  Найдите площадь сечения цилиндра плоскостью, проходящей параллельно оси цилиндра на расстоянии 6 от неё.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body638363\" class=\"pbody\"><p class=\"left_margin\">Вы­со­та ци­лин­дра равна 5, а ра­ди­ус ос­но­ва­ния 10. </p><p class=\"left_margin\">а)  До­ка­жи­те, что пло­щадь бо­ко­вой по­верх­но­сти ци­лин­дра равна пло­ща­ди его ос­но­ва­ния.</p><p class=\"left_margin\">б)  Най­ди­те пло­щадь се­че­ния ци­лин­дра плос­ко­стью, про­хо­дя­щей па­рал­лель­но оси ци­лин­дра на рас­сто­я­нии 6 от неё.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Вспомним, что площадь боковой поверхности цилиндра вычисляется по формуле  где R  — радиус основания, H  — высота цилиндра. В данном случае  поэтому  откуда и следует требуемое.б)  Сечение цилиндра плоскостью, проходящей параллельно его оси OO1,  — прямоугольник ABB1A1 (O и AB  — соответственно центр и хорда нижнего основания цилиндра), AA1  =  5. Расстояние от оси цилиндра до плоскости сечения равно высоте OH треугольника OAB. OA  =  OB  =  10, OH  =  6, откудаПлощадь прямоугольника ABB1A1 Ответ: 80.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol512871\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=132393\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Вспом­ним, что пло­щадь бо­ко­вой по­верх­но­сти ци­лин­дра вы­чис­ля­ет­ся по фор­му­ле <img src=\"https://ege.sdamgia.ru/formula/svg/45/4585301faad244b9c65c16408e0ae7a2.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"S=2 Пи RH,\"> где <i>R</i>  — ра­ди­ус ос­но­ва­ния, <i>H</i>  — вы­со­та ци­лин­дра. В дан­ном слу­чае <img src=\"https://ege.sdamgia.ru/formula/svg/84/84f33b05ed1614b0cbf27c981533fa05.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"H=R/2,\"> по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/83/83600800eb1387d338951a787d612bcb.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2 Пи RH= Пи R в квад­ра­те ,\"> от­ку­да и сле­ду­ет тре­бу­е­мое.</p><p class=\"left_margin\">б)  Се­че­ние ци­лин­дра плос­ко­стью, про­хо­дя­щей па­рал­лель­но его оси <i>OO</i><sub>1</sub>,  — пря­мо­уголь­ник <i>ABB</i><sub>1</sub><i>A</i><sub>1</sub> (<i>O</i> и <i>AB</i>  — со­от­вет­ствен­но центр и хорда ниж­не­го ос­но­ва­ния ци­лин­дра), <i>AA</i><sub>1</sub>  =  5. Рас­сто­я­ние от оси ци­лин­дра до плос­ко­сти се­че­ния равно вы­со­те <i>OH</i> тре­уголь­ни­ка <i>OAB</i>. <i>OA</i>  =  <i>OB</i>  =  10, <i>OH</i>  =  6, от­ку­да</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/87/87203d86cad57df2e399435cca5fa1a5.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AB=2AH=2 ко­рень из: на­ча­ло ар­гу­мен­та: OA в квад­ра­те минус OH в квад­ра­те конец ар­гу­мен­та =16.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Пло­щадь пря­мо­уголь­ни­ка <i>ABB</i><sub>1</sub><i>A</i><sub>1</sub></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/7e/7ecb374b04b3ed3bda265b383b570125.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"S=AA_1 умно­жить на AB = 80.\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 80.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/45/4585301faad244b9c65c16408e0ae7a2.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/84f33b05ed1614b0cbf27c981533fa05.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83600800eb1387d338951a787d612bcb.svg",
+            "https://ege.sdamgia.ru/formula/svg/87/87203d86cad57df2e399435cca5fa1a5.svg",
+            "https://ege.sdamgia.ru/formula/svg/7e/7ecb374b04b3ed3bda265b383b570125.svg",
+            "/get_file?id=132393"
+        ]
+    },
+    "answer": "80.",
+    "topic_id": 14,
+    "analog_ids": []
+}

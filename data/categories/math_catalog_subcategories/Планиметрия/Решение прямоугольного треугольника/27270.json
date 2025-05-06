@@ -1,0 +1,60 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27270,
+    "condition": {
+        "text": "В треугольнике АВС угол С равен 90°,   Найдите высоту СН.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918650\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=144894\" style=\"float:right;margin:10px;max-width:100%\">В тре­уголь­ни­ке <i>АВС</i> угол <i>С</i> равен 90°, <img src=\"https://ege.sdamgia.ru/formula/svg/f8/f86992da051d3b38a476f794fa26f882.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"BC = 5,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/af/afc9c3d8d99ad905bdf08d1140282e0a.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" синус A = дробь: чис­ли­тель: 7, зна­ме­на­тель: 25 конец дроби . \"> Най­ди­те вы­со­ту <i>СН</i>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f8/f86992da051d3b38a476f794fa26f882.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/afc9c3d8d99ad905bdf08d1140282e0a.svg",
+            "/get_file?id=144894"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Углы А и НСВ равны как углы со взаимно перпендикулярными сторонами. Поэтому  Ответ: 4,8.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27270\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Углы <i>А</i> и <i>НСВ </i>равны как углы со вза­им­но пер­пен­ди­ку­ляр­ны­ми сто­ро­на­ми. По­это­му</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"5a47ba67f85879e94f7eaf3c0725ad94\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/5a/5a47ba67f85879e94f7eaf3c0725ad94.svg\" class=\"tex\" style=\"vertical-align:-12.2pt\" alt=\"CH=BC ко­си­нус \\angle HCB=BC ко­си­нус A=BC ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус синус в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та A пра­вая круг­лая скоб­ка =5 ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус левая круг­лая скоб­ка дробь: чис­ли­тель: 7, зна­ме­на­тель: 25 конец дроби пра­вая круг­лая скоб­ка в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та пра­вая круг­лая скоб­ка =5 умно­жить на дробь: чис­ли­тель: 24, зна­ме­на­тель: 25 конец дроби =4,8. \"></span><span data-width=\"590\" data-formulahash=\"5a47ba67f85879e94f7eaf3c0725ad94\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/4d/4ddb1232826b3c285a411fdddf45a5e7.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"CH=BC ко­си­нус \\angle HCB=BC ко­си­нус A=\"><br><img src=\"https://ege.sdamgia.ru/formula/svg/22/22ecf8d20a3bcf5fac6b03f9da0bb8e1.svg\" class=\"tex\" style=\"vertical-align:-12.3pt\" alt=\"=BC ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус синус в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та A пра­вая круг­лая скоб­ка =5 ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус левая круг­лая скоб­ка дробь: чис­ли­тель: 7, зна­ме­на­тель: 25 конец дроби пра­вая круг­лая скоб­ка в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та пра­вая круг­лая скоб­ка =5 умно­жить на дробь: чис­ли­тель: 24, зна­ме­на­тель: 25 конец дроби =4,8. \"></span><span data-width=\"340\" data-formulahash=\"5a47ba67f85879e94f7eaf3c0725ad94\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/31/315ee481b19b8d6f173fb0ca6cdc9480.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"CH=BC ко­си­нус \\angle HCB=\"><br><img src=\"https://ege.sdamgia.ru/formula/svg/be/bedcd967b64f77944da53fc0dad6a6b5.svg\" class=\"tex\" style=\"vertical-align:-1.9pt\" alt=\"=BC ко­си­нус A=BC ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус синус в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та A пра­вая круг­лая скоб­ка =\"><br><img src=\"https://ege.sdamgia.ru/formula/svg/27/271dc18f30ca9d446ec7a7b533d9f690.svg\" class=\"tex\" style=\"vertical-align:-12.3pt\" alt=\"=5 ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус левая круг­лая скоб­ка дробь: чис­ли­тель: 7, зна­ме­на­тель: 25 конец дроби пра­вая круг­лая скоб­ка в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та пра­вая круг­лая скоб­ка =5 умно­жить на дробь: чис­ли­тель: 24, зна­ме­на­тель: 25 конец дроби =4,8. \"></span> </p><p class=\"left_margin\"></p></center> <span style=\"letter-spacing: 2px;\">Ответ:</span> 4,8.</div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/5a/5a47ba67f85879e94f7eaf3c0725ad94.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4ddb1232826b3c285a411fdddf45a5e7.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/22ecf8d20a3bcf5fac6b03f9da0bb8e1.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/315ee481b19b8d6f173fb0ca6cdc9480.svg",
+            "https://ege.sdamgia.ru/formula/svg/be/bedcd967b64f77944da53fc0dad6a6b5.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/271dc18f30ca9d446ec7a7b533d9f690.svg"
+        ]
+    },
+    "answer": "4,8",
+    "topic_id": 1,
+    "analog_ids": [
+        27270,
+        4821,
+        30835,
+        30837,
+        4821,
+        30835,
+        30837,
+        30839,
+        30841,
+        30843,
+        30845,
+        30847,
+        30849,
+        30851,
+        30853,
+        30855,
+        30857,
+        30859,
+        30861,
+        30863,
+        30865,
+        30867,
+        30869,
+        30871,
+        30873,
+        30875,
+        30877,
+        30879,
+        30881,
+        30883
+    ]
+}

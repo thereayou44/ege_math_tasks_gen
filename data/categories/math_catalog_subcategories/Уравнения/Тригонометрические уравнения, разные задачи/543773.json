@@ -1,0 +1,33 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 543773,
+    "condition": {
+        "text": "а)  Решите уравнение б)  Укажите корни этого уравнения, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body402145\" class=\"pbody\"><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/35/3570d0ae9e8e8cebfa03afe76c770dd8.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\left| 2 тан­генс x минус 5 | минус \\left| 2 тан­генс x минус 1 |=2.\"></p><p class=\"left_margin\">б)  Ука­жи­те корни этого урав­не­ния, при­над­ле­жа­щие от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/fe/fe78b02625b1611d37c4fa475685fb65.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" левая квад­рат­ная скоб­ка минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби ; дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/35/3570d0ae9e8e8cebfa03afe76c770dd8.svg",
+            "https://ege.sdamgia.ru/formula/svg/fe/fe78b02625b1611d37c4fa475685fb65.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Сделаем замену переменной  тогда:  Таким образом,  откуда б)  Отберем корни при  помощи единичной окружности. Точка  удовлетворяет заданному интервалу.  Ответ: а)  б)  Примечание.Уравнение  удобно решить, используя геометрический смысл модуля. Действительно, с геометрической точки зрения левая часть уравнения представляет собой разность расстояний от точки с координатой t до точек с координатами 5 и 1 на числовой оси. Эта разность равна в точке  для точек, лежащих на числовой оси правее числа 2, эта разность расстояний будет меньше двух, а для точек, лежащих левее  — больше двух.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol543773\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=144670\" style=\"float:right;margin:10px;max-width:100%\">а)  Сде­ла­ем за­ме­ну пе­ре­мен­ной <img src=\"https://ege.sdamgia.ru/formula/svg/17/174c97c2b467b15b9fd1806a3488de8e.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\" t = 2 тан­генс x,\"> тогда: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/9f/9fd64978f56b617b48596fe31a452bbd.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\"|t минус 5| минус |t минус 1| = 2 рав­но­силь­но |t минус 5|=2 плюс |t минус 1| рав­но­силь­но со­во­куп­ность вы­ра­же­ний t минус 5=2 плюс |t минус 1|,t минус 5= минус 2 минус |t минус 1| конец со­во­куп­но­сти . рав­но­силь­но \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/c3/c31efea354fd1bb9ca2e698d76498795.svg\" class=\"tex\" style=\"vertical-align:-32.7pt\" alt=\" рав­но­силь­но со­во­куп­ность вы­ра­же­ний |t минус 1| = t минус 7,|t минус 1| = 3 минус t конец со­во­куп­но­сти . рав­но­силь­но со­во­куп­ность вы­ра­же­ний си­сте­ма вы­ра­же­ний 2t=8,t \\geqslant7 конец си­сте­мы . си­сте­ма вы­ра­же­ний 2t =4, t \\leqslant3 конец си­сте­мы . конец со­во­куп­но­сти . рав­но­силь­но t=2.\"></p><p class=\"left_margin\"></p></center><p> Таким об­ра­зом, <img src=\"https://ege.sdamgia.ru/formula/svg/2f/2f4f08eae1ca9fdcef96bb3a75d01b2b.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\" 2 тан­генс x =2,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/6a/6a9a612490b7cffa3ee4f792fcacda48.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x = дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби плюс Пи k, k при­над­ле­жит Z . \"></p><p class=\"left_margin\">б)  От­бе­рем корни при  по­мо­щи еди­нич­ной окруж­но­сти. Точка <img src=\"https://ege.sdamgia.ru/formula/svg/7d/7d0ab8fde227931c7e02de2f71305a20.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби \"> удо­вле­тво­ря­ет за­дан­но­му ин­тер­ва­лу. </p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ: </span>а) <img src=\"https://ege.sdamgia.ru/formula/svg/f5/f586c0600eb85f400c2f07bb712d9270.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" левая фи­гур­ная скоб­ка дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби плюс Пи k : k при­над­ле­жит Z \\rigth пра­вая фи­гур­ная скоб­ка ; \"> б) <img src=\"https://ege.sdamgia.ru/formula/svg/91/91a102fb98cfffc7ea9d8539b96dcb47.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби . \"></p><p>&nbsp;</p><p><b>При­ме­ча­ние.</b></p><p class=\"left_margin\">Урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/0e/0e178b3eeaeb834b04186f9039259a19.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"|t минус 5| минус |t минус 1| = 2\"> удоб­но ре­шить, ис­поль­зуя гео­мет­ри­че­ский смысл мо­ду­ля. Дей­стви­тель­но, с гео­мет­ри­че­ской точки зре­ния левая часть урав­не­ния пред­став­ля­ет собой раз­ность рас­сто­я­ний от точки с ко­ор­ди­на­той <i>t</i> до точек с ко­ор­ди­на­та­ми 5 и 1 на чис­ло­вой оси. Эта раз­ность равна в точке <img src=\"https://ege.sdamgia.ru/formula/svg/1c/1cb3680af8e80f7bb890fb465558137a.svg\" class=\"tex\" style=\"vertical-align:-2.2pt\" alt=\"t = 2;\"> для точек, ле­жа­щих на чис­ло­вой оси пра­вее числа 2, эта раз­ность рас­сто­я­ний будет мень­ше двух, а для точек, ле­жа­щих левее  — боль­ше двух.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/17/174c97c2b467b15b9fd1806a3488de8e.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9fd64978f56b617b48596fe31a452bbd.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c31efea354fd1bb9ca2e698d76498795.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2f4f08eae1ca9fdcef96bb3a75d01b2b.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a9a612490b7cffa3ee4f792fcacda48.svg",
+            "https://ege.sdamgia.ru/formula/svg/7d/7d0ab8fde227931c7e02de2f71305a20.svg",
+            "https://ege.sdamgia.ru/formula/svg/f5/f586c0600eb85f400c2f07bb712d9270.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/91a102fb98cfffc7ea9d8539b96dcb47.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0e178b3eeaeb834b04186f9039259a19.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1cb3680af8e80f7bb890fb465558137a.svg",
+            "/get_file?id=144670"
+        ]
+    },
+    "answer": "а)  б)",
+    "topic_id": 13,
+    "analog_ids": []
+}

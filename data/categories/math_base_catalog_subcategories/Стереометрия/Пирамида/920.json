@@ -1,0 +1,17 @@
+{
+    "id": "920",
+    "topic": "Д13",
+    "condition": {
+        "text": "В правильной треугольной пирамиде SABC точка M — середина ребра AB, S — вершина. Известно, что BC = 3, а площадь боковой поверхности пирамиды равна 45. Найдите длину отрезка SM.",
+        "images": [
+            "https://mathb-ege.sdamgia.ru/get_file?id=111736"
+        ]
+    },
+    "answer": "10",
+    "analogs": [
+        "920",
+        "922",
+        "924"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=920"
+}

@@ -1,0 +1,37 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 502294,
+    "condition": {
+        "text": "В правильной четырёхугольной призме ABCDA1B1C1D1 сторона основания равна 11, а боковое ребро AA1  =  7. Точка K принадлежит ребру B1C1 и делит его в отношении 8 : 3, считая от вершины B1. а)  Докажите, что сечение этой призмы плоскостью, проходящей через точки B, D и K, есть равнобедренная трапеция.б)  Найдите площадь этого сечения.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body640234\" class=\"pbody\"><p class=\"left_margin\">В пра­виль­ной четырёхуголь­ной приз­ме <i>ABCDA</i><sub>1</sub><i>B</i><sub>1</sub><i>C</i><sub>1</sub><i>D</i><sub>1</sub> сто­ро­на ос­но­ва­ния равна 11, а бо­ко­вое ребро <i>AA</i><sub>1</sub>  =  7. Точка <i>K</i> при­над­ле­жит ребру <i>B</i><sub>1</sub><i>C</i><sub>1</sub> и делит его в от­но­ше­нии 8 : 3, счи­тая от вер­ши­ны <i>B</i><sub>1</sub>. </p><p class=\"left_margin\">а)  До­ка­жи­те, что се­че­ние этой приз­мы плос­ко­стью, про­хо­дя­щей через точки <i>B</i>, <i>D</i> и <i>K</i>, есть рав­но­бед­рен­ная тра­пе­ция.</p><p class=\"left_margin\">б)  Най­ди­те пло­щадь этого се­че­ния.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Пусть L  — точка, в которой плоскость сечения пересекает ребро  Так как плоскости ABCD и  параллельны, то плоскость сечения пересекает их по параллельным прямым, следовательно, отрезок KL параллелен диагонали  Искомое сечение  — трапеция BDLK (рис. 1). Плоскость сечения пересекает нижнее основание по прямой BD, параллельной  значит, KL параллельно  Треугольники LC1K и D1C1B1 подобны, следовательно, Значит, В равных прямоугольных треугольниках  и  имеем  значит, трапеция BDLK равнобедренная.б)  Пусть LH  — высота трапеции BDLK, проведённая к основанию BD (рис. 2), тогда: Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol502294\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=132364\" style=\"float:right;margin:10px;max-width:100%\">а)  Пусть <i>L</i>  — точка, в ко­то­рой плос­кость се­че­ния пе­ре­се­ка­ет ребро <img src=\"https://ege.sdamgia.ru/formula/svg/c3/c37b128ddd56118e9a8c98b1c6b7d7ba.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"C_1D_1.\"> Так как плос­ко­сти <i>ABCD</i> и <img src=\"https://ege.sdamgia.ru/formula/svg/69/69ec0415bc412c855233fa7b94453787.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"A_1B_1C_1D_1\"> па­рал­лель­ны, то плос­кость се­че­ния пе­ре­се­ка­ет их по па­рал­лель­ным пря­мым, сле­до­ва­тель­но, от­ре­зок <i>KL</i> па­рал­ле­лен диа­го­на­ли <img src=\"https://ege.sdamgia.ru/formula/svg/f8/f861f280bc93d84e84d55c2884e42af7.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BD.\"> Ис­ко­мое се­че­ние  — тра­пе­ция <i>BDLK</i> (рис. 1). Плос­кость се­че­ния пе­ре­се­ка­ет ниж­нее ос­но­ва­ние по пря­мой <i>BD</i>, па­рал­лель­ной <img src=\"https://ege.sdamgia.ru/formula/svg/45/45c43019c39e98ec3327ec97f5bbbe6b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"B_1D_1,\"> зна­чит, <i>KL</i> па­рал­лель­но <img src=\"https://ege.sdamgia.ru/formula/svg/8c/8c0343dbf9cbc04cfc93b2bac575d132.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"B_1D_1.\"> Тре­уголь­ни­ки <i>LC</i><sub>1</sub><i>K</i> и <i>D</i><sub>1</sub><i>C</i><sub>1</sub><i>B</i><sub>1</sub> по­доб­ны, сле­до­ва­тель­но,</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/9b/9b746b02ebfb1897360b2992722994c2.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"C_1L: C_1D_1 = C_1K:C_1B_1 = KL: B_1D_1 = 3:11.\"></p><p class=\"left_margin\"></p></center><p> Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/a7/a78085fbe8e95a5023f13b6141f88af2.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"BD = B_1D_1 = 11 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та , KL = 3 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та .\"></p><p class=\"left_margin\">В рав­ных пря­мо­уголь­ных тре­уголь­ни­ках <img src=\"https://ege.sdamgia.ru/formula/svg/4a/4a52eedbd24767cb6fa1a10d39fa3429.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"DD_1L\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/8e/8eb7de0188cc47598d0ea1e81f14ad3d.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"BB_1K\"> имеем <img src=\"https://ege.sdamgia.ru/formula/svg/43/432dbcc25c0ac83232502cf378a9d541.svg\" class=\"tex\" style=\"vertical-align:-6.8pt\" alt=\"BK=DL= ко­рень из: на­ча­ло ар­гу­мен­та: DD_1 в квад­ра­те плюс D_1L в квад­ра­те конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 113 конец ар­гу­мен­та ,\"> зна­чит, тра­пе­ция <i>BDLK</i> рав­но­бед­рен­ная.<img src=\"/get_file?id=132365\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">б)  Пусть <i>LH</i>  — вы­со­та тра­пе­ции <i>BDLK</i>, про­ведённая к ос­но­ва­нию <i>BD</i> (рис. 2), тогда:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/cc/cc1637df5dcddbc548d1ef0b1f83e806.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"DH= дробь: чис­ли­тель: BD минус KL, зна­ме­на­тель: 2 конец дроби =4 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та , LH= ко­рень из: на­ча­ло ар­гу­мен­та: DL в квад­ра­те минус DH в квад­ра­те конец ар­гу­мен­та = 9. \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/2f/2ff3bd4efbf235d9a8a6f7f36e09731c.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S_BDLK= дробь: чис­ли­тель: BD плюс KL, зна­ме­на­тель: 2 конец дроби умно­жить на LH=63 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та . \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/17/172b0f325cf66b2320b273bdd9de261d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"63 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c3/c37b128ddd56118e9a8c98b1c6b7d7ba.svg",
+            "https://ege.sdamgia.ru/formula/svg/69/69ec0415bc412c855233fa7b94453787.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f861f280bc93d84e84d55c2884e42af7.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/45c43019c39e98ec3327ec97f5bbbe6b.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8c0343dbf9cbc04cfc93b2bac575d132.svg",
+            "https://ege.sdamgia.ru/formula/svg/9b/9b746b02ebfb1897360b2992722994c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a78085fbe8e95a5023f13b6141f88af2.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4a52eedbd24767cb6fa1a10d39fa3429.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8eb7de0188cc47598d0ea1e81f14ad3d.svg",
+            "https://ege.sdamgia.ru/formula/svg/43/432dbcc25c0ac83232502cf378a9d541.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/cc1637df5dcddbc548d1ef0b1f83e806.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2ff3bd4efbf235d9a8a6f7f36e09731c.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/172b0f325cf66b2320b273bdd9de261d.svg",
+            "/get_file?id=132364",
+            "/get_file?id=132365"
+        ]
+    },
+    "answer": "",
+    "topic_id": 14,
+    "analog_ids": [
+        501710,
+        511377
+    ]
+}

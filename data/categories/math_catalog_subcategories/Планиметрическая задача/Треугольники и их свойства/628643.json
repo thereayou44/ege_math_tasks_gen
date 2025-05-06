@@ -1,0 +1,38 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 628643,
+    "condition": {
+        "text": "В  треугольнике ABC, площадь которого равна 6, на медианах AK, BL и CN взяты соответственно точки P, Q и R так, что AP  =  PK,  а  M  — точка пересечения медиан.а)  Докажите, что б)  Найдите площадь треугольника PQR.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body522591\" class=\"pbody\"><p class=\"left_margin\">В  тре­уголь­ни­ке <i>ABC</i>, пло­щадь ко­то­ро­го равна 6, на ме­ди­а­нах <i>AK</i>, <i>BL</i> и <i>CN</i> взяты со­от­вет­ствен­но точки <i>P</i>, <i>Q</i> и <i>R</i> так, что <i>AP</i>  =  <i>PK</i>, <img src=\"https://ege.sdamgia.ru/formula/svg/88/88d7c3391ea40abe76dcf254aefe7f0f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"BQ:QL=1:2,\"> а <img src=\"https://ege.sdamgia.ru/formula/svg/c2/c204dc69d420dc003aef98ca8cc56e16.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"CR:RN=4:5,\"> <i>M</i>  — точка пе­ре­се­че­ния ме­ди­ан.</p><p class=\"left_margin\">а)  До­ка­жи­те, что <img src=\"https://ege.sdamgia.ru/formula/svg/70/70bfd5a33db2f6fa985f18f2a215706a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"MR:CN=2:9.\"></p><p class=\"left_margin\">б)  Най­ди­те пло­щадь тре­уголь­ни­ка <i>PQR</i>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/88/88d7c3391ea40abe76dcf254aefe7f0f.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c204dc69d420dc003aef98ca8cc56e16.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/70bfd5a33db2f6fa985f18f2a215706a.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Согласно теореме о точке пересечении медиан треугольника  Пусть   Тогда из условия следует, что   Отсюда  Что и следовало доказать.б)  Применяя еще несколько раз свойство точки пересечения медиан треугольника, получим, что    Медианы делят треугольник на шесть равновеликих треугольников, поэтому площади треугольников ABM, ACM, BCM равны 2 каждая. Тогда   Таким образом, площадь треугольника PQR равна  Ответ: б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol628643\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=147954\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Со­глас­но тео­ре­ме о точке пе­ре­се­че­нии ме­ди­ан тре­уголь­ни­ка <img src=\"https://ege.sdamgia.ru/formula/svg/70/7099f8e8f88dafd6b6b5d1b7442b82ef.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"CM:MN=2:1.\"> Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/b5/b5ffd794a55e7b1bb492a50ada00df1e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"CM=6x,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/63/630da9a2e32f2c3c0ca1011966e3b643.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"MN=3x.\"> Тогда из усло­вия сле­ду­ет, что <img src=\"https://ege.sdamgia.ru/formula/svg/d8/d87dfe52d59bc21d8b67ace285e667e3.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"CR=4x,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/c2/c2d5079c9f09d04945b3e86c8c0faa48.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"RN=5x.\"> От­сю­да <img src=\"https://ege.sdamgia.ru/formula/svg/2a/2a9dc15548496d87ae1ee94dc7fc12d4.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"MR:CN=2x:9x=2:9.\"> Что и сле­до­ва­ло до­ка­зать.</p><p class=\"left_margin\">б)  При­ме­няя еще не­сколь­ко раз свой­ство точки пе­ре­се­че­ния ме­ди­ан тре­уголь­ни­ка, по­лу­чим, что <img src=\"https://ege.sdamgia.ru/formula/svg/60/6088e02410644237175700fa6d5e1e85.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"MP:MA=1:4,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/eb/eb0b3d66d25ba3998f45f2ddc6271a37.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"MQ:MB=1:2,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/8f/8f7828f397c67da7b4de87ddaa557cac.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"MR:MC=1:3.\"> Ме­ди­а­ны делят тре­уголь­ник на шесть рав­но­ве­ли­ких тре­уголь­ни­ков, по­это­му пло­ща­ди тре­уголь­ни­ков <i>ABM</i>, <i>ACM</i>, <i>BCM</i> равны 2 каж­дая. Тогда </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/30/30d89d5f3e98cbd48957f106bae5e683.svg\" class=\"tex\" style=\"vertical-align:-4.0pt\" alt=\"S_MPQ:S_ABM=MP умно­жить на MQ: MA умно­жить на MB=1:8,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/8c/8c7f9bb8e97ab9203533812d3fdef2ac.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"S_MPR:S_MAC=MP умно­жить на MR:MA умно­жить на MC=1:12,\"> </p><p><img src=\"https://ege.sdamgia.ru/formula/svg/d1/d183f5afe772ef1b07d994589479c28a.svg\" class=\"tex\" style=\"vertical-align:-4.0pt\" alt=\"S_MQR:S_MBC=MQ умно­жить на MR:MB умно­жить на MC=1:6.\"></p><p class=\"left_margin\"></p></center><p> Таким об­ра­зом, пло­щадь тре­уголь­ни­ка <i>PQR</i> равна <img src=\"https://ege.sdamgia.ru/formula/svg/56/56297ceda29251248a0f379c6dcad18a.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"2 умно­жить на левая круг­лая скоб­ка дробь: чис­ли­тель: 1, зна­ме­на­тель: 8 конец дроби плюс дробь: чис­ли­тель: 1, зна­ме­на­тель: 12 конец дроби плюс дробь: чис­ли­тель: 1, зна­ме­на­тель: 6 конец дроби пра­вая круг­лая скоб­ка = дробь: чис­ли­тель: 3, зна­ме­на­тель: 4 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) <img src=\"https://ege.sdamgia.ru/formula/svg/91/91bb53ccabd6642a2b9d4a0e0f10137c.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 3, зна­ме­на­тель: 4 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/70/7099f8e8f88dafd6b6b5d1b7442b82ef.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b5ffd794a55e7b1bb492a50ada00df1e.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/630da9a2e32f2c3c0ca1011966e3b643.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d87dfe52d59bc21d8b67ace285e667e3.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c2d5079c9f09d04945b3e86c8c0faa48.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2a9dc15548496d87ae1ee94dc7fc12d4.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/6088e02410644237175700fa6d5e1e85.svg",
+            "https://ege.sdamgia.ru/formula/svg/eb/eb0b3d66d25ba3998f45f2ddc6271a37.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8f7828f397c67da7b4de87ddaa557cac.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/30d89d5f3e98cbd48957f106bae5e683.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8c7f9bb8e97ab9203533812d3fdef2ac.svg",
+            "https://ege.sdamgia.ru/formula/svg/d1/d183f5afe772ef1b07d994589479c28a.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/56297ceda29251248a0f379c6dcad18a.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/91bb53ccabd6642a2b9d4a0e0f10137c.svg",
+            "/get_file?id=147954"
+        ]
+    },
+    "answer": "б)",
+    "topic_id": 17,
+    "analog_ids": []
+}

@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 505651,
+    "condition": {
+        "text": "n чисел () называются близкими, если каждое из них меньше, чем сумма всех чисел, деленная на  Пусть  ...  — n близких чисел, S  — их сумма.Докажите, что а)  все они положительны;б)  всегда в)  всегда ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body645583\" class=\"pbody\"><p class=\"left_margin\"><i>n</i> чисел (<img src=\"https://ege.sdamgia.ru/formula/svg/b5/b5483f2f1af0ee56acb54ef669929a57.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"n боль­ше 1\">) на­зы­ва­ют­ся близ­ки­ми, если каж­дое из них мень­ше, чем сумма всех чисел, де­лен­ная на <img src=\"https://ege.sdamgia.ru/formula/svg/77/77a8a807aa3f3bdfd7b22948a0698a54.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"n минус 1.\"> Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/26/26a346c2c8f415f2749e31a2e4c931d2.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a,b,c,\"> ...  — n близ­ких чисел, <i>S</i>  — их сумма.</p><p class=\"left_margin\">До­ка­жи­те, что </p><p class=\"left_margin\">а)  все они по­ло­жи­тель­ны;</p><p class=\"left_margin\">б)  все­гда <img src=\"https://ege.sdamgia.ru/formula/svg/48/48f1c1133f0692cc034968dd413c73a1.svg\" class=\"tex\" style=\"vertical-align:-2.2pt\" alt=\"a плюс b боль­ше c;\"></p><p class=\"left_margin\">в)  все­гда <img src=\"https://ege.sdamgia.ru/formula/svg/a9/a91d9276dec09579ff005b519f8f010a.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"a плюс b боль­ше S/ левая круг­лая скоб­ка n минус 1 пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b5/b5483f2f1af0ee56acb54ef669929a57.svg",
+            "https://ege.sdamgia.ru/formula/svg/77/77a8a807aa3f3bdfd7b22948a0698a54.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/26a346c2c8f415f2749e31a2e4c931d2.svg",
+            "https://ege.sdamgia.ru/formula/svg/48/48f1c1133f0692cc034968dd413c73a1.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a91d9276dec09579ff005b519f8f010a.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  по условию  значит,  Значит,  Точно также и для остальных чисел.Теперь решим пункт в).в)   Что и требовалось доказать. Теперь из пункта в) следует пункт б), так как ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol505651\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  по усло­вию <img src=\"https://ege.sdamgia.ru/formula/svg/06/06660e2a1a0aef86292159c8caaf3fd1.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"a=S минус левая круг­лая скоб­ка b плюс c плюс умно­жить на s пра­вая круг­лая скоб­ка ,\"> зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/89/8903e5fc86ec06664e2db9d83d82bdf9.svg\" class=\"tex\" style=\"vertical-align:-9.2pt\" alt=\"a=S минус левая круг­лая скоб­ка b плюс c плюс умно­жить на s пра­вая круг­лая скоб­ка боль­ше S минус левая круг­лая скоб­ка n минус 1 пра­вая круг­лая скоб­ка дробь: чис­ли­тель: S, зна­ме­на­тель: n минус 1 конец дроби =S минус S=0. \"> Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/90/904dbe7d83b40f0c7990781c1373b9c0.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a боль­ше 0,\"> Точно также и для осталь­ных чисел.</p><p class=\"left_margin\">Те­перь решим пункт в).</p><p class=\"left_margin\">в)  <img src=\"https://ege.sdamgia.ru/formula/svg/ad/ad64e689adde9606cad6a7f4b9be7c74.svg\" class=\"tex\" style=\"vertical-align:-9.2pt\" alt=\"a плюс b=S минус левая круг­лая скоб­ка c плюс умно­жить на s пра­вая круг­лая скоб­ка боль­ше S минус левая круг­лая скоб­ка n минус 2 пра­вая круг­лая скоб­ка дробь: чис­ли­тель: S, зна­ме­на­тель: n минус 1 конец дроби = дробь: чис­ли­тель: S, зна­ме­на­тель: n минус 1 конец дроби . \"> Что и тре­бо­ва­лось до­ка­зать. Те­перь из пунк­та в) сле­ду­ет пункт б), так как <img src=\"https://ege.sdamgia.ru/formula/svg/c7/c74851278f04e9fb159a1739acde7317.svg\" class=\"tex\" style=\"vertical-align:-9.2pt\" alt=\"a плюс b боль­ше дробь: чис­ли­тель: S, зна­ме­на­тель: n минус 1 конец дроби боль­ше c. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/06/06660e2a1a0aef86292159c8caaf3fd1.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/8903e5fc86ec06664e2db9d83d82bdf9.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/904dbe7d83b40f0c7990781c1373b9c0.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/ad64e689adde9606cad6a7f4b9be7c74.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c74851278f04e9fb159a1739acde7317.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

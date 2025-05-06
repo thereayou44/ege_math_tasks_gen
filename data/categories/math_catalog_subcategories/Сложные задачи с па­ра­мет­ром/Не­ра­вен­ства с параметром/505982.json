@@ -1,0 +1,39 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 505982,
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых неравенство  справедливо для всех действительных x.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body644738\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния па­ра­мет­ра <i>a</i>, при каж­дом из ко­то­рых не­ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/3f/3f6a76e8a8badf2d19ed994b584f8e6d.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x в квад­ра­те плюс 2|x минус a| боль­ше или равно a в квад­ра­те \"> спра­вед­ли­во для всех дей­стви­тель­ных <i>x</i>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/3f/3f6a76e8a8badf2d19ed994b584f8e6d.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Ясно что при  неравенство обращается в равенство. Разберем два случая.1)  Это неравенство выполняется при всех  тогда и только тогда, когда оно выполняется при  то есть когда  2)  Это неравенство выполняется при всех  тогда и только тогда, когда оно выполняется при  то есть когда   Ответ:  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol505982\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Ясно что при <img src=\"https://ege.sdamgia.ru/formula/svg/50/50a20ce04c291ac897290a4f2e3bc9e2.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=a\"> не­ра­вен­ство об­ра­ща­ет­ся в ра­вен­ство. Раз­бе­рем два слу­чая.</p><p class=\"left_margin\">1)  <img src=\"https://ege.sdamgia.ru/formula/svg/7b/7bdb2b31b86006bebe22ad181f14346c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x боль­ше a.\"></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/72/724d8ea1942af695f2f3ebb11662ade6.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка x минус a пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x плюс a пра­вая круг­лая скоб­ка плюс 2 левая круг­лая скоб­ка x минус a пра­вая круг­лая скоб­ка боль­ше или равно 0,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/9f/9fc2b601d6dd12eaa289cb07fd6ac319.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"x плюс a плюс 2 боль­ше или равно 0.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Это не­ра­вен­ство вы­пол­ня­ет­ся при всех <img src=\"https://ege.sdamgia.ru/formula/svg/0d/0d2876b89cf5452c755b6685369b8591.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x боль­ше a\"> тогда и толь­ко тогда, когда оно вы­пол­ня­ет­ся при <img src=\"https://ege.sdamgia.ru/formula/svg/5c/5ca6ce7151b41848e7e3618f686794fe.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"x=a,\"> то есть когда <img src=\"https://ege.sdamgia.ru/formula/svg/e3/e30274abbcaa7dea12efe22efd777ef4.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2a плюс 2 боль­ше или равно 0, a боль­ше или равно минус 1.\"></p><p>&nbsp;</p><p class=\"left_margin\">2)  <img src=\"https://ege.sdamgia.ru/formula/svg/57/57973fe6ea3c062d96ad8a5b65b63cae.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x мень­ше a.\"></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ef/ef49c3385f13a1ca66aa268a3dbb1397.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка x минус a пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x плюс a пра­вая круг­лая скоб­ка минус 2 левая круг­лая скоб­ка x минус a пра­вая круг­лая скоб­ка боль­ше или равно 0,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/4d/4d2ba3b5f1c979c3d69f3061f615dba4.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"x плюс a минус 2 мень­ше или равно 0.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Это не­ра­вен­ство вы­пол­ня­ет­ся при всех <img src=\"https://ege.sdamgia.ru/formula/svg/d9/d9c99a803d4b1ba21942260c18768ffa.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x мень­ше a\"> тогда и толь­ко тогда, когда оно вы­пол­ня­ет­ся при <img src=\"https://ege.sdamgia.ru/formula/svg/5c/5ca6ce7151b41848e7e3618f686794fe.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"x=a,\"> то есть когда <img src=\"https://ege.sdamgia.ru/formula/svg/57/57731c37587338acce03ff70f8b07675.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2a минус 2 мень­ше или равно 0,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/fa/fa8c34e83c3bc91c02907d9d5ee84d82.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"a мень­ше или равно 1.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  <img src=\"https://ege.sdamgia.ru/formula/svg/c4/c492a581d4661a46ec5bb8a075616b3a.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"a при­над­ле­жит левая квад­рат­ная скоб­ка минус 1;1 пра­вая квад­рат­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/50/50a20ce04c291ac897290a4f2e3bc9e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7bdb2b31b86006bebe22ad181f14346c.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/724d8ea1942af695f2f3ebb11662ade6.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9fc2b601d6dd12eaa289cb07fd6ac319.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0d2876b89cf5452c755b6685369b8591.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5ca6ce7151b41848e7e3618f686794fe.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e30274abbcaa7dea12efe22efd777ef4.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/57973fe6ea3c062d96ad8a5b65b63cae.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/ef49c3385f13a1ca66aa268a3dbb1397.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4d2ba3b5f1c979c3d69f3061f615dba4.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d9c99a803d4b1ba21942260c18768ffa.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5ca6ce7151b41848e7e3618f686794fe.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/57731c37587338acce03ff70f8b07675.svg",
+            "https://ege.sdamgia.ru/formula/svg/fa/fa8c34e83c3bc91c02907d9d5ee84d82.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c492a581d4661a46ec5bb8a075616b3a.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": [
+        505982,
+        509544
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 652642,
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых любая прямая, перпендикулярная оси ординат, имеет нечетное число общих точек с графиком функции ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body498590\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния па­ра­мет­ра <i>a</i>, при каж­дом из ко­то­рых любая пря­мая, пер­пен­ди­ку­ляр­ная оси ор­ди­нат, имеет не­чет­ное число общих точек с гра­фи­ком функ­ции </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f8/f881c4a45e36205b9ed0f9759eb19ab8.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" y = левая круг­лая скоб­ка 2 a минус 3 пра­вая круг­лая скоб­ка x плюс левая круг­лая скоб­ка x минус a пра­вая круг­лая скоб­ка умно­жить на |x плюс 3|.\"></p><p class=\"left_margin\"></p></center></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f8/f881c4a45e36205b9ed0f9759eb19ab8.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Раскроем модуль:График функции представляет собой части двух парабол с вершинами в точках  и  и ветвями, направленными вверх и вниз. Прямая, перпендикулярная оси ординат, может иметь одну, две или три общие точки с графиком такой функции. Если найдётся прямая   которая имеет три общие точки, то хотя бы одна из прямых   или   будет иметь ровно две общие точки. Условие задачи будет выполнено тогда и только тогда, когда любая горизонтальная прямая будет иметь с графиком функции ровно одну общую точку, т. е. если будет выполнено условие  Следовательно, искомые значения параметра задаются системой неравенств:Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol652642\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Рас­кро­ем мо­дуль:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/65/65daf0695da67ac5ace17d5c8640da83.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\"y= си­сте­ма вы­ра­же­ний x в квад­ра­те плюс ax минус 3a, при x боль­ше или равно минус 3, минус x в квад­ра­те плюс левая круг­лая скоб­ка 3a минус 6 пра­вая круг­лая скоб­ка x плюс 3a, при x мень­ше минус 3. конец си­сте­мы . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Гра­фик функ­ции пред­став­ля­ет собой части двух па­ра­бол с вер­ши­на­ми в точ­ках <img src=\"https://ege.sdamgia.ru/formula/svg/50/50b1d0ae50bf58a7a5f27f07da202365.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x_1= минус дробь: чис­ли­тель: a, зна­ме­на­тель: 2 конец дроби \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/1b/1bfc7679273197b4fd52538a917e2817.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"x_2= дробь: чис­ли­тель: 3a минус 6, зна­ме­на­тель: 2 конец дроби \"> и вет­вя­ми, на­прав­лен­ны­ми вверх и вниз. Пря­мая, пер­пен­ди­ку­ляр­ная оси ор­ди­нат, может иметь одну, две или три общие точки с гра­фи­ком такой функ­ции. Если найдётся пря­мая <img src=\"https://ege.sdamgia.ru/formula/svg/70/70b4763869467e59d6fcf2d736ed1f2f.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"y=m,\">  ко­то­рая имеет три общие точки, то хотя бы одна из пря­мых  <img src=\"https://ege.sdamgia.ru/formula/svg/34/34503f3e77d0e7cbe9ff1ff1ecaee45a.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y=y левая круг­лая скоб­ка x_1 пра­вая круг­лая скоб­ка \"> или <img src=\"https://ege.sdamgia.ru/formula/svg/a1/a1c8870b71b7eb56197218b32603043b.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y=y левая круг­лая скоб­ка x_2 пра­вая круг­лая скоб­ка ,\">  будет иметь ровно две общие точки. </p><p class=\"left_margin\">Усло­вие за­да­чи будет вы­пол­не­но тогда и толь­ко тогда, когда любая го­ри­зон­таль­ная пря­мая будет иметь с гра­фи­ком функ­ции ровно одну общую точку, т. е. если будет вы­пол­не­но усло­вие <img src=\"https://ege.sdamgia.ru/formula/svg/15/15559c89c7540a871a065835d60b6746.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"x_1 мень­ше или равно минус 3 мень­ше или равно x_2.\"> Сле­до­ва­тель­но, ис­ко­мые зна­че­ния па­ра­мет­ра за­да­ют­ся си­сте­мой не­ра­венств:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/aa/aaf717cf12ce1494ac3a85a150203f0e.svg\" class=\"tex\" style=\"vertical-align:-21.1pt\" alt=\" си­сте­ма вы­ра­же­ний минус дробь: чис­ли­тель: a, зна­ме­на­тель: 2 конец дроби мень­ше или равно минус 3 , дробь: чис­ли­тель: 3a минус 6, зна­ме­на­тель: 2 конец дроби боль­ше или равно минус 3 конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний a боль­ше или равно 6, a боль­ше или равно 0 конец си­сте­мы . рав­но­силь­но a боль­ше или равно 6. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/75/750e247d74b28553bba1b107d3d6cd90.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка 6; плюс бес­ко­неч­ность пра­вая круг­лая скоб­ка \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/65/65daf0695da67ac5ace17d5c8640da83.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50b1d0ae50bf58a7a5f27f07da202365.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1bfc7679273197b4fd52538a917e2817.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/70b4763869467e59d6fcf2d736ed1f2f.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/34503f3e77d0e7cbe9ff1ff1ecaee45a.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a1c8870b71b7eb56197218b32603043b.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/15559c89c7540a871a065835d60b6746.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aaf717cf12ce1494ac3a85a150203f0e.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/750e247d74b28553bba1b107d3d6cd90.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 18,
+    "analog_ids": []
+}

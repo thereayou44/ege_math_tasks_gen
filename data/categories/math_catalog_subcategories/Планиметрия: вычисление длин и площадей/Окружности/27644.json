@@ -1,0 +1,54 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27644,
+    "condition": {
+        "text": "Площадь сектора круга радиуса 3 равна 6. Найдите длину его дуги.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918784\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right\" src=\"/get_file?id=298\">Пло­щадь сек­то­ра круга ра­ди­у­са 3 равна 6. Най­ди­те длину его дуги.</p></div>",
+        "image_urls": [
+            "/get_file?id=298"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Площадь кругового сектора равна половине произведения радиуса круга на длину дуги сектора:  Поэтому  откуда  Ответ: 4.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27644\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пло­щадь кру­го­во­го сек­то­ра равна по­ло­ви­не про­из­ве­де­ния ра­ди­у­са круга на длину дуги сек­то­ра: <img src=\"https://ege.sdamgia.ru/formula/svg/1b/1ba7f7447edad8dcfaab7fad3fda70ac.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"S_сект=0,5rl.\"> По­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/f6/f61b10f3262da0b14d5978f1ca7ac22b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"6=0,5 умно­жить на 3 умно­жить на l,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/9c/9c2406b24466d0dc97f07f9a8886933f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"l=4.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 4.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/1b/1ba7f7447edad8dcfaab7fad3fda70ac.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f61b10f3262da0b14d5978f1ca7ac22b.svg",
+            "https://ege.sdamgia.ru/formula/svg/9c/9c2406b24466d0dc97f07f9a8886933f.svg"
+        ]
+    },
+    "answer": "4",
+    "topic_id": null,
+    "analog_ids": [
+        27644,
+        57607,
+        57609,
+        57611,
+        57607,
+        57609,
+        57611,
+        57613,
+        57615,
+        57617,
+        57619,
+        57621,
+        57623,
+        57625,
+        57627,
+        57629,
+        57631,
+        57633,
+        57635,
+        57637,
+        57639,
+        57641,
+        57643,
+        57645,
+        57647,
+        57649,
+        57651,
+        57653,
+        57655
+    ]
+}

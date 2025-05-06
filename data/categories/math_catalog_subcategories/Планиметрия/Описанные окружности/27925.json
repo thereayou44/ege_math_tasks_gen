@@ -1,0 +1,59 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27925,
+    "condition": {
+        "text": "Боковая сторона равнобедренной трапеции равна ее меньшему основанию, угол при основании равен 60°, большее основание равно 12. Найдите радиус описанной окружности этой трапеции.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918505\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=138566\" style=\"float:right;margin:10px;max-width:100%\">Бо­ко­вая сто­ро­на рав­но­бед­рен­ной тра­пе­ции равна ее мень­ше­му ос­но­ва­нию, угол при ос­но­ва­нии равен 60°, боль­шее ос­но­ва­ние равно 12. Най­ди­те ра­ди­ус опи­сан­ной окруж­но­сти этой тра­пе­ции.</p></div>",
+        "image_urls": [
+            "/get_file?id=138566"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Окружность, описанная вокруг трапеции, описана и вокруг треугольника  Это треугольник равнобедренный, угол при вершине равен 120°, углы при основании равны 30°. Найдем его боковую сторону:  откуда  Тогда по теореме синусов:  Ответ: 6. Приведем другое решение (Р. А., СПб.). Хорды AD,  DC и CB равны, поэтому равны и стягиваемые ими дуги. Вписанный угол А равен 60°, он опирается на две из этих дуг и равен половине их суммы. Поэтому каждая из дуг равна 60°,  их сумма равна 180°, а хорда АВ является диаметром. Отсюда получаем, что искомый радиус равен 6. Приведем решение Анны Божко.Окружность, описанная вокруг трапеции, описана и вокруг треугольника  Это треугольник равнобедренный, угол при вершине равен 120°, углы при основании равны 30°. Тогда  Следовательно, угол ACB опирается на диаметр, тогда AB  — диаметр окружности, и ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27925\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=138565\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">Окруж­ность, опи­сан­ная во­круг тра­пе­ции, опи­са­на и во­круг тре­уголь­ни­ка <img src=\"https://ege.sdamgia.ru/formula/svg/49/49ddc4dde753142ec0dfe4387222d472.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"ADC.\"> Это тре­уголь­ник рав­но­бед­рен­ный, угол при вер­ши­не равен 120°, углы при ос­но­ва­нии равны 30°. Най­дем его бо­ко­вую сто­ро­ну:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/85/85e4014d2f3f2918fb9c5afe81a3a8e6.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AD=AB минус 2AH=AB минус 2AD ко­си­нус 60 гра­ду­сов =12 минус AD,\"> </p><p class=\"left_margin\"></p></center> <p>от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/d2/d241ba862b6070b77cf4aacfc99382e4.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AD=6.\"> Тогда по тео­ре­ме си­ну­сов:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/af/af3b300eadec17fddbeff9800f361f96.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"R= дробь: чис­ли­тель: AD, зна­ме­на­тель: 2 синус \\angle DCA конец дроби = дробь: чис­ли­тель: 6, зна­ме­на­тель: 2 синус 30 гра­ду­сов конец дроби =6. \"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ</span>: 6.</p><p>&nbsp;</p><p><b>При­ве­дем дру­гое ре­ше­ние (Р. А., СПб.).</b></p><p>&nbsp;</p><p class=\"left_margin\">Хорды <i>AD</i>, <i> DC</i> и <i>CB</i> равны, по­это­му равны и стя­ги­ва­е­мые ими дуги. Впи­сан­ный угол <i>А</i> равен 60°, он опи­ра­ет­ся на две из этих дуг и равен по­ло­ви­не их суммы. По­это­му каж­дая из дуг равна 60°,  их сумма равна 180°, а хорда <i>АВ</i> яв­ля­ет­ся диа­мет­ром. От­сю­да по­лу­ча­ем, что ис­ко­мый ра­ди­ус равен 6.</p><p>&nbsp;</p><p><b>При­ве­дем ре­ше­ние Анны Божко.</b></p><p class=\"left_margin\">Окруж­ность, опи­сан­ная во­круг тра­пе­ции, опи­са­на и во­круг тре­уголь­ни­ка <img src=\"https://ege.sdamgia.ru/formula/svg/49/49ddc4dde753142ec0dfe4387222d472.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"ADC.\"> Это тре­уголь­ник рав­но­бед­рен­ный, угол при вер­ши­не равен 120°, углы при ос­но­ва­нии равны 30°. Тогда</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/45/45a67f0ffb14596358ad888d3b3b9e9c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle ACB=\\angle DCB минус \\angle DCA = 120 гра­ду­сов минус 30 в сте­пе­ни circ = 90 гра­ду­сов.\"> </p><p class=\"left_margin\"></p></center> <p class=\"left_margin\">Сле­до­ва­тель­но, угол <i>ACB</i> опи­ра­ет­ся на диа­метр, тогда <i>AB</i>  — диа­метр окруж­но­сти, и <img src=\"https://ege.sdamgia.ru/formula/svg/4e/4eeef521ecde7739b9f88aeb465d3d9c.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"R= дробь: чис­ли­тель: AB, зна­ме­на­тель: 2 конец дроби = дробь: чис­ли­тель: 12, зна­ме­на­тель: 2 конец дроби =6. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/49/49ddc4dde753142ec0dfe4387222d472.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/85e4014d2f3f2918fb9c5afe81a3a8e6.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d241ba862b6070b77cf4aacfc99382e4.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af3b300eadec17fddbeff9800f361f96.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/49ddc4dde753142ec0dfe4387222d472.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/45a67f0ffb14596358ad888d3b3b9e9c.svg",
+            "https://ege.sdamgia.ru/formula/svg/4e/4eeef521ecde7739b9f88aeb465d3d9c.svg",
+            "/get_file?id=138565"
+        ]
+    },
+    "answer": "6",
+    "topic_id": 1,
+    "analog_ids": [
+        27925,
+        53899,
+        53943,
+        53901,
+        53899,
+        53943,
+        53901,
+        53903,
+        53905,
+        53907,
+        53909,
+        53911,
+        53913,
+        53915,
+        53917,
+        53919,
+        53921,
+        53923,
+        53925,
+        53927,
+        53929,
+        53931,
+        53933,
+        53935,
+        53937,
+        53939,
+        53941,
+        53945,
+        53947
+    ]
+}

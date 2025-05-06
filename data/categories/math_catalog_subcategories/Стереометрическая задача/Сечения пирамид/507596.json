@@ -1,0 +1,31 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 507596,
+    "condition": {
+        "text": "В правильной треугольной пирамиде SABC с основанием ABC угол ASB равен 36°. На ребре SC взята точка M так, что AM  — биссектриса угла SAC. а)  Докажите, что  б)  Площадь сечения пирамиды, проходящего через точки A, M и B, равна  Найдите сторону основания.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body643120\" class=\"pbody\"><p class=\"left_margin\">В пра­виль­ной тре­уголь­ной пи­ра­ми­де <i>SABC</i> с ос­но­ва­ни­ем <i>ABC</i> угол <i>ASB</i> равен 36°. На ребре <i>SC</i> взята точка <i>M</i> так, что <i>AM</i>  — бис­сек­три­са угла <i>SAC</i>. </p><p class=\"left_margin\">а)  До­ка­жи­те, что  <img src=\"https://ege.sdamgia.ru/formula/svg/69/69f70f1de64ac125c2f4051fe1966851.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AM=AB.\"></p><p class=\"left_margin\">б)  Пло­щадь се­че­ния пи­ра­ми­ды, про­хо­дя­ще­го через точки <i>A, M</i> и <i>B</i>, равна <img src=\"https://ege.sdamgia.ru/formula/svg/11/11fe2293aa8d30781b2eb65c1c76724f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"25 ко­рень из 3 .\"> Най­ди­те сто­ро­ну ос­но­ва­ния.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/69/69f70f1de64ac125c2f4051fe1966851.svg",
+            "https://ege.sdamgia.ru/formula/svg/11/11fe2293aa8d30781b2eb65c1c76724f.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Рассмотрим треугольник ASC. Он равнобедренный, и  Значит, Рассмотрим теперь треугольник CAM. Сумма его углов 180°, значит,  Следовательно, треугольник CAM равнобедренный, и поэтому AC=AM=AB.  б)  Нужное сечение  — треугольник AMB. Аналогично пункту а) находим, что BM=BC. Таким образом, треугольник AMB равносторонний, и его сторона AB одновременно является стороной основания. По условию составим уравнение  откуда AB  =  10.Ответ: б) 10.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol507596\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=132548\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Рас­смот­рим тре­уголь­ник <i>ASC</i>. Он рав­но­бед­рен­ный, и <img src=\"https://ege.sdamgia.ru/formula/svg/d2/d235fd0faa6def17c55d2cec89f79d4c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle SAC=\\angle SCA = 72 в сте­пе­ни левая круг­лая скоб­ка \\circ пра­вая круг­лая скоб­ка .\"> Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/7f/7ff453dc0860b4ef75ef1cc60fe69d04.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle MAC = 36 в сте­пе­ни левая круг­лая скоб­ка \\circ пра­вая круг­лая скоб­ка .\"></p><p class=\"left_margin\">Рас­смот­рим те­перь тре­уголь­ник <i>CAM</i>. Сумма его углов 180°, зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/18/189d7078dc38d7972e0543fa7f74127a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle AMC =72 гра­ду­сов.\"> Сле­до­ва­тель­но, тре­уголь­ник <i>CAM</i> рав­но­бед­рен­ный, и по­это­му <i>AC=AM=AB</i>. </p><p>&nbsp;</p><p class=\"left_margin\">б)  Нуж­ное се­че­ние  — тре­уголь­ник <i>AMB</i>. Ана­ло­гич­но пунк­ту а) на­хо­дим, что <i>BM=BC</i>. Таким об­ра­зом, тре­уголь­ник <i>AMB</i> рав­но­сто­рон­ний, и его сто­ро­на <i>AB</i> од­но­вре­мен­но яв­ля­ет­ся сто­ро­ной ос­но­ва­ния. По усло­вию со­ста­вим урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/2e/2e8de1d5d866814d7c125fb19d12a2c7.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: AB в квад­ра­те ко­рень из 3 , зна­ме­на­тель: 4 конец дроби =25 ко­рень из 3 ,\"> от­ку­да <i>AB</i>  =  10.</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) 10.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d2/d235fd0faa6def17c55d2cec89f79d4c.svg",
+            "https://ege.sdamgia.ru/formula/svg/7f/7ff453dc0860b4ef75ef1cc60fe69d04.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/189d7078dc38d7972e0543fa7f74127a.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2e8de1d5d866814d7c125fb19d12a2c7.svg",
+            "/get_file?id=132548"
+        ]
+    },
+    "answer": "б) 10.",
+    "topic_id": 14,
+    "analog_ids": [
+        507596,
+        500918,
+        511447
+    ]
+}

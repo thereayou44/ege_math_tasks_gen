@@ -1,0 +1,35 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 517816,
+    "condition": {
+        "text": "Решите неравенство ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body624708\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/40/406044d372136a9c236ef93e48343c7e.svg\" class=\"tex\" style=\"vertical-align:-12.3pt\" alt=\" дробь: чис­ли­тель: ло­га­рифм по ос­но­ва­нию 3 левая круг­лая скоб­ка 9x пра­вая круг­лая скоб­ка минус 13, зна­ме­на­тель: \\log в квад­ра­те _3x плюс ло­га­рифм по ос­но­ва­нию 3 x в сте­пе­ни 4 конец дроби \\leqslant1. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/40/406044d372136a9c236ef93e48343c7e.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Преобразуем неравенство, используя свойство логарифма:Пусть = t, тогда:Вернемся к исходной переменной, получим: Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol517816\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пре­об­ра­зу­ем не­ра­вен­ство, ис­поль­зуя свой­ство ло­га­риф­ма:</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"79eb880a971554a89ec107957ababbab\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/00/00cb78293777b4e3c138a16ecbae71b9.svg\" class=\"tex\" style=\"vertical-align:-12.3pt\" alt=\" дробь: чис­ли­тель: ло­га­рифм по ос­но­ва­нию 3 левая круг­лая скоб­ка 9x пра­вая круг­лая скоб­ка минус 13, зна­ме­на­тель: \\log в квад­ра­те _3x плюс ло­га­рифм по ос­но­ва­нию 3 x в сте­пе­ни 4 конец дроби \\leqslant1 рав­но­силь­но дробь: чис­ли­тель: ло­га­рифм по ос­но­ва­нию 3 9 плюс ло­га­рифм по ос­но­ва­нию 3 x минус 13, зна­ме­на­тель: \\log в квад­ра­те _3x плюс 4 ло­га­рифм по ос­но­ва­нию 3 x конец дроби \\leqslant1 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/a4/a4fbfe6237622bc16cb7357d0a4c43ef.svg\" class=\"tex\" style=\"vertical-align:-12.3pt\" alt=\" рав­но­силь­но дробь: чис­ли­тель: ло­га­рифм по ос­но­ва­нию 3 x минус 11, зна­ме­на­тель: \\log в квад­ра­те _3x плюс 4 ло­га­рифм по ос­но­ва­нию 3 x конец дроби минус 1 \\leqslant0 рав­но­силь­но дробь: чис­ли­тель: \\log в квад­ра­те _3x плюс 3 ло­га­рифм по ос­но­ва­нию 3 x плюс 11, зна­ме­на­тель: \\log в квад­ра­те _3x плюс 4 ло­га­рифм по ос­но­ва­нию 3 x конец дроби \\geqslant0. \"></span><span data-width=\"340\" data-formulahash=\"79eb880a971554a89ec107957ababbab\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/00/00cb78293777b4e3c138a16ecbae71b9.svg\" class=\"tex\" style=\"vertical-align:-12.3pt\" alt=\" дробь: чис­ли­тель: ло­га­рифм по ос­но­ва­нию 3 левая круг­лая скоб­ка 9x пра­вая круг­лая скоб­ка минус 13, зна­ме­на­тель: \\log в квад­ра­те _3x плюс ло­га­рифм по ос­но­ва­нию 3 x в сте­пе­ни 4 конец дроби \\leqslant1 рав­но­силь­но дробь: чис­ли­тель: ло­га­рифм по ос­но­ва­нию 3 9 плюс ло­га­рифм по ос­но­ва­нию 3 x минус 13, зна­ме­на­тель: \\log в квад­ра­те _3x плюс 4 ло­га­рифм по ос­но­ва­нию 3 x конец дроби \\leqslant1 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/5b/5b9913ee4b8e7d355bf1ed130863cbcc.svg\" class=\"tex\" style=\"vertical-align:-12.2pt\" alt=\" рав­но­силь­но дробь: чис­ли­тель: ло­га­рифм по ос­но­ва­нию 3 x минус 11, зна­ме­на­тель: \\log в квад­ра­те _3x плюс 4 ло­га­рифм по ос­но­ва­нию 3 x конец дроби минус 1 \\leqslant0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/8b/8b1306f43793f0a2d2d05c677a7687f5.svg\" class=\"tex\" style=\"vertical-align:-12.3pt\" alt=\" рав­но­силь­но дробь: чис­ли­тель: \\log в квад­ра­те _3x плюс 3 ло­га­рифм по ос­но­ва­нию 3 x плюс 11, зна­ме­на­тель: \\log в квад­ра­те _3x плюс 4 ло­га­рифм по ос­но­ва­нию 3 x конец дроби \\geqslant0. \"></span></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Пусть<img src=\"https://ege.sdamgia.ru/formula/svg/20/20bf9477eb2a95d9e9922571f7d3b8db.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\" ло­га­рифм по ос­но­ва­нию 3 x \"> = t, тогда:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/a7/a7546cf56cca75cfdbc02cea7652ff5b.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" дробь: чис­ли­тель: t в квад­ра­те плюс 3t плюс 11, зна­ме­на­тель: t левая круг­лая скоб­ка t плюс 4 пра­вая круг­лая скоб­ка конец дроби \\geqslant0 рав­но­силь­но дробь: чис­ли­тель: 1, зна­ме­на­тель: конец дроби t левая круг­лая скоб­ка t плюс 4 пра­вая круг­лая скоб­ка \\geqslant0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний t боль­ше 0,t мень­ше минус 4. конец со­во­куп­но­сти . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Вер­нем­ся к ис­ход­ной пе­ре­мен­ной, по­лу­чим:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/c5/c588cdecedbbf9cf9cbe00d90a38ea4b.svg\" class=\"tex\" style=\"vertical-align:-18.0pt\" alt=\" со­во­куп­ность вы­ра­же­ний ло­га­рифм по ос­но­ва­нию 3 x боль­ше 0, ло­га­рифм по ос­но­ва­нию 3 x мень­ше минус 4 конец со­во­куп­но­сти .\\undersetОДЗ\\mathop рав­но­силь­но со­во­куп­ность вы­ра­же­ний x боль­ше 1,0 мень­ше x мень­ше дробь: чис­ли­тель: 1, зна­ме­на­тель: конец дроби 81. конец со­во­куп­но­сти .\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/42/42ada1c9790a8a2fe49bab95358cd0da.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая круг­лая скоб­ка 0; дробь: чис­ли­тель: 1, зна­ме­на­тель: 81 конец дроби пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 1; плюс бес­ко­неч­ность \\left пра­вая круг­лая скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/00/00cb78293777b4e3c138a16ecbae71b9.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a4fbfe6237622bc16cb7357d0a4c43ef.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/00cb78293777b4e3c138a16ecbae71b9.svg",
+            "https://ege.sdamgia.ru/formula/svg/5b/5b9913ee4b8e7d355bf1ed130863cbcc.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8b1306f43793f0a2d2d05c677a7687f5.svg",
+            "https://ege.sdamgia.ru/formula/svg/20/20bf9477eb2a95d9e9922571f7d3b8db.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a7546cf56cca75cfdbc02cea7652ff5b.svg",
+            "https://ege.sdamgia.ru/formula/svg/c5/c588cdecedbbf9cf9cbe00d90a38ea4b.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/42ada1c9790a8a2fe49bab95358cd0da.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": [
+        517816,
+        517817,
+        517818,
+        548182
+    ]
+}

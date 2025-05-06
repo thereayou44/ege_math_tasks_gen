@@ -1,0 +1,45 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 503128,
+    "condition": {
+        "text": "Дана правильная треугольная призма ABCA1B1C1, все ребра основания которой равны 2. Сечение, проходящее через боковое ребро AA1 и середину M ребра B1C1, является квадратом. а)  Докажите, что расстояние между прямыми A1B и AM равно длине перпендикуляра, опущенного из центра этого квадрата на прямую б)  Найдите это расстояние.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body639908\" class=\"pbody\"><p class=\"left_margin\">Дана пра­виль­ная тре­уголь­ная приз­ма <i>ABCA</i><sub>1</sub><i>B</i><sub>1</sub><i>C</i><sub>1</sub>, все ребра ос­но­ва­ния ко­то­рой равны 2. Се­че­ние, про­хо­дя­щее через бо­ко­вое ребро <i>AA</i><sub>1</sub> и се­ре­ди­ну <i>M</i> ребра <i>B</i><sub>1</sub><i>C</i><sub>1</sub>, яв­ля­ет­ся квад­ра­том. </p><p class=\"left_margin\">а)  До­ка­жи­те, что рас­сто­я­ние между пря­мы­ми <i>A</i><sub>1</sub><i>B</i> и <i>AM</i> равно длине пер­пен­ди­ку­ля­ра, опу­щен­но­го из цен­тра этого квад­ра­та на пря­мую <img src=\"https://ege.sdamgia.ru/formula/svg/2a/2a9603be3634168ec32beb57759c8ba4.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"A_1B.\"></p><p class=\"left_margin\">б)  Най­ди­те это рас­сто­я­ние.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/2a/2a9603be3634168ec32beb57759c8ba4.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Пусть данное сечение призмы  — квадрат  Тогда диагонали перпендикулярны:  а по теореме о трёх перпендикулярах  Следовательно,  Отсюда следует, что искомым расстоянием между прямыми  и AM является длина перпендикуляра OP, опущенного из точки O пересечения диагоналей квадрата  на прямую  так как  и Рис. 1Рис. 2 б)  Сторона квадрата  равна высоте треугольника ABC, то есть  а его диагональ  В равнобедренном треугольнике  основание  боковая сторона  Отсюда, используя подобие треугольников  и  найдём  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol503128\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Пусть дан­ное се­че­ние приз­мы  — квад­рат <img src=\"https://ege.sdamgia.ru/formula/svg/b1/b1d003749c2e6ba0921553e42270e9b5.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AA_1ML.\"> Тогда диа­го­на­ли пер­пен­ди­ку­ляр­ны: <img src=\"https://ege.sdamgia.ru/formula/svg/a7/a7d4c0bebb2a31c135fea5ead8f6fa37.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AM\\perp A_1L,\"> а по тео­ре­ме о трёх пер­пен­ди­ку­ля­рах <img src=\"https://ege.sdamgia.ru/formula/svg/86/865ad3ce10c357069c7e86b8de216bee.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AM\\perp BC.\"> Сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/79/79bc789716a5245cccaed68ef3df38b2.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AM\\perp A_1BC.\"> От­сю­да сле­ду­ет, что ис­ко­мым рас­сто­я­ни­ем между пря­мы­ми <img src=\"https://ege.sdamgia.ru/formula/svg/45/45c84d2253876c6a94448fa3f24dfd98.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"A_1B\"> и <i>AM</i> яв­ля­ет­ся длина пер­пен­ди­ку­ля­ра <i>OP</i>, опу­щен­но­го из точки <i>O</i> пе­ре­се­че­ния диа­го­на­лей квад­ра­та <img src=\"https://ege.sdamgia.ru/formula/svg/0d/0d847572dacacf77883c9bfb07cd0bea.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AA_1ML\"> на пря­мую <img src=\"https://ege.sdamgia.ru/formula/svg/c8/c84b808338ccff3b25cfc78537893560.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"A_1B,\"> так как <img src=\"https://ege.sdamgia.ru/formula/svg/87/87ff473b7ef31e93c2048cccf0078fe4.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"OP\\perp A_1B\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/52/52f5806bf2b43e7bb9f5f62450ad52b1.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"OP \\perp AM.\"></p><p></p><div class=\"flex-img\" style=\"align-items: flex-end;\"><p></p><div><img src=\"/get_file?id=132333\" style=\"margin:10px auto;display:block;max-width:none\"><p><nobr>Рис. 1</nobr></p><p></p></div><p></p><div><img src=\"/get_file?id=132334\" style=\"margin:10px auto;display:block;max-width:none\"><p><nobr>Рис. 2</nobr></p><p></p></div><p></p></div><p> б)  Сто­ро­на квад­ра­та <img src=\"https://ege.sdamgia.ru/formula/svg/0d/0d847572dacacf77883c9bfb07cd0bea.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AA_1ML\"> равна вы­со­те тре­уголь­ни­ка <i>ABC</i>, то есть <img src=\"https://ege.sdamgia.ru/formula/svg/c6/c6c5c5e53363ac96db88eae463de8b3b.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"AL= ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та ,\"> а его диа­го­наль <img src=\"https://ege.sdamgia.ru/formula/svg/19/19871efa18c7c24bd9d642ee6eb351e7.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"A_1L= ко­рень из: на­ча­ло ар­гу­мен­та: 6 конец ар­гу­мен­та .\"> В рав­но­бед­рен­ном тре­уголь­ни­ке <img src=\"https://ege.sdamgia.ru/formula/svg/e4/e44e22f3b68353e90bc6ab8cf12c7778.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"A_1BC\"> ос­но­ва­ние <img src=\"https://ege.sdamgia.ru/formula/svg/3c/3c373781cebd4d0379a94e8d2b220177.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"BC=2,\"> бо­ко­вая сто­ро­на <img src=\"https://ege.sdamgia.ru/formula/svg/af/af9ec32c7e6481cd1f832d07a0d547a0.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"A_1B= ко­рень из: на­ча­ло ар­гу­мен­та: 7 конец ар­гу­мен­та .\"> От­сю­да, ис­поль­зуя по­до­бие тре­уголь­ни­ков <img src=\"https://ege.sdamgia.ru/formula/svg/a9/a932b670f46e44f6df7fe233482ce9f1.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"A_1OP\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/4e/4e4ec6ce7750fc06290621a2cc1e7ac3.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"A_1BL,\"> найдём </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ee/ee988f8d856d98f7c91b4da75e3c14bf.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"OP= дробь: чис­ли­тель: A_1O умно­жить на LB, зна­ме­на­тель: A_1B конец дроби = дробь: чис­ли­тель: A_1L умно­жить на BC, зна­ме­на­тель: 4A_1B конец дроби = дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 6 конец ар­гу­мен­та , зна­ме­на­тель: 2 ко­рень из: на­ча­ло ар­гу­мен­та: 7 конец ар­гу­мен­та конец дроби . \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ</span>: <img src=\"https://ege.sdamgia.ru/formula/svg/3e/3ee6a36d9527b6471bcd204ec3c486eb.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 6 конец ар­гу­мен­та , зна­ме­на­тель: 2 ко­рень из: на­ча­ло ар­гу­мен­та: 7 конец ар­гу­мен­та конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b1/b1d003749c2e6ba0921553e42270e9b5.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a7d4c0bebb2a31c135fea5ead8f6fa37.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/865ad3ce10c357069c7e86b8de216bee.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/79bc789716a5245cccaed68ef3df38b2.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/45c84d2253876c6a94448fa3f24dfd98.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0d847572dacacf77883c9bfb07cd0bea.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c84b808338ccff3b25cfc78537893560.svg",
+            "https://ege.sdamgia.ru/formula/svg/87/87ff473b7ef31e93c2048cccf0078fe4.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/52f5806bf2b43e7bb9f5f62450ad52b1.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0d847572dacacf77883c9bfb07cd0bea.svg",
+            "https://ege.sdamgia.ru/formula/svg/c6/c6c5c5e53363ac96db88eae463de8b3b.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/19871efa18c7c24bd9d642ee6eb351e7.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e44e22f3b68353e90bc6ab8cf12c7778.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3c373781cebd4d0379a94e8d2b220177.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af9ec32c7e6481cd1f832d07a0d547a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a932b670f46e44f6df7fe233482ce9f1.svg",
+            "https://ege.sdamgia.ru/formula/svg/4e/4e4ec6ce7750fc06290621a2cc1e7ac3.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/ee988f8d856d98f7c91b4da75e3c14bf.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3ee6a36d9527b6471bcd204ec3c486eb.svg",
+            "/get_file?id=132333",
+            "/get_file?id=132334"
+        ]
+    },
+    "answer": "",
+    "topic_id": 14,
+    "analog_ids": [
+        503000,
+        511380
+    ]
+}

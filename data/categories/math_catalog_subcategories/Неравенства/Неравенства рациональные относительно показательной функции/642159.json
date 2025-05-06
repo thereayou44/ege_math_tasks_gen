@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 642159,
+    "condition": {
+        "text": "Решите неравенство: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body500371\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство: <img src=\"https://ege.sdamgia.ru/formula/svg/62/62aed05d9baa6cb30d7e8a65570e6423.svg\" class=\"tex\" style=\"vertical-align:-10.5pt\" alt=\" дробь: чис­ли­тель: 0,5 в сте­пе­ни x минус 8, зна­ме­на­тель: 0,5 в сте­пе­ни x минус 4 конец дроби мень­ше или равно 0,5 в сте­пе­ни x плюс 1. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/62/62aed05d9baa6cb30d7e8a65570e6423.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Обозначим  получим неравенство рациональное неравенство:Вернемся к исходной переменной, получим уравнение  решением которого является число −1, и неравенство  решениями которого являются числа, меньшие −2. Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol642159\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Обо­зна­чим <img src=\"https://ege.sdamgia.ru/formula/svg/a2/a26a83df46688b8330aa245c0f2eaf6b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"t = 0,5 в сте­пе­ни x ,\"> по­лу­чим не­ра­вен­ство ра­ци­о­наль­ное не­ра­вен­ство:</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"9697d6074b40b031c6e0c0965189ed93\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/da/da46c7728bbd25f0abf70c1cb9c278aa.svg\" class=\"tex\" style=\"vertical-align:-9.2pt\" alt=\" дробь: чис­ли­тель: t минус 8, зна­ме­на­тель: t минус 4 конец дроби мень­ше или равно t плюс 1 рав­но­силь­но дробь: чис­ли­тель: t минус 8 минус левая круг­лая скоб­ка t плюс 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка t минус 4 пра­вая круг­лая скоб­ка , зна­ме­на­тель: t минус 4 конец дроби мень­ше или равно 0 рав­но­силь­но дробь: чис­ли­тель: t минус 8 минус левая круг­лая скоб­ка t в квад­ра­те минус 3t минус 4 пра­вая круг­лая скоб­ка , зна­ме­на­тель: t минус 4 конец дроби мень­ше или равно 0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/71/71f4bc06fb0ce18c0d5a2530e269c360.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" рав­но­силь­но дробь: чис­ли­тель: t в квад­ра­те минус 4t плюс 4, зна­ме­на­тель: t минус 4 конец дроби боль­ше или равно 0 рав­но­силь­но дробь: чис­ли­тель: левая круг­лая скоб­ка t минус 2 пра­вая круг­лая скоб­ка в квад­ра­те , зна­ме­на­тель: t минус 4 конец дроби боль­ше или равно 0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний t=2,t боль­ше 4. конец со­во­куп­но­сти . \"></span><span data-width=\"465\" data-formulahash=\"9697d6074b40b031c6e0c0965189ed93\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/f6/f6538117578d3e26d9025a5bcd1e9aa7.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: t минус 8, зна­ме­на­тель: t минус 4 конец дроби мень­ше или равно t плюс 1 рав­но­силь­но дробь: чис­ли­тель: t минус 8 минус левая круг­лая скоб­ка t плюс 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка t минус 4 пра­вая круг­лая скоб­ка , зна­ме­на­тель: t минус 4 конец дроби мень­ше или равно 0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/82/82f71a0e288998a98852541f2e8fd3df.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" рав­но­силь­но дробь: чис­ли­тель: t минус 8 минус левая круг­лая скоб­ка t в квад­ра­те минус 3t минус 4 пра­вая круг­лая скоб­ка , зна­ме­на­тель: t минус 4 конец дроби мень­ше или равно 0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/71/71f4bc06fb0ce18c0d5a2530e269c360.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" рав­но­силь­но дробь: чис­ли­тель: t в квад­ра­те минус 4t плюс 4, зна­ме­на­тель: t минус 4 конец дроби боль­ше или равно 0 рав­но­силь­но дробь: чис­ли­тель: левая круг­лая скоб­ка t минус 2 пра­вая круг­лая скоб­ка в квад­ра­те , зна­ме­на­тель: t минус 4 конец дроби боль­ше или равно 0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний t=2,t боль­ше 4. конец со­во­куп­но­сти . \"></span></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Вер­нем­ся к ис­ход­ной пе­ре­мен­ной, по­лу­чим урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/70/702efe3e9dc6b874c350bcc38262d035.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"0,5 в сте­пе­ни x = 2,\"> ре­ше­ни­ем ко­то­ро­го яв­ля­ет­ся число −1, и не­ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/f9/f9fad8230b7da5a6782113e55e5a7bc1.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"0,5 в сте­пе­ни x боль­ше 4,\"> ре­ше­ни­я­ми ко­то­ро­го яв­ля­ют­ся числа, мень­шие −2.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/46/46ca0998f935c431ccf290e49bb835e2.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка минус бес­ко­неч­ность ; минус 2 пра­вая круг­лая скоб­ка \\cup левая фи­гур­ная скоб­ка минус 1 пра­вая фи­гур­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a2/a26a83df46688b8330aa245c0f2eaf6b.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/da46c7728bbd25f0abf70c1cb9c278aa.svg",
+            "https://ege.sdamgia.ru/formula/svg/71/71f4bc06fb0ce18c0d5a2530e269c360.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f6538117578d3e26d9025a5bcd1e9aa7.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/82f71a0e288998a98852541f2e8fd3df.svg",
+            "https://ege.sdamgia.ru/formula/svg/71/71f4bc06fb0ce18c0d5a2530e269c360.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/702efe3e9dc6b874c350bcc38262d035.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f9fad8230b7da5a6782113e55e5a7bc1.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/46ca0998f935c431ccf290e49bb835e2.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": []
+}

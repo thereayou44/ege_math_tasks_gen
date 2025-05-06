@@ -1,0 +1,29 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 630705,
+    "condition": {
+        "text": "Точка D лежит на основании AC равнобедренного треугольника ABC. Точки I и J  — центры окружностей, описанных около треугольников ABD и CBD соответственно.а)  Докажите, что прямые BI и DJ параллельны. б)  Найдите IJ, если AC  =  12, ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body520525\" class=\"pbody\"><p class=\"left_margin\">Точка <i>D</i> лежит на ос­но­ва­нии <i>AC</i> рав­но­бед­рен­но­го тре­уголь­ни­ка <i>ABC</i>. Точки <i>I</i> и <i>J</i>  — цен­тры окруж­но­стей, опи­сан­ных около тре­уголь­ни­ков <i>ABD</i> и <i>CBD</i> со­от­вет­ствен­но.</p><p class=\"left_margin\">а)  До­ка­жи­те, что пря­мые <i>BI</i> и <i>DJ</i> па­рал­лель­ны. </p><p class=\"left_margin\">б)  Най­ди­те <i>IJ</i>, если <i>AC</i>  =  12, <img src=\"https://ege.sdamgia.ru/formula/svg/9c/9c08a327581271b99fdb2b574bff7c94.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" ко­си­нус \\angleBDC = дробь: чис­ли­тель: 3, зна­ме­на­тель: 7 конец дроби .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/9c/9c08a327581271b99fdb2b574bff7c94.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  По теореме cинусов  радиус окружности описанной около треугольника ABD равен то есть равен радиусу окружности описанной около треугольника BDC, отсюда IBJD  — ромб, следовательно, прямые BI и DJ параллельны, ч. т. д.б)  Диагонали ромба перпендикулярны, значит, отрезок IJ перпендикулярен прямой BD. Заметим, что IM и AD, JN и DC соответственно перпендикулярны, точка M  — середина AD, точка N  — середина DC. Значит,  Тогда Ответ: б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol630705\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=113530\" style=\"float:right;margin:10px;max-width:100%\">а)  По тео­ре­ме cину­сов  ра­ди­ус окруж­но­сти опи­сан­ной около тре­уголь­ни­ка <i>ABD</i> равен</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ed/ed30e97fb57b3804aea1aaf87dfc15f2.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: AB, зна­ме­на­тель: 2 синус \\angle ADB конец дроби = дробь: чис­ли­тель: BC, зна­ме­на­тель: 2 синус \\angle BDC конец дроби , \"></p><p class=\"left_margin\"></p></center><p> то есть равен ра­ди­у­су окруж­но­сти опи­сан­ной около тре­уголь­ни­ка <i>BDC</i>, от­сю­да <i>IBJD</i>  — ромб, сле­до­ва­тель­но, пря­мые <i>BI</i> и <i>DJ</i> па­рал­лель­ны, ч. т. д.</p><p class=\"left_margin\">б)  Диа­го­на­ли ромба пер­пен­ди­ку­ляр­ны, зна­чит, от­ре­зок <i>IJ</i> пер­пен­ди­ку­ля­рен пря­мой <i>BD</i>. За­ме­тим, что <i>IM</i> и <i>AD</i>, <i>JN</i> и <i>DC</i> со­от­вет­ствен­но пер­пен­ди­ку­ляр­ны, точка <i>M</i>  — се­ре­ди­на <i>AD</i>, точка <i>N</i>  — се­ре­ди­на <i>DC</i>. Зна­чит, </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/4b/4b176dc61d8570d0928843a675fdc0cb.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle MIJ=180 гра­ду­сов минус \\angle ADB=\\angle BDC.\"></p><p class=\"left_margin\"></p></center><p> Тогда</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/13/1341128057c257cfe204ff93ac8d69e7.svg\" class=\"tex\" style=\"vertical-align:-19.7pt\" alt=\"IJ= дробь: чис­ли­тель: MN, зна­ме­на­тель: синус \\angle MIJ конец дроби = дробь: чис­ли­тель: дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби AC, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 1 в квад­ра­те минус левая круг­лая скоб­ка дробь: чис­ли­тель: 3, зна­ме­на­тель: 7 конец дроби пра­вая круг­лая скоб­ка в квад­ра­те конец ар­гу­мен­та конец дроби = дробь: чис­ли­тель: 6 умно­жить на 7, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 40 конец ар­гу­мен­та конец дроби = дробь: чис­ли­тель: 21 ко­рень из: на­ча­ло ар­гу­мен­та: 10 конец ар­гу­мен­та , зна­ме­на­тель: 10 конец дроби . \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) <img src=\"https://ege.sdamgia.ru/formula/svg/d6/d6337353f8ae9d8389cc3c916f12c427.svg\" class=\"tex\" style=\"vertical-align:-8.6pt\" alt=\" дробь: чис­ли­тель: 21 ко­рень из: на­ча­ло ар­гу­мен­та: 10 конец ар­гу­мен­та , зна­ме­на­тель: 10 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ed/ed30e97fb57b3804aea1aaf87dfc15f2.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4b176dc61d8570d0928843a675fdc0cb.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/1341128057c257cfe204ff93ac8d69e7.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d6337353f8ae9d8389cc3c916f12c427.svg",
+            "/get_file?id=113530"
+        ]
+    },
+    "answer": "б)",
+    "topic_id": 17,
+    "analog_ids": [
+        630705,
+        630698
+    ]
+}

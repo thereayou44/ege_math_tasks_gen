@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 529300,
+    "condition": {
+        "text": "В треугольнике ABC биссектриса угла B пересекает описанную окружность этого треугольника в точке F. Точка E  — центр окружности, касающейся стороны АС и продолжений сторон AB и BC (вневписанной окружности). Точка O  — центр вписанной окружности треугольника ABC.а)  Докажите, что отрезки AF и OF равны.б)  Найдите длину отрезка CF, если OE  =  14.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body425320\" class=\"pbody\"><p class=\"left_margin\">В тре­уголь­ни­ке <i>ABC</i> бис­сек­три­са угла <i>B</i> пе­ре­се­ка­ет опи­сан­ную окруж­ность этого тре­уголь­ни­ка в точке <i>F</i>. Точка <i>E</i>  — центр окруж­но­сти, ка­са­ю­щей­ся сто­ро­ны <i>АС</i> и про­дол­же­ний сто­рон <i>AB</i> и <i>BC</i> (внев­пи­сан­ной окруж­но­сти). Точка <i>O</i>  — центр впи­сан­ной окруж­но­сти тре­уголь­ни­ка <i>ABC</i>.</p><p class=\"left_margin\">а)  До­ка­жи­те, что от­рез­ки <i>AF</i> и <i>OF</i> равны.</p><p class=\"left_margin\">б)  Най­ди­те длину от­рез­ка <i>CF</i>, если <i>OE</i>  =  14.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Углы FAC и FBC равны как вписанные, AO  — биссектриса, поэтомузначит, треугольник FAO  — равнобедренный, поэтому б)  Точка E лежит на пересечении биссектрисы угла B и биссектрисы внешнего угла A. Имеем:следовательно, треугольник OAE  — прямоугольный. Далее,  значит, AF  — медиана. Найдём её:Теперь рассмотрим треугольник AFC:значит,  Ответ: 7.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol529300\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=148623\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Углы <i>FAC</i> и <i>FBC</i> равны как впи­сан­ные, <i>AO</i>  — бис­сек­три­са, по­это­му</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/9b/9bd64f817581df7eab7fe12137828f35.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle BAO=\\angle OAC,\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/54/5440b47c604657244535a6616a3ea1fd.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle FOA=\\angle OBA плюс \\angle OAB=\\angle FAC плюс \\angle OAC=\\angle FAO,\"></p><p class=\"left_margin\"></p></center><p>зна­чит, тре­уголь­ник <i>FAO</i>  — рав­но­бед­рен­ный, по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/e9/e99b1edb13a84cceaa73a201d0f96330.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"OF=AF.\"></p><p class=\"left_margin\">б)  Точка <i>E</i> лежит на пе­ре­се­че­нии бис­сек­три­сы угла <i>B</i> и бис­сек­три­сы внеш­не­го угла <i>A</i>. Имеем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/53/53306620eba62f8926cbb516ebc52664.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"\\angle OAE= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби \\angle BAC плюс дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби левая круг­лая скоб­ка 180 гра­ду­сов минус \\angle BAC пра­вая круг­лая скоб­ка =90 гра­ду­сов,\"></p><p class=\"left_margin\"></p></center><p>сле­до­ва­тель­но, тре­уголь­ник <i>OAE</i>  — пря­мо­уголь­ный. Далее, <img src=\"https://ege.sdamgia.ru/formula/svg/16/161d312579d5ffb84ac66476b04b9b38.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AF=FO,\"> зна­чит, <i>AF</i>  — ме­ди­а­на. Найдём её:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/95/959da056eb8daee7737d6ed705cc94ed.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"AF= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби OE=7.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Те­перь рас­смот­рим тре­уголь­ник <i>AFC</i>:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/af/af6a969628456f21f4a5403c6a7b8131.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle ACF=\\angle ABF=\\angle FBC=\\angle FAC,\"></p><p class=\"left_margin\"></p></center><p>зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/03/030d22bee77dc476a3f339602390eedb.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AF=FC=7.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 7.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/9b/9bd64f817581df7eab7fe12137828f35.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/5440b47c604657244535a6616a3ea1fd.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e99b1edb13a84cceaa73a201d0f96330.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/53306620eba62f8926cbb516ebc52664.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/161d312579d5ffb84ac66476b04b9b38.svg",
+            "https://ege.sdamgia.ru/formula/svg/95/959da056eb8daee7737d6ed705cc94ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af6a969628456f21f4a5403c6a7b8131.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/030d22bee77dc476a3f339602390eedb.svg",
+            "/get_file?id=148623"
+        ]
+    },
+    "answer": "7.",
+    "topic_id": 17,
+    "analog_ids": []
+}

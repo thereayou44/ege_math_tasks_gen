@@ -1,0 +1,62 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 26649,
+    "condition": {
+        "text": "Найдите корень уравнения ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919269\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те ко­рень урав­не­ния <img src=\"https://ege.sdamgia.ru/formula/svg/4c/4c11dfc9f41e0aac51facb9c5746eb72.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\log }_2} левая круг­лая скоб­ка 15 плюс x пра­вая круг­лая скоб­ка =\\log _23.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/4c/4c11dfc9f41e0aac51facb9c5746eb72.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Последовательно получаем: Ответ: −12.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol26649\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По­сле­до­ва­тель­но по­лу­ча­ем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/bd/bd42a6fff5aa9cebca597a2f53c7b81c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\log _2 левая круг­лая скоб­ка 15 плюс x пра­вая круг­лая скоб­ка =\\log _23 рав­но­силь­но 15 плюс x=3 рав­но­силь­но x= минус 12.\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> −12.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/bd/bd42a6fff5aa9cebca597a2f53c7b81c.svg"
+        ]
+    },
+    "answer": "-12",
+    "topic_id": 6,
+    "analog_ids": [
+        26649,
+        2685,
+        38233,
+        2687,
+        2685,
+        38233,
+        2687,
+        2695,
+        2699,
+        2705,
+        2713,
+        2721,
+        2723,
+        2727,
+        2729,
+        38185,
+        38187,
+        38189,
+        38191,
+        38193,
+        38195,
+        38197,
+        38199,
+        38201,
+        38203,
+        38205,
+        38207,
+        38209,
+        38211,
+        38213,
+        38215,
+        38217,
+        38219,
+        38221,
+        38223,
+        38225,
+        38227,
+        38229,
+        38231
+    ]
+}

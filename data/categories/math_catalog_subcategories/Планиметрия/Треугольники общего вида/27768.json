@@ -1,0 +1,25 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27768,
+    "condition": {
+        "text": "В треугольнике ABC проведена биссектриса AD и  Найдите меньший угол треугольника ABC. Ответ дайте в градусах.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918148\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=138286\" style=\"float:right;margin:10px;max-width:100%\">В тре­уголь­ни­ке <i>ABC</i> про­ве­де­на бис­сек­три­са <i>AD</i> и <img src=\"https://ege.sdamgia.ru/formula/svg/d1/d152d0b88ab361c637a14ba938607598.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AB = AD = CD.\"> Най­ди­те мень­ший угол тре­уголь­ни­ка <i>ABC</i>. Ответ дайте в гра­ду­сах.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d1/d152d0b88ab361c637a14ba938607598.svg",
+            "/get_file?id=138286"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Треугольник ADC  — равнобедренный, значит, угол DAC равен углу ACD, как углы при его основании. Треугольник ADB тоже равнобедренный, значит, угол ADB равен углу ABD, как углы при его основании, причем Тогда Ответ: 36. Приведём другое решение.Пусть ∠DAB  =  α, тогда ∠DAC  =  α, поскольку AD  — биссектриса. Тогда ∠ACD  =  α, поскольку треугольник ADC равнобедренный. Тогда ∠ADB  =  2α как внешний угол треугольника ADC, и ∠ABD  =  2α, поскольку треугольник DAB равнобедренный. Получили, что в треугольнике DAB углы α, 2α и 2α. Вместе 5α  =  180°, тогда α  =  36°. Это и есть искомый наименьший угол С треугольника АВС.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27768\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Тре­уголь­ник <i>ADC</i>  — рав­но­бед­рен­ный, зна­чит, угол <i>DAC</i> равен углу <i>ACD</i>, как углы при его ос­но­ва­нии. Тре­уголь­ник <i>ADB</i> тоже рав­но­бед­рен­ный, зна­чит, угол <i>ADB</i> равен углу <i>ABD</i>, как углы при его ос­но­ва­нии, при­чем</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/31/31140e4311ff077b023ca6a4a7431469.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\angle ADB=180 гра­ду­сов минус \\angle ADC=180 гра­ду­сов минус левая круг­лая скоб­ка 180 гра­ду­сов минус 2\\angle ACD пра­вая круг­лая скоб­ка =2\\angle ACD.\"></p><p class=\"left_margin\"></p></center><p> Тогда </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/12/12b75cab0bcf6ad6f80a1d6e0b64b36e.svg\" class=\"tex\" style=\"vertical-align:-1.7pt\" alt=\"\\angle A плюс \\angle B плюс \\angle C=180 гра­ду­сов рав­но­силь­но \\angle BAD плюс \\angle DAC плюс \\angle ABD плюс \\angle ACD=180 гра­ду­сов рав­но­силь­но \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/d1/d1296b0e6b1d354f1df2e85698c902ba.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" рав­но­силь­но 5\\angle ACD=180 гра­ду­сов рав­но­силь­но \\angle ACD=36 гра­ду­сов .\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing:2px \">Ответ</span>: 36.</p><p>&nbsp;</p><p><b>При­ведём дру­гое ре­ше­ние.</b></p><p class=\"left_margin\">Пусть ∠<i>DAB</i>  =  α, тогда ∠<i>DAC</i>  =  α, по­сколь­ку <i>AD</i>  — бис­сек­три­са. Тогда ∠<i>ACD</i>  =  α, по­сколь­ку тре­уголь­ник <i>ADC</i> рав­но­бед­рен­ный. Тогда ∠<i>ADB</i>  =  2α как внеш­ний угол тре­уголь­ни­ка <i>ADC</i>, и ∠<i>ABD</i>  =  2α, по­сколь­ку тре­уголь­ник <i>DAB</i> рав­но­бед­рен­ный. По­лу­чи­ли, что в тре­уголь­ни­ке <i>DAB</i> углы α, 2α и 2α. Вме­сте 5α  =  180°, тогда α  =  36°. Это и есть ис­ко­мый наи­мень­ший угол <i>С</i> тре­уголь­ни­ка <i>АВС</i>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/31/31140e4311ff077b023ca6a4a7431469.svg",
+            "https://ege.sdamgia.ru/formula/svg/12/12b75cab0bcf6ad6f80a1d6e0b64b36e.svg",
+            "https://ege.sdamgia.ru/formula/svg/d1/d1296b0e6b1d354f1df2e85698c902ba.svg"
+        ]
+    },
+    "answer": "36",
+    "topic_id": 1,
+    "analog_ids": []
+}

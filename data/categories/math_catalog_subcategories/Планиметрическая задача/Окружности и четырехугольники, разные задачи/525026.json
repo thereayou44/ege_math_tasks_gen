@@ -1,0 +1,31 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 525026,
+    "condition": {
+        "text": "Дана трапеция KLMN с основаниями KN и LM. Около треугольника KLN описана окружность, прямые LM и MN  — касательные к этой окружности.а)  Докажите, что треугольники LMN и KLN подобны.б)  Найдите площадь треугольника KLN, если известно, что KN  =  3, а LMN  =  120° .",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body420894\" class=\"pbody\"><p class=\"left_margin\">Дана тра­пе­ция <i>KLMN</i> с ос­но­ва­ни­я­ми <i>KN</i> и <i>LM</i>. Около тре­уголь­ни­ка <i>KLN</i> опи­са­на окруж­ность, пря­мые <i>LM</i> и <i>MN</i>  — ка­са­тель­ные к этой окруж­но­сти.</p><p class=\"left_margin\">а)  До­ка­жи­те, что тре­уголь­ни­ки <i>LMN</i> и <i>KLN</i> по­доб­ны.</p><p class=\"left_margin\">б)  Най­ди­те пло­щадь тре­уголь­ни­ка <i>KLN</i>, если из­вест­но, что <i>KN</i>  =  3, а <img src=\"https://ege.sdamgia.ru/formula/svg/b7/b7fd7223347aaf8dbc22fc2fcd70072d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle\"><i>LMN</i>  =  120° .</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b7/b7fd7223347aaf8dbc22fc2fcd70072d.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Касательная LM параллельна хорде KN, значит,  а так как  как угол между касательной и хордой, треугольник KLN равнобедренный с основанием KN.Поскольку ML  =  MN как отрезки касательных, проведённых к окружности из одной точки, треугольник LMN также равнобедренный с основанием LN.Углы при основаниях равнобедренных треугольников LMN и LKN равны, следовательно, эти треугольники подобны.б)  Угол при вершине равнобедренного треугольника KLN равен 120°, значит, его высота LH вдвое меньше боковой стороны  то есть  Следовательно,Ответ:",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol525026\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=150259\" style=\"float:right;margin:10px;max-width:100%\">а)  Ка­са­тель­ная <i>LM</i> па­рал­лель­на хорде <i>KN</i>, зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/c6/c6bb5053f4092047a93360282666d32c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angleKNL=\\angleMLN\"> а так как <img src=\"https://ege.sdamgia.ru/formula/svg/12/1218de70a0acf354a22d5f94170991ee.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angleMLN=\\angleLKN\"> как угол между ка­са­тель­ной и хор­дой, тре­уголь­ник <i>KLN</i> рав­но­бед­рен­ный с ос­но­ва­ни­ем <i>KN</i>.</p><p class=\"left_margin\">По­сколь­ку <i>ML</i>  =  <i>MN</i> как от­рез­ки ка­са­тель­ных, про­ведённых к окруж­но­сти из одной точки, тре­уголь­ник <i>LMN</i> также рав­но­бед­рен­ный с ос­но­ва­ни­ем <i>LN</i>.</p><p class=\"left_margin\">Углы при ос­но­ва­ни­ях рав­но­бед­рен­ных тре­уголь­ни­ков <i>LMN</i> и <i>LKN</i> равны, сле­до­ва­тель­но, эти тре­уголь­ни­ки по­доб­ны.</p><p class=\"left_margin\">б)  Угол при вер­ши­не рав­но­бед­рен­но­го тре­уголь­ни­ка <i>KLN</i> равен 120°, зна­чит, его вы­со­та <i>LH</i> вдвое мень­ше бо­ко­вой сто­ро­ны <img src=\"https://ege.sdamgia.ru/formula/svg/cd/cd7d747d0624fcad50a2662eb196960c.svg\" class=\"tex\" style=\"vertical-align:-11.0pt\" alt=\"LN= дробь: чис­ли­тель: KN, зна­ме­на­тель: ко­рень из 3 конец дроби = ко­рень из 3 , \"> то есть <img src=\"https://ege.sdamgia.ru/formula/svg/04/0447dc525e85bec5bce2964c171c9e0b.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"LH= дробь: чис­ли­тель: ко­рень из 3 , зна­ме­на­тель: 2 конец дроби . \"> Сле­до­ва­тель­но,</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/b2/b26ff056ecb434e425174cb60f265695.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"S_KNL= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби KN умно­жить на LH= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на 3 умно­жить на дробь: чис­ли­тель: ко­рень из 3 , зна­ме­на­тель: 2 конец дроби = дробь: чис­ли­тель: 3 ко­рень из 3 , зна­ме­на­тель: 4 конец дроби . \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span><img src=\"https://ege.sdamgia.ru/formula/svg/ee/eea5f565d40f5fa0ea1fe5702d66f162.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 3 ко­рень из 3 , зна­ме­на­тель: 4 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c6/c6bb5053f4092047a93360282666d32c.svg",
+            "https://ege.sdamgia.ru/formula/svg/12/1218de70a0acf354a22d5f94170991ee.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cd7d747d0624fcad50a2662eb196960c.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/0447dc525e85bec5bce2964c171c9e0b.svg",
+            "https://ege.sdamgia.ru/formula/svg/b2/b26ff056ecb434e425174cb60f265695.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/eea5f565d40f5fa0ea1fe5702d66f162.svg",
+            "/get_file?id=150259"
+        ]
+    },
+    "answer": "",
+    "topic_id": 17,
+    "analog_ids": [
+        525026,
+        525049
+    ]
+}

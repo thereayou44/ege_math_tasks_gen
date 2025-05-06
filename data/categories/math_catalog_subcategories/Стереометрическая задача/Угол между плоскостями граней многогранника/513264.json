@@ -1,0 +1,40 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 513264,
+    "condition": {
+        "text": "Дан куб ABCDA1B1C1D1.а)  Докажите, что прямая BD1 перпендикулярна плоскости ACB1.б)  Найдите угол между плоскостями AD1C1 и A1D1C.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body637452\" class=\"pbody\"><p class=\"left_margin\">Дан куб <i>ABCD</i><i>A</i><sub>1</sub><i>B</i><sub>1</sub><i>C</i><sub>1</sub><i>D</i><sub>1</sub>.</p><p class=\"left_margin\">а)  До­ка­жи­те, что пря­мая <i>BD</i><sub>1</sub> пер­пен­ди­ку­ляр­на плос­ко­сти <i>ACB</i><sub>1</sub>.</p><p class=\"left_margin\">б)  Най­ди­те угол между плос­ко­стя­ми <i>AD</i><sub>1</sub><i>C</i><sub>1</sub> и <i>A</i><sub>1</sub><i>D</i><sub>1</sub><i>C</i>.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Поскольку проекция прямой  на плоскость ABCD  — прямая  то и  Аналогично  (надо рассмотреть плоскость ). Значит,  перпендикулярно двум пересекающимся прямым в плоскости  поэтому б)  Будем считать, что ребро куба имеет длину 1. Очевидно, в обеих плоскостях лежит точка B, поэтому прямая пересечения у этих плоскостей  Опустим на нее перпендикуляры из точек A и C (они упадут в одну точку из-за равенства треугольников  и ) Пусть их основание  — точка H. Рассмотрим треугольник ACH. В нем  Напишем теперь теорему косинусов для треугольника ACH. откуда а угол между плоскостями  — Ответ:  Примечание.Решение задачи методом координат приведено в комментариях.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol513264\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=141665\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  По­сколь­ку про­ек­ция пря­мой <img src=\"https://ege.sdamgia.ru/formula/svg/41/41e82bd697afe2f48655f019ec8bb5e2.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"BD_1\"> на плос­кость <i>ABCD</i>  — пря­мая <img src=\"https://ege.sdamgia.ru/formula/svg/03/03a95a82b821f7bf3d9deffae4aed124.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"BD\\perp AC,\"> то и <img src=\"https://ege.sdamgia.ru/formula/svg/7e/7e208b00b2229d8860d0e552b5522de1.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"BD_1\\perp AC.\"> Ана­ло­гич­но <img src=\"https://ege.sdamgia.ru/formula/svg/91/91017d5fca2b885fe5d3345cdd999199.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"BD_1\\perp AB_1\"> (надо рас­смот­реть плос­кость <img src=\"https://ege.sdamgia.ru/formula/svg/8f/8f0f50a8ead60a1593b254516a04b6a8.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"ABB_1A_1\">). Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/41/41e82bd697afe2f48655f019ec8bb5e2.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"BD_1\"> пер­пен­ди­ку­ляр­но двум пе­ре­се­ка­ю­щим­ся пря­мым в плос­ко­сти <img src=\"https://ege.sdamgia.ru/formula/svg/a7/a7ef1364370f31ec5836fd63cc01b7f2.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AB_1C,\"> по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/ab/abdd0d692908820fa181bc8c624cd39d.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"BD_1\\perp AB_1C.\"></p><p class=\"left_margin\">б)  Будем счи­тать, что ребро куба имеет длину 1. Оче­вид­но, в обеих плос­ко­стях лежит точка <i>B</i>, по­это­му пря­мая пе­ре­се­че­ния у этих плос­ко­стей <img src=\"https://ege.sdamgia.ru/formula/svg/31/315c82fcd89262df8908fe0294c12589.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"BD_1.\"> Опу­стим на нее пер­пен­ди­ку­ля­ры из точек <i>A</i> и <i>C</i> (они упа­дут в одну точку из-за ра­вен­ства тре­уголь­ни­ков <img src=\"https://ege.sdamgia.ru/formula/svg/38/389c9e4b13bdea77c3e045673394dc6f.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"ABD_1\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/21/2108e7bb57a6c90bacc3bc729ea90a42.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"CBD_1\">) Пусть их ос­но­ва­ние  — точка <i>H</i>. Рас­смот­рим тре­уголь­ник <i>ACH</i>. В нем <img src=\"https://ege.sdamgia.ru/formula/svg/58/58a84f0684e73414f28eb0eeeb929293.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AC= ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та ,\"> </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/3a/3a3ff9d0529e28f34e68a028e3ad8e13.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"AH= дробь: чис­ли­тель: 2S_ABD_1, зна­ме­на­тель: BD_1 конец дроби = дробь: чис­ли­тель: AB умно­жить на AD_1, зна­ме­на­тель: BD_1 конец дроби = дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та , зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та конец дроби . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">На­пи­шем те­перь тео­ре­му ко­си­ну­сов для тре­уголь­ни­ка <i>ACH</i>.</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/46/46847d3413494f74ab28d26627bf3f8f.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"2= дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби плюс дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби минус дробь: чис­ли­тель: 4, зна­ме­на­тель: 3 конец дроби ко­си­нус \\angle AHC,\"> от­ку­да<img src=\"https://ege.sdamgia.ru/formula/svg/3c/3cb3bae87bcedf53b679e822922143ed.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle AHC=120 в сте­пе­ни o ,\"> а угол между плос­ко­стя­ми  — <img src=\"https://ege.sdamgia.ru/formula/svg/3a/3afefe5bbc93f327bfcdfa3aaf8f387f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"60 в сте­пе­ни o .\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/3a/3afefe5bbc93f327bfcdfa3aaf8f387f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"60 в сте­пе­ни o .\"></p><p>&nbsp;</p><p><b>При­ме­ча­ние.</b></p><p class=\"left_margin\">Ре­ше­ние за­да­чи ме­то­дом ко­ор­ди­нат при­ве­де­но в ком­мен­та­ри­ях.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/41/41e82bd697afe2f48655f019ec8bb5e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/03a95a82b821f7bf3d9deffae4aed124.svg",
+            "https://ege.sdamgia.ru/formula/svg/7e/7e208b00b2229d8860d0e552b5522de1.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/91017d5fca2b885fe5d3345cdd999199.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8f0f50a8ead60a1593b254516a04b6a8.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/41e82bd697afe2f48655f019ec8bb5e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a7ef1364370f31ec5836fd63cc01b7f2.svg",
+            "https://ege.sdamgia.ru/formula/svg/ab/abdd0d692908820fa181bc8c624cd39d.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/315c82fcd89262df8908fe0294c12589.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/389c9e4b13bdea77c3e045673394dc6f.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/2108e7bb57a6c90bacc3bc729ea90a42.svg",
+            "https://ege.sdamgia.ru/formula/svg/58/58a84f0684e73414f28eb0eeeb929293.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3a3ff9d0529e28f34e68a028e3ad8e13.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/46847d3413494f74ab28d26627bf3f8f.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3cb3bae87bcedf53b679e822922143ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3afefe5bbc93f327bfcdfa3aaf8f387f.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3afefe5bbc93f327bfcdfa3aaf8f387f.svg",
+            "/get_file?id=141665"
+        ]
+    },
+    "answer": "",
+    "topic_id": 14,
+    "analog_ids": [
+        513264,
+        513273
+    ]
+}

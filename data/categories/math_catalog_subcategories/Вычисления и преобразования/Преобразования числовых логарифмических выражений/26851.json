@@ -1,0 +1,67 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 26851,
+    "condition": {
+        "text": "Найдите значение выражения ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919071\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те зна­че­ние вы­ра­же­ния <img src=\"https://ege.sdamgia.ru/formula/svg/9c/9cabd41f008381f0f8bba869a3f47396.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\" дробь: чис­ли­тель: \\log _325, зна­ме­на­тель: \\log _35 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/9c/9cabd41f008381f0f8bba869a3f47396.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Выполним преобразования:   Ответ: 2.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol26851\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Вы­пол­ним пре­об­ра­зо­ва­ния: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/84/841631623351a39d0c288de59209dbff.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\" дробь: чис­ли­тель: \\log _325, зна­ме­на­тель: \\log _35 конец дроби = \\log _525=2. \"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 2.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/84/841631623351a39d0c288de59209dbff.svg"
+        ]
+    },
+    "answer": "2",
+    "topic_id": 7,
+    "analog_ids": [
+        26851,
+        68741,
+        526211,
+        68665,
+        68741,
+        526211,
+        68665,
+        68667,
+        68669,
+        68671,
+        68673,
+        68675,
+        68677,
+        68679,
+        68681,
+        68683,
+        68685,
+        68687,
+        68689,
+        68691,
+        68693,
+        68695,
+        68697,
+        68699,
+        68701,
+        68703,
+        68705,
+        68707,
+        68709,
+        68711,
+        68713,
+        68715,
+        68717,
+        68719,
+        68721,
+        68723,
+        68725,
+        68727,
+        68729,
+        68731,
+        68733,
+        68735,
+        68737,
+        68739
+    ]
+}

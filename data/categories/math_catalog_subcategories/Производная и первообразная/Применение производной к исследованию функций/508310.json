@@ -1,0 +1,23 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 508310,
+    "condition": {
+        "text": "Функция  определена на промежутке  На рисунке изображен график ее производной. Найдите абсциссу точки, в которой функция  принимает наибольшее значение.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body634730\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=121698\" style=\"float:right;margin:10px;max-width:100%\">Функ­ция <img src=\"https://ege.sdamgia.ru/formula/svg/7c/7c1c9491ba7c6e8d6d2cfa82e39b22ca.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y=f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка \"> опре­де­ле­на на про­ме­жут­ке <img src=\"https://ege.sdamgia.ru/formula/svg/3b/3bc4a45807a395ad26b6f9ac93b78c84.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка минус 6;4 пра­вая круг­лая скоб­ка .\"> На ри­сун­ке изоб­ра­жен гра­фик ее про­из­вод­ной. Най­ди­те абс­цис­су точки, в ко­то­рой функ­ция <img src=\"https://ege.sdamgia.ru/formula/svg/7c/7c1c9491ba7c6e8d6d2cfa82e39b22ca.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y=f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка \"> при­ни­ма­ет наи­боль­шее зна­че­ние.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/7c/7c1c9491ba7c6e8d6d2cfa82e39b22ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/3b/3bc4a45807a395ad26b6f9ac93b78c84.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7c1c9491ba7c6e8d6d2cfa82e39b22ca.svg",
+            "/get_file?id=121698"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Cмена знака производной с положительного на отрицательный соответствует точке максимума, следовательно, в точке с абсциссой −2 достигается наибольшее значение функции. Ответ: −2.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol508310\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Cмена знака про­из­вод­ной с по­ло­жи­тель­но­го на от­ри­ца­тель­ный со­от­вет­ству­ет точке мак­си­му­ма, сле­до­ва­тель­но, в точке с абс­цис­сой −2 до­сти­га­ет­ся наи­боль­шее зна­че­ние функ­ции.</p><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ</span>: −2.</p></div>",
+        "image_urls": []
+    },
+    "answer": "-2",
+    "topic_id": 8,
+    "analog_ids": []
+}

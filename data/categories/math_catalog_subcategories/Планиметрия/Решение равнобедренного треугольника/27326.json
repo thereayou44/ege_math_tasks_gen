@@ -1,0 +1,64 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27326,
+    "condition": {
+        "text": "В треугольнике ABC   Найдите высоту ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918594\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=113360\" style=\"float:right;margin:10px;max-width:100%\">В тре­уголь­ни­ке <i>ABC</i> <img src=\"https://ege.sdamgia.ru/formula/svg/79/799e14873ebe5d4aa758905acc3c48e8.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AC = BC = 4 ко­рень из: на­ча­ло ар­гу­мен­та: 15 конец ар­гу­мен­та ,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/15/15e5f94aa8a1d24687960cfe55aadb77.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" синус BAC = 0,25.\"> Най­ди­те вы­со­ту <img src=\"https://ege.sdamgia.ru/formula/svg/28/28377a9ff96a61078915d0232bc96c3f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AH.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/79/799e14873ebe5d4aa758905acc3c48e8.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/15e5f94aa8a1d24687960cfe55aadb77.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/28377a9ff96a61078915d0232bc96c3f.svg",
+            "/get_file?id=113360"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Треугольник ABC равнобедренный, значит, углы BAC и ABH равны как углы при его основании и высота, проведенная из точки C делит основание AB пополам.            Приведем другое решение.Проведем из вершины C высоту CK. Тогда:  Кроме того  Поэтому  Тогда высота Ответ: 7,5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27326\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Тре­уголь­ник <i>ABC</i> рав­но­бед­рен­ный, зна­чит, углы <i>BAC</i> и <i>ABH</i> равны как углы при его ос­но­ва­нии и вы­со­та, про­ве­ден­ная из точки <i>C</i> делит ос­но­ва­ние <i>AB</i> по­по­лам.      </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/bb/bbfa85f4cd895fb2dce4124daaf8d349.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AH=AB умно­жить на синус \\angle ABH=AB умно­жить на синус \\angle BAC=2AK умно­жить на синус \\angle BAC=\">  </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/95/9573a7a8d4f5f31b59d73f0aacf0e5c2.svg\" class=\"tex\" style=\"vertical-align:-1.9pt\" alt=\"=2AC умно­жить на ко­си­нус \\angle BAC умно­жить на синус \\angle BAC=2AC умно­жить на синус \\angle BAC умно­жить на ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус синус в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та \\angle BAC пра­вая круг­лая скоб­ка =\"> </p><p class=\"left_margin\"></p></center><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/90/90120c8de6ab8836953d9922b9d328f6.svg\" class=\"tex\" style=\"vertical-align:-9.4pt\" alt=\"=2 умно­жить на 4 ко­рень из: на­ча­ло ар­гу­мен­та: 15 конец ар­гу­мен­та умно­жить на дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 16 конец дроби конец ар­гу­мен­та = дробь: чис­ли­тель: 15, зна­ме­на­тель: 2 конец дроби =7,5. \"></p><p class=\"left_margin\"></p></center>  <p class=\"left_margin\"></p></center><p>&nbsp;</p><p><b>При­ве­дем дру­гое ре­ше­ние.</b></p><p class=\"left_margin\">Про­ве­дем из вер­ши­ны <i>C</i> вы­со­ту <i>CK</i>. Тогда: <img src=\"https://ege.sdamgia.ru/formula/svg/d4/d480ac2bcbceaadcf690ac65cc2356e7.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" ко­си­нус CAK= дробь: чис­ли­тель: AK, зна­ме­на­тель: AC конец дроби . \"> Кроме того <img src=\"https://ege.sdamgia.ru/formula/svg/82/82867040c10250b59a582d7f33ab5281.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" ко­си­нус CAK= ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус синус в квад­ра­те CAK конец ар­гу­мен­та = дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 15 конец ар­гу­мен­та , зна­ме­на­тель: 4 конец дроби . \"> По­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/79/79609fd97db19912e690c185c40c9d24.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"AB=2AK=2 умно­жить на дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 15 конец ар­гу­мен­та , зна­ме­на­тель: 4 конец дроби умно­жить на 4 ко­рень из: на­ча­ло ар­гу­мен­та: 15 конец ар­гу­мен­та =30. \"> Тогда вы­со­та <img src=\"https://ege.sdamgia.ru/formula/svg/3c/3c26e1cef5f762d0fba10e144f05273c.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AH= синус BAC умно­жить на AB=0,25 умно­жить на 30=7,5.\"></p><p><span style=\"letter-spaceing:2px\">Ответ</span>: 7,5.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/bb/bbfa85f4cd895fb2dce4124daaf8d349.svg",
+            "https://ege.sdamgia.ru/formula/svg/95/9573a7a8d4f5f31b59d73f0aacf0e5c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/90120c8de6ab8836953d9922b9d328f6.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d480ac2bcbceaadcf690ac65cc2356e7.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/82867040c10250b59a582d7f33ab5281.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/79609fd97db19912e690c185c40c9d24.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3c26e1cef5f762d0fba10e144f05273c.svg"
+        ]
+    },
+    "answer": "7,5",
+    "topic_id": 1,
+    "analog_ids": [
+        27326,
+        517192,
+        517230,
+        33581,
+        517192,
+        517230,
+        33581,
+        33583,
+        33585,
+        33587,
+        33589,
+        33591,
+        33593,
+        33595,
+        33597,
+        33599,
+        33601,
+        33603,
+        33605,
+        33607,
+        33609,
+        33611,
+        33613,
+        33615,
+        33617,
+        33619,
+        33621,
+        33623,
+        33625,
+        33627,
+        33629,
+        33631
+    ]
+}

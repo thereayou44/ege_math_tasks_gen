@@ -1,0 +1,51 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27426,
+    "condition": {
+        "text": "В треугольнике ABC   косинус внешнего угла при вершине A равен −0,5. Найдите ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919006\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right; margin:10px\" src=\"/get_file?id=1257\">В тре­уголь­ни­ке <i>ABC</i> <img src=\"https://ege.sdamgia.ru/formula/svg/d7/d7f135eda8661def45358444c0a7603a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AC = BC,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/7d/7d6b9e09662635ed86a08484dae2d122.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AB = 8,\"> ко­си­нус внеш­не­го угла при вер­ши­не <i>A</i> равен −0,5. Най­ди­те <img src=\"https://ege.sdamgia.ru/formula/svg/55/55c9ee3beff9b131586901889ba3714f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AC.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d7/d7f135eda8661def45358444c0a7603a.svg",
+            "https://ege.sdamgia.ru/formula/svg/7d/7d6b9e09662635ed86a08484dae2d122.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/55c9ee3beff9b131586901889ba3714f.svg",
+            "/get_file?id=1257"
+        ]
+    },
+    "solution": {
+        "text": "Решение. так как  Ответ: 8. ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27426\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">так как </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d6/d624f363b5f919aaf74276c99d5d1c5d.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"AC= дробь: чис­ли­тель: AH, зна­ме­на­тель: ко­си­нус A конец дроби = дробь: чис­ли­тель: AB, зна­ме­на­тель: 2 левая круг­лая скоб­ка минус ко­си­нус A_внеш пра­вая круг­лая скоб­ка конец дроби =8. \"></p><p class=\"left_margin\"></p></center> <p><span style=\"letter-spaceing:2px\">Ответ</span>: 8. </p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d6/d624f363b5f919aaf74276c99d5d1c5d.svg"
+        ]
+    },
+    "answer": "8",
+    "topic_id": null,
+    "analog_ids": [
+        27426,
+        37745,
+        37747,
+        37749,
+        37745,
+        37747,
+        37749,
+        37751,
+        37753,
+        37755,
+        37757,
+        37759,
+        37761,
+        37763,
+        37765,
+        37767,
+        37769,
+        37771,
+        37773,
+        37775,
+        37777,
+        37779,
+        37781,
+        37783,
+        37785
+    ]
+}

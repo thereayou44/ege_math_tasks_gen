@@ -1,0 +1,35 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 505837,
+    "condition": {
+        "text": "Существуют ли а)  шесть,б)  1000 таких различных натуральных чисел, что для любых двух a и b из них сумма a + b делится на разность a − b?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body645393\" class=\"pbody\"><p class=\"left_margin\">Су­ще­ству­ют ли </p><p class=\"left_margin\">а)  шесть,</p><p class=\"left_margin\">б)  1000 таких раз­лич­ных на­ту­раль­ных чисел, что для любых двух <i>a</i> и <i>b</i> из них сумма <i>a</i> + <i>b</i> де­лит­ся на раз­ность <i>a</i> − <i>b</i>?</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Решим сразу общую задачу. Докажем, что для любого натурального  существуют n натуральных чисел, сумма любых двух из которых делится на их разность. Для  можно взять числа 1 и 2. Пусть числа  удовлетворяют требуемому условию. Покажем, что тогда числа  где  тоже удовлетворяют требуемому условию. Ясно, что   делится на  поскольку A делится на  Проверим, что   делится на  По условию  делится на  Кроме того,   делится на  а значит,  делится на  Ответ: а) да; б) да.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol505837\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Решим сразу общую за­да­чу. До­ка­жем, что для лю­бо­го на­ту­раль­но­го <img src=\"https://ege.sdamgia.ru/formula/svg/04/04850234a56406c23418f463a67eb060.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"n боль­ше или равно 2\"> су­ще­ству­ют <i>n</i> на­ту­раль­ных чисел, сумма любых двух из ко­то­рых де­лит­ся на их раз­ность. Для <img src=\"https://ege.sdamgia.ru/formula/svg/70/701653d734e23ac51c25137fb8831ba8.svg\" class=\"tex\" style=\"vertical-align:-0.9pt\" alt=\"n = 2\"> можно взять числа 1 и 2. Пусть числа <img src=\"https://ege.sdamgia.ru/formula/svg/53/53f93662d2c510259e857df08a5fb3a1.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a_1, \\a_2,...,a_n\"> удо­вле­тво­ря­ют тре­бу­е­мо­му усло­вию. По­ка­жем, что тогда числа <img src=\"https://ege.sdamgia.ru/formula/svg/a3/a3bc7919f9d1b21a53205925c70badd2.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"A,A плюс a_1,A плюс a_2,...,A плюс a_n,\"> где <img src=\"https://ege.sdamgia.ru/formula/svg/a5/a52ef6a9c3ef81e8a29c72d6d36f50f1.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"A=a_1a_2,...a_n,\"> тоже удо­вле­тво­ря­ют тре­бу­е­мо­му усло­вию. Ясно, что <img src=\"https://ege.sdamgia.ru/formula/svg/f1/f1d22995b6ca8fd364934c03fe6590cf.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"A плюс a_k плюс A\">  де­лит­ся на <img src=\"https://ege.sdamgia.ru/formula/svg/0e/0ed0f87f023336a8752597b646fa1a08.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"A плюс A_k минус A=a_k,\"> по­сколь­ку <i>A</i> де­лит­ся на <img src=\"https://ege.sdamgia.ru/formula/svg/0c/0c9dd9ae68f3f3ca161a405c16ba0cfe.svg\" class=\"tex\" style=\"vertical-align:-2.7pt\" alt=\"a_k.\"> </p><p class=\"left_margin\">Про­ве­рим, что <img src=\"https://ege.sdamgia.ru/formula/svg/ea/ea692474e96bd6abb079deb6ff5d8b6f.svg\" class=\"tex\" style=\"vertical-align:-4.2pt\" alt=\"A плюс a_i плюс A плюс a_j\">  де­лит­ся на <img src=\"https://ege.sdamgia.ru/formula/svg/2c/2cb4e5cb91cdb9d0aa7a0acaf842db6a.svg\" class=\"tex\" style=\"vertical-align:-4.2pt\" alt=\"A плюс a_i минус левая круг­лая скоб­ка A плюс a_j пра­вая круг­лая скоб­ка =a_i минус a_j.\"> По усло­вию <img src=\"https://ege.sdamgia.ru/formula/svg/3d/3d244ae3708de41de4c2ea5bce99b2d5.svg\" class=\"tex\" style=\"vertical-align:-4.3pt\" alt=\"a_i плюс a_j\"> де­лит­ся на <img src=\"https://ege.sdamgia.ru/formula/svg/4d/4de1c939d9172b01850fe4d10102ebf2.svg\" class=\"tex\" style=\"vertical-align:-4.3pt\" alt=\"a_i минус a_j.\"> Кроме того, <img src=\"https://ege.sdamgia.ru/formula/svg/2d/2d0013cc910f73ff11892818ab9d6a65.svg\" class=\"tex\" style=\"vertical-align:-4.2pt\" alt=\"2a_i=a плюс i плюс a_i= левая круг­лая скоб­ка a_i плюс a_j пра­вая круг­лая скоб­ка плюс левая круг­лая скоб­ка a_i минус a_j пра­вая круг­лая скоб­ка \">  де­лит­ся на <img src=\"https://ege.sdamgia.ru/formula/svg/3e/3e8b85c6172066d320bee21491038aa1.svg\" class=\"tex\" style=\"vertical-align:-4.3pt\" alt=\"a_i минус a_j,\"> а зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/5f/5f5468d54f2b86e7e60fac196581d7d0.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2A\"> де­лит­ся на <img src=\"https://ege.sdamgia.ru/formula/svg/4d/4de1c939d9172b01850fe4d10102ebf2.svg\" class=\"tex\" style=\"vertical-align:-4.3pt\" alt=\"a_i минус a_j.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) да; б) да.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/04/04850234a56406c23418f463a67eb060.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/701653d734e23ac51c25137fb8831ba8.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/53f93662d2c510259e857df08a5fb3a1.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a3bc7919f9d1b21a53205925c70badd2.svg",
+            "https://ege.sdamgia.ru/formula/svg/a5/a52ef6a9c3ef81e8a29c72d6d36f50f1.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f1d22995b6ca8fd364934c03fe6590cf.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0ed0f87f023336a8752597b646fa1a08.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c9dd9ae68f3f3ca161a405c16ba0cfe.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/ea692474e96bd6abb079deb6ff5d8b6f.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2cb4e5cb91cdb9d0aa7a0acaf842db6a.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3d244ae3708de41de4c2ea5bce99b2d5.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4de1c939d9172b01850fe4d10102ebf2.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d0013cc910f73ff11892818ab9d6a65.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e8b85c6172066d320bee21491038aa1.svg",
+            "https://ege.sdamgia.ru/formula/svg/5f/5f5468d54f2b86e7e60fac196581d7d0.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4de1c939d9172b01850fe4d10102ebf2.svg"
+        ]
+    },
+    "answer": "а) да; б) да.",
+    "topic_id": null,
+    "analog_ids": []
+}

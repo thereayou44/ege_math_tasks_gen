@@ -1,0 +1,53 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27879,
+    "condition": {
+        "text": "Через концы A, B дуги окружности в 62° проведены касательные AC и BC. Найдите угол ACB. Ответ дайте в градусах.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918043\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=138509\" style=\"float:right;margin:10px;max-width:100%\">Через концы <i>A</i>, <i>B</i> дуги окруж­но­сти в 62° про­ве­де­ны ка­са­тель­ные <i>AC</i> и <i>BC</i>. Най­ди­те угол <i>ACB</i>. Ответ дайте в гра­ду­сах.</p></div>",
+        "image_urls": [
+            "/get_file?id=138509"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Угол между касательной и хордой равен половине заключенной между ними дуги. В треугольнике ABC: Ответ: 118.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27879\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Угол между ка­са­тель­ной и хор­дой равен по­ло­ви­не за­клю­чен­ной между ними дуги. В тре­уголь­ни­ке <i>ABC:</i></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/05/05093b2899cda6337d804b2b39b29f35.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\angle ACB=180 гра­ду­сов минус левая круг­лая скоб­ка \\angle BAC плюс \\angle CBA пра­вая круг­лая скоб­ка =180 гра­ду­сов минус \\cup AB=180 гра­ду­сов минус 62 гра­ду­сов =118 гра­ду­сов .\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ</span>: 118.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/05/05093b2899cda6337d804b2b39b29f35.svg"
+        ]
+    },
+    "answer": "118",
+    "topic_id": 1,
+    "analog_ids": [
+        27879,
+        52009,
+        52055,
+        52011,
+        52009,
+        52055,
+        52011,
+        52013,
+        52015,
+        52017,
+        52019,
+        52021,
+        52023,
+        52025,
+        52027,
+        52029,
+        52031,
+        52033,
+        52035,
+        52037,
+        52039,
+        52041,
+        52043,
+        52045,
+        52047,
+        52049,
+        52051,
+        52053,
+        52057,
+        52059
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 484571,
+    "condition": {
+        "text": "Дан куб ABCDA1B1C1D1. Длина ребра куба равна 1. а)  Докажите, что расстояние от середины отрезка BC1 до плоскости AB1D1 равно расстоянию середины отрезка BC1 до прямой, проходящей через середину отрезка  и вершину б)  Найдите это расстояние.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body592423\" class=\"pbody\"><p class=\"left_margin\">Дан куб <i>ABCDA</i><sub>1</sub><i>B</i><sub>1</sub><i>C</i><sub>1</sub><i>D</i><sub>1</sub>. Длина ребра куба равна 1. </p><p class=\"left_margin\">а)  До­ка­жи­те, что рас­сто­я­ние от се­ре­ди­ны от­рез­ка <i>BC</i><sub>1</sub> до плос­ко­сти <i>AB</i><sub>1</sub><i>D</i><sub>1</sub> равно рас­сто­я­нию се­ре­ди­ны от­рез­ка <i>BC</i><sub>1</sub> до пря­мой, про­хо­дя­щей через се­ре­ди­ну от­рез­ка <img src=\"https://ege.sdamgia.ru/formula/svg/8d/8da8d962c04126a69aa4393d5430e712.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AD_1\"> и вер­ши­ну <img src=\"https://ege.sdamgia.ru/formula/svg/01/01e6ba55830bc9ac41db9ccc2be57918.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"B_1.\"></p><p class=\"left_margin\">б)  Най­ди­те это рас­сто­я­ние.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/8d/8da8d962c04126a69aa4393d5430e712.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/01e6ba55830bc9ac41db9ccc2be57918.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Пусть M   — середина   — середина  значит,  Кроме того,  следовательно, плоскость  Опустим перпендикуляр NH из точки N на прямую  кроме этого,  (так как лежит в плоскости ), следовательно,  и является искомым расстоянием. б)  Искомый отрезок NH является высотой прямоугольного треугольника  с прямым углом Поэтому Ответ:  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol484571\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Пусть <i>M</i> <nobr>  — се­ре­ди­на <img src=\"https://ege.sdamgia.ru/formula/svg/a2/a2e18d738958c67477fdd7ca88276942.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AD_1,N\"></nobr>  — се­ре­ди­на <img src=\"https://ege.sdamgia.ru/formula/svg/00/001b7353c3bac6a9f8d3c9618c323b4a.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"BC_1,BC_1||AD_1,B_1C\\bot BC_1,\"> зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/65/6591a7696d7ac77d6f1523e678b74696.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"B_1N\\bot AD_1.\"> Кроме того, <img src=\"https://ege.sdamgia.ru/formula/svg/31/31d3915c9f2586402a2dd824b88303e1.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"MN\\bot AD_1,\"> сле­до­ва­тель­но, плос­кость <img src=\"https://ege.sdamgia.ru/formula/svg/82/824159c5f3c0d2287c53cb394bfdda18.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"MB_1N\\bot AD_1.\"> Опу­стим пер­пен­ди­ку­ляр <i>NH</i> из точки <i>N</i> на пря­мую <img src=\"https://ege.sdamgia.ru/formula/svg/29/299e3a1f89e8fca0c6f5928940475d26.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"MB_1,\"> кроме этого, <img src=\"https://ege.sdamgia.ru/formula/svg/81/81f1113109b8dd7eed9746933de58a2c.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"NH\\bot AD_1\"> (так как лежит в плос­ко­сти <img src=\"https://ege.sdamgia.ru/formula/svg/31/312205c54c5f4ec4a436616cdb92d844.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"MB_1N\">), сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/d4/d48a60c2838d51b69d52ce8909e2a53a.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"NH\\bot AB_1D_1\"> и яв­ля­ет­ся ис­ко­мым рас­сто­я­ни­ем.</p><p></p><div class=\"flex-img\"><p></p><div><img src=\"/get_file?id=132298\" style=\"margin:10px auto;display:block;max-width:none\"><p><nobr></nobr></p><p></p></div><p></p><div><img src=\"/get_file?id=132299\" style=\"margin:10px auto;display:block;max-width:none\"><p><nobr> </nobr></p><p></p></div><p></p></div><p class=\"left_margin\">б)  Ис­ко­мый от­ре­зок <i>NH</i> яв­ля­ет­ся вы­со­той пря­мо­уголь­но­го тре­уголь­ни­ка <img src=\"https://ege.sdamgia.ru/formula/svg/a6/a6006bc6ec06fc3ab77f1ae8f9de53ea.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"MNB_1\"> с пря­мым углом <img src=\"https://ege.sdamgia.ru/formula/svg/2c/2c45f80c650c95d1b2dc2b9115fe543b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"N.\"></p><p class=\"left_margin\">По­это­му </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e0/e07554d8d1e4e5493cf57b421419fbbb.svg\" class=\"tex\" style=\"vertical-align:-39.2pt\" alt=\"NH= дробь: чис­ли­тель: NB_1 умно­жить на NM, зна­ме­на­тель: MB_1 конец дроби =\\dfrac\\dfrac ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та 2 умно­жить на 1 ко­рень из: на­ча­ло ар­гу­мен­та: левая круг­лая скоб­ка \\dfrac ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та конец ар­гу­мен­та 2 пра­вая круг­лая скоб­ка в квад­ра­те плюс 1 в квад­ра­те = дробь: чис­ли­тель: \\dfrac1, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та конец дроби ко­рень из: на­ча­ло ар­гу­мен­та: \\dfrac 32 конец ар­гу­мен­та = дробь: чис­ли­тель: 1, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та конец дроби . \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  <img src=\"https://ege.sdamgia.ru/formula/svg/af/af590d733fbe2316b9e3d7824b4c1870.svg\" class=\"tex\" style=\"vertical-align:-8.6pt\" alt=\" дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 3 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a2/a2e18d738958c67477fdd7ca88276942.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/001b7353c3bac6a9f8d3c9618c323b4a.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/6591a7696d7ac77d6f1523e678b74696.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/31d3915c9f2586402a2dd824b88303e1.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/824159c5f3c0d2287c53cb394bfdda18.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/299e3a1f89e8fca0c6f5928940475d26.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/81f1113109b8dd7eed9746933de58a2c.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/312205c54c5f4ec4a436616cdb92d844.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d48a60c2838d51b69d52ce8909e2a53a.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a6006bc6ec06fc3ab77f1ae8f9de53ea.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2c45f80c650c95d1b2dc2b9115fe543b.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e07554d8d1e4e5493cf57b421419fbbb.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af590d733fbe2316b9e3d7824b4c1870.svg",
+            "/get_file?id=132298",
+            "/get_file?id=132299"
+        ]
+    },
+    "answer": "",
+    "topic_id": 14,
+    "analog_ids": []
+}

@@ -1,0 +1,36 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 484638,
+    "condition": {
+        "text": "При каждом а решите систему уравнении ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body592866\" class=\"pbody\"><p class=\"left_margin\">При каж­дом <i>а</i> ре­ши­те си­сте­му урав­не­нии <img src=\"https://ege.sdamgia.ru/formula/svg/9e/9e6131d08a64aa8cfb37e5436a6846a1.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний  новая стро­ка x в квад­ра­те плюс y в квад­ра­те плюс 2 левая круг­лая скоб­ка x минус y пра­вая круг­лая скоб­ка плюс 2=0,  новая стро­ка a в квад­ра­те плюс ax плюс ay минус 4=0. конец си­сте­мы .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/9e/9e6131d08a64aa8cfb37e5436a6846a1.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Первое уравнение преобразуем к видуили Оно означает, что   поскольку при остальных значениях его левая часть больше 0. Подставим эти значения во второе уравнение и получим  откуда Таким образом, система имеет решение   при  при остальных а решений нет. Ответ:  при    при остальных а решении нет.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol484638\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пер­вое урав­не­ние пре­об­ра­зу­ем к виду</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/b9/b9ab50678440f6df20a5e3702f9ed806.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x в квад­ра­те плюс 2x плюс 1 плюс y в квад­ра­те минус 2y плюс 1=0,\"></p><p class=\"left_margin\"></p></center><p>или</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/c2/c2c4be32d83bae3d14e3b240d16ba3ef.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка x плюс 1 пра­вая круг­лая скоб­ка в квад­ра­те плюс левая круг­лая скоб­ка y минус 1 пра­вая круг­лая скоб­ка в квад­ра­те =0.\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p class=\"left_margin\">Оно озна­ча­ет, что <img src=\"https://ege.sdamgia.ru/formula/svg/ef/ef0bf4956616b08fc0e544135009869f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x= минус 1,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/db/db3d6d4761a4d1651e000f2c8a96a63f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=1,\"> по­сколь­ку при осталь­ных зна­че­ни­ях его левая часть боль­ше 0. Под­ста­вим эти зна­че­ния во вто­рое урав­не­ние и по­лу­чим <img src=\"https://ege.sdamgia.ru/formula/svg/e9/e99525af9a697c4c82ba52a2078651da.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a в квад­ра­те минус 4=0,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/41/41246cdf214a87d2815b57eba029c4c1.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=\\pm 2.\"></p><p class=\"left_margin\">Таким об­ра­зом, си­сте­ма имеет ре­ше­ние <img src=\"https://ege.sdamgia.ru/formula/svg/ef/ef0bf4956616b08fc0e544135009869f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x= минус 1,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/6a/6a267007228f9f654a0d28dec6932c31.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=1\"> при <img src=\"https://ege.sdamgia.ru/formula/svg/66/66c788ccaa34ee1a74db321bc38b61c3.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a=\\pm 2,\"> при осталь­ных <i>а</i> ре­ше­ний нет.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  при <img src=\"https://ege.sdamgia.ru/formula/svg/66/66c788ccaa34ee1a74db321bc38b61c3.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a=\\pm 2,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/ef/ef0bf4956616b08fc0e544135009869f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x= минус 1,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/db/db3d6d4761a4d1651e000f2c8a96a63f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=1,\"> при осталь­ных <i>а</i> ре­ше­нии нет.</p><p></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b9/b9ab50678440f6df20a5e3702f9ed806.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c2c4be32d83bae3d14e3b240d16ba3ef.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/ef0bf4956616b08fc0e544135009869f.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/db3d6d4761a4d1651e000f2c8a96a63f.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e99525af9a697c4c82ba52a2078651da.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/41246cdf214a87d2815b57eba029c4c1.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/ef0bf4956616b08fc0e544135009869f.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a267007228f9f654a0d28dec6932c31.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/66c788ccaa34ee1a74db321bc38b61c3.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/66c788ccaa34ee1a74db321bc38b61c3.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/ef0bf4956616b08fc0e544135009869f.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/db3d6d4761a4d1651e000f2c8a96a63f.svg"
+        ]
+    },
+    "answer": "при    при осталь­ных а ре­ше­нии нет.",
+    "topic_id": 18,
+    "analog_ids": [
+        484638,
+        511313
+    ]
+}

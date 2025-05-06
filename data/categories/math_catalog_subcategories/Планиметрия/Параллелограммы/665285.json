@@ -1,0 +1,23 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 665285,
+    "condition": {
+        "text": "Площадь параллелограмма ABCD равна 24. Точка E  — середина стороны AD. Найдите площадь трапеции BCDE.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body280633\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=184920\" style=\"float:right;margin:10px;max-width:100%\">Пло­щадь па­рал­ле­ло­грам­ма <i>ABCD</i> равна 24. Точка <i>E</i>  — се­ре­ди­на сто­ро­ны <i>AD</i>. Най­ди­те пло­щадь тра­пе­ции <i>BCDE</i>.</p></div>",
+        "image_urls": [
+            "/get_file?id=184920"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Пусть h  — высота параллелограмма ABCD, тогда его площадь равна  Площадь трапеции BCDE равнаОтвет: 18.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol665285\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть <i>h</i>  — вы­со­та па­рал­ле­ло­грам­ма <i>ABCD</i>, тогда его пло­щадь равна <img src=\"https://ege.sdamgia.ru/formula/svg/6f/6f633e241e5a8b99f03c0209bedcd96d.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"S_ABCD = AD умно­жить на h = 24.\"> Пло­щадь тра­пе­ции <i>BCDE</i> равна</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/13/136ca51015e7029135ae0044638310fe.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S_BCDE = дробь: чис­ли­тель: ED плюс BC}2 умно­жить на h = дробь: чис­ли­тель: {, зна­ме­на­тель: конец дроби frac32AD, зна­ме­на­тель: 2 конец дроби умно­жить на h = дробь: чис­ли­тель: 3, зна­ме­на­тель: 4 конец дроби AD умно­жить на h = дробь: чис­ли­тель: 3, зна­ме­на­тель: 4 конец дроби умно­жить на 24 = 18. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 18.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/6f/6f633e241e5a8b99f03c0209bedcd96d.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/136ca51015e7029135ae0044638310fe.svg"
+        ]
+    },
+    "answer": "18",
+    "topic_id": 1,
+    "analog_ids": []
+}

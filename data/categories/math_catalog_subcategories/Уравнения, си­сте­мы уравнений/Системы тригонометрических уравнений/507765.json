@@ -1,0 +1,34 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 507765,
+    "condition": {
+        "text": "Решите систему уравнений: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body643465\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те си­сте­му урав­не­ний: <img src=\"https://ege.sdamgia.ru/formula/svg/42/42be236f22c3aae796dc30823e508eeb.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний  новая стро­ка ко­си­нус 2y= ко­си­нус y, новая стро­ка ко­рень из: на­ча­ло ар­гу­мен­та: x в квад­ра­те минус 2x конец ар­гу­мен­та =2 синус y. конец си­сте­мы \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/42/42be236f22c3aae796dc30823e508eeb.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Решим первое уравнение:  откуда  или  Из второго уравнения следует, что  Таким образом,  Рассмотрим оставшиеся случаи.Первый случай:  Тогда Второй случай:  Тогда  Ответ:  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol507765\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Решим пер­вое урав­не­ние: <img src=\"https://ege.sdamgia.ru/formula/svg/14/14e7f471a566819b6a3e7a5462df9b7d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2y=\\pm y плюс \\2 Пи n,n при­над­ле­жит Z \"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/53/532cc2f80cb380858268ccb5637acf4c.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"y= дробь: чис­ли­тель: 2 Пи n, зна­ме­на­тель: 3 конец дроби . \"> или <img src=\"https://ege.sdamgia.ru/formula/svg/86/8644f3a156f99aafc8d1de71401a725b.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"y= дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k,k при­над­ле­жит Z . \"> Из вто­ро­го урав­не­ния сле­ду­ет, что <img src=\"https://ege.sdamgia.ru/formula/svg/f9/f95db7097455289b579e24f2e51c289e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" синус y боль­ше или равно 0.\"> Таким об­ра­зом, <img src=\"https://ege.sdamgia.ru/formula/svg/ac/ac0420acfdadfc21adc7752316f367ad.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"y не равно дробь: чис­ли­тель: 4 Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k,k при­над­ле­жит Z . \"> Рас­смот­рим остав­ши­е­ся слу­чаи.</p><p class=\"left_margin\">Пер­вый слу­чай: <img src=\"https://ege.sdamgia.ru/formula/svg/7b/7bd9e3375b727bf5738b44299c1259b7.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=2 Пи k,k при­над­ле­жит Z .\"> Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/45/4559fadf04d33986bc1a8e8bd57c8eac.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\"x в квад­ра­те минус 2x=0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка x=0, новая стро­ка x=2. конец со­во­куп­но­сти \"></p><p class=\"left_margin\">Вто­рой слу­чай: <img src=\"https://ege.sdamgia.ru/formula/svg/11/118c673474125f5abdf90f13e38ee90f.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"y= дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k,k при­над­ле­жит Z . \"> Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/a3/a30e369007d567d7de7e5fbf6bfc70f6.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\"x в квад­ра­те минус 2x=3 рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка x= минус 1, новая стро­ка x=3. конец со­во­куп­но­сти \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  <img src=\"https://ege.sdamgia.ru/formula/svg/b4/b4418cbec0f0e6d62caaf87308c37784.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\" левая круг­лая скоб­ка минус 1; дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k пра­вая круг­лая скоб­ка , левая круг­лая скоб­ка 3; дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k пра­вая круг­лая скоб­ка , левая круг­лая скоб­ка 0;2 Пи k пра­вая круг­лая скоб­ка , левая круг­лая скоб­ка 2;2 Пи k пра­вая круг­лая скоб­ка ,k при­над­ле­жит Z . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/14/14e7f471a566819b6a3e7a5462df9b7d.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/532cc2f80cb380858268ccb5637acf4c.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/8644f3a156f99aafc8d1de71401a725b.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f95db7097455289b579e24f2e51c289e.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/ac0420acfdadfc21adc7752316f367ad.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7bd9e3375b727bf5738b44299c1259b7.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/4559fadf04d33986bc1a8e8bd57c8eac.svg",
+            "https://ege.sdamgia.ru/formula/svg/11/118c673474125f5abdf90f13e38ee90f.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a30e369007d567d7de7e5fbf6bfc70f6.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b4418cbec0f0e6d62caaf87308c37784.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": [
+        507765,
+        511486
+    ]
+}

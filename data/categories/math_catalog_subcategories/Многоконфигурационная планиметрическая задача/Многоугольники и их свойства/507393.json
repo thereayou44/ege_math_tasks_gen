@@ -1,0 +1,25 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 507393,
+    "condition": {
+        "text": " Дана трапеция ABCD, основания которой BC = 44, AD = 100, AB = CD = 35. Окружность, касающаяся прямых AD и AC, касается стороны CD в точке K. Найдите длину отрезка CK.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body643325\" class=\"pbody\"><p class=\"left_margin\"><!--(МИОО, 2009)--> Дана тра­пе­ция <i>ABCD</i>, ос­но­ва­ния ко­то­рой <i>BC</i> = 44, <i>AD</i> = 100, <i>AB = CD</i> = 35. Окруж­ность, ка­са­ю­ща­я­ся пря­мых <i>AD</i> и <i>AC</i>, ка­са­ет­ся сто­ро­ны <i>CD</i> в точке <i>K</i>. Най­ди­те длину от­рез­ка <i>CK</i>.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Найдем диагональ AC. Опустим из вершин B и С на сторону AD перпендикуляры BE и СF соответственно. AE  =  FD, так как трапеция равнобедренная. BCFE  — прямоугольник.Возможны две геометрические конфигурации.Первый вариант: окружность вписана в треугольник ACD:Второй вариант: окружность касается продолжения сторон AC и AD за точками C и D соответственно и отрезка CD: Ответ: 5 или 30. Примечание.Решение опирается на известную теорему: расстояние от вершины треугольника до точки касания исходящей из этой вершины стороны со вписанной в треугольник окружностью, равно разности полупериметра треугольника и стороны, противолежащей этой вершине.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol507393\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=30198\" style=\"float:right;margin:10px\"></p><p class=\"left_margin\">Най­дем диа­го­наль <i>AC</i>. Опу­стим из вер­шин <i>B</i> и <i>С</i> на сто­ро­ну <i>AD</i> пер­пен­ди­ку­ля­ры <i>BE</i> и <i>СF</i> со­от­вет­ствен­но. <i>AE</i>  =  <i>FD</i>, так как тра­пе­ция рав­но­бед­рен­ная. <i>BCFE</i>  — пря­мо­уголь­ник.</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/a4/a4f7bbfff7ba1e7dc255aadb9be6eef0.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"AE= дробь: чис­ли­тель: 100 минус 44, зна­ме­на­тель: 2 конец дроби =28, BE= ко­рень из: на­ча­ло ар­гу­мен­та: 35 в квад­ра­те минус 28 в квад­ра­те конец ар­гу­мен­та =21, \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/b6/b61aa0c668f8d364be12866ad96188ef.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AC= ко­рень из: на­ча­ло ар­гу­мен­та: AF в квад­ра­те плюс CF в квад­ра­те конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 72 в квад­ра­те плюс 21 в квад­ра­те конец ар­гу­мен­та =75.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Воз­мож­ны две гео­мет­ри­че­ские кон­фи­гу­ра­ции.</p><p class=\"left_margin\">Пер­вый ва­ри­ант: окруж­ность впи­са­на в тре­уголь­ник <i>ACD</i>:</p><p><img src=\"/get_file?id=30199\" style=\"float:right;margin:10px\"></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/24/245e6a3dffbb49552eede180e8a942e0.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"CK= дробь: чис­ли­тель: AC плюс CD минус AD, зна­ме­на­тель: 2 конец дроби = дробь: чис­ли­тель: 75 плюс 35 минус 100, зна­ме­на­тель: 2 конец дроби =5. \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Вто­рой ва­ри­ант: окруж­ность ка­са­ет­ся про­дол­же­ния сто­рон <i>AC</i> и <i>AD</i> за точ­ка­ми <i>C</i> и <i>D</i> со­от­вет­ствен­но и от­рез­ка <i>CD</i>:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/8f/8f54f30e188457868b208d6eb16ead66.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"CK= дробь: чис­ли­тель: AD плюс CD минус AC, зна­ме­на­тель: 2 конец дроби = дробь: чис­ли­тель: 100 плюс 35 минус 75, зна­ме­на­тель: 2 конец дроби =30. \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 5 или 30.</p><p>&nbsp;</p><p><b>При­ме­ча­ние.</b></p><p class=\"left_margin\">Ре­ше­ние опи­ра­ет­ся на из­вест­ную тео­ре­му: рас­сто­я­ние от вер­ши­ны тре­уголь­ни­ка до точки ка­са­ния ис­хо­дя­щей из этой вер­ши­ны сто­ро­ны со впи­сан­ной в тре­уголь­ник окруж­но­стью, равно раз­но­сти по­лу­пе­ри­мет­ра тре­уголь­ни­ка и сто­ро­ны, про­ти­во­ле­жа­щей этой вер­ши­не.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a4/a4f7bbfff7ba1e7dc255aadb9be6eef0.svg",
+            "https://ege.sdamgia.ru/formula/svg/b6/b61aa0c668f8d364be12866ad96188ef.svg",
+            "https://ege.sdamgia.ru/formula/svg/24/245e6a3dffbb49552eede180e8a942e0.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8f54f30e188457868b208d6eb16ead66.svg",
+            "/get_file?id=30198",
+            "/get_file?id=30199"
+        ]
+    },
+    "answer": "5 или 30.",
+    "topic_id": null,
+    "analog_ids": []
+}

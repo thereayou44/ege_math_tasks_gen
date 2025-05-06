@@ -1,0 +1,73 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27482,
+    "condition": {
+        "text": "Пристани A и B расположены на озере, расстояние между ними 390 км. Баржа отправилась с постоянной скоростью из A в  На следующий день после прибытия она отправилась обратно со скоростью на 3 км/ч больше прежней, сделав по пути остановку на 9 часов. В результате она затратила на обратный путь столько же времени, сколько на путь из A в  Найдите скорость баржи на пути из A в  Ответ дайте в км/ч.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918950\" class=\"pbody\"><p class=\"left_margin\">При­ста­ни <i>A</i> и <i>B</i> рас­по­ло­же­ны на озере, рас­сто­я­ние между ними 390 км. Баржа от­пра­ви­лась с по­сто­ян­ной ско­ро­стью из <i>A</i> в <img src=\"https://ege.sdamgia.ru/formula/svg/b0/b06c26aed02d969d0f2315ba11b5432b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"B.\"> На сле­ду­ю­щий день после при­бы­тия она от­пра­ви­лась об­рат­но со ско­ро­стью на 3 км/ч боль­ше преж­ней, сде­лав по пути оста­нов­ку на 9 часов. В ре­зуль­та­те она за­тра­ти­ла на об­рат­ный путь столь­ко же вре­ме­ни, сколь­ко на путь из <i>A</i> в <img src=\"https://ege.sdamgia.ru/formula/svg/b0/b06c26aed02d969d0f2315ba11b5432b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"B.\"> Най­ди­те ско­рость баржи на пути из <i>A</i> в <img src=\"https://ege.sdamgia.ru/formula/svg/b0/b06c26aed02d969d0f2315ba11b5432b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"B.\"> Ответ дайте в км/ч.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b0/b06c26aed02d969d0f2315ba11b5432b.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b06c26aed02d969d0f2315ba11b5432b.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b06c26aed02d969d0f2315ba11b5432b.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Пусть u км/ч  — скорость баржи на пути из A в B, тогда скорость баржи на пути из B в A  км/ч. На обратном пути баржа сделала остановку на 9 часов, и в результате она затратила на обратный путь столько же времени, сколько и на прямой, отсюда имеем:  Поэтому собственная скорость баржи равна 10 км/ч. Ответ: 10.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27482\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть <i>u</i> км/ч  — ско­рость баржи на пути из <i>A</i> в <i>B</i>, тогда ско­рость баржи на пути из <i>B</i> в <i>A</i> <img src=\"https://ege.sdamgia.ru/formula/svg/99/9906db155ea80e4895856ddb9c30fa84.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"u плюс 3\"> км/ч. На об­рат­ном пути баржа сде­ла­ла оста­нов­ку на 9 часов, и в ре­зуль­та­те она за­тра­ти­ла на об­рат­ный путь столь­ко же вре­ме­ни, сколь­ко и на пря­мой, от­сю­да имеем: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/2a/2a0bf519748ae653b78b29882ce762e2.svg\" class=\"tex\" style=\"vertical-align:-9.2pt\" alt=\" дробь: чис­ли­тель: 390, зна­ме­на­тель: u конец дроби = дробь: чис­ли­тель: 390, зна­ме­на­тель: u плюс 3 конец дроби плюс 9 рав­но­силь­но дробь: чис­ли­тель: 390, зна­ме­на­тель: u конец дроби = дробь: чис­ли­тель: 390 плюс 9u плюс 27, зна­ме­на­тель: u плюс 3 конец дроби рав­но­силь­но 3 умно­жить на 390=27u плюс 9u в квад­ра­те рав­но­силь­но \"></p><p>&nbsp;</p><p><span data-width=\"640\" data-formulahash=\"028eefb1b3ce28381a1c929aeecc508c\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/02/028eefb1b3ce28381a1c929aeecc508c.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" рав­но­силь­но 9u в квад­ра­те плюс 27u минус 3 умно­жить на 3 умно­жить на 130=0 рав­но­силь­но u в квад­ра­те плюс 3u минус 130=0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка u=10;  новая стро­ка u= минус 13 конец со­во­куп­но­сти .\\undersetu боль­ше 0\\mathop рав­но­силь­но u=10.\"></span><span data-width=\"490\" data-formulahash=\"028eefb1b3ce28381a1c929aeecc508c\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/e5/e593d45b4c469700caccd558933b11c1.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" рав­но­силь­но 9u в квад­ра­те плюс 27u минус 3 умно­жить на 3 умно­жить на 130=0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/ca/ca5960c8c2b92baa9ee839d0463bcbac.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" рав­но­силь­но u в квад­ра­те плюс 3u минус 130=0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка u=10;  новая стро­ка u= минус 13 конец со­во­куп­но­сти .\\undersetu боль­ше 0\\mathop рав­но­силь­но u=10.\"></span></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">По­это­му соб­ствен­ная ско­рость баржи равна 10 км/ч.</p><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ</span>: 10.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/99/9906db155ea80e4895856ddb9c30fa84.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2a0bf519748ae653b78b29882ce762e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/02/028eefb1b3ce28381a1c929aeecc508c.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e593d45b4c469700caccd558933b11c1.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/ca5960c8c2b92baa9ee839d0463bcbac.svg"
+        ]
+    },
+    "answer": "10",
+    "topic_id": 10,
+    "analog_ids": [
+        27482,
+        40121,
+        40125,
+        517178,
+        40121,
+        40125,
+        517178,
+        517216,
+        670474,
+        27483,
+        40055,
+        40057,
+        40059,
+        40061,
+        40063,
+        40065,
+        40067,
+        40069,
+        40071,
+        40073,
+        40075,
+        40077,
+        40079,
+        40081,
+        40083,
+        40085,
+        40087,
+        40089,
+        40091,
+        40093,
+        40095,
+        40097,
+        40099,
+        40101,
+        40103,
+        40105,
+        40107,
+        40109,
+        40111,
+        40113,
+        40115,
+        40117,
+        40119,
+        40123
+    ]
+}

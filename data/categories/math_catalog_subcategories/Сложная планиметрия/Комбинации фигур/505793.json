@@ -1,0 +1,29 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 505793,
+    "condition": {
+        "text": "В треугольнике KLM угол L тупой, а длина стороны KM равна 6. На окружности, описанной около треугольника KLM, лежит центр окружности, проходящей через вершины K, M и точку пересечения высот треугольника KLM.а)  Докажите, что угол KLM равен 120 градусов.б)  Найдите радиус описанной около треугольника KLM окружности.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body645437\" class=\"pbody\"><p class=\"left_margin\">В тре­уголь­ни­ке <i>KLM</i> угол <i>L</i> тупой, а длина сто­ро­ны <i>KM</i> равна 6. На окруж­но­сти, опи­сан­ной около тре­уголь­ни­ка <i>KLM</i>, лежит центр окруж­но­сти, про­хо­дя­щей через вер­ши­ны <i>K</i>, <i>M</i> и точку пе­ре­се­че­ния высот тре­уголь­ни­ка <i>KLM</i>.</p><p class=\"left_margin\">а)  До­ка­жи­те, что угол <i>KLM</i> равен 120 гра­ду­сов.</p><p class=\"left_margin\">б)  Най­ди­те ра­ди­ус опи­сан­ной около тре­уголь­ни­ка <i>KLM</i> окруж­но­сти.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Обозначим основания перпендикуляров из точек K и M на прямые LM и KM за  и   за  точку пересечения высот треугольника KLM за H, центр описанной окружности треугольника KMH за O. а)  Поскольку  точка O лежит выше прямой KM и, значит, на той же дуге KM описанной окружности KLM, что и точка L. Поэтому  C другой стороны, в описанной окружности треугольника KMH это центральный угол, опирающийся на ту же дугу, что и вписанный угол KHM. Значит,  откуда б)  По усиленной теореме синусов для треугольника KLM имеем  Ответ:   ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol505793\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Обо­зна­чим ос­но­ва­ния пер­пен­ди­ку­ля­ров из точек <i>K</i> и <i>M</i> на пря­мые <i>LM</i> и <i>KM</i> за <img src=\"https://ege.sdamgia.ru/formula/svg/cb/cbb11f85182f81ceb8063f6c3e876fe3.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"K_1\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/d3/d36e103d0a2403297937b9e3cb237e88.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"M_1,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/ea/ea54b836457e9a68f45dd6aed27141a9.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle KLM\"> за <img src=\"https://ege.sdamgia.ru/formula/svg/2a/2a6ccaea07db0dd364bbe96c2ca411ec.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\" альфа ,\"> точку пе­ре­се­че­ния высот тре­уголь­ни­ка <i>KLM</i> за <i>H</i>, центр опи­сан­ной окруж­но­сти тре­уголь­ни­ка <i>KMH</i> за <i>O</i>. </p><p class=\"left_margin\">а)  По­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/90/9074a6342389e710ee2a6b5a42f166ac.svg\" class=\"tex\" style=\"vertical-align:-2.9pt\" alt=\"\\angle KHM=360 гра­ду­сов минус 2 умно­жить на 90 гра­ду­сов минус \\angle L_1MK_1=80 гра­ду­сов минус \\angle KLM=180 гра­ду­сов минус альфа мень­ше 90 гра­ду­сов,\"> точка <i>O</i> лежит выше пря­мой <i>KM</i> и, зна­чит, на той же дуге <i>KM</i> опи­сан­ной окруж­но­сти <i>KLM</i>, что и точка <i>L</i>. По­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/35/354585f2bd9b8f04ecfcbd6277da9ff7.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle KOM=\\angle KLM= альфа .\"> C дру­гой сто­ро­ны, в опи­сан­ной окруж­но­сти тре­уголь­ни­ка <i>KMH</i> это цен­траль­ный угол, опи­ра­ю­щий­ся на ту же дугу, что и впи­сан­ный угол <i>KHM</i>. Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/e2/e27946497e5ea4358c8b68990c2ce097.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" альфа =2 левая круг­лая скоб­ка 180 гра­ду­сов минус альфа пра­вая круг­лая скоб­ка ,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/80/8053af7aeab23ae33a4562b85f4f8143.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" альфа =120 гра­ду­сов.\"></p><p class=\"left_margin\">б)  По уси­лен­ной тео­ре­ме си­ну­сов для тре­уголь­ни­ка <i>KLM</i> имеем <img src=\"https://ege.sdamgia.ru/formula/svg/e1/e1b3aa8ed7d64029f7cccdf97bdfd0a6.svg\" class=\"tex\" style=\"vertical-align:-10.9pt\" alt=\"R= дробь: чис­ли­тель: KM, зна­ме­на­тель: 2 синус \\angle KLM конец дроби = дробь: чис­ли­тель: 6, зна­ме­на­тель: 2 синус 120 гра­ду­сов конец дроби = дробь: чис­ли­тель: 6, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та конец дроби =2 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  <img src=\"https://ege.sdamgia.ru/formula/svg/37/3740aaf2c89d0f281abc6075208e3d69.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"R_KLM=2 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та .\"> </p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/cb/cbb11f85182f81ceb8063f6c3e876fe3.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d36e103d0a2403297937b9e3cb237e88.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/ea54b836457e9a68f45dd6aed27141a9.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2a6ccaea07db0dd364bbe96c2ca411ec.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/9074a6342389e710ee2a6b5a42f166ac.svg",
+            "https://ege.sdamgia.ru/formula/svg/35/354585f2bd9b8f04ecfcbd6277da9ff7.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e27946497e5ea4358c8b68990c2ce097.svg",
+            "https://ege.sdamgia.ru/formula/svg/80/8053af7aeab23ae33a4562b85f4f8143.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e1b3aa8ed7d64029f7cccdf97bdfd0a6.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/3740aaf2c89d0f281abc6075208e3d69.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

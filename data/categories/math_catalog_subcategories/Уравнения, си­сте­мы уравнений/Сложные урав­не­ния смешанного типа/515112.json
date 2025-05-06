@@ -1,0 +1,37 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 515112,
+    "condition": {
+        "text": "Дано уравнение а)  Решите уравнение.б)  Укажите корни этого уравнения, принадлежащие интервалу ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body635604\" class=\"pbody\"><p class=\"left_margin\">Дано&nbsp;урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/66/66f5e170d046238a951dd861f096010c.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\"\\log в квад­ра­те _3 левая круг­лая скоб­ка минус тан­генс x пра­вая круг­лая скоб­ка минус ло­га­рифм по ос­но­ва­нию 3 ко­рень из: на­ча­ло ар­гу­мен­та: минус тан­генс x конец ар­гу­мен­та =0.\"></p><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние.</p><p class=\"left_margin\">б)  Ука­жи­те корни этого урав­не­ния, при­над­ле­жа­щие ин­тер­ва­лу <img src=\"https://ege.sdamgia.ru/formula/svg/0e/0e574a72a4f4d165bc3cdd1002e464d7.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая круг­лая скоб­ка 4 Пи ; дробь: чис­ли­тель: 11 Пи , зна­ме­на­тель: 2 конец дроби пра­вая круг­лая скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/66/66f5e170d046238a951dd861f096010c.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0e574a72a4f4d165bc3cdd1002e464d7.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Обозначая  получаем уравнение  откуда  или Значит,  откуда  то есть  или  откуда  то есть б)  С помощью тригонометрической окружности отберем корни на интервале  Получим числа  Ответ: а)  б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol515112\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Обо­зна­чая <img src=\"https://ege.sdamgia.ru/formula/svg/03/03042112d56f4617232a761ca94a3a24.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\" ло­га­рифм по ос­но­ва­нию 3 левая круг­лая скоб­ка минус тан­генс x пра­вая круг­лая скоб­ка =t,\"> по­лу­ча­ем урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/d9/d982048b088bac36467b6e3144f172df.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" t в квад­ра­те минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби t=0,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/f9/f956f5b9e4db1fd4eb33fdc4e14fa9bf.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" t=0\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/15/1501fa443c65125cad54da9029f0fa4e.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" t= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби .\"><img src=\"/get_file?id=41772\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/68/68405384af23863b328a23270597280a.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\" ло­га­рифм по ос­но­ва­нию 3 левая круг­лая скоб­ка минус тан­генс x пра­вая круг­лая скоб­ка =0,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/0d/0d83a042f6a852700fa329d66078cf36.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\" минус тан­генс x=1,\"> то есть <img src=\"https://ege.sdamgia.ru/formula/svg/a6/a63691d826d35f5f2ef5f1aac0a39e82.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" x= минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби плюс Пи k \"> или <img src=\"https://ege.sdamgia.ru/formula/svg/25/25f7d83c98bc84e03381283e340d3f75.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" ло­га­рифм по ос­но­ва­нию 3 левая круг­лая скоб­ка минус тан­генс x пра­вая круг­лая скоб­ка = дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби ,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/ea/ea4af903bfb31efb9e3faf6e0b1a0729.svg\" class=\"tex\" style=\"vertical-align:-3.3pt\" alt=\" минус тан­генс x= ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та ,\"> то есть <img src=\"https://ege.sdamgia.ru/formula/svg/ee/eec55c9cfcef6b16f6854a32daf65677.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" x= минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 3 конец дроби плюс Пи k. \"></p><p class=\"left_margin\">б)  С по­мо­щью три­го­но­мет­ри­че­ской окруж­но­сти от­бе­рем корни на ин­тер­ва­ле <img src=\"https://ege.sdamgia.ru/formula/svg/0e/0e574a72a4f4d165bc3cdd1002e464d7.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая круг­лая скоб­ка 4 Пи ; дробь: чис­ли­тель: 11 Пи , зна­ме­на­тель: 2 конец дроби пра­вая круг­лая скоб­ка . \"> По­лу­чим числа <img src=\"https://ege.sdamgia.ru/formula/svg/da/da60dc0deaf765e426397dc3c224969f.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 19 Пи , зна­ме­на­тель: 4 конец дроби , дробь: чис­ли­тель: 14 Пи , зна­ме­на­тель: 3 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) <img src=\"https://ege.sdamgia.ru/formula/svg/8f/8ffa3e3eda30b0b0c0140c9994ea6c56.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" левая фи­гур­ная скоб­ка минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби плюс Пи k, минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 3 конец дроби плюс Пи k: k при­над­ле­жит Z пра­вая фи­гур­ная скоб­ка ; \"> б) <img src=\"https://ege.sdamgia.ru/formula/svg/74/748687e7e0aee81f9bc6ad9f7daedda0.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 19 Пи , зна­ме­на­тель: 4 конец дроби , дробь: чис­ли­тель: 14 Пи , зна­ме­на­тель: 3 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/03/03042112d56f4617232a761ca94a3a24.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d982048b088bac36467b6e3144f172df.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f956f5b9e4db1fd4eb33fdc4e14fa9bf.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/1501fa443c65125cad54da9029f0fa4e.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/68405384af23863b328a23270597280a.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0d83a042f6a852700fa329d66078cf36.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a63691d826d35f5f2ef5f1aac0a39e82.svg",
+            "https://ege.sdamgia.ru/formula/svg/25/25f7d83c98bc84e03381283e340d3f75.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/ea4af903bfb31efb9e3faf6e0b1a0729.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/eec55c9cfcef6b16f6854a32daf65677.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0e574a72a4f4d165bc3cdd1002e464d7.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/da60dc0deaf765e426397dc3c224969f.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8ffa3e3eda30b0b0c0140c9994ea6c56.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/748687e7e0aee81f9bc6ad9f7daedda0.svg",
+            "/get_file?id=41772"
+        ]
+    },
+    "answer": "а)  б)",
+    "topic_id": null,
+    "analog_ids": []
+}

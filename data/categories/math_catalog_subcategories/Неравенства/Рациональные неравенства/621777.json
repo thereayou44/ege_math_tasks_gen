@@ -1,0 +1,38 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 621777,
+    "condition": {
+        "text": "Решите неравенство ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body463405\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/9f/9fed098c10be95bdfc3fb4518d3535ff.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\"x в кубе плюс 3x в квад­ра­те плюс дробь: чис­ли­тель: 12x в квад­ра­те плюс 4x минус 20, зна­ме­на­тель: x минус 5 конец дроби мень­ше или равно 4. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/9f/9fed098c10be95bdfc3fb4518d3535ff.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Преобразуем неравенство: следовательно, x ⩽ −1, x  =  0 или 3 ⩽ x < 5. Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol621777\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пре­об­ра­зу­ем не­ра­вен­ство:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/09/09fb3b88d1b3419b64982b705a33e12f.svg\" class=\"tex\" style=\"vertical-align:-9.2pt\" alt=\"x в кубе плюс 3x в квад­ра­те плюс дробь: чис­ли­тель: 12x в квад­ра­те , зна­ме­на­тель: x минус 5 конец дроби \\leqslant0 рав­но­силь­но дробь: чис­ли­тель: x в сте­пе­ни 4 минус 2x в кубе минус 3x в квад­ра­те , зна­ме­на­тель: x минус 5 конец дроби \\leqslant0 рав­но­силь­но дробь: чис­ли­тель: x в квад­ра­те левая круг­лая скоб­ка x плюс 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x минус 3 пра­вая круг­лая скоб­ка , зна­ме­на­тель: x минус 5 конец дроби \\leqslant0, \"></p><p class=\"left_margin\"></p></center><p> сле­до­ва­тель­но, <i>x</i> ⩽ −1, <i>x</i>  =  0 или 3 ⩽ <i>x</i> &lt; 5.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/83/83e66464d7ed2efe59cb4787e1fd1c91.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка минус бес­ко­неч­ность ; минус 1 пра­вая квад­рат­ная скоб­ка \\cup левая фи­гур­ная скоб­ка 0 пра­вая фи­гур­ная скоб­ка \\cup левая квад­рат­ная скоб­ка 3;5 пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/09/09fb3b88d1b3419b64982b705a33e12f.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83e66464d7ed2efe59cb4787e1fd1c91.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": [
+        621777,
+        508423,
+        508534,
+        508536,
+        508423,
+        508534,
+        508536,
+        508538,
+        508580,
+        511566,
+        515726,
+        621906,
+        647137,
+        647157
+    ]
+}

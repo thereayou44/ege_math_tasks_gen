@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 505887,
+    "condition": {
+        "text": "В вершинах треугольника записано по натуральному числу, па каждой стороне  — произведение чисел, записанных в её концах, а внутри треугольника  — произведение чисел, записанных в его вершинах. Сумма всех семи чисел равна 1000. Какие числа записаны в вершинах треугольника?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body644835\" class=\"pbody\"><p class=\"left_margin\">В вер­ши­нах тре­уголь­ни­ка за­пи­са­но по на­ту­раль­но­му числу, па каж­дой сто­ро­не  — про­из­ве­де­ние чисел, за­пи­сан­ных в её кон­цах, а внут­ри тре­уголь­ни­ка  — про­из­ве­де­ние чисел, за­пи­сан­ных в его вер­ши­нах. Сумма всех семи чисел равна 1000. Какие числа за­пи­са­ны в вер­ши­нах тре­уголь­ни­ка?</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Пусть в вершинах треугольника стоят числа  Из условия следует равенство:Добавим к обеим частям единицу:    Ясно, что все скобки в левой части больше единицы, а все множители в правой части  — простые числа. Значит, с точностью до перестановки, числа     равны 7, 11, 13. Значит, числа в вершинах треугольника на единицу меньше и равны 6, 10, 12. Ответ: 6, 10, 12.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol505887\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть в вер­ши­нах тре­уголь­ни­ка стоят числа <img src=\"https://ege.sdamgia.ru/formula/svg/de/dedf4df588bcd709e06dd46d92482d94.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a,b,c.\"> Из усло­вия сле­ду­ет ра­вен­ство:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/18/181eb77a2877bd80e56af87d2dd2a64e.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"abc плюс ab плюс ac плюс bc плюс a плюс b плюс c=1000.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">До­ба­вим к обеим ча­стям еди­ни­цу:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/2b/2b9dab52d858d8246fa0fc357fc61529.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"abc плюс ab плюс ac плюс bc плюс a плюс b плюс c плюс 1=1001,\"></p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/5c/5cf83d1903ad09a072adab015a343978.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"ab левая круг­лая скоб­ка c плюс 1 пра­вая круг­лая скоб­ка плюс a левая круг­лая скоб­ка c плюс 1 пра­вая круг­лая скоб­ка плюс b левая круг­лая скоб­ка c плюс 1 пра­вая круг­лая скоб­ка плюс c плюс 1=7 умно­жить на 11 умно­жить на 13,\"></p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/a2/a2f1ca018d7befe391c13b58098c7a95.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка c плюс 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка ab плюс a плюс b плюс 1 пра­вая круг­лая скоб­ка =7 умно­жить на 11 умно­жить на 13,\"></p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/5e/5e5cf1fd79754ab2cd0ba7cadd826c27.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка c плюс 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка a плюс 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка b плюс 1 пра­вая круг­лая скоб­ка =7 умно­жить на 11 умно­жить на 13.\"></p><p class=\"left_margin\"></p></center> <p class=\"left_margin\">Ясно, что все скоб­ки в левой части боль­ше еди­ни­цы, а все мно­жи­те­ли в пра­вой части  — про­стые числа. Зна­чит, с точ­но­стью до пе­ре­ста­нов­ки, числа <img src=\"https://ege.sdamgia.ru/formula/svg/1d/1dd8afb8eb6df68c31436606189b8d8a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a плюс 1,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/28/28681daa7547a294f964586ae2b7d34b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"b плюс 1,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/b8/b87a2940b9c94f95294943e8f3e8b3a9.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"c плюс 1\">  равны 7, 11, 13. Зна­чит, числа в вер­ши­нах тре­уголь­ни­ка на еди­ни­цу мень­ше и равны 6, 10, 12.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 6, 10, 12.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/de/dedf4df588bcd709e06dd46d92482d94.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/181eb77a2877bd80e56af87d2dd2a64e.svg",
+            "https://ege.sdamgia.ru/formula/svg/2b/2b9dab52d858d8246fa0fc357fc61529.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5cf83d1903ad09a072adab015a343978.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a2f1ca018d7befe391c13b58098c7a95.svg",
+            "https://ege.sdamgia.ru/formula/svg/5e/5e5cf1fd79754ab2cd0ba7cadd826c27.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1dd8afb8eb6df68c31436606189b8d8a.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/28681daa7547a294f964586ae2b7d34b.svg",
+            "https://ege.sdamgia.ru/formula/svg/b8/b87a2940b9c94f95294943e8f3e8b3a9.svg"
+        ]
+    },
+    "answer": "6, 10, 12.",
+    "topic_id": null,
+    "analog_ids": []
+}

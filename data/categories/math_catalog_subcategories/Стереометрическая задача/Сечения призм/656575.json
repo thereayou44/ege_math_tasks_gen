@@ -1,0 +1,36 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 656575,
+    "condition": {
+        "text": "В правильной четырехугольной призме ABCDA1B1C1D1 плоскость α проходит через вершины B1 и D, пересекает стороны AA1 и CC1 в точках M и K соответственно, а сечение призмы плоскостью α является ромбом. а)  Докажите, что точка M  — середина ребра AA1.б)  Найдите высоту призмы, если площадь основания равна 3, а площадь сечения равна 6.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body289347\" class=\"pbody\"><p class=\"left_margin\">В пра­виль­ной че­ты­рех­уголь­ной приз­ме <i>ABCDA</i><sub>1</sub><i>B</i><sub>1</sub><i>C</i><sub>1</sub><i>D</i><sub>1</sub> плос­кость α про­хо­дит через вер­ши­ны <i>B</i><sub>1</sub> и <i>D</i>, пе­ре­се­ка­ет сто­ро­ны <i>AA</i><sub>1</sub> и <i>CC</i><sub>1</sub> в точ­ках <i>M</i> и <i>K</i> со­от­вет­ствен­но, а се­че­ние приз­мы плос­ко­стью α яв­ля­ет­ся ром­бом. </p><p class=\"left_margin\">а)  До­ка­жи­те, что точка <i>M</i>  — се­ре­ди­на ребра <i>AA</i><sub>1</sub>.</p><p class=\"left_margin\">б)  Най­ди­те вы­со­ту приз­мы, если пло­щадь ос­но­ва­ния равна 3, а пло­щадь се­че­ния равна 6.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  По условию MB1KD  — ромб. Рассмотрим треугольники AMD и A1MB1. Заметим, что  поскольку призма правильная,  и  так как MB1KD  — ромб. Таким образом, прямоугольные треугольники AMD и A1MB1 равны по катету и гипотенузе, следовательно, б)  Аналогично пункту а) получаем, что  Следовательно, отрезок MK параллелен диагонали основания AC, а его длина равна так как Сечение призмы  — ромб, его площадь равна половине произведения диагоналей:откуда  Обозначим высоту призмы h. Тогда   откуда  Из полученного уравнения находим, что  Ответ: б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol656575\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=170911\" style=\"float:right;margin:10px;max-width:100%\">а)  По усло­вию <i>MB</i><sub>1</sub><i>KD</i>  — ромб. Рас­смот­рим тре­уголь­ни­ки <i>AMD</i> и <i>A</i><sub>1</sub><i>MB</i><sub>1</sub>. За­ме­тим, что <img src=\"https://ege.sdamgia.ru/formula/svg/fd/fd29f1f38dc94e87d83d6efc29459ad3.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AD = AB = A_1 B_1,\"> по­сколь­ку приз­ма пра­виль­ная,  и <img src=\"https://ege.sdamgia.ru/formula/svg/80/80a95aeed5c43bcd3d343937617a34cb.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"B_1M = MD,\"> так как <i>MB</i><sub>1</sub><i>KD</i>  — ромб. Таким об­ра­зом, пря­мо­уголь­ные тре­уголь­ни­ки <i>AMD</i> и <i>A</i><sub>1</sub><i>MB</i><sub>1</sub> равны по ка­те­ту и ги­по­те­ну­зе, сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/f3/f306887f81ea9088f0368bcf1365cd98.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"A_1 M = MA.\"></p><p class=\"left_margin\">б)  Ана­ло­гич­но пунк­ту а) по­лу­ча­ем, что <img src=\"https://ege.sdamgia.ru/formula/svg/ff/ffd0f94cc6833ff8a548a05ae26a6c74.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"CK = KC_1.\"> Сле­до­ва­тель­но, от­ре­зок <i>MK</i> па­рал­ле­лен диа­го­на­ли ос­но­ва­ния <i>AC</i>, а его длина равна</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d8/d8625af51468aad7ccdfd3830a8db779.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"MK = AC = BD = ко­рень из 2 AB = ко­рень из 2 умно­жить на ко­рень из 3 = ко­рень из 6 ,\"></p><p class=\"left_margin\"></p></center><p> так как <img src=\"https://ege.sdamgia.ru/formula/svg/ff/ffaac3cee0073de1eb5e8c97538d5979.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AB в квад­ра­те = 3.\"></p><p class=\"left_margin\">Се­че­ние приз­мы  — ромб, его пло­щадь равна по­ло­ви­не про­из­ве­де­ния диа­го­на­лей:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/99/997cec22ce82d6bfc13ef8961f74f70c.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S_MB_1KD = дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на MK умно­жить на B_1D = дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на ко­рень из 6 умно­жить на B_1D = 6,\"></p><p class=\"left_margin\"></p></center><p>от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/16/1619fd7553480638d5b0acaa75f2f916.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"B_1D = 2 ко­рень из 6 .\"> </p><p class=\"left_margin\">Обо­зна­чим вы­со­ту приз­мы <i>h</i>. Тогда  <img src=\"https://ege.sdamgia.ru/formula/svg/ea/ea0bc0bd035129ff1d434c5c1a49a06b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"B_1 D в квад­ра­те = h в квад­ра­те плюс BD в квад­ра­те ,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/3b/3b699c406b440ee519a2ee6098ab6c57.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"24 = h в квад­ра­те плюс 6.\"> Из по­лу­чен­но­го урав­не­ния на­хо­дим, что <img src=\"https://ege.sdamgia.ru/formula/svg/f6/f6cdb471ebc74e0567ad89459c7ecca4.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"h = 3 ко­рень из 2 .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) <img src=\"https://ege.sdamgia.ru/formula/svg/d4/d4f9b81c05479dd259c240ec126342b3.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"3 ко­рень из 2 .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/fd/fd29f1f38dc94e87d83d6efc29459ad3.svg",
+            "https://ege.sdamgia.ru/formula/svg/80/80a95aeed5c43bcd3d343937617a34cb.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f306887f81ea9088f0368bcf1365cd98.svg",
+            "https://ege.sdamgia.ru/formula/svg/ff/ffd0f94cc6833ff8a548a05ae26a6c74.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d8625af51468aad7ccdfd3830a8db779.svg",
+            "https://ege.sdamgia.ru/formula/svg/ff/ffaac3cee0073de1eb5e8c97538d5979.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/997cec22ce82d6bfc13ef8961f74f70c.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/1619fd7553480638d5b0acaa75f2f916.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/ea0bc0bd035129ff1d434c5c1a49a06b.svg",
+            "https://ege.sdamgia.ru/formula/svg/3b/3b699c406b440ee519a2ee6098ab6c57.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f6cdb471ebc74e0567ad89459c7ecca4.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d4f9b81c05479dd259c240ec126342b3.svg",
+            "/get_file?id=170911"
+        ]
+    },
+    "answer": "б)",
+    "topic_id": 14,
+    "analog_ids": [
+        656575,
+        660953,
+        661140
+    ]
+}

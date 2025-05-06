@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 527599,
+    "condition": {
+        "text": "Решите неравенство: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body418323\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те&nbsp;не­ра­вен­ство: <img src=\"https://ege.sdamgia.ru/formula/svg/b9/b91678919a3496052172ae2c159e3c13.svg\" class=\"tex\" style=\"vertical-align:-19.3pt\" alt=\" дробь: чис­ли­тель: левая круг­лая скоб­ка 2 в сте­пе­ни x минус 8 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка де­ся­тич­ный ло­га­рифм x минус 1 пра­вая круг­лая скоб­ка , зна­ме­на­тель: левая круг­лая скоб­ка ло­га­рифм по ос­но­ва­нию дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби x плюс 1 пра­вая круг­лая скоб­ка ко­рень из: на­ча­ло ар­гу­мен­та: 12 минус x конец ар­гу­мен­та конец дроби боль­ше 0. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b9/b91678919a3496052172ae2c159e3c13.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Найдем ОДЗ неравенства. Ясно, что   и  то есть  При этих условиях  определен и положителен, то есть не влияет на знак. Остальное можно рационализировать:Учитывая ОДЗ, получим окончательный ответ:  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol527599\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Най­дем ОДЗ не­ра­вен­ства. Ясно, что <img src=\"https://ege.sdamgia.ru/formula/svg/35/35a3e49f0d55eb333b6533eedd3a1fa4.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x боль­ше 0,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/71/71458fef0211a36a2091c3336a1355d4.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x мень­ше 12\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/b3/b330942c36a2c42465349852db9049f2.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x не равно 2,\"> то есть <img src=\"https://ege.sdamgia.ru/formula/svg/53/53c742f8643975a24b1711ff1b919b2c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x при­над­ле­жит левая круг­лая скоб­ка 0;2 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 2;12 пра­вая круг­лая скоб­ка .\"> При этих усло­ви­ях <img src=\"https://ege.sdamgia.ru/formula/svg/ac/ac3b3834604b72ce2ba48500dd743f05.svg\" class=\"tex\" style=\"vertical-align:-2.1pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 12 минус x конец ар­гу­мен­та \"> опре­де­лен и по­ло­жи­те­лен, то есть не вли­я­ет на знак. Осталь­ное можно ра­ци­о­на­ли­зи­ро­вать:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ae/ae17f7c7edbd1c3ecb4665372e8e22e7.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\" дробь: чис­ли­тель: левая круг­лая скоб­ка 2 в сте­пе­ни x минус 2 в кубе пра­вая круг­лая скоб­ка левая круг­лая скоб­ка де­ся­тич­ный ло­га­рифм x минус де­ся­тич­ный ло­га­рифм 10 пра­вая круг­лая скоб­ка , зна­ме­на­тель: 1 минус ло­га­рифм по ос­но­ва­нию 2 x конец дроби боль­ше 0 рав­но­силь­но дробь: чис­ли­тель: левая круг­лая скоб­ка 2 в сте­пе­ни x минус 2 в кубе пра­вая круг­лая скоб­ка левая круг­лая скоб­ка де­ся­тич­ный ло­га­рифм x минус де­ся­тич­ный ло­га­рифм 10 пра­вая круг­лая скоб­ка , зна­ме­на­тель: ло­га­рифм по ос­но­ва­нию 2 2 минус ло­га­рифм по ос­но­ва­нию 2 x конец дроби боль­ше 0 рав­но­силь­но \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/a9/a9f0a0a14cc3dfeee598f159974d69dd.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" рав­но­силь­но дробь: чис­ли­тель: левая круг­лая скоб­ка x минус 3 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x минус 10 пра­вая круг­лая скоб­ка , зна­ме­на­тель: 2 минус x конец дроби боль­ше 0 рав­но­силь­но x при­над­ле­жит левая круг­лая скоб­ка минус бес­ко­неч­ность ;2 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 3;10 пра­вая круг­лая скоб­ка . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Учи­ты­вая ОДЗ, по­лу­чим окон­ча­тель­ный ответ: <img src=\"https://ege.sdamgia.ru/formula/svg/08/0800edcd574e700734ac52511c0e9cc4.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x при­над­ле­жит левая круг­лая скоб­ка 0;2 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 3;10 пра­вая круг­лая скоб­ка .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/08/0800edcd574e700734ac52511c0e9cc4.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x при­над­ле­жит левая круг­лая скоб­ка 0;2 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 3;10 пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/35/35a3e49f0d55eb333b6533eedd3a1fa4.svg",
+            "https://ege.sdamgia.ru/formula/svg/71/71458fef0211a36a2091c3336a1355d4.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b330942c36a2c42465349852db9049f2.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/53c742f8643975a24b1711ff1b919b2c.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/ac3b3834604b72ce2ba48500dd743f05.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/ae17f7c7edbd1c3ecb4665372e8e22e7.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a9f0a0a14cc3dfeee598f159974d69dd.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/0800edcd574e700734ac52511c0e9cc4.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/0800edcd574e700734ac52511c0e9cc4.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

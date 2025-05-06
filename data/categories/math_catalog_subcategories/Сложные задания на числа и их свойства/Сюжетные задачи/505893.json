@@ -1,0 +1,26 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 505893,
+    "condition": {
+        "text": "Лужков и Батурина поворачивают с Рублевки на МКАД в разные стороны  — Лужков  — налево, Батурина  — направо. За сколько минут каждый из них проезжает полный круг по МКАД, если известно, что Лужков тратит на 12 минут меньше Батуриной, при этом проезжая круг не быстрее 31 минуты. Время проезда одного круга измеряется целым числом минут и их седьмая встреча произошла снова на Рублёвке.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body644825\" class=\"pbody\"><p class=\"left_margin\">Луж­ков и Ба­ту­ри­на по­во­ра­чи­ва­ют с Руб­лев­ки на МКАД в раз­ные сто­ро­ны  — Луж­ков  — на­ле­во, Ба­ту­ри­на  — на­пра­во. За сколь­ко минут каж­дый из них про­ез­жа­ет пол­ный круг по МКАД, если из­вест­но, что Луж­ков тра­тит на 12 минут мень­ше Ба­ту­ри­ной, при этом про­ез­жая круг не быст­рее 31 ми­ну­ты. Время про­ез­да од­но­го круга из­ме­ря­ет­ся целым чис­лом минут и их седь­мая встре­ча про­изо­шла снова на Рублёвке.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Пусть Лужков проезжает круг за n минут, а Батурина за  минут.Известно, что  В промежутке между встречами Лужков и Батурина проезжают в сумме ровно один круг. Значит, к моменту 7-й встречи они проехали в сумме 7 кругов, причем каждый из них проехал целое число кругов. Лужков проехал больше кругов, чем Батурина  — 6, 5 или 4. Таким образом, получаем три возможных случая:Из уравнений получаем, что   или  Условию удовлетворяет только последний вариант. Тогда  Ответ: 36 и 48.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol505893\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть Луж­ков про­ез­жа­ет круг за <i>n</i> минут, а Ба­ту­ри­на за <img src=\"https://ege.sdamgia.ru/formula/svg/6e/6e794cc03be93e51b1af9ccfe4045a45.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"n плюс 12\"> минут.</p><p class=\"left_margin\">Из­вест­но, что <img src=\"https://ege.sdamgia.ru/formula/svg/b5/b59f5755f49ff580dd017514c54a8c3e.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"n\\geqslant31.\"> В про­ме­жут­ке между встре­ча­ми Луж­ков и Ба­ту­ри­на про­ез­жа­ют в сумме ровно один круг. Зна­чит, к мо­мен­ту 7-й встре­чи они про­еха­ли в сумме 7 кру­гов, при­чем каж­дый из них про­ехал целое число кру­гов. Луж­ков про­ехал боль­ше кру­гов, чем Ба­ту­ри­на  — 6, 5 или 4. Таким об­ра­зом, по­лу­ча­ем три воз­мож­ных слу­чая:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/71/718bb5325c6c72b82fac7537eac9c19e.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"6 умно­жить на n=1 умно­жить на левая круг­лая скоб­ка n плюс 12 пра­вая круг­лая скоб­ка , 5 умно­жить на n=2 умно­жить на левая круг­лая скоб­ка n плюс 12 пра­вая круг­лая скоб­ка , 4 умно­жить на n=3 умно­жить на левая круг­лая скоб­ка n плюс 12 пра­вая круг­лая скоб­ка .\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Из урав­не­ний по­лу­ча­ем, что <img src=\"https://ege.sdamgia.ru/formula/svg/9b/9b60406631f22c2f31f5b004d63fc9f9.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"n=2,4\"> <img src=\"https://ege.sdamgia.ru/formula/svg/66/662f2f63485160658057cdacac083dc8.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"n=8\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/8d/8d19b794a2845d650e878d0bd574c152.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"n=36.\"> Усло­вию удо­вле­тво­ря­ет толь­ко по­след­ний ва­ри­ант. <nobr>Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/8d/8db839ee6670b082e6ea73326122fea6.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"n плюс 12=48.\"></nobr></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 36 и 48.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/6e/6e794cc03be93e51b1af9ccfe4045a45.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b59f5755f49ff580dd017514c54a8c3e.svg",
+            "https://ege.sdamgia.ru/formula/svg/71/718bb5325c6c72b82fac7537eac9c19e.svg",
+            "https://ege.sdamgia.ru/formula/svg/9b/9b60406631f22c2f31f5b004d63fc9f9.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/662f2f63485160658057cdacac083dc8.svg",
+            "https://ege.sdamgia.ru/formula/svg/8d/8d19b794a2845d650e878d0bd574c152.svg",
+            "https://ege.sdamgia.ru/formula/svg/8d/8db839ee6670b082e6ea73326122fea6.svg"
+        ]
+    },
+    "answer": "36 и 48.",
+    "topic_id": null,
+    "analog_ids": []
+}

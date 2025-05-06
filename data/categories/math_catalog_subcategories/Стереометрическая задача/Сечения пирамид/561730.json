@@ -1,0 +1,29 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 561730,
+    "condition": {
+        "text": "В правильной четырёхугольной пирамиде SABCD боковое ребро SA равно 12, а сторона основания AB равна 6. В боковых гранях SAB и SAD провели биссектрисы AL и AM соответственно.а)  Докажите, что сечение пирамиды плоскостью ALM делит ребро SC пополам.б)  Найдите площадь сечения пирамиды плоскостью ALM.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body457918\" class=\"pbody\"><p class=\"left_margin\">В пра­виль­ной четырёхуголь­ной пи­ра­ми­де <i>SABCD</i> бо­ко­вое ребро <i>SA</i> равно 12, а сто­ро­на ос­но­ва­ния <i>AB</i> равна 6. В бо­ко­вых гра­нях <i>SAB</i> и <i>SAD</i> про­ве­ли бис­сек­три­сы <i>AL</i> и <i>AM</i> со­от­вет­ствен­но.</p><p class=\"left_margin\">а)  До­ка­жи­те, что се­че­ние пи­ра­ми­ды плос­ко­стью <i>ALM</i> делит ребро <i>SC</i> по­по­лам.</p><p class=\"left_margin\">б)  Най­ди­те пло­щадь се­че­ния пи­ра­ми­ды плос­ко­стью <i>ALM</i>.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Пусть сечение пирамиды плоскостью ALM пересекает ребро SC в точке K. По свойству биссектрисы Из подобия треугольников LSM и BSD следует, что SN : ON  =  2 : 1. Таким образом, N  — точка пересечения медиан в треугольнике ASC, а AK  — медиана. Поэтому SK  =  CK.б)  Поскольку диагонали сечения LM и AK перпендикулярны,  Имеем  В треугольнике ACK по теореме косинусов Тогда  Ответ: б) 24.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol561730\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=141626\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Пусть се­че­ние пи­ра­ми­ды плос­ко­стью <i>ALM</i> пе­ре­се­ка­ет ребро <i>SC</i> в точке <i>K</i>. По свой­ству бис­сек­три­сы </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/24/24b0d91204f8c0edd60e383ca2394065.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" дробь: чис­ли­тель: SM, зна­ме­на­тель: DM конец дроби = дробь: чис­ли­тель: SL, зна­ме­на­тель: BL конец дроби = дробь: чис­ли­тель: SA, зна­ме­на­тель: AB конец дроби =2. \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Из по­до­бия тре­уголь­ни­ков <i>LSM</i> и <i>BSD</i> сле­ду­ет, что <i>SN</i> : <i>ON</i>  =  2 : 1. Таким об­ра­зом, <i>N</i>  — точка пе­ре­се­че­ния ме­ди­ан в тре­уголь­ни­ке <i>ASC</i>, а <i>AK</i>  — ме­ди­а­на. По­это­му <i>SK</i>  =  <i>CK</i>.</p><p class=\"left_margin\">б)  По­сколь­ку диа­го­на­ли се­че­ния <i>LM</i> и <i>AK</i> пер­пен­ди­ку­ляр­ны, </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/63/6365bf23b016cc14c426a684f5c19033.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"S_ALKM= дробь: чис­ли­тель: AK умно­жить на LM, зна­ме­на­тель: 2 конец дроби . \"></p><p class=\"left_margin\"></p></center><p> Имеем </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/3c/3c48aecd7869b0faeb4afd44babfee4d.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"LM= дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби BD=4 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та . \"></p><p class=\"left_margin\"></p></center><p> В тре­уголь­ни­ке <i>ACK</i> по тео­ре­ме ко­си­ну­сов</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/c7/c77546365d0192f61697b9c5eb63a3df.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AK в квад­ра­те =AC в квад­ра­те плюс CK в квад­ра­те минус 2 умно­жить на AC умно­жить на CK умно­жить на ко­си­нус \\angle ACK рав­но­силь­но \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/2a/2abfe171dff49311eff477475e4d3408.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" рав­но­силь­но ко­си­нус \\angle ACK= дробь: чис­ли­тель: CO, зна­ме­на­тель: SC конец дроби = дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та , зна­ме­на­тель: 4 конец дроби рав­но­силь­но AK=6 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та . \"></p><p class=\"left_margin\"></p></center><p> Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/69/6927cc366afdb126ed3e2f64a1304ff6.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"S_ALKM=24.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) 24.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/24/24b0d91204f8c0edd60e383ca2394065.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/6365bf23b016cc14c426a684f5c19033.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3c48aecd7869b0faeb4afd44babfee4d.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c77546365d0192f61697b9c5eb63a3df.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2abfe171dff49311eff477475e4d3408.svg",
+            "https://ege.sdamgia.ru/formula/svg/69/6927cc366afdb126ed3e2f64a1304ff6.svg",
+            "/get_file?id=141626"
+        ]
+    },
+    "answer": "б) 24.",
+    "topic_id": 14,
+    "analog_ids": [
+        561730,
+        561771
+    ]
+}

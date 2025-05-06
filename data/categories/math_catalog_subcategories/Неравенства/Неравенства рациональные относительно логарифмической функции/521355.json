@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521355,
+    "condition": {
+        "text": "Решите неравенство: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629367\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те&nbsp;не­ра­вен­ство: <img src=\"https://ege.sdamgia.ru/formula/svg/da/da96b99ea418dafc086a6dd470a33430.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\" дробь: чис­ли­тель: 5 минус 7 ло­га­рифм по ос­но­ва­нию x 3, зна­ме­на­тель: ло­га­рифм по ос­но­ва­нию 3 x минус ло­га­рифм по ос­но­ва­нию x 3 конец дроби боль­ше или равно 1. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/da/da96b99ea418dafc086a6dd470a33430.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Пусть  Тогда  то есть  при этом  Решая полученное неравенство методом интервалов, находим:  откуда  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521355\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/3d/3dd942e23e01df7ddd93d8a2df4ccb98.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\" ло­га­рифм по ос­но­ва­нию 3 x=t.\"> Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/ca/ca10a13ff7c43eafcb7eb2b89535d7c2.svg\" class=\"tex\" style=\"vertical-align:-13.1pt\" alt=\" дробь: чис­ли­тель: 5 минус дробь: чис­ли­тель: 7, зна­ме­на­тель: t конец дроби , зна­ме­на­тель: t минус дробь: чис­ли­тель: 1, зна­ме­на­тель: t конец дроби конец дроби боль­ше или равно 1, \"> то есть <img src=\"https://ege.sdamgia.ru/formula/svg/71/71e50cddee14b6e4d1411a4353b04ae1.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: минус t в квад­ра­те плюс 5t минус 6, зна­ме­на­тель: t в квад­ра­те минус 1 конец дроби боль­ше или равно 0, \"> при этом <img src=\"https://ege.sdamgia.ru/formula/svg/0c/0c6599c6706d929bb81adbc325ea4c4b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"t не равно 0.\"> Решая по­лу­чен­ное не­ра­вен­ство ме­то­дом ин­тер­ва­лов, на­хо­дим: <img src=\"https://ege.sdamgia.ru/formula/svg/e8/e8f8483fb7ee39f708940e244a1a753c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"t при­над­ле­жит левая круг­лая скоб­ка минус 1;0 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 0;1 пра­вая круг­лая скоб­ка \\cup левая квад­рат­ная скоб­ка 2;3 пра­вая квад­рат­ная скоб­ка ,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/1c/1cf94ea73aac6f89d6f1d796b85ea353.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"x при­над­ле­жит левая круг­лая скоб­ка дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби ;1 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 1;3 пра­вая круг­лая скоб­ка \\cup левая квад­рат­ная скоб­ка 9;27 пра­вая квад­рат­ная скоб­ка \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/3c/3c424a1a7abd9b0317195e494caf5758.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая круг­лая скоб­ка дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби ;1 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 1;3 пра­вая круг­лая скоб­ка \\cup левая квад­рат­ная скоб­ка 9;27 пра­вая квад­рат­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/3d/3dd942e23e01df7ddd93d8a2df4ccb98.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/ca10a13ff7c43eafcb7eb2b89535d7c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/71/71e50cddee14b6e4d1411a4353b04ae1.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c6599c6706d929bb81adbc325ea4c4b.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e8f8483fb7ee39f708940e244a1a753c.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1cf94ea73aac6f89d6f1d796b85ea353.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3c424a1a7abd9b0317195e494caf5758.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": []
+}

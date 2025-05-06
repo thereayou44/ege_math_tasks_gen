@@ -1,0 +1,25 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 505901,
+    "condition": {
+        "text": "Основанием пирамиды служит параллелограмм ABCD. Через сторону AB и середину K бокового ребра проведена плоскость. Найти отношение объемов получившихся частей.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body644817\" class=\"pbody\"><p class=\"left_margin\">Ос­но­ва­ни­ем пи­ра­ми­ды слу­жит па­рал­ле­ло­грамм <i>ABCD</i>. Через сто­ро­ну <i>AB</i> и се­ре­ди­ну <i>K</i> бо­ко­во­го ребра про­ве­де­на плос­кость. Найти от­но­ше­ние объ­е­мов по­лу­чив­ших­ся ча­стей.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Обозначим объем всей пирамиды за V. Пусть S  — вершина пирамиды, а K и L  — середины ребер SC и SD соответственно. Тогда  поэтому сечение пирамиды  — трапеция ABKL.  Значит, объем нижней части равен   и ответ 3 : 5. Ответ:  3 : 5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol505901\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=26159\" style=\"float:right;margin:10px\"></p><p class=\"left_margin\">Обо­зна­чим объем всей пи­ра­ми­ды за <i>V</i>. Пусть <i>S</i>  — вер­ши­на пи­ра­ми­ды, а <i>K</i> и <i>L</i>  — се­ре­ди­ны ребер <i>SC</i> и <i>SD</i> со­от­вет­ствен­но. Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/5c/5c929e227c2da7525f6e73fedb6ac3ae.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"KL\\parallel CD\\parallel AB,\"> по­это­му се­че­ние пи­ра­ми­ды  — тра­пе­ция <i>ABKL</i>.</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/9a/9aa75f361d2d6a8e1491f6d548cb52ba.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"V_SABKL=V_SABL плюс V_SBKL= дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби S_SABd левая круг­лая скоб­ка L,SAB пра­вая круг­лая скоб­ка плюс дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби S_SLKd левая круг­лая скоб­ка B,SLK пра­вая круг­лая скоб­ка = \"></p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/e1/e15bea3a049d1a3a11ae201cb3e3717c.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 1, зна­ме­на­тель: 6 конец дроби S_SABd левая круг­лая скоб­ка D,SAB пра­вая круг­лая скоб­ка плюс дробь: чис­ли­тель: 1, зна­ме­на­тель: 12 конец дроби S_SDCd левая круг­лая скоб­ка B,SDC пра­вая круг­лая скоб­ка = \"></p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/be/be25957894f60b97d1dc5e727b4129e6.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби V_SABD плюс дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби V_SBCD= дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби V плюс дробь: чис­ли­тель: 1, зна­ме­на­тель: 8 конец дроби V= дробь: чис­ли­тель: 3, зна­ме­на­тель: 8 конец дроби V. \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Зна­чит, объем ниж­ней части равен <img src=\"https://ege.sdamgia.ru/formula/svg/23/23833f781d41b98ede99fdeb10575530.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 5, зна­ме­на­тель: 8 конец дроби V \">  и ответ 3 : 5.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  3 : 5.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/5c/5c929e227c2da7525f6e73fedb6ac3ae.svg",
+            "https://ege.sdamgia.ru/formula/svg/9a/9aa75f361d2d6a8e1491f6d548cb52ba.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e15bea3a049d1a3a11ae201cb3e3717c.svg",
+            "https://ege.sdamgia.ru/formula/svg/be/be25957894f60b97d1dc5e727b4129e6.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/23833f781d41b98ede99fdeb10575530.svg",
+            "/get_file?id=26159"
+        ]
+    },
+    "answer": "3 : 5.",
+    "topic_id": null,
+    "analog_ids": []
+}

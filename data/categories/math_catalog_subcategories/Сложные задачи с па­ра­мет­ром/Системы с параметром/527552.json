@@ -1,0 +1,34 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 527552,
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых системаимеет единственное решение.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body418364\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния па­ра­мет­ра <i>a</i>, при каж­дом из ко­то­рых си­сте­ма</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/90/9047236d63c26c1a0629872a1efd2b33.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний x в кубе минус левая круг­лая скоб­ка a плюс 3 пра­вая круг­лая скоб­ка x в квад­ра­те плюс левая круг­лая скоб­ка 3a плюс 2 пра­вая круг­лая скоб­ка x минус 2a\\geqslant0,x в кубе минус левая круг­лая скоб­ка a плюс 3 пра­вая круг­лая скоб­ка x в квад­ра­те плюс 3ax\\leqslant0 конец си­сте­мы . \"></p><p class=\"left_margin\"></p></center><p>имеет един­ствен­ное ре­ше­ние.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/90/9047236d63c26c1a0629872a1efd2b33.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Перепишем неравенства в виде  и  Ясно что  подходит. Значит, других решений быть не должно.При  неравенства превращаются в  и  В них годятся  поэтому все такие x не должны подойти в неравенство  Значит,  При  неравенства превращаются в  и  Так вообще не может быть. Поэтому этот случай не накладывает новых ограничений на a. Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol527552\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пе­ре­пи­шем не­ра­вен­ства в виде <img src=\"https://ege.sdamgia.ru/formula/svg/7a/7a5846b8f601cf8c46d1962eb3240864.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка x минус a пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x минус 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x минус 2 пра­вая круг­лая скоб­ка боль­ше или равно 0\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/60/60fffb5f6b256d2b274e747874be8e83.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x левая круг­лая скоб­ка x минус a пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x минус 3 пра­вая круг­лая скоб­ка мень­ше или равно 0.\"> Ясно что <img src=\"https://ege.sdamgia.ru/formula/svg/50/50a20ce04c291ac897290a4f2e3bc9e2.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=a\"> под­хо­дит. Зна­чит, дру­гих ре­ше­ний быть не долж­но.</p><p class=\"left_margin\">При <img src=\"https://ege.sdamgia.ru/formula/svg/0d/0d2876b89cf5452c755b6685369b8591.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x боль­ше a\"> не­ра­вен­ства пре­вра­ща­ют­ся в <img src=\"https://ege.sdamgia.ru/formula/svg/ce/cef8ca5c5200d5ccafe38e5d57111258.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка x минус 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x минус 2 пра­вая круг­лая скоб­ка боль­ше или равно 0\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/5c/5caa890f8087f7f9e65ac4720c8abf3c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x левая круг­лая скоб­ка x минус 3 пра­вая круг­лая скоб­ка мень­ше или равно 0.\"> В них го­дят­ся <img src=\"https://ege.sdamgia.ru/formula/svg/53/531491716c62a228622f3a4c51b57a1c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x при­над­ле­жит левая квад­рат­ная скоб­ка 0;1 пра­вая квад­рат­ная скоб­ка \\cup левая квад­рат­ная скоб­ка 2;3 пра­вая квад­рат­ная скоб­ка ,\"> по­это­му все такие <i>x</i> не долж­ны по­дой­ти в не­ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/7b/7bdb2b31b86006bebe22ad181f14346c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x боль­ше a.\"> Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/c3/c38015adf48a0cde6bb0e8f9853af9bb.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"a боль­ше или равно 3.\"> </p><p class=\"left_margin\">При <img src=\"https://ege.sdamgia.ru/formula/svg/d9/d9c99a803d4b1ba21942260c18768ffa.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x мень­ше a\"> не­ра­вен­ства пре­вра­ща­ют­ся в <img src=\"https://ege.sdamgia.ru/formula/svg/3c/3ca07fe4d192a1e70df308b90f028a97.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка x минус 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x минус 2 пра­вая круг­лая скоб­ка мень­ше или равно 0\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/14/14da62548ed5436e0c622ab119ec5c3f.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x левая круг­лая скоб­ка x минус 3 пра­вая круг­лая скоб­ка боль­ше или равно 0.\"> Так во­об­ще не может быть. По­это­му этот слу­чай не на­кла­ды­ва­ет новых огра­ни­че­ний на <i>a</i>.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/c3/c38015adf48a0cde6bb0e8f9853af9bb.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"a боль­ше или равно 3.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/7a/7a5846b8f601cf8c46d1962eb3240864.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/60fffb5f6b256d2b274e747874be8e83.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50a20ce04c291ac897290a4f2e3bc9e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0d2876b89cf5452c755b6685369b8591.svg",
+            "https://ege.sdamgia.ru/formula/svg/ce/cef8ca5c5200d5ccafe38e5d57111258.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5caa890f8087f7f9e65ac4720c8abf3c.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/531491716c62a228622f3a4c51b57a1c.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7bdb2b31b86006bebe22ad181f14346c.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c38015adf48a0cde6bb0e8f9853af9bb.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d9c99a803d4b1ba21942260c18768ffa.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3ca07fe4d192a1e70df308b90f028a97.svg",
+            "https://ege.sdamgia.ru/formula/svg/14/14da62548ed5436e0c622ab119ec5c3f.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c38015adf48a0cde6bb0e8f9853af9bb.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

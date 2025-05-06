@@ -1,0 +1,59 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 77472,
+    "condition": {
+        "text": "Найдите точку минимума функции ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body999516\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те точку ми­ни­му­ма функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/ec/ec916733b4b8f2ad302e88a54c0c66e6.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"y= дробь: чис­ли­тель: 25, зна­ме­на­тель: x конец дроби плюс x плюс 25. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ec/ec916733b4b8f2ad302e88a54c0c66e6.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Найдем производную заданной функции:  Найдем нули производной:  Определим знаки производной функции и изобразим на рисунке поведение функции: Искомая точка минимума   Ответ: 5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol77472\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Най­дем про­из­вод­ную за­дан­ной функ­ции: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/7a/7a8fc5fa6022de3aa9bc68c98ca3098d.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"y'=1 минус дробь: чис­ли­тель: 25, зна­ме­на­тель: x в квад­ра­те конец дроби . \"></p><p class=\"left_margin\"></p></center> <p class=\"left_margin\">Най­дем нули про­из­вод­ной: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f6/f634dc12769eb2ff86043cfb6d6fb479.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\"1 минус дробь: чис­ли­тель: 25, зна­ме­на­тель: x в квад­ра­те конец дроби =0 рав­но­силь­но x в квад­ра­те =25 рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка x=5,  новая стро­ка x= минус 5.  конец со­во­куп­но­сти .\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p class=\"left_margin\">Опре­де­лим знаки про­из­вод­ной функ­ции и изоб­ра­зим на ри­сун­ке по­ве­де­ние функ­ции: </p><p><img src=\"/get_file?id=141048\" style=\"margin:10px auto;display:block;max-width:100%\"></p><p class=\"left_margin\">Ис­ко­мая точка ми­ни­му­ма <img src=\"https://ege.sdamgia.ru/formula/svg/f3/f37e32882c606521f8d0dd99fbce38be.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=5.\"> </p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 5.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/7a/7a8fc5fa6022de3aa9bc68c98ca3098d.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f634dc12769eb2ff86043cfb6d6fb479.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f37e32882c606521f8d0dd99fbce38be.svg",
+            "/get_file?id=141048"
+        ]
+    },
+    "answer": "5",
+    "topic_id": 12,
+    "analog_ids": [
+        77472,
+        130013,
+        130061,
+        513343,
+        130013,
+        130061,
+        513343,
+        513364,
+        525022,
+        525045,
+        130015,
+        130017,
+        130019,
+        130021,
+        130023,
+        130025,
+        130027,
+        130029,
+        130031,
+        130033,
+        130035,
+        130037,
+        130039,
+        130041,
+        130043,
+        130045,
+        130047,
+        130049,
+        130051,
+        130053,
+        130055,
+        130057,
+        130059
+    ]
+}

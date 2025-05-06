@@ -1,0 +1,27 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 508100,
+    "condition": {
+        "text": "Имеются 300 яблок. Докажите, что их можно разложить в пакеты по два яблока так, чтобы любые два пакета различались по весу не более, чем в полтора раза, если любые два яблока различаются по весу не более, чем:а)  в два раза;б)  в три раза.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body634424\" class=\"pbody\"><p class=\"left_margin\">Име­ют­ся 300 яблок. До­ка­жи­те, что их можно раз­ло­жить в па­ке­ты по два яб­ло­ка так, чтобы любые два па­ке­та раз­ли­ча­лись по весу не более, чем в пол­то­ра раза, если любые два яб­ло­ка раз­ли­ча­ют­ся по весу не более, чем:</p><p class=\"left_margin\">а)  в два раза;</p><p class=\"left_margin\">б)  в три раза.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Занумеруем яблоки в порядке неубывания весов и положим в k-й пакет яблоки с номерами k и  Для любых двух пакетов получаем, что в одном из них – яблоки с весами a и d, в другом – с весами  и  где    Имеем:    и   что и требовалось. б)  Разобьем яблоки на пары, как в пункте а). Аналогичная оценка показывает, что теперь веса пар различаются не более, чем в 2 раза:     Проведем с парами яблок ту же процедуру. Согласно пункту а) веса полученных четвёрок яблок различаются не более, чем в полтора раза.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol508100\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  За­ну­ме­ру­ем яб­ло­ки в по­ряд­ке не­убы­ва­ния весов и по­ло­жим в <i>k</i>-й пакет яб­ло­ки с но­ме­ра­ми <i>k</i> и <img src=\"https://ege.sdamgia.ru/formula/svg/33/33fc2773189408ec8ca5c7150efda267.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"301–k.\"> Для любых двух па­ке­тов по­лу­ча­ем, что в одном из них – яб­ло­ки с ве­са­ми <i>a</i> и <i>d</i>, в дру­гом – с ве­са­ми <img src=\"https://ege.sdamgia.ru/formula/svg/fb/fbf88552979521b79358be7637d97d88.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"b \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/d4/d4f2d3d9f12d5a05c8dc30d186e05d05.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\" c,\"> где  <img src=\"https://ege.sdamgia.ru/formula/svg/3e/3e69f0a85f145d6f57028d7a5f22f909.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"a мень­ше или равно b мень­ше или равно c мень­ше или равно d.\">  Имеем:  <img src=\"https://ege.sdamgia.ru/formula/svg/87/8727dbe490f513eb8f27344a30dfff4b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a плюс d мень­ше или равно b плюс 2b мень­ше или равно 1,5c плюс 1,5b\">  и <img src=\"https://ege.sdamgia.ru/formula/svg/c2/c28aca5be1b3669fd85eb7857bd9e3ed.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"b плюс c мень­ше или равно 2a плюс d мень­ше или равно 1,5a плюс 1,5d,\">  что и тре­бо­ва­лось.</p><p>&nbsp;</p><p class=\"left_margin\">б)  Разо­бьем яб­ло­ки на пары, как в пунк­те а). Ана­ло­гич­ная оцен­ка по­ка­зы­ва­ет, что те­перь веса пар раз­ли­ча­ют­ся не более, чем в 2 раза: <img src=\"https://ege.sdamgia.ru/formula/svg/7a/7ac5e8ffade6cd3bcbebd89b7bbad6d4.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a плюс d мень­ше или равно 4a мень­ше или равно 2b плюс 2c,\">  <img src=\"https://ege.sdamgia.ru/formula/svg/48/483efa8d7be9109d9527486650ed146a.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"b плюс c мень­ше или равно 3a плюс d мень­ше или равно 2a плюс 2d.\">  Про­ве­дем с па­ра­ми яблок ту же про­це­ду­ру. Со­глас­но пунк­ту а) веса по­лу­чен­ных четвёрок яблок раз­ли­ча­ют­ся не более, чем в пол­то­ра раза.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/33/33fc2773189408ec8ca5c7150efda267.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fbf88552979521b79358be7637d97d88.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d4f2d3d9f12d5a05c8dc30d186e05d05.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e69f0a85f145d6f57028d7a5f22f909.svg",
+            "https://ege.sdamgia.ru/formula/svg/87/8727dbe490f513eb8f27344a30dfff4b.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c28aca5be1b3669fd85eb7857bd9e3ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7ac5e8ffade6cd3bcbebd89b7bbad6d4.svg",
+            "https://ege.sdamgia.ru/formula/svg/48/483efa8d7be9109d9527486650ed146a.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

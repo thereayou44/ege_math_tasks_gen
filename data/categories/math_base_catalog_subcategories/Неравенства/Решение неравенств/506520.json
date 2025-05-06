@@ -1,0 +1,21 @@
+{
+    "id": "506520",
+    "topic": "18",
+    "condition": {
+        "text": "Каждому из четырёх неравенств в левом столбце соответствует одно из решений из правого столбца. Установите соответствие между неравенствами и множествами их решениями.НЕРАВЕНСТВАА) Б) В) Г) РЕШЕНИЯЗапишите в ответ цифры, расположив их в порядке, соответствующем буквам: АБВГ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/28/28e6ac96da1d06d1e859f95be0b227d7.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d51f8e9a3a40503bcfc1237a01166cbe.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/27d5239fd61e25bac0ad82eaa73acf5d.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a9b575382fdb22dfaae1c608dc2437f1.svg",
+            "https://mathb-ege.sdamgia.ru/get_file?id=108796"
+        ]
+    },
+    "answer": "3241",
+    "analogs": [
+        "506520",
+        "512369",
+        "510160"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=506520"
+}

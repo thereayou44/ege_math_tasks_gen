@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 502991,
+    "condition": {
+        "text": "На клетчатой бумаге с квадратными клетками изображён треугольник ABC. Найдите тангенс угла С.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body639539\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=65833\" style=\"float:right;margin:10px;max-width:100%\">На клет­ча­той бу­ма­ге с квад­рат­ны­ми клет­ка­ми изоб­ражён тре­уголь­ник <i>ABC</i>. Най­ди­те тан­генс угла <i>С</i>.</p></div>",
+        "image_urls": [
+            "/get_file?id=65833"
+        ]
+    },
+    "solution": {
+        "text": "Решение.  Проведём высоту BM. Треугольник BMC прямоугольный. Тогда тангенс угла C равен  Ответ: 2. Приведём другое решение:Вычислим BC по теореме Пифагора: тогда  значит, треугольник ABC равнобедренный и  Получаем, что Ответ: 2.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol502991\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=65834\" style=\"float:right;margin:10px;max-width:100%\"> Про­ведём вы­со­ту <i>BM</i>. Тре­уголь­ник <i>BMC</i> пря­мо­уголь­ный. Тогда тан­генс угла <i>C</i> равен</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/65/6562f2db77de1cced295defd72089657.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" дробь: чис­ли­тель: BM, зна­ме­на­тель: MC конец дроби = дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 16 плюс 4 конец ар­гу­мен­та , зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 1 плюс 4 конец ар­гу­мен­та конец дроби = дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 20 конец ар­гу­мен­та , зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 5 конец ар­гу­мен­та конец дроби = ко­рень из: на­ча­ло ар­гу­мен­та: 4 конец ар­гу­мен­та =2. \"></p><p class=\"left_margin\"></p></center><p> </p><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ</span>: 2.</p><p>&nbsp;</p><p><b>При­ведём дру­гое ре­ше­ние:</b></p><p><img src=\"/get_file?id=65835\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">Вы­чис­лим <i>BC</i> по тео­ре­ме Пи­фа­го­ра: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/c6/c6e7b59fc2b0b1ffa923439611e2b984.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"BC= ко­рень из: на­ча­ло ар­гу­мен­та: 3 в квад­ра­те плюс 4 в квад­ра­те конец ар­гу­мен­та =5,\"></p><p class=\"left_margin\"></p></center><p>тогда <img src=\"https://ege.sdamgia.ru/formula/svg/73/73532a84b813d2706f78fd38c1612b76.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AB=BC=5,\"> зна­чит, тре­уголь­ник <i>ABC</i> рав­но­бед­рен­ный и <img src=\"https://ege.sdamgia.ru/formula/svg/99/99d1bb3d330727cf975bc08799258e54.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle C = \\angle A.\"> </p><p class=\"left_margin\">По­лу­ча­ем, что </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/0b/0baf484c6310341fac2b60ca0a9e4612.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" тан­генс C= тан­генс A = дробь: чис­ли­тель: CH, зна­ме­на­тель: AH конец дроби = дробь: чис­ли­тель: 4, зна­ме­на­тель: 2 конец дроби =2. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing:2px \">Ответ</span>: 2.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/65/6562f2db77de1cced295defd72089657.svg",
+            "https://ege.sdamgia.ru/formula/svg/c6/c6e7b59fc2b0b1ffa923439611e2b984.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/73532a84b813d2706f78fd38c1612b76.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/99d1bb3d330727cf975bc08799258e54.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0baf484c6310341fac2b60ca0a9e4612.svg",
+            "/get_file?id=65834",
+            "/get_file?id=65835"
+        ]
+    },
+    "answer": "2",
+    "topic_id": null,
+    "analog_ids": []
+}

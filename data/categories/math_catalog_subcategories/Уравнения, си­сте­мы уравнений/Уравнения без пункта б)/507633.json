@@ -1,0 +1,33 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 507633,
+    "condition": {
+        "text": "Решите уравнение ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body643085\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/1d/1d0e52383f849eea6c1e008e25e20cb2.svg\" class=\"tex\" style=\"vertical-align:-11.4pt\" alt=\" дробь: чис­ли­тель: левая круг­лая скоб­ка синус x минус 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 2 ко­си­нус x плюс 1 пра­вая круг­лая скоб­ка , зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: тан­генс x конец ар­гу­мен­та конец дроби =0. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/1d/1d0e52383f849eea6c1e008e25e20cb2.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Уравнение имеет смысл если  Приравняем числитель к нулю:Учитывая условие  получаем, что серии  и  не являются решениями исходного уравнения. Ответ:  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol507633\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Урав­не­ние имеет смысл если <img src=\"https://ege.sdamgia.ru/formula/svg/a3/a3150659ae744d9e2e7438c8192816da.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\" тан­генс x боль­ше 0.\"> При­рав­ня­ем чис­ли­тель к нулю:</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"3845f8044a891b1202357d76c39a4881\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/38/3845f8044a891b1202357d76c39a4881.svg\" class=\"tex\" style=\"vertical-align:-21.2pt\" alt=\" левая круг­лая скоб­ка синус x минус 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 2 ко­си­нус x плюс 1 пра­вая круг­лая скоб­ка =0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка синус x=1, новая стро­ка ко­си­нус x= минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби конец со­во­куп­но­сти рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби плюс 2 Пи k, новая стро­ка x=\\pm дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k,k при­над­ле­жит Z . конец со­во­куп­но­сти \"></span><span data-width=\"465\" data-formulahash=\"3845f8044a891b1202357d76c39a4881\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/bf/bf5e92dd82156508f818a66445605e71.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка синус x минус 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 2 ко­си­нус x плюс 1 пра­вая круг­лая скоб­ка =0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/3a/3a00c57637432ba5c74aa9c26d9caf16.svg\" class=\"tex\" style=\"vertical-align:-21.2pt\" alt=\" рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка синус x=1, новая стро­ка ко­си­нус x= минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби конец со­во­куп­но­сти рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби плюс 2 Пи k, новая стро­ка x=\\pm дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k,k при­над­ле­жит Z . конец со­во­куп­но­сти \"></span></p><p class=\"left_margin\"></p></center><img src=\"/get_file?id=49139\" style=\"float:right;margin:10px;max-width:100%\"><p class=\"left_margin\">Учи­ты­вая усло­вие <img src=\"https://ege.sdamgia.ru/formula/svg/6d/6d7dc0a1b34495bb90498f6fb82540a2.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\" тан­генс x боль­ше 0,\"> по­лу­ча­ем, что серии <img src=\"https://ege.sdamgia.ru/formula/svg/f3/f3ab93b41c11b8fcaee46a46d5c3b46e.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби плюс 2 Пи k \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/64/642c47e27d8950b7ab524e75f015e080.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k,k при­над­ле­жит Z \"> не яв­ля­ют­ся ре­ше­ни­я­ми ис­ход­но­го урав­не­ния.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  <img src=\"https://ege.sdamgia.ru/formula/svg/72/72e94bf8fa5e426555762ad59566a555.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая фи­гур­ная скоб­ка минус дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k:k при­над­ле­жит Z пра­вая фи­гур­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a3/a3150659ae744d9e2e7438c8192816da.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/3845f8044a891b1202357d76c39a4881.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bf5e92dd82156508f818a66445605e71.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3a00c57637432ba5c74aa9c26d9caf16.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6d7dc0a1b34495bb90498f6fb82540a2.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f3ab93b41c11b8fcaee46a46d5c3b46e.svg",
+            "https://ege.sdamgia.ru/formula/svg/64/642c47e27d8950b7ab524e75f015e080.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/72e94bf8fa5e426555762ad59566a555.svg",
+            "/get_file?id=49139"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": [
+        507633,
+        511453
+    ]
+}

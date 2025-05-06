@@ -1,0 +1,61 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27062,
+    "condition": {
+        "text": " Найдите площадь поверхности прямой призмы, в основании которой лежит ромб с диагоналями, равными 6 и 8, а боковое ребро призмы равно 10.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919370\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=113242\" style=\"float:right;margin:10px;max-width:100%\"> Най­ди­те пло­щадь по­верх­но­сти пря­мой приз­мы, в ос­но­ва­нии ко­то­рой лежит ромб с диа­го­на­ля­ми, рав­ны­ми 6 и 8, а бо­ко­вое ребро приз­мы равно 10.</p></div>",
+        "image_urls": [
+            "/get_file?id=113242"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Сторона ромба a выражается через его диагонали  и  формулой Найдем площадь ромба  Тогда площадь поверхности призмы равнаОтвет: 248. Примечание.Приведем вывод используемой в решении формулы, выражающей сторону ромба a через его диагонали d1 и d2. Диагонали ромба перпендикулярны и точкой пересечения делятся пополам, следовательно, по теореме Пифагораоткуда ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27062\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Сто­ро­на ромба <i>a</i> вы­ра­жа­ет­ся через его диа­го­на­ли <img src=\"https://ege.sdamgia.ru/formula/svg/10/103d80432d8b7ee33b5ffdae824fe912.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"d_1\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/c9/c905ca2fe365c44f4fe1c5d0e673b7fc.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"d_2\"> фор­му­лой</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d5/d586b4c0005e162482b6a98629e6e354.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"a= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби ко­рень из: на­ча­ло ар­гу­мен­та: d_1 конец ар­гу­мен­та в квад­ра­те плюс d_2 в квад­ра­те =5. \"></p><p class=\"left_margin\"></p></center><p> Най­дем пло­щадь ромба </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/18/1875391eb9f8f8e220ceaf4e2f7abe62.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S_p= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби d_1d_2=24. \"></p><p class=\"left_margin\"></p></center><p> Тогда пло­щадь по­верх­но­сти приз­мы равна</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/5b/5be64b91e01a5f50138eb645b692a616.svg\" class=\"tex\" style=\"vertical-align:-4.0pt\" alt=\"S=2S_осн плюс S_бок=2S_p плюс 4aH=48 плюс 4 умно­жить на 5 умно­жить на 10=248.\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 248.</p><p>&nbsp;</p><p><b>При­ме­ча­ние.</b></p><p class=\"left_margin\">При­ве­дем вывод ис­поль­зу­е­мой в ре­ше­нии фор­му­лы, вы­ра­жа­ю­щей сто­ро­ну ромба <i>a</i> через его диа­го­на­ли <i>d</i><sub>1</sub> и <i>d</i><sub>2</sub>. Диа­го­на­ли ромба пер­пен­ди­ку­ляр­ны и точ­кой пе­ре­се­че­ния де­лят­ся по­по­лам, сле­до­ва­тель­но, по тео­ре­ме Пи­фа­го­ра</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/bf/bfead0ea258f0d747b3b13fd8c459ba3.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\"a в квад­ра­те = левая круг­лая скоб­ка дробь: чис­ли­тель: d_1, зна­ме­на­тель: 2 конец дроби пра­вая круг­лая скоб­ка в квад­ра­те плюс левая круг­лая скоб­ка дробь: чис­ли­тель: d_2, зна­ме­на­тель: 2 конец дроби пра­вая круг­лая скоб­ка в квад­ра­те = дробь: чис­ли­тель: d_1 в квад­ра­те , зна­ме­на­тель: 4 конец дроби плюс дробь: чис­ли­тель: d_2 в квад­ра­те , зна­ме­на­тель: 4 конец дроби = дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби умно­жить на левая круг­лая скоб­ка d_1 в квад­ра­те плюс d_2 в квад­ра­те пра­вая круг­лая скоб­ка , \"></p><p class=\"left_margin\"></p></center><p>от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/36/36b8e197bfd22b403ae31e451d88930a.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"a= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби ко­рень из: на­ча­ло ар­гу­мен­та: d_1 конец ар­гу­мен­та в квад­ра­те плюс d_2 в квад­ра­те . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/10/103d80432d8b7ee33b5ffdae824fe912.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c905ca2fe365c44f4fe1c5d0e673b7fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d586b4c0005e162482b6a98629e6e354.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/1875391eb9f8f8e220ceaf4e2f7abe62.svg",
+            "https://ege.sdamgia.ru/formula/svg/5b/5be64b91e01a5f50138eb645b692a616.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bfead0ea258f0d747b3b13fd8c459ba3.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/36b8e197bfd22b403ae31e451d88930a.svg"
+        ]
+    },
+    "answer": "248",
+    "topic_id": 3,
+    "analog_ids": [
+        27062,
+        72917,
+        512393,
+        621767,
+        72917,
+        512393,
+        621767,
+        621897,
+        27147,
+        72871,
+        72873,
+        72875,
+        72877,
+        72879,
+        72881,
+        72883,
+        72885,
+        72887,
+        72889,
+        72891,
+        72893,
+        72895,
+        72897,
+        72899,
+        72901,
+        72903,
+        72905,
+        72907,
+        72909,
+        72911,
+        72913,
+        72915
+    ]
+}

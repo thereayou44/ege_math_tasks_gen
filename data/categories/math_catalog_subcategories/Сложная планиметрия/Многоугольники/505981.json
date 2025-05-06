@@ -1,0 +1,22 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 505981,
+    "condition": {
+        "text": "Дан параллелограмм ABCD. Точка M лежит на диагонали BD и делит ее в отношении 2 : 3. Найдите площадь параллелограмма ABCD, если площадь четырехугольника ABCM равна 60.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body644737\" class=\"pbody\"><p class=\"left_margin\">Дан па­рал­ле­ло­грамм <i>ABCD</i>. Точка <i>M</i> лежит на диа­го­на­ли <i>BD</i> и делит ее в от­но­ше­нии 2 : 3. Най­ди­те пло­щадь па­рал­ле­ло­грам­ма <i>ABCD</i>, если пло­щадь че­ты­рех­уголь­ни­ка <i>ABCM</i> равна 60.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Имеем два случая. Случай 1. Точка M лежит ближе к точке B.Случай 2. Точка M лежит ближе к точке D.Ответ:  100 или 150.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol505981\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=26267\" style=\"float:right;margin:10px\">Имеем два слу­чая. </p><p><i>Слу­чай 1.</i> Точка <i>M</i> лежит ближе к точке <i>B</i>.</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d1/d1496c3cae4b45ce443265eb0e1cdc94.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"S_ABCD=S_ABD плюс S_BCD= дробь: чис­ли­тель: 5, зна­ме­на­тель: 2 конец дроби S_ABM плюс дробь: чис­ли­тель: 5, зна­ме­на­тель: 2 конец дроби S_BCM= дробь: чис­ли­тель: 5, зна­ме­на­тель: 2 конец дроби S_ABCM=150. \"></p><p class=\"left_margin\"></p></center><p><i>Слу­чай 2.</i> Точка <i>M</i> лежит ближе к точке <i>D</i>.</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f8/f8194d91c0e2159c369f2d61564d326a.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S_ABCD=S_ABD плюс S_BCD= дробь: чис­ли­тель: 5, зна­ме­на­тель: 3 конец дроби S_ABM плюс дробь: чис­ли­тель: 5, зна­ме­на­тель: 3 конец дроби S_BCM= дробь: чис­ли­тель: 5, зна­ме­на­тель: 3 конец дроби S_ABCM=100. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  100 или 150.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d1/d1496c3cae4b45ce443265eb0e1cdc94.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f8194d91c0e2159c369f2d61564d326a.svg",
+            "/get_file?id=26267"
+        ]
+    },
+    "answer": "100 или 150.",
+    "topic_id": null,
+    "analog_ids": []
+}

@@ -1,0 +1,44 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 485935,
+    "condition": {
+        "text": "а)  Решите уравнение  б)  Укажите корни, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body591059\" class=\"pbody\"><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/eb/eb5207efd9f46aee0a494ff96c680466.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"6 ко­си­нус в квад­ра­те x минус 7 ко­си­нус x минус 5 = 0.\"> </p><p class=\"left_margin\">б)  Ука­жи­те корни, при­над­ле­жа­щие от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/6d/6df25ba6b644c7091aa6c7042a1a6ef7.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка минус Пи ;2 Пи пра­вая квад­рат­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/eb/eb5207efd9f46aee0a494ff96c680466.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6df25ba6b644c7091aa6c7042a1a6ef7.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Сделаем замену   получим квадратное уравнение   корнями которого являются числа    и    Уравнение    не имеет решений, а из уравнения   находим  корни  или б)  Найдем корни, принадлежащие отрезку  Решим неравенства: откуда  или Соответствующие найденным значениям параметров корни:   и  Ответ: а)  б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol485935\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Сде­ла­ем за­ме­ну  <img src=\"https://ege.sdamgia.ru/formula/svg/05/05cbf2a5d88c38310450e9f400d38194.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\" ко­си­нус x = y,\"> по­лу­чим квад­рат­ное урав­не­ние  <img src=\"https://ege.sdamgia.ru/formula/svg/8d/8d06a5ba0b70a9ce1648d0eee2f65790.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"6y в квад­ра­те минус 7y минус 5=0,\"> кор­ня­ми ко­то­ро­го яв­ля­ют­ся числа  <img src=\"https://ege.sdamgia.ru/formula/svg/9b/9bdeaf815f6db559768dc8341fca8e27.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"y= минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби \">  и  <img src=\"https://ege.sdamgia.ru/formula/svg/13/130a7bf69435b42c6544e16dc12712cf.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"y= дробь: чис­ли­тель: 5, зна­ме­на­тель: 3 конец дроби . \">  Урав­не­ние  <img src=\"https://ege.sdamgia.ru/formula/svg/3f/3fe682918d43f4da6a5fbfeec713462f.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" ко­си­нус x= дробь: чис­ли­тель: 5, зна­ме­на­тель: 3 конец дроби \">  не имеет ре­ше­ний, а из урав­не­ния  <img src=\"https://ege.sdamgia.ru/formula/svg/f4/f455479c71c630a6df507fb91c55a0c4.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" ко­си­нус x= минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби \"> на­хо­дим  корни <img src=\"https://ege.sdamgia.ru/formula/svg/f4/f441982298ea2e5df39ea90adf686a12.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x= дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k \"> или <img src=\"https://ege.sdamgia.ru/formula/svg/03/0323fe0174259f3b909349bdc428c0f6.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x= минус дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k,k при­над­ле­жит Z . \"></p><p class=\"left_margin\">б)  Най­дем корни, при­над­ле­жа­щие от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/86/862b86d406020d3b1476177240e0a61d.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка минус Пи ;2 Пи пра­вая квад­рат­ная скоб­ка .\"> Решим не­ра­вен­ства:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/88/88ef81aa5bbaf5245e4b250f3300fde7.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" минус Пи мень­ше или равно минус дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k мень­ше или равно 2 Пи рав­но­силь­но минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 6 конец дроби мень­ше или равно k мень­ше или равно дробь: чис­ли­тель: 4, зна­ме­на­тель: 3 конец дроби , \"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/22/22d9bb2875d7a70aeb68696096f3b9b2.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"k=0\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/32/329a75473b182e52797f087965606aed.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"k=1.\"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/9d/9d8630e78a37e454663d79e84ca7f2b8.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" минус Пи мень­ше или равно дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k мень­ше или равно 2 Пи рав­но­силь­но минус дробь: чис­ли­тель: 5, зна­ме­на­тель: 6 конец дроби мень­ше или равно k мень­ше или равно дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби рав­но­силь­но k=0. \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Со­от­вет­ству­ю­щие най­ден­ным зна­че­ни­ям па­ра­мет­ров корни: <img src=\"https://ege.sdamgia.ru/formula/svg/e1/e1013220fbd38888e604a215706a99ba.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" минус дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби , \"> <img src=\"https://ege.sdamgia.ru/formula/svg/f3/f367c11616f17d21106a2b3213bc2ad0.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/11/117e6ccef441c2ffa9e0cc3c34ca24da.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 4 Пи , зна­ме­на­тель: 3 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) <img src=\"https://ege.sdamgia.ru/formula/svg/2d/2d250acf1e417b056f92a7da4277d858.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая фи­гур­ная скоб­ка дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k, минус дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k: k при­над­ле­жит Z пра­вая фи­гур­ная скоб­ка ; \"> б) <img src=\"https://ege.sdamgia.ru/formula/svg/03/0381ff7e735337532afe3a6ac88d7aac.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" минус дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби ; дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби ; дробь: чис­ли­тель: 4 Пи , зна­ме­на­тель: 3 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/05/05cbf2a5d88c38310450e9f400d38194.svg",
+            "https://ege.sdamgia.ru/formula/svg/8d/8d06a5ba0b70a9ce1648d0eee2f65790.svg",
+            "https://ege.sdamgia.ru/formula/svg/9b/9bdeaf815f6db559768dc8341fca8e27.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/130a7bf69435b42c6544e16dc12712cf.svg",
+            "https://ege.sdamgia.ru/formula/svg/3f/3fe682918d43f4da6a5fbfeec713462f.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f455479c71c630a6df507fb91c55a0c4.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f441982298ea2e5df39ea90adf686a12.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/0323fe0174259f3b909349bdc428c0f6.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/862b86d406020d3b1476177240e0a61d.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/88ef81aa5bbaf5245e4b250f3300fde7.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/22d9bb2875d7a70aeb68696096f3b9b2.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/329a75473b182e52797f087965606aed.svg",
+            "https://ege.sdamgia.ru/formula/svg/9d/9d8630e78a37e454663d79e84ca7f2b8.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e1013220fbd38888e604a215706a99ba.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f367c11616f17d21106a2b3213bc2ad0.svg",
+            "https://ege.sdamgia.ru/formula/svg/11/117e6ccef441c2ffa9e0cc3c34ca24da.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d250acf1e417b056f92a7da4277d858.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/0381ff7e735337532afe3a6ac88d7aac.svg"
+        ]
+    },
+    "answer": "а)  б)",
+    "topic_id": 13,
+    "analog_ids": [
+        485935,
+        485940,
+        515724
+    ]
+}

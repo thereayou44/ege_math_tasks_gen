@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 911,
+    "condition": {
+        "text": "В правильной четырехугольной пирамиде SABCD точка O − центр основания, S − вершина,   Найдите боковое ребро ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body945523\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=111729\" style=\"float:right;margin:10px;max-width:100%\">В пра­виль­ной че­ты­рех­уголь­ной пи­ра­ми­де <i>SABCD</i> точка <i>O</i> − центр ос­но­ва­ния, <i>S</i> − вер­ши­на, <img src=\"https://ege.sdamgia.ru/formula/svg/6d/6d56979fdedc09d52692d6cfaebdc83e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"SO=15,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/f3/f3e3f86766e505f88867d20004b0c9b3.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BD=16.\"> Най­ди­те бо­ко­вое ребро <img src=\"https://ege.sdamgia.ru/formula/svg/c0/c04fe9a6b97a1a3b05543c426b63b4ef.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"SA.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/6d/6d56979fdedc09d52692d6cfaebdc83e.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f3e3f86766e505f88867d20004b0c9b3.svg",
+            "https://ege.sdamgia.ru/formula/svg/c0/c04fe9a6b97a1a3b05543c426b63b4ef.svg",
+            "/get_file?id=111729"
+        ]
+    },
+    "solution": {
+        "text": "Решение. В правильной пирамиде вершина проецируется в центр основания, следовательно, SO является высотой пирамиды. Тогда по теореме ПифагораОтвет: 17.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol911\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">В пра­виль­ной пи­ра­ми­де вер­ши­на про­еци­ру­ет­ся в центр ос­но­ва­ния, сле­до­ва­тель­но, <i>SO</i> яв­ля­ет­ся вы­со­той пи­ра­ми­ды. Тогда по тео­ре­ме Пи­фа­го­ра</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/c2/c2ba2352e96a51ab233a60b83fa04708.svg\" class=\"tex\" style=\"vertical-align:-12.2pt\" alt=\"SA=SB= ко­рень из: на­ча­ло ар­гу­мен­та: SO конец ар­гу­мен­та в квад­ра­те плюс BO в квад­ра­те = ко­рень из: на­ча­ло ар­гу­мен­та: SO конец ар­гу­мен­та в квад­ра­те плюс левая круг­лая скоб­ка дробь: чис­ли­тель: BD, зна­ме­на­тель: 2 конец дроби пра­вая круг­лая скоб­ка в квад­ра­те = ко­рень из: на­ча­ло ар­гу­мен­та: 225 плюс 64 конец ар­гу­мен­та =17. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 17.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c2/c2ba2352e96a51ab233a60b83fa04708.svg"
+        ]
+    },
+    "answer": "17",
+    "topic_id": 3,
+    "analog_ids": [
+        911,
+        509835
+    ]
+}

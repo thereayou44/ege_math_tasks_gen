@@ -1,0 +1,52 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27915,
+    "condition": {
+        "text": "Найдите высоту трапеции, в которую вписана окружность радиуса 1.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918519\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right; margin:10px\" src=\"/get_file?id=1514\">Най­ди­те вы­со­ту тра­пе­ции, в ко­то­рую впи­са­на окруж­ность ра­ди­у­са 1.</p></div>",
+        "image_urls": [
+            "/get_file?id=1514"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Высота трапеции равна диаметру вписанной в неё окружности: h = d = 2r = 2. Ответ: 2.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27915\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=20528\" style=\"float:right;margin:10px\">Вы­со­та тра­пе­ции равна диа­мет­ру впи­сан­ной в неё окруж­но­сти: <i>h</i> = <i>d</i> = 2<i>r</i> = 2.</p><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ</span>: 2.</p></div>",
+        "image_urls": [
+            "/get_file?id=20528"
+        ]
+    },
+    "answer": "2",
+    "topic_id": null,
+    "analog_ids": [
+        27915,
+        53521,
+        53523,
+        53525,
+        53521,
+        53523,
+        53525,
+        53527,
+        53529,
+        53531,
+        53533,
+        53535,
+        53537,
+        53539,
+        53541,
+        53543,
+        53545,
+        53547,
+        53549,
+        53551,
+        53553,
+        53555,
+        53557,
+        53559,
+        53561,
+        53563,
+        53565,
+        53567,
+        53569
+    ]
+}

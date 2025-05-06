@@ -1,0 +1,41 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 516335,
+    "condition": {
+        "text": "По бизнес-плану предполагается вложить в четырёхлетний проект целое число миллионов рублей. По итогам каждого года планируется прирост средств вкладчика на 20% по сравнению с началом года. Начисленные проценты остаются вложенными в проект. Кроме этого, сразу после начислений процентов нужны дополнительные вложения: по 20 миллионов рублей в первый и второй годы, а также по 10 миллионов в третий и четвёртый годы. Найдите наименьший размер первоначальных вложений, при котором общая сумма средств вкладчика за два года станет больше 125 миллионов, а за четыре года станет больше 200 миллионов рублей.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body626195\" class=\"pbody\"><p class=\"left_margin\">По биз­нес-плану пред­по­ла­га­ет­ся вло­жить в четырёхлет­ний про­ект <b>целое</b> число мил­ли­о­нов руб­лей. По ито­гам каж­до­го года пла­ни­ру­ет­ся при­рост средств вклад­чи­ка на 20% по срав­не­нию с на­ча­лом года. На­чис­лен­ные про­цен­ты оста­ют­ся вло­жен­ны­ми в про­ект. Кроме этого, сразу после на­чис­ле­ний про­цен­тов нужны до­пол­ни­тель­ные вло­же­ния: по 20 мил­ли­о­нов руб­лей в пер­вый и вто­рой годы, а также по 10 мил­ли­о­нов в тре­тий и четвёртый годы. Най­ди­те наи­мень­ший раз­мер пер­во­на­чаль­ных вло­же­ний, при ко­то­ром общая сумма средств вклад­чи­ка за два года ста­нет боль­ше 125 мил­ли­о­нов, а за че­ты­ре года ста­нет боль­ше 200 мил­ли­о­нов руб­лей.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Пусть S миллионов рублей  — первоначальные вложения. К началу 2-го года получится  миллионов рублей, а к началу 3-го года  —  По условию  откуда К началу 4-го года имеем  а в конце проектаПо условию  откуда А значит, минимальное возможное целое число, удовлетворяющее условию (в том числе на два года) S = 57. Ответ: 57 миллионов руб.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol516335\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть <i>S</i> мил­ли­о­нов руб­лей  — пер­во­на­чаль­ные вло­же­ния. К на­ча­лу 2-го года по­лу­чит­ся <img src=\"https://ege.sdamgia.ru/formula/svg/80/8027e6e2a02ae6627296095bfc65c99b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1,2S плюс 20\"> мил­ли­о­нов руб­лей, а к на­ча­лу 3-го года  — <img src=\"https://ege.sdamgia.ru/formula/svg/7d/7dc3c91e20476440846b1950d4c4d7c8.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"1,2 левая круг­лая скоб­ка 1,2S плюс 20 пра­вая круг­лая скоб­ка плюс 20=1,44S плюс 44.\"> По усло­вию <img src=\"https://ege.sdamgia.ru/formula/svg/48/4854b21d501d8e26c2542e35122ec223.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1,44S плюс 44 боль­ше 125,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/4b/4b112fd805d9cb1a274474f3b580bcae.svg\" class=\"tex\" style=\"vertical-align:-10.6pt\" alt=\"S боль­ше дробь: чис­ли­тель: 81, зна­ме­на­тель: 1,44 конец дроби боль­ше 56,25. \"></p><p class=\"left_margin\">К на­ча­лу 4-го года имеем <img src=\"https://ege.sdamgia.ru/formula/svg/94/94b299dba2a6bf28be6400526eb8e7f7.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"1,2 левая круг­лая скоб­ка 1,44S плюс 44 пра­вая круг­лая скоб­ка плюс 10=1,728S плюс 62,8,\"> а в конце про­ек­та</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"e123fb2c6d3c5993820aaf1952acd44d\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/e1/e123fb2c6d3c5993820aaf1952acd44d.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"1,2 левая круг­лая скоб­ка 1,2 левая круг­лая скоб­ка 1,44S плюс 44 пра­вая круг­лая скоб­ка плюс 10 пра­вая круг­лая скоб­ка плюс 10=2,0736S плюс 63,36 плюс 22=2,0736S плюс 85,36.\"></span><span data-width=\"465\" data-formulahash=\"e123fb2c6d3c5993820aaf1952acd44d\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/2b/2b46cc87cd8ba0dd25bafe257a501480.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"1,2 левая круг­лая скоб­ка 1,2 левая круг­лая скоб­ка 1,44S плюс 44 пра­вая круг­лая скоб­ка плюс 10 пра­вая круг­лая скоб­ка плюс 10=\"><br><img src=\"https://ege.sdamgia.ru/formula/svg/85/85678cffcb27bdb2887546381a776754.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"=2,0736S плюс 63,36 плюс 22=2,0736S плюс 85,36.\"></span></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">По усло­вию <img src=\"https://ege.sdamgia.ru/formula/svg/87/873d5b019119b8bc23409533a6ad6b3b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2,0736S плюс 85,36 боль­ше 200,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/c2/c220d66b8ef22b4db96dae00dc7311d8.svg\" class=\"tex\" style=\"vertical-align:-10.5pt\" alt=\"S боль­ше дробь: чис­ли­тель: 114,64, зна­ме­на­тель: 2,0736 конец дроби боль­ше 55,2. \"></p><p class=\"left_margin\">А зна­чит, ми­ни­маль­ное воз­мож­ное целое число, удо­вле­тво­ря­ю­щее усло­вию (в том числе на два года) <i>S</i> = 57.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 57 мил­ли­о­нов руб.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/80/8027e6e2a02ae6627296095bfc65c99b.svg",
+            "https://ege.sdamgia.ru/formula/svg/7d/7dc3c91e20476440846b1950d4c4d7c8.svg",
+            "https://ege.sdamgia.ru/formula/svg/48/4854b21d501d8e26c2542e35122ec223.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4b112fd805d9cb1a274474f3b580bcae.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/94b299dba2a6bf28be6400526eb8e7f7.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e123fb2c6d3c5993820aaf1952acd44d.svg",
+            "https://ege.sdamgia.ru/formula/svg/2b/2b46cc87cd8ba0dd25bafe257a501480.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/85678cffcb27bdb2887546381a776754.svg",
+            "https://ege.sdamgia.ru/formula/svg/87/873d5b019119b8bc23409533a6ad6b3b.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c220d66b8ef22b4db96dae00dc7311d8.svg"
+        ]
+    },
+    "answer": "57 мил­ли­о­нов руб.",
+    "topic_id": 16,
+    "analog_ids": [
+        516335,
+        516302,
+        521998,
+        522098,
+        516302,
+        521998,
+        522098,
+        522126,
+        522152,
+        556340,
+        556449
+    ]
+}

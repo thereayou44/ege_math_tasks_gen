@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 514053,
+    "condition": {
+        "text": "Решите неравенство ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body636665\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те&nbsp;не­ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/7f/7f2af8fc847458dfb8d15c71fc725a08.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: 4 в сте­пе­ни x минус 5 умно­жить на 2 в сте­пе­ни x плюс 6, зна­ме­на­тель: 1 минус 3 в сте­пе­ни левая круг­лая скоб­ка x минус 1 пра­вая круг­лая скоб­ка конец дроби \\leqslant2 умно­жить на 3 в сте­пе­ни x минус 5 умно­жить на 2 в сте­пе­ни x плюс 6. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/7f/7f2af8fc847458dfb8d15c71fc725a08.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Обозначим  и преобразуем неравенство:Вернёмся к исходной переменной:Первый множитель числителя, как и знаменатель дроби, положительны при  и отрицательны при  Второй множитель числителя положителен при  и отрицателен при  При  он равен нулю. Применяя метод интервалов, получаем множество решений неравенства:  Ответ:  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol514053\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Обо­зна­чим <img src=\"https://ege.sdamgia.ru/formula/svg/97/9751c5335a5e63825f05b6c24a4da10a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2 в сте­пе­ни x =a,3 в сте­пе­ни x =b\"> и пре­об­ра­зу­ем не­ра­вен­ство:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/0c/0c24efc66697a8631f0f7b9b25f4b4d2.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: 3 левая круг­лая скоб­ка a в квад­ра­те минус 5a плюс 6 пра­вая круг­лая скоб­ка , зна­ме­на­тель: 3 минус b конец дроби мень­ше или равно 2b минус 5a плюс 6 рав­но­силь­но дробь: чис­ли­тель: 3a в квад­ра­те минус 5ab плюс 2b в квад­ра­те , зна­ме­на­тель: 3 минус b конец дроби мень­ше или равно 0 рав­но­силь­но \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/e0/e0b46b48d1635294fd07693bf4a64b1a.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" рав­но­силь­но дробь: чис­ли­тель: левая круг­лая скоб­ка 3a минус 2b пра­вая круг­лая скоб­ка левая круг­лая скоб­ка a минус b пра­вая круг­лая скоб­ка , зна­ме­на­тель: 3 минус b конец дроби мень­ше или равно 0 рав­но­силь­но дробь: чис­ли­тель: левая круг­лая скоб­ка 2b минус 3a пра­вая круг­лая скоб­ка левая круг­лая скоб­ка b минус a пра­вая круг­лая скоб­ка , зна­ме­на­тель: b минус 3 конец дроби боль­ше или равно 0. \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Вернёмся к ис­ход­ной пе­ре­мен­ной:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/8e/8ee7d759b09f8d9ad6ee80e260e2ff26.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: левая круг­лая скоб­ка 2 умно­жить на 3 в сте­пе­ни x минус 3 умно­жить на 2 в сте­пе­ни x пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 3 в сте­пе­ни x минус 2 в сте­пе­ни x пра­вая круг­лая скоб­ка , зна­ме­на­тель: 3 в сте­пе­ни x минус 3 конец дроби боль­ше или равно 0. \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Пер­вый мно­жи­тель чис­ли­те­ля, как и зна­ме­на­тель дроби, по­ло­жи­тель­ны при <img src=\"https://ege.sdamgia.ru/formula/svg/3d/3d3e00e0b84ad6b64a3461fe9092698a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x боль­ше 1\"> и от­ри­ца­тель­ны при <img src=\"https://ege.sdamgia.ru/formula/svg/7e/7ec874715ba4f1e9f77d65e9ae36503c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x мень­ше 1.\"> Вто­рой мно­жи­тель чис­ли­те­ля по­ло­жи­те­лен при <img src=\"https://ege.sdamgia.ru/formula/svg/88/887fb68a10cbd4369b27c90bee0334d8.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x боль­ше 0\"> и от­ри­ца­те­лен при <img src=\"https://ege.sdamgia.ru/formula/svg/1a/1af83d7ff7838c3eda79c44f64855123.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x мень­ше 0.\"> При <img src=\"https://ege.sdamgia.ru/formula/svg/e1/e11729b0b65ecade3fc272548a3883fc.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=0\"> он равен нулю. При­ме­няя метод ин­тер­ва­лов, по­лу­ча­ем мно­же­ство ре­ше­ний не­ра­вен­ства: <img src=\"https://ege.sdamgia.ru/formula/svg/86/869c142bfadd51e0809cab9fd41c787a.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка 0;1 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 1; бес­ко­неч­ность пра­вая круг­лая скоб­ка .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  <img src=\"https://ege.sdamgia.ru/formula/svg/e4/e469f854abb7c869a38abf863afd49fe.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка 0;1 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 1; бес­ко­неч­ность пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/97/9751c5335a5e63825f05b6c24a4da10a.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c24efc66697a8631f0f7b9b25f4b4d2.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e0b46b48d1635294fd07693bf4a64b1a.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8ee7d759b09f8d9ad6ee80e260e2ff26.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3d3e00e0b84ad6b64a3461fe9092698a.svg",
+            "https://ege.sdamgia.ru/formula/svg/7e/7ec874715ba4f1e9f77d65e9ae36503c.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/887fb68a10cbd4369b27c90bee0334d8.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1af83d7ff7838c3eda79c44f64855123.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e11729b0b65ecade3fc272548a3883fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/869c142bfadd51e0809cab9fd41c787a.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e469f854abb7c869a38abf863afd49fe.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": []
+}

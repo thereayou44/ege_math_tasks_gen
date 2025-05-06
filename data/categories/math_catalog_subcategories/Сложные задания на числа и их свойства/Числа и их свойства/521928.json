@@ -1,0 +1,41 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521928,
+    "condition": {
+        "text": "Пусть K(n) обозначает сумму квадратов всех цифр натурального числа n.а)  Существует ли такое трехзначное число n, что K(n)  =  171? б)  Существует ли такое трехзначное число n, что K(n)  =  172?в)  Какое наименьшее значение может принимать выражение 4K(n) − n, если n  — трехзначное число?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body628788\" class=\"pbody\"><p class=\"left_margin\">Пусть <i>K</i>(<i>n</i>) обо­зна­ча­ет сумму квад­ра­тов всех цифр на­ту­раль­но­го числа <i>n</i>.</p><p class=\"left_margin\">а)  Су­ще­ству­ет ли такое трех­знач­ное число <i>n</i>, что <i>K</i>(<i>n</i>)  =  171? </p><p class=\"left_margin\">б)  Су­ще­ству­ет ли такое трех­знач­ное число <i>n</i>, что <i>K</i>(<i></i>n)  =  172?</p><p class=\"left_margin\">в)  Какое наи­мень­шее зна­че­ние может при­ни­мать вы­ра­же­ние 4<i>K</i>(<i>n</i>) − <i>n</i>, если <i>n</i>  — трех­знач­ное число?</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Да, например б)  Пусть  где   — цифры числа  Поскольку при делении на  квадраты могут давать остатки только  или  то все они должны быть четны. Если поделить их все на  то получим  Теперь из тех же соображений все числа нечетны, то есть могут быть равны только  или  (цифры больше невозможны, поскольку получались бы из цифр, не меньших ). Но даже в)   Каждое слагаемое можно минимизировать независимо от других, причем все слагаемые  — квадратные трехчлены, поэтому их минимум (вершина) легко определяется. Нас, правда, интересуют только натуральные значения переменных  — они могут быть либо вокруг вершины, либо (если вершина вне промежутка ) в концах отрезка.Следует выбрать  тогда получим  Ответ: а) Да; б) Нет; в) − 582.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521928\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Да, на­при­мер <img src=\"https://ege.sdamgia.ru/formula/svg/a6/a6a322133403d7fe37e577d61d246ea4.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"993.\"></p><p class=\"left_margin\">б)  Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/26/26a81cddfa7de3fe97c50d5b028b0a43.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a в квад­ра­те плюс b в квад­ра­те плюс c в квад­ра­те =172,\"> где <img src=\"https://ege.sdamgia.ru/formula/svg/d8/d8033ba6bf97b2d5b7cd0e1f32c509a8.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a,b,c\">  — цифры числа <img src=\"https://ege.sdamgia.ru/formula/svg/36/36cb6ed5283e452800c275dd6934aecc.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"n.\"> По­сколь­ку при де­ле­нии на <img src=\"https://ege.sdamgia.ru/formula/svg/a8/a87ff679a2f3e71d9181a67b7542122c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"4\"> квад­ра­ты могут да­вать остат­ки толь­ко <img src=\"https://ege.sdamgia.ru/formula/svg/cf/cfcd208495d565ef66e7dff9f98764da.svg\" class=\"tex\" style=\"vertical-align:-0.9pt\" alt=\"0\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/32/32b7955f9b36651f0303b1fd2a5d02c2.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1,\"> то все они долж­ны быть четны. Если по­де­лить их все на <img src=\"https://ege.sdamgia.ru/formula/svg/70/70623d96ac2e03af814c12d092c446fc.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2,\"> то по­лу­чим <img src=\"https://ege.sdamgia.ru/formula/svg/40/404c80c040c6cb5f99751fb4d5be98c5.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x в квад­ра­те плюс y в квад­ра­те плюс z в квад­ра­те =43.\"> Те­перь из тех же со­об­ра­же­ний все числа не­чет­ны, то есть могут быть равны толь­ко <img src=\"https://ege.sdamgia.ru/formula/svg/c4/c4ca4238a0b923820dcc509a6f75849b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"1\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/ec/eccbc87e4b5ce2fe28308fd9f2a7baf3.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"3\"> (цифры боль­ше не­воз­мож­ны, по­сколь­ку по­лу­ча­лись бы из цифр, не мень­ших <img src=\"https://ege.sdamgia.ru/formula/svg/d3/d3d9446802a44259755d38e6d163e820.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"10\">). Но даже <img src=\"https://ege.sdamgia.ru/formula/svg/8b/8b75986d4351b38a885c9253bd20f9f2.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"3 в квад­ра­те плюс 3 в квад­ра­те плюс 3 в квад­ра­те мень­ше 43.\"></p><p class=\"left_margin\">в)  <span data-width=\"640\" data-formulahash=\"8dcab72f45851d9979d1fb63e6f3d280\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/8d/8dcab72f45851d9979d1fb63e6f3d280.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"4K левая круг­лая скоб­ка n пра­вая круг­лая скоб­ка минус n=4a в квад­ра­те плюс 4b в квад­ра­те плюс 4c в квад­ра­те минус 100a минус 10b минус c=4 левая круг­лая скоб­ка a в квад­ра­те минус 25a пра­вая круг­лая скоб­ка плюс 2 левая круг­лая скоб­ка 2b в квад­ра­те минус 5b пра­вая круг­лая скоб­ка плюс левая круг­лая скоб­ка 4c в квад­ра­те минус c пра­вая круг­лая скоб­ка .\"></span> Каж­дое сла­га­е­мое можно ми­ни­ми­зи­ро­вать не­за­ви­си­мо от дру­гих, при­чем все сла­га­е­мые  — квад­рат­ные трех­чле­ны, по­это­му их ми­ни­мум (вер­ши­на) легко опре­де­ля­ет­ся. Нас, прав­да, ин­те­ре­су­ют толь­ко на­ту­раль­ные зна­че­ния пе­ре­мен­ных  — они могут быть либо во­круг вер­ши­ны, либо (если вер­ши­на вне про­ме­жут­ка <img src=\"https://ege.sdamgia.ru/formula/svg/62/6273c99eea5f09ce4a9ff8a7cfafea82.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка 1;9 пра­вая квад­рат­ная скоб­ка \">) в кон­цах от­рез­ка.</p><p class=\"left_margin\">Сле­ду­ет вы­брать <img src=\"https://ege.sdamgia.ru/formula/svg/37/37c829b14bb6609d65b6277706d1fd80.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a=9,b=1,c=0,\"> тогда по­лу­чим <img src=\"https://ege.sdamgia.ru/formula/svg/48/4878b76466f64725fd5351f3f2475b07.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"328 минус 910= минус 582.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) Да; б) Нет; в) − 582.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a6/a6a322133403d7fe37e577d61d246ea4.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/26a81cddfa7de3fe97c50d5b028b0a43.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d8033ba6bf97b2d5b7cd0e1f32c509a8.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/36cb6ed5283e452800c275dd6934aecc.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a87ff679a2f3e71d9181a67b7542122c.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cfcd208495d565ef66e7dff9f98764da.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/32b7955f9b36651f0303b1fd2a5d02c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/70623d96ac2e03af814c12d092c446fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/404c80c040c6cb5f99751fb4d5be98c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c4ca4238a0b923820dcc509a6f75849b.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/eccbc87e4b5ce2fe28308fd9f2a7baf3.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d3d9446802a44259755d38e6d163e820.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8b75986d4351b38a885c9253bd20f9f2.svg",
+            "https://ege.sdamgia.ru/formula/svg/8d/8dcab72f45851d9979d1fb63e6f3d280.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/6273c99eea5f09ce4a9ff8a7cfafea82.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/37c829b14bb6609d65b6277706d1fd80.svg",
+            "https://ege.sdamgia.ru/formula/svg/48/4878b76466f64725fd5351f3f2475b07.svg"
+        ]
+    },
+    "answer": "а) Да; б) Нет; в) − 582.",
+    "topic_id": null,
+    "analog_ids": [
+        521928,
+        522100,
+        522128,
+        522154
+    ]
+}

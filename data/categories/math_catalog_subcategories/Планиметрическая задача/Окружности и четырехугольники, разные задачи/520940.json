@@ -1,0 +1,31 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 520940,
+    "condition": {
+        "text": "Окружность проходит через вершины A, B и D параллелограмма ABCD, пересекает сторону BC в точках B и E и пересекает сторону CD в точках K и D.а)  Докажите, что AE = AK.б)  Найдите AD, если CE =10 , DK = 9 и ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629776\" class=\"pbody\"><p class=\"left_margin\">Окруж­ность про­хо­дит через вер­ши­ны <i>A</i>, <i>B</i> и <i>D</i> па­рал­ле­ло­грам­ма<i> ABCD</i>, пе­ре­се­ка­ет сто­ро­ну <i>BC</i> в точ­ках <i>B</i> и <i>E</i> и пе­ре­се­ка­ет сто­ро­ну <i>CD</i> в точ­ках <i>K</i> и <i>D</i>.</p><p class=\"left_margin\">а)  До­ка­жи­те, что <i>AE</i> = <i>AK</i>.</p><p class=\"left_margin\">б)  Най­ди­те <i>AD</i>, если <i>CE</i> =10 , <i>DK</i> = 9 и <img src=\"https://ege.sdamgia.ru/formula/svg/1e/1e2cc379f6e1ef01995d796833f50d98.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" ко­си­нус \\angle BAD=0,2.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/1e/1e2cc379f6e1ef01995d796833f50d98.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. a)  Заметим, что  Значит, хорды окружности AE и AK стягивают равные дуги. Поэтому эти хорды равны.б)  Поскольку прямые BC и AD параллельны,  , поэтому DE  =  AB  =  DC.Пусть DM  — медиана равнобедренного треугольника CDE. Тогда:    По свойству секущей  откуда  Ответ: б) 40.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol520940\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=150257\" style=\"float:right;margin:10px;max-width:100%\">a)  За­ме­тим, что <img src=\"https://ege.sdamgia.ru/formula/svg/1f/1f81ff8e4723bda80765955f17b07f5d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angleABE=\\angleABC=\\angleADC=\\angleADK\"> Зна­чит, хорды окруж­но­сти <i>AE</i> и <i>AK</i> стя­ги­ва­ют рав­ные дуги. По­это­му эти хорды равны.</p><p class=\"left_margin\">б)  По­сколь­ку пря­мые <i>BC</i> и <i>AD</i> па­рал­лель­ны, <img src=\"https://ege.sdamgia.ru/formula/svg/29/2967c2d7fbaee09d3edc91ee0c67d011.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angleEAD=\\angleAEB\"> , по­это­му <i>DE</i>  =  <i>AB</i>  =  <i>DC</i>.</p><p class=\"left_margin\">Пусть <i>DM</i>  — ме­ди­а­на рав­но­бед­рен­но­го тре­уголь­ни­ка <i>CDE</i>. Тогда: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d0/d0c894e93791ce127eb1401d5f416691.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"CD= дробь: чис­ли­тель: CM, зна­ме­на­тель: ко­си­нус \\angleECD конец дроби = дробь: чис­ли­тель: CE, зна­ме­на­тель: 2 ко­си­нус \\angleBAD конец дроби =25, \"> </p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/bc/bc1549a4460b7cfb5de615606922adb1.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"CK=CD минус DK=16.\"> </p><p class=\"left_margin\"></p></center><p class=\"left_margin\">По свой­ству се­ку­щей <img src=\"https://ege.sdamgia.ru/formula/svg/73/73db78a669c63ceeceb320894f7e5cd5.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"CK умно­жить на CD=CE умно­жить на CB, \"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/ae/aee7c12ad18b9224bbfd1563030515b1.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" AD=CB= дробь: чис­ли­тель: CK умно­жить на CD, зна­ме­на­тель: CE конец дроби =40. \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) 40.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/1f/1f81ff8e4723bda80765955f17b07f5d.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/2967c2d7fbaee09d3edc91ee0c67d011.svg",
+            "https://ege.sdamgia.ru/formula/svg/d0/d0c894e93791ce127eb1401d5f416691.svg",
+            "https://ege.sdamgia.ru/formula/svg/bc/bc1549a4460b7cfb5de615606922adb1.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/73db78a669c63ceeceb320894f7e5cd5.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/aee7c12ad18b9224bbfd1563030515b1.svg",
+            "/get_file?id=150257"
+        ]
+    },
+    "answer": "б) 40.",
+    "topic_id": 17,
+    "analog_ids": [
+        520940,
+        520947
+    ]
+}

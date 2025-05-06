@@ -1,0 +1,44 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 525410,
+    "condition": {
+        "text": "В треугольнике ABC биссектрисы AD и CE пересекаются в точке O, величина угла AOC составляет 120°.а)  Докажите, что около четырехугольника BDOE можно описать окружность.б)  Найдите площадь треугольника ABC, если  а ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body420510\" class=\"pbody\"><p class=\"left_margin\">В тре­уголь­ни­ке <i>ABC</i> бис­сек­три­сы <i>AD</i> и <i>CE</i> пе­ре­се­ка­ют­ся в точке <i>O</i>, ве­ли­чи­на угла <i>AOC</i> со­став­ля­ет 120°.</p><p class=\"left_margin\">а)  До­ка­жи­те, что около че­ты­рех­уголь­ни­ка <i>BDOE</i> можно опи­сать окруж­ность.</p><p class=\"left_margin\">б)  Най­ди­те пло­щадь тре­уголь­ни­ка <i>ABC</i>, если <img src=\"https://ege.sdamgia.ru/formula/svg/76/76922c7fcc8f77fb13ce072dc884cf1c.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"BC=4,\"> а <img src=\"https://ege.sdamgia.ru/formula/svg/9b/9b1eaf9dd1da02fa5e71b43f748486ce.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle BED=75 гра­ду­сов.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/76/76922c7fcc8f77fb13ce072dc884cf1c.svg",
+            "https://ege.sdamgia.ru/formula/svg/9b/9b1eaf9dd1da02fa5e71b43f748486ce.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  В треугольнике AOC сумма углов  но величины углов   и  составляют половины величин углов  и  а значит, сумма углов  Тогда величина угла Вертикальные углы  и  равны и, значит, сумма противоположных углов четырехугольника BDOE равна 180°. Следовательно, около него можно описать окружность.б)  В треугольнике ABC биссектрисы пересекаются в точке O, значит, BO  — биссектриса угла  а, значит,  Углы  и  равны, так как опираются на одну и ту же дугу окружности, описанной около четырехугольника BDOE. Имеем:1)  2)   по теореме о внешнем угле треугольника;3)   Таким образом, треугольник ABC  — прямоугольный и его площадь равна  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol525410\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  В тре­уголь­ни­ке <i>AOC</i> сумма углов <img src=\"https://ege.sdamgia.ru/formula/svg/8a/8a5124de7530e981ea8ca48fb64f2b3d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle OAC плюс \\angle OCA=180 гра­ду­сов минус 120 гра­ду­сов=60 гра­ду­сов,\"> но ве­ли­чи­ны углов  <img src=\"https://ege.sdamgia.ru/formula/svg/88/88d6f7ab0292e7d1cf840edd02e99ab5.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle OAC\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/b5/b5b72c06998e414d99edfdc3681ee715.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle OCA\"> со­став­ля­ют по­ло­ви­ны ве­ли­чин углов <img src=\"https://ege.sdamgia.ru/formula/svg/b8/b8d7a7847dcba2f1d40731cfeb648e9f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle BAC\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/40/406802a0f4b83d5ba20c5f6a81a666f5.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle BCA,\"> а зна­чит, сумма углов <img src=\"https://ege.sdamgia.ru/formula/svg/72/725069ba44d49119bf30807accd0b7e2.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle BAC плюс \\angle BCA=2 умно­жить на 60 гра­ду­сов=120 гра­ду­сов.\"> Тогда ве­ли­чи­на угла <img src=\"https://ege.sdamgia.ru/formula/svg/e9/e95d440407bda971ee4effd28c000252.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\angle ABC=180 гра­ду­сов минус левая круг­лая скоб­ка \\angle BAC плюс \\angle BCA пра­вая круг­лая скоб­ка =60 гра­ду­сов.\"></p><p class=\"left_margin\">Вер­ти­каль­ные углы <img src=\"https://ege.sdamgia.ru/formula/svg/01/015eb68d3389bd75a3a360066383fbfc.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle EOD\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/71/71508ca556dc7937887a57d93b1c2aa1.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle AOC\"> равны и, зна­чит, сумма про­ти­во­по­лож­ных углов че­ты­рех­уголь­ни­ка <i>BDOE</i> равна 180°. Сле­до­ва­тель­но, около него можно опи­сать окруж­ность.<img src=\"/get_file?id=148618\" style=\"margin:10px auto;display:block;max-width:100%\"></p><p class=\"left_margin\">б)  В тре­уголь­ни­ке <i>ABC</i> бис­сек­три­сы пе­ре­се­ка­ют­ся в точке <i>O</i>, зна­чит, <i>BO</i>  — бис­сек­три­са угла <img src=\"https://ege.sdamgia.ru/formula/svg/f6/f66eeb31a0b817066ab58d962c8ecb21.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle ABC,\"> а, зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/85/85aa0e4d2f4827bbe1d8940970df030c.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"\\angle DBO= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби \\angle ABC=30 гра­ду­сов.\"> Углы <img src=\"https://ege.sdamgia.ru/formula/svg/a1/a18aff22d5c900cdef82c571cf108b87.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle DBO\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/df/df56f49a6c3f067a01038395d9ff1186.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle DEO\"> равны, так как опи­ра­ют­ся на одну и ту же дугу окруж­но­сти, опи­сан­ной около че­ты­рех­уголь­ни­ка <i>BDOE</i>. Имеем:</p><p class=\"left_margin\">1)  <img src=\"https://ege.sdamgia.ru/formula/svg/32/32dc4f7297e04a2fa79180cf4447bbe3.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"\\angle AEO=180 гра­ду­сов минус левая круг­лая скоб­ка \\angle BED плюс \\angle DEO пра­вая круг­лая скоб­ка =180 гра­ду­сов минус левая круг­лая скоб­ка 75 гра­ду­сов плюс 30 гра­ду­сов пра­вая круг­лая скоб­ка =75 гра­ду­сов;\"></p><p class=\"left_margin\">2)  <img src=\"https://ege.sdamgia.ru/formula/svg/98/98fd4e8fa47527efc448922e9257c13d.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle EAO=\\angle AOC минус \\angle AEO=120 гра­ду­сов минус 75 гра­ду­сов=45 гра­ду­сов,\"> по тео­ре­ме о внеш­нем угле тре­уголь­ни­ка;</p><p class=\"left_margin\">3)  <img src=\"https://ege.sdamgia.ru/formula/svg/4c/4c9cb4f4a08ec659455910adde1b6377.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle BAC=2 умно­жить на \\angle EAO=90 гра­ду­сов.\"> Таким об­ра­зом, тре­уголь­ник <i>ABC</i>  — пря­мо­уголь­ный и его пло­щадь равна <img src=\"https://ege.sdamgia.ru/formula/svg/47/4769b37655edfa663032b0bf075f643b.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби AB умно­жить на AC= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби BC ко­си­нус ⁡ 60 гра­ду­сов умно­жить на BC синус ⁡ 60 гра­ду­сов=2 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/fd/fdfbb42df7a5ce999654af7934100d75.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/8a/8a5124de7530e981ea8ca48fb64f2b3d.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/88d6f7ab0292e7d1cf840edd02e99ab5.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b5b72c06998e414d99edfdc3681ee715.svg",
+            "https://ege.sdamgia.ru/formula/svg/b8/b8d7a7847dcba2f1d40731cfeb648e9f.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/406802a0f4b83d5ba20c5f6a81a666f5.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/725069ba44d49119bf30807accd0b7e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e95d440407bda971ee4effd28c000252.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/015eb68d3389bd75a3a360066383fbfc.svg",
+            "https://ege.sdamgia.ru/formula/svg/71/71508ca556dc7937887a57d93b1c2aa1.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f66eeb31a0b817066ab58d962c8ecb21.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/85aa0e4d2f4827bbe1d8940970df030c.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a18aff22d5c900cdef82c571cf108b87.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/df56f49a6c3f067a01038395d9ff1186.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/32dc4f7297e04a2fa79180cf4447bbe3.svg",
+            "https://ege.sdamgia.ru/formula/svg/98/98fd4e8fa47527efc448922e9257c13d.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c9cb4f4a08ec659455910adde1b6377.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/4769b37655edfa663032b0bf075f643b.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fdfbb42df7a5ce999654af7934100d75.svg",
+            "/get_file?id=148618"
+        ]
+    },
+    "answer": "",
+    "topic_id": 17,
+    "analog_ids": [
+        525410,
+        525455
+    ]
+}

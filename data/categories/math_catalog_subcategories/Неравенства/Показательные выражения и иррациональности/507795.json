@@ -1,0 +1,34 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 507795,
+    "condition": {
+        "text": "Решите неравенство: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body643439\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство: <img src=\"https://ege.sdamgia.ru/formula/svg/41/41ef8ee686c2d80ca858a07ab4353210.svg\" class=\"tex\" style=\"vertical-align:-7.9pt\" alt=\" левая круг­лая скоб­ка 3 в сте­пе­ни левая круг­лая скоб­ка дробь: чис­ли­тель: x минус 2, зна­ме­на­тель: 2 конец дроби пра­вая круг­лая скоб­ка минус 1 пра­вая круг­лая скоб­ка ко­рень из: на­ча­ло ар­гу­мен­та: 3 в сте­пе­ни x минус 10 ко­рень из: на­ча­ло ар­гу­мен­та: 3 в сте­пе­ни x конец ар­гу­мен­та плюс 9 конец ар­гу­мен­та боль­ше или равно 0. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/41/41ef8ee686c2d80ca858a07ab4353210.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Найдём, при каких значениях x подкоренное выражение неотрицательно. Пусть Сделаем обратную замену:Тем самым, ОДЗ неравенства: Решим неравенство методом интервалов. Найдём нули левой части: (не принадлежит ОДЗ), Расставим точки на прямой и определим знаки на области допустимых значений:Таким образом, решение исходного неравенства:   Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol507795\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Найдём, при каких зна­че­ни­ях <i>x</i> под­ко­рен­ное вы­ра­же­ние не­от­ри­ца­тель­но. Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/51/5168ea78c7d175e40809beb71ddaa4b0.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: 3 в сте­пе­ни x конец ар­гу­мен­та =t:\"></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ea/ea18cadb3848b40edb90a1c5b8bb938d.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\"t в квад­ра­те минус 10t плюс 9 боль­ше или равно 0 рав­но­силь­но левая круг­лая скоб­ка t минус 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка t минус 9 пра­вая круг­лая скоб­ка боль­ше или равно 0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка t мень­ше или равно 1, новая стро­ка t боль­ше или равно 9. конец со­во­куп­но­сти \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Сде­ла­ем об­рат­ную за­ме­ну:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/8f/8feedf7d0fcdeeb0e03ac1876b7dcf19.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" со­во­куп­ность вы­ра­же­ний  новая стро­ка ко­рень из: на­ча­ло ар­гу­мен­та: 3 в сте­пе­ни x конец ар­гу­мен­та мень­ше или равно 1, новая стро­ка ко­рень из: на­ча­ло ар­гу­мен­та: 3 в сте­пе­ни x конец ар­гу­мен­та боль­ше или равно 9 конец со­во­куп­но­сти рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка 3 в сте­пе­ни x мень­ше или равно 1, новая стро­ка 3 в сте­пе­ни x боль­ше или равно 81 конец со­во­куп­но­сти рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка x мень­ше или равно 0, новая стро­ка x боль­ше или равно 4. конец со­во­куп­но­сти \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Тем самым, ОДЗ не­ра­вен­ства: <img src=\"https://ege.sdamgia.ru/formula/svg/46/46b3bc0c351d0671c6703ac8164f9207.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка минус бес­ко­неч­ность ;0 пра­вая квад­рат­ная скоб­ка \\cup левая квад­рат­ная скоб­ка 4; плюс бес­ко­неч­ность пра­вая круг­лая скоб­ка .\"></p><p class=\"left_margin\">Решим не­ра­вен­ство ме­то­дом ин­тер­ва­лов. Найдём нули левой части:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/0e/0e6902b384766d43735ede6cc73d4064.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"3 в сте­пе­ни левая круг­лая скоб­ка дробь: чис­ли­тель: x минус 2, зна­ме­на­тель: 2 конец дроби пра­вая круг­лая скоб­ка минус 1=0 рав­но­силь­но дробь: чис­ли­тель: x минус 2, зна­ме­на­тель: 2 конец дроби =0 рав­но­силь­но x=2 \"> (не при­над­ле­жит ОДЗ),</p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/0d/0db77e1c6f9f1b68a439c9ffe2cbbb9c.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\"3 в сте­пе­ни x минус 10 ко­рень из: на­ча­ло ар­гу­мен­та: 3 в сте­пе­ни x конец ар­гу­мен­та плюс 9=0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка x=0, новая стро­ка x=4. конец со­во­куп­но­сти \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Рас­ста­вим точки на пря­мой и опре­де­лим знаки на об­ла­сти до­пу­сти­мых зна­че­ний:</p><p class=\"left_margin\"></p><center><p><img src=\"/get_file?id=143359\" style=\"margin:10px auto;display:block;max-width:100%\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Таким об­ра­зом, ре­ше­ние ис­ход­но­го не­ра­вен­ства: <img src=\"https://ege.sdamgia.ru/formula/svg/4d/4db9fb8a48a13cf003744ce6f481ff0d.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая фи­гур­ная скоб­ка 0 пра­вая фи­гур­ная скоб­ка \\cup левая квад­рат­ная скоб­ка 4; плюс бес­ко­неч­ность пра­вая круг­лая скоб­ка .\"></p><p>&nbsp;</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/4d/4db9fb8a48a13cf003744ce6f481ff0d.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая фи­гур­ная скоб­ка 0 пра­вая фи­гур­ная скоб­ка \\cup левая квад­рат­ная скоб­ка 4; плюс бес­ко­неч­ность пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/51/5168ea78c7d175e40809beb71ddaa4b0.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/ea18cadb3848b40edb90a1c5b8bb938d.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8feedf7d0fcdeeb0e03ac1876b7dcf19.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/46b3bc0c351d0671c6703ac8164f9207.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0e6902b384766d43735ede6cc73d4064.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0db77e1c6f9f1b68a439c9ffe2cbbb9c.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4db9fb8a48a13cf003744ce6f481ff0d.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4db9fb8a48a13cf003744ce6f481ff0d.svg",
+            "/get_file?id=143359"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": [
+        507795,
+        507801,
+        511495
+    ]
+}

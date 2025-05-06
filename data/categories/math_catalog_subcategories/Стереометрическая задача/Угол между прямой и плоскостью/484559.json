@@ -1,0 +1,49 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 484559,
+    "condition": {
+        "text": "В правильной треугольной пирамиде SABC с основанием ABC известны ребра  SC  =  25. M  — середина ребра SA.а)  Докажите, что проекции точек S и M на плоскость основания делят высоту AN треугольника ABC на три равные части.б)  Найдите угол, образованный плоскостью основания и прямой MN.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body592435\" class=\"pbody\"><p class=\"left_margin\">В пра­виль­ной тре­уголь­ной пи­ра­ми­де <i>SABC</i> с ос­но­ва­ни­ем <i>ABC</i> из­вест­ны ребра <img src=\"https://ege.sdamgia.ru/formula/svg/b6/b66c26504dfec769b7bfdbfc0153b203.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"AB=7 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та ,\"> <i>SC</i>  =  25. <i>M</i>  — се­ре­ди­на ребра <i>SA</i>.</p><p class=\"left_margin\">а)  До­ка­жи­те, что про­ек­ции точек <i>S</i> и <i>M</i> на плос­кость ос­но­ва­ния делят вы­со­ту <i>AN</i> тре­уголь­ни­ка <i>ABC</i> на три рав­ные части.</p><p class=\"left_margin\">б)  Най­ди­те угол, об­ра­зо­ван­ный плос­ко­стью ос­но­ва­ния и пря­мой <i>MN</i>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b6/b66c26504dfec769b7bfdbfc0153b203.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Проекция точки S на плоскость основания это точка O  — центр основания. Центр правильного треугольника является точкой пересечения его медиан, поэтому AO : ON = 2 : 1. Проекцией прямой AS на плоскость основания является прямая AN. Поэтому проекция точки M  — точка  лежит на отрезке AN. M  — середина AS, поэтому   — середина отрезка AO. Таким образом, проекции точек S и M на плоскость основания делят высоту AN треугольника ABC на три равные части. б)  AN  — медиана правильного треугольника ABC, значит,  Проекцией прямой MN является прямая AN, следовательно, угол   — искомый.  где O  — центр основания, значит,   — средняя линия треугольника ASO поэтому  Тогда  и  Из прямоугольного треугольника  находим:Из прямоугольного треугольника  находим:Значит, искомый угол равен Ответ:  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol484559\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=141939\" style=\"float:right;margin:10px;max-width:100%\">а)  Про­ек­ция точки <i>S</i> на плос­кость ос­но­ва­ния это точка <i>O</i>  — центр ос­но­ва­ния. Центр пра­виль­но­го тре­уголь­ни­ка яв­ля­ет­ся точ­кой пе­ре­се­че­ния его ме­ди­ан, по­это­му <i>AO : ON</i> = 2 : 1. Про­ек­ци­ей пря­мой <i>AS</i> на плос­кость ос­но­ва­ния яв­ля­ет­ся пря­мая <i>AN.</i> По­это­му про­ек­ция точки <i>M</i>  — точка <img src=\"https://ege.sdamgia.ru/formula/svg/0a/0a04315fff14859d66e75bebbaaa6990.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"M_1\"> лежит на от­рез­ке <i>AN.</i> <i>M</i>  — се­ре­ди­на <i>AS</i>, по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/0a/0a04315fff14859d66e75bebbaaa6990.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"M_1\">  — се­ре­ди­на от­рез­ка <i>AO</i>. Таким об­ра­зом, про­ек­ции точек <i>S</i> и <i>M</i> на плос­кость ос­но­ва­ния делят вы­со­ту <i>AN</i> тре­уголь­ни­ка <i>ABC</i> на три рав­ные части. </p><p class=\"left_margin\">б)  <i>AN</i>  — ме­ди­а­на пра­виль­но­го тре­уголь­ни­ка <i>ABC,</i> зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/46/467e6dafe820ca259c5631e573a6dde1.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"AN = дробь: чис­ли­тель: ко­рень из 3 , зна­ме­на­тель: 2 конец дроби AB= дробь: чис­ли­тель: 21, зна­ме­на­тель: 2 конец дроби . \"> Про­ек­ци­ей пря­мой <i>MN</i> яв­ля­ет­ся пря­мая <i>AN,</i> сле­до­ва­тель­но, угол <img src=\"https://ege.sdamgia.ru/formula/svg/93/93cfc5e63c877e73207bf7037eba4b60.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"MNM_1\">  — ис­ко­мый. <img src=\"https://ege.sdamgia.ru/formula/svg/2b/2bc7a5764cb267264c50c6124f3c90a4.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"MM_1\\parallel SO,\"> где <i>O</i>  — центр ос­но­ва­ния, зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/bf/bf0004accb0a6737fdbca02fa12ca71c.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"MM_1\">  — сред­няя линия тре­уголь­ни­ка <i>ASO</i> по­это­му <img src=\"https://ege.sdamgia.ru/formula/svg/79/79a7346443d7d92309da3d80779640f6.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"AM_1= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби AO. \"> Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/0f/0f4b21c97acb4931db0215407b783545.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"AM_1= дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби AN= дробь: чис­ли­тель: 7, зна­ме­на­тель: 2 конец дроби \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/ae/aea503810ab2dd14b2aa85e1bc316868.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"M_1N= дробь: чис­ли­тель: 2, зна­ме­на­тель: 3 конец дроби AN=7. \"> Из пря­мо­уголь­но­го тре­уголь­ни­ка <img src=\"https://ege.sdamgia.ru/formula/svg/4a/4acf05b1de658088ffc8099377e11532.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AMM_1\"> на­хо­дим:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/7e/7e783b58ddf840eddbd6eb91de7413da.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\"MM_1= ко­рень из: на­ча­ло ар­гу­мен­та: AM в квад­ра­те минус AM_1 в квад­ра­те конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: дробь: чис­ли­тель: 625, зна­ме­на­тель: 4 конец дроби минус дробь: чис­ли­тель: 49, зна­ме­на­тель: 4 конец дроби конец ар­гу­мен­та =12. \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Из пря­мо­уголь­но­го тре­уголь­ни­ка <img src=\"https://ege.sdamgia.ru/formula/svg/11/11330cd5ec071c096a5963a61aaaa022.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"MM_1N\"> на­хо­дим:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/a7/a70c23af3adece0945ad6715ff466c42.svg\" class=\"tex\" style=\"vertical-align:-10.1pt\" alt=\"\\operatorname тан­генс \\angle MNM_1= дробь: чис­ли­тель: MM_1, зна­ме­на­тель: M_1N конец дроби = дробь: чис­ли­тель: 12, зна­ме­на­тель: 7 конец дроби . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Зна­чит, ис­ко­мый угол равен <img src=\"https://ege.sdamgia.ru/formula/svg/0f/0f64b0a8b3cbaf2527c5b8db45af269b.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"\\operatorname арк­тан­генс дробь: чис­ли­тель: 12, зна­ме­на­тель: 7 конец дроби . \"></p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  <img src=\"https://ege.sdamgia.ru/formula/svg/0f/0f64b0a8b3cbaf2527c5b8db45af269b.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"\\operatorname арк­тан­генс дробь: чис­ли­тель: 12, зна­ме­на­тель: 7 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/0a/0a04315fff14859d66e75bebbaaa6990.svg",
+            "https://ege.sdamgia.ru/formula/svg/0a/0a04315fff14859d66e75bebbaaa6990.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/467e6dafe820ca259c5631e573a6dde1.svg",
+            "https://ege.sdamgia.ru/formula/svg/93/93cfc5e63c877e73207bf7037eba4b60.svg",
+            "https://ege.sdamgia.ru/formula/svg/2b/2bc7a5764cb267264c50c6124f3c90a4.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bf0004accb0a6737fdbca02fa12ca71c.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/79a7346443d7d92309da3d80779640f6.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0f4b21c97acb4931db0215407b783545.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/aea503810ab2dd14b2aa85e1bc316868.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4acf05b1de658088ffc8099377e11532.svg",
+            "https://ege.sdamgia.ru/formula/svg/7e/7e783b58ddf840eddbd6eb91de7413da.svg",
+            "https://ege.sdamgia.ru/formula/svg/11/11330cd5ec071c096a5963a61aaaa022.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a70c23af3adece0945ad6715ff466c42.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0f64b0a8b3cbaf2527c5b8db45af269b.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0f64b0a8b3cbaf2527c5b8db45af269b.svg",
+            "/get_file?id=141939"
+        ]
+    },
+    "answer": "",
+    "topic_id": 14,
+    "analog_ids": [
+        484559,
+        484560,
+        505534,
+        505535,
+        484560,
+        505534,
+        505535,
+        505548,
+        505550,
+        507621,
+        511451
+    ]
+}

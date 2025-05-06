@@ -1,0 +1,27 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 514245,
+    "condition": {
+        "text": "В правильной четырёхугольной пирамиде SABCD все рёбра равны 5. На рёбрах SA, AB, BC взяты точки P, Q, R соответственно так, что PA  =  AQ  =  RC  =  2.а)  Докажите, что плоскость PQR перпендикулярна ребру SD.б)  Найдите расстояние от вершины D до плоскости PQR.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body636473\" class=\"pbody\"><p class=\"left_margin\">В пра­виль­ной четырёхуголь­ной пи­ра­ми­де <i>SABCD</i> все рёбра равны 5. На рёбрах <i>SA</i>, <i>AB</i>, <i>BC</i> взяты точки <i>P</i>, <i>Q</i>, <i>R</i> со­от­вет­ствен­но так, что <i>PA  =  AQ  =  RC</i>  =  2.</p><p class=\"left_margin\">а)  До­ка­жи­те, что плос­кость <i>PQR</i> пер­пен­ди­ку­ляр­на ребру <i>SD</i>.</p><p class=\"left_margin\">б)  Най­ди­те рас­сто­я­ние от вер­ши­ны <i>D</i> до плос­ко­сти <i>PQR</i>.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Стороны треугольника SBD равны 5, 5 и  поэтому он прямоугольный, то есть прямая SD перпендикулярна прямой SB. Очевидно, что прямые SB и PQ параллельны как стороны равносторонних треугольников с общим углом, тогда прямая SD перпендикулярна прямой PQ. Прямая AC перпендикулярна прямой BD, и по теореме о трёх перпендикулярах прямая AC перпендикулярна прямой SD, а значит, и прямая QR перпендикулярна прямой SD. Таким образом, плоскость PQR перпендикулярна ребру SD.б)  Пусть плоскость PQR пересекает ребро SD в точке E. Из доказанного следует, что прямая PE перпендикулярна прямой SD, откудаЗначит,  Поскольку плоскость PQR перпендикулярна ребру SD, искомое расстояние равно DE. Ответ: б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol514245\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=141371\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Сто­ро­ны тре­уголь­ни­ка <i>SBD</i> равны 5, 5 и <img src=\"https://ege.sdamgia.ru/formula/svg/82/82b841fa6d22c1ba812920279d0622db.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"5 ко­рень из 2 ,\"> по­это­му он пря­мо­уголь­ный, то есть пря­мая <i>SD</i> пер­пен­ди­ку­ляр­на пря­мой <i>SB</i>. Оче­вид­но, что пря­мые <i>SB</i> и <i>PQ</i> па­рал­лель­ны как сто­ро­ны рав­но­сто­рон­них тре­уголь­ни­ков с общим углом, тогда пря­мая <i>SD</i> пер­пен­ди­ку­ляр­на пря­мой <i>PQ</i>. Пря­мая <i>AC</i> пер­пен­ди­ку­ляр­на пря­мой <i>BD</i>, и по тео­ре­ме о трёх пер­пен­ди­ку­ля­рах пря­мая <i>AC</i> пер­пен­ди­ку­ляр­на пря­мой <i>SD</i>, а зна­чит, и пря­мая <i>QR</i> пер­пен­ди­ку­ляр­на пря­мой <i>SD</i>. Таким об­ра­зом, плос­кость <i>PQR</i> пер­пен­ди­ку­ляр­на ребру <i>SD</i>.</p><p class=\"left_margin\">б)  Пусть плос­кость <i>PQR</i> пе­ре­се­ка­ет ребро <i>SD</i> в точке <i>E</i>. Из до­ка­зан­но­го сле­ду­ет, что пря­мая <i>PE</i> пер­пен­ди­ку­ляр­на пря­мой <i>SD</i>, от­ку­да</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/30/306ae138550d2458b65d6bdfba8d3f58.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"SE=SP ко­си­нус 60 гра­ду­сов= дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби .\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/d6/d6b25b76111c3d0f66c5bfd651448b7f.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"DE=SD минус SE= дробь: чис­ли­тель: 7, зна­ме­на­тель: 2 конец дроби .\"> По­сколь­ку плос­кость <i>PQR</i> пер­пен­ди­ку­ляр­на ребру <i>SD</i>, ис­ко­мое рас­сто­я­ние равно <i>DE</i>.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) <img src=\"https://ege.sdamgia.ru/formula/svg/63/63fb370c21f56437bb0665e8a1d6dec8.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 7, зна­ме­на­тель: 2 конец дроби .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/82/82b841fa6d22c1ba812920279d0622db.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/306ae138550d2458b65d6bdfba8d3f58.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d6b25b76111c3d0f66c5bfd651448b7f.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/63fb370c21f56437bb0665e8a1d6dec8.svg",
+            "/get_file?id=141371"
+        ]
+    },
+    "answer": "б)",
+    "topic_id": 14,
+    "analog_ids": [
+        514245,
+        517752
+    ]
+}

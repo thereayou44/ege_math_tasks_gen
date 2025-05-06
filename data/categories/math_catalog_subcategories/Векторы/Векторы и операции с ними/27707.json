@@ -1,0 +1,54 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27707,
+    "condition": {
+        "text": "Две стороны прямоугольника ABCD равны 6 и 8. Найдите длину вектора ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918215\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=143409\" style=\"float:right;margin:10px;max-width:100%\">Две сто­ро­ны пря­мо­уголь­ни­ка <i>ABCD</i> равны 6 и 8. Най­ди­те длину век­то­ра <img src=\"https://ege.sdamgia.ru/formula/svg/4e/4ee9b12f2e70a313d60c2ab04519e9d5.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overrightarrowAC.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/4e/4ee9b12f2e70a313d60c2ab04519e9d5.svg",
+            "/get_file?id=143409"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Вектор  является диагональю прямоугольника. По теореме Пифагора  Ответ: 10.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27707\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Век­тор <img src=\"https://ege.sdamgia.ru/formula/svg/b6/b666b77b438240cc41b2abccb9e25b66.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overrightarrowAC\"> яв­ля­ет­ся диа­го­на­лью пря­мо­уголь­ни­ка. По тео­ре­ме Пи­фа­го­ра <img src=\"https://ege.sdamgia.ru/formula/svg/0b/0b1ef803430e88bb25b4ba338d401dd9.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AC= ко­рень из: на­ча­ло ар­гу­мен­та: 6 в квад­ра­те плюс 8 в квад­ра­те конец ар­гу­мен­та =10.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 10.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/b6/b666b77b438240cc41b2abccb9e25b66.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0b1ef803430e88bb25b4ba338d401dd9.svg"
+        ]
+    },
+    "answer": "10",
+    "topic_id": 2,
+    "analog_ids": [
+        27707,
+        60155,
+        60157,
+        60159,
+        60155,
+        60157,
+        60159,
+        60161,
+        60163,
+        60165,
+        60167,
+        60169,
+        60171,
+        60173,
+        60175,
+        60177,
+        60179,
+        60181,
+        60183,
+        60185,
+        60187,
+        60189,
+        60191,
+        60193,
+        60195,
+        60197,
+        60199,
+        60201,
+        60203
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521262,
+    "condition": {
+        "text": "Множество А состоит из всех простых чисел, не превосходящих 50, взятых по одному разу. а)  Можно ли элементы множества А разбить на пять групп, в каждой из которых сумма чисел будет числом чётным? б)  Можно ли элементы множества А разбить на пять групп, в каждой из которых сумма чисел будет числом нечётным? в)  На какое наибольшее число групп можно разбить элементы множества А так, чтобы сумма чисел во всех группах была одинакова?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629458\" class=\"pbody\"><p class=\"left_margin\">Мно­же­ство <i>А</i> со­сто­ит из всех про­стых чисел, не пре­вос­хо­дя­щих 50, взя­тых по од­но­му разу. </p><p class=\"left_margin\">а)  Можно ли эле­мен­ты мно­же­ства <i>А</i> раз­бить на пять групп, в каж­дой из ко­то­рых сумма чисел будет чис­лом чётным? </p><p class=\"left_margin\">б)  Можно ли эле­мен­ты мно­же­ства <i>А</i> раз­бить на пять групп, в каж­дой из ко­то­рых сумма чисел будет чис­лом нечётным? </p><p class=\"left_margin\">в)  На какое наи­боль­шее число групп можно раз­бить эле­мен­ты мно­же­ства <i>А</i> так, чтобы сумма чисел во всех груп­пах была оди­на­ко­ва?</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Общая сумма всех чисел равна а)  Да, например: 2, 3 + 5, 7 + 11, 13 + 17 и все остальные.б)  Нет, тогда общая сумма (то есть сумма всех сумм групп) должна получаться нечетной как сумма пяти нечетных чисел.в)  Имеем:  Ясно, что сумма в группе должна быть делителем этого числа и быть не меньше  (иначе число  нельзя поместить в группу). Значит, сумма минимум  а групп максимум  Это возможно:    Ответ: а) да; б) нет; в) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521262\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Общая сумма всех чисел равна </p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"0c7e5a652a3ae357a7eb0cadb0770fb4\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/0c/0c7e5a652a3ae357a7eb0cadb0770fb4.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2 плюс 3 плюс 5 плюс 7 плюс 11 плюс 13 плюс 17 плюс 19 плюс 23 плюс 29 плюс 31 плюс 37 плюс 41 плюс 43 плюс 47=328.\"></span><span data-width=\"615\" data-formulahash=\"0c7e5a652a3ae357a7eb0cadb0770fb4\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/1c/1c849a9dd0182231abfefab5ca5d7104.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2 плюс 3 плюс 5 плюс 7 плюс 11 плюс 13 плюс 17 плюс 19 плюс \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/89/89e7fcd32394884ce3e30ea946649256.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" плюс 23 плюс 29 плюс 31 плюс 37 плюс 41 плюс 43 плюс 47=328.\"></span></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">а)  Да, на­при­мер: 2, 3 + 5, 7 + 11, 13 + 17 и все осталь­ные.</p><p class=\"left_margin\">б)  Нет, тогда общая сумма (то есть сумма всех сумм групп) долж­на по­лу­чать­ся не­чет­ной как сумма пяти не­чет­ных чисел.</p><p class=\"left_margin\">в)  Имеем: <img src=\"https://ege.sdamgia.ru/formula/svg/f3/f32e3ff11b391d91cb8bbf1857e0db72.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"328=8 умно­жить на 41.\"> Ясно, что сумма в груп­пе долж­на быть де­ли­те­лем этого числа и быть не мень­ше <img src=\"https://ege.sdamgia.ru/formula/svg/67/67c6a1e7ce56d3d6fa748ab6d9af3fd7.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"47\"> (иначе число <img src=\"https://ege.sdamgia.ru/formula/svg/67/67c6a1e7ce56d3d6fa748ab6d9af3fd7.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"47\"> нель­зя по­ме­стить в груп­пу). Зна­чит, сумма ми­ни­мум <img src=\"https://ege.sdamgia.ru/formula/svg/f7/f7abf374392f0e66b6eeaff1f0f41520.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"41 умно­жить на 2=82,\"> а групп мак­си­мум <img src=\"https://ege.sdamgia.ru/formula/svg/ee/ee2468a702bdc29871e84d63e851dd26.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"4.\"> Это воз­мож­но: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e9/e9d9282a3443826eb37d04f78fb68ab4.svg\" class=\"tex\" style=\"vertical-align:-2.2pt\" alt=\"47 плюс 19 плюс 13 плюс 3;\"> <img src=\"https://ege.sdamgia.ru/formula/svg/2a/2ad018b1934eec0b8f5d80045cb0cf71.svg\" class=\"tex\" style=\"vertical-align:-2.2pt\" alt=\"43 плюс 37 плюс 2;\"> <img src=\"https://ege.sdamgia.ru/formula/svg/b4/b4459912128686e12daf4c2d6b11f917.svg\" class=\"tex\" style=\"vertical-align:-2.2pt\" alt=\"41 плюс 29 плюс 5 плюс 7;\"> <img src=\"https://ege.sdamgia.ru/formula/svg/cd/cdace0bb3e10e68d45c5cfcadd4fb76a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"31 плюс 23 плюс 17 плюс 11.\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) да; б) нет; в) <img src=\"https://ege.sdamgia.ru/formula/svg/ee/ee2468a702bdc29871e84d63e851dd26.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"4.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/0c/0c7e5a652a3ae357a7eb0cadb0770fb4.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1c849a9dd0182231abfefab5ca5d7104.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/89e7fcd32394884ce3e30ea946649256.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f32e3ff11b391d91cb8bbf1857e0db72.svg",
+            "https://ege.sdamgia.ru/formula/svg/67/67c6a1e7ce56d3d6fa748ab6d9af3fd7.svg",
+            "https://ege.sdamgia.ru/formula/svg/67/67c6a1e7ce56d3d6fa748ab6d9af3fd7.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f7abf374392f0e66b6eeaff1f0f41520.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/ee2468a702bdc29871e84d63e851dd26.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e9d9282a3443826eb37d04f78fb68ab4.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2ad018b1934eec0b8f5d80045cb0cf71.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b4459912128686e12daf4c2d6b11f917.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cdace0bb3e10e68d45c5cfcadd4fb76a.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/ee2468a702bdc29871e84d63e851dd26.svg"
+        ]
+    },
+    "answer": "а) да; б) нет; в)",
+    "topic_id": null,
+    "analog_ids": []
+}

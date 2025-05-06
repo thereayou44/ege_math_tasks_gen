@@ -1,0 +1,25 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 515205,
+    "condition": {
+        "text": "Два пешехода идут навстречу друг другу: один из А в В, а другой  — из В в А. Они вышли одновременно, и когда первый прошел половину пути, второму оставалось идти еще 1,5 часа, а когда второй прошел половину пути, то первому оставалось идти еще 45 минут. На сколько минут раньше закончит свой путь первый пешеход, чем второй?",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body635513\" class=\"pbody\"><p class=\"left_margin\">Два пе­ше­хо­да идут нав­стре­чу друг другу: один из <i>А</i> в <i>В</i>, а дру­гой  — из <i>В</i> в <i>А</i>. Они вышли од­но­вре­мен­но, и когда пер­вый про­шел по­ло­ви­ну пути, вто­ро­му оста­ва­лось идти еще 1,5 часа, а когда вто­рой про­шел по­ло­ви­ну пути, то пер­во­му оста­ва­лось идти еще 45 минут. На сколь­ко минут рань­ше за­кон­чит свой путь пер­вый пе­ше­ход, чем вто­рой?</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Обозначим время, нужное им на весь путь, за  и  минут соответственно. Тогда по условию  и   Решая эту систему, находим    Поэтому один придет раньше другого на полчаса. Ответ: на 30 минут.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol515205\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Обо­зна­чим время, нуж­ное им на весь путь, за <img src=\"https://ege.sdamgia.ru/formula/svg/c1/c166737ce14208c4ed485796ce097712.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" 2x\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/57/57820ea331de8df004bbbb21d9209f39.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" 2y\"> минут со­от­вет­ствен­но. Тогда по усло­вию <img src=\"https://ege.sdamgia.ru/formula/svg/d2/d209b2056071b0d1d56ccc871f8e2405.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" x плюс 90=2y\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/8f/8f5059e804917aff4b1668d6709cc4e2.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" y плюс 45=2x.\">  Решая эту си­сте­му, на­хо­дим <img src=\"https://ege.sdamgia.ru/formula/svg/6e/6ee1ce78ce618a81945f5a9b3e0734b1.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" x=60,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/b4/b48e86086dbe6cde7316205d2c6155d9.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=75.\">  По­это­му один при­дет рань­ше дру­го­го на пол­ча­са.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> на 30 минут.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c1/c166737ce14208c4ed485796ce097712.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/57820ea331de8df004bbbb21d9209f39.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d209b2056071b0d1d56ccc871f8e2405.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8f5059e804917aff4b1668d6709cc4e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6ee1ce78ce618a81945f5a9b3e0734b1.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b48e86086dbe6cde7316205d2c6155d9.svg"
+        ]
+    },
+    "answer": "на 30 минут.",
+    "topic_id": null,
+    "analog_ids": []
+}

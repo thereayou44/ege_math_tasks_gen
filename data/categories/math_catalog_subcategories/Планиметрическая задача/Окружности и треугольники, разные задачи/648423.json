@@ -1,0 +1,27 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 648423,
+    "condition": {
+        "text": "В окружности с центром О отрезок ЕК  — диаметр. Хорды ЕT и KS проведены так, что точки Т и S лежат по одну сторону от прямой EK. Точка пересечения прямых КT и ES находится от точек T и S на расстоянии 5, а)  Докажите, что точка пересечения прямых КT и ES находится вне окружности.б)  Найдите радиус окружности.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body494107\" class=\"pbody\"><p class=\"left_margin\">В окруж­но­сти с цен­тром <i>О</i> от­ре­зок <i>ЕК</i>  — диа­метр. Хорды <i>ЕT</i> и <i>KS</i> про­ве­де­ны так, что точки <i>Т</i> и <i>S</i> лежат по одну сто­ро­ну от пря­мой <i>EK</i>. Точка пе­ре­се­че­ния пря­мых <i>КT</i> и <i>ES</i> на­хо­дит­ся от точек <i>T</i> и <i>S</i> на рас­сто­я­нии 5, <img src=\"https://ege.sdamgia.ru/formula/svg/9b/9b782657b27ccf42bc5de0039c72e82d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle T K E = 60 в сте­пе­ни левая круг­лая скоб­ка \\circ пра­вая круг­лая скоб­ка .\"></p><p class=\"left_margin\">а)  До­ка­жи­те, что точка пе­ре­се­че­ния пря­мых <i>КT</i> и <i>ES</i> на­хо­дит­ся вне окруж­но­сти.</p><p class=\"left_margin\">б)  Най­ди­те ра­ди­ус окруж­но­сти.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/9b/9b782657b27ccf42bc5de0039c72e82d.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Пусть прямые KT и ES пересекаются в точке M. Тогда  По условию MS  =  MT, следовательно, MK  =  ME и SE  =  TK. Треугольники EKT и KES равны по катету и гипотенузе, значит,  откуда  Из этого следует, что точка M лежит вне окружности. б)  Отрезки ET и KS  — высоты равностороннего треугольника KEM. Тогда они являются его медианами. Таким образом,  следовательно,  Ответ: б)  5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol648423\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=150842\" style=\"float:right;margin:10px;max-width:100%\">а)  Пусть пря­мые <i>KT</i> и <i>ES</i> пе­ре­се­ка­ют­ся в точке <i>M</i>. Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/18/18992e1c8d4d7d8cddaac60586b15375.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"MT умно­жить на MK = MS умно­жить на ME.\"> По усло­вию <i>MS</i>  =  <i>MT</i>, сле­до­ва­тель­но, <i>MK</i>  =  <i>ME</i> и <i>SE</i>  =  <i>TK</i>. Тре­уголь­ни­ки <i>EKT</i> и <i>KES</i> равны по ка­те­ту и ги­по­те­ну­зе, зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/e6/e65cce1046b7c3d9a7ef10efa5c109ef.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle KES = 60 гра­ду­сов,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/86/86c6f92ab0b6de472d89d9edba81c12f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"KME = 60 гра­ду­сов мень­ше 90 гра­ду­сов.\"> Из этого сле­ду­ет, что точка <i>M</i> лежит вне окруж­но­сти. </p><p class=\"left_margin\">б)  От­рез­ки <i>ET</i> и <i>KS</i>  — вы­со­ты рав­но­сто­рон­не­го тре­уголь­ни­ка <i>KEM</i>. Тогда они яв­ля­ют­ся его ме­ди­а­на­ми. Таким об­ра­зом, </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/27/27911dee2449df46e7db7ca5dfb5d8be.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"EM = 2 MS = 10 = EK,\"></p><p class=\"left_margin\"></p></center> сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/72/72aa9fdd256ec078dc88d2a81925c394.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"R = дробь: чис­ли­тель: EK, зна­ме­на­тель: 2 конец дроби = 5. \"><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б)  5.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/18/18992e1c8d4d7d8cddaac60586b15375.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e65cce1046b7c3d9a7ef10efa5c109ef.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/86c6f92ab0b6de472d89d9edba81c12f.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/27911dee2449df46e7db7ca5dfb5d8be.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/72aa9fdd256ec078dc88d2a81925c394.svg",
+            "/get_file?id=150842"
+        ]
+    },
+    "answer": "б)  5.",
+    "topic_id": 17,
+    "analog_ids": []
+}

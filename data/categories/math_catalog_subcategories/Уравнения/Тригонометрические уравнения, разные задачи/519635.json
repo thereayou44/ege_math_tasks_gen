@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 519635,
+    "condition": {
+        "text": "а)  Решите уравнение б)  Найдите все корни этого уравнения, принадлежащие промежутку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body623407\" class=\"pbody\"><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/14/14494c8653bb39e24f60bfa69e72ccc1.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 2x в квад­ра­те минус 5x минус 12 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 2 ко­си­нус x плюс 1 пра­вая круг­лая скоб­ка =0.\"></p><p class=\"left_margin\">б)  Най­ди­те все корни этого урав­не­ния, при­над­ле­жа­щие про­ме­жут­ку <img src=\"https://ege.sdamgia.ru/formula/svg/e6/e6af97d9653c43e4a3fcf41c0c579277.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" левая квад­рат­ная скоб­ка минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби ; Пи пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/14/14494c8653bb39e24f60bfa69e72ccc1.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e6af97d9653c43e4a3fcf41c0c579277.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Произведение равно нулю если либо   откуда   либо если  откуда  б)  Заметим, что  поэтому из корней квадратного уравнения заданному отрезку принадлежит число  Корни тригонометрического уравнения отберем на единичной окружности. Ответ: а)  б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol519635\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=36081\" style=\"float:right;margin:10px\">а)  Про­из­ве­де­ние равно нулю если либо  <img src=\"https://ege.sdamgia.ru/formula/svg/35/35564ddf3e5a696db2ae9352cc5a231b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2x в квад­ра­те минус 5x минус 12=0,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/f8/f870b29c21d67da0bf84ca6c2380c8ea.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x=4,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/84/843a7a987fbc2e2c9bdb96cc486312d6.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= минус дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби ,\"> либо если <img src=\"https://ege.sdamgia.ru/formula/svg/89/89717fc2cbf7b39dba5be742b497e9d4.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2 ко­си­нус x плюс 1=0,\"> от­ку­да </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/bf/bf3df70f1759d2cc8e768f62b935e665.svg\" class=\"tex\" style=\"vertical-align:-22.4pt\" alt=\" ко­си­нус x= минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби рав­но­силь­но со­во­куп­ность вы­ра­же­ний x= дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k,x= минус дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k, конец со­во­куп­но­сти . k при­над­ле­жит Z . \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p class=\"left_margin\">б)  За­ме­тим, что <img src=\"https://ege.sdamgia.ru/formula/svg/f5/f5f344eeb08052ff28cbf5e02d90556f.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби мень­ше минус дробь: чис­ли­тель: 3,1, зна­ме­на­тель: 2 конец дроби мень­ше минус дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби мень­ше Пи мень­ше 4 \"> по­это­му из кор­ней квад­рат­но­го урав­не­ния за­дан­но­му от­рез­ку при­над­ле­жит число <img src=\"https://ege.sdamgia.ru/formula/svg/6f/6ff98efe5406cec4a9fa91739f4d739f.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" минус дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби . \"> Корни три­го­но­мет­ри­че­ско­го урав­не­ния от­бе­рем на еди­нич­ной окруж­но­сти.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) <img src=\"https://ege.sdamgia.ru/formula/svg/d7/d7645f8bac2ea9bebf96f66234bb663e.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая фи­гур­ная скоб­ка 4; минус дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби ; дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k; минус дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k: k при­над­ле­жит Z пра­вая фи­гур­ная скоб­ка ; \"> б) <img src=\"https://ege.sdamgia.ru/formula/svg/e1/e1e3101921b8dce772950e833557e069.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" минус дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби , дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/35/35564ddf3e5a696db2ae9352cc5a231b.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f870b29c21d67da0bf84ca6c2380c8ea.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/843a7a987fbc2e2c9bdb96cc486312d6.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/89717fc2cbf7b39dba5be742b497e9d4.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bf3df70f1759d2cc8e768f62b935e665.svg",
+            "https://ege.sdamgia.ru/formula/svg/f5/f5f344eeb08052ff28cbf5e02d90556f.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6ff98efe5406cec4a9fa91739f4d739f.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d7645f8bac2ea9bebf96f66234bb663e.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e1e3101921b8dce772950e833557e069.svg",
+            "/get_file?id=36081"
+        ]
+    },
+    "answer": "а)  б)",
+    "topic_id": 13,
+    "analog_ids": []
+}

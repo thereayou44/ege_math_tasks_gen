@@ -1,0 +1,29 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 509581,
+    "condition": {
+        "text": "Решите неравенство ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body632945\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство <img src=\"https://ege.sdamgia.ru/formula/svg/98/98c022ae3943f2a90a777266b9c5cc8a.svg\" class=\"tex\" style=\"vertical-align:-11.8pt\" alt=\" дробь: чис­ли­тель: ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 1 минус 2x пра­вая круг­лая скоб­ка левая круг­лая скоб­ка левая круг­лая скоб­ка x плюс 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 1 минус 4x плюс 4x в квад­ра­те пра­вая круг­лая скоб­ка пра­вая круг­лая скоб­ка , зна­ме­на­тель: ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка x плюс 1 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 1 минус 2x пра­вая круг­лая скоб­ка конец дроби \\leqslant минус 1. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/98/98c022ae3943f2a90a777266b9c5cc8a.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Преобразуем неравенство:Сделаем замену  Получаем: Сделаем обратную замену:  Тогдаоткуда x = −0,5. Ответ:  −0,5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol509581\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пре­об­ра­зу­ем не­ра­вен­ство:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d0/d0cace2b0ee52543e2737a7f0b08964e.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний левая круг­лая скоб­ка ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 1 минус 2x пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x плюс 1 пра­вая круг­лая скоб­ка плюс ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 1 минус 2x пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 1 минус 2x пра­вая круг­лая скоб­ка в квад­ра­те пра­вая круг­лая скоб­ка умно­жить на ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 1 минус 2x пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x плюс 1 пра­вая круг­лая скоб­ка \\leqslant минус 1,x плюс 1 не равно 1. конец си­сте­мы .\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Сде­ла­ем за­ме­ну <img src=\"https://ege.sdamgia.ru/formula/svg/5f/5ff63d84c662edbbc9afd6876612015a.svg\" class=\"tex\" style=\"vertical-align:-4.3pt\" alt=\"y= ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 1 минус 2x пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x плюс 1 пра­вая круг­лая скоб­ка .\"> По­лу­ча­ем: <img src=\"https://ege.sdamgia.ru/formula/svg/99/997645bdd55c8aa9d85999a27bb59d2a.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка y плюс 2 пра­вая круг­лая скоб­ка y\\leqslant минус 1; левая круг­лая скоб­ка y плюс 1 пра­вая круг­лая скоб­ка в квад­ра­те \\leqslant0;y= минус 1.\"></p><p class=\"left_margin\">Сде­ла­ем об­рат­ную за­ме­ну: <img src=\"https://ege.sdamgia.ru/formula/svg/a3/a3714818dd36a8143ea978994d443b5c.svg\" class=\"tex\" style=\"vertical-align:-4.3pt\" alt=\" ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 1 минус 2x пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x плюс 1 пра­вая круг­лая скоб­ка = минус 1.\"> Тогда</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/0c/0c6ed3b930d03846d2e0894f36bf7b39.svg\" class=\"tex\" style=\"vertical-align:-27.9pt\" alt=\" си­сте­ма вы­ра­же­ний левая круг­лая скоб­ка 1 минус 2x пра­вая круг­лая скоб­ка левая круг­лая скоб­ка x плюс 1 пра­вая круг­лая скоб­ка =1,x плюс 1 боль­ше 0,1 минус 2x не равно 1,x плюс 1 не равно 1 конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний минус 2x в квад­ра­те минус x=0,x боль­ше минус 1,x не равно 0, конец си­сте­мы . \"></p><p class=\"left_margin\"></p></center><p>от­ку­да <i>x</i> = −0,5.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  −0,5.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d0/d0cace2b0ee52543e2737a7f0b08964e.svg",
+            "https://ege.sdamgia.ru/formula/svg/5f/5ff63d84c662edbbc9afd6876612015a.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/997645bdd55c8aa9d85999a27bb59d2a.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a3714818dd36a8143ea978994d443b5c.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c6ed3b930d03846d2e0894f36bf7b39.svg"
+        ]
+    },
+    "answer": "−0,5.",
+    "topic_id": 15,
+    "analog_ids": [
+        509581,
+        509928
+    ]
+}

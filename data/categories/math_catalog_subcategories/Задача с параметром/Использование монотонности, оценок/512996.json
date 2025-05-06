@@ -1,0 +1,38 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 512996,
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых уравнениеимеет более одного корня.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body638232\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния <i>a</i>, при каж­дом из ко­то­рых урав­не­ние</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/28/28d387ef78bb895d2d16c24505816326.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"64x в сте­пе­ни 6 минус левая круг­лая скоб­ка 3x плюс a пра­вая круг­лая скоб­ка в кубе плюс 4x в квад­ра­те минус 3x=a\"></p><p class=\"left_margin\"></p></center><p>имеет более од­но­го корня.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/28/28d387ef78bb895d2d16c24505816326.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Преобразуем уравнение:Рассмотрим функцию  Она монотонно возрастает как сумма двух возрастающих функций. Поэтому уравнение  равносильно уравнению  Оно имеет более одного корня в тех случаях, когда дискриминант уравнения  положителен. То есть когда  Ответ:  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol512996\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пре­об­ра­зу­ем урав­не­ние:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d7/d77c546d877402be771838e21a8886e0.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"64x в сте­пе­ни 6 плюс 4x в квад­ра­те = левая круг­лая скоб­ка 3x плюс a пра­вая круг­лая скоб­ка в кубе плюс левая круг­лая скоб­ка 3x плюс a пра­вая круг­лая скоб­ка .\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Рас­смот­рим функ­цию <img src=\"https://ege.sdamgia.ru/formula/svg/c2/c2fb9df05f55809399003c7c14ca82f4.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка t пра­вая круг­лая скоб­ка =t в кубе плюс t.\"> Она мо­но­тон­но воз­рас­та­ет как сумма двух воз­рас­та­ю­щих функ­ций. По­это­му урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/0e/0ee0b6c95e6495f9f1d0347a416c8a1d.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка 4x в квад­ра­те пра­вая круг­лая скоб­ка =f левая круг­лая скоб­ка 3x плюс a пра­вая круг­лая скоб­ка \"> рав­но­силь­но урав­не­нию <img src=\"https://ege.sdamgia.ru/formula/svg/55/552a3e76129f97139f2a7c59b4bf6af1.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"4x в квад­ра­те =3x плюс a.\"> Оно имеет более од­но­го корня в тех слу­ча­ях, когда дис­кри­ми­нант урав­не­ния <img src=\"https://ege.sdamgia.ru/formula/svg/3e/3e68bdb6d7cf0b18f42f8a9618f64f84.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"4x в квад­ра­те минус 3x минус a=0\"> по­ло­жи­те­лен. То есть когда<img src=\"https://ege.sdamgia.ru/formula/svg/0e/0e118c8d0ce6b8486512d04001d9cf3b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" 9 плюс 16a боль­ше 0,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/75/75a2afc91133018ecc995c37e3720b20.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"a боль­ше минус дробь: чис­ли­тель: 9, зна­ме­на­тель: 16 конец дроби . \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  <img src=\"https://ege.sdamgia.ru/formula/svg/75/75a2afc91133018ecc995c37e3720b20.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"a боль­ше минус дробь: чис­ли­тель: 9, зна­ме­на­тель: 16 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d7/d77c546d877402be771838e21a8886e0.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c2fb9df05f55809399003c7c14ca82f4.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0ee0b6c95e6495f9f1d0347a416c8a1d.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/552a3e76129f97139f2a7c59b4bf6af1.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e68bdb6d7cf0b18f42f8a9618f64f84.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0e118c8d0ce6b8486512d04001d9cf3b.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/75a2afc91133018ecc995c37e3720b20.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/75a2afc91133018ecc995c37e3720b20.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 18,
+    "analog_ids": [
+        512996,
+        513262,
+        513265,
+        515672,
+        513262,
+        513265,
+        515672,
+        515691
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27346,
+    "condition": {
+        "text": " В тупоугольном треугольнике ABC  высота AH равна 20. Найдите ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918574\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=109594\" style=\"float:right;margin:10px;max-width:100%\"> В ту­по­уголь­ном тре­уголь­ни­ке <i>ABC</i> <img src=\"https://ege.sdamgia.ru/formula/svg/da/daef0ec1b3ef36ebb9bb8750e93a4499.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AC = BC = 25,\"> вы­со­та <i>AH</i> равна 20. Най­ди­те <img src=\"https://ege.sdamgia.ru/formula/svg/e6/e6eb23c20eb597714f5497c4c7753346.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­си­нус ACB.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/da/daef0ec1b3ef36ebb9bb8750e93a4499.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e6eb23c20eb597714f5497c4c7753346.svg",
+            "/get_file?id=109594"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Косинусы смежных углов противоположны, поэтому  Ответ: –0,6.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27346\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Ко­си­ну­сы смеж­ных углов про­ти­во­по­лож­ны, по­это­му </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/9c/9c838a399c0d089d5b630c06f838b5ae.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" ко­си­нус \\widehatACB= минус ко­си­нус \\widehatACH= минус дробь: чис­ли­тель: HC, зна­ме­на­тель: AC конец дроби = минус дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: AC в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та минус AH в квад­ра­те пра­вая круг­лая скоб­ка , зна­ме­на­тель: AC конец дроби = минус дробь: чис­ли­тель: 15, зна­ме­на­тель: 25 конец дроби = минус 0,6. \"> </p><p class=\"left_margin\"></p></center><p><span style=\"letter-spaceing:2px\">Ответ</span>: –0,6.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/9c/9c838a399c0d089d5b630c06f838b5ae.svg"
+        ]
+    },
+    "answer": "-0,6",
+    "topic_id": 1,
+    "analog_ids": [
+        27346,
+        19639,
+        19641,
+        19643,
+        19639,
+        19641,
+        19643,
+        19645,
+        19647,
+        19649,
+        19651,
+        19653,
+        19655,
+        19657,
+        19659,
+        19661
+    ]
+}

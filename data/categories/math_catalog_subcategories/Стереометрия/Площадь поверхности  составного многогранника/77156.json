@@ -1,0 +1,36 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 77156,
+    "condition": {
+        "text": " Найдите площадь поверхности многогранника, изображенного на рисунке (все двугранные углы прямые).",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body1000344\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=29695\" style=\"float:right;margin:10px\"> Най­ди­те пло­щадь по­верх­но­сти мно­го­гран­ни­ка, изоб­ра­жен­но­го на ри­сун­ке (все дву­гран­ные углы пря­мые).</p></div>",
+        "image_urls": [
+            "/get_file?id=29695"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Площадь поверхности тела равна сумме поверхностей трех составляющих ее параллелепипедов с ребрами 2, 5, 6; 2, 5, 3 и 2, 2, 3, уменьшенная на удвоенные площади прямоугольников со сторонами 5, 3 и 2, 3: Ответ: 156.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol77156\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пло­щадь по­верх­но­сти тела равна сумме по­верх­но­стей трех со­став­ля­ю­щих ее па­рал­ле­ле­пи­пе­дов с реб­ра­ми 2, 5, 6; <nobr>2, 5, 3</nobr> и 2, 2, 3, умень­шен­ная на удво­ен­ные пло­ща­ди пря­мо­уголь­ни­ков со сто­ро­на­ми 5, 3 и 2, 3:</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"039a9986e5d40c91303b69a917d95d77\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/44/4425976507ceac43524c8942f873bb4e.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"S=2 умно­жить на левая круг­лая скоб­ка 2 умно­жить на 5 плюс 5 умно­жить на 6 плюс 2 умно­жить на 6 пра­вая круг­лая скоб­ка плюс 2 умно­жить на левая круг­лая скоб­ка 2 умно­жить на 5 плюс 5 умно­жить на 3 плюс 2 умно­жить на 3 пра­вая круг­лая скоб­ка плюс 2 умно­жить на левая круг­лая скоб­ка 2 умно­жить на 2 плюс 2 умно­жить на 3 плюс 3 умно­жить на 2 пра­вая круг­лая скоб­ка минус 2 умно­жить на левая круг­лая скоб­ка 5 умно­жить на 3 плюс 2 умно­жить на 3 пра­вая круг­лая скоб­ка =\"><br><img src=\"https://ege.sdamgia.ru/formula/svg/f9/f94edbfd5f3e22fdd28f6b6558759f43.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"=2 умно­жить на левая круг­лая скоб­ка 52 плюс 31 плюс 16 пра­вая круг­лая скоб­ка минус 2 умно­жить на 21=156.\"></span><span data-width=\"515\" data-formulahash=\"039a9986e5d40c91303b69a917d95d77\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/19/19bc6aa0522d3238dcd2ad02c995999d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"S=\"><br><img src=\"https://ege.sdamgia.ru/formula/svg/aa/aaa98cfe2d7e81ee64c9aae94c0a07e4.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"=2 умно­жить на левая круг­лая скоб­ка 2 умно­жить на 5 плюс 5 умно­жить на 6 плюс 2 умно­жить на 6 пра­вая круг­лая скоб­ка плюс 2 умно­жить на левая круг­лая скоб­ка 2 умно­жить на 5 плюс 5 умно­жить на 3 плюс 2 умно­жить на 3 пра­вая круг­лая скоб­ка плюс 2 умно­жить на левая круг­лая скоб­ка 2 умно­жить на 2 плюс 2 умно­жить на 3 плюс 3 умно­жить на 2 пра­вая круг­лая скоб­ка минус 2 умно­жить на левая круг­лая скоб­ка 5 умно­жить на 3 плюс 2 умно­жить на 3 пра­вая круг­лая скоб­ка =\"><br><img src=\"https://ege.sdamgia.ru/formula/svg/f9/f94edbfd5f3e22fdd28f6b6558759f43.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"=2 умно­жить на левая круг­лая скоб­ка 52 плюс 31 плюс 16 пра­вая круг­лая скоб­ка минус 2 умно­жить на 21=156.\"></span></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 156.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/44/4425976507ceac43524c8942f873bb4e.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f94edbfd5f3e22fdd28f6b6558759f43.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/19bc6aa0522d3238dcd2ad02c995999d.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aaa98cfe2d7e81ee64c9aae94c0a07e4.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f94edbfd5f3e22fdd28f6b6558759f43.svg"
+        ]
+    },
+    "answer": "156",
+    "topic_id": 3,
+    "analog_ids": [
+        77156,
+        25921,
+        25923,
+        25925,
+        25921,
+        25923,
+        25925,
+        25927,
+        25929
+    ]
+}

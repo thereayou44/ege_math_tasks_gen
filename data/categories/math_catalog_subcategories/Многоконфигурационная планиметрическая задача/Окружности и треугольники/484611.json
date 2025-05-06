@@ -1,0 +1,38 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 484611,
+    "condition": {
+        "text": "В треугольнике ABC, AB  =  7, BC  =  9, CA  =  4. Точка D лежит на прямой BC причем BD : DC  =  1 : 5. Окружности, вписанные в треугольники ADC и ADB касаются стороны AD в точках E и F. Найдите длину отрезка EF.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body592895\" class=\"pbody\"><p class=\"left_margin\">В тре­уголь­ни­ке <i>ABC</i>, <i>AB</i>  =  7, <i>BC</i>  =  9, <i>CA</i>  =  4. Точка <i>D</i> лежит на пря­мой <i>BC</i> при­чем <i>BD</i> : <i>DC</i>  =  1 : 5. Окруж­но­сти, впи­сан­ные в тре­уголь­ни­ки <i>ADC</i> и <i>ADB</i> ка­са­ют­ся сто­ро­ны <i>AD</i> в точ­ках <i>E</i> и <i>F.</i> Най­ди­те длину от­рез­ка <i>EF.</i></p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Пусть AD  =  d, BD  =  x, CD  =  y. Используя свойства касательных, подсчитаем разными способами периметры треугольников Откуда получаем:  Аналогично, Тогда Возможны два случая:1.  Точка D лежит на отрезке BC. Тогда x  =  1,5, y  =  7,5, значит, EF  =  4,5.2.  Точка D лежит вне отрезка BC. Тогда y − x  =  BC  =  9, значит, EF  =  6.  Ответ:  4,5 или 6.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol484611\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть <i>AD</i>  =  <i>d</i>, <i>BD</i>  =  <i>x</i>, <i>CD</i>  =  <i>y.</i> Ис­поль­зуя свой­ства ка­са­тель­ных, под­счи­та­ем раз­ны­ми спо­со­ба­ми пе­ри­мет­ры тре­уголь­ни­ков</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/a0/a0d2c644bba65ab45f1d923de41e0d62.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"P_ADC=AE плюс ED плюс DC плюс AC=d плюс y плюс 4=2DE плюс 2 умно­жить на 4.\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p class=\"left_margin\">От­ку­да по­лу­ча­ем: <img src=\"https://ege.sdamgia.ru/formula/svg/23/23145024ad863aecf527622a67f53d2a.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"DE= дробь: чис­ли­тель: d плюс y минус 4, зна­ме­на­тель: 2 конец дроби . \"> Ана­ло­гич­но, <img src=\"https://ege.sdamgia.ru/formula/svg/cc/cc96c5e8ebf21ee5997e2cb5f2912c13.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"DF= дробь: чис­ли­тель: d плюс x минус 7, зна­ме­на­тель: 2 конец дроби . \"></p><p class=\"left_margin\">Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/79/7963fe179e8bd236d6c2ab636e88b476.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\"EF=|DE минус DF|=\\left| дробь: чис­ли­тель: 3 плюс y минус x, зна­ме­на­тель: 2 конец дроби |. \"></p><p class=\"left_margin\">Воз­мож­ны два слу­чая:</p><p class=\"left_margin\">1.  Точка <i>D</i> лежит на от­рез­ке <i>BC.</i> Тогда <i>x</i>  =  1,5, <i>y</i>  =  7,5, зна­чит, <i>EF</i>  =  4,5.</p><p class=\"left_margin\">2.  Точка <i>D</i> лежит вне от­рез­ка <i>BC.</i> Тогда <i>y</i> − <i>x</i>  =  <i>BC</i>  =  9, зна­чит, <i>EF</i>  =  6.</p><p>&nbsp;</p><p></p><p></p><p></p><p></p><p></p><p></p><table style=\"margin:auto;border:0\"><tbody><tr><td style=\"border:0\"><img src=\"/get_file?id=30361\"></td><td style=\"border:0\"><img src=\"/get_file?id=30362\"></td></tr></tbody></table><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  4,5 или 6.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a0/a0d2c644bba65ab45f1d923de41e0d62.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/23145024ad863aecf527622a67f53d2a.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/cc96c5e8ebf21ee5997e2cb5f2912c13.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/7963fe179e8bd236d6c2ab636e88b476.svg",
+            "/get_file?id=30361",
+            "/get_file?id=30362"
+        ]
+    },
+    "answer": "4,5 или 6.",
+    "topic_id": null,
+    "analog_ids": [
+        484610,
+        507177,
+        507178,
+        507177,
+        507178,
+        507179,
+        507180,
+        507181,
+        507182,
+        507183,
+        511299,
+        511300
+    ]
+}

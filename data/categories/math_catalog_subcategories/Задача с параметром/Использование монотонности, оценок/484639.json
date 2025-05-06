@@ -1,0 +1,40 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 484639,
+    "condition": {
+        "text": "При каких p данная система имеет решения: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body592867\" class=\"pbody\"><p class=\"left_margin\">При каких <i>p</i> дан­ная си­сте­ма имеет ре­ше­ния: <img src=\"https://ege.sdamgia.ru/formula/svg/68/682491f10f3b2bf2365d192fbab911dd.svg\" class=\"tex\" style=\"vertical-align:-17.7pt\" alt=\" си­сте­ма вы­ра­же­ний  новая стро­ка x в квад­ра­те плюс px плюс 2=0,  новая стро­ка синус в квад­ра­те Пи p плюс синус в квад­ра­те Пи x плюс 2 в сте­пе­ни левая круг­лая скоб­ка |y| пра­вая круг­лая скоб­ка =\\left| синус дробь: чис­ли­тель: Пи x, зна­ме­на­тель: 2 конец дроби |?  конец си­сте­мы .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/68/682491f10f3b2bf2365d192fbab911dd.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Поскольку  и  и, значит,  левая часть второго уравнения системы не меньше, чем  Так как его правая часть не больше  оно равносильно системе из которой находим, что Первое уравнение имеет целые коэффициенты и, чтобы исходная система имела решение, должна иметь  целый корень  Так как   — тоже целое число и из равенства  получаем, что   — нечетный делитель числа 2. Таким образом, он равен  1 или –1.При  находим  при  находим  Ответ:  система имеет решения при ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol484639\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/81/819bc9a7213ad57946340da99ebc2853.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" синус в квад­ра­те Пи p боль­ше или равно 0\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/9e/9eb7c1c551a450c86fd579bb1fd0f898.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" синус в квад­ра­те Пи x боль­ше или равно 0,|y| боль­ше или равно 0\"> и, зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/f6/f60350f9fed1e4ed66359571ac560ae3.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"2 в сте­пе­ни левая круг­лая скоб­ка |y| пра­вая круг­лая скоб­ка боль­ше или равно 1,\"> левая часть вто­ро­го урав­не­ния си­сте­мы не мень­ше, чем <img src=\"https://ege.sdamgia.ru/formula/svg/1d/1d41e6f55521cdba4fc73febd09d2eb4.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"1.\"> Так как его пра­вая часть не боль­ше <img src=\"https://ege.sdamgia.ru/formula/svg/32/32b7955f9b36651f0303b1fd2a5d02c2.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1,\"> оно рав­но­силь­но си­сте­ме</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/79/79f464ab0becb87575619af31f6e7493.svg\" class=\"tex\" style=\"vertical-align:-35.3pt\" alt=\" си­сте­ма вы­ра­же­ний  новая стро­ка синус в квад­ра­те Пи p=0,  новая стро­ка синус в квад­ра­те Пи x=0,  новая стро­ка 2 в сте­пе­ни левая круг­лая скоб­ка |y| пра­вая круг­лая скоб­ка =1,  новая стро­ка \\left| синус дробь: чис­ли­тель: Пи x, зна­ме­на­тель: 2 конец дроби |=1,  конец си­сте­мы .\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p>из ко­то­рой на­хо­дим, что <img src=\"https://ege.sdamgia.ru/formula/svg/d3/d306aa195d4b816037a5cfea1978793f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"p при­над­ле­жит Z ,x=2k плюс 1, k при­над­ле­жит Z ,y=0.\"></p><p class=\"left_margin\">Пер­вое урав­не­ние имеет целые ко­эф­фи­ци­ен­ты и, чтобы ис­ход­ная си­сте­ма имела ре­ше­ние, долж­на иметь  целый ко­рень <img src=\"https://ege.sdamgia.ru/formula/svg/0d/0d766feee76464c78efbec600ee1438e.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"x_1=2k плюс 1.\"> Так как <img src=\"https://ege.sdamgia.ru/formula/svg/30/30e7dc8d4e4e411688c0fbaa0985b858.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"x_1 плюс x_2= минус p,x_2\">  — тоже целое число и из ра­вен­ства <img src=\"https://ege.sdamgia.ru/formula/svg/69/6904217c4b6a9a115fcc810c87b13925.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"x_1x_2=2\"> по­лу­ча­ем, что <img src=\"https://ege.sdamgia.ru/formula/svg/aa/aa687da0086c1ea060a8838e24611319.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"x_1\">  — не­чет­ный де­ли­тель числа 2. Таким об­ра­зом, он равен  1 или –1.</p><p class=\"left_margin\">При <img src=\"https://ege.sdamgia.ru/formula/svg/a2/a255512f9d61a6777bd5a304235bd26d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x=1\"> на­хо­дим <img src=\"https://ege.sdamgia.ru/formula/svg/37/3702363bfd2e3d4b68b3cd2e2991f5f7.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"p= минус 3,\"> при <img src=\"https://ege.sdamgia.ru/formula/svg/d3/d3289a96da4c1cf6ce57b2b76b80b965.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x= минус 1\"> на­хо­дим <img src=\"https://ege.sdamgia.ru/formula/svg/32/3235ebe1674b2791efe22fd4448b72c1.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"p=3.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  си­сте­ма имеет ре­ше­ния при <img src=\"https://ege.sdamgia.ru/formula/svg/d9/d9a6001f77988efa55c03314b04f1678.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"p=\\pm 3.\"></p><p></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/81/819bc9a7213ad57946340da99ebc2853.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9eb7c1c551a450c86fd579bb1fd0f898.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f60350f9fed1e4ed66359571ac560ae3.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1d41e6f55521cdba4fc73febd09d2eb4.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/32b7955f9b36651f0303b1fd2a5d02c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/79f464ab0becb87575619af31f6e7493.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d306aa195d4b816037a5cfea1978793f.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0d766feee76464c78efbec600ee1438e.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/30e7dc8d4e4e411688c0fbaa0985b858.svg",
+            "https://ege.sdamgia.ru/formula/svg/69/6904217c4b6a9a115fcc810c87b13925.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa687da0086c1ea060a8838e24611319.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a255512f9d61a6777bd5a304235bd26d.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/3702363bfd2e3d4b68b3cd2e2991f5f7.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d3289a96da4c1cf6ce57b2b76b80b965.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/3235ebe1674b2791efe22fd4448b72c1.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d9a6001f77988efa55c03314b04f1678.svg"
+        ]
+    },
+    "answer": "си­сте­ма имеет ре­ше­ния при",
+    "topic_id": 18,
+    "analog_ids": [
+        484639,
+        511314
+    ]
+}

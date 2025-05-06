@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 507743,
+    "condition": {
+        "text": "Найти все значения параметра a, при каждом из которых среди значений функции  есть ровно одно целое число.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body643491\" class=\"pbody\"><p class=\"left_margin\">Найти все зна­че­ния па­ра­мет­ра <i>a</i>, при каж­дом из ко­то­рых среди зна­че­ний функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/50/5056040e8c45f3ee01b44b7407d366cf.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\"y= дробь: чис­ли­тель: x в квад­ра­те минус 2x плюс a, зна­ме­на­тель: 6 плюс x в квад­ра­те конец дроби \"> есть ровно одно целое число.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/50/5056040e8c45f3ee01b44b7407d366cf.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Функция определена и непрерывна на всей числовой прямой. Уравнение  при любом a имеет решение  Значит, при любом a одно из значений функции равно 1.Поскольку функция непрерывна, множество её значений образует промежуток, включающий число 1. Других целых значений функции нет, если для всех Чтобы неравенства выполнялись для всех x, дискриминанты обоих трёхчленов должны быть отрицательны:Таким образом, подходящие значения параметра  Ответ: (1; 11).",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol507743\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Функ­ция опре­де­ле­на и не­пре­рыв­на на всей чис­ло­вой пря­мой. Урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/3d/3dc6b1642f686627f5e3d9a39c299019.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" дробь: чис­ли­тель: x в квад­ра­те минус 2x плюс a, зна­ме­на­тель: 6 плюс x в квад­ра­те конец дроби =1 \"> при любом <i>a</i> имеет ре­ше­ние <img src=\"https://ege.sdamgia.ru/formula/svg/4a/4ac3260248353da3516f157e46e0b9a1.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"x= дробь: чис­ли­тель: a минус 6, зна­ме­на­тель: 2 конец дроби . \"> Зна­чит, при любом <i>a</i> одно из зна­че­ний функ­ции равно 1.</p><p class=\"left_margin\">По­сколь­ку функ­ция не­пре­рыв­на, мно­же­ство её зна­че­ний об­ра­зу­ет про­ме­жу­ток, вклю­ча­ю­щий число 1. Дру­гих целых зна­че­ний функ­ции нет, если для всех <img src=\"https://ege.sdamgia.ru/formula/svg/89/89c090488479a41cad9954347908e91c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x:\"></p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/b4/b482a27a9e70576e2b9a18edd4c999be.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\"0 мень­ше дробь: чис­ли­тель: x в квад­ра­те минус 2x плюс a, зна­ме­на­тель: 6 плюс x в квад­ра­те конец дроби мень­ше 2 рав­но­силь­но си­сте­ма вы­ра­же­ний  новая стро­ка x в квад­ра­те минус 2x плюс a боль­ше 0, новая стро­ка x в квад­ра­те плюс 2x плюс 12 минус a боль­ше 0. конец си­сте­мы \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Чтобы не­ра­вен­ства вы­пол­ня­лись для всех <i>x</i>, дис­кри­ми­нан­ты обоих трёхчле­нов долж­ны быть от­ри­ца­тель­ны:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/bc/bc71fb90629e1ac9d8c033997b9d0c75.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний  новая стро­ка 4 минус 4a мень­ше 0, новая стро­ка 4 минус 4 левая круг­лая скоб­ка 12 минус a пра­вая круг­лая скоб­ка мень­ше 0 конец си­сте­мы рав­но­силь­но си­сте­ма вы­ра­же­ний  новая стро­ка a боль­ше 1, новая стро­ка a мень­ше 11. конец си­сте­мы \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Таким об­ра­зом, под­хо­дя­щие зна­че­ния па­ра­мет­ра <img src=\"https://ege.sdamgia.ru/formula/svg/3d/3d87bc11290d90cfb88a58f40279292f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"1 мень­ше a мень­ше 11.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> (1; 11).</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/3d/3dc6b1642f686627f5e3d9a39c299019.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4ac3260248353da3516f157e46e0b9a1.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/89c090488479a41cad9954347908e91c.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b482a27a9e70576e2b9a18edd4c999be.svg",
+            "https://ege.sdamgia.ru/formula/svg/bc/bc71fb90629e1ac9d8c033997b9d0c75.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3d87bc11290d90cfb88a58f40279292f.svg"
+        ]
+    },
+    "answer": "(1; 11).",
+    "topic_id": 18,
+    "analog_ids": [
+        507743,
+        511483
+    ]
+}

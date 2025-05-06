@@ -1,0 +1,37 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 514877,
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых уравнениеимеет не менее трёх различных корней.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body636353\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния па­ра­мет­ра <i>a</i>, при каж­дом из ко­то­рых урав­не­ние</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f9/f90a06f128a8c55960892bda32833e91.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"2 умно­жить на левая круг­лая скоб­ка |x минус 2| плюс |x| пра­вая круг­лая скоб­ка в квад­ра­те минус 3 левая круг­лая скоб­ка a минус 2 пра­вая круг­лая скоб­ка умно­жить на левая круг­лая скоб­ка |2 минус x| плюс |x| пра­вая круг­лая скоб­ка плюс a в квад­ра­те минус 3a=0\"></p><p class=\"left_margin\"></p></center><p>имеет не менее трёх раз­лич­ных кор­ней.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f9/f90a06f128a8c55960892bda32833e91.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Обозначая  получим уравнение  Оно раскладывается на множители  и имеет корни  и Функция  убывает из  при  постоянна и равна  при  и неограниченно возрастает при  Поэтому она принимает значение 2 бесконечно много раз, а значения большие 2  — ровно по 2 раза. Поэтому не менее трех различных корней возможно в следующих случаях:1.  один из корней совпадает с числом 2; 2.  корни различны и оба больше 2.Первый случай возможен при  или  Для второго случая нужно, чтобы  и  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol514877\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Обо­зна­чая <img src=\"https://ege.sdamgia.ru/formula/svg/e5/e57e0fc5b57683b5d07070a8e9ac009d.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"t=|x минус 2| плюс |x|,\"> по­лу­чим урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/c8/c8f361edbbe1c36279dc0bd2d2d731f3.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"2t в квад­ра­те минус 3 левая круг­лая скоб­ка a минус 2 пра­вая круг­лая скоб­ка t плюс a в квад­ра­те минус 3a=0.\"> Оно рас­кла­ды­ва­ет­ся на мно­жи­те­ли <img src=\"https://ege.sdamgia.ru/formula/svg/2f/2f7230e5fab1e8af92406e593a7b871b.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка 2t минус a пра­вая круг­лая скоб­ка левая круг­лая скоб­ка t минус a плюс 3 пра­вая круг­лая скоб­ка =0\"> и имеет корни <img src=\"https://ege.sdamgia.ru/formula/svg/50/50da62d6c01ec8535c8e4113aca098c8.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"t= дробь: чис­ли­тель: a, зна­ме­на­тель: 2 конец дроби \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/b8/b8ee6ee0144a439d7287cf43db5d0be5.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"t=a минус 3.\"></p><p class=\"left_margin\">Функ­ция <img src=\"https://ege.sdamgia.ru/formula/svg/18/181b49553cae17688d67fec71898625d.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =|x минус 2| плюс |x|\"> убы­ва­ет из <img src=\"https://ege.sdamgia.ru/formula/svg/aa/aad18c0a88969b4c1bdc3711475796c2.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" минус бес­ко­неч­ность \"> при <img src=\"https://ege.sdamgia.ru/formula/svg/28/28e6978b6a4dbe206f01dfa4d3b57443.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x мень­ше 0,\"> по­сто­ян­на и равна <img src=\"https://ege.sdamgia.ru/formula/svg/c8/c81e728d9d4c2f636f067f89cc14862c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2\"> при <img src=\"https://ege.sdamgia.ru/formula/svg/b9/b9cf6485a66fe4df184ea92c5e856a00.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x при­над­ле­жит левая квад­рат­ная скоб­ка 0;2 пра­вая квад­рат­ная скоб­ка \"> и не­огра­ни­чен­но воз­рас­та­ет при <img src=\"https://ege.sdamgia.ru/formula/svg/90/90766483dfad1b01e25c7a7cf8aebef1.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x боль­ше 2.\"> По­это­му она при­ни­ма­ет зна­че­ние 2 бес­ко­неч­но много раз, а зна­че­ния боль­шие 2  — ровно по 2 раза. По­это­му не менее трех раз­лич­ных кор­ней воз­мож­но в сле­ду­ю­щих слу­ча­ях:</p><p class=\"left_margin\">1.  один из кор­ней сов­па­да­ет с чис­лом 2; </p><p class=\"left_margin\">2.  корни раз­лич­ны и оба боль­ше 2.</p><p class=\"left_margin\">Пер­вый слу­чай воз­мо­жен при <img src=\"https://ege.sdamgia.ru/formula/svg/3c/3c9d2347726735da8c5c1ed9a44f5759.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=4\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/07/073073939b4d4713d2c983d3546c7b1c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=5.\"> Для вто­ро­го слу­чая нужно, чтобы <img src=\"https://ege.sdamgia.ru/formula/svg/3e/3e5a152130fc82ac75cc7745084f714d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a боль­ше 5\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/c7/c796b4eb84784ffa50181bcef41bd8a5.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a не равно 6.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/62/62b35de59c10359bfa24a1d4230ad9b0.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"a при­над­ле­жит левая фи­гур­ная скоб­ка 4 пра­вая фи­гур­ная скоб­ка \\cup левая квад­рат­ная скоб­ка 5; 6 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка 6; плюс бес­ко­неч­ность пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e5/e57e0fc5b57683b5d07070a8e9ac009d.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c8f361edbbe1c36279dc0bd2d2d731f3.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2f7230e5fab1e8af92406e593a7b871b.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50da62d6c01ec8535c8e4113aca098c8.svg",
+            "https://ege.sdamgia.ru/formula/svg/b8/b8ee6ee0144a439d7287cf43db5d0be5.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/181b49553cae17688d67fec71898625d.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aad18c0a88969b4c1bdc3711475796c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/28e6978b6a4dbe206f01dfa4d3b57443.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c81e728d9d4c2f636f067f89cc14862c.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b9cf6485a66fe4df184ea92c5e856a00.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/90766483dfad1b01e25c7a7cf8aebef1.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3c9d2347726735da8c5c1ed9a44f5759.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/073073939b4d4713d2c983d3546c7b1c.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e5a152130fc82ac75cc7745084f714d.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c796b4eb84784ffa50181bcef41bd8a5.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/62b35de59c10359bfa24a1d4230ad9b0.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

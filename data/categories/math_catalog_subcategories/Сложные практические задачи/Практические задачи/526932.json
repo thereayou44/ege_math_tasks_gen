@@ -1,0 +1,29 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 526932,
+    "condition": {
+        "text": "1 июня  планируется  взять  кредит  в  банке  на  сумму 6 млн рублей на срок 12 месяцев. Условия возврата таковы:    — 15 числа каждого месяца долг возрастает на r% (r  — целое число) по  сравнению  с  началом текущего месяца;    — с 16 по 28 число необходимо выплатить часть долга так, чтобы на начало  каждого следующего  месяца  долг  уменьшался  на  одну  и  ту  же  сумму  по  сравнению  с предыдущим месяцем.  Найдите  наименьшую возможную ставку r, если известно, что в декабре банку будет выплачено более, чем на 100 тыс. руб. больше, нежели в марте.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body418984\" class=\"pbody\"><p class=\"left_margin\">1 июня  пла­ни­ру­ет­ся  взять  кре­дит  в  банке  на  сумму 6 млн руб­лей на срок 12 ме­ся­цев. Усло­вия воз­вра­та та­ко­вы:  </p><p>  — 15 числа каж­до­го ме­ся­ца долг воз­рас­та­ет на <i>r</i>% (<i>r</i>  — целое число) по  срав­не­нию  с  на­ча­лом те­ку­ще­го ме­ся­ца;  </p><p>  — с 16 по 28 число не­об­хо­ди­мо вы­пла­тить часть долга так, чтобы на на­ча­ло  каж­до­го сле­ду­ю­ще­го  ме­ся­ца  долг  умень­шал­ся  на  одну  и  ту  же  сумму  по  срав­не­нию  с преды­ду­щим ме­ся­цем.  </p><p class=\"left_margin\">Най­ди­те  наи­мень­шую воз­мож­ную став­ку <i>r</i>, если из­вест­но, что в де­каб­ре банку будет вы­пла­че­но более, чем на 100 тыс. руб. боль­ше, не­же­ли в марте.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Долг каждый месяц уменьшается на  Каждый месяц выплачиваются набежавшие за месяц проценты и еще  Значит, проценты за март должны быть минимум на  больше, чем за декабрь. В марте они начисляются на остаток долга  а в декабре на остаток долга  Значит:Наименьшее такое натуральное r это  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol526932\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Долг каж­дый месяц умень­ша­ет­ся на <img src=\"https://ege.sdamgia.ru/formula/svg/d4/d410796b0fd889ea6c6c0abe93b53af0.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"500000.\"> Каж­дый месяц вы­пла­чи­ва­ют­ся на­бе­жав­шие за месяц про­цен­ты и еще <img src=\"https://ege.sdamgia.ru/formula/svg/d4/d410796b0fd889ea6c6c0abe93b53af0.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"500000.\"> Зна­чит, про­цен­ты за март долж­ны быть ми­ни­мум на <img src=\"https://ege.sdamgia.ru/formula/svg/14/14ee22eaba297944c96afdbe5b16c65b.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"100000\"> боль­ше, чем за де­кабрь. В марте они на­чис­ля­ют­ся на оста­ток долга <img src=\"https://ege.sdamgia.ru/formula/svg/8a/8ae49cb2fa27a4a7f7f69822f5559698.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1500000,\"> а в де­каб­ре на оста­ток долга <img src=\"https://ege.sdamgia.ru/formula/svg/56/5610e7f23503c5853650c22fec717d5c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"3000000.\"> Зна­чит:</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"e4a32b7b55a85611e467d36e6a36b359\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/e4/e4a32b7b55a85611e467d36e6a36b359.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: 3000000r, зна­ме­на­тель: 100 конец дроби боль­ше дробь: чис­ли­тель: 1500000r, зна­ме­на­тель: 100 конец дроби плюс 100000 рав­но­силь­но 30000r боль­ше 15000r плюс 100000 рав­но­силь­но 15r боль­ше 100. \"></span><span data-width=\"490\" data-formulahash=\"e4a32b7b55a85611e467d36e6a36b359\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/e3/e3ee6c1246ed4e5d12bcc7e7f1627b1f.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 3000000r, зна­ме­на­тель: 100 конец дроби боль­ше дробь: чис­ли­тель: 1500000r, зна­ме­на­тель: 100 конец дроби плюс 100000 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/bc/bcb176af238bc7173a638866e740dfbe.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" рав­но­силь­но 30000r боль­ше 15000r плюс 100000 рав­но­силь­но 15r боль­ше 100.\"></span></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Наи­мень­шее такое на­ту­раль­ное <i>r</i> это <img src=\"https://ege.sdamgia.ru/formula/svg/94/947ec8a6bed18b9c1a6fc73274ad4ac5.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"7.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/94/947ec8a6bed18b9c1a6fc73274ad4ac5.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"7.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d4/d410796b0fd889ea6c6c0abe93b53af0.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d410796b0fd889ea6c6c0abe93b53af0.svg",
+            "https://ege.sdamgia.ru/formula/svg/14/14ee22eaba297944c96afdbe5b16c65b.svg",
+            "https://ege.sdamgia.ru/formula/svg/8a/8ae49cb2fa27a4a7f7f69822f5559698.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/5610e7f23503c5853650c22fec717d5c.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e4a32b7b55a85611e467d36e6a36b359.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e3ee6c1246ed4e5d12bcc7e7f1627b1f.svg",
+            "https://ege.sdamgia.ru/formula/svg/bc/bcb176af238bc7173a638866e740dfbe.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/947ec8a6bed18b9c1a6fc73274ad4ac5.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/947ec8a6bed18b9c1a6fc73274ad4ac5.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": null,
+    "analog_ids": []
+}

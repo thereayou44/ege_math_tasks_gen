@@ -1,0 +1,59 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27255,
+    "condition": {
+        "text": "В треугольнике ABC угол C равен 90°,   Найдите ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918667\" class=\"pbody\"><p class=\"left_margin\">В тре­уголь­ни­ке <i>ABC</i> угол <i>C</i> равен 90°, <img src=\"https://ege.sdamgia.ru/formula/svg/74/7405dc0b298cb0402ea9099a753a7219.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AB = 4 ко­рень из: на­ча­ло ар­гу­мен­та: 5 конец ар­гу­мен­та ,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/6d/6dfac439a79776f12d2cfc17acdb712c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BC = 4.\"> Най­ди­те <img src=\"https://ege.sdamgia.ru/formula/svg/55/555d408c2fe21941015b3c76ad9c47ef.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\" тан­генс A.\"><img style=\"float:right\" src=\"/get_file?id=7669\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/74/7405dc0b298cb0402ea9099a753a7219.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6dfac439a79776f12d2cfc17acdb712c.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/555d408c2fe21941015b3c76ad9c47ef.svg",
+            "/get_file?id=7669"
+        ]
+    },
+    "solution": {
+        "text": "Решение. По определению тангенса: Ответ: 0,5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27255\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По опре­де­ле­нию тан­ген­са:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/98/985105b35207399a839a432eaddd769b.svg\" class=\"tex\" style=\"vertical-align:-10.9pt\" alt=\" тан­генс A= дробь: чис­ли­тель: BC, зна­ме­на­тель: AC конец дроби = дробь: чис­ли­тель: BC, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: AB в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та минус BC в квад­ра­те пра­вая круг­лая скоб­ка конец дроби = дробь: чис­ли­тель: 4, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 80 минус 16 конец ар­гу­мен­та конец дроби = дробь: чис­ли­тель: 4, зна­ме­на­тель: 8 конец дроби =0,5. \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 0,5.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/98/985105b35207399a839a432eaddd769b.svg"
+        ]
+    },
+    "answer": "0,5",
+    "topic_id": null,
+    "analog_ids": [
+        27255,
+        30205,
+        30261,
+        30207,
+        30205,
+        30261,
+        30207,
+        30209,
+        30211,
+        30213,
+        30215,
+        30217,
+        30219,
+        30221,
+        30223,
+        30225,
+        30227,
+        30229,
+        30231,
+        30233,
+        30235,
+        30237,
+        30239,
+        30241,
+        30243,
+        30245,
+        30247,
+        30249,
+        30251,
+        30253,
+        30255,
+        30257,
+        30259
+    ]
+}

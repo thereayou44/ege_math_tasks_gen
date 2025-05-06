@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 530406,
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых система уравненийимеет решения.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body424218\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния па­ра­мет­ра <i>a</i>, при каж­дом из ко­то­рых си­сте­ма урав­не­ний</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/7a/7aea8d292f0657b64aa9ae7339fba50f.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний x в квад­ра­те плюс y в квад­ра­те плюс 5=2 левая круг­лая скоб­ка 2x плюс y пра­вая круг­лая скоб­ка , a в квад­ра­те плюс ax плюс 2ay=5 конец си­сте­мы . \"></p><p class=\"left_margin\"></p></center><p>имеет ре­ше­ния.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/7a/7aea8d292f0657b64aa9ae7339fba50f.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Преобразуем первое уравнение системы:Данное уравнение имеет только одно решение:   Подставим данные значения во второе уравнение системы:Следовательно,   Ответ:  ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol530406\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пре­об­ра­зу­ем пер­вое урав­не­ние си­сте­мы:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/9f/9ffad864cc5c9ce6e0817b8436840e56.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x в квад­ра­те минус 4x плюс 4 плюс y в квад­ра­те минус 2y плюс 1=0 рав­но­силь­но левая круг­лая скоб­ка x минус 2 пра­вая круг­лая скоб­ка в квад­ра­те плюс левая круг­лая скоб­ка y минус 1 пра­вая круг­лая скоб­ка в квад­ра­те =0.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Дан­ное урав­не­ние имеет толь­ко одно ре­ше­ние: <img src=\"https://ege.sdamgia.ru/formula/svg/c9/c976bcb9d7042b88df5cde9e1dd52923.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x=2,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/23/231f8e81717b1ec7976960f21afbfeaf.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=1.\"> Под­ста­вим дан­ные зна­че­ния во вто­рое урав­не­ние си­сте­мы:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/89/8966a81e79fc31f2f7532500c01f8b4d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a в квад­ра­те плюс 4a минус 5=0.\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/c3/c382891f1e5d710f604b73183f6c19af.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a= минус 5,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/2a/2a1b71b785c0cb14bb665bfef5a37b68.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=1.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/c3/c382891f1e5d710f604b73183f6c19af.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"a= минус 5,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/2a/2a1b71b785c0cb14bb665bfef5a37b68.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=1.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/9f/9ffad864cc5c9ce6e0817b8436840e56.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c976bcb9d7042b88df5cde9e1dd52923.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/231f8e81717b1ec7976960f21afbfeaf.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/8966a81e79fc31f2f7532500c01f8b4d.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c382891f1e5d710f604b73183f6c19af.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2a1b71b785c0cb14bb665bfef5a37b68.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c382891f1e5d710f604b73183f6c19af.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2a1b71b785c0cb14bb665bfef5a37b68.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 18,
+    "analog_ids": [
+        530406,
+        530438
+    ]
+}

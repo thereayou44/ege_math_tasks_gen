@@ -1,0 +1,33 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521699,
+    "condition": {
+        "text": "Дано уравнение а)  Решите уравнение.б)  Найдите корни этого уравнения, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629535\" class=\"pbody\"><p class=\"left_margin\">Дано урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/92/926448b7efb8e3d1d330e7dc008e6fb1.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"3 синус в квад­ра­те x минус ко­си­нус левая круг­лая скоб­ка дробь: чис­ли­тель: 9 Пи , зна­ме­на­тель: 2 конец дроби минус x пра­вая круг­лая скоб­ка синус левая круг­лая скоб­ка дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби плюс x пра­вая круг­лая скоб­ка минус 2=0. \"></p><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние.</p><p class=\"left_margin\">б)  Най­ди­те&nbsp;корни&nbsp;этого&nbsp;урав­не­ния,&nbsp;при­над­ле­жа­щие&nbsp;от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/55/5541a46ebe3e46a4388fb0fd5a116ca4.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая квад­рат­ная скоб­ка 3 Пи ;4 Пи } пра­вая квад­рат­ная скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/92/926448b7efb8e3d1d330e7dc008e6fb1.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/5541a46ebe3e46a4388fb0fd5a116ca4.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Преобразуем уравнение  откуда  или  откуда  или  б)  На указанном промежутке лежат  и  Ответ: а)  б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521699\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Пре­об­ра­зу­ем урав­не­ние</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/c5/c535f77fd59c497a2a7cdc3a00015570.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"3 синус в квад­ра­те x плюс синус x ко­си­нус x минус 2=0\"></p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/aa/aa962b6c209dc3a2fb91daebb0865fff.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" синус в квад­ра­те x плюс синус x ко­си­нус x минус 2 ко­си­нус в квад­ра­те x=0\"></p><p>&nbsp;</p><p><img src=\"https://ege.sdamgia.ru/formula/svg/ae/ae0eaf1706c7baaa3b6eda64eaaa468d.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\" тан­генс в квад­ра­те x плюс тан­генс x минус 2=0\"></p><p class=\"left_margin\"></p></center><p>от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/55/5512770d47b1f2ae33bd9e739026bae7.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\" тан­генс x=1\"> или <img src=\"https://ege.sdamgia.ru/formula/svg/9a/9ac31adcbfbec2b49b4edf2840454f84.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\" тан­генс x= минус 2,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/d5/d5a0897a35d617507ef5b4b80bb33df5.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби плюс Пи k \"> или <img src=\"https://ege.sdamgia.ru/formula/svg/f5/f5563411046ed563e3246604b66015d0.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\"x= минус арк­тан­генс 2 плюс Пи k.\"></p><p>&nbsp;</p><p class=\"left_margin\">б)  На ука­зан­ном про­ме­жут­ке лежат <img src=\"https://ege.sdamgia.ru/formula/svg/70/70d2c3d05497b0de734ea2ce9f287713.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби плюс 3 Пи \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/c9/c926749678fdfd8701f86a85914b6e9f.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\"x= минус арк­тан­генс 2 плюс 4 Пи \"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) <img src=\"https://ege.sdamgia.ru/formula/svg/1a/1a2692748e3f9cf011f4f9fd72021fd9.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\" левая фи­гур­ная скоб­ка дробь: чис­ли­тель: Пи , зна­ме­на­тель: 4 конец дроби плюс Пи k; минус арк­тан­генс 2 плюс Пи k;k при­над­ле­жит Z пра­вая фи­гур­ная скоб­ка ; \"> б) <img src=\"https://ege.sdamgia.ru/formula/svg/46/46a3905b00a82aef4d7bb8ec7a79b589.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая фи­гур­ная скоб­ка дробь: чис­ли­тель: 13 Пи , зна­ме­на­тель: 4 конец дроби ; минус арк­тан­генс 2 плюс 4 Пи пра­вая фи­гур­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c5/c535f77fd59c497a2a7cdc3a00015570.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa962b6c209dc3a2fb91daebb0865fff.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/ae0eaf1706c7baaa3b6eda64eaaa468d.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/5512770d47b1f2ae33bd9e739026bae7.svg",
+            "https://ege.sdamgia.ru/formula/svg/9a/9ac31adcbfbec2b49b4edf2840454f84.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d5a0897a35d617507ef5b4b80bb33df5.svg",
+            "https://ege.sdamgia.ru/formula/svg/f5/f5563411046ed563e3246604b66015d0.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/70d2c3d05497b0de734ea2ce9f287713.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c926749678fdfd8701f86a85914b6e9f.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1a2692748e3f9cf011f4f9fd72021fd9.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/46a3905b00a82aef4d7bb8ec7a79b589.svg"
+        ]
+    },
+    "answer": "а)  б)",
+    "topic_id": null,
+    "analog_ids": []
+}

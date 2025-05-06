@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 509413,
+    "condition": {
+        "text": "Найдите корень уравнения ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body633625\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те ко­рень урав­не­ния <img src=\"https://ege.sdamgia.ru/formula/svg/7d/7d011515d2862ca79d051ae4bd30c605.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"7 в сте­пе­ни левая круг­лая скоб­ка 18,5x плюс 0,7 пра­вая круг­лая скоб­ка = дробь: чис­ли­тель: 1, зна­ме­на­тель: 343 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/7d/7d011515d2862ca79d051ae4bd30c605.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Перейдём к одному основанию степени: Ответ: −0,2.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol509413\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пе­рейдём к од­но­му ос­но­ва­нию сте­пе­ни:</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"6b160ba85100e4de41b3d98c72fdf643\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/31/31d0b7ab224b64e8ce1c5821e1581661.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"7 в сте­пе­ни левая круг­лая скоб­ка 18,5x плюс 0,7 пра­вая круг­лая скоб­ка = дробь: чис­ли­тель: 1, зна­ме­на­тель: 343 конец дроби рав­но­силь­но 7 в сте­пе­ни левая круг­лая скоб­ка 18,5x плюс 0,7 пра­вая круг­лая скоб­ка =7 в сте­пе­ни левая круг­лая скоб­ка минус 3 пра­вая круг­лая скоб­ка рав­но­силь­но 18,5x плюс 0,7 = минус 3 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/eb/ebfb6bc10bce7f8df1437a999a8e8eb4.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" рав­но­силь­но 18,5x= минус 3,7 рав­но­силь­но x= минус дробь: чис­ли­тель: 37, зна­ме­на­тель: 185 конец дроби = минус 0,2. \"></span><span data-width=\"390\" data-formulahash=\"6b160ba85100e4de41b3d98c72fdf643\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/8d/8d2389c801b44b8a2e522e54cc771625.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"7 в сте­пе­ни левая круг­лая скоб­ка 18,5x плюс 0,7 пра­вая круг­лая скоб­ка = дробь: чис­ли­тель: 1, зна­ме­на­тель: 343 конец дроби рав­но­силь­но 7 в сте­пе­ни левая круг­лая скоб­ка 18,5x плюс 0,7 пра­вая круг­лая скоб­ка =7 в сте­пе­ни левая круг­лая скоб­ка минус 3 пра­вая круг­лая скоб­ка рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/fa/fabca422561dc5a8c3e9b2bbf50828bc.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" рав­но­силь­но 18,5x плюс 0,7 = минус 3 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/eb/ebfb6bc10bce7f8df1437a999a8e8eb4.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" рав­но­силь­но 18,5x= минус 3,7 рав­но­силь­но x= минус дробь: чис­ли­тель: 37, зна­ме­на­тель: 185 конец дроби = минус 0,2. \"></span></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> −0,2.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/31/31d0b7ab224b64e8ce1c5821e1581661.svg",
+            "https://ege.sdamgia.ru/formula/svg/eb/ebfb6bc10bce7f8df1437a999a8e8eb4.svg",
+            "https://ege.sdamgia.ru/formula/svg/8d/8d2389c801b44b8a2e522e54cc771625.svg",
+            "https://ege.sdamgia.ru/formula/svg/fa/fabca422561dc5a8c3e9b2bbf50828bc.svg",
+            "https://ege.sdamgia.ru/formula/svg/eb/ebfb6bc10bce7f8df1437a999a8e8eb4.svg"
+        ]
+    },
+    "answer": "-0,2",
+    "topic_id": 6,
+    "analog_ids": [
+        509413,
+        510936,
+        509434
+    ]
+}

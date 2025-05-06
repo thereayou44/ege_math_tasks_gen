@@ -1,0 +1,35 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27228,
+    "condition": {
+        "text": "В треугольнике ABC угол C равен 90°,  Найдите ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918688\" class=\"pbody\"><p class=\"left_margin\">В тре­уголь­ни­ке <i>ABC</i> угол <i>C</i> равен 90°, <img src=\"https://ege.sdamgia.ru/formula/svg/c4/c45acee032f194bc4500c568a814a0c8.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" тан­генс A = дробь: чис­ли­тель: 24, зна­ме­на­тель: 7 конец дроби . \"> Най­ди­те <img src=\"https://ege.sdamgia.ru/formula/svg/01/01f4793c2ed47090b60a31cbc95e9f89.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" ко­си­нус A.\"><img style=\"float:right\" src=\"/get_file?id=7669\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c4/c45acee032f194bc4500c568a814a0c8.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/01f4793c2ed47090b60a31cbc95e9f89.svg",
+            "/get_file?id=7669"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Имеем:  Ответ: 0,28.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27228\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Имеем: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/46/467fd3fd8b9f87bc291ae72a92b9fa04.svg\" class=\"tex\" style=\"vertical-align:-15.0pt\" alt=\" ко­си­нус A = ко­рень из: на­ча­ло ар­гу­мен­та: 1 \\over 1 плюс тан­генс в квад­ра­те A конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 1 \\over 1 плюс 576 конец ар­гу­мен­та \\over 49 = ко­рень из: на­ча­ло ар­гу­мен­та: 49 конец ар­гу­мен­та \\over 625 = 7 \\over 25 = 0,28.\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 0,28.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/46/467fd3fd8b9f87bc291ae72a92b9fa04.svg"
+        ]
+    },
+    "answer": "0,28",
+    "topic_id": null,
+    "analog_ids": [
+        27228,
+        29141,
+        29147,
+        29151,
+        29141,
+        29147,
+        29151,
+        29143,
+        29145,
+        29149
+    ]
+}

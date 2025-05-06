@@ -1,0 +1,39 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27163,
+    "condition": {
+        "text": "Радиусы двух шаров равны 6 и 8. Найдите радиус шара, площадь поверхности которого равна сумме площадей поверхностей двух данных шаров.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918759\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=140010\" style=\"float:right;margin:10px;max-width:100%\">Ра­ди­у­сы двух шаров равны 6 и 8. Най­ди­те ра­ди­ус шара, пло­щадь по­верх­но­сти ко­то­ро­го равна сумме пло­ща­дей по­верх­но­стей двух дан­ных шаров.</p></div>",
+        "image_urls": [
+            "/get_file?id=140010"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Из условия  находим:Ответ: 10.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27163\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Из усло­вия <img src=\"https://ege.sdamgia.ru/formula/svg/34/345ca69523cc82081c7bd72093562cb6.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"S_3=S_1 плюс S_2\"> на­хо­дим:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/60/608b92e7d5d45b2c45f2ae80766aad09.svg\" class=\"tex\" style=\"vertical-align:-6.8pt\" alt=\"4 Пи R_3 в квад­ра­те =4 Пи R_1 в квад­ра­те плюс 4 Пи R_2 в квад­ра­те рав­но­силь­но R_3= ко­рень из: на­ча­ло ар­гу­мен­та: R_1 конец ар­гу­мен­та в квад­ра­те плюс R_2 в квад­ра­те рав­но­силь­но R_3=10.\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing:2px \">Ответ</span>: 10.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/34/345ca69523cc82081c7bd72093562cb6.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/608b92e7d5d45b2c45f2ae80766aad09.svg"
+        ]
+    },
+    "answer": "10",
+    "topic_id": 3,
+    "analog_ids": [
+        27163,
+        76361,
+        76377,
+        76363,
+        76361,
+        76377,
+        76363,
+        76365,
+        76367,
+        76369,
+        76371,
+        76373,
+        76375,
+        76379,
+        76381
+    ]
+}

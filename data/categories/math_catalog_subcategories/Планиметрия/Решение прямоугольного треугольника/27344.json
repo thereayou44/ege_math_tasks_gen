@@ -1,0 +1,51 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27344,
+    "condition": {
+        "text": "В треугольнике ABC угол C равен 90°, высота CH равна 8,  Найдите ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body918572\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=144894\" style=\"float:right;margin:10px;max-width:100%\">В тре­уголь­ни­ке <i>ABC</i> угол <i>C</i> равен 90°, вы­со­та <i>CH</i> равна 8, <img src=\"https://ege.sdamgia.ru/formula/svg/a3/a3d46c9173d8b2f0f699456e83b3babc.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"BH = 4.\"> Най­ди­те <img src=\"https://ege.sdamgia.ru/formula/svg/55/555d408c2fe21941015b3c76ad9c47ef.svg\" class=\"tex\" style=\"vertical-align:-3.2pt\" alt=\" тан­генс A.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a3/a3d46c9173d8b2f0f699456e83b3babc.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/555d408c2fe21941015b3c76ad9c47ef.svg",
+            "/get_file?id=144894"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Углы A и HCB равны как углы со взаимно перпендикулярными сторонами.  Ответ: 0,5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27344\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Углы <i>A</i> и <i>HCB</i> равны как углы со вза­им­но пер­пен­ди­ку­ляр­ны­ми сто­ро­на­ми.</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d5/d57b5784dc781d3f0b5d528f233c659a.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" тан­генс A= тан­генс \\angle HCB= дробь: чис­ли­тель: HB, зна­ме­на­тель: CH конец дроби =0,5. \"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 0,5.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d5/d57b5784dc781d3f0b5d528f233c659a.svg"
+        ]
+    },
+    "answer": "0,5",
+    "topic_id": 1,
+    "analog_ids": [
+        27344,
+        34165,
+        34167,
+        34169,
+        34165,
+        34167,
+        34169,
+        34171,
+        34173,
+        34175,
+        34177,
+        34179,
+        34181,
+        34183,
+        34185,
+        34187,
+        34189,
+        34191,
+        34193,
+        34195,
+        34197,
+        34199,
+        34201,
+        34203,
+        34205,
+        34207
+    ]
+}

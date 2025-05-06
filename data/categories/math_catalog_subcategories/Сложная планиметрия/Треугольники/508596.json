@@ -1,0 +1,31 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 508596,
+    "condition": {
+        "text": "В остроугольном треугольнике ABC высоты AA1 и CC1 пересекаются в точке О.А)  Докажите, что треугольники AOC и C1OA1 подобны.Б)  Найдите площадь четырехугольника ACA1C1, если известно, что угол ABC равен 30°, а площадь треугольника ABC равна 80.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body633928\" class=\"pbody\"><p class=\"left_margin\">В ост­ро­уголь­ном тре­уголь­ни­ке <i>ABC</i> вы­со­ты <i>AA</i><sub>1</sub> и <i>CC</i><sub>1</sub> пе­ре­се­ка­ют­ся в точке <i>О</i>.</p><p class=\"left_margin\">А)  До­ка­жи­те, что тре­уголь­ни­ки <i>AOC</i> и <i>C</i><sub>1</sub><i>OA</i><sub>1</sub> по­доб­ны.</p><p class=\"left_margin\">Б)  Най­ди­те пло­щадь че­ты­рех­уголь­ни­ка <i>ACA</i><sub>1</sub><i>C</i><sub>1</sub>, если из­вест­но, что угол <i>ABC</i> равен 30°, а пло­щадь тре­уголь­ни­ка <i>ABC</i> равна 80.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Поскольку точки  и  лежат на окружности с диаметром AC. Тогда по следствию теоремы о вписанном угле  и  поэтому указанные треугольники подобны по двум углам.б)  Заметим, что из вписанности четырехугольника  следует, что  аналогично  поэтому треугольники BAC и BA1C1 подобны с коэффициентом подобия  поэтому их площади относятся как  Значит,  Ответ:  20.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol508596\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=26305\" style=\"float:right;margin:10px\"></p><p class=\"left_margin\">а)  По­сколь­ку<img src=\"https://ege.sdamgia.ru/formula/svg/be/be7edd1d3b3c3f0bccfca19512535a4c.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" \\angle AC_1C=\\angle AA_1C=90 гра­ду­сов,\"> точки <img src=\"https://ege.sdamgia.ru/formula/svg/4f/4fa71d007c094ac3c858919aec515277.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"C_1\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/4b/4be60c01260fad068dd84cb934d15c36.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"A_1\"> лежат на окруж­но­сти с диа­мет­ром <i>AC</i>. Тогда по след­ствию тео­ре­мы о впи­сан­ном угле <img src=\"https://ege.sdamgia.ru/formula/svg/2b/2ba1ff94550a4d3d3b0c1b859e503112.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"\\angle C_1A_1A=\\angle C_1CA\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/c6/c6e557bcc49edfd5aef086cc4f5104ff.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle A_1C_1C=\\angle A_1AC,\"> по­это­му ука­зан­ные тре­уголь­ни­ки по­доб­ны по двум углам.</p><p class=\"left_margin\">б)  За­ме­тим, что из впи­сан­но­сти че­ты­рех­уголь­ни­ка <img src=\"https://ege.sdamgia.ru/formula/svg/5d/5deab6d76602c067bf454d3f87c9bcae.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AC_1A_1C\"> сле­ду­ет, что <img src=\"https://ege.sdamgia.ru/formula/svg/f5/f5da192c6c15d7504153726964e503b4.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle C_1AC= Пи минус \\angle C_1A_1C=\\angle BA_1C_1,\"> ана­ло­гич­но <img src=\"https://ege.sdamgia.ru/formula/svg/64/6474ca393ce9b508d293f1e05f0e177e.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"\\angle A_1CA=\\angle BC_1A_1,\"> по­это­му тре­уголь­ни­ки <i>BAC</i> и <i>BA</i><sub>1</sub><i>C</i><sub>1</sub> по­доб­ны с ко­эф­фи­ци­ен­том по­до­бия <img src=\"https://ege.sdamgia.ru/formula/svg/fa/fa3237f9e8e24029eefc105505fc698c.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: BC_1, зна­ме­на­тель: BC конец дроби = ко­си­нус \\angle C_1BC= дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 2 конец дроби , \"> по­это­му их пло­ща­ди от­но­сят­ся как <img src=\"https://ege.sdamgia.ru/formula/svg/65/65b8cbd1d93be244e16dfd86507126dc.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"4:3.\"> Зна­чит, </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ef/ef749225bc349a001d981972d3eb08aa.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S_AC_1A_1C= дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби S_ABC=20.\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  20.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/be/be7edd1d3b3c3f0bccfca19512535a4c.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4fa71d007c094ac3c858919aec515277.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4be60c01260fad068dd84cb934d15c36.svg",
+            "https://ege.sdamgia.ru/formula/svg/2b/2ba1ff94550a4d3d3b0c1b859e503112.svg",
+            "https://ege.sdamgia.ru/formula/svg/c6/c6e557bcc49edfd5aef086cc4f5104ff.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5deab6d76602c067bf454d3f87c9bcae.svg",
+            "https://ege.sdamgia.ru/formula/svg/f5/f5da192c6c15d7504153726964e503b4.svg",
+            "https://ege.sdamgia.ru/formula/svg/64/6474ca393ce9b508d293f1e05f0e177e.svg",
+            "https://ege.sdamgia.ru/formula/svg/fa/fa3237f9e8e24029eefc105505fc698c.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/65b8cbd1d93be244e16dfd86507126dc.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/ef749225bc349a001d981972d3eb08aa.svg",
+            "/get_file?id=26305"
+        ]
+    },
+    "answer": "20.",
+    "topic_id": null,
+    "analog_ids": []
+}

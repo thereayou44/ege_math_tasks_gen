@@ -1,0 +1,30 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521563,
+    "condition": {
+        "text": "Дано уравнение а)  Решите уравнение.б)  Найдите корни этого уравнения, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body629671\" class=\"pbody\"><p class=\"left_margin\">Дано урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/ec/eca105ef390398cb2dbe491681a24616.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"7 синус левая круг­лая скоб­ка 2x минус дробь: чис­ли­тель: 5 Пи , зна­ме­на­тель: 2 конец дроби пра­вая круг­лая скоб­ка плюс 9 ко­си­нус x плюс 1=0. \"></p><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние.</p><p class=\"left_margin\">б)  Най­ди­те&nbsp;корни&nbsp;этого&nbsp;урав­не­ния,&nbsp;при­над­ле­жа­щие&nbsp;от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/c8/c8ff39bc6ee8f5cd588835565fae40c9.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка минус дробь: чис­ли­тель: 3 Пи , зна­ме­на­тель: 2 конец дроби ; дробь: чис­ли­тель: Пи , зна­ме­на­тель: 3 конец дроби } пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ec/eca105ef390398cb2dbe491681a24616.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c8ff39bc6ee8f5cd588835565fae40c9.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Перепишем уравнение в виде  введем замену: где Значит,  то есть  б)  На указанном отрезке лежат   Ответ: а)  б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521563\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Пе­ре­пи­шем урав­не­ние в виде <img src=\"https://ege.sdamgia.ru/formula/svg/2d/2d3a63bb643414103b9e6ecd560e81cf.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" минус 7 ко­си­нус 2x плюс 9 ко­си­нус x плюс 1=0,\"> вве­дем за­ме­ну:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/3c/3c948c8e38231b331c16743c6ed7d944.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" минус 7 левая круг­лая скоб­ка 2t в квад­ра­те минус 1 пра­вая круг­лая скоб­ка плюс 9t плюс 1=0,\"> где <img src=\"https://ege.sdamgia.ru/formula/svg/1a/1a4af0255e847b37a89793a7e4335967.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"t= ко­си­нус x рав­но­силь­но 14t в квад­ра­те минус 9t минус 8=0 рав­но­силь­но t= минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби ,t= дробь: чис­ли­тель: 8, зна­ме­на­тель: 7 конец дроби .\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/e3/e32dea5f72ea015692403761b127862d.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" ко­си­нус x= минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби ,\"> то есть <img src=\"https://ege.sdamgia.ru/formula/svg/ad/add78c14ea5c3ec48deea24dd29b68b4.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x=\\pm дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k. \"></p><p>&nbsp;</p><p class=\"left_margin\">б)  На ука­зан­ном от­рез­ке лежат <img src=\"https://ege.sdamgia.ru/formula/svg/3a/3ad279e7b8cfe7fc5d3bab72bbe9b942.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x= минус дробь: чис­ли­тель: 4 Пи , зна­ме­на­тель: 3 конец дроби ; x= минус дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби . \"></p><p>&nbsp;</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) <img src=\"https://ege.sdamgia.ru/formula/svg/2d/2d29cb990ebeae972341ada943214866.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая фи­гур­ная скоб­ка \\pm дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k: k при­над­ле­жит Z пра­вая фи­гур­ная скоб­ка ; \"> б) <img src=\"https://ege.sdamgia.ru/formula/svg/b1/b11b8ec5d3275d732e7f87bb810cca46.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая фи­гур­ная скоб­ка минус дробь: чис­ли­тель: 4 Пи , зна­ме­на­тель: 3 конец дроби ; минус дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби пра­вая фи­гур­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/2d/2d3a63bb643414103b9e6ecd560e81cf.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3c948c8e38231b331c16743c6ed7d944.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1a4af0255e847b37a89793a7e4335967.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e32dea5f72ea015692403761b127862d.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/add78c14ea5c3ec48deea24dd29b68b4.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3ad279e7b8cfe7fc5d3bab72bbe9b942.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d29cb990ebeae972341ada943214866.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b11b8ec5d3275d732e7f87bb810cca46.svg"
+        ]
+    },
+    "answer": "а)  б)",
+    "topic_id": null,
+    "analog_ids": []
+}

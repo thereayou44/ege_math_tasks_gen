@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 514045,
+    "condition": {
+        "text": "Дан прямой круговой конус с вершиной M. Осевое сечение конуса  — треугольник с углом 120° при вершине M. Образующая конуса равна  Через точку M проведено сечение конуса, перпендикулярное одной из образующих.а)  Докажите, что полученный в сечении треугольник тупоугольный.б)  Найдите площадь сечения.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body637185\" class=\"pbody\"><p class=\"left_margin\">Дан пря­мой кру­го­вой конус с вер­ши­ной <i>M</i>. Осе­вое се­че­ние ко­ну­са  — тре­уголь­ник с углом 120° при вер­ши­не <i>M</i>. Об­ра­зу­ю­щая ко­ну­са равна <img src=\"https://ege.sdamgia.ru/formula/svg/6a/6ac7df217d8ffb190e45e3969e0a3a86.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2 ко­рень из 3 .\"> Через точку <i>M</i> про­ве­де­но се­че­ние ко­ну­са, пер­пен­ди­ку­ляр­ное одной из об­ра­зу­ю­щих.</p><p class=\"left_margin\">а)  До­ка­жи­те, что по­лу­чен­ный в се­че­нии тре­уголь­ник ту­по­уголь­ный.</p><p class=\"left_margin\">б)  Най­ди­те пло­щадь се­че­ния.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/6a/6ac7df217d8ffb190e45e3969e0a3a86.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Пусть треугольник МАВ  — искомое сечение, перпендикулярное образующей МК, и пусть Т  — точка его пересечения с диаметром, проходящим через точку К. В треугольнике МТК угол К равен 30°. Следовательно, В треугольнике МТВ образующая конуса    Следовательно, б)  Площадь треугольника MBA равна Ответ: б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol514045\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=142484\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Пусть тре­уголь­ник <i>МАВ</i>  — ис­ко­мое се­че­ние, пер­пен­ди­ку­ляр­ное об­ра­зу­ю­щей <i>МК</i>, и пусть <i>Т</i>  — точка его пе­ре­се­че­ния с диа­мет­ром, про­хо­дя­щим через точку <i>К</i>. В тре­уголь­ни­ке <i>МТК</i> угол <i>К</i> равен 30°. Сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/66/66f7770f26e5c3fa1b067f0bdcacee58.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"MT=2, TK=4.\"></p><p class=\"left_margin\">В тре­уголь­ни­ке <i>МТВ</i> об­ра­зу­ю­щая ко­ну­са <img src=\"https://ege.sdamgia.ru/formula/svg/4a/4ae8e48111097698674eccee58c3067f.svg\" class=\"tex\" style=\"vertical-align:-3.1pt\" alt=\"MB=2 ко­рень из 3 ,\"> </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/37/378d87d314e423816fb946c0fe62e0ba.svg\" class=\"tex\" style=\"vertical-align:-5.8pt\" alt=\"AB=2TB=2 ко­рень из: на­ча­ло ар­гу­мен­та: левая круг­лая скоб­ка 2 ко­рень из 3 пра­вая круг­лая скоб­ка в квад­ра­те минус 2 в квад­ра­те конец ар­гу­мен­та =4 ко­рень из 2 ,\"> </p><p><img src=\"https://ege.sdamgia.ru/formula/svg/fc/fc5a18285ae471d0f0fc9e7593cdbe8c.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"AM в квад­ра­те плюс BM в квад­ра­те =2 умно­жить на левая круг­лая скоб­ка 2 ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та пра­вая круг­лая скоб­ка в квад­ра­те =24 мень­ше 32= левая круг­лая скоб­ка 4 ко­рень из: на­ча­ло ар­гу­мен­та: 2 конец ар­гу­мен­та пра­вая круг­лая скоб­ка в квад­ра­те =AB в квад­ра­те .\"></p><p class=\"left_margin\"></p></center><p> Сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/c1/c1dab9d33a2607d3405388212c11be0e.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle AMB боль­ше 90 гра­ду­сов.\"></p><p class=\"left_margin\">б)  Пло­щадь тре­уголь­ни­ка <i>MBA</i> равна</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/45/458fb916d7d7286ca7e5a1014120d8e3.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S_MBA= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на AB умно­жить на MT= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на 4 ко­рень из 2 умно­жить на 2=4 ко­рень из 2 \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) <img src=\"https://ege.sdamgia.ru/formula/svg/18/18c5d2e54898cc8a6c2a31d139216d84.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"4 ко­рень из 2 .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/66/66f7770f26e5c3fa1b067f0bdcacee58.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4ae8e48111097698674eccee58c3067f.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/378d87d314e423816fb946c0fe62e0ba.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fc5a18285ae471d0f0fc9e7593cdbe8c.svg",
+            "https://ege.sdamgia.ru/formula/svg/c1/c1dab9d33a2607d3405388212c11be0e.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/458fb916d7d7286ca7e5a1014120d8e3.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/18c5d2e54898cc8a6c2a31d139216d84.svg",
+            "/get_file?id=142484"
+        ]
+    },
+    "answer": "б)",
+    "topic_id": 14,
+    "analog_ids": [
+        514045,
+        620969
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 508458,
+    "condition": {
+        "text": "Решите неравенство: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body634070\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство: <img src=\"https://ege.sdamgia.ru/formula/svg/cb/cb17594c56478320d1b8333c8f32d0fa.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"9 в сте­пе­ни левая круг­лая скоб­ка де­ся­тич­ный ло­га­рифм x пра­вая круг­лая скоб­ка плюс x в сте­пе­ни левая круг­лая скоб­ка 2 де­ся­тич­ный ло­га­рифм 3 пра­вая круг­лая скоб­ка боль­ше или равно 6.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/cb/cb17594c56478320d1b8333c8f32d0fa.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Решение неравенства ищем при условии  При этом условии   откуда Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol508458\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Ре­ше­ние не­ра­вен­ства ищем при усло­вии <img src=\"https://ege.sdamgia.ru/formula/svg/bb/bbdf45dbe9c5b10b9c97a13fd313cd29.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x боль­ше 0.\"> При этом усло­вии  <img src=\"https://ege.sdamgia.ru/formula/svg/d2/d2ebd50ece8155e95194a2b11708c3b9.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" x в сте­пе­ни левая круг­лая скоб­ка 2 де­ся­тич­ный ло­га­рифм 3 пра­вая круг­лая скоб­ка =x в сте­пе­ни левая круг­лая скоб­ка де­ся­тич­ный ло­га­рифм 9 пра­вая круг­лая скоб­ка = 9 в сте­пе­ни левая круг­лая скоб­ка де­ся­тич­ный ло­га­рифм x пра­вая круг­лая скоб­ка ,\"> от­ку­да</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/52/5292c6d96b8b9f4063ad0331f59dae95.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"9 в сте­пе­ни левая круг­лая скоб­ка де­ся­тич­ный ло­га­рифм x пра­вая круг­лая скоб­ка боль­ше или равно 3 рав­но­силь­но де­ся­тич­ный ло­га­рифм x боль­ше или равно дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби рав­но­силь­но x боль­ше или равно ко­рень из: на­ча­ло ар­гу­мен­та: 10. конец ар­гу­мен­та \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ</span>: <img src=\"https://ege.sdamgia.ru/formula/svg/df/dfcf0c7d975d557c4ee48e50568f4392.svg\" class=\"tex\" style=\"vertical-align:-7.9pt\" alt=\" левая квад­рат­ная скоб­ка ко­рень из: на­ча­ло ар­гу­мен­та: 10 конец ар­гу­мен­та ; плюс бес­ко­неч­ность пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/bb/bbdf45dbe9c5b10b9c97a13fd313cd29.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d2ebd50ece8155e95194a2b11708c3b9.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/5292c6d96b8b9f4063ad0331f59dae95.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/dfcf0c7d975d557c4ee48e50568f4392.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": [
+        508458,
+        508460,
+        511540
+    ]
+}

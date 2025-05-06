@@ -1,0 +1,69 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 27425,
+    "condition": {
+        "text": "В треугольнике ABC   синус внешнего угла при вершине A равен 0,6. Найдите ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body919005\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right; margin:10px\" src=\"/get_file?id=1255\">В тре­уголь­ни­ке <i>ABC</i> <img src=\"https://ege.sdamgia.ru/formula/svg/d7/d7f135eda8661def45358444c0a7603a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AC = BC,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/22/22a3ccc9bfdaf149e27b6c649d3827cc.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AB = 40,\"> синус внеш­не­го угла при вер­ши­не <i>A</i> равен 0,6. Най­ди­те <img src=\"https://ege.sdamgia.ru/formula/svg/55/55c9ee3beff9b131586901889ba3714f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AC.\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/d7/d7f135eda8661def45358444c0a7603a.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/22a3ccc9bfdaf149e27b6c649d3827cc.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/55c9ee3beff9b131586901889ba3714f.svg",
+            "/get_file?id=1255"
+        ]
+    },
+    "solution": {
+        "text": "Решение. так как   Ответ: 25. ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27425\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">так как  </p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"09146a456b431ab024c4129312774506\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/09/09146a456b431ab024c4129312774506.svg\" class=\"tex\" style=\"vertical-align:-13.2pt\" alt=\"AC= дробь: чис­ли­тель: AH, зна­ме­на­тель: ко­си­нус A конец дроби = дробь: чис­ли­тель: AB, зна­ме­на­тель: 2 ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус синус в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та A пра­вая круг­лая скоб­ка конец дроби = дробь: чис­ли­тель: AB, зна­ме­на­тель: 2 ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус синус в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та A_внеш пра­вая круг­лая скоб­ка конец дроби = дробь: чис­ли­тель: 20, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус 0,36 конец ар­гу­мен­та конец дроби = дробь: чис­ли­тель: 20, зна­ме­на­тель: 0,8 конец дроби =25. \"></span><span data-width=\"540\" data-formulahash=\"09146a456b431ab024c4129312774506\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/f6/f6806da4f4b9b19e1f8c72d59d68951d.svg\" class=\"tex\" style=\"vertical-align:-13.1pt\" alt=\"AC= дробь: чис­ли­тель: AH, зна­ме­на­тель: ко­си­нус A конец дроби = дробь: чис­ли­тель: AB, зна­ме­на­тель: 2 ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус синус в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та A пра­вая круг­лая скоб­ка конец дроби = \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/b2/b2b97337e5e5fbf74876a559a93e3824.svg\" class=\"tex\" style=\"vertical-align:-13.1pt\" alt=\"= дробь: чис­ли­тель: AB, зна­ме­на­тель: 2 ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус синус в сте­пе­ни левая круг­лая скоб­ка 2 конец ар­гу­мен­та A_внеш пра­вая круг­лая скоб­ка конец дроби = дробь: чис­ли­тель: 20, зна­ме­на­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 1 минус 0,36 конец ар­гу­мен­та конец дроби = дробь: чис­ли­тель: 20, зна­ме­на­тель: 0,8 конец дроби =25. \"></span></p><p class=\"left_margin\"></p></center> <p><span style=\"letter-spaceing:2px\">Ответ</span>: 25. </p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/09/09146a456b431ab024c4129312774506.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f6806da4f4b9b19e1f8c72d59d68951d.svg",
+            "https://ege.sdamgia.ru/formula/svg/b2/b2b97337e5e5fbf74876a559a93e3824.svg"
+        ]
+    },
+    "answer": "25",
+    "topic_id": null,
+    "analog_ids": [
+        27425,
+        37671,
+        37673,
+        37675,
+        37671,
+        37673,
+        37675,
+        37677,
+        37679,
+        37681,
+        37683,
+        37685,
+        37687,
+        37689,
+        37691,
+        37693,
+        37695,
+        37697,
+        37699,
+        37701,
+        37703,
+        37705,
+        37707,
+        37709,
+        37711,
+        37713,
+        37715,
+        37717,
+        37719,
+        37721,
+        37723,
+        37725,
+        37727,
+        37729,
+        37731,
+        37733,
+        37735,
+        37737,
+        37739,
+        37741,
+        37743
+    ]
+}

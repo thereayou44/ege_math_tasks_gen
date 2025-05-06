@@ -1,0 +1,33 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 639948,
+    "condition": {
+        "text": "На рисунке изображён график функции вида  где a и b целые числа. Найдите значение f(8).",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body503088\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=129196\" style=\"float:right;margin:10px;max-width:100%\">На ри­сун­ке изоб­ражён гра­фик функ­ции вида <img src=\"https://ege.sdamgia.ru/formula/svg/77/779fedda382ef89c384872cb49dad2ce.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =|ax минус b|,\"> где <i>a</i> и <i>b</i> целые числа. Най­ди­те зна­че­ние <i>f</i>(8).</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/77/779fedda382ef89c384872cb49dad2ce.svg",
+            "/get_file?id=129196"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Пусть правая ветвь графика модуля лежит на прямой  Из графика находим, что   Тогда угловой коэффициент  Поскольку  получаем, что   Значит,  а потомуОтвет: 14.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol639948\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть пра­вая ветвь гра­фи­ка мо­ду­ля лежит на пря­мой <img src=\"https://ege.sdamgia.ru/formula/svg/0f/0fe1a394c64c39ebbd67cb0f384fb8ef.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y = kx плюс m.\"> Из гра­фи­ка на­хо­дим, что <img src=\"https://ege.sdamgia.ru/formula/svg/66/66a20a8186cc6ee1cc042ffd4210c333.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y левая круг­лая скоб­ка 4 пра­вая круг­лая скоб­ка =2,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/88/88c59379e795b17915087a931cbe8bf2.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y левая круг­лая скоб­ка 5 пра­вая круг­лая скоб­ка =5.\"> Тогда уг­ло­вой ко­эф­фи­ци­ент</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/47/47331a066ede5208314dcba7a6fb0d40.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\"k = дробь: чис­ли­тель: f левая круг­лая скоб­ка 5 пра­вая круг­лая скоб­ка минус f левая круг­лая скоб­ка 4 пра­вая круг­лая скоб­ка , зна­ме­на­тель: 5 минус 4 конец дроби = 3. \"></p><p class=\"left_margin\"></p></center> <p> По­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/36/368859dbe4d8759017f6a9c86cfc78b2.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y левая круг­лая скоб­ка 4 пра­вая круг­лая скоб­ка = 3 умно­жить на 4 плюс m = 2,\"> по­лу­ча­ем, что  <img src=\"https://ege.sdamgia.ru/formula/svg/93/93d126d701aa5d54c45dbb8908c5e34c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"m= минус 10.\"> Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/59/59cf324587b17376fd2993652527bf74.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =3x минус 10,\"> а по­то­му</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/b4/b446ef28fc5331f0a9ea0d24a918e566.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"f левая круг­лая скоб­ка 8 пра­вая круг­лая скоб­ка = y левая круг­лая скоб­ка 8 пра­вая круг­лая скоб­ка = 24 минус 10 = 14.\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 14.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/0f/0fe1a394c64c39ebbd67cb0f384fb8ef.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/66a20a8186cc6ee1cc042ffd4210c333.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/88c59379e795b17915087a931cbe8bf2.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/47331a066ede5208314dcba7a6fb0d40.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/368859dbe4d8759017f6a9c86cfc78b2.svg",
+            "https://ege.sdamgia.ru/formula/svg/93/93d126d701aa5d54c45dbb8908c5e34c.svg",
+            "https://ege.sdamgia.ru/formula/svg/59/59cf324587b17376fd2993652527bf74.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b446ef28fc5331f0a9ea0d24a918e566.svg"
+        ]
+    },
+    "answer": "14",
+    "topic_id": null,
+    "analog_ids": [
+        639948,
+        640517
+    ]
+}

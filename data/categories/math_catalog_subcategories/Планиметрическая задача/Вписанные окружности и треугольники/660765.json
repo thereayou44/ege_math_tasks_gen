@@ -1,0 +1,43 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 660765,
+    "condition": {
+        "text": "Периметр треугольника ABC равен 24. Точки E и F  — середины сторон AB и BC соответственно. Отрезок EF касается окружности, вписанной в треугольник ABC. а)  Докажите, что б)  Найдите площадь треугольника ABC, если ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body293857\" class=\"pbody\"><p class=\"left_margin\">Пе­ри­метр тре­уголь­ни­ка <i>ABC</i> равен 24. Точки <i>E</i> и <i>F</i>  — се­ре­ди­ны сто­рон <i>AB</i> и <i>BC</i> со­от­вет­ствен­но. От­ре­зок <i>EF</i> ка­са­ет­ся окруж­но­сти, впи­сан­ной в тре­уголь­ник <i>ABC</i>. </p><p class=\"left_margin\">а)  До­ка­жи­те, что <img src=\"https://ege.sdamgia.ru/formula/svg/ed/edbd281f00e8321a75084a57c2fcb2a9.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AC = 6.\"></p><p class=\"left_margin\">б)  Най­ди­те пло­щадь тре­уголь­ни­ка <i>ABC</i>, если <img src=\"https://ege.sdamgia.ru/formula/svg/65/655d59f9bd081529830314541d2d96b1.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\angle A C B = 90 в сте­пе­ни левая круг­лая скоб­ка \\circ пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ed/edbd281f00e8321a75084a57c2fcb2a9.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/655d59f9bd081529830314541d2d96b1.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Так как четырехугольник AEFC описанный (см. рис. 1), то  Поскольку E и F  — середины сторон AB и BC, отрезок EF  — средняя линия, а, значит,  Найдем периметр треугольника ABC: Откуда следует, что  то есть Рис. 1Рис. 2б)  Так как  то  По теореме Пифагора (см. рис. 2), имеем:  Получаем: Тогда площадь треугольника ABC равна  Ответ: б)  24.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol660765\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">а)  Так как че­ты­рех­уголь­ник <i>AEFC</i> опи­сан­ный (см. рис. 1), то <img src=\"https://ege.sdamgia.ru/formula/svg/f6/f673224b7ac1d195377adf48f9a100ae.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AE плюс FC=AC плюс EF.\"> По­сколь­ку <i>E</i> и <i>F</i>  — се­ре­ди­ны сто­рон <i>AB</i> и <i>BC,</i> от­ре­зок <i>EF</i>  — сред­няя линия, а, зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/50/50a45f1618713edcc13a879f9530d06c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AC = 2EF.\"> Най­дем пе­ри­метр тре­уголь­ни­ка <i>ABC</i>:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e1/e169e567eb3fecd756ba0a71a20425ae.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"P_ABC = AC плюс AB плюс BC = AC плюс 2 левая круг­лая скоб­ка AE плюс FC пра­вая круг­лая скоб­ка = AC плюс 2 AC плюс 2 EF = 4 AC.\"></p><p class=\"left_margin\"></p></center><p> От­ку­да сле­ду­ет, что <img src=\"https://ege.sdamgia.ru/formula/svg/fb/fb3c6df378dc2da8baac3b3bdc92bb39.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"AC= дробь: чис­ли­тель: 1, зна­ме­на­тель: 4 конец дроби P_ABC,\"> то есть <img src=\"https://ege.sdamgia.ru/formula/svg/cc/ccf3d8cc16b51c38b18f2e2a40bb437c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AC=6.\"></p><p></p><div class=\"flex-img\"><p></p><div><p><img src=\"/get_file?id=181303\" style=\"margin:10px auto;display:block;max-width:none\"></p><p><nobr>Рис. 1</nobr></p><p></p></div><p></p><div><p><img src=\"/get_file?id=181304\" style=\"margin:10px auto;display:block;max-width:none\"></p><p><nobr>Рис. 2</nobr></p><p></p></div><p></p></div><p class=\"left_margin\">б)  Так как <img src=\"https://ege.sdamgia.ru/formula/svg/5d/5dc9bea13de619e4c9c58212fbaf9c83.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AC=6,\"> то <img src=\"https://ege.sdamgia.ru/formula/svg/fc/fc1794c49e5cf2ea8fb31d448811a6f2.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AB плюс BC=18.\"> По тео­ре­ме Пи­фа­го­ра (см. рис. 2), имеем: <img src=\"https://ege.sdamgia.ru/formula/svg/15/15625d29c06cfab6cdad406c7ede28c2.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AB в квад­ра­те =BC в квад­ра­те плюс AC в квад­ра­те .\"> По­лу­ча­ем:</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"ba446a2354d49d4035a783cd7434add4\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/ba/ba446a2354d49d4035a783cd7434add4.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний AB плюс BC=18, BC в квад­ра­те плюс 36=AB в квад­ра­те конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний BC=18 минус AB, BC в квад­ра­те плюс 36=324 минус 36BC плюс BC в квад­ра­те , конец си­сте­мы . \\Rightarrow 36BC = 288 рав­но­силь­но BC=8.\"></span><span data-width=\"540\" data-formulahash=\"ba446a2354d49d4035a783cd7434add4\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/fa/fa82c5f516a3e5a903dbf11bda47f88c.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний AB плюс BC=18, BC в квад­ра­те плюс 36=AB в квад­ра­те конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний BC=18 минус AB, BC в квад­ра­те плюс 36=324 минус 36BC плюс BC в квад­ра­те , конец си­сте­мы . \\Rightarrow \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/13/13538fe52b5da4888eff84f0953a746d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\Rightarrow 36BC = 288 рав­но­силь­но BC=8.\"></span><span data-width=\"365\" data-formulahash=\"ba446a2354d49d4035a783cd7434add4\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/fa/fa9d94b883be3f9047cdfa421691893d.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний AB плюс BC=18, BC в квад­ра­те плюс 36=AB в квад­ра­те конец си­сте­мы . рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/5b/5bc463fdfdb8f0773fbb50dbca97f9ea.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" рав­но­силь­но си­сте­ма вы­ра­же­ний BC=18 минус AB, BC в квад­ра­те плюс 36=324 минус 36BC плюс BC в квад­ра­те , конец си­сте­мы . \\Rightarrow \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/13/13538fe52b5da4888eff84f0953a746d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\Rightarrow 36BC = 288 рав­но­силь­но BC=8.\"></span></p><p class=\"left_margin\"></p></center><p> Тогда пло­щадь тре­уголь­ни­ка <i>ABC</i> равна <img src=\"https://ege.sdamgia.ru/formula/svg/79/790a64bc6160df9ddd76037841cdf5a6.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S_ABC= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби BC умно­жить на AC=24.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б)  24.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/f6/f673224b7ac1d195377adf48f9a100ae.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50a45f1618713edcc13a879f9530d06c.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e169e567eb3fecd756ba0a71a20425ae.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fb3c6df378dc2da8baac3b3bdc92bb39.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/ccf3d8cc16b51c38b18f2e2a40bb437c.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5dc9bea13de619e4c9c58212fbaf9c83.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fc1794c49e5cf2ea8fb31d448811a6f2.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/15625d29c06cfab6cdad406c7ede28c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/ba446a2354d49d4035a783cd7434add4.svg",
+            "https://ege.sdamgia.ru/formula/svg/fa/fa82c5f516a3e5a903dbf11bda47f88c.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/13538fe52b5da4888eff84f0953a746d.svg",
+            "https://ege.sdamgia.ru/formula/svg/fa/fa9d94b883be3f9047cdfa421691893d.svg",
+            "https://ege.sdamgia.ru/formula/svg/5b/5bc463fdfdb8f0773fbb50dbca97f9ea.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/13538fe52b5da4888eff84f0953a746d.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/790a64bc6160df9ddd76037841cdf5a6.svg",
+            "/get_file?id=181303",
+            "/get_file?id=181304"
+        ]
+    },
+    "answer": "б)  24.",
+    "topic_id": 17,
+    "analog_ids": [
+        660765,
+        660915,
+        674439
+    ]
+}

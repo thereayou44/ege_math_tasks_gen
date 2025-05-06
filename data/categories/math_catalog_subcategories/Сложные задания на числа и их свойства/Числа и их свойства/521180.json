@@ -1,0 +1,28 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 521180,
+    "condition": {
+        "text": "Последовательные нечетные числа сгруппированы следующим образом: (1); (3;5); (7;9;11);(13;15;17;19)... а)  Найти сумму чисел в десятой группе; б)  Найти сумму чисел в сотой группе; в)  Определить среди первых ста групп количество групп, в которых сумма чисел делится на 3.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body630048\" class=\"pbody\"><p class=\"left_margin\">По­сле­до­ва­тель­ные не­чет­ные числа сгруп­пи­ро­ва­ны сле­ду­ю­щим об­ра­зом: (1); (3;5); (7;9;11);(13;15;17;19)... </p><p class=\"left_margin\">а)  Найти сумму чисел в де­ся­той груп­пе; </p><p class=\"left_margin\">б)  Найти сумму чисел в сотой груп­пе; </p><p class=\"left_margin\">в)  Опре­де­лить среди пер­вых ста групп ко­ли­че­ство групп, в ко­то­рых сумма чисел де­лит­ся на 3.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Поскольку в первых  группе используются чисел, то n-ая группа начинается с -ого нечетного числа, равного:Всего в этой группе n чисел, по формуле для суммы арифметической прогрессии сумма всех чисел группы равна: а)  Сумма в десятой группе б)  Сумма в сотой группе в)   кратно трем тогда и только тогда, когда n кратно трем. Таких чисел до сотни ровно  Ответ: а) 1000; б)1000000; в) 33.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol521180\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По­сколь­ку в пер­вых <img src=\"https://ege.sdamgia.ru/formula/svg/a4/a438673491daae8148eae77373b6a467.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"n минус 1\"> груп­пе ис­поль­зу­ют­ся </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/76/764c6a9a9607f03bf1d301db7addf52b.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"1 плюс 2 плюс \\ldots плюс левая круг­лая скоб­ка n минус 1 пра­вая круг­лая скоб­ка = дробь: чис­ли­тель: n левая круг­лая скоб­ка n минус 1 пра­вая круг­лая скоб­ка , зна­ме­на­тель: 2 конец дроби \"></p><p class=\"left_margin\"></p></center><p>чисел, то <i>n</i>-ая груп­па на­чи­на­ет­ся с <img src=\"https://ege.sdamgia.ru/formula/svg/34/34ca88e624ac8443f32187ec648ac42e.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: n левая круг­лая скоб­ка n минус 1 пра­вая круг­лая скоб­ка , зна­ме­на­тель: 2 конец дроби плюс 1 \">-ого не­чет­но­го числа, рав­но­го:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/a2/a280d698049936a515bdbb1c0dbce64a.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" левая круг­лая скоб­ка дробь: чис­ли­тель: n левая круг­лая скоб­ка n минус 1 пра­вая круг­лая скоб­ка , зна­ме­на­тель: 2 конец дроби плюс 1 пра­вая круг­лая скоб­ка минус 1=n в квад­ра­те минус n плюс 1. \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Всего в этой груп­пе <i>n</i> чисел, по фор­му­ле для суммы ариф­ме­ти­че­ской про­грес­сии сумма всех чисел груп­пы равна: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d2/d2a6153736f629c0c474eb4dd6689bd7.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: 2 левая круг­лая скоб­ка n в квад­ра­те минус n плюс 1 пра­вая круг­лая скоб­ка плюс 2 левая круг­лая скоб­ка n минус 1 пра­вая круг­лая скоб­ка , зна­ме­на­тель: 2 конец дроби умно­жить на n=n в кубе . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">а)  Сумма в де­ся­той груп­пе <img src=\"https://ege.sdamgia.ru/formula/svg/a5/a5b479367726794d75f2cb968c330098.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"10 в кубе =1000.\"></p><p class=\"left_margin\">б)  Сумма в сотой груп­пе <img src=\"https://ege.sdamgia.ru/formula/svg/e5/e59f18aa5d2ef4faf61290cfd686ef23.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"100 в кубе =1000000.\"></p><p class=\"left_margin\">в)  <img src=\"https://ege.sdamgia.ru/formula/svg/25/25ebb7d03839869698867bbbf0a9932a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"n в кубе \"> крат­но трем тогда и толь­ко тогда, когда <i>n</i> крат­но трем. Таких чисел до сотни ровно <img src=\"https://ege.sdamgia.ru/formula/svg/4e/4eb77bbfbb7dfadb2889cd985640f8b6.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"33.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) 1000; б)1000000; в) 33.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a4/a438673491daae8148eae77373b6a467.svg",
+            "https://ege.sdamgia.ru/formula/svg/76/764c6a9a9607f03bf1d301db7addf52b.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/34ca88e624ac8443f32187ec648ac42e.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a280d698049936a515bdbb1c0dbce64a.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d2a6153736f629c0c474eb4dd6689bd7.svg",
+            "https://ege.sdamgia.ru/formula/svg/a5/a5b479367726794d75f2cb968c330098.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e59f18aa5d2ef4faf61290cfd686ef23.svg",
+            "https://ege.sdamgia.ru/formula/svg/25/25ebb7d03839869698867bbbf0a9932a.svg",
+            "https://ege.sdamgia.ru/formula/svg/4e/4eb77bbfbb7dfadb2889cd985640f8b6.svg"
+        ]
+    },
+    "answer": "а) 1000; б)1000000; в) 33.",
+    "topic_id": null,
+    "analog_ids": []
+}

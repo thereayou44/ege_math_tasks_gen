@@ -1,0 +1,67 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 509197,
+    "condition": {
+        "text": "На рисунке изображены графики двух линейных функций. Найдите абсциссу точки пересечения графиков.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body633841\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=91989\" style=\"float:right;margin:10px;max-width:100%\">На ри­сун­ке изоб­ра­же­ны гра­фи­ки двух ли­ней­ных функ­ций. Най­ди­те абс­цис­су точки пе­ре­се­че­ния гра­фи­ков.</p></div>",
+        "image_urls": [
+            "/get_file?id=91989"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Заметим, что уравнение прямой имеет вид y  =  kx + b. Найдём уравнение прямой, отмеченной на рисунке оранжевым цветом. Заметим, что k  — тангенс угла наклона прямой, тогда  По графику, f(−2)  =  1, отсюда  Следовательно, уравнение прямой имеет вид Найдём уравнение прямой, отмеченной на рисунке синим цветом. Заметим, что k  — тангенс угла наклона прямой, тогда  По графику, f(3)  =  1, отсюда  Следовательно, уравнение прямой имеет вид Теперь найдём абсциссу точки пересечения функций:Ответ: −5.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol509197\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">За­ме­тим, что урав­не­ние пря­мой имеет вид <i>y</i>  =  <i>kx</i> + <i>b</i>. </p><p class=\"left_margin\">Найдём урав­не­ние пря­мой, от­ме­чен­ной на ри­сун­ке оран­же­вым цве­том. За­ме­тим, что <i>k</i>  — тан­генс угла на­кло­на пря­мой, <nobr>тогда <img src=\"https://ege.sdamgia.ru/formula/svg/46/46852b773c320f475d6fffbc609fb085.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"k= дробь: чис­ли­тель: 4, зна­ме­на­тель: 1 конец дроби =4. \"></nobr> По гра­фи­ку, <i>f</i>(−2)  =  1, от­сю­да <img src=\"https://ege.sdamgia.ru/formula/svg/2b/2b41cb2e8d1ef45c79474f1f2c5e98f0.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"4 умно­жить на левая круг­лая скоб­ка минус 2 пра­вая круг­лая скоб­ка плюс b=1 рав­но­силь­но b=9.\"> Сле­до­ва­тель­но, урав­не­ние пря­мой имеет вид <img src=\"https://ege.sdamgia.ru/formula/svg/dc/dccdfc2f75e7fa152c8ef1e5cd2faa6b.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=4x плюс 9.\"></p><p class=\"left_margin\">Найдём урав­не­ние пря­мой, от­ме­чен­ной на ри­сун­ке синим цве­том. За­ме­тим, что <i>k</i>  — тан­генс угла на­кло­на пря­мой, <nobr>тогда <img src=\"https://ege.sdamgia.ru/formula/svg/e8/e8ac11e3ebeda6d17ff8a235fc08922c.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"k= дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби =1,5. \"></nobr> По гра­фи­ку, <i>f</i>(3)  =  1, от­сю­да <img src=\"https://ege.sdamgia.ru/formula/svg/18/18742d6d790018fa8b713f83e34dc3b2.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1,5 умно­жить на 3 плюс b=1 рав­но­силь­но b= минус 3,5.\"> Сле­до­ва­тель­но, урав­не­ние пря­мой имеет вид <img src=\"https://ege.sdamgia.ru/formula/svg/85/857aab24561497857d54f2c2c9cea5fc.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=1,5x минус 3,5.\"></p><p class=\"left_margin\">Те­перь найдём абс­цис­су точки пе­ре­се­че­ния функ­ций:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/a8/a89a6cd177155e905cb3904e29f4d81c.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"4x плюс 9=1,5x минус 3,5 рав­но­силь­но 2,5x= минус 12,5 рав­но­силь­но x= минус 5.\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> −5.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/46/46852b773c320f475d6fffbc609fb085.svg",
+            "https://ege.sdamgia.ru/formula/svg/2b/2b41cb2e8d1ef45c79474f1f2c5e98f0.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dccdfc2f75e7fa152c8ef1e5cd2faa6b.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e8ac11e3ebeda6d17ff8a235fc08922c.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/18742d6d790018fa8b713f83e34dc3b2.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/857aab24561497857d54f2c2c9cea5fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a89a6cd177155e905cb3904e29f4d81c.svg"
+        ]
+    },
+    "answer": "-5",
+    "topic_id": 11,
+    "analog_ids": [
+        509197,
+        509199,
+        509200,
+        509202,
+        509199,
+        509200,
+        509202,
+        509203,
+        509204,
+        509205,
+        509208,
+        509209,
+        509210,
+        509211,
+        509212,
+        509229,
+        509230,
+        509231,
+        509232,
+        509233,
+        509234,
+        509235,
+        509236,
+        509237,
+        509238,
+        509239,
+        509240,
+        621771,
+        621901,
+        637815,
+        637844,
+        661288,
+        509198,
+        509201,
+        509206,
+        509207,
+        509217,
+        509218
+    ]
+}

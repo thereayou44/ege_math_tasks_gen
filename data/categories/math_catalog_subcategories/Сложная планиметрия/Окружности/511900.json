@@ -1,0 +1,23 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 511900,
+    "condition": {
+        "text": "Две окружности пересекаются в точках А и В. Через точку А проведены диаметры АС и АD этих окружностей.а)  Докажите, что точки D, В и С лежат на одной прямой.б)  Найдите произведение  АD ∙ АС, если известно, что АВ = 8, а диаметр окружности, описанной около треугольника АDС, равен 10.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body631136\" class=\"pbody\"><p class=\"left_margin\">Две&nbsp;окруж­но­сти&nbsp;пе­ре­се­ка­ют­ся&nbsp;в&nbsp;точ­ках&nbsp;<i>А</i>&nbsp;и&nbsp;<i>В</i>.&nbsp;Через&nbsp;точку&nbsp;<i>А</i>&nbsp;про­ве­де­ны&nbsp;диа­мет­ры&nbsp;<i>АС</i>&nbsp;и&nbsp;<i>АD</i>&nbsp;этих&nbsp;окруж­но­стей.</p><p class=\"left_margin\">а)  До­ка­жи­те,&nbsp;что&nbsp;точки&nbsp;<i>D</i>,&nbsp;<i>В</i>&nbsp;и&nbsp;<i>С</i>&nbsp;лежат&nbsp;на&nbsp;одной&nbsp;пря­мой.</p><p class=\"left_margin\">б)  Най­ди­те про­из­ве­де­ние&nbsp; <i>АD</i> ∙ <i>АС</i>, если из­вест­но,&nbsp;что <i>АВ</i> = 8, а диа­метр окруж­но­сти, опи­сан­ной&nbsp;около&nbsp;тре­уголь­ни­ка&nbsp;<i>АDС</i>,&nbsp;равен&nbsp;10.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Проведем отрезок AB. Заметим, что ∠ ABC = ∠ ABD  =  90° как вписанные углы, опирающиеся на диаметры соответствующих  окружностей. Но через точку B можно провести одну и только одну прямую, перпендикулярную прямой AB, что и свидетельствует о том, что  точки D, В и C лежат на одной прямой.б)  Это  — с одной стороны. Но с другой же стороны,  Отсюда:Ответ: б) 80.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol511900\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=20795\" style=\"float:right;margin:10px\">а)  Про­ве­дем от­ре­зок <i>AB</i>. За­ме­тим, что ∠ <i>ABC</i> = ∠ <i>ABD</i>  =  90° как впи­сан­ные углы, опи­ра­ю­щи­е­ся на диа­мет­ры со­от­вет­ству­ю­щих  окруж­но­стей. Но через точку <i>B</i> можно про­ве­сти одну и толь­ко одну пря­мую, пер­пен­ди­ку­ляр­ную пря­мой <i>AB</i>, что и сви­де­тель­ству­ет о том, что  точки <i>D,</i> <i>В</i> и <i>C</i> лежат на одной пря­мой.</p><p class=\"left_margin\">б)  <img src=\"https://ege.sdamgia.ru/formula/svg/ad/add88112a239d74d33f94bf8e8a9a029.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S левая круг­лая скоб­ка ACD пра­вая круг­лая скоб­ка = дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби CD умно­жить на AB= дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на 8 умно­жить на CD=4CD. \"></p><p class=\"left_margin\">Это  — с одной сто­ро­ны. </p><p class=\"left_margin\">Но с дру­гой же сто­ро­ны,  </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ee/ee82a75c63a0af1a3b68d70830f544cb.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S левая круг­лая скоб­ка ACD пра­вая круг­лая скоб­ка = дробь: чис­ли­тель: AD умно­жить на AC умно­жить на CD, зна­ме­на­тель: 4R конец дроби = дробь: чис­ли­тель: AD умно­жить на AC умно­жить на CD, зна­ме­на­тель: 4 умно­жить на 5 конец дроби . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">От­сю­да:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/c3/c3ef7e89f0778afcb525dd3d42260431.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: AD умно­жить на AC умно­жить на CD, зна­ме­на­тель: 20 конец дроби =4CD рав­но­силь­но AD умно­жить на AC=80. \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Ответ: б) 80.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ad/add88112a239d74d33f94bf8e8a9a029.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/ee82a75c63a0af1a3b68d70830f544cb.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c3ef7e89f0778afcb525dd3d42260431.svg",
+            "/get_file?id=20795"
+        ]
+    },
+    "answer": "б) 80.",
+    "topic_id": null,
+    "analog_ids": []
+}

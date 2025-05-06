@@ -1,0 +1,31 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 639335,
+    "condition": {
+        "text": "Решите неравенство: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body503707\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство: <img src=\"https://ege.sdamgia.ru/formula/svg/5f/5f86e7c04381ef110a1b69485b948acb.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\" ло­га­рифм по ос­но­ва­нию x дробь: чис­ли­тель: 2 x плюс \\dfrac2, зна­ме­на­тель: 5 конец дроби 5 левая круг­лая скоб­ка 1 минус x пра­вая круг­лая скоб­ка боль­ше 0. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/5f/5f86e7c04381ef110a1b69485b948acb.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Рассмотрим два случая. При  получаем: С учётом условия (⁎) получаем При  исходное неравенство равносильно неравенству  левая часть которого отрицательна. Значит, в этом случае решений нет. Ответ:   Приведем другое решение.Областью определения неравенства является полуинтервал (0; 1). На этом множестве основание логарифма меньше единицы, а значит, неравенство равносильно неравенству  Знаменатель дроби, стоящей в левой части неравенства, положителен, поэтому на него можно умножить, не меняя знака неравенства. Таким образом,  откуда находим, что  Учитывая область определения, окончательно получаем: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol639335\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Рас­смот­рим два слу­чая. При <img src=\"https://ege.sdamgia.ru/formula/svg/af/af443dea3ca32ddd75833ce958c76643.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"0 мень­ше x мень­ше 1 левая круг­лая скоб­ка * пра­вая круг­лая скоб­ка \"> по­лу­ча­ем:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/4b/4b7d94261af4127e6ff6ba2ad3a6809d.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\"0 мень­ше дробь: чис­ли­тель: 2 x плюс \\dfrac25, зна­ме­на­тель: 5 левая круг­лая скоб­ка 1 минус x пра­вая круг­лая скоб­ка конец дроби мень­ше 1 \\underset0 мень­ше x мень­ше 1\\mathop рав­но­силь­но 0 мень­ше 2 x плюс дробь: чис­ли­тель: 2, зна­ме­на­тель: 5 конец дроби мень­ше 5 минус 5x рав­но­силь­но минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 5 конец дроби мень­ше x мень­ше дробь: чис­ли­тель: 23, зна­ме­на­тель: 35 конец дроби . \"></p><p class=\"left_margin\"></p></center><p> С учётом усло­вия (⁎) по­лу­ча­ем <img src=\"https://ege.sdamgia.ru/formula/svg/19/192972ee82352d2e08efc1153b536a1d.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"0 мень­ше x мень­ше дробь: чис­ли­тель: 23, зна­ме­на­тель: 35 конец дроби . \"></p><p class=\"left_margin\">При <img src=\"https://ege.sdamgia.ru/formula/svg/3d/3d3e00e0b84ad6b64a3461fe9092698a.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x боль­ше 1\"> ис­ход­ное не­ра­вен­ство рав­но­силь­но не­ра­вен­ству <img src=\"https://ege.sdamgia.ru/formula/svg/5f/5f19152fbe5e8658b7cfd667843cb5c2.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\" дробь: чис­ли­тель: 2 x плюс \\dfrac25, зна­ме­на­тель: 5 левая круг­лая скоб­ка 1 минус x пра­вая круг­лая скоб­ка конец дроби боль­ше 1, \"> левая часть ко­то­ро­го от­ри­ца­тель­на. Зна­чит, в этом слу­чае ре­ше­ний нет.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  <img src=\"https://ege.sdamgia.ru/formula/svg/78/780fd1dd3ec307ac9814d3453db9fe01.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая круг­лая скоб­ка 0; дробь: чис­ли­тель: 23, зна­ме­на­тель: 35 конец дроби пра­вая круг­лая скоб­ка . \"></p><p>&nbsp;</p><p><b>При­ве­дем дру­гое ре­ше­ние.</b></p><p class=\"left_margin\">Об­ла­стью опре­де­ле­ния не­ра­вен­ства яв­ля­ет­ся по­лу­ин­тер­вал (0; 1). На этом мно­же­стве ос­но­ва­ние ло­га­риф­ма мень­ше еди­ни­цы, а зна­чит, не­ра­вен­ство рав­но­силь­но не­ра­вен­ству <img src=\"https://ege.sdamgia.ru/formula/svg/db/dbb146b0864befbdd3b7212b839533ea.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\" дробь: чис­ли­тель: 2 x плюс \\dfrac25, зна­ме­на­тель: 5 левая круг­лая скоб­ка 1 минус x пра­вая круг­лая скоб­ка конец дроби мень­ше 1. \"> Зна­ме­на­тель дроби, сто­я­щей в левой части не­ра­вен­ства, по­ло­жи­те­лен, по­это­му на него можно умно­жить, не меняя знака не­ра­вен­ства. Таким об­ра­зом, <img src=\"https://ege.sdamgia.ru/formula/svg/e2/e24e39ad0a638daf827b1a25f84106cb.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"2 x плюс дробь: чис­ли­тель: 2, зна­ме­на­тель: 5 конец дроби мень­ше 5 минус 5x,\"> от­ку­да на­хо­дим, что <img src=\"https://ege.sdamgia.ru/formula/svg/41/411512aa0c92d6c1700a0fe659fbdef5.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"x мень­ше дробь: чис­ли­тель: 23, зна­ме­на­тель: 35 конец дроби . \"> Учи­ты­вая об­ласть опре­де­ле­ния, окон­ча­тель­но по­лу­ча­ем: <img src=\"https://ege.sdamgia.ru/formula/svg/19/192972ee82352d2e08efc1153b536a1d.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"0 мень­ше x мень­ше дробь: чис­ли­тель: 23, зна­ме­на­тель: 35 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/af/af443dea3ca32ddd75833ce958c76643.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4b7d94261af4127e6ff6ba2ad3a6809d.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/192972ee82352d2e08efc1153b536a1d.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3d3e00e0b84ad6b64a3461fe9092698a.svg",
+            "https://ege.sdamgia.ru/formula/svg/5f/5f19152fbe5e8658b7cfd667843cb5c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/78/780fd1dd3ec307ac9814d3453db9fe01.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/dbb146b0864befbdd3b7212b839533ea.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e24e39ad0a638daf827b1a25f84106cb.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/411512aa0c92d6c1700a0fe659fbdef5.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/192972ee82352d2e08efc1153b536a1d.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": []
+}

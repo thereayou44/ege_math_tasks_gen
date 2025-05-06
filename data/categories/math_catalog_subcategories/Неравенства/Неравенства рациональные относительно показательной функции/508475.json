@@ -1,0 +1,32 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 508475,
+    "condition": {
+        "text": "Решите неравенство: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body634055\" class=\"pbody\"><p class=\"left_margin\">Ре­ши­те не­ра­вен­ство: <img src=\"https://ege.sdamgia.ru/formula/svg/e4/e44f78b59fe176aec6cd11db9b2901c1.svg\" class=\"tex\" style=\"vertical-align:-9.4pt\" alt=\" дробь: чис­ли­тель: 9 в сте­пе­ни x минус 3 в сте­пе­ни x минус 90, зна­ме­на­тель: 3 в сте­пе­ни x минус 82 конец дроби мень­ше или равно 1. \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/e4/e44f78b59fe176aec6cd11db9b2901c1.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Пусть Учитывая, что  получаем:  откуда находим решение неравенства:  Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol508475\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/cb/cbadf1958c9b4849a82587c347c431f8.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=3 в сте­пе­ни x :\"></p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"acf40de0bd3633f5b00c625f2d200a67\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/ac/acf40de0bd3633f5b00c625f2d200a67.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" дробь: чис­ли­тель: y в квад­ра­те минус y минус 90, зна­ме­на­тель: y минус 82 конец дроби мень­ше или равно 1 рав­но­силь­но дробь: чис­ли­тель: y в квад­ра­те минус 2y минус 8, зна­ме­на­тель: y минус 82 конец дроби мень­ше или равно 0 рав­но­силь­но дробь: чис­ли­тель: левая круг­лая скоб­ка y минус 4 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка y плюс 2 пра­вая круг­лая скоб­ка , зна­ме­на­тель: y минус 82 конец дроби мень­ше или равно 0 рав­но­силь­но левая квад­рат­ная скоб­ка \\beginmatrix y мень­ше или равно минус 2, 4 мень­ше или равно y мень­ше 82. \\endmatrix .\"></span><span data-width=\"490\" data-formulahash=\"acf40de0bd3633f5b00c625f2d200a67\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/65/65323400b10c5072d319f3a50d4b2f2b.svg\" class=\"tex\" style=\"vertical-align:-10.5pt\" alt=\" дробь: чис­ли­тель: y в квад­ра­те минус y минус 90, зна­ме­на­тель: y минус 82 конец дроби мень­ше или равно 1 рав­но­силь­но дробь: чис­ли­тель: y в квад­ра­те минус 2y минус 8, зна­ме­на­тель: y минус 82 конец дроби мень­ше или равно 0 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/f5/f52766573972fa298f6778754655eeb4.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\" рав­но­силь­но дробь: чис­ли­тель: левая круг­лая скоб­ка y минус 4 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка y плюс 2 пра­вая круг­лая скоб­ка , зна­ме­на­тель: y минус 82 конец дроби мень­ше или равно 0 рав­но­силь­но левая квад­рат­ная скоб­ка \\beginmatrix y мень­ше или равно минус 2, 4 мень­ше или равно y мень­ше 82. \\endmatrix .\"></span></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Учи­ты­вая, что <img src=\"https://ege.sdamgia.ru/formula/svg/ce/cedd4bde667b4ffd651a148471e439c5.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"3 в сте­пе­ни левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка боль­ше 0,\"> по­лу­ча­ем: <img src=\"https://ege.sdamgia.ru/formula/svg/c1/c1bf3c96bdd5dc80c86c3dc4926e0b05.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"4 мень­ше или равно 3 в сте­пе­ни x мень­ше 82,\"> от­ку­да на­хо­дим ре­ше­ние не­ра­вен­ства: <img src=\"https://ege.sdamgia.ru/formula/svg/bf/bfe4b49c21999cf335169958f7221c8f.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\" ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 3 пра­вая круг­лая скоб­ка 4 мень­ше или равно x мень­ше ло­га­рифм по ос­но­ва­нию левая круг­лая скоб­ка 3 пра­вая круг­лая скоб­ка 82.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/cd/cde988f8e823c94086c4eb1dd9c48862.svg\" class=\"tex\" style=\"vertical-align:-3.7pt\" alt=\" левая квад­рат­ная скоб­ка ло­га­рифм по ос­но­ва­нию 3 4; ло­га­рифм по ос­но­ва­нию 3 82 пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/cb/cbadf1958c9b4849a82587c347c431f8.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/acf40de0bd3633f5b00c625f2d200a67.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/65323400b10c5072d319f3a50d4b2f2b.svg",
+            "https://ege.sdamgia.ru/formula/svg/f5/f52766573972fa298f6778754655eeb4.svg",
+            "https://ege.sdamgia.ru/formula/svg/ce/cedd4bde667b4ffd651a148471e439c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/c1/c1bf3c96bdd5dc80c86c3dc4926e0b05.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bfe4b49c21999cf335169958f7221c8f.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cde988f8e823c94086c4eb1dd9c48862.svg"
+        ]
+    },
+    "answer": "",
+    "topic_id": 15,
+    "analog_ids": [
+        508475,
+        508571
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 99576,
+    "condition": {
+        "text": "Имеется два сплава. Первый сплав содержит 10% меди, второй  — 40% меди. Масса второго сплава больше массы первого на 3 кг. Из этих двух сплавов получили третий сплав, содержащий 30% меди. Найдите массу третьего сплава. Ответ дайте в килограммах.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body1042948\" class=\"pbody\"><p class=\"left_margin\">Име­ет­ся два спла­ва. Пер­вый сплав со­дер­жит 10% меди, вто­рой  — 40% меди. Масса вто­ро­го спла­ва боль­ше массы пер­во­го на 3 кг. Из этих двух спла­вов по­лу­чи­ли тре­тий сплав, со­дер­жа­щий 30% меди. Най­ди­те массу тре­тье­го спла­ва. Ответ дайте в ки­ло­грам­мах.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Пусть масса первого сплава m кг, а масса второго −  кг, масса третьего сплава −  кг. Первый сплав содержит 10% меди, второй − 40% меди, третий сплав − 30% меди. Тогда:Таким образом, масса первого сплава равна 3 кг, тогда масса третьего сплава равна 9 кг. Ответ: 9.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol99576\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть масса пер­во­го спла­ва <i>m</i> кг, а масса вто­ро­го − <img src=\"https://ege.sdamgia.ru/formula/svg/62/62741f9c70fe45739614a3dd1afa1ccc.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"m плюс 3\"> кг, масса тре­тье­го спла­ва − <img src=\"https://ege.sdamgia.ru/formula/svg/4e/4e9f8206ef0280dd38e89f642a19abff.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2m плюс 3\"> кг. Пер­вый сплав со­дер­жит 10% меди, вто­рой − 40% меди, тре­тий сплав − 30% меди. Тогда:</p><p class=\"left_margin\"></p><p align=\"center\"></p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"bbde1e78817548675d6408204bbefcb6\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/bb/bbde1e78817548675d6408204bbefcb6.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"0,1m плюс 0,4 левая круг­лая скоб­ка m плюс 3 пра­вая круг­лая скоб­ка =0,3 левая круг­лая скоб­ка 2m плюс 3 пра­вая круг­лая скоб­ка рав­но­силь­но 0,5m плюс 1,2=0,6m плюс 0,9 рав­но­силь­но m=3 рав­но­силь­но 2m плюс 3=9.\"></span><span data-width=\"565\" data-formulahash=\"bbde1e78817548675d6408204bbefcb6\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/74/74db8fa9a5118b0e36725d5f1fef3fb5.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"0,1m плюс 0,4 левая круг­лая скоб­ка m плюс 3 пра­вая круг­лая скоб­ка =0,3 левая круг­лая скоб­ка 2m плюс 3 пра­вая круг­лая скоб­ка рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/d4/d4198485a17eea316187c2c58e03e7a4.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" рав­но­силь­но 0,5m плюс 1,2=0,6m плюс 0,9 рав­но­силь­но m=3 рав­но­силь­но 2m плюс 3=9.\"></span><span data-width=\"340\" data-formulahash=\"bbde1e78817548675d6408204bbefcb6\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/74/74db8fa9a5118b0e36725d5f1fef3fb5.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"0,1m плюс 0,4 левая круг­лая скоб­ка m плюс 3 пра­вая круг­лая скоб­ка =0,3 левая круг­лая скоб­ка 2m плюс 3 пра­вая круг­лая скоб­ка рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/d4/d4e96a45a02682e4b0ad59c6211e6306.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" рав­но­силь­но 0,5m плюс 1,2=0,6m плюс 0,9 рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/21/2118694f9093cfcae4c4e518564bf274.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" рав­но­силь­но m=3 рав­но­силь­но 2m плюс 3=9.\"></span></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Таким об­ра­зом, масса пер­во­го спла­ва равна 3 кг, тогда масса тре­тье­го спла­ва равна 9 кг.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 9.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/62/62741f9c70fe45739614a3dd1afa1ccc.svg",
+            "https://ege.sdamgia.ru/formula/svg/4e/4e9f8206ef0280dd38e89f642a19abff.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bbde1e78817548675d6408204bbefcb6.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/74db8fa9a5118b0e36725d5f1fef3fb5.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d4198485a17eea316187c2c58e03e7a4.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/74db8fa9a5118b0e36725d5f1fef3fb5.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d4e96a45a02682e4b0ad59c6211e6306.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/2118694f9093cfcae4c4e518564bf274.svg"
+        ]
+    },
+    "answer": "9",
+    "topic_id": 10,
+    "analog_ids": [
+        99576,
+        109205,
+        109209,
+        514463,
+        109205,
+        109209,
+        514463,
+        525136,
+        541376,
+        541820,
+        627984,
+        109159,
+        109161,
+        109163,
+        109165,
+        109167,
+        109169,
+        109171,
+        109173,
+        109175,
+        109177,
+        109179,
+        109181,
+        109183,
+        109185,
+        109187,
+        109189,
+        109191,
+        109193,
+        109195,
+        109197,
+        109199,
+        109201,
+        109203,
+        109207
+    ]
+}

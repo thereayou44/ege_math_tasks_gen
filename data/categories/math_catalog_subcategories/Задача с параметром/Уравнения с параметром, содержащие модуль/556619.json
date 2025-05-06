@@ -1,0 +1,37 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 556619,
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых уравнениеимеет семь или восемь решений.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body397495\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те все зна­че­ния <i>a</i>, при каж­дом из ко­то­рых урав­не­ние</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ac/ac7a53fdb46f49761abf5de01ee7d6cf.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка x в квад­ра­те минус 4x пра­вая круг­лая скоб­ка в квад­ра­те плюс a|4x минус x в квад­ра­те | минус 2a минус 4=0\"></p><p class=\"left_margin\"></p></center><p>имеет семь или во­семь ре­ше­ний.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/ac/ac7a53fdb46f49761abf5de01ee7d6cf.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. Сделаем замену  Рассмотрим уравнение  Построим эскиз графика  Функция  обладает свойством:  при всех x, причём Следовательно, если уравнение  имеет два таких решения, что одно равно 4, а второе принадлежит интервалу (0; 4), то исходное уравнение имеет ровно семь решений. Если же оба корня исследуемого уравнения принадлежат интервалу (0; 4), то исходное уравнение имеет ровно восемь решений.Заметим, что это уравнение имеет два решения:   при любом значении а. При  эти решения совпадают. Отсюда следует, что условие задачи выполнено тогда и только тогда, когда Ответ: ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol556619\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=151757\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">Сде­ла­ем за­ме­ну <img src=\"https://ege.sdamgia.ru/formula/svg/1f/1fbfa36fa1c51f1d94dff28ad0b23ddd.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"z=|x в квад­ра­те минус 4x|\\geqslant0.\"> Рас­смот­рим урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/ea/ea35f68bb27157f98e7eb363406a5cf2.svg\" class=\"tex\" style=\"vertical-align:-1.9pt\" alt=\"z в квад­ра­те плюс az минус 2a минус 4=0.\"> По­стро­им эскиз гра­фи­ка <img src=\"https://ege.sdamgia.ru/formula/svg/04/043e02e1675527ff3fdf9e1be771194d.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"z=|x в квад­ра­те минус 4x|.\"> Функ­ция <img src=\"https://ege.sdamgia.ru/formula/svg/65/653efc0154ae30954eeb2578b52c78f4.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"z=|x в квад­ра­те минус 4x|\"> об­ла­да­ет свой­ством: <img src=\"https://ege.sdamgia.ru/formula/svg/32/329c1ac811b1194fffb61684e65d0f4d.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"z левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =z левая круг­лая скоб­ка 4 минус x пра­вая круг­лая скоб­ка \"> при всех <i>x</i>, причём <img src=\"https://ege.sdamgia.ru/formula/svg/f5/f5c9be570d64b8258ee5c2196556bb91.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"z левая круг­лая скоб­ка 2 пра­вая круг­лая скоб­ка =4.\"></p><p class=\"left_margin\">Сле­до­ва­тель­но, если урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/04/04a929efa5b8eefb6f4d1d0e7c540637.svg\" class=\"tex\" style=\"vertical-align:-1.9pt\" alt=\"z в квад­ра­те плюс az минус 2a минус 4=0\"> имеет два таких ре­ше­ния, что одно равно 4, а вто­рое при­над­ле­жит ин­тер­ва­лу (0; 4), то ис­ход­ное урав­не­ние имеет ровно семь ре­ше­ний. Если же оба корня ис­сле­ду­е­мо­го урав­не­ния при­над­ле­жат ин­тер­ва­лу (0; 4), то ис­ход­ное урав­не­ние имеет ровно во­семь ре­ше­ний.</p><p class=\"left_margin\">За­ме­тим, что это урав­не­ние имеет два ре­ше­ния: <img src=\"https://ege.sdamgia.ru/formula/svg/ee/ee17c21f7a2d283960ca618b7631f957.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"z=2,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/c2/c245a3f50ece6d7d39e58a90fc394232.svg\" class=\"tex\" style=\"vertical-align:-1.9pt\" alt=\"z= минус 2 минус a\"> при любом зна­че­нии <i>а</i>. При <img src=\"https://ege.sdamgia.ru/formula/svg/ec/ec4813201d54837a97eb255b9c70ea6c.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a= минус 4\"> эти ре­ше­ния сов­па­да­ют. От­сю­да сле­ду­ет, что усло­вие за­да­чи вы­пол­не­но тогда и толь­ко тогда, когда </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ae/ae9d68449df62392feac924061731088.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний 0 мень­ше минус 2 минус a\\leqslant4,a не равно минус 4 конец си­сте­мы . рав­но­силь­но со­во­куп­ность вы­ра­же­ний минус 6 мень­ше или равно a мень­ше минус 4, минус 4 мень­ше a мень­ше минус 2. конец со­во­куп­но­сти . \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> <img src=\"https://ege.sdamgia.ru/formula/svg/50/506291d6d8a8ff8c7972e907c0b2c53e.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"a при­над­ле­жит левая квад­рат­ная скоб­ка минус 6; минус 4 пра­вая круг­лая скоб­ка \\cup левая круг­лая скоб­ка минус 4; минус 2 пра­вая круг­лая скоб­ка .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/1f/1fbfa36fa1c51f1d94dff28ad0b23ddd.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/ea35f68bb27157f98e7eb363406a5cf2.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/043e02e1675527ff3fdf9e1be771194d.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/653efc0154ae30954eeb2578b52c78f4.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/329c1ac811b1194fffb61684e65d0f4d.svg",
+            "https://ege.sdamgia.ru/formula/svg/f5/f5c9be570d64b8258ee5c2196556bb91.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/04a929efa5b8eefb6f4d1d0e7c540637.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/ee17c21f7a2d283960ca618b7631f957.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c245a3f50ece6d7d39e58a90fc394232.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ec4813201d54837a97eb255b9c70ea6c.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/ae9d68449df62392feac924061731088.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/506291d6d8a8ff8c7972e907c0b2c53e.svg",
+            "/get_file?id=151757"
+        ]
+    },
+    "answer": "",
+    "topic_id": 18,
+    "analog_ids": [
+        556619,
+        556626
+    ]
+}

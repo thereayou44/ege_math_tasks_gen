@@ -1,0 +1,29 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 622100,
+    "condition": {
+        "text": "Площадь  треугольника  ABC равна  10,  площадь  треугольника  AHB,  где  H  — точка пересечения высот, равна 8. На прямой CH взята такая точка K, что треугольник ABK  — прямоугольный.а)  Доказать, что б)  Найти площадь треугольника ABK.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body463080\" class=\"pbody\"><p class=\"left_margin\">Пло­щадь  тре­уголь­ни­ка  <i>ABC</i> равна  10,  пло­щадь  тре­уголь­ни­ка  <i>AHB</i>,  где  <i>H</i>  — точка пе­ре­се­че­ния высот, равна 8. На пря­мой <i>CH</i> взята такая точка <i>K</i>, что тре­уголь­ник <i>ABK</i>  — пря­мо­уголь­ный.</p><p class=\"left_margin\">а)  До­ка­зать, что <img src=\"https://ege.sdamgia.ru/formula/svg/0e/0e4ccc64e51de6099870eea3b979200a.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"S в квад­ра­те _ABK=S_ABC умно­жить на S_AHB.\"></p><p class=\"left_margin\">б)  Найти пло­щадь тре­уголь­ни­ка <i>ABK</i>.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/0e/0e4ccc64e51de6099870eea3b979200a.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Обозначим основание высоты, проведенной из точки С за F. Заметим теперь, что треугольники AFH и BFC подобны. Действительно, углы BCF и AHF равны  поэтому треугольники AFH и BFC подобны по двум углам. Из подобия следует равенство:  Теперь из прямоугольного треугольника AKB получаем:  Отсюда  а, значит,  Что и требовалось доказать.б)  Из п. а) следует, что  Ответ: б) ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol622100\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=147946\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Обо­зна­чим ос­но­ва­ние вы­со­ты, про­ве­ден­ной из точки <i>С</i> за <i>F</i>. За­ме­тим те­перь, что тре­уголь­ни­ки <i>AFH</i> и <i>BFC</i> по­доб­ны. Дей­стви­тель­но, углы <i>BCF</i> и <i>AHF</i> равны <img src=\"https://ege.sdamgia.ru/formula/svg/c6/c63d5d11b840f611d6f22f5e396a2883.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"90 в сте­пе­ни левая круг­лая скоб­ка \\circ пра­вая круг­лая скоб­ка минус \\angle B,\"> по­это­му тре­уголь­ни­ки <i>AFH</i> и <i>BFC</i> по­доб­ны по двум углам. Из по­до­бия сле­ду­ет ра­вен­ство: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/87/87b9a9a9af6e060b24762890ebbc1ec7.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AF:FH=CF:FB рав­но­силь­но AF умно­жить на FB=FH умно­жить на CF.\"></p><p class=\"left_margin\"></p></center><p> Те­перь из пря­мо­уголь­но­го тре­уголь­ни­ка <i>AKB</i> по­лу­ча­ем: <img src=\"https://ege.sdamgia.ru/formula/svg/3c/3ce605d3c259cb40f719f010c99fce58.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"KF в квад­ра­те =AF умно­жить на FB.\"> От­сю­да </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/2f/2ff704e1311379d4cc138c36c2ff1e7e.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"KF в квад­ра­те =CF умно­жить на HF рав­но­силь­но левая круг­лая скоб­ка дробь: чис­ли­тель: KF умно­жить на AB, зна­ме­на­тель: 2 конец дроби пра­вая круг­лая скоб­ка в квад­ра­те = левая круг­лая скоб­ка дробь: чис­ли­тель: CF умно­жить на AB, зна­ме­на­тель: 2 конец дроби пра­вая круг­лая скоб­ка умно­жить на левая круг­лая скоб­ка дробь: чис­ли­тель: HF умно­жить на AB, зна­ме­на­тель: 2 конец дроби пра­вая круг­лая скоб­ка , \"></p><p class=\"left_margin\"></p></center><p> а, зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/5b/5b3d4892ba1a6337a69543f8191e45a5.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка S_AKB пра­вая круг­лая скоб­ка в квад­ра­те =S_ACB умно­жить на S_AHB.\"> Что и тре­бо­ва­лось до­ка­зать.</p><p class=\"left_margin\">б)  Из п. а) сле­ду­ет, что <img src=\"https://ege.sdamgia.ru/formula/svg/37/3771360ec92843ad609b572110e1819e.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"S_ABK= ко­рень из: на­ча­ло ар­гу­мен­та: 8 умно­жить на 10 конец ар­гу­мен­та =4 ко­рень из: на­ча­ло ар­гу­мен­та: 5 конец ар­гу­мен­та .\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> б) <img src=\"https://ege.sdamgia.ru/formula/svg/d2/d2cd6303ac029199b8b7f3b0feea4472.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"4 ко­рень из: на­ча­ло ар­гу­мен­та: 5 конец ар­гу­мен­та .\"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/c6/c63d5d11b840f611d6f22f5e396a2883.svg",
+            "https://ege.sdamgia.ru/formula/svg/87/87b9a9a9af6e060b24762890ebbc1ec7.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3ce605d3c259cb40f719f010c99fce58.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2ff704e1311379d4cc138c36c2ff1e7e.svg",
+            "https://ege.sdamgia.ru/formula/svg/5b/5b3d4892ba1a6337a69543f8191e45a5.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/3771360ec92843ad609b572110e1819e.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d2cd6303ac029199b8b7f3b0feea4472.svg",
+            "/get_file?id=147946"
+        ]
+    },
+    "answer": "б)",
+    "topic_id": 17,
+    "analog_ids": []
+}

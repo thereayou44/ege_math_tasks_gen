@@ -1,0 +1,24 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 528872,
+    "condition": {
+        "text": "В остроугольном треугольнике ABC проведены высоты AD и CE, пересекающиеся в точке P. Известно, что АС  =  26, DE  =  10. а)  Найдите отношение радиусов окружностей, вписанных в треугольники DEP и ACP.б)  Найдите расстояние между серединами отрезков АС и DE.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body425748\" class=\"pbody\"><p class=\"left_margin\">В ост­ро­уголь­ном тре­уголь­ни­ке <i>ABC</i> про­ве­де­ны вы­со­ты <i>AD</i> и <i>CE</i>, пе­ре­се­ка­ю­щи­е­ся в точке <i>P</i>. Из­вест­но, что <i>АС</i>  =  26, <i>DE</i>  =  10. </p><p class=\"left_margin\">а)  Най­ди­те от­но­ше­ние ра­ди­у­сов окруж­но­стей, впи­сан­ных в тре­уголь­ни­ки <i>DEP</i> и <i>ACP</i>.</p><p class=\"left_margin\">б)  Най­ди­те рас­сто­я­ние между се­ре­ди­на­ми от­рез­ков <i>АС</i> и <i>DE</i>.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. а)  Рассмотрим окружность, построенную на AC как на диаметре.  Углы AEC и ADC равны 90°, следовательно, E и D лежат на этой окружности. Углы EDA и ECA равны как вписанные, значит, треугольники EDP и APC подобным по двум углам. Коэффициент подобия равен  значит, и отношение радиусов равно 5 : 13.б)  Пусть M  — середина ED, N  — середина AC, AC  — диаметр окружности, проходящей через E и D. Тогдаследовательно, треугольнике NED  — равнобедренный, NM  — медиана и высота. Тогдаоткуда  Ответ: а) 5 : 13, б) 12.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol528872\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=44266\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Рас­смот­рим окруж­ность, по­стро­ен­ную на <i>AC</i> как на диа­мет­ре.  Углы <i>AEC</i> и <i>ADC</i> равны 90°, сле­до­ва­тель­но, <i>E</i> и <i>D</i> лежат на этой окруж­но­сти. Углы <i>EDA</i> и <i>ECA</i> равны как впи­сан­ные, зна­чит, тре­уголь­ни­ки <i>EDP</i> и <i>APC</i> по­доб­ным по двум углам. Ко­эф­фи­ци­ент по­до­бия равен <img src=\"https://ege.sdamgia.ru/formula/svg/2e/2e3a31458e1066dada78c17399f0573e.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: ED, зна­ме­на­тель: AC конец дроби = дробь: чис­ли­тель: 5, зна­ме­на­тель: 13 конец дроби , \"> зна­чит, и от­но­ше­ние ра­ди­у­сов равно 5 : 13.</p><p class=\"left_margin\">б)  Пусть <i>M</i>  — се­ре­ди­на <i>ED</i>, <i>N</i>  — се­ре­ди­на <i>AC</i>, <i>AC</i>  — диа­метр окруж­но­сти, про­хо­дя­щей через <i>E</i> и <i>D</i>. Тогда</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/8e/8e63c7687d8cbe594f0c5aaa8e2838d8.svg\" class=\"tex\" style=\"vertical-align:-8.3pt\" alt=\"NE=ND= дробь: чис­ли­тель: AC, зна­ме­на­тель: 2 конец дроби =13, \"></p><p class=\"left_margin\"></p></center><p>сле­до­ва­тель­но, тре­уголь­ни­ке <i>NED</i>  — рав­но­бед­рен­ный, <i>NM</i>  — ме­ди­а­на и вы­со­та. </p><p class=\"left_margin\">Тогда</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/76/7634593be603e0227bb3555eac024ebf.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"MN в квад­ра­те ={13 в квад­ра­те минус 5 в квад­ра­те =12 в квад­ра­те ,\"></p><p class=\"left_margin\"></p></center><p>от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/be/be27773c97dbcafdad127d70fda87a01.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"MN=12.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> а) 5 : 13, б) 12.</p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/2e/2e3a31458e1066dada78c17399f0573e.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8e63c7687d8cbe594f0c5aaa8e2838d8.svg",
+            "https://ege.sdamgia.ru/formula/svg/76/7634593be603e0227bb3555eac024ebf.svg",
+            "https://ege.sdamgia.ru/formula/svg/be/be27773c97dbcafdad127d70fda87a01.svg",
+            "/get_file?id=44266"
+        ]
+    },
+    "answer": "а) 5 : 13, б) 12.",
+    "topic_id": null,
+    "analog_ids": []
+}

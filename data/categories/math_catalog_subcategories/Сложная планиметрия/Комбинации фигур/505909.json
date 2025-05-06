@@ -1,0 +1,33 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 505909,
+    "condition": {
+        "text": "Трапеция ABCD с основаниями AD = 6 и BC = 4 и диагональю BD = 7 вписана в окружность. На окружности взята точка К, отличная от точки D так, что BK = 7. Найдите длину отрезка АК.",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body644809\" class=\"pbody\"><p class=\"left_margin\">Тра­пе­ция <i>ABCD</i> с ос­но­ва­ни­я­ми <i>AD</i> = 6 и <i>BC</i> = 4 и диа­го­на­лью <i>BD</i> = 7 впи­са­на в окруж­ность. На окруж­но­сти взята точка <i>К</i>, от­лич­ная от точки <i>D</i> так, что <i>BK</i> = 7. Най­ди­те длину от­рез­ка <i>АК</i>.</p></div>",
+        "image_urls": []
+    },
+    "solution": {
+        "text": "Решение. Поскольку трапеция вписана в окружность, она равнобедренная.Отметим на дуге AD точку  так, чтобы  Тогда треугольники  и DCB равны по двум сторонам  и углу между ними. Равенство углов следует из равенства дуг   стягиваемых равными хордами. Тогда равны дуги  и  а значит, равны и опирающиеся на них вписанные углы.Значит,  При этом точка  не совпадает с точкой D, поскольку  Значит, точка  совпадает с точкой K (поскольку из точки B в окружности можно провести не более двух хорд данной длины). Тогда  Ответ:  4. ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol505909\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=26263\" style=\"float:right;margin:10px\"></p><p class=\"left_margin\">По­сколь­ку тра­пе­ция впи­са­на в окруж­ность, она рав­но­бед­рен­ная.</p><p class=\"left_margin\">От­ме­тим на дуге <i>AD</i> точку <img src=\"https://ege.sdamgia.ru/formula/svg/cb/cbb11f85182f81ceb8063f6c3e876fe3.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"K_1\"> так, чтобы <img src=\"https://ege.sdamgia.ru/formula/svg/64/64030943989019d91a64cd7810117068.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AK_1=4.\"> Тогда тре­уголь­ни­ки <img src=\"https://ege.sdamgia.ru/formula/svg/fb/fb93fec8cf0111106ee53dab8f5c537a.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"BAK_1\"> и <i>DCB</i> равны по двум сто­ро­нам <img src=\"https://ege.sdamgia.ru/formula/svg/ff/ffcc28a7a92210dd9c1e2b4de3c604c1.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка DC=AB,BC=AK_1 пра­вая круг­лая скоб­ка \"> и углу между ними. Ра­вен­ство углов сле­ду­ет из ра­вен­ства дуг <img src=\"https://ege.sdamgia.ru/formula/svg/68/68e0eb770e4daacb701a1e5958940f2f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"DC=AB,\"> <img src=\"https://ege.sdamgia.ru/formula/svg/30/3094bbcf3f9dcc30c697f3269ed407a1.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"BC=AK_1,\"> стя­ги­ва­е­мых рав­ны­ми хор­да­ми. Тогда равны дуги <img src=\"https://ege.sdamgia.ru/formula/svg/50/503dbd980fc6670850fe5ea78e9d1636.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"BCDK_1\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/cd/cdbbfd64a0734e1ca78d73d57379e6c8.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"BAK_1D,\"> а зна­чит, равны и опи­ра­ю­щи­е­ся на них впи­сан­ные углы.</p><p class=\"left_margin\">Зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/dc/dc4477c222f3e82fea83559074aeafec.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"BD=BK_1=7.\"> При этом точка <img src=\"https://ege.sdamgia.ru/formula/svg/cb/cbb11f85182f81ceb8063f6c3e876fe3.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"K_1\"> не сов­па­да­ет с точ­кой <i>D</i>, по­сколь­ку <img src=\"https://ege.sdamgia.ru/formula/svg/55/552379fb17f1011437e26bb5d77b2017.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"AD не равно AK_1.\"> Зна­чит, точка <img src=\"https://ege.sdamgia.ru/formula/svg/cb/cbb11f85182f81ceb8063f6c3e876fe3.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"K_1\"> сов­па­да­ет с точ­кой <i>K</i> (по­сколь­ку из точки <i>B</i> в окруж­но­сти можно про­ве­сти не более двух хорд дан­ной длины). Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/df/dfee8433b4c90c8869447917674cd574.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AK=AK_1=4.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span>  4. </p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/cb/cbb11f85182f81ceb8063f6c3e876fe3.svg",
+            "https://ege.sdamgia.ru/formula/svg/64/64030943989019d91a64cd7810117068.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fb93fec8cf0111106ee53dab8f5c537a.svg",
+            "https://ege.sdamgia.ru/formula/svg/ff/ffcc28a7a92210dd9c1e2b4de3c604c1.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/68e0eb770e4daacb701a1e5958940f2f.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/3094bbcf3f9dcc30c697f3269ed407a1.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/503dbd980fc6670850fe5ea78e9d1636.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cdbbfd64a0734e1ca78d73d57379e6c8.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dc4477c222f3e82fea83559074aeafec.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cbb11f85182f81ceb8063f6c3e876fe3.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/552379fb17f1011437e26bb5d77b2017.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cbb11f85182f81ceb8063f6c3e876fe3.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/dfee8433b4c90c8869447917674cd574.svg",
+            "/get_file?id=26263"
+        ]
+    },
+    "answer": "4.",
+    "topic_id": null,
+    "analog_ids": []
+}

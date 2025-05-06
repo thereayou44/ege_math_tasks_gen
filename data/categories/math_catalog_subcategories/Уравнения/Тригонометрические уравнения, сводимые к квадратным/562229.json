@@ -1,0 +1,36 @@
+{
+    "gia_type": "ege",
+    "subject": "math",
+    "id": 562229,
+    "condition": {
+        "text": "а)  Решите уравнение б)  Найдите все корни этого уравнения, принадлежащие отрезку ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"body457417\" class=\"pbody\"><p class=\"left_margin\">а)  Ре­ши­те урав­не­ние <img src=\"https://ege.sdamgia.ru/formula/svg/4c/4c8f04fabbb4ca06e313da2fd331f15f.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" ко­си­нус x плюс 2 ко­си­нус левая круг­лая скоб­ка 2x минус дробь: чис­ли­тель: Пи , зна­ме­на­тель: 3 конец дроби пра­вая круг­лая скоб­ка = ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та синус 2x минус 1. \"></p><p class=\"left_margin\">б)  Най­ди­те все корни этого урав­не­ния, при­над­ле­жа­щие от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/a6/a60f3cba3e661b1dafacec7bab216239.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка минус 5 Пи ; минус дробь: чис­ли­тель: 7 Пи , зна­ме­на­тель: 2 конец дроби пра­вая квад­рат­ная скоб­ка . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/4c/4c8f04fabbb4ca06e313da2fd331f15f.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a60f3cba3e661b1dafacec7bab216239.svg"
+        ]
+    },
+    "solution": {
+        "text": "Решение. а)  Преобразуем уравнение:  б)  С помощью числовой окружности отберём корни, принадлежащие отрезку  Получим числа   и  Ответ: а)  б)   ",
+        "html": "<div align=\"justify\" width=\"100%\" id=\"sol562229\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=85111\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">а)  Пре­об­ра­зу­ем урав­не­ние: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/a6/a6f44efbd7172056816af9755752e470.svg\" class=\"tex\" style=\"vertical-align:-1.7pt\" alt=\" ко­си­нус x плюс ко­си­нус 2x плюс ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та синус 2x= ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та синус 2x минус 1 рав­но­силь­но ко­си­нус x плюс 2 ко­си­нус в квад­ра­те x минус 1= минус 1 рав­но­силь­но \"></p><p><img src=\"https://ege.sdamgia.ru/formula/svg/5d/5d88567a77e209c93eb3bfa5069266d8.svg\" class=\"tex\" style=\"vertical-align:-21.2pt\" alt=\" рав­но­силь­но ко­си­нус x умно­жить на левая круг­лая скоб­ка 1 плюс 2 ко­си­нус x пра­вая круг­лая скоб­ка =0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний ко­си­нус x=0, ко­си­нус x= минус дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби конец со­во­куп­но­сти . рав­но­силь­но со­во­куп­ность вы­ра­же­ний x= дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби плюс Пи k,x=\\pm дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k, конец со­во­куп­но­сти . k при­над­ле­жит Z . \"></p><p class=\"left_margin\"></p></center> <p class=\"left_margin\">б)  С по­мо­щью чис­ло­вой окруж­но­сти отберём корни, при­над­ле­жа­щие от­рез­ку <img src=\"https://ege.sdamgia.ru/formula/svg/a6/a60f3cba3e661b1dafacec7bab216239.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая квад­рат­ная скоб­ка минус 5 Пи ; минус дробь: чис­ли­тель: 7 Пи , зна­ме­на­тель: 2 конец дроби пра­вая квад­рат­ная скоб­ка . \"></p><p> По­лу­чим числа <img src=\"https://ege.sdamgia.ru/formula/svg/d6/d6195a5227c869f77c5878fd884da55a.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" минус дробь: чис­ли­тель: 9 Пи , зна­ме­на­тель: 2 конец дроби , \"> <img src=\"https://ege.sdamgia.ru/formula/svg/b3/b3a7f4734f7304be27303923837fb749.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" минус дробь: чис­ли­тель: 7 Пи , зна­ме­на­тель: 2 конец дроби \"> и <img src=\"https://ege.sdamgia.ru/formula/svg/af/af820e47f297aa5d7018b38cdc7b55a0.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" минус дробь: чис­ли­тель: 14 Пи , зна­ме­на­тель: 3 конец дроби . \"></p><p> <span style=\"letter-spacing: 2px;\">Ответ:</span> а) <img src=\"https://ege.sdamgia.ru/formula/svg/5b/5bdfab48b1cd0f4e1ff291dc0bf89b4c.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\" левая фи­гур­ная скоб­ка минус дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k; дробь: чис­ли­тель: Пи , зна­ме­на­тель: 2 конец дроби плюс Пи k; дробь: чис­ли­тель: 2 Пи , зна­ме­на­тель: 3 конец дроби плюс 2 Пи k : k при­над­ле­жит Z пра­вая фи­гур­ная скоб­ка ; \"> б) <img src=\"https://ege.sdamgia.ru/formula/svg/d6/d6195a5227c869f77c5878fd884da55a.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" минус дробь: чис­ли­тель: 9 Пи , зна­ме­на­тель: 2 конец дроби , \"> <img src=\"https://ege.sdamgia.ru/formula/svg/10/10d0a5e26f09530f826cc4bbaf5d5ddd.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" минус дробь: чис­ли­тель: 7 Пи , зна­ме­на­тель: 2 конец дроби , \"> <img src=\"https://ege.sdamgia.ru/formula/svg/af/af820e47f297aa5d7018b38cdc7b55a0.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" минус дробь: чис­ли­тель: 14 Пи , зна­ме­на­тель: 3 конец дроби . \"></p></div>",
+        "image_urls": [
+            "https://ege.sdamgia.ru/formula/svg/a6/a6f44efbd7172056816af9755752e470.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5d88567a77e209c93eb3bfa5069266d8.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a60f3cba3e661b1dafacec7bab216239.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d6195a5227c869f77c5878fd884da55a.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b3a7f4734f7304be27303923837fb749.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af820e47f297aa5d7018b38cdc7b55a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/5b/5bdfab48b1cd0f4e1ff291dc0bf89b4c.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d6195a5227c869f77c5878fd884da55a.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/10d0a5e26f09530f826cc4bbaf5d5ddd.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af820e47f297aa5d7018b38cdc7b55a0.svg",
+            "/get_file?id=85111"
+        ]
+    },
+    "answer": "а)  б)",
+    "topic_id": 13,
+    "analog_ids": [
+        562229,
+        562233
+    ]
+}
