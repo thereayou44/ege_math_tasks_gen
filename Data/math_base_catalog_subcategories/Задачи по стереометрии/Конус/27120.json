@@ -1,55 +1,45 @@
 {
-    "gia_type": "ege",
-    "subject": "math",
-    "id": 27120,
+    "id": "27120",
+    "topic": "Д16",
     "condition": {
-        "text": "Высота конуса равна 6, образующая равна 10. Найдите его объем, деленный на ",
-        "html": "<div align=\"justify\" width=\"100%\" id=\"body919308\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=139999\" style=\"float:right;margin:10px;max-width:100%\">Вы­со­та ко­ну­са равна 6, об­ра­зу­ю­щая равна 10. Най­ди­те его объем, де­лен­ный на <img src=\"https://ege.sdamgia.ru/formula/svg/20/20eb0232474c508d356a7b4ebf331607.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" Пи .\"></p></div>",
-        "image_urls": [
-            "https://ege.sdamgia.ru/formula/svg/20/20eb0232474c508d356a7b4ebf331607.svg",
-            "/get_file?id=139999"
-        ]
-    },
-    "solution": {
-        "text": "Решение. По теореме Пифагора найдем, что радиус основания равен  Тогда объем конуса, деленный на :  Ответ: 128.",
-        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27120\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">По тео­ре­ме Пи­фа­го­ра най­дем, что ра­ди­ус ос­но­ва­ния равен <img src=\"https://ege.sdamgia.ru/formula/svg/b0/b0a59e67f4e60328d294cadf8716a0e5.svg\" class=\"tex\" style=\"vertical-align:-2.6pt\" alt=\"r= ко­рень из: на­ча­ло ар­гу­мен­та: l в квад­ра­те минус h в квад­ра­те конец ар­гу­мен­та = ко­рень из: на­ча­ло ар­гу­мен­та: 10 конец ар­гу­мен­та в квад­ра­те минус 6 в квад­ра­те =8.\"> Тогда объем ко­ну­са, де­лен­ный на <img src=\"https://ege.sdamgia.ru/formula/svg/52/522359592d78569a9eac16498aa7a087.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" Пи \">: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ad/ad37ff1dfd932c37a2561a25bc199849.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" дробь: чис­ли­тель: V, зна­ме­на­тель: Пи конец дроби = дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби дробь: чис­ли­тель: Sh, зна­ме­на­тель: Пи конец дроби = дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби дробь: чис­ли­тель: Пи r в квад­ра­те h, зна­ме­на­тель: Пи конец дроби = дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби r в квад­ра­те h= дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби умно­жить на 8 в квад­ра­те умно­жить на 6=128 \"></p><p class=\"left_margin\"></p></center> <p><span style=\"letter-spacing: 2px;\">Ответ:</span> 128.</p></div>",
-        "image_urls": [
-            "https://ege.sdamgia.ru/formula/svg/b0/b0a59e67f4e60328d294cadf8716a0e5.svg",
-            "https://ege.sdamgia.ru/formula/svg/52/522359592d78569a9eac16498aa7a087.svg",
-            "https://ege.sdamgia.ru/formula/svg/ad/ad37ff1dfd932c37a2561a25bc199849.svg"
+        "text": "Высота конуса равна 6, образующая равна 10. Найдите его объем, деленный на",
+        "images": [
+            "https://mathb-ege.sdamgia.ru/get_file?id=139999",
+            "https://ege.sdamgia.ru/formula/svg/20/20eb0232474c508d356a7b4ebf331607.svg"
         ]
     },
     "answer": "128",
-    "topic_id": 3,
-    "analog_ids": [
-        27120,
-        75175,
-        75223,
-        75177,
-        75175,
-        75223,
-        75177,
-        75179,
-        75181,
-        75183,
-        75185,
-        75187,
-        75189,
-        75191,
-        75193,
-        75195,
-        75197,
-        75199,
-        75201,
-        75203,
-        75205,
-        75207,
-        75209,
-        75211,
-        75213,
-        75215,
-        75217,
-        75219,
-        75221
-    ]
+    "analogs": [
+        "27120",
+        "75223",
+        "75175",
+        "75177",
+        "...",
+        "75223",
+        "75175",
+        "75177",
+        "75179",
+        "75181",
+        "75183",
+        "75185",
+        "75187",
+        "75189",
+        "75191",
+        "75193",
+        "75195",
+        "75197",
+        "75199",
+        "75201",
+        "75203",
+        "75205",
+        "75207",
+        "75209",
+        "75211",
+        "75213",
+        "75215",
+        "75217",
+        "75219",
+        "75221"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=27120"
 }

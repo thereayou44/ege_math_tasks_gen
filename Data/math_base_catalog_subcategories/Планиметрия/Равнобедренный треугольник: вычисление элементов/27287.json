@@ -1,52 +1,45 @@
 {
-    "gia_type": "ege",
-    "subject": "math",
-    "id": 27287,
+    "id": "27287",
+    "topic": "Д15",
     "condition": {
-        "text": "В треугольнике ABC AC  =  BC, AB  =  8,  Найдите AC.",
-        "html": "<div align=\"justify\" width=\"100%\" id=\"body918635\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=109592\" style=\"float:right;margin:10px;max-width:100%\">В тре­уголь­ни­ке <i>ABC</i> <i>AC</i>  =  <i>BC</i>, <i>AB</i>  =  8, <img src=\"https://ege.sdamgia.ru/formula/svg/55/5572346e2822fc2147e38d76fd015a16.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" ко­си­нус A=0,5.\"> Най­ди­те <i>AC</i>.</p></div>",
-        "image_urls": [
-            "https://ege.sdamgia.ru/formula/svg/55/5572346e2822fc2147e38d76fd015a16.svg",
-            "/get_file?id=109592"
-        ]
-    },
-    "solution": {
-        "text": "Решение. Треугольник АВС равнобедренный, значит, высота СН делит основание АВ пополам. Тогда  Ответ: 8. Приведем другое решение:Косинус угла A равен 0,5, значит,  Равнобедренный треугольник с углом 60° является равносторонним, тогда ",
-        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27287\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Тре­уголь­ник <i>АВС</i> рав­но­бед­рен­ный, зна­чит, вы­со­та <i>СН</i> делит ос­но­ва­ние <i>АВ</i> по­по­лам. Тогда </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/56/56cc457b58a2e4259ffee30f35bee37a.svg\" class=\"tex\" style=\"vertical-align:-13.0pt\" alt=\"AC= дробь: чис­ли­тель: AH, зна­ме­на­тель: ко­си­нус A конец дроби = дробь: чис­ли­тель: AB, зна­ме­на­тель: 2 ко­си­нус A конец дроби = дробь: чис­ли­тель: 8, зна­ме­на­тель: 2 умно­жить на дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби конец дроби =8. \"></p><p class=\"left_margin\"></p></center> <span style=\"letter-spaceing:2px\">Ответ</span>: 8.<p>&nbsp;</p><p><b>При­ве­дем дру­гое ре­ше­ние:</b></p><p class=\"left_margin\">Ко­си­нус угла <i>A</i> равен 0,5, зна­чит, <img src=\"https://ege.sdamgia.ru/formula/svg/d9/d9615e1db272cc9ae737e3782edce34d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\" \\angle A=60 гра­ду­сов .\"> Рав­но­бед­рен­ный тре­уголь­ник с углом 60° яв­ля­ет­ся рав­но­сто­рон­ним, тогда <img src=\"https://ege.sdamgia.ru/formula/svg/6a/6a98d08fcf6b6ebcac95fd1552bd5037.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AC= AB=8.\"></p></div>",
-        "image_urls": [
-            "https://ege.sdamgia.ru/formula/svg/56/56cc457b58a2e4259ffee30f35bee37a.svg",
-            "https://ege.sdamgia.ru/formula/svg/d9/d9615e1db272cc9ae737e3782edce34d.svg",
-            "https://ege.sdamgia.ru/formula/svg/6a/6a98d08fcf6b6ebcac95fd1552bd5037.svg"
+        "text": "В треугольнике ABC Найдите",
+        "images": [
+            "https://mathb-ege.sdamgia.ru/get_file?id=1092",
+            "https://ege.sdamgia.ru/formula/svg/d7/d7f135eda8661def45358444c0a7603a.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/309b084dfa13617c69536e782fbb0296.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cb4d8fe346f2f291ad402412c58ba022.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/55c9ee3beff9b131586901889ba3714f.svg"
         ]
     },
     "answer": "8",
-    "topic_id": 1,
-    "analog_ids": [
-        27287,
-        31749,
-        31751,
-        31753,
-        31749,
-        31751,
-        31753,
-        31755,
-        31757,
-        31759,
-        31761,
-        31763,
-        31765,
-        31767,
-        31769,
-        31771,
-        31773,
-        31775,
-        31777,
-        31779,
-        31781,
-        31783,
-        31785,
-        31787,
-        31789,
-        31791
-    ]
+    "analogs": [
+        "27287",
+        "31749",
+        "31751",
+        "31753",
+        "...",
+        "31749",
+        "31751",
+        "31753",
+        "31755",
+        "31757",
+        "31759",
+        "31761",
+        "31763",
+        "31765",
+        "31767",
+        "31769",
+        "31771",
+        "31773",
+        "31775",
+        "31777",
+        "31779",
+        "31781",
+        "31783",
+        "31785",
+        "31787",
+        "31789",
+        "31791"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=27287"
 }

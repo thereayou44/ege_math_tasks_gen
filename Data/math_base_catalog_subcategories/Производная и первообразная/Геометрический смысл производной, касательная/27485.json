@@ -1,58 +1,38 @@
 {
-    "gia_type": "ege",
-    "subject": "math",
-    "id": 27485,
+    "id": "27485",
+    "topic": "Д2",
     "condition": {
-        "text": "Прямая  параллельна касательной к графику функции  Найдите абсциссу точки касания.",
-        "html": "<div align=\"justify\" width=\"100%\" id=\"body918945\" class=\"pbody\"><p class=\"left_margin\">Пря­мая <img src=\"https://ege.sdamgia.ru/formula/svg/ce/ce58d46c5d27ef6c053f03c697667bea.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=7x минус 5\"> па­рал­лель­на ка­са­тель­ной к гра­фи­ку функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/d7/d7aa418d1e81cad23a06aef8e527387c.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=x в квад­ра­те плюс 6x минус 8.\"> Най­ди­те абс­цис­су точки ка­са­ния.</p></div>",
-        "image_urls": [
+        "text": "Прямая параллельна касательной к графику функции Найдите абсциссу точки касания.",
+        "images": [
             "https://ege.sdamgia.ru/formula/svg/ce/ce58d46c5d27ef6c053f03c697667bea.svg",
             "https://ege.sdamgia.ru/formula/svg/d7/d7aa418d1e81cad23a06aef8e527387c.svg"
         ]
     },
-    "solution": {
-        "text": "Решение. Значение производной в точке касания равно угловому коэффициенту касательной. Поскольку касательная параллельна прямой  их угловые коэффициенты равны. Поэтому абсцисса точки касания находится из уравнения :  Ответ: 0,5.",
-        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27485\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Зна­че­ние про­из­вод­ной в точке ка­са­ния равно уг­ло­во­му ко­эф­фи­ци­ен­ту ка­са­тель­ной. По­сколь­ку ка­са­тель­ная па­рал­лель­на пря­мой <img src=\"https://ege.sdamgia.ru/formula/svg/ce/ce58d46c5d27ef6c053f03c697667bea.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=7x минус 5\"> их уг­ло­вые ко­эф­фи­ци­ен­ты равны. По­это­му абс­цис­са точки ка­са­ния на­хо­дит­ся из урав­не­ния <img src=\"https://ege.sdamgia.ru/formula/svg/c8/c8609f864228c13c1f3999e1095435a1.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y'=7\">: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/4e/4ea8622e13b41958a77256689bdfae45.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\" левая круг­лая скоб­ка x в квад­ра­те плюс 6x минус 8 пра­вая круг­лая скоб­ка '=~7 рав­но­силь­но 2x плюс 6=7 рав­но­силь­но x=0,5.\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 0,5.</p></div>",
-        "image_urls": [
-            "https://ege.sdamgia.ru/formula/svg/ce/ce58d46c5d27ef6c053f03c697667bea.svg",
-            "https://ege.sdamgia.ru/formula/svg/c8/c8609f864228c13c1f3999e1095435a1.svg",
-            "https://ege.sdamgia.ru/formula/svg/4e/4ea8622e13b41958a77256689bdfae45.svg"
-        ]
-    },
     "answer": "0,5",
-    "topic_id": 8,
-    "analog_ids": [
-        27485,
-        6007,
-        6037,
-        6041,
-        6007,
-        6037,
-        6041,
-        517174,
-        517212,
-        561169,
-        561221,
-        642295,
-        642368,
-        6009,
-        6011,
-        6013,
-        6015,
-        6017,
-        6019,
-        6021,
-        6023,
-        6025,
-        6027,
-        6029,
-        6031,
-        6033,
-        6035,
-        6039,
-        642470,
-        642540,
-        642610,
-        642680
-    ]
+    "analogs": [
+        "27485",
+        "6037",
+        "6041",
+        "6007",
+        "...",
+        "6037",
+        "6041",
+        "6007",
+        "6009",
+        "6011",
+        "6013",
+        "6015",
+        "6017",
+        "6019",
+        "6021",
+        "6023",
+        "6025",
+        "6027",
+        "6029",
+        "6031",
+        "6033",
+        "6035",
+        "6039"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=27485"
 }

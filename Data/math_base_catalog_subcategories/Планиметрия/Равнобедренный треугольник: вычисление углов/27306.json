@@ -1,0 +1,48 @@
+{
+    "id": "27306",
+    "topic": "Д15",
+    "condition": {
+        "text": "В треугольнике ABC высота CH равна 24, Найдите",
+        "images": [
+            "https://mathb-ege.sdamgia.ru/get_file?id=1119",
+            "https://ege.sdamgia.ru/formula/svg/d7/d7f135eda8661def45358444c0a7603a.svg",
+            "https://ege.sdamgia.ru/formula/svg/87/8770e353ac26c35c63b3b79c45a78e27.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/01f4793c2ed47090b60a31cbc95e9f89.svg"
+        ]
+    },
+    "answer": "0,28",
+    "analogs": [
+        "27306",
+        "32691",
+        "32693",
+        "32695",
+        "...",
+        "32691",
+        "32693",
+        "32695",
+        "32697",
+        "32699",
+        "32701",
+        "32703",
+        "32705",
+        "32707",
+        "32709",
+        "32711",
+        "32713",
+        "32715",
+        "32717",
+        "32719",
+        "32721",
+        "32723",
+        "32725",
+        "32727",
+        "32729",
+        "32731",
+        "32733",
+        "32735",
+        "32737",
+        "32739",
+        "32741"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=27306"
+}

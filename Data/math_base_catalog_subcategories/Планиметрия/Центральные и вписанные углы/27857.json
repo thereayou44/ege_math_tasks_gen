@@ -1,26 +1,17 @@
 {
-    "gia_type": "ege",
-    "subject": "math",
-    "id": 27857,
+    "id": "27857",
+    "topic": "Д15",
     "condition": {
         "text": "Чему равен острый вписанный угол, опирающийся на хорду, равную радиусу окружности? Ответ дайте в градусах.",
-        "html": "<div align=\"justify\" width=\"100%\" id=\"body918061\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=138356\" style=\"float:right;margin:10px;max-width:100%\">Чему равен ост­рый впи­сан­ный угол, опи­ра­ю­щий­ся на хорду, рав­ную ра­ди­у­су окруж­но­сти? Ответ дайте в гра­ду­сах.</p></div>",
-        "image_urls": [
-            "/get_file?id=138356"
-        ]
-    },
-    "solution": {
-        "text": "Решение. Рассмотрим треугольник AOB. Он равносторонний, так как AO = OB = AB = R. Поэтому угол AOB = 60. Вписанный угол ACB равен половине дуги, на которую он опирается. Тем самым, он равен 30°.  Ответ: 30. Приведем решение Александра Тищенко.Воспользуемся теоремой синусов для треугольника ABC, где ∠ACB  — искомый угол, а AB  — хорда, на которую он опирается:откуда искомый угол равен 30°.",
-        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27857\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\"><img src=\"/get_file?id=138357\" style=\"float:right;margin:10px;max-width:100%\"></p><p class=\"left_margin\">Рас­смот­рим тре­уголь­ник <i>AOB</i>. Он рав­но­сто­рон­ний, так как <i>AO = OB = AB = R</i>. По­это­му угол <i>AOB</i> = 60. Впи­сан­ный угол <i>ACB</i> равен по­ло­ви­не дуги, на ко­то­рую он опи­ра­ет­ся. Тем самым, он равен 30°.</p><p>&nbsp;</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 30.</p><p>&nbsp;</p><p><b>При­ве­дем ре­ше­ние Алек­сандра Ти­щен­ко.</b></p><p class=\"left_margin\">Вос­поль­зу­ем­ся тео­ре­мой си­ну­сов для тре­уголь­ни­ка <i>ABC</i>, где <i>∠ACB</i>  — ис­ко­мый угол, а <i>AB</i>  — хорда, на ко­то­рую он опи­ра­ет­ся:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/ed/ed3a01798d959114c3a77aa72f72ad0b.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" дробь: чис­ли­тель: AB, зна­ме­на­тель: синус \\angle C конец дроби =2R рав­но­силь­но синус \\angle C= дробь: чис­ли­тель: AB, зна­ме­на­тель: 2R конец дроби = дробь: чис­ли­тель: R, зна­ме­на­тель: 2R конец дроби = дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби , \"></p><p class=\"left_margin\"></p></center><p>от­ку­да ис­ко­мый угол равен 30°.</p></div>",
-        "image_urls": [
-            "https://ege.sdamgia.ru/formula/svg/ed/ed3a01798d959114c3a77aa72f72ad0b.svg",
-            "/get_file?id=138357"
+        "images": [
+            "https://mathb-ege.sdamgia.ru/get_file?id=1442"
         ]
     },
     "answer": "30",
-    "topic_id": 1,
-    "analog_ids": [
-        27857,
-        26203
-    ]
+    "analogs": [
+        "27857",
+        "26197",
+        "26203"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=27857"
 }

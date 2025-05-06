@@ -1,34 +1,26 @@
 {
-    "gia_type": "ege",
-    "subject": "math",
-    "id": 27209,
+    "id": "27209",
+    "topic": "Д13",
     "condition": {
-        "text": " Объем параллелепипеда  равен 4,5. Найдите объем треугольной пирамиды ",
-        "html": "<div align=\"justify\" width=\"100%\" id=\"body918709\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=113354\" style=\"float:right;margin:10px;max-width:100%\"> Объем па­рал­ле­ле­пи­пе­да <img src=\"https://ege.sdamgia.ru/formula/svg/1f/1f98fd4abe2a7ebc84481105039f3a71.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"ABCDA_1B_1C_1D_1\"> равен 4,5. Най­ди­те объем тре­уголь­ной пи­ра­ми­ды <img src=\"https://ege.sdamgia.ru/formula/svg/b3/b3e3d4391b61a14325aeca16b0893652.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"AD_1CB_1.\"></p></div>",
-        "image_urls": [
+        "text": "Объем параллелепипеда равен 4,5. Найдите объем треугольной пирамиды",
+        "images": [
+            "https://mathb-ege.sdamgia.ru/get_file?id=910",
             "https://ege.sdamgia.ru/formula/svg/1f/1f98fd4abe2a7ebc84481105039f3a71.svg",
-            "https://ege.sdamgia.ru/formula/svg/b3/b3e3d4391b61a14325aeca16b0893652.svg",
-            "/get_file?id=113354"
-        ]
-    },
-    "solution": {
-        "text": "Решение. Искомый объем равен разности объемов параллелепипеда и четырех пирамид, основания которых являются гранями данной треугольной пирамиды. Объём каждой из этих пирамид равен одной трети произведения площади основания на высоту, а площадь основания вдвое меньше площади основания параллелепипеда: Ответ: 1,5.",
-        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27209\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Ис­ко­мый объем равен раз­но­сти объ­е­мов па­рал­ле­ле­пи­пе­да и че­ты­рех пи­ра­мид, ос­но­ва­ния ко­то­рых яв­ля­ют­ся гра­ня­ми дан­ной тре­уголь­ной пи­ра­ми­ды. Объём каж­дой из этих пи­ра­мид равен одной трети про­из­ве­де­ния пло­ща­ди ос­но­ва­ния на вы­со­ту, а пло­щадь ос­но­ва­ния вдвое мень­ше пло­ща­ди ос­но­ва­ния па­рал­ле­ле­пи­пе­да: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f9/f938dbc8f69a658eb1024850c6d9f5a3.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"V_пир=V_пар минус 4 левая круг­лая скоб­ка дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби умно­жить на дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби умно­жить на V_пар пра­вая круг­лая скоб­ка = дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби V_пар=1,5. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing:2px \">Ответ</span>: 1,5.</p></div>",
-        "image_urls": [
-            "https://ege.sdamgia.ru/formula/svg/f9/f938dbc8f69a658eb1024850c6d9f5a3.svg"
+            "https://ege.sdamgia.ru/formula/svg/b3/b3e3d4391b61a14325aeca16b0893652.svg"
         ]
     },
     "answer": "1,5",
-    "topic_id": 3,
-    "analog_ids": [
-        27209,
-        25861,
-        25865,
-        25863,
-        25861,
-        25865,
-        25863,
-        25867,
-        25869
-    ]
+    "analogs": [
+        "27209",
+        "25865",
+        "25861",
+        "25863",
+        "...",
+        "25865",
+        "25861",
+        "25863",
+        "25867",
+        "25869"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=27209"
 }

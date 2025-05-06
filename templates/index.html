@@ -3,8 +3,14 @@
 
 {% block head %}
 <script>
-// Загружаем данные категорий напрямую в глобальную переменную
-var categoriesData = {{ categories|tojson|safe }};
+// Загружаем данные категорий напрямую в глобальные переменные
+var advancedCategoriesData = {{ advanced_categories|tojson|safe }};
+var basicCategoriesData = {{ basic_categories|tojson|safe }};
+var currentCategoriesData = advancedCategoriesData; // По умолчанию используем профильный уровень
+
+// Отладочный вывод
+console.log("Advanced Categories:", advancedCategoriesData ? advancedCategoriesData.length : 0);
+console.log("Basic Categories:", basicCategoriesData ? basicCategoriesData.length : 0);
 </script>
 {% endblock %}
 
@@ -12,10 +18,21 @@ var categoriesData = {{ categories|tojson|safe }};
 <h1 class="mb-4">Генератор задач ЕГЭ</h1>
 <form id="taskForm" class="mb-3">
     <div class="mb-3">
+        <label class="form-label">Уровень ЕГЭ:</label>
+        <div class="btn-group d-flex" role="group" aria-label="Уровень ЕГЭ">
+            <input type="radio" class="btn-check" name="exam_level" id="basic_level" value="basic" autocomplete="off">
+            <label class="btn btn-outline-primary" for="basic_level">Базовый</label>
+            
+            <input type="radio" class="btn-check" name="exam_level" id="advanced_level" value="advanced" autocomplete="off" checked>
+            <label class="btn btn-outline-primary" for="advanced_level">Профильный</label>
+        </div>
+    </div>
+    
+    <div class="mb-3">
         <label for="category" class="form-label">Категория:</label>
         <select name="category" id="category" class="form-select">
             <option value="">Выберите категорию</option>
-            {% for cat in categories %}
+            {% for cat in advanced_categories %}
             <option value="{{ cat.category }}">{{ cat.category_number }} {{ cat.category }}</option>
             {% endfor %}
         </select>
@@ -119,9 +136,9 @@ var categoriesData = {{ categories|tojson|safe }};
 
         // Находим выбранную категорию в данных
         var selectedCategory = null;
-        for (var i = 0; i < categoriesData.length; i++) {
-            if (categoriesData[i].category === category) {
-                selectedCategory = categoriesData[i];
+        for (var i = 0; i < currentCategoriesData.length; i++) {
+            if (currentCategoriesData[i].category === category) {
+                selectedCategory = currentCategoriesData[i];
                 break;
             }
         }
@@ -147,8 +164,67 @@ var categoriesData = {{ categories|tojson|safe }};
     // При выборе категории обновляем подкатегории
     document.getElementById("category").addEventListener("change", updateSubcategories);
 
+    // Обработчики для переключения уровня ЕГЭ
+    document.getElementById("basic_level").addEventListener("change", function() {
+        if (this.checked) {
+            currentCategoriesData = basicCategoriesData;
+            updateCategoriesList();
+        }
+    });
+    
+    document.getElementById("advanced_level").addEventListener("change", function() {
+        if (this.checked) {
+            currentCategoriesData = advancedCategoriesData;
+            updateCategoriesList();
+        }
+    });
+    
+    // Функция для обновления списка категорий при переключении уровня ЕГЭ
+    function updateCategoriesList() {
+        var categorySelect = document.getElementById("category");
+        categorySelect.innerHTML = ""; // Очистить список категорий
+        
+        // Отладочный вывод
+        console.log("Обновление списка категорий");
+        console.log("Текущие данные:", currentCategoriesData ? currentCategoriesData.length : 0, "категорий");
+        
+        // Добавляем опцию "Выберите категорию"
+        var defaultOption = document.createElement("option");
+        defaultOption.value = "";
+        defaultOption.textContent = "Выберите категорию";
+        categorySelect.appendChild(defaultOption);
+        
+        // Добавляем категории из текущего набора данных
+        if (currentCategoriesData && currentCategoriesData.length > 0) {
+            for (var i = 0; i < currentCategoriesData.length; i++) {
+                var cat = currentCategoriesData[i];
+                var option = document.createElement("option");
+                option.value = cat.category;
+                option.textContent = (cat.category_number ? cat.category_number + " " : "") + cat.category;
+                categorySelect.appendChild(option);
+            }
+            console.log("Добавлено категорий:", currentCategoriesData.length);
+        } else {
+            console.error("Нет данных для категорий!");
+        }
+        
+        // Очищаем подкатегории, т.к. выбрана новая категория
+        var subcategorySelect = document.getElementById("subcategory");
+        subcategorySelect.innerHTML = "";
+        var defaultSubOption = document.createElement("option");
+        defaultSubOption.value = "";
+        defaultSubOption.textContent = "Не выбрана";
+        subcategorySelect.appendChild(defaultSubOption);
+    }
+
     // Вызываем функцию при загрузке страницы, если категория уже выбрана
     window.addEventListener("DOMContentLoaded", function() {
+        console.log("DOM загружен");
+        
+        // Инициализируем список категорий при загрузке страницы
+        // Это гарантирует заполнение списка категорий при первой загрузке
+        updateCategoriesList();
+        
         var categorySelect = document.getElementById("category");
         if (categorySelect.value) {
             updateSubcategories();
@@ -171,6 +247,9 @@ var categoriesData = {{ categories|tojson|safe }};
         var category = document.getElementById("category").value;
         var subcategory = document.getElementById("subcategory").value;
         var difficulty_level = document.getElementById("difficulty_level").value;
+        
+        // Получаем выбранный уровень ЕГЭ (базовый или профильный)
+        var is_basic_level = document.getElementById("basic_level").checked;
 
         if (!category) {
             alert("Пожалуйста, выберите категорию");
@@ -181,7 +260,8 @@ var categoriesData = {{ categories|tojson|safe }};
         var data = { 
             category: category, 
             subcategory: subcategory,
-            difficulty_level: difficulty_level
+            difficulty_level: difficulty_level,
+            is_basic_level: is_basic_level
         };
 
         fetch('/generate_task', {

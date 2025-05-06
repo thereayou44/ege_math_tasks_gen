@@ -1,59 +1,38 @@
 {
-    "gia_type": "ege",
-    "subject": "math",
-    "id": 27486,
+    "id": "27486",
+    "topic": "Д2",
     "condition": {
-        "text": "Прямая  является касательной к графику функции  Найдите абсциссу точки касания.",
-        "html": "<div align=\"justify\" width=\"100%\" id=\"body918946\" class=\"pbody\"><p class=\"left_margin\">Пря­мая <img src=\"https://ege.sdamgia.ru/formula/svg/9c/9c47422980919ac63a9b21b14feadb6a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y= минус 4x минус 11\"> яв­ля­ет­ся ка­са­тель­ной к гра­фи­ку функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/33/33ba53464db0ac18b680fb2df6b3020a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=x в кубе плюс 7x в квад­ра­те плюс 7x минус 6.\"> Най­ди­те абс­цис­су точки ка­са­ния.</p></div>",
-        "image_urls": [
+        "text": "Прямая является касательной к графику функции Найдите абсциссу точки касания.",
+        "images": [
             "https://ege.sdamgia.ru/formula/svg/9c/9c47422980919ac63a9b21b14feadb6a.svg",
             "https://ege.sdamgia.ru/formula/svg/33/33ba53464db0ac18b680fb2df6b3020a.svg"
         ]
     },
-    "solution": {
-        "text": "Решение. Значение производной в точке касания равно угловому коэффициенту касательной. Поэтому абсциссы точек касания удовлетворяют уравнению  Абсциссы точек пересечения должны удовлетворять уравнению  Проверка показывает, что число  −1 ему удовлетворяет, а число   —  нет. Ответ: −1. Условие касания можно записать в общем виде.Условие касания графика функции  и прямой  задаётся системой уравнений:В нашем случае имеем: Проверка подстановкой показывает, что первый корень не удовлетворяет, а второй удовлетворяет уравнению (*). Поэтому искомая абсцисса точки касания −1. Ответ: −1.",
-        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27486\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Зна­че­ние про­из­вод­ной в точке ка­са­ния равно уг­ло­во­му ко­эф­фи­ци­ен­ту ка­са­тель­ной. По­это­му абс­цис­сы точек ка­са­ния удо­вле­тво­ря­ют урав­не­нию <img src=\"https://ege.sdamgia.ru/formula/svg/f3/f3acd60d899760cc430f96f8766f20bf.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y'= минус 4:\"> </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f2/f2612b7dda1a429b4194ae8659057e71.svg\" class=\"tex\" style=\"vertical-align:-18.0pt\" alt=\" 3x в квад­ра­те плюс 14x плюс 7 = минус 4 рав­но­силь­но 3x в квад­ра­те плюс 14x плюс 11 = 0 рав­но­силь­но со­во­куп­ность вы­ра­же­ний x= минус 1, x= минус дробь: чис­ли­тель: 11, зна­ме­на­тель: 3 конец дроби . конец со­во­куп­но­сти . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Абс­цис­сы точек пе­ре­се­че­ния долж­ны удо­вле­тво­рять урав­не­нию <img src=\"https://ege.sdamgia.ru/formula/svg/f0/f0b9b48cb5d5818a1ebf75ce68f05eba.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x в кубе плюс 7x в квад­ра­те плюс 7x минус 6 = минус 4x минус 11.\"> Про­вер­ка по­ка­зы­ва­ет, что число  −1 ему удо­вле­тво­ря­ет, а число <nobr><img src=\"https://ege.sdamgia.ru/formula/svg/78/78d0808e1aacb9a61d3b2d806242c5d8.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" минус дробь: чис­ли­тель: 11, зна­ме­на­тель: 3 конец дроби \">  — </nobr> нет.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> −1.</p><p>&nbsp;</p><p><b>Усло­вие ка­са­ния можно за­пи­сать в общем виде.</b></p><p class=\"left_margin\">Усло­вие ка­са­ния гра­фи­ка функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/7c/7c1c9491ba7c6e8d6d2cfa82e39b22ca.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"y=f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка \"> и пря­мой <img src=\"https://ege.sdamgia.ru/formula/svg/10/10afe20a154e668773a425e2b93af4cc.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"y=kx плюс b\"> задаётся си­сте­мой урав­не­ний:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/66/66b9adf2b4ee535ca3944eacf4e9337c.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний f' левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =k, f левая круг­лая скоб­ка x пра­вая круг­лая скоб­ка =kx плюс b. конец си­сте­мы . \"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">В нашем слу­чае имеем:</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"73c7fce77e4f679f8c18d9328201d397\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/73/73c7fce77e4f679f8c18d9328201d397.svg\" class=\"tex\" style=\"vertical-align:-27.6pt\" alt=\" си­сте­ма вы­ра­же­ний 3x в квад­ра­те плюс 14x плюс 7= минус 4, x в кубе плюс 7x в квад­ра­те плюс 7x минус 6= минус 4x минус 11 конец си­сте­мы . рав­но­силь­но си­сте­ма вы­ра­же­ний  новая стро­ка 3x в квад­ра­те плюс 14x плюс 11=0,  новая стро­ка x в кубе плюс 7x в квад­ра­те плюс 11x плюс 5=0 конец си­сте­мы рав­но­силь­но си­сте­ма вы­ра­же­ний  новая стро­ка со­во­куп­ность вы­ра­же­ний x= минус дробь: чис­ли­тель: 11, зна­ме­на­тель: 3 конец дроби , x= минус 1, конец си­сте­мы }  новая стро­ка x в кубе плюс 7x в квад­ра­те плюс 11x плюс 5=0 левая круг­лая скоб­ка * пра­вая круг­лая скоб­ка . конец со­во­куп­но­сти . \"></span><span data-width=\"565\" data-formulahash=\"73c7fce77e4f679f8c18d9328201d397\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/c6/c65001d3c972680a2660a01a23aeca15.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний 3x в квад­ра­те плюс 14x плюс 7= минус 4, x в кубе плюс 7x в квад­ра­те плюс 7x минус 6= минус 4x минус 11 конец си­сте­мы . рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/a9/a9e7dbe4237891ce3d9634eb762e408d.svg\" class=\"tex\" style=\"vertical-align:-27.6pt\" alt=\" рав­но­силь­но си­сте­ма вы­ра­же­ний  новая стро­ка 3x в квад­ра­те плюс 14x плюс 11=0,  новая стро­ка x в кубе плюс 7x в квад­ра­те плюс 11x плюс 5=0 конец си­сте­мы рав­но­силь­но си­сте­ма вы­ра­же­ний  новая стро­ка со­во­куп­ность вы­ра­же­ний x= минус дробь: чис­ли­тель: 11, зна­ме­на­тель: 3 конец дроби , x= минус 1, конец си­сте­мы }  новая стро­ка x в кубе плюс 7x в квад­ра­те плюс 11x плюс 5=0 левая круг­лая скоб­ка * пра­вая круг­лая скоб­ка . конец со­во­куп­но­сти . \"></span><span data-width=\"365\" data-formulahash=\"73c7fce77e4f679f8c18d9328201d397\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/c6/c65001d3c972680a2660a01a23aeca15.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" си­сте­ма вы­ра­же­ний 3x в квад­ра­те плюс 14x плюс 7= минус 4, x в кубе плюс 7x в квад­ра­те плюс 7x минус 6= минус 4x минус 11 конец си­сте­мы . рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/c4/c46a01bd89839f4d099bc0e8a1fd4162.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\" рав­но­силь­но си­сте­ма вы­ра­же­ний  новая стро­ка 3x в квад­ра­те плюс 14x плюс 11=0,  новая стро­ка x в кубе плюс 7x в квад­ра­те плюс 11x плюс 5=0 конец си­сте­мы рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/10/10974d2143478262f2e3c4afafa41fa4.svg\" class=\"tex\" style=\"vertical-align:-27.6pt\" alt=\" рав­но­силь­но си­сте­ма вы­ра­же­ний  новая стро­ка со­во­куп­ность вы­ра­же­ний x= минус дробь: чис­ли­тель: 11, зна­ме­на­тель: 3 конец дроби , x= минус 1, конец си­сте­мы }  новая стро­ка x в кубе плюс 7x в квад­ра­те плюс 11x плюс 5=0 левая круг­лая скоб­ка * пра­вая круг­лая скоб­ка . конец со­во­куп­но­сти . \"></span></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p class=\"left_margin\">Про­вер­ка под­ста­нов­кой по­ка­зы­ва­ет, что пер­вый ко­рень не удо­вле­тво­ря­ет, а вто­рой удо­вле­тво­ря­ет урав­не­нию (*). По­это­му ис­ко­мая абс­цис­са точки ка­са­ния −1.</p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> −1.</p></div>",
-        "image_urls": [
-            "https://ege.sdamgia.ru/formula/svg/f3/f3acd60d899760cc430f96f8766f20bf.svg",
-            "https://ege.sdamgia.ru/formula/svg/f2/f2612b7dda1a429b4194ae8659057e71.svg",
-            "https://ege.sdamgia.ru/formula/svg/f0/f0b9b48cb5d5818a1ebf75ce68f05eba.svg",
-            "https://ege.sdamgia.ru/formula/svg/78/78d0808e1aacb9a61d3b2d806242c5d8.svg",
-            "https://ege.sdamgia.ru/formula/svg/7c/7c1c9491ba7c6e8d6d2cfa82e39b22ca.svg",
-            "https://ege.sdamgia.ru/formula/svg/10/10afe20a154e668773a425e2b93af4cc.svg",
-            "https://ege.sdamgia.ru/formula/svg/66/66b9adf2b4ee535ca3944eacf4e9337c.svg",
-            "https://ege.sdamgia.ru/formula/svg/73/73c7fce77e4f679f8c18d9328201d397.svg",
-            "https://ege.sdamgia.ru/formula/svg/c6/c65001d3c972680a2660a01a23aeca15.svg",
-            "https://ege.sdamgia.ru/formula/svg/a9/a9e7dbe4237891ce3d9634eb762e408d.svg",
-            "https://ege.sdamgia.ru/formula/svg/c6/c65001d3c972680a2660a01a23aeca15.svg",
-            "https://ege.sdamgia.ru/formula/svg/c4/c46a01bd89839f4d099bc0e8a1fd4162.svg",
-            "https://ege.sdamgia.ru/formula/svg/10/10974d2143478262f2e3c4afafa41fa4.svg"
-        ]
-    },
     "answer": "-1",
-    "topic_id": 8,
-    "analog_ids": [
-        27486,
-        6059,
-        6077,
-        530818,
-        6059,
-        6077,
-        530818,
-        530893,
-        6045,
-        6047,
-        6049,
-        6051,
-        6053,
-        6055,
-        6057,
-        6061,
-        6063,
-        6065,
-        6067,
-        6069,
-        6071,
-        6073,
-        6075
-    ]
+    "analogs": [
+        "27486",
+        "6077",
+        "6043",
+        "6045",
+        "...",
+        "6077",
+        "6043",
+        "6045",
+        "6047",
+        "6049",
+        "6051",
+        "6053",
+        "6055",
+        "6057",
+        "6059",
+        "6061",
+        "6063",
+        "6065",
+        "6067",
+        "6069",
+        "6071",
+        "6073",
+        "6075"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=27486"
 }

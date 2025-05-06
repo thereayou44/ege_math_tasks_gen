@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block title %}Отладка категорий{% endblock %}
+
+{% block content %}
+<h1>Отладка категорий</h1>
+
+<div class="card mb-4">
+    <div class="card-header bg-primary text-white">
+        <h5>Базовый уровень</h5>
+    </div>
+    <div class="card-body">
+        <pre id="basicCategoriesJson" style="max-height: 400px; overflow-y: auto;"></pre>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header bg-secondary text-white">
+        <h5>Профильный уровень</h5>
+    </div>
+    <div class="card-body">
+        <pre id="advancedCategoriesJson" style="max-height: 400px; overflow-y: auto;"></pre>
+    </div>
+</div>
+
+<div class="mt-4">
+    <a href="/" class="btn btn-primary">Вернуться на главную</a>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Получаем данные категорий
+        var basicCategoriesData = {{ basic_categories|tojson|safe }};
+        var advancedCategoriesData = {{ advanced_categories|tojson|safe }};
+        
+        // Форматируем и выводим JSON
+        document.getElementById('basicCategoriesJson').textContent = 
+            JSON.stringify(basicCategoriesData, null, 2);
+        document.getElementById('advancedCategoriesJson').textContent = 
+            JSON.stringify(advancedCategoriesData, null, 2);
+            
+        // Выводим информацию в консоль
+        console.log('Basic categories count:', basicCategoriesData ? basicCategoriesData.length : 0);
+        console.log('Advanced categories count:', advancedCategoriesData ? advancedCategoriesData.length : 0);
+    });
+</script>
+{% endblock %} 

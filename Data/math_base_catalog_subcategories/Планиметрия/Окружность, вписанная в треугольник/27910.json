@@ -1,56 +1,45 @@
 {
-    "gia_type": "ege",
-    "subject": "math",
-    "id": 27910,
+    "id": "27910",
+    "topic": "Д15",
     "condition": {
-        "text": " Радиус окружности, вписанной в правильный треугольник, равен  Найдите сторону этого треугольника.",
-        "html": "<div align=\"justify\" width=\"100%\" id=\"body918522\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=113279\" style=\"float:right;margin:10px;max-width:100%\"> Ра­ди­ус окруж­но­сти, впи­сан­ной в пра­виль­ный тре­уголь­ник, равен <img src=\"https://ege.sdamgia.ru/formula/svg/f0/f07c9681a4dd7230e95b2514cec1bc39.svg\" class=\"tex\" style=\"vertical-align:-8.6pt\" alt=\" дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 6 конец дроби . \"> Най­ди­те сто­ро­ну этого тре­уголь­ни­ка.</p></div>",
-        "image_urls": [
-            "https://ege.sdamgia.ru/formula/svg/f0/f07c9681a4dd7230e95b2514cec1bc39.svg",
-            "/get_file?id=113279"
-        ]
-    },
-    "solution": {
-        "text": "Решение. Известно, что  а по условию  Следовательно,  поэтому длина стороны треугольника  Ответ: 1.",
-        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27910\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Из­вест­но, что <img src=\"https://ege.sdamgia.ru/formula/svg/7a/7a758c688f93fe7eb80371a14cde67ca.svg\" class=\"tex\" style=\"vertical-align:-8.6pt\" alt=\"r = дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 6 конец дроби a, \"> а по усло­вию <img src=\"https://ege.sdamgia.ru/formula/svg/db/db6008fa924f6ce70391f283b6d7e256.svg\" class=\"tex\" style=\"vertical-align:-8.6pt\" alt=\"r = дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 6 конец дроби . \"> Сле­до­ва­тель­но, <img src=\"https://ege.sdamgia.ru/formula/svg/53/5313c88888516f304c9dccb37090e94f.svg\" class=\"tex\" style=\"vertical-align:-8.6pt\" alt=\" дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 6 конец дроби a= дробь: чис­ли­тель: ко­рень из: на­ча­ло ар­гу­мен­та: 3 конец ар­гу­мен­та , зна­ме­на­тель: 6 конец дроби , \"> по­это­му длина сто­ро­ны тре­уголь­ни­ка <img src=\"https://ege.sdamgia.ru/formula/svg/2a/2a1b71b785c0cb14bb665bfef5a37b68.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"a=1.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 1.</p></div>",
-        "image_urls": [
-            "https://ege.sdamgia.ru/formula/svg/7a/7a758c688f93fe7eb80371a14cde67ca.svg",
-            "https://ege.sdamgia.ru/formula/svg/db/db6008fa924f6ce70391f283b6d7e256.svg",
-            "https://ege.sdamgia.ru/formula/svg/53/5313c88888516f304c9dccb37090e94f.svg",
-            "https://ege.sdamgia.ru/formula/svg/2a/2a1b71b785c0cb14bb665bfef5a37b68.svg"
+        "text": "Радиус окружности, вписанной в правильный треугольник, равен Найдите сторону этого треугольника.",
+        "images": [
+            "https://mathb-ege.sdamgia.ru/get_file?id=1504",
+            "https://ege.sdamgia.ru/formula/svg/f0/f07c9681a4dd7230e95b2514cec1bc39.svg"
         ]
     },
     "answer": "1",
-    "topic_id": 1,
-    "analog_ids": [
-        27910,
-        53271,
-        53315,
-        53273,
-        53271,
-        53315,
-        53273,
-        53275,
-        53277,
-        53279,
-        53281,
-        53283,
-        53285,
-        53287,
-        53289,
-        53291,
-        53293,
-        53295,
-        53297,
-        53299,
-        53301,
-        53303,
-        53305,
-        53307,
-        53309,
-        53311,
-        53313,
-        53317,
-        53319
-    ]
+    "analogs": [
+        "27910",
+        "53315",
+        "53271",
+        "53273",
+        "...",
+        "53315",
+        "53271",
+        "53273",
+        "53275",
+        "53277",
+        "53279",
+        "53281",
+        "53283",
+        "53285",
+        "53287",
+        "53289",
+        "53291",
+        "53293",
+        "53295",
+        "53297",
+        "53299",
+        "53301",
+        "53303",
+        "53305",
+        "53307",
+        "53309",
+        "53311",
+        "53313",
+        "53317",
+        "53319"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=27910"
 }

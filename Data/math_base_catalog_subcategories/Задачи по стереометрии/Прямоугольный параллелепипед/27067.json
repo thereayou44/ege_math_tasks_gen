@@ -1,0 +1,16 @@
+{
+    "id": "27067",
+    "topic": "Д16",
+    "condition": {
+        "text": "Прямоугольный параллелепипед описан около единичной сферы. Найдите его площадь поверхности.",
+        "images": [
+            "https://mathb-ege.sdamgia.ru/get_file?id=772"
+        ]
+    },
+    "answer": "24",
+    "analogs": [
+        "27067",
+        "5065"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=27067"
+}

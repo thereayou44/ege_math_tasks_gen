@@ -1,0 +1,199 @@
+{% extends "base.html" %}
+{% block title %}Отладка категорий (Консоль){% endblock %}
+
+{% block head %}
+<script>
+// Загружаем данные категорий напрямую в глобальные переменные
+var advancedCategoriesData = {{ advanced_categories|tojson|safe }};
+var basicCategoriesData = {{ basic_categories|tojson|safe }};
+console.log("HEAD - Advanced Categories Data:", advancedCategoriesData);
+console.log("HEAD - Basic Categories Data:", basicCategoriesData);
+</script>
+{% endblock %}
+
+{% block content %}
+<h1>Отладка категорий (смотрите консоль браузера)</h1>
+<div class="alert alert-info">
+    Эта страница предназначена для отладки проблемы с категориями.
+    Нажмите F12, чтобы открыть консоль разработчика и увидеть подробную информацию.
+</div>
+
+<div class="card mb-4">
+    <div class="card-header bg-primary text-white">
+        <h5>Переключение уровня ЕГЭ</h5>
+    </div>
+    <div class="card-body">
+        <div class="btn-group d-flex" role="group" aria-label="Уровень ЕГЭ">
+            <input type="radio" class="btn-check" name="exam_level" id="basic_level" value="basic" autocomplete="off">
+            <label class="btn btn-outline-primary" for="basic_level">Базовый</label>
+            
+            <input type="radio" class="btn-check" name="exam_level" id="advanced_level" value="advanced" autocomplete="off" checked>
+            <label class="btn btn-outline-primary" for="advanced_level">Профильный</label>
+        </div>
+    </div>
+</div>
+
+<div class="card mb-4">
+    <div class="card-header bg-primary text-white">
+        <h5>Категории</h5>
+    </div>
+    <div class="card-body">
+        <select id="category" class="form-select mb-3">
+            <option value="">Выберите категорию</option>
+        </select>
+    </div>
+</div>
+
+<div class="card mb-4">
+    <div class="card-header bg-primary text-white">
+        <h5>Подкатегории</h5>
+    </div>
+    <div class="card-body">
+        <select id="subcategory" class="form-select">
+            <option value="">Не выбрана</option>
+        </select>
+    </div>
+</div>
+
+<div class="mt-3">
+    <button id="debugBtn" class="btn btn-primary">Отладка в консоли</button>
+    <a href="/" class="btn btn-secondary">Вернуться на главную</a>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    // Глобальные переменные
+    var currentCategoriesData = advancedCategoriesData; // По умолчанию профильный уровень
+
+    // Отладочная информация при загрузке
+    console.log("==== ДИАГНОСТИКА КАТЕГОРИЙ ====");
+    console.log("Advanced Categories (профильный уровень):", advancedCategoriesData);
+    console.log("Basic Categories (базовый уровень):", basicCategoriesData);
+    console.log("Текущие категории:", currentCategoriesData);
+
+    // Функция для обновления списка подкатегорий
+    function updateSubcategories() {
+        var category = document.getElementById("category").value;
+        var subcategorySelect = document.getElementById("subcategory");
+        subcategorySelect.innerHTML = ""; // Очистить список подкатегорий
+
+        console.log("Выбрана категория:", category);
+
+        // Находим выбранную категорию в данных
+        var selectedCategory = null;
+        for (var i = 0; i < currentCategoriesData.length; i++) {
+            if (currentCategoriesData[i].category === category) {
+                selectedCategory = currentCategoriesData[i];
+                break;
+            }
+        }
+
+        console.log("Найдена категория:", selectedCategory);
+
+        // Добавляем опцию "Не выбрана"
+        var defaultOption = document.createElement("option");
+        defaultOption.value = "";
+        defaultOption.textContent = "Не выбрана";
+        subcategorySelect.appendChild(defaultOption);
+
+        // Если категория найдена и у нее есть подкатегории, добавляем их в выпадающий список
+        if (selectedCategory && selectedCategory.subcategories) {
+            console.log("Подкатегории:", selectedCategory.subcategories);
+            for (var j = 0; j < selectedCategory.subcategories.length; j++) {
+                var subcat = selectedCategory.subcategories[j];
+                var option = document.createElement("option");
+                option.value = subcat.name;
+                option.textContent = subcat.number + " " + subcat.name;
+                subcategorySelect.appendChild(option);
+                console.log("Добавлена подкатегория:", subcat.name);
+            }
+        } else {
+            console.log("Подкатегории не найдены или пусты");
+        }
+    }
+
+    // Функция для обновления списка категорий
+    function updateCategoriesList() {
+        var categorySelect = document.getElementById("category");
+        categorySelect.innerHTML = ""; // Очистить список категорий
+        
+        console.log("Обновление списка категорий");
+        console.log("Текущие данные:", currentCategoriesData);
+        
+        // Добавляем опцию "Выберите категорию"
+        var defaultOption = document.createElement("option");
+        defaultOption.value = "";
+        defaultOption.textContent = "Выберите категорию";
+        categorySelect.appendChild(defaultOption);
+        
+        // Добавляем категории из текущего набора данных
+        if (currentCategoriesData && currentCategoriesData.length > 0) {
+            console.log("Добавляем", currentCategoriesData.length, "категорий");
+            for (var i = 0; i < currentCategoriesData.length; i++) {
+                var cat = currentCategoriesData[i];
+                var option = document.createElement("option");
+                option.value = cat.category;
+                option.textContent = (cat.category_number ? cat.category_number + " " : "") + cat.category;
+                categorySelect.appendChild(option);
+                console.log("Добавлена категория:", cat.category);
+            }
+        } else {
+            console.error("Нет данных для категорий!");
+        }
+        
+        // Очищаем подкатегории
+        document.getElementById("subcategory").innerHTML = "";
+        var defaultSubOption = document.createElement("option");
+        defaultSubOption.value = "";
+        defaultSubOption.textContent = "Не выбрана";
+        document.getElementById("subcategory").appendChild(defaultSubOption);
+    }
+
+    // Обработчики событий
+    document.getElementById("category").addEventListener("change", updateSubcategories);
+    
+    document.getElementById("basic_level").addEventListener("change", function() {
+        if (this.checked) {
+            console.log("Переключение на базовый уровень");
+            currentCategoriesData = basicCategoriesData;
+            updateCategoriesList();
+        }
+    });
+    
+    document.getElementById("advanced_level").addEventListener("change", function() {
+        if (this.checked) {
+            console.log("Переключение на профильный уровень");
+            currentCategoriesData = advancedCategoriesData;
+            updateCategoriesList();
+        }
+    });
+    
+    document.getElementById("debugBtn").addEventListener("click", function() {
+        console.log("======= ОТЛАДОЧНАЯ ИНФОРМАЦИЯ =======");
+        console.log("Текущий уровень:", document.getElementById("basic_level").checked ? "Базовый" : "Профильный");
+        console.log("Текущие категории:", currentCategoriesData);
+        console.log("Выбранная категория:", document.getElementById("category").value);
+        console.log("Выбранная подкатегория:", document.getElementById("subcategory").value);
+        
+        // Дополнительная проверка структуры данных категорий
+        console.log("\n=== Проверка структуры данных ===");
+        console.log("advancedCategoriesData:", typeof advancedCategoriesData, Array.isArray(advancedCategoriesData));
+        console.log("basicCategoriesData:", typeof basicCategoriesData, Array.isArray(basicCategoriesData));
+        
+        if (Array.isArray(advancedCategoriesData) && advancedCategoriesData.length > 0) {
+            console.log("Первая категория профильного уровня:", advancedCategoriesData[0]);
+        }
+        
+        if (Array.isArray(basicCategoriesData) && basicCategoriesData.length > 0) {
+            console.log("Первая категория базового уровня:", basicCategoriesData[0]);
+        }
+    });
+    
+    // Инициализация при загрузке страницы
+    document.addEventListener("DOMContentLoaded", function() {
+        console.log("DOMContentLoaded - Инициализация страницы");
+        updateCategoriesList();
+    });
+</script>
+{% endblock %} 

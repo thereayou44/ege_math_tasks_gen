@@ -1,0 +1,30 @@
+{
+    "id": "27218",
+    "topic": "Д15",
+    "condition": {
+        "text": "В треугольнике ABC угол C равен 90°, Найдите",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/bb/bb22fbf2af1184bc36abb2264cbdebe6.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/555d408c2fe21941015b3c76ad9c47ef.svg",
+            "https://mathb-ege.sdamgia.ru/get_file?id=7669"
+        ]
+    },
+    "answer": "0,25",
+    "analogs": [
+        "27218",
+        "28863",
+        "28867",
+        "28851",
+        "...",
+        "28863",
+        "28867",
+        "28851",
+        "28853",
+        "28855",
+        "28857",
+        "28859",
+        "28861",
+        "28865"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=27218"
+}

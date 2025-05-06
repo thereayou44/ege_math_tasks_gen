@@ -1,56 +1,45 @@
 {
-    "gia_type": "ege",
-    "subject": "math",
-    "id": 26829,
+    "id": "26829",
+    "topic": "Д5",
     "condition": {
-        "text": "Найдите значение выражения  при ",
-        "html": "<div align=\"justify\" width=\"100%\" id=\"body919089\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те зна­че­ние вы­ра­же­ния <img src=\"https://ege.sdamgia.ru/formula/svg/86/86baae03ee0ba64c454ffa882981403b.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"x плюс ко­рень из: на­ча­ло ар­гу­мен­та: x в квад­ра­те минус 4x плюс 4 конец ар­гу­мен­та \"> при <img src=\"https://ege.sdamgia.ru/formula/svg/75/75aa1e32ba64a5e0c72bb140ef3241d3.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"x мень­ше или равно 2.\"></p></div>",
-        "image_urls": [
+        "text": "Найдите значение выражения при",
+        "images": [
             "https://ege.sdamgia.ru/formula/svg/86/86baae03ee0ba64c454ffa882981403b.svg",
             "https://ege.sdamgia.ru/formula/svg/75/75aa1e32ba64a5e0c72bb140ef3241d3.svg"
         ]
     },
-    "solution": {
-        "text": "Решение. Выполним преобразования:  При  имеем  Тогда  Ответ: 2.",
-        "html": "<div align=\"justify\" width=\"100%\" id=\"sol26829\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Вы­пол­ним пре­об­ра­зо­ва­ния: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/c1/c10b62f2b816214e78a979e60c80860a.svg\" class=\"tex\" style=\"vertical-align:-5.9pt\" alt=\"x плюс ко­рень из: на­ча­ло ар­гу­мен­та: x конец ар­гу­мен­та в квад­ра­те минус 4x плюс 4=x плюс ко­рень из: на­ча­ло ар­гу­мен­та: левая круг­лая скоб­ка x минус 2 пра­вая круг­лая скоб­ка конец ар­гу­мен­та в квад­ра­те =x плюс \\left| x минус 2 |.\"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p class=\"left_margin\">При <img src=\"https://ege.sdamgia.ru/formula/svg/2e/2ebc0a616e19b33ad92a4cd25ed2fd56.svg\" class=\"tex\" style=\"vertical-align:-2.4pt\" alt=\"x мень­ше или равно 2\"> имеем <img src=\"https://ege.sdamgia.ru/formula/svg/f3/f361afbd9d769d49b3c52064c78d948b.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"|x минус 2|=2 минус x.\"> Тогда <img src=\"https://ege.sdamgia.ru/formula/svg/c7/c742d677cefa75c5d002a93feaf9c33f.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"x плюс \\left| x минус 2 |=x плюс 2 минус x=2.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ</span>: 2.</p></div>",
-        "image_urls": [
-            "https://ege.sdamgia.ru/formula/svg/c1/c10b62f2b816214e78a979e60c80860a.svg",
-            "https://ege.sdamgia.ru/formula/svg/2e/2ebc0a616e19b33ad92a4cd25ed2fd56.svg",
-            "https://ege.sdamgia.ru/formula/svg/f3/f361afbd9d769d49b3c52064c78d948b.svg",
-            "https://ege.sdamgia.ru/formula/svg/c7/c742d677cefa75c5d002a93feaf9c33f.svg"
-        ]
-    },
     "answer": "2",
-    "topic_id": 7,
-    "analog_ids": [
-        26829,
-        67611,
-        67615,
-        67567,
-        67611,
-        67615,
-        67567,
-        67569,
-        67571,
-        67573,
-        67575,
-        67577,
-        67579,
-        67581,
-        67583,
-        67585,
-        67587,
-        67589,
-        67591,
-        67593,
-        67595,
-        67597,
-        67599,
-        67601,
-        67603,
-        67605,
-        67607,
-        67609,
-        67613
-    ]
+    "analogs": [
+        "26829",
+        "67611",
+        "67615",
+        "67567",
+        "...",
+        "67611",
+        "67615",
+        "67567",
+        "67569",
+        "67571",
+        "67573",
+        "67575",
+        "67577",
+        "67579",
+        "67581",
+        "67583",
+        "67585",
+        "67587",
+        "67589",
+        "67591",
+        "67593",
+        "67595",
+        "67597",
+        "67599",
+        "67601",
+        "67603",
+        "67605",
+        "67607",
+        "67609",
+        "67613"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=26829"
 }

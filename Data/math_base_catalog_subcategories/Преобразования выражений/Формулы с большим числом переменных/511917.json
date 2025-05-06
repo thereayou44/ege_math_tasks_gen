@@ -1,0 +1,17 @@
+{
+    "id": "511917",
+    "topic": "4",
+    "condition": {
+        "text": "Площадь треугольника можно вычислить по формуле где a, b и c — стороны треугольника, а R — радиус окружности, описанной около этого треугольника. Пользуясь этой формулой, найдите b, если a = 12, с = 13, S = 30 и R =",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/f2/f2b8f2e604a89f56cf0a0494b3ca7a1d.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/18fdbd6f6758a6398e27ed3ec6d3145a.svg"
+        ]
+    },
+    "answer": "5",
+    "analogs": [
+        "511917",
+        "511937"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=511917"
+}

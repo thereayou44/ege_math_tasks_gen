@@ -34,18 +34,24 @@ _task_cache = {}
 # Используем готовые инструкции для подсказок из модуля prompts
 from prompts import HINT_PROMPTS, SYSTEM_PROMPT, REGEX_PATTERNS, DEFAULT_VISUALIZATION_PARAMS
 
-def select_file(category, subcategory=""):
+def select_file(category, subcategory="", is_basic_level=False):
     """
     Выбирает случайный файл с задачей из указанной категории и подкатегории.
     
     Args:
         category: Название категории задач
         subcategory: Название подкатегории (опционально)
+        is_basic_level: Выбор между базовым (True) и профильным (False) уровнем ЕГЭ
         
     Returns:
         dict: JSON-данные выбранной задачи
     """
+    # Выбираем соответствующий каталог в зависимости от уровня
+    if is_basic_level:
+        base_dir = "Data/math_base_catalog_subcategories"
+    else:
     base_dir = "Data/math_catalog_subcategories"
+        
     category_dir = os.path.join(base_dir, category)
     
     if not subcategory:
@@ -197,14 +203,14 @@ def extract_answer_with_latex(solution):
             # Заменяем одинарные $ на двойные $$
             answer = answer.replace('$', '$$')
         else:
-            # Проверяем, есть ли в ответе формулы LaTeX и корректируем их
-            # Ищем выражения без окружения $ и оборачиваем их
-            formula_pattern = r'(\\frac|\\sqrt|\\sum|\\prod|\\int|\\lim|\\sin|\\cos|\\tan|\\log|\\ln)'
+        # Проверяем, есть ли в ответе формулы LaTeX и корректируем их
+        # Ищем выражения без окружения $ и оборачиваем их
+        formula_pattern = r'(\\frac|\\sqrt|\\sum|\\prod|\\int|\\lim|\\sin|\\cos|\\tan|\\log|\\ln)'
             answer = re.sub(formula_pattern, r'$$\1', answer)
-            
+        
             # Если мы добавили открывающий символ $$, но нет закрывающего, добавляем его
             open_count = answer.count('$$')
-            if open_count % 2 != 0:
+        if open_count % 2 != 0:
                 answer += '$$'
             
         # Экранируем угловые скобки, если они не являются частью HTML-тега
@@ -232,13 +238,13 @@ def extract_answer_with_latex(solution):
                 # Заменяем одинарные $ на двойные $$
                 answer = answer.replace('$', '$$')
             else:
-                # Применяем те же преобразования, что и выше
-                formula_pattern = r'(\\frac|\\sqrt|\\sum|\\prod|\\int|\\lim|\\sin|\\cos|\\tan|\\log|\\ln)'
+            # Применяем те же преобразования, что и выше
+            formula_pattern = r'(\\frac|\\sqrt|\\sum|\\prod|\\int|\\lim|\\sin|\\cos|\\tan|\\log|\\ln)'
                 answer = re.sub(formula_pattern, r'$$\1', answer)
-                
+            
                 # Если мы добавили открывающий символ $$, но нет закрывающего, добавляем его
                 open_count = answer.count('$$')
-                if open_count % 2 != 0:
+            if open_count % 2 != 0:
                     answer += '$$'
                 
             if '<' in answer and not re.search(r'<[a-z/]', answer):
@@ -1438,7 +1444,7 @@ def fix_html_tags(html_text):
     
     return '\n'.join(result)
 
-def generate_markdown_task(category, subcategory="", difficulty_level=3):
+def generate_markdown_task(category, subcategory="", difficulty_level=3, is_basic_level=False):
     """
     Генерирует полный пакет задачи, решения и подсказок в формате Markdown.
     
@@ -1446,12 +1452,13 @@ def generate_markdown_task(category, subcategory="", difficulty_level=3):
         category: Категория задачи
         subcategory: Подкатегория задачи (опционально)
         difficulty_level: Уровень сложности подсказок (1-5)
+        is_basic_level: Выбор между базовым (True) и профильным (False) уровнем ЕГЭ
         
     Returns:
         dict: Словарь с задачей, решением и подсказками в Markdown
     """
     # Используем существующую функцию для генерации задачи
-    result = generate_complete_task(category, subcategory, difficulty_level)
+    result = generate_complete_task(category, subcategory, difficulty_level, is_basic_level)
     
     # Проверяем на ошибки
     if "error" in result:
@@ -1470,104 +1477,13 @@ def generate_markdown_task(category, subcategory="", difficulty_level=3):
         "hint1": md_hints[0] if len(md_hints) > 0 else "",
         "hint2": md_hints[1] if len(md_hints) > 1 else "",
         "hint3": md_hints[2] if len(md_hints) > 2 else "",
-        "difficulty_level": result.get("difficulty_level", difficulty_level)
+        "difficulty_level": result.get("difficulty_level", difficulty_level),
+        "is_basic_level": is_basic_level
     }
     
     return markdown_result
 
-def html_to_markdown(html_text):
-    """
-    Преобразует HTML в Markdown
-    
-    Args:
-        html_text: Текст с HTML-тегами
-        
-    Returns:
-        str: Текст в формате Markdown
-    """
-    if not html_text:
-        return ""
-    
-    # Сначала обработаем LaTeX-формулы, чтобы не потерять их
-    # Сохраняем формулы в словаре и заменяем их плейсхолдерами
-    math_placeholders = {}
-    math_counter = 0
-    
-    # Находим все LaTeX-формулы (внутри $ $ или $$ $$)
-    def save_math(match):
-        nonlocal math_counter
-        placeholder = f"__MATH_PLACEHOLDER_{math_counter}__"
-        math_placeholders[placeholder] = match.group(0)
-        math_counter += 1
-        return placeholder
-    
-    # Сохраняем одинарные $ формулы
-    html_text = re.sub(r'\$(.*?)\$', save_math, html_text)
-    # Сохраняем двойные $$ формулы
-    html_text = re.sub(r'\$\$(.*?)\$\$', save_math, html_text)
-    
-    # Замена HTML тегов на Markdown
-    # Используем BeautifulSoup для корректного парсинга HTML
-    try:
-        soup = BeautifulSoup(html_text, 'html.parser')
-        
-        # Обработка параграфов
-        for p in soup.find_all('p'):
-            p.insert_after('\n\n')
-            p.unwrap()
-        
-        # Обработка жирного текста
-        for b in soup.find_all(['b', 'strong']):
-            b.insert_before('**')
-            b.insert_after('**')
-            b.unwrap()
-        
-        # Обработка курсива
-        for i in soup.find_all(['i', 'em']):
-            i.insert_before('*')
-            i.insert_after('*')
-            i.unwrap()
-        
-        # Обработка переносов строк
-        for br in soup.find_all('br'):
-            br.replace_with('\n')
-        
-        # Получаем текст без HTML-тегов
-        text = str(soup)
-        
-        # Убираем оставшиеся HTML-теги
-        text = re.sub(r'<[^>]+>', '', text)
-        
-    except ImportError:
-        # Если BeautifulSoup не установлен, используем регулярные выражения
-        # Параграфы
-        text = re.sub(r'<p>(.*?)</p>', r'\1\n\n', html_text, flags=re.DOTALL)
-        
-        # Жирный текст
-        text = re.sub(r'<b>(.*?)</b>', r'**\1**', text, flags=re.DOTALL)
-        text = re.sub(r'<strong>(.*?)</strong>', r'**\1**', text, flags=re.DOTALL)
-        
-        # Курсив
-        text = re.sub(r'<i>(.*?)</i>', r'*\1*', text, flags=re.DOTALL)
-        text = re.sub(r'<em>(.*?)</em>', r'*\1*', text, flags=re.DOTALL)
-        
-        # Переносы строк
-        text = re.sub(r'<br\s*/?>', r'\n', text)
-        
-        # Убираем оставшиеся HTML-теги
-        text = re.sub(r'<[^>]+>', '', text)
-    
-    # Удаляем лишние пробелы и переносы строк
-    text = re.sub(r'\n{3,}', '\n\n', text)
-    text = text.strip()
-    
-    # Возвращаем формулы обратно
-    for placeholder, formula in math_placeholders.items():
-        text = text.replace(placeholder, formula)
-    
-    return text
-
-def generate_json_task(category, subcategory="", difficulty_level=3):
+def generate_json_task(category, subcategory="", difficulty_level=3, is_basic_level=False):
     """
     Генерирует полный пакет задачи, решения и подсказок в формате JSON.
     
@@ -1575,12 +1491,13 @@ def generate_json_task(category, subcategory="", difficulty_level=3):
         category: Категория задачи
         subcategory: Подкатегория задачи (опционально)
         difficulty_level: Уровень сложности подсказок (1-5)
+        is_basic_level: Выбор между базовым (True) и профильным (False) уровнем ЕГЭ
         
     Returns:
         dict: Словарь с задачей, решением и подсказками в формате JSON
     """
     # Используем существующую функцию для генерации задачи
-    result = generate_complete_task(category, subcategory, difficulty_level)
+    result = generate_complete_task(category, subcategory, difficulty_level, is_basic_level)
     
     # Проверяем на ошибки
     if "error" in result:
@@ -1627,12 +1544,13 @@ def generate_json_task(category, subcategory="", difficulty_level=3):
         "difficulty_level": result.get("difficulty_level", difficulty_level),
         "category": category,
         "subcategory": subcategory,
+        "is_basic_level": is_basic_level,
         "format": "html"  # Указываем формат данных
     }
     
     return json_result
 
-def generate_json_markdown_task(category, subcategory="", difficulty_level=3):
+def generate_json_markdown_task(category, subcategory="", difficulty_level=3, is_basic_level=False):
     """
     Генерирует полный пакет задачи, решения и подсказок в формате JSON с Markdown-форматированием.
     
@@ -1640,12 +1558,13 @@ def generate_json_markdown_task(category, subcategory="", difficulty_level=3):
         category: Категория задачи
         subcategory: Подкатегория задачи (опционально)
         difficulty_level: Уровень сложности подсказок (1-5)
+        is_basic_level: Выбор между базовым (True) и профильным (False) уровнем ЕГЭ
         
     Returns:
         dict: Словарь с задачей, решением и подсказками в формате JSON (Markdown)
     """
     # Используем существующую функцию для генерации задачи в HTML
-    result = generate_complete_task(category, subcategory, difficulty_level)
+    result = generate_complete_task(category, subcategory, difficulty_level, is_basic_level)
     
     # Проверяем на ошибки
     if "error" in result:
@@ -1702,12 +1621,13 @@ def generate_json_markdown_task(category, subcategory="", difficulty_level=3):
         "difficulty_level": result.get("difficulty_level", difficulty_level),
         "category": category,
         "subcategory": subcategory,
+        "is_basic_level": is_basic_level,
         "format": "markdown"  # Указываем формат данных
     }
     
     return json_result
 
-def generate_complete_task(category, subcategory="", difficulty_level=3):
+def generate_complete_task(category, subcategory="", difficulty_level=3, is_basic_level=False):
     """
     Генерирует полный пакет: задачу, решение и подсказки.
     
@@ -1715,13 +1635,14 @@ def generate_complete_task(category, subcategory="", difficulty_level=3):
         category: Категория задачи
         subcategory: Подкатегория задачи (опционально)
         difficulty_level: Уровень сложности подсказок (1-5)
+        is_basic_level: Выбор между базовым (True) и профильным (False) уровнем ЕГЭ
         
     Returns:
         dict: Словарь с задачей, решением, подсказками и другими данными
     """
     try:
-        # Выбираем случайную задачу из каталога
-        data = select_file(category, subcategory)
+        # Выбираем случайную задачу из каталога с учетом выбранного уровня
+        data = select_file(category, subcategory, is_basic_level)
         
         if not data:
             return {"error": f"Не удалось найти задачи в категории '{category}' и подкатегории '{subcategory}'"}
@@ -1779,7 +1700,8 @@ def generate_complete_task(category, subcategory="", difficulty_level=3):
             "answer": answer,
             "difficulty_level": difficulty_level,
             "category": category,
-            "subcategory": subcategory
+            "subcategory": subcategory,
+            "is_basic_level": is_basic_level
         }
         
         # Добавляем информацию об изображении, если оно есть

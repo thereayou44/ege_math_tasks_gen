@@ -1,0 +1,46 @@
+Используется YandexGPT API для генерации задач
+==================================================
+Запуск генератора задач ЕГЭ по математике
+==================================================
+ * Serving Flask app 'app'
+ * Debug mode: on
+2025-05-06 03:38:44,291 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.241.56:5000
+2025-05-06 03:38:44,291 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-06 03:38:44,291 - INFO -  * Restarting with stat
+2025-05-06 03:38:44,702 - WARNING -  * Debugger is active!
+2025-05-06 03:38:44,703 - INFO -  * Debugger PIN: 841-363-169
+2025-05-06 03:39:18,322 - INFO - 127.0.0.1 - - [06/May/2025 03:39:18] "GET /debug_categories_console HTTP/1.1" 200 -
+2025-05-06 03:39:18,363 - INFO - 127.0.0.1 - - [06/May/2025 03:39:18] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-06 03:39:18,738 - INFO - 127.0.0.1 - - [06/May/2025 03:39:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-06 03:39:23,025 - INFO - 127.0.0.1 - - [06/May/2025 03:39:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-06 03:39:34,086 - INFO - 127.0.0.1 - - [06/May/2025 03:39:34] "GET / HTTP/1.1" 200 -
+2025-05-06 03:39:34,394 - INFO - 127.0.0.1 - - [06/May/2025 03:39:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-06 03:39:41,810 - INFO - Выбрана исходная задача: ...
+2025-05-06 03:39:55,649 - INFO - Сгенерированный текст сохранен в файл: last_generated_task.txt
+2025-05-06 03:39:55,649 - INFO - Найден ответ: $1 < x \leq -2 + 3\sqrt{2}$
+2025-05-06 03:39:55,651 - INFO - 127.0.0.1 - - [06/May/2025 03:39:55] "POST /generate_task HTTP/1.1" 200 -
+2025-05-06 05:12:09,803 - INFO -  * Detected change in '/home/thereayou/dimploma/ege_math_tasks_gen/task_generator.py', reloading
+Используется YandexGPT API для генерации задач
+==================================================
+Запуск генератора задач ЕГЭ по математике
+==================================================
+Отладка категорий в консоли:
+- Профильный уровень: 34 категорий
+- Базовый уровень: 24 категорий
+Выбран файл: Data/math_base_catalog_subcategories/Неравенства/Решение неравенств/506520.json
+Задача сохранена в файл last_generated_task.txt
+Отправка данных клиенту:
+- Длина задачи: 55
+- Длина решения: 1585
+- Количество подсказок: 3
+2025-05-06 05:12:10,100 - INFO -  * Restarting with stat
+Traceback (most recent call last):
+  File "/home/thereayou/dimploma/ege_math_tasks_gen/app.py", line 9, in <module>
+    from task_generator import generate_complete_task, convert_markdown_to_html
+  File "/home/thereayou/dimploma/ege_math_tasks_gen/task_generator.py", line 53
+    base_dir = "Data/math_catalog_subcategories"
+    ^
+IndentationError: expected an indented block after 'else' statement on line 52

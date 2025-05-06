@@ -1,23 +1,17 @@
 {
-    "gia_type": "ege",
-    "subject": "math",
-    "id": 920,
+    "id": "920",
+    "topic": "Д13",
     "condition": {
-        "text": "В правильной треугольной пирамиде SABC точка M  — середина ребра AB, S  — вершина. Известно, что BC  =  3, а площадь боковой поверхности пирамиды равна 45. Найдите длину отрезка SM.",
-        "html": "<div align=\"justify\" width=\"100%\" id=\"body945508\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=111736\" style=\"float:right;margin:10px;max-width:100%\">В пра­виль­ной тре­уголь­ной пи­ра­ми­де <i>SABC</i> точка <i>M</i>  — се­ре­ди­на ребра <i>AB</i>, <i>S</i>  — вер­ши­на. Из­вест­но, что <i>BC</i>  =  3, а пло­щадь бо­ко­вой по­верх­но­сти пи­ра­ми­ды равна 45. Най­ди­те длину от­рез­ка <i>SM</i>.</p></div>",
-        "image_urls": [
-            "/get_file?id=111736"
-        ]
-    },
-    "solution": {
-        "text": "Решение. Найдем площадь грани SAB: Отрезок SM является медианой равнобедренного треугольника SAB, проведённой к его основанию, а значит, SM является и его высотой. ТогдаОтвет: 10.",
-        "html": "<div align=\"justify\" width=\"100%\" id=\"sol920\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Най­дем пло­щадь грани <i>SAB</i>:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d1/d1971d2397034ad70a2614a411aba751.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S_SAB= дробь: чис­ли­тель: S_бок, зна­ме­на­тель: 3 конец дроби = дробь: чис­ли­тель: 45, зна­ме­на­тель: 3 конец дроби =15. \"></p><p class=\"left_margin\"></p></center><p> От­ре­зок <i>SM</i> яв­ля­ет­ся ме­ди­а­ной рав­но­бед­рен­но­го тре­уголь­ни­ка <i>SAB</i>, про­ведённой к его ос­но­ва­нию, а зна­чит, <i>SM</i> яв­ля­ет­ся и его вы­со­той. Тогда</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/da/da47293c95e5e9cd8050067eed2e5435.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"SM= дробь: чис­ли­тель: 2S_SAB, зна­ме­на­тель: AB конец дроби = дробь: чис­ли­тель: 2S_SAB, зна­ме­на­тель: BC конец дроби = дробь: чис­ли­тель: 2 умно­жить на 15, зна­ме­на­тель: 3 конец дроби =10. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing:2px \">Ответ</span>: 10.</p></div>",
-        "image_urls": [
-            "https://ege.sdamgia.ru/formula/svg/d1/d1971d2397034ad70a2614a411aba751.svg",
-            "https://ege.sdamgia.ru/formula/svg/da/da47293c95e5e9cd8050067eed2e5435.svg"
+        "text": "В правильной треугольной пирамиде SABC точка M — середина ребра AB, S — вершина. Известно, что BC = 3, а площадь боковой поверхности пирамиды равна 45. Найдите длину отрезка SM.",
+        "images": [
+            "https://mathb-ege.sdamgia.ru/get_file?id=111736"
         ]
     },
     "answer": "10",
-    "topic_id": 3,
-    "analog_ids": []
+    "analogs": [
+        "920",
+        "922",
+        "924"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=920"
 }

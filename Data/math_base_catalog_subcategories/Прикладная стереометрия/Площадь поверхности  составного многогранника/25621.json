@@ -1,39 +1,23 @@
 {
-    "gia_type": "ege",
-    "subject": "math",
-    "id": 25621,
+    "id": "25621",
+    "topic": "11",
     "condition": {
         "text": "Найдите площадь поверхности многогранника, изображенного на рисунке (все двугранные углы прямые).",
-        "html": "<div align=\"justify\" width=\"100%\" id=\"body920297\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=29670\" style=\"float:right;margin:10px\">Най­ди­те пло­щадь по­верх­но­сти мно­го­гран­ни­ка, изоб­ра­жен­но­го на ри­сун­ке (все дву­гран­ные углы пря­мые).</p></div>",
-        "image_urls": [
-            "/get_file?id=29670"
-        ]
-    },
-    "solution": {
-        "text": "Решение. Площадь поверхности заданного многогранника равна площади поверхности прямоугольного параллелепипеда с ребрами 3, 5, 4:Ответ: 94. Примечание для тех, кто не верит в это решение. Посчитайте площадь поверхности, сложив площади всех девяти граней данного многогранника, и смиритесь: ",
-        "html": "<div align=\"justify\" width=\"100%\" id=\"sol25621\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пло­щадь по­верх­но­сти за­дан­но­го мно­го­гран­ни­ка равна пло­ща­ди по­верх­но­сти пря­мо­уголь­но­го па­рал­ле­ле­пи­пе­да с реб­ра­ми 3, 5, 4:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/72/7228dd78accf0577b1d13327330811f1.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"2 умно­жить на 4 умно­жить на 5 плюс 2 умно­жить на 3 умно­жить на 5 плюс 2 умно­жить на 3 умно­жить на 4=94.\"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing:2px \">Ответ</span>: 94.</p><p>&nbsp;</p><p><b>При­ме­ча­ние для тех, кто не верит в это ре­ше­ние.</b> </p><p class=\"left_margin\">По­счи­тай­те пло­щадь по­верх­но­сти, сло­жив пло­ща­ди всех де­вя­ти гра­ней дан­но­го мно­го­гран­ни­ка, и сми­ри­тесь: </p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"ba4d93d33f6c77655f2f5024e5b806ca\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/38/384cbd73ed11817547e59e13f2a42575.svg\" class=\"tex\" style=\"vertical-align:-5.1pt\" alt=\"20_ левая круг­лая скоб­ка прав. пра­вая круг­лая скоб­ка плюс 15_ левая круг­лая скоб­ка нижн. пра­вая круг­лая скоб­ка плюс 12_ левая круг­лая скоб­ка задн. пра­вая круг­лая скоб­ка плюс 10_ левая круг­лая скоб­ка пе­редн. пра­вая круг­лая скоб­ка плюс 16_ левая круг­лая скоб­ка лев. пра­вая круг­лая скоб­ка плюс \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/5b/5bb79402ba6bac9145020a9568b3bf48.svg\" class=\"tex\" style=\"vertical-align:-5.1pt\" alt=\" плюс 13_ левая круг­лая скоб­ка верхн. пра­вая круг­лая скоб­ка плюс 2_ левая круг­лая скоб­ка мал.верх. пра­вая круг­лая скоб­ка плюс 2_ левая круг­лая скоб­ка мал.пе­редн. пра­вая круг­лая скоб­ка плюс 4_ левая круг­лая скоб­ка мал.лев пра­вая круг­лая скоб­ка =94.\"></span><span data-width=\"365\" data-formulahash=\"ba4d93d33f6c77655f2f5024e5b806ca\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/63/633c2bbd3c108f1927e801583bd51403.svg\" class=\"tex\" style=\"vertical-align:-5.1pt\" alt=\"20_ левая круг­лая скоб­ка прав. пра­вая круг­лая скоб­ка плюс 15_ левая круг­лая скоб­ка нижн. пра­вая круг­лая скоб­ка плюс 12_ левая круг­лая скоб­ка задн. пра­вая круг­лая скоб­ка плюс 10_ левая круг­лая скоб­ка пе­редн. пра­вая круг­лая скоб­ка плюс \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/00/004a4cd94e06e17c047c51aa48058b5d.svg\" class=\"tex\" style=\"vertical-align:-5.1pt\" alt=\" плюс 16_ левая круг­лая скоб­ка лев. пра­вая круг­лая скоб­ка плюс 13_ левая круг­лая скоб­ка верхн. пра­вая круг­лая скоб­ка плюс 2_ левая круг­лая скоб­ка мал.верх. пра­вая круг­лая скоб­ка плюс \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/36/36277fad83d064da23ebcc8277a59ec9.svg\" class=\"tex\" style=\"vertical-align:-5.1pt\" alt=\" плюс 2_ левая круг­лая скоб­ка мал.пе­редн. пра­вая круг­лая скоб­ка плюс 4_ левая круг­лая скоб­ка мал.лев пра­вая круг­лая скоб­ка =94.\"></span></p><p class=\"left_margin\"></p></center></div>",
-        "image_urls": [
-            "https://ege.sdamgia.ru/formula/svg/72/7228dd78accf0577b1d13327330811f1.svg",
-            "https://ege.sdamgia.ru/formula/svg/38/384cbd73ed11817547e59e13f2a42575.svg",
-            "https://ege.sdamgia.ru/formula/svg/5b/5bb79402ba6bac9145020a9568b3bf48.svg",
-            "https://ege.sdamgia.ru/formula/svg/63/633c2bbd3c108f1927e801583bd51403.svg",
-            "https://ege.sdamgia.ru/formula/svg/00/004a4cd94e06e17c047c51aa48058b5d.svg",
-            "https://ege.sdamgia.ru/formula/svg/36/36277fad83d064da23ebcc8277a59ec9.svg"
+        "images": [
+            "https://mathb-ege.sdamgia.ru/get_file?id=188631"
         ]
     },
     "answer": "94",
-    "topic_id": 3,
-    "analog_ids": [
-        25621,
-        25623,
-        25625,
-        25629,
-        25623,
-        25625,
-        25629,
-        513678,
-        513708,
-        672860,
-        25627
-    ]
+    "analogs": [
+        "25621",
+        "25625",
+        "25629",
+        "25623",
+        "...",
+        "25625",
+        "25629",
+        "25623",
+        "25627"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=25621"
 }

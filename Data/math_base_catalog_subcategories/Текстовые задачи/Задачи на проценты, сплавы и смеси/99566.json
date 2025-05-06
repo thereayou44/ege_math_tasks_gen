@@ -1,45 +1,27 @@
 {
-    "gia_type": "ege",
-    "subject": "math",
-    "id": 99566,
+    "id": "99566",
+    "topic": "20",
     "condition": {
-        "text": "В понедельник акции компании подорожали на некоторое количество процентов, а во вторник подешевели на то же самое количество процентов. В результате они стали стоить на  дешевле, чем при открытии торгов в понедельник. На сколько процентов подорожали акции компании в понедельник?",
-        "html": "<div align=\"justify\" width=\"100%\" id=\"body1042962\" class=\"pbody\"><p class=\"left_margin\">В по­не­дель­ник акции ком­па­нии по­до­ро­жа­ли на не­ко­то­рое ко­ли­че­ство про­цен­тов, а во втор­ник по­де­ше­ве­ли на то же самое ко­ли­че­ство про­цен­тов. В ре­зуль­та­те они стали сто­ить на <img src=\"https://ege.sdamgia.ru/formula/svg/41/416f965acc1f38b3d2244f6f0ab7d0e0.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"4 \\%\"> де­шев­ле, чем при от­кры­тии тор­гов в по­не­дель­ник. На сколь­ко про­цен­тов по­до­ро­жа­ли акции ком­па­нии в по­не­дель­ник?</p></div>",
-        "image_urls": [
+        "text": "В понедельник акции компании подорожали на некоторое количество процентов, а во вторник подешевели на то же самое количество процентов. В результате они стали стоить на дешевле, чем при открытии торгов в понедельник. На сколько процентов подорожали акции компании в понедельник?",
+        "images": [
             "https://ege.sdamgia.ru/formula/svg/41/416f965acc1f38b3d2244f6f0ab7d0e0.svg"
         ]
     },
-    "solution": {
-        "text": "Решение. Обозначим первоначальную стоимость акций за 1. Пусть в понедельник акции компании подорожали на  и их стоимость стала составлять  Во вторник акции подешевели на  и их стоимость стала составлять  В результате они стали стоить на  дешевле, чем при открытии торгов в понедельник, то есть 0,96. Таким образом,  Ответ: 20. Приведем другое решение.В результате подорожания акций на х% их стоимость изменяется в  раза, а в результате удешевления изменяется в  раза. Тогда: ",
-        "html": "<div align=\"justify\" width=\"100%\" id=\"sol99566\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Обо­зна­чим пер­во­на­чаль­ную сто­и­мость акций за 1. Пусть в по­не­дель­ник акции ком­па­нии по­до­ро­жа­ли на <img src=\"https://ege.sdamgia.ru/formula/svg/9c/9c83ce81de92b53966b31dc65590b2fd.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"c умно­жить на 100 \\%,\"> и их сто­и­мость стала со­став­лять <img src=\"https://ege.sdamgia.ru/formula/svg/cb/cb2f3a93fc7324a6d9ade7f346717163.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"1 плюс c умно­жить на 1.\"> Во втор­ник акции по­де­ше­ве­ли на <img src=\"https://ege.sdamgia.ru/formula/svg/9c/9c83ce81de92b53966b31dc65590b2fd.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"c умно­жить на 100 \\%,\"> и их сто­и­мость стала со­став­лять <img src=\"https://ege.sdamgia.ru/formula/svg/53/53fc33d7617582912ea643adaa65bee5.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"1 плюс c минус c левая круг­лая скоб­ка 1 плюс c пра­вая круг­лая скоб­ка .\"> В ре­зуль­та­те они стали сто­ить на <img src=\"https://ege.sdamgia.ru/formula/svg/41/416f965acc1f38b3d2244f6f0ab7d0e0.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"4 \\%\"> де­шев­ле, чем при от­кры­тии тор­гов в по­не­дель­ник, то есть 0,96. Таким об­ра­зом,</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/41/4149ffbf619dc960b84eedbb0ae73db2.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"1 плюс c минус c левая круг­лая скоб­ка 1 плюс c пра­вая круг­лая скоб­ка =0,96 рав­но­силь­но 1 минус c в квад­ра­те =0,96 рав­но­силь­но c в квад­ра­те =0,04 \\undersetc боль­ше 0\\mathop рав­но­силь­но c=0,2.\"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 20.</p><p>&nbsp;</p><p><b>При­ве­дем дру­гое ре­ше­ние.</b></p><p class=\"left_margin\">В ре­зуль­та­те по­до­ро­жа­ния акций на <i>х</i>% их сто­и­мость из­ме­ня­ет­ся в <img src=\"https://ege.sdamgia.ru/formula/svg/55/5549a0f273b26baa8141d051c63dd1a0.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"1 плюс дробь: чис­ли­тель: x, зна­ме­на­тель: конец дроби 100\"> раза, а в ре­зуль­та­те уде­шев­ле­ния из­ме­ня­ет­ся в <img src=\"https://ege.sdamgia.ru/formula/svg/f2/f277989f5786b5d0cab9ccfd13f190e4.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"1 минус дробь: чис­ли­тель: x, зна­ме­на­тель: конец дроби 100\"> раза. Тогда:</p><p class=\"left_margin\"></p><center><p><span data-width=\"640\" data-formulahash=\"333d66f8a2704ab9f3363027640d3ecb\" class=\"tex-span\" style=\"\"><img src=\"https://ege.sdamgia.ru/formula/svg/eb/ebe3bf2c53fa0799fe115da1719939ce.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" левая круг­лая скоб­ка 1 плюс дробь: чис­ли­тель: x, зна­ме­на­тель: конец дроби 100 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 1 минус дробь: чис­ли­тель: x, зна­ме­на­тель: конец дроби 100 пра­вая круг­лая скоб­ка = дробь: чис­ли­тель: 96, зна­ме­на­тель: 100 конец дроби рав­но­силь­но 1 минус левая круг­лая скоб­ка дробь: чис­ли­тель: x, зна­ме­на­тель: конец дроби 100 пра­вая круг­лая скоб­ка в квад­ра­те = дробь: чис­ли­тель: 96, зна­ме­на­тель: 100 конец дроби рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/05/05f907dcab3f791f9cbecd7826158c3c.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\" рав­но­силь­но левая круг­лая скоб­ка дробь: чис­ли­тель: x, зна­ме­на­тель: конец дроби 100 пра­вая круг­лая скоб­ка в квад­ра­те = дробь: чис­ли­тель: 4, зна­ме­на­тель: конец дроби 100 \\underset x боль­ше 0 \\mathop рав­но­силь­но дробь: чис­ли­тель: x, зна­ме­на­тель: конец дроби 100 = дробь: чис­ли­тель: 2, зна­ме­на­тель: конец дроби 10 рав­но­силь­но x = 20. \"></span><span data-width=\"340\" data-formulahash=\"333d66f8a2704ab9f3363027640d3ecb\" class=\"tex-span\" style=\"display:none\"><img src=\"https://ege.sdamgia.ru/formula/svg/fa/fa469cad8b848685b686752708783556.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" левая круг­лая скоб­ка 1 плюс дробь: чис­ли­тель: x, зна­ме­на­тель: конец дроби 100 пра­вая круг­лая скоб­ка левая круг­лая скоб­ка 1 минус дробь: чис­ли­тель: x, зна­ме­на­тель: конец дроби 100 пра­вая круг­лая скоб­ка = дробь: чис­ли­тель: 96, зна­ме­на­тель: 100 конец дроби рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/30/30aedfc04465000798e0e6c4f9a90f05.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\" рав­но­силь­но 1 минус левая круг­лая скоб­ка дробь: чис­ли­тель: x, зна­ме­на­тель: конец дроби 100 пра­вая круг­лая скоб­ка в квад­ра­те = дробь: чис­ли­тель: 96, зна­ме­на­тель: 100 конец дроби рав­но­силь­но левая круг­лая скоб­ка дробь: чис­ли­тель: x, зна­ме­на­тель: конец дроби 100 пра­вая круг­лая скоб­ка в квад­ра­те = дробь: чис­ли­тель: 4, зна­ме­на­тель: конец дроби 100 \\underset x боль­ше 0 \\mathop рав­но­силь­но \"><br><img src=\"https://ege.sdamgia.ru/formula/svg/ce/ce878494f89782403355816174952bfd.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"\\mathop рав­но­силь­но дробь: чис­ли­тель: x, зна­ме­на­тель: конец дроби 100 = дробь: чис­ли­тель: 2, зна­ме­на­тель: конец дроби 10 рав­но­силь­но x = 20. \"></span> </p><p class=\"left_margin\"></p></center></div>",
-        "image_urls": [
-            "https://ege.sdamgia.ru/formula/svg/9c/9c83ce81de92b53966b31dc65590b2fd.svg",
-            "https://ege.sdamgia.ru/formula/svg/cb/cb2f3a93fc7324a6d9ade7f346717163.svg",
-            "https://ege.sdamgia.ru/formula/svg/9c/9c83ce81de92b53966b31dc65590b2fd.svg",
-            "https://ege.sdamgia.ru/formula/svg/53/53fc33d7617582912ea643adaa65bee5.svg",
-            "https://ege.sdamgia.ru/formula/svg/41/416f965acc1f38b3d2244f6f0ab7d0e0.svg",
-            "https://ege.sdamgia.ru/formula/svg/41/4149ffbf619dc960b84eedbb0ae73db2.svg",
-            "https://ege.sdamgia.ru/formula/svg/55/5549a0f273b26baa8141d051c63dd1a0.svg",
-            "https://ege.sdamgia.ru/formula/svg/f2/f277989f5786b5d0cab9ccfd13f190e4.svg",
-            "https://ege.sdamgia.ru/formula/svg/eb/ebe3bf2c53fa0799fe115da1719939ce.svg",
-            "https://ege.sdamgia.ru/formula/svg/05/05f907dcab3f791f9cbecd7826158c3c.svg",
-            "https://ege.sdamgia.ru/formula/svg/fa/fa469cad8b848685b686752708783556.svg",
-            "https://ege.sdamgia.ru/formula/svg/30/30aedfc04465000798e0e6c4f9a90f05.svg",
-            "https://ege.sdamgia.ru/formula/svg/ce/ce878494f89782403355816174952bfd.svg"
-        ]
-    },
     "answer": "20",
-    "topic_id": 10,
-    "analog_ids": [
-        99566,
-        107393,
-        107399,
-        530822,
-        107393,
-        107399,
-        530822,
-        530897,
-        107395,
-        107397
-    ]
+    "analogs": [
+        "99566",
+        "107399",
+        "525105",
+        "525128",
+        "...",
+        "107399",
+        "525105",
+        "525128",
+        "525158",
+        "525184",
+        "107393",
+        "107395",
+        "107397"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=99566"
 }

@@ -1,1457 +1,665 @@
 [
     {
-        "gia_type": "ege",
-        "subject": "mathb",
-        "number": 1,
         "name": "Про­стей­шие текстовые задачи",
-        "is_additional": false,
         "categories": [
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 1,
-                "name": "Округ­ле­ние с недостатком",
-                "problems_count": 9
+                "name": "Округ­ле­ние с недостатком"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 2,
-                "name": "Округление с избытком",
-                "problems_count": 16
+                "name": "Округление с избытком"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 174,
-                "name": "Разные задачи",
-                "problems_count": 28
+                "name": "Разные задачи"
             }
         ]
     },
     {
-        "gia_type": "ege",
-        "subject": "mathb",
-        "number": 2,
         "name": "Размеры и единицы измерения",
-        "is_additional": false,
         "categories": [
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 246,
-                "name": "Единицы измерения времени",
-                "problems_count": 9
+                "name": "Единицы измерения времени"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 233,
-                "name": "Единицы измерения длины",
-                "problems_count": 8
+                "name": "Единицы измерения длины"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 244,
-                "name": "Единицы измерения массы",
-                "problems_count": 10
+                "name": "Единицы измерения массы"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 247,
-                "name": "Единицы измерения объёма",
-                "problems_count": 10
+                "name": "Единицы измерения объёма"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 245,
-                "name": "Единицы измерения площади",
-                "problems_count": 10
+                "name": "Единицы измерения площади"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 248,
-                "name": "Различные единицы измерения",
-                "problems_count": 10
+                "name": "Различные единицы измерения"
             }
         ]
     },
     {
-        "gia_type": "ege",
-        "subject": "mathb",
-        "number": 3,
         "name": "Чтение графиков и диаграмм",
-        "is_additional": false,
         "categories": [
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 6,
-                "name": "Определение величины по графику",
-                "problems_count": 41
+                "name": "Определение величины по графику"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 8,
-                "name": "Определение величины по диаграмме",
-                "problems_count": 40
+                "name": "Определение величины по диаграмме"
             }
         ]
     },
     {
-        "gia_type": "ege",
-        "subject": "mathb",
-        "number": 4,
         "name": "Преобразования выражений",
-        "is_additional": false,
         "categories": [
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 291,
-                "name": "Формулы с большим числом переменных",
-                "problems_count": 5
+                "name": "Формулы с большим числом переменных"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 290,
-                "name": "Формулы с одной и двумя переменными",
-                "problems_count": 27
+                "name": "Формулы с одной и двумя переменными"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 187,
-                "name": "Формулы с тремя переменными",
-                "problems_count": 26
+                "name": "Формулы с тремя переменными"
             }
         ]
     },
     {
-        "gia_type": "ege",
-        "subject": "mathb",
-        "number": 5,
         "name": "Начала теории вероятностей",
-        "is_additional": false,
         "categories": [
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 166,
-                "name": "Классическое определение вероятности",
-                "problems_count": 41
+                "name": "Классическое определение вероятности"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 185,
-                "name": "Теоремы о вероятностях событий",
-                "problems_count": 33
+                "name": "Теоремы о вероятностях событий"
             }
         ]
     },
     {
-        "gia_type": "ege",
-        "subject": "mathb",
-        "number": 6,
         "name": "Выбор оптимального варианта",
-        "is_additional": false,
         "categories": [
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 231,
-                "name": "Подбор комплекта или комбинации",
-                "problems_count": 16
+                "name": "Подбор комплекта или комбинации"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 54,
-                "name": "Выбор варианта из двух возможных",
-                "problems_count": 5
+                "name": "Выбор варианта из двух возможных"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 53,
-                "name": "Выбор варианта из трех возможных",
-                "problems_count": 25
+                "name": "Выбор варианта из трех возможных"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 173,
-                "name": "Выбор варианта из четырех возможных",
-                "problems_count": 7
+                "name": "Выбор варианта из четырех возможных"
             }
         ]
     },
     {
-        "gia_type": "ege",
-        "subject": "mathb",
-        "number": 7,
         "name": "Анализ графиков и диаграмм",
-        "is_additional": false,
         "categories": [
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 292,
-                "name": "Анализ графиков функций",
-                "problems_count": 10
+                "name": "Анализ графиков функций"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 189,
-                "name": "Скорость изменения величин",
-                "problems_count": 15
+                "name": "Скорость изменения величин"
             }
         ]
     },
     {
-        "gia_type": "ege",
-        "subject": "mathb",
-        "number": 8,
         "name": "Анализ утверждений",
-        "is_additional": false,
         "categories": [
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 222,
-                "name": "Анализ утверждений",
-                "problems_count": 32
+                "name": "Анализ утверждений"
             }
         ]
     },
     {
-        "gia_type": "ege",
-        "subject": "mathb",
-        "number": 9,
         "name": "Задачи на квадратной решетке",
-        "is_additional": false,
         "categories": [
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 255,
-                "name": "Задачи на карте",
-                "problems_count": 6
+                "name": "Задачи на карте"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 234,
-                "name": "План местности",
-                "problems_count": 8
+                "name": "План местности"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 284,
-                "name": "Трапеция",
-                "problems_count": 7
+                "name": "Трапеция"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 286,
-                "name": "Треугольник",
-                "problems_count": 8
+                "name": "Треугольник"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 285,
-                "name": "Ромб",
-                "problems_count": 1
+                "name": "Ромб"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 122,
-                "name": "Произвольный четырехугольник",
-                "problems_count": 23
+                "name": "Произвольный четырехугольник"
             }
         ]
     },
     {
-        "gia_type": "ege",
-        "subject": "mathb",
-        "number": 10,
         "name": "Прикладная геометрия",
-        "is_additional": false,
         "categories": [
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 301,
-                "name": "Разные задачи",
-                "problems_count": 1
+                "name": "Разные задачи"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 295,
-                "name": "Квадрат",
-                "problems_count": 1
+                "name": "Квадрат"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 296,
-                "name": "Окружность",
-                "problems_count": 2
+                "name": "Окружность"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 293,
-                "name": "Трапеция",
-                "problems_count": 2
+                "name": "Трапеция"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 294,
-                "name": "Треугольник",
-                "problems_count": 4
+                "name": "Треугольник"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 188,
-                "name": "Прямоугольник",
-                "problems_count": 12
+                "name": "Прямоугольник"
             }
         ]
     },
     {
-        "gia_type": "ege",
-        "subject": "mathb",
-        "number": 11,
         "name": "Прикладная стереометрия",
-        "is_additional": false,
         "categories": [
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 253,
-                "name": "Многогранники: ребра, грани",
-                "problems_count": 3
+                "name": "Многогранники: ребра, грани"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 249,
-                "name": "Куб",
-                "problems_count": 3
+                "name": "Куб"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 250,
-                "name": "Прямоугольный параллелепипед",
-                "problems_count": 3
+                "name": "Прямоугольный параллелепипед"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 251,
-                "name": "Призма",
-                "problems_count": 7
+                "name": "Призма"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 252,
-                "name": "Пирамида",
-                "problems_count": 3
+                "name": "Пирамида"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 148,
-                "name": "Площадь поверхности  составного многогранника",
-                "problems_count": 22
+                "name": "Площадь поверхности  составного многогранника"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 140,
-                "name": "Объем составного многогранника",
-                "problems_count": 19
+                "name": "Объем составного многогранника"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 289,
-                "name": "Круглые тела",
-                "problems_count": 13
+                "name": "Круглые тела"
             }
         ]
     },
     {
-        "gia_type": "ege",
-        "subject": "mathb",
-        "number": 12,
         "name": "Планиметрия",
-        "is_additional": false,
         "categories": [
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 120,
-                "name": "Треугольники и их элементы",
-                "problems_count": 41
+                "name": "Треугольники и их элементы"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 288,
-                "name": "Четырёхугольники и их элементы",
-                "problems_count": 19
+                "name": "Четырёхугольники и их элементы"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 275,
-                "name": "Многоугольники",
-                "problems_count": 2
+                "name": "Многоугольники"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 287,
-                "name": "Окружность",
-                "problems_count": 22
+                "name": "Окружность"
             }
         ]
     },
     {
-        "gia_type": "ege",
-        "subject": "mathb",
-        "number": 13,
         "name": "Задачи по стереометрии",
-        "is_additional": false,
         "categories": [
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 263,
-                "name": "Параллелепипед",
-                "problems_count": 5
+                "name": "Параллелепипед"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 264,
-                "name": "Призма",
-                "problems_count": 3
+                "name": "Призма"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 267,
-                "name": "Пирамида",
-                "problems_count": 9
+                "name": "Пирамида"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 265,
-                "name": "Цилиндр",
-                "problems_count": 3
+                "name": "Цилиндр"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 266,
-                "name": "Конус",
-                "problems_count": 5
+                "name": "Конус"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 262,
-                "name": "Шар",
-                "problems_count": 3
+                "name": "Шар"
             }
         ]
     },
     {
-        "gia_type": "ege",
-        "subject": "mathb",
-        "number": 14,
         "name": "Вычисления",
-        "is_additional": false,
         "categories": [
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 297,
-                "name": "Действия с десятичными дробями",
-                "problems_count": 9
+                "name": "Действия с десятичными дробями"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 298,
-                "name": "Разные задачи",
-                "problems_count": 3
+                "name": "Разные задачи"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 55,
-                "name": "Действия с обыкновенными дробями",
-                "problems_count": 26
+                "name": "Действия с обыкновенными дробями"
             }
         ]
     },
     {
-        "gia_type": "ege",
-        "subject": "mathb",
-        "number": 15,
         "name": "Про­стей­шие текстовые задачи",
-        "is_additional": false,
         "categories": [
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 5,
-                "name": "Проценты, округление",
-                "problems_count": 60
+                "name": "Проценты, округление"
             }
         ]
     },
     {
-        "gia_type": "ege",
-        "subject": "mathb",
-        "number": 16,
         "name": "Вычисления и преобразования",
-        "is_additional": false,
         "categories": [
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 57,
-                "name": "Действия со степенями",
-                "problems_count": 45
+                "name": "Действия со степенями"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 56,
-                "name": "Преобразования числовых иррациональных выражений",
-                "problems_count": 15
+                "name": "Преобразования числовых иррациональных выражений"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 58,
-                "name": "Преобразования числовых логарифмических выражений",
-                "problems_count": 19
+                "name": "Преобразования числовых логарифмических выражений"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 236,
-                "name": "Вычисление значений тригонометрических выражений",
-                "problems_count": 6
+                "name": "Вычисление значений тригонометрических выражений"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 235,
-                "name": "Преобразования числовых тригонометрических выражений",
-                "problems_count": 7
+                "name": "Преобразования числовых тригонометрических выражений"
             }
         ]
     },
     {
-        "gia_type": "ege",
-        "subject": "mathb",
-        "number": 17,
         "name": "Простейшие уравнения",
-        "is_additional": false,
         "categories": [
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 14,
-                "name": "Линейные, квадратные, кубические уравнения",
-                "problems_count": 16
+                "name": "Линейные, квадратные, кубические уравнения"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 240,
-                "name": "Иррациональные уравнения",
-                "problems_count": 5
+                "name": "Иррациональные уравнения"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 11,
-                "name": "Показательные уравнения",
-                "problems_count": 12
+                "name": "Показательные уравнения"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 12,
-                "name": "Логарифмические уравнения",
-                "problems_count": 9
+                "name": "Логарифмические уравнения"
             }
         ]
     },
     {
-        "gia_type": "ege",
-        "subject": "mathb",
-        "number": 18,
         "name": "Неравенства",
-        "is_additional": false,
         "categories": [
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 261,
-                "name": "Решение неравенств",
-                "problems_count": 16
+                "name": "Решение неравенств"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 232,
-                "name": "Числовые промежутки",
-                "problems_count": 13
+                "name": "Числовые промежутки"
             }
         ]
     },
     {
-        "gia_type": "ege",
-        "subject": "mathb",
-        "number": 19,
         "name": "Числа и их свойства",
-        "is_additional": false,
         "categories": [
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 229,
-                "name": "Цифровая запись числа",
-                "problems_count": 26
+                "name": "Цифровая запись числа"
             }
         ]
     },
     {
-        "gia_type": "ege",
-        "subject": "mathb",
-        "number": 20,
         "name": "Текстовые задачи",
-        "is_additional": false,
         "categories": [
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 88,
-                "name": "Задачи на проценты, сплавы и смеси",
-                "problems_count": 35
+                "name": "Задачи на проценты, сплавы и смеси"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 84,
-                "name": "Задачи на движение по прямой",
-                "problems_count": 29
+                "name": "Задачи на движение по прямой"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 85,
-                "name": "Задачи на движение по окружности",
-                "problems_count": 5
+                "name": "Задачи на движение по окружности"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 86,
-                "name": "Задачи на движение по воде",
-                "problems_count": 13
+                "name": "Задачи на движение по воде"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 87,
-                "name": "Задачи на совместную работу",
-                "problems_count": 27
+                "name": "Задачи на совместную работу"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 89,
-                "name": "Задачи на прогрессии",
-                "problems_count": 9
+                "name": "Задачи на прогрессии"
             }
         ]
     },
     {
-        "gia_type": "ege",
-        "subject": "mathb",
-        "number": 21,
         "name": "Задачи на смекалку",
-        "is_additional": false,
         "categories": [
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 299,
-                "name": "Задачи о числах",
-                "problems_count": 4
+                "name": "Задачи о числах"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 300,
-                "name": "Планиметрия",
-                "problems_count": 4
+                "name": "Планиметрия"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 230,
-                "name": "Текстовые задачи",
-                "problems_count": 27
+                "name": "Текстовые задачи"
             }
         ]
     },
     {
-        "gia_type": "ege",
-        "subject": "mathb",
-        "number": 2,
         "name": "Производная и первообразная",
-        "is_additional": true,
         "categories": [
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 69,
-                "name": "Физический смысл производной",
-                "problems_count": 5
+                "name": "Физический смысл производной"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 68,
-                "name": "Геометрический смысл производной, касательная",
-                "problems_count": 16
+                "name": "Геометрический смысл производной, касательная"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 70,
-                "name": "Применение производной к исследованию функций",
-                "problems_count": 27
+                "name": "Применение производной к исследованию функций"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 183,
-                "name": "Первообразная",
-                "problems_count": 5
+                "name": "Первообразная"
             }
         ]
     },
     {
-        "gia_type": "ege",
-        "subject": "mathb",
-        "number": 5,
         "name": "Вычисления и преобразования",
-        "is_additional": true,
         "categories": [
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 237,
-                "name": "Преобразования числовых иррациональных выражений",
-                "problems_count": 7
+                "name": "Преобразования числовых иррациональных выражений"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 238,
-                "name": "Преобразования числовых логарифмических выражений",
-                "problems_count": 15
+                "name": "Преобразования числовых логарифмических выражений"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 60,
-                "name": "Преобразования алгебраических выражений и дробей",
-                "problems_count": 23
+                "name": "Преобразования алгебраических выражений и дробей"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 61,
-                "name": "Преобразования буквенных иррациональных выражений",
-                "problems_count": 11
+                "name": "Преобразования буквенных иррациональных выражений"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 62,
-                "name": "Преобразования буквенных показательных выражений",
-                "problems_count": 30
+                "name": "Преобразования буквенных показательных выражений"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 63,
-                "name": "Преобразования буквенных логарифмических выражений",
-                "problems_count": 3
+                "name": "Преобразования буквенных логарифмических выражений"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 65,
-                "name": "Вычисление значений тригонометрических выражений",
-                "problems_count": 15
+                "name": "Вычисление значений тригонометрических выражений"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 59,
-                "name": "Преобразования числовых тригонометрических выражений",
-                "problems_count": 20
+                "name": "Преобразования числовых тригонометрических выражений"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 64,
-                "name": "Преобразования буквенных тригонометрических выражений",
-                "problems_count": 2
+                "name": "Преобразования буквенных тригонометрических выражений"
             }
         ]
     },
     {
-        "gia_type": "ege",
-        "subject": "mathb",
-        "number": 7,
         "name": "Простейшие уравнения",
-        "is_additional": true,
         "categories": [
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 239,
-                "name": "Линейные, квадратные, кубические уравнения",
-                "problems_count": 5
+                "name": "Линейные, квадратные, кубические уравнения"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 242,
-                "name": "Логарифмические уравнения",
-                "problems_count": 9
+                "name": "Логарифмические уравнения"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 241,
-                "name": "Показательные уравнения",
-                "problems_count": 5
+                "name": "Показательные уравнения"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 9,
-                "name": "Рациональные уравнения",
-                "problems_count": 8
+                "name": "Рациональные уравнения"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 10,
-                "name": "Иррациональные уравнения",
-                "problems_count": 7
+                "name": "Иррациональные уравнения"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 13,
-                "name": "Тригонометрические уравнения",
-                "problems_count": 3
+                "name": "Тригонометрические уравнения"
             }
         ]
     },
     {
-        "gia_type": "ege",
-        "subject": "mathb",
-        "number": 8,
         "name": "Прикладная геометрия",
-        "is_additional": true,
         "categories": [
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 243,
-                "name": "Многоугольники",
-                "problems_count": 3
+                "name": "Многоугольники"
             }
         ]
     },
     {
-        "gia_type": "ege",
-        "subject": "mathb",
-        "number": 11,
         "name": "Чтение графиков и диаграмм",
-        "is_additional": true,
         "categories": [
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 7,
-                "name": "Вычисление величин по графику или диаграмме",
-                "problems_count": 8
+                "name": "Вычисление величин по графику или диаграмме"
             }
         ]
     },
     {
-        "gia_type": "ege",
-        "subject": "mathb",
-        "number": 12,
         "name": "Задачи с прикладным содержанием",
-        "is_additional": true,
         "categories": [
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 71,
-                "name": "Линейные уравнения и неравенства",
-                "problems_count": 3
+                "name": "Линейные уравнения и неравенства"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 72,
-                "name": "Квадратичные и степенные уравнения и неравенства",
-                "problems_count": 17
+                "name": "Квадратичные и степенные уравнения и неравенства"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 76,
-                "name": "Рациональные уравнения и неравенства",
-                "problems_count": 14
+                "name": "Рациональные уравнения и неравенства"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 77,
-                "name": "Иррациональные уравнения и неравенства",
-                "problems_count": 9
+                "name": "Иррациональные уравнения и неравенства"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 73,
-                "name": "Показательные уравнения и неравенства",
-                "problems_count": 4
+                "name": "Показательные уравнения и неравенства"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 74,
-                "name": "Логарифмические уравнения и неравенства",
-                "problems_count": 4
+                "name": "Логарифмические уравнения и неравенства"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 75,
-                "name": "Тригонометрические уравнения и неравенства",
-                "problems_count": 16
+                "name": "Тригонометрические уравнения и неравенства"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 184,
-                "name": "Разные задачи",
-                "problems_count": 5
+                "name": "Разные задачи"
             }
         ]
     },
     {
-        "gia_type": "ege",
-        "subject": "mathb",
-        "number": 13,
         "name": "Стереометрия",
-        "is_additional": true,
         "categories": [
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 192,
-                "name": "Куб",
-                "problems_count": 17
+                "name": "Куб"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 193,
-                "name": "Прямоугольный параллелепипед",
-                "problems_count": 12
+                "name": "Прямоугольный параллелепипед"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 178,
-                "name": "Призма",
-                "problems_count": 29
+                "name": "Призма"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 177,
-                "name": "Пирамида",
-                "problems_count": 25
+                "name": "Пирамида"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 180,
-                "name": "Элементы составных многогранников",
-                "problems_count": 16
+                "name": "Элементы составных многогранников"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 197,
-                "name": "Комбинации тел",
-                "problems_count": 20
+                "name": "Комбинации тел"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 254,
-                "name": "Цилиндр",
-                "problems_count": 7
+                "name": "Цилиндр"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 195,
-                "name": "Конус",
-                "problems_count": 9
+                "name": "Конус"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 196,
-                "name": "Шар",
-                "problems_count": 5
+                "name": "Шар"
             }
         ]
     },
     {
-        "gia_type": "ege",
-        "subject": "mathb",
-        "number": 14,
         "name": "Анализ графиков и диаграмм",
-        "is_additional": true,
         "categories": [
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 257,
-                "name": "Скорость изменения величин",
-                "problems_count": 10
+                "name": "Скорость изменения величин"
             }
         ]
     },
     {
-        "gia_type": "ege",
-        "subject": "mathb",
-        "number": 15,
         "name": "Планиметрия",
-        "is_additional": true,
         "categories": [
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 283,
-                "name": "Произвольный четырехугольник",
-                "problems_count": 5
+                "name": "Произвольный четырехугольник"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 190,
-                "name": "Задачи на квадратной решетке",
-                "problems_count": 13
+                "name": "Задачи на квадратной решетке"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 268,
-                "name": "Треугольник",
-                "problems_count": 35
+                "name": "Треугольник"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 127,
-                "name": "Прямоугольник: длины и площади",
-                "problems_count": 33
+                "name": "Прямоугольник: длины и площади"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 125,
-                "name": "Параллелограмм: длины и площади",
-                "problems_count": 12
+                "name": "Параллелограмм: длины и площади"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 130,
-                "name": "Ромб: длины и площади",
-                "problems_count": 9
+                "name": "Ромб: длины и площади"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 124,
-                "name": "Трапеция: длины и площади",
-                "problems_count": 19
+                "name": "Трапеция: длины и площади"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 126,
-                "name": "Многоугольник",
-                "problems_count": 4
+                "name": "Многоугольник"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 123,
-                "name": "Круг и его элементы",
-                "problems_count": 85
+                "name": "Круг и его элементы"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 191,
-                "name": "Вписанная и описанная окружности",
-                "problems_count": 13
+                "name": "Вписанная и описанная окружности"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 182,
-                "name": "Векторы",
-                "problems_count": 24
+                "name": "Векторы"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 181,
-                "name": "Координатная плоскость",
-                "problems_count": 59
+                "name": "Координатная плоскость"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 66,
-                "name": "Прямоугольный треугольник: вычисление углов",
-                "problems_count": 54
+                "name": "Прямоугольный треугольник: вычисление углов"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 40,
-                "name": "Прямоугольный треугольник: вычисление внешних углов",
-                "problems_count": 30
+                "name": "Прямоугольный треугольник: вычисление внешних углов"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 79,
-                "name": "Прямоугольный треугольник: вычисление элементов",
-                "problems_count": 79
+                "name": "Прямоугольный треугольник: вычисление элементов"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 91,
-                "name": "Равнобедренный треугольник: вычисление углов",
-                "problems_count": 43
+                "name": "Равнобедренный треугольник: вычисление углов"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 90,
-                "name": "Равнобедренный треугольник: вычисление элементов",
-                "problems_count": 44
+                "name": "Равнобедренный треугольник: вычисление элементов"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 96,
-                "name": "Треугольники общего вида",
-                "problems_count": 15
+                "name": "Треугольники общего вида"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 93,
-                "name": "Параллелограмм: углы",
-                "problems_count": 17
+                "name": "Параллелограмм: углы"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 101,
-                "name": "Прямоугольник: углы",
-                "problems_count": 3
+                "name": "Прямоугольник: углы"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 102,
-                "name": "Ромб: углы",
-                "problems_count": 10
+                "name": "Ромб: углы"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 94,
-                "name": "Трапеция: углы",
-                "problems_count": 23
+                "name": "Трапеция: углы"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 111,
-                "name": "Центральные и вписанные углы",
-                "problems_count": 16
+                "name": "Центральные и вписанные углы"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 112,
-                "name": "Касательная, хорда, секущая",
-                "problems_count": 10
+                "name": "Касательная, хорда, секущая"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 113,
-                "name": "Окружность, вписанная в треугольник",
-                "problems_count": 10
+                "name": "Окружность, вписанная в треугольник"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 115,
-                "name": "Окружность, вписанная в четырехугольник",
-                "problems_count": 9
+                "name": "Окружность, вписанная в четырехугольник"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 117,
-                "name": "Окружность, вписанная в многоугольник",
-                "problems_count": 3
+                "name": "Окружность, вписанная в многоугольник"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 114,
-                "name": "Окружность, описанная вокруг треугольника",
-                "problems_count": 12
+                "name": "Окружность, описанная вокруг треугольника"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 116,
-                "name": "Окружность, описанная вокруг четырехугольника",
-                "problems_count": 12
+                "name": "Окружность, описанная вокруг четырехугольника"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 118,
-                "name": "Окружность, описанная вокруг многоугольника",
-                "problems_count": 3
+                "name": "Окружность, описанная вокруг многоугольника"
             }
         ]
     },
     {
-        "gia_type": "ege",
-        "subject": "mathb",
-        "number": 16,
         "name": "Задачи по стереометрии",
-        "is_additional": true,
         "categories": [
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 146,
-                "name": "Куб",
-                "problems_count": 2
+                "name": "Куб"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 145,
-                "name": "Прямоугольный параллелепипед",
-                "problems_count": 24
+                "name": "Прямоугольный параллелепипед"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 149,
-                "name": "Призма",
-                "problems_count": 22
+                "name": "Призма"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 154,
-                "name": "Пирамида",
-                "problems_count": 30
+                "name": "Пирамида"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 141,
-                "name": "Цилиндр",
-                "problems_count": 9
+                "name": "Цилиндр"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 144,
-                "name": "Конус",
-                "problems_count": 23
+                "name": "Конус"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 151,
-                "name": "Шар",
-                "problems_count": 10
+                "name": "Шар"
             }
         ]
     },
     {
-        "gia_type": "ege",
-        "subject": "mathb",
-        "number": 17,
         "name": "Неравенства",
-        "is_additional": true,
         "categories": [
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 260,
-                "name": "Числовая ось, числовые промежутки",
-                "problems_count": 9
+                "name": "Числовая ось, числовые промежутки"
             }
         ]
     },
     {
-        "gia_type": "ege",
-        "subject": "mathb",
-        "number": 18,
         "name": "Наибольшее и наименьшее значение функций",
-        "is_additional": true,
         "categories": [
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 81,
-                "name": "Исследование степенных и иррациональных функций",
-                "problems_count": 53
+                "name": "Исследование степенных и иррациональных функций"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 83,
-                "name": "Исследование частных",
-                "problems_count": 10
+                "name": "Исследование частных"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 82,
-                "name": "Исследование произведений",
-                "problems_count": 28
+                "name": "Исследование произведений"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 80,
-                "name": "Исследование показательных и логарифмических функций",
-                "problems_count": 20
+                "name": "Исследование показательных и логарифмических функций"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 78,
-                "name": "Исследование тригонометрических функций",
-                "problems_count": 29
+                "name": "Исследование тригонометрических функций"
             },
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 175,
-                "name": "Исследование функций без помощи производной",
-                "problems_count": 12
+                "name": "Исследование функций без помощи производной"
             }
         ]
     },
     {
-        "gia_type": "ege",
-        "subject": "mathb",
-        "number": 19,
         "name": "Числа и их свойства",
-        "is_additional": true,
         "categories": [
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 259,
-                "name": "Цифровая запись числа",
-                "problems_count": 4
+                "name": "Цифровая запись числа"
             }
         ]
     },
     {
-        "gia_type": "ege",
-        "subject": "mathb",
-        "number": 20,
         "name": "Задачи на смекалку",
-        "is_additional": true,
         "categories": [
             {
-                "gia_type": "ege",
-                "subject": "mathb",
-                "id": 258,
-                "name": "Задачи на смекалку",
-                "problems_count": 16
+                "name": "Задачи на смекалку"
             }
         ]
     }

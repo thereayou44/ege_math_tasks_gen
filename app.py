@@ -21,13 +21,28 @@ except ImportError as e:
 
 
 
-def load_categories_from_file():
+def load_categories_from_file(is_basic_level=False):
+    """
+    Загружает категории из соответствующего файла в зависимости от уровня ЕГЭ
+    
+    Args:
+        is_basic_level: Если True, загружает категории для базового уровня, иначе для профильного
+        
+    Returns:
+        list: Список категорий
+    """
     try:
-        with open('Data/categories_list.json', 'r', encoding='utf-8') as f:
+        # Выбираем файл в зависимости от уровня
+        if is_basic_level:
+            filename = 'Data/base_categories_list.json'
+        else:
+            filename = 'Data/categories_list.json'
+            
+        with open(filename, 'r', encoding='utf-8') as f:
             categories = json.load(f)
         return categories
     except FileNotFoundError:
-        print("Файл категорий не найден!")
+        print(f"Файл категорий не найден: {filename}")
         return []
     except json.JSONDecodeError:
         print("Ошибка формата файла категорий!")
@@ -84,8 +99,13 @@ def format_latex_in_answer(answer):
 
 @app.route('/')
 def index():
-    categories = load_categories_from_file()
-    return render_template('index.html', categories=categories)
+    # Загружаем категории для обоих уровней
+    advanced_categories = load_categories_from_file(is_basic_level=False)
+    basic_categories = load_categories_from_file(is_basic_level=True)
+    
+    return render_template('index.html', 
+                           advanced_categories=advanced_categories,
+                           basic_categories=basic_categories)
 
 @app.route('/generate_task', methods=['POST'])
 def generate_task():
@@ -94,13 +114,14 @@ def generate_task():
         category = data.get("category")
         subcategory = data.get("subcategory", "")
         difficulty_level = int(data.get("difficulty_level", 3))
+        is_basic_level = data.get("is_basic_level", False)
         
         # Проверяем входные данные
         if not category:
             return jsonify({"error": "Категория не указана"}), 400
         
         # Генерируем полный пакет: задачу, решение и подсказки
-        result = generate_complete_task(category, subcategory, difficulty_level)
+        result = generate_complete_task(category, subcategory, difficulty_level, is_basic_level)
         
         # Проверяем на ошибки
         if "error" in result:
@@ -336,79 +357,92 @@ def debug_page():
     """
     Отладочная страница для проверки формата данных категорий
     """
-    categories = load_categories_from_file()
-    return render_template('debug.html', categories=categories)
+    # Загружаем оба типа категорий
+    advanced_categories = load_categories_from_file(is_basic_level=False)
+    basic_categories = load_categories_from_file(is_basic_level=True)
+    
+    return render_template('debug.html', 
+                          advanced_categories=advanced_categories,
+                          basic_categories=basic_categories)
+
+@app.route('/debug_categories')
+def debug_categories():
+    """
+    Отладочная страница для просмотра категорий и их структуры
+    """
+    # Загружаем оба типа категорий
+    advanced_categories = load_categories_from_file(is_basic_level=False)
+    basic_categories = load_categories_from_file(is_basic_level=True)
+    
+    return render_template('debug_categories.html', 
+                          advanced_categories=advanced_categories,
+                          basic_categories=basic_categories)
+
+@app.route('/debug_categories_console')
+def debug_categories_console():
+    """
+    Расширенная отладочная страница для категорий с выводом в консоль
+    """
+    # Загружаем оба типа категорий
+    advanced_categories = load_categories_from_file(is_basic_level=False)
+    basic_categories = load_categories_from_file(is_basic_level=True)
+    
+    print("Отладка категорий в консоли:")
+    print(f"- Профильный уровень: {len(advanced_categories)} категорий")
+    print(f"- Базовый уровень: {len(basic_categories)} категорий")
+    
+    return render_template('debug_categories_console.html', 
+                          advanced_categories=advanced_categories,
+                          basic_categories=basic_categories)
 
 @app.route('/api/generate_markdown_task', methods=['POST'])
 def api_generate_markdown_task():
-    """
-    API-маршрут для генерации задачи в формате Markdown
-    """
     try:
+        from task_generator import generate_markdown_task
+        
         data = request.get_json()
         category = data.get("category")
         subcategory = data.get("subcategory", "")
         difficulty_level = int(data.get("difficulty_level", 3))
+        is_basic_level = data.get("is_basic_level", False)
         
-        # Проверяем входные данные
         if not category:
             return jsonify({"error": "Категория не указана"}), 400
         
-        # Импортируем функцию для генерации Markdown-задачи
-        from task_generator import generate_markdown_task
-        
-        # Генерируем задачу в Markdown
-        result = generate_markdown_task(category, subcategory, difficulty_level)
+        # Генерируем задачу в формате Markdown
+        result = generate_markdown_task(category, subcategory, difficulty_level, is_basic_level)
         
         # Проверяем на ошибки
         if "error" in result:
             return jsonify({"error": result["error"]}), 400
             
-        # Возвращаем результат
         return jsonify(result)
-        
     except Exception as e:
-        # Логируем ошибку для отладки
-        error_details = traceback.format_exc()
-        print(f"Ошибка при генерации задачи в Markdown: {e}")
-        print(error_details)
-        return jsonify({"error": f"Произошла ошибка при генерации задачи: {str(e)}"}), 500
+        return jsonify({"error": f"Ошибка при генерации задачи в формате Markdown: {str(e)}"}), 500
 
 @app.route('/api/task', methods=['GET'])
 def api_get_task():
-    """
-    API-маршрут для получения задачи с решением и подсказками
-    по указанным категории, подкатегории и уровню сложности
-    """
     try:
-        # Получаем параметры запроса
+        from task_generator import generate_complete_task
+        
         category = request.args.get("category")
         subcategory = request.args.get("subcategory", "")
         difficulty_level = int(request.args.get("difficulty_level", 3))
+        is_basic_level = request.args.get("is_basic_level", "false").lower() == "true"
         
-        # Проверяем входные данные
         if not category:
-            return jsonify({"error": "Параметр category обязателен"}), 400
-            
-        # Импортируем функцию для генерации Markdown-задачи
-        from task_generator import generate_markdown_task
+            return jsonify({"error": "Категория не указана"}), 400
         
-        # Генерируем задачу
-        result = generate_markdown_task(category, subcategory, difficulty_level)
+        # Генерируем полный пакет: задачу, решение и подсказки
+        result = generate_complete_task(category, subcategory, difficulty_level, is_basic_level)
         
         # Проверяем на ошибки
         if "error" in result:
             return jsonify({"error": result["error"]}), 400
             
-        # Возвращаем результат
         return jsonify(result)
-        
     except Exception as e:
-        # Логируем ошибку для отладки
-        error_details = traceback.format_exc()
-        print(f"Ошибка при получении задачи через API: {e}")
-        print(error_details)
-        return jsonify({"error": f"Произошла ошибка: {str(e)}"}), 500
+        return jsonify({"error": f"Ошибка при генерации задачи: {str(e)}"}), 500
 
 @app.route('/api/json_task', methods=['GET'])
 def api_get_json_task():
@@ -421,39 +455,36 @@ def api_get_json_task():
     - markdown - текст в формате Markdown
     """
     try:
-        # Получаем параметры запроса
+        from task_generator import generate_json_task, generate_json_markdown_task
+        
         category = request.args.get("category")
         subcategory = request.args.get("subcategory", "")
         difficulty_level = int(request.args.get("difficulty_level", 3))
+        is_basic_level = request.args.get("is_basic_level", "false").lower() == "true"
         output_format = request.args.get("format", "html").lower()
         
-        # Проверяем входные данные
         if not category:
-            return jsonify({"error": "Параметр category обязателен"}), 400
+            return jsonify({"error": "Категория не указана"}), 400
         
         # Выбираем функцию в зависимости от запрошенного формата
         if output_format == "markdown":
-            # Импортируем функцию для генерации JSON-задачи в Markdown
-            from task_generator import generate_json_markdown_task
-            result = generate_json_markdown_task(category, subcategory, difficulty_level)
+            # Используем формат Markdown
+            result = generate_json_markdown_task(category, subcategory, difficulty_level, is_basic_level)
         else:
             # По умолчанию используем формат HTML
-            from task_generator import generate_json_task
-            result = generate_json_task(category, subcategory, difficulty_level)
+            result = generate_json_task(category, subcategory, difficulty_level, is_basic_level)
         
         # Проверяем на ошибки
         if "error" in result:
             return jsonify({"error": result["error"]}), 400
             
-        # Возвращаем результат
         return jsonify(result)
-        
     except Exception as e:
         # Логируем ошибку для отладки
         error_details = traceback.format_exc()
         print(f"Ошибка при получении задачи в JSON через API: {e}")
         print(error_details)
-        return jsonify({"error": f"Произошла ошибка: {str(e)}"}), 500
+        return jsonify({"error": f"Ошибка при генерации задачи в формате JSON: {str(e)}"}), 500
 
 if __name__ == '__main__':
     print("=" * 50)

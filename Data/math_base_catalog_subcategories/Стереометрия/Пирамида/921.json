@@ -1,22 +1,16 @@
 {
-    "gia_type": "ege",
-    "subject": "math",
-    "id": 921,
+    "id": "921",
+    "topic": "Д13",
     "condition": {
-        "text": "В правильной треугольной пирамиде SABC точка L  — середина ребра AC, S  — вершина. Известно, что BC  =  6, а SL  =  5. Найдите площадь боковой поверхности пирамиды.",
-        "html": "<div align=\"justify\" width=\"100%\" id=\"body945509\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=111739\" style=\"float:right;margin:10px;max-width:100%\">В пра­виль­ной тре­уголь­ной пи­ра­ми­де <i>SABC</i> точка <i>L</i>  — се­ре­ди­на ребра <i>AC</i>, <i>S</i>  — вер­ши­на. Из­вест­но, что <i>BC</i>  =  6, а <i>SL</i>  =  5. Най­ди­те пло­щадь бо­ко­вой по­верх­но­сти пи­ра­ми­ды.</p></div>",
-        "image_urls": [
-            "/get_file?id=111739"
-        ]
-    },
-    "solution": {
-        "text": "Решение. Отрезок SL является медианой, проведенной из вершины равнобедренного треугольника ASC, а значит, и его высотой. Боковые грани пирамиды равны, поэтомуОтвет: 45.",
-        "html": "<div align=\"justify\" width=\"100%\" id=\"sol921\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">От­ре­зок <i>SL</i> яв­ля­ет­ся ме­ди­а­ной, про­ве­ден­ной из вер­ши­ны рав­но­бед­рен­но­го тре­уголь­ни­ка <i>ASC</i>, а зна­чит, и его вы­со­той. Бо­ко­вые грани пи­ра­ми­ды равны, по­это­му</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/f4/f4bdc07d4f5acc475a76d19ea0c1fb11.svg\" class=\"tex\" style=\"vertical-align:-8.4pt\" alt=\"S_бок=3S_SAC=3 умно­жить на дробь: чис­ли­тель: 1, зна­ме­на­тель: 2 конец дроби AC умно­жить на SL= дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби BC умно­жить на SL= дробь: чис­ли­тель: 3, зна­ме­на­тель: 2 конец дроби умно­жить на 6 умно­жить на 5=45. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 45.</p></div>",
-        "image_urls": [
-            "https://ege.sdamgia.ru/formula/svg/f4/f4bdc07d4f5acc475a76d19ea0c1fb11.svg"
+        "text": "В правильной треугольной пирамиде SABC точка L — середина ребра AC, S — вершина. Известно, что BC = 6, а SL = 5. Найдите площадь боковой поверхности пирамиды.",
+        "images": [
+            "https://mathb-ege.sdamgia.ru/get_file?id=111739"
         ]
     },
     "answer": "45",
-    "topic_id": 3,
-    "analog_ids": []
+    "analogs": [
+        "921",
+        "923"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=921"
 }

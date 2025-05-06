@@ -1,0 +1,19 @@
+{
+    "id": "27126",
+    "topic": "Д16",
+    "condition": {
+        "text": "В куб с ребром 3 вписан шар. Найдите объем этого шара, деленный на",
+        "images": [
+            "https://mathb-ege.sdamgia.ru/get_file?id=139953",
+            "https://ege.sdamgia.ru/formula/svg/20/20eb0232474c508d356a7b4ebf331607.svg"
+        ]
+    },
+    "answer": "4,5",
+    "analogs": [
+        "27126",
+        "75315",
+        "75317",
+        "75319"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=27126"
+}

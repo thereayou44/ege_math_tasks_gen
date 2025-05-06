@@ -1,0 +1,19 @@
+{
+    "id": "27074",
+    "topic": "13",
+    "condition": {
+        "text": "Объем параллелепипеда равен 9. Найдите объем треугольной пирамиды",
+        "images": [
+            "https://mathb-ege.sdamgia.ru/get_file?id=138931",
+            "https://ege.sdamgia.ru/formula/svg/1f/1f98fd4abe2a7ebc84481105039f3a71.svg",
+            "https://ege.sdamgia.ru/formula/svg/c0/c0430353b40eb075e4919633d90bcbd2.svg"
+        ]
+    },
+    "answer": "1,5",
+    "analogs": [
+        "27074",
+        "5079",
+        "506141"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=27074"
+}

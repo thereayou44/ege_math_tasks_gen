@@ -1,46 +1,34 @@
 {
-    "gia_type": "ege",
-    "subject": "math",
-    "id": 77468,
+    "id": "77468",
+    "topic": "Д18",
     "condition": {
-        "text": "Найдите точку минимума функции ",
-        "html": "<div align=\"justify\" width=\"100%\" id=\"body999520\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те точку ми­ни­му­ма функ­ции <img src=\"https://ege.sdamgia.ru/formula/svg/d7/d73b22a0440338e42c0dc179d6fa0b37.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"y= минус дробь: чис­ли­тель: x в квад­ра­те плюс 1, зна­ме­на­тель: x конец дроби . \"></p></div>",
-        "image_urls": [
-            "https://ege.sdamgia.ru/formula/svg/d7/d73b22a0440338e42c0dc179d6fa0b37.svg"
-        ]
-    },
-    "solution": {
-        "text": "Решение. Область определения функции: Найдём производную заданной функции:  Найдём нули производной:   Определим знаки производной функции и изобразим на рисунке поведение функции: Искомая точка минимума   Ответ: −1.",
-        "html": "<div align=\"justify\" width=\"100%\" id=\"sol77468\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Об­ласть опре­де­ле­ния функ­ции: <img src=\"https://ege.sdamgia.ru/formula/svg/c4/c402acdfb34bb408212d18798a9bb32f.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"x не равно 0.\"></p><p class=\"left_margin\">Найдём про­из­вод­ную за­дан­ной функ­ции: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/79/79ec66b264b2fc812f81dd80c5525faf.svg\" class=\"tex\" style=\"vertical-align:-11.1pt\" alt=\"y'= минус левая круг­лая скоб­ка дробь: чис­ли­тель: x в квад­ра­те плюс 1, зна­ме­на­тель: x конец дроби пра­вая круг­лая скоб­ка в сте­пе­ни левая круг­лая скоб­ка \\prime пра­вая круг­лая скоб­ка = минус левая круг­лая скоб­ка x плюс дробь: чис­ли­тель: 1, зна­ме­на­тель: x конец дроби пра­вая круг­лая скоб­ка в сте­пе­ни левая круг­лая скоб­ка \\prime пра­вая круг­лая скоб­ка = минус левая круг­лая скоб­ка 1 минус дробь: чис­ли­тель: 1, зна­ме­на­тель: конец дроби x в квад­ра­те пра­вая круг­лая скоб­ка = минус 1 плюс дробь: чис­ли­тель: 1, зна­ме­на­тель: x в квад­ра­те конец дроби = дробь: чис­ли­тель: 1 минус x в квад­ра­те , зна­ме­на­тель: x в квад­ра­те конец дроби . \"></p><p class=\"left_margin\"></p></center> <p class=\"left_margin\">Найдём нули про­из­вод­ной: </p><p align=\"center\"><img src=\"https://ege.sdamgia.ru/formula/svg/10/10e5608924885e8ba9919f1456945134.svg\" class=\"tex\" style=\"vertical-align:-14.4pt\" alt=\"1 минус x в квад­ра­те =0 рав­но­силь­но x в квад­ра­те =1 рав­но­силь­но со­во­куп­ность вы­ра­же­ний  новая стро­ка x=1,  новая стро­ка x= минус 1. конец со­во­куп­но­сти .\"> </p><p>&nbsp;</p><p class=\"left_margin\">Опре­де­лим знаки про­из­вод­ной функ­ции и изоб­ра­зим на ри­сун­ке по­ве­де­ние функ­ции: </p><p class=\"left_margin\"></p><center><p><img src=\"/get_file?id=108520\" style=\"margin:10px auto;display:block;max-width:100%\"></p><p class=\"left_margin\"></p></center><p class=\"left_margin\">Ис­ко­мая точка ми­ни­му­ма <img src=\"https://ege.sdamgia.ru/formula/svg/37/37d7fd1c0234c63a605600983c5bdb8f.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"x= минус 1.\"> </p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> −1.</p></div>",
-        "image_urls": [
-            "https://ege.sdamgia.ru/formula/svg/c4/c402acdfb34bb408212d18798a9bb32f.svg",
-            "https://ege.sdamgia.ru/formula/svg/79/79ec66b264b2fc812f81dd80c5525faf.svg",
-            "https://ege.sdamgia.ru/formula/svg/10/10e5608924885e8ba9919f1456945134.svg",
-            "https://ege.sdamgia.ru/formula/svg/37/37d7fd1c0234c63a605600983c5bdb8f.svg",
-            "/get_file?id=108520"
+        "text": "Найдите точку минимума функции",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/6d/6da648504cdc4b429b4d79c17652c1a7.svg"
         ]
     },
     "answer": "-1",
-    "topic_id": 12,
-    "analog_ids": [
-        77468,
-        129873,
-        129899,
-        129901,
-        129873,
-        129899,
-        129901,
-        129875,
-        129877,
-        129879,
-        129881,
-        129883,
-        129885,
-        129887,
-        129889,
-        129891,
-        129893,
-        129895,
-        129897
-    ]
+    "analogs": [
+        "77468",
+        "129899",
+        "129901",
+        "129873",
+        "...",
+        "129899",
+        "129901",
+        "129873",
+        "129875",
+        "129877",
+        "129879",
+        "129881",
+        "129883",
+        "129885",
+        "129887",
+        "129889",
+        "129891",
+        "129893",
+        "129895",
+        "129897"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=77468"
 }

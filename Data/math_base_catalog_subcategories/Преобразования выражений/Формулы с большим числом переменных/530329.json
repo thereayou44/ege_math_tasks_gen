@@ -1,0 +1,15 @@
+{
+    "id": "530329",
+    "topic": "4",
+    "condition": {
+        "text": "Теорему синусов можно записать в виде где a и b — две стороны треугольника, α и β — углы треугольника, лежащие против них соответственно. Пользуясь этой формулой, найдите величину если a = 27, b = 20,",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/a7/a77877b25cc64ae62b0dd00966688631.svg",
+            "https://ege.sdamgia.ru/formula/svg/5a/5ae75e6987dd68ddac8d7ad4795764df.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/eed1ee643f08b5f176f1d6d2bd886a21.svg"
+        ]
+    },
+    "answer": "0,9",
+    "analogs": [],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=530329"
+}

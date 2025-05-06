@@ -1,55 +1,45 @@
 {
-    "gia_type": "ege",
-    "subject": "math",
-    "id": 27721,
+    "id": "27721",
+    "topic": "Д15",
     "condition": {
-        "text": "Стороны правильного треугольника ABC равны 3. Найдите длину вектора ",
-        "html": "<div align=\"justify\" width=\"100%\" id=\"body918197\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=145723\" style=\"float:right;margin:10px;max-width:100%\">Сто­ро­ны пра­виль­но­го тре­уголь­ни­ка <i>ABC</i> равны 3. Най­ди­те длину век­то­ра <img src=\"https://ege.sdamgia.ru/formula/svg/32/32aa48a4203e8ca55e180bb7d77dc3aa.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overrightarrowAB минус \\overrightarrowAC.\"></p></div>",
-        "image_urls": [
-            "https://ege.sdamgia.ru/formula/svg/32/32aa48a4203e8ca55e180bb7d77dc3aa.svg",
-            "/get_file?id=145723"
-        ]
-    },
-    "solution": {
-        "text": "Решение. Разность  равна вектору  Длина вектора  Ответ: 3.",
-        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27721\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Раз­ность <img src=\"https://ege.sdamgia.ru/formula/svg/88/885e2bfdd9d73549b77ab468fa95e220.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overrightarrowAB минус \\overrightarrowAC\"> равна век­то­ру <img src=\"https://ege.sdamgia.ru/formula/svg/5c/5c83351a42c092a2c1e6d4e64c1f8ec6.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overrightarrowCB.\"> Длина век­то­ра <img src=\"https://ege.sdamgia.ru/formula/svg/c4/c407fea7dc6cb02c8b823bb764ed70f9.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"\\overrightarrowCB=3.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 3.</p></div>",
-        "image_urls": [
-            "https://ege.sdamgia.ru/formula/svg/88/885e2bfdd9d73549b77ab468fa95e220.svg",
-            "https://ege.sdamgia.ru/formula/svg/5c/5c83351a42c092a2c1e6d4e64c1f8ec6.svg",
-            "https://ege.sdamgia.ru/formula/svg/c4/c407fea7dc6cb02c8b823bb764ed70f9.svg"
+        "text": "Стороны правильного треугольника ABC равны 3. Найдите длину вектора",
+        "images": [
+            "https://mathb-ege.sdamgia.ru/get_file?id=145723",
+            "https://ege.sdamgia.ru/formula/svg/32/32aa48a4203e8ca55e180bb7d77dc3aa.svg"
         ]
     },
     "answer": "3",
-    "topic_id": 2,
-    "analog_ids": [
-        27721,
-        60855,
-        60857,
-        60859,
-        60855,
-        60857,
-        60859,
-        60861,
-        60863,
-        60865,
-        60867,
-        60869,
-        60871,
-        60873,
-        60875,
-        60877,
-        60879,
-        60881,
-        60883,
-        60885,
-        60887,
-        60889,
-        60891,
-        60893,
-        60895,
-        60897,
-        60899,
-        60901,
-        60903
-    ]
+    "analogs": [
+        "27721",
+        "60855",
+        "60857",
+        "60859",
+        "...",
+        "60855",
+        "60857",
+        "60859",
+        "60861",
+        "60863",
+        "60865",
+        "60867",
+        "60869",
+        "60871",
+        "60873",
+        "60875",
+        "60877",
+        "60879",
+        "60881",
+        "60883",
+        "60885",
+        "60887",
+        "60889",
+        "60891",
+        "60893",
+        "60895",
+        "60897",
+        "60899",
+        "60901",
+        "60903"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=27721"
 }

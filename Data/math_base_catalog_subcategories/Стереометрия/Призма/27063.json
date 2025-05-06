@@ -1,55 +1,45 @@
 {
-    "gia_type": "ege",
-    "subject": "math",
-    "id": 27063,
+    "id": "27063",
+    "topic": "Д13",
     "condition": {
-        "text": " Найдите боковое ребро правильной четырехугольной призмы, если сторона ее основания равна 20, а площадь поверхности равна 1760.",
-        "html": "<div align=\"justify\" width=\"100%\" id=\"body919371\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=113236\" style=\"float:right;margin:10px;max-width:100%\"> Най­ди­те бо­ко­вое ребро пра­виль­ной че­ты­рех­уголь­ной приз­мы, если сто­ро­на ее ос­но­ва­ния равна 20, а пло­щадь по­верх­но­сти равна 1760.</p></div>",
-        "image_urls": [
-            "/get_file?id=113236"
-        ]
-    },
-    "solution": {
-        "text": "Решение. Площадь поверхности правильной четырехугольной призмы выражается через сторону ее основания a и боковое ребро H формулой  Подставим значения a и S:  откуда находим, что  Ответ: 12.",
-        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27063\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пло­щадь по­верх­но­сти пра­виль­ной че­ты­рех­уголь­ной приз­мы вы­ра­жа­ет­ся через сто­ро­ну ее ос­но­ва­ния <i>a</i> и бо­ко­вое ребро <i>H</i> фор­му­лой <img src=\"https://ege.sdamgia.ru/formula/svg/33/333c03cb500088f802e96ac1ac52295d.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"S=2a в квад­ра­те плюс 4aH.\"> Под­ста­вим зна­че­ния <i>a</i> и <i>S</i>: </p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/d2/d2e2061139cd7c52bb046b5540d39675.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"1760=2 умно­жить на 20 в квад­ра­те плюс 4 умно­жить на 20 умно­жить на H,\"></p><p class=\"left_margin\"></p></center><p> от­ку­да на­хо­дим, что <img src=\"https://ege.sdamgia.ru/formula/svg/b3/b35c4345e49f27633c128772dedad3a2.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"H=12.\"></p><p>&nbsp;</p><p><span style=\"letter-spacing:2px \">Ответ</span>: 12.</p></div>",
-        "image_urls": [
-            "https://ege.sdamgia.ru/formula/svg/33/333c03cb500088f802e96ac1ac52295d.svg",
-            "https://ege.sdamgia.ru/formula/svg/d2/d2e2061139cd7c52bb046b5540d39675.svg",
-            "https://ege.sdamgia.ru/formula/svg/b3/b35c4345e49f27633c128772dedad3a2.svg"
+        "text": "Найдите боковое ребро правильной четырехугольной призмы, если сторона ее основания равна 20, а площадь поверхности равна 1760.",
+        "images": [
+            "https://mathb-ege.sdamgia.ru/get_file?id=113236"
         ]
     },
     "answer": "12",
-    "topic_id": 3,
-    "analog_ids": [
-        27063,
-        5057,
-        27149,
-        72919,
-        5057,
-        27149,
-        72919,
-        72921,
-        72923,
-        72925,
-        72927,
-        72929,
-        72931,
-        72933,
-        72935,
-        72937,
-        72939,
-        72941,
-        72943,
-        72945,
-        72947,
-        72949,
-        72951,
-        72953,
-        72955,
-        72957,
-        72959,
-        72961,
-        72963,
-        72965
-    ]
+    "analogs": [
+        "27063",
+        "5057",
+        "27149",
+        "72919",
+        "...",
+        "5057",
+        "27149",
+        "72919",
+        "72921",
+        "72923",
+        "72925",
+        "72927",
+        "72929",
+        "72931",
+        "72933",
+        "72935",
+        "72937",
+        "72939",
+        "72941",
+        "72943",
+        "72945",
+        "72947",
+        "72949",
+        "72951",
+        "72953",
+        "72955",
+        "72957",
+        "72959",
+        "72961",
+        "72963",
+        "72965"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=27063"
 }

@@ -1,0 +1,26 @@
+{
+    "id": "513739",
+    "topic": "7",
+    "condition": {
+        "text": "На рисунках изображены графики функций вида Установите соответствие между графиками функций и знаками коэффициентов a и c.ФУНКЦИИ А) Б) В) Г) КОЭФФИЦИЕНТЫ1) 2) 3) 4) В таблице под каждой буквой укажите соответствующий номер.AБВГ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/a2/a275d8d2b9b0ccf40c08985a40903c01.svg",
+            "https://mathb-ege.sdamgia.ru/get_file?id=105506",
+            "https://mathb-ege.sdamgia.ru/get_file?id=105505",
+            "https://mathb-ege.sdamgia.ru/get_file?id=105504",
+            "https://mathb-ege.sdamgia.ru/get_file?id=105503",
+            "https://ege.sdamgia.ru/formula/svg/7b/7b7037b953046ff427788c0e17726450.svg",
+            "https://ege.sdamgia.ru/formula/svg/8a/8a46bc5ee1d81ad3d9293f13b137957a.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8e371892cc332500bbfbbfd37a4152d1.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/88f2152b7afadd08380809c6394d7eea.svg"
+        ]
+    },
+    "answer": "1342",
+    "analogs": [
+        "513739",
+        "513759",
+        "513781",
+        "513801"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=513739"
+}

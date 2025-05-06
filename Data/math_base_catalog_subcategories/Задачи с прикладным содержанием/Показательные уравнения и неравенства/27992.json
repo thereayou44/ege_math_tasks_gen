@@ -1,58 +1,41 @@
 {
-    "gia_type": "ege",
-    "subject": "math",
-    "id": 27992,
+    "id": "27992",
+    "topic": "Д12",
     "condition": {
-        "text": "Уравнение процесса, в котором участвовал газ, записывается в виде   где p (Па) − давление газа, V − объeм газа в кубических метрах, a − положительная константа. При каком наименьшем значении константы a уменьшение в два раза объeма газа, участвующего в этом процессе, приводит к увеличению давления не менее, чем в 4 раза?",
-        "html": "<div align=\"justify\" width=\"100%\" id=\"body918436\" class=\"pbody\"><p class=\"left_margin\">Урав­не­ние про­цес­са, в ко­то­ром участ­во­вал газ, за­пи­сы­ва­ет­ся в виде  <img src=\"https://ege.sdamgia.ru/formula/svg/11/11ea4920af5f8885169f42ae800bfd98.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"pV в сте­пе­ни a = const,\"> где <i>p</i> (Па) − дав­ле­ние газа, <i>V</i> − объeм газа в ку­би­че­ских мет­рах, <i>a</i> − по­ло­жи­тель­ная кон­стан­та. При каком наи­мень­шем зна­че­нии кон­стан­ты <i>a</i> умень­ше­ние в два раза объeма газа, участ­ву­ю­ще­го в этом про­цес­се, при­во­дит к уве­ли­че­нию дав­ле­ния не менее, чем в 4 раза?</p></div>",
-        "image_urls": [
+        "text": "Уравнение процесса, в котором участвовал газ, записывается в виде где p (Па) − давление в газе, V − объeм газа в кубических метрах, a − положительная константа. При каком наименьшем значении константы a уменьшение вдвое раз объeма газа, участвующего в этом процессе, приводит к увеличению давления не менее, чем в 4 раза?",
+        "images": [
             "https://ege.sdamgia.ru/formula/svg/11/11ea4920af5f8885169f42ae800bfd98.svg"
         ]
     },
-    "solution": {
-        "text": "Решение. Пусть  и  − начальные, а  и  − конечные значения давления и объема газа, соответственно. Условие  означает, что  откуда  Задача сводится к решению неравенства  причем по условию :  Ответ: 2.",
-        "html": "<div align=\"justify\" width=\"100%\" id=\"sol27992\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Пусть <img src=\"https://ege.sdamgia.ru/formula/svg/03/03b632315ee5bee654b60a6bd902a249.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"p_1\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/47/47e205a9f01f6951d4dc6de16c404a8d.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"V_1\"> − на­чаль­ные, а <img src=\"https://ege.sdamgia.ru/formula/svg/6f/6fe97b358b528edc477ba63d50b652af.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"p_2\"> и <img src=\"https://ege.sdamgia.ru/formula/svg/81/81ed5ef3779e6b081b22740d7399b22f.svg\" class=\"tex\" style=\"vertical-align:-2.5pt\" alt=\"V_2\"> − ко­неч­ные зна­че­ния дав­ле­ния и объ­е­ма газа, со­от­вет­ствен­но. Усло­вие <img src=\"https://ege.sdamgia.ru/formula/svg/d8/d8bd50a24805cfa2446ea059d61bfaa4.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\"pV в сте­пе­ни a = const\"> озна­ча­ет, что <img src=\"https://ege.sdamgia.ru/formula/svg/b5/b5f4137ab787d699c8faaaf9c347f351.svg\" class=\"tex\" style=\"vertical-align:-3.6pt\" alt=\"p_1V_1 в сте­пе­ни a = p_2V_2 в сте­пе­ни a ,\"> от­ку­да <img src=\"https://ege.sdamgia.ru/formula/svg/c5/c588af810c6cb5251c76c5d755ba1d84.svg\" class=\"tex\" style=\"vertical-align:-11.8pt\" alt=\" дробь: чис­ли­тель: p_2, зна­ме­на­тель: p_1 конец дроби = дробь: чис­ли­тель: V_1 в сте­пе­ни a , зна­ме­на­тель: V_2 в сте­пе­ни a конец дроби = левая круг­лая скоб­ка дробь: чис­ли­тель: V_1, зна­ме­на­тель: V_2 конец дроби пра­вая круг­лая скоб­ка в сте­пе­ни a . \"> За­да­ча сво­дит­ся к ре­ше­нию не­ра­вен­ства <img src=\"https://ege.sdamgia.ru/formula/svg/02/02378a44da57eaa4a6a3d4645f6b39a0.svg\" class=\"tex\" style=\"vertical-align:-10.5pt\" alt=\" дробь: чис­ли­тель: p_2, зна­ме­на­тель: p_1 конец дроби боль­ше или равно 4, \"> при­чем по усло­вию <img src=\"https://ege.sdamgia.ru/formula/svg/29/29879d8dd3af0461c6e0ccccd6589490.svg\" class=\"tex\" style=\"vertical-align:-10.1pt\" alt=\" дробь: чис­ли­тель: V_1, зна­ме­на­тель: V_2 конец дроби =2 \">:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/6c/6c3f5506ea45484c3b3838318d350ff0.svg\" class=\"tex\" style=\"vertical-align:-11.2pt\" alt=\" левая круг­лая скоб­ка дробь: чис­ли­тель: V_1, зна­ме­на­тель: V_2 конец дроби пра­вая круг­лая скоб­ка в сте­пе­ни a боль­ше или равно 4 рав­но­силь­но 2 в сте­пе­ни левая круг­лая скоб­ка a пра­вая круг­лая скоб­ка боль­ше или равно 4 рав­но­силь­но a боль­ше или равно 2. \"></p><p class=\"left_margin\"></p></center> <p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 2.</p></div>",
-        "image_urls": [
-            "https://ege.sdamgia.ru/formula/svg/03/03b632315ee5bee654b60a6bd902a249.svg",
-            "https://ege.sdamgia.ru/formula/svg/47/47e205a9f01f6951d4dc6de16c404a8d.svg",
-            "https://ege.sdamgia.ru/formula/svg/6f/6fe97b358b528edc477ba63d50b652af.svg",
-            "https://ege.sdamgia.ru/formula/svg/81/81ed5ef3779e6b081b22740d7399b22f.svg",
-            "https://ege.sdamgia.ru/formula/svg/d8/d8bd50a24805cfa2446ea059d61bfaa4.svg",
-            "https://ege.sdamgia.ru/formula/svg/b5/b5f4137ab787d699c8faaaf9c347f351.svg",
-            "https://ege.sdamgia.ru/formula/svg/c5/c588af810c6cb5251c76c5d755ba1d84.svg",
-            "https://ege.sdamgia.ru/formula/svg/02/02378a44da57eaa4a6a3d4645f6b39a0.svg",
-            "https://ege.sdamgia.ru/formula/svg/29/29879d8dd3af0461c6e0ccccd6589490.svg",
-            "https://ege.sdamgia.ru/formula/svg/6c/6c3f5506ea45484c3b3838318d350ff0.svg"
-        ]
-    },
     "answer": "2",
-    "topic_id": 9,
-    "analog_ids": [
-        27992,
-        42849,
-        28441,
-        28443,
-        42849,
-        28441,
-        28443,
-        28445,
-        28447,
-        28449,
-        28451,
-        42839,
-        42841,
-        42843,
-        42845,
-        42847,
-        42851,
-        42853,
-        42855,
-        42857,
-        42859,
-        42861,
-        42863,
-        42865,
-        42867,
-        42869
-    ]
+    "analogs": [
+        "27992",
+        "42863",
+        "42869",
+        "28441",
+        "...",
+        "42863",
+        "42869",
+        "28441",
+        "28443",
+        "28445",
+        "28447",
+        "28449",
+        "28451",
+        "42839",
+        "42841",
+        "42843",
+        "42845",
+        "42847",
+        "42849",
+        "42851",
+        "42853",
+        "42855",
+        "42857",
+        "42859",
+        "42861",
+        "42865",
+        "42867"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=27992"
 }

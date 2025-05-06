@@ -1,52 +1,44 @@
 {
-    "gia_type": "ege",
-    "subject": "math",
-    "id": 26661,
+    "id": "26661",
+    "topic": "Д7",
     "condition": {
-        "text": "Найдите корень уравнения ",
-        "html": "<div align=\"justify\" width=\"100%\" id=\"body919257\" class=\"pbody\"><p class=\"left_margin\">Най­ди­те ко­рень урав­не­ния <img src=\"https://ege.sdamgia.ru/formula/svg/39/3917af7a49f9564c145b12dcc37d6b3a.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: дробь: чис­ли­тель: 2x плюс 5, зна­ме­на­тель: 3 конец дроби конец ар­гу­мен­та =5. \"></p></div>",
-        "image_urls": [
+        "text": "Найдите корень уравнения",
+        "images": [
             "https://ege.sdamgia.ru/formula/svg/39/3917af7a49f9564c145b12dcc37d6b3a.svg"
         ]
     },
-    "solution": {
-        "text": "Решение. Возведем в квадрат: Ответ: 35.",
-        "html": "<div align=\"justify\" width=\"100%\" id=\"sol26661\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">Воз­ве­дем в квад­рат:</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/87/87f3b6489801e83b64337e31745bde59.svg\" class=\"tex\" style=\"vertical-align:-9.3pt\" alt=\" ко­рень из: на­ча­ло ар­гу­мен­та: дробь: чис­ли­тель: 2x плюс 5, зна­ме­на­тель: 3 конец дроби конец ар­гу­мен­та =5 рав­но­силь­но дробь: чис­ли­тель: 2x плюс 5, зна­ме­на­тель: 3 конец дроби =25 рав­но­силь­но 2x плюс 5=75 рав­но­силь­но x=35. \"></p><p class=\"left_margin\"></p></center><p>&nbsp;</p><p><span style=\"letter-spacing: 2px;\">Ответ:</span> 35.</p></div>",
-        "image_urls": [
-            "https://ege.sdamgia.ru/formula/svg/87/87f3b6489801e83b64337e31745bde59.svg"
-        ]
-    },
     "answer": "35",
-    "topic_id": 6,
-    "analog_ids": [
-        26661,
-        3333,
-        3379,
-        635957,
-        3333,
-        3379,
-        635957,
-        3335,
-        3337,
-        3339,
-        3341,
-        3343,
-        3345,
-        3347,
-        3349,
-        3351,
-        3353,
-        3355,
-        3357,
-        3359,
-        3361,
-        3363,
-        3365,
-        3367,
-        3369,
-        3371,
-        3373,
-        3375,
-        3377
-    ]
+    "analogs": [
+        "26661",
+        "3379",
+        "3331",
+        "3333",
+        "...",
+        "3379",
+        "3331",
+        "3333",
+        "3335",
+        "3337",
+        "3339",
+        "3341",
+        "3343",
+        "3345",
+        "3347",
+        "3349",
+        "3351",
+        "3353",
+        "3355",
+        "3357",
+        "3359",
+        "3361",
+        "3363",
+        "3365",
+        "3367",
+        "3369",
+        "3371",
+        "3373",
+        "3375",
+        "3377"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=26661"
 }

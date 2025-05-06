@@ -1,0 +1,25 @@
+{
+    "id": "506830",
+    "topic": "12",
+    "condition": {
+        "text": "— правильный девятиугольник. Найдите угол Ответ дайте в градусах.",
+        "images": [
+            "https://mathb-ege.sdamgia.ru/get_file?id=64294",
+            "https://ege.sdamgia.ru/formula/svg/6f/6feb8ac01a4400a728b482d0506c4beb.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/49ddc4dde753142ec0dfe4387222d472.svg"
+        ]
+    },
+    "answer": "40",
+    "analogs": [
+        "506830",
+        "513039",
+        "513089",
+        "513109",
+        "...",
+        "513039",
+        "513089",
+        "513109",
+        "513129"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=506830"
+}

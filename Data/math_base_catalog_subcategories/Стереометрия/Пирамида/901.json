@@ -1,23 +1,23 @@
 {
-    "gia_type": "ege",
-    "subject": "math",
-    "id": 901,
+    "id": "901",
+    "topic": "Д13",
     "condition": {
         "text": "В правильной треугольной пирамиде SABC с вершиной S биссектрисы треугольника ABC пересекаются в точке O. Площадь треугольника ABC равна 2; объем пирамиды равен 6. Найдите длину отрезка OS.",
-        "html": "<div align=\"justify\" width=\"100%\" id=\"body945529\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=111723\" style=\"float:right;margin:10px;max-width:100%\">В пра­виль­ной тре­уголь­ной пи­ра­ми­де <i>SABC</i> с вер­ши­ной <i>S</i> бис­сек­три­сы тре­уголь­ни­ка <i>ABC</i> пе­ре­се­ка­ют­ся в точке <i>O</i>. Пло­щадь тре­уголь­ни­ка <i>ABC</i> равна 2; объем пи­ра­ми­ды равен 6. Най­ди­те длину от­рез­ка <i>OS</i>.</p></div>",
-        "image_urls": [
-            "/get_file?id=111723"
-        ]
-    },
-    "solution": {
-        "text": "Решение. Отрезок OS высота треугольной пирамиды SABC, ее объем выражается формулой  Таким образом,Ответ: 9.",
-        "html": "<div align=\"justify\" width=\"100%\" id=\"sol901\" class=\"solution\" style=\"clear:both;\" class=\"pbody\"><p class=\"left_margin\"></p><b>Ре­ше­ние<!--rule_info-->. </b><p class=\"left_margin\">От­ре­зок <i>OS</i> вы­со­та тре­уголь­ной пи­ра­ми­ды <i>SABC</i>, ее объем вы­ра­жа­ет­ся фор­му­лой</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e2/e275345ea9b2808f0d25e0814b7d6512.svg\" class=\"tex\" style=\"vertical-align:-8.5pt\" alt=\"V= дробь: чис­ли­тель: 1, зна­ме­на­тель: 3 конец дроби S_ABC умно­жить на SO. \"></p><p class=\"left_margin\"></p></center> <p> Таким об­ра­зом,</p><p class=\"left_margin\"></p><center><p><img src=\"https://ege.sdamgia.ru/formula/svg/e6/e6a671e303e6460f798fe2aa2d71d0c6.svg\" class=\"tex\" style=\"vertical-align:-10.0pt\" alt=\"SO= дробь: чис­ли­тель: 3V, зна­ме­на­тель: S_ABC конец дроби = дробь: чис­ли­тель: 3 умно­жить на 6, зна­ме­на­тель: 2 конец дроби =9. \"></p><p class=\"left_margin\"></p></center><p><span style=\"letter-spacing:2px \">Ответ</span>: 9.</p></div>",
-        "image_urls": [
-            "https://ege.sdamgia.ru/formula/svg/e2/e275345ea9b2808f0d25e0814b7d6512.svg",
-            "https://ege.sdamgia.ru/formula/svg/e6/e6a671e303e6460f798fe2aa2d71d0c6.svg"
+        "images": [
+            "https://mathb-ege.sdamgia.ru/get_file?id=111723"
         ]
     },
     "answer": "9",
-    "topic_id": 3,
-    "analog_ids": []
+    "analogs": [
+        "901",
+        "902",
+        "903",
+        "904",
+        "...",
+        "902",
+        "903",
+        "904",
+        "905"
+    ],
+    "url": "https://mathb-ege.sdamgia.ru/problem?id=901"
 }
