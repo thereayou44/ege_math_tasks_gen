@@ -11,7 +11,7 @@ subject = 'mathb'  # базовый уровень математики
 catalog = sdamgia.get_catalog(subject)
 
 # Создание базовой папки для хранения задач
-base_folder = 'Data/math_base_catalog_subcategories'
+base_folder = 'data/categories/math_base_catalog_subcategories'
 os.makedirs(base_folder, exist_ok=True)
 
 # Функция для очистки текста

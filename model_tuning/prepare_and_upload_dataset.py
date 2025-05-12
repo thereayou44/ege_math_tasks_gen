@@ -54,14 +54,14 @@ def extract_text_and_formulas(html_content):
     
     return text
 
-def get_all_categories():
+def get_available_categories():
     """
-    Получает список всех доступных категорий задач из директории Data/math_catalog_subcategories.
+    Получает список всех доступных категорий задач из директории data/categories/math_catalog_subcategories.
     
     Returns:
-        list: Список категорий
+        list: Список названий категорий
     """
-    base_dir = "Data/math_catalog_subcategories"
+    base_dir = "data/categories/math_catalog_subcategories"
     try:
         categories = [d for d in os.listdir(base_dir) if os.path.isdir(os.path.join(base_dir, d))]
         print(f"Найдено {len(categories)} категорий задач")
@@ -70,17 +70,17 @@ def get_all_categories():
         print(f"Каталог {base_dir} не найден.")
         return []
 
-def get_all_subcategories(category):
+def get_available_subcategories(category):
     """
-    Получает список всех подкатегорий для указанной категории.
+    Получает список всех доступных подкатегорий для указанной категории задач.
     
     Args:
-        category: Категория задач
+        category: Название категории
         
     Returns:
-        list: Список подкатегорий
+        list: Список названий подкатегорий
     """
-    base_dir = "Data/math_catalog_subcategories"
+    base_dir = "data/categories/math_catalog_subcategories"
     category_dir = os.path.join(base_dir, category)
     
     try:
@@ -241,7 +241,7 @@ def prepare_training_dataset(output_file="tuning_dataset.jsonl"):
 Твои ответы должны быть лаконичными, понятными и точными, без лишней информации."""
     
     # Получаем все категории из директории
-    categories = get_all_categories()
+    categories = get_available_categories()
     
     # Словарь для хранения задач
     all_tasks = []
@@ -250,14 +250,14 @@ def prepare_training_dataset(output_file="tuning_dataset.jsonl"):
     for category in categories:
         print(f"\nОбработка категории: {category}")
         # Получаем все подкатегории для текущей категории
-        subcategories = get_all_subcategories(category)
+        subcategories = get_available_subcategories(category)
         
         for subcategory in subcategories:
             print(f"  Обработка подкатегории: {subcategory}")
             
             # Собираем все задачи из подкатегории
             category_tasks = []
-            base_dir = "Data/math_catalog_subcategories"
+            base_dir = "data/categories/math_catalog_subcategories"
             folder = os.path.join(base_dir, category, subcategory)
             
             try:

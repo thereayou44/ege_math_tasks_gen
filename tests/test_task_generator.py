@@ -7,14 +7,14 @@ from unittest.mock import patch, MagicMock
 # Добавляем родительскую директорию в пути для импорта
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from task_generator import generate_complete_task, extract_answer_with_latex, parse_hints
-from prompts import DEFAULT_VISUALIZATION_PARAMS
+from app.task_generator import generate_complete_task, extract_answer_with_latex, parse_hints
+from app.prompts import DEFAULT_VISUALIZATION_PARAMS
 
 class TestTaskGenerator(unittest.TestCase):
     """Тесты для проверки генерации задач."""
     
-    @patch('task_generator.yandex_gpt_generate')
-    @patch('task_generator.select_file')
+    @patch('app.task_generator.yandex_gpt_generate')
+    @patch('app.task_generator.select_file')
     def test_basic_task_generation(self, mock_select_file, mock_yandex_gpt):
         """Проверяет, что генерация базовой задачи содержит все необходимые элементы."""
         # Мокаем данные для задачи
@@ -54,7 +54,7 @@ class TestTaskGenerator(unittest.TestCase):
         mock_yandex_gpt.return_value = mock_response
         
         # Мокаем вызов process_visualization_params для имитации изображения
-        with patch('task_generator.process_visualization_params') as mock_viz:
+        with patch('app.task_generator.process_visualization_params') as mock_viz:
             mock_viz.return_value = ('static/images/generated/test.png', 'base64_data')
             
             # Используем простую категорию для быстрого теста
@@ -80,8 +80,8 @@ class TestTaskGenerator(unittest.TestCase):
             for hint in result["hints"]:
                 self.assertTrue(len(hint) > 5, "Подсказка должна содержать текст")
     
-    @patch('task_generator.yandex_gpt_generate')
-    @patch('task_generator.select_file')
+    @patch('app.task_generator.yandex_gpt_generate')
+    @patch('app.task_generator.select_file')
     def test_geometry_task_with_image(self, mock_select_file, mock_yandex_gpt):
         """Проверяет, что задача по геометрии генерирует данные для изображения."""
         # Мокаем данные для задачи по геометрии
@@ -121,7 +121,7 @@ class TestTaskGenerator(unittest.TestCase):
         mock_yandex_gpt.return_value = mock_response
         
         # Мокаем вызов process_visualization_params для имитации изображения
-        with patch('task_generator.process_visualization_params') as mock_viz:
+        with patch('app.task_generator.process_visualization_params') as mock_viz:
             mock_viz.return_value = ('static/images/generated/triangle.png', 'base64_triangle_data')
             
             category = "Планиметрия"
@@ -139,8 +139,8 @@ class TestTaskGenerator(unittest.TestCase):
             self.assertEqual(result["image_path"], 'static/images/generated/triangle.png')
             self.assertEqual(result["image_base64"], 'base64_triangle_data')
     
-    @patch('task_generator.yandex_gpt_generate')
-    @patch('task_generator.select_file')
+    @patch('app.task_generator.yandex_gpt_generate')
+    @patch('app.task_generator.select_file')
     def test_function_graph_task(self, mock_select_file, mock_yandex_gpt):
         """Проверяет, что задача с графиком функции содержит данные для изображения."""
         # Мокаем данные для задачи с графиком
@@ -188,7 +188,7 @@ class TestTaskGenerator(unittest.TestCase):
         mock_yandex_gpt.return_value = mock_response
         
         # Мокаем вызов process_visualization_params для имитации изображения
-        with patch('task_generator.process_visualization_params') as mock_viz:
+        with patch('app.task_generator.process_visualization_params') as mock_viz:
             mock_viz.return_value = ('static/images/generated/graph.png', 'base64_graph_data')
             
             category = "Графики функций"
@@ -206,7 +206,7 @@ class TestTaskGenerator(unittest.TestCase):
             self.assertEqual(result["image_path"], 'static/images/generated/graph.png')
             self.assertEqual(result["image_base64"], 'base64_graph_data')
     
-    @patch('task_generator.select_file')
+    @patch('app.task_generator.select_file')
     def test_task_generation_with_difficulty(self, mock_select_file):
         """Проверяет, что сложность подсказок учитывается при генерации."""
         # Создаем мок данных для задачи
@@ -216,7 +216,7 @@ class TestTaskGenerator(unittest.TestCase):
         }
         
         # Мокаем yandex_gpt_generate, создавая специальный контекст для каждого вызова
-        with patch('task_generator.yandex_gpt_generate') as mock_yandex_gpt_easy:
+        with patch('app.task_generator.yandex_gpt_generate') as mock_yandex_gpt_easy:
             # Мокаем ответ для легкого уровня сложности
             mock_yandex_gpt_easy.return_value = """
             ---ЗАДАЧА---
@@ -244,7 +244,7 @@ class TestTaskGenerator(unittest.TestCase):
             self.assertIn("Легкая подсказка", result_easy["hints"][0])
         
         # Запускаем отдельный контекст для высокого уровня сложности
-        with patch('task_generator.yandex_gpt_generate') as mock_yandex_gpt_hard:
+        with patch('app.task_generator.yandex_gpt_generate') as mock_yandex_gpt_hard:
             # Мокаем ответ для высокого уровня сложности
             mock_yandex_gpt_hard.return_value = """
             ---ЗАДАЧА---

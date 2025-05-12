@@ -17,6 +17,7 @@ import base64
 from app.prompts import HINT_PROMPTS, SYSTEM_PROMPT, create_complete_task_prompt, REGEX_PATTERNS, DEFAULT_VISUALIZATION_PARAMS
 import traceback
 import matplotlib.patches as patches
+from app.utils.converters import convert_html_to_markdown as html_to_markdown
 
 # Настройка логирования
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -46,11 +47,14 @@ def select_file(category, subcategory="", is_basic_level=False):
     Returns:
         dict: JSON-данные выбранной задачи
     """
+    # Получаем абсолютный путь к корню проекта
+    project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+    
     # Выбираем соответствующий каталог в зависимости от уровня
     if is_basic_level:
-        base_dir = "data/categories/math_base_catalog_subcategories"
+        base_dir = os.path.join(project_root, "data/categories/math_base_catalog_subcategories")
     else:
-        base_dir = "data/categories/math_catalog_subcategories"
+        base_dir = os.path.join(project_root, "data/categories/math_catalog_subcategories")
         
     category_dir = os.path.join(base_dir, category)
     
@@ -203,14 +207,14 @@ def extract_answer_with_latex(solution):
             # Заменяем одинарные $ на двойные $$
             answer = answer.replace('$', '$$')
         else:
-        # Проверяем, есть ли в ответе формулы LaTeX и корректируем их
-        # Ищем выражения без окружения $ и оборачиваем их
-        formula_pattern = r'(\\frac|\\sqrt|\\sum|\\prod|\\int|\\lim|\\sin|\\cos|\\tan|\\log|\\ln)'
+            # Проверяем, есть ли в ответе формулы LaTeX и корректируем их
+            # Ищем выражения без окружения $ и оборачиваем их
+            formula_pattern = r'(\\frac|\\sqrt|\\sum|\\prod|\\int|\\lim|\\sin|\\cos|\\tan|\\log|\\ln)'
             answer = re.sub(formula_pattern, r'$$\1', answer)
         
             # Если мы добавили открывающий символ $$, но нет закрывающего, добавляем его
             open_count = answer.count('$$')
-        if open_count % 2 != 0:
+            if open_count % 2 != 0:
                 answer += '$$'
             
         # Экранируем угловые скобки, если они не являются частью HTML-тега
@@ -238,8 +242,8 @@ def extract_answer_with_latex(solution):
                 # Заменяем одинарные $ на двойные $$
                 answer = answer.replace('$', '$$')
             else:
-            # Применяем те же преобразования, что и выше
-            formula_pattern = r'(\\frac|\\sqrt|\\sum|\\prod|\\int|\\lim|\\sin|\\cos|\\tan|\\log|\\ln)'
+                # Применяем те же преобразования, что и выше
+                formula_pattern = r'(\\frac|\\sqrt|\\sum|\\prod|\\int|\\lim|\\sin|\\cos|\\tan|\\log|\\ln)'
                 answer = re.sub(formula_pattern, r'$$\1', answer)
             
                 # Если мы добавили открывающий символ $$, но нет закрывающего, добавляем его

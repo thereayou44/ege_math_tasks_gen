@@ -101,20 +101,15 @@ def generate_categories_list(base_dir, output_file, catalog_file=None):
         return False
 
 if __name__ == "__main__":
-    # Генерируем список категорий для базового уровня
-    base_success = generate_categories_list(
-        "Data/math_base_catalog_subcategories", 
-        "Data/base_categories_list.json",
-        "Data/math_base_catalog.json"
+    # Генерация файла для базового уровня
+    generate_categories_list(
+        "data/categories/math_base_catalog_subcategories",
+        "data/categories/base_categories_list.json",
+        "data/categories/math_base_catalog.json"
     )
     
-    # Генерируем список категорий для профильного уровня
-    advanced_success = generate_categories_list(
-        "Data/math_catalog_subcategories", 
-        "Data/categories_list.json"
-    )
-    
-    if base_success and advanced_success:
-        print("Все файлы категорий успешно созданы!")
-    else:
-        print("Были ошибки при создании файлов категорий.") 
+    # Генерация файла для профильного уровня
+    generate_categories_list(
+        "data/categories/math_catalog_subcategories",
+        "data/categories/categories_list.json"
+    ) 

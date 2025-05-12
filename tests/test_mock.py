@@ -8,7 +8,7 @@ from unittest.mock import patch, MagicMock
 # Добавляем родительскую директорию в пути для импорта
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from task_generator import generate_complete_task, yandex_gpt_generate, extract_answer_with_latex, parse_hints
+from app.task_generator import generate_complete_task, yandex_gpt_generate, extract_answer_with_latex, parse_hints
 
 class TestTaskGeneratorWithMocks(unittest.TestCase):
     """Тесты для генератора задач с использованием моков."""

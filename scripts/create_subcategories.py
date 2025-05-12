@@ -10,7 +10,7 @@ import os
 import json
 
 def create_subcategories_files():
-    base_dir = "Data/math_catalog_subcategories"
+    base_dir = "data/categories/math_catalog_subcategories"
     
     # Проверяем существование директории
     if not os.path.exists(base_dir):

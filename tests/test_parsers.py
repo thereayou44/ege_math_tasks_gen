@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 # Добавляем родительскую директорию в пути для импорта
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from task_generator import (
+from app.task_generator import (
     extract_text_and_formulas,
     extract_answer_with_latex,
     parse_hints,

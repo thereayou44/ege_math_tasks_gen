@@ -8,7 +8,7 @@ from unittest.mock import patch, MagicMock
 # Добавляем родительскую директорию в пути для импорта
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from task_generator import (
+from app.task_generator import (
     generate_markdown_task,
     generate_json_task,
     generate_json_markdown_task

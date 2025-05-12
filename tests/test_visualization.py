@@ -9,7 +9,7 @@ from PIL import Image
 # Добавляем родительскую директорию в пути для импорта
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from task_generator import (
+from app.task_generator import (
     generate_geometric_figure,
     generate_graph_image,
     generate_coordinate_system,

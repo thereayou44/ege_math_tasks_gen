@@ -120,6 +120,6 @@ dmypy.json
 last_generated_task.txt
 flask.log
 *.zip
-Data/
+data/
 .idea/
 static/images/generated/ 
