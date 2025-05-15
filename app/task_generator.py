@@ -14,10 +14,14 @@ import matplotlib
 matplotlib.use('Agg')  # Используем не-интерактивный бэкенд
 import uuid
 import base64
+import traceback
+import time
 
 try:
     from app.prompts import HINT_PROMPTS, SYSTEM_PROMPT, create_complete_task_prompt, REGEX_PATTERNS, DEFAULT_VISUALIZATION_PARAMS
-    from app.visualization import process_multiple_function_plots, process_bar_chart, process_pie_chart, process_chart_visualization
+    from app.visualization import process_bar_chart, process_pie_chart, process_chart_visualization
+    from app.visualization.chart_utils import normalize_function_expression
+
 except ImportError:
     from prompts import HINT_PROMPTS, SYSTEM_PROMPT, create_complete_task_prompt, REGEX_PATTERNS, DEFAULT_VISUALIZATION_PARAMS
     from visualization import process_multiple_function_plots, process_bar_chart, process_pie_chart, process_chart_visualization
@@ -59,6 +63,10 @@ def select_file(category, subcategory="", is_basic_level=False):
     Returns:
         dict: JSON-данные выбранной задачи
     """
+    # Инициализируем новый seed для генератора случайных чисел,
+    # чтобы обеспечить разные результаты при каждом вызове
+    random.seed(int(time.time() * 1000) % 10000000)
+    
     # Получаем абсолютный путь к корню проекта
     project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
     
@@ -81,6 +89,8 @@ def select_file(category, subcategory="", is_basic_level=False):
             print(f"В каталоге {category_dir} нет подпапок.")
             return None
             
+        # Инициализируем новый seed перед выбором подкатегории
+        random.seed(int(time.time() * 1000) % 10000000)
         subcategory = random.choice(subdirs)
         print(f"Случайно выбрана подкатегория: {subcategory}")
         
@@ -96,6 +106,8 @@ def select_file(category, subcategory="", is_basic_level=False):
         print("Нет подходящих JSON файлов в каталоге.")
         return None
         
+    # Инициализируем новый seed перед выбором файла
+    random.seed(int(time.time() * 1000) % 10000000)
     chosen_file = random.choice(files)
     filepath = os.path.join(folder, chosen_file)
     print(f"Выбран файл: {filepath}")
@@ -134,7 +146,7 @@ def extract_text_and_formulas(html_content):
     
     return text
 
-def yandex_gpt_generate(prompt, temperature=0.3, max_tokens=8000):
+def yandex_gpt_generate(prompt, temperature=0.3, max_tokens=8000, is_basic_level=None):
     """
     Отправляет запрос к API YandexGPT и возвращает ответ.
     
@@ -142,12 +154,18 @@ def yandex_gpt_generate(prompt, temperature=0.3, max_tokens=8000):
         prompt: Текст запроса
         temperature: Температура генерации (от 0 до 1)
         max_tokens: Максимальное количество токенов в ответе (увеличено до 8000)
+        is_basic_level: Флаг базового/профильного уровня задачи
         
     Returns:
         str: Сгенерированный текст ответа
     """
+    # Для базового уровня добавляем случайный компонент к ключу кэша, чтобы избежать повторов
+    random_component = ""
+    if is_basic_level:
+        random_component = f"_{time.time() * 1000}"
+    
     # Создаем ключ кэша на основе параметров запроса
-    cache_key = f"{prompt}_{temperature}_{max_tokens}"
+    cache_key = f"{prompt}_{temperature}_{max_tokens}_{is_basic_level}{random_component}"
     
     # Проверяем, есть ли ответ в кэше
     if cache_key in _task_cache:
@@ -1206,124 +1224,32 @@ def process_visualization_params(params_text):
             return default
         
         if "график" in viz_type:
-            # Проверяем, есть ли указание на количество графиков
-            graphs_count_str = re.search(r'Количество графиков:?\s*(\d+)', params_text, re.IGNORECASE)
-            graphs_count = int(graphs_count_str.group(1)) if graphs_count_str else 1
-            
-            # Извлекаем общие параметры
-            show_grid = extract_param(r'Показать сетку:?\s*(.*)', params_text, "да").lower() in ["да", "yes", "true"]
-            title = extract_param(r'Заголовок:?\s*(.*)', params_text, "График функций")
-            
-            # Общие диапазоны осей
-            common_x_range_str = extract_param(r'Общий диапазон X:?\s*(.*)', params_text)
-            common_y_range_str = extract_param(r'Общий диапазон Y:?\s*(.*)', params_text)
-            
-            # Определяем общие диапазоны X и Y
-            common_x_min, common_x_max = -10, 10
-            common_y_min, common_y_max = None, None
-            
-            if common_x_range_str:
-                try:
-                    common_x_range_str = common_x_range_str.replace(' ', '').replace('[', '').replace(']', '')
-                    x_parts = common_x_range_str.split(',')
-                    if len(x_parts) >= 2:
-                        common_x_min, common_x_max = float(x_parts[0]), float(x_parts[1])
-                except Exception as e:
-                    logging.warning(f"Ошибка при парсинге общего диапазона X: {e}, использую значения по умолчанию")
-            
-            if common_y_range_str and common_y_range_str.lower() not in ["авто", "auto", "автоматический"]:
-                try:
-                    common_y_range_str = common_y_range_str.replace(' ', '').replace('[', '').replace(']', '')
-                    y_parts = common_y_range_str.split(',')
-                    if len(y_parts) >= 2:
-                        common_y_min, common_y_max = float(y_parts[0]), float(y_parts[1])
-                except Exception as e:
-                    logging.warning(f"Ошибка при парсинге общего диапазона Y: {e}, использую автоопределение")
-            
-            # Создаем списки для хранения параметров каждого графика
-            functions = []
-            colors = []
-            labels = []
-            x_ranges = []
-            y_ranges = []
-            
-            # Обрабатываем параметры для каждого графика
-            for i in range(1, graphs_count + 1):
-                # Ищем блок параметров для текущего графика
-                graph_block_pattern = rf'График\s*{i}:.*?(?=График\s*{i+1}:|Общие параметры:|$)'
-                graph_block_match = re.search(graph_block_pattern, params_text, re.DOTALL | re.IGNORECASE)
-                
-                if graph_block_match:
-                    graph_block = graph_block_match.group(0)
-                    
-                    # Извлекаем параметры графика
-                    func_str = extract_param(r'Функция:?\s*(.*?)(?=Диапазон|Цвет|Метка|$)', graph_block)
-                    x_range_str = extract_param(r'Диапазон\s+X:?\s*(.*?)(?=Диапазон\s+Y|Цвет|Метка|$)', graph_block)
-                    y_range_str = extract_param(r'Диапазон\s+Y:?\s*(.*?)(?=Цвет|Метка|$)', graph_block)
-                    color = extract_param(r'Цвет:?\s*(.*?)(?=Метка|$)', graph_block, "blue").strip()
-                    label = extract_param(r'Метка:?\s*(.*?)(?=$)', graph_block, f"График {i}").strip()
-                    
-                    # Логируем извлеченные параметры для отладки
-                    logging.info(f"Параметры графика {i}: функция='{func_str}', x_range='{x_range_str}', y_range='{y_range_str}', цвет='{color}', метка='{label}'")
-                    
-                    # Если функция не указана, пропускаем этот график
-                    if not func_str:
-                        logging.warning(f"Не указана функция для графика {i}, пропускаю")
-                        continue
-                    
-                    # Обрабатываем диапазон X
-                    x_min, x_max = common_x_min, common_x_max
-                    if x_range_str:
-                        try:
-                            x_range_str = x_range_str.replace(' ', '').replace('[', '').replace(']', '')
-                            x_parts = x_range_str.split(',')
-                            if len(x_parts) >= 2:
-                                x_min, x_max = float(x_parts[0]), float(x_parts[1])
-                        except Exception as e:
-                            logging.warning(f"Ошибка при парсинге диапазона X для графика {i}: {e}, использую общие значения")
-                    
-                    # Обрабатываем диапазон Y
-                    y_min, y_max = common_y_min, common_y_max
-                    if y_range_str and y_range_str.lower() not in ["авто", "auto", "автоматический"]:
-                        try:
-                            y_range_str = y_range_str.replace(' ', '').replace('[', '').replace(']', '')
-                            y_parts = y_range_str.split(',')
-                            if len(y_parts) >= 2:
-                                y_min, y_max = float(y_parts[0]), float(y_parts[1])
-                        except Exception as e:
-                            logging.warning(f"Ошибка при парсинге диапазона Y для графика {i}: {e}, использую общие значения")
-                    
-                    # Добавляем параметры в соответствующие списки
-                    functions.append(normalize_function_expression(func_str))
-                    colors.append(color)
-                    labels.append(label)
-                    x_ranges.append((x_min, x_max))
-                    y_ranges.append((y_min, y_max) if y_min is not None and y_max is not None else None)
-                else:
-                    logging.warning(f"Не найден блок параметров для графика {i}")
-            
-            # Если не удалось извлечь ни одной функции, возвращаем ошибку
-            if not functions:
-                logging.error("Не удалось извлечь ни одной функции")
-                return None, None
-        
-            # Создаем визуализацию с несколькими графиками
             try:
-                image_path = process_multiple_function_plots(
-                    functions=functions,
-                    colors=colors,
-                    labels=labels,
-                    x_ranges=x_ranges,
-                    y_ranges=y_ranges,
-                    show_grid=show_grid,
-                    title=title
-                )
-                return image_path, "graph"
+                # Используем общую функцию parse_graph_params для парсинга параметров
+                funcs_to_plot, x_range, y_range, special_points = parse_graph_params(params_text)
+                
+                # Создаем директорию для сохранения изображения, если она не существует
+                output_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "static/images/generated")
+                os.makedirs(output_dir, exist_ok=True)
+                
+                # Генерируем имя файла с уникальным идентификатором
+                filename = f'multifunction_{uuid.uuid4().hex[:8]}.png'
+                output_path = os.path.join(output_dir, filename)
+                
+                # Логируем для отладки
+                x_min, x_max = x_range
+                y_min, y_max = (None, None) if y_range is None else y_range
+                logging.info(f"Обработка функций с параметрами: x: [{x_min}, {x_max}], " +
+                             f"y: [{y_min if y_min is not None else 'auto'}, {y_max if y_max is not None else 'auto'}]")
+                
+                # Отрисовываем график
+                filepath = generate_multi_function_graph(funcs_to_plot, x_range=x_range, y_range=y_range, special_points=special_points)
+                return filepath, "graph"
             except Exception as e:
-                logging.error(f"Ошибка при создании графиков: {e}")
+                logging.error(f"Ошибка при создании графика функций: {e}")
                 logging.error(traceback.format_exc())
                 return None, None
-        
+                
         elif "треугольник" in viz_type:
             image_path = process_triangle_visualization(params_text, extract_param)
             return image_path, "triangle"
@@ -1345,97 +1271,11 @@ def process_visualization_params(params_text):
         else:
             logging.warning(f"Неизвестный тип визуализации: {viz_type}")
             return None, None
-    except Exception as e:
-        logging.error(f"Ошибка при обработке параметров визуализации: {e}")
-        traceback.print_exc()
-        return None, None
-
-def process_graph_visualization(params_text, extract_param):
-    """
-    Обрабатывает параметры визуализации для графика функции.
-    
-    Args:
-        params_text: Текст с параметрами от модели
-        extract_param: Функция для извлечения параметров
-        
-    Returns:
-        str: Путь к сгенерированному изображению или None в случае ошибки
-    """
-    try:
-        # Проверяем, есть ли указание на количество функций
-        num_functions_str = re.search(r'Количество функций:?\s*(\d+)', params_text)
-        num_functions = int(num_functions_str.group(1)) if num_functions_str else 1
-        
-        # Если больше одной функции, делегируем в process_multiple_function_plots
-        if num_functions > 1:
-            # Создаем директорию для сохранения изображения, если она не существует
-            output_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "static/images/generated")
-            os.makedirs(output_dir, exist_ok=True)
             
-            # Генерируем имя файла с уникальным идентификатором
-            filename = f'multifunction_{uuid.uuid4().hex[:8]}.png'
-            output_path = os.path.join(output_dir, filename)
-            
-            # Идентификация нескольких функций и их параметров будет обрабатываться внутри process_multiple_function_plots
-            return process_multiple_function_plots(params_text, output_path)
-        
-        # Извлекаем основные параметры для одной функции
-        func_str = extract_param(REGEX_PATTERNS["graph"]["function"], params_text)
-        x_range_str = extract_param(REGEX_PATTERNS["graph"]["x_range"], params_text)
-        y_range_str = extract_param(REGEX_PATTERNS["graph"]["y_range"], params_text)
-        
-        # Проверяем, что функция указана
-        if not func_str:
-            logging.error("Не указана функция для построения графика")
-            return None
-        
-        # Парсим диапазон X
-        x_range = (-10, 10)  # Значения по умолчанию
-        if x_range_str:
-            try:
-                # Удаляем пробелы и скобки
-                x_range_str = x_range_str.replace(' ', '').replace('[', '').replace(']', '')
-                x_parts = x_range_str.split(',')
-                if len(x_parts) >= 2:
-                    x_range = (float(x_parts[0]), float(x_parts[1]))
-            except Exception as e:
-                logging.warning(f"Ошибка при разборе диапазона X: {e}, использую значения по умолчанию")
-        
-        # Парсим диапазон Y
-        y_range = None  # По умолчанию автоматический диапазон
-        if y_range_str and y_range_str.lower() not in ["авто", "auto", "автоматический"]:
-            try:
-                # Удаляем пробелы и скобки
-                y_range_str = y_range_str.replace(' ', '').replace('[', '').replace(']', '')
-                y_parts = y_range_str.split(',')
-                if len(y_parts) >= 2:
-                    y_range = (float(y_parts[0]), float(y_parts[1]))
-            except Exception as e:
-                logging.warning(f"Ошибка при разборе диапазона Y: {e}, использую автоопределение")
-        
-        # Создаем директорию для сохранения изображения, если она не существует
-        output_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "static/images/generated")
-        os.makedirs(output_dir, exist_ok=True)
-        
-        # Генерируем имя файла с уникальным идентификатором
-        filename = f'graph_{uuid.uuid4().hex[:8]}.png'
-        output_path = os.path.join(output_dir, filename)
-        
-        # Нормализуем выражение функции (заменяем математические символы на Python-эквиваленты)
-        func_expr = normalize_function_expression(func_str)
-        
-        # Логируем для отладки
-        x_min, x_max = x_range
-        y_min, y_max = (None, None) if y_range is None else y_range
-        logging.info(f"Обработка функции: {func_expr}, x: [{x_min}, {x_max}], y: [{y_min if y_min is not None else 'auto'}, {y_max if y_max is not None else 'auto'}]")
-        
-        # Генерируем изображение графика
-        output_image = generate_graph_image(func_expr, x_range=x_range, y_range=y_range, filename=output_path)
-        return output_path if output_image else None
     except Exception as e:
         logging.error(f"Ошибка при создании графика функции: {e}")
         logging.error(traceback.format_exc())
-        return None
+        return None, None
 
 def process_coordinate_visualization(params_text, extract_param):
     """Обрабатывает параметры для координатной плоскости"""
@@ -1671,9 +1511,24 @@ def extract_graph_params(task_text):
         dict: Словарь с параметрами для визуализации графика
     """
     import re
+    import logging
     from app.prompts import DEFAULT_VISUALIZATION_PARAMS
     
     params = {"type": "graph"}
+    
+    # Ищем особые точки в тексте (например, A(1,0), B(5,0), C(3,-4))
+    special_points = []
+    special_points_pattern = r'([A-Z])\s*\(\s*(-?\d+(?:[,.]\d+)?)\s*,\s*(-?\d+(?:[,.]\d+)?)\s*\)'
+    special_point_matches = re.findall(special_points_pattern, task_text)
+    for match in special_point_matches:
+        label, x, y = match
+        x = float(x.replace(',', '.'))
+        y = float(y.replace(',', '.'))
+        special_points.append((x, y, label))
+    
+    # Добавляем найденные точки к параметрам
+    if special_points:
+        params["special_points"] = special_points
     
     # Ищем конкретные значения параметров, если они заданы
     parameters = {}
@@ -1711,57 +1566,210 @@ def extract_graph_params(task_text):
     ]
     
     functions = []
-    colors = ['blue', 'red', 'green', 'orange', 'purple']  # Разные цвета для разных функций
+    colors = ['blue', 'red', 'green', 'orange', 'purple']
     
-    # Ищем функции по паттернам
-    for pattern in function_patterns:
+    for i, pattern in enumerate(function_patterns):
         matches = re.findall(pattern, task_text)
-        if matches:
-            for i, match in enumerate(matches):
-                if isinstance(match, tuple) and len(match) > 1:  # Если найдена функция с именем
-                    func_name, func_expr = match
-                    color_index = ord(func_name.lower()) - ord('a') if func_name.isalpha() else i
-                    color = colors[color_index % len(colors)]
-                    
-                    # Заменяем ^ на ** для Python
-                    func_expr = func_expr.strip().replace('^', '**')
-                    
-                    # Заменяем параметры их значениями, если они известны
-                    for param, value in parameters.items():
-                        func_expr = func_expr.replace(param, str(value))
-                    
-                    # Добавляем функцию, если она еще не была добавлена
-                    if not any(func_name == f[2] for f in functions):
-                        functions.append((func_expr, color, func_name))
-                else:  # Если найдена функция без имени
-                    func_expr = match if isinstance(match, str) else match[0]
-                    func_expr = func_expr.strip().replace('^', '**')
-                    if not any(f"f{i+1}" == f[2] for f in functions):
-                        functions.append((func_expr, colors[i % len(colors)], f'f{i+1}'))
-    
-    # Обработка задач с уравнениями типа "две функции..."
-    multi_func_match = re.search(r'(?:две|несколько) функци[и|й]:\s*\$([^$]+)\$\s*и\s*\$([^$]+)\$', task_text, re.IGNORECASE)
-    if not multi_func_match:
-        # Попробуем альтернативный формат записи
-        multi_func_match = re.search(r'(?:две|несколько) функции:[^:]*?([a-zA-Z])\s*\(\s*x\s*\)\s*=\s*([^,\.;]+)[^:]*?и[^:]*?([a-zA-Z])\s*\(\s*x\s*\)\s*=\s*([^,\.;]+)', task_text, re.IGNORECASE | re.DOTALL)
-        if multi_func_match:
-            func1_name, func1_expr = multi_func_match.group(1), multi_func_match.group(2).strip()
-            func2_name, func2_expr = multi_func_match.group(3), multi_func_match.group(4).strip()
-            
-            # Заменяем параметры в выражениях их значениями, если они известны
-            # Также заменяем LaTeX-команды и символы на Python-синтаксис
-            func1_expr = func1_expr.replace('^', '**').replace('\\sqrt', 'sqrt')
-            func2_expr = func2_expr.replace('^', '**').replace('\\sqrt', 'sqrt')
-            
-            # Добавляем функции с разными цветами
-            if not any(func1_name == f[2] for f in functions):
-                functions.append((func1_expr, 'blue', func1_name))
-            if not any(func2_name == f[2] for f in functions):
-                functions.append((func2_expr, 'red', func2_name))
+        for j, match in enumerate(matches):
+            if i <= 1:  # Формат без имени функции (y= или f(x)=)
+                func_expr = match.strip()
+                if i == 0:  # y = expr
+                    func_name = 'y'
+                else:  # f(x) = expr
+                    func_name = 'f(x)'
+            else:  # Формат с именем функции
+                func_name, func_expr = match
+                func_name = f"{func_name}(x)"
                 
-            # Обработка специфичных выражений
-            if 'sqrt' in func1_expr or 'sqrt' in func2_expr:
-                params['imports'] = 'from math import sqrt'
+            # Очищаем выражение от лишних пробелов
+            func_expr = func_expr.strip()
+            
+            # Преобразуем выражение для Python
+            func_expr = func_expr.replace('^', '**')
+            
+            # Заменяем различные LaTeX-символы на Python-эквиваленты
+            func_expr = func_expr.replace('\\cdot', '*').replace('\\frac{', '(').replace('}{', ')/(').replace('}', ')')
+            func_expr = func_expr.replace('\\sqrt', 'sqrt')
+            
+            # Выбираем цвет для функции
+            color_idx = j % len(colors)
+            color = colors[color_idx]
+            
+            # Проверяем, не добавляли ли мы уже эту функцию
+            if not any(f[0] == func_expr for f in functions):
+                functions.append((func_expr, color, func_name))
+    
+    # Ищем функции из секции с параметрами визуализации
+    param_section_pattern = r'===ПАРАМЕТРЫ ВИЗУАЛИЗАЦИИ===\s*(.*?)(?===|$)'
+    param_section_match = re.search(param_section_pattern, task_text, re.DOTALL)
+    
+    if param_section_match:
+        param_section = param_section_match.group(1)
+        
+        # Ищем функцию в параметрах визуализации
+        func_pattern = r'Функция\s+(\d+):\s*(.*?)(?=Цвет|Название|Диапазон|$)'
+        func_matches = re.findall(func_pattern, param_section, re.DOTALL)
+        
+        # Ищем цвета
+        color_pattern = r'Цвет\s+(\d+):\s*(.*?)(?=Функция|Название|Диапазон|$)'
+        color_matches = re.findall(color_pattern, param_section, re.DOTALL)
+        color_dict = {int(num): color.strip() for num, color in color_matches}
+        
+        # Ищем названия
+        name_pattern = r'Название\s+(\d+):\s*(.*?)(?=Функция|Цвет|Диапазон|$)'
+        name_matches = re.findall(name_pattern, param_section, re.DOTALL)
+        name_dict = {int(num): name.strip() for num, name in name_matches}
+        
+        param_functions = []
+        for func_match in func_matches:
+            num = int(func_match[0])
+            func_expr = func_match[1].strip().replace('^', '**')
+            
+            # Получаем цвет и имя для этой функции
+            color = color_dict.get(num, colors[min(num-1, len(colors)-1)])
+            
+            # Конвертируем русские названия цветов в английские
+            color_mapping = {
+                'красный': 'red',
+                'синий': 'blue',
+                'зеленый': 'green',
+                'зелёный': 'green',
+                'желтый': 'yellow',
+                'жёлтый': 'yellow',
+                'черный': 'black',
+                'чёрный': 'black',
+                'фиолетовый': 'purple',
+                'оранжевый': 'orange',
+                'коричневый': 'brown',
+                'розовый': 'pink',
+                'серый': 'gray',
+                'голубой': 'cyan',
+                'малиновый': 'magenta'
+            }
+            
+            # Преобразуем название цвета, если оно на русском
+            if color.lower() in color_mapping:
+                color = color_mapping[color.lower()]
+                
+            name = name_dict.get(num, f"f_{num}(x)")
+            
+            param_functions.append((func_expr, color, name))
+        
+        # Если нашли хотя бы одну функцию в параметрах, используем её вместо найденных в тексте задачи
+        if param_functions:
+            functions = param_functions
+            
+            # Логируем найденные функции для отладки
+            for i, (func, color, name) in enumerate(functions):
+                logging.info(f"Найдены параметры для функции {i+1}: {func}, цвет: {color}, метка: {name}")
+            
+            # Добавляем список функций в параметры
+            params['functions'] = functions
+            
+            # Проверяем особые точки
+            special_points_pattern = r'Особые точки:\s*(.*?)(?===|$)'
+            special_points_match = re.search(special_points_pattern, param_section, re.DOTALL)
+            
+            if special_points_match:
+                try:
+                    special_points_str = special_points_match.group(1).strip()
+                    # Разделяем по запятым, но не внутри скобок
+                    import re
+                    # Разделяем точки, учитывая возможные скобки и запятые внутри координат
+                    points_list = re.findall(r'\(([^)]+)\)', special_points_str)
+                    
+                    special_points = []
+                    import logging
+                    logging.info(f"Найдены точки в параметрах: {points_list}")
+                    
+                    for point_str in points_list:
+                        try:
+                            # Разделяем по запятой на x, y, label
+                            parts = point_str.split(',', 2)
+                            
+                            if len(parts) >= 2:
+                                x_expr = parts[0].strip()
+                                y_expr = parts[1].strip()
+                                label = parts[2].strip() if len(parts) > 2 else ""
+                                
+                                # Обрабатываем выражения вида "1 + sqrt(3)/3"
+                                try:
+                                    # Заменяем математические выражения на Python-синтаксис
+                                    x_expr = x_expr.replace('^', '**').replace('sqrt', 'math.sqrt')
+                                    
+                                    logging.info(f"Пытаемся вычислить x_expr: {x_expr}")
+                                    
+                                    # Если выражение содержит математические функции
+                                    if any(func in x_expr for func in ['math.', 'sqrt', 'sin', 'cos']):
+                                        import math
+                                        x_val = eval(x_expr)
+                                        logging.info(f"Вычислили x_val = {x_val}")
+                                    else:
+                                        x_val = float(x_expr)
+                                    
+                                    # Если y_expr содержит f(x), вычисляем значение функции
+                                    if 'f(' in y_expr:
+                                        # Получаем функцию из списка
+                                        if functions:
+                                            func_expr = functions[0][0]
+                                            y_val = eval(func_expr.replace('x', f'({x_val})'))
+                                            logging.info(f"Вычислили значение функции y_val = {y_val}")
+                                        else:
+                                            logging.warning(f"Не удалось вычислить значение функции для точки ({x_expr}, {y_expr})")
+                                            continue
+                                    else:
+                                        # Обрабатываем y так же, как x
+                                        y_expr = y_expr.replace('^', '**').replace('sqrt', 'math.sqrt')
+                                        
+                                        if any(func in y_expr for func in ['math.', 'sqrt', 'sin', 'cos']):
+                                            import math
+                                            y_val = eval(y_expr)
+                                        else:
+                                            y_val = float(y_expr)
+                                    
+                                    # Добавляем точку с вычисленными координатами
+                                    special_points.append((x_val, y_val, label))
+                                    logging.info(f"Добавлена точка: ({x_val}, {y_val}, {label})")
+                                except Exception as e:
+                                    logging.warning(f"Ошибка при разборе особых точек: {e}")
+                                    continue
+                                
+                        except Exception as e:
+                            logging.warning(f"Ошибка при обработке точки '{point_str}': {e}")
+                    
+                    if special_points:
+                        params['special_points'] = special_points
+                        logging.info(f"Найдены особые точки: {special_points}")
+                except Exception as e:
+                    logging.warning(f"Ошибка при обработке списка особых точек: {e}")
+            
+            # Проверяем диапазоны осей
+            x_range_pattern = r'Диапазон X:\s*\[(.*?)\]'
+            x_range_match = re.search(x_range_pattern, param_section)
+            
+            if x_range_match:
+                try:
+                    x_range_str = x_range_match.group(1)
+                    x_min, x_max = map(float, x_range_str.split(','))
+                    params['x_range'] = (x_min, x_max)
+                except Exception as e:
+                    logging.warning(f"Ошибка при разборе диапазона X: {e}")
+            
+            y_range_pattern = r'Диапазон Y:\s*\[(.*?)\]'
+            y_range_match = re.search(y_range_pattern, param_section)
+            
+            if y_range_match:
+                try:
+                    y_range_str = y_range_match.group(1)
+                    if y_range_str.lower() != 'автоматический':
+                        y_min, y_max = map(float, y_range_str.split(','))
+                        params['y_range'] = (y_min, y_max)
+                except Exception as e:
+                    logging.warning(f"Ошибка при разборе диапазона Y: {e}")
+    
+    # Поиск функций в мультифункциональном формате
+    multi_func_pattern = r'Рассмотрим\s+две\s+функции\s*:\s*([a-zA-Z])\s*\(\s*x\s*\)\s*=\s*([^,]+)\s*,\s*([a-zA-Z])\s*\(\s*x\s*\)\s*=\s*([^,\.]+)'
+    multi_func_match = re.search(multi_func_pattern, task_text, re.IGNORECASE)
     
     # Еще один формат: "На графике изображены две функции: $f(x) = ...$"
     if not multi_func_match:
@@ -1785,24 +1793,23 @@ def extract_graph_params(task_text):
                 
                 # Поиск значений функций в тексте
                 val_pattern = r'\$?%s\s*\(\s*(\d+(?:[,.]\d+)?)\s*\)\s*=\s*(-?\d+(?:[,.]\d+)?)\$?'
+                f1_vals = re.findall(val_pattern % func1_name, task_text)
+                f2_vals = re.findall(val_pattern % func2_name, task_text)
                 
-                # Проверка для первой функции (корневая функция a*sqrt(x))
-                if 'a' in func1_expr and 'sqrt' in func1_expr:
-                    f_val_match = re.search(val_pattern % func1_name, task_text)
-                    if f_val_match:
-                        x_val, y_val = float(f_val_match.group(1).replace(',', '.')), float(f_val_match.group(2).replace(',', '.'))
-                        # Для корневой функции a*sqrt(x) вычисляем a
-                        a_value = y_val / (x_val ** 0.5)
-                        func1_expr = func1_expr.replace('a', str(a_value))
-                
-                # Проверка для второй функции (линейная функция kx + b)
-                if ('k' in func2_expr or 'b' in func2_expr) and 'kx' in func2_expr:
-                    g_val_match = re.search(val_pattern % func2_name, task_text)
-                    if g_val_match:
-                        x_val, y_val = float(g_val_match.group(1).replace(',', '.')), float(g_val_match.group(2).replace(',', '.'))
-                        if x_val == 0:  # g(0) = b
-                            b_value = y_val
-                            func2_expr = func2_expr.replace('b', str(b_value))
+                # Если нашли значения, проверим корректность функций
+                if f1_vals:
+                    x_val, expected_y = f1_vals[0]
+                    x_val = float(x_val.replace(',', '.'))
+                    expected_y = float(expected_y.replace(',', '.'))
+                    
+                    # Преобразуем выражение и подставляем x
+                    try:
+                        actual_y = eval(func1_expr.replace('x', str(x_val)))
+                        if abs(actual_y - expected_y) > 0.01:
+                            # Если результат не совпадает, возможно, функция была задана неверно
+                            logging.warning(f"Несоответствие значений для функции {func1_name}: ожидается {expected_y}, получено {actual_y}")
+                    except Exception as e:
+                        logging.warning(f"Ошибка при вычислении функции {func1_name}: {e}")
                 
                 # Добавляем функции с разными цветами
                 functions.append((func1_expr, 'blue', func1_name))
@@ -1823,118 +1830,87 @@ def extract_graph_params(task_text):
             # Добавляем функции с разными цветами
             functions.append((func1_expr, 'blue', func1_name))
             functions.append((func2_expr, 'red', func2_name))
-    
-    # Специальная обработка для задач с явным упоминанием значений функций 
-    if "две функции" in task_text.lower() and not functions:
-        # Очень специальная обработка для конкретной задачи про корневую функцию и линейную функцию
-        if ("sqrt" in task_text.lower() or "\\sqrt" in task_text) and "kx + b" in task_text:
-            # Обрабатываем случай "На графике изображены две функции: $f(x) = a\sqrt{x}$ и $g(x) = kx + b$"
-            
-            # Проверяем наличие чисел и знака = в задаче
-            if "9" in task_text and "-6" in task_text and "0" in task_text and "4" in task_text:
-                # Используем предположение, что первые два числа относятся к f, а вторые к g
-                a_value = -6 / (9 ** 0.5)  # f(9) = -6 => a = -6 / sqrt(9) = -6 / 3 = -2
-                b_value = 4  # g(0) = 4 => b = 4
-                k_value = -1  # Примерное значение для демонстрации
-                
-                # Создаем функции для визуализации
-                func1_expr = f"{a_value} * sqrt(x)"
-                func2_expr = f"{k_value} * x + {b_value}"
-                
-                functions.append((func1_expr, 'blue', 'f'))
-                functions.append((func2_expr, 'red', 'g'))
-                
-                params['imports'] = 'from math import sqrt'
-                
-        # Общая обработка для задач с упоминанием значений функций
-        elif "f" in task_text and "g" in task_text:
-            # Ищем значения функций в тексте задачи
-            f_vals = re.findall(r'f\s*\(\s*(\d+(?:[,.]\d+)?)\s*\)\s*=\s*(-?\d+(?:[,.]\d+)?)', task_text.replace("$", ""))
-            g_vals = re.findall(r'g\s*\(\s*(\d+(?:[,.]\d+)?)\s*\)\s*=\s*(-?\d+(?:[,.]\d+)?)', task_text.replace("$", ""))
-            
-            if f_vals and g_vals:
-                # Если нашли значения, создаем простые функции для демонстрации
-                # Например, для f(1) = 2 и f(2) = 4 можем использовать f(x) = 2*x
-                # Для g(0) = 1 и g(1) = 3 можем использовать g(x) = 2*x + 1
-                
-                # Простая линейная интерполяция
-                if len(f_vals) >= 2:
-                    x1, y1 = float(f_vals[0][0].replace(',', '.')), float(f_vals[0][1].replace(',', '.'))
-                    x2, y2 = float(f_vals[1][0].replace(',', '.')), float(f_vals[1][1].replace(',', '.'))
-                    
-                    if x2 - x1 != 0:
-                        slope_f = (y2 - y1) / (x2 - x1)
-                        intercept_f = y1 - slope_f * x1
-                        func1_expr = f"{slope_f} * x + {intercept_f}"
-                        functions.append((func1_expr, 'blue', 'f'))
-                elif len(f_vals) == 1:
-                    # Если только одна точка, создаем простую линейную функцию через неё
-                    x1, y1 = float(f_vals[0][0].replace(',', '.')), float(f_vals[0][1].replace(',', '.'))
-                    if "sqrt" in task_text.lower() or "\\sqrt" in task_text:
-                        # Если упоминается корень, предполагаем f(x) = a*sqrt(x)
-                        a_value = y1 / (x1 ** 0.5) if x1 > 0 else 1
-                        func1_expr = f"{a_value} * sqrt(x)"
-                        functions.append((func1_expr, 'blue', 'f'))
-                        params['imports'] = 'from math import sqrt'
-                    else:
-                        # Иначе просто линейная функция через начало координат
-                        slope_f = y1 / x1 if x1 != 0 else 1
-                        func1_expr = f"{slope_f} * x"
-                        functions.append((func1_expr, 'blue', 'f'))
-                
-                if len(g_vals) >= 2:
-                    x1, y1 = float(g_vals[0][0].replace(',', '.')), float(g_vals[0][1].replace(',', '.'))
-                    x2, y2 = float(g_vals[1][0].replace(',', '.')), float(g_vals[1][1].replace(',', '.'))
-                    
-                    if x2 - x1 != 0:
-                        slope_g = (y2 - y1) / (x2 - x1)
-                        intercept_g = y1 - slope_g * x1
-                        func2_expr = f"{slope_g} * x + {intercept_g}"
-                        functions.append((func2_expr, 'red', 'g'))
-                elif len(g_vals) == 1:
-                    # Если только одна точка, создаем простую линейную функцию через неё
-                    x1, y1 = float(g_vals[0][0].replace(',', '.')), float(g_vals[0][1].replace(',', '.'))
-                    
-                    if x1 == 0:
-                        # Если точка на оси Y, предполагаем g(x) = kx + b
-                        b_value = y1
-                        func2_expr = f"x + {b_value}"  # k=1 для простоты
-                        functions.append((func2_expr, 'red', 'g'))
-                    else:
-                        # Иначе простая линейная функция
-                        slope_g = y1 / x1 if x1 != 0 else 1
-                        func2_expr = f"{slope_g} * x"
-                        functions.append((func2_expr, 'red', 'g'))
-    
-    # Добавляем найденные точки пересечения, если они есть в задаче
-    intersection_match = re.search(r'точк[а-я]\s+пересечения\s+[^\.]+?(\d+(?:[,.]\d+)?)[,\s]*(\d+(?:[,.]\d+)?)', task_text, re.IGNORECASE)
-    if intersection_match:
-        try:
-            x = float(intersection_match.group(1).replace(',', '.'))
-            y = float(intersection_match.group(2).replace(',', '.'))
-            params['special_points'] = [(x, y, 'пересечение')]
-        except:
-            pass
-    
-    # Если у нас есть упоминание пределов графика, добавляем их
-    x_range_match = re.search(r'(от|диапазон|интервал|область) x (?:от|с) (-?\d+(?:[,.]\d+)?) до (-?\d+(?:[,.]\d+)?)', task_text, re.IGNORECASE)
-    if x_range_match:
-        x_min = float(x_range_match.group(2).replace(',', '.'))
-        x_max = float(x_range_match.group(3).replace(',', '.'))
-        params['x_range'] = (x_min, x_max)
     else:
-        params['x_range'] = (-10, 10)  # Значение по умолчанию
+        func1_name, func1_expr = multi_func_match.group(1), multi_func_match.group(2).strip()
+        func2_name, func2_expr = multi_func_match.group(3), multi_func_match.group(4).strip()
+        
+        # Заменяем параметры в выражениях их значениями, если они известны
+        # Также заменяем LaTeX-команды и символы на Python-синтаксис
+        func1_expr = func1_expr.replace('^', '**').replace('\\sqrt', 'sqrt')
+        func2_expr = func2_expr.replace('^', '**').replace('\\sqrt', 'sqrt')
+        
+        # Если в функциях есть специальные математические функции, добавляем их импорт
+        if 'sqrt' in func1_expr or 'sqrt' in func2_expr:
+            params['imports'] = 'from math import sqrt'
+        
+        # Добавляем функции с разными цветами
+        functions.append((func1_expr, 'blue', func1_name))
+        functions.append((func2_expr, 'red', func2_name))
     
-    # Для задач со корнем или дробью ограничиваем до положительных значений X
-    for func_expr, _, _ in functions:
-        if 'sqrt' in func_expr or '**0.5' in func_expr:
-            if params['x_range'][0] < 0:
-                params['x_range'] = (0, params['x_range'][1])
-                params['imports'] = 'from math import sqrt'
+    # Поиск точек на плоскости
+    # Часто в задачах указывают набор точек или интервалы на оси X
+    point_labels_pattern = r'точк[иа]\s+([A-Za-z,\s]+)\s+(на оси|на графике)'
+    point_labels = re.findall(point_labels_pattern, task_text, re.IGNORECASE)
+    
+    if not special_points and point_labels:
+        special_points = []
+        
+        if point_labels:
+            labels = re.findall(r'([a-zA-Z])', point_labels[0])
+            
+            # Создаем специальные точки 
+            
+            # Если это точки на графике функции (A, B, C, D), устанавливаем координаты на графике функции
+            is_on_function_graph = False
+            for label in labels:
+                if label.isupper():  # Если точки обозначены заглавными буквами, считаем, что они на графике
+                    is_on_function_graph = True
+                    break
+            
+            if is_on_function_graph:
+                # Если нашли функцию, используем её для создания точек
+                if functions:
+                    func_expr = functions[0][0]
+                    
+                    # Создаем точки равномерно на интервале
+                    for i, label in enumerate(labels):
+                        x_val = -5 + i * 2  # Равномерное распределение начиная с x=-5
+                        try:
+                            # Вычисляем значение функции в этой точке
+                            import math
+                            y_val = eval(func_expr.replace('x', str(x_val)))
+                            special_points.append((x_val, y_val, label))
+                        except Exception as e:
+                            logging.warning(f"Ошибка при вычислении значения функции для точки {label}: {e}")
+            else:
+                # Для обозначений на оси x (a, b, c, d, e, f)
+                x_values = []
+                if 'a' in labels:
+                    x_values.append(-1)  # a
+                if 'b' in labels:
+                    x_values.append(1)   # b
+                if 'c' in labels:
+                    x_values.append(3)   # c
+                if 'd' in labels:
+                    x_values.append(5)   # d
+                if 'e' in labels:
+                    x_values.append(7)   # e
+                if 'f' in labels:
+                    x_values.append(9)   # f
+                
+                for i, label in enumerate(labels):
+                    if i < len(x_values):
+                        x_val = x_values[i]
+                        special_points.append((x_val, 0, label))  # Точки на оси X
+        
+        if special_points:
+            params['special_points'] = special_points
     
     # Если нашли хотя бы одну функцию, добавляем их в параметры
     if functions:
         params['functions'] = functions
+        # Также добавляем первую функцию как основную для обратной совместимости
+        params['function'] = functions[0][0]
     else:
         # Если не нашли функции, но есть явное упоминание функции в тексте
         function_keywords = ['функция', 'график функции', 'парабола', 'гипербола']
@@ -1955,8 +1931,11 @@ def extract_graph_params(task_text):
                 else:
                     params['function'] = 'x**2'
         else:
-            # Если не нашли функции, используем параболу по умолчанию
-            params['function'] = 'x**2'
+            # Если не нашли функции, но мы уже нашли функции в разделе параметров визуализации, 
+            # НЕ переопределяем функцию по умолчанию
+            if not params.get('functions') and not params.get('function'):
+                logging.warning("Не удалось извлечь ни одной функции, использую функцию по умолчанию")
+                params['function'] = 'x**2'
     
     # Обработка задач с анализом графиков функций, где функция не задана явно
     if not functions and "график функции" in task_text.lower():
@@ -1967,7 +1946,9 @@ def extract_graph_params(task_text):
             "характеристик[аи] функции",
             "производн[ойая] функции",
             "знач[ениея] функции", 
-            "интервал[аыу]"
+            "интервал[аыу]",
+            "[Тт]очк[иа]\s+[ABCD]", # Точки A, B, C, D на графике
+            "[Тт]очк[иа]\s+[A-D].*[,\sи][^\\)]*[A-D]"  # Точки A, B, C, или D, перечисленные через запятую или "и"
         ]
         
         is_analysis_task = any(re.search(pattern, task_text, re.IGNORECASE) for pattern in analysis_keywords)
@@ -1975,42 +1956,67 @@ def extract_graph_params(task_text):
         if is_analysis_task:
             # Создаем стандартную функцию для задачи с анализом свойств функции
             # Используем кубическую функцию, которая имеет интересные свойства
-            func_expr = "x**3 - 6*x**2 + 9*x - 4"
+            
+            # Если задача про точки A, B, C, D, используем функцию с четкими максимумами и минимумами
+            if "точк" in task_text.lower() and any(point in task_text for point in "ABCD"):
+                # Функция для задач с точками A, B, C, D с четко выраженными экстремумами
+                # x^3 - 3x^2 имеет минимум и максимум в точках x=0 и x=2
+                func_expr = "x**3 - 3*x**2 + 2*x"
+            else:
+                # Для других задач с анализом функции
+                func_expr = "x**3 - 6*x**2 + 9*x - 4"
             functions.append((func_expr, 'blue', 'f'))
             
-            # Ищем указания на особые точки (a, b, c, d, e и т.д.)
-            point_labels = re.findall(r'[Тт]очки\s+([a-zA-Z](?:,\s*[a-zA-Z])*)', task_text)
+            point_labels = re.findall(r'точк[иа]\s+([A-Za-z,\s]+)', task_text, re.IGNORECASE)
+            
             special_points = []
             
             if point_labels:
                 labels = re.findall(r'([a-zA-Z])', point_labels[0])
                 
-                # Создаем специальные точки для интервалов
-                x_values = []
-                if 'a' in labels:
-                    x_values.append(-1)  # a
-                if 'b' in labels:
-                    x_values.append(1)   # b
-                if 'c' in labels:
-                    x_values.append(3)   # c
-                if 'd' in labels:
-                    x_values.append(5)   # d
-                if 'e' in labels:
-                    x_values.append(7)   # e
-                if 'f' in labels:
-                    x_values.append(9)   # f
+                # Создаем специальные точки 
                 
-                for i, label in enumerate(labels):
-                    if i < len(x_values):
-                        x_val = x_values[i]
-                        # Вычисляем значение функции в точке x_val
+                # Если это точки на графике функции (A, B, C, D), устанавливаем координаты на графике функции
+                is_on_function_graph = False
+                for label in labels:
+                    if label.isupper():  # Если точки обозначены заглавными буквами, считаем, что они на графике
+                        is_on_function_graph = True
+                        break
+                
+                if is_on_function_graph:
+                    # Если нашли функцию, используем её для создания точек
+                    func_expr = functions[0][0]
+                    
+                    # Создаем точки равномерно на интервале
+                    for i, label in enumerate(labels):
+                        x_val = -1 + i * 2  # Равномерное распределение начиная с x=-1
                         try:
-                            import numpy as np
-                            from math import sqrt, sin, cos, log, exp
-                            y_val = eval(func_expr.replace('x', f'({x_val})'))
+                            # Вычисляем значение функции в этой точке
+                            import math
+                            y_val = eval(func_expr.replace('x', str(x_val)))
+                            special_points.append((x_val, y_val, label))
+                        except Exception as e:
+                            logging.warning(f"Ошибка при вычислении значения функции для точки {label}: {e}")
+                else:
+                    # Для обозначений на оси x (a, b, c, d, e, f)
+                    x_values = []
+                    if 'a' in labels:
+                        x_values.append(-1)  # a
+                    if 'b' in labels:
+                        x_values.append(1)   # b
+                    if 'c' in labels:
+                        x_values.append(3)   # c
+                    if 'd' in labels:
+                        x_values.append(5)   # d
+                    if 'e' in labels:
+                        x_values.append(7)   # e
+                    if 'f' in labels:
+                        x_values.append(9)   # f
+                    
+                    for i, label in enumerate(labels):
+                        if i < len(x_values):
+                            x_val = x_values[i]
                             special_points.append((x_val, 0, label))  # Точки на оси X
-                        except:
-                            special_points.append((x_val, 0, label))  # Точки на оси X если не удалось вычислить
             
             if special_points:
                 params['special_points'] = special_points
@@ -2362,15 +2368,32 @@ def create_image_from_params(params):
                 function_expr = params["function"]
                 x_range = params.get("x_range", (-10, 10))
                 y_range = params.get("y_range")
+                
+                # Проверяем, есть ли параметр functions, и если есть, используем его вместо одиночной функции
+                if "functions" in params:
+                    import logging
+                    logging.info(f"Обнаружен список функций, используем его вместо одиночной функции: {params['functions']}")
+                    functions = params["functions"]
+                    special_points = params.get("special_points")
+                    return generate_multi_function_graph(functions, x_range, y_range, special_points)
+                
+                # Если нет списка функций, используем одиночную функцию
+                import logging
+                logging.info(f"Используем одиночную функцию: {function_expr}")
                 return generate_graph_image(function_expr, x_range, y_range)
+                
             elif "functions" in params:
                 # Множественные функции (например, для нахождения точек пересечения)
                 functions = params["functions"]
+                import logging
+                logging.info(f"Используем список функций: {functions}")
                 x_range = params.get("x_range", (-10, 10))
                 y_range = params.get("y_range")
                 special_points = params.get("special_points")
                 return generate_multi_function_graph(functions, x_range, y_range, special_points)
             else:
+                import logging
+                logging.warning("Не найдено ни одной функции в параметрах")
                 return None
         
         elif viz_type == "triangle":
@@ -2504,6 +2527,10 @@ def generate_multi_function_graph(functions, x_range=(-10, 10), y_range=None, sp
             float: Результат вычисления или NaN при ошибке
         """
         try:
+            # Предварительно заменяем функции и конвертируем выражения
+            # Заменяем ^, sqrt и другие математические обозначения
+            func_expr = func_expr.replace('^', '**').replace('math.sqrt', 'sqrt')
+            
             # Предварительные проверки для предотвращения ошибок при вычислениях
             
             # 1. Проверка на корень из отрицательного числа
@@ -2635,6 +2662,41 @@ def generate_multi_function_graph(functions, x_range=(-10, 10), y_range=None, sp
     # Вычисляем значения функции для каждой точки x и строим график
     for func_expr, color, name in functions:
         try:
+            # Предварительно конвертируем функцию
+            func_expr = func_expr.replace('^', '**')
+            if 'sqrt(' in func_expr and 'math.sqrt(' not in func_expr and 'np.sqrt(' not in func_expr:
+                func_expr = func_expr.replace('sqrt(', 'math.sqrt(')
+            
+            # Конвертируем русские названия цветов в английские
+            color_map = {
+                'синий': 'blue',
+                'красный': 'red',
+                'зеленый': 'green',
+                'зелёный': 'green',
+                'желтый': 'yellow',
+                'жёлтый': 'yellow',
+                'черный': 'black',
+                'чёрный': 'black',
+                'белый': 'white',
+                'серый': 'gray',
+                'оранжевый': 'orange',
+                'фиолетовый': 'purple',
+                'розовый': 'pink'
+            }
+            if isinstance(color, str) and color.lower() in color_map:
+                color = color_map[color.lower()]
+                
+            # Удаляем LaTeX-разметку из метки функции
+            if isinstance(name, str):
+                name = remove_latex_markup(name)
+            
+            # Удаляем LaTeX-разметку, если она осталась
+            func_expr = remove_latex_markup(func_expr)
+            
+            # Логируем функцию для отладки
+            import logging
+            logging.info(f"Строим график функции: {func_expr}, цвет: {color}, метка: {name}")
+            
             # Вычисляем значения y для каждого x
             y = np.array([safe_eval(func_expr, xi) for xi in x])
             
@@ -2646,8 +2708,12 @@ def generate_multi_function_graph(functions, x_range=(-10, 10), y_range=None, sp
                 
                 # Строим график для этой функции с соответствующим цветом и названием
                 plt.plot(x_valid, y_valid, color=color, label=name, linewidth=2)
+            else:
+                import logging
+                logging.warning(f"Не удалось построить график функции {func_expr}: нет валидных точек")
             
         except Exception as e:
+            import logging
             logging.error(f"Ошибка при построении графика для функции {func_expr}: {e}")
             traceback.print_exc()
     
@@ -2656,20 +2722,40 @@ def generate_multi_function_graph(functions, x_range=(-10, 10), y_range=None, sp
         for point in special_points:
             try:
                 x_val, y_val, label = point
-                # Если y_val равен 0, это точка на оси X (например, a, b, c, d, e)
-                if y_val == 0:
-                    plt.plot(x_val, y_val, 'ko', markersize=6)  # Черная точка
-                    plt.annotate(label, (x_val, y_val), xytext=(x_val, -0.5), 
-                                textcoords='data', ha='center', va='center',
-                                fontsize=12, bbox=dict(boxstyle='round,pad=0.5', 
-                                                      fc='white', ec='gray', alpha=0.8))
-                else:
-                    # Если y_val не равен 0, это особая точка функции (например, экстремум, точка пересечения)
-                    plt.plot(x_val, y_val, 'ro', markersize=6)  # Красная точка
-                    plt.annotate(label, (x_val, y_val), xytext=(x_val+0.3, y_val+0.3), 
-                                textcoords='data', ha='center', va='center',
-                                fontsize=12, bbox=dict(boxstyle='round,pad=0.5', 
-                                                      fc='white', ec='gray', alpha=0.8))
+                
+                # Массив цветов для точек
+                point_colors = ['red', 'green', 'blue', 'purple', 'orange', 'brown', 'pink', 'gray', 'cyan', 'magenta']
+                # Выбираем цвет по индексу (используем хеш от метки для стабильности цветов между запусками)
+                color_idx = hash(label) % len(point_colors)
+                point_color = point_colors[color_idx]
+                
+                # Очищаем метку от LaTeX-разметки, если необходимо
+                if isinstance(label, str):
+                    label = remove_latex_markup(label)
+                
+                # Отрисовываем точку
+                plt.plot(x_val, y_val, 'o', color=point_color, markersize=6)
+                
+                # Определяем положение метки в зависимости от значения y
+                if y_val == 0:  # Если точка на оси X
+                    y_offset = -0.5
+                    x_offset = 0
+                    va = 'top'
+                elif y_val < 0:  # Если точка ниже оси X
+                    y_offset = -0.5
+                    x_offset = 0.2
+                    va = 'top'
+                else:  # Если точка выше оси X
+                    y_offset = 0.5
+                    x_offset = 0.2
+                    va = 'bottom'
+                
+                # Добавляем метку с учетом позиционирования
+                plt.annotate(label, (x_val, y_val), 
+                           xytext=(x_val + x_offset, y_val + y_offset), 
+                           textcoords='data', ha='center', va=va,
+                           fontsize=12, bbox=dict(boxstyle='round,pad=0.3', 
+                                                 fc='white', ec=point_color, alpha=0.8))
             except Exception as e:
                 logging.error(f"Ошибка при добавлении особой точки {point}: {e}")
                 traceback.print_exc()
@@ -3134,7 +3220,7 @@ def generate_complete_task(category, subcategory="", difficulty_level=3, is_basi
         prompt = create_complete_task_prompt(category, subcategory, original_task, original_solution, difficulty_level)
         
         # Генерируем текст с помощью YandexGPT с повышенной температурой для разнообразия
-        generated_text = yandex_gpt_generate(prompt, temperature=0.6)
+        generated_text = yandex_gpt_generate(prompt, temperature=0.6, is_basic_level=is_basic_level)
         
         if not generated_text:
             return {"error": "Не удалось получить ответ от YandexGPT API"}
@@ -4014,3 +4100,343 @@ def generate_json_markdown_task(category, subcategory="", difficulty_level=3, is
         logging.error(f"Ошибка при генерации JSON с Markdown: {e}")
         logging.error(traceback.format_exc())
         return {"error": f"Ошибка при генерации задачи с Markdown: {str(e)}"}
+
+def parse_graph_params(params_text):
+    """
+    Универсальная функция для извлечения параметров графиков функций.
+    Возвращает список функций, диапазоны осей и особые точки.
+    
+    Args:
+        params_text: Текст с параметрами
+        
+    Returns:
+        tuple: (functions, x_range, y_range, special_points)
+            functions - список кортежей (функция, цвет, метка)
+            x_range - диапазон оси X (x_min, x_max)
+            y_range - диапазон оси Y (y_min, y_max) или None
+            special_points - список особых точек [(x1, y1, метка1), ...]
+    """
+    import re
+    import logging
+    import traceback
+    
+    # Список функций для отображения
+    funcs_to_plot = []
+    
+    # Диапазоны осей
+    x_range = (-10, 10)  # По умолчанию [-10, 10]
+    y_range = None  # По умолчанию автоматический
+    
+    # Особые точки
+    special_points = []
+    
+    # Функция для извлечения параметра по шаблону
+    def extract_param(pattern, text, default=None):
+        match = re.search(pattern, text, re.IGNORECASE | re.MULTILINE)
+        if match:
+            try:
+                value = match.group(1).strip()
+                # Очищаем от LaTeX разметки
+                return remove_latex_markup(value)
+            except Exception as e:
+                logging.error(f"Ошибка при извлечении параметра: {e}")
+        return default
+    
+    try:
+        # МЕТОД 1: Поиск функций, цветов и меток в параметрах визуализации
+        # Для извлечения используем несколько подходов, начиная с наиболее структурированных
+        
+        # 1. Сначала ищем "Функция 1: x^2" и т.д.
+        func_pattern = r'Функция\s+(\d+):\s*(.*?)(?=Функция\s+\d+:|Цвет|Название|Диапазон|Особые|$)'
+        func_matches = re.findall(func_pattern, params_text, re.IGNORECASE | re.DOTALL)
+        
+        # Создаем словари для цветов и названий
+        color_dict = {}
+        name_dict = {}
+        
+        # Извлекаем цвета в формате "Цвет 1: красный"
+        color_pattern = r'Цвет\s+(\d+):\s*(.*?)(?=Функция|Цвет|Название|Диапазон|Особые|$)'
+        color_matches = re.findall(color_pattern, params_text, re.IGNORECASE | re.DOTALL)
+        for num_str, color in color_matches:
+            try:
+                num = int(num_str.strip())
+                color_dict[num] = color.strip()
+            except ValueError:
+                continue
+                
+        # Извлекаем названия в формате "Название 1: f(x)"
+        name_pattern = r'Название\s+(\d+):\s*(.*?)(?=Функция|Цвет|Название|Диапазон|Особые|$)'
+        name_matches = re.findall(name_pattern, params_text, re.IGNORECASE | re.DOTALL)
+        for num_str, name in name_matches:
+            try:
+                num = int(num_str.strip())
+                name_dict[num] = name.strip()
+            except ValueError:
+                continue
+        
+        # Стандартные цвета, если не указаны
+        colors = ['blue', 'red', 'green', 'orange', 'purple']
+        
+        # Конвертер русских названий цветов в английские
+        color_mapping = {
+            'красный': 'red',
+            'синий': 'blue',
+            'зеленый': 'green',
+            'зелёный': 'green',
+            'желтый': 'yellow',
+            'жёлтый': 'yellow',
+            'черный': 'black',
+            'чёрный': 'black',
+            'фиолетовый': 'purple',
+            'оранжевый': 'orange',
+            'коричневый': 'brown',
+            'розовый': 'pink',
+            'серый': 'gray',
+            'голубой': 'cyan',
+            'малиновый': 'magenta'
+        }
+        
+        # Обрабатываем найденные функции
+        functions = []
+        for match in func_matches:
+            try:
+                num = int(match[0].strip())
+                func_expr = match[1].strip()
+                
+                # Очищаем от LaTeX-разметки и приводим к Python-синтаксису
+                func_expr = remove_latex_markup(func_expr)
+                
+                # Определяем цвет и метку для функции
+                color = color_dict.get(num, colors[min(num-1, len(colors)-1)])
+                
+                # Преобразуем русское название цвета в английское
+                if color.lower() in color_mapping:
+                    color = color_mapping[color.lower()]
+                
+                name = name_dict.get(num, f"f_{num}(x)")
+                
+                # Добавляем функцию в список
+                functions.append((func_expr, color, name))
+                logging.info(f"Найдена функция {num}: {func_expr}, цвет: {color}, метка: {name}")
+            except Exception as e:
+                logging.warning(f"Ошибка при обработке функции {match[0]}: {e}")
+        
+        # 2. Если функции не найдены методом выше, ищем по блокам "График 1: ..."
+        if not functions:
+            for i in range(1, 6):  # Поиск до 5 графиков
+                graph_block_pattern = rf'График\s*{i}:.*?(?=График\s*{i+1}:|Общие параметры:|$)'
+                graph_block_match = re.search(graph_block_pattern, params_text, re.DOTALL | re.IGNORECASE)
+                
+                if graph_block_match:
+                    graph_block = graph_block_match.group(0)
+                    
+                    # Извлекаем функцию из блока
+                    func_pattern = rf'Функция:?\s*([^\n]+)'
+                    func_match = re.search(func_pattern, graph_block, re.IGNORECASE)
+                    
+                    if func_match:
+                        func_str = func_match.group(1).strip()
+                        func_str = remove_latex_markup(func_str)
+                        
+                        # Ищем цвет
+                        color_pattern = r'Цвет:?\s*([^\n]+)'
+                        color_match = re.search(color_pattern, graph_block, re.IGNORECASE)
+                        color = color_match.group(1).strip() if color_match else colors[min(i-1, len(colors)-1)]
+                        
+                        # Преобразуем русское название цвета в английское
+                        if color.lower() in color_mapping:
+                            color = color_mapping[color.lower()]
+                        
+                        # Ищем метку
+                        label_pattern = r'(Название|Метка|Подпись):?\s*([^\n]+)'
+                        label_match = re.search(label_pattern, graph_block, re.IGNORECASE)
+                        label = label_match.group(2).strip() if label_match else f"f_{i}(x)"
+                        
+                        # Извлекаем диапазоны X и Y для этой функции, если указаны
+                        x_range_pattern = r'Диапазон\s+X:?\s*\[?(.*?)\]?(?=Диапазон\s+Y|Цвет|Название|Метка|Особые|$)'
+                        x_range_match = re.search(x_range_pattern, graph_block, re.IGNORECASE)
+                        
+                        if x_range_match:
+                            x_range_str = x_range_match.group(1).strip()
+                            try:
+                                x_min, x_max = map(float, x_range_str.split(','))
+                                x_range = (x_min, x_max)
+                            except Exception as e:
+                                logging.warning(f"Ошибка при разборе диапазона X для графика {i}: {e}")
+                        
+                        y_range_pattern = r'Диапазон\s+Y:?\s*\[?(.*?)\]?(?=Диапазон\s+X|Цвет|Название|Метка|Особые|$)'
+                        y_range_match = re.search(y_range_pattern, graph_block, re.IGNORECASE)
+                        
+                        if y_range_match:
+                            y_range_str = y_range_match.group(1).strip()
+                            if y_range_str.lower() != 'автоматический':
+                                try:
+                                    y_min, y_max = map(float, y_range_str.split(','))
+                                    y_range = (y_min, y_max)
+                                except Exception as e:
+                                    logging.warning(f"Ошибка при разборе диапазона Y для графика {i}: {e}")
+                        
+                        # Нормализуем выражение функции для Python
+                        func_str = func_str.replace('^', '**')
+                        
+                        # Добавляем функцию в список
+                        functions.append((func_str, color, label))
+                        logging.info(f"Найдена функция для графика {i}: {func_str}, цвет: {color}, метка: {label}")
+        
+        # 3. Поиск функций напрямую в тексте задачи
+        if not functions:
+            # Ищем функции напрямую в формате "Функция 1: x^2"
+            for i in range(1, 6):  # Поиск до 5 функций
+                func_pattern = rf'Функция\s*{i}:?\s*([^\n]+)'
+                func_match = re.search(func_pattern, params_text, re.IGNORECASE | re.MULTILINE)
+                
+                if func_match:
+                    func_str = func_match.group(1).strip()
+                    # Очищаем от LaTeX-разметки полностью
+                    func_str = remove_latex_markup(func_str)
+                    
+                    # Определяем цвет и метку для функции
+                    color = color_dict.get(i, colors[min(i-1, len(colors)-1)])
+                    
+                    # Преобразуем русское название цвета в английское
+                    if color.lower() in color_mapping:
+                        color = color_mapping[color.lower()]
+                    
+                    name = name_dict.get(i, f"f_{i}(x)")
+                    
+                    # Добавляем функцию в список
+                    functions.append((func_str, color, name))
+                    logging.info(f"Напрямую найдена функция {i}: {func_str}, цвет: {color}, метка: {name}")
+        
+        # Обрабатываем общие параметры диапазонов осей
+        x_range_pattern = r'Диапазон\s+X:?\s*\[?(.*?)\]?(?=Диапазон\s+Y|Функция|Цвет|Название|Особые|$)'
+        x_range_match = re.search(x_range_pattern, params_text, re.IGNORECASE | re.MULTILINE)
+        
+        if x_range_match:
+            x_range_str = x_range_match.group(1).strip()
+            try:
+                x_min, x_max = map(float, x_range_str.split(','))
+                x_range = (x_min, x_max)
+                logging.info(f"Найден диапазон X: [{x_min}, {x_max}]")
+            except Exception as e:
+                logging.warning(f"Ошибка при разборе диапазона X: {e}")
+        
+        y_range_pattern = r'Диапазон\s+Y:?\s*\[?(.*?)\]?(?=Диапазон\s+X|Функция|Цвет|Название|Особые|$)'
+        y_range_match = re.search(y_range_pattern, params_text, re.IGNORECASE | re.MULTILINE)
+        
+        if y_range_match:
+            y_range_str = y_range_match.group(1).strip()
+            if y_range_str.lower() != 'автоматический':
+                try:
+                    y_min, y_max = map(float, y_range_str.split(','))
+                    y_range = (y_min, y_max)
+                    logging.info(f"Найден диапазон Y: [{y_min}, {y_max}]")
+                except Exception as e:
+                    logging.warning(f"Ошибка при разборе диапазона Y: {e}")
+        
+        # Ищем особые точки
+        special_points_pattern = r'Особые точки:\s*(.*?)(?=Функция|Диапазон|$)'
+        special_points_match = re.search(special_points_pattern, params_text, re.DOTALL | re.IGNORECASE)
+        
+        if special_points_match:
+            try:
+                special_points_str = special_points_match.group(1).strip()
+                # Извлекаем точки в формате (x, y, метка)
+                points_list = re.findall(r'\(([^)]+)\)', special_points_str)
+                
+                for point_str in points_list:
+                    try:
+                        # Разделяем по запятой на x, y, label
+                        parts = point_str.split(',', 2)
+                        
+                        if len(parts) >= 2:
+                            x_expr = parts[0].strip()
+                            y_expr = parts[1].strip()
+                            label = parts[2].strip() if len(parts) > 2 else ""
+                            
+                            # Вычисляем значения координат, поддерживая математические выражения
+                            import math
+                            
+                            # Обрабатываем x_expr
+                            x_expr = x_expr.replace('^', '**').replace('sqrt', 'math.sqrt')
+                            if any(func in x_expr for func in ['math.', 'sqrt', 'sin', 'cos']):
+                                x_val = eval(x_expr)
+                            else:
+                                x_val = float(x_expr)
+                            
+                            # Обрабатываем y_expr
+                            if 'f(' in y_expr:
+                                # Если y задан через значение функции
+                                if functions:
+                                    func_expr = functions[0][0]
+                                    y_val = eval(func_expr.replace('x', f'({x_val})'))
+                                else:
+                                    logging.warning(f"Не удалось вычислить значение функции для точки ({x_expr}, {y_expr})")
+                                    continue
+                            else:
+                                # Если y задан явно
+                                y_expr = y_expr.replace('^', '**').replace('sqrt', 'math.sqrt')
+                                if any(func in y_expr for func in ['math.', 'sqrt', 'sin', 'cos']):
+                                    y_val = eval(y_expr)
+                                else:
+                                    y_val = float(y_expr)
+                            
+                            # Добавляем точку с вычисленными координатами
+                            special_points.append((x_val, y_val, label))
+                            logging.info(f"Добавлена особая точка: ({x_val}, {y_val}, {label})")
+                    except Exception as e:
+                        logging.warning(f"Ошибка при обработке точки '{point_str}': {e}")
+            except Exception as e:
+                logging.warning(f"Ошибка при обработке списка особых точек: {e}")
+        
+        # Если функции всё еще не найдены, попробуем найти в общем тексте задачи
+        if not functions:
+            # Поиск функций в формате y=... или f(x)=...
+            general_func_patterns = [
+                r'y\s*=\s*([-+0-9a-zA-Z\^\*\/\(\)\s\{\}\[\]\.,]+)(?=[,.:;)]|\s*$|\n)',
+                r'f\s*\(\s*x\s*\)\s*=\s*([-+0-9a-zA-Z\^\*\/\(\)\s\{\}\[\]\.,]+)(?=[,.:;)]|\s*$|\n)',
+                r'([a-zA-Z])\s*\(\s*x\s*\)\s*=\s*([-+0-9a-zA-Z\^\*\/\(\)\s\{\}\[\]\.,]+)(?=[,.:;)]|\s*$|\n|\$)',
+                r'\$([a-zA-Z])\s*\(\s*x\s*\)\s*=\s*([-+0-9a-zA-Z\^\*\/\(\)\s\{\}\[\]\.,\\]+)\$'
+            ]
+            
+            for i, pattern in enumerate(general_func_patterns):
+                matches = re.findall(pattern, params_text)
+                for j, match in enumerate(matches):
+                    if i <= 1:  # Формат без имени функции (y= или f(x)=)
+                        func_expr = match.strip()
+                        if i == 0:  # y = expr
+                            func_name = 'y'
+                        else:  # f(x) = expr
+                            func_name = 'f(x)'
+                    else:  # Формат с именем функции
+                        func_name, func_expr = match
+                        func_name = f"{func_name}(x)"
+                    
+                    # Очищаем выражение
+                    func_expr = func_expr.strip()
+                    func_expr = func_expr.replace('^', '**')
+                    
+                    # Выбираем цвет
+                    color_idx = j % len(colors)
+                    color = colors[color_idx]
+                    
+                    # Добавляем функцию, если она уникальна
+                    if not any(f[0] == func_expr for f in functions):
+                        functions.append((func_expr, color, func_name))
+                        logging.info(f"Найдена функция в общем тексте: {func_expr}, метка: {func_name}")
+        
+        # Если функции всё ещё не найдены, используем стандартную функцию
+        if not functions:
+            functions = [('x**2', 'blue', 'f(x)')]
+            logging.warning("Не удалось найти ни одной функции, использую стандартный график параболы")
+        
+        # Возвращаем найденные параметры
+        funcs_to_plot = functions
+        
+    except Exception as e:
+        logging.error(f"Ошибка при разборе параметров графика: {e}")
+        logging.error(traceback.format_exc())
+        # В случае ошибки используем стандартные значения
+        funcs_to_plot = [('x**2', 'blue', 'f(x)')]
+    
+    return funcs_to_plot, x_range, y_range, special_points
