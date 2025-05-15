@@ -18,7 +18,11 @@
             },
             TeX: {
                 extensions: ["AMSmath.js", "AMSsymbols.js", "noErrors.js", "noUndefined.js"],
-                equationNumbers: { autoNumber: "AMS" }
+                equationNumbers: { autoNumber: "AMS" },
+                Macros: {
+                    tg: "\\tan",
+                    ctg: "\\cot"
+                }
             },
             CommonHTML: { 
                 linebreaks: { automatic: true },

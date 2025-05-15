@@ -65,7 +65,8 @@ def format_latex_in_answer(answer):
         r'\\le', r'\\ge', r'\\neq', r'\\approx', r'\\cdot',
         r'\\left', r'\\right', r'\\mathbb', r'\\mathcal', r'\\partial',
         r'\\begin\{.*?\}', r'\\end\{.*?\}', r'\\overline', r'\\underline',
-        r'\\times', r'\\div', r'\\equiv', r'\\cup', r'\\cap', r'\\in', r'\\infty'
+        r'\\times', r'\\div', r'\\equiv', r'\\cup', r'\\cap', r'\\in', r'\\infty',
+        r'\\tg', r'\\ctg', r'\\arctg'
     ]
     
     # Ищем любой паттерн LaTeX в ответе
@@ -114,19 +115,9 @@ def init_routes(app):
             
             # Сохраняем форматированный текст в файл (task_generator уже делает это, но на всякий случай)
             try:
-                formatted_text = f"""===ЗАДАЧА===
-{result.get('task', '')}
-
-===РЕШЕНИЕ===
-{result.get('solution', '')}
-
-===ПОДСКАЗКИ===
-1. {result.get('hints', [''])[0] if result.get('hints') and len(result.get('hints')) > 0 else ''}
-2. {result.get('hints', ['', ''])[1] if result.get('hints') and len(result.get('hints')) > 1 else ''}
-3. {result.get('hints', ['', '', ''])[2] if result.get('hints') and len(result.get('hints')) > 2 else ''}
-"""
-                with open("last_generated_task.txt", 'w', encoding='utf-8') as f:
-                    f.write(formatted_text)
+                # Используем функцию save_to_file из task_generator.py
+                from app.task_generator import save_to_file
+                save_to_file(result, "last_generated_task.txt")
                 print(f"Задача сохранена в файл last_generated_task.txt")
             except Exception as e:
                 print(f"Ошибка при сохранении файла: {e}")
@@ -383,7 +374,7 @@ def init_routes(app):
     @app.route('/api/generate_markdown_task', methods=['POST'])
     def api_generate_markdown_task():
         try:
-            from app.task_generator import generate_markdown_task
+            from app.json_api_helpers import generate_markdown_task
             
             data = request.get_json()
             category = data.get("category")
@@ -440,7 +431,7 @@ def init_routes(app):
         - markdown - текст в формате Markdown
         """
         try:
-            from app.task_generator import generate_json_task, generate_json_markdown_task
+            from app.json_api_helpers import generate_json_task, generate_json_markdown_task
             
             category = request.args.get("category")
             subcategory = request.args.get("subcategory", "")

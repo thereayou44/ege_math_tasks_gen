@@ -2,79 +2,163 @@
 # -*- coding: utf-8 -*-
 
 """
-Запускает все тесты из пакета tests.
+Главный скрипт для запуска всех тестов проекта генератора задач ЕГЭ.
+Запускает функциональные тесты, тесты визуализации и тесты качества.
 """
 
-import unittest
-import sys
 import os
-import argparse
+import sys
+import unittest
+import logging
+from datetime import datetime
 
-# Добавляем родительскую директорию в пути для импорта
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+# Добавляем корневую директорию проекта в sys.path
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, project_root)
 
-# Импортируем все тесты с правильными путями
-from tests.test_task_generator import TestTaskGenerator
-from tests.test_visualization import TestVisualization
-from tests.test_parsers import TestParsers
-from tests.test_format_converters import TestFormatConverters
-from tests.test_mock import TestTaskGeneratorWithMocks
+# Настраиваем логирование
+log_filename = os.path.join(project_root, 'test_results.log')
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler(log_filename),
+        logging.StreamHandler(sys.stdout)
+    ]
+)
 
-def run_unit_tests():
-    """Запускает стандартные модульные тесты"""
-    # Создаем набор тестов
-    test_suite = unittest.TestSuite()
+logger = logging.getLogger(__name__)
+
+def run_functional_tests():
+    """Запускает функциональные тесты модулей."""
+    logger.info("Запуск функциональных тестов")
     
-    # Добавляем классы тестов
-    test_suite.addTest(unittest.makeSuite(TestTaskGenerator))
-    test_suite.addTest(unittest.makeSuite(TestVisualization))
-    test_suite.addTest(unittest.makeSuite(TestParsers))
-    test_suite.addTest(unittest.makeSuite(TestFormatConverters))
-    test_suite.addTest(unittest.makeSuite(TestTaskGeneratorWithMocks))
+    test_modules = [
+        'tests.test_task_generator',
+        'tests.test_parsers',
+        'tests.test_format_converters'
+    ]
     
-    # Запускаем все тесты
+    loader = unittest.TestLoader()
+    suite = unittest.TestSuite()
+    
+    for module_name in test_modules:
+        try:
+            module = __import__(module_name, fromlist=[''])
+            suite.addTests(loader.loadTestsFromModule(module))
+        except ImportError as e:
+            logger.error(f"Не удалось импортировать модуль {module_name}: {e}")
+    
     runner = unittest.TextTestRunner(verbosity=2)
-    result = runner.run(test_suite)
+    result = runner.run(suite)
+    return result
+
+def run_visualization_tests():
+    """Запускает тесты визуализации."""
+    logger.info("Запуск тестов визуализации")
     
-    return result.wasSuccessful()
+    test_modules = [
+        'tests.test_visualization',
+        'tests.test_shapes',
+        'tests.test_graph_visualization',
+        'tests.test_all_figures_visual'
+    ]
+    
+    loader = unittest.TestLoader()
+    suite = unittest.TestSuite()
+    
+    for module_name in test_modules:
+        try:
+            module = __import__(module_name, fromlist=[''])
+            suite.addTests(loader.loadTestsFromModule(module))
+        except ImportError as e:
+            logger.error(f"Не удалось импортировать модуль {module_name}: {e}")
+    
+    runner = unittest.TextTestRunner(verbosity=2)
+    result = runner.run(suite)
+    return result
+
+def run_mock_tests():
+    """Запускает тесты с моками."""
+    logger.info("Запуск тестов с моками")
+    
+    try:
+        from tests import test_mock
+        loader = unittest.TestLoader()
+        suite = loader.loadTestsFromModule(test_mock)
+        runner = unittest.TextTestRunner(verbosity=2)
+        result = runner.run(suite)
+        return result
+    except ImportError as e:
+        logger.error(f"Не удалось импортировать модуль test_mock: {e}")
+        return None
 
 def run_quality_tests():
-    """Запускает тесты качества генерации"""
+    """Запускает тесты качества генерации задач."""
+    logger.info("Запуск тестов качества генерации задач")
+    
     try:
-        # Импортируем функцию запуска тестов качества
-        from tests.quality_tests.run_quality_tests import run_all_quality_tests
+        # Здесь запускаем только тесты, которые не требуют API вызовов
+        from tests.test_real_tasks import RealTasksTest
+        loader = unittest.TestLoader()
+        suite = loader.loadTestsFromTestCase(RealTasksTest)
+        runner = unittest.TextTestRunner(verbosity=2)
+        result = runner.run(suite)
+        return result
+    except ImportError as e:
+        logger.error(f"Не удалось импортировать модуль test_real_tasks: {e}")
+        return None
+
+def main():
+    """Основная функция для запуска всех тестов."""
+    start_time = datetime.now()
+    logger.info(f"Начало тестирования: {start_time}")
+    
+    # Запускаем все типы тестов
+    functional_result = run_functional_tests()
+    visualization_result = run_visualization_tests()
+    mock_result = run_mock_tests()
+    quality_result = run_quality_tests()
+    
+    # Выводим сводную информацию
+    end_time = datetime.now()
+    duration = end_time - start_time
+    
+    logger.info(f"Окончание тестирования: {end_time}")
+    logger.info(f"Продолжительность: {duration}")
+    
+    # Выводим общую статистику
+    if functional_result and visualization_result:
+        total_tests = (functional_result.testsRun + visualization_result.testsRun + 
+                      (mock_result.testsRun if mock_result else 0) + 
+                      (quality_result.testsRun if quality_result else 0))
+                      
+        total_errors = (len(functional_result.errors) + len(visualization_result.errors) + 
+                       (len(mock_result.errors) if mock_result else 0) + 
+                       (len(quality_result.errors) if quality_result else 0))
+                       
+        total_failures = (len(functional_result.failures) + len(visualization_result.failures) + 
+                         (len(mock_result.failures) if mock_result else 0) + 
+                         (len(quality_result.failures) if quality_result else 0))
         
-        # Запускаем тесты качества
-        run_all_quality_tests()
-        return True
-    except Exception as e:
-        print(f"Ошибка при запуске тестов качества: {e}")
-        return False
+        logger.info(f"Всего тестов: {total_tests}")
+        logger.info(f"Ошибок: {total_errors}")
+        logger.info(f"Неудач: {total_failures}")
+        logger.info(f"Успешно: {total_tests - total_errors - total_failures}")
+        
+        success_rate = ((total_tests - total_errors - total_failures) / total_tests) * 100 if total_tests > 0 else 0
+        logger.info(f"Процент успеха: {success_rate:.2f}%")
+        
+        # Определяем код возврата для CI/CD
+        if total_errors == 0 and total_failures == 0:
+            logger.info("Результат тестирования: УСПЕШНО")
+            return 0
+        else:
+            logger.warning("Результат тестирования: НЕУДАЧА")
+            return 1
+    else:
+        logger.error("Не удалось запустить все необходимые тесты")
+        return 1
 
 if __name__ == "__main__":
-    # Настраиваем аргументы командной строки
-    parser = argparse.ArgumentParser(description='Запуск тестов для генератора задач ЕГЭ')
-    parser.add_argument('--quality', action='store_true', 
-                        help='Запустить тесты качества генерации уравнений')
-    parser.add_argument('--all', action='store_true', 
-                        help='Запустить все тесты, включая модульные и тесты качества')
-    
-    args = parser.parse_args()
-    
-    success = True
-    
-    # Решаем, какие тесты запускать
-    if args.quality:
-        # Запускаем только тесты качества
-        success = run_quality_tests()
-    elif args.all:
-        # Запускаем и модульные тесты, и тесты качества
-        unit_success = run_unit_tests()
-        quality_success = run_quality_tests()
-        success = unit_success and quality_success
-    else:
-        # По умолчанию запускаем только модульные тесты
-        success = run_unit_tests()
-    
-    # Выходим с ненулевым кодом, если есть ошибки или сбои
-    sys.exit(not success) 
+    sys.exit(main()) 

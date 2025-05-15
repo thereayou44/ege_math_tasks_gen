@@ -6,20 +6,16 @@ from bs4 import BeautifulSoup
 import traceback
 import re
 from dotenv import load_dotenv
-from app.task_generator import generate_complete_task, convert_markdown_to_html
+from app.task_generator import generate_complete_task, convert_markdown_to_html, save_to_file
+from app.geometry import Trapezoid
+from app.visualization import GeometryRenderer
 
 app = Flask(__name__)
 
 # Загружаем переменные окружения
 load_dotenv()
 
-try:
-    from app.task_generator import generate_complete_task
-    print("Используется YandexGPT API для генерации задач")
-except ImportError as e:
-    print(f"Ошибка при импорте модуля task_generator: {e}")
-
-
+print("Используется YandexGPT API для генерации задач")
 
 def load_categories_from_file(is_basic_level=False):
     """
@@ -81,7 +77,8 @@ def format_latex_in_answer(answer):
         r'\\le', r'\\ge', r'\\neq', r'\\approx', r'\\cdot',
         r'\\left', r'\\right', r'\\mathbb', r'\\mathcal', r'\\partial',
         r'\\begin\{.*?\}', r'\\end\{.*?\}', r'\\overline', r'\\underline',
-        r'\\times', r'\\div', r'\\equiv', r'\\cup', r'\\cap', r'\\in', r'\\infty'
+        r'\\times', r'\\div', r'\\equiv', r'\\cup', r'\\cap', r'\\in', r'\\infty',
+        r'\\tg', r'\\ctg', r'\\arctg'
     ]
 
     # Ищем любой паттерн LaTeX в ответе
@@ -129,19 +126,8 @@ def generate_task():
 
         # Сохраняем форматированный текст в файл (task_generator уже делает это, но на всякий случай)
         try:
-            formatted_text = f"""===ЗАДАЧА===
-{result.get('task', '')}
-
-===РЕШЕНИЕ===
-{result.get('solution', '')}
-
-===ПОДСКАЗКИ===
-1. {result.get('hints', [''])[0] if result.get('hints') and len(result.get('hints')) > 0 else ''}
-2. {result.get('hints', ['', ''])[1] if result.get('hints') and len(result.get('hints')) > 1 else ''}
-3. {result.get('hints', ['', '', ''])[2] if result.get('hints') and len(result.get('hints')) > 2 else ''}
-"""
-            with open("last_generated_task.txt", 'w', encoding='utf-8') as f:
-                f.write(formatted_text)
+            # Используем функцию save_to_file из task_generator.py
+            save_to_file(result, "last_generated_task.txt")
             print(f"Задача сохранена в файл last_generated_task.txt")
         except Exception as e:
             print(f"Ошибка при сохранении файла: {e}")
@@ -222,7 +208,10 @@ def generate_task():
             "solution_warning": result.get("solution_warning", False),
             "answer": result["answer"],
             "hints": result["hints"],
-            "difficulty_level": result["difficulty_level"]
+            "difficulty_level": result["difficulty_level"],
+            "category": category,
+            "subcategory": subcategory,
+            "is_basic_level": is_basic_level
         }
 
         # Добавляем информацию об изображении, если оно есть
@@ -230,6 +219,8 @@ def generate_task():
             image_path = result["image_path"]
             image_url = f"/static/images/generated/{os.path.basename(image_path)}"
             response_data["image_url"] = image_url
+        elif "image_url" in result:
+            response_data["image_url"] = result["image_url"]
 
         return jsonify(response_data)
     except Exception as e:
@@ -486,6 +477,57 @@ def api_get_json_task():
         print(error_details)
         return jsonify({"error": f"Ошибка при генерации задачи в формате JSON: {str(e)}"}), 500
 
+@app.route('/test_trapezoid', methods=['GET'])
+def test_trapezoid():
+    """
+    Тестовый маршрут для проверки визуализации трапеции с новой ООП-структурой.
+    """
+    try:
+        # Создаем параметры трапеции
+        params = {
+            'bottom_width': 6,
+            'top_width': 3,
+            'height': 3,
+            'show_labels': True,
+            'show_lengths': True,
+            'is_isosceles': True,
+            'vertex_labels': ['A', 'B', 'C', 'D']
+        }
+        
+        # Создаем трапецию с помощью нового класса
+        trapezoid = Trapezoid(params)
+        
+        # Отрисовываем и сохраняем изображение
+        static_folder = os.path.join(app.root_path, 'static')
+        os.makedirs(os.path.join(static_folder, 'test_images'), exist_ok=True)
+        image_path = os.path.join(static_folder, 'test_images', f'trapezoid_test_{random.randint(1, 10000)}.png')
+        
+        # Используем новый класс для рендеринга
+        output_path = GeometryRenderer.render_figure(trapezoid, image_path)
+        
+        if output_path:
+            # Получаем URL для статического файла
+            image_url = '/'.join(output_path.split(os.sep)[-3:])  # static/test_images/filename.png
+            
+            # Также тестируем создание трапеции из текста
+            test_text = "В равнобедренной трапеции основания равны 8 и 4, а высота равна 3."
+            text_trapezoid = Trapezoid.from_text(test_text)
+            text_image_path = os.path.join(static_folder, 'test_images', f'trapezoid_text_test_{random.randint(1, 10000)}.png')
+            text_output_path = GeometryRenderer.render_figure(text_trapezoid, text_image_path)
+            text_image_url = '/'.join(text_output_path.split(os.sep)[-3:]) if text_output_path else None
+            
+            return jsonify({
+                "success": True, 
+                "message": "Трапеция успешно создана",
+                "image_url": image_url,
+                "text_image_url": text_image_url
+            })
+        else:
+            return jsonify({"success": False, "message": "Ошибка при создании изображения"})
+    except Exception as e:
+        traceback.print_exc()
+        return jsonify({"success": False, "message": f"Ошибка: {str(e)}"})
+
 if __name__ == '__main__':
     print("=" * 50)
     print("Запуск генератора задач ЕГЭ по математике")
@@ -496,4 +538,4 @@ if __name__ == '__main__':
         print("Генерация задач может не работать.")
 
     print("=" * 50)
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(debug=True, host='0.0.0.0', port=5001)

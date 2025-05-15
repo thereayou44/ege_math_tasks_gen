@@ -55,7 +55,8 @@ def extract_answer_with_latex(answer_text):
         r'\\le', r'\\ge', r'\\neq', r'\\approx', r'\\cdot',
         r'\\left', r'\\right', r'\\mathbb', r'\\mathcal', r'\\partial',
         r'\\begin\{.*?\}', r'\\end\{.*?\}', r'\\overline', r'\\underline',
-        r'\\times', r'\\div', r'\\equiv', r'\\cup', r'\\cap', r'\\in', r'\\infty'
+        r'\\times', r'\\div', r'\\equiv', r'\\cup', r'\\cap', r'\\in', r'\\infty',
+        r'\\tg', r'\\ctg', r'\\arctg'
     ]
     
     # Ищем любой паттерн LaTeX в ответе
