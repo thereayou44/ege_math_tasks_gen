@@ -21,10 +21,12 @@ try:
     from app.prompts import HINT_PROMPTS, SYSTEM_PROMPT, create_complete_task_prompt, REGEX_PATTERNS, DEFAULT_VISUALIZATION_PARAMS
     from app.visualization import process_bar_chart, process_pie_chart, process_chart_visualization
     from app.visualization.chart_utils import normalize_function_expression
+    from app.visualization.renderer import GeometryRenderer
 
 except ImportError:
     from prompts import HINT_PROMPTS, SYSTEM_PROMPT, create_complete_task_prompt, REGEX_PATTERNS, DEFAULT_VISUALIZATION_PARAMS
     from visualization import process_multiple_function_plots, process_bar_chart, process_pie_chart, process_chart_visualization
+    from visualization.renderer import GeometryRenderer
 import traceback
 import matplotlib.patches as patches
 # Импортируем utils.converters так, чтобы работало как из корня проекта, так и из папки app
@@ -1383,20 +1385,24 @@ if __name__ == "__main__":
         print("API ключ Яндекса или ID каталога не найдены в .env файле.")
         print("Пожалуйста, заполните эти данные для работы с YandexGPT API.")
 
-def needs_visualization(task_text, category, subcategory):
+def needs_visualization(task_text, category, subcategory, is_basic_level=False):
     """
     Определяет, требуется ли визуализация для задачи.
-    Просто делегирует вызов в check_visualization_requirement из prompts.
+    Делегирует вызов в check_visualization_requirement из prompts.
+    Учитывает также уровень сложности задачи (базовый или профильный).
     
     Args:
         task_text: Текст задачи
         category: Категория задачи
         subcategory: Подкатегория задачи
+        is_basic_level: Флаг базового уровня, но не влияет на решение о необходимости визуализации
         
     Returns:
-        bool: Всегда True, чтобы запросить у модели решение о необходимости визуализации
+        bool: True, если требуется визуализация (определяется по категории/тексту задачи)
     """
     from app.prompts import check_visualization_requirement
+    # Независимо от уровня сложности (базовый или профильный), 
+    # запрашиваем визуализацию если она требуется
     return check_visualization_requirement(category, subcategory, task_text)
 
 def extract_visualization_params(task_text, category, subcategory):
@@ -3024,135 +3030,99 @@ def process_circle_visualization(params_text, extract_param):
 def process_triangle_visualization(params_text, extract_param):
     """Обрабатывает параметры для треугольника и создает визуализацию"""
     # Извлекаем параметры для треугольника
-    vertices_str = extract_param(REGEX_PATTERNS["triangle"]["vertices"], params_text)
+    coords_str = extract_param(REGEX_PATTERNS["triangle"]["coords"], params_text)
+    show_angles = extract_param(REGEX_PATTERNS["triangle"]["angles"], params_text, "нет").lower() in ["да", "yes", "true"]
+    show_sides = extract_param(REGEX_PATTERNS["triangle"]["lengths"], params_text, "нет").lower() in ["да", "yes", "true"]
     vertex_labels_str = extract_param(REGEX_PATTERNS["triangle"]["vertex_labels"], params_text)
-    show_labels = extract_param(REGEX_PATTERNS["triangle"]["show_labels"], params_text, "нет").lower() in ["да", "yes", "true"]
-    show_angles = extract_param(REGEX_PATTERNS["triangle"]["show_angles"], params_text, "нет").lower() in ["да", "yes", "true"]
-    show_lengths = extract_param(REGEX_PATTERNS["triangle"]["show_lengths"], params_text, "нет").lower() in ["да", "yes", "true"]
+    is_right = extract_param(REGEX_PATTERNS["triangle"]["is_right"], params_text, "нет").lower() in ["да", "yes", "true"]
     side_lengths_str = extract_param(REGEX_PATTERNS["triangle"]["side_lengths"], params_text)
     show_angle_arcs = extract_param(REGEX_PATTERNS["triangle"]["show_angle_arcs"], params_text, "нет").lower() in ["да", "yes", "true"]
-    is_right = extract_param(REGEX_PATTERNS["triangle"]["is_right"], params_text, "нет").lower() in ["да", "yes", "true"]
-    
-    # Добавляем параметры для высот
-    show_heights = extract_param(r'Показать\s+высоты[:\s]+([^\n]+)', params_text, "нет").lower() in ["да", "yes", "true"]
-    heights_str = extract_param(r'Высоты[:\s]+([^\n]+)', params_text)
     
     # Параметры для отображения треугольника
     params = DEFAULT_VISUALIZATION_PARAMS["triangle"].copy()
     
     # Парсинг координат
-    if vertices_str:
+    if coords_str:
         try:
-            vertices = []
-            if isinstance(vertices_str, str):
-                # Ожидаем координаты в формате "(x1,y1), (x2,y2), (x3,y3)"
-                vertex_matches = re.findall(r'\(([^,]+),([^)]+)\)', vertices_str)
-                for match in vertex_matches:
-                    x = float(match[0])
-                    y = float(match[1])
-                    vertices.append((x, y))
-            elif isinstance(vertices_str, list):
-                # Если уже передан список координат
-                for coord in vertices_str:
-                    if isinstance(coord, tuple) and len(coord) == 2:
-                        vertices.append(coord)
-                    elif isinstance(coord, str):
-                        match = re.search(r'\(([^,]+),([^)]+)\)', coord)
-                        if match:
-                            x = float(match.group(1))
-                            y = float(match.group(2))
-                            vertices.append((x, y))
+            # Для координат ожидаем формат [(x1,y1), (x2,y2), (x3,y3)]
+            coords = coords_str.strip()
+            # Удаляем внешние скобки, если они есть
+            if coords.startswith("[") and coords.endswith("]"):
+                coords = coords[1:-1]
             
-            if len(vertices) == 3:  # Треугольник должен иметь 3 вершины
-                params['points'] = vertices
+            # Разбиваем на отдельные точки
+            points = []
+            pattern = r'\(([^,]+),([^)]+)\)'
+            matches = re.findall(pattern, coords)
+            
+            if len(matches) >= 3:
+                for i in range(3):
+                    x = float(matches[i][0])
+                    y = float(matches[i][1])
+                    points.append((x, y))
+                
+                params['points'] = points
         except Exception as e:
-            logging.warning(f"Ошибка при разборе вершин треугольника: {e}")
+            logging.warning(f"Ошибка при парсинге координат треугольника: {e}")
     
     # Парсинг меток вершин
     if vertex_labels_str:
         try:
-            if isinstance(vertex_labels_str, list):
-                labels = vertex_labels_str
-            else:
-                labels = [label.strip() for label in vertex_labels_str.split(',')]
-            if len(labels) >= 3:  # для треугольника нужно 3 метки
-                params['vertex_labels'] = labels[:3]
-            params['show_labels'] = True
+            # Для меток вершин ожидаем формат [A, B, C] или A, B, C
+            labels = vertex_labels_str.strip()
+            # Удаляем внешние скобки, если они есть
+            if labels.startswith("[") and labels.endswith("]"):
+                labels = labels[1:-1]
+            
+            # Разбиваем на отдельные метки
+            vertex_labels = [label.strip() for label in re.split(r'[,\s]+', labels) if label.strip()]
+            
+            if len(vertex_labels) >= 3:
+                params['vertex_labels'] = vertex_labels[:3]
         except Exception as e:
-            logging.warning(f"Ошибка при разборе меток вершин треугольника: {e}")
+            logging.warning(f"Ошибка при парсинге меток вершин треугольника: {e}")
+    
+    # Дополнительные параметры
+    params['show_angles'] = show_angles
+    params['show_sides'] = show_sides
+    params['is_right'] = is_right
+    params['show_angle_arcs'] = show_angle_arcs
     
     # Парсинг длин сторон
     if side_lengths_str:
         try:
+            # Для длин сторон ожидаем формат [side1, side2, side3] или side1, side2, side3
+            lengths = side_lengths_str.strip()
+            # Удаляем внешние скобки, если они есть
+            if lengths.startswith("[") and lengths.endswith("]"):
+                lengths = lengths[1:-1]
+            
+            # Разбиваем на отдельные значения
             side_lengths = []
-            for length_str in side_lengths_str.split(','):
-                length_str = length_str.strip()
-                if length_str.lower() in ["нет", "no", "none", "-"]:
-                    side_lengths.append(None)
-                else:
-                    side_lengths.append(float(length_str))
-            params['side_lengths'] = side_lengths
+            for length in re.split(r'[,\s]+', lengths):
+                if length.strip():
+                    try:
+                        # Пробуем преобразовать в число
+                        side_lengths.append(float(length.strip()))
+                    except ValueError:
+                        # Если не число, просто добавляем строку
+                        side_lengths.append(length.strip())
+            
+            if len(side_lengths) >= 3:
+                params['side_lengths'] = side_lengths[:3]
         except Exception as e:
-            logging.warning(f"Ошибка при разборе длин сторон треугольника: {e}")
+            logging.warning(f"Ошибка при парсинге длин сторон треугольника: {e}")
     
-    # Добавляем основные параметры
-    params['show_angles'] = show_angles
-    params['show_lengths'] = show_lengths
-    params['show_labels'] = show_labels
-    params['show_angle_arcs'] = show_angle_arcs
-    params['is_right'] = is_right
-    
-    # Добавляем параметры для высот
-    params['show_heights'] = show_heights
-    if heights_str:
-        try:
-            if heights_str.lower() in ["все", "all"]:
-                params['show_heights'] = True
-                params['heights_to_show'] = ["A", "B", "C"]  # Все высоты
-            else:
-                heights_to_show = [height.strip() for height in heights_str.split(',')]
-                params['heights_to_show'] = heights_to_show
-                params['show_heights'] = True
-        except Exception as e:
-            logging.warning(f"Ошибка при разборе параметров высот треугольника: {e}")
-    
-    # Обработка параметров конкретных углов для отображения
-    show_specific_angles = extract_param(REGEX_PATTERNS["triangle"]["show_specific_angles"], params_text)
-    if show_specific_angles:
-        # Проверяем, если это уже список, то используем как есть
-        if isinstance(show_specific_angles, list):
-            params["show_specific_angles"] = show_specific_angles
-        else:
-            try:
-                # Иначе пытаемся разделить строку
-                params["show_specific_angles"] = [angle.strip() for angle in show_specific_angles.split(',')]
-            except Exception as e:
-                logging.warning(f"Ошибка при разборе конкретных углов треугольника: {e}")
-    
-    # Обработка параметров конкретных сторон для отображения
-    show_specific_sides = extract_param(REGEX_PATTERNS["triangle"]["show_specific_sides"], params_text)
-    if show_specific_sides:
-        # Проверяем, если это уже список, то используем как есть
-        if isinstance(show_specific_sides, list):
-            params["show_specific_sides"] = show_specific_sides
-        else:
-            try:
-                # Иначе пытаемся разделить строку
-                params["show_specific_sides"] = [side.strip() for side in show_specific_sides.split(',')]
-            except Exception as e:
-                logging.warning(f"Ошибка при разборе конкретных сторон треугольника: {e}")
-    
-    # Значения углов для подписей
-    angle_values_str = extract_param(r'Значения\s+углов[:\s]+([^\n]+)', params_text)
+    # Парсинг значений углов
+    angle_values_str = extract_param(REGEX_PATTERNS["triangle"]["angle_values"], params_text)
     if angle_values_str:
         try:
+            # Для значений углов ожидаем формат A=30, B=60, C=90 или аналогичный
+            parts = re.split(r'[,\s]+', angle_values_str)
             angle_values = {}
-            parts = angle_values_str.split(',')
+            
             for part in parts:
-                if ':' in part:
-                    angle_key, angle_val = part.split(':', 1)
-                    angle_values[angle_key.strip()] = angle_val.strip()
-                elif '=' in part:
+                if '=' in part:
                     angle_key, angle_val = part.split('=', 1)
                     angle_values[angle_key.strip()] = angle_val.strip()
             
@@ -3181,13 +3151,23 @@ def process_triangle_visualization(params_text, extract_param):
         GeometryRenderer.render_figure(triangle, output_path)
         
         return output_path
-    except ImportError:
+    except ImportError as e:
         # Если новые модули недоступны, используем старый подход
-        logging.warning("Не удалось импортировать новые модули для ООП-визуализации, используем старый подход")
+        logging.warning(f"Не удалось импортировать новые модули для ООП-визуализации, используем старый подход: {e}")
+    except Exception as e:
+        # Обрабатываем любые другие ошибки
+        logging.error(f"Ошибка при создании треугольника: {e}")
+        logging.error(traceback.format_exc())
+        return None
     
     # Генерируем изображение старым методом
-    generate_geometric_figure('triangle', params, output_path)
-    return output_path
+    try:
+        generate_geometric_figure('triangle', params, output_path)
+        return output_path
+    except Exception as e:
+        logging.error(f"Ошибка при создании треугольника старым методом: {e}")
+        logging.error(traceback.format_exc())
+        return None
 
 def generate_complete_task(category, subcategory="", difficulty_level=3, is_basic_level=False):
     """
