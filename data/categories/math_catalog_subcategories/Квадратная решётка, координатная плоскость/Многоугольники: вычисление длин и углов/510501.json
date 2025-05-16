@@ -1,0 +1,33 @@
+{
+    "id": 510501,
+    "topic": "Д4",
+    "condition": {
+        "text": "На клетчатой бумаге с размером клетки 1 1 изображён треугольник ABC . Найдите длину его медианы, проведённой из вершины C.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=30639",
+            "https://ege.sdamgia.ru/formula/svg/60/60c13e05d3ec8c10b8564eae7023d9db.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.  Ме­ди­а­на про­ве­ден­ная из вер­ши­ны C, будет де­лить ос­но­ва­ние AB по­по­лам. По­стро­им от­ре­зок  Из пря­мо­уголь­но­го тре­уголь­ни­ка по тео­ре­ме Пиф­го­ра:  Ответ: 5.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=30640",
+            "https://ege.sdamgia.ru/formula/svg/07/07c99e24b623bb5aa9bfb30192bd43ff.svg",
+            "https://ege.sdamgia.ru/formula/svg/bd/bdc453082112d96fabba49a141176dc3.svg"
+        ]
+    },
+    "answer": "5",
+    "analogs": [
+        "27803",
+        "509453",
+        "509616",
+        "510481",
+        "...",
+        "509453",
+        "509616",
+        "510481",
+        "522112",
+        "522138"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=510501"
+}

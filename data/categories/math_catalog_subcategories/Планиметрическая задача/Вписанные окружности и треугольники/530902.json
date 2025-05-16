@@ -1,0 +1,31 @@
+{
+    "id": 530902,
+    "topic": "17",
+    "condition": {
+        "text": "В треугольник ABC вписана окружность радиуса 2, касающаяся стороны AC в точке M, причём AM = 4 и CM = 6.а) Докажите, что треугольник ABC прямоугольный.б) Найдите расстояние между центрами вписанной и описанной окружностей треугольника ABC.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Пусть впи­сан­ная окруж­ность ка­са­ет­ся сто­ро­ны BC в точке K. Обо­зна­чим  Пусть S  — пло­щадь тре­уголь­ни­ка, p  — по­лу­пе­ри­метр. ТогдаС дру­гой сто­ро­ны, по фор­му­ле Ге­ро­наИз урав­не­ния  по­лу­ча­ем, что  Сто­ро­ны тре­уголь­ни­ка ABC равны 10, 8 и 6, сле­до­ва­тель­но, этот тре­уголь­ник пря­мо­уголь­ный с пря­мым углом при вер­ши­не B.б)  Пусть I и O  — цен­тры впи­сан­ной и опи­сан­ной окруж­но­стей тре­уголь­ни­ка ABC со­от­вет­ствен­но. Точка O  — се­ре­ди­на ги­по­те­ну­зы  и  ТогдаОтвет: б) ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=148628",
+            "https://ege.sdamgia.ru/formula/svg/03/03e78a6fdc0d4468809dab8713421a31.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cb81c3c9d7f7233e90ad89683294bc2d.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf4c70849873d713dbdf2d3e34015e36.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bbd6e054dc4b5622130f519ae6258ff0.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/73f66736e6609af9ecc505bd3fe6c181.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/13ebc6220b7320df38fa615780cb81cd.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/ca7992d65ada3d3e13a20ba4359f31fd.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54d244f1d0fd2eaa82a2f1c074d2f6da.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/2397ee773a275d7fb775d4c7c08a3840.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/97f698cad4226498e1e0f204ba676c31.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/9402814cdb15cb8463afe45f27a93e94.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cb24a19df8c059d149043016488a3d76.svg"
+        ]
+    },
+    "answer": " б) ",
+    "analogs": [
+        "530827"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=530902"
+}

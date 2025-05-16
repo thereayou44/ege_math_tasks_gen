@@ -1,0 +1,38 @@
+{
+    "id": 670859,
+    "topic": "16",
+    "condition": {
+        "text": "Петр Петрович владеет акциями, которые стоят k2 тыс. рублей в конце года k, В конце любого года он может их продать и положить деньги в банк под определенный процент, в результате чего сумма каждый год будет увеличиваться в 1 + p раз. Петр Петрович хочет продать акции в конце такого года, чтобы в конце двадцатого года сумма на его счете была наибольшей. Расчеты показали, что для этого Петр Петрович должен продать акции строго в конце семнадцатого года. При каких положительных значениях p это возможно?",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/6f/6ff6a132a9705f1b56f3824d87335a8f.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Если Петр Пет­ро­вич про­даст акции в конце кода k, то в конце два­дца­то­го года на его счёте будет  тыс. руб. Най­дем про­из­вод­ную по­лу­чен­ной функ­ции:За­ме­тим, что най­ден­ная про­из­вод­ная равна нулю в един­ствен­ной точке  по­ло­жи­тель­на при  и от­ри­ца­тель­на при  Сле­до­ва­тель­но,  воз­рас­та­ет на  и убы­ва­ет на  Из усло­вия из­вест­но, что про­да­вать бу­ма­ги не­об­хо­ди­мо в конце 17 года, сле­до­ва­тель­но, доход, по­лу­чен­ный при про­да­же бумаг в конце 17 года, боль­ше, чем доход, ко­то­рый мог бы по­лу­чить фонд при про­да­же бумаг в конце 16-го года и в конце 18 года. Из вы­яс­нен­но­го выше ха­рак­те­ра мо­но­тон­но­сти функ­ции  можно за­клю­чить, что вы­пол­не­ние не­ра­венств  и  га­ран­ти­ру­ет, что  для всех зна­че­ний k, от­лич­ных от 17. А зна­чит, не­об­хо­ди­мо и до­ста­точ­но найти ре­ше­ния си­сте­мы не­ра­венств:Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/42/42ca57ea89c51c41d441fc648f26ebd7.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/01567adca1b24c616c8c635ff56b90f8.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b92dd505a24c616abb8adbd8df1a090d.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ecf3caa5acd9802da90b91065a0744d1.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e2c445d677ac10fd34990c1a6a3458f9.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a82c539f75bec02a0eb913334a80e292.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cb2ee1e0127e2bff0a01c9331a199267.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0ba690e686cb82bf033947a9dbb295fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4cd1262b22f9d3ad1c391e2dc4a11ddb.svg",
+            "https://ege.sdamgia.ru/formula/svg/80/805e14d6c14f828bb4ba937689705936.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0ba690e686cb82bf033947a9dbb295fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/eb/eb504323100b7cacf2dffb2a480b3e53.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/dd1705b87e133ae009a0d9a69fe8ab7d.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f9d308715dcd22efc6dbf7abc024a6d1.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a48e774b4878ef30cca55f474d0bdbea.svg",
+            "https://ege.sdamgia.ru/formula/svg/69/6985459d3de1bbfa4f7939656a907b2b.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "516802",
+        "517833",
+        "674200"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=670859"
+}

@@ -1,0 +1,58 @@
+{
+    "id": 65551,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите значение выражения если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/e2/e2e15a2daa1f4744b69f0d1034399b54.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d4b6d1990d4d3dfd6d7dfadd7de583eb.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Ис­поль­зу­ем фор­му­лы при­ве­де­ния: Ответ: 0,3.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/af/af73d8a6ba917fd302ccc81f0b05c50b.svg",
+            "https://ege.sdamgia.ru/formula/svg/b8/b85d36474de9ece26f973fce82dbd2d0.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c8bbfe3c014eaca024f75db2550256f7.svg"
+        ]
+    },
+    "answer": "0,3",
+    "analogs": [
+        "26793",
+        "65547",
+        "65489",
+        "...",
+        "65547",
+        "65489",
+        "65491",
+        "65493",
+        "65495",
+        "65497",
+        "65499",
+        "65501",
+        "65503",
+        "65505",
+        "65507",
+        "65509",
+        "65511",
+        "65513",
+        "65515",
+        "65517",
+        "65519",
+        "65521",
+        "65523",
+        "65525",
+        "65527",
+        "65529",
+        "65531",
+        "65533",
+        "65535",
+        "65537",
+        "65539",
+        "65541",
+        "65543",
+        "65545",
+        "65549"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=65551"
+}

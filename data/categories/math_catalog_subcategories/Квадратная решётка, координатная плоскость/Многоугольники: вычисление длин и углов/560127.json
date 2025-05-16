@@ -1,0 +1,28 @@
+{
+    "id": 560127,
+    "topic": "Д4",
+    "condition": {
+        "text": "На клетчатой бумаге с размером клетки 11 изображён треугольник ABC. Найдите длину его биссектрисы, проведённой из вершины B.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=78431",
+            "https://ege.sdamgia.ru/formula/svg/60/60c13e05d3ec8c10b8564eae7023d9db.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Про­ведём бис­сек­три­су угла B. По ри­сун­ку что он равен 3. Ответ: 3.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=78432"
+        ]
+    },
+    "answer": "3",
+    "analogs": [
+        "27802",
+        "520485",
+        "520505",
+        "...",
+        "520485",
+        "520505",
+        "560646"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=560127"
+}

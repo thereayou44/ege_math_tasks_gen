@@ -1,0 +1,41 @@
+{
+    "id": 562156,
+    "topic": "Д10",
+    "condition": {
+        "text": "На рисунке изображён график функции вида где числа a, b и c — целые. Найдите значение",
+        "images": [
+            "https://ege.sdamgia.ru/get_file?id=109338",
+            "https://ege.sdamgia.ru/formula/svg/99/99a818af5f614744006562d49cc46ae3.svg",
+            "https://ege.sdamgia.ru/formula/svg/ff/ff7df3551fe0ca80a944b48ad282ff61.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Урав­не­ние па­ра­бо­лы с вер­ши­ной в точке с ко­ор­ди­на­та­ми  имеет вид  По гра­фи­ку видно, что при сме­ще­нии от вер­ши­ны на 2 клет­ки впра­во (или влево) гра­фик сме­ща­ет­ся на 2 клет­ки вниз, по­это­му стар­ший ко­эф­фи­ци­ент  Вер­ши­на па­ра­бо­лы на­хо­дит­ся в точке (6; 6), сле­до­ва­тель­но, урав­не­ние па­ра­бо­лы имеет вид Тогда Ответ: −12.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/34/34ebb2e99fed94ed20e5613f0baaef66.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/60e7e0a0b50ecd62e1a990cc9482674d.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/2275cc5c6d8e207d87db8aa2a4c70e94.svg",
+            "https://ege.sdamgia.ru/formula/svg/80/8098f83e5636750a79335ae406937cb1.svg",
+            "https://ege.sdamgia.ru/formula/svg/f2/f2e4393eba7d41b584c0e516dcb26008.svg"
+        ]
+    },
+    "answer": "-12",
+    "analogs": [
+        "562153",
+        "562060",
+        "562154",
+        "562155",
+        "...",
+        "562060",
+        "562154",
+        "562155",
+        "562157",
+        "562158",
+        "562159",
+        "562160",
+        "562161",
+        "562162",
+        "562163"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=562156"
+}

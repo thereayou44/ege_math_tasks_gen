@@ -1,0 +1,37 @@
+{
+    "id": 517533,
+    "topic": "17",
+    "condition": {
+        "text": "Две окружности касаются внутренним образом в точке A, причем меньшая окружность проходит через через центр O большей. Диаметр BC большей окружности вторично пересекает меньшую окружность в точке M, отличной от A. Лучи AO и AM вторично пересекают большую окружность в точках P и Q соответственно. Точка C лежит на дуге AQ большей окружности, не содержащей точку P.а) Докажите, что прямые PQ и BC параллельны.б) Известно, что sinAOC = Прямые PC и AQ пересекаются в точке K. Найдите отношение QK:KA.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/b7/b7fd7223347aaf8dbc22fc2fcd70072d.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f9f180b06a2c479a6643b79ca5be3e44.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Так как AO  — диа­метр, а AM  — хорда, то  зна­чит,  AO пе­ре­се­ка­ет боль­шую окруж­ность в P, AP  — диа­метр, тогда  от­ку­да По­сколь­ку  и  то  что и тре­бо­ва­лось до­ка­зать.б)  Так как   — цен­траль­ный, то   зна­чит,   — со­от­вет­ствен­ные углы. По­сколь­ку   — бис­сек­три­са  тогда по свой­ству бис­сек­три­сы Ответ: б) ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=148058",
+            "https://ege.sdamgia.ru/formula/svg/ee/ee48ba757741fafb4a335bef33b72e9f.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c3610775c48510080156bba2cdc00429.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1a1adf59ba5654d0bd783d708e93c815.svg",
+            "https://ege.sdamgia.ru/formula/svg/76/76d0c847a758babc24035babd396ecdd.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/63ae37537a77532b1c742b4e4df87e8a.svg",
+            "https://ege.sdamgia.ru/formula/svg/c5/c53d39de3a1b1d6c6583710bea1adb13.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/379d4406b210f0aecf0c2af02cf5d51e.svg",
+            "https://ege.sdamgia.ru/formula/svg/71/71508ca556dc7937887a57d93b1c2aa1.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a9c63ed24941a6bda7bf597ae6166f00.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/379d4406b210f0aecf0c2af02cf5d51e.svg",
+            "https://ege.sdamgia.ru/formula/svg/11/113b984b7e7d5d6ee1e274dc190d46af.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/acfb507db1e2a945b715ad6851247d4b.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/6824b95b63bfa46cfdf8628c421ea92a.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/368987da803ccf95bfadc045bf31b103.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2f95863f44d956523891e82ab6b16139.svg"
+        ]
+    },
+    "answer": " б) ",
+    "analogs": [
+        "517516"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=517533"
+}

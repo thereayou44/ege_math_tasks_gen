@@ -1,0 +1,62 @@
+{
+    "id": 502098,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при которых уравнение имеет на промежутке единственный корень.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/10/1002ef93eb87566091c36c734e88b13b.svg",
+            "https://ege.sdamgia.ru/formula/svg/ff/ff3164550467e2f5ee415e2c4eff5814.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пер­вый слу­чай:  Тогда По­след­нее урав­не­ние имеет на про­ме­жут­ке  един­ствен­ный ко­рень при  от­ку­да  Под­ста­вив  в не­ра­вен­ство  по­лу­чим:В этом слу­чае урав­не­ние  при усло­вии  имеет на про­ме­жут­ке   един­ствен­ный ко­рень  при  и не имеет на про­ме­жут­ке  кор­ней при  и при Вто­рой слу­чай:  Тогда из ис­ход­но­го урав­не­ния по­лу­ча­ем: По­след­нее урав­не­ние имеет на про­ме­жут­ке  един­ствен­ный ко­рень  Под­ста­вив  в не­ра­вен­ство  по­лу­чим:  от­ку­да В этом слу­чае урав­не­ние  при усло­вии  имеет на про­ме­жут­ке   един­ствен­ный ко­рень  при  и не имеет на про­ме­жут­ке  кор­ней при  Ответ:  ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/db/db3adc72798cae28e938aa7512ea4179.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e5dce61e595e0a985568beea67ae0362.svg",
+            "https://ege.sdamgia.ru/formula/svg/5e/5e7194514dec6d8a74d9e4ba6e4dc77f.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/61b4c85ce930dc28d91bc8a0e57312da.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/04a7f3ecb026fa4a23d256cb0662ccc0.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a6a4b3631520392ee2d8953142d9fc7f.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f14836dfa6655053a16f9ea1f86f7339.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e7a612cfbe12e008983b7b195ae68189.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/628d08efec8b0f8c9cb5e996828c1725.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f14836dfa6655053a16f9ea1f86f7339.svg",
+            "https://ege.sdamgia.ru/formula/svg/59/593ba9a05c242ec2b15b1a1dd4b4f1c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/61b4c85ce930dc28d91bc8a0e57312da.svg",
+            "https://ege.sdamgia.ru/formula/svg/5a/5a66783f109593c9f28110d869ab0130.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/100abb569893c3a3ce2130085b384a06.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/61b4c85ce930dc28d91bc8a0e57312da.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e72b2320b5fe57c749b0ceaafc562635.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/4084f3758fc870e203e5266ed5366657.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8e41e5aa4cba5573e797e7c63fe812d8.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5d2a06dd24b9f8ddc11b946b92fab819.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/85aff6937e9c0f587453f78a0b32e7a1.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5d2a06dd24b9f8ddc11b946b92fab819.svg",
+            "https://ege.sdamgia.ru/formula/svg/24/2446d287c56e863b30050df8526894b5.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b48cd65b6f6fda9fb73ea7fde00694a7.svg",
+            "https://ege.sdamgia.ru/formula/svg/bd/bdb432cadc98903a5ee87cd8739b98ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/61b4c85ce930dc28d91bc8a0e57312da.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/45d91fc0b6868bff28d6c2125d5b3576.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6f20c118d2d3d1eb254d3bcfccb4f49f.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8f129b60fc0c03ce8aabce2fcd0f003f.svg",
+            "https://ege.sdamgia.ru/formula/svg/5a/5a099a285b8135f97337c40c63632fa6.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/82bb39641c28de5b25aa525a000324d9.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8bc2cc2505cd6ad998d93e78e3f4918b.svg",
+            "https://ege.sdamgia.ru/formula/svg/59/593ba9a05c242ec2b15b1a1dd4b4f1c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/61b4c85ce930dc28d91bc8a0e57312da.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/186b5ccaed1e69138d65de0b1d122222.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f827100ff9bf8143796143d53ebedae2.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/61b4c85ce930dc28d91bc8a0e57312da.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e43b0d400aaf4713899f001bfa04aac.svg",
+            "https://ege.sdamgia.ru/formula/svg/11/1182d17760586e596141be78d8474e3f.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/737036ac8753bf7663293bcb0a563d90.svg"
+        ]
+    },
+    "answer": "",
+    "analogs": [
+        "502078",
+        "511373",
+        "679796"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=502098"
+}

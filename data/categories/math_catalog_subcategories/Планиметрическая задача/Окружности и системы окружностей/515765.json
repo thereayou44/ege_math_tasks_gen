@@ -1,0 +1,32 @@
+{
+    "id": 515765,
+    "topic": "17",
+    "condition": {
+        "text": "Окружность с центром O вписана в угол, равный 60°. Окружность большего радиуса с центром O1 также вписана в этот угол и проходит через точку O.а) Докажите, что радиус второй окружности вдвое больше радиуса первой.б) Найдите длину общей хорды этих окружностей, если известно, что радиус первой окружности равен",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/7d/7d39e105280b98cae5c998a3cda8ee4e.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Пусть AO  =  l, O1O  =  R. За­ме­тим, что O и O1 лежат на пря­мой O1A, так как впи­са­ны в один и тот же угол, сле­до­ва­тель­но, O1 и O лежат на бис­сек­три­се. По­сколь­ку O1A  — бис­сек­три­са, ∠O1AC  =  30°. По­сколь­ку AC ка­са­ет­ся окруж­но­сти, AC ⊥ O1C и AB ⊥ OB. Тогда тре­уголь­ни­ки O1CA и OBA  — пря­мо­уголь­ные. По­это­му   и  Имеем б)  Из преды­ду­ще­го пунк­та сле­ду­ет, что  По тео­ре­ме ко­си­ну­сов в тре­уголь­ни­ке KOO1 имеем:По­сколь­ку KO, OT, O1K, O1T  — ра­ди­у­сы, сле­до­ва­тель­но, KO  =  OT, O1K  =  O1T. Тогда KOTO1  — дель­то­ид. Зна­чит, OO1 ⊥ TK. Зна­чит, тре­уголь­ник KMO1  — пря­мо­уголь­ный. Тогда  По­сколь­ку тре­уголь­ник MOT  — пря­мо­уголь­ный, то OM  — вы­со­та и ме­ди­а­на в тре­уголь­ни­ке KO1T. Таким об­ра­зом, KT  =  2KM  =  15. Ответ: б) 15.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=147963",
+            "https://ege.sdamgia.ru/formula/svg/d0/d095ec059b238d9670a70d5534ed37d1.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2ff2cc54c6b20ca3abcd54f947bc9e26.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/40f708604e0ea220bc1d8641dc26d108.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/21ea95171a4157a752f2b6a2a6353118.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/27915ba95cf681e40acec1b593ca0ab5.svg",
+            "https://ege.sdamgia.ru/formula/svg/05/05cb50c58b91b2ef2799522999ef5650.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/ed8bd9f78184ec83d838a0fa287d8718.svg",
+            "https://ege.sdamgia.ru/formula/svg/05/05cb50c58b91b2ef2799522999ef5650.svg",
+            "https://ege.sdamgia.ru/formula/svg/64/6408f03d20a7996de2b82e3d0d77770d.svg",
+            "https://ege.sdamgia.ru/formula/svg/f2/f2f011d09eab86064f58c2c5ecdc331a.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cded331e08a31ed5e7853d66cd2611a7.svg"
+        ]
+    },
+    "answer": " б) 15.",
+    "analogs": [
+        "515651"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=515765"
+}

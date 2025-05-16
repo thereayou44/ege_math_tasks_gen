@@ -1,0 +1,59 @@
+{
+    "id": 60435,
+    "topic": "2",
+    "condition": {
+        "text": "Две стороны прямоугольника ABCD равны 40 и 35. Диагонали пересекаются в точке O.Найдите длину разности векторов и",
+        "images": [
+            "https://ege.sdamgia.ru/get_file?id=143411",
+            "https://ege.sdamgia.ru/formula/svg/c6/c68cbe820a553288da10a396bd3e7d72.svg",
+            "https://ege.sdamgia.ru/formula/svg/67/6757f22241730eb005e3316cfeee6dce.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Две сто­ро­ны изоб­ра­жен­но­го на ри­сун­ке пря­мо­уголь­ни­ка ABCD равны 6 и 8. Диа­го­на­ли пе­ре­се­ка­ют­ся в точке  Най­ди­те длину раз­но­сти век­то­ров  и Раз­ность век­то­ров  и  равна век­то­ру  Длина век­то­ра  равна 8. Ответ: 8.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=143411",
+            "https://ege.sdamgia.ru/formula/svg/5f/5f4238afbd8792f5826e919e4ef8e1bd.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/06cb2d9663c22e7a65cd6314efe95958.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f46bb0825efd8ae543398ad6642e2b87.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/06cb2d9663c22e7a65cd6314efe95958.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/01ca83b7c1a78adfd5e6e27466e410b0.svg",
+            "https://ege.sdamgia.ru/formula/svg/44/440eadd40d8d4b70038a2e0b462b5786.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/ed7822c175dd4385510f7259a7fcfa41.svg"
+        ]
+    },
+    "answer": ".",
+    "analogs": [
+        "27712",
+        "26445",
+        "60405",
+        "60407",
+        "...",
+        "26445",
+        "60405",
+        "60407",
+        "60409",
+        "60411",
+        "60413",
+        "60415",
+        "60417",
+        "60419",
+        "60421",
+        "60423",
+        "60425",
+        "60427",
+        "60429",
+        "60431",
+        "60433",
+        "60437",
+        "60439",
+        "60441",
+        "60443",
+        "60445",
+        "60447",
+        "60449",
+        "60451",
+        "60453"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=60435"
+}

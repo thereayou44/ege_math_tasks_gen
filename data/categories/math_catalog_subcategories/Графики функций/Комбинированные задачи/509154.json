@@ -1,0 +1,41 @@
+{
+    "id": 509154,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображены графики функций и которые пересекаются в точках A и B. Найдите абсциссу точки B.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=149703",
+            "https://ege.sdamgia.ru/formula/svg/91/91b9837e86626f036cfb1f867831c032.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ec5d91a8687ff660c11cc66a51c9c2c3.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По гра­фи­ку, g(−4)  =  1, g(−3)  =  5, g(−1)  =  7. ТогдаРешая по­лу­чен­ную си­сте­му, по­лу­ча­ем: a  =  −1, b  =  −3, из g(−1)  =  7 по­лу­чим c  =  5. Те­перь найдём абс­цис­су точки B: Таким об­ра­зом, ответ: 3. Ответ: 3.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/37/37cc9e5718ec2aaf8f804dd43398d50d.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a4fc62438e581f4ea1af5a3168c78528.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/8847dfa6526c98dd4881b1c987b51522.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/27fd15fdf41ac4b1d932ec33ed7cd444.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/edd4af2b444f0ef4e4fec5c1c6ac1ab3.svg",
+            "https://ege.sdamgia.ru/formula/svg/5b/5bbd5fb8fe9dbba7886f0c4a52f455c7.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/da9ea7837fb75e6a444919b9e9e338b6.svg"
+        ]
+    },
+    "answer": "3",
+    "analogs": [
+        "509149",
+        "509150",
+        "509151",
+        "509152",
+        "...",
+        "509150",
+        "509151",
+        "509152",
+        "509153",
+        "509155",
+        "509156",
+        "509157",
+        "627985"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509154"
+}

@@ -1,0 +1,28 @@
+{
+    "id": 511336,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых неравенствовыполняется при всех",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/7d/7db446586edfda6fbe7ff84c48326bbc.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fd3500a59568ee1c126a5e50c6bc8b91.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По­сколь­ку  для всех зна­че­ний x, по­лу­ча­ем: Решим по­лу­чен­ное не­ра­вен­ство: Для того, чтобы любое зна­че­ние x удо­вле­тво­ря­ло этой си­сте­ме не­ра­венств, нужно, чтобы каж­дое из не­ра­венств си­сте­мы было вер­ным для лю­бо­го зна­че­ния x, то есть дис­кри­ми­нан­ты левых ча­стей этих не­ра­венств долж­ны быть от­ри­ца­тель­ны­ми: Ответ:  ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/6d/6d0845f74b3e88c134274f2075831b76.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6e2aa7cae779e5ba7c972e73ba43e5d3.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/da1f57ce0bcd5f5766250350200aa1ab.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e1177dfd77aa721e9b9989ac41247427.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0f1adec21560f6ee6503b4eadadce2b4.svg",
+            "https://ege.sdamgia.ru/formula/svg/d0/d035f30954a1f0d5e24e250db2403550.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/9043c319c440d1c10ce94e4119122154.svg"
+        ]
+    },
+    "answer": "  ",
+    "analogs": [
+        "500115"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511336"
+}

@@ -1,0 +1,57 @@
+{
+    "id": 517543,
+    "topic": "18",
+    "condition": {
+        "text": "Найти все значения a, при каждом из которых уравнениеимеет ровно один корень на отрезке [0; 1].",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/fc/fc324a72f12aeffb8aa2b4ac927407d1.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Имеем урав­не­ние вида  от­ку­да на ОДЗ либо  либо  Рас­смот­рим эти слу­чаи. Пер­вый слу­чай:  при при вы­пол­не­нии усло­вия  то есть еслиЧисло  лежит на от­рез­ке [0; 1], для пер­во­го слу­чая по­лу­ча­ем:  Вто­рой слу­чай: Ко­рень a лежит на от­рез­ке [0; 1] при  учи­ты­вая  по­лу­ча­ем Ко­рень  лежит на от­рез­ке [0; 1] при  учи­ты­вая  по­лу­ча­ем Корни урав­не­ния  и  сов­па­да­ют при Корни урав­не­ния  и  сов­па­да­ют при Корни урав­не­ния  и  сов­па­да­ют при Таким об­ра­зом, ис­ход­ное урав­не­ние имеет ровно один ко­рень на от­рез­ке [0; 1] при  и  Ответ:  и ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/7c/7cfb961502299bfabebaf320112b3ed6.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/eab93b3179745965aa8fa36deec2534a.svg",
+            "https://ege.sdamgia.ru/formula/svg/95/959c53916126bef7632e14f8be581ea8.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8e5c34eb08074b4d3806869fea5e4ee5.svg",
+            "https://ege.sdamgia.ru/formula/svg/02/0240b376bc451ea4fbda0834c6c21bd8.svg",
+            "https://ege.sdamgia.ru/formula/svg/8d/8d61c4679397cc4be19ef41cd15e2abc.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/342154634aad7f2b6f816c094b6f222a.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/07cffdce1fd9f22e2b6edd909905b573.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f026b87ab2c4bbddf010869dd8cc2623.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/369484acb69b4795748bc87ed989438b.svg",
+            "https://ege.sdamgia.ru/formula/svg/69/6927cbf744e5f7afc2f1bb709df29857.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/42905da80e0ff7e0791f26b25dd37e2c.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3cf17b621aed063fbe382d255f041c9e.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2aba9505bcabb22adc66a527c79a3981.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/2901b6805be1952050facd9156a78bd8.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3cf17b621aed063fbe382d255f041c9e.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/1770fb5a5e1c4dadd46473d902cc748d.svg",
+            "https://ege.sdamgia.ru/formula/svg/b2/b2ee5ed4a2ea07041ca025d946521e90.svg",
+            "https://ege.sdamgia.ru/formula/svg/9c/9ca8a906a3860bb8631910622e29d584.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f103a0f1af51af1cccea7021f24cf5ba.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/180957eff8611a6c605ab0a0a8912e53.svg",
+            "https://ege.sdamgia.ru/formula/svg/5f/5f4d17f5232a8e1c0419cd8f0ce6072b.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9f3b9f79ea0990e64271a5ebecbf7304.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/53af49dac997b26dfef4e2f0a8b43313.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50a20ce04c291ac897290a4f2e3bc9e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/58/586e9a3ee60fd03906dc3f4e9bd7bc9b.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2a1b71b785c0cb14bb665bfef5a37b68.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50a20ce04c291ac897290a4f2e3bc9e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/31b128c6526e86144b7ec46e3628705c.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b1681dac70a58cf19d7add901010267b.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0b9c27763cdf47be79de80f7c978370b.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/31b128c6526e86144b7ec46e3628705c.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/0147dd98d496f72aabd1cabe9b4a245d.svg",
+            "https://ege.sdamgia.ru/formula/svg/be/be9a18da04b50a39532a9b9f7de123ad.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e0f55f7b9dd60d249bff3e910f26961c.svg",
+            "https://ege.sdamgia.ru/formula/svg/be/be9a18da04b50a39532a9b9f7de123ad.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e0f55f7b9dd60d249bff3e910f26961c.svg"
+        ]
+    },
+    "answer": "  и ",
+    "analogs": [
+        "517536"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=517543"
+}

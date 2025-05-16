@@ -1,0 +1,35 @@
+{
+    "id": 509171,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображены графики функций $f\\left(x\\right)=\\dfrac{k}{x} $ и $g\\left(x\\right)=ax+b$, которые пересекаются в точках $A$ и~$B$. Найдите абсциссу точки $B$.",
+        "images": [
+            "https://math-ege.sdamgia.rudata:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAKIAAACjCAIAAACGzFLpAAAEXElEQVR4nO2d25KcMAwFTSr//8vkgSmKwIwxxhfpqPsp2TUMWz2SbYTNsq5rAnX+zL4AGIGy5mVZTv8Ii7Jm2NHXvCxLhPFHPmPlNJfnOkctp1/AlJbK0byuK73yhrLmzfGesYVHZLcd099hlzKeCF1yIcrRfGKzvq5rQP2BNEcGzQrc5qeF4agqR/e5EVr5jQWllnsb+5da3pKkHQI0+6aww0XzGcnBCppDgOYQoNkx5aNxNIcAzV/QG4WhOQRo9sqjh5/QHAI0h4AKlSxUqIqwfKnH31Khgg9oziHTnaE5BGj2R8VyITSHAM05ZGabaA4Bmp1Rt44XzTdo5G00hwDN9wgENJo9Ub3BBhUqWahQFXFqnDl22KWW//AESTsEaC5leu/2ZucrNIcAzQ+YHtDVoDkEaH7GrIB+uSUlmh/jMXWjOQRorsFdQKO5kpGm3+8VjeZ6HMU0ml/hxTQVKlmoUBXx6LSpbF/niku9PYQK1TiMJ0U0N8OyaTS3xKxpNDdmM91Kdqu3K6G5Pdt7FjqFdd1p0dyLtmG9UX02NHdkD+smst8kcOUXFBlhn/4+PbDhaw+J5kHsL0Z6E9nVxxLNozmOzirustWZRvMEru8zvPX9MnujeSa/fJ9C9uiYNVTwH1Soiph4AV8D780KLpK2aU5r9X796hZlzQ3nnVM4Xfzpv0frtwVvZc3aXLdmzYQ7mnXIRDN3wUKAZnP0GFKgOQTKml0Ps9uirBl20GyLTnN9NIcAzVL8eiAJzYJcZVOIlIVCZBH2XyL29aj0bSapn7RD5ar9wcITyqWL/avtvSJZwempI2XNydWNsObfxePZ9JN2Kl6oKJzeQ2gOxT6bOn5rxZP2Rqi+OdwQzNEtgd5fRGXNydUQrCsfzW8eDgX7fDT/ejj06aIu1wj/jd+T9nVHKsK9HwNGiKV9c+ZZcJTbhwqVLB0rVLdRToXq2rL8h9Wf3nhC9XVpF1k9w5hbNx3nzbdFUBjGiNsj77dWgZeMK10ct9JB+WAm3Ow8BnfwTD6spjKtENl1Y0s4Mbne3GNjS7gy/7ECwnoA8zVvBAzrkQ87WNGcCOueGNK8gekemNOcMN0BKlSyuFlDlbq9w6tt47pSXv6Qtp9uMWnvkGlaYVpzwnQjrGtOiqbHLw9woBne40OzXkAPxofmhOl3uNEsw5R1e540E9DVeNIM1TjTTEDX4Uxz8m96yuNv/jT75bpXxLiP9h4c8As3FaquG+I1bPz0JWLjy24k7dHQNz+AvuYRXjXDI9AcAseafeXtuVvQOdYM5aA5BL41+8rbE/Gt2QvT94ZFcwjcaw6+30Eh7jVDCVSoZFGoUPVu2fC0vYtpgSpUJKQ8IpohD5r7Mn3GvIHmEKA5BCKamRbmEdFsEyMdc0JzENAcAjSHQEeztVGYnY45KWmGDFSoZKFCVYT9t0uVtyRpd8FUx5zQHAQ0hwDNIUBze6x1zAnNPbDmOOUnVCAD0RyCfxlioEn0rlMRAAAAAElFTkSuQmCC"
+        ]
+    },
+    "solution": {},
+    "answer": "0",
+    "analogs": [
+        "509167",
+        "509168",
+        "509169",
+        "509170",
+        "...",
+        "509168",
+        "509169",
+        "509170",
+        "509172",
+        "509173",
+        "509174",
+        "509175",
+        "509176",
+        "509177",
+        "509178",
+        "509179",
+        "509180",
+        "509181",
+        "509188",
+        "629173"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509171"
+}

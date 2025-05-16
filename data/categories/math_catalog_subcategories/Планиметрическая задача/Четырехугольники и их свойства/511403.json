@@ -1,0 +1,43 @@
+{
+    "id": 511403,
+    "topic": "17",
+    "condition": {
+        "text": "Дан четырёхугольник а) Докажите, что отрезки LN и KM, соединяющие середины его противоположных сторон, делят друг друга пополам.б) Найдите площадь четырёхугольника ABCD, если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/33/338b677dbcd742dcdb764591385ad7f4.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e9573ee2f21dbdb83d4297967ea772bf.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/7329d3dcb4f4ebd361004a09919ddd5e.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4f578feb4e26bc7a28389796ba1a11a4.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Пусть  и N  — се­ре­ди­ны сто­рон  и AD четырёхуголь­ни­ка ABCD со­от­вет­ствен­но. Тогда KL и MN  — сред­ние линии тре­уголь­ни­ков ABC и  Зна­чит,  и  по­это­му KLMN  — па­рал­ле­ло­грамм. Его диа­го­на­ли KM и LN делят друг друга по­по­лам, что и тре­бо­ва­лось до­ка­зать.б)  В тре­уголь­ни­ке KLM имеем:Зна­чит,  Тогда  по­это­му тре­уголь­ник KLM пря­мо­уголь­ный тре­уголь­ник с пря­мым углом при вер­ши­не  Четырёхуголь­ник KLMN  — пря­мо­уголь­ник, по­это­муОт­ре­зок KL яв­ля­ет­ся сред­ней ли­ни­ей тре­уголь­ни­ка ABC, по­это­му  Ана­ло­гич­но  Тогда, имеем:Где S  — ис­ко­мая пло­щадь четырёхуголь­ни­ка  Ана­ло­гич­но  По­это­муСле­до­ва­тель­но, Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=146538",
+            "https://ege.sdamgia.ru/formula/svg/bb/bb08d2a193cce59f6383e802ec914a99.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/9148458172fca0d698bcbf892aabf89e.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/49ddc4dde753142ec0dfe4387222d472.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/ac4dcb0bc2a30f1fb31db65bb7667fa4.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f4a20fc3566d4e37fd1873f03c28c0e3.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/184b573b5b677ba04e9dee611b668093.svg",
+            "https://ege.sdamgia.ru/formula/svg/ce/ce6b6316aaf1ef6368342e23573eac75.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f15136af7f336e3042529541910ec9be.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/ca0b0549db85f718a48e0505ac9273a2.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/eac93d1f1d6f1c1e18cb0c1c42f32397.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fbbd6b257582b3d9bb3c2e5f479a871f.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3c5f302d78cc99d805d51d44ae31b043.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/68b42168712d7e9a0bd0574d4730ed76.svg",
+            "https://ege.sdamgia.ru/formula/svg/33/338b677dbcd742dcdb764591385ad7f4.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1ba07ab9572b980ec0ed482eaf5b9847.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/63782cbd5299f43462bc8adeda05107d.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/dd86c9b70e8d4e6a13aa0b1074bb2808.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/dab1057313b295e7064da64ef9cf2a91.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "505389",
+        "505410"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511403"
+}

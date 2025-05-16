@@ -1,0 +1,38 @@
+{
+    "id": 503364,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, для каждого из которых существует хотя бы одна пара чисел x и y, удовлетворяющих неравенству",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/85/85e6925a9f0c4991e9fcb3d5d527b7ee.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Рас­смот­рим две функ­ции:  и Функ­ция  яв­ля­ет­ся ку­соч­но-ли­ней­ной, причём при  уг­ло­вой ко­эф­фи­ци­ент равен либо −1, либо −7, а при  уг­ло­вой ко­эф­фи­ци­ент равен либо 1, либо 7. Зна­чит, функ­ция f(x) убы­ва­ет при  и воз­рас­та­ет при  по­это­му По­сколь­ку  по­лу­ча­ем: Если  то  по­это­му не­ра­вен­ство  не имеет ре­ше­ний.Если  то пара чисел  удо­вле­тво­ря­ет не­ра­вен­ству  По­лу­ча­ем: Ответ: [−5; −1].",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/a5/a57a13880b620a987a6161103b5d551a.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b3721c9ecab56c8d785f163a5ffcbbdc.svg",
+            "https://ege.sdamgia.ru/formula/svg/a5/a57a13880b620a987a6161103b5d551a.svg",
+            "https://ege.sdamgia.ru/formula/svg/8d/8da97ece5431cf5a02c6b3e63301c2b9.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e7ff1900efa5080a7bd8a3e36695a673.svg",
+            "https://ege.sdamgia.ru/formula/svg/11/11cf0804e54a3c502f31ff7c4eddf8e9.svg",
+            "https://ege.sdamgia.ru/formula/svg/ab/abf7dd8986a6447dba775d4a73e34d1f.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/9041883624b6b883c2dc3dfd70e04c19.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/6886d3660f986fe53041bf1d5d7606a1.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f78776d3a95a0b43a0e8511b869befa3.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b1ebb0a8b33cfa35c08d9687c35969f0.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/07e7f9287d3ce648b6281e8d4fac1c3d.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/3217cc62a47f9f34773f6a5b04e1c5fd.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e239a4f8ec930017945fe63a06dceedf.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83ceb7de9fbd161770789b3e5248b287.svg",
+            "https://ege.sdamgia.ru/formula/svg/3f/3fa8e7773589e3c7676d3932df2725f7.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3dbdd55c9b91cab1171459693c9f1a7a.svg"
+        ]
+    },
+    "answer": "",
+    "analogs": [
+        "503324",
+        "511383"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=503364"
+}

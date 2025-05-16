@@ -1,0 +1,39 @@
+{
+    "id": 507914,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра а, при каждом из которых множество значений функции содержит отрезок",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/10/10ce7a3e00a2bc301b3c9c913c9e7603.svg",
+            "https://ege.sdamgia.ru/formula/svg/9d/9d968816c1eef70c6a2f074efaacf6a4.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­пи­шем зна­ме­на­тель дроби в виде  и за­ме­тим, что для лю­бо­го зна­че­ния па­ра­мет­ра а зна­ме­на­тель по­ло­жи­те­лен при всех зна­че­ни­ях пе­ре­мен­ной x. Сле­до­ва­тель­но, за­дан­ная функ­ция не­пре­рыв­на, а тогда от­ре­зок  [0; 1] лежит во мно­же­стве ее зна­че­ний тогда и толь­ко тогда, когда урав­не­ния  и  имеют ре­ше­ния.Урав­не­ние  за­пи­сы­ва­ет­ся в виде  оно имеет ре­ше­ние при любом Урав­не­ние  при­ве­дем к виду  Оно имеет ре­ше­ния тогда и толь­ко тогда, когда его дис­кри­ми­нант не­от­ри­ца­те­лен: Учи­ты­вая усло­вие  окон­ча­тель­но имеем:   или  Ответ:   или ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/dc/dc6b928d960b0eef768a752bd59450b0.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9ea9cb9ce42bf75cea56016fd7a5b66c.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/2620872d7d8ba4fa9124131fbcdd9fd1.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9ea9cb9ce42bf75cea56016fd7a5b66c.svg",
+            "https://ege.sdamgia.ru/formula/svg/f5/f521b0ede63238b294fe44856631f0ba.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e35755932edd22de4f00d9c13ff6f1a9.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/2620872d7d8ba4fa9124131fbcdd9fd1.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b3c3dd176b74eb75de6521de00f65d8d.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/75c2f35d2894eabdc7079ab429d6f973.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fdecdc971e47e2ad20bb115e7032a780.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d931bfe6187ce468360976dbfd9c71ee.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/907251638c21835d5ede10e509ab1a48.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/164ed378514aefa29bbb5f96644cbb1e.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/55aa53d8881cd29c82c456454452ce3c.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/907251638c21835d5ede10e509ab1a48.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/164ed378514aefa29bbb5f96644cbb1e.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/55aa53d8881cd29c82c456454452ce3c.svg"
+        ]
+    },
+    "answer": "   или ",
+    "analogs": [
+        "507891",
+        "511503"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=507914"
+}

@@ -1,0 +1,54 @@
+{
+    "id": 517742,
+    "topic": "16",
+    "condition": {
+        "text": "Вадим является владельцем двух заводов в разных городах. На заводах производятся абсолютно одинаковые товары при использовании одинаковых технологий. Если рабочие на одном из заводов трудятся суммарно часов в неделю, то за эту неделю они производят t единиц товара.За каждый час работы на заводе, расположенном в первом городе, Вадим платит рабочему 200 рублей, а на заводе, расположенном во втором городе, — 300 рублей.Вадим готов выделять 1 200 000 рублей в неделю на оплату труда рабочих. Какое наибольшее количество единиц товара можно произвести за неделю на этих двух заводах?",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/d5/d51c6fcacbb0e472719b1953b567969f.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. До­пу­стим, что на за­во­де, рас­по­ло­жен­ном в пер­вом го­ро­де, ра­бо­чие тру­дят­ся  часов, а на за­во­де, рас­по­ло­жен­ном во вто­ром го­ро­де,  часов. Тогда в не­де­лю будет про­из­ве­де­но  еди­ниц то­ва­ра, а за­тра­ты на опла­ту труда со­ста­вят  Вы­ра­зим y через x:Зна­чит, нам нужно найти наи­боль­шее зна­че­ние функ­ции  при  Для этого най­дем про­из­вод­ную функ­ции Най­дем кри­ти­че­ские точки:то есть   — един­ствен­ная кри­ти­че­ская точка, удо­вле­тво­ря­ю­щая усло­вию  Най­дем зна­че­ния функ­ции в най­ден­ной точке и на кон­цах от­рез­ка:Наи­боль­шее зна­че­ние функ­ции  равно 100, зна­чит, наи­боль­шее ко­ли­че­ство еди­ниц то­ва­ра равно 100. Ответ: 100. При­ве­дем дру­гое ре­ше­ниеПусть на пер­вом за­во­де ра­бо­та­ют сум­мар­но   а на вто­ром  —  часов в не­де­лю. Тре­бу­ет­ся найти мак­си­мум суммы  при усло­вии Вы­ра­зим y из пер­во­го со­от­но­ше­ния:  под­ста­вим в (*), по­лу­чим урав­не­ние:По­лу­чен­ное урав­не­ние имеет ре­ше­ния, если не­от­ри­ца­те­лен его дис­кри­ми­нант, а зна­чит, и чет­верть дис­кри­ми­нан­та:Тем самым, наи­боль­шее воз­мож­ное зна­че­ние  равно 100. По­ка­жем, что оно до­сти­га­ет­ся при на­ту­раль­ных зна­че­ни­ях пе­ре­мен­ных: дей­стви­тель­но, из (**) на­хо­дим, что зна­че­нию  со­от­вет­ству­ет  а тогда   Ответ: 100.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/32/32f5240d0dbf2ccbe75ef7f8ef2015e0.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c91bdff30bfc831ff645b8442bed761a.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/45df18c90c71ea2066f8596159e11288.svg",
+            "https://ege.sdamgia.ru/formula/svg/ab/ab9b5437009a169b07fb08eb13ca002c.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/dac00b7673df398f6a42ad385b37484a.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8fa20a35dfbd6a368d72029692d0d1f6.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8ffa90955914ae5e75612727e0159652.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6ac80f82dfb448f764599aa978118a45.svg",
+            "https://ege.sdamgia.ru/formula/svg/c5/c5b6a43b1efe717641029670f4e8dadf.svg",
+            "https://ege.sdamgia.ru/formula/svg/48/48f27b0af20cf09b8f0fcebf34fe59a8.svg",
+            "https://ege.sdamgia.ru/formula/svg/b8/b80ba7f2c152128e2b8ed8a7d754c0f9.svg",
+            "https://ege.sdamgia.ru/formula/svg/43/430c398113eb5f3b9d9013ab9c3d8474.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/302ce32d855794c58f1fea77477c6348.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa120a5d901653b746d95724c8b09a00.svg",
+            "https://ege.sdamgia.ru/formula/svg/43/430c398113eb5f3b9d9013ab9c3d8474.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/88cdae09c4ce6ebd99cd4a6f23da1720.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8ffa90955914ae5e75612727e0159652.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5c20b50808bd982cc105f953cf9d615d.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/372712f15064fe31e71e4d2329b235db.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/da2ef8ae9f7c7099f8563bbb05e9df07.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c91bdff30bfc831ff645b8442bed761a.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/ca1c8cde42e8689d52cac9a88508c6af.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/450a82540396c3f627ef5b628d62cd35.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c279e2c32de3044767fab99fca83924.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/34d8722da3daec2e103bbed21b148bd3.svg",
+            "https://ege.sdamgia.ru/formula/svg/5f/5f8e4a78fe8ff7b0b3329bfd2da9f072.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/41c989cbe7ff32696e15cfef8fc7c153.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/559eae64f010981ece7b7dc446031807.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/ca1c8cde42e8689d52cac9a88508c6af.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dc40a7542610831cb59bc75e61d88fd8.svg",
+            "https://ege.sdamgia.ru/formula/svg/02/02e67e5ea2a84e737e75a9902f9f878b.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2eb241b7efac54fd167860b431032410.svg"
+        ]
+    },
+    "answer": " 100.  100.",
+    "analogs": [
+        "509824",
+        "517753",
+        "518117"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=517742"
+}

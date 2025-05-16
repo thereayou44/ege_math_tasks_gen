@@ -1,0 +1,28 @@
+{
+    "id": 556596,
+    "topic": "17",
+    "condition": {
+        "text": "В треугольнике ABC на продолжении стороны AC за вершину A отложен отрезок AD, равный стороне AB. Прямая, проходящая через точку A параллельно BD, пересекает сторону BC в точке M.а) Докажите, что AM — биссектриса угла BAC.б) Найдите площадь трапеции AMBD, если площадь треугольника ABC равна 54 и известно отношение AC : AB = 5 : 4.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Обо­зна­чим  По тео­ре­ме о внеш­нем угле тре­уголь­ни­ка  Тре­уголь­ник ABD рав­но­бед­рен­ный, по­это­му   а так как AM па­рал­лель­на BD,Сле­до­ва­тель­но, AM  — бис­сек­три­са угла BAC.б)  По свой­ству бис­сек­три­сы тре­уголь­ни­ка  зна­чит,Tре­уголь­ник DCB по­до­бен тре­уголь­ни­ку ACM с ко­эф­фи­ци­ен­том  по­это­муСле­до­ва­тель­но,Ответ: 67,2.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=147867",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c7e037fd99110252e3e60d11819c628.svg",
+            "https://ege.sdamgia.ru/formula/svg/95/95b58d06f345ad9b9b3fc22ade6b22e8.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/da5255d4b71b1cdb7642cd181fb6b068.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8e0ec6bdb440302ec02ea7a3dc08a6f1.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bb18a168d7c81e49f30869ab6b553e0e.svg",
+            "https://ege.sdamgia.ru/formula/svg/6b/6ba415a865f90774c7b477732c180d52.svg",
+            "https://ege.sdamgia.ru/formula/svg/4e/4ec56e436b59d78504a963111d87a1ee.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/84309b8dd4ddd035c29578d58379230b.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f127541166774af98b28eb3c5f3c3b64.svg"
+        ]
+    },
+    "answer": " 67,2.",
+    "analogs": [
+        "556588"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=556596"
+}

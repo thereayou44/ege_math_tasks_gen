@@ -1,0 +1,53 @@
+{
+    "id": 517229,
+    "topic": "6",
+    "condition": {
+        "text": "Найдите корень уравнения",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/9e/9ec7c5f68a21ac457d31b971f8493cb0.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По­сле­до­ва­тель­но по­лу­ча­ем: Ответ: −11.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/39/398a7d6a41e7a314ef9d5c47ce681371.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/dfda22562f6952d5e69148415a16bf40.svg",
+            "https://ege.sdamgia.ru/formula/svg/24/24142ec6f3f1f5cdc9f106078999ab63.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/cc9848a26dcc9d7b539142768eab6d5d.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/45f31cd41107e688c6e530ea7642b183.svg"
+        ]
+    },
+    "answer": "-11",
+    "analogs": [
+        "26658",
+        "3187",
+        "3227",
+        "3231",
+        "...",
+        "3187",
+        "3227",
+        "3231",
+        "517191",
+        "3189",
+        "3191",
+        "3193",
+        "3195",
+        "3197",
+        "3199",
+        "3201",
+        "3203",
+        "3205",
+        "3207",
+        "3209",
+        "3211",
+        "3213",
+        "3215",
+        "3217",
+        "3219",
+        "3221",
+        "3223",
+        "3225",
+        "3229"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=517229"
+}

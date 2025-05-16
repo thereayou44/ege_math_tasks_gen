@@ -1,0 +1,63 @@
+{
+    "id": 68947,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите значение выражения",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/bd/bd8d8b4a431e86056443d08eb5b6a680.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Най­ди­те зна­че­ние вы­ра­же­ния Вы­пол­ним пре­об­ра­зо­ва­ния: Ответ: 1. При­ве­дем дру­гое ре­ше­ние.Упро­стим вы­ра­же­ния в скоб­ках, затем ис­поль­зу­ем фор­му­лу ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/4c/4c74630cade72f492bbf9a8a29a88ca9.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/41f3faaedd6777701c36747d32b2dfe7.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7c603855b48ebf88406d7dea490b0181.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f0a40d614b2d084a68d325cfd9ec4124.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f13a9491d6288c30b878036ff00fb4c1.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/70ec76b287b88627c57205d6b1d36a8b.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/31259f28371aabed53c2302e9ed6c3d2.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/89a7568e994c49b2d8d4a80631e7ed48.svg",
+            "https://ege.sdamgia.ru/formula/svg/24/246c362c6bbf5fa861d6f4e59007971d.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/74cf40e36b7ac0fff1c24041d33a2cb5.svg",
+            "https://ege.sdamgia.ru/formula/svg/7e/7efcbeb35de39120002658478788567d.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d31cdefef67cc66b056a3c78f7f3674.svg",
+            "https://ege.sdamgia.ru/formula/svg/59/5980040b85ac64800a4b28c18eeb589a.svg"
+        ]
+    },
+    "answer": "1",
+    "analogs": [
+        "26855",
+        "68909",
+        "68953",
+        "68957",
+        "...",
+        "68909",
+        "68953",
+        "68957",
+        "68903",
+        "68905",
+        "68907",
+        "68911",
+        "68913",
+        "68915",
+        "68917",
+        "68919",
+        "68921",
+        "68923",
+        "68925",
+        "68927",
+        "68929",
+        "68931",
+        "68933",
+        "68935",
+        "68937",
+        "68939",
+        "68941",
+        "68945",
+        "68949",
+        "68951",
+        "68955"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=68947"
+}

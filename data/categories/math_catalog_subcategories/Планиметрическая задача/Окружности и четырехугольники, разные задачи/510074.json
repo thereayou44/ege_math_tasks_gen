@@ -1,0 +1,33 @@
+{
+    "id": 510074,
+    "topic": "17",
+    "condition": {
+        "text": "Дана равнобедренная трапеция ABCD с основаниями BC и AD. На стороне AB как на диаметре построена окружность с центром в точке O, касающаяся стороны CD и повторно пересекающая основание AD в точке H. Точка Q — середина стороны CD. а) Докажите, что OQDH — параллелограмм.б) Найдите AD, если ∠BAD = 60°, BC = 2.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние.  а)  Тре­уголь­ник AOH рав­но­бед­рен­ный и тра­пе­ция ABCD рав­но­бед­рен­ная, по­это­му ∠AHO = ∠OAH = ∠CDA. Зна­чит, пря­мые OH и CD па­рал­лель­ны, а так как OQ  — сред­няя линия тра­пе­ции, то па­рал­лель­ны пря­мые OQ и AD. Про­ти­во­по­лож­ные сто­ро­ны четырёхуголь­ни­ка DQOH по­пар­но па­рал­лель­ны, сле­до­ва­тель­но, DQOH  — па­рал­ле­ло­грамм.б)  Пусть окруж­ность с цен­тром в точке O ра­ди­у­са R ка­са­ет­ся сто­ро­ны CD в точке P. В пря­мо­уголь­ных тре­уголь­ни­ках OPQ и AHB имеемПо­это­муПусть AH  =  x. По­сколь­ку тра­пе­ция ABCD рав­но­бед­рен­ная, AD  =  2AH + BC; DH  =  AH + BC  =  x + 2.Тогдаот­ку­да  Зна­чит,  Ответ: б) ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=150053",
+            "https://ege.sdamgia.ru/formula/svg/b4/b496c4a5bfbe4a3107b46f4af9956b4b.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2f88d4220f89eaed3a0c3b92951f9d3e.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a36b5f7be08c0b63e88308d153811c94.svg",
+            "https://ege.sdamgia.ru/formula/svg/6b/6bbd03f8789894076d6d1566963302d5.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8c690fa9eb7668b6f1369329ca69e997.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/29e1c1f079097c0346927975e4d6b173.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/42511089b497c013acb612cd4f39e7b7.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f43223398fe9b5200a1af558dd7cc6e6.svg"
+        ]
+    },
+    "answer": " б) ",
+    "analogs": [
+        "512338",
+        "509504",
+        "512380",
+        "...",
+        "509504",
+        "512380",
+        "519904"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=510074"
+}

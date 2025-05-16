@@ -1,0 +1,32 @@
+{
+    "id": 65659,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите значение выражения",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/fd/fd94e72233a5bf1d5211d09caee071fc.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Вы­пол­ним пре­об­ра­зо­ва­ния:   Ответ: 3.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/4d/4d1cc0e23d1d8a3d324a109dfb7864f7.svg"
+        ]
+    },
+    "answer": "3",
+    "analogs": [
+        "26797",
+        "65641",
+        "65643",
+        "...",
+        "65641",
+        "65643",
+        "65645",
+        "65647",
+        "65649",
+        "65651",
+        "65653",
+        "65655"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=65659"
+}

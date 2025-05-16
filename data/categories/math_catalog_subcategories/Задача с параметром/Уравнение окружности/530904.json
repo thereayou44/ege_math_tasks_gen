@@ -1,0 +1,31 @@
+{
+    "id": 530904,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра а, при каждом из которых системаимеет решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/33/335d4fc1fdbae650f870b9df2cd41ab1.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Раз­ло­жим левую часть не­ра­вен­ства на мно­жи­те­ли:  По­это­му не­ра­вен­ство задаёт пару вер­ти­каль­ных углов в плос­ко­сти Oax. Урав­не­ние  задаёт окруж­ность с цен­тром (0; 0) ра­ди­у­са 3 в этой же плос­ко­сти. Ре­ше­ния си­сте­мы  — точки дуг окруж­но­сти, ле­жа­щие в ука­зан­ных вер­ти­каль­ных углах.Абс­цис­сы кон­цов этих дуг на­хо­дим из си­стем и Из пер­вой си­сте­мы по­лу­ча­ем:   Из вто­рой си­сте­мы по­лу­ча­ем:   Ответ:  ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=159121",
+            "https://ege.sdamgia.ru/formula/svg/4e/4e59c0b88882b3b1ccb9b4de676d27c8.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/57ea814cc6420da77eb0658efdb66418.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d841ce22088d3eac29ae20b6cd97c687.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/8410d8ef8e7ac4d8a6d3eda270485cfc.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/37dc0d2a19ffdf302f3b8c402a981629.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/79739438408054c228825520f737ae5f.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/75d7c21bea7aae6ec7267a676a5c5c66.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f6dfd66345c6a14e7af1fcf342c8e4ff.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8fbf8609427c953a180de55814e2b7a2.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/88ae71ddbadcb9edc63f677968bc905b.svg"
+        ]
+    },
+    "answer": "  ",
+    "analogs": [
+        "530829"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=530904"
+}

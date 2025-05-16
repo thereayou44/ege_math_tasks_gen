@@ -1,0 +1,46 @@
+{
+    "id": 514517,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых система уравненийимеет ровно два различных решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/53/5383fb992410af060546a85213274a24.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­пи­шем пер­вое урав­не­ние в видеПри  левая часть не имеет смыс­ла. При  урав­не­ние задаёт пря­мую  и ги­пер­бо­лу  (см. рис.).При каж­дом зна­че­нии a урав­не­ние  задаёт пря­мую, па­рал­лель­ную пря­мой  или сов­па­да­ю­щую с ней.При  такая пря­мая пе­ре­се­ка­ет пря­мую  при  пе­ре­се­ка­ет пра­вую ветвь ги­пер­бо­лы  при любом зна­че­нии a, пе­ре­се­ка­ет левую ветвь ги­пер­бо­лы  при  При этом пря­мая  про­хо­дит через точку пе­ре­се­че­ния пря­мой  и ги­пер­бо­лы  при Число ре­ше­ний ис­ход­ной си­сте­мы равно числу точек пе­ре­се­че­ния пря­мой  и ги­пер­бо­лы  с пря­мой  при усло­вии  Таким об­ра­зом, ис­ход­ная си­сте­ма имеет ровно два ре­ше­ния при  Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=156585",
+            "https://ege.sdamgia.ru/formula/svg/14/1486c04d1dad1e84e477fc86bf27e3bd.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b93033854be223c2e0b7afdef3117a5c.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bb6157c8de796ab6f170ac721b4abe10.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a267007228f9f654a0d28dec6932c31.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/623b04d45c26bcf2cdf6d78be8a7895a.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bf29c8e990bf2695276097d1b9124c7d.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5dbad057040ec6eb5aa5841786e25d33.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bb6157c8de796ab6f170ac721b4abe10.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a267007228f9f654a0d28dec6932c31.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/13ec015e577a720c1c15429c54818a05.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/623b04d45c26bcf2cdf6d78be8a7895a.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a95298425e582d151fa5aed2cf7211b5.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/374b8cac98be5cddd8ee9db8cdef1ff4.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bf29c8e990bf2695276097d1b9124c7d.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a267007228f9f654a0d28dec6932c31.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/623b04d45c26bcf2cdf6d78be8a7895a.svg",
+            "https://ege.sdamgia.ru/formula/svg/25/2555366c58884bb1d4147215f2ab58d6.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a267007228f9f654a0d28dec6932c31.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/623b04d45c26bcf2cdf6d78be8a7895a.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bf29c8e990bf2695276097d1b9124c7d.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1a46159e2ddfbcd2c6cc940a88ba0ff1.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a7b7835ae04877a588c3fef18b5ef123.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b190aa213761a916db04b85b2b46f0e5.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "513610",
+        "513629",
+        "514510"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=514517"
+}

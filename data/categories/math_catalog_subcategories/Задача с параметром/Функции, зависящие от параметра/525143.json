@@ -1,0 +1,49 @@
+{
+    "id": 525143,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых наименьшее значение функциименьше −2.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/47/47328c459dbedd0ce91dc401949e15da.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­дан­ная функ­ция не­пре­рыв­на и на бес­ко­неч­но­стях стре­мит­ся к плюс бес­ко­неч­но­сти. По­это­му при любом зна­че­нии па­ра­мет­ра она до­сти­га­ет сво­е­го наи­мень­ше­го зна­че­ния. Тогда за­да­чу можно пе­ре­фор­му­ли­ро­вать так: тре­бу­ет­ся найти все зна­че­ния па­ра­мет­ра a, при каж­дом из ко­то­рых не­ра­вен­ство  вы­пол­ня­ет­ся хотя бы для од­но­го зна­че­ния x.За­пи­шем не­ра­вен­ство в виде   и по­стро­им гра­фи­ки левой и пра­вой ча­стей не­ра­вен­ства  и   Гра­фик функ­ции   — пучок пря­мых, про­хо­дя­щих через точку L (2; 1). Гра­фик функ­ции   — па­ра­бо­ла с отражённой по­ло­жи­тель­ной ча­стью с кор­ня­ми  и  Для вы­пол­не­ния усло­вия за­да­чи не­об­хо­ди­мо, чтобы хотя бы одна точка гра­фи­ка  рас­по­ла­га­лись ниже гра­фи­ка  Гра­нич­ные спо­со­бы под­хо­дя­ще­го рас­по­ло­же­ния по­движ­но­го гра­фи­ка  изоб­ра­же­ны на ри­сун­ке зелёным и крас­ным цве­том. Опре­де­лим зна­че­ния па­ра­мет­ра для этих гра­ниц. 1.  Пря­мая  про­хо­дит через точку K (−1; 0). Имеем:  от­ку­да 2.  Пря­мая  ка­са­ет­ся па­ра­бо­лы  в не­ко­то­рой точке M. Гра­фи­ки имеют един­ствен­ную общую точку, а зна­чит, урав­не­ние  имеет един­ствен­ное ре­ше­ние. За­пи­шем его в виде  и найдём дис­кри­ми­нант этого урав­не­ния: Дис­кри­ми­нант об­ра­ща­ет­ся в нуль при  или  Из ри­сун­ка видно, что при a  =  −1 гра­фи­ки  и  не имеют общих точек,  при a  =  −5 гра­фи­ки ка­са­ют­ся.Опре­де­лим, при каких зна­че­ни­ях a не­ра­вен­ство  вы­пол­ня­ет­ся хотя бы для од­но­го зна­че­ния x:  — при  гра­фи­ки функ­ций g(x) и t(x) пе­ре­се­ка­ют­ся, и най­дут­ся точки гра­фи­ка функ­ций t(x), рас­по­ло­жен­ные ниже со­от­вет­ству­ю­щих точек гра­фи­ка функ­ции g(x); зна­чит, при этих зна­че­ни­ях па­ра­мет­ра а усло­вие за­да­чи вы­пол­не­но;  — при  ни одна точка гра­фи­ка функ­ции t(x) не на­хо­дит­ся ниже гра­фи­ка функ­ции g(x); зна­чит, такие зна­че­ния па­ра­мет­ра не под­хо­дят;  — при  гра­фи­ки функ­ций g(x) и t(x) пе­ре­се­ка­ют­ся, и най­дут­ся точки гра­фи­ка функ­ций t(x), рас­по­ло­жен­ные ниже со­от­вет­ству­ю­щих точек гра­фи­ка функ­ции g(x); зна­чит, при этих зна­че­ни­ях па­ра­мет­ра а усло­вие за­да­чи вы­пол­не­но. Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/03/03893fa3b5ec6228bb9cf4dd92250a64.svg",
+            "https://ege.sdamgia.ru/formula/svg/a5/a5d4074ba401a5280f69f27c677e89be.svg",
+            "https://ege.sdamgia.ru/formula/svg/67/673701ca420fd6a7a85d49a37b3aa4d7.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/75cf1a5f404fa358dd994d14c467ca0a.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=160134",
+            "https://ege.sdamgia.ru/formula/svg/67/673701ca420fd6a7a85d49a37b3aa4d7.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/0371475bea03688af392dba7431b015c.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d3289a96da4c1cf6ce57b2b76b80b965.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54d244f1d0fd2eaa82a2f1c074d2f6da.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4fe7e79917bd14330f5443554dabfb00.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/15987259d4b76cf46a31c7164f2df634.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4fe7e79917bd14330f5443554dabfb00.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fb0638104157cafa4d04b4f3373946cf.svg",
+            "https://ege.sdamgia.ru/formula/svg/96/96bb00b63c0a80ab73b712833834bc5e.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/976060549f80571aaa571cf47fd2ef2a.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fb0638104157cafa4d04b4f3373946cf.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8fd9f4c2fadf6c0bdb3df9491665a9fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/62b70ee63173d5ea5fd6d638a17a245f.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0f198aa5f45dd547e487c672a1bd54c7.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b1f66c086d7809ff9b4791206fea9c28.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/18ba7ef4a3f4d372afee12ca79326a86.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5d940c3a49e20319f66d5615fbe53441.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4fe7e79917bd14330f5443554dabfb00.svg",
+            "https://ege.sdamgia.ru/formula/svg/d1/d13f453d5a25ba83fd2f3ecc74880538.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/859f164597f4d6b962c31c0a6de81c4a.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/79a5ef36c3c9d7b9169159756d041a1b.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7b04bf77a496814eff2b8e4cbd36d423.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/47eb729478bed24e555760e3bce7572c.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cb65556743b45be3025e897ddbb96f3f.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "525245"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=525143"
+}

@@ -1,0 +1,31 @@
+{
+    "id": 509122,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображён график функции Найдите значение x, при котором",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=154256",
+            "https://ege.sdamgia.ru/formula/svg/01/01eb6933ae18b80b796113c0b3de17df.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7cc9eda13e22c373feef6e975d5f6161.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По гра­фи­ку, f(3)  =  3, тогда  Таким об­ра­зом, Ответ: 27.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/a0/a049d219424581a4fde5e0a36fee5694.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/57507a3fffe9304c7fbe9e5577d7b7c3.svg"
+        ]
+    },
+    "answer": "27",
+    "analogs": [
+        "509118",
+        "509119",
+        "509120",
+        "509121",
+        "...",
+        "509119",
+        "509120",
+        "509121"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509122"
+}

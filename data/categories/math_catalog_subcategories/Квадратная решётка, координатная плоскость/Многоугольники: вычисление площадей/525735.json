@@ -1,0 +1,21 @@
+{
+    "id": 525735,
+    "topic": "Д4",
+    "condition": {
+        "text": "На клетчатой бумаге с размером клетки 1 × 1 изображён треугольник. Найдите его площадь.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=66164"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пло­щадь тре­уголь­ни­ка равна по­ло­ви­не про­из­ве­де­ния сто­ро­ны на вы­со­ту, про­ве­ден­ную к этой сто­ро­не. По­это­муОтвет: 21.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/f9/f9ce0abfbf2e972c77c582b5ecbe1aab.svg"
+        ]
+    },
+    "answer": "21",
+    "analogs": [
+        "525716"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=525735"
+}

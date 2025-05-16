@@ -1,0 +1,29 @@
+{
+    "id": 654473,
+    "topic": "2",
+    "condition": {
+        "text": "Найдите квадрат длины вектора",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=165014",
+            "https://ege.sdamgia.ru/formula/svg/bd/bd44a72d78dad7a0ceb18ab247dceef2.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Ко­ор­ди­на­ты век­то­ра равны раз­но­сти ко­ор­ди­нат конца век­то­ра и его на­ча­ла. По­это­му век­тор  имеет ко­ор­ди­на­ты  век­тор  имеет ко­ор­ди­на­ты  Ко­ор­ди­на­ты раз­но­сти век­то­ров равны раз­но­сти со­от­вет­ству­ю­щих ко­ор­ди­нат. По­это­му век­тор  имеет ко­ор­ди­на­ты  Длина век­то­ра равна  По­это­му квад­рат длины век­то­ра равен 10. Ответ: 10.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/89/89e9c902fed032a267e19bcbbe710b75.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7bee5562c0f286438a3614cd9c9d3c2d.svg",
+            "https://ege.sdamgia.ru/formula/svg/7f/7f711ac1314a21599dc5a9c5bb757eff.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d6f680afc45f7d16ef3bbb6b8a077cf0.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f02f20dd194191bda1bac0befe38ee22.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c3a8f0e87c3e2bf7427dd80c95b3983.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/366e94e94eab4999c3be7354eab9a3f0.svg"
+        ]
+    },
+    "answer": "10",
+    "analogs": [
+        "27739",
+        "661279"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=654473"
+}

@@ -1,0 +1,32 @@
+{
+    "id": 549118,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра α, при каждом из которых уравнение имеет ровно два различных решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/98/987dfacb05032ae5490fccd692099c47.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Если  тогда урав­не­ние при­ни­ма­ет вид  и будет иметь толь­ко один ко­рень. Если  то можно по­де­лить на  и вве­сти за­ме­ну  По­лу­ча­ем: Каж­до­му  по­ло­жи­тель­но­му корню t со­от­вет­ству­ют два раз­лич­ных зна­че­ния x, а каж­до­му от­ри­ца­тель­но­му  — ни од­но­го, при этом  Зна­чит, для того, чтобы урав­не­ние имело ровно два под­хо­дя­щих зна­че­ния x, нужно, чтобы квад­рат­ное урав­не­ние имело ровно один по­ло­жи­тель­ный ко­рень.Так как по тео­ре­ме Виета про­из­ве­де­ние кор­ней равно 1, урав­не­ние имеет два корня од­но­го знака. Таким об­ра­зом, не­об­хо­ди­мо, чтобы урав­не­ние имело всего один ко­рень. Квад­рат­ное урав­не­ние имеет один ко­рень,  когда его дис­кри­ми­нант равен нулю. Имеем: Таким об­ра­зом, имеем сле­ду­ю­щие урав­не­ния  и  Вто­рое не под­хо­дит, так как имеет един­ствен­ный  от­ри­ца­тель­ный ко­рень. Сле­до­ва­тель­но, един­ствен­ный под­хо­дя­щий слу­чай это Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/80/8038832dc3945b3dc402e41b53049cc3.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e4be327bbb37c8c79687e636e7116179.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9fe666b9d4a598d6732acc712ab3ac68.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/9102e5add119ba39bc305bbb32aca8db.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3ada44a069a5761b337be153d9dceb11.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/4220ddd13017d1f36a9b3bebb23bb612.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fcf5549f73dfe45912592e7778fca31e.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/9958d3fc091bda352329dc040faf35b0.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d7d5c3f2eb7b21eaa7e21869c2541cfc.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/ba0ea791050c283c6dceccd0e81ff400.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/caea66a03d719d5e8e37ac849fc65ab6.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a2a118718ac2e0ecdee0c851308d2d95.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "548819"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=549118"
+}

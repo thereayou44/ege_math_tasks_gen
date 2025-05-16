@@ -1,0 +1,26 @@
+{
+    "id": 639476,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите значение выражения",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ed/ed78f246deeebb1bc4421311acce1b66.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Ис­поль­зу­ем фор­му­лу ко­си­ну­са двой­но­го угла :Те­перь вос­поль­зу­ем­ся пе­ри­о­дич­но­стью и чет­но­стью ко­си­ну­са: Ответ: 3.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/2f/2f4d8b728c2b2558015165dd04d2c032.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8ebd33afdd3e26d0095e5ce1c866c0ea.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e1ed73003ddb312fbb7d20f8d111df66.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/019abea6f9e3b169409b01e30b64a831.svg",
+            "https://ege.sdamgia.ru/formula/svg/fa/fa1aa9a749d416ed51466672bbb26b54.svg"
+        ]
+    },
+    "answer": "3",
+    "analogs": [
+        "563891",
+        "639642"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=639476"
+}

@@ -1,0 +1,49 @@
+{
+    "id": 635865,
+    "topic": "16",
+    "condition": {
+        "text": "15 января планируется взять кредит в банке на 15 месяцев. Условия его возврата таковы: — 1-го числа каждого месяца долг возрастает на r% по сравнению с концом предыдущего месяца; — со 2-го по 14-е число каждого месяца необходимо выплатить часть долга; — 15-го числа каждого месяца долг должен быть на одну и ту же величину меньше долга на 15-е число предыдущего месяца. Известно, что общая сумма выплат после полного погашения кредита на 40% больше суммы, взятой в кредит. Найдите r.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пусть сумма кре­ди­та равна S. По усло­вию долг перед бан­ком по со­сто­я­нию на 15-е число умень­ша­ет­ся до нуля рав­но­мер­но, то есть со­став­ля­ет еже­ме­сяч­но:     Пер­во­го числа каж­до­го ме­ся­ца долг воз­рас­та­ет на r%.  Пусть  тогда по­сле­до­ва­тель­ность раз­ме­ров долга на 1-е число каж­до­го ме­ся­ца та­ко­ва:      Зна­чит, вы­пла­ты долж­ны быть сле­ду­ю­щи­ми:      Всего сле­ду­ет вы­пла­тить  Общая сумма вы­плат на 40% боль­ше суммы, взя­той в кре­дит, по­это­му  от­ку­да  а по­то­му  Ответ: 5%.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/04/040885b869376194ed02ab3785739c4a.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/4636aedb0eae78e328e966ad3e38089a.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/86b4e943810cb4660c1833f7e6d9c297.svg",
+            "https://ege.sdamgia.ru/formula/svg/bd/bd9703ada8854cc72c19eb9a3fa36c42.svg",
+            "https://ege.sdamgia.ru/formula/svg/eb/ebf219ee467b20e2e4ee410b17d14a26.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b3dc2554b6277c90d3dcc3309f707bd9.svg",
+            "https://ege.sdamgia.ru/formula/svg/58/58a05de12f3dbb839adf9648e2f576bd.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/1069a4881b1cd70d6c39c14ee3c206c4.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c8a20c1ecf028eb8e1817066e15008a4.svg",
+            "https://ege.sdamgia.ru/formula/svg/25/255a99ac60ad3c5f6e4e178a7b12e6c6.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/085151eb57f30a73cc5900f8cb87c16f.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/62a605585ef60826d3011e211b7a8fb5.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5d92bb0dd78e82d524ed5acf4ad2ce58.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/01a194d08ab55568f60ff35c065c75de.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1ab1c57f82c575600c4b1a8c270a782b.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a3e3ae613fd261269b7d318388264681.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/524958a208bfbdcdcfcecc3c36c4d7f9.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b496f1084df01537978c1ab534f90b22.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e9a570d0d4f9c11711a1daa1d4e98e4f.svg",
+            "https://ege.sdamgia.ru/formula/svg/5f/5fa903dd226382f408c5e21e5309c12c.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bffa5eb50fb937c52bb37e0b1e1a36ac.svg"
+        ]
+    },
+    "answer": " 5%.",
+    "analogs": [
+        "510103",
+        "509972",
+        "509980",
+        "510110",
+        "...",
+        "509972",
+        "509980",
+        "510110",
+        "517582",
+        "526256",
+        "635967"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=635865"
+}

@@ -1,0 +1,37 @@
+{
+    "id": 561773,
+    "topic": "17",
+    "condition": {
+        "text": "На окружности с центром O и диаметром MN, равным 26, взята точка K на расстоянии 12 от этого диаметра. Хорда KE пересекает радиус OM в точке F под углом, равным а) Докажите, что KF : FE = 25 : 17.б) Найдите площадь треугольника KEN.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/18/18f8d9058c63ae0b03d888be70bb81bf.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Пусть KP  — вы­со­та тре­уголь­ни­ка MKN. Из пря­мо­уголь­ных тре­уголь­ни­ков KOP и KPF на­хо­дим, чтоСумма длин от­рез­ков OP и PF боль­ше, чем ра­ди­ус окруж­но­сти. Зна­чит, точки F и P лежат по раз­ные сто­ро­ны от точки O. ТогдаПо тео­ре­ме о про­из­ве­де­нии от­рез­ков пе­ре­се­ка­ю­щих­ся хорд по­лу­ча­ем, что от­ку­да на­хо­дим, чтоб)  Для на­хож­де­ния пло­ща­ди тре­уголь­ни­ка KEN вос­поль­зу­ем­ся фор­му­лой Имеем Из тре­уголь­ни­ка KOP на­хо­дим, что Так как по­лу­ча­ем, чтоИз тре­уголь­ни­ка EFN по­лу­ча­ем, что ТогдаОтвет: б) 171,36.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=148916",
+            "https://ege.sdamgia.ru/formula/svg/da/da016be50e9777b164f904df8aa71fa2.svg",
+            "https://ege.sdamgia.ru/formula/svg/25/252d9409ab666dd8e3b884e73ed00931.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a4b7b9179294f2624e905f5f099672c6.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e912551a49bc0a392a10f6b49cade003.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af9836914e5b15d72cc75d13b65ab0d7.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/cac03c6c6d8b9e18861242dcf8b5270d.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/089a31632dc44fe99ad67df49b388dcc.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/08cdf732a86829f37a4c2a266ec8930c.svg",
+            "https://ege.sdamgia.ru/formula/svg/58/587f1ec87941d86bce09872896f37ad9.svg",
+            "https://ege.sdamgia.ru/formula/svg/02/0280cb0d920eff2cd8aa64c09e1fd2e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b04c4d5f470b2613764cc44ff688dbb7.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/604e493259d1411e7fd3214d201c8e82.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/6399b032afdcebfa63312f7ae86a9ed4.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/66812c3038b7c403ed70b8f8fd4c4f80.svg",
+            "https://ege.sdamgia.ru/formula/svg/77/778beaf331536e6a6deceedf66073bd7.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/cc80860cfba2c4d753f49a8e526cfabb.svg"
+        ]
+    },
+    "answer": " б) 171,36.",
+    "analogs": [
+        "561732"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=561773"
+}

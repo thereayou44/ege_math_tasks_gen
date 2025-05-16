@@ -1,0 +1,29 @@
+{
+    "id": 517417,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра а, при каждом из которых неравенство не имеет решений на интервале (−2; −1).",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/d9/d9d14a1b40779480279a9e0d4dba40d6.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пре­об­ра­зу­ем ис­ход­ное не­ра­вен­ство:   Решим не­ра­вен­ство на ин­тер­ва­ле (-2; -1): пу­стое мно­же­ство пу­стое мно­же­ство Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/01/017540926f1de561d2b1c37dfcf42ff6.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/65c5294636dffa1b285e85f66c5b9bbe.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=157570",
+            "https://ege.sdamgia.ru/formula/svg/4b/4b842f67472c67f384a083c5e690fcfb.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cbe86facef12766302c601200a9bdfed.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf9f8c59d9b5c401d752419a4eaae613.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6e9f3f220235588878e59f4d140efdaf.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6c671959afae205822d5236608a8036e.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/baa2efd74bad846e6c1bc3c423879c67.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "515653"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=517417"
+}

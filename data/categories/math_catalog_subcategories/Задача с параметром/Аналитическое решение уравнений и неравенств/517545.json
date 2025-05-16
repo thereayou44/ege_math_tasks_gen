@@ -1,0 +1,44 @@
+{
+    "id": 517545,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения а, при каждом из которых уравнение имеет ровно один корень на отрезке [0; 1].",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/27/27af969b216dc7b6924d981d6462d4f8.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Имеем урав­не­ние вида  от­ку­да на ОДЗ либо  либо  Рас­смот­рим эти слу­чаи. Пер­вый слу­чай:  при усло­ви­ях:Имеем: Число  лежит на от­рез­ке [0; 1], для пер­во­го слу­чая по­лу­ча­ем:  Вто­рой слу­чай:   Число  лежит на от­рез­ке [0; 1], если  Тогда для вто­ро­го слу­чая по­лу­ча­ем: Ко­рень  равен  если Итак, ис­ход­ное урав­не­ние имеет ровно один ко­рень на от­рез­ке [0; 1] при   Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/78/789c5da8485acd22eb73013dc1b02315.svg",
+            "https://ege.sdamgia.ru/formula/svg/25/25e3c148c8a05ff52fbc04082a41956a.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e4bfd0345a940f90d50a8d92df563df9.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cdf7ab04b2fdcd830ea99144a181f832.svg",
+            "https://ege.sdamgia.ru/formula/svg/67/679af13cceb235bfc619a5449591463b.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d48a95c04042ae9ff704ead25baa9440.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d38d14e40369d5a84d964874469665c8.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/cc4782bb1aa0d6c903cb84ceaa933a5a.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6da08e677ea48621451946451ddc18e5.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/269cc5a91e68c2dd8de7e6c14360a52e.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7cbbceb08a000ab42ad9e8dabc70ec5a.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e165c588bbe0699bd744775a67e43a38.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e04dca172cef071846b13f3a68d08646.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7cbbceb08a000ab42ad9e8dabc70ec5a.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/ede1771dc7bf4f754f1bf717ad23ce18.svg",
+            "https://ege.sdamgia.ru/formula/svg/c5/c5f602fd7e3ff7ab20a33552c848b8aa.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/267a36986438b896b5c7a52218fa1477.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/267a36986438b896b5c7a52218fa1477.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "517464",
+        "517471",
+        "517508",
+        "...",
+        "517471",
+        "517508",
+        "517549"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=517545"
+}

@@ -1,0 +1,43 @@
+{
+    "id": 484628,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a при каждом из которых система не имеет решений.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/03/0303d4d78baf105b73b83ea9585fd3f8.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Рас­смот­рим вто­рое не­ра­вен­ство си­сте­мы Если  то не­ра­вен­ство, а зна­чит, и си­сте­ма не имеет ре­ше­ний.Если  то ре­ше­ние не­ра­вен­ства  — луч  Если  то ре­ше­ние не­ра­вен­ства  — луч При  пер­вое не­ра­вен­ство си­сте­мы рав­но­силь­но си­сте­меЕсли  то ре­ше­ние этой си­сте­мы  — два луча с кон­ца­ми в точ­ках Если  то ре­ше­ние этой си­сте­мы  — по­лу­ин­тер­вал с кон­ца­ми в точ­ках От­ме­тим, что точки  нет в мно­же­стве ре­ше­ний вто­ро­го не­ра­вен­ства. Оче­вид­но, что при  ре­ше­ние си­сте­мы будет со­дер­жать луч, вида  где b боль­шее из чисел  и   а зна­чит си­сте­ма будет иметь ре­ше­ние.Для того, чтобы си­сте­ма не имела ре­ше­ний, при  не­об­хо­ди­мо и до­ста­точ­но:До­бав­ляя слу­чай  по­лу­ча­ем ответ. Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ce/cecfde387996a86776a6ac416e67db7f.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dc9791942c5716d51249089473cef5ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0de17a07ddf50a417730eb39560a262b.svg",
+            "https://ege.sdamgia.ru/formula/svg/12/120805696b778b4360d333a6a1f2fbfa.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e1c5062ae7aa688577091cc4009d8dd.svg",
+            "https://ege.sdamgia.ru/formula/svg/b8/b843cf85bb24a4431bfdebe58ba4d837.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/622559a6ed31bc647608bcba685f5d98.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/17fc018a1db3dd7b1f2086c0e5cf9f4d.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0de17a07ddf50a417730eb39560a262b.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/298e1e56dd427b249fedb9e9cfe0a3b2.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e1c5062ae7aa688577091cc4009d8dd.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/298e1e56dd427b249fedb9e9cfe0a3b2.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2ad544eff95d954c4cdadf568c0a2afc.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0de17a07ddf50a417730eb39560a262b.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/733a561f687ab17079fa0f0fd9b4b3cf.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/62ca74487e13a62602a96df2464ba349.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0fc08b009e49e86ccbb15b9dd03811ac.svg",
+            "https://ege.sdamgia.ru/formula/svg/12/12d506adf280c201d1cf69c523255513.svg",
+            "https://ege.sdamgia.ru/formula/svg/20/20c7afcf11ea99dea2ad375b94f5b03b.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dc9791942c5716d51249089473cef5ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a172c2243470f97693a8300469f32676.svg"
+        ]
+    },
+    "answer": "",
+    "analogs": [
+        "484627",
+        "507483",
+        "511431"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=484628"
+}

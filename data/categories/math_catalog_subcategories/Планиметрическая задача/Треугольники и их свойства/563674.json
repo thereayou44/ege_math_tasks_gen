@@ -1,0 +1,34 @@
+{
+    "id": 563674,
+    "topic": "17",
+    "condition": {
+        "text": "Отрезок CH — высота прямоугольного треугольника ABC с прямым углом C. На катетах AC и BC выбраны точки M и N соответственно такие, что a) Докажите, что треугольник MNH подобен треугольнику ABC.б) Найдите CN, если BC = 2, AC = 4, CM = 1.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/22/228437e75b3f9137dde31066cd305be7.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  За­ме­тим, что сумма углов MHN и MCN равна 180°, по­это­му че­ты­рех­уголь­ник CMHN впи­сан в окруж­ность. Углы HMN и HCN равны как впи­сан­ные. Углы HCN и CAB равны, по­то­му что каж­дый из них равен  Таким об­ра­зом, тре­уголь­ни­ки HMN и CAB по­доб­ны по двум углам. Это и тре­бо­ва­лось до­ка­зать.б)  За­ме­тим, что   а  Тогда тре­уголь­ни­ки CMH и BNH по­доб­ны по двум углам, при­чем из пунк­та а) сле­ду­ет, что  Из  этой це­поч­ки ра­венств по­лу­ча­ем, что  а тогда  Ответ:  При­ме­ча­ние.Вик­тор Мо­сян­дз при­слал нам сле­ду­ю­щий ком­мен­та­рий. Вы­чис­ляя   и  а также зная  и  можно за­ме­тить, что  Из этого сле­ду­ет, что пря­мая AB не яв­ля­ет­ся ка­са­тель­ной к окруж­но­сти (иначе бы ра­вен­ство было вер­ным), а по­то­му пря­мая АВ по­ми­мо точки H имеет с окруж­но­стью еще одну точку, ле­жа­щую на от­рез­ке АB. Тем не менее в ре­ше­нии нет ошиб­ки: мы не изу­ча­ли вза­им­ное рас­по­ло­же­ние окруж­но­сти и пря­мой, по­сколь­ку оно не вли­я­ло на ход наших рас­суж­де­ний.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=150038",
+            "https://ege.sdamgia.ru/formula/svg/fa/faa3742e3b684549313f5cf0a5bb27c6.svg",
+            "https://ege.sdamgia.ru/formula/svg/44/4472954a8fa55843786cd0c5f582657a.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8b0ddf705f71f36b9728f2065524d852.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c17a2364565380a99603e32d5030c93.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e613b7a2da43d55be33500d8bd894686.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/030940bfde8c063a2db1c004d8d24ef2.svg",
+            "https://ege.sdamgia.ru/formula/svg/76/765cfd825eef378487569667e1f637e7.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6ed7b28d5692528ba490671fee74598a.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7a65dc95534359989097d0f2067183dd.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3eedc24416f4af30207e5544227d609b.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/049f699c90d78acfccf6ca038f286d3b.svg",
+            "https://ege.sdamgia.ru/formula/svg/98/9811b3b24aa00558b89040f3cd5942d5.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f8cae937ca95c92c7e765559b6eb3e90.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "563681"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=563674"
+}

@@ -1,0 +1,41 @@
+{
+    "id": 509159,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображены графики функций и которые пересекаются в точках A и B. Найдите ординату точки B.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=91973",
+            "https://ege.sdamgia.ru/formula/svg/98/9849d0d73d113f4332695b02e06819c1.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/065a0419a0417df3275e9319f03327f6.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По гра­фи­ку, g(−3)  =  1, g(−2)  =  −1, g(1)  =  5. Тогда Решая по­лу­чен­ную си­сте­му, по­лу­ча­ем: a  =  1, b  =  3, из g(1)  =  5 по­лу­чим c  =  1. Найдём абс­цис­су точки B: Таким об­ра­зом, абс­цис­са точки B  —  Те­перь найдём ор­ди­на­ту точки B:  Ответ: 41.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/b0/b071ce889c998432538d543bfaf6aed8.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f3fa45e9dd5c371572ef08ad73cd6aa5.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/31db148a46ba6951958de49baf9c5ce8.svg",
+            "https://ege.sdamgia.ru/formula/svg/80/8093df66f4b2bd838e6421b895eb6ba6.svg",
+            "https://ege.sdamgia.ru/formula/svg/a0/a00523474bc66ff45c7d8045710f3ff1.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e0d1d2f5deb648814c0586f606c6ee9f.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/0472532e273798e530c14fe3f6f58568.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/3456d351e170e13667a9f08c95027b04.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/880a45a98ddbaefe1479341ef7b583ae.svg"
+        ]
+    },
+    "answer": "41",
+    "analogs": [
+        "509158",
+        "509160",
+        "509161",
+        "...",
+        "509160",
+        "509161",
+        "509162",
+        "509163",
+        "509164",
+        "509165",
+        "509166"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509159"
+}

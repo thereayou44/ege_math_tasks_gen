@@ -1,0 +1,47 @@
+{
+    "id": 509016,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображён график функции Найдите",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=147523",
+            "https://ege.sdamgia.ru/formula/svg/66/66f67554abdacedbeaa20ba7983ec903.svg",
+            "https://ege.sdamgia.ru/formula/svg/2b/2b30e504ff8f7b990d733c9d46638df1.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По ри­сун­ку опре­де­ля­ем, что   ТогдаЗна­чит,  Найдём зна­че­ние Ответ: −3.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/71/7166f33afd724e96bbe2b27b22a20327.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/ad0c54fc0ca865e348c29f1034c54eba.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/07069cc363b821ed804db855ed70f08c.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/6169e358b6797d5843df22a30201ed21.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/546322b6420f0c72a640b7e232925ab3.svg",
+            "https://ege.sdamgia.ru/formula/svg/05/0575092d371c2625cfdae6cc603c7932.svg"
+        ]
+    },
+    "answer": "-3",
+    "analogs": [
+        "509009",
+        "509010",
+        "509011",
+        "509012",
+        "...",
+        "509010",
+        "509011",
+        "509012",
+        "509013",
+        "509014",
+        "509015",
+        "509017",
+        "509018",
+        "509019",
+        "509020",
+        "509021",
+        "509022",
+        "509023",
+        "509024",
+        "509025"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509016"
+}

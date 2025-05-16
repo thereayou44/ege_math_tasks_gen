@@ -1,0 +1,26 @@
+{
+    "id": 665312,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите значение выражения если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ae/aef7922fcfc01e00efbe3dfa2e83ace8.svg",
+            "https://ege.sdamgia.ru/formula/svg/67/6758283f0f5feb3a68b381e9da356129.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Ис­поль­зу­ем фор­му­лу ко­си­ну­са двой­но­го угла:  По­лу­ча­ем:Ответ: 2,76.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/e5/e5b2b868297bc55f2f12c9c23adca7bb.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/17bca8e40729e12f4b7daf38db3ff7cb.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4ac95bff451a9436ddee09e30b77c47f.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/5473a34683292fdb6473b327405b548a.svg"
+        ]
+    },
+    "answer": "2,76",
+    "analogs": [
+        "509559",
+        "509601"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=665312"
+}

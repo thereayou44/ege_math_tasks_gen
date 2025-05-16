@@ -1,0 +1,36 @@
+{
+    "id": 27455,
+    "topic": "Д4",
+    "condition": {
+        "text": "Найдите косинус угла В ответе укажите значение косинуса, умноженное на",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=30615",
+            "https://ege.sdamgia.ru/formula/svg/e4/e4a893c3641ff45ea8d60057a30cf1e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f4d37e7851c16136e1b284902603ca2e.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. До­стро­им угол до тре­уголь­ни­ка OBA,  От­ре­зок BK делит ос­но­ва­ние OA по­по­лам, зна­чит, BK − вы­со­та. Из ри­сун­ка на­хо­дим   и  Ответ: 2.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=30614",
+            "https://ege.sdamgia.ru/formula/svg/ab/ab8d81033c60006059f62de311e6f7df.svg",
+            "https://ege.sdamgia.ru/formula/svg/d1/d1dd523d8d5c197f601f7bdd8a289401.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/3071c0c3838a97e9db384e084594fc6a.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c9b359e1d1865657ec664d6ac62dd586.svg"
+        ]
+    },
+    "answer": "2",
+    "analogs": [
+        "27456",
+        "26074",
+        "26077",
+        "26080",
+        "...",
+        "26074",
+        "26077",
+        "26080",
+        "27454",
+        "513703"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=27455"
+}

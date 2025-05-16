@@ -1,0 +1,66 @@
+{
+    "id": 672875,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых уравнение имеет больше двух различных корней.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/a7/a74c535c0b8dec4d6ed2e0b3d1cb518f.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. При  урав­не­ние  при­ни­ма­ет вид  По­лу­чив­ше­е­ся урав­не­ние задаёт на плос­ко­сти Oxa дугу  окруж­но­сти с цен­тром в точке (–5; 12) ра­ди­у­сом 13, ле­жа­щую в по­лу­плос­ко­сти  с кон­ца­ми в точ­ках (0; 0) и (7; 17).При  урав­не­ние  при­ни­ма­ет вид  По­лу­чив­ше­е­ся урав­не­ние задаёт на плос­ко­сти Oxa дугу  окруж­но­сти с цен­тром в точке (12; 5) ра­ди­у­сом 13, ле­жа­щую в по­лу­плос­ко­сти  с кон­ца­ми в точ­ках (0; 0) и (7; 17). Число кор­ней ис­ход­но­го урав­не­ния равно числу точек пе­ре­се­че­ния пря­мой a  =  c с объ­еди­не­ни­ем дуг  и  Дуга  пе­ре­се­ка­ет­ся с пря­мой a  =  c в двух точ­ках при  и  в одной точке при   и  и не пе­ре­се­ка­ет­ся при  и  Дуга  пе­ре­се­ка­ет­ся с пря­мой a  =  c в двух точ­ках при  и  в одной точке при   и  и не пе­ре­се­ка­ет­ся при  и  При c  =  0 и при c  =  17 пря­мая a  =  c про­хо­дит через общую точку дуг  и  Сле­до­ва­тель­но, ис­ход­ное урав­не­ние имеет боль­ше двух раз­лич­ных кор­ней при  и  Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=207149",
+            "https://ege.sdamgia.ru/formula/svg/39/39322d7af701cef883a903582127ffa0.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d0db9d5c5664fd4dd78ef02b4b86cfc.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fd020b49433d0513b3cad28fc210ecec.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/9776f78c357139aeaa1341b93b272423.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/262e2c031f74a828a5e25e700ac3a937.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/9776f78c357139aeaa1341b93b272423.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/2262d1f0dd4700c857c4e8e42ce1bc73.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/86ed2454a00c4150ce75a73a63219c0c.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f7f4bafbdbb094fcd13125f2f96f70cc.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/617001092f1dfb340e1e99491c18f631.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3df33f7d7b67bb3ae40e2b55034817b6.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d0db9d5c5664fd4dd78ef02b4b86cfc.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c912cc1747506b4295e3a4a467de5a8.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/84f1bbb1a8edeede6bdb7a0fb055d866.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/df95d6644741b5357fcb486dfb608a17.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/84f1bbb1a8edeede6bdb7a0fb055d866.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a7d22f5f3ebb927abcd1f14605f1ad34.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/caf44c2c5bf6a27913d28dd9d2afb13a.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e0a137edf016c72d93f85fda14e9ecc2.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c5baa11ca0140d4cfd83faee32f26d5.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f7f4bafbdbb094fcd13125f2f96f70cc.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d2324d8a84c4c9515bb60113121e1305.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f7f4bafbdbb094fcd13125f2f96f70cc.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c8b6ef87534f1ab6a78abe1a09d30a3f.svg",
+            "https://ege.sdamgia.ru/formula/svg/a0/a08781fc19bee4c5fbc0135f03b17d0a.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a3f0469f32e15d63d1a97db4981cb606.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b31368b26bada6e555cccf400838e5b3.svg",
+            "https://ege.sdamgia.ru/formula/svg/77/77e7a8aed634684214178bd05f969e01.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/aedcb0de3427ed17a55a2a207b9d8076.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/9712f6b71b4f23973b9fa7b33c6ef038.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e0a137edf016c72d93f85fda14e9ecc2.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f8ede8c6bfc307b18dd3df5f7c57b884.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/215478a55616a34d8057faca4a852fdd.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3cac21c62db95ba8072d69056e85ba0e.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b31368b26bada6e555cccf400838e5b3.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e7820ee905a429ad2635a63917142a02.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/40ef35fe349a906ceb3a7c7ae6bd1628.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/cc19a32e172b9a72390ff0659febb1b2.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f7f4bafbdbb094fcd13125f2f96f70cc.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d2324d8a84c4c9515bb60113121e1305.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2f14781937bccd32e693ea45226691ac.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/907f06536fd5abca74de0a35ac45de2f.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/363900f62d32cf51f9bf62f579f3ac04.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "630124",
+        "630160",
+        "672904"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=672875"
+}

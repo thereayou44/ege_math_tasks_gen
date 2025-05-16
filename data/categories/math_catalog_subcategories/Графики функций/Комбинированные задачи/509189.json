@@ -1,0 +1,54 @@
+{
+    "id": 509189,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображены графики функций и которые пересекаются в точках A и B. Найдите ординату точки B.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=155260",
+            "https://ege.sdamgia.ru/formula/svg/77/778df5b6c30eb84e77a1d2615f3e02e3.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7bfdffb13c5d50b425321e9c3f371b75.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По ри­сун­ку на­хо­дим, что  Найдём зна­че­ние k: Зна­чит, По ри­сун­ку на­хо­дим, что   Найдём зна­че­ния ко­эф­фи­ци­ен­тов a и b: Зна­чит, Найдём абс­цис­су точки B: Таким об­ра­зом,  Найдём ор­ди­на­ту точки B:Ответ: −0,4.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/9f/9f632748c54e619eab1d7b637c79a7cb.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/19201e27777206f5221a0719c6b02c60.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2cef316199b69d985e0d3a0483d8dff7.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a8d6c5a6caeb3135677b31f4a2092998.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/52e6fe762424a0447ef546016c8dc909.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/600384c125b6e6baafdd68f7291d3ead.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9f8bca7fbbeec8fba3fbb9d82d17bf2b.svg",
+            "https://ege.sdamgia.ru/formula/svg/9c/9c6cba6ee6866cbc51661eeccfa6412b.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/043653178a27772ac9fbe308bba85b1a.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6f4ba10645340342dbb5c8fa70990125.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bb98986e635678ad9c6891fe64c95746.svg"
+        ]
+    },
+    "answer": "-0,4",
+    "analogs": [
+        "509182",
+        "509183",
+        "509184",
+        "509185",
+        "...",
+        "509183",
+        "509184",
+        "509185",
+        "509186",
+        "509187",
+        "509190",
+        "509191",
+        "509192",
+        "509193",
+        "509194",
+        "509195",
+        "509196",
+        "632392",
+        "642483",
+        "642553",
+        "642623",
+        "642693"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509189"
+}

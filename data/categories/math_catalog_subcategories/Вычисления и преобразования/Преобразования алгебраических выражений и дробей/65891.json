@@ -1,0 +1,36 @@
+{
+    "id": 65891,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите если При",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/7f/7f53f49779c311e52d3df92294f69b3e.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/7410aff7461da4271b176280db45a612.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e26534c344ba4b4523f387e99862aaed.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Вы­пол­ним пре­об­ра­зо­ва­ния: по­это­му  Ответ: 1.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/27/279ceee314c9b50513643992d1a862ef.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/ee9ba60ae0cc3ebcb3b5a38e01d9df08.svg"
+        ]
+    },
+    "answer": "1",
+    "analogs": [
+        "26803",
+        "65895",
+        "65877",
+        "...",
+        "65895",
+        "65877",
+        "65879",
+        "65881",
+        "65883",
+        "65885",
+        "65887",
+        "65889",
+        "65893"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=65891"
+}

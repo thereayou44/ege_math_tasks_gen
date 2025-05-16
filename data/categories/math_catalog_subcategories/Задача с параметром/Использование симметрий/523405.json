@@ -1,0 +1,42 @@
+{
+    "id": 523405,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при которых системаимеет ровно одно решение.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/bd/bd9efde2ff48f997afb10aa420eda4c1.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Си­сте­ма не из­ме­нит­ся, если по­ме­нять x и y ме­ста­ми. Сле­до­ва­тель­но, си­сте­ма имеет един­ствен­ное ре­ше­ние, толь­ко если  По­лу­ча­ем урав­не­ние:Это урав­не­ние долж­но иметь един­ствен­ный ко­рень.Если  то урав­не­ние квад­рат­ное, зна­чит, его дис­кри­ми­нант дол­жен рав­нять­ся нулю: от­ку­да При  по­лу­ча­ем  от­ку­да  ре­ше­ни­ем си­сте­мы яв­ля­ет­ся пара Если  по­лу­ча­ет­ся ли­ней­ное урав­не­ние  ко­то­рое имеет един­ствен­ное ре­ше­ние  Ре­ше­ни­ем си­сте­мы яв­ля­ет­ся пара По­ка­жем, что в этих слу­ча­ях нет иных ре­ше­ний, где  Вы­чтем вто­рое урав­не­ние си­сте­мы из пер­во­го и раз­де­лим по­лу­чен­ное урав­не­ние почлен­но на При  по­лу­ча­ет­ся, что  Ре­ше­ний нет.При  по­лу­ча­ем  Под­ста­вим это вы­ра­же­ние в пер­вое урав­не­ние си­сте­мы:По­лу­чен­ное урав­не­ние не имеет кор­ней. Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/72/7276133e9589411af8b6a8e74609bec3.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/623ea24b0bf4f05a384f57dfa429c6ab.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/0458791a72436a271b11b2e3530cad47.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0fe65a5297112bd4d0f7f08143db3874.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bfe010b0cfcafe68ca3c35294c6aca21.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c328c50eb710e52df6cd5689a5a5519c.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/ad659922269194740c4dcade63979d93.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d9d1e6c3a49998deef7ad36a6e1bb0d9.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9fb0b2a70ef55b50650bd51b4e891f18.svg",
+            "https://ege.sdamgia.ru/formula/svg/02/020f6abc06df90156f8009e83a8636ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fdb347c3394a5bdcd3077888a3774fb2.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4f75b1fe1dee3203c08a9f3a1a5f9c69.svg",
+            "https://ege.sdamgia.ru/formula/svg/98/988f2568ab652e2b6519c7da067f64fb.svg",
+            "https://ege.sdamgia.ru/formula/svg/a0/a0888cfcc1ccc1154a71044dc3d79344.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/85215861ce65e0c9c1aa55d94881c715.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/5655d64c5d1b0adb3c3f2899c4a41df8.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7a55a9b0bf5dbcd9ce04cd4a6fee3ddc.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/79739438408054c228825520f737ae5f.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c328c50eb710e52df6cd5689a5a5519c.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c3a834464af6ae7e0792500a3f38c432.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1ddb04ffd1f625ff510c3a4aee4e2cb0.svg",
+            "https://ege.sdamgia.ru/formula/svg/fa/fa55848de71098c18bc01513e9f352aa.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "523380"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=523405"
+}

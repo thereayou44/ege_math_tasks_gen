@@ -1,0 +1,54 @@
+{
+    "id": 510737,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения а, при каждом из которых уравнениеимеет единственный корень.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/02/020ce087d73045db0e600c70e443a874.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Если  яв­ля­ет­ся кор­нем ис­ход­но­го урав­не­ния, то и  яв­ля­ет­ся его кор­нем. Зна­чит, ис­ход­ное урав­не­ние имеет един­ствен­ный ко­рень, толь­ко если  то есть  Под­ста­вим зна­че­ние  в ис­ход­ное урав­не­ние: от­ку­да либо  либо  или При  ис­ход­ное урав­не­ние при­ни­ма­ет вид:  Кор­ня­ми этого урав­не­ния яв­ля­ют­ся числа  и  то есть ис­ход­ное урав­не­ние имеет более од­но­го корня.При  и при  урав­не­ние при­ни­ма­ет вид: При  это урав­не­ние сво­дит­ся к урав­не­нию  ко­то­рое не имеет кор­ней.При  по­лу­ча­ем урав­не­ние  ко­то­рое имеет един­ствен­ный ко­рень.При  по­лу­ча­ем урав­не­ние  ко­то­рое не имеет кор­ней. При  и при  ис­ход­ное урав­не­ние имеет един­ствен­ный ко­рень. Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/3e/3e0d691f3a530e6c7e079636f20c111b.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/bafe85a42129d01dbd3982a3e84292c9.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/213021525691eae0d8da0dfe63d66c70.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d8ef2da44fa2f20f4b4881036264ff07.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3dad28281778d5ef4b7a78c7bc7a6b09.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b084137635c40d54437a060b2de3d114.svg",
+            "https://ege.sdamgia.ru/formula/svg/25/25ba80671e5dd18eae5808851171fe5c.svg",
+            "https://ege.sdamgia.ru/formula/svg/c1/c1ca4c8627a455ceb5fa1aaf5ef12c16.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2c7cea00f82fdf3f59f28d40089b3edb.svg",
+            "https://ege.sdamgia.ru/formula/svg/93/93841a3be21d155e0566f4efcc0ca6b5.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/46e365b2ae1a5309394bac2819bdcd59.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54506ce330e6e191c9bfec682b2fb0b5.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/70623d96ac2e03af814c12d092c446fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b47cfac284dabb8db1f60da343a15b21.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/4096c577f08c0eaccbcd9bc2ef1b5203.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f97f92ab538a87435c8c7b69aa772773.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6ed96691f7ebd331a273cce1416bab7f.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/13c143724d7dacd8e401d8b530cd85b8.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f766c65b33a4d38543ae742d70902b57.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cfebb3a519bfeac1a3689f1bf2e24846.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/473369b37a578936688b6eed88413a9c.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/afdec80a40500880f66ceb238a776a8b.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fbd5ac29421b604f96caef3a570debe9.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f836be878c290d77b060bdcaf6b3e25d.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4bef5b9c6b5306bcf648f5112e1f1a05.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "501713",
+        "502297",
+        "510665",
+        "501755",
+        "...",
+        "502297",
+        "510665",
+        "501755",
+        "502317",
+        "507476"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=510737"
+}

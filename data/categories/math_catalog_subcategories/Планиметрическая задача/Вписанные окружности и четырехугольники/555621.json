@@ -1,0 +1,38 @@
+{
+    "id": 555621,
+    "topic": "17",
+    "condition": {
+        "text": "Окружность, вписанная в ромб ABCD , касается сторон CD и BC в точках M и Q соответственно. Прямые AM и BC пересекаются в точке P.а) Докажите, что б) Найдите угол если DM = 4 и MC = 9.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/2d/2d184ee813da51a84afe4457439462a7.svg",
+            "https://ege.sdamgia.ru/formula/svg/78/78bd9567fc0a3e5510d442de5c53009d.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Обо­зна­чим   Тре­уголь­ни­ки CMP и DMA по­доб­ны с ко­эф­фи­ци­ен­том по­до­бия  по­это­му Тогда Сле­до­ва­тель­но, б)  Пусть O  — центр окруж­но­сти ра­ди­у­са r, впи­сан­ной в ромб. Тогда OM  — вы­со­та пря­мо­уголь­но­го тре­уголь­ни­ка COD, про­ведённая из вер­ши­ны пря­мо­го угла, по­это­му Зна­чит, вы­со­та ромба равна  Пусть H  — ос­но­ва­ние пер­пен­ди­ку­ля­ра, опу­щен­но­го из вер­ши­ны A на пря­мую  Тогда AH  — вы­со­та ромба, по­это­му  Из по­до­бия тре­уголь­ни­ков CMP и DMA на­хо­дим, что Зна­чит,Из пря­мо­уголь­но­го тре­уголь­ни­ка AHP на­хо­дим, что Сле­до­ва­тель­но,  Ответ: б) ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/0f/0f5fd612a205be3b1ea5fa03e19e46f4.svg",
+            "https://ege.sdamgia.ru/formula/svg/8a/8aeb3f058fb0bdd2ef0a8a0380757c95.svg",
+            "https://ege.sdamgia.ru/formula/svg/c5/c5163475efedf9bfbb2df33827821432.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/417651834d13c980bf6b322cd111b4a5.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/ef99f90aa70f28e1b41c5f8a04ea8a37.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3a694316373d3dd5160b80fec9a9b4b2.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=150337",
+            "https://ege.sdamgia.ru/formula/svg/9e/9e0804daf86c6845e13a975b324a517a.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e805f28b6e29a2d7338c1aec6a533325.svg",
+            "https://ege.sdamgia.ru/formula/svg/93/932c9076a974a69c548dc6ede03b24c7.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/040d1af80767e3f665fc9e58d5beb421.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f75e230fc0690d54f60d64c3be81b8f1.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d71f881dccbf13ecb9a1e8fa275f3f96.svg",
+            "https://ege.sdamgia.ru/formula/svg/58/58c7bb4a07e1f33a747dbc9d15d5c7d2.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/34c7612d30badc2ee6796a40a2518f96.svg",
+            "https://ege.sdamgia.ru/formula/svg/5e/5e2e395c51bfb184bb675f864fd6b5d3.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e930c0d888d460652055f9cb14ce889e.svg"
+        ]
+    },
+    "answer": " б) ",
+    "analogs": [
+        "526727"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=555621"
+}

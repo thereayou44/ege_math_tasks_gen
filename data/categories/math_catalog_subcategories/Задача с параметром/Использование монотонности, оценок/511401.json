@@ -1,0 +1,32 @@
+{
+    "id": 511401,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при которых любое решение уравнения принадлежит отрезку",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/1a/1a7b72dbb947486bba0c69f23d699907.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b1129369be969aa89286396fff340fb9.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Рас­смот­рим функ­цию  Она опре­де­ле­на при  воз­рас­та­ет на об­ла­сти опре­де­ле­ния и при­ни­ма­ет все зна­че­ния от  до  Зна­чит, урав­не­ние  имеет един­ствен­ное ре­ше­ние. Это ре­ше­ние при­над­ле­жит от­рез­ку  тогда и толь­ко тогда, когда  и  По­лу­ча­ем си­сте­му не­ра­венств: Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/73/731bc709040bb5b8361bed1041b3c996.svg",
+            "https://ege.sdamgia.ru/formula/svg/64/6446887d6007f64521c8c545e8341000.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aad18c0a88969b4c1bdc3711475796c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4d86e55c4fec3869a264c088f048641e.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fd05d8d90456c441c8f10641bd8576bc.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/56ef804e7aa90124474d45420750c957.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/22c22d7977b082f19eace5c2fe1d7fa1.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/74e6e0b32d958ba012f8b22d72ba1c74.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8b5c2f9e308c8489a85c6ab0f47e80e4.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d890d364201a0d59d0027ad345a1631a.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "505244",
+        "505250"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511401"
+}

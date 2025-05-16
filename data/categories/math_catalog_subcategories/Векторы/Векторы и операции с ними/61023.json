@@ -1,0 +1,60 @@
+{
+    "id": 61023,
+    "topic": "2",
+    "condition": {
+        "text": "Вектор с началом в точке имеет координаты Найдите ординату точки B.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ed/ed7822c175dd4385510f7259a7fcfa41.svg",
+            "https://ege.sdamgia.ru/formula/svg/7d/7d6deb1e30c5ec0a5c696928cd602aca.svg",
+            "https://ege.sdamgia.ru/formula/svg/33/33f69c4604a4bc77a06652c51f63ea1e.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Век­тор  с на­ча­лом в точке A(2; 4) имеет ко­ор­ди­на­ты (6; 2). Най­ди­те ор­ди­на­ту точки Ко­ор­ди­на­ты век­то­ра равны раз­но­сти ко­ор­ди­нат конца век­то­ра и его на­ча­ла. Так как век­тор  имеет ко­ор­ди­на­ты  то легко вы­чис­лить ко­ор­ди­на­ты точки  Сле­до­ва­тель­но, точка B имеет ко­ор­ди­на­ты   По­это­му  Ответ: 6.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=143479",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d1cceb556de3394ddc474f38c98e049.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b06c26aed02d969d0f2315ba11b5432b.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d1cceb556de3394ddc474f38c98e049.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a15b5137ab35ada217efa85dc0a875ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b06c26aed02d969d0f2315ba11b5432b.svg",
+            "https://ege.sdamgia.ru/formula/svg/67/67a7d2c247c1db9bf088fcbe562df15c.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2fcc1c1203081a679ace0a3ddf8f8aa6.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/5346b8ab6bd6bc8e50d009dc8e4cc20e.svg"
+        ]
+    },
+    "answer": "",
+    "analogs": [
+        "27725",
+        "26459",
+        "61005",
+        "61007",
+        "...",
+        "26459",
+        "61005",
+        "61007",
+        "61009",
+        "61011",
+        "61013",
+        "61015",
+        "61017",
+        "61019",
+        "61021",
+        "61025",
+        "61027",
+        "61029",
+        "61031",
+        "61033",
+        "61035",
+        "61037",
+        "61039",
+        "61041",
+        "61043",
+        "61045",
+        "61047",
+        "61049",
+        "61051",
+        "61053"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=61023"
+}

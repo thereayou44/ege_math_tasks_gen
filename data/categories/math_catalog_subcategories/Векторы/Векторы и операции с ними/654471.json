@@ -1,0 +1,24 @@
+{
+    "id": 654471,
+    "topic": "2",
+    "condition": {
+        "text": "Найдите скалярное произведение векторов и",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=165010",
+            "https://ege.sdamgia.ru/formula/svg/24/2443510e25925dc900c862964b3b7e39.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/524a5d02f643d21a127367a96bee1123.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Вы­пи­шем ко­ор­ди­на­ты век­то­ров:  Ска­ляр­ное про­из­ве­де­ние век­то­ров равно  Ответ: 18.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/04/04c5fe2e1c46c680f14eed5494725a1a.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/db541001e8bf60d820b2709bab3f42dd.svg"
+        ]
+    },
+    "answer": "18",
+    "analogs": [
+        "27734"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=654471"
+}

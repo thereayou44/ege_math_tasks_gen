@@ -1,0 +1,37 @@
+{
+    "id": 509105,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображён график функции Найдите",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=154251",
+            "https://ege.sdamgia.ru/formula/svg/1c/1cef6babd2a3a75f43c289c0605984a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6df29e02e1fb2cd33189122c8356e9ba.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По ри­сун­ку опре­де­ля­ем, что   ТогдаЗна­чит,  Найдём  Ответ: 81.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/aa/aacd72cf5ec2707c4b8f67b8768ed5f9.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf99bd69a8fa5710abc40742db4ded7d.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/29d0738f6740e7d49dc36a4fed20610b.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c9ddc262a65bfbe9395d2e7ef097fa10.svg",
+            "https://ege.sdamgia.ru/formula/svg/9d/9d7441d788c06c6b380231856d197753.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f7b7b3778ccd3d65ea5f12b2ad6b5328.svg"
+        ]
+    },
+    "answer": "81",
+    "analogs": [
+        "509101",
+        "509102",
+        "509103",
+        "509104",
+        "...",
+        "509102",
+        "509103",
+        "509104",
+        "509106",
+        "630094"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509105"
+}

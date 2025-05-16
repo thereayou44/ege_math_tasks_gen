@@ -1,0 +1,43 @@
+{
+    "id": 647139,
+    "topic": "17",
+    "condition": {
+        "text": "На стороне BC параллелограмма ABCD выбрана точка M такая, что а) Докажите, что центр вписанной в треугольник AMD окружности лежит на диагонали AC.б) Найдите радиус вписанной в треугольник AMD окружности, если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/63/63bb624ad7f5c78b3a9e88323f02a2f8.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/090af4be9a8576f8997ac9b11b3a813e.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2a038d2c15dd1f539fc04e99edfa5cb1.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/ede90abb32325bd1c879b31cf7dd3b69.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. a)  Тре­уголь­ник AMC рав­но­бед­рен­ный, сле­до­ва­тель­но, Пря­мые AD и BC па­рал­лель­ны, сле­до­ва­тель­но, на­крест ле­жа­щие углы BCA и CAD при се­ку­щей AC равны. По­лу­ча­ем, что  а, зна­чит, луч AC яв­ля­ет­ся бис­сек­три­сой угла MAD, на ко­то­рой лежит центр впи­сан­ной в тре­уголь­ник AMD окруж­но­сти.б)  Обо­зна­чим  через x, тогда  По тео­ре­ме ко­си­ну­сов в тре­уголь­ни­ке ABM по­лу­ча­ем  от­ку­да сле­ду­ет, что  По тео­ре­ме ко­си­ну­сов в тре­уголь­ни­ке CMD, в ко­то­ром  Тре­уголь­ник AMD и па­рал­ле­ло­грамм ABCD имеют общую вы­со­ту, рав­ную рас­сто­я­нию между пря­мы­ми AD и BC, и общую сто­ро­ну AD, пер­пен­ди­ку­ляр­ную этой вы­со­те. Зна­чит, пло­щадь тре­уголь­ни­ка AMD равна по­ло­ви­не пло­ща­ди па­рал­ле­ло­грам­ма ABCD: С дру­гой сто­ро­ны, пло­щадь тре­уголь­ни­ка AMD равна по­ло­ви­не про­из­ве­де­ния его пе­ри­мет­ра на ра­ди­ус впи­сан­ной окруж­но­сти. От­сю­да найдём ра­ди­ус r впи­сан­ной в тре­уголь­ник AMD окруж­но­сти: Ответ: б) ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=147473",
+            "https://ege.sdamgia.ru/formula/svg/69/69fded065971496a752f80d9d2d2744d.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a81eb1bf5924571e32935f380939a76a.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a40f6908b3dd7db167463fb31e71f93b.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/45320341f5ee1d39c39c143719a2455e.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/369dc91a846cf7e1f76931db980f9111.svg",
+            "https://ege.sdamgia.ru/formula/svg/bd/bd9b3d52a8b9a9acef77b777b3114113.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/991eff8462d601fd2b83091a4795d11a.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f044429b378902858f4492a90ba6aadc.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c65a1f767dd8a4c0bb1f66dc4385f1b.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/89174f587496f3b1e301ae8c2bf5ebda.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5c45c89e0b64435961530e8dd241d2f6.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/180ee07a069089ed054b2fe7c89663bd.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8eb6be6db2c15a7e2e78d15b12a029bd.svg"
+        ]
+    },
+    "answer": " б) ",
+    "analogs": [
+        "630220",
+        "630204",
+        "630227",
+        "...",
+        "630204",
+        "630227",
+        "647159"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=647139"
+}

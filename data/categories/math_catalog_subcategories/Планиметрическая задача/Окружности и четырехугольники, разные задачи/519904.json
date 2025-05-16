@@ -1,0 +1,39 @@
+{
+    "id": 519904,
+    "topic": "17",
+    "condition": {
+        "text": "Дана равнобедренная трапеция ABCD с основаниями BC и AD. На стороне AB как на диаметре построена окружность с центром в точке O, касающаяся стороны CD и повторно пересекающая основание AD в точке H. Точка Q — середина стороны CD. а) Докажите, что OQDH — параллелограмм.б) Найдите AD, если ∠BAD = 60°, BC = 2.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Тре­уголь­ник AOH рав­но­бед­рен­ный и тра­пе­ция ABCD рав­но­бед­рен­ная, по­это­му ∠AHO = ∠OAH = ∠CDA. Зна­чит, пря­мые OH и CD па­рал­лель­ны, а так как OQ  — сред­няя линия тра­пе­ции, то па­рал­лель­ны пря­мые OQ и AD. Про­ти­во­по­лож­ные сто­ро­ны четырёхуголь­ни­ка DQOH по­пар­но па­рал­лель­ны, сле­до­ва­тель­но, DQOH  — па­рал­ле­ло­грамм.б)  Пусть окруж­ность с цен­тром в точке O ра­ди­у­са R ка­са­ет­ся сто­ро­ны CD в точке P. В пря­мо­уголь­ных тре­уголь­ни­ках OPQ и AHB имеем По­это­муПусть AH  =  x. По­сколь­ку тра­пе­ция ABCD рав­но­бед­рен­ная, AD  =  2AH + BC, DH  =  AH + BC  =  x + 2. Тогдаот­ку­да  Зна­чит, Ответ: б)   При­ве­дем ре­ше­ние пунк­та б) Доб­ры­ни Мер­ку­рье­ва.Из пунк­та а) из­вест­но, что  и что OQ  — сред­няя линия тра­пе­ции. Сле­до­ва­тель­но,  Тре­уголь­ник AOH  — рав­но­бед­рен­ный, AH  =  R. В па­рал­ле­ло­грам­ме про­ти­во­по­лож­ные сто­ро­ны равны: HD  =  OQ. Кроме того  то есть  По­лу­ча­ем: Таким об­ра­зом,",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=150053",
+            "https://ege.sdamgia.ru/formula/svg/25/25447092fdf5ad47979900ac70d08c8a.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d5d5f5a2ab07b1871b4613b3c70ffc81.svg",
+            "https://ege.sdamgia.ru/formula/svg/6b/6bbd03f8789894076d6d1566963302d5.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8c690fa9eb7668b6f1369329ca69e997.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/29e1c1f079097c0346927975e4d6b173.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2a02e3d66c4b3d85f63679ab52ded780.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/103bbd8d56fd4900869b7d21b24d5cc9.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1c29d2cbd95caccff70c19d152e4b0f1.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/278118916333625a04ad0c31a1176d9b.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d6318ac9da2cb14679b893ee4e140cba.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/13183f88a338fc03e0cc46eab05decab.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/017d799eddbfcfecc70a1134cc9c8567.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b7f84c06ce187228097253787413b813.svg"
+        ]
+    },
+    "answer": " б) ",
+    "analogs": [
+        "512338",
+        "509504",
+        "510074",
+        "512380",
+        "...",
+        "509504",
+        "510074",
+        "512380"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=519904"
+}

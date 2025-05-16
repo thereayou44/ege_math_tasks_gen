@@ -1,0 +1,40 @@
+{
+    "id": 507476,
+    "topic": "18",
+    "condition": {
+        "text": "Найти все значения a, при каждом из которых уравнение имеет единственный корень.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/7b/7b42b823d11704a7ae01d0203bb89dc9.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Если x0 яв­ля­ет­ся кор­нем ис­ход­но­го урав­не­ния, то и  яв­ля­ет­ся его кор­нем. Зна­чит, ис­ход­ное урав­не­ние имеет един­ствен­ный ко­рень, толь­ко если  то есть x0  =  0. Под­ста­вим зна­че­ние x  =  0 в ис­ход­ное урав­не­ние:  от­ку­да либо  либо  или При  ис­ход­ное урав­не­ние при­ни­ма­ет вид: x2  =  2|x|. Кор­ня­ми этого урав­не­ния яв­ля­ют­ся числа −2; 0 и 2, то есть ис­ход­ное урав­не­ние имеет более од­но­го корня.При  и при  урав­не­ние при­ни­ма­ет вид: x2 + 4  =  |x − 2| + |x + 2|.При x < − 2 это урав­не­ние сво­дит­ся к урав­не­нию x2 + 2x + 4 = 0, ко­то­рое не имеет кор­ней.При −2 ≤ x ≤ 2 по­лу­ча­ем урав­не­ние x2  =  0, ко­то­рое имеет един­ствен­ный ко­рень.При x > 2 по­лу­ча­ем урав­не­ние x2 − 2x + 4  =  0, ко­то­рое не имеет кор­ней. При  и при  ис­ход­ное урав­не­ние имеет един­ствен­ный ко­рень. Ответ: −9; −5.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ba/bafe85a42129d01dbd3982a3e84292c9.svg",
+            "https://ege.sdamgia.ru/formula/svg/12/124ef56a03b3288c616eb0a370b1d115.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/27cf8979c22fa77adb2d9a4ab5c4fdfb.svg",
+            "https://ege.sdamgia.ru/formula/svg/20/20096854422fdb3a1708778683de86c3.svg",
+            "https://ege.sdamgia.ru/formula/svg/87/8795618a49c44e32a4d6797ffad996b4.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4f8449a486d4a1ea56ca9cf08cc73b26.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9f287e23264e942e0b70fca4d63558d3.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d7c097b88a9a6b306fec346c2fd2a9b6.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/82ef7b1fc4322451298f342aa0b18147.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d7c097b88a9a6b306fec346c2fd2a9b6.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/82ef7b1fc4322451298f342aa0b18147.svg"
+        ]
+    },
+    "answer": " −9; −5.",
+    "analogs": [
+        "501713",
+        "502297",
+        "510665",
+        "501755",
+        "...",
+        "502297",
+        "510665",
+        "501755",
+        "502317",
+        "510737"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=507476"
+}

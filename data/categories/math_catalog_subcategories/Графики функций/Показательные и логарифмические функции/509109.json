@@ -1,0 +1,35 @@
+{
+    "id": 509109,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображён график функции Найдите значение x, при котором",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=154249",
+            "https://ege.sdamgia.ru/formula/svg/1c/1cef6babd2a3a75f43c289c0605984a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/45af6ed40495a9e7ee3894ba2b7b3503.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По ри­сун­ку опре­де­ля­ем, что   ТогдаЗна­чит,  Решим урав­не­ние Ответ: −3.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/fe/fec79bc4a0eb1396de4c40e43b94446c.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1dd2b11923bc23cb909ce6661ccc2aff.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/226769faad68fa90e4ac6d629fc1d233.svg",
+            "https://ege.sdamgia.ru/formula/svg/9a/9ae7b6cd16ada4f24ab7deda72c5950a.svg",
+            "https://ege.sdamgia.ru/formula/svg/9b/9baab8a3dfab283d1931c2dd5918e71a.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/9198f54d89084649058937cf97da753b.svg"
+        ]
+    },
+    "answer": "-3",
+    "analogs": [
+        "509107",
+        "509108",
+        "509110",
+        "...",
+        "509108",
+        "509110",
+        "509111",
+        "509112"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509109"
+}

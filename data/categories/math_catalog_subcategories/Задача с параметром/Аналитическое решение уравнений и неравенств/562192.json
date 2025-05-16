@@ -1,0 +1,49 @@
+{
+    "id": 562192,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых уравнение имеет ровно два различных корня.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/a4/a4e9be7420251ce282c101232a2feada.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Кор­ня­ми ис­ход­но­го урав­не­ния яв­ля­ют­ся те корни чис­ли­те­ля, при ко­то­рых не равен нулю зна­ме­на­тель. Най­дем корни чис­ли­те­ля. При  урав­не­ние  при­ни­ма­ет вид  и задаёт на плос­ко­сти xOa луч l1 с на­ча­лом в точке (0; −2). При  урав­не­ние  при­ни­ма­ет вид  и задаёт луч l2 с на­ча­лом в точке (0; −2). Зна­чит, урав­не­ние  имеет два корня при  имеет один ко­рень при  и не имеет кор­ней  Урав­не­ние  задаёт па­ра­бо­лу  Найдём ко­ор­ди­на­ты точек пе­ре­се­че­ния этой па­ра­бо­лы с лучом l1: Па­ра­бо­ла  пе­ре­се­ка­ет­ся с лучом l1 в точ­ках (−2; 8)  и (−1; 3). Найдём ко­ор­ди­на­ты точек пе­ре­се­че­ния этой па­ра­бо­лы с лучом l2: Па­ра­бо­ла  пе­ре­се­ка­ет­ся с лучом l2 в точ­ках (1; −1)  и (2; 0). Сле­до­ва­тель­но, усло­вие   вы­пол­не­но для кор­ней урав­не­ния  при всех a, кроме a  =  −1, a  =  0, a  =  3 и a  =  8. Таким об­ра­зом, ис­ход­ное урав­не­ние имеет ровно два корня при      Ответ:      При­ме­ча­ние.Решая ана­ло­гич­ную за­да­чу 562193 мы при­ве­ли более ко­рот­кое ана­ли­ти­че­ское ре­ше­ние.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/6c/6ca0dc2b161e83f100dfff512f2adcd2.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dc80fe86a8d14a00a307b3996638b94a.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3d627326885a2ed059842ee36d34e1ad.svg",
+            "https://ege.sdamgia.ru/formula/svg/2b/2b0adbc7e100288bcab89ae8e331ab3f.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dc80fe86a8d14a00a307b3996638b94a.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9f9793e5866624697d5193494159bf37.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dc80fe86a8d14a00a307b3996638b94a.svg",
+            "https://ege.sdamgia.ru/formula/svg/5b/5b7026e1c80349ba6a95cda776f9c3c0.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7a55a9b0bf5dbcd9ce04cd4a6fee3ddc.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0b2a9ca9e2b90fce2bce5487865aed6e.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=157028",
+            "https://ege.sdamgia.ru/formula/svg/38/387890c887d58fbbf2ae8dee5cd02764.svg",
+            "https://ege.sdamgia.ru/formula/svg/14/14520de3000ddce8d521d092c969a6fd.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8ccf2a68b8791d07f81e7a1a1385c224.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/514833990c50b19894c2e347e8be2bad.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/65ba2ff811580550c15ff177bb192611.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/514833990c50b19894c2e347e8be2bad.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4b5916ef13d725c370366edae67b8c1c.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dc80fe86a8d14a00a307b3996638b94a.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d7b79bb7be6b360b1f482c2bf73908d3.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9ed8b905c877a1401d071e1d06c6a24f.svg",
+            "https://ege.sdamgia.ru/formula/svg/14/147d4d5a8ffc2deeaae043f31e0c1a05.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/62b42bae896c7ea0ec6ff9b4c10e36d7.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/73516a45824cc435f49057173ac0d05c.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d7b79bb7be6b360b1f482c2bf73908d3.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9ed8b905c877a1401d071e1d06c6a24f.svg",
+            "https://ege.sdamgia.ru/formula/svg/14/147d4d5a8ffc2deeaae043f31e0c1a05.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/62b42bae896c7ea0ec6ff9b4c10e36d7.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/73516a45824cc435f49057173ac0d05c.svg"
+        ]
+    },
+    "answer": "     ",
+    "analogs": [
+        "562193"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=562192"
+}

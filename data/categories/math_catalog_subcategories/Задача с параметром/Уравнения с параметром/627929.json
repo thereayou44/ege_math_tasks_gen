@@ -1,0 +1,51 @@
+{
+    "id": 627929,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых уравнениеимеет ровно два решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/a8/a88d35de962814c1d3a99e51927b96fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/7e/7ee59dbd21f4ce53b4ba527c9760cc87.svg",
+            "https://ege.sdamgia.ru/formula/svg/95/95bf74b9782c3b2e902095df424bec79.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пусть  тогда, ис­поль­зуя тео­ре­му, об­рат­ную тео­ре­ме Виета, по­лу­чим:Зна­чит, ис­ход­ное урав­не­ние имеет два раз­лич­ных корня тогда и толь­ко тогда, когда гра­фик функ­ции  имеет с го­ри­зон­таль­ны­ми пря­мы­ми  и  ровно две общие точки. Эти пря­мые сов­па­да­ют, если  При  урав­не­ние не имеет ре­ше­ний. Если  то при  а если  то при  имеем:При не­огра­ни­чен­ном уве­ли­че­нии x зна­че­ния функ­ции стре­мят­ся  к нулю, причём, для  функ­ция f яв­ля­ет­ся воз­рас­та­ю­щей, а при   — убы­ва­ю­щей. Эс­ки­зы гра­фи­ков изоб­ра­же­ны на ри­сун­ке. Тем самым, при  долж­ны быть вы­пол­не­ны не­ра­вен­ства  от­ку­да  при  долж­ны быть вы­пол­не­ны не­ра­вен­ства  от­ку­да  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/b4/b47acf3c310ad719dbdf5dc8836e868b.svg",
+            "https://ege.sdamgia.ru/formula/svg/96/96e569e577340a0f17ce562d38a94f34.svg",
+            "https://ege.sdamgia.ru/formula/svg/48/48c27b1078753ee4a4e76432ad2c8654.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/035cc0d79d6db56f0742d0179bd87cc0.svg",
+            "https://ege.sdamgia.ru/formula/svg/48/48c27b1078753ee4a4e76432ad2c8654.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/1626f520e0ff567bca27ed977cb2546a.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0b57fb3dae221f746a36b3b4db12ed4f.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/04491358c7b272a926242b67b04f7fe0.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e4cd45e5bfe72fe4a86ff2f94d281b99.svg",
+            "https://ege.sdamgia.ru/formula/svg/d0/d08ccc68893d6225e4c81343aef8d64e.svg",
+            "https://ege.sdamgia.ru/formula/svg/9c/9c32acaf16780c714de0cf23bb1082df.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/ded681eaa02d11064c9a469dd1b3e04c.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/904dbe7d83b40f0c7990781c1373b9c0.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/913a327c56a8d7907ae1b2fdb4c11928.svg",
+            "https://ege.sdamgia.ru/formula/svg/05/05974d78e4c4bd88366877f6c807e4cc.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b42784153be194a9a056520eb048ac68.svg",
+            "https://ege.sdamgia.ru/formula/svg/95/9533416503e6b53a27ca1cd44154f67c.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf8298b0e273301afdd921e7e4cf6c2b.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/323c5f97105643bc61e288fe596194ca.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=104806",
+            "https://ege.sdamgia.ru/formula/svg/90/904dbe7d83b40f0c7990781c1373b9c0.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0b686912f06100dff8795cc822f0adf1.svg",
+            "https://ege.sdamgia.ru/formula/svg/67/67439c59c991ed7cf590313db3b0ca52.svg",
+            "https://ege.sdamgia.ru/formula/svg/05/05974d78e4c4bd88366877f6c807e4cc.svg",
+            "https://ege.sdamgia.ru/formula/svg/c6/c66296ff5ed1d8122374c642b721423a.svg",
+            "https://ege.sdamgia.ru/formula/svg/c1/c1ebb2a5539cba653458bcbace75828e.svg",
+            "https://ege.sdamgia.ru/formula/svg/25/25074b4f00b0562e0296ad20e2e3e1a5.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "505453",
+        "505420",
+        "505426"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=627929"
+}

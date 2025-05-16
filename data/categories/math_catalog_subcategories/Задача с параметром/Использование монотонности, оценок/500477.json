@@ -1,0 +1,51 @@
+{
+    "id": 500477,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых неравенство выполняется для всех",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/c8/c876e96c35c66921be906268ab07a5fb.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f8b41ec3fb9a782786771d3a277b4aae.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Рас­смот­рим функ­цию  Эта функ­ция воз­рас­та­ет на про­ме­жут­ке  и убы­ва­ет па про­ме­жут­ке Ис­ход­ное не­ра­вен­ство имеет вид  зна­чит, гра­фик функ­ции  на от­рез­ке  дол­жен на­хо­дить­ся в пре­де­лах го­ри­зон­таль­ной по­ло­сы: От­ре­зок  не дол­жен ле­жать на участ­ке мо­но­тон­но­сти функ­ции  иначе при­ра­ще­ние  на от­рез­ке длины  будет не мень­ше  по­это­му её гра­фик не по­ме­стит­ся в по­ло­се ши­ри­ны  Сле­до­ва­тель­но,  от­ку­да Наи­боль­шее зна­че­ние функ­ции  на от­рез­ке  до­сти­га­ет­ся либо при  либо при Наи­мень­шее зна­че­ние функ­ции  на от­рез­ке  до­сти­га­ет­ся при  По­лу­ча­ем си­сте­му:от­ку­да Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/55/55305a228b983cb8109fa5559150b582.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a6cc46a26308d40329c8d691d5a3d0ce.svg",
+            "https://ege.sdamgia.ru/formula/svg/b2/b25a84cfde312894de32410325e1200c.svg",
+            "https://ege.sdamgia.ru/formula/svg/44/4496105f8cb070d1b1add95e40b2c53e.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/46a4f662d381d3eec8b057b6a40ca7c4.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f105ae7bcb1ff03efbae929ca4e0b524.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6c587b3cd162f0278ead10266b0dcbf0.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f105ae7bcb1ff03efbae929ca4e0b524.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/dde267ba49a1d51f4ff241f029a3befd.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50bbd36e1fd2333108437a2ca378be62.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e4da3b7fbbce2345d7772b0674a318d5.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2ec1ef552a29a509f5cb34909f65d575.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/81eb1aafe187d1d6102537b21e3b3b4f.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/8200adbeac6dd384d34fe124a31837ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/8d/8d99b05b55eef507d45e7f94918417cb.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50bbd36e1fd2333108437a2ca378be62.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f105ae7bcb1ff03efbae929ca4e0b524.svg",
+            "https://ege.sdamgia.ru/formula/svg/64/64cfd5b11e38e3e936413f068240c080.svg",
+            "https://ege.sdamgia.ru/formula/svg/14/148a6dd55012714af54d1d3d5d510f34.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50bbd36e1fd2333108437a2ca378be62.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f105ae7bcb1ff03efbae929ca4e0b524.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54d244f1d0fd2eaa82a2f1c074d2f6da.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/da9a6bb3ff78369db5718b0b7812899e.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6acbfa78363038606e050115f77e37e8.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/da9a6bb3ff78369db5718b0b7812899e.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/282b8133a52cefa173b18e2fdb937223.svg",
+            "https://ege.sdamgia.ru/formula/svg/4e/4e18443132e9696051968748575263ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1abed2ee3e863e7063323c78e015916e.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1abed2ee3e863e7063323c78e015916e.svg"
+        ]
+    },
+    "answer": "",
+    "analogs": [
+        "500196",
+        "511340"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=500477"
+}

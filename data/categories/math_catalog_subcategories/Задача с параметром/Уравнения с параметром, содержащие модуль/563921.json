@@ -1,0 +1,43 @@
+{
+    "id": 563921,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых уравнение имеет хотя бы два решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/0f/0f33a1725a337191959080b674369df1.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пусть  тогда ис­ход­ное урав­не­ние имеет хотя бы два корня тогда и толь­ко тогда, когда урав­не­ние имеет хотя бы один по­ло­жи­тель­ный ко­рень.При  по­лу­ча­ем ли­ней­ное урав­не­ниезна­чит усло­вие за­да­чи вы­пол­не­но.При  рас­смот­рим квад­ра­тич­ную функ­цию  с по­ло­жи­тель­ным стар­шим ко­эф­фи­ци­ен­том. Учи­ты­вая, что слу­чай  не­воз­мо­жен, по­лу­ча­ем, что для того, чтобы квад­рат­ное урав­не­ние  имело хотя бы один по­ло­жи­тель­ный ко­рень, до­ста­точ­но, чтобы  вы­пол­ня­лась си­сте­ма усло­вий   от­ку­да по­лу­ча­ем:Решим от­дель­но пер­вое не­ра­вен­ство си­сте­мы Таким об­ра­зом, ре­ше­ни­ем си­сте­мы яв­ля­ет­ся со­во­куп­ностьОбъ­еди­няя со слу­ча­ем  по­лу­ча­ем ответ. Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/b1/b1a5a591ac9974a418c065b366e34ca9.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e81799d056abf3ac7a7d03a1ddd02504.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3c9d2347726735da8c5c1ed9a44f5759.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fdf295570b5cf5c60b2ff842decc0031.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/9033bee53fd193bdf4d2370158cd2ce7.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/09b0447a98daba28a4a7ca3c414eb10e.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e036b4423d662ea603972f2b5ce57ff4.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c8d0d2ff41ad17014c8b26df69a92949.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/73177774cea5a94d08d85a05d8bff94a.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/132f9c13e7005edeed90c36a16888d36.svg",
+            "https://ege.sdamgia.ru/formula/svg/48/48ac2fb4d25c0a48e819c83737f3a2ba.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/51099a963e37b67f763df7331311ec26.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/3283bef5ba81442d86820613b696d4e4.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fc0c46f49afdf3bc280d8d40421544b2.svg",
+            "https://ege.sdamgia.ru/formula/svg/43/43994c2706efb1174f5bf0cc487ea3a2.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7a456785c2c9b98128060b247dd43a00.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/acf49d224d76445ab11002984033e19f.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/03a34a9fd219fc194b4658a2f1c7b760.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7a456785c2c9b98128060b247dd43a00.svg",
+            "https://ege.sdamgia.ru/formula/svg/98/9851dc6d424c08dd940f33aed180a3ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a63a352ec19276d8d621dbe1e13060bb.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af3c465414bff94fc5c0e5aa8db7ba04.svg",
+            "https://ege.sdamgia.ru/formula/svg/44/442a8e79ea5807aca90eef7be3889fd9.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "563900"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=563921"
+}

@@ -1,0 +1,42 @@
+{
+    "id": 513451,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра b, при каждом из которых уравнениеимеет единственное решение на отрезке [−2; 2].",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/bf/bf0cdccef064fbf5dbd2ea5614bc87c9.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пусть  Рас­смот­рим урав­не­ние  Число x  =  0 не яв­ля­ет­ся кор­нем этого урав­не­ния ни при каком зна­че­нии па­ра­мет­ра а. По­это­му это урав­не­ние рав­но­силь­но урав­не­ниюРас­смот­рим функ­циюи опре­де­лим число кор­ней урав­не­ния  и их рас­по­ло­же­ние для каж­до­го зна­че­ния па­ра­мет­ра а.Найдём про­из­вод­нуюОт­сю­да сле­ду­ет, что на про­ме­жут­ках  функ­ция убы­ва­ет, а на про­ме­жут­ке   — воз­рас­та­ет. Сле­до­ва­тель­но, точка x  =  1  — точка ми­ни­му­ма, а ми­ни­мум равен 11. Из по­лу­чен­ных свойств функ­ции  сле­ду­ет, что при любом зна­че­нии a дан­ное урав­не­ние имеет ровно один от­ри­ца­тель­ный ко­рень, и по­сколь­ку  то при  урав­не­ние имеет ровно один ко­рень на от­рез­ке  при  урав­не­ние не имеет кор­ней на  При a  =  11 урав­не­ние имеет един­ствен­ный ко­рень x  =  1 на от­рез­ке  По­сколь­ку  то при  на от­рез­ке  урав­не­ние имеет ровно два корня. При a > 15 урав­не­ние также имеет един­ствен­ный ко­рень на от­рез­ке Решим два не­ра­вен­ства и урав­не­ние:По­лу­чим: Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/19/19355dbefdf0cb1f3910707fad0e8774.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f6b94f913fe30735c28ce90c493e8ae1.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6da4e4abb9ba4ce281b01933c911439d.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d73c482711588aa0e9a906de2315f75.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/7300c9df2bf5edad3fa40f35082de60a.svg",
+            "https://ege.sdamgia.ru/formula/svg/b8/b8fe93f3f64c6e502ef65816da935e15.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/17390efc198c5f72f95b65760f84686a.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/28ea44b57256f6ca72933734e9eb93af.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50bbd36e1fd2333108437a2ca378be62.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1c06ccbefacf8b4fc6db201bcd5bf727.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a37e681c287a9a239fc22eba2dcf1af.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6ffe08c8d9906357164669025326b8f3.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/613d72f711b62e7a6c56b8c64e7f4a71.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/85cac255e8a4036d4bf2d5fbb3a62ba9.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/85cac255e8a4036d4bf2d5fbb3a62ba9.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/0322bf936a764f872895d29cee934c35.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0f75cfaf15ab2a00e72e8e9ff7a0f1ad.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b13317860b9de441aaf106f3fcffc5ff.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/85cac255e8a4036d4bf2d5fbb3a62ba9.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/37a925ae62f1db780db3bdef8f51d61b.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bbf1e895c2a5dbe3243ee5bc997af2c3.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/ad725ad14db9ff23c3072b29a3fa263b.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "513432"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=513451"
+}

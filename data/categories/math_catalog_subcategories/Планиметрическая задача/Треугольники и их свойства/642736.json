@@ -1,0 +1,30 @@
+{
+    "id": 642736,
+    "topic": "17",
+    "condition": {
+        "text": "Треугольник ABC равносторонний. На стороне AC выбрана точка M, серединный перпендикуляр к отрезку BM пересекает сторону AB в точке E, а сторону BC в точке K. а) Доказать что угол AEM равен углу CMK.б) Найти отношение площадей треугольников AEM и CMK, если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/6b/6ba4c508c317c90b71d0dff9c769bafc.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Угол ABC равен 60°. Из сим­мет­рии от­но­си­тель­но EK по­лу­ча­ем, что угол EMK равен 60°. Пусть угол AEM равен α. Тогда  Вы­ра­зим угол CMK:б)  Пусть AM  =  x, CM  =  4x, AE  =  y, тогда AB  =  5x, EM  =  EB  =  5x − y. По тео­ре­ме ко­си­ну­сов:Тре­уголь­ни­ки AEM и CMK по­доб­ны по двум углам, при­чем AE и CM  — со­от­вет­ствен­ные сто­ро­ны. Имеем:Ответ: 4 : 9.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=140085",
+            "https://ege.sdamgia.ru/formula/svg/94/9400ddf4eadee20bafb435bd6230a027.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6d2f6ec8c58b7d6decb5073b84d4fc3d.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/60bb9efbed6bd2e7bdb3990a8eae2dab.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/dbd3e7da0d75ff7ffefbc43a7eca8389.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6ef8421b2c951e38f40eff2ba403085b.svg",
+            "https://ege.sdamgia.ru/formula/svg/7f/7fe074525351255420ce6f514ed9c13e.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/3828bfd5ec8178cba0930e02f3abfd74.svg",
+            "https://ege.sdamgia.ru/formula/svg/b6/b6d9078672baf4d855c66de3a3e9f85e.svg"
+        ]
+    },
+    "answer": " 4 : 9.",
+    "analogs": [
+        "642892",
+        "673047"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=642736"
+}

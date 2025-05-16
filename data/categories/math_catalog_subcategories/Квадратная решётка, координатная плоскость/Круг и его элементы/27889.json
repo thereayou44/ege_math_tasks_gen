@@ -1,0 +1,29 @@
+{
+    "id": 27889,
+    "topic": "Д4",
+    "condition": {
+        "text": "Найдите величину угла Ответ дайте в градусах.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=66174",
+            "https://ege.sdamgia.ru/formula/svg/4b/4b5b9eab089a2e0ff9b286f012e61feb.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. угол ABC опи­ра­ет­ся на  окруж­но­сти, впи­сан­ный угол равен по­ло­ви­не дуги, зна­чит  Ответ: 45.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ec/eca3bf81573307ec3002cf846390d363.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4dd3643ef66973f29f15a80392af93a9.svg"
+        ]
+    },
+    "answer": "45",
+    "analogs": [
+        "27887",
+        "27888",
+        "26234",
+        "...",
+        "27888",
+        "26234",
+        "26235"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=27889"
+}

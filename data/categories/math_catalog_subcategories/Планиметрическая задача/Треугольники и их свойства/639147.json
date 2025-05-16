@@ -1,0 +1,34 @@
+{
+    "id": 639147,
+    "topic": "17",
+    "condition": {
+        "text": "В треугольнике ABC медианы AA1, BB1 и CC1 пересекаются в точке M. Известно, что AC = 3MB.а) Докажете, что треугольник ABC прямоугольный.б) Найдите сумму квадратов медиан AA1 и CC1, если известно, что AC = 24.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. a)  Ме­ди­а­ны тре­уголь­ни­ка точ­кой пе­ре­се­че­ния де­лят­ся в от­но­ше­нии 2 : 1, счи­тая от вер­ши­ны. Зна­чит, Сле­до­ва­тель­но, тре­уголь­ни­ки AB1B и CB1B рав­но­бед­рен­ные, причём  и  Сумма всех этих четырёх углов равна 180°. Тогда  Зна­чит, тре­уголь­ник ABC пря­мо­уголь­ный.б)  Тре­уголь­ник A1BA пря­мо­уголь­ный. По­это­му  Тре­уголь­ник C1BC также пря­мо­уголь­ный. По­это­му  Сло­жим по­лу­чен­ные ра­вен­ства: Ответ: б) 720.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=126852",
+            "https://ege.sdamgia.ru/formula/svg/dc/dc4111e050037ccbd19a08fecc2695d3.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/09991660589c294c93fb7771ddb1c0bf.svg",
+            "https://ege.sdamgia.ru/formula/svg/a0/a0ac3b40704d802289e7c40714e23e7d.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/de68ecd346ad9cf851f219f47b6c4539.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0d3c26f0598ef6b4b026871ad74e3dd0.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0ceb748f2f285dd17a62cc100ef0535d.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/26927aa2507250a09016b9866a41ff2f.svg"
+        ]
+    },
+    "answer": " б) 720.",
+    "analogs": [
+        "505537",
+        "509588",
+        "509609",
+        "511579",
+        "...",
+        "509588",
+        "509609",
+        "511579",
+        "639142"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=639147"
+}

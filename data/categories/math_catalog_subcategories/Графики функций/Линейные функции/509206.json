@@ -1,0 +1,53 @@
+{
+    "id": 509206,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображены графики функций вида $f\\left(x\\right)=kx+b$, которые пересекаются в точке $A$. Найдите абсциссу точки $A$.",
+        "images": [
+            "https://math-ege.sdamgia.rudata:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAKIAAACjCAIAAACGzFLpAAAEPUlEQVR4nO2dW2+jMBBGYbX//y+zD2gRSgk1F3u+23mqWqeZ+HjGDqOEeVmWKajzpzqAMAJlzfM8f/xwPkwYZc1hQ1/zPM8n54/zv8pwprm9mhGNLA+gZKRyNi/LwrLv9o5TWfM6d1tN/nkiM6nY0zT9rQ6gIyYKW1DO5g9W68uyrD/4pPJkpRmWAQsumi2YiY6j4RL7CvHOpQO6kS0PGRZq+y9vP7tj0YY6fI0JxlGzIdFsgZ1mqIo9DDvNUAxbc3aaDVN5MtTsSTRbYKQZ7WLfyMOgkWZnXDR7vo/acNFsTjpUsth1qC41pnoEcCOSdKjCZfQ1mx++VvQ1AzJ+5UWzBeKaU7FXxDWHFWXNmKlcEpWy5rARzRbIasas2FXIaoalZPFpasZM5bVFVNIoSodKFv0O1bfH1naotnRqHJwO1RmYFXsje3PohZpm8FSuQk1zOCSaB1FbZqQ0p2J/Q0pz+IaO5qTyCTqakSlfgtFsgYjm8nQBh15z450OzEmHShapDtV+jb74xX2XBrffZ6FqouiL9vYKszefQK/54yvwwyH0msEBeQvArRlkEvHh1hwaiWYLiDXjV2ycCIk1h3ZYNeMkCgWsmsMlorkXUPWGUjPUDFKQDpUs3B2q9k9MPXn25/92wN2l2kdSFm180LYVZc3ZjDbINKNlCQtkmsM9mDSzpDJgnEyaw22i2QIazTcqIVrlLIRGMwuAG/PEohlz7ojg0BweEs1SzPN8eO2PQDNRxQYJ9afsNCJlYWpEtozHaUQOvonYz5HfPmpEULQfYlWrlmU5XBx/x4cyjG1pj9kyQTbmlY+vgYXW/HzicOZ9PPvXrl+0p/8J/esw4fIOrdk5F2+zvZvar1roov0WA3ZNnI3Z7giWSwIboJrf0gOSYeVA783hLRA1V+1zT54UvGwgauai8O5S7UTzI8DtbqRDJQt0h6q929M1zvbBhTcRax+JVbRxLjJcBTxsLM2hE9FsAZBmxorNEjOQ5tAPFM0saUEKiubQlWi+D1EFgtBMNF+kQGgOvanXnFQeQL1mUrhWZzpUsgB1qE4eCN6hQriJWPvIFG0LKjVzbW976CJPNlsQzRaUaaare9Qkmy/DuEBrNDPOFDXJZgui2YICzdQVmzT4ZLMFQzWnR1JFOlSy1HSo9osJ+eNGJ4Pb74D2PADWDtUWCuMRhp0cwSwYp5n0rYgGyeZWqJdpNFswSDN1KgiQbLZghGaBVGZ/CclmC6LZgu6a2cudBsnm3xFYqelQyTKuQ9Xe5Onx7E9G7geX313q+cgUbQs6ahbY0iaVV5FstqCXZo0kkCHZbEE0nyFTk7polpkdGZLNFryvOakMSLL5DJn1Gs0WvKw5FRuTdKhk6dWhavwkFXgzZxs5Ne/N5aGmQxWmKZpNeE1zDl/IJJsP0Fuyr2kWmxcxks0H6C1ZteoUDkk2W/AP39VVR5coAagAAAAASUVORK5CYII="
+        ]
+    },
+    "solution": {},
+    "answer": "1",
+    "analogs": [
+        "509197",
+        "509199",
+        "509200",
+        "509202",
+        "...",
+        "509199",
+        "509200",
+        "509202",
+        "509203",
+        "509204",
+        "509205",
+        "509208",
+        "509209",
+        "509210",
+        "509211",
+        "509212",
+        "509229",
+        "509230",
+        "509231",
+        "509232",
+        "509233",
+        "509234",
+        "509235",
+        "509236",
+        "509237",
+        "509238",
+        "509239",
+        "509240",
+        "621771",
+        "621901",
+        "637815",
+        "637844",
+        "661288",
+        "509198",
+        "509201",
+        "509207",
+        "509217",
+        "509218"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509206"
+}

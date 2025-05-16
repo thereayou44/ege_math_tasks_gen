@@ -1,0 +1,26 @@
+{
+    "id": 512401,
+    "topic": "17",
+    "condition": {
+        "text": "В треугольник ABC вписана окружность радиуса R, касающаяся стороны AC в точке M , причём AM = 5R и CM = 1,5R.а) Докажите, что треугольник ABC прямоугольный.б) Найдите расстояние между центрами его вписанной и описанной окружностей, если известно, что R = 4.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние.  а)  Пусть впи­сан­ная окруж­ность ка­са­ет­ся сто­ро­ны AB в точке K. Обо­зна­чим BK  =  x. Пусть S  — пло­щадь тре­уголь­ни­ка, p  — по­лу­пе­ри­метр. ТогдаС дру­гой сто­ро­ны, по фор­му­ле Ге­ро­наИз урав­не­ния  по­лу­ча­ем, что R  =  x. Сто­ро­ны тре­уголь­ни­ка ABC равны 6,5R, 6R и 2,5R, сле­до­ва­тель­но, этот тре­уголь­ник пря­мо­уголь­ный с пря­мым углом при вер­ши­не B.б)  Пусть I и O  — цен­тры со­от­вет­ствен­но впи­сан­ной и опи­сан­ной окруж­но­стей тре­уголь­ни­ка ABC. Точка O  — се­ре­ди­на ги­по­те­ну­зы AC  =  6,5R  =  26, и OM  =  CO − CM  =  13 − 1,5R  =  7.Тогда  Ответ: б) ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=148385",
+            "https://ege.sdamgia.ru/formula/svg/f9/f9543fcdf995379a355e2389d41df0d4.svg",
+            "https://ege.sdamgia.ru/formula/svg/2b/2ba7aebfcf0053819d78133f30905ef5.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/73f66736e6609af9ecc505bd3fe6c181.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af1647125af70c76e4195349232c1fd0.svg",
+            "https://ege.sdamgia.ru/formula/svg/35/35f999e389c9c191c039fd61d7b78142.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d716d53e1b8e5150b7d886ba5b2fb83f.svg",
+            "https://ege.sdamgia.ru/formula/svg/d0/d0d0c29ded8723ea699e826163f87ad8.svg"
+        ]
+    },
+    "answer": " б) ",
+    "analogs": [
+        "512359"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=512401"
+}

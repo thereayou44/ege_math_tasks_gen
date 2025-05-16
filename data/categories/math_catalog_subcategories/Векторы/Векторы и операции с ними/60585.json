@@ -1,0 +1,56 @@
+{
+    "id": 60585,
+    "topic": "2",
+    "condition": {
+        "text": "Диагонали ромба ABCD равны 44 и 41. Найдите длину вектора",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/06/06d5754974d75f426c87b107db824a33.svg",
+            "https://math-ege.sdamgia.ru/pic?id=a3617"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Диа­го­на­ли изоб­ра­жен­но­го на ри­сун­ке ромба ABCD равны 12 и 16. Най­ди­те длину век­то­ра Раз­ность век­то­ров  и  равна век­то­ру  Длина век­то­ра  равна  Ответ: 12.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=143413",
+            "https://ege.sdamgia.ru/formula/svg/6e/6e79bf216b16537a3704be9482922f0f.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d1cceb556de3394ddc474f38c98e049.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a39da478750333de819f18fad9409f8a.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8cba96c22647fce57502d5adc9125ada.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/51aae1f163b2194bb7a1d958e1706d68.svg",
+            "https://ege.sdamgia.ru/formula/svg/76/76fde070b319d3b1f25909d6ed937b89.svg"
+        ]
+    },
+    "answer": "",
+    "analogs": [
+        "27715",
+        "60555",
+        "60557",
+        "60559",
+        "...",
+        "60555",
+        "60557",
+        "60559",
+        "60561",
+        "60563",
+        "60565",
+        "60567",
+        "60569",
+        "60571",
+        "60573",
+        "60575",
+        "60577",
+        "60579",
+        "60581",
+        "60583",
+        "60587",
+        "60589",
+        "60591",
+        "60593",
+        "60595",
+        "60597",
+        "60599",
+        "60601",
+        "60603"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=60585"
+}

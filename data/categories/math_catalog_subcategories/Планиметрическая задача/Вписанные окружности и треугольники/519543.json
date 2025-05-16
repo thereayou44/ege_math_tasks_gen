@@ -1,0 +1,41 @@
+{
+    "id": 519543,
+    "topic": "17",
+    "condition": {
+        "text": "Угол MKN треугольника KMN равен Сторона MN является хордой окружности с центром O и радиусом R, проходящей через центр окружности, вписанной в треугольник MKN.а) Докажите, что около четырёхугольника KMON можно описать окружность.б) Известно, что в четырёхугольник KMON можно вписать окружность. Найдите радиус r этой окружности, если R = 12,",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/32/327bfeeee8677c706d61b799ebe2a1a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f0f3aacbe3670e826ea49f3bee2f1c46.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Пусть точка P ― центр окруж­но­сти, впи­сан­ной в тре­уголь­ник KMN (см.ри­су­нок).Тогда  и  от­ку­да по­лу­ча­ем  Углы MNP и NMP впи­са­ны в окруж­ность O(R), по­это­му  Зна­чит,  и  Сле­до­ва­тель­но, около четырёхуголь­ни­ка KMON можно опи­сать окруж­ность, что и тре­бо­ва­лось до­ка­зать.б)  В четырёхуголь­ник KMON можно впи­сать окруж­ность, сле­до­ва­тель­но,  от­ку­да  Таким об­ра­зом, тре­уголь­ник OMN ― рав­но­сто­рон­ний тре­уголь­ник со сто­ро­ной  а тре­уголь­никKMN ― рав­но­бед­рен­ный тре­уголь­ник с бо­ко­вой сто­ро­ной   Далее имеем:   Учи­ты­вая, что  окон­ча­тель­но по­лу­ча­ем  Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=148612",
+            "https://ege.sdamgia.ru/formula/svg/64/64930c53bf2330c1c772c84fbc703907.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0bd1e65dbeeadd3885e6e849c4676e29.svg",
+            "https://ege.sdamgia.ru/formula/svg/12/124ee5cff69c7c73aa417bc5a71aa9ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/812ec9ee01600aaec2fce931b2428b95.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/1061402f49755310a5500d889c1715ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/93/93c3ae0f2c2bb1b3009b46b798bd9535.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/152132f1567f8ea260d5ab0f0d221563.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a1999c917ed00564f6f4f146d5ffdf6f.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1d5356559d7bc9f9bee7a30fa1953501.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b787eb0e8282892727910861d520dbdc.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6f783868a913c257598f4d817832d068.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f1f5555cf87bca9e1106a835eb879e98.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/86da71a4d23eef13950dde3b4c05896a.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/61902edd8296b256d77da430ebb30a34.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e5ff514511698ae6c27f8ffbfab4f5ce.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2a2b83436b8037c2049644b914de42d1.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f74f3d9c24432da665fcc328d07a73b4.svg",
+            "https://ege.sdamgia.ru/formula/svg/20/202df876d58cfc6ba82e744f61bbec91.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0be06ac81cebeb178ba1b9425583d654.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "519517"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=519543"
+}

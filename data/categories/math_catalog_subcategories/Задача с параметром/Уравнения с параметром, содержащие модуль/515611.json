@@ -1,0 +1,46 @@
+{
+    "id": 515611,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых уравнение на промежутке имеет больше двух корней.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/50/5090b4a8006d7c310b2f3beee7236bf3.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/316e68380394a13ed18453f3060bba81.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Ре­ше­ние.Рас­смот­рим две функ­ции:  и  и опре­де­лим, при каких a гра­фи­ки дан­ных функ­ций будут иметь более двух общих точек на про­ме­жут­ке Гра­фик функ­ции  за­да­ет се­мей­ство пря­мых, про­хо­дя­щих через точку  с уг­ло­вым ко­эф­фи­ци­ен­том, рав­ным  Изоб­ра­зим гра­фи­ки функ­ций  и  в пря­мо­уголь­ной си­сте­ме ко­ор­ди­нат xOy на про­ме­жут­ке Из эс­ки­за видно, что при  гра­фи­ки не будут иметь общих точек, а, зна­чит,  ис­ход­ное урав­не­ние не будет иметь ре­ше­ний.Если уг­ло­вой ко­эф­фи­ци­ент пря­мой  мень­ше, чем у пря­мой n или боль­ше, чем у пря­мой m, то на про­ме­жут­ке  гра­фи­ки будут иметь ровно одну общую точку.Если пря­мая  сов­па­да­ет с пря­мой n или с пря­мой m, то гра­фи­ки будут иметь ровно две общие точки.Если уг­ло­вой ко­эф­фи­ци­ент пря­мой  боль­ше, чем у пря­мой n или мень­ше, чем у пря­мой m, то на про­ме­жут­ке  гра­фи­ки будут иметь три общих точки.Най­дем гра­нич­ные зна­че­ния па­ра­мет­ров, со­от­вет­ству­ю­щие пря­мым n и Пря­мая n про­хо­дит через точку  от­ку­да по­лу­ча­ем Пря­мая m ка­са­ет­ся ветви ги­пер­бо­лы  Сле­до­ва­тель­но, верно ра­вен­ство  или  Чтобы дан­ное урав­не­ние имело един­ствен­ный ко­рень, его дис­кри­ми­нант дол­жен быть равен нулю. От­сю­да, Итак, при  ис­ход­ное урав­не­ние будет иметь более двух кор­ней на ука­зан­ном про­ме­жут­ке. Ответ:  ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=150496",
+            "https://ege.sdamgia.ru/formula/svg/cc/cc49c28bb93282b4ec7565ca22fec2fe.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/40074e36dc0020c6837b6fecbb4cf535.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/74b6a2388c2419ed9b9e51a10d977a3a.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/31c9fb134674736be013ab89bdd7ab08.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a2c839fcad74df72e0aadb0dc0a6e7f4.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9fbcccf456ef61f9ea007c417297911d.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50bbd36e1fd2333108437a2ca378be62.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e84fec1e074026d6fa8e3155482c35c3.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/dbc0e378977001da8f12cbf6fd826f53.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/602f3fee20b5a3a0cac8aeeb9d9537ab.svg",
+            "https://ege.sdamgia.ru/formula/svg/bd/bd40d912811d105550614db8beb912f1.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/316e68380394a13ed18453f3060bba81.svg",
+            "https://ege.sdamgia.ru/formula/svg/bd/bd40d912811d105550614db8beb912f1.svg",
+            "https://ege.sdamgia.ru/formula/svg/bd/bd40d912811d105550614db8beb912f1.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/316e68380394a13ed18453f3060bba81.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/1956940fd568edcef6c60b3723bb951b.svg",
+            "https://ege.sdamgia.ru/formula/svg/95/950068e70553eb3fd5c52314bed2fe7b.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6e002ca38ee1b90e18416cc997b996ac.svg",
+            "https://ege.sdamgia.ru/formula/svg/33/335ae45b50f5b60fe8f5841ddc9b6877.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/37dfdc694837fc53674cf6c05b4268bc.svg",
+            "https://ege.sdamgia.ru/formula/svg/7f/7f8354ffb3e9b776b20423e827d77f66.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/8538cabf6fcdb5b64cc8b41802806855.svg",
+            "https://ege.sdamgia.ru/formula/svg/a0/a03b7f282d76d77d95e7d228764c2398.svg",
+            "https://ege.sdamgia.ru/formula/svg/a0/a03b7f282d76d77d95e7d228764c2398.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "501070"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=515611"
+}

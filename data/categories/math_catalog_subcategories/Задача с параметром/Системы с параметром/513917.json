@@ -1,0 +1,45 @@
+{
+    "id": 513917,
+    "topic": "18",
+    "condition": {
+        "text": "При каком значении параметра a система имеет ровно три решения?",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/dd/dda31691ac63ad0e7e23ec0509af9150.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пре­об­ра­зу­ем пер­вое урав­не­ние си­сте­мыОче­вид­но, число ре­ше­ний си­сте­мы сов­па­да­ет с чис­лом кор­ней этого урав­не­ния.  яв­ля­ет­ся его кор­нем. У вто­ро­го мно­жи­те­ля ко­рень  ко­то­рый удо­вле­тво­ря­ет усло­вию  при  или У пер­во­го мно­жи­те­ля нет кор­ней при  и корни  при по­ло­жи­тель­ных a. Ко­рень   удо­вле­тво­ря­ет усло­вию  за­ве­до­мо, а ко­рень   — толь­ко при Те­перь можно изу­чать число кор­ней урав­не­ния.При  их не более двух.При  их два.При  их тоже два, по­сколь­ку  (при дру­гих a этот ко­рень не сов­па­да­ет с ше­стер­кой).При  их три и они все раз­лич­ны.При  их три (по­сколь­ку  При дру­гих a этот ко­рень не сов­па­да­ет с ше­стер­кой)На­ко­нец, при  их че­ты­ре, за ис­клю­че­и­ем слу­чая, когда  то есть при  Там три корня. Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/3f/3fa89d1184c436dbe83535cfd008ba12.svg",
+            "https://ege.sdamgia.ru/formula/svg/12/12aff4210d0d5b403104c555945dfe30.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6d17d6d9c69d0f6a426edc37ed1b84ec.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8b15da95a92bc03b8a664252ead49c37.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2a0fd529849838f8e178bb3083197559.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf8298b0e273301afdd921e7e4cf6c2b.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/0041bf47fda1712b0a891881287dfec8.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0b5d77a5c553cedf04f091b57c0fb492.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/dda42af68e809cffc523603bbe5044ef.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/213158b225c03322658816bffed33597.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2a0fd529849838f8e178bb3083197559.svg",
+            "https://ege.sdamgia.ru/formula/svg/d0/d0fbe32a829a94ed1cd515a05c1e6ac3.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d2fd8d516c61f18b9577294a084adeb7.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0b5d77a5c553cedf04f091b57c0fb492.svg",
+            "https://ege.sdamgia.ru/formula/svg/33/3360316b09c3d53d1efee64d36b64e90.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b5b6ba39139131bd72a5f50017555209.svg",
+            "https://ege.sdamgia.ru/formula/svg/c6/c60dae6946edf2766f3bb466ec39e3d7.svg",
+            "https://ege.sdamgia.ru/formula/svg/bd/bd69f3973996170f6ec67e31051dfd00.svg",
+            "https://ege.sdamgia.ru/formula/svg/9b/9baa5e67c3613d96c3248ebecd38f905.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/180c7bdfc37636b0bf30462becf67603.svg",
+            "https://ege.sdamgia.ru/formula/svg/5a/5a40cfc5fe302af97df30ad6da2a8b08.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/5048d0697364db3fb0b6e94162b4ae5c.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/976060549f80571aaa571cf47fd2ef2a.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6cff5da6fa6c97b7e37b714d8bec5c9e.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "513924",
+        "514628"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=513917"
+}

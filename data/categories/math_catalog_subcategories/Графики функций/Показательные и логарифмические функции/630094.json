@@ -1,0 +1,36 @@
+{
+    "id": 630094,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображён график функции Найдите значение",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=197532",
+            "https://ege.sdamgia.ru/formula/svg/5a/5ac7512535239a674da1070bd9c3c988.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/528e73ce637dd0dbc8f6903e2a8e7161.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По ри­сун­ку опре­де­ля­ем, что  ТогдаЗна­чит,  Найдём  Ответ: 16.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/68/689d77fb830179c3d1329c6c7ade9d16.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4b208f73c0533d656631fa4f00d85aed.svg",
+            "https://ege.sdamgia.ru/formula/svg/fe/fea93f45fff3b60521040a3b374c5ec6.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/972161816ccc9ee5fde40dbf24114747.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/4717814388a3c2cbb75ab30a4f1cce75.svg"
+        ]
+    },
+    "answer": "16",
+    "analogs": [
+        "509101",
+        "509102",
+        "509103",
+        "509104",
+        "...",
+        "509102",
+        "509103",
+        "509104",
+        "509105",
+        "509106"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=630094"
+}

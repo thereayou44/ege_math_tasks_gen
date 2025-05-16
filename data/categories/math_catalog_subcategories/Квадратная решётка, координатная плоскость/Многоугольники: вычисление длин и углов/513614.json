@@ -1,0 +1,24 @@
+{
+    "id": 513614,
+    "topic": "Д4",
+    "condition": {
+        "text": "На клетчатой бумаге с размером клетки 1 см 1 см изображена трапеция. Найдите длину средней линии этой трапеции.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=68969",
+            "https://ege.sdamgia.ru/formula/svg/60/60c13e05d3ec8c10b8564eae7023d9db.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.  Сред­няя линия тра­пе­ции равна по­лу­сум­ме её ос­но­ва­ний:  Ответ: 6.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=68970",
+            "https://ege.sdamgia.ru/formula/svg/c8/c8d3c1902f89a43b0018add85e0aee9e.svg"
+        ]
+    },
+    "answer": "6",
+    "analogs": [
+        "27848",
+        "549304"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=513614"
+}

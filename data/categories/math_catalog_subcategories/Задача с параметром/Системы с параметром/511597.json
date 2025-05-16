@@ -1,0 +1,29 @@
+{
+    "id": 511597,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых система уравненийимеет ровно два решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/f8/f8b4e8a5cfda1533d8a02b3144247ae8.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­ме­тим, что По­это­му ис­ход­ная си­сте­ма рав­но­силь­на сме­шан­ной си­сте­меПо­лу­чен­ная сме­шан­ная си­сте­ма имеет ровно два ре­ше­ния в том и толь­ко в том слу­чае, когда се­мей­ство пря­мых  имеет с гра­фи­ком си­сте­мыровно две общие точки, то есть при   Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=156319",
+            "https://ege.sdamgia.ru/formula/svg/23/23cd769b6ff401a13dac5ac42dcdac7c.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/074f84706c4a541c7b3c5f361a0880be.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2e5121cd621a4198f1ab68f83a94c858.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a46afffd3a9f3d52e478d5fbaa99888b.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1a48e6fc3a90b42ee55f0678f9bccf8a.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1a48e6fc3a90b42ee55f0678f9bccf8a.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "509506",
+        "510076",
+        "511601"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511597"
+}

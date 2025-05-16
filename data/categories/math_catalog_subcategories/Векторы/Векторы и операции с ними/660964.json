@@ -1,0 +1,32 @@
+{
+    "id": 660964,
+    "topic": "2",
+    "condition": {
+        "text": "Даны векторы Найдите длину вектора",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/2e/2eee4b802361c4b13dd4006d44784236.svg",
+            "https://ege.sdamgia.ru/formula/svg/9c/9cc191b01105b0f9c6ff10d148f40aa4.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fbe48b7625a16fd0839a2cbcbb0a5cdf.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Най­дем ко­ор­ди­на­ты век­то­ра  Длина век­то­ра равна:Ответ: 2,9.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/22/22f8087b0e94de6ed1a438b280299751.svg",
+            "https://ege.sdamgia.ru/formula/svg/be/bedfd5e68b18e98f6959a5f5b3342d73.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c73313153fa13857ff6b0070730858be.svg"
+        ]
+    },
+    "answer": "2,9",
+    "analogs": [
+        "660709",
+        "660780",
+        "660892",
+        "...",
+        "660780",
+        "660892",
+        "661011",
+        "661072"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=660964"
+}

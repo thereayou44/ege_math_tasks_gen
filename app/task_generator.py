@@ -45,6 +45,26 @@ load_dotenv()
 YANDEX_API_KEY = os.getenv("YANDEX_API_KEY")
 YANDEX_FOLDER_ID = os.getenv("YANDEX_FOLDER_ID")
 
+# Директория для хранения отладочных файлов
+DEBUG_FILES_DIR = "debug_files"
+if not os.path.exists(DEBUG_FILES_DIR):
+    os.makedirs(DEBUG_FILES_DIR)
+    logging.info(f"Создана папка для отладочных файлов: {DEBUG_FILES_DIR}")
+
+# Инициализируем файлы для отладки, если они не существуют
+debug_files = {
+    "debug_prompt.txt": "# Файл для хранения промптов\n",
+    "debug_response.txt": "# Файл для хранения ответов модели\n",
+    "debug_task_info.json": "{}"
+}
+
+for filename, content in debug_files.items():
+    filepath = os.path.join(DEBUG_FILES_DIR, filename)
+    if not os.path.exists(filepath):
+        with open(filepath, 'w', encoding='utf-8') as f:
+            f.write(content)
+        logging.info(f"Создан файл для отладки: {filepath}")
+
 # Кэш для хранения результатов запросов API
 _task_cache = {}
 
@@ -148,7 +168,7 @@ def extract_text_and_formulas(html_content):
     
     return text
 
-def yandex_gpt_generate(prompt, temperature=0.3, max_tokens=8000, is_basic_level=None):
+def yandex_gpt_generate(prompt, temperature=0.7, max_tokens=8000, is_basic_level=None):
     """
     Отправляет запрос к API YandexGPT и возвращает ответ.
     
@@ -169,12 +189,19 @@ def yandex_gpt_generate(prompt, temperature=0.3, max_tokens=8000, is_basic_level
     # Создаем ключ кэша на основе параметров запроса
     cache_key = f"{prompt}_{temperature}_{max_tokens}_{is_basic_level}{random_component}"
     
-    # Проверяем, есть ли ответ в кэше
+    # Симулируем проверку кэша без фактического использования кэшированных ответов
     if cache_key in _task_cache:
-        print("Результат найден в кэше!")
-        return _task_cache[cache_key]
+        print("Результат найден в кэше, но генерируем новый ответ для свежести")
+        # Удаляем устаревшую задачу из кэша
+        del _task_cache[cache_key]
         
     try:
+        # Сохраняем промпт в файл для отладки
+        prompt_file = os.path.join(DEBUG_FILES_DIR, "debug_prompt.txt")
+        with open(prompt_file, 'w', encoding='utf-8') as f:
+            f.write(f"===СИСТЕМНЫЙ ПРОМПТ===\n{SYSTEM_PROMPT}\n\n===ПОЛЬЗОВАТЕЛЬСКИЙ ПРОМПТ===\n{prompt}")
+        print(f"Промпт сохранен в файл: {prompt_file}")
+        
         url = "https://llm.api.cloud.yandex.net/foundationModels/v1/completion"
         headers = {
             "Content-Type": "application/json",
@@ -207,6 +234,12 @@ def yandex_gpt_generate(prompt, temperature=0.3, max_tokens=8000, is_basic_level
         # Сохраняем результат в кэше
         generated_text = result["result"]["alternatives"][0]["message"]["text"]
         _task_cache[cache_key] = generated_text
+        
+        # Сохраняем ответ в файл для отладки
+        response_file = os.path.join(DEBUG_FILES_DIR, "debug_response.txt")
+        with open(response_file, 'w', encoding='utf-8') as f:
+            f.write(generated_text)
+        print(f"Ответ сохранен в файл: {response_file}")
         
         return generated_text
     except Exception as e:
@@ -446,6 +479,16 @@ def save_to_file(content, filename="last_generated_task.txt"):
             # Сохраняем форматированный текст
             with open(filename, 'w', encoding='utf-8') as f:
                 f.write(formatted_text)
+                
+            # Также сохраняем в общий файл всех задач
+            if filename == "last_generated_task.txt":
+                all_tasks_file = "all_generated_tasks.txt"
+                with open(all_tasks_file, "a", encoding="utf-8") as f:
+                    f.write(f"\n\n===НОВАЯ ЗАДАЧА ({time.strftime('%Y-%m-%d %H:%M:%S')})===\n")
+                    f.write(formatted_text)
+                print(f"Задача также добавлена в общий файл: {all_tasks_file}")
+                
+
                 
         else:
             # Если контент - строка, просто сохраняем
@@ -1750,26 +1793,41 @@ def extract_graph_params(task_text):
                     logging.warning(f"Ошибка при обработке списка особых точек: {e}")
             
             # Проверяем диапазоны осей
-            x_range_pattern = r'Диапазон X:\s*\[(.*?)\]'
+            x_range_pattern = r'Диапазон X:\s*\$?\[(.*?)\]\$?'
             x_range_match = re.search(x_range_pattern, param_section)
             
             if x_range_match:
                 try:
-                    x_range_str = x_range_match.group(1)
-                    x_min, x_max = map(float, x_range_str.split(','))
-                    params['x_range'] = (x_min, x_max)
+                    x_range_str = x_range_match.group(1).strip()
+                    # Убираем все доллары и другие специальные символы
+                    x_range_str = x_range_str.replace('$', '').strip()
+                    # Разделяем по запятой, обрабатывая возможные пробелы
+                    parts = [part.strip() for part in x_range_str.split(',')]
+                    if len(parts) == 2:
+                        x_min = float(parts[0])
+                        x_max = float(parts[1])
+                        params['x_range'] = (x_min, x_max)
                 except Exception as e:
                     logging.warning(f"Ошибка при разборе диапазона X: {e}")
             
-            y_range_pattern = r'Диапазон Y:\s*\[(.*?)\]'
+            y_range_pattern = r'Диапазон Y:\s*\$?\[(.*?)\]\$?'
             y_range_match = re.search(y_range_pattern, param_section)
             
             if y_range_match:
                 try:
-                    y_range_str = y_range_match.group(1)
-                    if y_range_str.lower() != 'автоматический':
-                        y_min, y_max = map(float, y_range_str.split(','))
-                        params['y_range'] = (y_min, y_max)
+                    y_range_str = y_range_match.group(1).strip()
+                    # Убираем все доллары и другие специальные символы
+                    y_range_str = y_range_str.replace('$', '').strip()
+                    
+                    if y_range_str.lower() in ['автоматический', 'auto']:
+                        params['y_range'] = None
+                    else:
+                        # Разделяем по запятой, обрабатывая возможные пробелы
+                        parts = [part.strip() for part in y_range_str.split(',')]
+                        if len(parts) == 2:
+                            y_min = float(parts[0])
+                            y_max = float(parts[1])
+                            params['y_range'] = (y_min, y_max)
                 except Exception as e:
                     logging.warning(f"Ошибка при разборе диапазона Y: {e}")
     
@@ -2432,24 +2490,23 @@ def create_image_from_params(params):
 
 def generate_multi_function_graph(functions, x_range=(-10, 10), y_range=None, special_points=None):
     """
-    Генерирует график с несколькими функциями.
+    Создает изображение с несколькими графиками функций на одном полотне.
     
     Args:
-        functions: Список функций в формате [(функция1, цвет1, имя1), (функция2, цвет2, имя2), ...]
-        x_range: Диапазон значений x для отображения (кортеж из двух значений)
-        y_range: Диапазон значений y для отображения (кортеж из двух значений или None для авто)
-        special_points: Список особых точек в формате [(x1, y1, метка1), (x2, y2, метка2), ...]
+        functions (list): Список функций в формате [(выражение, цвет, имя), ...]
+        x_range (tuple): Кортеж (min_x, max_x) для всех функций
+        y_range (tuple): Кортеж (min_y, max_y) для всех функций или None
+        special_points (list): Список особых точек в формате [(x, y, label), ...]
         
     Returns:
-        str: Путь к сохраненному изображению
+        str: Путь к созданному изображению или None в случае ошибки
     """
     import matplotlib.pyplot as plt
     import numpy as np
+    import math
     import os
     import uuid
-    import math  # Импортируем модуль math полностью
-    import traceback
-    from math import sqrt, sin, cos, tan, exp, log, pi  # Импортируем все нужные математические функции
+    import logging
     
     # Создаем директорию для сохранения изображения, если она не существует
     output_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "static/images/generated")
@@ -2698,6 +2755,13 @@ def generate_multi_function_graph(functions, x_range=(-10, 10), y_range=None, sp
             
             # Удаляем LaTeX-разметку, если она осталась
             func_expr = remove_latex_markup(func_expr)
+            
+            # Нормализуем выражение для корректного построения графика
+            normalized_expr = normalize_function_expression(func_expr)
+            if normalized_expr:
+                func_expr = normalized_expr
+            else:
+                logging.warning(f"Не удалось нормализовать выражение {func_expr}, пробуем исходное выражение")
             
             # Логируем функцию для отладки
             import logging
@@ -3171,7 +3235,7 @@ def process_triangle_visualization(params_text, extract_param):
 
 def generate_complete_task(category, subcategory="", difficulty_level=3, is_basic_level=False):
     """
-    Генерирует полный пакет: задачу, решение и подсказки.
+    Генерирует полную задачу, решение и подсказки с использованием YandexGPT.
     
     Args:
         category: Категория задачи
@@ -3199,8 +3263,24 @@ def generate_complete_task(category, subcategory="", difficulty_level=3, is_basi
         # Генерируем промпт для создания полного материала
         prompt = create_complete_task_prompt(category, subcategory, original_task, original_solution, difficulty_level)
         
+        # Сохраняем информацию о запросе
+        task_info = {
+            "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
+            "category": category,
+            "subcategory": subcategory,
+            "difficulty_level": difficulty_level,
+            "is_basic_level": is_basic_level,
+            "original_task": original_task
+        }
+        
+        # Сохраняем информацию о запросе в файл
+        debug_task_info_file = os.path.join(DEBUG_FILES_DIR, "debug_task_info.json")
+        with open(debug_task_info_file, 'w', encoding='utf-8') as f:
+            json.dump(task_info, f, ensure_ascii=False, indent=2)
+        print(f"Информация о задаче сохранена в файл: {debug_task_info_file}")
+        
         # Генерируем текст с помощью YandexGPT с повышенной температурой для разнообразия
-        generated_text = yandex_gpt_generate(prompt, temperature=0.6, is_basic_level=is_basic_level)
+        generated_text = yandex_gpt_generate(prompt, temperature=0.7, is_basic_level=is_basic_level)
         
         if not generated_text:
             return {"error": "Не удалось получить ответ от YandexGPT API"}

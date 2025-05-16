@@ -1,0 +1,35 @@
+{
+    "id": 4383,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите значение выражения",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/0f/0f7c820b11261e6acaa5d44078b959d2.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Най­ди­те зна­че­ние вы­ра­же­ния Вы­пол­ним пре­об­ра­зо­ва­ния:   Ответ: 4.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/b7/b7f4b4152259dfed5ffa29cf6cdea7d7.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/84166bb4512a2bfc9c1b4a61029bc3e1.svg"
+        ]
+    },
+    "answer": "2",
+    "analogs": [
+        "26853",
+        "26887",
+        "4367",
+        "4369",
+        "...",
+        "26887",
+        "4367",
+        "4369",
+        "4371",
+        "4373",
+        "4375",
+        "4377",
+        "4379",
+        "4381"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=4383"
+}

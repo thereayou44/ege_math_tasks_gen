@@ -1,0 +1,38 @@
+{
+    "id": 484642,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра а, при каждом из которых система уравнений имеет а) ровно четыре решения, б) ровно 8 решений.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/d9/d965957aebf20ebf78b3a358728062c4.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пре­об­ра­зу­ем дан­ную си­сте­му:Сде­лав за­ме­ну пе­ре­мен­ной  по­лу­ча­ем си­сте­муЗа­ме­тим, что ко­ли­че­ство ре­ше­ний по­лу­чен­ной си­сте­мы сов­па­да­ет с ко­ли­че­ством ре­ше­ний ис­ход­ной си­сте­мы. По­стро­им гра­фи­ки урав­не­ний (1) и (2) в си­сте­ме ко­ор­ди­нат Oty. Гра­фик пер­во­го урав­не­ния  — ромб, диа­го­на­ли ко­то­ро­го, рав­ные 24 и 10, лежат со­от­вет­ствен­но на осях х и Ot, а гра­фи­ком вто­ро­го урав­не­ния яв­ля­ет­ся окруж­ность с цен­тром в на­ча­ле ко­ор­ди­нат и ра­ди­у­сом  (см. рис.). Гра­фи­ки урав­не­ний си­сте­мы имеют ровно че­ты­ре общих точки, и, сле­до­ва­тель­но, си­сте­ма имеет ровно че­ты­ре ре­ше­ния, тогда и толь­ко тогда, когда окруж­ность либо впи­са­на в ромб, либо ее ра­ди­ус удо­вле­тво­ря­ет со­от­но­ше­нию  где   — по­ло­ви­ны мень­шей и боль­шей диа­го­на­лей ромба со­от­вет­ствен­но. Ра­ди­ус впи­сан­ной в ромб окруж­но­сти равен вы­со­те пря­мо­уголь­но­го тре­уголь­ни­ка с ка­те­та­ми, рав­ны­ми 5 и 12, от­ку­да  Таким об­ра­зом, си­сте­ма имеет 4 ровно ре­ше­ния, если  или  от­ку­да  или  Гра­фи­ки имеют 8 общих точек, если ра­ди­ус окруж­но­сти удо­вле­тво­ря­ет усло­вию  где   — ра­ди­ус окруж­но­сти, впи­сан­ной в ромб. Тогда  от­ку­да  Ответ: а) б)  ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=158777",
+            "https://ege.sdamgia.ru/formula/svg/4b/4b794feab36a75ec99d915c8eb4a6ee7.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83ed0f0c716b221c4030f2b0887bc84e.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/92295d1fcc97367950e0fbb6ecb63a46.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c71df7c19541153b57bedef652320c6.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e43c2eeff4a4e7aa4dcc4317136f857b.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0f18ead6f802c64f3c905707faec8ade.svg",
+            "https://ege.sdamgia.ru/formula/svg/a0/a049e0e805d63c4b10dc1fb770388187.svg",
+            "https://ege.sdamgia.ru/formula/svg/69/6909ca6f92ea8a07acdc9072663bb926.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e754b99b4b59a3f5d24bde6c898d1223.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/604ea693447a8c4117a8ec263b6afd8a.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4b475b277cedf12d0a28817d3d163726.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b314fc72d71ade66ec9ee4af33a545bd.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/baf606802b02a2603db47ea634c06429.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/347ddae7704d8bf71bf1f262b0c88a2a.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/1689c9742bcb3226d7b26e79bb8438f9.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/27659711db9c0c8b262602f780164cf7.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d2d2cd1a235d7a2bac86b3987f3ffee1.svg"
+        ]
+    },
+    "answer": "",
+    "analogs": [
+        "484641"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=484642"
+}

@@ -1,0 +1,38 @@
+{
+    "id": 520985,
+    "topic": "18",
+    "condition": {
+        "text": "Найти все значения a, при каждом из которых уравнение имеет хотя бы один корень.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/60/609fe28e4d0b0451ec87a036ae2bb6e6.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­ме­тим, что  Пусть  в силу сде­лан­ных оце­нок мно­же­ством зна­че­ний функ­ции t(x) яв­ля­ет­ся от­ре­зок [0; 1]. Пе­ре­фор­му­ли­ру­ем за­да­чу: тре­бу­ет­ся найти все такие зна­че­ния па­ра­мет­ра a, при каж­дом из ко­то­рых урав­не­ние  имеет хотя бы одно ре­ше­ние на от­рез­ке   Рас­смот­рим функ­цию  и найдём мно­же­ство её зна­че­ний на этом от­рез­ке. Для этого най­дем про­из­вод­ную, от­ме­тим на ри­сун­ке знаки про­из­вод­ной и по­ве­де­ние функ­ции:  Функ­ция f(t) убы­ва­ет  на от­рез­ке, бу­дучи не­пре­рыв­ной на нем. Сле­до­ва­тель­но, она при­ни­ма­ет все зна­че­ния, ле­жа­щие между зна­че­ни­я­ми на кон­цах от­рез­ка, и толь­ко их. По­сколь­ку    мно­же­ством зна­че­ний функ­ция  на от­рез­ке  яв­ля­ет­ся от­ре­зок Сле­до­ва­тель­но, урав­не­ние (⁎) имеет хотя бы одно ре­ше­ние на от­рез­ке  тогда и толь­ко тогда, когда вы­пол­ня­ет­ся усло­вие  Решим это двой­ное не­ра­вен­ство:Ответ:  ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/2a/2aa6acedf611a04e94d8566930b24ca8.svg",
+            "https://ege.sdamgia.ru/formula/svg/ab/ab3495b7b835fb7c9ec44d0dc8411129.svg",
+            "https://ege.sdamgia.ru/formula/svg/b2/b2b1c491d2c060011785957363336a0b.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b316903d12e0da57d82f0a049d4171ce.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=137669",
+            "https://ege.sdamgia.ru/formula/svg/31/318c96aaba277f19a3431976f0ff68b8.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d5ec62b44335c02dc2998438ff2d85d0.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/60604b76e9fdb75e5475edd9978a319e.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/724e8ab7cb2724a014a70becbae83752.svg",
+            "https://ege.sdamgia.ru/formula/svg/96/96e2eb7ff0d29155f3ac5ff04dfa17df.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d6e3af948a34fd5f432cb9d377a98ef0.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/60604b76e9fdb75e5475edd9978a319e.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/280a2d5c2a5e4aefebaa170187ff9699.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/60604b76e9fdb75e5475edd9978a319e.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/dd8cc187c38a7176e5c2d3579a2099ba.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/084eba5e05a4e04bd0b5e55342b0063a.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/2850320c9c5fd77722bdde9ec93771b0.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/3090fe26c11815d0f70b942f95f33716.svg"
+        ]
+    },
+    "answer": "  ",
+    "analogs": [
+        "508322"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=520985"
+}

@@ -1,0 +1,33 @@
+{
+    "id": 661011,
+    "topic": "2",
+    "condition": {
+        "text": "Даны векторы Найдите длину вектора",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ab/ab3b33bacaac7577cf5861bc2d5b0493.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e7df479bc2878e7dec30e5a5caf02284.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/39fb0c339806a53bc15ab6618c0d4017.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Най­дем ко­ор­ди­на­ты век­то­ра  Длина век­то­ра равна:Ответ: 17.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/11/115e3d6eb797f67eb28d83d7498782f7.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/efa435278526b2359604277f8b41875c.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4a0362117d1192f484e46c119f4646ff.svg"
+        ]
+    },
+    "answer": "17",
+    "analogs": [
+        "660709",
+        "660780",
+        "660892",
+        "660964",
+        "...",
+        "660780",
+        "660892",
+        "660964",
+        "661072"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=661011"
+}

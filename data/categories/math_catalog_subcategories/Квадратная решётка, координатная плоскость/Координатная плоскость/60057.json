@@ -1,0 +1,37 @@
+{
+    "id": 60057,
+    "topic": "Д4",
+    "condition": {
+        "text": "Найдите площадь трапеции, вершины которой имеют координаты",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=66450",
+            "https://ege.sdamgia.ru/formula/svg/a3/a38635f03e2037a0b2070d503bc641b3.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f396a9c2cd57134eb967d908252876cc.svg",
+            "https://ege.sdamgia.ru/formula/svg/71/71b3a56d7654a2400b5f8c77ab41f2ba.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b166ce483882431507a5a5292e7164bf.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пло­щадь тра­пе­ции равна про­из­ве­де­нию по­лу­сум­мы ос­но­ва­ний на вы­со­ту: Ответ:  8,5.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/dc/dc1a84849e4e24c958bc5e02ed0d4826.svg"
+        ]
+    },
+    "answer": "8,5",
+    "analogs": [
+        "27705",
+        "60063",
+        "60067",
+        "...",
+        "60063",
+        "60067",
+        "60069",
+        "60071",
+        "60085",
+        "60091",
+        "60095",
+        "60097",
+        "60099"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=60057"
+}

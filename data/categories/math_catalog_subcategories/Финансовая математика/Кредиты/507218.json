@@ -1,0 +1,42 @@
+{
+    "id": 507218,
+    "topic": "16",
+    "condition": {
+        "text": "31 декабря 2014 года Никита взял в банке некоторую сумму в кредит под некоторый процент годовых. Схема выплаты кредита следующая — 31 декабря каждого следующего года банк начисляет проценты на оставшуюся сумму долга (то есть увеличивает долг на а%), затем Никита переводит очередной транш. Если он будет платить каждый год по 2 073 600 рублей, то выплатит долг за 4 года. Если по 3 513 600 рублей, то за 2 года. Под какой процент Никита взял деньги в банке?",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пусть S  — сумма кре­ди­та. Обо­зна­чим еже­год­ные пла­те­жи  и  со­от­вет­ствен­но. Сумма долга каж­дый год уве­ли­чи­ва­ет­ся на  то есть сумма долга умно­жа­ет­ся на ко­эф­фи­ци­ент  После пер­вой вы­пла­ты сумма долга ста­нет рав­ной  после вто­рой вы­пла­ты:  после тре­тье вы­пла­ты:  после четвёртой вы­пла­ты:  Причём долг будет по­га­шен пол­но­стью, по­лу­ча­ем, то есть  Ана­ло­гич­но по­лу­ча­ем урав­не­ние для слу­чая, когда вы­пла­ты со­вер­ша­ют­ся пла­те­жа­ми раз­ме­ром   Имеем си­сте­му урав­не­ний:Под­ста­вим вы­ра­же­ние для  в пер­вое урав­не­ние:  Пре­об­ра­зу­ем это урав­не­ние: Под­став­ляя чис­ло­вые зна­че­ния по­лу­ча­ем:От­ри­ца­тель­ные корни не под­хо­дят по усло­вию за­да­чи, зна­чит,  от­ку­да  то есть Ни­ки­та взял день­ги в банке под 20%. Ответ: 20%.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/4b/4be60c01260fad068dd84cb934d15c36.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e7fb081e7d6a49314607f263a85eef3c.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7ab0635137ffe38512ebda6b7d44d328.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/cc19f2bde4878a5dea25685ab5843ec2.svg",
+            "https://ege.sdamgia.ru/formula/svg/1f/1f87c513410a402cccc89c44becf8ab7.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a877136cfa351b84703a58080a2e3ec2.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/df1b7c13f1909d8ee218556e80f8f6db.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3cb1c074f83e5843d3239c0f383394e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6aec4b283886e112d931661bee186813.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2ef1929621e2472b9e8c8053a4b4e4a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/5742da83b2951a76108691ca470175db.svg",
+            "https://ege.sdamgia.ru/formula/svg/eb/ebf4ebc0861a70312663f567f4b30a47.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/89ca51d2e2b2cacdb58ed5e8c93f827b.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f18df31e58bb9f8bafdcccf5736b0147.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cdaa3a3afa2a8ff2649ade99d3681c95.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/97d7325f3cf401828fbbbc568b24a839.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/ee0e8d215b945139338972aefa0c5c02.svg",
+            "https://ege.sdamgia.ru/formula/svg/48/4847d4875eb6db3625ad6e3273af96c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/90fed32b214f064ab359562d4fd320b6.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/52104ab021ba0fa1d90d3ca9d00eb5fa.svg",
+            "https://ege.sdamgia.ru/formula/svg/9c/9c8f492d646b30c47dd2938540a73253.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1e8ac67fdf2864c99d05d29894205d69.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/0378a1089bdac5f06b7416c8b178f902.svg"
+        ]
+    },
+    "answer": " 20%.",
+    "analogs": [
+        "507208",
+        "515671"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=507218"
+}

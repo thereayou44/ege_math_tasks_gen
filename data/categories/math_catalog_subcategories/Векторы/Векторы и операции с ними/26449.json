@@ -1,0 +1,24 @@
+{
+    "id": 26449,
+    "topic": "2",
+    "condition": {
+        "text": "Диагонали ромба ABCD равны 12 и 16. Найдите длину вектора",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=143414",
+            "https://ege.sdamgia.ru/formula/svg/32/32aa48a4203e8ca55e180bb7d77dc3aa.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Раз­ность век­то­ров  равна век­то­ру  Диа­го­на­ли ромба пер­пен­ди­ку­ляр­ны и точ­кой пе­ре­се­че­ния де­лят­ся по­по­лам. Пусть O  — точка пе­ре­се­че­ния диа­го­на­лей. Век­тор  яв­ля­ет­ся ги­по­те­ну­зой в пря­мо­уголь­ном тре­уголь­ни­ке  По­это­му  Ответ: 10.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/88/885e2bfdd9d73549b77ab468fa95e220.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5c83351a42c092a2c1e6d4e64c1f8ec6.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5c3a894e9cc9c03bdfd7dc5243b62daa.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b592d0e061d9272375e504e3241478d1.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/708a009128907bd338868d5b7e8e2f9e.svg"
+        ]
+    },
+    "answer": "10",
+    "analogs": [],
+    "url": "https://math-ege.sdamgia.ru/problem?id=26449"
+}

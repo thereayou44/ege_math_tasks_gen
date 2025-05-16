@@ -1,0 +1,36 @@
+{
+    "id": 27454,
+    "topic": "Д4",
+    "condition": {
+        "text": "Найдите синус угла В ответе укажите значение синуса, умноженное на",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=30615",
+            "https://ege.sdamgia.ru/formula/svg/e4/e4a893c3641ff45ea8d60057a30cf1e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f4d37e7851c16136e1b284902603ca2e.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. до­стро­им угол до тре­уголь­ни­ка OBA,  BK делит ос­но­ва­ние OA по­по­лам, зна­чит, BK − вы­со­та. Из ри­сун­ка на­хо­дим    Ответ: 2.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=30614",
+            "https://ege.sdamgia.ru/formula/svg/ab/ab8d81033c60006059f62de311e6f7df.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/db9d01bb4b6f8cf3ea72dcb1f89f4dba.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c980dfee33d87eb9b32c0f0c6b2e5617.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a1b9af21d2c33333a8e7bf9e70b087ce.svg"
+        ]
+    },
+    "answer": "2",
+    "analogs": [
+        "27456",
+        "26074",
+        "26077",
+        "26080",
+        "...",
+        "26074",
+        "26077",
+        "26080",
+        "27455",
+        "513703"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=27454"
+}

@@ -1,0 +1,42 @@
+{
+    "id": 526540,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых уравнение имеет ровно два различных корня.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/3e/3e9f9d75421eac86f701d1b36de4b110.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Кор­ня­ми ис­ход­но­го урав­не­ния яв­ля­ют­ся корни урав­не­ния  для ко­то­рых вы­пол­не­но усло­вие Урав­не­ние  задаёт на плос­ко­сти Oxa па­ра­бо­лу ω, ветви ко­то­рой на­прав­ле­ны вверх, с вер­ши­ной в точке  Зна­чит, это урав­не­ние имеет два корня при  имеет один ко­рень при  и не имеет кор­ней при Урав­не­ние  задаёт па­ра­бо­лу Ко­ор­ди­на­ты точек пе­ре­се­че­ния па­ра­бо­лы ω c па­ра­бо­лой  яв­ля­ют­ся ре­ше­ни­я­ми си­сте­мы урав­не­ний:Зна­чит, па­ра­бо­ла ω пе­ре­се­ка­ет­ся с па­ра­бо­лой  в точ­ках (0; 0), (1; −1) и (4; 2).Сле­до­ва­тель­но, усло­вие  вы­пол­не­но для кор­ней урав­не­ния  при всех a, кроме a  =  −1, a  =  0 и a  =  2.Таким об­ра­зом, ис­ход­ное урав­не­ние имеет ровно два корня при     Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/69/695d534e8c4bda951d8a22ac8717116a.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8b7a666925c589c746afd27508a4dcc2.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f90855e90a3dc66fbde37aa973395a6e.svg",
+            "https://ege.sdamgia.ru/formula/svg/77/775d3fb69347643ccd273887eef6257b.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/9275c6a081315183dc5b77e5a0038343.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b93dd3738cf0c4aecaf5358060f6e651.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/03e70b42431e6cdc1b8629f934d4cded.svg",
+            "https://ege.sdamgia.ru/formula/svg/f5/f5ad50c6387b4e29776eaf46d34bd0d6.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/aed9c28b9bec9759bd2c90033b4be928.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d834d2782c9ffd99233f56f378aa806d.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/9075108f272061ed6902d4272de71135.svg",
+            "https://ege.sdamgia.ru/formula/svg/59/592d495873d3835e01fa58f29dc106de.svg",
+            "https://ege.sdamgia.ru/formula/svg/5a/5a1f11c19a1501bcd67b797173697e59.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d834d2782c9ffd99233f56f378aa806d.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/82847a4aec0f02a4a8332ea9f3482ef5.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d8f787106feb8947abb712205a02065f.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/287f16628ea392db79e9a1c5e8787f24.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/00a38870016f45a89a01b467a6ac5780.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/46e620ef50f234e442c72cc03aa344d9.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f1c7a00cc928c4863611dbc8a0e6e7d7.svg",
+            "https://ege.sdamgia.ru/formula/svg/33/3376e20a9d47abe93c30356303c58f2f.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "526344",
+        "526679"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=526540"
+}

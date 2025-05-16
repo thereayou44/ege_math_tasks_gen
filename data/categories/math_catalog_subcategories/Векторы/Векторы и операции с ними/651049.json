@@ -1,0 +1,26 @@
+{
+    "id": 651049,
+    "topic": "2",
+    "condition": {
+        "text": "Длины векторов и равны и а угол между ними равен 45°. Найдите скалярное произведение",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/03/032e291fd1e5592fcd3b7abe2ea18bef.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fcdd61484b31af8082ca2030cea8f4f6.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f6e46a74bf21b3483ef59d65dd67831d.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cd1a1b5f78ea0d2fcaca65661663f36d.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4f6af99a43259021756064f629453e8c.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Ска­ляр­ное про­из­ве­де­ние равно Ответ: 90.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/e6/e6426754cdd9bbe3be422a1926d38f9a.svg"
+        ]
+    },
+    "answer": "90",
+    "analogs": [
+        "649909",
+        "650946"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=651049"
+}

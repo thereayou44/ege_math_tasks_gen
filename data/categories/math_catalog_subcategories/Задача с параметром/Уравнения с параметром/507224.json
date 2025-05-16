@@ -1,0 +1,38 @@
+{
+    "id": 507224,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра k, при каждом из которых уравнение имеет хотя бы одно решение на интервале",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/9a/9a2d05aa811b8deb1c33891572158bf3.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c3bec8e3f1a87157edbc4f5dd1d35f83.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Обо­зна­чим   тогда  В силу введённых обо­зна­че­ний  По­это­му ис­ко­мы­ми яв­ля­ют­ся те зна­че­ния па­ра­мет­ра, при ко­то­рых пря­мые, за­да­ва­е­мые урав­не­ни­ем  имеют с еди­нич­ной окруж­но­стью  точки пе­ре­се­че­ния, ле­жа­щие в пер­вой ко­ор­ди­нат­ной чет­вер­ти () и от­лич­ные от точек пря­мой  В си­сте­ме ко­ор­ди­нат, изоб­ражённой на ри­сун­ке, урав­не­ние  задаёт пучок пря­мых (от­ме­че­ны оран­же­вым цве­том), про­хо­дя­щих через точку   Най­дем уг­ло­вой ко­эф­фи­ци­ент пря­мой, про­хо­дя­щей через (1; 0):  У пря­мой, про­хо­дя­щей через точку  уг­ло­вой ко­эф­фи­ци­ент  Таким об­ра­зом, усло­вие за­да­чи вы­пол­ня­ет­ся, если или  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/c3/c31bd2bb1fdd79b88807b3daa37fac99.svg",
+            "https://ege.sdamgia.ru/formula/svg/48/48b96e2ffc6db122fda3182714759b38.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/6871321a7df6cf3734e44501eb210c51.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/2824e6c139f71ff178a33d9097aa2959.svg",
+            "https://ege.sdamgia.ru/formula/svg/9c/9ca8a906a3860bb8631910622e29d584.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a83ef51fa84728342a20e1bac05bf8bb.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a67aeb079c0221484b146bd137645838.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/10529ae692c6506344abdd790d6fb960.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/859f164597f4d6b962c31c0a6de81c4a.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b0ff445e690622a8195c0942eb852095.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=109047",
+            "https://ege.sdamgia.ru/formula/svg/8d/8d85a502fad3607d7f3ce20666d399fb.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54da59c9bc495197bb5654ebbbee4eb2.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bfe521f5dd0441f4af2d8808d5f1fe10.svg",
+            "https://ege.sdamgia.ru/formula/svg/be/be29ea2faf5331eeea34717dfb816e82.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/08d3fae65fc4744fd14574c3d4838f90.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2c30778aa34a978693eec2e580590a32.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "515710"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=507224"
+}

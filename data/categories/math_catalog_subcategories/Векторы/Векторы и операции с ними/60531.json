@@ -1,0 +1,56 @@
+{
+    "id": 60531,
+    "topic": "2",
+    "condition": {
+        "text": "Диагонали ромба ABCD равны 29 и 52. Найдите длину вектора",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/18/1807d79985e4cea261befbbc16cb744b.svg",
+            "https://math-ege.sdamgia.ru/pic?id=a3596"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Диа­го­на­ли изоб­ра­жен­но­го на ри­сун­ке ромба ABCD равны 12 и 16. Най­ди­те длину век­то­ра Сумма век­то­ров  равна век­то­ру  Длина век­то­ра  равна  Ответ: 16.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=143413",
+            "https://ege.sdamgia.ru/formula/svg/be/bed0597c7d4cea9983fbde4e44078fcd.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/566974bdc357540d7e042a533d319b9d.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f8f2667a24ae4fa770082429b3ede36c.svg",
+            "https://ege.sdamgia.ru/formula/svg/f5/f51c311ffaf7730d41ef1ac81e156cbd.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b157d04f2dce59999a41076690eb56e6.svg"
+        ]
+    },
+    "answer": "",
+    "analogs": [
+        "27714",
+        "26447",
+        "60505",
+        "60507",
+        "...",
+        "26447",
+        "60505",
+        "60507",
+        "60509",
+        "60511",
+        "60513",
+        "60515",
+        "60517",
+        "60519",
+        "60521",
+        "60523",
+        "60525",
+        "60527",
+        "60529",
+        "60533",
+        "60535",
+        "60537",
+        "60539",
+        "60541",
+        "60543",
+        "60545",
+        "60547",
+        "60549",
+        "60551",
+        "60553"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=60531"
+}

@@ -1,0 +1,26 @@
+{
+    "id": 661270,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых уравнение имеет хотя бы одно решение.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ab/abad50ea5d55dfe48638737975718cb0.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пре­об­ра­зу­ем урав­не­ние:За­ме­тим, что  по­это­му пра­вая часть ра­вен­ства не­от­ри­ца­тель­на при всех зна­че­ни­ях пе­ре­мен­ной. Левая часть урав­не­ние не­по­ло­жи­тель­на, зна­чит, ра­вен­ство до­сти­га­ет­ся тогда и толь­ко тогда, когда обе части равны нулю:  Таким об­ра­зом, урав­не­ние имеет ко­рень x  =  a при a  =  0, a  =  −1,  При про­чих зна­че­ни­ях па­ра­мет­ра урав­не­ние ре­ше­ний не имеет. Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/f9/f9b1a69f65521f7546341041169d5f6c.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f85d72933544069031f05a995a3f7354.svg",
+            "https://ege.sdamgia.ru/formula/svg/ce/ce6fa7517d13f3c008433f85cbad76fd.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/13fe400436da07c80dc856c67bd4ceea.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3d217aa68c4f50e8ee8af67a8b318b0a.svg",
+            "https://ege.sdamgia.ru/formula/svg/c6/c62ce66ffd2ee07e992b4d8593f47a7b.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "661324"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=661270"
+}

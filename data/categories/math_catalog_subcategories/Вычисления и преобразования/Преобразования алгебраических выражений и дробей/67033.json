@@ -1,0 +1,53 @@
+{
+    "id": 67033,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите значение выражения если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/f4/f4d81a67d7b3de988bcf137707584ed4.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/ee60d8fe28cf02051151f2fda5e6b4c6.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/eda639e3ba96ae0a3a63e18f89aa2b42.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Ис­ко­мое вы­ра­же­ние равно сумме двух за­дан­ных:   Ответ: 14.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/b3/b3e1bb07d14e9106c06df9541293cced.svg"
+        ]
+    },
+    "answer": "14",
+    "analogs": [
+        "26819",
+        "66979",
+        "66981",
+        "...",
+        "66979",
+        "66981",
+        "66983",
+        "66985",
+        "66987",
+        "66989",
+        "66991",
+        "66993",
+        "66995",
+        "66997",
+        "66999",
+        "67001",
+        "67003",
+        "67005",
+        "67007",
+        "67009",
+        "67011",
+        "67013",
+        "67015",
+        "67017",
+        "67019",
+        "67021",
+        "67023",
+        "67025",
+        "67027",
+        "67029",
+        "67031"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=67033"
+}

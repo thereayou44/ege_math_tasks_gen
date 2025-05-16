@@ -1,0 +1,38 @@
+{
+    "id": 562296,
+    "topic": "Д10",
+    "condition": {
+        "text": "На рисунке изображён график функции вида где числа a, b и c — целые. Найдите значение дискриминанта уравнения",
+        "images": [
+            "https://ege.sdamgia.ru/get_file?id=109383",
+            "https://ege.sdamgia.ru/formula/svg/2d/2dd638553299ee866a14b2c0495c7997.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f8e31d04d03706ed2426c569c8240568.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По ри­сун­ку опре­де­ля­ем, что   зна­чит,  Тогда дис­кри­ми­нант урав­не­ния  равенОтвет: 24.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/33/33182bd85fe3761a1e3c6ce0b35585ef.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f37998f0f690dc15f53564219ceeaf80.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/97c89e64168fa1feff96de3413144241.svg",
+            "https://ege.sdamgia.ru/formula/svg/05/0515d0f4b9c284ba0ecf93d264e1d74c.svg"
+        ]
+    },
+    "answer": "24",
+    "analogs": [
+        "562283",
+        "562290",
+        "562291",
+        "562292",
+        "...",
+        "562290",
+        "562291",
+        "562292",
+        "562293",
+        "562294",
+        "562295",
+        "628363",
+        "628481"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=562296"
+}

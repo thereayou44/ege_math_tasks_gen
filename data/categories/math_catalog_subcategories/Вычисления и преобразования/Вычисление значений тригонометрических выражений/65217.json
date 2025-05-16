@@ -1,0 +1,63 @@
+{
+    "id": 65217,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/5d/5df47fbda456d6bcd60a241e7916a8e1.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/5262c5cf55d532a524c720254fd60673.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Вы­пол­ним пре­об­ра­зо­ва­ния:   Ответ: 0,25.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/1f/1f645d20f5c411639d2dd71044fb409c.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d66d357c267f6c8206fb0ee5e3171245.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c2c8f91bc0960b881b80c50d2b91c818.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fbe83885a3d1dbec034ed40f80f078c3.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d66d357c267f6c8206fb0ee5e3171245.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c2c8f91bc0960b881b80c50d2b91c818.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fbe83885a3d1dbec034ed40f80f078c3.svg",
+            "https://ege.sdamgia.ru/formula/svg/be/becd98b71e12cd7e98c0a6f615e50dc3.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/0716dafc91ffa4af54d152dcae53ac0c.svg"
+        ]
+    },
+    "answer": "0,25",
+    "analogs": [
+        "26787",
+        "65221",
+        "65161",
+        "...",
+        "65221",
+        "65161",
+        "65163",
+        "65165",
+        "65167",
+        "65169",
+        "65171",
+        "65173",
+        "65175",
+        "65177",
+        "65179",
+        "65181",
+        "65183",
+        "65185",
+        "65187",
+        "65189",
+        "65191",
+        "65193",
+        "65195",
+        "65197",
+        "65199",
+        "65201",
+        "65203",
+        "65205",
+        "65207",
+        "65209",
+        "65211",
+        "65213",
+        "65215",
+        "65219"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=65217"
+}

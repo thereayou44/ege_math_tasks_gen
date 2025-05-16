@@ -1,0 +1,30 @@
+{
+    "id": 509121,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображён график функции Найдите значение x, при котором",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=154254",
+            "https://ege.sdamgia.ru/formula/svg/01/01eb6933ae18b80b796113c0b3de17df.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/527a8818b814e65e3b6f073e8d494df1.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По гра­фи­ку, f(2)  =  −2, тогда  Таким об­ра­зом, Ответ: 32.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/41/419e226f26f98e11de925835c77ec6fb.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/8945a5a46497b24a38af60ed01ab83c2.svg"
+        ]
+    },
+    "answer": "32",
+    "analogs": [
+        "509118",
+        "509119",
+        "509120",
+        "...",
+        "509119",
+        "509120",
+        "509122"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509121"
+}

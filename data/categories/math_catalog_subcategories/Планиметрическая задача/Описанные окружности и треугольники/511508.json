@@ -1,0 +1,34 @@
+{
+    "id": 511508,
+    "topic": "17",
+    "condition": {
+        "text": "В остроугольном треугольнике ABC проведены высоты AP и CQ.а) Докажите, что угол PAC равен углу PQC.б) Найдите радиус окружности, описанной около треугольника ABC, если известно, что PQ=10 и",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/b3/b3b77b43aeaae037a91354bda5c6ec82.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Рас­смот­рим окруж­ность с диа­мет­ром AC. Углы APC и AQC  — пря­мые, а зна­чит яв­ля­ют­ся впи­сан­ны­ми опи­ра­ю­щи­ми­ся на диа­метр AC. Зна­чит, точки A, Q, P и C лежат на одной окруж­но­сти, а, сле­до­ва­тель­но, равны и впи­сан­ные углы PAC и PQC этой окруж­но­сти, опи­ра­ю­щи­е­ся на дугу PC, что и тре­бо­ва­лось до­ка­зать. б)  Пря­мо­уголь­ные тре­уголь­ни­ки ABP и CBQ имеют общий угол ABC, сле­до­ва­тель­но, они по­доб­ны, от­ку­да  или  но тогда и тре­уголь­ни­ки BAC и BPQ также по­доб­ны, при­чем ко­эф­фи­ци­ент по­до­бия равен  от­ку­да  Тогда ра­ди­ус R окруж­но­сти, опи­сан­ной около тре­уголь­ни­ка ABC равен  Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=113452",
+            "https://ege.sdamgia.ru/formula/svg/7e/7eb4f20d40a1cdc4f3c32a83c7fd5286.svg",
+            "https://ege.sdamgia.ru/formula/svg/5e/5e46dc9cfd5a76a883c3383995cd9643.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/db27122c4c26c230e8d83d0966e6f650.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1c3865008279141d3ccf6466cf5bdacd.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/39e678d4275eab6187512e9b11ece04e.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/ae98a516e2d93f9653f258c91ff72739.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "508320",
+        "508393",
+        "509404",
+        "...",
+        "508393",
+        "509404",
+        "511509",
+        "511587"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511508"
+}

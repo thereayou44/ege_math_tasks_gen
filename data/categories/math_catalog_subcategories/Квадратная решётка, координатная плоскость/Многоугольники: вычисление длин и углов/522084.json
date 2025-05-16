@@ -1,0 +1,22 @@
+{
+    "id": 522084,
+    "topic": "Д4",
+    "condition": {
+        "text": "На клетчатой бумаге с размером клетки 1×1 изображён параллелограмм. Найдите длину его меньшей диагонали.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=65830"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Про­ве­дем до­пол­ни­тель­ные по­стро­е­ния, как по­ка­за­но на ри­сун­ке. По ри­сун­ку на­хо­дим длину диа­го­на­ли по тео­ре­ме Пи­фа­го­ра:  Ответ: 15.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=65831",
+            "https://ege.sdamgia.ru/formula/svg/5b/5be68914ed425887be5013473e320a4d.svg"
+        ]
+    },
+    "answer": "15",
+    "analogs": [
+        "521984"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=522084"
+}

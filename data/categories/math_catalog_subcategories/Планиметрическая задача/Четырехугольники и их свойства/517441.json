@@ -1,0 +1,30 @@
+{
+    "id": 517441,
+    "topic": "17",
+    "condition": {
+        "text": "Точка E — середина боковой стороны CD трапеции ABCD. На стороне AB взяли точку K так, что прямые CK и AE параллельны. Отрезок CK и BE пересекаются в точке O.а) Доказать, что CO = KO.б) Найти отношение оснований трапеции BC и AD, если площадь треугольника BCK составляет площади трапеции ABCD.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/d7/d764e6dafe4ec7ea8f3e400d1587fb7e.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.  а)  Пусть пря­мые BC  и AE пе­ре­се­ка­ют­ся в точке L. Тогда тре­уголь­ни­ки AED и LEC равны, так как DE  =  CE, ∠AED = ∠LEC, ∠ADE = ∠LCE. Сле­до­ва­тель­но,  и че­ты­рех­уголь­ник KCLA  — это тра­пе­ция. Пря­мая BE со­дер­жит точку пе­ре­се­че­ния бо­ко­вых сто­рон тра­пе­ции и се­ре­ди­ну ее ос­но­ва­ния AL. Тогда по за­ме­ча­тель­но­му свой­ству тра­пе­ции она со­дер­жит и се­ре­ди­ну ос­но­ва­ния КС  — точку O. Тем самым б)  По­сколь­ку тре­уголь­ни­ки AED и LEC равны,  Из по­до­бия тре­уголь­ни­ков KBC и ABL сле­ду­ет, что  то есть  Тогда:Ответ: 2 : 9. При­ве­дем дру­гое ре­ше­ние пунк­та а).Пусть пря­мые BC  и AE пе­ре­се­ка­ют­ся в точке L. Тогда тре­уголь­ни­ки AED и LEC равны, так как DE  =  CE, ∠AED = ∠LEC, ∠ADE = ∠LCE. Сле­до­ва­тель­но, от­ре­зок BE  — ме­ди­а­на ABL. Тре­уголь­ни­ки ABE и KBO по­доб­ны с ко­эф­фи­ци­ен­том по­до­бия  Тре­уголь­ни­ки LBE и CBO по­доб­ны с тем же ко­эф­фи­ци­ен­том по­до­бия. Тогда ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=147394",
+            "https://ege.sdamgia.ru/formula/svg/ce/cec358d093a2875f6e59a85fb9aececd.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e39e232663c533648859fc261ca6e224.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c80c7d23743d35c7f2b33cff9129a949.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/ea3b2f988beab3ee09a145de2b74cacc.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d064c7def610a801fc4539251494d37.svg",
+            "https://ege.sdamgia.ru/formula/svg/93/936de3d56e3b6b63a69c849fb336275b.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f09e91681cea3d98ffacbbe947a92834.svg",
+            "https://ege.sdamgia.ru/formula/svg/4e/4e20eb00245b16f9ddc812b6bb127f23.svg"
+        ]
+    },
+    "answer": " 2 : 9.",
+    "analogs": [
+        "517448",
+        "517455"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=517441"
+}

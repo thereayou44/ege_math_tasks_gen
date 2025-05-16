@@ -1,0 +1,40 @@
+{
+    "id": 65887,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите если При",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/7f/7f53f49779c311e52d3df92294f69b3e.svg",
+            "https://ege.sdamgia.ru/formula/svg/c6/c645cd99f919283c63b3cbd309b81822.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e26534c344ba4b4523f387e99862aaed.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Най­ди­те  если  при Вы­пол­ним пре­об­ра­зо­ва­ния: по­это­му  Ответ: 1.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/7f/7f53f49779c311e52d3df92294f69b3e.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/61c8b70e7ec3d86c150c0f4b41396225.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e26534c344ba4b4523f387e99862aaed.svg",
+            "https://ege.sdamgia.ru/formula/svg/0a/0a6537d032228c106db7871b36f37bcf.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/ee9ba60ae0cc3ebcb3b5a38e01d9df08.svg"
+        ]
+    },
+    "answer": "1",
+    "analogs": [
+        "26803",
+        "65891",
+        "65895",
+        "65877",
+        "...",
+        "65891",
+        "65895",
+        "65877",
+        "65879",
+        "65881",
+        "65883",
+        "65885",
+        "65889",
+        "65893"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=65887"
+}

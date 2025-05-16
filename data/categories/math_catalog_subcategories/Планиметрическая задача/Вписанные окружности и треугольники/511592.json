@@ -1,0 +1,39 @@
+{
+    "id": 511592,
+    "topic": "17",
+    "condition": {
+        "text": "Точка О — центр окружности, описанной около остроугольного треугольника ABC. На продолжении отрезка AO за точку О отмечена точка K так, что а) Докажите, что четырехугольник OBKC вписанный.б) Найдите радиус окружности, описанной около треугольника KBC, если известно, что радиус окружности, описанной около треугольника АBC равен 8, а",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/2e/2e718712d5d48501b557f73e2623ae7d.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f1f3dd53ebacde2c89075828558b79a2.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Пусть  тогда  где H  — про­ек­ция О на BC. По­это­му  Из усло­вия  сле­ду­ет, что  Тогда  (опи­ра­ют­ся на хорду ОС). Тогда по при­зна­ку, свя­зан­но­му со свой­ством впи­сан­ных углов, точки О, В, К, С лежат на одной окруж­но­сти.б)   тогда  Рас­смот­рим тре­уголь­ник ABC. В нем:  и   Из пунк­та а)  тогда  Так как че­ты­рех­уголь­ник OBKC впи­сан­ный, по­лу­ча­ем: тогда  Рас­смот­рим  тре­уголь­ник KBC, в нем  от­ку­да Ответ:5.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=148377",
+            "https://ege.sdamgia.ru/formula/svg/4a/4ad572491446a0f65cdad19051394a1b.svg",
+            "https://ege.sdamgia.ru/formula/svg/9a/9aa9498030d1897aee293e584b71a38e.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/81aac92e9681791f0493a86c1b6a6ca1.svg",
+            "https://ege.sdamgia.ru/formula/svg/9a/9a9f17def60744508bc5051f4a8dc6c7.svg",
+            "https://ege.sdamgia.ru/formula/svg/fa/fa9fac6029d6cff2257ad02a2bf4f433.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/ea0c53bd48846b0191da58b5b23792ef.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/db70e36dc42211d5686baaa2d38dc386.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c9d029a6a4201918ab59a243f4144f4f.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f4fd8309d79340c45a6f3865efa217a7.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/61d33182b0bc137de8617b62d3a00765.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5dd65e7e6881b7243dc0f87550f1a48e.svg",
+            "https://ege.sdamgia.ru/formula/svg/b2/b27f8775ffbeda2ae5805ccb7335e347.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a31c7f042c0454ef5f25d1b2830c19e9.svg",
+            "https://ege.sdamgia.ru/formula/svg/44/44d92dc2d0e46fb12e9843e7325e4f88.svg",
+            "https://ege.sdamgia.ru/formula/svg/14/14b6b268145236d40057721ab4ad7d46.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/634f490ea8106408081d26ddcf5c8f51.svg"
+        ]
+    },
+    "answer": "5.",
+    "analogs": [
+        "509425",
+        "511589"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511592"
+}

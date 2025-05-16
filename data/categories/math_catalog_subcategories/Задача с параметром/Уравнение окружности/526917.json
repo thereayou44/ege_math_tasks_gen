@@ -1,0 +1,46 @@
+{
+    "id": 526917,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых система уравненийимеет более одного решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/66/663ac6af6884ba9e674666919a58eeb0.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Изоб­ра­зим на ко­ор­ди­нат­ной плос­ко­сти мно­же­ство точек, ко­ор­ди­на­ты ко­то­рых удо­вле­тво­ря­ют пер­во­му урав­не­нию си­сте­мы. Рас­смот­рим два слу­чая. Если  имеем: По­лу­чен­ное урав­не­ние за­да­ет пря­мую с ко­эф­фи­ци­ен­том на­кло­на  и про­хо­дя­щую через точки  и Если  имеем:то есть  По­лу­чен­ное урав­не­ние за­да­ет окруж­ность с цен­тром в точке  и ра­ди­у­сом 5.Эти пря­мая и окруж­ность пе­ре­се­ка­ют­ся в двух точ­ках  и  ле­жа­щих на окруж­но­сти  по­это­му в пер­вом слу­чае по­лу­ча­ем два луча l1 и l2 с кон­ца­ми в точ­ках A и B со­от­вет­ствен­но, во вто­ром  — дугу  с кон­ца­ми в тех же точ­ках точ­ках (см. рис.). За­ме­тим, что точка  лежит на дуге  и от­ре­зок QC пер­пен­ди­ку­ля­рен пря­мой, по­лу­чен­ной в пер­вом слу­чае.Рас­смот­рим вто­рое урав­не­ние си­сте­мы. Оно за­да­ет пря­мую m, па­рал­лель­ную лучам l1 и l2 или со­дер­жа­щую их.При  пря­мая m со­дер­жит лучи l1 и l2, то есть ис­ход­ная си­сте­ма имеет бес­ко­неч­ное число ре­ше­ний.При  пря­мая m про­хо­дит через точку C, зна­чит, пря­мая m ка­са­ет­ся дуги  и не имеет общих точек с лу­ча­ми l1 и l2, то есть ис­ход­ная си­сте­ма имеет одно ре­ше­ние.При  пря­мая m пе­ре­се­ка­ет дугу  в двух точ­ках и не имеет общих точек с лу­ча­ми l1 и l2, то есть ис­ход­ная си­сте­ма имеет два ре­ше­ния.При  или   пря­мая m не имеет общих точек с лу­ча­ми l1 и l2 и дугой  то есть ис­ход­ная си­сте­ма не имеет ре­ше­ний.Зна­чит, ис­ход­ная си­сте­ма имеет более од­но­го ре­ше­ния при  Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=159115",
+            "https://ege.sdamgia.ru/formula/svg/ec/ecef1cfb5523bce69af301ce85886185.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/898dac9da596b503a0da9de3a1c0dae9.svg",
+            "https://ege.sdamgia.ru/formula/svg/ce/ceef78b61bf01306cc7e80344c92c19d.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cb1ff183a6df4e4d131c3eeb103fd2e0.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/19b1b0972a6c2e6ba962cd399bf684ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f8dc56a4656951b48530207fb24faf2e.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/8223c285c10d428156a98414eb9304a7.svg",
+            "https://ege.sdamgia.ru/formula/svg/44/4424a9aea24d4754d1b4040544ebfad1.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/8615a91e3ca661b8ce4c8d8eb8181a7e.svg",
+            "https://ege.sdamgia.ru/formula/svg/bd/bd2f2af738c6b0d794bc7e3afb86cef5.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c2ec2baee7636c4d0a6c9dd9cfdc5481.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/636d40403a86ca5f96033d74a3339ae5.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/260b57b4fdee8c5a001c09b555ccd28d.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/56256ac38f754c1f4f0f3fce1cef4043.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/260b57b4fdee8c5a001c09b555ccd28d.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/19a63eabe122d4d99b745d91463baab6.svg",
+            "https://ege.sdamgia.ru/formula/svg/6b/6b15593c96bea1f76e1d532a3d0c4e8e.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/260b57b4fdee8c5a001c09b555ccd28d.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e207943f0f535cad8096a0129f9c4700.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/260b57b4fdee8c5a001c09b555ccd28d.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c94a2e74729e401ffc3376499c653574.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e5a152130fc82ac75cc7745084f714d.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0b4fcca6163464bf22afde8686b7c117.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/edff7099bb98d463137563eef2f7a505.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6e0b983fc8ae9ee593103344f4f02f65.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "526911"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=526917"
+}

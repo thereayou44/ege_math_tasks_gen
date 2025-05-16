@@ -1,0 +1,59 @@
+{
+    "id": 643058,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых система уравнений имеет ровно 2 различных решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/04/044df7b1f832c9abf2a20b3b0ed0dbd0.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.  Решим за­да­чу гра­фи­че­ски. Опре­де­лим, при каких зна­че­ни­ях па­ра­мет­ра гра­фи­ки Г1 и Г2 пер­во­го и вто­ро­го урав­не­ния со­от­вет­ствен­но имеют ровно две общие точки. Пер­вое урав­не­ние рав­но­силь­но со­во­куп­но­стиУрав­не­ние  за­да­ет пря­мую  Си­сте­ма  за­да­ет часть па­ра­бо­лы  рас­по­ло­жен­ную не выше пря­мой  Абс­цис­сы точек пе­ре­се­че­ния пря­мой  и па­ра­бо­лы  най­дем из урав­не­нияОр­ди­на­ты точек пе­ре­се­че­ния суть y(0)  =  2, y(7)  =  9. Ко­ор­ди­на­ты вер­ши­ны па­ра­бо­лы: xв  =  3, yв  =  −7. Гра­фик Г1 изоб­ра­жен на ри­сун­ке цве­том охры. Урав­не­ние  за­да­ет се­мей­ство пря­мых, про­хо­дя­щих через точку (−1; 0). Если a  =  1, то пря­мая  па­рал­лель­на пря­мой  Вы­яс­ним, при каких зна­че­ни­ях па­ра­мет­ра пря­мая  яв­ля­ет­ся ка­са­тель­ной к па­ра­бо­ле  В этом слу­чае долж­но иметь един­ствен­ное ре­ше­ние урав­не­ние а по­то­му дис­кри­ми­нант квад­рат­но­го урав­не­ния дол­жен быть равен нулю. Имеем:Точка ка­са­ния имеет абс­цис­су  При a  =  −2 на­хо­дим: x  =  2, со­от­вет­ству­ю­щая пря­мая изоб­ра­же­на крас­ным цве­том. При a  =  −14 абс­цис­са точки ка­са­ния x  =  −4 < 0, то есть точка ка­са­ния не лежит на гра­фи­ке Г1.При  гра­фи­ки Г1 и Г2 пе­ре­се­ка­ют­ся лишь в одной точке, ле­жа­щей во вто­рой чет­вер­ти на пря­мой  При  (пря­мая изоб­ра­же­на на гра­фи­ке крас­ным цве­том) име­ют­ся ровно две точки пе­ре­се­че­ния: одна лежит во вто­рой чет­вер­ти на пря­мой  вто­рая лежит в чет­вер­той чет­вер­ти и яв­ля­ет­ся точ­кой ка­са­ния с па­ра­бо­лой. При  (пря­мая изоб­ра­же­на ли­ло­вым) гра­фи­ки Г1 и Г2 пе­ре­се­ка­ют­ся ровно в двух точ­ках, обе из ко­то­рых при­над­ле­жат па­ра­бо­ле.При  гра­фи­ки имеют три точки пе­ре­се­че­ния, две из ко­то­рых лежат на па­ра­бо­ле, а тре­тья лежит на пря­мой  и рас­по­ло­же­на в пер­вой чет­вер­ти так, что ее абс­цис­са боль­ше 2. При  (слу­чай  изоб­ра­жен зе­ле­ным) гра­фи­ки Г1 и Г2 пе­ре­се­ка­ют­ся ровно в двух точ­ках, одна из ко­то­рых лежит на па­ра­бо­ле, а вто­рая лежит на пря­мой  и рас­по­ло­же­на в пер­вой чет­вер­ти так, что ее абс­цис­са лежит на от­рез­ке [0; 2]. При  у гра­фи­ков Г1 и Г2 име­ет­ся лишь одна общая точка, она лежит во вто­рой чет­вер­ти на пря­мой  Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=137542",
+            "https://ege.sdamgia.ru/formula/svg/11/1197c369539884c8b3105b860babbda4.svg",
+            "https://ege.sdamgia.ru/formula/svg/69/69cabe0b39f5efeb25bf6a1807da495a.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8f70cf019f61286da489af7b669fc3e3.svg",
+            "https://ege.sdamgia.ru/formula/svg/c1/c1922db32a43ae2a5b80a8fb3eab7a7b.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a9db34ac3b005de068930c8fbabf7ec7.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8f70cf019f61286da489af7b669fc3e3.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4a1fe89934b5d62580dbe85128f5f7b2.svg",
+            "https://ege.sdamgia.ru/formula/svg/24/24fc124e8a6bff7955c58bd16b81916a.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/63711d05d8e32d7a1755c4da6227ba45.svg",
+            "https://ege.sdamgia.ru/formula/svg/96/965e20657bcc60d95d5c9c4ce1c1837d.svg",
+            "https://ege.sdamgia.ru/formula/svg/96/965e20657bcc60d95d5c9c4ce1c1837d.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8f70cf019f61286da489af7b669fc3e3.svg",
+            "https://ege.sdamgia.ru/formula/svg/96/965e20657bcc60d95d5c9c4ce1c1837d.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/327f56d1d71595c75b74c3ed3a940e66.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/3014b183a7b386386bdebff95bf75eb9.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/36b8c4e13c8191ef65e89c559aa04e23.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e84a2476b173ee1f93ad9693a909a8eb.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e2122c198b99515f4b5194c752d7ba1b.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c2b72cff5a1910b6bbc551ef23546418.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d6c143fe3a116ea0d497ea11cb1d8803.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e2122c198b99515f4b5194c752d7ba1b.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f35f5b8341b02cbd6260d013c49f48ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c25e6cb59364b3da0b208611893fc721.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d6c143fe3a116ea0d497ea11cb1d8803.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8c9323371852fdd310cf9498746c5db9.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/704425a03ba765e779cf7402051c554c.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8f70cf019f61286da489af7b669fc3e3.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7a55a9b0bf5dbcd9ce04cd4a6fee3ddc.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/55a447b8c92bfa1c54cea83f6bddf1d4.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/3872c9ae3f427af0be0ead09d07ae2cf.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0b25d5d23bc367bccaeb21195c61b2eb.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4a1fe89934b5d62580dbe85128f5f7b2.svg",
+            "https://ege.sdamgia.ru/formula/svg/8d/8d8de12226c84eab7c7e315852464450.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f8c4895cdab8a9dbe2b2b3015baba24b.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4a1fe89934b5d62580dbe85128f5f7b2.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c80d698182fdad9b1404a6558ede8c5d.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8f70cf019f61286da489af7b669fc3e3.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e860a63a87f29df69ec7a7b11acee504.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "642737"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=643058"
+}

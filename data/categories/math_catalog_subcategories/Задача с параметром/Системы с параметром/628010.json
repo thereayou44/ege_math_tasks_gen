@@ -1,0 +1,42 @@
+{
+    "id": 628010,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при которых системаимеет три различных корня.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/c0/c0464818dbcba1e176fbfaade938238b.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­пи­шем пер­вое урав­не­ние си­сте­мы в видеПри  левая часть не имеет смыс­ла. При  урав­не­ние задаёт пря­мую  и ги­пер­бо­лу  (см. рис.). При каж­дом зна­че­нии a урав­не­ние  задаёт пря­мую с уг­ло­вым ко­эф­фи­ци­ен­том a, про­хо­дя­щую через на­ча­ло ко­ор­ди­нат.Число ре­ше­ний ис­ход­ной си­сте­мы равно числу точек пе­ре­се­че­ния пря­мой  и ги­пер­бо­лы  с пря­мой  при усло­вии Пря­мая  пе­ре­се­ка­ет пря­мую  при  и при  пе­ре­се­ка­ет пра­вую ветвь ги­пер­бо­лы при  пе­ре­се­ка­ет левую ветвь ги­пер­бо­лы при  про­хо­дит через точку пе­ре­се­че­ния пря­мой  и ги­пер­бо­лы при Таким об­ра­зом, ис­ход­ная си­сте­ма имеет три раз­лич­ных корня при  и при  Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=105006",
+            "https://ege.sdamgia.ru/formula/svg/94/94dc36977c5fe64e9bb52a1e23231f1d.svg",
+            "https://ege.sdamgia.ru/formula/svg/0a/0a0cd6bf5164670c42b37921edfb9c90.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/21a328834c6731ea5761daa4e0d2b6c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a267007228f9f654a0d28dec6932c31.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f3ad3033a11359ad2f48fd69e29693ce.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d38138d655b44f7560b26504c31bdb11.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a267007228f9f654a0d28dec6932c31.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f0664c7a6c8be43b2dcf3c3c1b5b1166.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d38138d655b44f7560b26504c31bdb11.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1d7dff660828b908fa67004db6545eb8.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d38138d655b44f7560b26504c31bdb11.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a267007228f9f654a0d28dec6932c31.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf8298b0e273301afdd921e7e4cf6c2b.svg",
+            "https://ege.sdamgia.ru/formula/svg/20/20b0570662b2c42c6b2fbebf3d8602a1.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a31a39c90579e17eac33a46ef6538822.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/904dbe7d83b40f0c7990781c1373b9c0.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a267007228f9f654a0d28dec6932c31.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/1391b39101da3f60b57689fb522f7248.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/4973fd28c90fd454ce2e7d9da6b6674e.svg",
+            "https://ege.sdamgia.ru/formula/svg/93/938a483b3253d98861d6376464589a09.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c7dd0d08dc728027aa3ccdc0df6c951b.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "627993"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=628010"
+}

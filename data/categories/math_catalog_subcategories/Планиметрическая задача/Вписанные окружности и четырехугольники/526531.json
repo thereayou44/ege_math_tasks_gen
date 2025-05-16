@@ -1,0 +1,31 @@
+{
+    "id": 526531,
+    "topic": "17",
+    "condition": {
+        "text": "Точка O — центр вписанной в треугольник ABC окружности. Прямая BO вторично пересекает описанную около этого треугольника окружность в точке P.а) Докажите, что б) Найдите площадь треугольника APC, если радиус описанной около треугольника ABC окружности равен 8, а",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/4c/4cd64757de8fdb62a390d52d61be74f4.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/57e510e49e986db5c35fd7055d8d94f0.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  По­сколь­ку точка O  — центр впи­сан­ной в тре­уголь­ник ABC окруж­но­сти, лучи BO и CO яв­ля­ют­ся бис­сек­три­са­ми углов тре­уголь­ни­ка ABC. Угол POC яв­ля­ет­ся внеш­ним углом тре­уголь­ни­ка BOC. Сле­до­ва­тель­но,Углы ACP и ABP равны, по­сколь­ку опи­ра­ют­ся на одну и ту же дугу окруж­но­сти, опи­сан­ной около тре­уголь­ни­ка ABC, по­это­муТаким об­ра­зом, б)  Пусть   — ра­ди­ус окруж­но­сти, опи­сан­ной около тре­уголь­ни­ка ABC. Хорды AP и CP стя­ги­ва­ют рав­ные дуги окруж­но­сти, опи­сан­ной около тре­уголь­ни­ка ABC, по­это­муТаким об­ра­зом, пло­щадь тре­уголь­ни­ка APC равнаОтвет: б) ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=150290",
+            "https://ege.sdamgia.ru/formula/svg/d8/d85fb450dce609a40515220f2216e926.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e84d71c447b14e3ef83884f777a60d48.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/8196fbfc76233dfaecf46457da048929.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8f065ab0383837a24444763489001dda.svg",
+            "https://ege.sdamgia.ru/formula/svg/b6/b6fd2da7483891d74fe17461e8ffffb2.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e592da8492229f56b1feac76268942e1.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e081a0217832491a08a184959962a803.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/ee703a3e8c9a2bb84e3e2b57ba9afd03.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/453d3cbad0d3c464eda5e8cac47b0747.svg"
+        ]
+    },
+    "answer": " б) ",
+    "analogs": [
+        "526292"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=526531"
+}

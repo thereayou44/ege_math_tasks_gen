@@ -1,0 +1,57 @@
+{
+    "id": 62221,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите значение выражения",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/c2/c2f1bafaa9ef513a4fde2f9d4e3144f7.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Най­ди­те зна­че­ние вы­ра­же­ния Вы­пол­ним пре­об­ра­зо­ва­ния:   Ответ: 2.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/0f/0f0113a819669d37f9d1bcc0401c8dbf.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/9964a1c7ba3b2edf5a3eab3354ce6ba3.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/ae7abfcf3809be9db20520e89673eb90.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e1d9509e44baee5f312dc340bc7beea0.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f6620b972a0f5d61eb0932775901a435.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/ea84aba7592fac5789e91a9ad350fcde.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e1d9509e44baee5f312dc340bc7beea0.svg"
+        ]
+    },
+    "answer": "-15",
+    "analogs": [
+        "26744",
+        "62205",
+        "62251",
+        "530668",
+        "...",
+        "62205",
+        "62251",
+        "530668",
+        "530688",
+        "621766",
+        "621896",
+        "62207",
+        "62209",
+        "62211",
+        "62213",
+        "62215",
+        "62217",
+        "62219",
+        "62223",
+        "62225",
+        "62227",
+        "62229",
+        "62231",
+        "62233",
+        "62235",
+        "62237",
+        "62239",
+        "62241",
+        "62245",
+        "62247",
+        "62249"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=62221"
+}

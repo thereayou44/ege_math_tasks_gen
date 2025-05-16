@@ -1,0 +1,63 @@
+{
+    "id": 64243,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите если и",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/a8/a86cef9f699f8c2bc21727572571f792.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/277b444e7b6db005b0bdefe07cf5ca3c.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa8c49f152c2f40917cecf3c6e7a5ee0.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Най­ди­те  если  и По­сколь­ку угол  лежит в четвёртой чет­вер­ти, его тан­генс от­ри­ца­те­лен. По­это­му   Ответ: −3.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/a8/a86cef9f699f8c2bc21727572571f792.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1b8957f98d027997667b4fc83116d804.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/657f17745d3684597b40e6e9bf08fa52.svg",
+            "https://ege.sdamgia.ru/formula/svg/bc/bccfc7022dfb945174d9bcebad2297bb.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/095b78d1f85f2edfa4061ded6bce5c00.svg"
+        ]
+    },
+    "answer": "0,6",
+    "analogs": [
+        "26775",
+        "64273",
+        "548507",
+        "548526",
+        "...",
+        "64273",
+        "548507",
+        "548526",
+        "64211",
+        "64213",
+        "64215",
+        "64217",
+        "64219",
+        "64221",
+        "64223",
+        "64225",
+        "64227",
+        "64229",
+        "64231",
+        "64233",
+        "64235",
+        "64237",
+        "64239",
+        "64241",
+        "64245",
+        "64247",
+        "64249",
+        "64251",
+        "64253",
+        "64255",
+        "64257",
+        "64259",
+        "64261",
+        "64263",
+        "64265",
+        "64267",
+        "64271"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=64243"
+}

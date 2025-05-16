@@ -1,0 +1,34 @@
+{
+    "id": 511589,
+    "topic": "17",
+    "condition": {
+        "text": "Точка О — центр окружности, вписанной в треугольник ABC. На продолжении отрезка AO за точку О отмечена точка K так, что BK = OK.а) Докажите, что четырехугольник ABKC вписанный.б) Найдите длину отрезка AO, если известно, что радиусы вписанной и описанной окружностей треугольника ABC равны 5 и 15 соответственно, а OK = 8.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Пусть  Так как О  — центр впи­сан­ной окруж­но­сти тре­уголь­ни­ка ABC, то АО, ВО  — бис­сек­три­сы углов А и В, зна­чит,  Угол BOK внеш­ний для тре­уголь­ни­ка AOB, по­это­му  (см. рис.).Так как BK = OK (по по­стро­е­нию), то  тогда   Углы CBK и KAC опи­ра­ют­ся на один и тот же от­ре­зок CK и равны друг другу:  Тогда по при­зна­ку, свя­зан­ным со свой­ством впи­сан­ных углов, точки А, В, К, С лежат на одной окруж­но­сти.б)  Обо­зна­чим через r, R ра­ди­у­сы впи­сан­ной и опи­сан­ной окруж­но­стей тре­уголь­ни­ка  Пусть H  — про­ек­ция точки О на сто­ро­ну AB (см. рис.), тогда  Так как точки А, В, К, С лежат на одной окруж­но­сти, то ра­ди­ус опи­сан­ной окруж­но­сти тре­уголь­ни­ка ABKсов­па­да­ет с ра­ди­у­сом опи­сан­ной окруж­но­сти тре­уголь­ни­ка  и равен R. Из тре­уголь­ни­ка ABK по тео­ре­ме си­ну­сов: ТогдаТак как то  Ответ: 18,75.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=148376",
+            "https://ege.sdamgia.ru/formula/svg/40/40476e40d8f148cd56ee58596543094e.svg",
+            "https://ege.sdamgia.ru/formula/svg/25/2589e4df0c05beeed870390d22485ae0.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4bd5d53e9f2d4891144c229d5c15ed7c.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3a70ba611327587333b70d2006e9b1fa.svg",
+            "https://ege.sdamgia.ru/formula/svg/59/59531991504dd98bda9894ce4aa5876e.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fdeac1d5b90f08af087154709a84651f.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4b5b9eab089a2e0ff9b286f012e61feb.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54a746717bd985745fc551a2815cfbf6.svg",
+            "https://ege.sdamgia.ru/formula/svg/12/124717154995833bbfe38034a798d365.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=148375",
+            "https://ege.sdamgia.ru/formula/svg/7e/7e04117e6220bb7ac7aa410d6865a8bd.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a3a2fe6f3410348e775533e6152d6b52.svg",
+            "https://ege.sdamgia.ru/formula/svg/d0/d088658a419e7c620c326b4a233d578e.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/8122b570597c22b3459a564e11899a34.svg"
+        ]
+    },
+    "answer": " 18,75.",
+    "analogs": [
+        "509425",
+        "511592"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511589"
+}

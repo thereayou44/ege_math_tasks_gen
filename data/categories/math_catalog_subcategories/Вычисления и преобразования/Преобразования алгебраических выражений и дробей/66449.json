@@ -1,0 +1,73 @@
+{
+    "id": 66449,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите значение выражения",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/6c/6cf78878006ae1da11ae28a5065c5e25.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Вы­пол­ним пре­об­ра­зо­ва­ния:   Ответ: 5.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/59/5927a1fb10bdcef5b7ae154dcf6dcc24.svg",
+            "https://ege.sdamgia.ru/formula/svg/44/445c3c626381ec04611ece23e273c131.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/973c9bf63acf480a6461df0a555cab22.svg",
+            "https://ege.sdamgia.ru/formula/svg/44/445c3c626381ec04611ece23e273c131.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dc363efd45f05aa3b20922b6b9cda810.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7c29d26a23f13fcfe0f8cc05c0e0694a.svg"
+        ]
+    },
+    "answer": "5",
+    "analogs": [
+        "26810",
+        "66361",
+        "66363",
+        "...",
+        "66361",
+        "66363",
+        "66365",
+        "66367",
+        "66369",
+        "66371",
+        "66373",
+        "66375",
+        "66377",
+        "66379",
+        "66381",
+        "66383",
+        "66385",
+        "66387",
+        "66389",
+        "66391",
+        "66393",
+        "66395",
+        "66397",
+        "66399",
+        "66401",
+        "66403",
+        "66405",
+        "66407",
+        "66409",
+        "66411",
+        "66413",
+        "66415",
+        "66417",
+        "66419",
+        "66421",
+        "66423",
+        "66425",
+        "66427",
+        "66429",
+        "66431",
+        "66433",
+        "66435",
+        "66437",
+        "66439",
+        "66441",
+        "66443",
+        "66445",
+        "66447"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=66449"
+}

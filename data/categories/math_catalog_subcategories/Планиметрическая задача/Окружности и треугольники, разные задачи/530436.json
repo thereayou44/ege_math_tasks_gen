@@ -1,0 +1,34 @@
+{
+    "id": 530436,
+    "topic": "17",
+    "condition": {
+        "text": "В треугольнике ABC проведены биссектрисы BM и CN. Оказалось, что точки B, C, M и N лежат на одной окружности.а) Докажите, что треугольник ABC равнобедренный.б) Пусть P — точка пересечения биссектрис треугольника ABC. Найдите площадь четырёхугольника AMPN, если MN : BC = 2 : 5, а BN = 21.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Впи­сан­ные углы NCM и MBN опи­ра­ют­ся на одну и ту же дугу, сле­до­ва­тель­но, они равны. По­сколь­купо­лу­ча­ем  то есть тре­уголь­ник ABC рав­но­бед­рен­ный.б)  По­сколь­купо­лу­ча­ем, что  и пря­мая MN па­рал­лель­на пря­мой BC. От­ре­зок BC равен Пусть AK  — бис­сек­три­са, ме­ди­а­на и вы­со­та тре­уголь­ни­ка ABC. Пря­мая AK про­хо­дит через точку P  — центр впи­сан­ной окруж­но­сти. Тре­уголь­ник ANM по­до­бен тре­уголь­ни­ку ABC, сле­до­ва­тель­но,ТогдаПло­щадь тре­уголь­ни­ка ABС равнаа зна­читВ четырёхуголь­ни­ке AMPN диа­го­на­ли AP и MN пер­пен­ди­ку­ляр­ны, сле­до­ва­тель­но, его пло­щадь равнаОтвет: б) ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/f7/f7a32c1441b009aa7226718cefca52f7.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bf7b7e0f1cc2dcc902d6a1c65215c8ea.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=135836",
+            "https://ege.sdamgia.ru/formula/svg/6e/6e3186f67b5b43465ac34badfd75c25b.svg",
+            "https://ege.sdamgia.ru/formula/svg/33/33c9d6963020b63f746f1d1f80755ce3.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c8f094c1852106de9750d877ea89059d.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/530e54bb078a578e0e10eab933b6fcb6.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bbc1f2a10839f8a9905e4be3157e0410.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e4edd4399fb6876c647a3f2c58c6bf4e.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f8ba8f64c9ce816d2506e0a4f650111b.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5c61e2b54af045aa317ae5dfd41e2bd9.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/34d3173e37bb46bd9284b07d5e7b2ee1.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2c140a775346644b1cf933e1cf9fc4d1.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/2915f3cce14d26e3e5811d2480ce41ef.svg"
+        ]
+    },
+    "answer": " б) ",
+    "analogs": [
+        "530404",
+        "642007",
+        "642025"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=530436"
+}

@@ -1,0 +1,51 @@
+{
+    "id": 500471,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых наименьшее значение функции на множестве не меньше 6.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/86/86cb7afdf06ec1bb2432749beea28431.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2eb1a07065e873768f3e6d2d52313f08.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Гра­фи­ком функ­ции  яв­ля­ет­ся па­ра­бо­ла, ветви ко­то­рой на­прав­ле­ны вверх, а вер­ши­на имеет ко­ор­ди­на­ты  Зна­чит, ми­ни­мум функ­ции  на всей чис­ло­вой оси до­сти­га­ет­ся при На мно­же­стве  эта функ­ция до­сти­га­ет наи­мень­ше­го зна­че­ния либо в точке  если эта точка при­над­ле­жит мно­же­ству, либо в одной из гра­нич­ных точек Если наи­мень­шее зна­че­ние функ­ции не мень­ше 6, то и вся­кое зна­че­ние функ­ции не мень­ше 6. В част­но­сти, от­ку­да по­лу­ча­ем си­сте­му не­ра­венств .ре­ше­ни­я­ми ко­то­рой яв­ля­ют­ся При  имеем:  зна­чит, наи­мень­шее зна­че­ние функ­ции до­сти­га­ет­ся в точке  и  что не удо­вле­тво­ря­ет усло­вию за­да­чи.При  имеем:  зна­чит, наи­мень­шее зна­че­ние функ­ции до­сти­га­ет­ся в одной из гра­нич­ных точек  в ко­то­рых зна­че­ние функ­ции не мень­ше 6.При  имеем:  зна­чит, наи­мень­шее зна­че­ние функ­ции до­сти­га­ет­ся в точке  и  что  удо­вле­тво­ря­ет усло­вию за­да­чи. Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ab/abc4cb1403fed843101ee3c45cde4d43.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/577e185f7f42d357a237b73a4512ea64.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50bbd36e1fd2333108437a2ca378be62.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1ea29311122c936df96143ca2c378791.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2eb1a07065e873768f3e6d2d52313f08.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/ac5f0901f00baaeeebb6c7b323509104.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/55254bb628f4c0769a48667dadebea38.svg",
+            "https://ege.sdamgia.ru/formula/svg/f2/f20d1aeba79953dc081f1fc301f2811a.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f8d79fc6cc5a20a0704eaceb32551285.svg",
+            "https://ege.sdamgia.ru/formula/svg/8a/8acc01b501ce92fcef048a21a61bac0f.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/884cc19089496cedc985da8d8a74ac54.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/8577f53d113ffc8bead3a65942d8f652.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6f85f6b4a702945634a80fa15c8c9b06.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9f13e905e202d83e2ec7b4643e173e71.svg",
+            "https://ege.sdamgia.ru/formula/svg/02/0294f438672ab7a8bfe5ca1c5a585e7a.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7bc35d81cadc0b8656640c98c9e29fd0.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f179cc43bed21c846d4d031b6c1ac24c.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/845549bdb37a1f9bd14adce358dc280c.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/49741721e521becb743075c900143d3f.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f010ec4116bac36db889fb44782bebdb.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9f13e905e202d83e2ec7b4643e173e71.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/28502a3f487ccb628ff92efb2475dfbb.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/518c3a1b2c6400391a528e574aa8762f.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "500016",
+        "500022",
+        "500451",
+        "...",
+        "500022",
+        "500451",
+        "641912",
+        "641930"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=500471"
+}

@@ -1,0 +1,27 @@
+{
+    "id": 563665,
+    "topic": "17",
+    "condition": {
+        "text": "Треугольник ABC прямоугольный с прямым углом C. Проведена высота CH. На сторонах AC и BC соответственно отмечены точки M и N так, что угол MHN прямой.а) Докажите, что треугольники MNH и ABC подобны.б) Найдите BN, если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/1e/1e65d6f1271927a5abf84e4195a82f06.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  За­ме­тим, что сумма углов MHN и MCN равна 180°, по­это­му че­ты­рех­уголь­ник CMHN впи­сан в окруж­ность. Углы HMN и HCN равны как впи­сан­ные. Углы HCN и CAB равны, по­то­му что каж­дый из них равен  Таким об­ра­зом, тре­уголь­ни­ки HMN и CAB по­доб­ны по двум углам. Что и тре­бо­ва­лось до­ка­зать.б)  За­ме­тим, что  а   От­сю­да тре­уголь­ни­ки CMH и BNH по­доб­ны по двум углам, при­чем из пунк­та а) сле­ду­ет, что   Из це­поч­ки ра­венств по­лу­ча­ем, что  Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=150037",
+            "https://ege.sdamgia.ru/formula/svg/fa/faa3742e3b684549313f5cf0a5bb27c6.svg",
+            "https://ege.sdamgia.ru/formula/svg/44/4472954a8fa55843786cd0c5f582657a.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8b0ddf705f71f36b9728f2065524d852.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a89d58fe0a57add2d62ba85706cca85c.svg",
+            "https://ege.sdamgia.ru/formula/svg/bc/bca69ba94db2ac6350d976d211c80bed.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d9aa6f332fe3623d7bf512d8e1d54316.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "563597"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=563665"
+}

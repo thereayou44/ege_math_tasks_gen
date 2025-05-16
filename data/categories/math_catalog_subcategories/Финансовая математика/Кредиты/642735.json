@@ -1,0 +1,61 @@
+{
+    "id": 642735,
+    "topic": "16",
+    "condition": {
+        "text": "В июле 2025 года планируется взять кредит в банке на 700 тыс. руб. на 10 лет. Условия его возврата таковы: — каждый январь долг увеличивается на 20% по сравнению с концом предыдущего года; — с февраля по июнь каждого года необходимо выплатить одним платежом часть долга; — в июле каждого из годов 2026, 2027, 2028, 2029, 2030 долг должен быть на какую-то одну и ту же величину меньше по сравнению с июлем предыдущего года; — в июле каждого из годов 2031, 2032, 2033, 2034, 2035 долг должен быть на другую одну и ту же величину меньше по сравнению с июлем предыдущего года; — к июлю 2035 года кредит должен быть выплачен.Известно, что сумма выплат по кредиту составит 1420 тыс. руб. Найдите, сколько рублей составит выплата в 2026 году.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Обо­зна­чим для удоб­ства из­на­чаль­ную сумму кре­ди­та за S  =  700 тыс. руб. Пусть x тыс. руб.  — по­сто­ян­ная сумма на ко­то­рую умень­ша­ет­ся долг каж­дый июль с 2026 по 2030 год, а y тыс. руб.  — с 2031 по 2035 года. Тогда суммы долга в июле по годам с 2025 по 2035 со­ста­вят:            Из по­след­не­го ра­вен­ства сле­ду­ет, что x + y  =  140, от­ку­да y  =  140 – x.Пусть k  =  0,2, тогда про­цен­ты на­чис­лен­ные с 2026 по 2035 год со­ста­вят:  kS,          а вы­пла­ты в со­от­вет­ству­ю­щие годы будут:          Тогда сумма вы­плат яв­ля­ет­ся сум­мой двух раз­лич­ных ариф­ме­ти­че­ских про­грес­сий по пять чле­нов в каж­дой и со­ста­вит:Тогда вы­пла­та за 2026 год со­ста­вит: kS + x  =  220 тыс. руб. Ответ: 220 тыс. руб.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/a9/a9d91cbc792083bcdc7cbfc9b867d08e.svg",
+            "https://ege.sdamgia.ru/formula/svg/5b/5bef6101b685a01c26588479fc89daf2.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/dd2e89c4409eb5ad223fe82fddfd5b6d.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/09452d976225f4bc69298f7018df045c.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aaee8842745465c307af7957da8e2a97.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fce22090cb3662a2060595265b284ec3.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a2296f944fd25567adf773017832f4bc.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/13604f376b2418242735b5a68cb6581f.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e508b39629457512047564ec786fa081.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/53f2a7121bfbc8607f32e475c4925113.svg",
+            "https://ege.sdamgia.ru/formula/svg/ff/ff0c623387180a3bec14a78e0b7edb1d.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e25c01f83261c21b8db508a4603614fa.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f6c1e7b3ea48fecfa13c537784fa1b9f.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a128191bb947bcfbeb4574d45f2a7059.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4fa8c2888472128b9021170f18fe8dbd.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7af9cd7f8a7cc6a6da143efc9c0e828f.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e337839586e423c8a5ea927c062f8ec6.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/38008d8f124293935028f5cba0dfac09.svg",
+            "https://ege.sdamgia.ru/formula/svg/20/2052e572faddce17584db01aa1bfc1c6.svg",
+            "https://ege.sdamgia.ru/formula/svg/9c/9c4a68e28c3060dc05bd0f09bb8b71ae.svg",
+            "https://ege.sdamgia.ru/formula/svg/69/69f25258e2dc423ed5568ff1132cf8e7.svg",
+            "https://ege.sdamgia.ru/formula/svg/95/950e7a85b92a7dbd12592758888a37e4.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/09c7738c9bcf5207076661afbd0aa5f6.svg",
+            "https://ege.sdamgia.ru/formula/svg/8a/8a8dcd48a86e14ec16eeaf3341d669ae.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e2c1e192b039d2b3525f06b61214c272.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c4a2d8f84082b622b7deb622425e579a.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bb5b6480867cd8ad78dbb74a6e6df925.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/72b7ed8a7febef76d6c9e6ebedaa2af0.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/66606ae61799d8494b0e842456dee601.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7cc20e66ab9cfe5fc8b309d775619f0f.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/45a4c2acc6de102b0ddf7006b3c13c54.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d7a89a7bac495000b7acdf9db7d4d0d4.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/2896276aa2fcc96a532d0569a33ddbd5.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/45a4c2acc6de102b0ddf7006b3c13c54.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1cb648996fe46902e3da874c613803e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e6ae4be8c7cfd5d12d128a6434413785.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/2896276aa2fcc96a532d0569a33ddbd5.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/45a4c2acc6de102b0ddf7006b3c13c54.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1cb648996fe46902e3da874c613803e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e6ae4be8c7cfd5d12d128a6434413785.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8cbf821c4eaa7a8bc54c56218fbf1ac8.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1b3d2740de51db3d24ca3fdc6629aed2.svg"
+        ]
+    },
+    "answer": " 220 тыс. руб.",
+    "analogs": [
+        "642751",
+        "667319"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=642735"
+}

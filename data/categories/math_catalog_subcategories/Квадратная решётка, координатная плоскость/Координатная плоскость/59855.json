@@ -1,0 +1,53 @@
+{
+    "id": 59855,
+    "topic": "Д4",
+    "condition": {
+        "text": "Найдите площадь четырехугольника, вершины которого имеют координаты",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=66452",
+            "https://ege.sdamgia.ru/formula/svg/7e/7e1f73975420d63237e7ebd3b4ef9248.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/01439a96d1e06a505e407f7e8f050be2.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d231b24a8bbfe9ee9d97762d07e7a629.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/892efe7ada5ee1bc30e7dc12cf13559e.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Че­ты­рех­уголь­ник яв­ля­ет­ся квад­ра­том. Пло­щадь квад­ра­та равна квад­ра­ту его сто­ро­ны. Сто­ро­на квад­ра­та равна  тогда пло­щадь квад­ра­та  Ответ: 10.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/83/837614845e0b9483f78806926e9d290f.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8e9adcfb183ff92cb96866cc4c5c944c.svg"
+        ]
+    },
+    "answer": "10",
+    "analogs": [
+        "27701",
+        "59857",
+        "59859",
+        "...",
+        "59857",
+        "59859",
+        "59861",
+        "59863",
+        "59865",
+        "59867",
+        "59869",
+        "59871",
+        "59873",
+        "59875",
+        "59877",
+        "59879",
+        "59881",
+        "59883",
+        "59885",
+        "59887",
+        "59889",
+        "59891",
+        "59893",
+        "59895",
+        "59897",
+        "59899",
+        "59901",
+        "59903"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=59855"
+}

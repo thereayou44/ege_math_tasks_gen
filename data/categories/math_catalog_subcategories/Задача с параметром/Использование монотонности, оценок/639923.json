@@ -1,0 +1,46 @@
+{
+    "id": 639923,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых множество значений функции содержит отрезок [0; 1].",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/de/de3caa9e8bc357edf3bcfed195d62cf3.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­пи­шем функ­цию в виде  Её об­ла­стью опре­де­ле­ния яв­ля­ет­ся вся чис­ло­вая пря­мая, по­сколь­ку зна­ме­на­тель не об­ра­ща­ет­ся в ноль. Дан­ная функ­ция не­пре­рыв­на на всей чис­ло­вой пря­мой.При x стре­мя­щем­ся к  или  зна­че­ние функ­ции  стре­мит­ся к 0. Учи­ты­вая по­ве­де­ние функ­ции на  и  и на­ли­чие двух кри­ти­че­ских точек  — точки ми­ни­му­ма и точки мак­си­му­ма, сле­ду­ет, что мно­же­ством зна­че­ний функ­ции яв­ля­ет­ся от­ре­зок. Тогда, для того чтобы мно­же­ство зна­че­ний функ­ции со­дер­жа­ло от­ре­зок [0; 1], оно долж­но со­дер­жать точки 0 и 1. Таким об­ра­зом, усло­вие за­да­чи вы­пол­не­но для тех и толь­ко тех зна­че­ний a, для ко­то­рых имеют ре­ше­ния урав­не­ния  и Пер­вое урав­не­ние:Урав­не­ние имеет ре­ше­ние при любом a ≠ 5.Вто­рое урав­не­ние:Урав­не­ние имеет ре­ше­ние тогда и толь­ко тогда, когда его дис­кри­ми­нант не­от­ри­ца­те­лен:Ре­ше­ни­ем этого не­ра­вен­ства яв­ля­ют­ся мно­же­ства  и  Сле­до­ва­тель­но, усло­вию за­да­чи удо­вле­тво­ря­ют зна­че­ния  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/53/536a1c3aa0a91d7362e988c5ae8b7a0e.svg",
+            "https://ege.sdamgia.ru/formula/svg/9a/9ab0347369b93587a1fc8dbd6c6a8862.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aad18c0a88969b4c1bdc3711475796c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/382383b844fc4a2ec66b177859f9ad30.svg",
+            "https://ege.sdamgia.ru/formula/svg/9a/9ab0347369b93587a1fc8dbd6c6a8862.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aad18c0a88969b4c1bdc3711475796c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/5f/5fec07af6dacaeb3f5721404c7bb1233.svg",
+            "https://ege.sdamgia.ru/formula/svg/24/248ad7ad3aae155d7c1c61904979e364.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e310e1d58a78792460acd79d6538a234.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/1893c996644fec7429071f1f32b0128d.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e60579bd754bee1fa871d8cac691b2df.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6e9892bd90414dd528bbd2a3a0aa2491.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cbaa73199895ff987bc3cd2724c3827c.svg",
+            "https://ege.sdamgia.ru/formula/svg/f5/f55db789fa669e24e80402afc4ddda73.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/541a0dc4df3a752c89fc3a3fb2a0b818.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cbaa73199895ff987bc3cd2724c3827c.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1bb208fef0dd036a85fef8ece5db7de9.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6e9892bd90414dd528bbd2a3a0aa2491.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cbaa73199895ff987bc3cd2724c3827c.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1bb208fef0dd036a85fef8ece5db7de9.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fbc0c9d114c1c3077f634a5632d4e8b6.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/541a0dc4df3a752c89fc3a3fb2a0b818.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54e30040efc6d628bdf0fc5f32329057.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/475b9df48880cad47af51ec3ad2c6246.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1aef72a1a9f325cc486928074755a1f0.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/21c7ac9668e719b1e3b2b4b25fd7101d.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "639872"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=639923"
+}

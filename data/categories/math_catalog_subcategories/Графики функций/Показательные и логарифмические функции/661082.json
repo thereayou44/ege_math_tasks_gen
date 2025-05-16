@@ -1,0 +1,33 @@
+{
+    "id": 661082,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображен график функции вида Найдите значение f(−2).",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=180402",
+            "https://ege.sdamgia.ru/formula/svg/3e/3ec7f9a9c1d470775506529844b8c3a5.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Из гра­фи­ка на­хо­дим, что  от­ку­да  а по­то­му  Тогда Ответ: 16.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/96/966da1af1ffda5f24dc5efe5321796b7.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/062decb7f6dc9b016f71156f3882f40f.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c850c15971d42bb12ab35fcdd64abba2.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/9720fc7fdf2f4f1999c0fc0a4c401ad7.svg"
+        ]
+    },
+    "answer": "16",
+    "analogs": [
+        "639480",
+        "639749",
+        "641157",
+        "660718",
+        "...",
+        "639749",
+        "641157",
+        "660718",
+        "660926"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=661082"
+}

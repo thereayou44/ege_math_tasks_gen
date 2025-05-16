@@ -1,0 +1,40 @@
+{
+    "id": 672903,
+    "topic": "17",
+    "condition": {
+        "text": "В квадрате ABCD точки M и N — середины сторон AB и BC соответственно. Отрезки CM и DN пересекаются в точке K.а) Докажите, что б) Найдите радиус окружности, описанной около треугольника ABK, если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ec/ecc5f5a3d3c67b2964ca45c136e4911d.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e1ca60251fea66f65be5872f1bc71f44.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Тре­уголь­ни­ки BCM и CDN равны по двум ка­те­там, по­это­му  от­ку­дасле­до­ва­тель­но, от­рез­ки NK и CK пер­пен­ди­ку­ляр­ны. Зна­чит, тре­уголь­ни­ки NKC и MBC по­доб­ны, из чего сле­ду­ет, что  Далее,  по­это­му пря­мая KB есть бис­сек­три­са внеш­не­го угла K тре­уголь­ни­ка NKC, а по­то­му б)  Най­демПо тео­ре­ме си­ну­сов  от­ку­да на­хо­дим:Рас­смот­рим окруж­ность с цен­тром в точке А и ра­ди­у­сом AB. Эта окруж­ность про­хо­дит через точку D, при­чем мень­шая дуга BD окруж­но­сти равна цен­траль­но­му углу BAD, то есть 90°, а боль­шая дуга BD этой окруж­но­сти равна, сле­до­ва­тель­но, 270°. В пунк­те а) до­ка­за­но, что   по­это­му  Но впи­сан­ный угол, рав­ный 135°, опи­ра­ет­ся на дугу в 270°, а по­то­му точки B, K, D лежат на одной окруж­но­сти с цен­тром A, и тогда  Таким об­ра­зом,Тогда по ос­нов­но­му три­го­но­мет­ри­че­ско­му тож­де­ству  При­ме­няя обоб­щен­ную тео­ре­му си­ну­сов к тре­уголь­ни­ку ABK, на­хо­дим ра­ди­ус опи­сан­ной во­круг него окруж­но­сти:Ответ: б) ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=207089",
+            "https://ege.sdamgia.ru/formula/svg/92/9266738243c29276932f43f402ab341a.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e180f4f03bc3978f239b7d3137c6c05c.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d455c5c468241f2bffafdece67542aca.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b1c6ebe250b259fb5b3db1b350ec8f9b.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2ebc4509b98c4e2e0ef4fcb16e12d00c.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b74f8fae75b004210dd51b2e1e88f296.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0cf639202bd764e9303d284fb2d16ee2.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/4666b19591465fb7f09857bb2ede2ffe.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cdc0cac5f0ba6cce496d1ce6ffe14f1b.svg",
+            "https://ege.sdamgia.ru/formula/svg/6b/6bee35a5f793ebb8cf1c2493a72eac45.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/7077661bdf3876315a6a890c11b244da.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a1d9edcaa5be9b69ec38cd663c3f065.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3c29d8d29e431c1fefb659172110e53d.svg",
+            "https://ege.sdamgia.ru/formula/svg/8a/8a3e93b918a11d90d9e1765a31c36cd0.svg",
+            "https://ege.sdamgia.ru/formula/svg/20/2046f77dd49c1c6441a6222980c5d2e0.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/dfe72a6bc2482823f2fe59c0afb31963.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9f5825fe896860bec4e9a5d7edab21e4.svg"
+        ]
+    },
+    "answer": " б) ",
+    "analogs": [
+        "634877",
+        "672874"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=672903"
+}

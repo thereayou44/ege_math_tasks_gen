@@ -1,0 +1,53 @@
+{
+    "id": 509057,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображён график функции Найдите",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=154242",
+            "https://ege.sdamgia.ru/formula/svg/eb/eb04a2d60f152b0a71d989c8ca758f01.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d98a9173a45d6a2ef588a1c29ea9f17f.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По ри­сун­ку опре­де­ля­ем, что   ТогдаЗна­чит,  Найдём зна­че­ние Ответ: −4.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/b5/b518ef8820eb7b4e8a179d1682e75344.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/750e7c42e1d6d53763ed969a4febcb7e.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/400934605ae1ed4b9e5b5bf55347cd99.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/153ea4a3a86022a3089c5fd07f9cbfff.svg",
+            "https://ege.sdamgia.ru/formula/svg/4e/4e3ac8a51d0ee2b06a36865cca24bc5f.svg",
+            "https://ege.sdamgia.ru/formula/svg/ff/ff73551923faa936334eec336973ab24.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c2119a879aeb7d3bf4da6b940244f6c0.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/de49514f262007a1c2e930c1ee87feb4.svg",
+            "https://ege.sdamgia.ru/formula/svg/43/43a0a791874260587ac8ae12e12eb106.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8bcd9a164d807e62ef83464dd426b0fa.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fdc7296cf03fb44869348d24009a0676.svg"
+        ]
+    },
+    "answer": "-4",
+    "analogs": [
+        "509042",
+        "509043",
+        "509044",
+        "509045",
+        "...",
+        "509043",
+        "509044",
+        "509045",
+        "509046",
+        "509047",
+        "509048",
+        "509049",
+        "509050",
+        "509051",
+        "509052",
+        "509053",
+        "509054",
+        "509055",
+        "509056",
+        "509058",
+        "509059"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509057"
+}

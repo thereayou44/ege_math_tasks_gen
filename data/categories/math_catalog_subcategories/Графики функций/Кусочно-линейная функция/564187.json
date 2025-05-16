@@ -1,0 +1,28 @@
+{
+    "id": 564187,
+    "topic": "Д10",
+    "condition": {
+        "text": "На рисунке изображён график функции вида где числа a, b, c и d — целые. Найдите корень уравнения",
+        "images": [
+            "https://ege.sdamgia.ru/get_file?id=108714",
+            "https://ege.sdamgia.ru/formula/svg/64/6496ad739bd61979f4f8027d7d9cd42e.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d66cde947de880021a0fa74f2bcba7e.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­ме­тим, что  в точке из­ло­ма. найдём её. Левее точки из­ло­ма функ­ция за­да­ет­ся урав­не­ни­ем   пра­вее точки из­ло­ма  — урав­не­ни­ем  Решим урав­не­ние  Зна­чит, кор­нем урав­не­ния  яв­ля­ет­ся число −0,5.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/bc/bc74a7647bd2569c398b4aaf755edeec.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/13a2c949af79531149c061a001750b13.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/31afdb95143bd6ea0c8a8467fcc7a660.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d8f7b5f985097f180006cf3c2cff9171.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e45fa00608e566e31041a62c34370ab2.svg"
+        ]
+    },
+    "answer": "-0,5",
+    "analogs": [
+        "564160",
+        "564185"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=564187"
+}

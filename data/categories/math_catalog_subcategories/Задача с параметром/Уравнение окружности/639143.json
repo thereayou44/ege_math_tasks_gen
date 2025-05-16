@@ -1,0 +1,34 @@
+{
+    "id": 639143,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых система уравнений не имеет решений.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ff/ff06b209e1a59360be5da3ff87ded7de.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. При  си­сте­ма не имеет ре­ше­ний. При a  =  2 по­лу­ча­ем си­сте­му урав­не­ний  Пер­во­му урав­не­нию удо­вле­тво­ря­ет толь­ко пара (9; 5), ко­то­рая также удо­вле­тво­ря­ет вто­ро­му урав­не­нию си­сте­мы, по­это­му при a  =  2 си­сте­ма имеет един­ствен­ное ре­ше­ние. При  пер­вое урав­не­ние задаёт окруж­ность с цен­тром в точке (5a – 1; 2a + 1), ра­ди­ус ко­то­рой равен  Вто­рое урав­не­ние задаёт пря­мую  Сле­до­ва­тель­но, си­сте­ма не имеет ре­ше­ний тогда и толь­ко тогда, когда рас­сто­я­ние от цен­тра (5a – 1; 2a + 1) окруж­но­сти до пря­мой  боль­ше ра­ди­у­са  окруж­но­сти. По­лу­ча­ем:  Сле­до­ва­тель­но, си­сте­ма не имеет ре­ше­ний при  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/56/56b466da2d2d83c4cfdc2c577d286d79.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4fd805e964fd1ecca1924bea5a9b7ee1.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d834a943b0a92f67d91481b42bc89d84.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a213f4b208e23341460a7923d992ca26.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d42a856efa85d163489eabb93f52c7d8.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/4593786782d36c86d338b565eed34eea.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bfe799bf0e85868c7d6ae783faebcee1.svg",
+            "https://ege.sdamgia.ru/formula/svg/c6/c662b11095cfe05478c7e8e5066ecd3b.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6cc11da098ec0a2611c42c7456cea26a.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/36d598876260313116a49ba14a950607.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f36bd08cabd312feaeb4d20c1a5c0edb.svg",
+            "https://ege.sdamgia.ru/formula/svg/5e/5eaed4c32caa9140608b87858d761556.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "513351",
+        "513370",
+        "639148"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=639143"
+}

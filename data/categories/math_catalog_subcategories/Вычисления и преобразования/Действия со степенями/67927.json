@@ -1,0 +1,42 @@
+{
+    "id": 67927,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите значение выражения при",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ec/ecf14e5ce3e7bb4281f4618d30aedc90.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf4c5745ddb965d3d4246b7c1eedab8f.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.  =   Ответ: 2744.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ec/ecf14e5ce3e7bb4281f4618d30aedc90.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/685c0b4ee1750d72d757a2b8b5ed6922.svg"
+        ]
+    },
+    "answer": "2744",
+    "analogs": [
+        "26835",
+        "67929",
+        "67897",
+        "...",
+        "67929",
+        "67897",
+        "67899",
+        "67901",
+        "67903",
+        "67905",
+        "67907",
+        "67909",
+        "67911",
+        "67913",
+        "67915",
+        "67917",
+        "67919",
+        "67921",
+        "67923",
+        "67925"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=67927"
+}

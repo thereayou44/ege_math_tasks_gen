@@ -1,0 +1,37 @@
+{
+    "id": 628489,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все положительные значения a, при каждом из которых уравнениеимеет хотя бы одно решение.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/32/322bbcd06fba88c0047c56e4b8e45dbf.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пусть  при a > 0, t > 0. За­пи­шем урав­не­ние в виде Введём квад­ра­тич­ную функ­цию  Гра­фи­ком функ­ции яв­ля­ет­ся па­ра­бо­ла, ветви ко­то­рой на­прав­ле­ны вверх. Абс­цис­са вер­ши­ны равна  Урав­не­ние  имеет хотя бы одно ре­ше­ние, если его дис­кри­ми­нант D ⩾ 0. Имеем: Решая по­лу­чен­ное не­ра­вен­ство, при усло­ви­ях a > 0 и a ≠ 3, по­лу­чим     При дан­ных зна­че­ни­ях a корни урав­не­ния  по­ло­жи­тель­ны, так как их сумма по­ло­жи­тель­на и равна  а про­из­ве­де­ние равно 1. Ответ:    ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/a9/a97ec481737e4e37314c246e21890a44.svg",
+            "https://ege.sdamgia.ru/formula/svg/6b/6b999dfc64dc9528992b9cfe263479bd.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/ed10f0b64715b86e1446046a17edb251.svg",
+            "https://ege.sdamgia.ru/formula/svg/43/43b218494bfa3412cde98006606de9cc.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9f4e6fb329e42187d666873f087c7ebb.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/92de5fed43cb57ef1f5d8ec6fb9e18a5.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d827c33b4688549a563e5696896ffcb5.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/42f3cbd04860c77cc9a17fd2067cc939.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/74f3daf3ee051ffaa140acc929edc6c0.svg",
+            "https://ege.sdamgia.ru/formula/svg/c6/c60855661ed49158dd019084793b7c23.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4a549285e6cc6f5d71e1a4b80524918c.svg",
+            "https://ege.sdamgia.ru/formula/svg/02/02ebd5e852b6861cd7c9639c8d34fdcd.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7aa31f86c856c82b078c7fa0984de6e5.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/42f3cbd04860c77cc9a17fd2067cc939.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/74f3daf3ee051ffaa140acc929edc6c0.svg",
+            "https://ege.sdamgia.ru/formula/svg/c6/c60855661ed49158dd019084793b7c23.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4a549285e6cc6f5d71e1a4b80524918c.svg"
+        ]
+    },
+    "answer": "    ",
+    "analogs": [
+        "628371"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=628489"
+}

@@ -1,0 +1,46 @@
+{
+    "id": 516784,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все такие значения параметра a, при каждом из которых уравнение имеет решения на отрезке",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/71/71401fc5f5b86c7f676c9e0948099e03.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1ac435b0bece2c228f2034334758c5dc.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­ме­тим, чтоПре­об­ра­зу­ем урав­не­ние (1):Рас­смот­рим два слу­чая. Пусть  тогда из (2): От­рез­ку  при­над­ле­жат два числа  и Пусть  тогда имеем:В пер­вой серии не со­дер­жит­ся кор­ней, ле­жа­щих на от­рез­ке  Среди кор­ней, со­дер­жа­щих­ся во вто­рой серии, от­рез­ку  при­над­ле­жит одно число  Под­став­ляя его в не­ра­вен­ство (2), имеем:  от­ку­да  Ответ:  ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/a8/a808b27a4cb3e46c4e520c8e1e9e66f9.svg",
+            "https://ege.sdamgia.ru/formula/svg/ce/ce70470450baf27bdb749449ddcbc9d3.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/ed0af10b0da2a2d4f1c09390e82a59e7.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/84983e249407d55902a7b797ea5eeefc.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/285d39a2da5596561182d8da3a8cf3de.svg",
+            "https://ege.sdamgia.ru/formula/svg/25/2555c127a39bb04d212531bfa6f35bd8.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/285d39a2da5596561182d8da3a8cf3de.svg",
+            "https://ege.sdamgia.ru/formula/svg/96/96efbb27440c671dcc373fa3ad7bd855.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d92646e760ab4efa2387c908ff3b09fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dc9791942c5716d51249089473cef5ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d79d314d80e9880bfed5a3b60a87e37a.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4cbaf16af31a4947a15df62d0117250d.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/97c2fe1391fd8c12b3f66e15f94611b9.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0fc6492f563ff49fa6372f9450716e31.svg",
+            "https://ege.sdamgia.ru/formula/svg/9c/9c05e99783ffbdc89e86bee35eb07484.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bb4870ac9b34f0d1326f3a971e93e437.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bf9163179f4b96833be55b8e8c9978a1.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/083ee63178c7e927512d3c4a11b94d0d.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1ac435b0bece2c228f2034334758c5dc.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0fc6492f563ff49fa6372f9450716e31.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f75fdf4378071449e7a267c181e34999.svg",
+            "https://ege.sdamgia.ru/formula/svg/b8/b8c53b50f73ebb8eedffbfb83d50c834.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/60ff296cbae0e7cc15facab79895aecb.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e13f2fa3d889e1675c41f7ad9154c7cb.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2a1b71b785c0cb14bb665bfef5a37b68.svg"
+        ]
+    },
+    "answer": "  ",
+    "analogs": [
+        "516765"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=516784"
+}

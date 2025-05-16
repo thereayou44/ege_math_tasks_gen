@@ -1,0 +1,54 @@
+{
+    "id": 67187,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/9b/9be5f1610c9ec47704da83e6d40531c9.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c9cd2e2f94bbf7b323c65516a900a5f4.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По­сколь­ку  имеем:   Ответ: −62.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/70/700ffd46e8d0f3cb9d0351312ee32941.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/6631ff821dcd3abd634e7dba99f78665.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b1a2fd36fca010a69ca4b6c996615019.svg",
+            "https://ege.sdamgia.ru/formula/svg/5b/5b3431659b37f093b7c333af46e760f9.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3d41ec123cf4f9ceb954e193f3bb7790.svg"
+        ]
+    },
+    "answer": "-62",
+    "analogs": [
+        "26823",
+        "67189",
+        "67231",
+        "...",
+        "67189",
+        "67231",
+        "27001",
+        "67183",
+        "67185",
+        "67191",
+        "67193",
+        "67195",
+        "67197",
+        "67199",
+        "67201",
+        "67203",
+        "67205",
+        "67207",
+        "67209",
+        "67211",
+        "67213",
+        "67215",
+        "67217",
+        "67219",
+        "67221",
+        "67223",
+        "67225",
+        "67227",
+        "67229"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=67187"
+}

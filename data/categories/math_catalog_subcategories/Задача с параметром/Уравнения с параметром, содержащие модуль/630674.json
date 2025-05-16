@@ -1,0 +1,35 @@
+{
+    "id": 630674,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых любое число из отрезка является решением уравнения",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/30/30be730fcc53744ec716554ef5f7a0b1.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0ddd260c2ec124c7eea909a0f1ad94e5.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Если  то есть a < 2, то урав­не­ние ре­ше­ний не имеет. При a  =  2 урав­не­ние имеет вид  и ни одно число из от­рез­ка [2; 4] не яв­ля­ет­ся его ре­ше­ни­ем. При a > 2 за­пи­шем урав­не­ние в виде При a > 2 верно не­ра­вен­ство  и по­это­му ре­ше­ни­ем урав­не­ния яв­ля­ет­ся любое число из от­рез­ка  по­сколь­ку длина этого от­рез­ка равна  а урав­не­нию удо­вле­тво­ря­ют те и толь­ко те точки x, сумма рас­сто­я­ний от каж­дой из ко­то­рых до точек  и  равна 2a – 4.От­ре­зок  со­дер­жит от­ре­зок [2; 4] тогда и толь­ко тогда, когда  и  от­ку­да сле­ду­ет, что  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ba/ba5d1f158d3553ffc9d0db3d8db5f5d5.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d6de78e03949527b65c488fa587e29d7.svg",
+            "https://ege.sdamgia.ru/formula/svg/8d/8d04903f6c86b75ddd5f558fbd577bfb.svg",
+            "https://ege.sdamgia.ru/formula/svg/6b/6b5e68e5324fa82837a7c5d94a3c9273.svg",
+            "https://ege.sdamgia.ru/formula/svg/5e/5e649d6208568fb57b11f1f549f9ce88.svg",
+            "https://ege.sdamgia.ru/formula/svg/a0/a0f1ae92e05a731777e4c66a14275091.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f6d7e5e38f819d1298b1f424ec553894.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6d79063aeb77adc47c8626ec9f14bcf3.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/40bf01976a358011a246074c710a3fa1.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/47974bdd23cb8d093c5f8d0769417114.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/45f6e6d9a5c8bbc1fa4414b894362475.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c84455c5df1ee05960d59b345700d448.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c211d3389ded1478d5f1fdf1158bf079.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c211d3389ded1478d5f1fdf1158bf079.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "630666"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=630674"
+}

@@ -1,0 +1,36 @@
+{
+    "id": 563551,
+    "topic": "17",
+    "condition": {
+        "text": "Дана трапеция ABCD с большим основанием AD, вписанная в окружность. Продолжение высоты трапеции BH пересекает окружность в точке K. а) Докажите, что отрезки AC и AK перпендикулярны.б) Найдите AD, если радиус описанной окружности равен 6, угол BAC составляет 30°, отношение площадей BCNH к NKH равно 35, где N — точка пересечения отрезков AD и CK.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  По­сколь­ку ос­но­ва­ния тра­пе­ции AD и BC па­рал­лель­ны, а её вы­со­та  то  а зна­чит, впи­сан­ный угол KBC, равны 90°, опи­ра­ет­ся на диа­метр CK, на ко­то­рый опи­ра­ет­ся и впи­сан­ный угол CAK . По­это­му б)  Впи­сан­ные углы CKB и CAB опи­ра­ют­ся на одну дугу, а сле­до­ва­тель­но, равны. По­это­му в пря­мо­уголь­ном тре­уголь­ни­ке KBC катет BC лежит на­про­тив угла 30°, а зна­чит, равен по­ло­ви­не ги­по­те­ну­зы CK, то есть  а катет В тре­уголь­ни­ках KBC и KHN угол K общий, а углы KHN и KBC пря­мые, и, зна­чит, тре­уголь­ни­ки по­доб­ны. От­но­ше­ние пло­ща­дей по­доб­ных тре­уголь­ни­ков равно квад­ра­ту ко­эф­фи­ци­ен­та по­до­бия, по­это­му Сле­до­ва­тель­но,  то есть  а зна­чит,  Так как тра­пе­ция впи­са­на в окруж­ность, она рав­но­бед­рен­ная, по­это­му вы­со­та BH делит боль­шее ос­но­ва­ние AD на от­рез­ки  и  Вос­поль­зу­ем­ся тео­ре­мой о про­из­ве­де­нии от­рез­ков пе­ре­се­ка­ю­щих­ся хорд окруж­но­сти, по­лу­чим  от­ку­да   Тогда  по­это­му  то есть  Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=150471",
+            "https://ege.sdamgia.ru/formula/svg/f7/f708b6082366d0e0700a26af1b76111b.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/9177c670b6b6e32d30ff3300ccbcdd1c.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b13489fd926bb938280b176293b56e90.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c2ed0d246251d52584a331bd0649b0a1.svg",
+            "https://ege.sdamgia.ru/formula/svg/24/2444d07db7576ca880dd7a1318ef1ba2.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/09e4be74454d70a9ce3cb87cdae5e399.svg",
+            "https://ege.sdamgia.ru/formula/svg/1f/1fbf061f1d08924a692fbf996ae687c4.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4cc13cf5b795501048602c9b02e776e3.svg",
+            "https://ege.sdamgia.ru/formula/svg/c0/c03b6875d941c80ab8985c3d77aa8b23.svg",
+            "https://ege.sdamgia.ru/formula/svg/eb/eb891a46ca63eee59eb09b25dea004f6.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/8526bfb451bcc1523fadc2490de81e26.svg",
+            "https://ege.sdamgia.ru/formula/svg/6b/6b3cb737d2e2cfd4cf31e85e0bf36846.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c8c88aa3a7246fbdb976cd52d876f2b7.svg",
+            "https://ege.sdamgia.ru/formula/svg/7e/7ea25f68399e9d9a5d4b94d47f143fcc.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/496e81c522baee4573f5c85263253258.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cde07c9231718ba3173a004808c0aa9c.svg",
+            "https://ege.sdamgia.ru/formula/svg/80/803e6e50400a9f0337a78f8b3b3493bd.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "563577"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=563551"
+}

@@ -1,0 +1,38 @@
+{
+    "id": 509094,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображен график функции вида Найдите значение f (−8).",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=154758",
+            "https://ege.sdamgia.ru/formula/svg/1d/1d589856ae301ef74d6192e48e5ce3bd.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По гра­фи­ку функ­ции  опре­де­ля­ем, что  и  Тогда по­лу­ча­ем си­сте­му:Зна­чит,  Най­дем Ответ: 77.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/95/9532b93b393ac55538aa143fb6ece8f1.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/5505fd8db9572b059a40a548ae9b13c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0dac780c80280fb20cba35d97f30994e.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/60f36a688c533dbe957a4a68145345dd.svg",
+            "https://ege.sdamgia.ru/formula/svg/f5/f54ca1bc20c4699d14a7fdcdc89eef4b.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e3a829e1379d36ffcc2cdface02ad555.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2c65df41bfccdd39d7b056c55036685c.svg"
+        ]
+    },
+    "answer": "77",
+    "analogs": [
+        "509089",
+        "509090",
+        "509091",
+        "509092",
+        "...",
+        "509090",
+        "509091",
+        "509092",
+        "509093",
+        "630181",
+        "639646"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509094"
+}

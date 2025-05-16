@@ -1,0 +1,33 @@
+{
+    "id": 656592,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых уравнение имеет ровно один корень.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/2b/2b14803773b787faf3137b71b90b9066.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Вы­пол­ним пре­об­ра­зо­ва­ния:В си­сте­ме ко­ор­ди­нат xOa гра­фи­ка­ми урав­не­ний яв­ля­ют­ся пря­мая  и па­ра­бо­ла   Ре­ше­ние по­лу­чен­ной со­во­куп­но­сти  вы­де­ле­но оран­же­вым цве­том. Клю­че­вы­ми для от­ве­та на во­прос за­да­чи яв­ля­ют­ся ор­ди­на­ты точек  и  Ана­ли­зи­руя гра­фик, по­лу­ча­ем, что ис­ход­ное урав­не­ние   — при   имеет два корня;  — при   имеет три корня;  — при   имеет один ко­рень;  — при  не имеет кор­ней.Таким об­ра­зом, ис­ход­ное урав­не­ние  имеет один ко­рень при    Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=181025",
+            "https://ege.sdamgia.ru/formula/svg/cc/cc84715eba6c2a4b29ae6e67208cbe36.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/238499fa523368fd7d7c89831e194a32.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a255512f9d61a6777bd5a304235bd26d.svg",
+            "https://ege.sdamgia.ru/formula/svg/20/20794f24cf96639ad42bb58b01918ba6.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/0355b4ca0efede22c6829860118c6fd9.svg",
+            "https://ege.sdamgia.ru/formula/svg/9c/9c1627fe0acebd02c8068aa33d95393f.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf8298b0e273301afdd921e7e4cf6c2b.svg",
+            "https://ege.sdamgia.ru/formula/svg/9c/9ccb60542a996ff41ec45120ecc75e57.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/17a02f7aa54180eaa0f51aca0f2f2ff1.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d834a943b0a92f67d91481b42bc89d84.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/1656090996f278bbccf6e5a04318055e.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a8b539f222c96534082053d66f9a91e2.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "526707"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=656592"
+}

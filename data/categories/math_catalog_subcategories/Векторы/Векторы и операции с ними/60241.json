@@ -1,0 +1,58 @@
+{
+    "id": 60241,
+    "topic": "2",
+    "condition": {
+        "text": "Две стороны прямоугольника ABCD равны 24 и 7. Найдите длину суммы векторов и",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ed/ed7822c175dd4385510f7259a7fcfa41.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/5251b7b07918fd8775d797fc0b388e4a.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Две сто­ро­ны пря­мо­уголь­ни­ка ABCD равны 6 и 8. Най­ди­те длину суммы век­то­ров  и Сумма век­то­ров  и  равна век­то­ру  Век­тор  об­ра­зу­ет в пря­мо­уголь­ни­ке два пря­мо­уголь­ных тре­уголь­ни­ка. По­это­му по тео­ре­ме Пи­фа­го­ра  Ответ: 10.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=143410",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d1cceb556de3394ddc474f38c98e049.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c78ec31e2a229e0b1204757b7cd74d36.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d1cceb556de3394ddc474f38c98e049.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a39da478750333de819f18fad9409f8a.svg",
+            "https://ege.sdamgia.ru/formula/svg/4e/4ee9b12f2e70a313d60c2ab04519e9d5.svg",
+            "https://ege.sdamgia.ru/formula/svg/b6/b666b77b438240cc41b2abccb9e25b66.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/da2f933590fd7cd7388716edf857eda1.svg"
+        ]
+    },
+    "answer": "25",
+    "analogs": [
+        "27708",
+        "26441",
+        "60205",
+        "60207",
+        "...",
+        "26441",
+        "60205",
+        "60207",
+        "60209",
+        "60211",
+        "60213",
+        "60215",
+        "60217",
+        "60219",
+        "60221",
+        "60223",
+        "60225",
+        "60227",
+        "60229",
+        "60231",
+        "60233",
+        "60235",
+        "60237",
+        "60239",
+        "60243",
+        "60245",
+        "60247",
+        "60249",
+        "60251",
+        "60253"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=60241"
+}

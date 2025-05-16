@@ -1,0 +1,33 @@
+{
+    "id": 630159,
+    "topic": "17",
+    "condition": {
+        "text": "В параллелограмме ABCD угол BAC вдвое больше угла CAD. Биссектриса угла BAC пересекает отрезок BC в точке L. На продолжении стороны CD за точку D выбрана такая точка E, что а) Докажите, что б) Найдите EL, если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/3f/3f1260b814d4d3f6ed12214998312509.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9ebe97ad038293de4d9cac4b745bab1d.svg",
+            "https://ege.sdamgia.ru/formula/svg/7f/7fae6675d9cacf86c7a6a8f1af3c64af.svg",
+            "https://ege.sdamgia.ru/formula/svg/c6/c6bdef290fb86b14ef536c40f9fe46e3.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Из усло­вия сле­ду­ет, что  Пусть пло­щадь па­рал­ле­ло­грам­ма ABCD равна   Тре­уголь­ник ALD имеет общие с па­рал­ле­ло­грам­мом ABCD вы­со­ту и ос­но­ва­ние, сле­до­ва­тель­но,  Таким об­ра­зом, б)  Пусть O  — точка пе­ре­се­че­ния диа­го­на­лей па­рал­ле­ло­грам­ма. Тогда О делит диа­го­на­ли по­по­лам. Тре­уголь­ник ACE  — рав­но­бед­рен­ный, сле­до­ва­тель­но, EO и AC вза­им­но пер­пен­ди­ку­ляр­ны. Из усло­вия сле­ду­ет, что  Таким об­ра­зом, тре­уголь­ник ALC  — рав­но­бед­рен­ный,  сле­до­ва­тель­но, EL про­хо­дит через точку O. По­лу­ча­ем:от­ку­да  Ответ: 4,7.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=111795",
+            "https://ege.sdamgia.ru/formula/svg/98/98281b6115bb00d07f3169e7a689dd25.svg",
+            "https://ege.sdamgia.ru/formula/svg/43/435bdf0e1c60922ffda2971b4e64a9fe.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e488442431a1b8dc9dfa5f29c034aa85.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2f9bbc45d9a27a97f3a3e51d888fb69a.svg",
+            "https://ege.sdamgia.ru/formula/svg/96/964a83b25a0fb865a462a5af976e6c62.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4f4604a3f1bffbc41de3490d4e8b328c.svg",
+            "https://ege.sdamgia.ru/formula/svg/c6/c62f837a27b75a1d87c94d9b54c9a41c.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/06745933301086e071eeee89bc7c2e71.svg",
+            "https://ege.sdamgia.ru/formula/svg/77/7703dd17125c27ffcf7b08dd2d495f0b.svg"
+        ]
+    },
+    "answer": " 4,7.",
+    "analogs": [
+        "630123"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=630159"
+}

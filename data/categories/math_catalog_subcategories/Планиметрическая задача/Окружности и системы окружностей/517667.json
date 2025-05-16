@@ -1,0 +1,33 @@
+{
+    "id": 517667,
+    "topic": "17",
+    "condition": {
+        "text": "Две окружности с центрами O1 и O2 пересекаются в точках A и B, причем точки O1 и O2 лежат по разные стороны от прямой AB. Продолжение диаметра CA первой окружности и хорды CB этой же окружности пересекают вторую окружность в точках D и E соответственно.а) Докажите, что треугольники CBD и O1AO2 подобны.б) Найдите AD, если угол DAE равен углу BAC, а радиус второй окружности в четыре раза больше радиуса первой и AB = 2.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)   (по тео­ре­ме о впи­сан­ном угле для вто­рой окруж­но­сти). Ана­ло­гич­но  по­это­му тре­уголь­ни­ки имеют две пары рав­ных углов, сле­до­ва­тель­но, по­доб­ны.б)  Из ра­вен­ства углов  сле­ду­ет па­рал­лель­ность пря­мых:  По­это­му, учи­ты­вая, что  по­лу­ча­ем:  Зна­чит,  а AE  — диа­метр окруж­но­сти.Рав­но­бед­рен­ные тре­уголь­ни­ки  и  по­доб­ны, по­сколь­ку Зна­чит,  от­ку­да  Ответ: б) 8.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=148023",
+            "https://ege.sdamgia.ru/formula/svg/8b/8b35194961cb641b0f32434530f4f9e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/df4fd3d326f21b7d16ab2b63649984e1.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f1ed0cbc49b666b833b510fbc55fb0b1.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/2157e298b7eeb952b637171f6d2f7e17.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/30460ff88e512cfc99bfec9cf1c3fd07.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e045064a288a790eb363c5c0ca75f0f6.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/039c1e177d22b54a1f8f92076be95852.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5cd438aa77f9fa9515cf417d9cb68539.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/57010245dd32dbb9c811c22c34b216c3.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e5ad1cf6ad957a2c844eb4dfa93255af.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/dbe09f4ff27b418168e507432a4da7ce.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d6dd36265ba7bc5c5e6da63c90190563.svg"
+        ]
+    },
+    "answer": "б) 8.",
+    "analogs": [
+        "517462",
+        "517469",
+        "517531"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=517667"
+}

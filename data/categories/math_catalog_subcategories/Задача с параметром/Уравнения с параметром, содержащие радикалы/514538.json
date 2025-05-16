@@ -1,0 +1,35 @@
+{
+    "id": 514538,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения а, при каждом из которых уравнениеимеет ровно три различных корня.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/22/22f41ca20b4336419a17934ef3469e2a.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Воз­во­дя в квад­рат, по­лу­ча­ем  то есть Его корни  Оста­лось узнать, не по­сто­рон­ние ли это корни, и все ли они раз­лич­ны (их как раз три).При  из­на­чаль­ное урав­не­ние при­мет вид  что верно при При  из­на­чаль­ное урав­не­ние при­мет вид  что верно при  При  из­на­чаль­ное урав­не­ние при­мет вид  что верно при при всех a.Сов­па­де­ние кор­ней про­ис­хо­дит при  или  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/33/33b9c94615afcbcc38688118ce6f616f.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b4e63c406414325f28fe5f7ec34dd28f.svg",
+            "https://ege.sdamgia.ru/formula/svg/6b/6bea3a12e77b0dc00bb406bd87f38fe4.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e11729b0b65ecade3fc272548a3883fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d5882b7812733e9aaca4c912f1747bcc.svg",
+            "https://ege.sdamgia.ru/formula/svg/98/981b15bcc1c316f6776062e3b276c4c3.svg",
+            "https://ege.sdamgia.ru/formula/svg/58/5870bb658ee9e8a6900c138365d64c80.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d5882b7812733e9aaca4c912f1747bcc.svg",
+            "https://ege.sdamgia.ru/formula/svg/98/981b15bcc1c316f6776062e3b276c4c3.svg",
+            "https://ege.sdamgia.ru/formula/svg/eb/ebecc2b6dba57907affa9b52c365d0e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/df91e3cdfa72623e184c7df6a7263e6c.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/ded681eaa02d11064c9a469dd1b3e04c.svg",
+            "https://ege.sdamgia.ru/formula/svg/bc/bcbf38ca700364e9bc881f77499aa16a.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fcd5b3736bdda80438bd8a3e299690af.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "514451",
+        "514531"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=514538"
+}

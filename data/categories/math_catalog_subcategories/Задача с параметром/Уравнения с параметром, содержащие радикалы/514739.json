@@ -1,0 +1,39 @@
+{
+    "id": 514739,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых уравнениеимеет единственный корень.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/19/19aa0f1f1f77a1298249053613434f56.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Сде­ла­ем за­ме­ну  Тогда, в силу того, что функ­ция  мо­но­тон­на, ис­ход­ное урав­не­ние имеет един­ствен­ный ко­рень тогда и толь­ко тогда, когда урав­не­ние  имеет един­ствен­ный по­ло­жи­тель­ный ко­рень.При  левая часть по­лу­чен­но­го урав­не­ния от­ри­ца­тель­ная, а пра­вая не­от­ри­ца­тель­ная, по­это­му по­лу­чен­ное урав­не­ние не имеет кор­ней, мень­ших a.При  по­лу­ча­ем: При  любое по­ло­жи­тель­ное зна­че­ние t яв­ля­ет­ся кор­нем урав­не­ния.При  по­лу­ча­ем един­ствен­ный ко­рень:  Для этого корня долж­ны вы­пол­нять­ся усло­вия  и Усло­вие  вы­пол­ня­ет­ся при Усло­вие  вы­пол­ня­ет­ся при Таким об­ра­зом, ис­ход­ное урав­не­ние имеет един­ствен­ный ко­рень при  Ответ:  ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ac/acb3db108a379b3dab55d3a875371adf.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9f0c526957c479414d237952c5803452.svg",
+            "https://ege.sdamgia.ru/formula/svg/be/bed1d4928ccbe7912d7b0ebadb2c9418.svg",
+            "https://ege.sdamgia.ru/formula/svg/b2/b21c440b5d60bcb5a9dc5972374c4b02.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d6e3fcdae679f04882912593c4788fe9.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a7d24fc7cb42be5347a977c7fff1f02c.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/ded681eaa02d11064c9a469dd1b3e04c.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/51f3d5e4aed2faedef416b21782753ba.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/369718876142d79c1a5ef2c487ab78b4.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d6e3fcdae679f04882912593c4788fe9.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/318331ccf1db26202798f6d59e5583a1.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/61b7996e629dec02e071c0b77f1db721.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8e93d2cc5cafdbbbffacbc63c25709a8.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c743803f2cd74b2a30c2c43c5f5f9672.svg",
+            "https://ege.sdamgia.ru/formula/svg/71/71c21713e3e6296f7a629717f2b23a21.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e513a9d5c9bad9486a85423a0cf6099f.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e7edace83b0db54551ddbf51d26d991f.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e513a9d5c9bad9486a85423a0cf6099f.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e7edace83b0db54551ddbf51d26d991f.svg"
+        ]
+    },
+    "answer": "  ",
+    "analogs": [
+        "514478"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=514739"
+}

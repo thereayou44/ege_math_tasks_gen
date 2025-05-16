@@ -1,0 +1,33 @@
+{
+    "id": 660761,
+    "topic": "17",
+    "condition": {
+        "text": "Пятиугольник ABCDE вписан в окружность. Известно, что и а) Докажите, что б) Найдите длину диагонали BE, если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/a5/a5c0295f14389c42c88ce15498720b83.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d54ac1acdb5e8376a6161e03677d6fd.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/0623dda6bc5c64704aaf1a8d3ccff90b.svg",
+            "https://ege.sdamgia.ru/formula/svg/fe/fef6fd336a478c1e09332765c4cab213.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Дуги, стя­ги­ва­е­мые рав­ны­ми хор­да­ми, равны, по­это­му равны углы BAC и DCE и BCA и DEC (см. рис. 1). В тре­уголь­ни­ке сумма углов 180°, а, зна­чит, углы ABC и CDE также равны. Тогда тре­уголь­ни­ки ABC и CDE равны по пер­во­му при­зна­ку ра­вен­ства тре­уголь­ни­ков. Сле­до­ва­тель­но, Рис. 1Рис. 2б)  Пусть AD пе­ре­се­ка­ет­ся с BE в точке M (см. рис. 2). Дуги, стя­ги­ва­е­мые рав­ны­ми хор­да­ми, равны, по­это­му углы DCE и BEC равны. Сле­до­ва­тель­но, пря­мая CD па­рал­лель­на пря­мой BE. Ана­ло­гич­но пря­мая BC па­рал­лель­на пря­мой AD. Зна­чит, BCDM  — па­рал­ле­ло­грамм по опре­де­ле­нию. А по­то­му  и  По свой­ству пе­ре­се­ка­ю­щих­ся хорд по­лу­ча­ем: от­ку­да  Таким об­ра­зом,  сле­до­ва­тель­но,  Ответ: б)  ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/17/17c4db2b9e4a06522b8daf2c84d2dd30.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=179609",
+            "https://math-ege.sdamgia.ru/get_file?id=179611",
+            "https://ege.sdamgia.ru/formula/svg/ae/ae889956b0b3a0da999962bfc426e172.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c92740eef6fe462b333927e31bb8b3a.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/019c39ead7e4678d5ed0e0448f2fa7e4.svg",
+            "https://ege.sdamgia.ru/formula/svg/14/14353a7178b26a646050e33c33af0494.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f91c8cadc6e341a4d59b2e0b30058190.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/cc58e53d30a0b11046f4926e263f53ad.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d65a4b8002ddbd8951338e70bd364c0f.svg"
+        ]
+    },
+    "answer": " б)  ",
+    "analogs": [
+        "660740"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=660761"
+}

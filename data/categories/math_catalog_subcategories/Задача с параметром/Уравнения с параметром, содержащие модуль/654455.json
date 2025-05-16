@@ -1,0 +1,34 @@
+{
+    "id": 654455,
+    "topic": "18",
+    "condition": {
+        "text": "Определите, при каких значениях параметра a уравнение имеет ровно два решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/26/26e18127013bf76258c620ddef0315f8.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пусть  тогда урав­не­ние при­ни­ма­ет вид   где  Чтобы ис­ход­ное урав­не­ние имело ровно два ре­ше­ния, урав­не­ние (⁎) долж­но иметь един­ствен­ное ре­ше­ние.Если  то урав­не­ние имеет един­ствен­ное ре­ше­ние (см. рис.). Если  урав­не­ние имеет един­ствен­ное ре­ше­ние тогда и толь­ко тогда, когда пря­мая  ка­са­ет­ся гра­фи­ка функ­ции  (см. рис.), что задаётся си­сте­мой со­от­но­ше­ний:За­ме­тим, что най­ден­ное зна­че­ние па­ра­мет­ра, дей­стви­тель­но, по­ло­жи­тель­но. Ответ:  ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=174671",
+            "https://math-ege.sdamgia.ru/get_file?id=165431",
+            "https://ege.sdamgia.ru/formula/svg/fe/fe8be9020b4fa9b260ffd00035040f91.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d2b63a53392f63bd80af8b4399acc766.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d4578daa89206e3726b86ae8057ee966.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/832c85cbd959f0b7ad08270be4387531.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/323c5f97105643bc61e288fe596194ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/181d0c5d3c4b3e7374647a9c4c48fef4.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c7b8d5fe17c04c5c463dfb9b23e29b5.svg",
+            "https://ege.sdamgia.ru/formula/svg/d0/d0d9e69f33f7dd7fdd67c58c54253bef.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ec2ddf676c8f04a2038958f9847dfca8.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cbaec533ec23b4303f24f239527c605d.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/832c85cbd959f0b7ad08270be4387531.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/395c12eeae07066aa3e5fcef69bc4768.svg"
+        ]
+    },
+    "answer": "  ",
+    "analogs": [
+        "505569"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=654455"
+}

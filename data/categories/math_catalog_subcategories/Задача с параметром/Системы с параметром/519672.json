@@ -1,0 +1,68 @@
+{
+    "id": 519672,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых система уравненийимеет более двух решений.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/4f/4f021dc76fcf5b5f552ab26cfc5d98fe.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Изоб­ра­зим на ко­ор­ди­нат­ной плос­ко­сти мно­же­ство точек, ко­ор­ди­на­ты ко­то­рых удо­вле­тво­ря­ют пер­во­му урав­не­нию си­сте­мы.Рас­смот­рим че­ты­ре слу­чая:1)  Если  и  то по­лу­ча­ем урав­не­ниеПо­лу­чен­ное урав­не­ние задаёт пару пря­мых  и  Слу­чаю удо­вле­тво­ря­ют от­рез­ки внут­ри квад­ра­та  с цен­тром в на­ча­ле ко­ор­ди­нат.2)  Если  и  то по­лу­ча­ем урав­не­ниеПо­лу­чен­ное урав­не­ние задаёт па­ра­бо­лу  Слу­чаю удо­вле­тво­ря­ет толь­ко дуга выше пря­мой  3)  Если  и  то по­лу­ча­ем урав­не­ниеПо­лу­чен­ное урав­не­ние задаёт па­ра­бо­лу  Слу­чаю удо­вле­тво­ря­ет толь­ко дуга пра­вее пря­мой  4)  Если  и  то по­лу­ча­ем урав­не­ниеПо­лу­чен­ное урав­не­ние задаёт пря­мую  Слу­чаю удо­вле­тво­ря­ют лучи вне квад­ра­та  с цен­тром в на­ча­ле ко­ор­ди­нат. Точки    яв­ля­ют­ся точ­ка­ми пе­ре­се­че­ния по­лу­чен­ных па­ра­бол с по­лу­чен­ны­ми пря­мы­ми и лежат на пря­мых  и/или  по­это­му ис­ко­мое мно­же­ство со­сто­ит из пря­мой l, за­да­ва­е­мой урав­не­ни­ем  от­рез­ка AB пря­мой  дуги  па­ра­бо­лы  с кон­ца­ми в точ­ках B и C и дуги  па­ра­бо­лы  с кон­ца­ми в точ­ках A и C (см. рис.).Рас­смот­рим вто­рое урав­не­ние си­сте­мы. Оно задаёт пря­мую m, па­рал­лель­ную пря­мой AB или сов­па­да­ю­щую с ней.За­ме­тим, что при a  =  0 пря­мая m пе­ре­се­ка­ет пря­мую l в одной точке и не пе­ре­се­ка­ет дуги  и  и от­ре­зок AB, то есть ис­ход­ная си­сте­ма имеет одно ре­ше­ние..При a  =  1 пря­мая m со­дер­жит от­ре­зок AB, то есть ис­ход­ная си­сте­ма имеет бес­ко­неч­ное число ре­ше­ний.При 1 < a < 2 пря­мая m не пе­ре­се­ка­ет от­ре­зок AB, пе­ре­се­ка­ет пря­мую l в точке, от­лич­ной от точки C, и пе­ре­се­ка­ет каж­дую из дуг  и  в одной точке, от­лич­ной от точки C, то есть ис­ход­ная си­сте­ма имеет три ре­ше­ния.При a = 2 пря­мая про­хо­дит через точку C пе­ре­се­ка­ет в ней пря­мую l и ка­са­ет­ся дуг  и  то есть си­сте­ма имеет одно ре­ше­ние. Факт ка­са­ния дол­жен быть по­яс­нен. Точки пе­ре­се­че­ния пря­мой и па­ра­бо­лы  могут быть опи­са­ны урав­не­ни­ем ко­то­рое имеет един­ствен­ное ре­ше­ние x = 1, со­от­вет­ству­ю­щее точке C и, сле­до­ва­тель­но, в этой точке имеет место ка­са­ние пря­мой и дуги па­ра­бо­лы  Для дуги па­ра­бо­лы  ана­ло­гич­но.При a < 1 или a > 2 пря­мая m пе­ре­се­ка­ет пря­мую l в одной точке и не пе­ре­се­ка­ет дуги  и  и от­ре­зок AB, то есть ис­ход­ная си­сте­ма имеет одно ре­ше­ние.Зна­чит, ис­ход­ная си­сте­ма имеет более двух ре­ше­ний при  Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=156594",
+            "https://ege.sdamgia.ru/formula/svg/e9/e9d49ff47ed1fd750d18ce45b4315958.svg",
+            "https://ege.sdamgia.ru/formula/svg/d0/d0a29e5960bc427841eaa745c727cfaf.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50a33f5ea34840049effea9763fa7e7e.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5dbad057040ec6eb5aa5841786e25d33.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/553637112afda70dad401d20816503ee.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/841ecfa9c7e95e17131674635e981ab7.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e9d49ff47ed1fd750d18ce45b4315958.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0e90aab30b11ce8a079492d02f057e5a.svg",
+            "https://ege.sdamgia.ru/formula/svg/33/339e1f2c256c4138a8b8a728e5f36337.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/36d361f6a3cf6ef7cbf9fc8cf369b802.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/231f8e81717b1ec7976960f21afbfeaf.svg",
+            "https://ege.sdamgia.ru/formula/svg/bc/bc540411fc0ba0b9f30d01fa00d7bbd8.svg",
+            "https://ege.sdamgia.ru/formula/svg/d0/d0a29e5960bc427841eaa745c727cfaf.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c76a93949676c05a9ff9f0ad12aa27df.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bfc55080e61cfaf8c38fe4969ac3cff3.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e4a8c40487338b4f5a4a879f405da4c1.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b005a79ea311315d19583892c4becc5c.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0e90aab30b11ce8a079492d02f057e5a.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/810e53b3ea9482e14178f76e7b04af02.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/10529ae692c6506344abdd790d6fb960.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/841ecfa9c7e95e17131674635e981ab7.svg",
+            "https://ege.sdamgia.ru/formula/svg/a5/a5dd734724b96eec913af400a928900e.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/86d623b634546424ff1138e4539fc4df.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e01fb1257a393349f1173dd07e4f632b.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a255512f9d61a6777bd5a304235bd26d.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c9bd36d2b59e68095a3ca67450a7cfca.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/74a02e39b7685bf323916a8b8e6f7595.svg",
+            "https://ege.sdamgia.ru/formula/svg/77/776bfc611fd953f9054eeaf493c82879.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e2c2aee4747574ad34af5d8e2840607c.svg",
+            "https://ege.sdamgia.ru/formula/svg/5f/5f773776e67c3d7346fe3d6e488010dd.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a6441f0242954464393cf80fccecdc9b.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54f84d686f5662518771a19cce6f292a.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e2c2aee4747574ad34af5d8e2840607c.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a6441f0242954464393cf80fccecdc9b.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e2c2aee4747574ad34af5d8e2840607c.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a6441f0242954464393cf80fccecdc9b.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e2c2aee4747574ad34af5d8e2840607c.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/56ceb8f44da602e939bdc0a060371448.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/22c15bd753693e42d5c3e0a0e56e0286.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6c9dc556407f7dfce3a2ec73f807a022.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a6441f0242954464393cf80fccecdc9b.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e2c2aee4747574ad34af5d8e2840607c.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a6441f0242954464393cf80fccecdc9b.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6c875ce865385ecc25b9e44d97d2e262.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e901c14bf00184ccb08b19d97dea8921.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "514388",
+        "643205",
+        "519674"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=519672"
+}

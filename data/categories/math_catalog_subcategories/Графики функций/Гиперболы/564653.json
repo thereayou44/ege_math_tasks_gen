@@ -1,0 +1,27 @@
+{
+    "id": 564653,
+    "topic": "Д10",
+    "condition": {
+        "text": "На рисунке изображён график функции вида где числа a, b и c — целые. Найдите",
+        "images": [
+            "https://ege.sdamgia.ru/get_file?id=91557",
+            "https://ege.sdamgia.ru/formula/svg/f5/f572f31a627c9f8aba0078288b7393b1.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6df29e02e1fb2cd33189122c8356e9ba.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­ме­тим, что асимп­то­ты гра­фи­ка ги­пер­бо­лы это пря­мые x = 2 и y = 1, от­ку­да a = 1, c = 2. Учи­ты­вая, что  по­лу­чим урав­не­ние  от­ку­да b = –1. Вы­чис­лим те­перь  Ответ: 0,75.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/23/23bc3d7471ac586dbfb021bd342da004.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f121e21ea51b782377ae19befed57a2c.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/00941b0efaac92d3ce6ab2eb7bfefc78.svg"
+        ]
+    },
+    "answer": "0,75",
+    "analogs": [
+        "564650",
+        "564651",
+        "564652"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=564653"
+}

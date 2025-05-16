@@ -1,0 +1,24 @@
+{
+    "id": 654450,
+    "topic": "2",
+    "condition": {
+        "text": "В прямоугольном треугольнике ABC катет AC равен Найдите скалярное произведение",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=138129",
+            "https://ege.sdamgia.ru/formula/svg/db/dbe7208022f091c0e69a5f8d68ceee9e.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f0f83881aa95f7d16c65689d21b7bd62.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пусть угол между ка­те­том AC и ги­по­те­ну­зой AB равен α, тогда  По опре­де­ле­нию ска­ляр­но­го про­из­ве­де­ния по­лу­ча­ем:Ответ: 5.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/d3/d3a108ae2db85fa19b5765ac19f12674.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/ad52a613bcbcd03d8e47392a0c458bca.svg"
+        ]
+    },
+    "answer": "5",
+    "analogs": [
+        "654449"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=654450"
+}

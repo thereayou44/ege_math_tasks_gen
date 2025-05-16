@@ -1,0 +1,36 @@
+{
+    "id": 556551,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых системаимеет единственное решение.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/d9/d96891e273f7d07aa4550d5b5f9a86fc.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пер­вое урав­не­ние задаёт объ­еди­не­ние круга  и точки  Един­ствен­ное ре­ше­ние будет тогда и толь­ко тогда, когда пря­мая  ка­са­ет­ся круга, но не про­хо­дит через точку M, или про­хо­дит через точку M, но не имеет общих точек с кру­гом. Со­ста­вим си­сте­му: Чтобы найти зна­че­ния a, при ко­то­рых пря­мая ка­са­ет­ся круга, при­рав­ня­ем дис­кри­ми­нант урав­не­ния к нулю:Через точку M пря­мая  про­хо­дит, толь­ко если  то есть  Сле­до­ва­тель­но,  и  удо­вле­тво­ря­ют усло­вию за­да­чи.Те­перь пусть пря­мая  про­хо­дит через точку M. Про­ве­рим, пе­ре­се­ка­ет ли она круг. До­ста­точ­но найти знак дис­кри­ми­нан­та D при :Сле­до­ва­тель­но, пря­мая  имеет с кру­гом общие точки. В этом слу­чае дан­ная си­сте­ма имеет бес­ко­неч­но много ре­ше­ний. Ответ: 0,25 или −4.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=156659",
+            "https://ege.sdamgia.ru/formula/svg/c0/c018b889c9d6f1dc0808ef2d979e26db.svg",
+            "https://ege.sdamgia.ru/formula/svg/05/059be945fdfb5a9cc4d2939d8907ce02.svg",
+            "https://ege.sdamgia.ru/formula/svg/fe/fe9180a5c16d5363b1631a8ac63b2f7d.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/884b82894b87ccb43e6ffc0f880c4ff1.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e053e82c6aff9ec6f258d396d2a5bb13.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a3ab5a5c481dbc122d30d12b8fb22ef1.svg",
+            "https://ege.sdamgia.ru/formula/svg/fe/fe9180a5c16d5363b1631a8ac63b2f7d.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dc54fe91b9b6b141102db8a9049c955e.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/39245a0c4dfdf26b2e0665c996acde39.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/08cf12e37d0ce5a8ddc32ff2cabc3f7c.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ec4813201d54837a97eb255b9c70ea6c.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/04c6199c535247e219d2bc93c2c96efb.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3d7b566aaed7713dfc5583dfc4b9c386.svg",
+            "https://ege.sdamgia.ru/formula/svg/98/9899e5a64c52130aa6c16e500c890921.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/04c6199c535247e219d2bc93c2c96efb.svg"
+        ]
+    },
+    "answer": " 0,25 или −4.",
+    "analogs": [
+        "556539"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=556551"
+}

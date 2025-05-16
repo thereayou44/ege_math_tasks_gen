@@ -1,0 +1,41 @@
+{
+    "id": 561198,
+    "topic": "18",
+    "condition": {
+        "text": "Найти все значения параметра a, при каждом из которых наименьшее значение функции больше 1.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/b7/b77b289ff5e5f42fff696cde0d998995.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Рас­крыв мо­дуль по­лу­чим, чтоНа лучах  и  гра­фик функ­ции пред­став­ля­ет собой па­ра­бо­лу, ветви ко­то­рой на­прав­ле­ны вверх. На от­рез­ке [1; 3]  гра­фик функ­ции пред­став­ля­ет собой па­ра­бо­лу, ветви ко­то­рой на­прав­ле­ны вниз. Наи­мень­шее зна­че­ние функ­ции до­сти­га­ет­ся либо на краях от­рез­ка [1; 3]  или в вер­ши­не па­ра­бо­лы, ветви ко­то­рой на­прав­ле­ны вверх, то есть в одной из трёх точек   или  при усло­вии  Для вы­пол­не­ния усло­вия за­да­чи дол­жен быть вы­пол­нен один из двух слу­ча­ев:Not match begin/end То естьОтвет: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/d4/d4d4b6176372896a93b21dec48ae7add.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a8a31a85bb1f977ebb2c7bc53f5b1e6d.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/887709056c183ed4b5363848371d1237.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6d1a6b72281788367272d9abb7c34878.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/064e113d61e97c3b00cd1efd7434bbe5.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/840cf17b6af017f5aa9dd5b6e2694e34.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/885b4c124bd00b845129a44157596295.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/927ff8d407d24c3ee2df3d86bc730902.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2eee724e2fa4b454b6ee820e465b2a0b.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d5634c30530691209c8f85f59cf59173.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/00c3da61fd79c6936cf2d7f26fa152fa.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6f4cc95d568f09ae6aebdc141d35b7b4.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/36eef261fbd500fbae7a27c2ca8b19ea.svg",
+            "https://ege.sdamgia.ru/formula/svg/78/784db965347e491fa3d0e8867596e5c1.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "485938",
+        "485946",
+        "503150",
+        "511452",
+        "...",
+        "485946",
+        "503150",
+        "511452"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=561198"
+}

@@ -1,0 +1,36 @@
+{
+    "id": 556723,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a∈[−1; 0], при каждом из которых хотя бы одно значение х, удовлетворяющее условию −5 < x < −3 является решением уравнения",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/f3/f3e087a66153db85d9f79f2dac5dfe25.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Если  то урав­не­ние при­ни­ма­ет вид  Ни одно из чисел, удо­вле­тво­ря­ю­щих усло­вию  не яв­ля­ет­ся ре­ше­ни­ем урав­не­ния, по­это­му зна­че­ние  не удо­вле­тво­ря­ет усло­вию за­да­чи.Пусть  Тогда верно не­ра­вен­ство  По­это­му ре­ше­ни­ем урав­не­ния яв­ля­ет­ся любое число из от­рез­ка   по­сколь­ку длина этого от­рез­ка равна  и не­ра­вен­ству удо­вле­тво­ря­ют те и толь­ко те точки x, сумма рас­сто­я­ний от каж­дой из ко­то­рых до точек  и  равна Оста­лось вы­брать те зна­че­ния  при каж­дом из ко­то­рых от­ре­зок  со­дер­жит хотя бы одно число, удо­вле­тво­ря­ю­щее усло­вию  Это усло­вие вы­пол­не­но тогда и толь­ко тогда, когда вы­пол­ня­ют­ся не­ра­вен­стваОтвет: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/2d/2d47c3b48318fcef886f7705dfd2b566.svg",
+            "https://ege.sdamgia.ru/formula/svg/8a/8abbdf5bb2418a41e0a3d6800c0bd5cc.svg",
+            "https://ege.sdamgia.ru/formula/svg/6b/6b343717c0a5a5a19a426e86dffa224c.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/ded681eaa02d11064c9a469dd1b3e04c.svg",
+            "https://ege.sdamgia.ru/formula/svg/96/967e727ff212b94e98051b669a606bf2.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/81d2c4a9703f58301ff7bf9a51efb7b5.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2fc0b9e493d144046b12e54432d12ca8.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/37caf0ee262229a9ddc60877eec6883f.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/90d41ef63c341ed16572db535e5424e0.svg",
+            "https://ege.sdamgia.ru/formula/svg/8a/8a29726aedb635eaebb01da0951781e8.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/6577847eb6d663f4f7dc423778ea037d.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/23cc1050ba2fa44ea96e6088e7eda71a.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/651d4f59a6a22432157e64f7d6190655.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/8696ce78147e43b85a2a11a5902903a4.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8fcbb7bae5bd7d34612f8c00a1e28a5e.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af297a8cbf9c8d9140dc905a9cc22bef.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "556701"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=556723"
+}

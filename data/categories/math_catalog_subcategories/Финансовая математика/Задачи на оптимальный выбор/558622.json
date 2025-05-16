@@ -1,0 +1,41 @@
+{
+    "id": 558622,
+    "topic": "16",
+    "condition": {
+        "text": "В каждом из двух комбинатов работает по 1000 человек. На первом комбинате один рабочий изготавливает за смену три детали А или одну деталь В. На втором комбинате для изготовления 10t деталей (как А, так и В) требуется t2 человеко‐смен. Оба комбината поставляют детали на завод, где из деталей собирают изделие, для изготовления которого нужны одна деталь А и три детали В. При этом комбинаты договариваются между собой изготавливать детали так, чтобы можно было собрать наибольшее число изделий. Сколько изделий при таких условиях может собрать завод за смену?",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. На каж­дом ком­би­на­те в день может быть за­тра­че­но 1000 че­ло­ве­ко-смен труда. Пусть на пер­вом ком­би­на­те на из­го­тов­ле­ние де­та­ли A еже­днев­но будет за­тра­че­но х че­ло­ве­ко-смен, а на вто­ром ком­би­на­те − y2 че­ло­ве­ко-смен. Со­ста­вим таб­ли­цу по дан­ным за­да­чи. Де­таль AДе­таль BКо­ли­че­ствоче­ло­ве­ко-смен Ко­ли­че­стводе­та­лей за смену, штКо­ли­че­ствоче­ло­ве­ко-смен Ко­ли­че­стводе­та­лей за смену, штПер­вый ком­би­натx3xВто­рой ком­би­нат10yВсего Для про­из­вод­ства из­де­лия ко­ли­че­ство из­го­тов­лен­ных де­та­лей B долж­но быть ровно в три раза боль­ше ко­ли­че­ства из­го­тов­лен­ных де­та­лей A:Пусть n  — ко­ли­че­ство из­де­лий, ко­то­рые соберёт завод за смену, оно равно ко­ли­че­ству де­та­лей A.  Учи­ты­вая ра­вен­ство (⁎), имеем:  Найдём наи­боль­шее зна­че­ние функ­ции  где  Для этого ис­сле­ду­ем функ­цию с по­мо­щью  про­из­вод­ной: При­рав­ня­ем про­из­вод­ную к нулю и найдём кри­ти­че­ские точки: За­ме­тим, что при  ра­вен­ство (⁎) вы­пол­ня­ет­ся, если Таким об­ра­зом, наи­боль­шее зна­че­ние функ­ции  равно  Зна­чит, завод смо­жет со­би­рать 400 из­де­лий за смену. Ответ: 400. При­ме­ча­ние. Про­чти­те ре­ше­ние за­да­ния 513302 и при­ме­ча­ния к нему.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/91/918e2a3aaa57cb88b4b65d2fac65f0e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/918e2a3aaa57cb88b4b65d2fac65f0e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c91bdff30bfc831ff645b8442bed761a.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/271d92e8af81d4ca08baa765db6bdb7a.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b106b83e98c5803705c9a88ef1886451.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/889b6f41a1ae1df3d5457a90b0065ecd.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f7bf011ca678c6c9e58d0e616fac1393.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/10db55c259440e63b855ec084eb328fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3ed3e8d9c4bc50ccdbaf1f7136b6dafa.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/10db55c259440e63b855ec084eb328fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8ce78c4f97fc9f679a3c85493bfc4958.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/21eca075e4373f33547a3df0db20e397.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b41c74a2c97f4408a2e6a4ed98b906d5.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c750a28c455fb60aac40fb9e415dca79.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b7a4f7e628b1cb8a2cd4a0f48584f49f.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/1986e39669a7015362a3a18937c8f222.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b470e24add746417990b022c0d7169e8.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b3bc51f764f17125fb682607d5c98e85.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=76090",
+            "https://ege.sdamgia.ru/formula/svg/64/6453038dab814125c128b39d8a98369f.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0cee8e7e70bbd5b46dc32502b11fdea9.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6c3a860df3a61bd9bd9141ae5dddef08.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7cd3d5941939b0c3711b4eb696e6947c.svg"
+        ]
+    },
+    "answer": " 400.",
+    "analogs": [
+        "513302"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=558622"
+}

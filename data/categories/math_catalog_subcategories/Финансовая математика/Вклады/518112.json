@@ -1,0 +1,31 @@
+{
+    "id": 518112,
+    "topic": "16",
+    "condition": {
+        "text": "Мистер Джонсон по случаю своего тридцатилетия открыл 1 октября 2010 года в банке счёт, на который он ежегодно кладет 6000 рублей. По условиям вклада банк ежегодно начисляет 30% на сумму, находящуюся на счёте. Через 7 лет 1 октября 2017 года октября, следуя примеру мистера Джонсона, мистер Браун по случаю своего тридцатилетия тоже открыл в банке счет, на который ежегодно кладёт по 13 800 рублей, а банк начисляет 69% в год. В каком году после очередного пополнения суммы вкладов мистера Джонсона и мистера Брауна сравняются, если деньги со счетов не снимают?",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Через n лет 1 ок­тяб­ря на пер­вом счёте будет сумма (сум­ми­ру­ем n + 1 член гео­мет­ри­че­ской про­грес­сии)В это же время на вто­ром счёте будет сумма При­рав­ня­ем эти суммы и решим по­лу­чен­ное урав­не­ние:Таким об­ра­зом, суммы на сче­тах срав­ня­ют­ся через 13 лет после от­кры­тия пер­во­го вкла­да, то есть в 2023 году. Ответ: 2023.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/fb/fb336a6ccf5753252fa6a7fdb38497dc.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/13802a40276610da14ae77740990a0cc.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/5563b5b47d4cc836d16a30e902efd5d2.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/7057f1f896e602eea2c36bebae894cde.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d818f720a8e3cddfa051cb608a5e2592.svg",
+            "https://ege.sdamgia.ru/formula/svg/93/93eeb6191f5b4c0c99bdd7ed4d4f3781.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fdf3cdc7449e5a10726a81a3739946db.svg",
+            "https://ege.sdamgia.ru/formula/svg/9b/9bb3ee6810e55946fc73501ba2bd3009.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bfde6872af2a5da4ed58440b351d5fdc.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4f76136850a1f5800068d20794b11a8c.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f6aa18b359a77ec6ff9b758731a0d4c4.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/3738467f4c67388f5fca60f329f8d5e3.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/94f82752fbe9437afd8e76e5bf16f3f6.svg"
+        ]
+    },
+    "answer": " 2023.",
+    "analogs": [
+        "507714"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=518112"
+}

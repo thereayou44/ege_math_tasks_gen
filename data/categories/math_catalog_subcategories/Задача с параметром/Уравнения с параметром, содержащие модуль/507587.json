@@ -1,0 +1,31 @@
+{
+    "id": 507587,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых уравнениеимеет хотя бы один корень на отрезке [5; 23].",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/b6/b6a74129b1a0dc0969fe4f3b8a0b3a2f.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Раз­ность вы­ра­же­ний, сто­я­щих под зна­ка­ми мо­ду­ля, сов­па­да­ет с пра­вой ча­стью урав­не­ния:Сде­ла­ем за­ме­ну: Тогда урав­не­ние при­мет вид: Это рав­но­силь­но усло­вию  По­лу­ча­ем:Урав­не­ние имеет хотя бы один ко­рень на от­рез­ке [5; 23], толь­ко если пра­вая гра­ни­ца от­рез­ка ре­ше­ний не мень­ше 5, а левая не боль­ше 23. По­лу­ча­емТаким об­ра­зом, дан­ное урав­не­ние имеет хотя бы один ко­рень на от­рез­ке [5; 23] при a при­над­ле­жа­щем мно­же­ству [4; 7]. Ответ: [4; 7].",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ba/bac4411687f334d49579e95aa98244e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e12ac35e2c0a8f66da5bd52fd42476a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d6168e067bf4805d72adaad3e6dd702a.svg",
+            "https://ege.sdamgia.ru/formula/svg/80/800e857b4052a155b9fdcc6b5dee9f6f.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1c8332a2f0a669be0c2fe97b3a83b522.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d43888d93d9799697a623e2d7a0aab63.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c23a4563e2c82e08eb7b23c0b495b59d.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa1c70d01a2128736e2fe54740bdec66.svg",
+            "https://ege.sdamgia.ru/formula/svg/ff/ff9172ae5757a40a44e32412978b5e26.svg",
+            "https://ege.sdamgia.ru/formula/svg/fa/fa45e9db036782ed3938b251b59fcee6.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa1c70d01a2128736e2fe54740bdec66.svg"
+        ]
+    },
+    "answer": " [4; 7].",
+    "analogs": [
+        "507512"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=507587"
+}

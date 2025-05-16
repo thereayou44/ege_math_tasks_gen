@@ -1,0 +1,27 @@
+{
+    "id": 525049,
+    "topic": "17",
+    "condition": {
+        "text": "Дана трапеция KLMN с основаниями KN и LM. Около треугольника KLN описана окружность, прямые LM и MN — касательные к этой окружности.а) Докажите, что треугольники LMN и KLN подобны.б) Найдите площадь треугольника KLN, если известно, что KN = 6, а LMN = 120° .",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/b7/b7fd7223347aaf8dbc22fc2fcd70072d.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Ка­са­тель­ная LM па­рал­лель­на хорде KN, зна­чит,  а так как  как угол между ка­са­тель­ной и хор­дой, тре­уголь­ник KLN рав­но­бед­рен­ный с ос­но­ва­ни­ем KN.По­сколь­ку ML  =  MN как от­рез­ки ка­са­тель­ных, про­ведённых к окруж­но­сти из одной точки, тре­уголь­ник LMN также рав­но­бед­рен­ный с ос­но­ва­ни­ем LN.Углы при ос­но­ва­ни­ях рав­но­бед­рен­ных тре­уголь­ни­ков LMN и LKN равны, сле­до­ва­тель­но, эти тре­уголь­ни­ки по­доб­ны.б)  Угол при вер­ши­не рав­но­бед­рен­но­го тре­уголь­ни­ка KLN равен 120°, зна­чит, его вы­со­та LH вдвое мень­ше бо­ко­вой сто­ро­ны  то есть  Сле­до­ва­тель­но,Ответ:",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=150259",
+            "https://ege.sdamgia.ru/formula/svg/c6/c6bb5053f4092047a93360282666d32c.svg",
+            "https://ege.sdamgia.ru/formula/svg/12/1218de70a0acf354a22d5f94170991ee.svg",
+            "https://ege.sdamgia.ru/formula/svg/5a/5a73a2fd0071186af5addc6f7fbc4ede.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cde26722311899db489575b547261c90.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/316898ac8b74a89ca44f2f701e57bcbb.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/5004aa7ba57c307b87cce34db72bfce6.svg"
+        ]
+    },
+    "answer": "",
+    "analogs": [
+        "525026"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=525049"
+}

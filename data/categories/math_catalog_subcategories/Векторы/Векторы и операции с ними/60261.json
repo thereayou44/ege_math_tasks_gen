@@ -1,0 +1,57 @@
+{
+    "id": 60261,
+    "topic": "2",
+    "condition": {
+        "text": "Две стороны прямоугольника ABCD равны 30 и 16. Найдите длину разности векторов и",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ed/ed7822c175dd4385510f7259a7fcfa41.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/5251b7b07918fd8775d797fc0b388e4a.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Две сто­ро­ны пря­мо­уголь­ни­ка ABCD равны 6 и 8. Най­ди­те длину раз­но­сти век­то­ров  и Раз­ность век­то­ров  и  равна век­то­ру  Век­тор  об­ра­зу­ет в пря­мо­уголь­ни­ке два пря­мо­уголь­ных тре­уголь­ни­ка. По­это­му по тео­ре­ме Пи­фа­го­ра  Ответ: 10.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=143410",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d1cceb556de3394ddc474f38c98e049.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c78ec31e2a229e0b1204757b7cd74d36.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d1cceb556de3394ddc474f38c98e049.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a39da478750333de819f18fad9409f8a.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8cba96c22647fce57502d5adc9125ada.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/51aae1f163b2194bb7a1d958e1706d68.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0f6bde80f8b0d03b8ecc7b30742c9e78.svg"
+        ]
+    },
+    "answer": "34",
+    "analogs": [
+        "27709",
+        "60255",
+        "60257",
+        "60259",
+        "...",
+        "60255",
+        "60257",
+        "60259",
+        "60263",
+        "60265",
+        "60267",
+        "60269",
+        "60271",
+        "60273",
+        "60275",
+        "60277",
+        "60279",
+        "60281",
+        "60283",
+        "60285",
+        "60287",
+        "60289",
+        "60291",
+        "60293",
+        "60295",
+        "60297",
+        "60299",
+        "60301",
+        "60303"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=60261"
+}

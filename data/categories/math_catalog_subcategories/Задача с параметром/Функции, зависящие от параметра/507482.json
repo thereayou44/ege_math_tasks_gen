@@ -1,0 +1,43 @@
+{
+    "id": 507482,
+    "topic": "18",
+    "condition": {
+        "text": "Найти все значения a, при каждом из которых функция имеет хотя бы одну точку максимума.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/e4/e4df68a9908e4ecc2e906e1d6d9e882b.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Рас­кро­ем мо­дуль:Гра­фик функ­ции при  пред­став­ля­ет собой па­ра­бо­лу, ветви ко­то­рой на­прав­ле­ны вверх, абс­цис­са вер­ши­ны  При  гра­фик пред­став­ля­ет собой па­ра­бо­лу, ветви ко­то­рой на­прав­ле­ны вверх, абс­цис­са вер­ши­ны  Рас­смот­рим все воз­мож­ные кон­фи­гу­ра­ции при раз­лич­ных зна­че­ни­ях па­ра­мет­ра (см. рис.).Ясно, функ­ция до­сти­га­ет мак­си­му­ма в точке  причём тогда и толь­ко тогда, когда  Тем самым,  или  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/c4/c4db32204b94672a69e5f7a1b164aed2.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/dbf720c3f1ff0cd7d154c4ad78323495.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/47edeb48db51f023fd03b4cb0946bc76.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6fa9895a9b889d7897a2c06e808650da.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e4a8c40487338b4f5a4a879f405da4c1.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=159615",
+            "https://math-ege.sdamgia.ru/get_file?id=159616",
+            "https://math-ege.sdamgia.ru/get_file?id=159614",
+            "https://ege.sdamgia.ru/formula/svg/b6/b663eae08b03a38f734bc00e140154e5.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b5d4d77885ded6dc456ce6a89aeb9e26.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/89461a6e28bf1ee1f7f57630616256f9.svg",
+            "https://ege.sdamgia.ru/formula/svg/98/984d86af2fc9e43064667ac839108151.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/04e5b9672507da2a1977c29ca733c62e.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "484644",
+        "507185",
+        "507186",
+        "507187",
+        "...",
+        "507185",
+        "507186",
+        "507187",
+        "507188",
+        "507189",
+        "507191"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=507482"
+}

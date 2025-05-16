@@ -1,0 +1,45 @@
+{
+    "id": 672803,
+    "topic": "16",
+    "condition": {
+        "text": "18 апреля планируется взять кредит в банке на 11 месяцев. Условия его возврата таковы: — 1-го числа каждого месяца долг возрастает на 3,5% по сравнению с концом предыдущего месяца; — с 2-го по 17-е число каждого месяца необходимо внести платеж в счет погашения долга; — 18-го числа каждого месяца с 1-го по 10-й долг должен быть на 40 тысяч рублей меньше долга на 18-е число предыдущего месяца; — к 18-му числу 11-го месяца кредит должен быть полностью погашен. Какую сумму планируется взять в кредит, если общая сумма платежей после полного его погашения составит 754 000 рублей?",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пусть сумма кре­ди­та равна S тыс. руб.,  тыс. руб. и  За­пол­ним таб­ли­цу. Номерме­ся­цаДолг на 1-е число ме­ся­ца,тыс. руб.Вы­пла­та,тыс. руб.Долг на 18-е число ме­ся­ца,тыс. руб. 1kS23............1011 Пер­вые 10 вы­плат пред­став­ля­ют собой ариф­ме­ти­че­скую про­грес­сию. При­ба­вив к сумме чле­нов ариф­ме­ти­че­ской про­грес­сии 11-ю вы­пла­ту, найдём общую сумму вы­плат:По усло­вию сумма вы­плат со­ста­вит 754 тыс. руб. Со­ста­вим и решим урав­не­ние:Таким об­ра­зом, в кре­дит пла­ни­ру­ет­ся взять 600 тыс. руб. Ответ: 600 тысяч руб­лей.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/c1/c1144a1a1f149d2f636c6235c74a3138.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e4c21500512eb3f934ebc568bea00942.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7af69a5c4a0858eac660eed20289a17a.svg",
+            "https://ege.sdamgia.ru/formula/svg/3f/3f4530b419fe9dabd34c3f2108f27458.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/723b3620d1371c6337f036a4839912b9.svg",
+            "https://ege.sdamgia.ru/formula/svg/3b/3bf86717fa6e6b8a850d65d296441314.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/ba8efc5ba68975032c87a4d40c026560.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4d4ee4163e2311c0eeb06a8460215d98.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c3151920b02df7da3b3af1d414868137.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cbeefd38e8ba4bce9fe7f3b882b2c113.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c904682e1b6d399dd5fefd6d9e74e11.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/075513e599a0defa53bc1928f28e7f5b.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f71bc95c850d3b97d23b9199e1f23d63.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b1b28a865f08fbd33718f0897891b804.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af76fd0facc7970aa872b15942245c14.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af76fd0facc7970aa872b15942245c14.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cfcd208495d565ef66e7dff9f98764da.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8cb0da7aa6ef328ed07d42ab17932349.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/5691839c8218e2351ade1c928806ea65.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a45d8594d058c54471e1c26829e3549b.svg",
+            "https://ege.sdamgia.ru/formula/svg/5f/5f528b991286e0249eebabe6ef1fc364.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/15078b51070674dcd9d383951177bead.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a45d8594d058c54471e1c26829e3549b.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/06c2899c52fe6ab49e0abecb14bab045.svg",
+            "https://ege.sdamgia.ru/formula/svg/ff/ff380d6965474c2591cefbc5004ea0c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dc2b4b304362e56e3409abd64f99b65d.svg"
+        ]
+    },
+    "answer": " 600 тысяч руб­лей.",
+    "analogs": [
+        "638315",
+        "672941"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=672803"
+}

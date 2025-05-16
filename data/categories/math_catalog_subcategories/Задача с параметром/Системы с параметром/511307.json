@@ -1,0 +1,26 @@
+{
+    "id": 511307,
+    "topic": "18",
+    "condition": {
+        "text": "При каких значениях параметра a система имеет решения?",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/2b/2b4a1f9dfe776bc4e67b2c933a4216ae.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пе­ре­пи­шем ис­ход­ную си­сте­му в видеИс­ход­ная си­сте­ма имеет ре­ше­ния, тогда и толь­ко тогда, когда от­но­си­тель­но y имеет ре­ше­ния си­сте­ма:Решая пер­вое урав­не­ние этой си­сте­мы, на­хо­дим, что Тре­бо­ва­ние за­да­чи будет вы­пол­не­но, если по­след­няя сме­шан­ная си­сте­ма имеет хотя бы одно ре­ше­ние. Ис­ко­мые зна­че­ния a на­хо­дят­ся из со­во­куп­но­сти не­ра­венстврешая ко­то­рое, по­лу­ча­ем Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/36/361dc7f084920a716f87bd8fb0f1c08e.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9e8e5883dfaee969ddbeee059440807c.svg",
+            "https://ege.sdamgia.ru/formula/svg/c5/c50cf4506f755b5a1441a32c42d33d9c.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/706963d670daf74497f9ae1ec5c44227.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/92d876f1524e7e0e414c07c9aea197bc.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/92d876f1524e7e0e414c07c9aea197bc.svg"
+        ]
+    },
+    "answer": "",
+    "analogs": [
+        "484632"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511307"
+}

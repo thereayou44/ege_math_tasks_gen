@@ -1,0 +1,36 @@
+{
+    "id": 661276,
+    "topic": "16",
+    "condition": {
+        "text": "В июле планируется взять кредит в банке на сумму 18 млн рублей на некоторый срок (целое число лет). Условия его возврата таковы: — каждый январь долг возрастает на 10% по сравнению с концом предыдущего года; — с февраля по июнь каждого года необходимо выплатить часть долга; — в июле каждого года долг должен быть на одну и ту же сумму меньше долга на июль предыдущего года.На сколько лет планируется взять кредит, если известно, что общая сумма выплат после его полного погашения составит 27 млн рублей?",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пусть кре­дит взят на n лет, сумма кре­ди­та равна S  =  18 млн руб. Со­ста­вим таб­ли­цу по дан­ным за­да­чи. НомергодаДолг в ян­ва­ре (с уче­том про­цен­тов), руб.Платёж, руб.Долг в июле(после пла­те­жа), руб.S12..................n Сум­ми­ру­ем все вы­пла­ты:По усло­вию сумма вы­плат со­ста­вит 27 млн руб­лей:Зна­чит, кре­дит пла­ни­ру­ет­ся взять на 9 лет. Ответ: 9 лет.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/34/34197e9ce01c1246c0edb5e18e92214f.svg",
+            "https://ege.sdamgia.ru/formula/svg/87/879b3f5063c1341934ac56cd5d77aa1b.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4bffde354bfb403070949ad5e0f39296.svg",
+            "https://ege.sdamgia.ru/formula/svg/c1/c1480452744823b2033163a6edcfeeea.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d349b4df5ee3b269054ec25649eacd32.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/ef401c7628b374a72cbfa9037fbb4ed8.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a438673491daae8148eae77373b6a467.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/04c72287825af377b3abe7fde118615f.svg",
+            "https://ege.sdamgia.ru/formula/svg/5e/5e392c174fd21b15bb3c6233ba0a16c9.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/493896127faca9edd17b45f52bae1235.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cfcd208495d565ef66e7dff9f98764da.svg",
+            "https://ege.sdamgia.ru/formula/svg/be/be3d9bcaeb55b84f17ad941e92142eaa.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d3ae65805ea9533b665b26ed83dc9bc2.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/00f58de4c6f657867a935660fe7af01f.svg",
+            "https://ege.sdamgia.ru/formula/svg/ab/ab966d6d46e60d480bd56ab8a9f19557.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/228c76db00fad657c3070c1ce9f73302.svg"
+        ]
+    },
+    "answer": " 9 лет.",
+    "analogs": [
+        "541382",
+        "541826",
+        "661322"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=661276"
+}

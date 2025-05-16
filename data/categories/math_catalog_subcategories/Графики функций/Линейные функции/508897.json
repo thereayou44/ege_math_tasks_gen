@@ -1,0 +1,34 @@
+{
+    "id": 508897,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображён график функции Найдите",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=153717",
+            "https://ege.sdamgia.ru/formula/svg/27/27441d90882e50faa687d6aa6aaf287a.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/dfa92bb34e245618a7686f8c37ce8a1f.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­ме­тим, что для ли­ней­ной функ­цииТогда:Ответ: 4.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/6e/6ecfc044c02e9afcf43a1de9a6e0bc41.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f045effdd88e6f41868432cb0b6b14f4.svg"
+        ]
+    },
+    "answer": "4",
+    "analogs": [
+        "508895",
+        "508896",
+        "508898",
+        "...",
+        "508896",
+        "508898",
+        "508899",
+        "508900",
+        "508901",
+        "508902",
+        "642298"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=508897"
+}

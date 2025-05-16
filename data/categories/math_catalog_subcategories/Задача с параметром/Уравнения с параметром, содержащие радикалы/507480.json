@@ -1,0 +1,72 @@
+{
+    "id": 507480,
+    "topic": "18",
+    "condition": {
+        "text": "Найти все значения a, при каждом из которых уравнение имеет более двух корней.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/a4/a4426340a587aec24e42c550a8d94835.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Рас­смот­рим функ­ции  и  Ис­сле­ду­ем урав­не­ние На про­ме­жут­ке  функ­ция  воз­рас­та­ет. Функ­ция  убы­ва­ет на этом про­ме­жут­ке, по­это­му урав­не­ние  имеет не более од­но­го ре­ше­ния на про­ме­жут­ке  при­чем ре­ше­ние будет су­ще­ство­вать тогда и толь­ко тогда, когда,  то есть при При  урав­не­ние  при­ни­ма­ет вид  При  левая часть этого урав­не­ния от­ри­ца­тель­на, сле­до­ва­тель­но, ре­ше­ний нет. При  это урав­не­ние сво­дит­ся к квад­рат­но­му урав­не­нию  дис­кри­ми­нант ко­то­ро­го  по­это­му при  это урав­не­ние не имеет кор­ней, при   — урав­не­ние имеет един­ствен­ный ко­рень, рав­ный  при   — урав­не­ние имеет два корня.Пусть урав­не­ние имеет два корня,  и Тогда мень­ший ко­рень  а боль­ший ко­рень  не пре­вос­хо­дит  если  то есть при По тео­ре­ме Виета  по­это­му знаки кор­ней  и  за­ви­сят от зна­ков вы­ра­же­ний  и  Зна­чит, при  оба корня от­ри­ца­тель­ны, при  один из кор­ней от­ри­ца­тель­ный, а дру­гой не­от­ри­ца­тель­ный, при  оба корня не­от­ри­ца­тель­ны.Таким об­ра­зом, при  урав­не­ние  не имеет кор­ней при  и  имеет один ко­рень при  и  имеет два корня при Таким об­ра­зом, урав­не­ние  имеет сле­ду­ю­щее ко­ли­че­ство кор­ней:  — нет кор­ней при   — один ко­рень при  и   — два корня при  и   — три корня при  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/5f/5ffefcba67430292ed2c4fb83884649a.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5cd3cb6f2871145d7d24b9548d1d3983.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7a39b3deccbeb32640524a7530039014.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/19fa6232d4328fa9216c67f73ff2d32d.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50bbd36e1fd2333108437a2ca378be62.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e84fec1e074026d6fa8e3155482c35c3.svg",
+            "https://ege.sdamgia.ru/formula/svg/59/59bf3cb51b9f4f441d7f15bd5439ac62.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c4190fdc47484eeec0990a452c118b02.svg",
+            "https://ege.sdamgia.ru/formula/svg/67/6780bf3bff97f9f7e5ac27ff3e3cd9ee.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/6010e09b70f9cc2696b55d09af4008d5.svg",
+            "https://ege.sdamgia.ru/formula/svg/2b/2b0adbc7e100288bcab89ae8e331ab3f.svg",
+            "https://ege.sdamgia.ru/formula/svg/59/59bf3cb51b9f4f441d7f15bd5439ac62.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f087be19f1fc351d9d8b592748aa488f.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f0b345fc6a7effa3cece9fb6d5f33c4c.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d46e708f95599b80877809393a8db83f.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e6faa37280927befc05536dfbc7f6a08.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/625554398b0510e3019ec22e26cd290b.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a60d147bb0dc6cb56f0484c8bcca0c9.svg",
+            "https://ege.sdamgia.ru/formula/svg/71/716a815e3e96dcafedd261e49d8c1c45.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fdb2c95f24ca0fde93edfb37e0624ab6.svg",
+            "https://ege.sdamgia.ru/formula/svg/d1/d13b3b5a8f903bf8201924ef96903c23.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bb4e0af5b30673e4f0e5af6b875be8b2.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0b576a52e0d650b0ae9476603adc4827.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d9f79f7e56c4ac2e05352b5c068beaf8.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/16eff4fc812618fab289c17b3d860092.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dcd40494412b544b0a4ddebc3c90396c.svg",
+            "https://ege.sdamgia.ru/formula/svg/eb/eb2c1217cdaa8ccbb29fa11522367509.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8f9ff12b61b8d27fda47e1e195d88eab.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/731f54445d2334d1987070c029e24d9f.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa687da0086c1ea060a8838e24611319.svg",
+            "https://ege.sdamgia.ru/formula/svg/87/8732099f74d777a67257cb2f04ead3d8.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6e28d97cfea69a6cf8d37c01f61d0c29.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/465622130e34a8af208719fd70e73c59.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c28cfc6ac99fd2a871129ade357cc31f.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5d0730646011da6f74ffc0c58540d0a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8b2e21dedd35767a3e64b3c9960a0f16.svg",
+            "https://ege.sdamgia.ru/formula/svg/2b/2b0adbc7e100288bcab89ae8e331ab3f.svg",
+            "https://ege.sdamgia.ru/formula/svg/3f/3f671df579252b25a1164ed0ec57580e.svg",
+            "https://ege.sdamgia.ru/formula/svg/9b/9b30fdf9a09acbb5d41e727cbd07569c.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b39f5d615e6e57363c7ef2b27685b845.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/168e0296fd43824a62cf81220f3cff97.svg",
+            "https://ege.sdamgia.ru/formula/svg/7f/7f41a59c4b98d655357afcd57719de07.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e5375c7120124c3b34cc194493f07f0.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a4426340a587aec24e42c550a8d94835.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/47d3b10595ecd5bf0d2df5d806a00613.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/3872c9ae3f427af0be0ead09d07ae2cf.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f07207c9870a6386ac7facf105ebe335.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/3846dc2f5d558822ccff72e2971f747e.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/56965ad0b06cd6a145e6a9aafb3b996d.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e5375c7120124c3b34cc194493f07f0.svg",
+            "https://ege.sdamgia.ru/formula/svg/fe/fe31fc1a1a797c4921b2b0a8601d1e3d.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "500216",
+        "500390"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=507480"
+}

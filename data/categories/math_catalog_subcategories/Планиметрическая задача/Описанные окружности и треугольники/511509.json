@@ -1,0 +1,36 @@
+{
+    "id": 511509,
+    "topic": "17",
+    "condition": {
+        "text": "В остроугольном треугольнике KMN проведены высоты KB и NA.а) Докажите, что угол ABK равен углу ANK.б) Найдите радиус окружности, описанной около треугольника ABM, если известно, что и",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/3d/3dd952210dca67874026d33d34c1fc19.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/06b93b75efcdbabc6c6547a1c95b491e.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Углы NAK и NBK, опи­ра­ю­щи­е­ся на от­ре­зок KN, равны, зна­чит, точки A, B, N и K лежат на одной окруж­но­сти, а, сле­до­ва­тель­но, равны и впи­сан­ные углы ABK и ANK этой окруж­но­сти, опи­ра­ю­щи­е­ся на дугу AK, что и тре­бо­ва­лось до­ка­зать. б)  Пря­мо­уголь­ные тре­уголь­ни­ки KMB и NMA имеют общий угол KMN, сле­до­ва­тель­но, они по­доб­ны, от­ку­да  или  но тогда и тре­уголь­ни­ки KMN и BMA также по­доб­ны, при­чем ко­эф­фи­ци­ент по­до­бия равен  от­ку­да Тогда ра­ди­ус R окруж­но­сти, опи­сан­ной около тре­уголь­ни­ка ABM равен  Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=148366",
+            "https://ege.sdamgia.ru/formula/svg/91/915fba0802cf8e1474d49c5b0970dc62.svg",
+            "https://ege.sdamgia.ru/formula/svg/c5/c564bbb9bb0bc2cc6554bb04c68804e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af69ceb6d329218860eb909eea6a1774.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/99903c36fad8dfc22a46caba13cc5bdf.svg",
+            "https://ege.sdamgia.ru/formula/svg/78/78d95f119db87cab1429443cd9641bc1.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/51251bc7d399a8113ecb8833e8c0de7c.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "508320",
+        "508393",
+        "509404",
+        "511508",
+        "...",
+        "508393",
+        "509404",
+        "511508",
+        "511587"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511509"
+}

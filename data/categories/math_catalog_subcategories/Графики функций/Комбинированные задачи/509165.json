@@ -1,0 +1,38 @@
+{
+    "id": 509165,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображены графики функций и которые пересекаются в точках A и B. Найдите ординату точки B.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=135831",
+            "https://ege.sdamgia.ru/formula/svg/5c/5c8b3f63530f393641de70a0018342be.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/065a0419a0417df3275e9319f03327f6.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По гра­фи­ку, g(1)  =  4, g(2)  =  5, g(3)  =  2. ТогдаРешая по­лу­чен­ную си­сте­му, по­лу­ча­ем: a  =  −2, b  =  7, из g(1)  =  4 по­лу­чим c  =  −1. Те­перь найдём абс­цис­су точки B: Таким об­ра­зом, абс­цис­са точки B  —  Те­перь найдём ор­ди­на­ту точки B:  Ответ: −23.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/76/7647c470cd639493b571b90f46e16666.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c95cbc3cf19183a82296e18b905eb14d.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/ef8fc55125077ce2b84a21abc82aff94.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/caeef858bcc6f7ae0160fe4358ac6ccb.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e4d3c0cc9ba43d5133e7f061408fa7cb.svg"
+        ]
+    },
+    "answer": "-23",
+    "analogs": [
+        "509158",
+        "509159",
+        "509160",
+        "509161",
+        "...",
+        "509159",
+        "509160",
+        "509161",
+        "509162",
+        "509163",
+        "509164",
+        "509166"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509165"
+}

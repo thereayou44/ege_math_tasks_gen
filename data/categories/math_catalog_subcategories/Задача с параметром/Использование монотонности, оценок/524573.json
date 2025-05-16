@@ -1,0 +1,33 @@
+{
+    "id": 524573,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при которых уравнениене имеет решений.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/27/2777b58722b52276bc76d931862ba297.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­пи­шем урав­не­ние в виде:Рас­смот­рим функ­цию  тогда ис­ход­ное урав­не­ние имеет вид   Функ­ция f яв­ля­ет­ся сум­мой двух воз­рас­та­ю­щих функ­ций и по­то­му воз­рас­та­ет. В силу мо­но­тон­но­сти f ра­вен­ству зна­че­ний функ­ции со­от­вет­ству­ет ра­вен­ство ар­гу­мен­тов, от­ку­да по­лу­ча­ем:Функ­ция  при­ни­ма­ет зна­че­ния от  до  а функ­ция  мо­но­тон­но воз­рас­та­ет на от­рез­ке  и при­ни­ма­ет на нём зна­че­ния от −1 до 3. Зна­чит, урав­не­ние  а с ним и ис­ход­ное урав­не­ние имеют ре­ше­ние при  и не имеют ре­ше­ний при  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/53/5334a54505c68f3b2abed5ca9d0f95e5.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/18b93c2a6739615e27bfa8c564071231.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/06a881ba3ac0c00a33921606177cc12a.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d92c584a59c3525e7fe623b47f3ec31d.svg",
+            "https://ege.sdamgia.ru/formula/svg/98/980f24c5b7a01089a1514b886f14e3ae.svg",
+            "https://ege.sdamgia.ru/formula/svg/6b/6bb61e3b7bce0931da574d19d1d82c88.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/32b7955f9b36651f0303b1fd2a5d02c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1d1a0646673a2fe9c53a06357eb18de8.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/75b6db3096497c8b4d1a5e75331a4335.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f485c59207b2cab4e6630bd31630fae2.svg",
+            "https://ege.sdamgia.ru/formula/svg/4e/4e1c722790dee31de0a54cbe558b8423.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dcf411d0f797585efd6fc62fa0cc9bd3.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dcf411d0f797585efd6fc62fa0cc9bd3.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "505432"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=524573"
+}

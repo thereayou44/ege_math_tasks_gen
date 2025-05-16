@@ -1,0 +1,45 @@
+{
+    "id": 511316,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых система имеет ровно решений.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/e2/e280117d429bc8fd864005ebb5dbc2de.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/1679091c5a880faf6fb5e6087eb1b2dc.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­пи­шем си­сте­му в виде  По­ла­гая  по­лу­чим си­сте­муиме­ю­щую то же ко­ли­че­ство ре­ше­ний. Кроме того, если пара чисел (u; y)  — ре­ше­ние си­сте­мы, то и пары чисел (u; −y), (−u; y), (−u; −y) также яв­ля­ет­ся ре­ше­ни­я­ми си­сте­мы. Таким об­ра­зом, если u ≠ 0 и y ≠ 0, то число ре­ше­ний крат­но че­ты­рем. Зна­чит, если си­сте­ма имеет ровно 6 ре­ше­ний, то либо  либо Если u  =  0, то  сле­до­ва­тель­но,  Си­сте­ма имеет два ре­ше­ния: (0; 16), (0; −16), по­это­му этот слу­чай не под­хо­дит.Если y  =  0, то  сле­до­ва­тель­но,  По­лу­ча­ем си­сте­му: Она имеет 6 ре­ше­ний, так как каж­до­му зна­че­нию y со­от­вет­ству­ет два раз­ных зна­че­ния u. Ответ:  При­ве­дем идею гра­фи­че­ско­го ре­ше­ния.Пре­об­ра­зу­ем си­сте­му: Пер­вое урав­не­ние за­да­ет части двух па­ра­бол: (см. рис.).Вто­рое урав­не­ние за­да­ет окруж­ность ра­ди­у­сом  с цен­тром  На ри­сун­ке видно, что шесть ре­ше­ний си­сте­мы по­лу­ча­ют­ся, толь­ко если окруж­ность про­хо­дит через точки  и  пе­ре­се­кая па­ра­бо­лу еще в че­ты­рех точ­ках.При этом ра­ди­ус окруж­но­сти равен  от­ку­да  или ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/d7/d7c2274ecb521b1bde674c7f22a89bb9.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e7dcad17819e4a92540226d6934b8e6b.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e618e0b6c31895c35ee339518e3557c6.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e7f032908c28c042353f91b0c3a9a676.svg",
+            "https://ege.sdamgia.ru/formula/svg/9a/9aba742812d48f251c3b95b1e3262a36.svg",
+            "https://ege.sdamgia.ru/formula/svg/be/be7c2012b83d59eedfe73c54d266c988.svg",
+            "https://ege.sdamgia.ru/formula/svg/71/7141e7ef6546473c2eed324582e35e2b.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/ade742a0fae303366079613f8f74c506.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/528c4147f20f63dc87ebcf10f137e4c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/cc447cf9982b6e1e7198ea4cab355075.svg",
+            "https://ege.sdamgia.ru/formula/svg/7f/7fe6ef04d9b2605e510c259fc6a08bc1.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3de4f2e78ddaf9b2b9ccb9ff8fffe5f0.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=145202",
+            "https://ege.sdamgia.ru/formula/svg/ba/ba5cd068856f4cd2c7822a4a852c920a.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8f66231a6b2faf6294dafc601a370107.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e7253baa092607f60169e2493dc24410.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/accaaf153e636cfc219a9452fef9091f.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/ea4ca8674b25613e1d6aec82bc6d0c88.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/4670774a273392d37fa1b92848f4e718.svg",
+            "https://ege.sdamgia.ru/formula/svg/c5/c59471f3ce70ca3107957a84ae0d3d9d.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7a55a9b0bf5dbcd9ce04cd4a6fee3ddc.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/622a095dc9edee90d21fc439afb1ab02.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "484646",
+        "484647",
+        "484648"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511316"
+}

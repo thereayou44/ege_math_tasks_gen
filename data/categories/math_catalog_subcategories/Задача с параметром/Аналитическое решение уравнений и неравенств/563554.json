@@ -1,0 +1,37 @@
+{
+    "id": 563554,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых уравнение имеет ровно два различных корня.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/6e/6ea5f5d84ccdf038332ae9d481a30227.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пре­об­ра­зу­ем урав­не­ние:Сле­до­ва­тель­но, урав­не­ние имеет ре­ше­ние  если  Для того, чтобы урав­не­ние имело два раз­лич­ных ре­ше­ния, не­об­хо­ди­мо и до­ста­точ­но, чтобы урав­не­ние  (⁎) имело един­ствен­ное от­лич­ное от а ре­ше­ние.При а  =  0 урав­не­ние (⁎) имеет бес­ко­неч­но много ре­ше­ний, а при всех осталь­ных а  — одно:  За­ме­тим, что корни a и  сов­па­да­ют при  По­это­му ис­ко­мы­ми зна­че­ни­я­ми па­ра­мет­ра яв­ля­ют­ся  или  Ответ:  или ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/d5/d5a1755e2afcec5fa4840146a7cbfc66.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/92228489145792cf77102b9f4c2eb915.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c7d5400a996b9f02af94eb8bdfd8730.svg",
+            "https://ege.sdamgia.ru/formula/svg/7e/7e51fa8bd7299c615b68bb36446b4c51.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7a65291a06dc2ac1fbebeb4093de287e.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f344bcb6a3430be9346f9ed3cb77962e.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/ad575bcabe99adb694f60803ddec1987.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5ca6ce7151b41848e7e3618f686794fe.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/639ce76b103dbb80e4c4ed4d5245b314.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1ece86496859bcebcf3345b1b9ef6561.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0cd1367aa8529187fd79171e107a0032.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5db4e14025ca8d704be6e6afc5658e2d.svg",
+            "https://ege.sdamgia.ru/formula/svg/8a/8a6e6ea8621290fc910e3a9decba9016.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/dde24350faaa16ffcbb65cb8cc2bfdcf.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1de9cd3c234659875e45647925db0780.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/dde24350faaa16ffcbb65cb8cc2bfdcf.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1de9cd3c234659875e45647925db0780.svg"
+        ]
+    },
+    "answer": "  или ",
+    "analogs": [
+        "563579"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=563554"
+}

@@ -1,0 +1,47 @@
+{
+    "id": 661006,
+    "topic": "16",
+    "condition": {
+        "text": "В июле 2024 года планируется взять кредит в банке на некоторую сумму. Условия возврата таковы: — каждый январь долг увеличивается на 20% по сравнению с концом предыдущего года; — с февраля по июнь каждого года необходимо выплатить одним платежом часть долга.Сколько рублей планируется взять в банке, если известно, что кредит будет полностью погашен тремя равными платежами (то есть за три года) и общая сумма выплат после полного погашения кредита на 48 250 рублей больше суммы, взятой в кредит?",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пусть сумма кре­ди­та равна S руб­лей, а еже­год­ная вы­пла­та равна x руб­лей. Каж­дый ян­варь долг уве­ли­чи­ва­ет­ся на 20%, то есть  в  раза. За­пол­ним таб­ли­цу. Год(номер года)Долг в ян­ва­ре (в руб.)Вы­пла­та (в руб.)Долг в июле (в руб.)2023S2024(1)kSx2025(2)x2026(3)x Вы­ра­зим S: Тогда, учи­ты­вая, что  по­лу­ча­ем:Сумма вы­плат на 48 250 руб­лей боль­ше суммы, взя­той в кре­дит. Зна­чит,  от­ку­да   Под­ста­вив это зна­че­ние, по­лу­ча­ем урав­не­ние: руб­лей.Ответ: 113 750.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/3f/3f9c6f464df3341ab8524fb0beed3be5.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/42b8a8fd050b703320b97509fffcf925.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c3194d1d06c57ed9e0330abc01b14f8.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/66550567bd8106559e0d1e04ad49857e.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6c8313727e49c2d024505f8ac7b88d93.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a31ffa2e19d1675fff1c5f95d6faa6af.svg",
+            "https://ege.sdamgia.ru/formula/svg/2b/2bfd228620e1d45858d77354fc1f2a7b.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d605791389b0147f02c3f28ac8f82230.svg",
+            "https://ege.sdamgia.ru/formula/svg/93/939cf4fb65db62f9104cda4462027187.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3a031e4c74bf5790da7c74a60b392612.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6ccebf0d8d067c0fd879de1f3a9dd4e1.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54c2527aaff8f571d3b89ddfab0f5d89.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/41c5058a4d05b056d448ff243cfd552a.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/ee3007cf6b36cd9c53068e1a5f472851.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e27e40642ed32e502cd118bcb61651cf.svg"
+        ]
+    },
+    "answer": " 113 750.",
+    "analogs": [
+        "517571",
+        "517573",
+        "639485",
+        "639651",
+        "...",
+        "517573",
+        "639485",
+        "639651",
+        "639677",
+        "639754",
+        "660886",
+        "660911",
+        "660947",
+        "670296",
+        "670489"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=661006"
+}

@@ -1,0 +1,50 @@
+{
+    "id": 3231,
+    "topic": "6",
+    "condition": {
+        "text": "Найдите корень уравнения",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/61/61a0518a8ce01b9b4e8c585295957dc3.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По­сле­до­ва­тель­но по­лу­ча­ем: Ответ: −13.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/3b/3bbd835513878f1f6d1b37aeef2248d2.svg",
+            "https://ege.sdamgia.ru/formula/svg/5f/5f6c650d23a57b53d39a5e1bd1dbbc90.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e99c1a432eb3a088e707e5a2bc8a5041.svg"
+        ]
+    },
+    "answer": "-13",
+    "analogs": [
+        "26658",
+        "3187",
+        "3227",
+        "...",
+        "3187",
+        "3227",
+        "517191",
+        "517229",
+        "3189",
+        "3191",
+        "3193",
+        "3195",
+        "3197",
+        "3199",
+        "3201",
+        "3203",
+        "3205",
+        "3207",
+        "3209",
+        "3211",
+        "3213",
+        "3215",
+        "3217",
+        "3219",
+        "3221",
+        "3223",
+        "3225",
+        "3229"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=3231"
+}

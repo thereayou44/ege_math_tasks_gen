@@ -1,0 +1,50 @@
+{
+    "id": 637849,
+    "topic": "16",
+    "condition": {
+        "text": "15 января планируется взять кредит в банке на 9 месяцев. Условия его возврата таковы: — 1-го числа каждого месяца долг возрастает на 4% по сравнению с концом предыдущего месяца; — со 2-го по 14-е число каждого месяца необходимо оплатить часть долга одним платежом; — 15-го числа каждого месяца долг должен быть на одну и ту же величину меньше долга на 15-е число предыдущего месяца.Какую сумму следует взять в кредит, чтобы общая сумма платежей после полного погашения равнялась 3,6 млн рублей?",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пусть сумма кре­ди­та равна S млн руб­лей. По усло­вию долг перед бан­ком по со­сто­я­нию на 15-е число дол­жен умень­шать­ся до нуля рав­но­мер­но:        Пер­во­го числа каж­до­го ме­ся­ца долг воз­рас­та­ет на 4%, зна­чит, по­сле­до­ва­тель­ность раз­ме­ров долга по со­сто­я­нию на 1-е число та­ко­ва:       Сле­до­ва­тель­но, пла­те­жи долж­ны быть сле­ду­ю­щи­ми:       Сумма всех пла­те­жей равна:  Сумма всех пла­те­жей равна 3,6 млн руб­лей, сле­до­ва­тель­но, 1,2S  =  3,6,  от­ку­да S  =  3,6 млн руб. Зна­чит, сумма, взя­тая в кре­дит, равна 3 млн руб­лей.  Ответ: 3 млн руб­лей.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/06/067bd236f50e260762677d4ea3ca569e.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ec45af1f0b96ad8a6299d25a1a0f91be.svg",
+            "https://ege.sdamgia.ru/formula/svg/76/76da661b8113e20eb1f021b7534151dd.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ec45af1f0b96ad8a6299d25a1a0f91be.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/65589c2acc5176c3965cd6132f002985.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b3dc2554b6277c90d3dcc3309f707bd9.svg",
+            "https://ege.sdamgia.ru/formula/svg/44/4434777daec7e5bc9101eed557dedd20.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/2958ae19cfc855c32b87079a365f37c7.svg",
+            "https://ege.sdamgia.ru/formula/svg/44/448a14d346a4cd084e91de27622424a5.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/625c3820036a32bcb7c10f2be3dd2089.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d32252d60b4dad86c216dce5d2bf0d4c.svg",
+            "https://ege.sdamgia.ru/formula/svg/3f/3f178c0f0d031098cec4f0128df94769.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/db1dd8344f82e16ec7bc9199b5313b9c.svg",
+            "https://ege.sdamgia.ru/formula/svg/44/448a14d346a4cd084e91de27622424a5.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/6831f2e3abc4c172d998db8775ebe709.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b1e42a55492ae2399bf7bd6847c95f4c.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3da7e7001a89f14b3d707bcd21190208.svg"
+        ]
+    },
+    "answer": " 3 млн руб­лей.",
+    "analogs": [
+        "520193",
+        "520212",
+        "530459",
+        "530561",
+        "...",
+        "520212",
+        "530459",
+        "530561",
+        "556611",
+        "637820",
+        "642006",
+        "642024",
+        "656087",
+        "656257",
+        "661277",
+        "679829"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=637849"
+}

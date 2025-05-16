@@ -1,0 +1,36 @@
+{
+    "id": 517486,
+    "topic": "17",
+    "condition": {
+        "text": "В прямоугольном треугольнике ABC проведена высота CH из вершины прямого угла. В треугольники ACH и BCH вписаны окружности с центрами O1 и O2 соответственно, касающиеся прямой CH в точках M и N соответственно.а) Докажите, что прямые AO1 и CO2 перпендикулярны.б) Найдите площадь четырёхугольника MO1NO2, если AC = 12 и BC = 5.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние.  а)  Лучи  и  яв­ля­ют­ся бис­сек­три­са­ми рав­ных углов HAC и HCB со­от­вет­ствен­но. Зна­чит,   то есть пря­мые  и  пер­пен­ди­ку­ляр­ны.б)  Пусть пря­мая AB ка­са­ет­ся окруж­но­стей, впи­сан­ных в тре­уголь­ни­ки ACH и BCH, в точ­ках K и L со­от­вет­ствен­но. По­лу­ча­ем:    По­сколь­ку  и   — квад­ра­ты, по­лу­ча­ем: Зна­чит, пло­щадь четырёхуголь­ни­ка  равна Ответ: б) ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=148546",
+            "https://ege.sdamgia.ru/formula/svg/b3/b3d3f3276364331019891b43b0b4463e.svg",
+            "https://ege.sdamgia.ru/formula/svg/1f/1f97ded0269589e6de9986986596b429.svg",
+            "https://ege.sdamgia.ru/formula/svg/71/71dbf7a75d051b75f4f0955e15851dc7.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0bf49a3a1e296cf47caf50ba11de7606.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b3d3f3276364331019891b43b0b4463e.svg",
+            "https://ege.sdamgia.ru/formula/svg/1f/1f97ded0269589e6de9986986596b429.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7aa645e17ad6cef61896c31a7c0a80e1.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1e3a9dd17b317d3a16c36a4362628614.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/08d8afb61008bba29226d8dc7ebd162a.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/266222b0d349c3f1cf01c290b07a4f7a.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5c86a95c062286237f399560588aeab6.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c219c39eb3a50243f6bf2aec13263e07.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/229d4930cbd48815540dc0aef79a1e41.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/cc90c09c47657bc9c3db855117f7e6ab.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b93e7047a502f7fb06c33e474fe40a9c.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/39bd71785ae6947eb561cd49939c1753.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/70e298dc82a44a980c0680fc90f8c436.svg"
+        ]
+    },
+    "answer": " б) ",
+    "analogs": [
+        "517479"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=517486"
+}

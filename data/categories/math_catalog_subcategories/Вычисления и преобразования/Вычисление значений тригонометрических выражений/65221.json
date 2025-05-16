@@ -1,0 +1,60 @@
+{
+    "id": 65221,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/5d/5df47fbda456d6bcd60a241e7916a8e1.svg",
+            "https://ege.sdamgia.ru/formula/svg/4e/4e4fa9679de5357652cbcc9825af0771.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Вы­пол­ним пре­об­ра­зо­ва­ния:   Ответ: 6.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/75/75656113727e356905dc4abf96d00b66.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54f5d69cd90bfc71f2803974a1a64ee0.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/47486a40a06d06bb0095fd38a57915dd.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c2fec8cf059223ed251fa2df2db6eb67.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54f5d69cd90bfc71f2803974a1a64ee0.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/ba5fde410ed0ab1840c2f90949041e64.svg"
+        ]
+    },
+    "answer": "6",
+    "analogs": [
+        "26787",
+        "65217",
+        "65161",
+        "...",
+        "65217",
+        "65161",
+        "65163",
+        "65165",
+        "65167",
+        "65169",
+        "65171",
+        "65173",
+        "65175",
+        "65177",
+        "65179",
+        "65181",
+        "65183",
+        "65185",
+        "65187",
+        "65189",
+        "65191",
+        "65193",
+        "65195",
+        "65197",
+        "65199",
+        "65201",
+        "65203",
+        "65205",
+        "65207",
+        "65209",
+        "65211",
+        "65213",
+        "65215",
+        "65219"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=65221"
+}

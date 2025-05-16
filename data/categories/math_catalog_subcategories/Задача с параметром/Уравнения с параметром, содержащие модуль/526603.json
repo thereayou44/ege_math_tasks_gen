@@ -1,0 +1,32 @@
+{
+    "id": 526603,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых любое число x из отрезка [3; 4] является решением уравнения",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/7c/7c07421c24a1c5512d62b7affd4c2200.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Если  то урав­не­ние ре­ше­ний не имеет.Пусть a  =  −3. Тогда урав­не­ние имеет вид  и ни одно число из от­рез­ка [3; 4] не яв­ля­ет­ся его ре­ше­ни­ем.Пусть a > −3. За­пи­шем урав­не­ние в видеПри a > −3 верно не­ра­вен­ство   и по­это­му ре­ше­ни­ем урав­не­ния яв­ля­ет­ся любое число из от­рез­ка  по­сколь­ку длина этого от­рез­ка равна  и урав­не­нию удо­вле­тво­ря­ют те и толь­ко те точки х, сумма рас­сто­я­ний от каж­дой из ко­то­рых до точек  и  равна Оста­лось вы­брать те зна­че­ния а, при каж­дом из ко­то­рых от­ре­зок  со­дер­жит от­ре­зок [3; 4]. Это вы­пол­не­но тогда и толь­ко тогда, когдаОтвет: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/3d/3d6d909821738bbb1e7da4e7fd826422.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9ff33dabbefbdd18ba819c02bac4480d.svg",
+            "https://ege.sdamgia.ru/formula/svg/8a/8a5108e7d80a7061837adf57c40177fb.svg",
+            "https://ege.sdamgia.ru/formula/svg/b8/b83f53521a345afb67aa7b775e4b8383.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d9aa84e93a51f43390f8d1179e176aca.svg",
+            "https://ege.sdamgia.ru/formula/svg/5b/5be78318a572499e72b05398d9964e31.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ec849705d55ca299dc7468ec731403ba.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b3b5b3f767eab8a0dfc08fb64585cde3.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6f6e961d682f613ce220e6ed6aac3be2.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/27105f08aab1a59498c9a7672f805c41.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/2283d7afd4f63e8f3a67a424fc08f506.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/3261cf21a8fd1995bbc1a658ea11f468.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "526595"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=526603"
+}

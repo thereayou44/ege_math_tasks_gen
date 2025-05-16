@@ -1,0 +1,39 @@
+{
+    "id": 562215,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых любое значение из промежутка [−1,5; −0,5] является решением неравенства",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/7a/7ab6b0e577265722d778d7b357a984e0.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.  По­стро­им гра­фи­ки мно­жи­те­лей  и  в плос­ко­сти (x; a).Най­дем ко­ор­ди­на­ты точки пе­ре­се­че­ния по­стро­ен­ных гра­фи­ков. При   от­ку­да  и   и При   от­ку­да  и Далее вос­поль­зу­ем­ся ме­то­дом об­ла­стей. Вы­де­лим об­ла­сти, в ко­то­рых зна­че­ние  от­ри­ца­тель­но. Оста­лось вы­яс­нить, при каких зна­че­ни­ях a по­ло­са  не пе­ре­се­ка­ет­ся с вы­де­лен­ны­ми об­ла­стя­ми. Это про­ис­хо­дит при   или если Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=190348",
+            "https://ege.sdamgia.ru/formula/svg/6e/6efcda037e82092e7b35a83e9b1fb24f.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/63b3bf37e7908c44d93c74dd62dab0d4.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0bb48217deb13bf7a4104b322220e1ea.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/00b83b3b75ff65234a2d4cf9ecd826b3.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/81caa3f5de048c0462b700887a52055d.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a7d7e9d72bc4848f98579849a04abaff.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/ac08eeb1329afccdf6f3c69ee41281e9.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/53e9c89a18e84b427b368b95046932b1.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/071b3c3a49b59c13a6f5d59be254495b.svg",
+            "https://ege.sdamgia.ru/formula/svg/bd/bdd5363056fa71d92aca21da78d20ae7.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/df3a447b331926d97e8125fad6546334.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/920277f527d998578fbe8e8ec40fadc9.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fc9bec7d0c31f2208a02471f91375e35.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/03a96f70281e5fcc1089abf43d0a65d0.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0e3eec86ece1030c373ea79d9e3bf4fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/3872c9ae3f427af0be0ead09d07ae2cf.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/514605bad32bfe6dc8049c65296518b7.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/65e838386d0cda8db6eb4a0b826aae7a.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "562213"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=562215"
+}

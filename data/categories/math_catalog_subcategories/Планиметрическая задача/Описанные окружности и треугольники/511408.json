@@ -1,0 +1,28 @@
+{
+    "id": 511408,
+    "topic": "17",
+    "condition": {
+        "text": "Около равнобедренного треугольника ABC с основанием BC описана окружность. Через точку C провели прямую, параллельную стороне AB. Касательная к окружности, проведённая в точке B, пересекает эту прямую в точке K.а) Докажите, что треугольник BCK — равнобедренный.б) Найдите отношение площади треугольника ABC к площади треугольника BCK, если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/bc/bca276f8da0340dfb7af88c069cf0f9f.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Угол KBC равен углу BAC как угол между ка­са­тель­ной и хор­дой. Пря­мые AB и CK па­рал­лель­ны. Сле­до­ва­тель­но,  По­лу­ча­ем, что тре­уголь­ни­ки ABC и BCK по­доб­ны. Сле­до­ва­тель­но, Зна­чит, тре­уголь­ник BCK  — рав­но­бед­рен­ный.б)  Тре­уголь­ни­ки ABC и BCK по­доб­ны, ко­эф­фи­ци­ент по­до­бия равен  От­но­ше­ние пло­ща­дей  В тре­уголь­ни­ке ABC имеем:  Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=148390",
+            "https://ege.sdamgia.ru/formula/svg/21/210cd908cac27d1c1e2a7d9ee6ccf2e8.svg",
+            "https://ege.sdamgia.ru/formula/svg/fa/fa9df9f60e61177e9f28323983e28067.svg",
+            "https://ege.sdamgia.ru/formula/svg/7d/7d4d1c57fb52b18785ef0c8efa81e583.svg",
+            "https://ege.sdamgia.ru/formula/svg/5e/5ea2dd712d27689a4882130139f73623.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1d5d34bb1750c3e0b22b8ca95feb1034.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3c1b349eacc1e1a2ac4085e17620d08f.svg",
+            "https://ege.sdamgia.ru/formula/svg/93/93086477440322fd8104e5dd5b0d928c.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "505431"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511408"
+}

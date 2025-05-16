@@ -1,0 +1,52 @@
+{
+    "id": 509044,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображён график функции Найдите",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=154230",
+            "https://ege.sdamgia.ru/formula/svg/eb/eb04a2d60f152b0a71d989c8ca758f01.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e726400ed16479006586bfbd79c4ed8a.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По ри­сун­ку опре­де­ля­ем, что   ТогдаЗна­чит,  Найдём зна­че­ние Ответ: 6.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/b5/b501f2923dff5b28114fa496b6e6c0b2.svg",
+            "https://ege.sdamgia.ru/formula/svg/3b/3b5fe7072fbe8f4cd27b77aa0c6d0e54.svg",
+            "https://ege.sdamgia.ru/formula/svg/58/582fd667e99874bb710cc77390e61520.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/97142775a3ee18231ce9b2847ceeb64e.svg",
+            "https://ege.sdamgia.ru/formula/svg/f5/f596130dd6b157e24fd6ff00c6e4c0cf.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/97142775a3ee18231ce9b2847ceeb64e.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/16c3a556021f4ec9961775fac4dd878b.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b387f0079e9a1cc92c8596b491b4cd89.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d8f4d592384d4e5c8005349caec92f17.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/10ed1250443382aa4bbbc0a5e2d3da64.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f01e24a0741c4d34bf9f5416dfe195f2.svg"
+        ]
+    },
+    "answer": "6",
+    "analogs": [
+        "509042",
+        "509043",
+        "509045",
+        "...",
+        "509043",
+        "509045",
+        "509046",
+        "509047",
+        "509048",
+        "509049",
+        "509050",
+        "509051",
+        "509052",
+        "509053",
+        "509054",
+        "509055",
+        "509056",
+        "509057",
+        "509058",
+        "509059"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509044"
+}

@@ -1,0 +1,40 @@
+{
+    "id": 511309,
+    "topic": "18",
+    "condition": {
+        "text": "При каких значениях параметра a для любых значений параметра b хотя бы при одном значении параметра с система уравнений имеет решения?",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/44/44f976be65924b3c44cc6a3fb2856571.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Ясно, что при  си­сте­ма имеет един­ствен­ное ре­ше­ние ко­то­рое вы­ра­жа­ет­ся через a и c од­но­знач­но, то есть су­ще­ству­ет для любых a и При  если умно­жить вто­рое урав­не­ние на b и из по­лу­чен­но­го урав­не­ния вы­честь пер­вое урав­не­ние си­сте­мы, то будем иметь Если же умно­жить на b пер­вое урав­не­ние и из по­лу­чен­но­го урав­не­ния вы­честь вто­рое урав­не­ние си­сте­мы, то  Таким об­ра­зом, ис­ход­ная си­сте­ма рав­но­силь­на си­сте­ме При любом  по­лу­чен­ная си­сте­ма имеет един­ствен­ное ре­ше­ние. Если  то си­сте­ма будет иметь ре­ше­ния если су­ще­ству­ют a и c удо­вле­тво­ря­ю­щие урав­не­нию  Рас­смат­ри­вая его как квад­рат­ное от­но­си­тель­но па­ра­мет­ра с, при­хо­дим к вы­во­ду, что оно будет иметь хотя бы одно ре­ше­ние, если  и  т. е. если При  при­хо­дим к рас­смот­ре­нию урав­не­ния  Решая не­ра­вен­ство  где  на­хо­дим, что Си­сте­ма долж­на иметь ре­ше­ния для любых зна­че­ний b, по­это­му най­ден­ные мно­же­ства зна­че­ний па­ра­мет­ра а сле­ду­ет пе­ре­сечь.  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/f6/f6d5eef5ee5e51fc839bb54201c62e3b.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0b899322359e004337b7132bf76012af.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/012750d4fc9e49702ad721133305438e.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/048f9a0db73ea891e91466057bf59b0b.svg",
+            "https://ege.sdamgia.ru/formula/svg/3f/3fa0da2a2c80e11d3bb52461560ee701.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/8144dca64da8c1cb4bc4d2508bb00699.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b04b8c783bde73187c796d4541b7a8c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bbb68ab709de51a08d423e2cea44766e.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d27171bb450cb7fedea30c043217712a.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf9dfc0781896ce426e88f3f8c778c7f.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/0877f9da35915970984bc1a287ee8f0c.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/10ebd19c472756532fe94d8386ceda9f.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f99297f10d067722a9a3ac4164a049b3.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/816c0481b7979c2b22f7975201c0b57e.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/381574a102ff9f7aa71d628c33a8a1c8.svg",
+            "https://ege.sdamgia.ru/formula/svg/9d/9d30e7e1c314504927ecbc1f31c4f3cb.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/10ebd19c472756532fe94d8386ceda9f.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b92c088837d49594a94048665f329618.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/37ba4661007f463c6b30ecbf8ff33bd8.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "484634",
+        "527046"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511309"
+}

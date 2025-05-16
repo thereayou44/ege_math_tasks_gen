@@ -1,0 +1,35 @@
+{
+    "id": 659135,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все целочисленные значения параметра a, при каждом из которых система имеет единственное решение.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/67/674fdb5ce28fa6d755fbfbfbd4f6c5c1.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пусть (x, y)  — ре­ше­ние си­сте­мы. Тогда при любом зна­че­нии па­ра­мет­ра a левая часть пер­во­го урав­не­ния си­сте­мы есть сумма рас­сто­я­ний от точки (x, y) до точек (2, a) и (5, a), ле­жа­щих на пря­мой y  =  a, па­рал­лель­ной оси абс­цисс. Но рас­сто­я­ние между точ­ка­ми (2, a) и (5, a) равно 3, и по­это­му пер­вое урав­не­ние ис­ход­ной си­сте­мы рав­но­силь­но си­сте­ме Для вы­пол­не­ния усло­вия за­да­чи не­об­хо­ди­мо и до­ста­точ­но, чтобы вто­рое урав­не­ние ис­ход­ной си­сте­мы имело ровно одно ре­ше­ние на от­рез­ке Рас­смот­рим квад­ра­тич­ную функ­цию  с по­ло­жи­тель­ным стар­шим ко­эф­фи­ци­ен­том. За­ме­тим, что  при всех зна­че­ни­ях па­ра­мет­ра a. Зна­чит, чтобы урав­не­ние  имело ровно один ко­рень на от­рез­ке  не­об­хо­ди­мо и до­ста­точ­но, чтобы вы­пол­ня­лось не­ра­вен­ство  По­лу­ча­ем не­ра­вен­ствоПо­сколь­ку любое ре­ше­ние по­лу­чен­но­го не­ра­вен­ства долж­но удо­вле­тво­рять усло­вию  и по усло­вию a  — целое число, то ре­ше­ни­я­ми не­ра­вен­ства могут быть толь­ко  Из этих усло­вий про­вер­кой по­лу­ча­ем все ре­ше­ния: −2, −1, 0, 1. Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/a8/a8b2e38f6d7a4e4d0769b3c71c386064.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=176923",
+            "https://ege.sdamgia.ru/formula/svg/19/1989e92f93edb80f73431f4529736531.svg",
+            "https://ege.sdamgia.ru/formula/svg/35/351bbb298a112fc3e46ca5d08a3e82bf.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d7a6b26f14b52bb73552ff15e2aec153.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fd05d8d90456c441c8f10641bd8576bc.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1cebfac2b013d00083e239553f32580a.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/28dcf1dbfb2466cb59e73dda633dd4c9.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5c1b4cf2e7fcd3199ee7a9583d661f84.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/38f888302cbe9238f15096a1df0a228d.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d26e2183fe83679a4e98beecbf4bd67e.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/60b3bbff4b8c91f5fd69637b4aed8b7b.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/32e22f7e6f3f74cb60a9b5c7f170d550.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e8d9125877b619574a5bfc045f458142.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "512340",
+        "512382"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=659135"
+}

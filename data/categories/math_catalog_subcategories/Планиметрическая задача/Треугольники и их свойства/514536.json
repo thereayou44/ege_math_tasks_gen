@@ -1,0 +1,30 @@
+{
+    "id": 514536,
+    "topic": "17",
+    "condition": {
+        "text": "В остроугольном треугольнике ABC проведены высоты AK и CM. На них из точек M и K опущены перпендикуляры ME и KH соответственно.а) Докажите, что прямые EH и AC параллельны.б) Найдите отношение EH и AC, если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/84/843b35e6cde1cce8362b212a2b2b5370.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  AMKC  — впи­сан­ный че­ты­рех­уголь­ник, по­сколь­ку   — все точки лежат на окруж­но­сти с диа­мет­ром AC. Ана­ло­гич­но MKEH  — впи­сан­ный, при­чем в окруж­ность с диа­мет­ром MK. Зна­чит,от­ку­да б)  Обо­зна­чим за O точку пе­ре­се­че­ния AK и MC. Тогда   По­это­му KOC  — рав­но­бед­рен­ный пря­мо­уголь­ный тре­уголь­ник, и его вы­со­та KH сов­па­да­ет с его ме­ди­а­ной, то есть H  — се­ре­ди­на OC. Ана­ло­гич­но E  — се­ре­ди­на OA, по­это­му EH  — сред­няя линия тре­уголь­ни­ка AOC и  Ответ:  При­ме­ча­ние.Еще не­сколь­ко под­хо­дов к ре­ше­нию при­ве­де­ны в за­да­че 514449.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=146894",
+            "https://ege.sdamgia.ru/formula/svg/1f/1fac2408246f146a3a6d70e2126685b6.svg",
+            "https://ege.sdamgia.ru/formula/svg/bd/bd35e9d68d652e13b60e6edadfb8ac07.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/74ae6ab63363de14a32a678794b9d160.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/1563d169f0d84dd7bd5d5bfed280ab10.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/94115c1cd13cdbaec68bbbfd702393fa.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bbf9982e4494ed7b06a326ee9d935053.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/0036fe55a78d3600bf865e7774c83246.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "514449",
+        "514529",
+        "661328"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=514536"
+}

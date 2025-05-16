@@ -1,0 +1,49 @@
+{
+    "id": 514628,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения а, при каждом из которых система уравненийимеет ровно три различных решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/0c/0c4e3becee7b3f0c56544a6a46f6cf73.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­пи­шем пер­вое урав­не­ние в видеПри  левая часть урав­не­ния не имеет смыс­ла.При  урав­не­ние задаёт пря­мые   и ги­пер­бо­лу  (изоб­ра­же­ны синим).При каж­дом зна­че­нии a урав­не­ние  задаёт пря­мую m с уг­ло­вым ко­эф­фи­ци­ен­том a, про­хо­дя­щую через на­ча­ло ко­ор­ди­нат.Пря­мые m про­хо­дят через точки пе­ре­се­че­ния пря­мых   и ги­пер­бо­лы  при  и При  пря­мые m пе­ре­се­ка­ют пря­мую  при любом ну­ле­вом зна­че­нии a, пря­мую  при любом ну­ле­вом зна­че­нии a, пе­ре­се­ка­ет пра­вую ветвь ги­пер­бо­лы  при  пе­ре­се­ка­ют левую ветвь ги­пер­бо­лы  при Число ре­ше­ний ис­ход­ной си­сте­мы равно числу точек пе­ре­се­че­ния пря­мых   и ги­пер­бо­лы  с пря­мой m при усло­вии  Таким об­ра­зом, ис­ход­ная си­сте­ма имеет ровно три ре­ше­ния при  и  Ответ:  ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=156590",
+            "https://ege.sdamgia.ru/formula/svg/32/3254a712cd0a62e4963fa9ad4ca38ab5.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/1908cdfe62de5cf8b1bd24aeb41f67e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5cf4556997aad959e00d943906b63ee9.svg",
+            "https://ege.sdamgia.ru/formula/svg/4e/4e1bf8e3014bf3eb4e214f2616206b81.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a267007228f9f654a0d28dec6932c31.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c33d07ebd7f168c21195f27394c18b51.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d38138d655b44f7560b26504c31bdb11.svg",
+            "https://ege.sdamgia.ru/formula/svg/4e/4e1bf8e3014bf3eb4e214f2616206b81.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a267007228f9f654a0d28dec6932c31.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c33d07ebd7f168c21195f27394c18b51.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/ae86a1f832149c056a5fcca2b0d5fdfa.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/5463d633cea58ccc732264ffb7f2234e.svg",
+            "https://ege.sdamgia.ru/formula/svg/11/115d2e06e2d3693defa82c6ddd82b055.svg",
+            "https://ege.sdamgia.ru/formula/svg/02/02600edee9cf21beb48df14d3e124ac7.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a267007228f9f654a0d28dec6932c31.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c33d07ebd7f168c21195f27394c18b51.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/904dbe7d83b40f0c7990781c1373b9c0.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c33d07ebd7f168c21195f27394c18b51.svg",
+            "https://ege.sdamgia.ru/formula/svg/7e/7e8145c5249bc601d508750ec895bbe0.svg",
+            "https://ege.sdamgia.ru/formula/svg/4e/4e1bf8e3014bf3eb4e214f2616206b81.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a267007228f9f654a0d28dec6932c31.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c33d07ebd7f168c21195f27394c18b51.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3a94aad77d780ab675ebd766adec77ce.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/ae86a1f832149c056a5fcca2b0d5fdfa.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/29b1dbcb24c7e963830c103cd6f046cc.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/26ed9322dce2980d165b56916db1a60f.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/29b1dbcb24c7e963830c103cd6f046cc.svg"
+        ]
+    },
+    "answer": "  ",
+    "analogs": [
+        "513924",
+        "513917"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=514628"
+}

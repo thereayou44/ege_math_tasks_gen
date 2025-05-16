@@ -1,0 +1,40 @@
+{
+    "id": 501419,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при которых уравнение имеет единственное решение.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/89/899218b9058a229783839e8c91bc7464.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пре­об­ра­зу­ем урав­не­ние: Не­ра­вен­ство  за­да­ет на ко­ор­ди­нат­ной плос­ко­сти «верх­нюю» по­лу­плос­кость с гра­ни­цей  а урав­не­ние  при  ― окруж­ность с цен­тром  и ра­ди­у­сом  (см. рис.). Окруж­ность и по­лу­плос­кость имеют ровно одну общую точку тогда и толь­ко тогда, когда ра­ди­ус окруж­но­сти равен по­ло­ви­не диа­го­на­ли PO квад­ра­та APBO, т. е.,  от­ку­да  При  урав­не­ние, а, сле­до­ва­тель­но, и вся си­сте­ма ре­ше­ний не имеют, а при  ре­ше­ни­ем урав­не­ния яв­ля­ет­ся пара  ко­то­рая не удо­вле­тво­ря­ет не­ра­вен­ству Ответ:   ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/56/5681aeb8762687e48140d2508a65ab22.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/8450bd8ad386b8c1a27ca30245bced31.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/973add05611c7555d6549f4b54326828.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/ef69fdf70c7f95e588b53a3312cbad15.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/8450bd8ad386b8c1a27ca30245bced31.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=158783",
+            "https://ege.sdamgia.ru/formula/svg/ab/abb262f2a94b7f0c381159b910730578.svg",
+            "https://ege.sdamgia.ru/formula/svg/d0/d0dc5c141d61f183f389c9f070124d00.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b0a81fc87de5fe6108de9eead80ee164.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1c0e84be37292b53b0e5a80483b214d9.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/38a63c963352d157f6075b81f36e7c99.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e0e76308018675e78d617752522c3eeb.svg",
+            "https://ege.sdamgia.ru/formula/svg/67/67108bc53208040a6f421e76ae9cdc75.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0dc6bcf575571d3f8c965e2facbe5957.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/46d4a23187551132f80c979c6d02fe67.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c957a1146ad8631a6ea0fcb6555cd4c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/827374a0fea9a9b176ec5bef3c502545.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/9982b5d04b11c8074ea08a2fa355732a.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0dc6bcf575571d3f8c965e2facbe5957.svg"
+        ]
+    },
+    "answer": "",
+    "analogs": [
+        "501399",
+        "511357"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=501419"
+}

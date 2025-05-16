@@ -1,0 +1,35 @@
+{
+    "id": 649594,
+    "topic": "2",
+    "condition": {
+        "text": "На координатной плоскости изображены векторы и Найдите длину вектора",
+        "images": [
+            "https://ege.sdamgia.ru/get_file?id=152467",
+            "https://ege.sdamgia.ru/formula/svg/1b/1b4412a344122e822c0c695e23b022a5.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0f4c4ce0863d100a12c90c114fd9abeb.svg",
+            "https://ege.sdamgia.ru/formula/svg/8d/8d6932dbdbf4318e11acb14acf1e5e46.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6d297fc61aa8cde8a5b8632a339c2bac.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па. На ко­ор­ди­нат­ной плос­ко­сти изоб­ра­же­ны век­то­ры   и  Най­ди­те длину век­то­ра Ко­ор­ди­на­ты век­то­ра равны раз­но­сти ко­ор­ди­нат конца век­то­ра и его на­ча­ла. По­это­му век­тор  имеет ко­ор­ди­на­ты (4; 6), век­тор  имеет ко­ор­ди­на­ты (6; −2), век­тор  имеет ко­ор­ди­на­ты (1; −4). Ко­ор­ди­на­ты суммы век­то­ров равны сумме со­от­вет­ству­ю­щих ко­ор­ди­нат. По­это­му век­тор  имеет ко­ор­ди­на­ты (11; 0). Длина век­то­ра  равна  Ответ: 11.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=160451",
+            "https://ege.sdamgia.ru/formula/svg/1b/1b4412a344122e822c0c695e23b022a5.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0f4c4ce0863d100a12c90c114fd9abeb.svg",
+            "https://ege.sdamgia.ru/formula/svg/8d/8d6932dbdbf4318e11acb14acf1e5e46.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6d297fc61aa8cde8a5b8632a339c2bac.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/032e291fd1e5592fcd3b7abe2ea18bef.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fcdd61484b31af8082ca2030cea8f4f6.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54a24c7978f04562d18bf8762179eef1.svg",
+            "https://ege.sdamgia.ru/formula/svg/1f/1f85d224a0526a491ac3b4a29abee255.svg",
+            "https://ege.sdamgia.ru/formula/svg/1f/1f85d224a0526a491ac3b4a29abee255.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e539fcd46abc6f21dc6ef24e9b118902.svg"
+        ]
+    },
+    "answer": "11",
+    "analogs": [
+        "649593"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=649594"
+}

@@ -1,0 +1,60 @@
+{
+    "id": 65365,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/a8/a86cef9f699f8c2bc21727572571f792.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/86f30eb11da3f6bf85c0757f3b1c51b2.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Най­ди­те  если Ис­поль­зу­ем свой­ство про­пор­ции:  Сле­до­ва­тель­но,  Ответ: 2,25.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/a8/a86cef9f699f8c2bc21727572571f792.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7bd2c9d827cd39771def5e8ef2d2ec10.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b5ef8266da5029e7d4975198f93ab0d0.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/1047568b95df62676e7b43dc3933aeea.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/9122fbd89b2305ba668c00c5e4f0a61a.svg",
+            "https://ege.sdamgia.ru/formula/svg/48/483c7da6775dbabc408b688966d82161.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b98ff3a192de09f1d619dce5d96baa20.svg"
+        ]
+    },
+    "answer": "-0,5",
+    "analogs": [
+        "26791",
+        "65423",
+        "65367",
+        "...",
+        "65423",
+        "65367",
+        "65369",
+        "65371",
+        "65373",
+        "65375",
+        "65377",
+        "65379",
+        "65381",
+        "65383",
+        "65385",
+        "65387",
+        "65389",
+        "65391",
+        "65393",
+        "65395",
+        "65397",
+        "65399",
+        "65401",
+        "65403",
+        "65405",
+        "65407",
+        "65409",
+        "65411",
+        "65413",
+        "65415",
+        "65417",
+        "65419",
+        "65421"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=65365"
+}

@@ -1,0 +1,23 @@
+{
+    "id": 509601,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/50/50e67ff8d408e367445f4d4dd588de59.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/8617f15c404771243509e078ab4140ae.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Вы­ра­зим ко­си­нус двой­но­го угла по фор­му­ле: Ответ: 3,4.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ac/ac25b5aa9dda9a79b2c2bd43c6aab27d.svg"
+        ]
+    },
+    "answer": "3,4",
+    "analogs": [
+        "509559",
+        "665312"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509601"
+}

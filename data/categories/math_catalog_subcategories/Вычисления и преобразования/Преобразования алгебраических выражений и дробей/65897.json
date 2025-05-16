@@ -1,0 +1,37 @@
+{
+    "id": 65897,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите если при",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/5e/5ec03fd4099003cd56751b9a71712199.svg",
+            "https://ege.sdamgia.ru/formula/svg/3b/3b7151cea50e557b626a6d9d147622e0.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e2914c440cce33be07019583c73354a8.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Вы­пол­ним пре­об­ра­зо­ва­ния:   Ответ: 0.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/1e/1e41f4dd2cb984a49f8e22c9bd7c6d75.svg"
+        ]
+    },
+    "answer": "0",
+    "analogs": [
+        "26804",
+        "65919",
+        "65899",
+        "...",
+        "65919",
+        "65899",
+        "65901",
+        "65903",
+        "65905",
+        "65907",
+        "65909",
+        "65911",
+        "65913",
+        "65915",
+        "65917"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=65897"
+}

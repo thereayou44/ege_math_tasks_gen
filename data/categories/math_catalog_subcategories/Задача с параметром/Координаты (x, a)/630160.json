@@ -1,0 +1,62 @@
+{
+    "id": 630160,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых уравнение имеет более двух различных корней.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ff/ff76e15112329d33ebcd85cd7d431805.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пре­об­ра­зу­ем урав­не­ние:Тем самым в си­сте­ме ко­ор­ди­нат xOa ис­ход­ное урав­не­ние задаёт объ­еди­не­ние дуг окруж­но­стей ра­ди­у­са  с цен­тра­ми в точ­ках  и  ле­жа­щих выше и ниже пря­мой  со­от­вет­ствен­но (см. рис.), пе­ре­се­ка­ю­щих­ся в точ­ках  и  Ко­ли­че­ство кор­ней урав­не­ния равно ко­ли­че­ству точек пе­ре­се­че­ния гра­фи­ка урав­не­ния с го­ри­зон­таль­ной пря­мой при со­от­вет­ству­ю­щем зна­че­нии a. Поль­зу­ясь по­стро­ен­ным ри­сун­ком, по­лу­ча­ем:  — при   — нет ре­ше­ний;  — при   — одно ре­ше­ние;  — при   — два ре­ше­ния;  — при   — три ре­ше­ния;  — при   — че­ты­ре ре­ше­ния;  — при   — три ре­ше­ния;  — при   — два ре­ше­ния;  — при   — три ре­ше­ния;  — при   — че­ты­ре ре­ше­ния;  — при   — три ре­ше­ния;  — при   — два ре­ше­ния;  — при   — одно ре­ше­ние;  — при   — нет ре­ше­ний. Таким об­ра­зом, урав­не­ние имеет более двух раз­лич­ных кор­ней при  или при  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/7f/7f929a6d98fb7c9201d2fae6b99dd76d.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af43eeab534ea45ecaacbbeb79fe94e7.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c6da81b713c5416b8ba2618724c9054.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/709e89c05ca0aa9433d9d42161271c10.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af43eeab534ea45ecaacbbeb79fe94e7.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c6da81b713c5416b8ba2618724c9054.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/520bda3f30c0077558e83b1f80df8ca0.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0bd8e6aaf39b88c60e9fd223767ee44d.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c6da81b713c5416b8ba2618724c9054.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/709e89c05ca0aa9433d9d42161271c10.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d9e190f2c1af1e301c6fb98689146646.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0bd8e6aaf39b88c60e9fd223767ee44d.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/de3724b24d1e51baeec0670b6d4efad5.svg",
+            "https://ege.sdamgia.ru/formula/svg/9a/9ac4d2a7036f6bce486ba15e515427ab.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/709e89c05ca0aa9433d9d42161271c10.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d9e190f2c1af1e301c6fb98689146646.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0bd8e6aaf39b88c60e9fd223767ee44d.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/216554093aa007ab9947ed316b9c44a1.svg",
+            "https://ege.sdamgia.ru/formula/svg/67/67b3b1abb547c0401a19cb22bbefbfbe.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf68215659b9a592068e38cb41ab82c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8eedc63e96d222e576c465b93ad24c01.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d49c83264292efd2d50ba7930cdfb0a1.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/8114410f2e673064b98beed2f485317a.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=112065",
+            "https://ege.sdamgia.ru/formula/svg/ae/ae3d27132af7b2c0f424bb6071404c8d.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3c94ad62be703a4b13a4ce5853603da5.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/ae82c90fa45ef8dff404050ff81dfcc7.svg",
+            "https://ege.sdamgia.ru/formula/svg/9d/9d87c0ec1959559563ee99cf7e1a8777.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/ad5c4f628ed28ff27775159d32ced114.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7bc35d81cadc0b8656640c98c9e29fd0.svg",
+            "https://ege.sdamgia.ru/formula/svg/33/33fbd059136cada760c3aea1d4536201.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/56abc8fce55457f8c2d7dc39cd07631c.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5dc08ee6d311594136f72fa817dea03b.svg",
+            "https://ege.sdamgia.ru/formula/svg/bc/bc098e9c2524aafb1abfb8676be0fffb.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/ad15b879d20e06be6cda2e74c919810a.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f4cae59eab99fd9c1956e48ae365c94b.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a1f8f5c262ed67fbb053e6e8ac6c5019.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/94929b3db10171fa58852897a5b2131e.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/dadc843eab2649ef41a1bbad941848eb.svg",
+            "https://ege.sdamgia.ru/formula/svg/5f/5f7d170c02de7c5d7576a263b2527769.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "630124",
+        "672875",
+        "672904"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=630160"
+}

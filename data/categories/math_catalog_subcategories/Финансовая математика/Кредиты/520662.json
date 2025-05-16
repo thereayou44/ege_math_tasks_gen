@@ -1,0 +1,31 @@
+{
+    "id": 520662,
+    "topic": "16",
+    "condition": {
+        "text": "В июле 2018 года планируется взять кредит в банке на шесть лет в размере S тыс. рублей. Условия его возврата таковы: — каждый январь долг увеличивается на 2% по сравнению с концом предыдущего года; — с февраля по июнь каждого года необходимо выплатить одним платежом часть долга; — в июле каждого года долг должен составлять часть кредита в соответствии со следующей таблицей.Найдите S, если общая сумма выплат после полного погашения кредита составила 327 тысяч рублей.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=34665"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­ме­тим, что долг перед бан­ком по со­сто­я­нию на фев­раль будет со­став­лять  тыс. руб­лей.Най­дем раз­ме­ры еже­год­ных вы­плат:Общая сумма вы­плат со­ста­вит (тыс. руб­лей).Зна­чит,  (тыс. руб­лей). Ответ: 300 тыс. руб­лей.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/f7/f76ca79725e8e82bc7fd95c23d51ecc9.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/219f00d79fa5ad832916d38cbc147d03.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e65bd79a638c288beff5493c07ca0df3.svg",
+            "https://ege.sdamgia.ru/formula/svg/c5/c5e25f2e4f8e5498b880f64c13cc68ce.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/308993662700ca4eb6316dfcc57f7a83.svg",
+            "https://ege.sdamgia.ru/formula/svg/02/02540d01a2b5f7322a955606e324301c.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1b93dbcadf06a2a92dce8b256827a3d0.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/310f1f24d582b609174833b506236f03.svg",
+            "https://ege.sdamgia.ru/formula/svg/02/0270b5590c9f9459953376ffcf7ba73d.svg"
+        ]
+    },
+    "answer": " 300 тыс. руб­лей.",
+    "analogs": [
+        "520499",
+        "520519",
+        "520703"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=520662"
+}

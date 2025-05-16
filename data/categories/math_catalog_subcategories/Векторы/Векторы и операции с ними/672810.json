@@ -1,0 +1,25 @@
+{
+    "id": 672810,
+    "topic": "2",
+    "condition": {
+        "text": "Найдите длину вектора если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/45/45d8311bbb53d99ff2f9eed1ce615ed5.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/28c953b421bad29d06a156541dfbb4a1.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Най­дем ко­ор­ди­на­ты век­то­ра  Длина век­то­ра  равнаОтвет: 40.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/41/412c7cb427f2f43a7e87dd4aea6689f3.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cd1e7cd87af13480ad697e2f9eaa4cc2.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e646e834a52398549c4c71a44014ed7c.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1baf46770ea7b6e0fd801d49193c86cc.svg"
+        ]
+    },
+    "answer": "40",
+    "analogs": [
+        "672734"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=672810"
+}

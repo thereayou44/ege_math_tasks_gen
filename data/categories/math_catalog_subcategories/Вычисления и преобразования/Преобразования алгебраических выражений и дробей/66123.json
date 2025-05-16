@@ -1,0 +1,46 @@
+{
+    "id": 66123,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/60/609402fb78f1a603d52daa1876406c9c.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8e7d184861f35d74614b4c51f4d03353.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Вы­пол­ним пре­об­ра­зо­ва­ния:  Ответ: −76.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/31/31d8d39c6bd5ce3b65d608a6fe66adba.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8f51db85853dc1dce51d1db4818414a7.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/90e6c0c9859d5b4ff01c33ef6eb33b4d.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/7496e6ebd7e07cf1f5678ca3aa60110c.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8f51db85853dc1dce51d1db4818414a7.svg"
+        ]
+    },
+    "answer": "-76",
+    "analogs": [
+        "26806",
+        "66089",
+        "66091",
+        "...",
+        "66089",
+        "66091",
+        "66093",
+        "66095",
+        "66097",
+        "66099",
+        "66101",
+        "66103",
+        "66105",
+        "66107",
+        "66109",
+        "66111",
+        "66113",
+        "66115",
+        "66117",
+        "66119",
+        "66121"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=66123"
+}

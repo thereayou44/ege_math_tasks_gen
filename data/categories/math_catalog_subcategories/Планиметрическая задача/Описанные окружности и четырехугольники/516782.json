@@ -1,0 +1,31 @@
+{
+    "id": 516782,
+    "topic": "17",
+    "condition": {
+        "text": "Окружность проходит через вершины A и B параллелограмма ABCD, пересекает стороны AD и BC в точках M и N соответственно и касается стороны CD.а) Докажите, что точки C, D, M и N лежат на одной окружности.б) Найдите длину отрезка AD, зная, что BM = a, MD = b, NC = c.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Че­ты­рех­уголь­ник ABNM впи­сан в окруж­ность и его сто­ро­ны AM и BN па­рал­лель­ны, сле­до­ва­тель­но, ABNM ― либо пря­мо­уголь­ник, либо рав­но­бед­рен­ная тра­пе­ция, от­ку­да MN = AB, но CD = AB, зна­чит, и че­ты­рех­уголь­ник CDMN ― также пря­мо­уголь­ник или рав­но­бед­рен­ная тра­пе­ция и, сле­до­ва­тель­но, около него можно опи­сать окруж­ность, что и тре­бо­ва­лось до­ка­зать.б)  По­ло­жим AD = x. Так как DK ― ка­са­тель­ная к дан­ной окруж­но­сти, а DA ― се­ку­щая, то  Рас­суж­дая ана­ло­гич­но, на­хо­дим  Тогда  а зна­чит,  Пусть BH ― вы­со­та рав­но­бед­рен­ной тра­пе­ции ABNM. Тогда: от­ку­да  Тогда  и, таким об­ра­зом,  Ответ: За­ме­ча­ние. Уча­щи­е­ся, зна­ю­щие тео­ре­му Пто­ле­мея для впи­сан­но­го че­ты­рех­уголь­ни­ка, могли при­ве­сти более ко­рот­кое ре­ше­ние, сразу на­пи­сав ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=150098",
+            "https://ege.sdamgia.ru/formula/svg/c2/c2463a413db3cae684cd1f50e857218e.svg",
+            "https://ege.sdamgia.ru/formula/svg/7f/7f3c997bf2e36eacf9660f9f9e33dcc1.svg",
+            "https://ege.sdamgia.ru/formula/svg/9a/9a790ac8766e0cec0f14ac46b8ac3728.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/134d67a2dce127715f13d06fedf0914f.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d2c954b9820a554b7fd863a57535da00.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/383b4a7c466865a1e5ad0c2cd001d780.svg",
+            "https://ege.sdamgia.ru/formula/svg/f2/f2ccffd583274d009cb527d9e43f0011.svg",
+            "https://ege.sdamgia.ru/formula/svg/98/98fabea73368c888ba66f9784d438d3b.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dc6bff108229eacc0cf923498f0dfa02.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a974d11421fe97270a693cd0bde3371.svg",
+            "https://ege.sdamgia.ru/formula/svg/9c/9c6bf3d04608e848c767ed69dc18684a.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fceb01d4e0b44e4db4545d4d6d121b44.svg"
+        ]
+    },
+    "answer": " За­ме­ча­ние. Уча­щи­е­ся, зна­ю­щие тео­ре­му Пто­ле­мея для впи­сан­но­го че­ты­рех­уголь­ни­ка, могли при­ве­сти более ко­рот­кое ре­ше­ние, сразу на­пи­сав ",
+    "analogs": [
+        "516763"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=516782"
+}

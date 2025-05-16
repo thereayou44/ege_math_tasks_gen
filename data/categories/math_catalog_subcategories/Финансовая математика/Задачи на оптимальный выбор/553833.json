@@ -1,0 +1,38 @@
+{
+    "id": 553833,
+    "topic": "16",
+    "condition": {
+        "text": "Первичная информация разделяется по серверам 1 и 2 и обрабатывается на них. С сервера 1 при объёме t2 Гбайт входящей в него информации выходит 30t Гбайт, а с сервера 2 при объёме t2 Гбайт входящей в него информации выходит 36t Гбайт обработанной информации при условии, что Каков наибольший общий объём выходящей информации при общем объёме входящей информации в 3904 Гбайт?",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/bf/bf612dc80c0ea7768dfaa0d9816516be.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пусть на сер­вер № 1 будет по­сту­пать  ги­га­байт ин­фор­ма­ции, на сер­вер № 2  —  ги­га­байт ин­фор­ма­ции, и пусть S  — общий объём вы­хо­дя­щей ин­фор­ма­ции в ги­га­бай­тах. Тогда Вы­ра­зим из пер­во­го урав­не­ния си­сте­мы y и под­ста­вим его во вто­рое урав­не­ние. По­лу­ча­емгде  Най­дем наи­боль­шее зна­че­ние S при по­мо­щи про­из­вод­ной. По­лу­ча­ем: Найдём кри­ти­че­ские точки:За­ме­тим, что  а  зна­чит,   — точка мак­си­му­ма, и имен­но в ней до­сти­га­ет­ся наи­боль­шее зна­че­ние функ­ции S(x). Вы­чис­лим его: Ответ: 2928 Гбайт.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/32/32f5240d0dbf2ccbe75ef7f8ef2015e0.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c91bdff30bfc831ff645b8442bed761a.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/18f4841d73984be15c15fc0e7cc2a4b5.svg",
+            "https://ege.sdamgia.ru/formula/svg/11/114d1fe10d8f3d6a20a59de07b5489ef.svg",
+            "https://ege.sdamgia.ru/formula/svg/5f/5f344f03ba1c749b5927748076c42adb.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/291d567fe7f90321e8622044cb9417bd.svg",
+            "https://ege.sdamgia.ru/formula/svg/77/77c57a60cc361aea1b979b269b1b7f52.svg",
+            "https://ege.sdamgia.ru/formula/svg/ce/cedf474c5e52839494940556524c64e3.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4a2849a60f57533ad6a4592dade1f883.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/230a84a0f7bb3ebc1cf340f520a828ea.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c74c3cff88bd6e21e97262b3f80093ad.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b7525987695de5ee00f70f8d72c32c6e.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8b691bc544f4ca6228426cb54b275810.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8f58a7f9cbabce066d9bde81b74b1f67.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e8d245c0d27bd16b4eb3957c58c18879.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/217d6b5f6e4cc86e42c35b0bdd7b07a4.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4b9f6cfcf5e6340b7e0e276a69be98d2.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e8d245c0d27bd16b4eb3957c58c18879.svg"
+        ]
+    },
+    "answer": " 2928 Гбайт.",
+    "analogs": [
+        "509485"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=553833"
+}

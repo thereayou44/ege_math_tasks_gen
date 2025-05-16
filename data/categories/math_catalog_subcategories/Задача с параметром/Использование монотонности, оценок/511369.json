@@ -1,0 +1,36 @@
+{
+    "id": 511369,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых уравнение имеет хотя бы один корень.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/c8/c83d8d89a460bc5653c1dd8714b68224.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Рас­смот­рим две функ­ции:иФунк­ция f не­пре­рыв­на, убы­ва­ет при  воз­рас­та­ет при  до­сти­га­ет в нуле наи­мень­ше­го зна­че­ния,  Функ­ция g не­пре­рыв­на, яв­ля­ет­ся ку­соч­но-ли­ней­ной, при  ее уг­ло­вой ко­эф­фи­ци­ент равен либо 3, либо 9, при  уг­ло­вой ко­эф­фи­ци­ент равен либо –3, либо –9. Зна­чит, функ­ция g воз­рас­та­ет при  убы­ва­ет при  в нуле до­сти­га­ет наи­боль­ше­го зна­че­ния,  Сле­до­ва­тель­но, ис­ход­ное урав­не­ние имеет хотя бы один ко­рень тогда и толь­ко тогда, когда наи­мень­шее зна­че­ние функ­ции f не пре­вос­хо­дит наи­боль­ше­го зна­че­ния функ­ции g, то есть тогда и толь­ко тогда, когда  Имеем: Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/b9/b961054f9f66a076c0d04104bfd5625e.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a7e780b0bdee262542b9f12d44c718a4.svg",
+            "https://ege.sdamgia.ru/formula/svg/7e/7e7035eec441628f0c8e23c3d0ae86de.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d1f2c17ce0ff8e961c098e65f120928.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/303acb1c5038ff3eee6dc361507ec9eb.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f8d5af2b45fd03e2df95d80b7b34289c.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/8215e19cb644373322874a22576326af.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/ada04802930c4a8eccbf812e7df6f5ba.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/61efe320b1665ea3d8503322841ac00c.svg",
+            "https://ege.sdamgia.ru/formula/svg/7e/7e4c31a6012a8d21ceee00ceeee32ca7.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/326b16bf985cc08ba4150c7c6eb19194.svg",
+            "https://ege.sdamgia.ru/formula/svg/c5/c57a56da664298c6035c177495471d47.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/5142a24b74da5ade37432380a4821306.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e86e5f228008a8c8a7ff75557ea46eb.svg",
+            "https://ege.sdamgia.ru/formula/svg/9c/9c8f4705ee13d49374bc566d0b0723d3.svg"
+        ]
+    },
+    "answer": "",
+    "analogs": [
+        "502026",
+        "502057"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511369"
+}

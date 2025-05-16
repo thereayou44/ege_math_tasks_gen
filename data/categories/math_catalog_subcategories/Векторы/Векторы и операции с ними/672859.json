@@ -1,0 +1,32 @@
+{
+    "id": 672859,
+    "topic": "2",
+    "condition": {
+        "text": "Найдите квадрат длины вектора",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=194976",
+            "https://ege.sdamgia.ru/formula/svg/74/74867ee184a7f84e0f55fee643ddf03a.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Ко­ор­ди­на­ты век­то­ра равны раз­но­сти ко­ор­ди­нат конца век­то­ра и его на­ча­ла. На­хо­дим   Тогда  Длина век­то­ра  равна  тогда квад­рат длины этого век­то­ра равен 9. Ответ: 9.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/94/9435effa4358ae1f64d34f29bc79caa0.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4ba0fa7a966ea932f6b07c13c9915181.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c792156a122492ed471c18434a0a5902.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fd50ddb06cb1c7b9e1948eb4f8a95a66.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6e85a95ed6e5db35091199afcf34ab17.svg"
+        ]
+    },
+    "answer": "9",
+    "analogs": [
+        "27664",
+        "26395",
+        "654466",
+        "...",
+        "26395",
+        "654466",
+        "672888"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=672859"
+}

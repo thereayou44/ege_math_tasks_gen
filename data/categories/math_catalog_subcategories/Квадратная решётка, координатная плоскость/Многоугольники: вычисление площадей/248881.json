@@ -1,0 +1,33 @@
+{
+    "id": 248881,
+    "topic": "Д4",
+    "condition": {
+        "text": "Найдите площадь ромба, изображенного на клетчатой бумаге с размером клетки 1 см 1 см (см. рис.). Ответ дайте в квадратных сантиметрах.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=66132",
+            "https://ege.sdamgia.ru/formula/svg/60/60c13e05d3ec8c10b8564eae7023d9db.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.  Пло­щадь ромба равна по­ло­ви­не про­из­ве­де­ния его диа­го­на­лей. По­это­му см2. Ответ: 6.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=66133",
+            "https://ege.sdamgia.ru/formula/svg/d6/d66cce86a4fe507806da4a1bb91c868c.svg"
+        ]
+    },
+    "answer": "6",
+    "analogs": [
+        "27553",
+        "5313",
+        "71887",
+        "...",
+        "5313",
+        "71887",
+        "248871",
+        "248873",
+        "248875",
+        "248877",
+        "248879"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=248881"
+}

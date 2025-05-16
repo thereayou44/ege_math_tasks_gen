@@ -1,0 +1,36 @@
+{
+    "id": 509103,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображён график функции Найдите",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=154249",
+            "https://ege.sdamgia.ru/formula/svg/1c/1cef6babd2a3a75f43c289c0605984a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c4559fb7e5bc04501e6c1b3727cd2694.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По ри­сун­ку опре­де­ля­ем, что   ТогдаЗна­чит,  Найдём  Ответ: 32.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/fe/fec79bc4a0eb1396de4c40e43b94446c.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1dd2b11923bc23cb909ce6661ccc2aff.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e79c066d93f401b701958394a8ef21ea.svg",
+            "https://ege.sdamgia.ru/formula/svg/9a/9ae7b6cd16ada4f24ab7deda72c5950a.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/22deaf04a5e7c699e00b3454d84ba95c.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e2dea6283e90fcdd71258cb9b8699874.svg"
+        ]
+    },
+    "answer": "32",
+    "analogs": [
+        "509101",
+        "509102",
+        "509104",
+        "...",
+        "509102",
+        "509104",
+        "509105",
+        "509106",
+        "630094"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509103"
+}

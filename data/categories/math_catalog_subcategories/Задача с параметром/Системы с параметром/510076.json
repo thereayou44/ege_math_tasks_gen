@@ -1,0 +1,43 @@
+{
+    "id": 510076,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых система уравненийимеет единственное решение.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/68/681c1077d86617fa20152b4069b54061.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пре­об­ра­зу­ем пер­вое урав­не­ние: Гра­фи­ком пер­во­го урав­не­ния яв­ля­ет­ся объ­еди­не­ние от­кры­то­го луча AB, за­кры­то­го луча CD и от­рез­ка BE с от­кры­тым кон­цом  Вто­рое урав­не­ние пе­ре­пи­шем в виде:  оно задаёт мно­же­ство па­рал­лель­ных пря­мых с  уг­ло­вым ко­эф­фи­ци­ен­том  Зна­че­ние па­ра­мет­ра a равно ор­ди­на­те точки, в ко­то­рой каж­дая такая пря­мая пе­ре­се­ка­ет ось Ко­ли­че­ство точек пе­ре­се­се­ний гра­фи­ков со­от­вет­ству­ет ко­ли­че­ству ре­ше­ний ис­ход­ной си­сте­мы. Зна­че­ние  на­хо­дим из усло­вия, что пря­мая  про­хо­дит через точку  также по­сту­пим с осталь­ны­ми па­ра­мет­ра­ми  Таким об­ра­зом, ко­ли­че­ство точек пе­ре­се­че­ний гра­фи­ков в за­ви­си­мо­сти от зна­че­ния a сле­ду­ю­щее:  — одна точка,   — две точки,   — три точки,   — две точки,   — одна точка,   — две точки,   — одна точка. От­ку­да по­лу­ча­ем ответ к за­да­че. Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=156314",
+            "https://ege.sdamgia.ru/formula/svg/7d/7d6d109dd68a90b2860f7833932633e3.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/27315c12ea4f9eeca33eb503497a8983.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/0936ab1d75a4e01fb345561b420d6bfd.svg",
+            "https://ege.sdamgia.ru/formula/svg/24/240e397401cf317fde091811f86bbb50.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/096b5dbdd0efe5fdefa4e357e9a7225c.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b722e7cb3a8824991bef830c198c9ac8.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d9561cedb5ce1f72323f37a552ebb4e4.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/db54f0be7ba247d3724a83d54cf0ad5b.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a396e3bc3edb9b6d944e5dd85a99dc99.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b722e7cb3a8824991bef830c198c9ac8.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6f40fab678f151d047754122165c5874.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a1ae7e55c389490c82a56d80d4bd03c9.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/8577f53d113ffc8bead3a65942d8f652.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/656fa36191513b0fcc72e14cf90f7fcf.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/317864fe519be8b98cb01847b167b24c.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/68dbd311ff3e517b516b8b64874f8828.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6f0e0a677391beea5dd7a4da2bf8bdbd.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a192e22fdbf67134d5b7cab0f82f004a.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/15b5ede86178896e65cc38a04dc4f4ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/f2/f2ec80e234a5cc090b9e305fdc17120d.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "509506",
+        "511597",
+        "511601"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=510076"
+}

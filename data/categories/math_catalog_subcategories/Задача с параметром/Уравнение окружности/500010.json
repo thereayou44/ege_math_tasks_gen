@@ -1,0 +1,39 @@
+{
+    "id": 500010,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых система имеет ровно два решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/cb/cb05ef55311bd5759f14432ff6f2905c.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Не­ра­вен­ство (1) за­да­ет пару вер­ти­каль­ных углов на ко­ор­ди­нат­ной плос­ко­сти Oxy (см. рис.). При  гра­фи­ком урав­не­ния (2) яв­ля­ет­ся точка (-1; -1) и си­сте­ма не может иметь более од­но­го ре­ше­ния.При  гра­фи­ком урав­не­ния (2) яв­ля­ет­ся  окруж­ность ра­ди­у­са  центр ко­то­рой ― точка  ― лежит на пря­мой   По­сколь­ку оба гра­фи­ка сим­мет­рич­ны от­но­си­тель­но пря­мой   си­сте­ма будет иметь ровно два ре­ше­ния тогда и толь­ко тогда, когда рас­сто­я­ние PK от цен­тра окруж­но­сти до пря­мой  будет рав­нять­ся ра­ди­у­су  дан­ной окруж­но­сти.Из тре­уголь­ни­ка POK на­хо­дим:   где  ― уг­ло­вой ко­эф­фи­ци­ент пря­мой  Таким об­ра­зом,  от­ку­да Окон­ча­тель­но по­лу­ча­ем:  Ответ:  или ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=158094",
+            "https://ege.sdamgia.ru/formula/svg/f8/f836be878c290d77b060bdcaf6b3e25d.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e09a6002a1486af624f833563695799.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d8d8ec0c4dd20d62eaa89e1bd782a5d6.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e9605b3c3db2a0538b1fc330366f0257.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/10529ae692c6506344abdd790d6fb960.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/74a02e39b7685bf323916a8b8e6f7595.svg",
+            "https://ege.sdamgia.ru/formula/svg/20/202e1a80a5dcb3041ed9658ca3efb145.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8e4f7737a88c72e78fb13e74bd89e0f8.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/5780aeba7f4abfd11b72610701448e77.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/00c61a39e2fc2dfed63f2770b4cd5b7f.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a1e98d41eb8b52ca35ebf5dce6ef6d97.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3a8d33a8e8d2919ed266c0452a531e5d.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/07de9e1d93ee0da7471caa70529d9d73.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8b14fb04ffe40cf336fec2a52173f1f5.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/364a2428343edda301a7d2e9285a4bd5.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/292903dd6e3008424dc5327ca72c7c01.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a726d057f869a8a7dd4d67e2a02e606d.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4dfae9816f72c06d23c85c3e401d30b3.svg"
+        ]
+    },
+    "answer": "  или ",
+    "analogs": [
+        "500004"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=500010"
+}

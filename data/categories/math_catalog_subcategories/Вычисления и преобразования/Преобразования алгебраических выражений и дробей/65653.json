@@ -1,0 +1,34 @@
+{
+    "id": 65653,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите значение выражения",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/fe/fee235e954a230ad1f1e45bb26e521a2.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Най­ди­те зна­че­ние вы­ра­же­ния Вы­пол­ним пре­об­ра­зо­ва­ния:   Ответ: 5.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/4c/4ced6fff48fc19124bc317a1f0d46c79.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/66283ffe23fd2daf263e7cd75152d8c4.svg"
+        ]
+    },
+    "answer": "3",
+    "analogs": [
+        "26797",
+        "65659",
+        "65641",
+        "65643",
+        "...",
+        "65659",
+        "65641",
+        "65643",
+        "65645",
+        "65647",
+        "65649",
+        "65651",
+        "65655"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=65653"
+}

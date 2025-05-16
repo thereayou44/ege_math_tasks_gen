@@ -1,0 +1,72 @@
+{
+    "id": 563658,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых уравнение имеет ровно два различных корня.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/5c/5c444d81c683f2d16593636c88988b75.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­пи­шем урав­не­ние в виде  обо­зна­чим левую и пра­вую части f(x) и g(x) со­от­вет­ствен­но и по­стро­им гра­фи­ки этих функ­ций. Их гра­фи­ков по­лу­чим сле­ду­ю­щее.При a = 0 нет ре­ше­ний, т. к. левая часть равна 0, а пра­вая не боль­ше −3.Не­сов­па­да­ю­щие пря­мые имеют не более одной общей точки, по­это­му при  урав­не­ние имеет ровно два раз­лич­ных ре­ше­ния тогда и толь­ко тогда, когда  от­ку­да  то есть при Рас­суж­дая ана­ло­гич­но, за­клю­ча­ем, что при  два ре­ше­ния есть тогда и толь­ко тогда, когда  от­ку­да  то есть при   Ответ:  или  При­ведём ана­ли­ти­че­ское ре­ше­ние.Рас­смот­рим три слу­чая рас­кры­тия мо­ду­лей. 1 слу­чай. При  по­лу­ча­ем     2 слу­чай.  При  по­лу­ча­ем    При  си­сте­ма не имеет ре­ше­ний, при  имеем   3 слу­чай. При  по­лу­ча­ем   Таким об­ра­зом,   — при   ис­ход­ное урав­не­ние имеет два корня   и    — при  ис­ход­ное урав­не­ние имеет один ко­рень   — при  ис­ход­ное урав­не­ние не имеет кор­ней;   — при  ис­ход­ное урав­не­ние имеет один ко­рень    — при   ис­ход­ное урав­не­ние имеет два корня   и  Зна­чит, ис­ход­ное урав­не­ние имеет ровно два раз­лич­ных корня при  или Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/cd/cd75becf39d6a7498d36c00157f7f132.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/323c5f97105643bc61e288fe596194ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/08341443e83d14bd7b07dadb247261c0.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/427f6d5d61331933760057947431dd16.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/22c5c2255260391c12f076f2eec66560.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf8298b0e273301afdd921e7e4cf6c2b.svg",
+            "https://ege.sdamgia.ru/formula/svg/6b/6b57c00ab72893d5d445bad05240b76e.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0fa7b8e9869b104377f7e032b33e2975.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/36fe5f1ab04ba68520b3b5983b1acfde.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=89608",
+            "https://math-ege.sdamgia.ru/get_file?id=89609",
+            "https://ege.sdamgia.ru/formula/svg/29/297483f7d4eeb5ea899242aad319f15c.svg",
+            "https://ege.sdamgia.ru/formula/svg/80/80a8b97b41c03ae156b4548b103c7de1.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b93033854be223c2e0b7afdef3117a5c.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/55cebde7ca193ac810a856e8c40d0b65.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cdf32bd4d294fea62351a39f17ec2466.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/72928544535da86ec4191226011b4ce6.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cdf32bd4d294fea62351a39f17ec2466.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/91546fd66998c930f940935f69b41543.svg",
+            "https://ege.sdamgia.ru/formula/svg/35/351a8d7991d9e867317321239d9f207f.svg",
+            "https://ege.sdamgia.ru/formula/svg/9a/9a80d7e04f24f6ba7f8cf265506ee6fb.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4a2fd2faffe981168017d166c2ec46a4.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/56b3bcf2edc537277acfda3a81a907e3.svg",
+            "https://ege.sdamgia.ru/formula/svg/d1/d1a6e6c73e781afe8777d0bc5fe59dbb.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f4fbb6c994f0db35ff50faa217fda4c0.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9fbaf82f783ead4392f37a7d980792f1.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/237af079922601664eaf7a7c5c72ae43.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/92bec48fe3398cd2b4971f996ef8fb41.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/466969d73610844ad4c2a53f937ed1a3.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/27124a128fc4bd9a95ef8ef5f6f71825.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a1b7404b07d3b9ebb9b5ca3ceacdf6e4.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/466969d73610844ad4c2a53f937ed1a3.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/297483f7d4eeb5ea899242aad319f15c.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/730d7a947194259c75e0b09df10599ae.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/84b0254c2b2fe9f86fc88c6c3eff078b.svg",
+            "https://ege.sdamgia.ru/formula/svg/6b/6b0935b41dea599e98058bf9321caf5b.svg",
+            "https://ege.sdamgia.ru/formula/svg/d1/d13d40f245bd0d02d81bff0323a758ce.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8c1dc32197dd59fa6cd2f9755fdc8051.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/2266ca915b5ade0cae39bee9e888cff5.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/09e39554a43efbb15bf2ea181d3092e5.svg",
+            "https://ege.sdamgia.ru/formula/svg/59/593963e7670e373bf9ea180147e677e5.svg",
+            "https://ege.sdamgia.ru/formula/svg/3f/3f922007e5a4d961e569fb0c9bd55c93.svg",
+            "https://ege.sdamgia.ru/formula/svg/bd/bd0ab2f57b7f1641ad3bb68d30c27c32.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/297483f7d4eeb5ea899242aad319f15c.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a25c723448e7f272b4549999ad1db5ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/78/78027350248e0a174fc69afcad2a022e.svg"
+        ]
+    },
+    "answer": "  или  ",
+    "analogs": [
+        "563618",
+        "563599",
+        "647140",
+        "...",
+        "563599",
+        "647140",
+        "647160"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=563658"
+}

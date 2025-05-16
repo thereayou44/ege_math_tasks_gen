@@ -1,0 +1,35 @@
+{
+    "id": 513104,
+    "topic": "17",
+    "condition": {
+        "text": "Точка B лежит на отрезке AC. Прямая, проходящая через точку A, касается окружности с диаметром BC в точке M и второй раз пересекает окружность с диаметром AB в точке K. Продолжение отрезка MB пересекает окружность с диаметром AB в точке D.а) Докажите, что прямые AD и MC параллельны.б) Найдите площадь треугольника DBC, если AK = 3 и MK = 14.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Точки M и D лежат на окруж­но­стях с диа­мет­ра­ми BC и AB со­от­вет­ствен­но, по­это­муПря­мые AD и MC пер­пен­ди­ку­ляр­ны одной и той же пря­мой MD, сле­до­ва­тель­но, пря­мые AD и MC па­рал­лель­ны.б)  Пусть O  — центр окруж­но­сти с диа­мет­ром BC. Тогда пря­мые OM и AM пер­пен­ди­ку­ляр­ны. Учи­ты­вая, что пря­мые BK и AM пер­пен­ди­ку­ляр­ны, по­лу­ча­ем, что пря­мые OM и BK па­рал­лель­ны. Обо­зна­чим BK через x. Тре­уголь­ник AMO по­до­бен тре­уголь­ни­ку AKB с ко­эф­фи­ци­ен­том  по­это­му OB  =  OM  =   Опу­стим пер­пен­ди­ку­ляр BP из точки B на пря­мую OM. Так как четырёхуголь­ник BKMP  — пря­мо­уголь­ник,По тео­ре­ме Пи­фа­го­ра OB2  =  BP2 + OP2, от­ку­да  По­лу­ча­ем, что По­сколь­ку пря­мые AD и MC па­рал­лель­ны,Зна­чит, тре­уголь­ни­ки DBC и AMB рав­но­ве­ли­ки. Сле­до­ва­тель­но, Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=147959",
+            "https://ege.sdamgia.ru/formula/svg/6c/6ccaada82c2436dc90d524d613c4c949.svg",
+            "https://ege.sdamgia.ru/formula/svg/5b/5b4b39321094f5b65c0390d11b818db2.svg",
+            "https://ege.sdamgia.ru/formula/svg/5a/5a10057fc52d2bde26f8edd062244d30.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/466f5c4cfe38c56a02120cfd14bcf601.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8b9c276ae01a57d1c333a9d98583640a.svg",
+            "https://ege.sdamgia.ru/formula/svg/bc/bc06a20928efcc4c7bbccc46bd07f88e.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4cf407848f06644cb92e112bed5e5239.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b9390f868fd77c448a180c1e374be2ce.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2e26fe32c12d0e004c08df916b968ef0.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bffdcce7ae21e263a3b901e254ed4033.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "513103",
+        "513105",
+        "639486",
+        "...",
+        "513105",
+        "639486",
+        "639652"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=513104"
+}

@@ -1,0 +1,37 @@
+{
+    "id": 630181,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображён график функции вида Найдите значение f(2).",
+        "images": [
+            "https://ege.sdamgia.ru/get_file?id=112231",
+            "https://ege.sdamgia.ru/formula/svg/3e/3ec7f9a9c1d470775506529844b8c3a5.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По гра­фи­ку функ­ции  опре­де­ля­ем, что  то есть   Зна­чит,  Най­дем   Ответ: 25.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/28/284a6897a16c45d4248d550ba3956234.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/947e029182b1b172c165fb3eb15a7123.svg",
+            "https://ege.sdamgia.ru/formula/svg/80/806e89a28ec91128e20bbd5233e3baf2.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4abaf41212212d68e3bd23383f947eab.svg",
+            "https://ege.sdamgia.ru/formula/svg/fa/fa1b7f95935fe655ae919bc172943c6e.svg",
+            "https://ege.sdamgia.ru/formula/svg/b8/b8cd259cd7f39e294113a4f50758b606.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1aae53dab720f752e5e95f2b324fe5c0.svg"
+        ]
+    },
+    "answer": "25",
+    "analogs": [
+        "509089",
+        "509090",
+        "509091",
+        "509092",
+        "...",
+        "509090",
+        "509091",
+        "509092",
+        "509093",
+        "639646"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=630181"
+}

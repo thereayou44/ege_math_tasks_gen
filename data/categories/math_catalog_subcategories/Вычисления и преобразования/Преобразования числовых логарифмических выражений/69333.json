@@ -1,0 +1,61 @@
+{
+    "id": 69333,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите значение выражения",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/fd/fdb811976d414f5e876a12bca74e7e02.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­ме­тим, что  Тогда   Ответ: 36.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/a5/a5d068fbeebadd44a960427a506612fe.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/22b129437d6e1ec13a8f915899cce1bb.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bfe9e78ce00976d9b515ec2b72894cc3.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/10b4464cc1ef09435371dae67c8e2a19.svg"
+        ]
+    },
+    "answer": "36",
+    "analogs": [
+        "26862",
+        "69263",
+        "69265",
+        "...",
+        "69263",
+        "69265",
+        "69267",
+        "69269",
+        "69271",
+        "69273",
+        "69275",
+        "69279",
+        "69281",
+        "69283",
+        "69285",
+        "69287",
+        "69289",
+        "69291",
+        "69293",
+        "69295",
+        "69297",
+        "69299",
+        "69301",
+        "69303",
+        "69305",
+        "69307",
+        "69309",
+        "69311",
+        "69313",
+        "69315",
+        "69317",
+        "69319",
+        "69321",
+        "69323",
+        "69325",
+        "69327",
+        "69329",
+        "69331"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=69333"
+}

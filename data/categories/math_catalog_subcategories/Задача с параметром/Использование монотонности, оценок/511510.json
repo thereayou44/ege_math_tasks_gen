@@ -1,0 +1,36 @@
+{
+    "id": 511510,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все такие значения параметра a, при каждом из которых уравнение не имеет решений.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/d9/d998b0f3530d434f12b357ce8aaf7598.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Ре­ше­ние 1. Пе­ре­пи­шем дан­ное урав­не­ние в виде  и по­ло­жим  где  Тогда ис­ход­ное урав­не­ние при­ни­ма­ет вид  Най­дем мно­же­ство зна­че­ний функ­ции  на от­рез­ке [0; 2].Так как  то  на про­ме­жут­ке [0; 1) и  про­ме­жут­ке (1; 2]. Зна­чит, функ­ция убы­ва­ет на от­рез­ке [0; 1] и воз­рас­та­ет на от­рез­ке [1; 2]. По­сколь­ку  то мно­же­ство зна­че­ний функ­ции на от­рез­ке [0; 2] ― от­ре­зок [f (1); f (2)], т. е. от­ре­зок  Таким об­ра­зом, урав­не­ние  не имеет ре­ше­ний на от­рез­ке [0; 2] тогда и толь­ко тогда, когда вы­пол­ня­ют­ся усло­вия  или  Ответ:  ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/49/49735bc1382e23ec83c7d3645f79d6be.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1b59a0d94ad3166d0bf29ff0f9cdcc28.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6db04bc5b6a6bc8519265121866b3aa4.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7a789d16e136bb2b477d18a2cb2e51fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/c5/c578ca2b0c2ed8453122b57391f06843.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e5d34178ea79c6fcd56ddbfe5f7bc378.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/305d3ee543b9f2e5716e6dade503b534.svg",
+            "https://ege.sdamgia.ru/formula/svg/7d/7d05ebff56cd7f119c98646bae31c80c.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/dab753a40a2fc01d2c8e22adb79733a2.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83929c96d849fed851fc68ed7c05946f.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/edf144a35bf30eadf6a6734a12b56dcc.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e34b7734fe722bfd149ba16a939db21a.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c3525d19c4bd16a076ca6584bd9734e6.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/734d23455aa4647b132fa723a616443e.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cb6591540d44d1b31e00490d709c5cea.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/5083bed2105596107b968b2f8848c5d1.svg"
+        ]
+    },
+    "answer": "  ",
+    "analogs": [
+        "508395"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511510"
+}

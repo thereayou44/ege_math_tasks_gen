@@ -1,0 +1,23 @@
+{
+    "id": 26234,
+    "topic": "Д4",
+    "condition": {
+        "text": "Найдите угол Ответ дайте в градусах.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/4b/4b5b9eab089a2e0ff9b286f012e61feb.svg",
+            "https://math-ege.sdamgia.ru/pics/9999553800124048306.png"
+        ]
+    },
+    "solution": {},
+    "answer": "135",
+    "analogs": [
+        "27887",
+        "27888",
+        "27889",
+        "...",
+        "27888",
+        "27889",
+        "26235"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=26234"
+}

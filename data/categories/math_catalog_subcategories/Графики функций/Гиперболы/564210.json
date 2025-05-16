@@ -1,0 +1,49 @@
+{
+    "id": 564210,
+    "topic": "Д10",
+    "condition": {
+        "text": "На рисунке изображён график функции вида где числа a, b и c — целые. Найдите",
+        "images": [
+            "https://ege.sdamgia.ru/get_file?id=108677",
+            "https://ege.sdamgia.ru/formula/svg/3f/3f75db2e061bc3e054f4f2df78290859.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5c7005aa97856a3546e7fba8787c5894.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Гра­фик функ­ции имеет го­ри­зон­таль­ную асимп­то­ту  зна­чит, Гра­фик функ­ции имеет вер­ти­каль­ную асимп­то­ту  зна­чит, По гра­фи­ку  тогдаТаким об­ра­зом,  Найдём   Ответ: −2,75.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/4e/4e1bf8e3014bf3eb4e214f2616206b81.svg",
+            "https://ege.sdamgia.ru/formula/svg/11/11a6f42ca799457661294b27f0710f30.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/ef0bf4956616b08fc0e544135009869f.svg",
+            "https://ege.sdamgia.ru/formula/svg/05/055fcefc1ef3182b8ed1ae0cf149091b.svg",
+            "https://ege.sdamgia.ru/formula/svg/77/774c5ba7883842c72da0d01def743fdc.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d5f57d0e2e384c7d8bea2d16b5eacce7.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/473cc28b7ff2c536c10c90fca4b576bf.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5c7005aa97856a3546e7fba8787c5894.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e5bd04fb81f543786330868c2ef5f5c4.svg"
+        ]
+    },
+    "answer": "-2,75",
+    "analogs": [
+        "564197",
+        "564198",
+        "564199",
+        "564200",
+        "...",
+        "564198",
+        "564199",
+        "564200",
+        "564201",
+        "564202",
+        "564203",
+        "564204",
+        "564205",
+        "564206",
+        "564207",
+        "564208",
+        "564209",
+        "564211",
+        "564212"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=564210"
+}

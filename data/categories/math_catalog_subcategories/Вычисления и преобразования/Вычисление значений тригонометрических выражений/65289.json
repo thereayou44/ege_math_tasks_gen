@@ -1,0 +1,54 @@
+{
+    "id": 65289,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/68/68c512654c525cb2488c23f4d3d7f104.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/841d690a721d48a1446e691372bc0ced.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Най­ди­те  если Спо­соб 1:  Тогда:Спо­соб 2: По­де­лим чис­ли­тель и зна­ме­на­тель дроби на :  Ответ: 5.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/a4/a4f3ef34e65fb78d2b50b7251658487d.svg",
+            "https://ege.sdamgia.ru/formula/svg/fe/fe5ef3c90e364d123549eb1914c8e057.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/421ed3cd2d3c16484d76088eb7d3f4ee.svg",
+            "https://ege.sdamgia.ru/formula/svg/5e/5e3b7a0433abafab6c52333ebabb0cdb.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4dc86bcc4da107ee7959075512d77e7a.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c2a934799ddc6494eefdae40c253bd40.svg"
+        ]
+    },
+    "answer": "2",
+    "analogs": [
+        "26789",
+        "65273",
+        "65313",
+        "65317",
+        "...",
+        "65273",
+        "65313",
+        "65317",
+        "65271",
+        "65275",
+        "65277",
+        "65279",
+        "65281",
+        "65283",
+        "65285",
+        "65287",
+        "65291",
+        "65293",
+        "65295",
+        "65297",
+        "65299",
+        "65301",
+        "65303",
+        "65305",
+        "65307",
+        "65309",
+        "65311",
+        "65315"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=65289"
+}

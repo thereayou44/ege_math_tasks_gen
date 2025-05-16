@@ -1,0 +1,37 @@
+{
+    "id": 621909,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых уравнение имеет единственное решение.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/c3/c39712ee0aec321488829b8f1b958f40.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. При a  =  0 урав­не­ние  при­ни­ма­ет вид  и имеет един­ствен­ное ре­ше­ние. При a < 0 урав­не­ние  не имеет ре­ше­ний, так как оно имеет смысл при  и при всех таких x вы­пол­не­ны не­ра­вен­ства При a > 0 урав­не­ние  имеет смысл при  и рав­но­силь­но на этом про­ме­жут­ке урав­не­ни­ям  и  При  это урав­не­ние не имеет ре­ше­ний на про­ме­жут­ке  так как для всех x из этого про­ме­жут­ка вы­пол­не­ны не­ра­вен­ства  При  это урав­не­ние имеет един­ствен­ное ре­ше­ние  при­над­ле­жа­щее про­ме­жут­ку  так как  От­сю­да по­лу­ча­ем, что ис­ход­ное урав­не­ние имеет един­ствен­ное ре­ше­ние при a  =  0 или a > 1. Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/c3/c39712ee0aec321488829b8f1b958f40.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af8eb681955ff998fbba5acedef703a8.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c39712ee0aec321488829b8f1b958f40.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d8be3012f89f8f52b7f87e8213daa227.svg",
+            "https://ege.sdamgia.ru/formula/svg/7d/7db6cacd2a102b9164c946ddbd21bd90.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c39712ee0aec321488829b8f1b958f40.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e92f8b5795969ffe7dd6dca6fcdb900f.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0b4840423566db0fd65b23531c55bb0f.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a6889aa405939f5659ca22f449db9f25.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cb5fc6a0aafde139795631914c7db07f.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/79096bb397559fd1fe81e9a7207ceb18.svg",
+            "https://ege.sdamgia.ru/formula/svg/c0/c0b672d5b185d9930bd1b9f73d86e22c.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5c98acfee0e4438309163ea6860b4112.svg",
+            "https://ege.sdamgia.ru/formula/svg/7d/7df52bf6552e06bbfc2b4ca632cc323a.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/79096bb397559fd1fe81e9a7207ceb18.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b5bf897fa8f989c936a1fb1e81bf1c75.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d47a661ac0bc82eab235939e29bed945.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "621780"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=621909"
+}

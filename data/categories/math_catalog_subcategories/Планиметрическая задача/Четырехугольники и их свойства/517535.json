@@ -1,0 +1,32 @@
+{
+    "id": 517535,
+    "topic": "17",
+    "condition": {
+        "text": "Основания трапеции равны 4 и 9, а её диагонали равны 5 и 12.а) Докажите, что диагонали перпендикулярны. б) Найдите площадь трапеции.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Про­ве­дем от­ре­зок CC1, па­рал­лель­ный BD, че­ты­рех­уголь­ник BCC1D  — па­рал­ле­ло­грамм. В тре­уголь­ни­ке ACC1:    За­ме­тим, что  сле­до­ва­тель­но, по тео­ре­ме, об­рат­ной тео­ре­ме Пи­фа­го­ра, тре­уголь­ник ACC1  — пря­мо­уголь­ный с пря­мым углом  Тогда  что и тре­бо­ва­лось до­ка­зать.б)  Тре­уголь­ник две сто­ро­ны ко­то­ро­го равны диа­го­на­лям тра­пе­ции, а тре­тья сто­ро­на равна сумме её ос­но­ва­ний, рав­но­ве­лик дан­ной тра­пе­ции. По­это­му Ответ: б) 30.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=147414",
+            "https://ege.sdamgia.ru/formula/svg/7f/7fae6675d9cacf86c7a6a8f1af3c64af.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1ed085d24b0952943852671abca921aa.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/ac890fc44b11f0dcd674db26684aa942.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f467850d3aa55a1c2d3e55ebca95a929.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/03edff42af0dd3aa5109176ebd915af4.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/393492b52c47792640c88d68244f776c.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3d8b902fd983ebd855e1ca57c1ac9841.svg"
+        ]
+    },
+    "answer": " б) 30.",
+    "analogs": [
+        "517526",
+        "517528",
+        "676906",
+        "...",
+        "517528",
+        "676906",
+        "677084"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=517535"
+}

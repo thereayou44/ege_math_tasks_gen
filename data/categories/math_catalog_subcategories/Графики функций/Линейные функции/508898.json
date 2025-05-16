@@ -1,0 +1,36 @@
+{
+    "id": 508898,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображён график функции Найдите",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=153717",
+            "https://ege.sdamgia.ru/formula/svg/27/27441d90882e50faa687d6aa6aaf287a.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c35ef2e98d8f9de9b3bb2f836b4c97a7.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­ме­тим, что для ли­ней­ной функ­цииТогда:Ответ: −4,25.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/6e/6ecfc044c02e9afcf43a1de9a6e0bc41.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/88a0f6a2cb8bfc0f613e29856fcabb85.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e175cf4c45af2ffff5d07dbb6caaff48.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/dd9739f54dc3c4a7e7ccdcc6707d6e86.svg"
+        ]
+    },
+    "answer": "-4,25",
+    "analogs": [
+        "508895",
+        "508896",
+        "508897",
+        "...",
+        "508896",
+        "508897",
+        "508899",
+        "508900",
+        "508901",
+        "508902",
+        "642298"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=508898"
+}

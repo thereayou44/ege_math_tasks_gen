@@ -1,0 +1,32 @@
+{
+    "id": 628779,
+    "topic": "17",
+    "condition": {
+        "text": "Из вершины тупого угла C треугольника ABC проведена высота CH. Окружность с центром H и радиусом HC второй раз пересекает стороны AC и BC в точках M и N соответственно, а прямая CH — эту окружность в точке D.а) Докажите, что угол MDN равен сумме углов A и B треугольника ABC.б) Найдите отношение MN к AB, если известно, что и",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/e4/e4549814feca3ec4afc0bb80b1cd10e8.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e870b396fed533871af9fe3902af92a4.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Четырёхуголь­ник CMDN впи­сан в окруж­ность, по­это­муб)  Впи­сан­ные углы CMN и CDN опи­ра­ют­ся на одну и ту же дугу, по­это­му  У пря­мо­уголь­ных тре­уголь­ни­ков CND и CHB общий ост­рый угол при вер­ши­не C, по­это­му  Тре­уголь­ник ABC по­до­бен тре­уголь­ни­ку NMC по двум углам, зна­чит,  По­ло­жим CN  =  3a, NB  =  a, MA  =  11b, CM  =  b. Тогда  сле­до­ва­тель­но,  Зна­чит, ко­эф­фи­ци­ент по­до­бия тре­уголь­ни­ков ABC и NMC равен   Сле­до­ва­тель­но,  Ответ: б) 1 : 4.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=108139",
+            "https://ege.sdamgia.ru/formula/svg/7a/7a80130c58d0b03a90157095588336f4.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/7220538c358a75f3b80fad3873a0d1ad.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/ae07a677c693da8584bec0a51d975be9.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/42827a75d261f02488d96ccf643eb1de.svg",
+            "https://ege.sdamgia.ru/formula/svg/98/98a3cb1e02c7d73a1149645230107c8c.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/45ff060a6878766643f26613d8fc4ec9.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/17d024481b98626aed1508a51819f75a.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dcc52576fe4e28564924d892b59bb9ea.svg"
+        ]
+    },
+    "answer": " б) 1 : 4.",
+    "analogs": [
+        "628753",
+        "658847",
+        "658888"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=628779"
+}

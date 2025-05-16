@@ -1,0 +1,56 @@
+{
+    "id": 562044,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых среди корней уравнения будет ровно два положительных.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/d9/d9741cd4acd818d1ffb6bc52a9d4f42d.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Гра­фик   — па­ра­бо­ла  сдви­ну­тая на (5; 10), гра­фик функ­ции   — гра­фик функ­ции  сдви­ну­тый на (6; 0) и рас­тя­ну­тый в a раз. При  урав­не­ние не имеет кор­ней. Найдём по­ло­жи­тель­ное зна­че­ние па­ра­мет­ра, при ко­то­ром пра­вая часть ло­ма­ной  ка­са­ет­ся па­ра­бо­лы:Найдём по­ло­жи­тель­ное зна­че­ние па­ра­мет­ра, при ко­то­ром левая часть ло­ма­ной  ка­са­ет­ся па­ра­бо­лы:Найдём по­ло­жи­тель­ное зна­че­ние па­ра­мет­ра, при ко­то­ром левая часть ло­ма­ной  про­хо­дит через точку Опре­де­лим ко­ли­че­ство по­ло­жи­тель­ных кор­ней при всех воз­мож­ных зна­че­ни­ях па­ра­мет­ра: Зна­че­нияпа­ра­мет­раКо­ли­че­ство кор­нейна про­ме­жут­ке Ко­ли­че­ство кор­нейна про­ме­жут­ке Общее ко­ли­че­ствопо­ло­жи­тель­ных кор­ней нет кор­нейнет кор­нейнет кор­нейодин ко­реньнет кор­нейодин ко­реньдва корнянет кор­нейдва корняодин ко­реньнет кор­нейодин ко­реньодин ко­реньодин ко­реньдва корняодин ко­реньдва корнятри корня Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=151760",
+            "https://ege.sdamgia.ru/formula/svg/33/333f81c4fe37a52d5ad2639e9f67efd6.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e1bc486efc0e216b238bd99ac5b3f289.svg",
+            "https://ege.sdamgia.ru/formula/svg/71/71970d55223e4a7897c797fe94433116.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/943d3c771384cbea6076cf9340893ab5.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/92515252f4bfdbfc5da50ca54edd5a53.svg",
+            "https://ege.sdamgia.ru/formula/svg/71/71970d55223e4a7897c797fe94433116.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e13f907ccdb84b263842fbdc7111a383.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f9f62aa03befc6edae3b272fdbd8e26c.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54a83eb774aaf6cbd23886a1b4b29a6b.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/36713e95a99063474a5dc6214ea64106.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54a83eb774aaf6cbd23886a1b4b29a6b.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9e42343ff4632960cf99f95b79147a26.svg",
+            "https://ege.sdamgia.ru/formula/svg/77/77b6bc05b9ba2b0722e0b4b9025e9f0a.svg",
+            "https://ege.sdamgia.ru/formula/svg/5b/5b434fd4b955c28d2a0b9bd1166aeffe.svg",
+            "https://ege.sdamgia.ru/formula/svg/71/71970d55223e4a7897c797fe94433116.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/74448c5e4b5d1a8566905f64efd25c18.svg",
+            "https://ege.sdamgia.ru/formula/svg/95/9532c959971aa0119cbf433226498261.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/549c30ff16e437d41e4bfaec526d3562.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c19a2006f1c8d676f6cadda3ccce9f5.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/549c30ff16e437d41e4bfaec526d3562.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/881f4d90eaa389337737d65386a1bfc9.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7cd83360b3f80b4ba426a78fb908a85a.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1a49e1a0fba17596b364d91d42bfb235.svg",
+            "https://ege.sdamgia.ru/formula/svg/71/71970d55223e4a7897c797fe94433116.svg",
+            "https://ege.sdamgia.ru/formula/svg/d1/d11537e4b3cf6389683674316120a578.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1cade88f6c1ff51b66ee722746f986b7.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/1630bb188fa7126aecef5f42bce65e13.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d308aaf1368c58318fd23a81371517e3.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4dded1444330efeea339738c12b9ffb6.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/ae3a428bbeff38a6d52cbcf343fdb86e.svg",
+            "https://ege.sdamgia.ru/formula/svg/9b/9b4ce258bcd7355084df28c138b42bf9.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d233ee3595380dbc6d7d17cea4b07e13.svg",
+            "https://ege.sdamgia.ru/formula/svg/fa/fa96cb9bb57a3169c2c2dc68af8e0680.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e3a4c78ca470e0cc9069cdf7874e32de.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/660c668c27184c2c6d00aac6b91eabd7.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "562041"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=562044"
+}

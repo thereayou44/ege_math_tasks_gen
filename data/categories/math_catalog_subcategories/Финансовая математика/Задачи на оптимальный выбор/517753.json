@@ -1,0 +1,41 @@
+{
+    "id": 517753,
+    "topic": "16",
+    "condition": {
+        "text": "Вадим является владельцем двух заводов в разных городах. На заводах производятся абсолютно одинаковые товары при использовании одинаковых технологий. Если рабочие на одном из заводов трудятся суммарно часов в неделю, то за эту неделю они производят t единиц товара.За каждый час работы на заводе, расположенном в первом городе, Вадим платит рабочему 500 рублей, а на заводе, расположенном во втором городе, — 300 рублей.Вадим готов выделять 1 200 000 рублей в неделю на оплату труда рабочих. Какое наибольшее количество единиц товара можно произвести за неделю на этих двух заводах?",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/d5/d51c6fcacbb0e472719b1953b567969f.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. До­пу­стим, что на за­во­де, рас­по­ло­жен­ном в пер­вом го­ро­де, ра­бо­чие тру­дят­ся  часов, а на за­во­де, рас­по­ло­жен­ном во вто­ром го­ро­де,  часов. Тогда в не­де­лю будет про­из­ве­де­но  еди­ниц то­ва­ра, а за­тра­ты на опла­ту труда со­ста­вят  Вы­ра­зим y через x:Зна­чит, нам нужно найти наи­боль­шее зна­че­ние функ­ции  при  Для этого най­дем про­из­вод­ную функ­ции Най­дем кри­ти­че­ские точки:то есть   — един­ствен­ная кри­ти­че­ская точка, удо­вле­тво­ря­ю­щая усло­вию  Най­дем зна­че­ния функ­ции в най­ден­ной точке и на кон­цах от­рез­ка:Наи­боль­шее зна­че­ние функ­ции  равно 80, зна­чит, наи­боль­шее ко­ли­че­ство еди­ниц то­ва­ра равно 80. Ответ: 80.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/32/32f5240d0dbf2ccbe75ef7f8ef2015e0.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c91bdff30bfc831ff645b8442bed761a.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/45df18c90c71ea2066f8596159e11288.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7a6229589cde27d39cfd544daea2655e.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2c8a429fb3fbbb0509dec0d5cc77bc90.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e202ba300ab876e797997e3e7204bc3d.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/ef6a7d3312251438620c81cdba284687.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6ac80f82dfb448f764599aa978118a45.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/180e4d962d960acb45bd131daffe9467.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f6aa04a143968f7f2290766829247cf1.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4adabbedd0d018de43a609c35786f7c4.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b0550aa961c6e6e5925a4f268e7d2bdc.svg",
+            "https://ege.sdamgia.ru/formula/svg/9d/9db1cf70a9e8e59f7c2aa81fb98030b7.svg",
+            "https://ege.sdamgia.ru/formula/svg/78/78d35dafc128793410b10da72703e22a.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b0550aa961c6e6e5925a4f268e7d2bdc.svg",
+            "https://ege.sdamgia.ru/formula/svg/9a/9ae91153f9f5c2864bebae1dc2f01f99.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/ef6a7d3312251438620c81cdba284687.svg",
+            "https://ege.sdamgia.ru/formula/svg/b2/b2409bd85e1159439fedcb9a43c498cb.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/372712f15064fe31e71e4d2329b235db.svg"
+        ]
+    },
+    "answer": " 80.",
+    "analogs": [
+        "509824",
+        "517742",
+        "518117"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=517753"
+}

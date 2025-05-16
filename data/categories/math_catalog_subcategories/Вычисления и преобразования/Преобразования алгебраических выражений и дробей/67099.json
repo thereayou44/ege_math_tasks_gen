@@ -1,0 +1,55 @@
+{
+    "id": 67099,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите значение выражения если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/da/da17cfb5a007b8818abcc36ba33f953a.svg",
+            "https://ege.sdamgia.ru/formula/svg/11/1112504e3052a3148c84418fa7a38b4e.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Най­ди­те зна­че­ние вы­ра­же­ния  если За­ме­тим, что  а  Сле­до­ва­тель­но,  по­это­му  Ответ: 0.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/cc/cc6de0b4456cc9290a677cd099756f12.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2c6a629c2ed01d60a40104ee9cc822cd.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6d4026384cd2aa50fd0fdfe83f4bbc02.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6f8c2fe89e5ac27089a1669e809b823d.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b92a904e49a4390ca9f5e4c5636db628.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/0870d71201b6fafac6a91b8ac06a3f73.svg"
+        ]
+    },
+    "answer": "3",
+    "analogs": [
+        "26821",
+        "67131",
+        "67083",
+        "67085",
+        "...",
+        "67131",
+        "67083",
+        "67085",
+        "67087",
+        "67089",
+        "67091",
+        "67093",
+        "67095",
+        "67097",
+        "67101",
+        "67103",
+        "67105",
+        "67107",
+        "67109",
+        "67111",
+        "67113",
+        "67115",
+        "67117",
+        "67119",
+        "67121",
+        "67123",
+        "67125",
+        "67127",
+        "67129"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=67099"
+}

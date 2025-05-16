@@ -1,0 +1,23 @@
+{
+    "id": 628764,
+    "topic": "6",
+    "condition": {
+        "text": "Найдите корень уравнения",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/8a/8a8b83b86203705009231bcd5684d74e.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Воз­ве­дем в квад­рат:Ответ: 9.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/e1/e17e145dcda841edc526d86e8bc09b33.svg",
+            "https://ege.sdamgia.ru/formula/svg/43/439ee33d4025d7139caf31f4b3e1c4a8.svg",
+            "https://ege.sdamgia.ru/formula/svg/96/96c109f7064e4065f1d90437b6986d96.svg"
+        ]
+    },
+    "answer": "9",
+    "analogs": [
+        "628738"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=628764"
+}

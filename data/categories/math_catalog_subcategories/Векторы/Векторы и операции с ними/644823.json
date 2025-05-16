@@ -1,0 +1,46 @@
+{
+    "id": 644823,
+    "topic": "2",
+    "condition": {
+        "text": "На координатной плоскости изображены векторы и Вектор разложен по двум неколлинеарным векторам и где k и l — коэффициенты разложения. Найдите k.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=141996",
+            "https://ege.sdamgia.ru/formula/svg/1b/1b4412a344122e822c0c695e23b022a5.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0f4c4ce0863d100a12c90c114fd9abeb.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/dbbaf6d37e35eeea071394e80901139e.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fd50ddb06cb1c7b9e1948eb4f8a95a66.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8fd082536a0a420385519d1473c9d27e.svg",
+            "https://ege.sdamgia.ru/formula/svg/d0/d0a85ceb5c42855b23de2a5be044a5d9.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3cc038e1d43238bf86ec76f72171898f.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По ри­сун­ку опре­де­лим ко­ор­ди­на­ты век­то­ров:     Из ра­вен­ства  по­лу­ча­ем си­сте­му ли­ней­ных урав­не­ний для их ко­ор­ди­нат:Ответ: 0,5.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/35/35b13b84c41dbb9e0a492725c1919b3c.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/2334466b05acc85094667ace6495fb1f.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa6abd39cec224561a0a5d4b20ca8256.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1eb2a394c0059f95e1e2370993d10c0d.svg",
+            "https://ege.sdamgia.ru/formula/svg/48/483dd6c5b6d0aa96ede85a45887705c6.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fc63c87d93b34314edf07a3883490476.svg",
+            "https://ege.sdamgia.ru/formula/svg/ff/ffca40d4b33838d2358b0a6c4d86cd9a.svg"
+        ]
+    },
+    "answer": "0,5",
+    "analogs": [
+        "644820",
+        "644821",
+        "644822",
+        "...",
+        "644821",
+        "644822",
+        "644824",
+        "644883",
+        "644884",
+        "644885",
+        "644886",
+        "644887",
+        "644888"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=644823"
+}

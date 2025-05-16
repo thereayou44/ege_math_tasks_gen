@@ -1,0 +1,27 @@
+{
+    "id": 511600,
+    "topic": "17",
+    "condition": {
+        "text": "Окружность, построенная на медиане BM равнобедренного треугольника ABC как на диаметре, второй раз пересекает основание BC в точке K.а) Докажите, что отрезок BK втрое больше отрезка CK.б) Пусть указанная окружность пересекает сторону AB в точке N. Найдите AB, если BK = 24 и BN = 23.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Про­ведём ме­ди­а­ну AE к ос­но­ва­нию BC, по­сколь­ку тре­уголь­ник ABC  — рав­но­бед­рен­ный, ме­ди­а­на AE яв­ля­ет­ся бис­сек­три­сой и вы­со­той. Про­ведём MK, за­ме­тим, что ∠BKM = 90°, так как он впи­сан­ный и опи­ра­ет­ся на диа­метр окруж­но­сти. По­это­му MK пер­пен­ди­ку­ляр к ВС. Тогда MK  — сред­няя линия AEС, и тогда КС = EК. По­сколь­ку CE  =  2CK, имеем: BK  =  3CK, что и тре­бо­ва­лось до­ка­зать.б)  За­ме­тим, что ∠BKM = ∠BNM = 90°, так как эти углы впи­сан­ные и опи­ра­ют­ся на диа­метр. Тогда  (*), причём: Под­став­ляя по­лу­чен­ные со­от­но­ше­ния в (*), по­лу­ча­ем: Тогда  Ответ: б) ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=148383",
+            "https://ege.sdamgia.ru/formula/svg/08/087badc989ae509854789f524d198abb.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b4aad78f15848aaf0ab3c5f278794625.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/aeb44c89fe81eb34e34c0c8fae1043fb.svg",
+            "https://ege.sdamgia.ru/formula/svg/33/334d25968717573b4bf4ebce256de033.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1ca46e3218d61eb01426b92541527ae0.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/179d29884b78c7e991136387af2c4c3c.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e11a65a7aed739d17d7b21c6af57e1d8.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a9c9d245d223d8198a60a7a46b2e20a0.svg"
+        ]
+    },
+    "answer": " б) ",
+    "analogs": [
+        "509823"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511600"
+}

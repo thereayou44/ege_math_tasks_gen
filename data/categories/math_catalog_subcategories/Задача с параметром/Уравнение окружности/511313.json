@@ -1,0 +1,32 @@
+{
+    "id": 511313,
+    "topic": "18",
+    "condition": {
+        "text": "При каждом а решите систему уравнении",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/2c/2c026b06dbc6776d0dfadc3bcf45f25e.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пер­вое урав­не­ние пре­об­ра­зу­ем к видуили Оно озна­ча­ет, что   по­сколь­ку при осталь­ных зна­че­ни­ях его левая часть боль­ше 0. Под­ста­вим эти зна­че­ния во вто­рое урав­не­ние и по­лу­чим  от­ку­да Таким об­ра­зом, си­сте­ма имеет ре­ше­ние   при  при осталь­ных а ре­ше­ний нет. Ответ:  при    при осталь­ных а ре­ше­нии нет.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/44/44efb0d9bdec112da9fe36f42a6ea908.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/88488c20d9850128e1d3afa431bf169f.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/6199c468b93a0bb0bf27da3b17043f54.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/828ada233bb827371cbdd1dab8f7cad9.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cd1ddf1f3d53aad27fe92172fea08edf.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e0454431350886c92d82d30f17613c41.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/6199c468b93a0bb0bf27da3b17043f54.svg",
+            "https://ege.sdamgia.ru/formula/svg/98/9830b0ed5a957ff5ebfc7624a5ed45c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/fa/fa61bf3bfca31bab9257f6c076aa6eac.svg",
+            "https://ege.sdamgia.ru/formula/svg/fa/fa61bf3bfca31bab9257f6c076aa6eac.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/6199c468b93a0bb0bf27da3b17043f54.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/828ada233bb827371cbdd1dab8f7cad9.svg"
+        ]
+    },
+    "answer": "  при    при осталь­ных а ре­ше­нии нет.",
+    "analogs": [
+        "484638"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511313"
+}

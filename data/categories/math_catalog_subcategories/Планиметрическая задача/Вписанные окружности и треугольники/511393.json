@@ -1,0 +1,36 @@
+{
+    "id": 511393,
+    "topic": "17",
+    "condition": {
+        "text": "Окружность с центром O, вписанная в треугольник ABC, касается стороны BC в точке P и пересекает отрезок BO в точке Q. При этом отрезки OC и QP параллельны.а) Докажите, что треугольник ABC ― равнобедренный треугольник.б) Найдите площадь треугольника BQP, если точка O делит высоту BD треугольника в отношении BO : OD = 3 : 1 и AC = 4.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние.  Пусть луч BO пе­ре­се­ка­ет сто­ро­ну AC в точке  Вве­дем сле­ду­ю­щие обо­зна­че­ния:   Пря­мые OC и QP па­рал­лель­ны, а углы COP и OPQ ― на­крест ле­жа­щие при пе­ре­се­че­нии пря­мых PQ и OC се­ку­щей OP, сле­до­ва­тель­но,  Далее, из пря­мо­уголь­но­го тре­уголь­ни­ка OPC на­хо­дим  а из рав­но­бед­рен­но­го тре­уголь­ни­ка OPQ на­хо­дим  Таким об­ра­зом, тре­уголь­ни­ки BOP и BCD по­доб­ны, и, зна­чит, бис­сек­три­са BD тре­уголь­ни­ка ABC яв­ля­ет­ся его вы­со­той, от­ку­да сле­ду­ет, что тре­уголь­ник ABC ― рав­но­бед­рен­ный тре­уголь­ник, что и тре­бо­ва­лось до­ка­зать.б)  От­ре­зок CO ― бис­сек­три­са тре­уголь­ни­ка BCD, сле­до­ва­тель­но:от­ку­да Далее  зна­чит,  и, сле­до­ва­тель­но,  От­ку­да   сле­до­ва­тель­но,  По фор­му­ле Ге­ро­на на­хо­дим:Зна­чит,  Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=148389",
+            "https://ege.sdamgia.ru/formula/svg/d0/d0904fd99a2cfb13f897223b9213c6f1.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9e34b90759b776970f6b2dfaf26219a6.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f8d5665d98287c28819243f5b5643352.svg",
+            "https://ege.sdamgia.ru/formula/svg/d1/d15e602bb3d4b74d155035df0a00c34e.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b121bd0fa077119a3cc7494911e9b77f.svg",
+            "https://ege.sdamgia.ru/formula/svg/6b/6bf9878ab006fe2408acca04e1b9b5a5.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/84319d5b7c5b353d91f8fb55bc93d774.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/506e1afea00d35405e368d23a754bb2e.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/34272ebea5b452292d0f595d108fb94d.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/46b78fa38dad2716f71494f293407a3e.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/efd833af7aae6c10a8aa853e3d6b529e.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/22d901b1cd0802b0a8300adb8ee4c719.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a1347d48e3c4651018f67cb039f1ad39.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/034ed70e2789be7dfe772350ff00801b.svg",
+            "https://ege.sdamgia.ru/formula/svg/f5/f575074cf6012a9e6bb715abae0c41a5.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bb8ae14eaad4ca1fb40cb15886d20ddd.svg",
+            "https://ege.sdamgia.ru/formula/svg/c6/c6c7b02f9d3689b9d214ed871c99e1fc.svg"
+        ]
+    },
+    "answer": "",
+    "analogs": [
+        "504832"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511393"
+}

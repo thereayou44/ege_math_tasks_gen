@@ -1,0 +1,56 @@
+{
+    "id": 502317,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения а, при каждом из которых уравнениеимеет единственный корень.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/d8/d83d30ec09c7c9e1af70e5bb14e5559f.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­пи­шем урав­не­ние в видеЕсли  яв­ля­ет­ся кор­нем ис­ход­но­го урав­не­ния, то и  яв­ля­ет­ся его кор­нем. Зна­чит, ис­ход­ное урав­не­ние имеет нечётное число кор­ней, толь­ко если  то есть  Под­ста­вим зна­че­ние  в урав­не­ние:от­ку­да либо  либо  или   При  урав­не­ние при­ни­ма­ет вид  Кор­ня­ми этого урав­не­ния яв­ля­ют­ся числа  и  то есть урав­не­ние имеет ровно три корня.  При  и при  урав­не­ние при­ни­ма­ет вид  При  это урав­не­ние сво­дит­ся к урав­не­нию  ко­то­рое не имеет кор­ней. При  по­лу­ча­ем урав­не­ние  ко­то­рое имеет един­ствен­ный ко­рень. При  по­лу­ча­ем урав­не­ние  ко­то­рое не имеет кор­ней.  Таким об­ра­зом, при  и при  ис­ход­ное урав­не­ние имеет един­ствен­ный ко­рень.  Ответ:  и ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/96/96f4955a25a9fdd4c56378dfa00040c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e0d691f3a530e6c7e079636f20c111b.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/bafe85a42129d01dbd3982a3e84292c9.svg",
+            "https://ege.sdamgia.ru/formula/svg/95/95b11bdcb427f18c0905d4f790fd4b3b.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8ef47d5168e39bdca4f371901e8cf614.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e11729b0b65ecade3fc272548a3883fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/dbdaad8fa874f4f0d1c642dca7f99abb.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b925e775fab5f644a529993171b83be9.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b57632424dad987c85e37d7fc99387d9.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b1d99f3d275655be4459de35e6c6316a.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fd352b68bf83391284e044021cab0339.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/18e25775b74e787faca65b7bcb391755.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a93423788a76bbb1c509349bfa557d51.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/70623d96ac2e03af814c12d092c446fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/4096c577f08c0eaccbcd9bc2ef1b5203.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/ee1bace38dbc7056127a0b2ca939f6e4.svg",
+            "https://ege.sdamgia.ru/formula/svg/8a/8ab3ab22e9b964ff6be5ccabc828c580.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/459d09bc29b195071a289cea3ba1519b.svg",
+            "https://ege.sdamgia.ru/formula/svg/44/4482bf86c71fa85ce3c458307c5f266d.svg",
+            "https://ege.sdamgia.ru/formula/svg/3f/3f01ecbf00391e45473e6e942109f970.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/afb3f1c6f62e031b70c55224284b87d2.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/823944de3643312d2f0c4c1384be7688.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f051ea4a3c7ead2cb669573c951e4546.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/4096c577f08c0eaccbcd9bc2ef1b5203.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/ee1bace38dbc7056127a0b2ca939f6e4.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f836be878c290d77b060bdcaf6b3e25d.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/39245a0c4dfdf26b2e0665c996acde39.svg"
+        ]
+    },
+    "answer": "  и ",
+    "analogs": [
+        "501713",
+        "502297",
+        "510665",
+        "501755",
+        "...",
+        "502297",
+        "510665",
+        "501755",
+        "507476",
+        "510737"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=502317"
+}

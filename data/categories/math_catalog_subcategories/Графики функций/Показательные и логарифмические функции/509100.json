@@ -1,0 +1,38 @@
+{
+    "id": 509100,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображён график функции Найдите значение x, при котором",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=154248",
+            "https://ege.sdamgia.ru/formula/svg/b4/b44bbe410f1334968bbecba2e66f9137.svg",
+            "https://ege.sdamgia.ru/formula/svg/44/4478bb95ab117c9264cc06f058e68363.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По ри­сун­ку опре­де­ля­ем  зна­чит,   Учи­ты­вая, что  и  найдём a:Зна­чит,  Решим урав­не­ние  Ответ: −6.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/77/774c5ba7883842c72da0d01def743fdc.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/46487f4a35b1199a36f6bc75243e3ec9.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/91d7060096c682d168d8ad8fd0ba8211.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/323c5f97105643bc61e288fe596194ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/09deca17e32005a52e6bd252c0ff73f4.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1a466f67077b8d9738dc44e2a50a3bf3.svg",
+            "https://ege.sdamgia.ru/formula/svg/48/48d33cc4bfbf8ed82ff1dfe455d617f2.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/91ee7604ecca7ed677bafa87fccbc351.svg"
+        ]
+    },
+    "answer": "-6",
+    "analogs": [
+        "509095",
+        "509096",
+        "509097",
+        "509098",
+        "...",
+        "509096",
+        "509097",
+        "509098",
+        "509099"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509100"
+}

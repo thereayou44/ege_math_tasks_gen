@@ -1,0 +1,38 @@
+{
+    "id": 509272,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображены графики функций и которые пересекаются в точке A. Найдите абсциссу точки A.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=92095",
+            "https://ege.sdamgia.ru/formula/svg/05/056bc99d7b2e863d3e614bb99606cbea.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d8e9d1bdb39f21c0fc574408d8a15a64.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По гра­фи­ку, f(4)  =  −3, тогда  Тогда урав­не­ние функ­ции имеет вид За­ме­тим, что k  — тан­генс угла на­кло­на пря­мой. Тогда  По гра­фи­ку, g(0)  =  3, зна­чит,  Тогда урав­не­ние пря­мой имеет вид Те­перь найдём абс­цис­су точки A: Таким об­ра­зом, x  =  36. Ответ: 36.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/c1/c105653f44b52633aad87d22f1ae9f83.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0f41c910e0ca3e18e54fb20cc58bcd72.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5d1a2008ef5d9e95247f11987ffb18d7.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d48fa86ae6185d6b001791cc1c2a0104.svg",
+            "https://ege.sdamgia.ru/formula/svg/7e/7e1a400074607c0c533571d6571c836e.svg",
+            "https://ege.sdamgia.ru/formula/svg/1f/1fe01dc24906311afd6cba75a12dc537.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/40bd4cc446223fe5adad2eaea0420079.svg"
+        ]
+    },
+    "answer": "36",
+    "analogs": [
+        "509271",
+        "509273",
+        "509274",
+        "...",
+        "509273",
+        "509274",
+        "509275",
+        "509276",
+        "509277",
+        "509278"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509272"
+}

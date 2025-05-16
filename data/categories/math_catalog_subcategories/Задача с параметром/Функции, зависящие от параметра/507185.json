@@ -1,0 +1,40 @@
+{
+    "id": 507185,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых функция имеет более двух точек экстремума.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/4b/4b2e07042581074923073b0eac45fe76.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Рас­кро­ем мо­дуль:Гра­фик функ­ции при  пред­став­ля­ет собой па­ра­бо­лу с вет­вя­ми верх и вер­ши­ной с абс­цис­сой  При  гра­фик пред­став­ля­ет собой па­ра­бо­лу с вет­вя­ми верх и вер­ши­ной с абс­цис­сой  Рас­смот­рим все воз­мож­ные кон­фи­гу­ра­ции при раз­лич­ных зна­че­ни­ях Из ри­сун­ка видно, что гра­фик имеет более двух точек экс­тре­му­ма при   Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/49/49742e717361ee163c0085e9bbbf25d4.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/dbf720c3f1ff0cd7d154c4ad78323495.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f37e32882c606521f8d0dd99fbce38be.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6fa9895a9b889d7897a2c06e808650da.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d9d1e6c3a49998deef7ad36a6e1bb0d9.svg",
+            "https://ege.sdamgia.ru/formula/svg/35/357503986951b80e896b8616a418a4d6.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=159608",
+            "https://math-ege.sdamgia.ru/get_file?id=159609",
+            "https://math-ege.sdamgia.ru/get_file?id=159610",
+            "https://ege.sdamgia.ru/formula/svg/83/83cf8bb1274ccad2fc8f71e0a912f714.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5df513192a34d1be47e9aaee4ec5f423.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "484644",
+        "507186",
+        "507187",
+        "...",
+        "507186",
+        "507187",
+        "507188",
+        "507189",
+        "507191",
+        "507482"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=507185"
+}

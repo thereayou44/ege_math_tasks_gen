@@ -1,0 +1,39 @@
+{
+    "id": 507478,
+    "topic": "18",
+    "condition": {
+        "text": "Найти все значения a, при каждом из которых уравнение на промежутке имеет более двух корней.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/87/873c9e60e181088d8949c65e89e00e81.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8bf07dc6ea013cdcfc45f0ea025a6833.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­ме­тим, что при  урав­не­ние не имеет не­от­ри­ца­тель­ных кор­ней, так как его пра­вая часть не­по­ло­жи­тель­на, а левая по­ло­жи­тель­на. Рас­смот­рим слу­чай  Левая часть урав­не­ния  — ги­пер­бо­ла  пра­вая часть урав­не­ния  —  пучок лучей, вы­хо­дя­щих из точки (3; 0) и сим­мет­рич­ных от­но­си­тель­но пря­мой Более двух не­от­ри­ца­тель­ных ре­ше­ний, а имен­но, три в слу­чае, когда  лежит выше точки ка­са­ния, но не выше точки  Рас­смот­рим слу­чай ка­са­ния:Чтобы пря­мая ка­са­лась ги­пер­бо­лы, не­об­хо­ди­мо, чтобы дис­кри­ми­нант квад­рат­но­го урав­не­ния был равен нулю:Итак, ка­са­нию со­от­вет­ству­ет  при этом абс­цис­са точки ка­са­ния по­ло­жи­тель­на: Вы­яс­ним, при каких зна­че­ни­ях па­ра­мет­ра гра­фик  лежит не выше точки  Таким об­ра­зом, дан­ное урав­не­ние будет иметь более двух не­от­ри­ца­тель­ных кор­ней, при  Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=151197",
+            "https://ege.sdamgia.ru/formula/svg/0b/0b5d77a5c553cedf04f091b57c0fb492.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/4084f3758fc870e203e5266ed5366657.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/2958855dd6db07ec2175b2824c39e525.svg",
+            "https://ege.sdamgia.ru/formula/svg/ab/abddd73a168750eaefbf37c94428f2c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/47edeb48db51f023fd03b4cb0946bc76.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c94a014c16145d27d2948ecef5fef2e5.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d890c55c749c4cd39fedec0ca63fee2d.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f7baa11ba55a7a6cdc3617134a3ce1b6.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0d20de76f8e1f8554765095a87796979.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0e425c6515c73b3436e67ae8917157f5.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e4a8c40487338b4f5a4a879f405da4c1.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c94a014c16145d27d2948ecef5fef2e5.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/4955444883f54b4617c03020793b8740.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa816ea9dab8605bfb20113aaf20047f.svg",
+            "https://ege.sdamgia.ru/formula/svg/24/24d9b99585b889b7c4428c5aa13da656.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/415e9ef3623024a786c4d5fc1eb990f3.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "500350",
+        "500067"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=507478"
+}

@@ -1,0 +1,44 @@
+{
+    "id": 68509,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите значение выражения",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/e0/e0fa4ea998c87e1dd3ac26fd1d5a50a5.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Ис­поль­зу­ем фор­му­лу :  Ответ: −5.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ee/ee06dbd2a2e7f1021851da0bef952ca5.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/4124cb4316b8cbaead87ada933d4c166.svg"
+        ]
+    },
+    "answer": "-5",
+    "analogs": [
+        "26846",
+        "68471",
+        "68473",
+        "...",
+        "68471",
+        "68473",
+        "68475",
+        "68477",
+        "68479",
+        "68481",
+        "68483",
+        "68485",
+        "68487",
+        "68489",
+        "68491",
+        "68493",
+        "68495",
+        "68497",
+        "68499",
+        "68501",
+        "68503",
+        "68505",
+        "68507"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=68509"
+}

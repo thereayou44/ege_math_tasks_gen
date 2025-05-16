@@ -1,0 +1,52 @@
+{
+    "id": 519674,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых система уравненийимеет более двух решений.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/9a/9a9b383dbaaf3e993fb73c145a0899ae.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Изоб­ра­зим на ко­ор­ди­нат­ной плос­ко­сти мно­же­ство точек, ко­ор­ди­на­ты ко­то­рых удо­вле­тво­ря­ют пер­во­му урав­не­нию си­сте­мы.Рас­смот­рим че­ты­ре слу­чая:1)  Если  и  то по­лу­ча­ем урав­не­ниеПо­лу­чен­ное урав­не­ние задаёт пря­мую  Слу­чаю удо­вле­тво­ря­ют от­ре­зок внут­ри квад­ра­та  ко­то­рый лежит в пер­вой ко­ор­ди­нат­ной чет­вер­ти, с вер­ши­ной в на­ча­ле ко­ор­ди­нат. 2)  Если  и  то по­лу­ча­ем урав­не­ниеПо­лу­чен­ное урав­не­ние задаёт па­ра­бо­лу  Слу­чаю удо­вле­тво­ря­ет толь­ко дуга ниже оси Ox между пря­мы­ми  и  3)  Если  и  то по­лу­ча­ем урав­не­ниеПо­лу­чен­ное урав­не­ние задаёт па­ра­бо­лу  Слу­чаю удо­вле­тво­ря­ет толь­ко дуга левее оси Oy  между пря­мы­ми  и  4)  Если  и  то по­лу­ча­ем урав­не­ниеПо­лу­чен­ное урав­не­ние задаёт пару пря­мых  и  Слу­чаю удо­вле­тво­ря­ют лучи вне квад­ра­та   ко­то­рый лежит в пер­вой ко­ор­ди­нат­ной чет­вер­ти, с вер­ши­ной в на­ча­ле ко­ор­ди­нат. Рас­смот­рим вто­рое урав­не­ние си­сте­мы. Оно задаёт пря­мую m с ко­эф­фи­ци­ен­том на­кло­на -1.При a  =  1 пря­мая m сов­па­да­ет с ча­стью гра­фи­ка из пер­вой строч­ки, то есть ис­ход­ная си­сте­ма имеет бес­ко­неч­ное число ре­ше­ний.При a  =  0 пря­мая m ка­са­ет­ся части гра­фи­ка из пер­вой строч­ки, то есть ис­ход­ная си­сте­ма имеет одно ре­ше­ние.При  пря­мая m пе­ре­се­ка­ет гра­фик в трех точ­ках точ­ках, то есть ис­ход­ная си­сте­ма имеет три ре­ше­ния.При  или при   пря­мая m пе­ре­се­ка­ет гра­фик в одной точке.Зна­чит, ис­ход­ная си­сте­ма имеет более двух ре­ше­ний при  Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=156595",
+            "https://ege.sdamgia.ru/formula/svg/7f/7f7f509ab0028c120014d4ab893eecf0.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b4e3e62bfd714cf4b54e6cb2202905b9.svg",
+            "https://ege.sdamgia.ru/formula/svg/14/14c7ce41d13b5b69a66a6ed42d4e3b63.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/10529ae692c6506344abdd790d6fb960.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/04937094d736a2b52c56acd7315dcf19.svg",
+            "https://ege.sdamgia.ru/formula/svg/7f/7f7f509ab0028c120014d4ab893eecf0.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/cad0e44016f85b6c0431b1efa0a443f5.svg",
+            "https://ege.sdamgia.ru/formula/svg/5f/5fc03d2b86c10a7f0c03ca9c70f0030b.svg",
+            "https://ege.sdamgia.ru/formula/svg/5a/5a5cd6b6d967849e6c26790f67f512c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e11729b0b65ecade3fc272548a3883fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54d244f1d0fd2eaa82a2f1c074d2f6da.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aaf84a0f81b2b6f4ccc36c5b0b53231e.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b4e3e62bfd714cf4b54e6cb2202905b9.svg",
+            "https://ege.sdamgia.ru/formula/svg/59/59484618c69233057cf5b82865423e04.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa3b7384093ff68ba53207088d2557cb.svg",
+            "https://ege.sdamgia.ru/formula/svg/fa/fab37d6c4a697fe660387d3ff8e889a4.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/863d6431f2ebd7152f2bcd6da17841b2.svg",
+            "https://ege.sdamgia.ru/formula/svg/33/33b7c591bc0209c88f84a3e2e972cda5.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/cad0e44016f85b6c0431b1efa0a443f5.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/545f01fa5cae75c7a3bfae82fa1cb54e.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e0e3f6a9dc7e77340d2d66b73088dcaf.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5dbad057040ec6eb5aa5841786e25d33.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4a5e62d127e6e1b0afd924bed3910575.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c3a967f0332eae47214c3397b81a9f9a.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/81ab5a0b5746d911e1d8f16c92f80df1.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf8298b0e273301afdd921e7e4cf6c2b.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/cae9743b2aa30af47283cd8d49c0b452.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/8802e848180027f529291070b2d6ccab.svg",
+            "https://ege.sdamgia.ru/formula/svg/5a/5afb8d1157661abc323f8134b3e1ba4d.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "514388",
+        "643205",
+        "519672"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=519674"
+}

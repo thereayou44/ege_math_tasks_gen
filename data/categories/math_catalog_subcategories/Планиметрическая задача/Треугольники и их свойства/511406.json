@@ -1,0 +1,57 @@
+{
+    "id": 511406,
+    "topic": "17",
+    "condition": {
+        "text": "Высоты и остроугольного треугольника ABC пересекаются в точке а) Докажите, что б) Найдите BC, если и",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/3e/3e885d8cc2b3a7fc96f4fedee82f3de2.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1d1a5eb698955091aadf0a6a26c747c0.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/42a2f2ea04ee5535700a2ed92b2b1d15.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2e39addf3291b02e774f23d5b30e82e7.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2f766eeddfa2ccbb7109a858792ff0e0.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/3869c7398149bda9885c81a741182dbb.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  В четырёхуголь­ни­ке  углы  и   — пря­мые, сле­до­ва­тель­но, около этого четырёхуголь­ни­ка можно опи­сать окруж­ность, причём AH  — её диа­метр. Впи­сан­ные углы  и  опи­ра­ют­ся на одну дугу, сле­до­ва­тель­но, Углы  и   — пря­мые, зна­чит, точки  и  лежат на окруж­но­сти с диа­мет­ром  Сле­до­ва­тель­но,По­лу­ча­ем, что б)  В тре­уголь­ни­ке  диа­метр опи­сан­ной окруж­но­сти  от­ку­да В пря­мо­уголь­ном тре­уголь­ни­ке  имеем:В пря­мо­уголь­ном тре­уголь­ни­ке  имеем:По­лу­ча­ем, что  Тре­уголь­ни­ки ABC и  имеют общий угол A и  сле­до­ва­тель­но, они по­доб­ны. Тогда  Зна­чит, Ответ: 18.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=146542",
+            "https://ege.sdamgia.ru/formula/svg/43/43e54648068d71f507756980b7319027.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4fa71d007c094ac3c858919aec515277.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/262e0afc75c8a9fc536a7dce57e6ebe1.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/19fdbcc9703214953d88461a7052a57b.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/01a0d2cea073ac0eb08f82c768d15097.svg",
+            "https://ege.sdamgia.ru/formula/svg/b6/b623146d74f75db3e2fc7db2d3eac99c.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6c3bf1c534b10e2777cad4043de8c0a7.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/319320104fa3dfd839d34d2e3cc30e6c.svg",
+            "https://ege.sdamgia.ru/formula/svg/8d/8da862c8b2feeee7e31519fd1c223270.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4fa71d007c094ac3c858919aec515277.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/90b425c2898f0ee7d2629aad1e09646f.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/6367d7172ba3d10bd28a1c75c07da365.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1aa81d9f94fc5eac3cec661ec8bf8501.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d46c63f50f0d6151a720542950013b96.svg",
+            "https://ege.sdamgia.ru/formula/svg/78/7867d1ea8937ecf9b6f0016746251782.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/2946f32f99d276fd464c7ab1079ae45e.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b478ce8cdfd38390042252598bcd859c.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/846affe09fd19c82f4e800ef2999d6d0.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/bad578e0890df2305cfac673b98cf863.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c38e180a1a0793f171b8aab608b52ce6.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/addab8a7af1edd2d945a3c8ae58a0930.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d46c63f50f0d6151a720542950013b96.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/99e9c590cc20e443faff3541ad49330c.svg",
+            "https://ege.sdamgia.ru/formula/svg/5b/5b6eb33e236bd4ab2be724c122e8777a.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/103c83993ecfa6f787548ca1ffdb52c5.svg"
+        ]
+    },
+    "answer": " 18.",
+    "analogs": [
+        "505425",
+        "505419",
+        "505452",
+        "...",
+        "505419",
+        "505452",
+        "661141"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511406"
+}

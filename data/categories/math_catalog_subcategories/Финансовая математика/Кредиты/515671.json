@@ -1,0 +1,30 @@
+{
+    "id": 515671,
+    "topic": "16",
+    "condition": {
+        "text": "31 декабря 2014 года Олег взял в банке некоторую сумму в кредит под некоторый процент годовых. Схема выплаты кредита следующая — 31 декабря каждого следующего года банк начисляет проценты на оставшуюся сумму долга (то есть увеличивает долг на а%), затем Олег переводит очередной транш. Если он будет платить каждый год по 328 050 рублей, то выплатит долг за 4 года. Если по 587 250 рублей, то за 2 года. Найдите а.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пусть Олег взял S руб­лей, 1 + 0,01a = b, тогда долг на конец года будет со­от­вет­ствен­но со­став­лять:1-й год 2-й год 3-й год 4-й год Зна­чит,  При схеме вы­пла­ты за два года, по­лу­чим:1-й год 2-й год Зна­чит,   Решим си­сте­му урав­не­ний: Зна­чит, 1 + 0,01a =  Ответ: 12,5.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/d1/d106cb40373b17dfcd83f32459d421ce.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1e4dc1bc29bb73ef7e8c532919b0c1c7.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1a305452ed6c1d2978fa902745b76ff6.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/47ab89fc30daa90e8eeb30080613fe33.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/476fb8d012527b26775cf1ad9e26564a.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e7b41eb1521215c6dbb8db155083c916.svg",
+            "https://ege.sdamgia.ru/formula/svg/80/801d30b16335b5332a9103eaadc03891.svg",
+            "https://ege.sdamgia.ru/formula/svg/ab/abdc487ce4ffb5c869a184d52e3d5663.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b77ebfe18e70092b39176ca3a4ac4ea6.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/90f2003af85e14e805be35449caa70e3.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/85f490af46f2dbbc8a55ccceff430ebc.svg"
+        ]
+    },
+    "answer": " 12,5.",
+    "analogs": [
+        "507208",
+        "507218"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=515671"
+}

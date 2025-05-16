@@ -1,0 +1,45 @@
+{
+    "id": 515784,
+    "topic": "17",
+    "condition": {
+        "text": "На сторонах AC и BC треугольника ABC вне треугольника построены квадраты ACDE и BFKC. Точка M — середина стороны AB.а) Докажите, что б) Найдите расстояния от точки M до центров квадратов, если и",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/52/52e2fbab5ac233fd84026ae43f7f0421.svg",
+            "https://ege.sdamgia.ru/formula/svg/87/87995b4fff45b44d316481976c2273c7.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/2941eb2b24a1f938fda81fee308adb2a.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  По­сколь­ку AM  =  MB, то MC  — ме­ди­а­на тре­уголь­ни­ка ABC. Пусть AC  =  a, BC  =  b,  тогда CM  =   За­ме­тим, что  (так как ) Тогда по тео­ре­ме ко­си­ну­сов  то есть Рис. 1 Рис. 2б)  Про­ве­дем к сто­ро­не AC вы­со­ты BH и MT. Имеем   Тогда из по­до­бия тре­уголь­ни­ков ABH и AMT, по­лу­ча­ем, MT  =   Пусть точка P лежит на пря­мой MT, PO2 ⊥ MP. Тогда TP  =   Тогда MP  =  За­ме­тим, что   Тогда  По тео­ре­ме Пи­фа­го­ра  Ана­ло­гич­но по­лу­ча­ем, что  Ответ: б) 7. При­ве­дем ре­ше­ние пунк­та б) Сер­гея Фе­фе­ло­ва.Рас­смот­рим тре­уголь­ник BCD. BC  =  10, CD  =  AC  =  6,  тогда по тео­ре­ме ко­си­ну­сов Рас­смот­рим тре­уголь­ник BAD.  M  — се­ре­ди­на AB, O2  — се­ре­ди­на AD, тогда  Ана­ло­гич­но по­лу­ча­ем, что ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/fa/faf9f20136e9afe5633a6a6e275303ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50b90fb4d033a842cc866987cc2389ab.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/aeb07719839a626f58f52682760f4c76.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/75a1a15078704325592bd7d7e75c8a25.svg",
+            "https://ege.sdamgia.ru/formula/svg/14/14172cad27eebb910d2d6021c30e70c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/55b35f4d9d6e6fa76ee31abe68e6b069.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=146474",
+            "https://math-ege.sdamgia.ru/get_file?id=146471",
+            "https://ege.sdamgia.ru/formula/svg/92/924294e9a1b5c77008b5240c137c372b.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d91fbff5fbc9f8ef5200f5fb2983cc1a.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a9ee9e0a2ef9cb05d16cdfe32554312d.svg",
+            "https://ege.sdamgia.ru/formula/svg/96/9687d77a5d4f95ec7a8a489d8562312a.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2e94d807378e5c3e7c51e92952dd806e.svg",
+            "https://ege.sdamgia.ru/formula/svg/64/643eded6c516b9054ad784b9661305b3.svg",
+            "https://ege.sdamgia.ru/formula/svg/ab/ab393c8276b334a5e0fd5d9d7892dafd.svg",
+            "https://ege.sdamgia.ru/formula/svg/78/78b88a68b1eb92e5292447761fa03b8e.svg",
+            "https://ege.sdamgia.ru/formula/svg/5a/5a4a5320c8098a94e1708df1afd9feb8.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/72a41723e1cd623bf173fa46131f6402.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/ede37eee5042119f540b76602686e4a9.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af324397c94291ac73561bbd64bab293.svg",
+            "https://ege.sdamgia.ru/formula/svg/5a/5a4a5320c8098a94e1708df1afd9feb8.svg"
+        ]
+    },
+    "answer": " б) 7.",
+    "analogs": [
+        "513281",
+        "514716",
+        "515708"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=515784"
+}

@@ -1,0 +1,31 @@
+{
+    "id": 526908,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых система уравнений имеет ровно четыре решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/71/71122f58720c22c5d789e3f3413128f4.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Под­ста­вим зна­че­ние y из вто­ро­го урав­не­ния в пер­вое:Таким об­ра­зом, ис­ход­ная си­сте­ма урав­не­ний имеет ровно че­ты­ре раз­лич­ных ре­ше­ния тогда и толь­ко тогда, когда би­квад­рат­ное урав­не­ниеимеет ровно че­ты­ре раз­лич­ных корня. Это вы­пол­ня­ет­ся, когда квад­рат­ное урав­не­ниеимеет ровно два по­ло­жи­тель­ных корня.Чтобы по­лу­чен­ное квад­рат­ное урав­не­ние имело два корня, его дис­кри­ми­нант дол­жен быть по­ло­жи­тель­ным: от­ку­да  или Чтобы корни по­лу­чен­но­го квад­рат­но­го урав­не­ния были од­но­го знака, сво­бод­ный член этого урав­не­ния дол­жен быть по­ло­жи­тель­ным: от­ку­да Чтобы корни квад­рат­но­го урав­не­ния были по­ло­жи­тель­ны­ми, ко­эф­фи­ци­ент при t дол­жен быть от­ри­ца­тель­ным, то есть Таким об­ра­зом, ис­ход­ная си­сте­ма урав­не­ний имеет ровно че­ты­ре ре­ше­нияпри  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ec/ec201d5cf0b4b1620ebdffdda3e1229d.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0d3548421af7d16e7e8cf3d9b1804499.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/63a5f9ca730b955cddabc1f41741b7a1.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b1a4386fea8c319ec18b1c2c73f5e8fb.svg",
+            "https://ege.sdamgia.ru/formula/svg/f5/f5c265f76e87580fd89deeee248e1757.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/6010e09b70f9cc2696b55d09af4008d5.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f3ce90ad30a778e07b7c417ec5abb889.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8cb5fc3e5cf79de94fd1bd174f42daa7.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/94ca7bb3a301f43c078d1273aa0e71c1.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bb8bf11cb41f50ae3490044fe80a2395.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c2fafee347d7b7ed8850c49aa3cca728.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "526907"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=526908"
+}

@@ -1,0 +1,44 @@
+{
+    "id": 64383,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите если и",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/01/01f6dcdf32045a8b5f661c933535431f.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/89eb31e30c7eae80acfc8d35679c0152.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b7a700ec71ef6cdaec19dc48cda17e00.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По­сколь­ку угол альфа лежит в пер­вой чет­вер­ти, его синус по­ло­жи­те­лен. Тогда  Ответ: 0,3.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/36/36592ec7a0e7da35388195589ed69d48.svg"
+        ]
+    },
+    "answer": "0,3",
+    "analogs": [
+        "26778",
+        "64417",
+        "514753",
+        "...",
+        "64417",
+        "514753",
+        "64385",
+        "64387",
+        "64389",
+        "64391",
+        "64393",
+        "64395",
+        "64397",
+        "64399",
+        "64401",
+        "64403",
+        "64405",
+        "64407",
+        "64409",
+        "64411",
+        "64413",
+        "64415"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=64383"
+}

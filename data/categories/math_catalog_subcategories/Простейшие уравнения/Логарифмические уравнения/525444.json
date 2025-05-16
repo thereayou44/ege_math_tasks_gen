@@ -1,0 +1,21 @@
+{
+    "id": 525444,
+    "topic": "6",
+    "condition": {
+        "text": "Решите уравнение",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/84/84df4cdc4510bd5acf178b15d25d1f6c.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. На ОДЗ пе­рей­дем к урав­не­нию на ос­но­ва­ние ло­га­риф­ма:  Ответ: 3.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/3a/3aed1260b66b6df0a6655a6c3846ad61.svg"
+        ]
+    },
+    "answer": "3",
+    "analogs": [
+        "525399"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=525444"
+}

@@ -1,0 +1,50 @@
+{
+    "id": 284233,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите если и",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/38/389b1ea2541b771f4ed818cfade1399d.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/ef3811a378612d6210ac53820399291d.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cbd9128e565fa5a88606be0440bf92c2.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По­сколь­ку угол  при­над­ле­жит чет­вер­той чет­вер­ти, его ко­си­нус по­ло­жи­те­лен. По­это­му  Ответ: 0,28.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/7b/7b7f9dbfea05c83784f8b85149852f08.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f9e3971c4035790a7d45bd4e5adaf312.svg"
+        ]
+    },
+    "answer": "0,28",
+    "analogs": [
+        "26777",
+        "505402",
+        "510443",
+        "...",
+        "505402",
+        "510443",
+        "64347",
+        "64349",
+        "64351",
+        "64353",
+        "64355",
+        "64357",
+        "64359",
+        "64361",
+        "64363",
+        "64365",
+        "64367",
+        "64369",
+        "64371",
+        "64373",
+        "64375",
+        "64377",
+        "64379",
+        "64381",
+        "284227",
+        "284229",
+        "284231"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=284233"
+}

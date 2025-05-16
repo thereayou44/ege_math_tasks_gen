@@ -1,0 +1,39 @@
+{
+    "id": 530695,
+    "topic": "17",
+    "condition": {
+        "text": "В треугольнике ABC проведена биссектриса BK.а) Докажите, что б) Найдите площадь треугольника ABC, если AB = 15, BC = 13 и",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/bf/bf884c49b23852b86246d360ca5e170c.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/943a83fe20804bdc09908fa2fa1d57c5.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Пусть  Пло­ща­ди тре­уголь­ни­ков ABK и CBK равны:Тогда  Опу­стим из точки B вы­со­ту BH. Тогда  от­ку­да  Сле­до­ва­тель­но, б)  По тео­ре­ме ко­си­ну­сов   Тогда от­ку­да  ТогдаДля пло­ща­ди тре­уголь­ни­ка ABC по­лу­ча­емОтвет: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=148627",
+            "https://ege.sdamgia.ru/formula/svg/7f/7fab2e9e61a828a4ff8bb68b524501f2.svg",
+            "https://ege.sdamgia.ru/formula/svg/35/35d6e2e0d4847b9a7684645eb0bbe699.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/22ceb1b907a8fc0a93d0e6c78015c04c.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/4292e9d516471b4e0f9b709e27e5476c.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c95c4ca6206ee1ff3a2f5028ebed63ee.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/79be386167a1bc42afe0a26ae90c0836.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b98d8550e4514940fe81391c68abf17e.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6f696d79afafb8cf15f380012486ef05.svg",
+            "https://ege.sdamgia.ru/formula/svg/33/33e10590fb40c46aa02f1289e6bbeb05.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/99fdd54b93846fdadafe1d3f70ef8052.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/60daa9a00fd932cc2b105dbb3fea812d.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f89311d3185bc26bb222b2b597bc08cb.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/cc54f8de7a70e5d45c03f6906989d5bc.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/df62596e22cb790339934d95d27983f0.svg",
+            "https://ege.sdamgia.ru/formula/svg/9c/9c143099db557fb2785b9d25061b912c.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d63131911893b2338f31ae44d4ae7835.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6dd60b0a3fbc0927335eb06bcfdd4eab.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "530675"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=530695"
+}

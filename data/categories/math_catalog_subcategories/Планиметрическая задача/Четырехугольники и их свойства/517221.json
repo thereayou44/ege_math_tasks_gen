@@ -1,0 +1,28 @@
+{
+    "id": 517221,
+    "topic": "17",
+    "condition": {
+        "text": "Прямая, проходящая через вершину B прямоугольника ABCD перпендикулярно диагонали AC, пересекает сторону AD в точке M, равноудалённой от вершин B и D.а) Докажите, что лучи BM и BD делят угол ABC на три равные части.б) Найдите расстояние от центра прямоугольника до прямой CM, если BC =",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/68/6876bd8fc9b645f89bcab55d839b485b.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Обо­зна­чим ∠CBD  =  α. Тре­уголь­ник BMD рав­но­бед­рен­ный, по­это­му ∠DBM = ∠BDM = ∠CBD  =  α.Пря­мо­уголь­ные тре­уголь­ни­ки ACB и BDA равны по ка­те­ту и ги­по­те­ну­зе, по­это­му ∠ACB = ∠ADB  =  α.Пусть H  — точка пе­ре­се­че­ния BM и AC. Тогда BH  — вы­со­та пря­мо­уголь­но­го тре­уголь­ни­ка ABC, про­ве­ден­ная из вер­ши­ны пря­мо­го угла. Зна­чит, ∠ABH = ∠ACB  =  α. Сле­до­ва­тель­но, ∠ABM = ∠DBM = ∠CBD  =  б)  Имеем   Из пря­мо­уголь­но­го тре­уголь­ни­ка CMD на­хо­дим Пусть O  — центр пря­мо­уголь­ни­ка ABCD. Рас­сто­я­ние от цен­тра O пря­мо­уголь­ни­ка ABCD до пря­мой CM равно вы­со­те OP тре­уголь­ни­ка CMO. Пло­щадь тре­уголь­ни­ка CMO равна по­ло­ви­не пло­ща­ди тре­уголь­ни­ка ACM (MO  — ме­ди­а­на тре­уголь­ни­ка ACM.). Ответ: 3.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=147392",
+            "https://ege.sdamgia.ru/formula/svg/eb/eb4a4f2b47cdf5e038c5f9657d8386cc.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/1795bc82bac8e1006a9fc25faa792954.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c9fe8167babad90472efe9fadf5f2024.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a705c583d344d8be0fdf3478460deafc.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f32847fd628eb9d09bc67c5c21018861.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9fa9ea1f35def729ed714f3ced6033a9.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b78027c0912177ebc2f917b1eec8526f.svg"
+        ]
+    },
+    "answer": " 3.",
+    "analogs": [
+        "517183"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=517221"
+}

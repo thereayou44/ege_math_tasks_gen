@@ -1,0 +1,33 @@
+{
+    "id": 657298,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых уравнениеимеет хотя бы один корень.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/83/83262e8b921a98c5943838df1235272d.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. При­ме­ним фор­му­лу ко­си­ну­са двой­но­го угла, за­пи­шем ис­ход­ное урав­не­ние в виде  По­ло­жим t  =  sinx, тогда ис­ход­ное урав­не­ние имеет хотя бы один ко­рень, если урав­не­ние  имеет хотя бы один ко­рень, при­над­ле­жа­щий от­рез­ку [−1; 1]. Гра­фи­ком функ­ции  яв­ля­ет­ся па­ра­бо­ла, ветви ко­то­рой на­прав­ле­ны вверх, Cле­до­ва­тель­но, урав­не­ние  имеет хотя бы один ко­рень, при­над­ле­жа­щий от­рез­ку [−1; 1], либо (рис. 1) при усло­вии  то есть если   от­ку­да  либо (рис. 2) при усло­вии  то есть если  от­ку­да  Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=180688",
+            "https://ege.sdamgia.ru/formula/svg/78/78f7dc0b071e4bf60b0de656569bc7d4.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/315c045397a224d5b7a62988b94d4276.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c9daf492df4af79f2e01db20a595f0c7.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/15bab6c081f141a9abe65c03a4aeb6ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c8d0d2ff41ad17014c8b26df69a92949.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e10ab58f41e50653bbd3cad5c9c79ed5.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/042abe31de150aa43f2bf76a58f6fc69.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/90c9732daca5f6b653eade9f425b7061.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/75dbed9d9549646e17dec7cac2fa060c.svg",
+            "https://ege.sdamgia.ru/formula/svg/78/78b1faa4be6aea15fb79bc7660212fe4.svg",
+            "https://ege.sdamgia.ru/formula/svg/fa/fa8c34e83c3bc91c02907d9d5ee84d82.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/414955a9bc2f933dffa1a2e5a7cdd5eb.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "503256"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=657298"
+}

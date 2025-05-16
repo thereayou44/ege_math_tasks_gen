@@ -1,0 +1,30 @@
+{
+    "id": 509120,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображён график функции Найдите значение x, при котором",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=154253",
+            "https://ege.sdamgia.ru/formula/svg/01/01eb6933ae18b80b796113c0b3de17df.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ec886b4a4cee580116ef78067f02c699.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По гра­фи­ку, f(8)  =  4, тогда  Таким об­ра­зом, Ответ: 24,5.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/04/040a87efa41fcd8e427ecee95907bcc8.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/1738bd81c6a0dc6f1d4c02b29c80b3b2.svg"
+        ]
+    },
+    "answer": "24,5",
+    "analogs": [
+        "509118",
+        "509119",
+        "509121",
+        "...",
+        "509119",
+        "509121",
+        "509122"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509120"
+}

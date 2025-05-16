@@ -1,0 +1,23 @@
+{
+    "id": 549304,
+    "topic": "Д4",
+    "condition": {
+        "text": "На клетчатой бумаге с размером клетки 1×1 изображена трапеция. Найдите длину средней линии этой трапеции.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=68971"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Сред­няя линия тра­пе­ции равна по­ло­ви­не суммы ос­но­ва­ний:  Ответ: 6.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=68972",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a04efa571a8edd008c660de76139e52.svg"
+        ]
+    },
+    "answer": "6",
+    "analogs": [
+        "27848",
+        "513614"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=549304"
+}

@@ -1,0 +1,32 @@
+{
+    "id": 555900,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых уравнениеимеет единственное решение.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/dd/dd1ad4eccb149b9fa7886bbfbf0af3a5.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­ме­тим, что един­ствен­ным ре­ше­ни­ем дан­но­го урав­не­ния при любом зна­че­нии a может быть толь­ко число x  =  0, по­сколь­ку если число  яв­ля­ет­ся ре­ше­ни­ем, то и число  также яв­ля­ет­ся ре­ше­ни­ем.Пусть x  =  0  — ре­ше­ние. ТогдаЭтому урав­не­нию удо­вле­тво­ря­ют числа  Если  то урав­не­ние имеет видЧисло 0  — един­ствен­ное его ре­ше­ние, по­сколь­ку x  =  0 яв­ля­ет­ся ре­ше­ни­ем, а при x ≠ 0, оче­вид­но,  а Если a  =  3, то урав­не­ние имеет вид Число 0  — един­ствен­ное его ре­ше­ние, по­сколь­ку x  =  0 яв­ля­ет­ся ре­ше­ни­ем, а при x ≠ 0, оче­вид­но,  а  Ответ: a  =  0; a  =  3.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ad/ad497c13e4368f61fb73fb0e2f82518e.svg",
+            "https://ege.sdamgia.ru/formula/svg/58/5814c155c65aa0203b59b2c433346fc5.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a34b750805f279fd6e6ef95588fb4fad.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/51277775bf133fc280e2b7e7370f94fe.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b1d99f3d275655be4459de35e6c6316a.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7bc35d81cadc0b8656640c98c9e29fd0.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6ece33c908c885744b79cb6f17db5370.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/811d3fc378ee0d114a79b872745a2675.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/554db3410d21615265c6581b8915cc2e.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/511321fab626759b46732868086db5d6.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d7174df8d7b96a295ee850215074dafe.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4bb47d308e54bd556fb2a22b8caa4880.svg"
+        ]
+    },
+    "answer": " a  =  0; a  =  3.",
+    "analogs": [
+        "555720"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=555900"
+}

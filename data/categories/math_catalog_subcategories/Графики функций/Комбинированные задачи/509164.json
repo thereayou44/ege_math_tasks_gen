@@ -1,0 +1,42 @@
+{
+    "id": 509164,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображены графики функций и которые пересекаются в точках A и B. Найдите ординату точки B.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=149706",
+            "https://ege.sdamgia.ru/formula/svg/c2/c2dded34ff884f254da6911c57827345.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/065a0419a0417df3275e9319f03327f6.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По ри­сун­ку опре­де­ля­ем:   и   Найдём ко­эф­фи­ци­ен­ты a, b и c, решив си­сте­му:Найдём абс­цис­су точки B: Таким об­ра­зом,   Те­перь найдём ор­ди­на­ту точки B: Ответ: 26.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/0b/0b60cda97a95e5da74b6b0d9b73e155b.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/56b7b7b9c587d0a2119515728b6ff4b7.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/39716d11eb49f88e30b72728aa1145fb.svg",
+            "https://ege.sdamgia.ru/formula/svg/ff/ffeadaa21b13fd7195ac68071bfce0c4.svg",
+            "https://ege.sdamgia.ru/formula/svg/05/055340cd15d6ed8455c21291252ad5ef.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a41cade6c62349dfd8f571722935b92b.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8e70fa00f04927365f276a952b269918.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/972f67e0f0ba566b45f68459e4cab4de.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/eeb63527f16f0bd76256601e375405a1.svg"
+        ]
+    },
+    "answer": "26",
+    "analogs": [
+        "509158",
+        "509159",
+        "509160",
+        "509161",
+        "...",
+        "509159",
+        "509160",
+        "509161",
+        "509162",
+        "509163",
+        "509165",
+        "509166"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509164"
+}

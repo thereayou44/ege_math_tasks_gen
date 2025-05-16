@@ -1,0 +1,61 @@
+{
+    "id": 555623,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых уравнениеимеет единственный корень на интервале",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/b5/b5b0243ae7cfc572df28999476130bdc.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/2859d94b66a1bd9f4a843f32d9dd9a9e.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пе­рейдём к рав­но­силь­но­му урав­не­нию:Рас­смот­рим функ­цию  Эта функ­ция убы­ва­ет при  и воз­рас­та­ет при  Сле­до­ва­тель­но, урав­не­ние  имеет един­ствен­ный ко­рень на ин­тер­ва­ле (−1; 1) в одном из сле­ду­ю­щих слу­ча­ев:1)  функ­ция f(x) об­ра­ща­ет­ся в ноль в един­ствен­ной точке, и эта точка при­над­ле­жит ин­тер­ва­лу (−1; 1);2)  функ­ция f(x) при­ни­ма­ет при  и  не­ну­ле­вые зна­че­ния раз­ных зна­ков;3)  функ­ция f(x) при­ни­ма­ет ну­ле­вое зна­че­ние при  а при   — по­ло­жи­тель­ное;4)  функ­ция f(x) при­ни­ма­ет ну­ле­вое зна­че­ние при  а при   — по­ло­жи­тель­ное.Рас­смот­рим пер­вый слу­чай. Функ­ция f(x) об­ра­ща­ет­ся в ноль в един­ствен­ной точке тогда и толь­ко тогда, когда  то есть когда  При этом нулём функ­ции яв­ля­ет­ся точка  ко­то­рая при­над­ле­жит ин­тер­ва­лу (−1; 1).Рас­смот­рим вто­рой слу­чай. ИмеемРас­смот­рим тре­тий слу­чай. Если  то  при  имеем  от­ку­да Рас­смот­рим четвёртый слу­чай. Если  то  при  имеем  Ответ:   При­ве­дем дру­гое ре­ше­ние. Пе­ре­не­сем сла­га­е­мые из пра­вой части в левую и за­ме­тим, что в левой части пол­ный квад­рат:По­стро­им гра­фик функ­ции  в плос­ко­сти xOa на ин­тер­ва­ле При  урав­не­ние имеет вид  При  урав­не­ние имеет вид  (см. рис).За­да­ча све­лась к от­ве­ту на во­прос: при каких зна­че­ни­ях a го­ри­зон­таль­ная пря­мая пе­ре­се­ка­ет гра­фик функ­ции  в един­ствен­ной точке? На ри­сун­ке видно, что при  и при  урав­не­ние имеет един­ствен­ное ре­ше­ние.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/78/782575fec28d3128b0112ba3bf3b684c.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/701d6eae62fe6202e7dfcaf7e588b41a.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5d67223b8c5c0f1cb9cc36626350f5e0.svg",
+            "https://ege.sdamgia.ru/formula/svg/43/435d7981a405b0541275f1bc78533998.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d8fb917340ce6fc883cbe6dc05e4875.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/32e0fe4e4d00889f8c45e153ce818818.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d3289a96da4c1cf6ce57b2b76b80b965.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/3223e9c278970615243b404dcc6ed453.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f1e0a1874706243a007edd604ede3f5c.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7c477670495296c99a5898d116e275fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/7d/7d0a2a9ab51eead5d261828f72ebb86d.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/3223e9c278970615243b404dcc6ed453.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/724e8ab7cb2724a014a70becbae83752.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/0717f31fa8fea6270913583716d024b6.svg",
+            "https://ege.sdamgia.ru/formula/svg/76/76ed2bda8ab8d142e103452445b5427e.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa1d68344825acdee987d76bb1369c3c.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/79d950dff2cc2673919431983c1134ab.svg",
+            "https://ege.sdamgia.ru/formula/svg/a5/a5b77d66ca55bddfa94dcc1ebc37e284.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/3872c9ae3f427af0be0ead09d07ae2cf.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a4e48fead2af2d5e7710bfb1f1c1d6eb.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2a1b71b785c0cb14bb665bfef5a37b68.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a4df52a60852d212f3a634c66e9c280f.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/51e859e8a2b9884e02ea376c3a823032.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3d7b566aaed7713dfc5583dfc4b9c386.svg",
+            "https://ege.sdamgia.ru/formula/svg/ff/ff3a3d54a2b96c7d137a2b8ca30ec9e6.svg",
+            "https://ege.sdamgia.ru/formula/svg/95/954f55ee28d52ba4d58defaa46a133f5.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/da8101759de348a9a2de0288c1b4d885.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=158039",
+            "https://ege.sdamgia.ru/formula/svg/91/9141872de9f98869d4326ccca4917847.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5d68f1d20b1167642841da56d27b3f25.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2eb38a3610fd3523e9d09dc41f0b529c.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7afeb210a817d532c76e9d14cfcf8c30.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/1558d0f87d1fc214ab91fadf813d9071.svg",
+            "https://ege.sdamgia.ru/formula/svg/2b/2b0adbc7e100288bcab89ae8e331ab3f.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d5cb89c33b8712710f0280f51e8a7053.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/accfebda5a7b2503fc10e0283ccc87f0.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e3e141da13fbfe7298a408f21d3389f.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7afeb210a817d532c76e9d14cfcf8c30.svg",
+            "https://ege.sdamgia.ru/formula/svg/1f/1fc0a6c39a1ae48518bef9f73d9e43a9.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d47c3b48318fcef886f7705dfd2b566.svg"
+        ]
+    },
+    "answer": "  ",
+    "analogs": [
+        "526729"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=555623"
+}

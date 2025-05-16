@@ -1,0 +1,43 @@
+{
+    "id": 514531,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения а, при каждом из которых уравнениеимеет ровно три различных корня.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/76/768dfb53f1a1b2f98456e3f8e563bd42.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Ис­ход­ное урав­не­ние рав­но­силь­но урав­не­нию  при усло­вии Решим урав­не­ние  от­ку­да   или Ис­ход­ное урав­не­ние имеет три корня, когда эти числа раз­лич­ны и для каж­до­го из них вы­пол­не­но усло­вие  Рас­смот­рим усло­вия сов­па­де­ния кор­ней. При  и  урав­не­ние имеет не более двух раз­лич­ных кор­ней. При осталь­ных зна­че­ни­ях a числа  раз­лич­ны.При по­лу­ча­ем:Это вы­ра­же­ние не­от­ри­ца­тель­но при При  по­лу­ча­ем:Это вы­ра­же­ние не­от­ри­ца­тель­но при При  по­лу­ча­ем:  при всех зна­че­ни­ях a.Таким об­ра­зом, ис­ход­ное урав­не­ние имеет ровно три раз­лич­ных корня при  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/44/447ebfbcce43f99aaeef375191f34ace.svg",
+            "https://ege.sdamgia.ru/formula/svg/7e/7e575f2aa89e190ac29eb6180eab2659.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf55f2d3b11683d9cf90226eeb7cebdc.svg",
+            "https://ege.sdamgia.ru/formula/svg/8a/8a624444575fa6706d1847b6d520079b.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/5391c32d0f9e453f609e321c450663c9.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/eab93b3179745965aa8fa36deec2534a.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/52805d388d4a07409473f3998a5e013d.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/de074ff18f59126fde7291c4ea776494.svg",
+            "https://ege.sdamgia.ru/formula/svg/7e/7e575f2aa89e190ac29eb6180eab2659.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/ded681eaa02d11064c9a469dd1b3e04c.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aae19e0d3beff0afa1c7072ddd0bb10b.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/018f6a32025fc983751bc710bfd52ab9.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e11729b0b65ecade3fc272548a3883fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/d1/d1bbb721a35addbbc1efc588a0b97eab.svg",
+            "https://ege.sdamgia.ru/formula/svg/12/12d56e5c1e68322655596cb7b40063de.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/52805d388d4a07409473f3998a5e013d.svg",
+            "https://ege.sdamgia.ru/formula/svg/d1/d1bbb721a35addbbc1efc588a0b97eab.svg",
+            "https://ege.sdamgia.ru/formula/svg/12/12d56e5c1e68322655596cb7b40063de.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa77976a988ae6fc76805178f7d6f97e.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/ea901bc541d1eb01319c500a65a6555b.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/0345e483c067fcb7f8198de0f21d6433.svg",
+            "https://ege.sdamgia.ru/formula/svg/71/717ff38620bc16b81eac29b2fc5529a6.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "514451",
+        "514538"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=514531"
+}

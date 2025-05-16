@@ -1,0 +1,43 @@
+{
+    "id": 519824,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите значение выражения",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/a1/a19209c951638c197008738c4a17706b.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Вы­пол­ним пре­об­ра­зо­ва­ния:Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/db/db01f4b0117b9bc1868898fea65e5e63.svg",
+            "https://ege.sdamgia.ru/formula/svg/c5/c5edd1cabc5937973b90aeb3498fdc18.svg"
+        ]
+    },
+    "answer": "-8",
+    "analogs": [
+        "26795",
+        "65639",
+        "519805",
+        "...",
+        "65639",
+        "519805",
+        "65605",
+        "65607",
+        "65609",
+        "65613",
+        "65615",
+        "65617",
+        "65619",
+        "65621",
+        "65623",
+        "65625",
+        "65627",
+        "65629",
+        "65631",
+        "65633",
+        "65635",
+        "65637"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=519824"
+}

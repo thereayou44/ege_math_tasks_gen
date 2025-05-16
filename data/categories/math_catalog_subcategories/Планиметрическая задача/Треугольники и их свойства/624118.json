@@ -1,0 +1,29 @@
+{
+    "id": 624118,
+    "topic": "17",
+    "condition": {
+        "text": "Диагонали АС и ВD выпуклого четырёхугольника ABCD пересекаются в точке Р. Известно, что угол DAC равен 90°, а угол ACB в 2 раза больше угла ADB. Сумма угла DBС и удвоенного угла ADС равна 180°.а) Докажите, что ВР = 2AP.б) Найдите площадь четырёхугольника AВCD, если BD = 16 и точка Р является серединой диагонали BD.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Пусть бис­сек­три­са угла РСВ пе­ре­се­ка­ет от­ре­зок РВ в точке М. Обо­зна­чим бук­вой β угол ADB. По­лу­ча­ем, что  Так как  по свой­ству вер­ти­каль­ных углов, тре­уголь­ни­ки APD и МРС по­доб­ны, по­это­му ∠PMC  =  90°. Таким об­ра­зом, в тре­уголь­ни­ке ВСР бис­сек­три­са СМ яв­ля­ет­ся вы­со­той, а зна­чит, тре­уголь­ник ВСР рав­но­бед­рен­ный и PM  =  MB, CP  =  CB.В тре­уголь­ни­ке DBC: Из этого ра­вен­ства и из того, что  сле­ду­ет, что ∠PCD = ∠PDC. По­это­му тре­уголь­ник PCD рав­но­бед­рен­ный и PD  =  PC. Зна­чит, тре­уголь­ни­ки APD и МРС равны, по­это­му  от­ку­да сле­ду­ет, что BP  =  2AP.б)  Точка Р яв­ля­ет­ся се­ре­ди­ной от­рез­ка BD, по­это­му  От­сю­да сле­ду­ет, что тре­уголь­ник ВСР рав­но­сто­рон­ний, по­это­му ∠BPC  =  60°. Из ра­вен­ства  по­лу­ча­ем, что AP  =  4 и  Те­перь найдём пло­щадь четырёхуголь­ни­ка AВCD:Ответ: б) ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=147948",
+            "https://ege.sdamgia.ru/formula/svg/34/34e92e9db8fa15c461b4e19219f8cfc1.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/61eb9c26398de75284449b3dcf4b581e.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/6665859b5c4dc464a72fdb3591d9f1fd.svg",
+            "https://ege.sdamgia.ru/formula/svg/b2/b235171c3ebe6dda4e457f921e20ec7e.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a2dfc7800776d398a5d4e8327e712ade.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/602b6c23d227c4dc8710547e10cee6a2.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/3183ef380533265065523e028dd57126.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8eda8b8a0dd0891d0ff9a5f622cd415a.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d7274d28e5a5a17e641ef30841fd299.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/548cad5c76052afe48c6e37417c16bda.svg"
+        ]
+    },
+    "answer": " б) ",
+    "analogs": [
+        "624084"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=624118"
+}

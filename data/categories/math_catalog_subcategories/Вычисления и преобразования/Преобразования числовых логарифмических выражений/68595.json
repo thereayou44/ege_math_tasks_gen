@@ -1,0 +1,48 @@
+{
+    "id": 68595,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите значение выражения",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/08/089e35b9ac51ba657fb112c54ba5b651.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Ис­поль­зу­ем фор­му­лу :   Ответ: −1.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/0d/0db5214af4a7bf8549bf95bf444bbdbf.svg",
+            "https://ege.sdamgia.ru/formula/svg/c1/c1a68f5823fc8334db890ff0fba4afac.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/ad8b8a12d98320cd1db26cc5e097272c.svg",
+            "https://ege.sdamgia.ru/formula/svg/64/641c3a0e1a937c2ad2897fe79357ffa5.svg"
+        ]
+    },
+    "answer": "-1",
+    "analogs": [
+        "26849",
+        "68583",
+        "641997",
+        "...",
+        "68583",
+        "641997",
+        "68555",
+        "68557",
+        "68559",
+        "68561",
+        "68563",
+        "68565",
+        "68567",
+        "68569",
+        "68571",
+        "68573",
+        "68575",
+        "68577",
+        "68579",
+        "68581",
+        "68585",
+        "68587",
+        "68589",
+        "68591",
+        "68593"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=68595"
+}

@@ -1,0 +1,37 @@
+{
+    "id": 520949,
+    "topic": "18",
+    "condition": {
+        "text": "Найти все значения a, при каждом из которых система уравнений имеет ровно четыре различных решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/02/0252838fae07602e7f2195bf376080c9.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Ис­ход­ная си­сте­ма рав­но­силь­на си­сте­ме урав­не­ний:Таким об­ра­зом, ис­ход­ная си­сте­ма урав­не­ний имеет ровно че­ты­ре раз­лич­ных ре­ше­ния тогда и толь­ко тогда, когда би­квад­рат­ное урав­не­ниеимеет ровно че­ты­ре раз­лич­ных корня. Это вы­пол­ня­ет­ся, когда квад­рат­ное урав­не­ниеимеет ровно два по­ло­жи­тель­ных корня.Чтобы по­лу­чен­ное квад­рат­ное урав­не­ние имело два корня, его дис­кри­ми­нант дол­жен быть по­ло­жи­тель­ным: от­ку­да  Чтобы корни по­лу­чен­но­го квад­рат­но­го урав­не­ния были од­но­го знака, сво­бод­ный член этого урав­не­ния дол­жен быть по­ло­жи­тель­ным: от­ку­да Чтобы корни квад­рат­но­го урав­не­ния были по­ло­жи­тель­ны­ми, ко­эф­фи­ци­ент при t дол­жен быть от­ри­ца­тель­ным, то есть Таким об­ра­зом, ис­ход­ная си­сте­ма урав­не­ний имеет ровно че­ты­ре ре­ше­нияпри  и  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/f7/f79b09fa2a1e55bc4508c8f36305d6ae.svg",
+            "https://ege.sdamgia.ru/formula/svg/b6/b6f8b6e6f52b84f25e97bde998ef848d.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50e70d6808ea465b7f1741b79b18c306.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3acbecc6ca3fa886dc5b14b7ab0b465e.svg",
+            "https://ege.sdamgia.ru/formula/svg/9d/9d83697eb8114168ba391b1676f489ef.svg",
+            "https://ege.sdamgia.ru/formula/svg/24/24e005e688c646a9950dc6af5929e00c.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/10aaad8a0989b4be39ce1ea6924e2962.svg",
+            "https://ege.sdamgia.ru/formula/svg/ce/ceb22f03796bb3aaba5101f588e28f99.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/28ea65c6a0088a7bf99ca1a81ee8fb58.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/10aaad8a0989b4be39ce1ea6924e2962.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/387f073b3b4a6da69e3f9a28a6e3abf8.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f03e235c4cc1600f9ad19c80c0d7c9dd.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7c0d961b054f03c698ecb1b2c5a65650.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b30db5464b3b5dcae09425fac65010e9.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa4907993b6a57c37c8a5cf295265522.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/517d8d4a5c79d8acb1f6c8801f09a1a3.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5d3d3945a1333d4c9f8c42b592dd72bb.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "520942"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=520949"
+}

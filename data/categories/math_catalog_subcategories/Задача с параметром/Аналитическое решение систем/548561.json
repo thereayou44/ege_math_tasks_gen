@@ -1,0 +1,46 @@
+{
+    "id": 548561,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все положительные значения параметра a, при которых система имеет ровно три различных решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/7b/7b582c3cafffac699652b545ca3982a3.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­ме­тим, что при x < 0 и при x > 4 левая часть пер­во­го урав­не­ния си­сте­мы не опре­де­ле­на, а при  пер­вое урав­не­ние си­сте­мы при­ни­ма­ет вид:  или  от­ку­да При  и a > 0 урав­не­ние  при­ни­ма­ет вид  от­ку­да x  =  0  или При  и a > 0 урав­не­ние  при­ни­ма­ет вид  от­ку­да   или   Для корня x  =  0 усло­вие  вы­пол­не­но. Для корня  усло­вие  вы­пол­не­но при  При по­ло­жи­тель­ных a ко­рень  от­ри­ца­тель­ный. Для корня  усло­вие  при по­ло­жи­тель­ных a при­ни­ма­ет вид: Корни  и  не равны нулю при по­ло­жи­тель­ных a и сов­па­да­ют при Таким об­ра­зом, ис­ход­ная си­сте­ма урав­не­ний имеет ровно три раз­лич­ных ре­ше­ния при  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/f5/f5a0b2945f0a9e33d57cc0b44d4e9683.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/45f4f013c87af6692574970ffc62a82f.svg",
+            "https://ege.sdamgia.ru/formula/svg/4e/4eb4d5c5160b694754a64347a361b804.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4f51e65790926dc5108700c7ce29613a.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6e3935bb1907e05aef6649527518e040.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e42ed5d4e36c0e39b7d3506a781f984b.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa4a69045f8c657a980551b7fd1edace.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/8668e56d92f695fcf6d0a6b80a3645a5.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6e3935bb1907e05aef6649527518e040.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/61e0025ed05f7038d8b1af6d702a3bd0.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a48f7e876f20d540dab1dcab3d53b85c.svg",
+            "https://ege.sdamgia.ru/formula/svg/a5/a510d186edc12c3cd51560047a03be55.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0e15abbd2614c8c6c8b8e9598bda79cd.svg",
+            "https://ege.sdamgia.ru/formula/svg/f5/f5a0b2945f0a9e33d57cc0b44d4e9683.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bb10b2b5c774162634d4a3af49dd8f53.svg",
+            "https://ege.sdamgia.ru/formula/svg/f5/f5a0b2945f0a9e33d57cc0b44d4e9683.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a6d76b0427f510a664fbda4597f07946.svg",
+            "https://ege.sdamgia.ru/formula/svg/a5/a510d186edc12c3cd51560047a03be55.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/51eb9c404d0a2c0e8bbb1cbdc14679a6.svg",
+            "https://ege.sdamgia.ru/formula/svg/f5/f5a0b2945f0a9e33d57cc0b44d4e9683.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/ee0f411a5a0cc3c02d237b81caa1281c.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/07ea9eb1f4232484e23c7ec7420df172.svg",
+            "https://ege.sdamgia.ru/formula/svg/7e/7ee7b1c87591aa324eacb91074aabcdb.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/6519b1538b56bbcfc7f6cc982a4490c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cbb224dd2f8b63a5c61951af1acbac1d.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7a500cb5614e9528391187e1c1756463.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "548568"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=548561"
+}

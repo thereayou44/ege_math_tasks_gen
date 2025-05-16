@@ -1,0 +1,31 @@
+{
+    "id": 509117,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображён график функции Найдите",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=154256",
+            "https://ege.sdamgia.ru/formula/svg/36/367f02b575299c9be2c757c5d02c14b8.svg",
+            "https://ege.sdamgia.ru/formula/svg/b8/b8d9e2bfb2f1da1cbca93c5ad47c5223.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По гра­фи­ку, f(3)  =  3, тогда  Таким об­ра­зом, Ответ: 12.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/27/2732feac78ef46ec120e8bb9ef9fd031.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/7973c835d8968fb0f11a809fa5b1d0c4.svg"
+        ]
+    },
+    "answer": "12",
+    "analogs": [
+        "509113",
+        "509114",
+        "509115",
+        "509116",
+        "...",
+        "509114",
+        "509115",
+        "509116"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509117"
+}

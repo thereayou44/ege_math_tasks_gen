@@ -1,0 +1,33 @@
+{
+    "id": 526897,
+    "topic": "17",
+    "condition": {
+        "text": "На гипотенузе AB и на катетах BC и AC прямоугольного треугольника ABC отмечены точки M, N и K соответственно, причем прямая KN параллельна прямой AB и BM = BN = Точка P — середина отрезка KN.а) Докажите, что четырехугольник BCPM — равнобедренная трапеция.б) Найдите площадь треугольника ABC, если и",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/15/15787011f23e37ab9cb49c7f4ad65632.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4f682e101f586727defd29b05a67fd15.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/1689c62047a524688d2be948515f45a8.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  По­сколь­ку пря­мая NP па­рал­лель­на пря­мой BM и   че­ты­рех­уголь­ник BNPM  — ромб. Зна­чит, пря­мая PM па­рал­лель­на пря­мой BC, а так как CP  — ме­ди­а­на пря­мо­уголь­но­го тре­уголь­ни­ка KCN, про­ве­ден­ная из вер­ши­ны пря­мо­го угла, то  Сле­до­ва­тель­но, че­ты­рех­уголь­ник BCPM  — рав­но­бед­рен­ная тра­пе­ция.б)  По­сколь­ку  тре­уголь­ник CPM рав­но­бед­рен­ный, по­это­му  Зна­чит, CM  — бис­сек­три­са угла BCP. Тогда:  Сле­до­ва­тель­но,  Ответ: б) ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/cf/cf4af894324020462dda377a832da619.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/60b490d84b76926f1d81cf1171af9645.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b07f7597c7a079c06d63c0995f6b82f2.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/ae7e9957556c96514e9fd981c08b76c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a45ed65cbc300b99f564ea2bb14a0b4e.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=147448",
+            "https://ege.sdamgia.ru/formula/svg/31/3152307a366bf6a0340f30f53beeef9c.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f7640e1434523959fa5afdf500f80c29.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5c27f2e4972c52a803108a4fcd415334.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/40c9ece23232eb481c62d88bd6a149cb.svg",
+            "https://ege.sdamgia.ru/formula/svg/11/1130e85a53e8af69b6f63cb3f5ac640b.svg"
+        ]
+    },
+    "answer": " б) ",
+    "analogs": [
+        "526890"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=526897"
+}

@@ -1,0 +1,38 @@
+{
+    "id": 526900,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых система уравнений имеет ровно восемь решений.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/51/51e91acc6b4278f4d32dc8baa821f1f2.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. При  вто­рое урав­не­ние си­сте­мы, а, зна­чит, и вся си­сте­ма не имеют ре­ше­ний.Если a  =  0, то по­лу­ча­ем си­сте­му  ко­то­рая имеет един­ствен­ное ре­ше­ние Рас­смот­рим слу­чай  ИмеемГра­фи­ком пер­во­го урав­не­ния си­сте­мы яв­ля­ют­ся две па­рал­лель­ные пря­мые (на ри­сун­ке изоб­ра­же­ны крас­ным цве­том), сов­па­да­ю­щие при  Гра­фи­ком вто­ро­го урав­не­ния си­сте­мы яв­ля­ют­ся две ги­пер­бо­лы  (на ри­сун­ке изоб­ра­же­ны синим цве­том). Если две пря­мые сов­па­да­ют, то у си­сте­мы не может быть боль­ше четырёх ре­ше­ний. По­это­му  При этом усло­вии ги­пер­бо­ла  пе­ре­се­ка­ет каж­дую из пря­мых в двух раз­лич­ных точ­ках. Это дает че­ты­ре раз­лич­ных ре­ше­ния дан­ной си­сте­мы (на ри­сун­ке  — синие точки).Еще че­ты­ре ре­ше­ния си­сте­мы (на ри­сун­ке  — крас­ные точки) по­лу­ча­ют­ся при пе­ре­се­че­нии каж­дой из пря­мых ги­пер­бо­лой  в двух раз­лич­ных точ­ках. Для этого нужно, чтобы каж­дое из двух квад­рат­ных урав­не­ний или имело два раз­лич­ных корня. Дис­кри­ми­нан­ты этих урав­не­ний долж­ны быть по­ло­жи­тель­ны. По­лу­ча­ем:Учи­ты­вая, что  при­хо­дим к от­ве­ту.  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/cf/cf8298b0e273301afdd921e7e4cf6c2b.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f0f673197a85dbfb0927726af12357d6.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a3a8120dd497090151f137c32e61776b.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/4084f3758fc870e203e5266ed5366657.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e0fcc78305ee9110c529140af77f744b.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/86ff59ef0bff860d90da673b3579bdd6.svg",
+            "https://ege.sdamgia.ru/formula/svg/ff/ffb16cbc5b7729442813b5b0c9d105ac.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=156617",
+            "https://ege.sdamgia.ru/formula/svg/fd/fde23fea9e7e2845075da41eb96771b3.svg",
+            "https://ege.sdamgia.ru/formula/svg/bd/bd494b78ecce761f13fd675946ab18b7.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/39b226d1af9109a81245745bf771080b.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0dcc594823cb2b4c0a439e796e3f155b.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7c0d8a526f67cdfcda4e4d5779c35d08.svg",
+            "https://ege.sdamgia.ru/formula/svg/c0/c0ff606b04982ad1bc6738862b4116c4.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/ef3798b85af6970f982a247b50d501fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/25/258b856e15317e783d9d46b9c0c4fc2c.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e96d32830253f81f64eda5d244953715.svg",
+            "https://ege.sdamgia.ru/formula/svg/77/77f7a3895b8331ade61aa72486dca2e3.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "526892"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=526900"
+}

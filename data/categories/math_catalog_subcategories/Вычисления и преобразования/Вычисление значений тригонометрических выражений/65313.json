@@ -1,0 +1,51 @@
+{
+    "id": 65313,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/9c/9cc0dc2edd9453090d96b87f7cc35b94.svg",
+            "https://ege.sdamgia.ru/formula/svg/11/11d294a4a7f33c56f27e91e8b5ce2cfc.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Спо­соб 1:  Тогда: Спо­соб 2: Раз­де­лим чис­ли­тель и зна­ме­на­тель дроби на :  Ответ: 2.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/e8/e8117ec4a468d8ac5eac332a463c0831.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6c2776d0c22f7b01ea93e235f49ccfac.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4dc86bcc4da107ee7959075512d77e7a.svg",
+            "https://ege.sdamgia.ru/formula/svg/59/59302f28be0d72730be7641dfb7f95bc.svg"
+        ]
+    },
+    "answer": "2",
+    "analogs": [
+        "26789",
+        "65273",
+        "65317",
+        "...",
+        "65273",
+        "65317",
+        "65271",
+        "65275",
+        "65277",
+        "65279",
+        "65281",
+        "65283",
+        "65285",
+        "65287",
+        "65289",
+        "65291",
+        "65293",
+        "65295",
+        "65297",
+        "65299",
+        "65301",
+        "65303",
+        "65305",
+        "65307",
+        "65309",
+        "65311",
+        "65315"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=65313"
+}

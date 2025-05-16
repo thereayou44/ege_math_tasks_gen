@@ -1,0 +1,47 @@
+{
+    "id": 560784,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при которых уравнение имеет единственное решение на отрезке [0; 3].",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/41/41806ad826dd16a5f67af9f34547ccc1.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Урав­не­ниерав­но­силь­но урав­не­ниюПро­из­ве­де­ние двух мно­жи­те­лей равно нулю тогда и толь­ко тогда, когда один из них равен нулю, а вто­рой имеет смысл. Урав­не­ние  имеет един­ствен­ное ре­ше­ние  на от­рез­ке [0; 3]. Вы­ра­же­ние  имеет смысл при  Урав­не­ние  имеет един­ствен­ное ре­ше­ние  на от­рез­ке [0; 3] при  Вы­ра­же­ние  имеет смысл при всех зна­че­ни­ях x. Ре­ше­ния  и  урав­не­ниясов­па­да­ют при Таким об­ра­зом, по­сколь­ку  при  ис­ход­ное урав­не­ние не имеет ре­ше­ний на за­дан­ном от­рез­ке, при  имеет ре­ше­ние  при  имеет ре­ше­ние  и при  эти два ре­ше­ния сов­па­да­ют. Сле­до­ва­тель­но, ис­ход­ное урав­не­ние имеет един­ствен­ное ре­ше­ние на от­рез­ке [0; 3] при тех a, мень­ших  ко­то­рые не лежат на от­рез­ке [−1; 2], а также при   то есть при   и  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/41/41806ad826dd16a5f67af9f34547ccc1.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/51722819092f8c0749739a8309b92c1d.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/caec9b97f6cbe1c3b671290078615209.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83f8cb54fb31b7389397499c169844c9.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/621b6e60b0177893af6ae680db288d38.svg",
+            "https://ege.sdamgia.ru/formula/svg/95/95f2a65901ce10e125e66cd6ba255b27.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8fde37542a24c46d897b674abd575884.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fd687ce4ea001273c1385aa1a1c05d01.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0b0767c8fa0ad455819b99846e337555.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b9df7d539e99d1959a4671caece1d48b.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83f8cb54fb31b7389397499c169844c9.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fd687ce4ea001273c1385aa1a1c05d01.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/51722819092f8c0749739a8309b92c1d.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/51af5e5d3c1e7e46c89e7fc26f5225fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/22cc9d9079741b9e221277fafcc54297.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4a8b52113866c6d4a77558b9e60060ae.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/364ed66bc104bc7fc16740af714a3873.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/55a0cbb9e33f206e0c91d5b26f398170.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b0ce0ff1262addbf3fdfb4fcf14e9ecb.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c49f193e731f709dd27eea372c82e85b.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e9e1266721f27d2a4237b300ac32c9c3.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/89b360f03d227c27224c76e92dff7241.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7cb35b01b2902ea7f923ea758a3671c9.svg",
+            "https://ege.sdamgia.ru/formula/svg/7f/7f18cce0329055ad19c7c075eef3bb33.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e9e1266721f27d2a4237b300ac32c9c3.svg",
+            "https://ege.sdamgia.ru/formula/svg/87/87772614b56daf90c6f0778e38e503a8.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7a8f10fece1172b3925b8ed9bcc5b47b.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "560735"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=560784"
+}

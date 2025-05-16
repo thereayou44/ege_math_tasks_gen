@@ -1,0 +1,55 @@
+{
+    "id": 60685,
+    "topic": "2",
+    "condition": {
+        "text": "Диагонали ромба ABCD пересекаются в точке O и равны 12 и 16. Найдите длину вектора",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/f4/f46521aa4737b89b1f185c1ea6236fe9.svg",
+            "https://math-ege.sdamgia.ru/pic?id=a3606"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Диа­го­на­ли ромба ABCD пе­ре­се­ка­ют­ся в точке O и равны 12 и 16. Най­ди­те длину век­то­ра Сумма век­то­ров +  равна век­то­ру  По­сколь­ку ABCD  — ромб, его диа­го­на­ли пе­ре­се­ка­ют­ся под пря­мым углом, зна­чит,  Ответ: 10.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=143415",
+            "https://ege.sdamgia.ru/formula/svg/45/459534da7de677b300f7d2004c2fa034.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/06cb2d9663c22e7a65cd6314efe95958.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/01ca83b7c1a78adfd5e6e27466e410b0.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c78ec31e2a229e0b1204757b7cd74d36.svg",
+            "https://ege.sdamgia.ru/formula/svg/b6/b69d0ea30b1c6ec373d528796b752e0e.svg"
+        ]
+    },
+    "answer": "",
+    "analogs": [
+        "27717",
+        "60655",
+        "60657",
+        "60659",
+        "...",
+        "60655",
+        "60657",
+        "60659",
+        "60661",
+        "60663",
+        "60665",
+        "60667",
+        "60669",
+        "60671",
+        "60673",
+        "60675",
+        "60677",
+        "60679",
+        "60681",
+        "60683",
+        "60687",
+        "60689",
+        "60691",
+        "60693",
+        "60695",
+        "60697",
+        "60699",
+        "60701",
+        "60703"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=60685"
+}

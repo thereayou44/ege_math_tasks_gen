@@ -1,0 +1,31 @@
+{
+    "id": 520213,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения x, каждое из которых является решением уравнения при любом значении a из отрезка",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/47/47782c45cb5cbb3cbb0f4fe346c5e4d3.svg",
+            "https://ege.sdamgia.ru/formula/svg/69/69cb724e4c7fbc40c7ee5d20b7a97262.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Ис­ко­мые зна­че­ния x долж­ны быть среди ре­ше­ний дан­но­го урав­не­ния при a  =  0, т. е. среди ре­ше­ний урав­не­нияПусть не­ко­то­рое   — ре­ше­ние дан­но­го урав­не­ния. Тогда ра­вен­ство  при всех a из от­рез­ка  вы­пол­ня­ет­ся. Сле­до­ва­тель­но, все зна­че­ния  усло­вию за­да­чи удо­вле­тво­ря­ют.Пусть не­ко­то­рое   — ре­ше­ние дан­но­го урав­не­ния. Тогда ра­вен­ство  при всех a из от­рез­ка  вы­пол­ня­ет­ся. Сле­до­ва­тель­но, все зна­че­ния  усло­вию за­да­чи удо­вле­тво­ря­ют. Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/d0/d0755f00631132bb63ae58dec9f35be1.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/6265131c9cfa8ca4c444276ee5ee077c.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/04c875ea6cc80b398d8c8bad298cdcef.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/72fb485ec683305c7401097a6068e98b.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/6265131c9cfa8ca4c444276ee5ee077c.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/ef813790cab5d2a81da585ad929dfc2c.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/419c932e307898dd801f7a6d4ab321a1.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/72fb485ec683305c7401097a6068e98b.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/ef813790cab5d2a81da585ad929dfc2c.svg",
+            "https://ege.sdamgia.ru/formula/svg/2b/2bc73a634ed6e2694f8723b7fd690f22.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "520194"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=520213"
+}

@@ -1,0 +1,48 @@
+{
+    "id": 509052,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображён график функции Найдите",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=154237",
+            "https://ege.sdamgia.ru/formula/svg/eb/eb04a2d60f152b0a71d989c8ca758f01.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/92d161088fce1df71970c4ef4dd86156.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По ри­сун­ку опре­де­ля­ем, что   ТогдаЗна­чит,  Найдём зна­че­ние Ответ: 6.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/5c/5c137be6f86434f06132ed7f5101394d.svg",
+            "https://ege.sdamgia.ru/formula/svg/9a/9a4754b8e80ed5fbfebf4f9dee0bbfdf.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/74d06d7813157d4c468d14204cdba20b.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2ad0c18524af7c4ca9f6b5bf3e9033d5.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f96d6bd23ef2dd1949dbfec622f88687.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/30a43db9278608476ada75bb30041d41.svg"
+        ]
+    },
+    "answer": "6",
+    "analogs": [
+        "509042",
+        "509043",
+        "509044",
+        "509045",
+        "...",
+        "509043",
+        "509044",
+        "509045",
+        "509046",
+        "509047",
+        "509048",
+        "509049",
+        "509050",
+        "509051",
+        "509053",
+        "509054",
+        "509055",
+        "509056",
+        "509057",
+        "509058",
+        "509059"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509052"
+}

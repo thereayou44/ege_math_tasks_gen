@@ -1,0 +1,37 @@
+{
+    "id": 640524,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых множество решений неравенства содержит отрезок",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/a6/a626ebcc9fc5c3319722a43c99f96a08.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d28bfe7237fb5b988b7130e19d5c6016.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Сде­ла­ем за­ме­ну:  Тогда  и не­ра­вен­ство при­ни­ма­ет вид При  зна­ме­на­тель по­ло­жи­те­лен. Если  то   по­это­му до­ста­точ­но найти все а, при каж­дом из ко­то­рых не­ра­вен­ствоспра­вед­ли­во при всех z из от­рез­ка Рас­смот­рим функ­цию  Её гра­фи­ком яв­ля­ет­ся па­ра­бо­ла, ветви ко­то­рой на­прав­ле­ны вверх. По­лу­ча­ем, что  при всех  тогда и толь­ко тогда, когда  Решим эту си­сте­му:Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/2e/2ec3e429f7fbb6c2a262d030defb0c98.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9ea208652b598586fc12bbc024ce2abd.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/efbe7bd7fa2302a744749696ca050a70.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54f93533e2aade08bb91ebdb43db277e.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/ae575eefbb4dd64d5bb9355ae6a9d166.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1dcfca45240e0c49d3e56802ff0ca67d.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/03e937795d184883c97f5144cd21e2dd.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/47657f779e2024c1d5c21fd7980ccc18.svg",
+            "https://ege.sdamgia.ru/formula/svg/c0/c0e39d2e650946fc6fd376d6c18d903f.svg",
+            "https://ege.sdamgia.ru/formula/svg/ff/ffef45c8f028f1ed81c663d7290fc0b8.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5c5f63c7a72f3723eafe90ab341dd8f9.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2c4ed3791b407613e79fdf1e0b66d10c.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7a0a9fa8245337099f4aedd090ebbedf.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e2d09f0eb58d06a90a767faa6205b511.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "561734",
+        "561775",
+        "639955"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=640524"
+}

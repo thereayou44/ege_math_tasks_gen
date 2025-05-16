@@ -1,0 +1,47 @@
+{
+    "id": 505496,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при которых уравнениеимеет ровно два решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/4a/4aa4325b665a231c02fe5ef7b42fd94f.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пусть  тогда ис­ход­ное урав­не­ние при­ни­ма­ет вид:   (1) от­ку­да    (2)Зна­чит, ре­ше­ние ис­ход­но­го урав­не­ния  — это ре­ше­ние урав­не­ний  или  Ис­сле­ду­ем сколь­ко ре­ше­ний имеет урав­не­ние  в за­ви­си­мо­сти от a и  За­пи­шем урав­не­ние в виде  Левая часть этого урав­не­ния  — гра­фик мо­ду­ля с вер­ши­ной в точке  гра­фик пра­вой части  — гра­фик мо­ду­ля, с вер­ши­ной в точке  Это урав­не­ние может иметь одно, либо бес­ко­неч­ное мно­же­ство ре­ше­ний. Урав­не­ние будет иметь одно ре­ше­ние, если од­но­вре­мен­но пря­мая  лежит выше пря­мой  и пря­мая  лежит ниже пря­мой  либо, если од­но­вре­мен­но пря­мая  лежит ниже пря­мой  и пря­мая  лежит выше пря­мой  По­лу­ча­ем со­во­куп­ность двух си­стем урав­не­ний:   (3)Таким об­ра­зом, ис­ход­ное урав­не­ние имеет ровно два ре­ше­ния, если оба урав­не­ния со­во­куп­но­сти (2) имеют по од­но­му ре­ше­нию.Для пер­во­го урав­не­ния имеем Для вто­ро­го урав­не­ния: Если урав­не­ния со­во­куп­но­сти сов­па­да­ют, то тогда, даже если каж­дое из них имеет по од­но­му ре­ше­нию, то эти ре­ше­ния сов­па­дут и ис­ход­ное урав­не­ние будет иметь не два, а одно ре­ше­ние. Ис­клю­чим дан­ный слу­чай, найдём при каких зна­че­ни­ях па­ра­мет­ра a урав­не­ния сов­па­да­ют:Таким об­ра­зом, ис­ход­ное урав­не­ние имеет ровно два ре­ше­ния при зна­че­ни­ях па­ра­мет­ра    Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/27/27a48a89dab7e3d4a369b24180f02cd5.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f6df93693af01c90e46be695cc157c44.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0cd1fa1184bdd6c9747df3cb734cba9e.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0f75bda49ac9697e11a52aaf67673518.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/52fdc0004d5575986c1919c8556d565f.svg",
+            "https://ege.sdamgia.ru/formula/svg/7e/7e545ce644d987bd0d9842b16b073f96.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2dd7ce2d41fb3bc94a98a058ea9f3832.svg",
+            "https://ege.sdamgia.ru/formula/svg/20/20f359c231e7ab357b993090a266054c.svg",
+            "https://ege.sdamgia.ru/formula/svg/64/641ca7d4c53824c192804b1e0c86fff4.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f313b7628c3fd20b25f6faa38a62ea67.svg",
+            "https://ege.sdamgia.ru/formula/svg/96/967265151b0ac1cb3fbda340f125ad14.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/1706356478b1456f0f7c0c9679f5e350.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fc7ed500fffcf336481b12cb4060f448.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/09c2a1878693e6c808529cb9e1ebde92.svg",
+            "https://ege.sdamgia.ru/formula/svg/96/967265151b0ac1cb3fbda340f125ad14.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/1706356478b1456f0f7c0c9679f5e350.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fc7ed500fffcf336481b12cb4060f448.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7af6d89101e5a98ae327f29e1c3dd0c6.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c36b6734722ecb369fd14e6232821a85.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f7ee6d733b4ce80164818f3f10e27c35.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e5611967c4e27fd627940658515189fe.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e6d2e878998ac0ba253f72fb2d03379a.svg",
+            "https://ege.sdamgia.ru/formula/svg/35/357503986951b80e896b8616a418a4d6.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/ae2cec2faf6c30b90ab68d5e32128c7a.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e04a4644f565d6a12c270c4aca5bccfd.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "505474",
+        "635867",
+        "635969"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=505496"
+}

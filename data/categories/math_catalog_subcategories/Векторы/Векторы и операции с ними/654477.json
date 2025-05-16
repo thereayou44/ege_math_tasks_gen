@@ -1,0 +1,22 @@
+{
+    "id": 654477,
+    "topic": "2",
+    "condition": {
+        "text": "Даны векторы и Найдите косинус угла между ними.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/7a/7afa6e360491af5a43ea8496bf198e23.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/1961106212fdc67bb4d6975f8131fe93.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Ко­си­нус угла между век­то­ра­ми равен Ответ: −0,28.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ba/ba596fe3259adfa1ecc22d280a95742a.svg"
+        ]
+    },
+    "answer": "-0,28",
+    "analogs": [
+        "649915"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=654477"
+}

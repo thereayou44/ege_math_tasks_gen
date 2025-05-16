@@ -1,0 +1,38 @@
+{
+    "id": 527254,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых уравнение имеет ровно один корень на отрезке",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/57/57a12fa16801d856156c2e78f5006b7e.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/3034f85fb6a0c8d6759803e96d1b0dba.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Рас­смот­рим функ­цию   Про­из­вод­ная этой функ­ции равна  Зна­чит, функ­ция f(x) воз­рас­та­ет на от­рез­ке  убы­ва­ет на от­рез­ке  и до­сти­га­ет мак­си­му­ма в точке  За­ме­тим, что   Зна­чит,    Таким об­ра­зом, урав­не­ние  имеет  на от­рез­ке  ровно один ко­рень при   и   имеет ровно два корня при  и не имеет кор­ней при осталь­ных зна­че­ни­ях а.   Ответ:  ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/09/09a84efdc81e041b7e464fd9e85d8d49.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2f13f808ee475feaa58a5f795b4cbd7b.svg",
+            "https://ege.sdamgia.ru/formula/svg/b8/b8b2a5bfbc723b8fb5fbaa91f570abe7.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/313a1a4e8ac6592c3e3cb2e778ca6313.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e7f62a2e3916795b204589167f28fed7.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b95cb33e1435d0148b65a54d1f423651.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e347106f416aee7976c533c2f47d22ad.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3c2ac062d029c5e65bb8f67585ba1692.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a4a8edecb1a6faef24f014630a8b048b.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/63af7ab1801fdf6958c9baa7251c254f.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8fea6225b1e958fcd0d77a8c60884442.svg",
+            "https://ege.sdamgia.ru/formula/svg/20/203468911983dce6a2a24d6a2c76845f.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fc1241cbbb51cc4c36bcf0632e7f6445.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3acc906d86ac4d17b6a4a39c57cdbbf3.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ecbbd2aa1349e730ad4ceee56533de1a.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/dd09bdaf4f8bbfddf36c59babe90278d.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/6592f13e36992193c270c22217f62e6e.svg"
+        ]
+    },
+    "answer": "  ",
+    "analogs": [
+        "525382"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=527254"
+}

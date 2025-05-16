@@ -1,0 +1,30 @@
+{
+    "id": 27452,
+    "topic": "Д4",
+    "condition": {
+        "text": "Найдите косинус угла В ответе укажите значение косинуса, умноженное на",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=65804",
+            "https://ege.sdamgia.ru/formula/svg/e4/e4a893c3641ff45ea8d60057a30cf1e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b90ad7d8b16aebc87984c7c948f3521e.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Про­ве­дем вы­со­ту BK из точки B на про­дол­же­ние сто­ро­ны  Тогда:  Ответ: −2.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=65803",
+            "https://ege.sdamgia.ru/formula/svg/f9/f9526ac6a641147eca77d9f3a49b3938.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7bae0ccd664537a59d1be8377a1c8d05.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6d6d5e7701228db7302d8b02ff7af8dd.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/07865b0071b6ed20d72b97b2d1f434c9.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/6232980ffe8d389d4b57eab27fb64dd4.svg"
+        ]
+    },
+    "answer": "-2",
+    "analogs": [
+        "27451",
+        "27453",
+        "510060"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=27452"
+}

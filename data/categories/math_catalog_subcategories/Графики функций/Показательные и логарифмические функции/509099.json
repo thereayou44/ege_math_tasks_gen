@@ -1,0 +1,40 @@
+{
+    "id": 509099,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображён график функции Найдите значение x, при котором",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=154247",
+            "https://ege.sdamgia.ru/formula/svg/b4/b44bbe410f1334968bbecba2e66f9137.svg",
+            "https://ege.sdamgia.ru/formula/svg/b6/b6b03a905694e8c837b95c0ad4d75a21.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Мно­же­ство зна­че­ний  функ­ции   — ин­тер­вал  По ри­сун­ку опре­де­ля­ем мно­же­ство зна­че­ний дан­ной функ­ции:  зна­чит,  Учи­ты­вая, что  и  найдём a:Зна­чит,  Решим урав­не­ние  Ответ: −8.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/0c/0ce79fde8b3450045537bb6429185b4b.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6ec471284dface00047eaee261d6ac4b.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e8b6cc2741d25f708ce931b715280bd6.svg",
+            "https://ege.sdamgia.ru/formula/svg/05/055fcefc1ef3182b8ed1ae0cf149091b.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/2364c03544e66fcad5fa5c94c0aa19b4.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/323c5f97105643bc61e288fe596194ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/20/20aef554eef7e38884df0a6cb40252c7.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a764e68f0eb407a42c09df8d30a173da.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8f864be8e56cbf47c44facb4a3cc4f32.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/ba90e0847c96b8a4754e17d7c91bf99c.svg"
+        ]
+    },
+    "answer": "-8",
+    "analogs": [
+        "509095",
+        "509096",
+        "509097",
+        "509098",
+        "...",
+        "509096",
+        "509097",
+        "509098",
+        "509100"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509099"
+}

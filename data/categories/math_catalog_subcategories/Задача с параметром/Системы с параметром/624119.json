@@ -1,0 +1,40 @@
+{
+    "id": 624119,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых система имеет хотя бы одно решение на отрезке [−1; 2].",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/1a/1a1897222af337d335bfa8efd37ad424.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­пи­шем вто­рое не­ра­вен­ство в виде и пре­об­ра­зу­ем левую часть: Дис­кри­ми­нант трёхчле­на  равен Это вы­ра­же­ние от­ри­ца­тель­но при любом зна­че­нии a, сле­до­ва­тель­но, вы­ра­же­ние  при­ни­ма­ет толь­ко по­ло­жи­тель­ные зна­че­ния при любых зна­че­ни­ях x и a. Таким об­ра­зом, вто­рое не­ра­вен­ство си­сте­мы рав­но­силь­но не­ра­вен­ству x < a. Пре­об­ра­зу­ем пер­вое не­ра­вен­ство: Если  то не­ра­вен­ство  не имеет ре­ше­ний. Если  то  и на от­рез­ке [−1; 2] ре­ше­ний нет. Если  то по­лу­ча­ем си­сте­му не­ра­венств:  Чтобы на от­рез­ке [−1; 2] было ре­ше­ние, нужно, чтобы наи­мень­шее из чисел a и −2a − 2 было боль­ше чем −1: Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/43/43676aaabe7853ea97c7e64a5d1492a8.svg",
+            "https://ege.sdamgia.ru/formula/svg/93/93e5a3e9b3c44beb4cec4497e72af5c4.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/753db63a8bc04201f61918b8f4a28a40.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e2c6f1587453ee616b352a10ea465ca7.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/039042e62685436131469308aa9780d7.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f1987ac1f2e24263c12f75e8ebc12a7e.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/039042e62685436131469308aa9780d7.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3c7be00912144a83b67b85230aa447cd.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/ed883622fdccdecd5e6c139838f1f357.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3c7be00912144a83b67b85230aa447cd.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4d4b47fb1482d45941cad925d57f09d5.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/856757f18dd5b9a326d6ce33f87d8d5e.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a2a6b508c80f07aef8e18fb6948e8750.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a852738c081580e990346db88b30e4fe.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a2f83dfc0fc4ff93bc88178b0f1739ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c2342be477131189f191f6f5ac3a0a6.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c2a8aecfdbf750e65f2d03be9ff4dce0.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6e42a8201b94a26a3715e22ab138a5e9.svg",
+            "https://ege.sdamgia.ru/formula/svg/58/583b0bbef1a5ed51dc1a818bc2cd9902.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/890e8f8842c8b855775741dc588d2629.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "624085"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=624119"
+}

@@ -1,0 +1,32 @@
+{
+    "id": 541058,
+    "topic": "17",
+    "condition": {
+        "text": "Окружность проходит через вершины В и С треугольника АВС и пересекает АВ и АС в точках С1 и В1 соответственно.а) Докажите, что треугольник АВC подобен треугольнику АВ1С1б) Вычислите радиус данной окружности, если и площадь треугольника АВ1С1 в три раза меньше площади четырёхугольника ВСВ1С1.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/01/010a6188d530d6c97b6b0db0f6c7fdc9.svg",
+            "https://ege.sdamgia.ru/formula/svg/58/589349eeac1b1268c2b701f27d2b485f.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  За­ме­тим, что  Четырёхуголь­ник ВСВ1С1 впи­сан в окруж­ность, по­это­му  Зна­чит,  Сле­до­ва­тель­но, тре­уголь­ни­ки ABC и АВ1С1 по­доб­ны по двум углам.б)  Пло­щадь тре­уголь­ни­ка АВ1С1 в три раза мень­ше пло­ща­ди четырёхуголь­ни­ка ВСВ1С1, по­это­му пло­щадь тре­уголь­ни­ка ABC в че­ты­ре раза боль­ше пло­ща­ди тре­уголь­ни­ка АВ1С1 и ко­эф­фи­ци­ент по­до­бия этих тре­уголь­ни­ков равен 2. Пусть AB1  =  x, тогда AB  =  2x. Най­дем BB1 по тео­ре­ме ко­си­ну­сов из тре­уголь­ни­ка ABB1:Сле­до­ва­тель­но,  Те­перь по тео­ре­ме си­ну­сов из тре­уголь­ни­ка ABB1 по­лу­ча­емНо  по­сколь­ку си­ну­сы смеж­ных углов равны.По­лу­ча­ем: Те­перь на­хо­дим ра­ди­ус окруж­но­сти, опи­сан­ной около тре­уголь­ни­ка BCB1:  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/1f/1f168dc82fecfc6a941bb1b997c2b1db.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f75d20a1147f9d92bca8141e15b9bfc2.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/011d09f03b95defe3f0f1c02e5da1770.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=148629",
+            "https://ege.sdamgia.ru/formula/svg/6b/6b5cad6e8fe306ada08f3a14df7b768b.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0bca198ae8784355e89ed70d79347738.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/13b6007f6720e3214a1473d509d927a2.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/572cc6d3457fda8c608affe4016f25b5.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50611dfad2accb0c2cca21ad4a36a83c.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e742bfcbc8ee1fdf3f412ad365d8d7b9.svg",
+            "https://ege.sdamgia.ru/formula/svg/48/48601d0751ac451edab076aa10641384.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "541263"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=541058"
+}

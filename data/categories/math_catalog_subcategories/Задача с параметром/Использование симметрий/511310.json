@@ -1,0 +1,36 @@
+{
+    "id": 511310,
+    "topic": "18",
+    "condition": {
+        "text": "При каких значениях параметра а система имеет четыре решения?",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/5e/5e27e248a343f6494a951302c884d382.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По­ла­гая   пе­ре­пи­шем си­сте­му в видеЗа­ме­тим, те­перь что если пара  яв­ля­ет­ся ре­ше­ни­ем си­сте­мы, то и пара   — также ре­ше­ние этой си­сте­мы. Сле­до­ва­тель­но, если   — ре­ше­ние си­сте­мы такое, что  и  то си­сте­ма будет иметь во­семь ре­ше­ний.Таким об­ра­зом, ис­ход­ная си­сте­ма будет иметь че­ты­ре ре­ше­ния в сле­ду­ю­щих двух слу­ча­ях:  или А тогда, если  то  Если же  или  то Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ad/ad814fb419d8ad1b88259c0a833fe960.svg",
+            "https://ege.sdamgia.ru/formula/svg/1f/1f58d8b46197e59490a90466aad30d37.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/700c66b4957456c1525fb0779bd918e8.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83c79afc675c9e8a506b76f3ba55755d.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a47caf73999945d303079a7daa843af2.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83c79afc675c9e8a506b76f3ba55755d.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8eebcc400c373ac63ae9e47270b80512.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e714485f757108ac5b4666d30a0c80af.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2feb04f3be5e09928a7e2889a0d93010.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5cd65f51bc06db3e64225d184a8566f8.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f44b3634cc043e11777ce698d751f430.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8b0973af8fe1bd7868774e57d8b951e3.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5d804347618740dc18fd31175153fff5.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1b716a2826932b4639553f95c86a8365.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4dfae9816f72c06d23c85c3e401d30b3.svg",
+            "https://ege.sdamgia.ru/formula/svg/7d/7dd6b78c6afd7eef3abb6dcb1283f1ef.svg"
+        ]
+    },
+    "answer": "",
+    "analogs": [
+        "484635"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511310"
+}

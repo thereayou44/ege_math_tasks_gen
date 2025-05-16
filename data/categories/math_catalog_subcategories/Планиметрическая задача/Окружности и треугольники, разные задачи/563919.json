@@ -1,0 +1,36 @@
+{
+    "id": 563919,
+    "topic": "17",
+    "condition": {
+        "text": "Окружность с центром О, построенная на катете AC прямоугольного треугольника ABC как на диаметре, пересекает гипотенузу AB в точках A и D. Касательная проведенная к этой окружности в точке D, пересекает катет BC в точке M.а) Докажите, что BM = CM.б) Прямая DM пересекает прямую AC в точке P, прямая OM пересекает прямую BP в точке K. Найдите BK : KP, если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/7b/7bb32c1042a73020fb8c32a239cb24fa.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  За­ме­тим, что впи­сан­ный угол ADC опи­ра­ет­ся на диа­метр, по­это­му CD  —  вы­со­та тре­уголь­ни­ка ABC. Далее, MC  =  MD как ка­са­тель­ные к окруж­но­сти (MC ка­са­тель­ная, так как угол MCO  —  пря­мой). Тре­уголь­ник MCD рав­но­бед­рен­ный, по­это­му углы  MCD  и MDC равны. Далее вы­чис­лим: От­сю­да MB  =  MD, а зна­чит, и BM  =  CM. Что и тре­бо­ва­лось до­ка­зать.б)   За­ме­тим, что OM  —  сред­няя линия тре­уголь­ни­ка ABC, по­это­му от­рез­ки OK и AB па­рал­лель­ны. От­сю­да   Вы­чис­лим от­но­ше­ние BK к KP:Ответ:  При­ве­дем дру­гое ре­ше­ние пунк­та а) Реян Те­мир­ка­я­е­вой.За­ме­тим, что от­ре­зок OD пер­пен­ди­ку­ля­рен пря­мой DM, как ра­ди­ус про­ве­ден­ный в точку ка­са­ния, сле­до­ва­тель­но,  от­сю­да OCMD  — впи­сан­ный.Пусть  тогда  Уви­дим, что  так как опи­ра­ет­ся на хорду DM. Тре­уголь­ник COD  — рав­но­бед­рен­ный и  как ра­ди­у­сы, сле­до­ва­тель­но,   Угол CDA  — впи­сан­ный, опи­ра­ет­ся на диа­метр, зна­чит,  Тогда  от­сю­да  Эти углы яв­ля­ют­ся на­крес­тле­жа­щи­ми, сле­до­ва­тель­но, от­ре­зок OM па­рал­ле­лен от­рез­ку AB. Точка O яв­ля­ет­ся се­ре­ди­ной AC. Зна­чит, OM  — сред­няя линия тре­уголь­ни­ка ABC, сле­до­ва­тель­но, ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=150041",
+            "https://ege.sdamgia.ru/formula/svg/89/89759606e6448c2b3b907f099bd54ca1.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/da5d770389b3c5258541b43d49cad939.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e83ee1323795db081e9ea923080fd5c6.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/326afbb690720ceab6627a8df09bf603.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=107563",
+            "https://ege.sdamgia.ru/formula/svg/2a/2a768721d57c47aca17374939d686c4d.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5d54749072b3f8524c8b0c236037d7a8.svg",
+            "https://ege.sdamgia.ru/formula/svg/7f/7f5f3341cbd236b2df9c345bf47156c4.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e084e54f7b4635dd85ea4d0e73b91c6e.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2e651b2cb373c4c8cab8ef7b1ad0c001.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0ddcc7aca9134fa40cebb61c95aecd70.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1c0363610c213f97bf10d80bf2889d90.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b142ca6dd50065729c2c9eb336874547.svg",
+            "https://ege.sdamgia.ru/formula/svg/eb/eb69f9bd6eb9f7391c656bff6ff7d472.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a360e3497a6d070e0372046ab6415c46.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "563898"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=563919"
+}

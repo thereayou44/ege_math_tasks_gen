@@ -1,0 +1,47 @@
+{
+    "id": 564184,
+    "topic": "Д10",
+    "condition": {
+        "text": "На рисунке изображён график функции вида где числа a, b, c и d — целые. Найдите корень уравнения",
+        "images": [
+            "https://ege.sdamgia.ru/get_file?id=108698",
+            "https://ege.sdamgia.ru/formula/svg/64/6496ad739bd61979f4f8027d7d9cd42e.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0ead26438ffde9995c1a78dff47e1b20.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.  В любом из слу­ча­ев рас­кры­тия мо­ду­ля по­лу­ча­ем ли­ней­ную функ­цию  где уг­ло­вой ко­эф­фи­ци­ент  или  а сво­бод­ный член  или  Оче­вид­но, что  зна­чит, боль­ше­му зна­че­нию уг­ло­во­го ко­эф­фи­ци­ен­та со­от­вет­ству­ет  а мень­ше­му  —  Ана­ло­гич­но боль­ше­му зна­че­нию сво­бод­но­го члена со­от­вет­ству­ет  а мень­ше­му  — По ри­сун­ку опре­де­ля­ем, что     Зна­чит,   Решим урав­не­ние  Ответ: 2,5.",
+        "images": [
+            "https://ege.sdamgia.ru/get_file?id=108722",
+            "https://ege.sdamgia.ru/formula/svg/28/284cfad8fb44510fbf57946f9f0b5271.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/ddf22ca0900fd887629c031e978585b4.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/1993da80d1bf7ceb5e3e4342ff195eeb.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c0272a1299edc85ac15b40c204b18b3.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b3c9192d4529a197e71d93a4708c7810.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83977917242689472d926a15f1a6e7a7.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/305363358d8d9bf67e75372a13a01d5a.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/1635e283ee1e3e7400e2ac6dcdb0549e.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/28f9d87790168e76fd4227c09605b01b.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b3c9192d4529a197e71d93a4708c7810.svg",
+            "https://ege.sdamgia.ru/formula/svg/a5/a53441b89b1581131d55d6d881a6e52a.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d3e8022dae5d221d6555239e5175892.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f692cd5f9d908526443999c59e8fa0cc.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a7fdaefd0aa894888566aa511d74b89c.svg",
+            "https://ege.sdamgia.ru/formula/svg/7d/7d04b7d7c6a3b6ecfcad148b0803ca34.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a36fc8b244fb5f39980a840bcb1b434e.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/9486460f9a9917dd9a1a07c2a1c0bf46.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e5200fb4a4fad15521221d43db1e3a53.svg"
+        ]
+    },
+    "answer": "2,5",
+    "analogs": [
+        "564186",
+        "563824",
+        "564189",
+        "...",
+        "563824",
+        "564189",
+        "564190"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=564184"
+}

@@ -1,0 +1,25 @@
+{
+    "id": 505249,
+    "topic": "17",
+    "condition": {
+        "text": "В равнобедренном треугольнике ABC с углом 120° при вершине A проведена биссектриса BD. В треугольник ABC вписан прямоугольник DEFH так, что сторона FH лежит на стороне BC, а вершина E — на стороне AB.а) Докажите, что FH = 2DH.б) Найдите площадь прямоугольника DEFH, если AB = 2.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Пусть P  — ос­но­ва­ние пер­пен­ди­ку­ля­ра, опу­щен­но­го из точки D на пря­мую AB, тогда DH  =  DP.В рав­но­бед­рен­ном тре­уголь­ни­ке EAD: ∠AED  =  30°.В пря­мо­уголь­ном тре­уголь­ни­ке EPD:  от­ку­да по­лу­ча­ем, что FH  =  2DH.б)  Пусть AM  — вы­со­та тре­уголь­ни­ка ABC  — пе­ре­се­ка­ет ED в точке N. ТогдаПусть DH  =  EF  =  x, тогда FH  =  ED  =  2x. Тре­уголь­ни­ки ABC и AED по­доб­ны, сле­до­ва­тель­ноЗна­чит, пло­щадь пря­мо­уголь­ни­ка DEFH равна  Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=146537",
+            "https://ege.sdamgia.ru/formula/svg/eb/eb968956875ae65ef300ca8b4079c331.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/06d5c27c1191b7a0323ab30d35ea38a8.svg",
+            "https://ege.sdamgia.ru/formula/svg/d1/d193822bf424fd675ee2d5b170b215c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa068ce98d9ca41b57f4d55dbfbc46b0.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/033c7a8b132ece71f5d705cb0e02b7e8.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "505239",
+        "511400"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=505249"
+}

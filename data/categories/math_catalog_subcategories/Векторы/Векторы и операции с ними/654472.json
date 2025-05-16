@@ -1,0 +1,29 @@
+{
+    "id": 654472,
+    "topic": "2",
+    "condition": {
+        "text": "Найдите квадрат длины вектора +",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=165014",
+            "https://ege.sdamgia.ru/formula/svg/24/2443510e25925dc900c862964b3b7e39.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/524a5d02f643d21a127367a96bee1123.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Ко­ор­ди­на­ты век­то­ра равны раз­но­сти ко­ор­ди­нат конца век­то­ра и его на­ча­ла. По­это­му век­тор  имеет ко­ор­ди­на­ты  век­тор имеет ко­ор­ди­на­ты  Ко­ор­ди­на­ты суммы век­то­ров равны сумме со­от­вет­ству­ю­щих ко­ор­ди­нат. Тогда век­тор  имеет ко­ор­ди­на­ты  Длина век­то­ра равна  По­это­му квад­рат длины век­то­ра равен 90. Ответ: 90.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/89/89e9c902fed032a267e19bcbbe710b75.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7bee5562c0f286438a3614cd9c9d3c2d.svg",
+            "https://ege.sdamgia.ru/formula/svg/7f/7f711ac1314a21599dc5a9c5bb757eff.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d6f680afc45f7d16ef3bbb6b8a077cf0.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f111dfc7d9cc649de2263e16239e8b22.svg",
+            "https://ege.sdamgia.ru/formula/svg/a5/a5de6c705be8a59eb50850c7054a201e.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/5594d25ba21042822a5322bad4e64bf9.svg"
+        ]
+    },
+    "answer": "90",
+    "analogs": [
+        "27737"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=654472"
+}

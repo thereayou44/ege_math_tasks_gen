@@ -1,0 +1,32 @@
+{
+    "id": 660718,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображен график функции вида Найдите значение f(−4).",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=179455",
+            "https://ege.sdamgia.ru/formula/svg/3e/3ec7f9a9c1d470775506529844b8c3a5.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Из гра­фи­ка на­хо­дим, что  от­ку­да  а по­то­му  Тогда Ответ: 81.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/dd/ddccddc3444358950d5989b1451bdd6c.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f9ae203ab5f20df4318f43b4e1232755.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/9158287ae875549b129d6d0998649058.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/4105aad3f948143c1c9dfff7bc889cf0.svg"
+        ]
+    },
+    "answer": "81",
+    "analogs": [
+        "639480",
+        "639749",
+        "641157",
+        "...",
+        "639749",
+        "641157",
+        "660926",
+        "661082"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=660718"
+}

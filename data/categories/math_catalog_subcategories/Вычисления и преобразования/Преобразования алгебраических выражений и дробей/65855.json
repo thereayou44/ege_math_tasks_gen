@@ -1,0 +1,55 @@
+{
+    "id": 65855,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите значение выражения",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/6c/6cac6475fe6eeb27b4c8fb4f4aad3863.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Най­ди­те зна­че­ние вы­ра­же­ния Вы­пол­ним пре­об­ра­зо­ва­ния:   Ответ: 6.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/bd/bdb7a90e5f2f886c79c09765920bbaed.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0dba66b65c6833d3659482b18cdf7652.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/ee28342cc7dea88ca29239f17b515e8f.svg",
+            "https://ege.sdamgia.ru/formula/svg/d1/d1ddbec556dfdbee31299bf13a2020cd.svg"
+        ]
+    },
+    "answer": "-18",
+    "analogs": [
+        "26802",
+        "65821",
+        "65875",
+        "65823",
+        "...",
+        "65821",
+        "65875",
+        "65823",
+        "65825",
+        "65827",
+        "65829",
+        "65831",
+        "65833",
+        "65835",
+        "65837",
+        "65839",
+        "65841",
+        "65843",
+        "65845",
+        "65847",
+        "65849",
+        "65851",
+        "65853",
+        "65857",
+        "65859",
+        "65861",
+        "65863",
+        "65865",
+        "65867",
+        "65869",
+        "65871",
+        "65873"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=65855"
+}

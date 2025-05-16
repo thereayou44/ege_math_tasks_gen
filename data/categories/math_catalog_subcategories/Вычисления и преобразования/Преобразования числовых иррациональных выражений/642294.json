@@ -1,0 +1,21 @@
+{
+    "id": 642294,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите значение выражения",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/cb/cbace8cf89914215a660279c44bcfaf3.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По­сле­до­ва­тель­но по­лу­ча­ем:Ответ: 12.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/0f/0f3de6103ac3fa5c99d13babb6f6f322.svg"
+        ]
+    },
+    "answer": "12",
+    "analogs": [
+        "510287"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=642294"
+}

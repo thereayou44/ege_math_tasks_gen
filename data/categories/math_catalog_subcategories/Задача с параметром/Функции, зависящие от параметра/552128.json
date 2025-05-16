@@ -1,0 +1,55 @@
+{
+    "id": 552128,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых линии и ограничивают многоугольник, площадь которого не менее",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/58/5878569c963f2b30fd67705e88904586.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/1856db5a249e46040a01527ae7980a15.svg",
+            "https://ege.sdamgia.ru/formula/svg/48/48dede007eadc4042be645c02fb1f95c.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Па­рал­лель­ным пе­ре­но­сом на три еди­ни­цы впра­во по­лу­чим линии  и  Вид фигур и их пло­щадь при сдви­гах не ме­ня­ет­ся.Слу­чай  1. При a  =  0 по­лу­ча­ем урав­не­ния го­ри­зон­таль­ных пря­мых  и  Эти линии не огра­ни­чи­ва­ют ни­ка­кой мно­го­уголь­ник.Слу­чай  2. Пусть a > 0, по­лу­ча­ем урав­не­ния и  Линии, за­дан­ные этими фор­му­ла­ми, огра­ни­чи­ва­ют тре­уголь­ник, тогда и толь­ко тогда, когда вер­ши­на гра­фи­ка мо­ду­ля лежит ниже го­ри­зон­таль­ной пря­мой  (см. рис. 1). Вер­ши­на имеет ко­ор­ди­на­ты  по­это­му долж­но вы­пол­нять­ся не­ра­вен­ство  от­ку­да a < 4,5. Одна из сто­рон этого тре­уголь­ни­ка па­рал­лель­на оси абс­цисс. Чтобы найти ее длину, опре­де­лим абс­цис­сы точек пе­ре­се­че­ния линий: Обо­зна­чим длину сто­ро­ны b, а длину про­ве­ден­ной к ней вы­со­ты  — h. Тогда:  Най­дем пло­щадь тре­уголь­ни­ка:Тре­бу­ет­ся, чтобы  от­ку­да на­хо­дим: C уче­том усло­вия 0 < a < 4,5 по­лу­ча­ем: Слу­чай  3. Пусть a < 0. По­лу­ча­ем урав­не­ния  и   Эти линии огра­ни­чи­ва­ют тре­уголь­ник, если вер­ши­на гра­фи­ка мо­ду­ля лежит над го­ри­зон­таль­ной пря­мой, то есть тогда и толь­ко тогда, когда  от­ку­да  (см. рис. 2). Абс­цис­сы точек пе­ре­се­че­ния линий най­дем из урав­не­ния  по­лу­чим:   Пло­щадь по­лу­чен­но­го в этом слу­чае тре­уголь­ни­ка равна: Не­ра­вен­ство  за­пи­сы­ва­ет­ся в виде C уче­том усло­вия  имеем Объ­еди­няя по­лу­чен­ные ре­зуль­та­ты, на­хо­дим:  или   Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ca/ca5766df81a91be07d50fa61ec7f00f7.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/56fd98bad3f78be81cf92e0d80c27c27.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=176947",
+            "https://ege.sdamgia.ru/formula/svg/80/80e5e938b7543b93abb980304e90b53b.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9ee29cc6dc562b9f73ef974c9f55eda3.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/34c3137cd2b25aff0db3e3eaa8aa4d44.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/56fd98bad3f78be81cf92e0d80c27c27.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ec9d1e65bf39438ffecba3a8ffff856f.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e44fc56dd1092010245cfb747c3d41f9.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/70a0e7de74e0970fb09ed466f006eb52.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/286cc48ec4400c0846b92743ade5aeef.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a4ceecb9c12e78ed75596ce1ecec5c0d.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/46b1c1312d4410ae09ad566ba7fac7c4.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/652a92fe47399570cebbf447a3528a66.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e5adff5bd3009d20c3156e262a361132.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/22cd9c9c2153a684379bc6a87d8386a0.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=176946",
+            "https://ege.sdamgia.ru/formula/svg/28/280751e6bd3f00c14bc2ecc76b171084.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/56fd98bad3f78be81cf92e0d80c27c27.svg",
+            "https://ege.sdamgia.ru/formula/svg/76/7661dd865baf372b15149e2f95260859.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/638231a9fccc41be63cf7070dfcff799.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d7b839d088ba99416f33c460b16d4eba.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/170fe76185f8072549983666b65540d1.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f4a85b5cd01387beb1f13e8f645c936a.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/1323c88cff0837449d19628139b0bd3c.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/835685727993fd2ccad61e41025a59d8.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e9339b2c44d2bdf49f79ecd4c8c15c7b.svg",
+            "https://ege.sdamgia.ru/formula/svg/59/5980835a8a14a3564df03a072680cefe.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/60546f8053a2a78f23fa98782e013ae2.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d98acb5e9d3050772c3cf217e8339816.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8f6d1ae5bf1498d8a97acdaa17a6b621.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d98acb5e9d3050772c3cf217e8339816.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/9431292476889dd389e0133206bbea2f.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "552126"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=552128"
+}

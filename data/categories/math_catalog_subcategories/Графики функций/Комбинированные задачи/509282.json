@@ -1,0 +1,41 @@
+{
+    "id": 509282,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображены графики функций и которые пересекаются в точке A. Найдите ординату точки A.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=149674",
+            "https://ege.sdamgia.ru/formula/svg/05/056bc99d7b2e863d3e614bb99606cbea.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d8e9d1bdb39f21c0fc574408d8a15a64.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По гра­фи­ку, f(4)  =  −5, тогда  Тогда урав­не­ние функ­ции имеет вид За­ме­тим, что k  — тан­генс угла на­кло­на пря­мой. Тогда  По гра­фи­ку, g(0)  =  4, зна­чит,  Тогда урав­не­ние пря­мой имеет вид Те­перь найдём ор­ди­на­ту точки A: Таким об­ра­зом, y  =  −20. Ответ: −20.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/8b/8b923a8a21075398226e86d04df1a8c4.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d8e6faae46814ca0c99ce715f777ee28.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8fed3d07fbdb91ffec75c5e7630fa4f1.svg",
+            "https://ege.sdamgia.ru/formula/svg/c5/c5eab886d6a5a65f6548d95ca911d966.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/007a366fa6895c3e3baa9d6ab45d2061.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6ab3f98359ac4af220f720c844cfdf09.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/3474b907f67f66c0f93ce256f39bc21b.svg",
+            "https://ege.sdamgia.ru/formula/svg/11/11460883446a1107536f026438fa76f9.svg",
+            "https://ege.sdamgia.ru/formula/svg/3f/3f4b9c2f9e38fb89c75b329b543d067b.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e81a13936a38998663df11dd6101427e.svg"
+        ]
+    },
+    "answer": "-20",
+    "analogs": [
+        "509280",
+        "509279",
+        "509281",
+        "...",
+        "509279",
+        "509281",
+        "509283",
+        "509284",
+        "509285",
+        "509286"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509282"
+}

@@ -1,0 +1,24 @@
+{
+    "id": 27453,
+    "topic": "Д4",
+    "condition": {
+        "text": "Найдите тангенс угла AOB.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=65801"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. про­ве­дем вы­со­ту BK из точки B на про­дол­же­ние сто­ро­ны OA. Тогда: Ответ: −2.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=65802",
+            "https://ege.sdamgia.ru/formula/svg/e6/e67a402c5d9eea194843d89b89262089.svg"
+        ]
+    },
+    "answer": "-2",
+    "analogs": [
+        "27451",
+        "27452",
+        "510060"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=27453"
+}

@@ -1,0 +1,47 @@
+{
+    "id": 485946,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых наименьшее значение функции больше, чем",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/0a/0aa45dce7d2f2517e29d2ced205f4d5a.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6ccf8e1f5b78690e0915858735c388b5.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. 1.  Функ­ция имеет вид: a)  при   а ее гра­фик со­сто­ит из двух ча­стей па­ра­бо­лы с вет­вя­ми, на­прав­лен­ны­ми вверх и осью сим­мет­рии б)  при    а её гра­фик пред­став­ля­ет собой часть па­ра­бо­лы с вет­вя­ми, на­прав­лен­ны­ми вниз. 2.  Если   при­над­ле­жит от­рез­ку   то наи­мень­шее зна­че­ние функ­ция может при­ни­мать толь­ко в точ­ках   и   Если    — то еще и в точке  3.  Наи­мень­шее зна­че­ние функ­ции   боль­ше   тогда и толь­ко тогда, когда либо   либо  Решим первую си­сте­му: Решим вто­рую си­сте­му:  или  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/dc/dcac3a1de689b187321b42210bd6fa99.svg",
+            "https://ege.sdamgia.ru/formula/svg/5a/5ab6eb00843c5468d27232b20c81396a.svg",
+            "https://ege.sdamgia.ru/formula/svg/64/645fabb9de78b00b5b634984487eb788.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/688c795a353e8d9682a4c0642fa70144.svg",
+            "https://ege.sdamgia.ru/formula/svg/35/35434447920fb59bd8c68623a015d7ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/b8/b8b66ab87e2f3c72481d32750970fb1f.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/896ba8d6205adb6b0952def69fbaf72e.svg",
+            "https://ege.sdamgia.ru/formula/svg/58/5870bb658ee9e8a6900c138365d64c80.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/dad1533ece96bb22f10da231df9680a5.svg",
+            "https://ege.sdamgia.ru/formula/svg/b8/b8b66ab87e2f3c72481d32750970fb1f.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6ccc963378c4ffbc9bbe074732358864.svg",
+            "https://ege.sdamgia.ru/formula/svg/35/35d2ccea74f5eb8d5fe8d03944b0dfc0.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50bbd36e1fd2333108437a2ca378be62.svg",
+            "https://ege.sdamgia.ru/formula/svg/8d/8dfcb89fd8620e3e7fb6a03a53f307dc.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d8b589450b41b9c11df39a74535b0276.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/db35934a399745402fe37756865cf2ee.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a6ddf1489320918df2bde6ae99ab2d53.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/390d8c3214de36e6775bb8f0411cdb2d.svg",
+            "https://ege.sdamgia.ru/formula/svg/5f/5f5a9d2a66adf398363d1a78dc6e9c6e.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e4a75c382e24719ef9609a62294b25e6.svg"
+        ]
+    },
+    "answer": "",
+    "analogs": [
+        "485938",
+        "503150",
+        "511452",
+        "...",
+        "503150",
+        "511452",
+        "561198"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=485946"
+}

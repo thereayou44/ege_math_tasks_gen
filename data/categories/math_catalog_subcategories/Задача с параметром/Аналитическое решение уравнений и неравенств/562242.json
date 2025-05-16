@@ -1,0 +1,36 @@
+{
+    "id": 562242,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых уравнение имеет хотя бы одно решение на интервале",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ab/abb060b70fdc8c0d46dea35bd6193f98.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af718c0964d76bdf90ea42f35230f21b.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­ме­тим, что урав­не­ние опре­де­ле­но при любых зна­че­ни­ях пе­ре­мен­ной из за­дан­но­го от­рез­ка и что  Ис­поль­зу­ем свой­ство про­пор­ции:При  ре­ше­ни­ем урав­не­ния яв­ля­ет­ся весь ин­тер­вал  Вто­рое урав­не­ние раз­де­лим на  по­лу­чим урав­не­ние   На ин­тер­ва­ле  ко­тан­генс при­ни­ма­ет все зна­че­ния из ин­тер­ва­ла  по­это­му  урав­не­ние  имеет ре­ше­ния на ин­тер­ва­ле  при Объ­еди­няя по­лу­чен­ные зна­че­ния па­ра­мет­ра, по­лу­ча­ем ответ. Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/14/141ee534cd8ec8ec568fcb3ef9dc58c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f46babb161116cae83bc76236afc6555.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b1743915c00e5efabdc114555cc500e4.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2e981d3c8edc4cebe901d1bc5e754bd6.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a7451219f8c07b7044444a282798707e.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/3872c9ae3f427af0be0ead09d07ae2cf.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e238289431148a392add10cfc83196d.svg",
+            "https://ege.sdamgia.ru/formula/svg/3b/3b568d95d432262af45e82cdf6b2abb8.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cbd051494d01835dcd42b2fdb54a7c72.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/dde18a70b1176224d0b4301b6f6d80ef.svg",
+            "https://ege.sdamgia.ru/formula/svg/1f/1f885d61f6148876094abb0d5825c057.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a39f0c8e1a15a8543755a22511951c37.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/dde18a70b1176224d0b4301b6f6d80ef.svg",
+            "https://ege.sdamgia.ru/formula/svg/3f/3f20fab91cbd4dde2a296369ae0da3f6.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e901c14bf00184ccb08b19d97dea8921.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "519637"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=562242"
+}

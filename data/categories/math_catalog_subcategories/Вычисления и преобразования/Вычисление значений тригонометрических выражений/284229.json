@@ -1,0 +1,53 @@
+{
+    "id": 284229,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите если и",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/38/389b1ea2541b771f4ed818cfade1399d.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/6175f4671e81ba2e4e86a86c478d9bd1.svg",
+            "https://ege.sdamgia.ru/formula/svg/69/696aa15838cb0d05001d3188b0c44b8c.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Най­ди­те  если  и По­сколь­ку угол α лежит в чет­вер­той чет­вер­ти, его ко­си­нус по­ло­жи­те­лен. По­это­му  Ответ: 1.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/eb/eb1df8336b09eeb81919dce97e796692.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e6456157a5d19786c735839f02b527b8.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/657f17745d3684597b40e6e9bf08fa52.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/1334d5e40d7f65c31111444c9c6a1eba.svg"
+        ]
+    },
+    "answer": ".",
+    "analogs": [
+        "26777",
+        "284233",
+        "505402",
+        "510443",
+        "...",
+        "284233",
+        "505402",
+        "510443",
+        "64347",
+        "64349",
+        "64351",
+        "64353",
+        "64355",
+        "64357",
+        "64359",
+        "64361",
+        "64363",
+        "64365",
+        "64367",
+        "64369",
+        "64371",
+        "64373",
+        "64375",
+        "64377",
+        "64379",
+        "64381",
+        "284227",
+        "284231"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=284229"
+}

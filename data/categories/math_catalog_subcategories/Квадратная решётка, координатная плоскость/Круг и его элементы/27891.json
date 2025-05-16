@@ -1,0 +1,24 @@
+{
+    "id": 27891,
+    "topic": "Д4",
+    "condition": {
+        "text": "Найдите градусную величину дуги BC окружности, на которую опирается угол Ответ дайте в градусах.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=66173",
+            "https://ege.sdamgia.ru/formula/svg/9d/9d8fd0942eabdd442998a8c077e9c402.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.  Дуга BC равна 90° и еще 45° (см. рис.). Всего 135°. Ответ: 135.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=66172"
+        ]
+    },
+    "answer": "135",
+    "analogs": [
+        "27890",
+        "26237",
+        "509571"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=27891"
+}

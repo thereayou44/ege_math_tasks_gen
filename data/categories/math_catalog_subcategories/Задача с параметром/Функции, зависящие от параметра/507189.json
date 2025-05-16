@@ -1,0 +1,41 @@
+{
+    "id": 507189,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых функция имеет более двух точек экстремума.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/f5/f5dd98ce94829426dad20d183f4069b2.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Рас­кро­ем мо­дуль:Гра­фик функ­ции при  пред­став­ля­ет собой па­ра­бо­лу с вет­вя­ми, на­прав­лен­ны­ми вверх, и вер­ши­ной с абс­цис­сой  При  гра­фик пред­став­ля­ет собой па­ра­бо­лу с вет­вя­ми, на­прав­лен­ны­ми вверх, и вер­ши­ной с абс­цис­сой  Рас­смот­рим все воз­мож­ные кон­фи­гу­ра­ции при раз­лич­ных зна­че­ни­ях Из ри­сун­ка видно, что гра­фик имеет более двух точек экс­тре­му­ма при   Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/c5/c5f6bf42fc6e1091cc1f7da9080546f0.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/dbf720c3f1ff0cd7d154c4ad78323495.svg",
+            "https://ege.sdamgia.ru/formula/svg/64/647f1d835bc4102d0ea08d11e109d380.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6fa9895a9b889d7897a2c06e808650da.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54d244f1d0fd2eaa82a2f1c074d2f6da.svg",
+            "https://ege.sdamgia.ru/formula/svg/35/357503986951b80e896b8616a418a4d6.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=159618",
+            "https://math-ege.sdamgia.ru/get_file?id=159617",
+            "https://math-ege.sdamgia.ru/get_file?id=159619",
+            "https://ege.sdamgia.ru/formula/svg/8e/8eb9a6c52a7387f1e3bb7da5542cd25b.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c45aa414911d4637e7c6c849c24b6157.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "484644",
+        "507185",
+        "507186",
+        "507187",
+        "...",
+        "507185",
+        "507186",
+        "507187",
+        "507188",
+        "507191",
+        "507482"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=507189"
+}

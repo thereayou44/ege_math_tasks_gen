@@ -1,0 +1,30 @@
+{
+    "id": 509116,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображён график функции Найдите",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=154254",
+            "https://ege.sdamgia.ru/formula/svg/36/367f02b575299c9be2c757c5d02c14b8.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/832cae39d7ba08a4df0f215ef1c86d6b.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По гра­фи­ку, f(2)  =  −2, тогда  Таким об­ра­зом, Ответ: −5.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/41/419e226f26f98e11de925835c77ec6fb.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c897ea679fbc2da6dcc0cd34b669c0b.svg"
+        ]
+    },
+    "answer": "-5",
+    "analogs": [
+        "509113",
+        "509114",
+        "509115",
+        "...",
+        "509114",
+        "509115",
+        "509117"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509116"
+}

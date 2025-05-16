@@ -1,0 +1,37 @@
+{
+    "id": 621908,
+    "topic": "17",
+    "condition": {
+        "text": "Около окружности с центром O описана трапеция ABCD с основаниями AD и BC.а) Докажите, что окружность, построенная на отрезке AB как на диаметре, проходит через точку O.б) Найдите отношение площади четырёхугольника, вершины которого — точки касания окружности со сторонами трапеции, к площади самой трапеции ABCD, если известно, что AB = CD, а основания трапеции относятся как 3 : 4.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Центр окруж­но­сти, впи­сан­ной в угол, лежит на его бис­сек­три­се, по­это­му AO и BO  — бис­сек­три­сы углов BAD и ABC со­от­вет­ствен­но. Сле­до­ва­тель­но, От­ре­зок AB виден из точки O под углом 90°. Сле­до­ва­тель­но, точка O при­над­ле­жит окруж­но­сти, по­стро­ен­ной на от­рез­ке AB как на диа­мет­ре.б)  Пусть K, L, M и N  — точки ка­са­ния окруж­но­сти со сто­ро­на­ми AB, BC, CD и AD дан­ной тра­пе­ции со­от­вет­ствен­но. Тогда L  — се­ре­ди­на ос­но­ва­ния BC, по­то­му что углы ABC и BCD равны, углы OBL и OCL равны и пря­мо­уголь­ные тре­уголь­ни­ки OBL и OCL равны по об­ще­му ка­те­ту OL и остро­му углу. Ана­ло­гич­но N  — се­ре­ди­на ос­но­ва­ния AD.  Обо­зна­чим CM  =  CL  =  BL  =  BK  =  x; DM  =  DN  =  AN  =  AK  =  y (x < y); OK  =  OL  =  ON  =  OM  =  r,  Тогда  LN  =  2r  — вы­со­та тра­пе­ции, а KM равно сред­не­му гар­мо­ни­че­ско­му длин от­рез­ков AD и  Для пол­но­ты до­ка­жем это утвер­жде­ние. От­ло­жим на сто­ро­не AD от­ре­зок PD  =  BC, и пусть Q  — точка пе­ре­се­че­ния от­рез­ков BP и KM. Тогда BCDP  — па­рал­ле­ло­грамм и BP па­рал­лель­но CD. За­ме­тим, что    QM  =  BC, а KQ на­хо­дит­ся из по­до­бия тре­уголь­ни­ков BKQ и BAP: Пусть пло­щадь тра­пе­ции ABCD равна S, а пло­щадь четырёхуголь­ни­ка KLMN равна S1. Тогда а так как диа­го­на­ли KM и LN четырёхуголь­ни­ка KLMN пер­пен­ди­ку­ляр­ны, по­лу­ча­ем, что Сле­до­ва­тель­но,  Ответ: б) ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=150480",
+            "https://ege.sdamgia.ru/formula/svg/58/589e9c29e20af4efc7a1e6df4faa6887.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d5a94e5d04bd36236c52464ebc0267f4.svg",
+            "https://ege.sdamgia.ru/formula/svg/7d/7da3f1c4bd9299df0685e08d4c0390da.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d9d6a5b11aec1d6ab70f66490b18fc5c.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/ddaa658d5b31232e3686b7c6b4965a3e.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/735ca3782007ae6f4b335c3d144a830b.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=150479",
+            "https://ege.sdamgia.ru/formula/svg/f3/f3118fc2720d0e28c4a8acbda5e45197.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b34f9d92f388fe8cba0c436fee0c9121.svg",
+            "https://ege.sdamgia.ru/formula/svg/1f/1f9546569e961e4641c82c4c5393f194.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d6fb88644eca4af369fdf0fc9af145a6.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/47e28918c3dabd2eed36cc4b53eb0575.svg",
+            "https://ege.sdamgia.ru/formula/svg/4e/4e3e428bce542858e58ff4b19f235bbb.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/625f5a9ffc39cb746e7ace7520bb1bc9.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e8e13496e1f4bb569570693259e19aea.svg",
+            "https://ege.sdamgia.ru/formula/svg/77/773afb0c5a54e8df33af78044d552952.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b4f7ecc2d5386b12650302d10971ac3e.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/ed6a34fac0aa996544b5008c552a1f87.svg"
+        ]
+    },
+    "answer": " б) ",
+    "analogs": [
+        "621779"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=621908"
+}

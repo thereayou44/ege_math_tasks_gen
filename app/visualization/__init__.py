@@ -1,5 +1,6 @@
 from app.visualization.renderer import GeometryRenderer
 from app.visualization.chart_utils import (
+    normalize_function_expression,
     process_multiple_function_plots,
     process_bar_chart,
     process_pie_chart,
@@ -8,6 +9,7 @@ from app.visualization.chart_utils import (
 
 __all__ = [
     'GeometryRenderer',
+    'normalize_function_expression',
     'process_multiple_function_plots',
     'process_bar_chart',
     'process_pie_chart',

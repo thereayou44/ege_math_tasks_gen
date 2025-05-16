@@ -1,0 +1,38 @@
+{
+    "id": 523403,
+    "topic": "17",
+    "condition": {
+        "text": "Дан треугольник ABC со сторонами и Точки M и N — середины сторон AB и AC соответственно. а) Докажите, что окружность, вписанная в треугольник ABC, касается одной из средних линий.б) Найдите общую хорду окружностей, одна из которых вписана в треугольник ABC, а вторая описана около треугольника AMN.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/2b/2bf890ffa5bd5fc4c85a07375cea6a9a.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fd868342a142955b01f3997ba2d52db0.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Из тео­ре­мы, об­рат­ной тео­ре­ме Пи­фа­го­ра, сле­ду­ет, что тре­уголь­ник ABC пря­мо­уголь­ный с пря­мым углом при вер­ши­не C. Пусть ра­ди­ус его впи­сан­ной окруж­но­сти равен r. ТогдаПусть K  — се­ре­ди­на ка­те­та BC. Тогда рас­сто­я­ние между пря­мы­ми KM и AC равно длине от­рез­ка MN, то есть 20. Зна­чит, рас­сто­я­ние между этими пря­мы­ми равно диа­мет­ру впи­сан­ной в тре­уголь­ник ABC окруж­но­сти. Сле­до­ва­тель­но, эта окруж­ность ка­са­ет­ся сред­ней линии KM.б)  Тре­уголь­ник AMN пря­мо­уголь­ный с пря­мым углом при вер­ши­не N, зна­чит, центр опи­сан­ной окруж­но­сти тре­уголь­ни­ка AMN  — се­ре­ди­на Q от­рез­ка AM, а ра­ди­ус равен 12,5. Пусть впи­сан­ная окруж­ность тре­уголь­ни­ка ABC ка­са­ет­ся сто­рон AB и AC в точ­ках E и F со­от­вет­ствен­но. ТогдаПусть L  — одна из точек пе­ре­се­че­ния рас­смат­ри­ва­е­мых окруж­но­стей. Общая хорда пе­ре­се­ка­ю­щих­ся окруж­но­стей пер­пен­ди­ку­ляр­на линии цен­тров и де­лит­ся ею по­по­лам, зна­чит, ис­ко­мое рас­сто­я­ние равно удво­ен­ной вы­со­те LH тре­уголь­ни­ка OLQ со сто­ро­на­ми  и  про­ведённой из вер­ши­ны L. Вы­со­та QT этого рав­но­бед­рен­но­го тре­уголь­ни­ка, опу­щен­ная на ос­но­ва­ние, яв­ля­ет­ся ме­ди­а­ной, зна­чит,По­это­муСле­до­ва­тель­но, ис­ко­мое рас­сто­я­ние равно  Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=145855",
+            "https://ege.sdamgia.ru/formula/svg/c6/c64f83fd6433778484b4b27d4779c39e.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6edcc0914cf7e7e3ad6352c3cb8a7eea.svg",
+            "https://ege.sdamgia.ru/formula/svg/c0/c069aba5f211bbf0a2de6d36c03df977.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/85c2591dba57bf12f5c527177807f629.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/077cc0a107a6ab2dafdd021ec7d174c6.svg",
+            "https://ege.sdamgia.ru/formula/svg/b2/b2b5fc49141fea2a2ef1a4ee2484dbf9.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a23ecd57637cb76197cc7da532bf6d09.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6d049d6de4097623c9e2587169c76773.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/72ec7281dcdce0f09d9eb65379fa1375.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b704dd03944408ad8b46022f8a8f82ad.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/2979fc557fbc26d7160f10568bedb5e7.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/40e26ba6610efafc93cf626acb3c7326.svg",
+            "https://ege.sdamgia.ru/formula/svg/02/02995a16ec7f9ca983101575b276304b.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/154a8d0a48a5110108b66b42d7270f7e.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/139fdca7d3fef1893d5edae5c4a5e647.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/139fdca7d3fef1893d5edae5c4a5e647.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "523378"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=523403"
+}

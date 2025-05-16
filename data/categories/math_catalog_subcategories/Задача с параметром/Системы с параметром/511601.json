@@ -1,0 +1,29 @@
+{
+    "id": 511601,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых система уравненийимеет хотя бы два решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/a5/a57bac99a77c1d126e24f0f7f7367055.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. \\mathbb{Z} За­ме­тим, что Ис­ход­ная си­сте­ма имеет хотя бы два ре­ше­ния в том и толь­ко в том слу­чае, когда се­мей­ство (крас­ных) пря­мых  имеет с (синим) гра­фи­ком по­лу­чен­ной си­сте­мы хотя бы две общие точки, то есть при  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/1a/1afaf4e92362898d2c7803e7c110557f.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a8038fed7ce6b2d16e0b76ac61fb3f00.svg",
+            "https://ege.sdamgia.ru/formula/svg/80/80da582b40540ee04d770329711cd91d.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=156334",
+            "https://ege.sdamgia.ru/formula/svg/63/63069929f5a0d710fbf1e25276fa1efd.svg",
+            "https://ege.sdamgia.ru/formula/svg/a0/a01cddbae0c85d3a614783627c6311cd.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/db854af5f7e21268929ed6ce948ad015.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "509506",
+        "510076",
+        "511597"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511601"
+}

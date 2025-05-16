@@ -1,0 +1,46 @@
+{
+    "id": 64417,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите если и",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/01/01f6dcdf32045a8b5f661c933535431f.svg",
+            "https://ege.sdamgia.ru/formula/svg/05/05023cebe7d7ddb3c0caf8fd976888c1.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b7a700ec71ef6cdaec19dc48cda17e00.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По­сколь­ку  опре­де­ля­ем, что  Тогда  Ответ: 0,7.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/9d/9dad4991098d350e201729b2646ef24c.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/07c88b88fd302d80a45a34e63c6a87f1.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c7e1f19a0c4bda4af5600f269975ed4c.svg"
+        ]
+    },
+    "answer": "0,7",
+    "analogs": [
+        "26778",
+        "64383",
+        "514753",
+        "...",
+        "64383",
+        "514753",
+        "64385",
+        "64387",
+        "64389",
+        "64391",
+        "64393",
+        "64395",
+        "64397",
+        "64399",
+        "64401",
+        "64403",
+        "64405",
+        "64407",
+        "64409",
+        "64411",
+        "64413",
+        "64415"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=64417"
+}

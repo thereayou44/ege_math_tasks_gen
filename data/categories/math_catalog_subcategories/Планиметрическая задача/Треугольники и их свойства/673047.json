@@ -1,0 +1,32 @@
+{
+    "id": 673047,
+    "topic": "17",
+    "condition": {
+        "text": "На стороне LM равностороннего треугольника KLM выбрана точка S, серединный перпендикуляр к отрезку KS пересекает сторону KМ в точке Q, а сторону KL — в точке P.а) Докажите, что углы LSP и SQM равны.б) Найдите отношение площадей треугольников LSP и SQM, если SM : SL = 2 : 3.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  За­ме­тим, что в тре­уголь­ни­ках KPS и KQS ме­ди­а­на сов­па­да­ет с вы­со­той, то есть KP  =  PS и KQ  =  QS. Пусть  тогда  и по тео­ре­ме о внеш­нем угле:б)  Пусть    тогда  Тре­уголь­ни­ки LSP и MQS по­доб­ны по двум углам. По­ща­ди по­доб­ных тре­уголь­ни­ков от­но­сят­ся как квад­рат ко­эф­фи­ци­ен­та по­до­бия, ко­то­рый равен от­но­ше­нию пе­ри­мет­ров. По­сле­до­ва­тель­но по­лу­ча­ем:Ответ: б) ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=195655",
+            "https://ege.sdamgia.ru/formula/svg/c6/c6642f1bc89d98aeabe8ca785ca40b01.svg",
+            "https://ege.sdamgia.ru/formula/svg/05/05b469cd723a6c502760f2b5bcd5248f.svg",
+            "https://ege.sdamgia.ru/formula/svg/78/7865047a4483d272e4b9748023578358.svg",
+            "https://ege.sdamgia.ru/formula/svg/c0/c0b7a525f18acc449becabfff20c009a.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50d950ca4afb879e0cc8287419ac5e9d.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cb14b7426764b6dbeff8e8e059763e73.svg",
+            "https://ege.sdamgia.ru/formula/svg/f5/f559701a4e94f18cc97a790efed37082.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/ac7e90bcc648a691483a7c4a85ef497e.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b376aacb1a2db2449cafdc9a79854406.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/edf542a8ecb3f23b8ea3f1a61cdcb2e0.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a176103a0d2d3871f7b1ff53525f8db2.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e1ef67c317e79ba6a5dba6ac062fa779.svg"
+        ]
+    },
+    "answer": " б) ",
+    "analogs": [
+        "642892",
+        "642736"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=673047"
+}

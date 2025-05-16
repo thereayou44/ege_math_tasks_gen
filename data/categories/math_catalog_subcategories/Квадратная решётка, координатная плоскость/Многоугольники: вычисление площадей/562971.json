@@ -1,0 +1,21 @@
+{
+    "id": 562971,
+    "topic": "Д4",
+    "condition": {
+        "text": "Найдите площадь треугольника, изображённого на рисунке.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=85488"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пло­щадь тра­пе­ции равна про­из­ве­де­нию по­ло­ви­не про­из­ве­де­ния сто­ро­ны на вы­со­ту, про­ведённую к этой сто­ро­не:Ответ: 12.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/cc/cc70b2313b1ff2661a80934785bb5e45.svg"
+        ]
+    },
+    "answer": "12",
+    "analogs": [
+        "562926"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=562971"
+}

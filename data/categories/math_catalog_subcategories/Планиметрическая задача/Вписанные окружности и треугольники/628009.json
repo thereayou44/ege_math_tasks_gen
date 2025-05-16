@@ -1,0 +1,36 @@
+{
+    "id": 628009,
+    "topic": "17",
+    "condition": {
+        "text": "В треугольник ABC вписана окружность. Она касается стороны AB в точке P. Точка M — середина AB.а) Докажите, что б) Найдите углы треугольника ABC, если и Радиус окружности в 2 раза больше MP.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/37/37f4be84a0e635be3ff1aa4460d36022.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b137555924c8d07816b234a0a01f7404.svg",
+            "https://ege.sdamgia.ru/formula/svg/96/96c5aa56a6c6c9154008f02235758746.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Пусть  K и N  — точки ка­са­ния окруж­но­сти со сто­ро­на­ми BC и AC со­от­вет­ствен­но. Тогда CK  =  CN, BK  =  BP, AN  =  AP, от­ку­да от­ку­да  В слу­чае AC > BC ре­ше­ние пол­но­стью ана­ло­гич­но.б)  Пусть CM  =  AM  =  BM, сле­до­ва­тель­но, по при­зна­ку пря­мо­уголь­но­го тре­уголь­ни­ка, угол C равен 90°. Пусть O  — центр окруж­но­сти. Тогда CNOK  — квад­рат, т. к. все его углы пря­мые, а CN  =  CK. Пусть CK  =  OK  =  r, BK  =  x. Тогда  от­ку­да За­пи­шем тео­ре­му Пи­фа­го­ра для тре­уголь­ни­ка ABC: от­ку­да  Сле­до­ва­тель­но,    Ответ: б)   ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=105196",
+            "https://ege.sdamgia.ru/formula/svg/f9/f9675da4d0b8e71f29c3ba188b7554d5.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/30a4b043b18e4afc4b519c8fb179e73a.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/0624622a9c1e5f4584d3ed7b687083c7.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/90ad7fd6f999e1c4f763133fa3b4bb75.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a7965c07ff76e7d3b2dd3d36af91e5aa.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/55086ce7a5fd257fc051b6e190d8a8fe.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e75c85d40254788b7d7379eb17849870.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/19c37d7f6f1dc304f602a729d7ff9f30.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d47e9426f7c1fc93305324c79be57fcc.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f80fae1192cb8fe181fa0b48259bc5e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/19c37d7f6f1dc304f602a729d7ff9f30.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d47e9426f7c1fc93305324c79be57fcc.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f80fae1192cb8fe181fa0b48259bc5e2.svg"
+        ]
+    },
+    "answer": " б)   ",
+    "analogs": [
+        "627992"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=628009"
+}

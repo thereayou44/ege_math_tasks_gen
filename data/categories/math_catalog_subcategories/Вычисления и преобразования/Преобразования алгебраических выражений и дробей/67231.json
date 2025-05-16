@@ -1,0 +1,52 @@
+{
+    "id": 67231,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/36/36a296193986ead70a0bd741b710f238.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/3925f276b8459a52c72878b56448959c.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Под­став­ляя ар­гу­мен­ты в фор­му­лу, за­да­ю­щую функ­цию, по­лу­ча­ем:   Ответ: −44.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/37/37eab82ec5e386a13d6e011ee42bc3a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8bff7eb3b4cdd4c076891de5762eec43.svg",
+            "https://ege.sdamgia.ru/formula/svg/f5/f51ee2aeba429ef57c251e47202dc287.svg"
+        ]
+    },
+    "answer": "-44",
+    "analogs": [
+        "26823",
+        "67187",
+        "67189",
+        "...",
+        "67187",
+        "67189",
+        "27001",
+        "67183",
+        "67185",
+        "67191",
+        "67193",
+        "67195",
+        "67197",
+        "67199",
+        "67201",
+        "67203",
+        "67205",
+        "67207",
+        "67209",
+        "67211",
+        "67213",
+        "67215",
+        "67217",
+        "67219",
+        "67221",
+        "67223",
+        "67225",
+        "67227",
+        "67229"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=67231"
+}

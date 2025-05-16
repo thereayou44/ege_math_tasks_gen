@@ -1,0 +1,38 @@
+{
+    "id": 504567,
+    "topic": "17",
+    "condition": {
+        "text": "На гипотенузу AB прямоугольного треугольника ABC опустили высоту CH. Из точки H на катеты опустили перпендикуляры HK и HE.а) Докажите, что точки A, B, K и E лежат на одной окружности.б) Найдите радиус этой окружности, если AB = 24, CH = 7.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние.  а)  Пред­по­ло­жим для опре­делённо­сти, что точка E лежит на ка­те­те BC, а точка K  — на ка­те­те AC. Про­ведём от­ре­зок KE и за­ме­тим, что он яв­ля­ет­ся ги­по­те­ну­зой пря­мо­уголь­но­го тре­уголь­ни­ка KCE, рав­но­го тре­уголь­ни­ку CHE, по­доб­но­го тре­уголь­ни­ку ABC.Рас­смот­рим углы четырёхуголь­ни­ка ABEK. Если ∠ABE  =  α, то  а    Зна­чит, Сумма двух про­ти­во­по­лож­ных углов в четырёхуголь­ни­ке 180°, сле­до­ва­тель­но, четырёхуголь­ник впи­сан в окруж­ность. б)  Ра­ди­ус окруж­но­сти, про­хо­дя­щей через точки A, B и E, най­дем по тео­ре­ме си­ну­сов:Из по­до­бия тре­уголь­ни­ков CEH и ABC на­хо­дим от­ку­да ТогдаПо­это­му Сле­до­ва­тель­но, ис­ко­мый ра­ди­ус При­ве­дем ре­ше­ние п. б) при­слан­ное поль­зо­ва­те­лем сайта.Про­дол­жим от­ре­зок КН за точку Н и точку его пе­ре­се­че­ния окруж­но­стью на­зо­вем  Р. Оче­вид­но,  сле­до­ва­тель­но,  За­ме­тим, что  как впи­сан­ные, опи­ра­ю­щи­е­ся на одну дугу. Зна­чит,  то есть   — пря­мой. Таким об­ра­зом,  и CHPB  — па­рал­ле­ло­грамм, в ко­то­ром BP = CH = 7, а AP диа­метр окруж­но­сти. Най­дем его из пря­мо­уголь­но­го тре­уголь­ни­ка ABP: Сле­до­ва­тель­но, ис­ко­мый ра­ди­ус    Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=146534",
+            "https://ege.sdamgia.ru/formula/svg/c0/c09664a6b441c9a9663d03462ae741f0.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/653ff3d37d271ec636e331366275ca80.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/efb1746fa0ea575fa9513c609d733463.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b758b3e9c6bc05c6d624a197c01102f5.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/4744ff9b4bb9a3ffd128ff2b74c4662b.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/576db678ef25e2726615709da1f56bc6.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a488c7d71572c4bedbcd1db57b29ca50.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5d3fc52728831bdad2ce80db7215a1b2.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0fc579788b3863553e5ad92aca6d538a.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=146533",
+            "https://ege.sdamgia.ru/formula/svg/b9/b9e4045ac3c2fa6ea882ef0feffe1ec0.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/70740a280246052dec06bfec4c65b182.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa68275048aa79c781f7a22d01a0107c.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1e4fc04354af5fdfcf011cce5a99bf8e.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/9970247cc5833cf964de04e45360c05e.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/17f3a06e7c62dc95abe146535a27a882.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/acadb9f29d66a7ec0e330353e8918236.svg",
+            "https://ege.sdamgia.ru/formula/svg/d0/d0ee3b91a6be9c521bf12939b0b44b0a.svg",
+            "https://ege.sdamgia.ru/formula/svg/ce/ceb8183404660f81d46df07780cc376c.svg"
+        ]
+    },
+    "answer": "",
+    "analogs": [
+        "504546"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=504567"
+}

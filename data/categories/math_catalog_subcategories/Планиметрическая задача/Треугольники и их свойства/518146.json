@@ -1,0 +1,25 @@
+{
+    "id": 518146,
+    "topic": "17",
+    "condition": {
+        "text": "В треугольник ABC, в котором длина стороны AC больше длины стороны BC, вписана окружность с центром O. Точка B1 симметрична точке B относительно прямой CO.а) Докажите, что A, B, O и B1 лежат на одной окружности.б) Найдите площадь четырёхугольника ABOB1, если AB = 10, AC = 8 и BC = 6.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Рис. 1а)  Луч CO яв­ля­ет­ся бис­сек­три­сой угла ACB, по­это­му точка B1 лежит на от­рез­ке AC (рис. 1). Луч BO яв­ля­ет­ся бис­сек­три­сой угла ABC, по­это­муЗна­чит, около четырёхуголь­ни­ка ABOB1 можно опи­сать окруж­ность.б)  Тре­уголь­ник ABC пря­мо­уголь­ный (рис. 2), по­сколь­ку  Ра­ди­ус r впи­сан­ной в него окруж­но­сти равен Най­дем пло­ща­ди тре­уголь­ни­ков ABC, BOC и B1OC:Рис. 2Тре­уголь­ник ABC со­став­лен из четырёхуголь­ни­ка ABOB1 и тре­уголь­ни­ков BOC и B1OC. Зна­чит, пло­щадь четырёхуголь­ни­ка ABOB1 равнаОтвет: б) 12.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=147420",
+            "https://ege.sdamgia.ru/formula/svg/81/81ea667ca716be7b360db6cb6b79e4d0.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b797810a7cd4a66a1bd2496f490be347.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50fe04d0d42bcf8c5ca7818f58923a43.svg",
+            "https://ege.sdamgia.ru/formula/svg/b8/b8db60401fdf0d55744ae4d4ef4bf7db.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=147419",
+            "https://ege.sdamgia.ru/formula/svg/e4/e405ef90e36f59d25608e5950acb35c5.svg"
+        ]
+    },
+    "answer": " б) 12.",
+    "analogs": [
+        "517832"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=518146"
+}

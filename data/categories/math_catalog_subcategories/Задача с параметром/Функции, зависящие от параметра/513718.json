@@ -1,0 +1,43 @@
+{
+    "id": 513718,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все такие значения параметра a, при каждом из которых наименьшее значение функции не больше 3.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/df/df6f3f655403c2a681b4d9a5633bb211.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Дан­ная функ­ция опре­де­ле­на и не­пре­рыв­на на мно­же­стве дей­стви­тель­ных чисел и точки  раз­би­ва­ют дей­стви­тель­ную ось на про­ме­жут­ки, в каж­дом из ко­то­рых гра­фи­ком дан­ной функ­ции яв­ля­ет­ся часть не­ко­то­рой па­ра­бо­лы. За­ме­тим, что при  зна­че­ния дан­ной функ­ции не­огра­ни­чен­но воз­рас­та­ют. Сле­до­ва­тель­но, свое наи­мень­шее зна­че­ние дан­ная функ­ция при­ни­ма­ет в одной из точек (или в не­сколь­ких этих точ­ках)  где  и   — абс­цис­сы вер­шин тех па­ра­бол, ветви ко­то­рых на­прав­ле­ны вверх.Эти па­ра­бо­лы  и  или  и  Абс­цис­сы их вер­шин со­от­вет­ствен­но Таким об­ра­зом, наи­мень­шее зна­че­ние функ­ции  не боль­ше 3 тогда и толь­ко тогда, когда вы­пол­ня­ет­ся хотя бы одно из не­ра­венств: Так как  по­лу­ча­ем со­во­куп­ность не­ра­венств:Учи­ты­вая, что  по­лу­ча­ем Ана­ло­гич­но Таким об­ра­зом, окон­ча­тель­но по­лу­ча­ем  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/34/349b8e3197a502f11d921fad267e8e83.svg",
+            "https://ege.sdamgia.ru/formula/svg/3f/3f7a974ab337efa92d885a408e43f723.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fb87d12afaa514d083347e26e7cc9786.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/743ffb22a1947031b14f52ee16d3f1e6.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa687da0086c1ea060a8838e24611319.svg",
+            "https://ege.sdamgia.ru/formula/svg/87/8732099f74d777a67257cb2f04ead3d8.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b3b10ec2531185f45a89a01d924f08c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/ab/ab658aeb676fa6ebd5bc7d6444350370.svg",
+            "https://ege.sdamgia.ru/formula/svg/0a/0afe188a340bb6d370bee3051c3bc7b4.svg",
+            "https://ege.sdamgia.ru/formula/svg/5b/5b9d9fbe0fad6d5c9a8a08caa97646fa.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/394c301801bb3760796749556270dbe8.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/88575d59b74a9976280547b8fe90229a.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/865920f0f25022e8b6bb5ecf94fb5125.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4da6da1d5a63dc69971efdd3e4e50845.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bb173bb4cfe98a29e4175e04cccedaac.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0b06799577d7e26179f2e152b5134296.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c9362ff14a229cba1d680e04d160ea5f.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=159624",
+            "https://ege.sdamgia.ru/formula/svg/4f/4fbfd9bfc58ef3b0189b0427d2694cd1.svg",
+            "https://ege.sdamgia.ru/formula/svg/9c/9c9ac1d16a6e1b268b91072b08f18b1b.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/367a643bfa692be91b1a696221ecfaaf.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e7f852e6b2d396bc78acd86a4e0b77e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/23d7ec8823ee2b10958cb430b3fa0a97.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "513688"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=513718"
+}

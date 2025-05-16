@@ -1,0 +1,36 @@
+{
+    "id": 500970,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых на отрезке существует хотя бы одно число x, удовлетворяющее неравенству",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/3c/3c677f273d5640cb290c4e4ac717fbc7.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/6065937df44c01fd5ca140efd2cdaa7c.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.  Пре­об­ра­зу­ем не­ра­вен­ство:Не­ра­вен­ство  опре­де­ля­ет на плос­ко­сти Oxa по­ло­су, за­клю­чен­ную между пря­мы­ми  и  Не­ра­вен­ство  задаёт часть плос­ко­сти, огра­ни­чен­ную свер­ху па­ра­бо­лой. За­ме­тим, также, что по­след­нее не­ра­вен­ство вле­чет также вы­пол­не­ние усло­вия  не­об­хо­ди­мо­го при сня­тии мо­ду­ля, по­сколь­ку, при  па­ра­бо­ла  лежит не ниже па­ра­бо­лы На ри­сун­ке видно, что на ин­тер­ва­ле  есть x, удо­вле­тво­ря­ю­щие не­ра­вен­ству, толь­ко если  Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=157044",
+            "https://ege.sdamgia.ru/formula/svg/b5/b51dc8ac4dc076f659cc2aa297484c9e.svg",
+            "https://ege.sdamgia.ru/formula/svg/7e/7e68b8151854d7de762d883460d4e746.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/91ebdd6b83bc3fce2e15df41c254f2b5.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e11729b0b65ecade3fc272548a3883fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54d244f1d0fd2eaa82a2f1c074d2f6da.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1d054a6b2b90559f38a50ad6b6d73390.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8e4579b4da70645873633fd89cd293f3.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2f68967d1fc18187d74c82bf244f6b83.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a1c5fad1291d68ab45cf70e3d5243b05.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/758bab5bd0677050b7364a8813584f61.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/796c239b767246374117cf0e948a510e.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/5346f9d5ce876ce1b00674cc3971b897.svg",
+            "https://ege.sdamgia.ru/formula/svg/05/053617fdc95c13811074ad5f14c36251.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "500965",
+        "511350"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=500970"
+}

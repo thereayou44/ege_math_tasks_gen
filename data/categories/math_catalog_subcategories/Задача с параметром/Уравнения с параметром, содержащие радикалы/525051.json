@@ -1,0 +1,34 @@
+{
+    "id": 525051,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых уравнениеимеет единственный корень на отрезке [−1; 1].",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/0c/0cd1114597a086d65f10f2920e200e3a.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Урав­не­ние  рав­но­силь­но урав­не­нию  Оно имеет един­ствен­ный ко­рень  на от­рез­ке [−1; 1] при  и не имеет кор­ней на этом от­рез­ке при дру­гих зна­че­ни­ях a.Урав­не­ние  рав­но­силь­но си­сте­ме  Эта си­сте­ма имеет един­ствен­ный ко­рень  на от­рез­ке [−1; 1] при  и не имеет кор­ней на этом от­рез­ке при дру­гих зна­че­ни­ях a.По­сколь­ку  урав­не­ние  имеет един­ствен­ный ко­рень на от­рез­ке [−1; 1] при  и  Ответ:  ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/63/630e150f103f877fa804fc1c80d40eaa.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/88c657ed97f5e01719490eb358ce0ef7.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a255512f9d61a6777bd5a304235bd26d.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83a88ab12cf3296e031df84985733d33.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1dee02f8beef81b1a15648a9a1c01c4d.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3ac83292cda3bb798619f6ef4cd0e51f.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/19f0f688dcd7c829c1303ecf657fe797.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5c9beddb1dc59cf9ba35e3195eb11558.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a42f49e43047841a5406e3b4bb716ebe.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0cd1114597a086d65f10f2920e200e3a.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5c9beddb1dc59cf9ba35e3195eb11558.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/622a095dc9edee90d21fc439afb1ab02.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/8529f5702f993e8f6d05e8fff5ec6f71.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/622a095dc9edee90d21fc439afb1ab02.svg"
+        ]
+    },
+    "answer": "  ",
+    "analogs": [
+        "525028"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=525051"
+}

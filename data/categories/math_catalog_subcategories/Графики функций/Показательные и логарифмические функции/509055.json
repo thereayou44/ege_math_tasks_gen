@@ -1,0 +1,52 @@
+{
+    "id": 509055,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображён график функции Найдите",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=154240",
+            "https://ege.sdamgia.ru/formula/svg/eb/eb04a2d60f152b0a71d989c8ca758f01.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/849d990e8fff6b095dcf065c0aee6ba6.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По ри­сун­ку опре­де­ля­ем, что   ТогдаЗна­чит,  Найдём зна­че­ние Ответ: −6.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/04/046a57b41792a9068a88ac8a4942c475.svg",
+            "https://ege.sdamgia.ru/formula/svg/78/7849a68d6028de91f796ff1e1efb654b.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/076d94e8bd0b19f0eee2dd66ed6ddd08.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/929946113dca607269571ee448fe802b.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/99ef21f3fb09f36fd1cfcb4f962e67d1.svg",
+            "https://ege.sdamgia.ru/formula/svg/35/352b85503bd303eb4c2bf337b7173632.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/397beeda48be229d20e0afc1210e0ffd.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d541cc7d65f00cfd5c765c181d7f3e61.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6f37da65d0239a7ca65fece1961e8367.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa5a2edff1ea7ac039e4cb4391cd06ee.svg"
+        ]
+    },
+    "answer": "-6",
+    "analogs": [
+        "509042",
+        "509043",
+        "509044",
+        "509045",
+        "...",
+        "509043",
+        "509044",
+        "509045",
+        "509046",
+        "509047",
+        "509048",
+        "509049",
+        "509050",
+        "509051",
+        "509052",
+        "509053",
+        "509054",
+        "509056",
+        "509057",
+        "509058",
+        "509059"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509055"
+}

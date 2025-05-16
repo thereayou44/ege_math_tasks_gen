@@ -1,0 +1,32 @@
+{
+    "id": 530562,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра а, при каждом из которых множество значений функциисодержит отрезок [0; 1].",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/10/10ce7a3e00a2bc301b3c9c913c9e7603.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­пи­шем функ­цию в виде  Если при не­ко­то­рых зна­че­ни­ях а су­ще­ству­ют такие числа x0, x1, что вы­пол­ня­ют­ся ра­вен­ства  и  то от­ре­зок [0; 1] будет при­над­ле­жать мно­же­ству зна­че­ний дан­ной функ­ции.Пер­вое урав­не­ние:Урав­не­ние имеет ре­ше­ние при любом Вто­рое урав­не­ние:Урав­не­ние имеет ре­ше­ние тогда и толь­ко тогда, когда его дис­кри­ми­нант не­от­ри­ца­те­лен:Ре­ше­ни­ем этого не­ра­вен­ства яв­ля­ет­ся мно­же­ство  Сле­до­ва­тель­но, усло­вию за­да­чи удо­вле­тво­ря­ют толь­ко все зна­че­нияОтвет: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/0d/0d235e5d19384412dc2a93284cd6e91d.svg",
+            "https://ege.sdamgia.ru/formula/svg/bc/bca50864dfa40a32188383f8fc2fd456.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/3639be55e2354a7d72f2d6f353dd0958.svg",
+            "https://ege.sdamgia.ru/formula/svg/fe/fe1105dea0fc25d5353143247163adc9.svg",
+            "https://ege.sdamgia.ru/formula/svg/f2/f2492b7cf83af6a0d214fd16f50b0774.svg",
+            "https://ege.sdamgia.ru/formula/svg/bd/bdb63676b96798bb9d3a3873d1533305.svg",
+            "https://ege.sdamgia.ru/formula/svg/78/78edfd60213af15034074360054fae8d.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8b78f402265e3b2bf54fc9ebf6cae2d2.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f1524668848d800e7f6707c8840dbe30.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7bb256ba4ab6d1108d5fa04d5db897c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/137751dfaa3542e0d00c78c9876e3493.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/744f0ad0705bd1ad006c8c3c6aa93e55.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "530460"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=530562"
+}

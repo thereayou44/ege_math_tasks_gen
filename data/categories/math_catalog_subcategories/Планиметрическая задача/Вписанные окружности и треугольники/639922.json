@@ -1,0 +1,35 @@
+{
+    "id": 639922,
+    "topic": "17",
+    "condition": {
+        "text": "Окружность с центром O вписана в треугольник ABC. Касательная к окружности пересекает стороны AC и BC в точках D и E соответственно.а) Докажите, что сумма углов AOD и BOE равна 180°.б) Найдите DE, если AC = BC, радиус окружности равен 1, а разность углов AOD и BOE равна 60°.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/59/59f0155cb3abe721a98f5bc2a161ff99.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а) Центр окруж­но­сти, впи­сан­ной в угол, лежит на бис­сек­три­се этого угла, по­это­му AO и BO  — бис­сек­три­сы углов A и B тре­уголь­ни­ка ABC, а DO и EO  — бис­сек­три­сы внеш­них углов при вер­ши­нах D и E тре­уголь­ни­ка DEC. Тогда  и  сле­до­ва­тель­но, б)  Пусть впи­сан­ная окруж­ность ра­ди­у­сом 1 ка­са­ет­ся бо­ко­вых сто­рон AC и BC в точ­ках M и N со­от­вет­ствен­но, а от­рез­ка DE  — в точке K. По свой­ству от­рез­ков ка­са­тель­ных, про­ведённых из одной точки, DK  =  DM и KE  =  EN, от­ку­да сле­ду­ет, что DE  =  DK + KE  =  DM + EN. Из усло­вия  и до­ка­зан­но­го ра­вен­ства в пунк­те а)  по­лу­ча­ем:  и  По­сколь­ку AC  =  BC, углы OAD и OBE равны как по­ло­ви­ны углов при ос­но­ва­нии рав­но­бед­рен­но­го тре­уголь­ни­ка ABC. Обо­зна­чим  тогда  и  В пря­мо­уголь­ном тре­уголь­ни­ке DOM из­вест­но, что OM  =  3, сле­до­ва­тель­но,Ана­ло­гич­но в пря­мо­уголь­ном тре­уголь­ни­ке EONПо­лу­ча­ем Ответ: б) ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=130837",
+            "https://ege.sdamgia.ru/formula/svg/36/36ee987c7f4a08983e25c28a286be348.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/45588e77c2b0be36ed673d87a08905c6.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d6d140dd84139a54236e532f0eccd2ce.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/66eb43c218c0aa410cc3ad6210e61fe9.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5dbc5776b6b846c74fb9033b4aa35bf6.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/75b1f40112d5b61da169427c30e8131e.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/db196a3632bea857a5785a877e4f402d.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6fb0fe5ea043a8f45bde9e8608b216ec.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f6cc227d816cf1b7781dd09b4699c08f.svg",
+            "https://ege.sdamgia.ru/formula/svg/11/114d9d5b7882f56be6e562ade303cfe7.svg",
+            "https://ege.sdamgia.ru/formula/svg/98/9869354ba636a750c6c38aafffa043ff.svg",
+            "https://ege.sdamgia.ru/formula/svg/f2/f2a707dfd448b8225fe74200adf06a55.svg",
+            "https://ege.sdamgia.ru/formula/svg/43/43ac6412241d7d5c0dfd3bbd335d05da.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d5de7a2e46420c17b1ef5b2c12cd7edf.svg"
+        ]
+    },
+    "answer": " б) ",
+    "analogs": [
+        "639871"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=639922"
+}

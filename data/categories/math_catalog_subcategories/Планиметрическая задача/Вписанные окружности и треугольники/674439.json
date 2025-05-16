@@ -1,0 +1,37 @@
+{
+    "id": 674439,
+    "topic": "17",
+    "condition": {
+        "text": "Периметр треугольника ABC равен 24. На сторонах AB и BC отмечены точки E и F соответственно так, что BE : EA = BF : FC = 3 : 1. Прямая EF касается окружности, вписанной в треугольник.а) Докажите, что AC = 3.б) Найдите площадь треугольника ABC, если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/73/73460876c1a51ec68dfe06ecdc7bf719.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Че­ты­рех­уголь­ник AEFC опи­сан около окруж­но­сти, по­это­му  Тре­уголь­ни­ки BEF и BAC по­доб­ны с ко­эф­фи­ци­ен­том по­до­бия  Зна­чит,   Сле­до­ва­тель­но, Пе­ри­метр тре­уголь­ни­ка ABC равен 24, по­это­му  от­ку­да по­лу­ча­ем б)  Пусть BC  =  x. Тогда по­лу­ча­ем  По тео­ре­ме Пи­фа­го­ра от­ку­да на­хо­дим  Зна­чит,  и пло­щадь тре­уголь­ни­ка ABC равна  Ответ: б) ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=199211",
+            "https://ege.sdamgia.ru/formula/svg/b2/b29da58209587a6fd5710143ba53ef80.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/91bb53ccabd6642a2b9d4a0e0f10137c.svg",
+            "https://ege.sdamgia.ru/formula/svg/14/14dfc1b0ab16f45f500724fb315cddc2.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/27da11929fd1f94cae763ce59e6c4aa8.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fd1e62b3748b2538ad3aac43222315af.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/16d9baf23a5d846354df2c6110a1af88.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/15144895c3b9977ef6836ecccb727185.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9f2d2334be6db044795eb269e55b52f9.svg",
+            "https://ege.sdamgia.ru/formula/svg/ff/ff0692d42459e7ca1e3f82558c212fa2.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d6a77dc6ecdb2de7e0a27e57bfdaace3.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/85f46caf8fe8e7f10dc0023460350e9b.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/900efdb7dbdda7608b74699eec615ad2.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/844deafab6e5bf471a12143c9d6a8ce4.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/16cdf7a6b137d0d804d3be137b5e7bdb.svg"
+        ]
+    },
+    "answer": " б) ",
+    "analogs": [
+        "660765",
+        "660915",
+        "674808"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=674439"
+}

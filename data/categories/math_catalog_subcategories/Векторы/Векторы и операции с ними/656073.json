@@ -1,0 +1,30 @@
+{
+    "id": 656073,
+    "topic": "2",
+    "condition": {
+        "text": "Даны векторы и Найдите скалярное произведение",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/33/33fd563937fdca43919c0cdde617ecaa.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/174475075b13f519028f7961121489f6.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4f6af99a43259021756064f629453e8c.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Ска­ляр­ное про­из­ве­де­ние равно:Ответ: 7.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/f7/f73c6f7ae28f79f6f4dcc9855ea51241.svg"
+        ]
+    },
+    "answer": "7",
+    "analogs": [
+        "649891",
+        "649895",
+        "656243",
+        "...",
+        "649895",
+        "656243",
+        "656601",
+        "658681"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=656073"
+}

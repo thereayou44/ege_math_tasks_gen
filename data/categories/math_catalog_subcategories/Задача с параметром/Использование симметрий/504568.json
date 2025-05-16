@@ -1,0 +1,40 @@
+{
+    "id": 504568,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра при каждом из которых уравнение имеет единственное решение.Найдите это решение для каждого значения",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ab/ab2e3ecf75de3be7b9fc8bf38b04e3c4.svg",
+            "https://ege.sdamgia.ru/formula/svg/f2/f2ac61b3710a61af062ef97e41432263.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9fbcccf456ef61f9ea007c417297911d.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пусть число x  — ре­ше­ние дан­но­го урав­не­ния при не­ко­то­ром зна­че­нии па­ра­мет­ра  Тогда число  есть его ре­ше­ние при том же зна­че­нии  Если ре­ше­ние един­ствен­но, то ре­ше­ния  и x сов­па­да­ют, то есть Под­ста­вив это ре­ше­ние в ис­ход­ное урав­не­ние, по­лу­чим:от­ку­да  Пусть  Тогда ис­ход­ное урав­не­ние при­мет видОт­сю­да сле­ду­ет, что  сле­до­ва­тель­но, Ис­ход­ное урав­не­ние при­ни­ма­ет вид  и оно имеет един­ствен­ное ре­ше­ние  удо­вле­тво­ря­ю­щее усло­вию  Сле­до­ва­тель­но,  удо­вле­тво­ря­ет усло­вию за­да­чи. Ответ: при  един­ствен­ное ре­ше­ние ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/d8/d8e1ef7f4ac11071e2b157586b24ba26.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/5663c2e3d157262febc028faa44ab77f.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d8e1ef7f4ac11071e2b157586b24ba26.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/5663c2e3d157262febc028faa44ab77f.svg",
+            "https://ege.sdamgia.ru/formula/svg/b2/b2ac203deadc9b6e6f6b37bd418699a9.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d563963df5a1c0f807922de3993c4c59.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2a1b71b785c0cb14bb665bfef5a37b68.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/014fb9d6ded787e60512c7aa92f2d282.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b71b33c39f65cfa1fdad6f77a6f7aa54.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/463139d0179c6bffce7890e8e6c9746a.svg",
+            "https://ege.sdamgia.ru/formula/svg/d0/d095096ba8dfceac0832e81986755f51.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/18d6c9e9dd982819482333ad8068ea50.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa5804ba59e5d8e024d0373ce56dab0c.svg",
+            "https://ege.sdamgia.ru/formula/svg/7d/7dff0db7fbdda8c587dd7796d6d32b53.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fd352b68bf83391284e044021cab0339.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/3872c9ae3f427af0be0ead09d07ae2cf.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/37d7fd1c0234c63a605600983c5bdb8f.svg"
+        ]
+    },
+    "answer": "",
+    "analogs": [
+        "504547",
+        "511391"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=504568"
+}

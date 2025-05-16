@@ -1,0 +1,38 @@
+{
+    "id": 509093,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображён график функции Найдите",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=154247",
+            "https://ege.sdamgia.ru/formula/svg/b4/b44bbe410f1334968bbecba2e66f9137.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c35ef2e98d8f9de9b3bb2f836b4c97a7.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По гра­фи­ку функ­ции  опре­де­ля­ем, что  и  Тогда по­лу­ча­ем си­сте­му:Зна­чит,  Най­дем Ответ: 33.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/95/9532b93b393ac55538aa143fb6ece8f1.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d7e111ee87cc2419dff7459363defac0.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/66006769a7e5692faa470e39f5c28f3e.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/88a7ec254c64eb102cc596d6185510bc.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d3e5df2252faf66c62b1f30fa1c332e.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6fc08491e51a73edccd70c6760849183.svg",
+            "https://ege.sdamgia.ru/formula/svg/c0/c07992e5178f6dbef038946988023e8e.svg"
+        ]
+    },
+    "answer": "33",
+    "analogs": [
+        "509089",
+        "509090",
+        "509091",
+        "509092",
+        "...",
+        "509090",
+        "509091",
+        "509092",
+        "630181",
+        "639646"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509093"
+}

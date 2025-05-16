@@ -1,0 +1,40 @@
+{
+    "id": 562178,
+    "topic": "17",
+    "condition": {
+        "text": "Отрезок, соединяющий середины M и N оснований соответственно BC и AD трапеции ABCD, разбивает её на две трапеции, в каждую из которых можно вписать окружность.а) Докажите, что трапеция ABCD равнобедренная.б) Известно, что радиус этих окружностей равен 4, а меньшее основание BC исходной трапеции равно 14. Найдите радиус окружности, касающейся боковой стороны AB, основания AN трапеции ABMN и вписанной в неё окружности.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Так как че­ты­рех­уголь­ни­ки ABMN и MCDN можно впи­сать в окруж­ность, суммы длин их про­ти­во­по­лож­ных сто­рон равны:итак как точки M и N  — се­ре­ди­ны ос­но­ва­ний, длины BM и MC, AN и ND равны, а зна­чит,  от­ку­да  Таким об­ра­зом, тра­пе­ция ABCD рав­но­бед­рен­ная.б)  Рас­смот­рим тре­уголь­ни­ки BKO и BOL, на­хо­дим: от­ку­да BO  =  5. Из пря­мо­уголь­ных тре­уголь­ни­ков AOL и AOB по­лу­чим си­сте­му урав­не­ний:решая ко­то­рую, най­дем  По­ка­жем связь между уг­ла­ми BAD и OAH и най­дем PP1: Те­перь най­дем ра­ди­ус окруж­но­сти:Ответ: 1. При­ме­ча­ние Ва­лен­ти­на Ев­ста­фье­ва (Санкт-Пе­тер­бург).После того, как най­де­ны  и  можно вос­поль­зо­вать­ся сле­ду­ю­щи­ми со­об­ра­же­ни­я­ми. Обо­зна­чим точки Q и S, как по­ка­за­но на ри­сун­ке. Из по­до­бия за­клю­ча­ем, что от­но­ше­ние рас­сто­я­ний от вер­ши­ны угла до пер­вой и вто­рой точек пе­ре­се­че­ния бис­сек­три­сы со впи­сан­ной в угол окруж­но­стью есть ве­ли­чи­на по­сто­ян­ная для дан­но­го угла. Тогда:  а по­то­му  Сле­до­ва­тель­но,    от­ку­да QP  =  2, а это диа­метр ма­лень­кой окруж­но­сти. Зна­чит, ее ра­ди­ус равен 1.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=123497",
+            "https://ege.sdamgia.ru/formula/svg/72/72b945e02e3a3f893e5a2098c2ba3719.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2db2d35ba776f159bc6c0c990bfe8842.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/4940e95b423ff2a15b78715c9d4ae9c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/91efc694d64b95a39ba19f55887404b8.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3af0e62e4cce1f1c1ec0dbf49265c602.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dc180e375718d73d8e272dbd23958538.svg",
+            "https://ege.sdamgia.ru/formula/svg/02/02989ad3029832b54dd6376e3a987ba6.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e8a468d8e73c1673f4d19fff01df88f5.svg",
+            "https://ege.sdamgia.ru/formula/svg/5f/5f4d7b821967fd3241d971a6e22358b8.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/154a3acf6f3899d316ba9e49064c63ce.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b771b2fb5c7583ac6c10e740beda5c4d.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3deaebb717241aefee2531601750989b.svg",
+            "https://ege.sdamgia.ru/formula/svg/58/58aa05c7a9cdd4288d10a657492feeec.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=123535",
+            "https://ege.sdamgia.ru/formula/svg/93/93a43234857bfe9a636809fb1cfb7ecc.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f9115ec0159cd0fb6a2f92e3a146130f.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c78fdfc527e198c2d72dfb4292efad52.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af167c8dd4ee95292906338103f59800.svg",
+            "https://ege.sdamgia.ru/formula/svg/0a/0adc6aea94a156423ee07946176828d3.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/62a5976fa68889ffa9e3ceaee8187bf6.svg"
+        ]
+    },
+    "answer": " 1.",
+    "analogs": [
+        "513267",
+        "514719"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=562178"
+}

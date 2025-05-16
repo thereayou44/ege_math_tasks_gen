@@ -1,0 +1,23 @@
+{
+    "id": 520507,
+    "topic": "6",
+    "condition": {
+        "text": "Найдите корень уравнения",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/49/49bb7e3116b027aadb80d6cfca7cb5a8.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Воз­ве­дем обе части урав­не­ния в тре­тью сте­пень: Ответ: 116.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/8a/8ad7b81694fc52bc75767cbe1450afb7.svg"
+        ]
+    },
+    "answer": "116",
+    "analogs": [
+        "501205",
+        "520487",
+        "635147"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=520507"
+}

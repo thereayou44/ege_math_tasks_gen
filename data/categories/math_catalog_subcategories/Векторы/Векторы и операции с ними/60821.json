@@ -1,0 +1,58 @@
+{
+    "id": 60821,
+    "topic": "2",
+    "condition": {
+        "text": "Стороны правильного треугольника ABC равны Найдите длину вектора",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/85/85b863454c12ac6a2a96ab3709e38593.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d786dacce66913235da895f7fbf3b0a4.svg",
+            "https://math-ege.sdamgia.ru/pic?id=a3702"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Сто­ро­ны пра­виль­но­го тре­уголь­ни­ка ABC равны  Най­ди­те длину век­то­ра До­стра­и­ва­ем тре­уголь­ник до ромба. По­сколь­ку  не­об­хо­ди­мо найти длину боль­шей диа­го­на­ли ромба, рав­ную удво­ен­ной длине ме­ди­а­ны рав­но­сто­рон­не­го тре­уголь­ни­ка  Таким об­ра­зом, имеем: Ответ: 6.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=145723",
+            "https://ege.sdamgia.ru/formula/svg/fd/fdfbb42df7a5ce999654af7934100d75.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c7126d15f5aa4df0b2d66b7e2943fba.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=145724",
+            "https://ege.sdamgia.ru/formula/svg/a8/a84c5291c6e705cae55dd682cc5778a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4b5b9eab089a2e0ff9b286f012e61feb.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f9dfe5a303da6737d3621e6c9ea16a52.svg"
+        ]
+    },
+    "answer": "15",
+    "analogs": [
+        "27720",
+        "26453",
+        "60805",
+        "60807",
+        "...",
+        "26453",
+        "60805",
+        "60807",
+        "60809",
+        "60811",
+        "60813",
+        "60815",
+        "60817",
+        "60819",
+        "60823",
+        "60825",
+        "60827",
+        "60829",
+        "60831",
+        "60833",
+        "60835",
+        "60837",
+        "60839",
+        "60841",
+        "60843",
+        "60845",
+        "60847",
+        "60849",
+        "60851",
+        "60853"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=60821"
+}

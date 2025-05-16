@@ -1,0 +1,33 @@
+{
+    "id": 525457,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых уравнениеимеет единственное решение на",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/08/08086672ec8e07e2f245000116fd3841.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d23eac305d87f83269ba636020342f3e.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пре­об­ра­зу­ем дан­ное урав­не­ние: Так как функ­ция  на от­рез­ке  при­ни­ма­ет каж­дое свое зна­че­ние ровно один раз, а   толь­ко в точке  то по­лу­чен­ная си­сте­ма имеет на этом от­рез­ке един­ствен­ное ре­ше­ние тогда и толь­ко тогда, когда урав­не­ние  имеет ровно одно ре­ше­ние на про­ме­жут­ке  т. е. при   или при  (см. рис.). Ответ:  или ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/95/95c50d4edf2a2279ccc37baa3ff7fb15.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=156842",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf8d21657415a62202058e9ac08da5eb.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c4518180a919292036a44d501483e4ef.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1b80e3aecb36493a115514677a0d5c61.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4f08e3dba63dc6d40b22952c7a9dac6d.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2ae4b86039c11ef2de543266e9edbe5a.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ec5f4c4e825789c9ce4047ce48bc9190.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/512e2423e60bb002e3ae2ba8f99756e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/9271abe1d5446e120b7556174787606d.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/512e2423e60bb002e3ae2ba8f99756e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/15fa7b54ebac537e1557a53492e4736e.svg"
+        ]
+    },
+    "answer": "  или ",
+    "analogs": [
+        "525412"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=525457"
+}

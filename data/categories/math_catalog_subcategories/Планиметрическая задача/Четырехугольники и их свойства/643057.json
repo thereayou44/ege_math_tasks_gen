@@ -1,0 +1,36 @@
+{
+    "id": 643057,
+    "topic": "17",
+    "condition": {
+        "text": "Дана равнобедренная трапеция ABCD с основаниями AD и BC. Биссектрисы углов BAD и BCD пересекаются в точке O. Через точку O проведена прямая, параллельная основаниям трапеции и пересекающая ее боковые стороны. а) Докажите, что длина отрезка этой прямой с концами на боковых сторонах трапеции, равна ее боковой стороне.6) Найдите отношение длин оснований трапеции, если и данная прямая делит AB в отношении",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ac/acacb073695a362ee4922b33c073dd51.svg",
+            "https://ege.sdamgia.ru/formula/svg/c6/c68e0175bd8552e86ad45f4cc6e8c3d0.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Пусть пря­мая, про­хо­дя­щая через точку O па­рал­лель­но BC пе­ре­се­ка­ет пря­мую AB в точке M и пря­мую CD в точке F. Углы MOA и OAD равны как на­крест ле­жа­щие, сле­до­ва­тель­но, угол MAO равен углу MOA, тогда AM  =  MO. Ана­ло­гич­но углы BCO и COF равны, сле­до­ва­тель­но, OF  =  CF. За­ме­тим, что AMFD  — рав­но­бо­кая тра­пе­ция, сле­до­ва­тель­но, AM  =  FD, тогда б)  Пусть AM  =  2x, BM  =  3x, угол AMO равен α, тогда  Для тре­уголь­ни­ков AMO и CFO по тео­ре­ме ко­си­ну­сов: Учи­ты­вая, что по усло­вию AO  =  OC, по­лу­ча­емОт­сю­да  Имеем:от­сю­даВы­ра­зим длину AD:Най­дем от­но­ше­ние BC к AD:Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=136883",
+            "https://ege.sdamgia.ru/formula/svg/22/226a5dc41530ec90b2e01674dcea6902.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c9065c0e7a06fb9f28aabbbd39f52e87.svg",
+            "https://ege.sdamgia.ru/formula/svg/24/24691c0e46cb18363d2829c27bc88ab7.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/66e0a95f5dc8cef1b2674e9852394cdf.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f88b18db7379c5ef7a2dd60387ffa848.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/1512518c85b92ade3bb89b5865e9907e.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1e0963cc92f8a0f62690d8a2cf7fbeaa.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=136882",
+            "https://ege.sdamgia.ru/formula/svg/be/be535ab3b78d7b290c88584a6e7a8e77.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83fee41bef48950dd5f902b3d12358db.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b438f39247a4a0b05ef474287b9dc869.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/825757bb570ac25584ea6147909e295d.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a8e2f7b9ccbfcb82572b04ba8600cd3f.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa8d7ccadb88e2237bc66b3bc7b22abf.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "642782"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=643057"
+}

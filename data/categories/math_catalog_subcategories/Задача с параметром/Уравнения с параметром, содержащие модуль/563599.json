@@ -1,0 +1,39 @@
+{
+    "id": 563599,
+    "topic": "18",
+    "condition": {
+        "text": "Найти все значения параметра а при каждом из которых уравнение имеет ровно два решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/b4/b44c37f941f72153d90810721b2bc67a.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Рас­смот­рим функ­цию  рас­кро­ем мо­ду­ли:Дан­ная ку­соч­но-ли­ней­ная функ­ция при  воз­рас­та­ет на  и убы­ва­ет на  А при  воз­рас­та­ет на  и убы­ва­ет на  От­дель­но про­ве­рим, что при  функ­ция при­ни­ма­ет лишь от­ри­ца­тель­ные зна­че­ния.Сле­до­ва­тель­но, функ­ция f имеет по од­но­му нулю на каж­дом из двух про­ме­жут­ков воз­рас­та­ния и убы­ва­ния тогда и толь­ко тогда, когда наи­боль­шее зна­че­ние функ­ции по­ло­жи­тель­но. то есть при  или : Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/17/177ecb148796ba9b72376a692d5188e9.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bbc2a5212e7ddea24e00850ccd74590b.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/53bec003ab8001471086dd589f359229.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3d581ce130670901ab1d3bdb6c1b713c.svg",
+            "https://ege.sdamgia.ru/formula/svg/9c/9cd734165d70327bd2125f04c80d6e46.svg",
+            "https://ege.sdamgia.ru/formula/svg/33/33bb3118e067766241020ce5f7fa132c.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a1344f83516a47c298b639fe3763613e.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/82eccfe19ca0e88ffcb1829f0076785a.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/adf544ee15fcf04bd68116c609528fe4.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/94417fe7ee8de2e83b4f4c19612462f9.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/51ca296a9595e42e4d0df7852a9024d0.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e1b0956f2a95ac01294cc4ab2608a1f0.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1c223541c5d4dd58edfb9130c795878a.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "563618",
+        "563658",
+        "647140",
+        "...",
+        "563658",
+        "647140",
+        "647160"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=563599"
+}

@@ -1,0 +1,40 @@
+{
+    "id": 508302,
+    "topic": "16",
+    "condition": {
+        "text": "31 декабря 2014 года Савелий взял в банке 7 378 000 рублей в кредит под 12,5% годовых. Схема выплаты кредита следующая: 31 декабря каждого следующего года банк начисляет проценты на оставшуюся сумму долга (то есть увеличивает долг на 12,5%), затем Савелий переводит в банк платёж. Весь долг Савелий выплатил за 3 равных платежа. На сколько рублей меньше он бы отдал банку, если бы смог выплатить долг за 2 равных платежа?",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­ме­тим, что уве­ли­че­ние долга на 12,5% есть уве­ли­че­ние его в  раза. ДатаДолг при усло­вии, что Са­ве­лийвы­пла­тил долг за 3 рав­ных пла­те­жаДолг при усло­вии, что Са­ве­лийвы­пла­тил долг за 2 рав­ных пла­те­жа31.12.2014Долг: 7 378 000 руб.Долг: 7 378 000 руб.31.12.2015Долг уве­ли­чен,стал  руб.Долг уве­ли­чен,стал  руб.До 31.12.2016Са­ве­лий пе­ре­вел в банк х руб.Долг умень­шил­ся и стал  руб.Са­ве­лий пе­ре­вел в банк у руб.Долг умень­шил­ся и стал  руб.31.12.2016Долг уве­ли­чен в раза,стал   руб.Долг уве­ли­чен в раза,стал   руб.До 31.12.2017Са­ве­лий пе­ре­вел в банк  х руб. Долг умень­шил­ся и стал  руб., т. е.  руб.Са­ве­лий пе­ре­вел в банк  у руб. Долг умень­шил­ся и стал  руб., т. е.  руб. Са­ве­лий рас­пла­тил­ся за 2 рав­ных пла­те­жа. Долга нет. Т. е. 31.12.2017Долг уве­ли­чен в  раза,стал   руб.Долг 0 руб.До 31.12.2018Са­ве­лий пе­ре­вел в банк х руб. Долг умень­шил­ся и стал  руб., т. е.  руб. Са­ве­лий рас­пла­тил­ся за 3 рав­ных пла­те­жа. Долга нет. Т. е. Долг 0 руб. Из таб­ли­цы по­лу­ча­ем, что еже­год­ные пла­те­жи в пер­вом слу­чае:  Во вто­ром слу­чае:  Найдём на­сколь­ко руб­лей мень­ше отдал бы Са­ве­лий банку, если бы вы­пла­чи­вал долг двумя рав­ны­ми пла­те­жа­ми:  Ответ: 506 250.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/f4/f40117c0045cb95c679f5084ccceb5fd.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8e909c15a3555c4023f638aae7369adb.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8e909c15a3555c4023f638aae7369adb.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a8816aafd69e8877fb9bbee063976d3f.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2ef861aa9f01671c043a2b17054e5f3d.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/01372bd994cf6aee276abce370612dda.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8b350a4847187a4fa629e781f80edd08.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/01372bd994cf6aee276abce370612dda.svg",
+            "https://ege.sdamgia.ru/formula/svg/76/76eee8df8c47a57ec8ee1d987ee080a9.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/921904f464a9e1c0ef4ba42f5ef98803.svg",
+            "https://ege.sdamgia.ru/formula/svg/fe/fe342d8003c17c3f60aa16b67e4236fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf664adc2a137a279187a57f6d126d48.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e4b3be0d96cee6730cefa306ec0ec2a6.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e7f6babd1c6a70f29066e97ae2f79876.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/01372bd994cf6aee276abce370612dda.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/91c2724e6c40be4df4668374b0ffa09a.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/822d2c4eb62a48aadd38de5f35f1ba33.svg",
+            "https://ege.sdamgia.ru/formula/svg/9c/9c761b3801a99d6c983430120e4ab527.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/ae60153a6cb63b4e660677d8f135eb16.svg",
+            "https://ege.sdamgia.ru/formula/svg/a5/a52c48866c947cd715308e45acb1a3b5.svg",
+            "https://ege.sdamgia.ru/formula/svg/20/20f6cbb0d87526793372f12a4cb06e69.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf5b0bfca467b7facf4636d2d4511eed.svg"
+        ]
+    },
+    "answer": " 506 250.",
+    "analogs": [
+        "507284"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=508302"
+}

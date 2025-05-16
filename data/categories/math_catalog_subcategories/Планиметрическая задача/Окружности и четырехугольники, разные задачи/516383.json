@@ -1,0 +1,35 @@
+{
+    "id": 516383,
+    "topic": "17",
+    "condition": {
+        "text": "Точки P, Q, W делят стороны выпуклого четырехугольника ABCD в отношении AP : PB = CQ : QB = CW : WD = 1 : 4, радиус окружности, описанной около треугольника PQW, равен 10, PQ = 16, QW = 12, угол PWQ — острый.а) Докажите, что треугольник PQW — прямоугольный.б) Найдите площадь четырёхугольника ABCD.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  По тео­ре­ме си­ну­сов в тре­уголь­ни­ке PQW имеем  сле­до­ва­тель­но,  от­сю­да   Таким об­ра­зом, Сле­до­ва­тель­но,  от­ку­да, учи­ты­вая, что угол PWQ ост­рый, на­хо­дим, что  и, зна­чит,  (угол QPW также ост­рый, так как QW < PQ), то есть  От­сю­да сле­ду­ет, что тре­уголь­ник PQW пря­мо­уголь­ный.б)  Тре­уголь­ни­ки ABC и PBQ по­доб­ны с ко­эф­фи­ци­ен­том по­до­бия  От­сю­да сле­ду­ет, что PQ и AC па­рал­лель­ны и  Ана­ло­гич­но QW и BD па­рал­лель­ны и  Угол между пря­мы­ми AC и BD равен углу между пря­мы­ми PQ и  Угол между диа­го­на­ля­ми четырёхуголь­ни­ка ABCD пря­мой. По­это­му его пло­щадь равна  Ответ: 600.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=150094",
+            "https://ege.sdamgia.ru/formula/svg/5b/5b6cd5184abc421c4a0af0b73e247773.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d5e73dc97b4faaa3f040693885f63cec.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b11dbf583a1820b59c0f19f7b868e073.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a36b6322e7fa3383bbff3c18830eed29.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5c9a3c37659631ad8d5bb46e5f0e2b75.svg",
+            "https://ege.sdamgia.ru/formula/svg/6b/6b108f47137c20e00c9bf3e7e9758db2.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/afa7034539d78ae10eff3e328138b53d.svg",
+            "https://ege.sdamgia.ru/formula/svg/80/806c554a17b5c2088ac33d7929b2ac51.svg",
+            "https://ege.sdamgia.ru/formula/svg/eb/eb25cdaec92b96b4646549bde25e5be0.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/ca83c8ed6a6247b3f509d115e6ed0b2f.svg",
+            "https://ege.sdamgia.ru/formula/svg/20/209a68d465c6da2df62f10829412e9a6.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/07779f4020be43e88d3000ddc3e60ef0.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5de0ed4d4bccbe8cbe23fabf7f6233c7.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c30d501317955dc0fc52e22dddd14aff.svg"
+        ]
+    },
+    "answer": " 600.",
+    "analogs": [
+        "516403",
+        "674935",
+        "674974"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=516383"
+}

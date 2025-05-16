@@ -1,0 +1,30 @@
+{
+    "id": 651039,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых неравенствоимеет решения на промежутке (0; 1].",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/39/39d29a2eedb2bf40a6457f695da6b3f3.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Рас­смот­рим не­ра­вен­ство как квад­рат­ное от­но­си­тель­но а:Изоб­ра­зим гра­фи­ки функ­ций  и  на плос­ко­сти xOa. Общие точки гра­фи­ков  — (0; 2) и (2; 6), что можно про­ве­рить под­ста­нов­кой их ко­ор­ди­нат в урав­не­ния  и  Боль­ше двух точек быть не может в силу про­ти­во­по­лож­ной вы­пук­ло­сти дан­ных кри­вых. На про­ме­жут­ке (0; 1] ре­ше­ния не­ра­вен­ства есть тогда и толь­ко тогда, когда  Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=157217",
+            "https://ege.sdamgia.ru/formula/svg/03/030aeac326568073db96137b69d45263.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d9459c46047428af0c5cc45a5056a812.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3d180f2743d008d6952fde5f5b1fd4cb.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6c338bdefa289b94ca213f2d09e876fa.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3d180f2743d008d6952fde5f5b1fd4cb.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e6adaf34fb644339993310000f335c47.svg",
+            "https://ege.sdamgia.ru/formula/svg/ab/abc8dab6ee8bbc9c3dcca866e8b4e4e0.svg",
+            "https://ege.sdamgia.ru/formula/svg/ab/abc8dab6ee8bbc9c3dcca866e8b4e4e0.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "635157",
+        "651068"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=651039"
+}

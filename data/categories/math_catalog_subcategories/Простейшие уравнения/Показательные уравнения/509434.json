@@ -1,0 +1,26 @@
+{
+    "id": 509434,
+    "topic": "6",
+    "condition": {
+        "text": "Найдите корень уравнения",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/2a/2a0e60fef8c873781bbe760c3fe53212.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пе­рейдём к од­но­му ос­но­ва­нию сте­пе­ни: Ответ: −0,4.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/56/5645b8b126ca766f4eadd055a2a3db43.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/236028c34cd5dc47db1f38535777dffa.svg",
+            "https://ege.sdamgia.ru/formula/svg/78/78acc6a0260b85862aae4f186b470b9a.svg",
+            "https://ege.sdamgia.ru/formula/svg/bc/bc474eccecf45a0f1c4ede459a1328fe.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a636a62e56fb89d94268ecb2713ad084.svg"
+        ]
+    },
+    "answer": "-0,4",
+    "analogs": [
+        "509413",
+        "510936"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509434"
+}

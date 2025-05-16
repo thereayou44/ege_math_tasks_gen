@@ -1,0 +1,53 @@
+{
+    "id": 66179,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/d6/d6215e4e1d409e515b15d9d6ea8e7086.svg",
+            "https://ege.sdamgia.ru/formula/svg/c0/c0000237213253af8d0e8a92aab29f02.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­ме­тим, что  Тогда   Ответ: 2.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/b9/b9abd0f2af1929b1fcda8aabdeb4550a.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f755827e1c0ae6519a1a0f03805b374e.svg"
+        ]
+    },
+    "answer": "2",
+    "analogs": [
+        "26807",
+        "66175",
+        "66125",
+        "...",
+        "66175",
+        "66125",
+        "66127",
+        "66129",
+        "66131",
+        "66133",
+        "66135",
+        "66137",
+        "66139",
+        "66141",
+        "66143",
+        "66145",
+        "66147",
+        "66149",
+        "66151",
+        "66153",
+        "66155",
+        "66157",
+        "66159",
+        "66161",
+        "66163",
+        "66165",
+        "66167",
+        "66169",
+        "66171",
+        "66173",
+        "66177"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=66179"
+}

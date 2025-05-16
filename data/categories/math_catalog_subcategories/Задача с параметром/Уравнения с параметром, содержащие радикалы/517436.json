@@ -1,0 +1,40 @@
+{
+    "id": 517436,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения а, при каждом из которых уравнениеимеет хотя бы одно решение на отрезке [0; 1].",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/cf/cf53cea30336848a0f653b1b67351216.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­пи­шем урав­не­ние в виде  и рас­смот­рим два слу­чая.Пер­вый слу­чай:  при при вы­пол­не­нии усло­вий то есть еслиВто­рой слу­чай: Ко­рень  лежит на от­рез­ке [0; 1] при  Для вто­ро­го слу­чая по­лу­ча­ем Таким об­ра­зом, ис­ход­ное урав­не­ние имеет хотя бы один ко­рень на от­рез­ке [0; 1] при  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/74/74bc29cecd24a29ccb98588deb8d30a1.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83eadcb96513a5562ad30f3c813c9361.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/38d355f83d1400a3b2034190b5f1599a.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3edb73870912cfb8af454de015c9e840.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/66ad25b23a83bbb2493a2a7510558fbd.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/520a4d44c6adf58d074279639b7dc9cb.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/ea47cd5b608fe5b0fd923c819f55cf2b.svg",
+            "https://ege.sdamgia.ru/formula/svg/c5/c5753202211f2c07cced71426d5d8e83.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/31f730526ff539bd43f0eb14b1a37b9d.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/adf269280107a0015147475b0dfddea9.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/8821079def73eb46318bad4b609ca5d5.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/08edd9e64719f3c394a1aa3986d9326e.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "517432",
+        "517443",
+        "517450",
+        "...",
+        "517443",
+        "517450",
+        "517457",
+        "517557",
+        "517560"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=517436"
+}

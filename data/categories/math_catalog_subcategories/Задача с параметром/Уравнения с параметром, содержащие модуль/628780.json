@@ -1,0 +1,28 @@
+{
+    "id": 628780,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых уравнениеимеет единственное решение на отрезке",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/47/47829f9e2f8a47768472d120d008aca9.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c20600d5c1bd6d8767d9345a61967705.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Если х  — ре­ше­ние дан­но­го урав­не­ния, то число −х тоже ре­ше­ние. От­сю­да сле­ду­ет, что един­ствен­ным ре­ше­ни­ем дан­но­го урав­не­ния может быть толь­ко х  =  0. Тогда по­лу­ча­ем1.  Пусть a  =  0. Тогда Име­ет­ся 3 ре­ше­ния на от­рез­ке 2.  Пусть a  =  4. Тогда Урав­не­ние  ре­ше­ний не имеет, а урав­не­ние  на от­рез­ке  имеет един­ствен­ное ре­ше­ние х  =  0. Ответ: a  =  4.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/7d/7db674b994e39a83cd456f4bc47434fe.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0ed2d40bed8d4620f5ecf04c89b57496.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c20600d5c1bd6d8767d9345a61967705.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7b8edccb6af7f843134b6e5fe96fce39.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d452119abf44adbd5ad259f37c1b5fcf.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0e1f843162c0f19928fb013058355a2a.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/9984a90e94277e13b6e94663ae2d8755.svg"
+        ]
+    },
+    "answer": " a  =  4.",
+    "analogs": [
+        "628754"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=628780"
+}

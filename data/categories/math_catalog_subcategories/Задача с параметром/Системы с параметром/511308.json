@@ -1,0 +1,35 @@
+{
+    "id": 511308,
+    "topic": "18",
+    "condition": {
+        "text": "При каких значениях параметров а и b система имеет бесконечно много решений?",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/f6/f6f276902a8c8a5c6dec41da5c3744ee.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. На ко­ор­ди­нат­ной плос­ко­сти хОу мно­же­ство точек  удо­вле­тво­ря­ю­щих лю­бо­му из урав­не­ний си­сте­мы  — пря­мые. А тогда ре­ше­ни­ем си­сте­мы будут точки пе­ре­се­че­ния этих пря­мых. По­это­му ис­ход­ная си­сте­ма будет иметь бес­ко­неч­ное мно­же­ство ре­ше­ний в том и толь­ко в том слу­чае, когда эти пря­мые сов­па­да­ют. В общем слу­чае две пря­мые, за­дан­ные урав­не­ни­я­ми  и  сов­па­да­ют, если,  и  (при  они имеют одну точку пе­ре­се­че­ния, при  и  точек пе­ре­се­че­ния у них нет). Сле­до­ва­тель­но, си­сте­ма будет иметь бес­ко­неч­но много ре­ше­ний в том слу­чае, когда сов­мест­на си­сте­магде  и   Решая си­сте­му, по­лу­ча­ем   Ответ:  ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/3d/3dcd49e44dafa409842d82c6201dfdc4.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/285751cd242e069a93b435268d4cc54d.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e2b9469016d4e5b88feb9ace67cd254d.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e187f6bec4ffc4330b2e6a05d090ed2c.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/01a6ceac6cf2008a7e4a527c36a3a903.svg",
+            "https://ege.sdamgia.ru/formula/svg/96/96705f8aa0d7d39a03f12df21c3e11d6.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e187f6bec4ffc4330b2e6a05d090ed2c.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a348725b586420cb68b2b67546de01d0.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b4a72dbd1f17cf006aa2976ea43e73f9.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/51c0587a22beda1af3afbbb4b97cd966.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e26534c344ba4b4523f387e99862aaed.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1bc30c5243bbf01d0c3ac44bfe00fde3.svg",
+            "https://ege.sdamgia.ru/formula/svg/5b/5bdb914da0fe46f40b1fb12b4f37d627.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/163e695a2fd9a948c55a4bd2fa19457f.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/2996dfaf5bb91b56b35ae52337e75277.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "484633"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511308"
+}

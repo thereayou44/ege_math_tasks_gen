@@ -1,0 +1,61 @@
+{
+    "id": 641912,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых наименьшее значение функции на множестве не меньше 12.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/d9/d9730366b3efca6fdf67d17030584e24.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e64f1c77f0c757484ec3a5fb0351f34d.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Гра­фи­ком функ­ции  яв­ля­ет­ся па­ра­бо­ла, ветви ко­то­рой на­прав­ле­ны вверх, а вер­ши­на имеет ко­ор­ди­на­ты  Зна­чит, ми­ни­мум функ­ции f(x) на всей чис­ло­вой пря­мой до­сти­га­ет­ся при  На мно­же­стве  эта функ­ция до­сти­га­ет наи­мень­ше­го зна­че­ния либо в точке  если эта точка при­над­ле­жит мно­же­ству, либо в одной из гра­нич­ных точек Раз­берём два слу­чая: точка  при­над­ле­жит или не при­над­ле­жит мно­же­ству Пер­вый слу­чай:  при  то есть  или  В этом слу­чае наи­мень­шее зна­че­ние функ­ции на этом мно­же­стве до­сти­га­ет­ся в этой точке и равно  Оно долж­но быть не мень­ше 12:  от­ку­да  Итак, в этом слу­чае по­лу­ча­ем:  Вто­рой слу­чай:  при  то есть  Тогда наи­мень­шее зна­че­ние функ­ции на мно­же­стве  - это ми­ни­мум из чисел  и  Он не мень­ше 12 тогда и толь­ко тогда, когда оба эти числа не мень­ше 12: 1)  при  по­лу­ча­ем   от­ку­да  2)  при  по­лу­ча­ем  от­ку­да За­пи­шем си­сте­му не­ра­венств:  ре­ше­ни­я­ми ко­то­рой яв­ля­ют­ся  a  =  0 и  Итак, в этом слу­чае a  =  0.  Ответ: a  =  0; ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/cc/ccbeb4d7c6093da7ea58dc9f7cffc93c.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1a0dbe33f104d350a58d3ba117ec5570.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a9e1364f9af71e35c9d14b1833bef929.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e64f1c77f0c757484ec3a5fb0351f34d.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/66f2a98a9ce826c87f7c49e2d7246785.svg",
+            "https://ege.sdamgia.ru/formula/svg/4e/4ee0b7d60e730613d4c71729cecba390.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa77976a988ae6fc76805178f7d6f97e.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6c9df22eb552d430f75ecb0665db0128.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa77976a988ae6fc76805178f7d6f97e.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e72a9de66a9a146f947215f9bf7e8fa2.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2f5bf65c0a560a68c0f45d7dcfc00981.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/41a239b0319d502aa2a5f326c9ab1a28.svg",
+            "https://ege.sdamgia.ru/formula/svg/80/801ac2325262def272dd23ef74d1231c.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dc78ec40cb202f770c044bd1e1badb4d.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/41a239b0319d502aa2a5f326c9ab1a28.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/41a239b0319d502aa2a5f326c9ab1a28.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa77976a988ae6fc76805178f7d6f97e.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1cbb340b18021a7d34487439027a524f.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e902542b3b4a1290f7176a06703e179c.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e64f1c77f0c757484ec3a5fb0351f34d.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/1511728e9d651d34552bb2af8af9ddc0.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/26e6628a377757193b691ba0a1182258.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c448531a66418e847678061805f60384.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f41377b058039799bc778d89d61fc8a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b189abfe6371046d1d433ae87fd4c9fb.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/196ae28d60b1e25f4673558f459f438c.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/84cb16f6064c5c7411cfeb0be8c2ecd1.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/39b58959dea9c542818ec26f59f511d3.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/63cb1d959a227fe2e6f77d669eb4bcc7.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f6f49ac81fdbacc50768fd6937bc48c6.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/41a239b0319d502aa2a5f326c9ab1a28.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/41a239b0319d502aa2a5f326c9ab1a28.svg"
+        ]
+    },
+    "answer": " a  =  0; ",
+    "analogs": [
+        "500016",
+        "500022",
+        "500451",
+        "500471",
+        "...",
+        "500022",
+        "500451",
+        "500471",
+        "641930"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=641912"
+}

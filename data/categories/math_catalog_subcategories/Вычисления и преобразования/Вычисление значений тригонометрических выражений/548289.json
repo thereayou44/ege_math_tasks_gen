@@ -1,0 +1,22 @@
+{
+    "id": 548289,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите значение выражения",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/25/25f51a7f9220015011b159ddc8cec690.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Вы­пол­ним пре­об­ра­зо­ва­ния: Ответ: 23.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/eb/eb8f9ead3422258e035a1649e6c0a13f.svg"
+        ]
+    },
+    "answer": "23",
+    "analogs": [
+        "504410",
+        "548261"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=548289"
+}

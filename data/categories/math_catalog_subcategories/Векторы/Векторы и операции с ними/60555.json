@@ -1,0 +1,52 @@
+{
+    "id": 60555,
+    "topic": "2",
+    "condition": {
+        "text": "Диагонали ромба ABCD равны 32 и 23. Найдите длину вектора",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=207941",
+            "https://ege.sdamgia.ru/formula/svg/54/5427468a164097463240356bf253f231.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Раз­ность век­то­ров  и  равна век­то­ру  Длина век­то­ра  равна 23. Ответ: 23.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/d0/d035affacfa4598f5e399737a7a546ea.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e88ffbba5ab1a5e0ce2dab81b14b953.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/5532998cbf52879c4e268c8a91caf682.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/553979820187d2d29b1063698323c4e6.svg"
+        ]
+    },
+    "answer": "23",
+    "analogs": [
+        "27715",
+        "60557",
+        "60559",
+        "...",
+        "60557",
+        "60559",
+        "60561",
+        "60563",
+        "60565",
+        "60567",
+        "60569",
+        "60571",
+        "60573",
+        "60575",
+        "60577",
+        "60579",
+        "60581",
+        "60583",
+        "60585",
+        "60587",
+        "60589",
+        "60591",
+        "60593",
+        "60595",
+        "60597",
+        "60599",
+        "60601",
+        "60603"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=60555"
+}

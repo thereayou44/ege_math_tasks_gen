@@ -1,0 +1,34 @@
+{
+    "id": 516258,
+    "topic": "17",
+    "condition": {
+        "text": "Дана трапеция ABCD с основаниями AD и Диагональ BD разбивает её на два равнобедренных треугольника с основаниями AD и а) Докажите, что луч AC — биссектриса угла BAD .б) Найдите CD, если известны диагонали трапеции: и",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/90/90b425c2898f0ee7d2629aad1e09646f.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/758d98d8aa0fb6bd84827363961b3b9f.svg",
+            "https://ege.sdamgia.ru/formula/svg/9c/9c8ba8a1d19137e5b6c4984060591e3a.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fc3dec7a321f7d13c751101f2eb67585.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.  а)   сле­до­ва­тель­но, AC  — бис­сек­три­са угла б)  По­сколь­ку   , точки A, D и C лежат на окруж­но­сти ра­ди­у­са 6,5 с цен­тром в точке  Про­дол­жим ос­но­ва­ние BC за точку B до пе­ре­се­че­ния с этой окруж­но­стью в точке  Тогда   — диа­метр окруж­но­сти, а ADCE  — рав­но­бед­рен­ная тра­пе­ция. По­это­му  а так как точка A лежит на окруж­но­сти с диа­мет­ром CE, по­лу­ча­ем, что  Из пря­мо­уголь­но­го тре­уголь­ни­ка CAE на­хо­дим, что  Сле­до­ва­тель­но,  Ответ: 5.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=147390",
+            "https://ege.sdamgia.ru/formula/svg/41/41d7fde18bed053f7fc2fd9fb4feda62.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/6807632f99b29c174f420ede98741476.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/61b30ade751b1a35daa0df73caefd0a4.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b06c26aed02d969d0f2315ba11b5432b.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/096b5dbdd0efe5fdefa4e357e9a7225c.svg",
+            "https://ege.sdamgia.ru/formula/svg/5b/5b3ca61290958315ba774b264ad47b6b.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6f6fbd20e68cb663b55a4db7d4c4238b.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6c1bce554ff82b002b1cb55235435d9e.svg",
+            "https://ege.sdamgia.ru/formula/svg/59/596cb016f2c7a3a6b7dc35f97e30f66f.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/6822ac36a0cb081864eb6bb53309ae10.svg"
+        ]
+    },
+    "answer": " 5.",
+    "analogs": [
+        "516277"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=516258"
+}

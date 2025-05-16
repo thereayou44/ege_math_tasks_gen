@@ -1,0 +1,39 @@
+{
+    "id": 660768,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых система уравнений имеет два решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/9a/9a92c04ed02b82ccabecb0bf52819f31.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Рас­смот­рим пер­вое урав­не­ние си­сте­мы. За­ме­тим, что па­ра­метр a не­от­ри­ца­те­лен, так как иначе сумма мо­ду­лей была бы от­ри­ца­тель­ным чис­лом, чего быть не может. При a  =  0 по­лу­ча­ем x  =  y  =  0, что про­ти­во­ре­чит вто­ро­му урав­не­нию си­сте­мы. Урав­не­ние  при  имеет вид квад­ра­та с вер­ши­на­ми на ко­ор­ди­нат­ных осях и диа­го­на­ля­ми, рав­ны­ми 2a. Гра­фик вто­ро­го урав­не­ния по­лу­ча­ет­ся из гра­фи­ка функ­ции  сдви­гом на де­вять еди­ниц влево вдоль оси абс­цисс.При a  =  3 си­сте­ма имеет ровно одно ре­ше­ние, а при a  =  9  — 3 ре­ше­ния. Най­дем, при каком зна­че­нии па­ра­мет­ра гра­фик корня ка­са­ет­ся сто­ро­ны квад­ра­та. Для этого опре­де­лим, при каких па­ра­мет­рах a урав­не­ние  имеет един­ствен­ное ре­ше­ние. Имеем: Урав­не­ние  имеет един­ствен­ное ре­ше­ние в том слу­чае, если дис­кри­ми­нант равен нулю. Решим урав­не­ние D  =  0: Урав­не­ние  имеет един­ствен­ное ре­ше­ние в том слу­чае, если дис­кри­ми­нант равен нулю. Решим урав­не­ние D  =  0:Учи­ты­вая, что  по­лу­ча­ем, что гра­фи­ки урав­не­ний  и  ка­са­ют­ся при a  =  9,25. При най­ден­ном зна­че­нии а абс­цис­сой точки ка­са­ния яв­ля­ет­ся  эта точка дей­стви­тель­но лежит на сто­ро­не квад­ра­та. Сле­до­ва­тель­но, си­сте­ма урав­не­ний имеет два ре­ше­ния при  и a  =  9,25. Ответ:",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/71/71d883b02ba339200bb0b83277d2e2c8.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/323c5f97105643bc61e288fe596194ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c4636956ff012340060b036946ab3e6.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=181266",
+            "https://ege.sdamgia.ru/formula/svg/b5/b5cab9731b3fe3a87f0e18a4808e1f4e.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bf7a9f53fcfd4d8628d172dc5d8d0278.svg",
+            "https://ege.sdamgia.ru/formula/svg/76/7605298dfa4080a12c8639380b80f713.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a69f789a62023f380f87820d27bdacee.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/ca743ae988e2ddbc773a1ce8147e469b.svg",
+            "https://ege.sdamgia.ru/formula/svg/7e/7e1890690fd99a5bc661c0ac85b87710.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/47f2320b94d8746289fd32725bb0167f.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/18002df4ad9ed765377a51b767bc1e68.svg",
+            "https://ege.sdamgia.ru/formula/svg/58/58dbc2013e06d999d88a1b0d856c4005.svg",
+            "https://ege.sdamgia.ru/formula/svg/64/6469352ca58d84d60082de1c25e2ee31.svg",
+            "https://ege.sdamgia.ru/formula/svg/0a/0a777d55929865adb0e2788f746f8a25.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/841b347e0731559c7bc0f8a3bfb40198.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1aaca90295d1feaa0a42b7b8aacf71a1.svg",
+            "https://ege.sdamgia.ru/formula/svg/71/7121e8c5b48addf1a69a5efab11a9804.svg"
+        ]
+    },
+    "answer": "",
+    "analogs": [
+        "660767",
+        "680007"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=660768"
+}

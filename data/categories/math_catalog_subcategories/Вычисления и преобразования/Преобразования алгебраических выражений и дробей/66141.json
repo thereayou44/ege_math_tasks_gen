@@ -1,0 +1,57 @@
+{
+    "id": 66141,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/eb/eb0cab2621f3dc0ee32d4cc73f37ba0e.svg",
+            "https://ege.sdamgia.ru/formula/svg/c0/c0000237213253af8d0e8a92aab29f02.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Най­ди­те  если Из усло­вия  на­хо­дим, что  и под­став­ля­ем в дробь: Ответ: 2.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/0f/0feab5a7d39195c235c67cdc62924ebf.svg",
+            "https://ege.sdamgia.ru/formula/svg/c0/c0000237213253af8d0e8a92aab29f02.svg",
+            "https://ege.sdamgia.ru/formula/svg/71/7114b0ad356e58dbfcd47f5a57695b5e.svg",
+            "https://ege.sdamgia.ru/formula/svg/d1/d1100c82c1f468a4eb1d160834293b2a.svg",
+            "https://ege.sdamgia.ru/formula/svg/02/028dc744ea7286f6c8de2840a441076a.svg"
+        ]
+    },
+    "answer": "2",
+    "analogs": [
+        "26807",
+        "66175",
+        "66179",
+        "66125",
+        "...",
+        "66175",
+        "66179",
+        "66125",
+        "66127",
+        "66129",
+        "66131",
+        "66133",
+        "66135",
+        "66137",
+        "66139",
+        "66143",
+        "66145",
+        "66147",
+        "66149",
+        "66151",
+        "66153",
+        "66155",
+        "66157",
+        "66159",
+        "66161",
+        "66163",
+        "66165",
+        "66167",
+        "66169",
+        "66171",
+        "66173",
+        "66177"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=66141"
+}

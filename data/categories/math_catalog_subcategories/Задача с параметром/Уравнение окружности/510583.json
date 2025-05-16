@@ -1,0 +1,48 @@
+{
+    "id": 510583,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых система имеет единственное решение.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/8e/8e86d159cc134383f7041effae6ff7a8.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.  Пре­об­ра­зу­ем си­сте­му:Не­ра­вен­ство  задаёт на плос­ко­сти по­ло­су, гра­ни­ца ко­то­рой  — пара па­рал­лель­ных пря­мых:  и Если  то си­сте­ма не имеет ре­ше­ний, по­сколь­ку пра­вая часть урав­не­ния ста­но­вит­ся от­ри­ца­тель­ной. Если  то урав­не­ние при­ни­ма­ет вид:  и задаёт един­ствен­ную точку  ко­ор­ди­на­ты ко­то­рой удо­вле­тво­ря­ют не­ра­вен­ству:  Сле­до­ва­тель­но, при  си­сте­ма имеет един­ствен­ное ре­ше­ние.Рас­смот­рим слу­чай  Тогда урав­не­ние  опре­де­ля­ет окруж­ность ра­ди­у­сом  Центр  окруж­но­сти лежит на пря­мой  ко­то­рая пер­пен­ди­ку­ляр­на гра­нич­ным пря­мым по­ло­сы и пе­ре­се­ка­ет их в точ­ках  и  Си­сте­ма имеет един­ствен­ное ре­ше­ние, если толь­ко окруж­ность внеш­ним об­ра­зом ка­са­ет­ся по­ло­сы в точке A или в точке  Если точка ка­са­ния  — A, то  что не­воз­мож­но, по­сколь­ку  Окруж­ность ка­са­ет­ся по­ло­сы в точке B, толь­ко если  и  По­лу­ча­ем:Усло­вию  удо­вле­тво­ря­ет толь­ко ко­рень  Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=158096",
+            "https://ege.sdamgia.ru/formula/svg/3c/3cc00e6e4901c58b6ec6702cd55451dc.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/2146c6500a481cc7738fe687e629776b.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bbcc3db67934cb6458cae6a985f21c6a.svg",
+            "https://ege.sdamgia.ru/formula/svg/b8/b836c0108f92aa6169e8abb717cbbb56.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/ba70cca9949b2e9d95a23d395f3f022f.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b4d6d8a4e934b8ac10b14211a4b6dc01.svg",
+            "https://ege.sdamgia.ru/formula/svg/9a/9a06bf923539c283ee05efdbe14a04b2.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e0c89dd2e17c23cadacc58483488eb15.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/cad76293a652d334f73946348af9e0a2.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a182a65d18c2e065fe1a12d17e380f9d.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/268dbf717995130a80d61bb05913147d.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/09234b69257d65f64d01f61f18530449.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dcaa391f825cbdfda9888174b96dcdb0.svg",
+            "https://ege.sdamgia.ru/formula/svg/02/024ed5a203255580b3275ee6dce94dc7.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3cba606dce32d34c92e9a5ed6f15b826.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1ecce1234f9c837900e411c1a6d6719d.svg",
+            "https://ege.sdamgia.ru/formula/svg/95/955dd003eca5fc13798bde245cfe09b3.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b06c26aed02d969d0f2315ba11b5432b.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/067ca1f0de1a8ef3d02c76e43b9e2b34.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/268dbf717995130a80d61bb05913147d.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/cae9743b2aa30af47283cd8d49c0b452.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0fddf795dda61636009244b7a758d753.svg",
+            "https://ege.sdamgia.ru/formula/svg/c1/c12d2e5314d31c67cf156f0b942a0e5c.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/cae9743b2aa30af47283cd8d49c0b452.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/622a095dc9edee90d21fc439afb1ab02.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2f28c33e3305059e7dd4f55f3fcbbd59.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "507636",
+        "507648"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=510583"
+}

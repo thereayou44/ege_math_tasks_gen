@@ -1,0 +1,34 @@
+{
+    "id": 654701,
+    "topic": "16",
+    "condition": {
+        "text": "Виктор Михайлович положил в банк 96 000 рублей. Несколько лет ему начислялись то 5%, то 10% годовых, а за последний год начислили 25% годовых. При этом проценты начислялись в конце каждого года и добавлялись к сумме вклада. В результате его вклад стал равным 160 083 рублей. Сколько лет пролежал вклад в банке?",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пусть n лет на­чис­ля­лись 5%, а m лет на­чис­ля­лись 10%, тогдаот­ку­да  Зна­чит, вклад  в банке про­ле­жал  Ответ: 5.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ec/ec6e6eb2d32a235908f280863e92602a.svg",
+            "https://ege.sdamgia.ru/formula/svg/44/44aa7ebae67f4b0ad1dc495df549a267.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ec6e6eb2d32a235908f280863e92602a.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0dada359e479e82ca91fa68adfd7e48b.svg",
+            "https://ege.sdamgia.ru/formula/svg/80/8068e7c18da85a74aaf30ec1cdc25c36.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4a040adc8b0b821133eb54772dc5b33a.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fd5ddf3c74df8a5c37b7f9803cbe4a78.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0dada359e479e82ca91fa68adfd7e48b.svg",
+            "https://ege.sdamgia.ru/formula/svg/80/8068e7c18da85a74aaf30ec1cdc25c36.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4a040adc8b0b821133eb54772dc5b33a.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fd5ddf3c74df8a5c37b7f9803cbe4a78.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0dada359e479e82ca91fa68adfd7e48b.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aae9cf82083bc9e214943734d404a966.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f1c5dc2522f10087ba4540cd82a00d3b.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c93c13a73e600232420b53c8f40d9f3b.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/60e4e9215ef2a194d87ef8f8b3684ff1.svg"
+        ]
+    },
+    "answer": " 5.",
+    "analogs": [
+        "620778"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=654701"
+}

@@ -1,0 +1,28 @@
+{
+    "id": 530438,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых система уравненийимеет решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/44/445c3c1853fd1427134e66f7102b39a7.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пре­об­ра­зу­ем пер­вое урав­не­ние си­сте­мы:Дан­ное урав­не­ние имеет толь­ко одно ре­ше­ние:   Под­ста­вим дан­ные зна­че­ния во вто­рое урав­не­ние си­сте­мы:Сле­до­ва­тель­но,   Ответ:  ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/bf/bfd454078638c847823aff97bab4c64f.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/52634a5ce8aca5756be2274cf2f12b91.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1a12331356408f9bbea328248e5cecbb.svg",
+            "https://ege.sdamgia.ru/formula/svg/a0/a056b0462b092041697b13879da9d369.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/ace33437c36ff4e936d298633939edf1.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/16c503eedada5c7f068546116f30a49c.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/ace33437c36ff4e936d298633939edf1.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/16c503eedada5c7f068546116f30a49c.svg"
+        ]
+    },
+    "answer": "  ",
+    "analogs": [
+        "530406"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=530438"
+}

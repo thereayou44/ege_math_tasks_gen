@@ -1,0 +1,56 @@
+{
+    "id": 67203,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/20/2070e839a265425d2cef586919899012.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c70d8edd6b77e9ff8fe5978f9b5853bc.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Най­ди­те  если За­ме­няя ар­гу­мент в ра­вен­стве  на­хо­дим  и  ТогдаОтвет: −17.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/e3/e3b626beed55d56c35480a82599e906e.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/ddec0770e168a341a905505adb006ce6.svg",
+            "https://ege.sdamgia.ru/formula/svg/a5/a5264746e21e4c7b2cbef8c5963014d9.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/9958de4cde3f16b9ecfed5ebdfbd1b11.svg",
+            "https://ege.sdamgia.ru/formula/svg/87/87e91e755ecebd96d329cfb9a9660e1c.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/ea5ac8282bdca190e0e658ff3e4ddb6c.svg"
+        ]
+    },
+    "answer": "22",
+    "analogs": [
+        "26823",
+        "67187",
+        "67189",
+        "67231",
+        "...",
+        "67187",
+        "67189",
+        "67231",
+        "27001",
+        "67183",
+        "67185",
+        "67191",
+        "67193",
+        "67195",
+        "67197",
+        "67199",
+        "67201",
+        "67205",
+        "67207",
+        "67209",
+        "67211",
+        "67213",
+        "67215",
+        "67217",
+        "67219",
+        "67221",
+        "67223",
+        "67225",
+        "67227",
+        "67229"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=67203"
+}

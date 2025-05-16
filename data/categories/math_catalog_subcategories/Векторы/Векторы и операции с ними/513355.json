@@ -1,0 +1,24 @@
+{
+    "id": 513355,
+    "topic": "2",
+    "condition": {
+        "text": "Найдите длину диагонали прямоугольника, вершины которого имеют координаты (1; 2), (1; 10), (7; 2), (7; 10).",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Для того, чтобы найти диа­го­наль пря­мо­уголь­ни­ка, най­дем длину  и ши­ри­ну :По тео­ре­ме Пи­фа­го­ра: (диа­го­наль d яв­ля­ет­ся ги­по­те­ну­зой) Ответ: 10.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=143428",
+            "https://ege.sdamgia.ru/formula/svg/99/99020cb24bd13238d907c65cc2b57c03.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fbf88552979521b79358be7637d97d88.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/4160502169d6fc4094c6bfefcdfee482.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d63503889d7840ec8e418baa654c5b67.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cb2fa6d277d66a759fc9cbec8f6f938c.svg"
+        ]
+    },
+    "answer": "10",
+    "analogs": [
+        "513334"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=513355"
+}

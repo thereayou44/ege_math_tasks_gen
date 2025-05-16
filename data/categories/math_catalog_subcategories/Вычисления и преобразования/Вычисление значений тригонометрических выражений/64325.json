@@ -1,0 +1,68 @@
+{
+    "id": 64325,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите если и",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/a8/a86cef9f699f8c2bc21727572571f792.svg",
+            "https://ege.sdamgia.ru/formula/svg/87/877f9e2e840cd49a2a4edda69b9884c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/76/762266cc304c1c5b636e1b6689c91f3b.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Най­ди­те  если  и По­сколь­ку угол альфа лежит в тре­тьей чет­вер­ти,  его тан­генс по­ло­жи­те­лен. По­это­му Тогда   Ответ: 5.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/a8/a86cef9f699f8c2bc21727572571f792.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/23af8025142f2684f89d7a6bc3ce8938.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a89e3efc2e97e87dbfbcc9f9b7b2248f.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/efccbbb35a2b4b54797a9db157346e5a.svg",
+            "https://ege.sdamgia.ru/formula/svg/9b/9b5f48399c22c4d33034c0e97cc43793.svg"
+        ]
+    },
+    "answer": "0,25",
+    "analogs": [
+        "26776",
+        "64275",
+        "64279",
+        "64341",
+        "...",
+        "64275",
+        "64279",
+        "64341",
+        "64345",
+        "516251",
+        "516270",
+        "64277",
+        "64281",
+        "64283",
+        "64285",
+        "64287",
+        "64289",
+        "64291",
+        "64293",
+        "64295",
+        "64297",
+        "64299",
+        "64301",
+        "64303",
+        "64305",
+        "64307",
+        "64309",
+        "64311",
+        "64313",
+        "64315",
+        "64317",
+        "64319",
+        "64321",
+        "64323",
+        "64327",
+        "64329",
+        "64331",
+        "64333",
+        "64335",
+        "64337",
+        "64339",
+        "64343"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=64325"
+}

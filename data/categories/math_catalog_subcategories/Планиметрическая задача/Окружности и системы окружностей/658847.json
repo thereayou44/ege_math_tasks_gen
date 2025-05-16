@@ -1,0 +1,34 @@
+{
+    "id": 658847,
+    "topic": "17",
+    "condition": {
+        "text": "В треугольнике ABC с тупым углом ACB проведена высота CH. Окружность с центром H и радиусом HC второй раз пересекает стороны AC и BC в точках M и N соответственно, CD — диаметр этой окружности.а) Докажите, что б) Найдите длину отрезка MN, если CM : MA = 5 : 19 и CN : NB = 5 : 7.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/64/64840ce89a92afec56f7103a37e80d56.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/420871415dfbb180fb04afd3544ec53d.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. a)  Четырёхуголь­ник CMDN впи­сан в окруж­ность, по­это­му б)  Впи­сан­ные углы CMN и CDN опи­ра­ют­ся на одну и ту же дугу, по­это­му  Впи­сан­ный угол CND опи­ра­ет­ся на диа­метр CD, сле­до­ва­тель­но, угол CND пря­мой. У пря­мо­уголь­ных тре­уголь­ни­ков CND и CHB общий ост­рый угол при вер­ши­не C, по­это­му  Тре­уголь­ник ABC по­до­бен тре­уголь­ни­ку NMC по двум углам, зна­чит,  По­ло­жим: CN  =  5a, NB  =  7a, MA  =  19b, CM  =  5b, тогда  от­ку­да  Зна­чит, ко­эф­фи­ци­ент по­до­бия тре­уголь­ни­ков ABC и NMC равенСле­до­ва­тель­но,  тогда  Ответ: б)  ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=108131",
+            "https://ege.sdamgia.ru/formula/svg/2f/2fff0bee9dc59befcae7358dfb985d70.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/19c0e7206424047959d4d3ea8b3b4fe9.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/ae07a677c693da8584bec0a51d975be9.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/42827a75d261f02488d96ccf643eb1de.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8bb6cf3eff22dd4ea2f9eb9e0493c59e.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7b88530192b6abafe6ed7d76e1f01e62.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/66a34c79ae896b97f19208e4723a717b.svg",
+            "https://ege.sdamgia.ru/formula/svg/b6/b6c8ea722ba0f22950170f6274fa029f.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/aec62a233d63be7dd2b58a6fd2413497.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e1b1a07a20976d3b4370bc00c55d3e6d.svg"
+        ]
+    },
+    "answer": " б)  ",
+    "analogs": [
+        "628753",
+        "628779",
+        "658888"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=658847"
+}

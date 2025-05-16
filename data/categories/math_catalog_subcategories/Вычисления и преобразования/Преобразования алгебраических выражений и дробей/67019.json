@@ -1,0 +1,59 @@
+{
+    "id": 67019,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите значение выражения если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/31/31674c4c72d6b8e618e3379dbf556805.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/15c750e4e36b1027665b5fb07dc73fce.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/dd859a415d29d9b21f847f27a3c81df5.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Най­ди­те зна­че­ние вы­ра­же­ния  если  а Вы­пол­ним пре­об­ра­зо­ва­ния:   Ответ: 6.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/03/03b4f22d8dca9cea22d71f7109763d66.svg",
+            "https://ege.sdamgia.ru/formula/svg/5b/5ba5648239028b2faf421d9e90a0f9b0.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1cad5abd677a106a8233e5302d961556.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af023bcf0a6dce46ae23ebe2bd90da0c.svg",
+            "https://ege.sdamgia.ru/formula/svg/ce/ce3e9427c200a5f7c1700fd5f2732db3.svg",
+            "https://ege.sdamgia.ru/formula/svg/69/698420a6bbcf45fe7108e87dcf54a3df.svg"
+        ]
+    },
+    "answer": "000",
+    "analogs": [
+        "26819",
+        "67033",
+        "66979",
+        "66981",
+        "...",
+        "67033",
+        "66979",
+        "66981",
+        "66983",
+        "66985",
+        "66987",
+        "66989",
+        "66991",
+        "66993",
+        "66995",
+        "66997",
+        "66999",
+        "67001",
+        "67003",
+        "67005",
+        "67007",
+        "67009",
+        "67011",
+        "67013",
+        "67015",
+        "67017",
+        "67021",
+        "67023",
+        "67025",
+        "67027",
+        "67029",
+        "67031"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=67019"
+}

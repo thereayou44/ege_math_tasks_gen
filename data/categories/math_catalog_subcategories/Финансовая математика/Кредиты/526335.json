@@ -1,0 +1,38 @@
+{
+    "id": 526335,
+    "topic": "16",
+    "condition": {
+        "text": "В июле планируется взять кредит в банке на сумму 8 млн рублей на срок 4 года. Условия его возврата таковы: — каждый январь долг возрастает на r% по сравнению с концом предыдущего года; — с февраля по июнь каждого года необходимо выплатить часть долга; — в июле каждого года долг должен быть на одну и ту же сумму меньше долга на июль предыдущего года.Найдите r, если известно, что наибольший годовой платёж по кредиту составит не более 4 млн рублей, а наименьший — не менее 2,5 млн рублей.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пусть  Тогда уве­ли­че­ние суммы на r% эк­ви­ва­лент­но её умно­же­нию на p. Пусть сумма, взя­тая в кре­дит, равна S. За­пол­ним сле­ду­ю­щую таб­ли­цу Пе­ри­одДолг на на­ча­ло пе­ри­о­даДолг после на­чис­ле­ния про­цен­товВы­пла­та1SSp234т. к.  т. е. вы­пла­та сле­ду­ю­ще­го пе­ри­о­да мень­ше вы­пла­ты преды­ду­ще­го. Зна­чит, наи­боль­шая вы­пла­та  — пер­вая, а наи­мень­шая  — по­след­няя.Со­глас­но усло­виюСле­до­ва­тель­но,  Те­перь найдём r.Ответ: 25.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/3e/3ebee8c861710ef629f73f61f3c37b2f.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/29908720b120605cd6091506c88ba525.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bb7a67b97136f957aaf346a30639f91f.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/413b6e11b4577d9159f6e5217e219133.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a3b3558d5a9ee131a5b7a6f9b831cdbc.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1e3421f98b78800e36cd0dcd085b9c93.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/659d220c22c8097d5c9c4ccf51bd3eab.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a1d8d1588ac12c0afb92feefca46a799.svg",
+            "https://ege.sdamgia.ru/formula/svg/c6/c6002ca9696c5769d73cc8ad33fccd3d.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bf3abf83b1fb836f756780d3543cd2de.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bf3abf83b1fb836f756780d3543cd2de.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/41cfe186299b5f336d98c16b9032156e.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e6c53f70187ae21bc3ff42625c9442d1.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/28ca401212a4fcb4234ad79b198082af.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/9110b8f01369afe4e7730d45050dd231.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d609b83a5cce26664208f3e1df4bae9a.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/53b21ba00904b1881fee10f46cc7b33a.svg",
+            "https://ege.sdamgia.ru/formula/svg/48/483c26bd8a8ffefda796a03cb53e83f9.svg"
+        ]
+    },
+    "answer": " 25.",
+    "analogs": [
+        "526219",
+        "674438",
+        "674807"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=526335"
+}

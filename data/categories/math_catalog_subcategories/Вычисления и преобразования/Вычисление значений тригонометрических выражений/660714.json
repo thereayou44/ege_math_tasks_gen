@@ -1,0 +1,30 @@
+{
+    "id": 660714,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите значение выражения",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/04/04a1899c4c68c2380a78369341033a7e.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Ис­поль­зу­ем фор­му­лу ко­си­ну­са двой­но­го угла :Ответ: −1.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/0e/0eea4f464c938d43ddb82d66b07544a5.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/088a4d9af83761ddcd0ef4b815c07878.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c8d252db293f2c12ec13fe6c1d5a8a98.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/810345e84a8c4501cd89772736ace7ff.svg"
+        ]
+    },
+    "answer": "-1",
+    "analogs": [
+        "504824",
+        "562932",
+        "562977",
+        "...",
+        "562932",
+        "562977",
+        "661078"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=660714"
+}

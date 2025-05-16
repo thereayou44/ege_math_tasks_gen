@@ -1,0 +1,57 @@
+{
+    "id": 61005,
+    "topic": "2",
+    "condition": {
+        "text": "Вектор с началом в точке имеет координаты Найдите ординату точки",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ed/ed7822c175dd4385510f7259a7fcfa41.svg",
+            "https://ege.sdamgia.ru/formula/svg/7f/7f3779b156a623f3735772b43846fd09.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b5b625b068672b269ba9fbb736b629a2.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b06c26aed02d969d0f2315ba11b5432b.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Ко­ор­ди­на­ты век­то­ра равны раз­но­сти ко­ор­ди­нат конца век­то­ра и его на­ча­ла. Так как век­тор  имеет ко­ор­ди­на­ты  то легко вы­чис­лить ко­ор­ди­на­ты точки  По­лу­ча­ем, что    Тогда  Ответ: 0.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ed/ed7822c175dd4385510f7259a7fcfa41.svg",
+            "https://ege.sdamgia.ru/formula/svg/5a/5a750962aaa4f9d0ae174ce44869f853.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0cc118d55292368e51b0662b18c59a25.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/8423bd5e91e053bf75195b96b68ebb5e.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/738e09744ab3e28e0f35dece1cf60632.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c447737a0deceef94a892fb9f52c7914.svg"
+        ]
+    },
+    "answer": "0",
+    "analogs": [
+        "27725",
+        "26459",
+        "61007",
+        "...",
+        "26459",
+        "61007",
+        "61009",
+        "61011",
+        "61013",
+        "61015",
+        "61017",
+        "61019",
+        "61021",
+        "61023",
+        "61025",
+        "61027",
+        "61029",
+        "61031",
+        "61033",
+        "61035",
+        "61037",
+        "61039",
+        "61041",
+        "61043",
+        "61045",
+        "61047",
+        "61049",
+        "61051",
+        "61053"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=61005"
+}

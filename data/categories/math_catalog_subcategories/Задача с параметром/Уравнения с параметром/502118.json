@@ -1,0 +1,41 @@
+{
+    "id": 502118,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при которых уравнение имеет хотя бы один корень, принадлежащий промежутку (−1; 1].",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/04/043e775682e931927de748c5ddf58163.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Урав­не­ние  рав­но­силь­но си­сте­ме  Эта си­сте­ма имеет хотя бы один ко­рень, при­над­ле­жа­щий про­ме­жут­ку  если урав­не­ние  имеет хотя бы один ко­рень, при­над­ле­жа­щий либо про­ме­жут­ку  либо про­ме­жут­ку По­сколь­ку гра­фи­ком функ­ции  яв­ля­ет­ся па­ра­бо­ла, ветви ко­то­рой на­прав­ле­ны вверх, а вер­ши­на на­хо­дит­ся в точке  урав­не­ние  имеет хотя бы один ко­рень, при­над­ле­жа­щий про­ме­жут­ку  при усло­вии    (рис. 1).Урав­не­ние  имеет хотя бы один ко­рень, при­над­ле­жа­щий про­ме­жут­ку  при усло­вии  (рис. 2).Урав­не­ние  имеет хотя бы один ко­рень, при­над­ле­жа­щий про­ме­жут­ку  при  и при  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/04/043e775682e931927de748c5ddf58163.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/52c20df40bfb2caf016a56bd8979ad72.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=150528",
+            "https://ege.sdamgia.ru/formula/svg/59/59159d4d7d66c98ce0aaa620a9b67f0e.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/043e775682e931927de748c5ddf58163.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/85486bccc7fc53039934f88ad29aa63c.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e9c157ce152e39cd00d7ab81651b903e.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/86efa42b9b04a5432e56a8b3906172a7.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a07bb5c6107958cf940b06009461923.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fd05d8d90456c441c8f10641bd8576bc.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/85486bccc7fc53039934f88ad29aa63c.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c81cedf4dd08506e54f6a0ccfa6bfa26.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=150527",
+            "https://ege.sdamgia.ru/formula/svg/fd/fd05d8d90456c441c8f10641bd8576bc.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/84dce22a5196e754a307998302a1b48e.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1e4500a4cfbd27a47bc3f7d5095bf72c.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/043e775682e931927de748c5ddf58163.svg",
+            "https://ege.sdamgia.ru/formula/svg/59/59159d4d7d66c98ce0aaa620a9b67f0e.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b4eb9bc2dd8ac35249fccc40810f3d29.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/08a036b213c19f867731457c7f66cd3d.svg",
+            "https://ege.sdamgia.ru/formula/svg/c1/c1549ce853018dafbedbe654c2c5d222.svg"
+        ]
+    },
+    "answer": "",
+    "analogs": [
+        "505039"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=502118"
+}

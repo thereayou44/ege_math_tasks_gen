@@ -1,0 +1,47 @@
+{
+    "id": 644818,
+    "topic": "2",
+    "condition": {
+        "text": "На координатной плоскости изображены векторы и Найдите скалярное произведение",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=141988",
+            "https://ege.sdamgia.ru/formula/svg/1b/1b4412a344122e822c0c695e23b022a5.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0f4c4ce0863d100a12c90c114fd9abeb.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/dbbaf6d37e35eeea071394e80901139e.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/39f888bfe10c580ec6631aaace822e2c.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По ри­сун­ку опре­де­лим ко­ор­ди­на­ты век­то­ров:     Тогда ис­ко­мое ска­ляр­ное про­из­ве­де­ние век­то­ров равно:Ответ: −4.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/70/70f48162dbddd02838d179bc5edf9a53.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa9969f7e22423e1dcf370ca1a3ce540.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7b57cd5576f7278ec323bf40284d5911.svg",
+            "https://ege.sdamgia.ru/formula/svg/ab/ab3d6484c757ce1b861a6b00633f51e5.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/36dfe95cae17a1f3bfe66dfca21569b4.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/ef68f9f1c2180735f4cbcffbca6d332c.svg"
+        ]
+    },
+    "answer": "-4",
+    "analogs": [
+        "644849",
+        "644808",
+        "644809",
+        "644810",
+        "...",
+        "644808",
+        "644809",
+        "644810",
+        "644811",
+        "644813",
+        "644815",
+        "644817",
+        "645011",
+        "645012",
+        "645013",
+        "649894",
+        "674920",
+        "674959"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=644818"
+}

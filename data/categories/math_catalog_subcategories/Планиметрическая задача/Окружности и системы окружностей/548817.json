@@ -1,0 +1,48 @@
+{
+    "id": 548817,
+    "topic": "17",
+    "condition": {
+        "text": "К окружности с диаметром AB = 10 проведена касательная BC так что Прямая AC вторично пересекает окружность в точке D. Точка E диаметрально противоположна точке D. Прямые ED и BC пересекаются в точке F.а) Докажите, что б) Найдите площадь треугольника FBE.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/7b/7b258dd6d05b511e5c9694a465bc5b01.svg",
+            "https://ege.sdamgia.ru/formula/svg/5a/5a93f23824c4ea1ab623fcbb0b7011d4.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  За­ме­тим, что  по­сколь­ку этот угол опи­ра­ет­ся на диа­метр AB. Тогда  BD   — вы­со­та пря­мо­уголь­но­го тре­уголь­ни­ка ABC. По свой­ству вы­со­ты по­лу­ча­ем, что  тогда  Тре­уголь­ни­ки EOB и  DOA равны по двум сто­ро­нам и углу между ними, зна­чит, EB  =  AD, от­ку­да б)  Вы­ра­зим пло­щадь тре­уголь­ни­ка FBE: Вы­чис­лим длины от­рез­ков:При­ме­ним тео­ре­му Ме­не­лая для тре­уголь­ни­ка ABC и пря­мой ODF:от­ку­да  Таким об­ра­зом, Сле­до­ва­тель­но, Ответ: б)  При­ве­дем ре­ше­ние пунк­та б) Да­ни­и­ла Шу­май­ло­ва.Пусть  За­ме­тим, что  тогда   Пусть  Это цен­траль­ный угол, опи­ра­ю­щий­ся на ту же дугу, что и впи­сан­ный угол AOD, тогда: Най­дем пло­щадь тре­уголь­ни­ка BOF: Най­дем пло­щадь тре­уголь­ни­ка BOE: Тогда:",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=148347",
+            "https://ege.sdamgia.ru/formula/svg/4e/4e73d71c886ad677b5f15bb2c016d41b.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bf3eaafa436d807bb9989a293f8b94a6.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7b57fbf52ed0dfab084c825fc55d23b5.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/464c762d130f24515e7202aaf151fd3b.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/8200b893e642bfb5e6f4556930d6b97a.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/88416d2dbd5057a8718b0c10d64e6ca4.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6d2d4091601503d2846370678b457004.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/826bd209212d533f63f61c0499e22b20.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83fcf7717869f764d4c72bd05f2d1eb2.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/cc019381c7fa2dd0532238d801696624.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/506eceb967ecf77d74eab093aef498e6.svg",
+            "https://ege.sdamgia.ru/formula/svg/c6/c6d40198f05b496efcae1d1e83e371e9.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/08c33fb6edb82a45a53584bf5e0647ad.svg",
+            "https://ege.sdamgia.ru/formula/svg/b8/b87e6cc8100ba3591caae8a693b06ee6.svg",
+            "https://ege.sdamgia.ru/formula/svg/0a/0acf87353a28aad09f59b1c7b600dcaf.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fb309e695b33b3e9741b0706228b081d.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3cd527791055eb7f9b7e40ae9c278525.svg",
+            "https://ege.sdamgia.ru/formula/svg/7d/7dac040a06c6ded80d59a049c03c63a3.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/72205b8f122f1f4ec7fdbbea22f144b9.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/73a33a060e6b75204193a55b82ec06f7.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c7a3df23c1ee3f96d89eaea49a7e462.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/13a77b550d7dd871536fd26630443822.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/260101d304ec6dcb3bc150f39894b079.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/866c4e8703a25f550941d77cf0c526ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/a5/a5f60d5290f0f23dc530bd107d1379eb.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d5880406a0baf68ee7537a7b15f654c3.svg"
+        ]
+    },
+    "answer": " б) ",
+    "analogs": [
+        "549116"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=548817"
+}

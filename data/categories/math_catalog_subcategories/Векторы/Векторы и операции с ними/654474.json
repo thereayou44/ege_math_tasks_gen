@@ -1,0 +1,27 @@
+{
+    "id": 654474,
+    "topic": "2",
+    "condition": {
+        "text": "Найдите скалярное произведение векторов и",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=165014",
+            "https://ege.sdamgia.ru/formula/svg/24/2443510e25925dc900c862964b3b7e39.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/23e6a333868e447f8e40904b85ad2d9c.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Ко­ор­ди­на­ты век­то­ра равны раз­но­сти ко­ор­ди­нат конца век­то­ра и его на­ча­ла. По­это­му век­тор  имеет ко­ор­ди­на­ты  век­тор  имеет ко­ор­ди­на­ты  Ска­ляр­ное про­из­ве­де­ние век­то­ров равно: Ответ: 20.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/89/89e9c902fed032a267e19bcbbe710b75.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7bee5562c0f286438a3614cd9c9d3c2d.svg",
+            "https://ege.sdamgia.ru/formula/svg/7f/7f711ac1314a21599dc5a9c5bb757eff.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d6f680afc45f7d16ef3bbb6b8a077cf0.svg",
+            "https://ege.sdamgia.ru/formula/svg/a0/a07d8ed8d1ca54133fed05a453534ded.svg"
+        ]
+    },
+    "answer": "20",
+    "analogs": [
+        "27740"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=654474"
+}

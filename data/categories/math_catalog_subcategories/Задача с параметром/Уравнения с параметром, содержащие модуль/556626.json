@@ -1,0 +1,33 @@
+{
+    "id": 556626,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых уравнениеимеет или семь, или восемь решений.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/89/8904ded0e7c6e765b672022c11f391b9.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Сде­ла­ем за­ме­ну  Рас­смот­рим урав­не­ние  По­стро­им эскиз гра­фи­ка  Функ­ция  об­ла­да­ет свой­ством:  при всех x, причём Сле­до­ва­тель­но, если урав­не­ние  имеет два таких ре­ше­ния, что одно равно 4, а вто­рое при­над­ле­жит ин­тер­ва­лу (0; 4), то ис­ход­ное урав­не­ние имеет ровно семь ре­ше­ний. Если же оба корня ис­сле­ду­е­мо­го урав­не­ния при­над­ле­жат ин­тер­ва­лу (0; 4), то ис­ход­ное урав­не­ние имеет ровно во­семь ре­ше­ний.За­ме­тим, что это урав­не­ние имеет два ре­ше­ния:   при любом зна­че­нии а. При  эти ре­ше­ния сов­па­да­ют. От­сю­да сле­ду­ет, что усло­вие за­да­чи вы­пол­не­но тогда и толь­ко тогда, когда Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=151758",
+            "https://ege.sdamgia.ru/formula/svg/33/333b4f18501f13a29ff20d1c6694ce7d.svg",
+            "https://ege.sdamgia.ru/formula/svg/58/589ebf15e819ca377a908b78efe52ddc.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d66684375ce30f6b068c216ef715cc4e.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a78918912043e19b2d4dc381f584b3c0.svg",
+            "https://ege.sdamgia.ru/formula/svg/9d/9d76c6075b3c73b755f36d505dfb4e61.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/9793136cf209b156a9ec360bacf41390.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8f9fb78d00c053680b25af78138548b2.svg",
+            "https://ege.sdamgia.ru/formula/svg/20/2029290f483da508bd2bf5e9ea944503.svg",
+            "https://ege.sdamgia.ru/formula/svg/b6/b69f2fc6c8aedec086c1ef75434e83aa.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7a55a9b0bf5dbcd9ce04cd4a6fee3ddc.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/478a0a2d5a520ffebbc7cdeed2f36062.svg",
+            "https://ege.sdamgia.ru/formula/svg/b8/b8c6f3db0ee1b0d68ca49d157109da9d.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "556619"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=556626"
+}

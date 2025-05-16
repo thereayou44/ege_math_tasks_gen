@@ -1,0 +1,49 @@
+{
+    "id": 563662,
+    "topic": "16",
+    "condition": {
+        "text": "В июле 2025 года планируется взять кредит на 600 тыс. рублей. Условия его возврата таковы: — в январе 2026, 2027, 2028, 2029 и 2030 годов долг возрастает на 13% по сравнению с концом предыдущегогода; — в январе 2031, 2032, 2033, 2034, 2035 годов долг возрастает на 12% по сравнению с концом предыдущего года; — с февраля по июнь каждого года необходимо выплатить часть долга; — в июле каждого года долг должен быть на одну и ту же величину меньше долга на июль предыдущего года; — к июлю 2035 года долг должен быть полностью погашен.Чему равна сумма всех выплат?",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Обо­зна­чим взя­тую в кре­дит сумму S (тыс. руб.) и со­ста­вим таб­ли­цу по дан­ным за­да­чи. На­чис­ля­е­мый про­центПла­теж в банкОстав­ший­ся долг13%13%13%13%13%12%12%12%12%12%0 По со­став­лен­ной таб­ли­це най­дем общую сумму вы­плат:   тыс. руб.Ответ: 1020 тыс. руб.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/56/5679e8918c67361ba91c9620e3a68181.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/85c988945b651376d071a6030a550be9.svg",
+            "https://ege.sdamgia.ru/formula/svg/24/245ffb4bbaf2dca3a0705e8cd91e8665.svg",
+            "https://ege.sdamgia.ru/formula/svg/c5/c5503b6f3e0513f6d78791718866f773.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e642acd790054b3fb0edb071bef58537.svg",
+            "https://ege.sdamgia.ru/formula/svg/a0/a024fe6666523041082a17ad09807107.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cbc9352b4c8537b58429521db3bd47a6.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/039ad2d49e04503a5197315fcc9f645e.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/62dd774d6aef79109adc32f4d1f281d9.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f60c4acc36ee4a793406ced6a1d06e44.svg",
+            "https://ege.sdamgia.ru/formula/svg/69/692f58d8a7ecaf65032777cfb65310ba.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2de90c588c3c066783badb03271e7b9f.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/00e215163422c573fa5a0f09017886e3.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/21194349ee922dcac179112fc153fa23.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/46ead80f2ccb3b74e739dcf703e7520e.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2c20709accd1eb39c70d97fa99bd86bc.svg",
+            "https://ege.sdamgia.ru/formula/svg/87/875ffc545ebc8b93db2bc92f8c1931f2.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fb60eb9d584ed38ace616e5902768d1f.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/ad48ff2b03ec7c5a78a59b6a5d8c3e2c.svg",
+            "https://ege.sdamgia.ru/formula/svg/25/25dbc354d0accf15cc42b67d21406140.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d80f44b18d007aff3bfed921431ac846.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8f81131e6f454120bd433884b8e558ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/32da6b9992004876b1c28edd1e2c906c.svg"
+        ]
+    },
+    "answer": " 1020 тыс. руб.",
+    "analogs": [
+        "563578",
+        "563552",
+        "563734",
+        "...",
+        "563552",
+        "563734",
+        "642160",
+        "651033",
+        "651065"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=563662"
+}

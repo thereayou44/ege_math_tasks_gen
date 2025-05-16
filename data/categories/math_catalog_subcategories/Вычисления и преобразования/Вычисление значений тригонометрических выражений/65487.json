@@ -1,0 +1,61 @@
+{
+    "id": 65487,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите значение выражения если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/d1/d13117bd728c9a87028af1a427262193.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/03943cd0dba9d314d507a26e1f120c07.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Ис­поль­зу­ем пе­ри­о­дич­ность ко­си­ну­са, не­чет­ность си­ну­са и фор­му­лы при­ве­де­ния:  Ответ: 2.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/fa/fa367bd6db2623d7d54ef353bb3367b2.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e98eabea9c307cabdd7de192eb35c856.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1b1d05d7e6398530be4a2d9b19386cbb.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6d3ce3acedb94f73d6a98e3135b49c07.svg",
+            "https://ege.sdamgia.ru/formula/svg/ce/ce058b7e548dd0e9f963f550f5b96e1e.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1b1d05d7e6398530be4a2d9b19386cbb.svg"
+        ]
+    },
+    "answer": "2",
+    "analogs": [
+        "26792",
+        "65441",
+        "65425",
+        "...",
+        "65441",
+        "65425",
+        "65427",
+        "65429",
+        "65431",
+        "65433",
+        "65435",
+        "65437",
+        "65439",
+        "65443",
+        "65445",
+        "65447",
+        "65449",
+        "65451",
+        "65453",
+        "65455",
+        "65457",
+        "65459",
+        "65461",
+        "65463",
+        "65465",
+        "65467",
+        "65469",
+        "65471",
+        "65473",
+        "65475",
+        "65477",
+        "65479",
+        "65481",
+        "65483",
+        "65485"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=65487"
+}

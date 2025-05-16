@@ -1,0 +1,47 @@
+{
+    "id": 509168,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображены графики функций и которые пересекаются в точках A и B. Найдите абсциссу точки B.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=149709",
+            "https://ege.sdamgia.ru/formula/svg/05/056cb62b440ff437645490889f0df1cc.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6e79b60b459a444ff0406472544ef355.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По гра­фи­ку, f(2)  =  −1, тогда  Зна­чит,  За­ме­тим, что a  — тан­генс угла на­кло­на гра­фи­ка ли­ней­ной функ­ции   тогда  По гра­фи­ку, g(2)  =  −1, тогда  Зна­чит, Те­перь найдём абс­цис­су точки B: Таким об­ра­зом, абс­цис­са точки B равна −0,25. Ответ: −0,25.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/95/9565f3804bc531ef005c1acd49d39800.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/561bb00b1f18a2d96ba4de6322b4dc2b.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6e79b60b459a444ff0406472544ef355.svg",
+            "https://ege.sdamgia.ru/formula/svg/4e/4ee77b85bd364dfd59329f09e1d216ff.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a209070882fef1f1cbc4a42bc6bbfda.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b463cf08330564bd71bf3a86c4b5fc30.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a8d2d371e2912ccaccaa8f853555e385.svg"
+        ]
+    },
+    "answer": "-0,25",
+    "analogs": [
+        "509167",
+        "509169",
+        "509170",
+        "...",
+        "509169",
+        "509170",
+        "509172",
+        "509173",
+        "509174",
+        "509175",
+        "509176",
+        "509177",
+        "509178",
+        "509179",
+        "509180",
+        "509181",
+        "509188",
+        "629173",
+        "509171"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509168"
+}

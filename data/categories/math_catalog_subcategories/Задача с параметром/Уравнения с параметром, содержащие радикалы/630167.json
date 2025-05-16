@@ -1,0 +1,26 @@
+{
+    "id": 630167,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых уравнение имеет ровно два различных корня.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/23/230b32ee7722fe7bb34a00f4f9acb9b5.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пе­ре­пи­шем урав­не­ние в виде  или  Ровно два корня урав­не­ние имеет в сле­ду­ю­щих слу­ча­ях.1)  Пра­вые части урав­не­ний равны и по­ло­жи­тель­ны: 2)  Пра­вая часть од­но­го из этих урав­не­ний по­ло­жи­тель­на, а дру­го­го  — от­ри­ца­тель­на:  или  Ответ:  a  =  0, a > 3.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/13/131ddda4847c420c1f26b78f2ceeb81b.svg",
+            "https://ege.sdamgia.ru/formula/svg/a0/a032568b3428c01c4032f463547d7455.svg",
+            "https://ege.sdamgia.ru/formula/svg/59/596759a7c5a4f353a0a3b8ed3068fc23.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/09b1133aeb714be97b0993f5f76532a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/ad3ec5a2ad9ede303ca770a02a768454.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/829962d848eab0d2cfb7db66fc650523.svg"
+        ]
+    },
+    "answer": "  a  =  0, a > 3.",
+    "analogs": [
+        "630131"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=630167"
+}

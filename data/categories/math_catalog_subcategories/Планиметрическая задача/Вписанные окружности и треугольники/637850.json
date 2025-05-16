@@ -1,0 +1,33 @@
+{
+    "id": 637850,
+    "topic": "17",
+    "condition": {
+        "text": "Высоты BB1 и CC1 остроугольного треугольника ABC пересекаются в точке H. а) Докажите, что б) Найдите расстояние от центра окружности, описанной около треугольника ABC, до стороны BC, если и",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/b4/b48962e0e958bb546f1341831a94d3e1.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/6112b18d1dc4aa390dcc89e95c49c7dc.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b0f93094a078903b5028135e7efabb34.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. a)  B четырёхуголь­ни­ке AC1HB1 углы C1 и B1 пря­мые, сле­до­ва­тель­но, около этого четырёхуголь­ни­ка можно опи­сать окруж­ность, причём AH  — её диа­метр. Впи­сан­ные углы HB1C1 и HAC1 опи­ра­ют­ся на одну дугу, сле­до­ва­тель­но, они равны, а зна­чит, б)  В пря­мо­уголь­ном тре­уголь­ни­ке BB1A имеем  В пря­мо­уголь­ном тре­уголь­ни­ке CC1A имеем  По­лу­ча­ем, что  Тре­уголь­ни­ки ABC и AB1C1 имеют общий угол A и  сле­до­ва­тель­но, они по­доб­ны. Тогда  Зна­чит, Пусть точка O  — центр окруж­но­сти, опи­сан­ной около тре­уголь­ни­ка ABC, точка M  — се­ре­ди­на сто­ро­ны BC. Тогда рас­сто­я­ние от точки O до сто­ро­ны BC равно длине от­рез­ка OM. Тре­уголь­ник BOC рав­но­бед­рен­ный, сле­до­ва­тель­но, В пря­мо­уголь­ном тре­уголь­ни­ке OMC имеемОтвет: б) ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=123007",
+            "https://ege.sdamgia.ru/formula/svg/b4/b48962e0e958bb546f1341831a94d3e1.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ec4cd07c4ecf52416239eb8e256bf465.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a7af1799bdfc78b9763aac26e4a51325.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f4af93553f9edac7d31abc7d4fe0e2ff.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c24ddb5f04f10c829614e7f4d86f1b6.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f8d484c256a520696d04001e264ab658.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a44a111d5fddc0d737aaa9d9aa1f412b.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b7dfc2680959ce16f8c1b93203474083.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3a64af33bc528d64a7438fa1205e08b6.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/53d9afc42bf75f71163203e1663bd25d.svg"
+        ]
+    },
+    "answer": " б) ",
+    "analogs": [
+        "637821"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=637850"
+}

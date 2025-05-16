@@ -1,0 +1,27 @@
+{
+    "id": 520663,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых системаимеет ровно одно решение.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/47/47e32ba90d1349d6340cc31b0d6f07b9.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пер­вое не­ра­вен­ство имеет ровно два ре­ше­ния: (1;4), (6;4). Сле­до­ва­тель­но, дан­ная си­сте­ма имеет ровно одно ре­ше­ние тогда и толь­ко тогда, когда вто­ро­му не­ра­вен­ству удо­вле­тво­ря­ет толь­ко одно из ре­ше­ний пер­во­го не­ра­вен­ства. Най­дем все зна­че­ния a, при ко­то­рых спра­вед­ли­ва каж­дая из си­стем: или Решим первую си­сте­му:Решим вто­рую си­сте­му:Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/f5/f5c62314a3eb6310f4bab9fc5c38d781.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/82bd8034cc67cbd9d08ab707abbec2d5.svg",
+            "https://ege.sdamgia.ru/formula/svg/7f/7f45c0401377f67b84727111c44d8c85.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/86a10d4a78fb54413e86f3670a7c35f8.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/795d1efc57162e69721a4a529c0efab2.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "520500",
+        "520520",
+        "520704"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=520663"
+}

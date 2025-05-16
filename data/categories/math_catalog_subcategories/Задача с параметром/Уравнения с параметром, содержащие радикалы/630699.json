@@ -1,0 +1,42 @@
+{
+    "id": 630699,
+    "topic": "18",
+    "condition": {
+        "text": "Найти все значения a, при которых уравнение имеет ровно три различных корня.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/33/3368208c59e97e8b230a25a392c56fa0.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Урав­не­ние рав­но­силь­но си­сте­меИз урав­не­ния по­лу­ча­ем   и  Чтобы урав­не­ние имело три раз­лич­ных корня, тре­бу­ет­ся, чтобы при   и  вы­пол­ня­лось не­ра­вен­ство  а также чтобы были вы­пол­не­ны усло­вия  и  По­лу­ча­ем си­сте­му не­ра­венств:Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/f0/f00301c9b95d23664a6f1c810568431c.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/ccaf00a449c23a7f799604b6d21ae16a.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e5a691b8447f9cbba6fc1e17f5fe6cff.svg",
+            "https://ege.sdamgia.ru/formula/svg/ab/abddb6f84b087760c956f022506393a5.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/ccaf00a449c23a7f799604b6d21ae16a.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e5a691b8447f9cbba6fc1e17f5fe6cff.svg",
+            "https://ege.sdamgia.ru/formula/svg/ab/abddb6f84b087760c956f022506393a5.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/1629b9a0de31938c5e6f6a3c9813cb6a.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f344f6bee4075c9f18b32cd3ea97738a.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8bdd3301c3c6fbb4616650856f83c1b2.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/363be1a1694c88fafb86bd7b8f3bfffc.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/94df8024f1ca733a5ea6cb7ab1cdd1d2.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/eab93b3179745965aa8fa36deec2534a.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/363be1a1694c88fafb86bd7b8f3bfffc.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9f13e905e202d83e2ec7b4643e173e71.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b1af32fad39bf4890bd2150ac43de77c.svg",
+            "https://ege.sdamgia.ru/formula/svg/20/201446f440466799ebbfca3e6ed0b64e.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6f27355721ad126539bcfea44b55e491.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0ce2dd4df763c781549358caa9c10fd6.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/27e746a7fce4be8fad399cbfb49995d1.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "524055",
+        "524077",
+        "630706"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=630699"
+}

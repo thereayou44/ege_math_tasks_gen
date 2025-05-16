@@ -1,0 +1,38 @@
+{
+    "id": 511378,
+    "topic": "17",
+    "condition": {
+        "text": "В треугольник ABC вписана окружность радиуса R, касающаяся стороны AC в точке D, причём а) Докажите, что треугольник ABC прямоугольный.б) Вписанная окружность касается сторон AB и BC в точках E и Найдите площадь треугольника BEF, если известно, что и",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/37/37d0d3fb1d63fcd4b93dc6f344cc3de4.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e347164d8cc774b623f63491e4f16ebf.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c09febecb1431273b188fc1faef1457.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/30f26001ad34da25438c2a38b1061fe7.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Пусть O  — центр впи­сан­ной окруж­но­сти тре­уголь­ни­ка  Центр окруж­но­сти, впи­сан­ной в угол, лежит на его бис­сек­три­се, зна­чит, AO  — бис­сек­три­са угла BAC. Тре­уголь­ник AOD пря­мо­уголь­ный и рав­но­бед­рен­ный, по­это­му  Сле­до­ва­тель­но,  б)  Обо­зна­чим  По тео­ре­ме о ра­вен­стве от­рез­ков ка­са­тель­ных, про­ведённых к окруж­но­сти из одной точки,  и  По тео­ре­ме Пи­фа­го­ра  или  Из этого урав­не­ния на­хо­дим, что  Тогда  Сле­до­ва­тель­но,  Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=148386",
+            "https://ege.sdamgia.ru/formula/svg/4b/4b5b9eab089a2e0ff9b286f012e61feb.svg",
+            "https://ege.sdamgia.ru/formula/svg/d0/d0cd66dfb7841bff020f69209fd8556d.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fd06ceb82014588322c38c1378cc676c.svg",
+            "https://ege.sdamgia.ru/formula/svg/c6/c66e054baa0db41019b692b82ea68937.svg",
+            "https://ege.sdamgia.ru/formula/svg/c6/c62b257b988f45825897bdd21dac0504.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/ea426f249fd623ae3ba75fc5687e91fd.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/2135dfbdb6e1e9f8009ac0d8f55b6825.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/ee7fc235b1fd58ed4d1cf39851da5f75.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/23f4eb427a40d285585585003f5ac527.svg",
+            "https://ege.sdamgia.ru/formula/svg/24/2437f8e6ea053b0c07555946f8bd0989.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a8d69002cd3b813d4fa295844369596d.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0db78cf2630d8b6162fc01c343589aad.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/dee3ce6ea047b3fd9f76f0ee1604bc95.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "502296",
+        "502316"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511378"
+}

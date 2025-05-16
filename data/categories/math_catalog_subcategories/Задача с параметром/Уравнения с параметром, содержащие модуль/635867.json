@@ -1,0 +1,62 @@
+{
+    "id": 635867,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых уравнение имеет ровно два решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/7c/7ceb2f279a4b2567b934047f0b36d1c7.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пусть  тогда урав­не­ние за­пи­шет­ся в виде  Ре­ше­ния этого урав­не­ния имеют вид  или  Зна­чит, ре­ше­ния ис­ход­но­го урав­не­ния  — это ре­ше­ния урав­не­ний илиИс­сле­ду­ем, сколь­ко ре­ше­ний имеет урав­не­ние  в за­ви­си­мо­сти от a и b. Рас­смот­рим функ­цию   При  гра­фи­ком этой функ­ции яв­ля­ет­ся ло­ма­ная, со­сто­я­щая из трёх зве­ньев, уг­ло­вые ко­эф­фи­ци­ен­ты ко­то­рых равны −2, 0 и 2. Ми­ни­маль­ное зна­че­ние до­сти­га­ет­ся на от­рез­ке с кон­ца­ми −2 и a и равно  Таким об­ра­зом, урав­не­ние  имеет два ре­ше­ния при  бес­ко­неч­но много ре­ше­ний при  и не имеет ре­ше­ний при  В слу­чае  урав­не­ние  имеет два ре­ше­ния при  одно ре­ше­ние при  и не имеет ре­ше­ний при Урав­не­ния  и  могут иметь общие ре­ше­ния при  то есть при  При  оба урав­не­ния при­ни­ма­ют вид  и не имеют ре­ше­ний. При дру­гих зна­че­ни­ях a ис­ход­ное урав­не­ние имеет ровно два ре­ше­ния, если одно из урав­не­ний  и  не имеет ре­ше­ний, а дру­гое имеет два ре­ше­ния. Эти усло­вия рав­но­силь­ны не­ра­вен­ству  При  не­ра­вен­ство при­ни­ма­ет вид  и вы­пол­ня­ет­ся при любом  При  не­ра­вен­ство при­ни­ма­ет вид  от­ку­да с учётом усло­вия  по­лу­ча­ем  и  Таким об­ра­зом, ис­ход­ное урав­не­ние имеет ровно два ре­ше­ния при  и   Ответ:  ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/d2/d2d24cbbff26d90268472b5f6eab082c.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c59a564ea3bb019c22d7e75459e096e.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1ea4ed6e08e798b266f9bc46b2c48d0f.svg",
+            "https://ege.sdamgia.ru/formula/svg/7e/7eba102c19bee60975327c85a3a803c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e0279eba4de7e1c62681d28831dd25a6.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bf0ec6227cd4f319304044ea8daa4089.svg",
+            "https://ege.sdamgia.ru/formula/svg/87/87c89a1f9f9fbc284cccc8f46bb5d864.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a84610f1f2e895b94f92c9cc605b7fd4.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d6e207efdb4cafc2170bc29e540251b.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/df2380df0c4da20e44c08a73ed52b293.svg",
+            "https://ege.sdamgia.ru/formula/svg/87/87c89a1f9f9fbc284cccc8f46bb5d864.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/9237ef1cb3fc4514d98c9522beef9235.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0e134be74e9612b8d89c5c5ade5102db.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9e56a0fbd9f8581313379798e8fa2be0.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7a55a9b0bf5dbcd9ce04cd4a6fee3ddc.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c7f2d8d46d61e48f666f4c611f4ae01d.svg",
+            "https://ege.sdamgia.ru/formula/svg/96/96f715a87704f5c4f3c017b42db3a643.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f6d5eef5ee5e51fc839bb54201c62e3b.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b48467683e9266e0ef6132c1869e4105.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e0279eba4de7e1c62681d28831dd25a6.svg",
+            "https://ege.sdamgia.ru/formula/svg/8a/8a0af8535348351e8a06a99216c1c80c.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/0738dd469a7bca6fb2bd41683c19d2cc.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cb7f54ca2d4230306e7c637958c4aedc.svg",
+            "https://ege.sdamgia.ru/formula/svg/fe/feb3e2bab0f3d24871bf43fa97927b2f.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/999f19c9bb74cc89596f1c8932173677.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/65c4a24a969e654fedc79b192b9b8b98.svg",
+            "https://ege.sdamgia.ru/formula/svg/8a/8a0af8535348351e8a06a99216c1c80c.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1c0269b088db5a5a3322af8adfe71e53.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/15fd37fff07555c00b6a6b119a0633d3.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2a1c39e87a2ea2eafcbe167afa278aea.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/495222410b7db04c161e29ea047899cc.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/668023bb273dbeb409c70cc963ffc8f2.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c2b8473f115358ff1934db5fc11a8759.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/668023bb273dbeb409c70cc963ffc8f2.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/195044c5416afba6651190d3277cc295.svg",
+            "https://ege.sdamgia.ru/formula/svg/7e/7e4238aacd6a7a12e7b5cb89721b37cd.svg",
+            "https://ege.sdamgia.ru/formula/svg/71/71a26ce3b60428915e5a52a7bf268f4e.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/6010e09b70f9cc2696b55d09af4008d5.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5d9539a7e487789049e1a7de39621400.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/6010e09b70f9cc2696b55d09af4008d5.svg"
+        ]
+    },
+    "answer": "  ",
+    "analogs": [
+        "505474",
+        "505496",
+        "635969"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=635867"
+}

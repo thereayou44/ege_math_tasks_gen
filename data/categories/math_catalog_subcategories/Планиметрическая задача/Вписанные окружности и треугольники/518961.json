@@ -1,0 +1,53 @@
+{
+    "id": 518961,
+    "topic": "17",
+    "condition": {
+        "text": "Окружность с центром O, вписанная в треугольник ABC, касается его сторон BC, AB и AC в точках K, L и M соответственно. Прямая KM вторично пересекает в точке P окружность радиуса AM с центром A.а) Докажите, что прямая AP параллельна прямой BC.б) Пусть Q — точка пересечения прямых KM и AB, а T — такая точка на отрезке PQ, что Найдите QT .",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/f0/f0011a84fad365c4bad928e7b1405547.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b7cb455c75869bcbe0c5ec4064801acd.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/22caeff5f73d789016cae98fba5ab663.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d18ec44e8b984b194783bc58fb3d2a4.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  По­сколь­ку  и  тре­уголь­ни­ки MCK и PAM рав­но­бед­рен­ные, причём   — углы при их ос­но­ва­ни­ях MK и  Зна­чит,  Сле­до­ва­тель­но, пря­мая AP па­рал­лель­на пря­мой б)  Обо­зна­чим  Тогда    По тео­ре­ме Пи­фа­го­ра  или  от­ку­да  Зна­чит,  По­сколь­ку  и  четырёхуголь­ник ABCP  — пря­мо­уголь­ник, зна­чит,  Тре­уголь­ник AMQ по­до­бен тре­уголь­ни­ку CMP с ко­эф­фи­ци­ен­том  по­это­му  По тео­ре­ме Пи­фа­го­ра Обо­зна­чим  Тогда   по­это­му AT  — бис­сек­три­са, а зна­чит, и вы­со­та рав­но­бед­рен­но­го тре­уголь­ни­ка Таким об­ра­зом, AT  — вы­со­та пря­мо­уголь­но­го тре­уголь­ни­ка PAQ, про­ведённая из вер­ши­ны пря­мо­го угла, сле­до­ва­тель­но,  Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=148593",
+            "https://ege.sdamgia.ru/formula/svg/98/980ddc101c1ab5f5800c6e4414e7d107.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2a5889744f890a5ae16d26a7faee9a58.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6ceacf761b5aae5eee0f34656cd97775.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/03aafd7855819e19ac2bd7b2943911c7.svg",
+            "https://ege.sdamgia.ru/formula/svg/5e/5e3a1c1e9cd68eb28e448010dc69b81e.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/90b425c2898f0ee7d2629aad1e09646f.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c777a2d9e21b3f61bf6ac630c57bbc20.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/997e0ca9bd539495ff2ec3635fbe8ce9.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/5012a5c99895533444467e1b9ebda773.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3abe200c0f6728c8a2d1b7e7fc9e4072.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/9485b684a79640f5e6e92bddde811f9e.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0b6a10cd2e5a853027953a1d76995fe5.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50fd4d8995a4b172da41338401eee0cd.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54d244f1d0fd2eaa82a2f1c074d2f6da.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/1800dc4af61459c83a06a64ce171c03c.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/3224d2dda066efe40f988ea625b973a5.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/997ee09346b6e74d06556adca944c2b0.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d8a128b306cc4056dfc87784e63a2a46.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a300aca0d41abeb3fdaa772007e49038.svg",
+            "https://ege.sdamgia.ru/formula/svg/1f/1f9397895dfff0e0c5291712a8e5e87c.svg",
+            "https://ege.sdamgia.ru/formula/svg/12/12ff08c58e1ec41c678f7fd7192c8659.svg",
+            "https://ege.sdamgia.ru/formula/svg/12/1297dc3b2d8b2c40ac2a985858a1910f.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c7e037fd99110252e3e60d11819c628.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/9704f5ca4890c08fce7bc17784a9722d.svg",
+            "https://ege.sdamgia.ru/formula/svg/b6/b60c2fd4264d75172491787d8a8de39a.svg",
+            "https://ege.sdamgia.ru/formula/svg/58/585795db8a778f54a105dd59b456f81f.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7b87752a3a99009889d310980106dc44.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b0782f84d51388413f0a3b1f7c71afef.svg",
+            "https://ege.sdamgia.ru/formula/svg/35/3555e0a0abe464996d0b43dd1bbcf16c.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "518914"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=518961"
+}

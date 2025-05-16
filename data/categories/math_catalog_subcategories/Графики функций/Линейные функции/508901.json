@@ -1,0 +1,37 @@
+{
+    "id": 508901,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображён график функции Найдите",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=153720",
+            "https://ege.sdamgia.ru/formula/svg/27/27441d90882e50faa687d6aa6aaf287a.svg",
+            "https://ege.sdamgia.ru/formula/svg/33/33f28bd74bd567667742b068ec6c24cb.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­ме­тим, что для ли­ней­ной функ­цииТогда, Ответ: 9.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/6e/6ecfc044c02e9afcf43a1de9a6e0bc41.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/5502cdc2cc5fe9dbcc0cf382ed1da702.svg",
+            "https://ege.sdamgia.ru/formula/svg/bd/bde801253599e07bec948c4ae4331d36.svg",
+            "https://ege.sdamgia.ru/formula/svg/7e/7ec3e341e8a26f7aa9df585fb59d98a5.svg"
+        ]
+    },
+    "answer": "9",
+    "analogs": [
+        "508895",
+        "508896",
+        "508897",
+        "508898",
+        "...",
+        "508896",
+        "508897",
+        "508898",
+        "508899",
+        "508900",
+        "508902",
+        "642298"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=508901"
+}

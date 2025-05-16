@@ -1,0 +1,37 @@
+{
+    "id": 526910,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых уравнениеимеет ровно один корень.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/36/3666531bf57eec035614a8e9b02dc45e.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­пи­шем урав­не­ние в виде  и рас­смот­рим два слу­чая.Пер­вый слу­чай:  при вы­пол­не­нии усло­вийИмеем:Для пер­во­го слу­чая по­лу­ча­ем: Вто­рой слу­чай:  при усло­вии Имеем:Корни урав­не­ния  и  сов­па­да­ют при Так как ин­тер­вал из пер­во­го слу­чая пол­но­стью вклю­ча­ет в себя по­лу­ин­тер­вал из вто­ро­го слу­чая, а ре­ше­ние нам тре­бу­ет­ся толь­ко одно, то ис­ход­ное урав­не­ние имеет ровно один ко­рень при  и  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/8c/8c16823b5d001b56599605a6306da835.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b312db0317d471f26d0afe0497574261.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/28c4e878603e782bdd498e315e58fcf2.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bb2b5c44073512f8146acd59ce54ef3b.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/42f1795a25031a8abb06407c47b348a8.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/79a9f71c0966ad608b3c008a7fbf29eb.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/078a7b815d6d19b31b5d3b24145e9dcf.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a2c5ff448cb43e006e5d6be319defdda.svg",
+            "https://ege.sdamgia.ru/formula/svg/c5/c591fa723f604f0103d61a74a19e6c23.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54da8bd16dadfa1dcdbadc138cbe09f9.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bf7ffe16e547e0a116d61f9a1a086d7a.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c7909a06505360d7d8936f6392fff2d0.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/162a3d6bddb19e5d01e64eaa5472c586.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/0147dd98d496f72aabd1cabe9b4a245d.svg",
+            "https://ege.sdamgia.ru/formula/svg/98/98b89c5bc22a5c9817806f18f2205d56.svg",
+            "https://ege.sdamgia.ru/formula/svg/11/11cda2ab11540d4c68769bb639d7fa7e.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7af0ea468f9b31a5b727b192508f5d19.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "526909"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=526910"
+}

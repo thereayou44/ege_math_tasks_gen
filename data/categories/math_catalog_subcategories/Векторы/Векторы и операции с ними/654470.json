@@ -1,0 +1,25 @@
+{
+    "id": 654470,
+    "topic": "2",
+    "condition": {
+        "text": "Найдите квадрат длины вектора +",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=165010",
+            "https://ege.sdamgia.ru/formula/svg/24/2443510e25925dc900c862964b3b7e39.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/524a5d02f643d21a127367a96bee1123.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Ко­ор­ди­на­ты суммы век­то­ров равны сум­мам со­от­вет­ству­ю­щих ко­ор­ди­нат:  Тогда для длины век­то­ра суммы имеем:  Квад­рат длины век­то­ра равен 98. Ответ: 98.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/54/54f84b958c94f4603061530bb4cf7804.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a80d5011bf084219fb1f9ed047fa6ef6.svg"
+        ]
+    },
+    "answer": "98",
+    "analogs": [
+        "27731",
+        "26465"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=654470"
+}

@@ -1,0 +1,39 @@
+{
+    "id": 511311,
+    "topic": "18",
+    "condition": {
+        "text": "При каких значениях а системы уравнении и равносильны?",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/42/425738f5247c6427ac5e59d0b2cb035f.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/1732843e5789cb9f6ebfa24d581d1b2f.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. При  ни одна из си­стем не имеет ре­ше­ний и, сле­до­ва­тель­но, они рав­но­силь­ны. При  вто­рое урав­не­ние, общее для обеих си­стем, имеет един­ствен­ное ре­ше­ние   не удо­вле­тво­ря­ю­щее  пер­вым урав­не­ни­ям си­стем. Т. е.  ни одна из си­стем не имеет ре­ше­ний и, сле­до­ва­тель­но, они рав­но­силь­ны. При  вто­рое урав­не­ние за­да­ет окруж­ность ра­ди­у­са  с цен­тром в на­ча­ле ко­ор­ди­нат. Урав­не­ние  за­да­ет пря­мые  А урав­не­ние  - одну пря­мую.   Если окруж­ность не имеет общих точек с пря­мы­ми, т. е. ре­ше­ний у си­стем нет, то си­сте­мы рав­но­силь­ны. Это воз­мож­но если ра­ди­ус окруж­но­сти мень­ше  т. е. при Если же окруж­ность имеет общие точки с пря­мы­ми, то си­сте­мы рав­но­силь­ны тогда и толь­ко тогда, когда окруж­ность имеет общие точки толь­ко с пря­мой  со­от­вет­ству­ю­щей  Од­на­ко это не­воз­мож­но, по­сколь­ку если окруж­ность имеет общие точки с пря­мой  она имеет общие точки и с пря­мой  По­это­му ни для каких  си­сте­мы рав­но­силь­ны­ми не яв­ля­ют­ся. Тем самым, ответ: Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/cf/cf8298b0e273301afdd921e7e4cf6c2b.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/ded681eaa02d11064c9a469dd1b3e04c.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/eab93b3179745965aa8fa36deec2534a.svg",
+            "https://ege.sdamgia.ru/formula/svg/b6/b6fd761f5955a58d0ca1351db6863a95.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/323c5f97105643bc61e288fe596194ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/c1/c17e049691f2eb2d93102b7d4b309572.svg",
+            "https://ege.sdamgia.ru/formula/svg/20/20efe371b20417996db19158b8f3cf50.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/eaf5a72a2216236946a0b035d2556042.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/42538c52b25c99a227b4b3cf2182b376.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/28e3de162be5383d5b4d6c1da490697d.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d80f2b69d1a29b540862302bd7b98a41.svg",
+            "https://ege.sdamgia.ru/formula/svg/be/be264e8771af3fbb0c577d8c4cca6189.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d722e6d68ed47042387e19b8a93e9d91.svg",
+            "https://ege.sdamgia.ru/formula/svg/be/be264e8771af3fbb0c577d8c4cca6189.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/dab1331e1e72c9fc1fe279aa75b3950a.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dca9a91d568692a567b24b098053e0c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/66728dc5aeb78312c5697d90f4e9ae6c.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/0133b8cfe3a9dab4190680bf93e89081.svg"
+        ]
+    },
+    "answer": "",
+    "analogs": [
+        "484636"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511311"
+}

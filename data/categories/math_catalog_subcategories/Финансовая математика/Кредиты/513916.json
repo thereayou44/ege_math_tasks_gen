@@ -1,0 +1,39 @@
+{
+    "id": 513916,
+    "topic": "16",
+    "condition": {
+        "text": "В июле 2016 года планируется взять кредит в размере 6,6 млн. руб. Условия возврата таковы: — каждый январь долг возрастает на r% по сравнению с концом предыдущего года. — с февраля по июнь необходимо выплатить часть долга. — в июле 2017, 2018 и 2019 годов долг остается равным 6,6 млн. руб. — суммы выплат 2020 и 2021 годов равны.Найдите r, если в 2021 году долг будет выплачен полностью и общие выплаты составят 12,6 млн. рублей.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пусть, банк на­чис­ля­ет r про­цен­тов, то есть умно­жа­ет оста­ток долга на  Обо­зна­чим это вы­ра­же­ние за x. Тогда пер­вые три пла­те­жа со­став­ля­ли  мил­ли­о­нов руб­лей. Пусть чет­вер­тый и пятый пла­те­жи со­став­ля­ли N мил­ли­о­нов руб­лей. Тогда  от­ку­да По усло­вию  Решим это урав­не­ние:Тогда  банк на­чис­лял 20% го­до­вых. Ответ:  20.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/df/df09b17d12076dd0e3ab623064fa0fcb.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/409bcce2e73eaf495074885c19d5814e.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/dff02a56b0b9fb7d4206d7c0b6a46bdb.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f431f60197eac88284433a80dde45ec8.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bf921b3d687431fa5d555a1eff57d30f.svg",
+            "https://ege.sdamgia.ru/formula/svg/24/24b23dd26d34f8b8157fa58f4433ad54.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/ca5c6929b0a4fbeaaafb86c2e81d9f2f.svg",
+            "https://ege.sdamgia.ru/formula/svg/b8/b8075328eb88032793ef8e351aa7666d.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fccf688292a5f09df5cbec2a2e6c47f9.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/ed1b6ee4382e0923a56109434ea70530.svg",
+            "https://ege.sdamgia.ru/formula/svg/b8/b8075328eb88032793ef8e351aa7666d.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f87715b23ee3deb2371775f41c504238.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/ca5c6929b0a4fbeaaafb86c2e81d9f2f.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/acdafa8fda9dedf4206bb5e5f4563b2c.svg",
+            "https://ege.sdamgia.ru/formula/svg/11/1139a6efd78fbb843ae503aa137e1fce.svg"
+        ]
+    },
+    "answer": "  20.",
+    "analogs": [
+        "513923",
+        "548496",
+        "549035",
+        "...",
+        "548496",
+        "549035",
+        "670365"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=513916"
+}

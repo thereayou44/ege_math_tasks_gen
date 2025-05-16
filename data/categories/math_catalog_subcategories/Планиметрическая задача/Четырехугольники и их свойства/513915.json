@@ -1,0 +1,30 @@
+{
+    "id": 513915,
+    "topic": "17",
+    "condition": {
+        "text": "Прямая, проходящая через вершину В, прямоугольника ABCD, перпендикулярная диагонали АС и пересекает сторону АD в точке M, равноудаленной от вершин В и D. а) Докажите, что ∠ABM = ∠DBC = ∠MBD.б) Найдите расстояние от точки О, точки пересечения диагоналей, до отрезка СМ, если BC = 42.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние.  а)   как на­крест ле­жа­щие.  как углы рав­но­бед­рен­но­го тре­уголь­ни­ка BMD. Зна­чит,  по­это­му все три части угла равны (при­чем, оче­вид­но, равны 30°).б)  Ясно, что рас­сто­я­ние от A до CM ровно вдвое боль­ше, по­сколь­ку O (точка пе­ре­се­че­ния диа­го­на­лей)  — се­ре­ди­на AC. Зна­чит,За­ме­тим, что  от­ку­да  Далее   По­это­му  Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=146809",
+            "https://ege.sdamgia.ru/formula/svg/87/877406eb6880a1592dcbc847995fde3c.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/adf952d83b91d8b25489f017d07866b1.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/adc78d7fe1b81a3bcea2de9cd28a5b47.svg",
+            "https://ege.sdamgia.ru/formula/svg/ce/ce8e50f6c06129a719ed109c98572bac.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/0441a6ccde0b2b519a935cf72da97825.svg",
+            "https://ege.sdamgia.ru/formula/svg/5b/5bb18fab24c080b9bb9167d48be7595a.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5c1e5bc6528b46fa6e17f278592d143c.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e8b72928465ba3f6b8c7d9a2d20efaf.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/56447313f664f2b8583181b4d9fa610c.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/db69e9398fe696174dcb5799916c8993.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/425b4a6218d4069db8496e471b3c612b.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "513922"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=513915"
+}

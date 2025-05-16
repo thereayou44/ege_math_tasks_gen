@@ -1,0 +1,43 @@
+{
+    "id": 643062,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых система уравнений имеет ровно два различных решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/fd/fd1056b9a9dfc4e9e996b584f5e0b352.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Гра­фи­ком пер­во­го урав­не­ния яв­ля­ет­ся объ­еди­не­ние пря­мой  и части гра­фи­ка  ле­жа­щей ниже этой пря­мой (вы­де­ле­но оран­же­вым). При  это от­ре­зок AD пря­мой  где   — точка пря­мой с абс­цис­сой  а   — точка её пе­ре­се­че­ния с   При  функ­ция имеет вид  её гра­фик это от­ре­зок AB, где   — точка пря­мой с абс­цис­сой  При  это от­ре­зок BC пря­мой  где   — точка её пе­ре­се­че­ния с  Гра­фи­ком вто­ро­го урав­не­ния яв­ля­ет­ся не­ко­то­рая пря­мая, па­рал­лель­ная пря­мой Ис­сле­дуя вза­им­ное рас­по­ло­же­ние гра­фи­ков урав­не­ний, по­лу­ча­ем, что ровно два ре­ше­ния си­сте­ма имеет в тех и толь­ко тех слу­ча­ях, когда пря­мая  про­хо­дит через точку B (это со­от­вет­ству­ет зна­че­нию ) и когда она лежит между пря­мы­ми, про­хо­дя­щи­ми через точку C (вклю­чая) и точку D (ис­клю­чая). Через точку C пря­мая про­хо­дит при  а через точку D  — при  От­ку­да и сле­ду­ет ответ. Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/cc/cc7f6fe6272b16aa9fda5bb595fb8d74.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d675ea44ecadf3b35a1e1a4a9ccf686b.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4a9926cb991a65f189a5da56b119e814.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e3cb6f6d1dd5367dfd33c5ff37632b77.svg",
+            "https://ege.sdamgia.ru/formula/svg/d1/d12a11405eeb5c25438b14dafbeb8c2c.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9f3539000718bf19c74958d59344b4e5.svg",
+            "https://ege.sdamgia.ru/formula/svg/bd/bd9c2baf311e37039788d684a4d7febb.svg",
+            "https://ege.sdamgia.ru/formula/svg/bc/bc2ee2b16bfb131ea7179f2f1db8945f.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/38fab9b9da0dae66d6867780d70c671c.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f6bdc3d085663aa36886d7a9aa973611.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/22f7e6930722dec225f4531a093e4b83.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1d41e6f55521cdba4fc73febd09d2eb4.svg",
+            "https://ege.sdamgia.ru/formula/svg/5b/5b4813d900f71749e142820006809fdc.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/7495611ef99af111b7d051dcbe251bb6.svg",
+            "https://ege.sdamgia.ru/formula/svg/76/76d6906d6cbeedc6a3518b86ff516b02.svg",
+            "https://ege.sdamgia.ru/formula/svg/bc/bc2ee2b16bfb131ea7179f2f1db8945f.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/10529ae692c6506344abdd790d6fb960.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=137423",
+            "https://ege.sdamgia.ru/formula/svg/bf/bf29c8e990bf2695276097d1b9124c7d.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7ad7aa81355fb023f1a34afb44b5674f.svg",
+            "https://ege.sdamgia.ru/formula/svg/9c/9c8f23c16e825a8b79e7944fd90f6303.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8e17e58deb13f10b4441ab633856eaa6.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f69f479021dfa3d1e55ef68b32038803.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "642957"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=643062"
+}

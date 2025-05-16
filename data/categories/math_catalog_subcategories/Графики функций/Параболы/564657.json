@@ -1,0 +1,31 @@
+{
+    "id": 564657,
+    "topic": "Д10",
+    "condition": {
+        "text": "На рисунке изображён график функции вида где числа a, b и c — целые. Найдите абсциссу вершины параболы.",
+        "images": [
+            "https://ege.sdamgia.ru/get_file?id=109411",
+            "https://ege.sdamgia.ru/formula/svg/2d/2dd638553299ee866a14b2c0495c7997.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Из ри­сун­ка видно, что    сле­до­ва­тель­но,   Решая эту си­сте­му, на­хо­дим   Абс­цис­са вер­ши­ны па­ра­бо­лы  Ответ: −4.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/f0/f036d1ea699271c2b0ef9d6d28d3526e.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c259824d50a4f883ae9f82c4aaea691f.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fd4698fb128d23d6d88c88bcf9e3c3a1.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/217c428e357b8753a00e11c134598df0.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ec13e05591ddadf9f9e73ba90b865b3e.svg",
+            "https://ege.sdamgia.ru/formula/svg/8a/8a73bee90f8f8f69117d09cff882c75f.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/de7e159cc15eca4f2b117d3194184c40.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/556f462b0748c0c4c1282f7592d45eca.svg"
+        ]
+    },
+    "answer": "-4",
+    "analogs": [
+        "564654",
+        "564655",
+        "564656"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=564657"
+}

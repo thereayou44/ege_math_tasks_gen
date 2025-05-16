@@ -1,0 +1,42 @@
+{
+    "id": 640928,
+    "topic": "17",
+    "condition": {
+        "text": "Две окружности касаются внутренним образом в точке K, причём меньшая проходит через центр большей. Хорда MN большей окружности касается меньшей в точке C. Хорды KM и KN пересекают меньшую окружность в точках A и B соответственно, а отрезки KC и AB пересекаются в точке L.а) Докажите, что б) Найдите длину хорды MN, если a радиус меньшей окружности равен",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/2c/2c7509966fe5cef870bbd20f31031432.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/067e65eb9330a2fef5b1040e43cf4627.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6f84f6a2e0bbb29bc579893768f06db8.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. a)  Пусть O  — центр боль­шей окруж­но­сти. Линия цен­тров ка­са­ю­щих­ся окруж­но­стей про­хо­дит через точку ка­са­ния, по­это­му OK диа­метр мень­шей окруж­но­сти.Точка A лежит на окруж­но­сти c диа­мет­ром OK, зна­чит,  От­ре­зок OA  — пер­пен­ди­ку­ляр, опу­щен­ный из цен­тра боль­шей окруж­но­сти на хорду, по­это­му A  — се­ре­ди­на KM. Ана­ло­гич­но B  — се­ре­ди­на KN. Тогда AB  — сред­няя линия тре­уголь­ни­ка KMN. Зна­чит, пря­мые AB и MN па­рал­лель­ны. Тогда  от­ку­да  б)  Ра­ди­ус боль­шей окруж­но­сти равен  В преды­ду­щем пунк­те было до­ка­за­но, что  Опу­стим пер­пен­ди­ку­ляр OH на хорду MN. Тогда H  — се­ре­ди­на MN. По­ло­жим   Тогда  Из пря­мо­уголь­но­го тре­уголь­ни­ка OHM на­хо­дим, что Пусть Q  — центр мень­шей окруж­но­сти. Тогда пря­мые QC и OH па­рал­лель­ны. Опу­стим пер­пен­ди­ку­ляр OF из цен­тра боль­шей окруж­но­сти на пря­мую QC. Тогда:  и По тео­ре­ме Пи­фа­го­ра  Со­ста­вим и решим урав­не­ние:  Сле­до­ва­тель­но,   Ответ: б)  ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=131651",
+            "https://ege.sdamgia.ru/formula/svg/80/802fd24779ad2e04a989b4b3c9d032bb.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e8955bad9ba3c948514fae22effcd87.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1bf7dcc4da0cd2b29e3bec28fc536839.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/16ec1eb2867b37fd1abaa01971ac7cf0.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b1fa93aae94e7b6237071cf7fc1a929d.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1eed68733b7c04429e4eaf43e34a48bf.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/39421d7c4972549bc1d7fbb495eb72bb.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5d50eb215be1a69a09829a2ba5fb93b4.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/849a9d0f70d2ae2cac2c8700882cb5b0.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5d0d229f472721097281635df2975433.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/09368d1a461a1388ba56041d8c70f991.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e2ef7ab5b1e68d579217992373479024.svg",
+            "https://ege.sdamgia.ru/formula/svg/b6/b6bbddc8cf2a38a9c21178e178cc7dcf.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/9766eb35c47b58f59ea86d220651e53b.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/01985be2422cdc46eccdd83f07158df6.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1d983b5edf6ff79bb930393207c9f2ef.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/9766eb35c47b58f59ea86d220651e53b.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f054a25f00b337524041f1e0559323e5.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3a41c11ccb4ba3cf263f40f7b63271a2.svg"
+        ]
+    },
+    "answer": " б)  ",
+    "analogs": [
+        "639678"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=640928"
+}

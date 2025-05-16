@@ -1,0 +1,32 @@
+{
+    "id": 520520,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых система уравнений имеет ровно два решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/e8/e8612b99fe5430ff9b8b838f77edb5d0.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пер­вое урав­не­ние си­сте­мы рас­кла­ды­ва­ет­ся на мно­жи­те­ли:  Сле­до­ва­тель­но, урав­не­ние за­да­ет пару пря­мых  и Вто­рое урав­не­ние при каж­дом   — урав­не­ние окруж­но­сти с цен­тром  и ра­ди­у­сом Если  то си­сте­ма имеет един­ствен­ное ре­ше­ние и по­это­му не удо­вле­тво­ря­ет усло­вию за­да­чи.Если  то усло­вие за­да­чи вы­пол­не­но тогда и толь­ко тогда, когда окруж­ность ка­са­ет­ся каж­дой из пря­мых, то есть рас­сто­я­ние от цен­тра до каж­дой из пря­мых равно ра­ди­у­су окруж­но­сти. По­лу­ча­ем урав­не­ние Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/8c/8c23754411520ea3acbef14aaf15544b.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4fce6897147484d2caf9627b55ca9ca9.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/49711a3a07a1bf931e494902230705de.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/51c0587a22beda1af3afbbb4b97cd966.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5c195fbfca7c52ee79bc3b40f686df9c.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6dc4dec2a6134d3c8d364a608e5bd11c.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d47c3b48318fcef886f7705dfd2b566.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/34462594dd10882617fa1e4623fd4c39.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a9927d36c7784325f42ed202b83ef9c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6e063a4b90a0638733dcae70042101e9.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "520500",
+        "520663",
+        "520704"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=520520"
+}

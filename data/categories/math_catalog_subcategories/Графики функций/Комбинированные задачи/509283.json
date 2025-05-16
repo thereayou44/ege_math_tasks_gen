@@ -1,0 +1,42 @@
+{
+    "id": 509283,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображены графики функций и которые пересекаются в точке A. Найдите ординату точки A.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=149667",
+            "https://ege.sdamgia.ru/formula/svg/05/056bc99d7b2e863d3e614bb99606cbea.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d8e9d1bdb39f21c0fc574408d8a15a64.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По гра­фи­ку, f(4)  =  −5, тогда  Тогда урав­не­ние функ­ции имеет вид За­ме­тим, что k  — тан­генс угла на­кло­на пря­мой. Тогда  По гра­фи­ку, g(0)  =  4, зна­чит,  Тогда урав­не­ние пря­мой имеет вид Те­перь найдём ор­ди­на­ту точки A: Таким об­ра­зом, y  =  −10. Ответ: −10.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/8b/8b923a8a21075398226e86d04df1a8c4.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d8e6faae46814ca0c99ce715f777ee28.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2ad6f47980bdb03a171ec81b83f66e68.svg",
+            "https://ege.sdamgia.ru/formula/svg/5b/5bb79ed1ae808f7ae2c40025c7d196ba.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/007a366fa6895c3e3baa9d6ab45d2061.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/36d7a379a4818b0b30cfe0f2fda79d2d.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cfb1fe0ffdceedcbd7341895bdde7bf2.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/dd0293c89fe585ec3adcec42d23546ae.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83cd439167c7ce7e753178982a739dd5.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b45a61d4ef5e261cac776037df799550.svg"
+        ]
+    },
+    "answer": "-10",
+    "analogs": [
+        "509280",
+        "509279",
+        "509281",
+        "509282",
+        "...",
+        "509279",
+        "509281",
+        "509282",
+        "509284",
+        "509285",
+        "509286"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509283"
+}

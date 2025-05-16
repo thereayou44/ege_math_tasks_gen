@@ -1,0 +1,41 @@
+{
+    "id": 511312,
+    "topic": "18",
+    "condition": {
+        "text": "При каждом значении а решите систему",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/57/5736c48ebaaaad0b47849caa38c2284c.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пары  да­ю­щие ре­ше­ние си­сте­мы, долж­ны удо­вле­тво­рять усло­ви­ямИз вто­ро­го урав­не­ния си­сте­мы на­хо­дим Оста­лось за­ме­тить, что тогдаРас­смот­рим урав­не­ние При   — ре­ше­ний нет.При  по­лу­чим  При   — ре­ше­ний нет. При осталь­ных a из вто­ро­го урав­не­ния си­сте­мы  Из по­лу­чен­ной си­сте­мы на­хо­дим При  по­лу­чим  При   — ре­ше­ний нет. При осталь­ных a из вто­ро­го урав­не­ния си­сте­мы  Из по­лу­чен­ной си­сте­мы на­хо­дим  Ответ:  при   — ре­ше­ний нет, при  при ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/59/599bd1da317c4cb2da0291c8d13926c8.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/379d94610da48822577f1200d78cab61.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5d0a5ea1d500676aece021698f188f97.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2e024c2a778f05b93df37b0a782dddee.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/72d69d7442e4e3e86147b20ac4f17916.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/ded681eaa02d11064c9a469dd1b3e04c.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/323c5f97105643bc61e288fe596194ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d62ed84a26cc741c3b1f7d4887dfdd57.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/3872c9ae3f427af0be0ead09d07ae2cf.svg",
+            "https://ege.sdamgia.ru/formula/svg/7f/7f3ddf9ffec52dab4ac4fccb10f00168.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e53d1b1f0ad2afce8e23644cc1258932.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4f109c5afd2db45213f499ba38e8bcec.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf8298b0e273301afdd921e7e4cf6c2b.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/79f034b23a577635f29d5a5b6b38f03c.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f836be878c290d77b060bdcaf6b3e25d.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1c1a4de3732b249bdd21e6ffa89eb542.svg",
+            "https://ege.sdamgia.ru/formula/svg/35/35fd27dd16b06ab30eeaa4bd95af236a.svg",
+            "https://ege.sdamgia.ru/formula/svg/c1/c15eefe02fe8295f683d6d67268be747.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1da065cf01ec3bdfa738a04dc5f4c718.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fdb77e009b073252b95769140c3b0261.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/22a06274fa1c36f72c62c9c3346fd7b8.svg"
+        ]
+    },
+    "answer": "  при   — ре­ше­ний нет, при  при ",
+    "analogs": [
+        "484637"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511312"
+}

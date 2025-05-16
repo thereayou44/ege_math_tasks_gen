@@ -1,0 +1,48 @@
+{
+    "id": 26445,
+    "topic": "2",
+    "condition": {
+        "text": "Две стороны прямоугольника равны 6 и 8. Диагонали пересекаются в точке . Найдите длину разности векторов и .",
+        "images": [
+            "https://math-ege.sdamgia.ru/fbms/41/7f/b6/95/417fb695bce9e96bc5d113d0a8d3a3b7.png",
+            "https://math-ege.sdamgia.ru/fbms/03/36/05/31/033605319bfc9bc63d420c416da4903a.png",
+            "https://math-ege.sdamgia.ru/fbms/d4/4c/c9/e2/d44cc9e2f7fe6aca8c2b58d8b5bfccf6.png",
+            "https://math-ege.sdamgia.ru/fbms/57/4d/50/c1/574d50c14e81899aae64319c2bc8d189.png",
+            "https://math-ege.sdamgia.ru/abms/37/5a/06/de/375a06de4ba5bcc01a685b834b0ee186.jpg"
+        ]
+    },
+    "solution": {},
+    "answer": "10",
+    "analogs": [
+        "27712",
+        "60405",
+        "60407",
+        "...",
+        "60405",
+        "60407",
+        "60409",
+        "60411",
+        "60413",
+        "60415",
+        "60417",
+        "60419",
+        "60421",
+        "60423",
+        "60425",
+        "60427",
+        "60429",
+        "60431",
+        "60433",
+        "60435",
+        "60437",
+        "60439",
+        "60441",
+        "60443",
+        "60445",
+        "60447",
+        "60449",
+        "60451",
+        "60453"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=26445"
+}

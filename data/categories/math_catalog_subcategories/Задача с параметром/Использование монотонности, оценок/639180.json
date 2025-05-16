@@ -1,0 +1,44 @@
+{
+    "id": 639180,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при которых для любого действительного x выполнено неравенство",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/3a/3a0911d3bbb571ce0f26d32e910ecf7a.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пусть  тогда не­ра­вен­ство за­пи­шет­ся в виде По­сколь­ку  не­об­хо­ди­мо найти все зна­че­ния a, при ко­то­рых не­ра­вен­ство вы­пол­не­но при Рас­смот­рим функ­ции  и  Функ­ция   — ку­соч­но-ли­ней­ная. Уг­ло­вой ко­эф­фи­ци­ент её зве­ньев не пре­вос­хо­дит 9. Функ­ция   — ли­ней­ная с уг­ло­вым ко­эф­фи­ци­ен­том 14. Зна­чит, функ­ция  убы­ва­ю­щая. Таким об­ра­зом, если не­ра­вен­ство  вы­пол­не­но при  то оно вы­пол­не­но при всех  а зна­чит, и на от­рез­ке При  не­ра­вен­ство при­ни­ма­ет видВы­ра­же­ние  равно нулю при  При про­чих а вы­ра­же­ние  по­ло­жи­тель­но, и на него можно раз­де­лить, не меняя знака не­ра­вен­ства. По­лу­чим:Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/46/4651de31233b56371ebd4b7e5d16237c.svg",
+            "https://ege.sdamgia.ru/formula/svg/b8/b8499b38eebded440c5a822295a04cc5.svg",
+            "https://ege.sdamgia.ru/formula/svg/71/71bef6b87828d44419e95ad7c7728702.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fc9382e177c5565bb9400a4c2af435cd.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7b522f1a614184ab8f3b32ef6e3a4642.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d582f5c13537fd8893b271e635aa7a2d.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d6e3af948a34fd5f432cb9d377a98ef0.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/096254c7552111f593bb632a91205f32.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/07aa0add5c7126f69ee98eea96c96997.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e358caee6c50bc699280ce01cd6df5ad.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/008c7970240c738f32ff974457572fec.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bf2c7609dac606c327882f4a50338ecd.svg",
+            "https://ege.sdamgia.ru/formula/svg/77/772dd743fa5e6a386db6a869c5278da2.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d2b95c728077c7867c8cc01b43fcb932.svg",
+            "https://ege.sdamgia.ru/formula/svg/b2/b2bfc25db05c612ef25626197401f6ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8c1b3a043b406aaf5f80547c1e890c9b.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/ef84016617f20f540fba333dac18ace7.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8c1b3a043b406aaf5f80547c1e890c9b.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f6d4c01a3d61a9d57cc9e8cf89a767dd.svg",
+            "https://ege.sdamgia.ru/formula/svg/b2/b23dce3b5ce6906ad5390b5c303eaff1.svg",
+            "https://ege.sdamgia.ru/formula/svg/f2/f27e720862071ee02836f7028c530e63.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/cc3abcb3dee9828d37dacaaaf86a2406.svg",
+            "https://ege.sdamgia.ru/formula/svg/b2/b23dce3b5ce6906ad5390b5c303eaff1.svg",
+            "https://ege.sdamgia.ru/formula/svg/b6/b69a2d9548acd71ffa2a68b19a34ff04.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "514128"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=639180"
+}

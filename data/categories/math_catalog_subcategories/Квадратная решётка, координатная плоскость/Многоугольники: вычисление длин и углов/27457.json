@@ -1,0 +1,39 @@
+{
+    "id": 27457,
+    "topic": "Д4",
+    "condition": {
+        "text": "Найдите синус угла В ответе укажите значение синуса, умноженное на",
+        "images": [
+            "https://ege.sdamgia.ru/get_file?id=30620",
+            "https://ege.sdamgia.ru/formula/svg/e4/e4a893c3641ff45ea8d60057a30cf1e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f4d37e7851c16136e1b284902603ca2e.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. До­стро­им угол до тре­уголь­ни­ка BOA и опу­стим вы­со­ту OK на ос­но­ва­ние  Из ри­сун­ка на­хо­дим     Вос­поль­зу­ем­ся тео­ре­мой си­ну­сов:    где  Тогда:   Ответ: 2. При­ве­дем дру­гое ре­ше­ние.По тео­ре­ме ко­си­ну­сов в тре­уголь­ни­ке АОВ имеем:  от­ку­да  Тогда из ос­нов­но­го три­го­но­мет­ри­че­ско­го тож­де­ства на­хо­дим  что дает  При­ве­дем ре­ше­ние Ни­ко­лая Жу­равле­ва.Про­длим пря­мую AO  за точку О и от­ло­жим на ней от­ре­зок ОD, рав­ный OA. Точка D будет рас­по­ло­же­на на три клет­ки влево и на одну клет­ку вниз от точки O. Рас­смот­рим тре­уголь­ник BOD:  сле­до­ва­тель­но, тре­уголь­ник  BOD рав­но­бед­рен­ный пря­мо­уголь­ный, тогда угол BOD равен 45 гра­ду­сов, а смеж­ный с ним угол AOB равен 135 гра­ду­сов. Си­ну­сы смеж­ных углов равны, по­это­му ",
+        "images": [
+            "https://ege.sdamgia.ru/get_file?id=65811",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c6ed112a9eb109891082295b6e83622.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c369ea0ab99b3172bd937e6d447bc223.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3c282705005d860652eb38ff8ace994f.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4b6b88af64ec601f801307cf4aa4e08d.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/40a3d9fc82ccf0b78b5cbd8df36b7dee.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/57ac423cd630871ebd139ac7978871ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/93/93c8baa013db364e906c61f88cb8cf7e.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/88ca8a8d9456a9fa9a9c0646966ea478.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/36a069bfd8c8492b3bdd09b8a1e829f7.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/74f53e46135ab65e50a2f9a622b30dc3.svg",
+            "https://ege.sdamgia.ru/formula/svg/6b/6b2d7b4db961a3dd1b5b5be9c56abb9e.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d92a6ea065034b767a7f7658e4ba96a0.svg",
+            "https://ege.sdamgia.ru/get_file?id=69721",
+            "https://ege.sdamgia.ru/formula/svg/12/1293566f718279c2295c3acbe198b07d.svg",
+            "https://ege.sdamgia.ru/formula/svg/77/77ae2536586e1d908e039c24d1d79aed.svg"
+        ]
+    },
+    "answer": "2",
+    "analogs": [
+        "27459",
+        "27458"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=27457"
+}

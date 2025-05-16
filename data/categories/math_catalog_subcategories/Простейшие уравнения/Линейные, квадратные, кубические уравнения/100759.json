@@ -1,0 +1,40 @@
+{
+    "id": 100759,
+    "topic": "6",
+    "condition": {
+        "text": "Решите уравнение",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/3d/3d017e2ce3877f35524dcacc96294c59.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Ис­поль­зу­ем фор­му­лы квад­ра­та суммы и раз­но­сти: Ответ: 12.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/3f/3fb711de5c6ef26d62e7088b0ad55e00.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2ef1618c9212f235c8d3fd2d7a5f6daf.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/03243cc217d84e27ff179def5e7aa035.svg"
+        ]
+    },
+    "answer": "12",
+    "analogs": [
+        "77369",
+        "100787",
+        "100761",
+        "...",
+        "100787",
+        "100761",
+        "100763",
+        "100765",
+        "100767",
+        "100769",
+        "100771",
+        "100773",
+        "100775",
+        "100777",
+        "100779",
+        "100781",
+        "100783",
+        "100785"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=100759"
+}

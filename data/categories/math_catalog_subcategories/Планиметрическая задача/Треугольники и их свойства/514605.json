@@ -1,0 +1,37 @@
+{
+    "id": 514605,
+    "topic": "17",
+    "condition": {
+        "text": "В прямоугольном треугольнике АВС с прямым углом С точки М и N — середины катетов АС и ВС соответственно, СН — высота. а) Докажите, что прямые МН и NH перпендикулярны.б) Пусть Р — точка пересечения прямых АС и NH, а Q — точка пересечения прямых BC и МН. Найдите площадь треугольника PQM, если АН = 12 и ВН = 3.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Тре­уголь­ни­ки АНС и ВНС пря­мо­уголь­ные (рис. 1), по­это­му  и  Зна­чит, тре­уголь­ни­ки MCN и MHN равны по трём сто­ро­нам, от­ку­да б)  В пря­мо­уголь­ном тре­уголь­ни­ке АВС имеем:  (рис. 2).В пря­мо­уголь­ных тре­уголь­ни­ках МНР и MCQ с общим углом CMH по­лу­ча­ем:по­это­му тре­уголь­ни­ки МНС и MРQ по­доб­ны с ко­эф­фи­ци­ен­том по­до­бия Пло­щадь S тре­уголь­ни­ка МНС равна по­ло­ви­не пло­ща­ди тре­уголь­ни­ка АНС, то есть Найдём Зна­чит, пло­щадь тре­уголь­ни­ка MPQ равна  Ответ: б) 50. При­ме­ча­ние Дмит­рий Гу­щи­на.Пло­щадь тре­уголь­ни­ка PQM равна по­ло­ви­не про­из­ве­де­ния QC на PM. Для того, чтобы опре­де­лить длины дан­ных от­рез­ков, можно два раза при­ме­нить тео­ре­му Ме­не­лая: и   от­ку­да:   ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=146902",
+            "https://ege.sdamgia.ru/formula/svg/72/727daea0cdcec92bfa20c038c12b721d.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/397875e0b4bbbbf46f237d47fdddcbac.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/ba161ff1f8b04e79c2e24be186a848a4.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e05fbaaabd3d316fb0a9359d546847de.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/810d8c1e262092f0741ff6c7bf19573b.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=146903",
+            "https://ege.sdamgia.ru/formula/svg/18/1896904783748a9ee9f19ae00c722b9a.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/7094c98c7ad03126cc7e59790412fcd8.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9e277beb064138d323940e5757365cff.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/79e10efe6987423952d0db0b8d2558a7.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/66d80dc4a2dd8904d4fe6eaa37192c41.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/ddcd301d726fbb1cff4ce7627b6f5edf.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0ba09fc5e01eeea8928a2f943a134126.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/45430def413dc3d34898e3e212d166d6.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f9cf8140e876c0bcb33dd55fd90f6c04.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2e31743383fe335d19ef4bec6f797597.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6e51d88e8cf962ce96ae029c5e2cf7f7.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4d9dc61f408625db67cf2aceeccd1fe5.svg"
+        ]
+    },
+    "answer": " б) 50.",
+    "analogs": [
+        "514612"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=514605"
+}

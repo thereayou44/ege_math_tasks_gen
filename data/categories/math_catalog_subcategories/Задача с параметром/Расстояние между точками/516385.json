@@ -1,0 +1,47 @@
+{
+    "id": 516385,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых система имеет единственное решение.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/e3/e3279aae545ad8726ca07fe7e90bca56.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Урав­не­ние  озна­ча­ет, что сумма рас­сто­я­ний от точки  до точек  и  равна  но эта сумма рас­сто­я­ний все­гда боль­ше, чем  если толь­ко точка  не лежит на от­рез­ке с кон­ца­ми   и  Зна­чит, мно­же­ство ре­ше­ний при   — это от­ре­зок с кон­ца­ми  и  При  мно­же­ство ре­ше­ний  — это Мно­же­ство ре­ше­ний не­ра­вен­ства   — круг на плос­ко­сти с ко­ор­ди­на­та­ми  с цен­тром в на­ча­ле ко­ор­ди­нат и ра­ди­у­сом  От­сю­да по­лу­ча­ем не­об­хо­ди­мое усло­вие су­ще­ство­ва­ние един­ствен­но­го ре­ше­ния  — от­ре­зок с кон­ца­ми  и  дол­жен пе­ре­се­кать­ся с дан­ным кру­гом в един­ствен­ной точке. Это воз­мож­но при  (когда от­ре­зок пре­вра­ща­ет­ся в точку), а также когда от­ре­зок ка­са­ет­ся гра­ни­цы круга. Из сим­мет­рии точка ка­са­ния лежит в се­ре­ди­не этого от­рез­ка. Рас­сто­я­ние от се­ре­ди­ны от­рез­ка до на­ча­ла ко­ор­ди­нат равно  В слу­чае ка­са­ния это рас­сто­я­ние долж­но сов­па­дать с ра­ди­у­сом круга, от­ку­да по­лу­ча­ем урав­не­ние    Таким об­ра­зом, си­сте­ма имеет един­ствен­ное ре­ше­ние при  и  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/eb/eb99619dbab1e206d57334c9681062fb.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/003c862550d07837de43e8c74b4bd824.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/062a4b6d74c096e65a0c29306601b9f8.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1e8cb5cc592cba75d11799d6d5d5b5cc.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/ae5dbefb5ca3a1659408d2bff17fc681.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/ae5dbefb5ca3a1659408d2bff17fc681.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/003c862550d07837de43e8c74b4bd824.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/062a4b6d74c096e65a0c29306601b9f8.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0b3295c20e0f3ee35ad048cbd397c22c.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/51c0587a22beda1af3afbbb4b97cd966.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/062a4b6d74c096e65a0c29306601b9f8.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0b3295c20e0f3ee35ad048cbd397c22c.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f18698e8231718fca7de1f17e8ea93c1.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ecc2f0a01ce47c0b7455a833d85c784f.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/5747a1f1f16955c11e64a35adab5b18e.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/003c862550d07837de43e8c74b4bd824.svg",
+            "https://ege.sdamgia.ru/formula/svg/87/87fed09285f2c8238cf1cb0c9dd5964c.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/062a4b6d74c096e65a0c29306601b9f8.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1e8cb5cc592cba75d11799d6d5d5b5cc.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f18698e8231718fca7de1f17e8ea93c1.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7bdd4c967e21036c8183cc1b77f4bedf.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e5bf52a530768cbbd05dfc89b84a06ae.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d5326828735a2fafc2b9e3d250a0d18d.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e0454431350886c92d82d30f17613c41.svg",
+            "https://ege.sdamgia.ru/formula/svg/4e/4ebc569e7e4674bdf2ed9493a9614df9.svg",
+            "https://ege.sdamgia.ru/formula/svg/a0/a0c9994d91bd28baa65fb1b968e63196.svg",
+            "https://ege.sdamgia.ru/formula/svg/43/439eb32c1910c4211902f8d0848b5ef3.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "516405"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=516385"
+}

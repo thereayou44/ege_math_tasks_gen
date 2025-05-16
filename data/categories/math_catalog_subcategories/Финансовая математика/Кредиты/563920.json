@@ -1,0 +1,36 @@
+{
+    "id": 563920,
+    "topic": "16",
+    "condition": {
+        "text": "15 декабря 2024 года планируется взять кредит в банке на 17 месяцев. Условия возврата таковы: — 1-го числа каждого месяца долг возрастает на 3% по сравнению с концом предыдущего месяца; — со 2-го по 14-е число каждого месяца необходимо выплатить часть долга; — 15-го числа каждого месяца с 1-го по 16-й (с января 2025 года по апрель 2026 года включительно) долг должен быть на одну и ту же сумму меньше долга на 15-е число предыдущего месяца; — 15 апреля 2026 года долг составит 400 тысяч рублей; — 15 мая 2026 года долг должен быть полностью погашен.Какую сумму планируется взять в кредит, если общая сумма выплат после полного его погашения составит 1608 тысяч рублей?",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­пол­ним таб­ли­цу в со­от­вет­ствии с усло­ви­ем за­да­чи. Номерме­ся­цаДолгпосле на­чис­ле­ния про­цен­тов,тыс. руб.Вы­пла­та,тыс. руб.Долгдо на­чис­ле­ния про­цен­тов,тыс. руб.12............1516170 Найдём сумму вы­плат, вос­поль­зо­вав­шись фор­му­лой суммы ариф­ме­ти­че­ской про­грес­сии: тыс. руб. По усло­вию эта сумма равна 1608 тыс. руб. Зна­чит,Найдём сумму взя­тую в кре­дит: тыс. руб.Ответ: 1 200 000 руб­лей.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/73/733e54f2d1ed408d3248e1d78a8d5d2f.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/5308409196437e1124ce9f99c8e96fb1.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/700279d05a7092e2926aaa2dd18c2125.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/271d87a7260b79e8c0f50dac211bb6a4.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/1844e3ada7d66ddccadd76e5782ef280.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/92ef9b1087f29a1ed6b9a49df91f0744.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/dfb55abdd10c6971c4cbfb27acfbcc16.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/dd6eb298a897e73fcfb8c3f29530ada2.svg",
+            "https://ege.sdamgia.ru/formula/svg/8d/8d0ddc90dbb313d70c77f0085d1f4995.svg",
+            "https://ege.sdamgia.ru/formula/svg/f2/f2ba69664c714c34820cd1c80605eb48.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/36c8d7e6d8def44f231b0f6ad96243e6.svg",
+            "https://ege.sdamgia.ru/formula/svg/0a/0ae4d91a96ffcc313e1cd61b2ef91664.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/18d8042386b79e2c279fd162df0205c8.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/397f57e3c0e12ae39ec73c769b2f8dc3.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/397f57e3c0e12ae39ec73c769b2f8dc3.svg",
+            "https://ege.sdamgia.ru/formula/svg/1f/1f9d11c4fe8d2e07191edcb881a71a19.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/792aaa0f254bedce0c9e32430f4038a6.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2c4643de19da781257e71f5582fb419f.svg"
+        ]
+    },
+    "answer": " 1 200 000 руб­лей.",
+    "analogs": [
+        "563899"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=563920"
+}

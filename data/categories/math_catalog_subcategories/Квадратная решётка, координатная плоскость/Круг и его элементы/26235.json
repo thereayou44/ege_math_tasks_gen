@@ -1,0 +1,23 @@
+{
+    "id": 26235,
+    "topic": "Д4",
+    "condition": {
+        "text": "Найдите угол ABC. Ответ дайте в градусах.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=18507"
+        ]
+    },
+    "solution": {},
+    "answer": "45",
+    "analogs": [
+        "27887",
+        "27888",
+        "27889",
+        "26234",
+        "...",
+        "27888",
+        "27889",
+        "26234"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=26235"
+}

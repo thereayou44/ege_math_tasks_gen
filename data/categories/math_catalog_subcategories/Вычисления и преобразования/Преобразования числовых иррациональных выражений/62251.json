@@ -1,0 +1,52 @@
+{
+    "id": 62251,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите значение выражения",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/48/4826e1f2a527fa14d96507cc1baa0d6a.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Вы­пол­ним пре­об­ра­зо­ва­ния:    Ответ: −6.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/d4/d488d5cde9cfa0c5dafa0be0870ec522.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8e00c9e123c41e2cb264934e28487a1b.svg",
+            "https://ege.sdamgia.ru/formula/svg/ab/ab6cf29676a01a6a9fed7b7f5a10820d.svg"
+        ]
+    },
+    "answer": "-6",
+    "analogs": [
+        "26744",
+        "62205",
+        "530668",
+        "...",
+        "62205",
+        "530668",
+        "530688",
+        "621766",
+        "621896",
+        "62207",
+        "62209",
+        "62211",
+        "62213",
+        "62215",
+        "62217",
+        "62219",
+        "62221",
+        "62223",
+        "62225",
+        "62227",
+        "62229",
+        "62231",
+        "62233",
+        "62235",
+        "62237",
+        "62239",
+        "62241",
+        "62245",
+        "62247",
+        "62249"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=62251"
+}

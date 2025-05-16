@@ -1,0 +1,37 @@
+{
+    "id": 508896,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображён график функции Найдите",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=91937",
+            "https://ege.sdamgia.ru/formula/svg/b8/b87614abecb533400ec97ef94f724663.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/46f83c06337eb1b0b4f9aacb3fe0291c.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­ме­тим, что для ли­ней­ной функ­цииТогда, Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/7a/7aa23746cc897f98254253cf9c1136f1.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/06dba1b4b038dad7a76468732c18ddb5.svg",
+            "https://ege.sdamgia.ru/formula/svg/3f/3f286a3d6cddc31e10792f83a37c7282.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1b6e178335121d5ba7606d3fc628f67c.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/08a055209720aef7a3b63736cec94bfd.svg"
+        ]
+    },
+    "answer": "-10,5",
+    "analogs": [
+        "508895",
+        "508897",
+        "508898",
+        "...",
+        "508897",
+        "508898",
+        "508899",
+        "508900",
+        "508901",
+        "508902",
+        "642298"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=508896"
+}

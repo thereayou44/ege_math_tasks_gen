@@ -1,0 +1,54 @@
+{
+    "id": 65255,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/5c/5cb34cccaf16cfc7eb088fbe8e2931ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/b2/b21f879a0c1175c56ab989405cbb7e62.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Най­ди­те  если Спо­соб 1:  Тогда:Спо­соб 2: раз­де­лим чис­ли­тель и зна­ме­на­тель дроби на  Тогда:  Ответ: −9.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/21/215d1174e44f6c3a7ced9d82c6e2be46.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/63c73b3745860c4bafd94a2eb21a0462.svg",
+            "https://ege.sdamgia.ru/formula/svg/48/48afb623ee54fe5eb0bb087c5c31d77b.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/043099578ce5e7c3a225257a9b1ebf4f.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f923693232b87820b204e106f291f23f.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/192a705f3ff2966da410185b4647bdfa.svg"
+        ]
+    },
+    "answer": "0,5",
+    "analogs": [
+        "26788",
+        "65269",
+        "65223",
+        "65225",
+        "...",
+        "65269",
+        "65223",
+        "65225",
+        "65227",
+        "65229",
+        "65231",
+        "65233",
+        "65235",
+        "65237",
+        "65239",
+        "65241",
+        "65243",
+        "65245",
+        "65247",
+        "65249",
+        "65251",
+        "65253",
+        "65257",
+        "65259",
+        "65261",
+        "65263",
+        "65265",
+        "65267"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=65255"
+}

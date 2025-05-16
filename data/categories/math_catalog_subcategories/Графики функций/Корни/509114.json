@@ -1,0 +1,30 @@
+{
+    "id": 509114,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображён график функции Найдите",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=91949",
+            "https://ege.sdamgia.ru/formula/svg/59/59f392d4310b90a59dc047cfe2060340.svg",
+            "https://ege.sdamgia.ru/formula/svg/8d/8d3a296bb4addf42a4dd833e404e0eea.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По гра­фи­ку, f(4)  =  −3, тогда  Таким об­ра­зом, Ответ: −2,4.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/2f/2fbd5f39b1d827bd91cd690d5928c836.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/ed801a3bd41163c357a9e007db1bba86.svg"
+        ]
+    },
+    "answer": "-2,4",
+    "analogs": [
+        "509113",
+        "509115",
+        "509116",
+        "...",
+        "509115",
+        "509116",
+        "509117"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509114"
+}

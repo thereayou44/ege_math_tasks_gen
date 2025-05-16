@@ -1,0 +1,57 @@
+{
+    "id": 562038,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых система уравнений имеет больше трёх решений.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/5a/5a8f41e8126a63751da7b19011ff37d0.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Рас­смот­рим пер­вое урав­не­ние:  При  по­лу­ча­ем  А при  имеем:Рас­смот­рим вто­рое урав­не­ние:Гра­фик пер­во­го урав­не­ния  — объ­еди­не­ние луча  при  и части ги­пер­бо­лы  при  Гра­фик вто­ро­го урав­не­ния  — объ­еди­не­ние пря­мой  и не­ко­то­рой пря­мой (2), про­хо­дя­щей через точку A(0; −2). По­стро­им эс­ки­зы гра­фи­ков (см. рис.). Абс­цис­са точки C  — от­ри­ца­тель­ное ре­ше­ние урав­не­ния При  пря­мая (2) пе­ре­се­ка­ет обе ветви гра­фи­ка пер­во­го урав­не­ния. Сле­до­ва­тель­но, более трех ре­ше­ний си­сте­ма имеет при всех таких a, кроме a, со­от­вет­ству­ю­щих по­ло­же­нию пря­мой (2), при ко­то­ром она про­хо­дит через точку  Это ре­а­ли­зу­ет­ся при:Най­дем a, при ко­то­ром пря­мая (2) ка­са­ет­ся левой ветви гра­фи­ка пер­во­го урав­не­ния: Урав­не­ние имеет един­ствен­ное ре­ше­ние при  зна­чит, Окон­ча­тель­но, при  пря­мая (2) пе­ре­се­ка­ет левую ветвь гра­фи­ка пер­во­го урав­не­ния в двух точ­ках, сле­до­ва­тель­но, си­сте­ма имеет более трех ре­ше­ний при всех таких a, кроме a, со­от­вет­ству­ю­щей пря­мой (2), при ко­то­ром она про­хо­дит через точку  Это ре­а­ли­зу­ет­ся при: При  пря­мая (2) пе­ре­се­ка­ет гра­фик пер­во­го урав­не­ния толь­ко в одной точке. Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/52/52f6d18f8fa08a9b29f458063448f5df.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a97ef21fcc9e6df3d94da31c48717e26.svg",
+            "https://ege.sdamgia.ru/formula/svg/5e/5e18ec23c36dce8609447c7a6dbb1d4f.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e5f249458cea802f721ff09f80fb1c9f.svg",
+            "https://ege.sdamgia.ru/formula/svg/05/05ca783115b8e9b35578f4c611ed55b1.svg",
+            "https://ege.sdamgia.ru/formula/svg/5e/5e18ec23c36dce8609447c7a6dbb1d4f.svg",
+            "https://ege.sdamgia.ru/formula/svg/ce/cebc9b175c35aa90abd880764caef940.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c921db0420140f248811348dfc26fff9.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/34c1ecea7c8cb4ac8ef88e80de952740.svg",
+            "https://ege.sdamgia.ru/formula/svg/11/1171af83c58b2e822f062c52f8078247.svg",
+            "https://ege.sdamgia.ru/formula/svg/6b/6b8dd703e3c99cb6b2b3f4d9fd2a9acf.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/90ec7de7f6f58e390e46f63d692c1d95.svg",
+            "https://ege.sdamgia.ru/formula/svg/6b/6b8dd703e3c99cb6b2b3f4d9fd2a9acf.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/52041db4ccefa93543b77668a27d69ee.svg",
+            "https://ege.sdamgia.ru/formula/svg/bc/bc5ba56ddeb19c6d920c4c0c03eccbcd.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/04396e4d3a1049ec055f36a664ce9bc4.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b4d01a9d5827e19374b69e9aaebb7cba.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/52041db4ccefa93543b77668a27d69ee.svg",
+            "https://ege.sdamgia.ru/formula/svg/bc/bc5ba56ddeb19c6d920c4c0c03eccbcd.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/15606473df1d8ae085b671053129429e.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d46337c9da880428c34c1e0fbf3d0c09.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a96abfea26ee4d0debebfae5569291d.svg",
+            "https://ege.sdamgia.ru/formula/svg/c5/c5a80b82a177a6eae8ad653cc903f5cf.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/399a796e9d7b12c99d0f0c9b026ba21c.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=133972",
+            "https://ege.sdamgia.ru/formula/svg/e7/e79db2d4452479ce9a810e2781021b0a.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/323c5f97105643bc61e288fe596194ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4a07dd22cdb7e9d1a81146efb3984b1f.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f728be9556f409da85819bcfdd56be5a.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e87d5e90c3f7f533f0052ca3d023604.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/eddded4ebea0e6200fd12ec564ab7979.svg",
+            "https://ege.sdamgia.ru/formula/svg/fa/fab934d60a1fa89aa3592c368cf503b5.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/31c92cc239d440ed15520bd28c351c1c.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/417be9e3217aa230179825871373d909.svg",
+            "https://ege.sdamgia.ru/formula/svg/67/671328a83dcecd3eea07167d271aecff.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/ded681eaa02d11064c9a469dd1b3e04c.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f6d1f458d33712e5d5ae80ada48908c1.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "562011"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=562038"
+}

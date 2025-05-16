@@ -1,0 +1,39 @@
+{
+    "id": 525455,
+    "topic": "17",
+    "condition": {
+        "text": "В треугольнике ABC биссектрисы AD и CE пересекаются в точке O, величина угла AOE составляет 60°.а) Докажите, что около четырехугольника BDOE можно описать окружность.б) Найдите площадь треугольника ABC, если а",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/30/309b084dfa13617c69536e782fbb0296.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4db12e680366ddf80b4cfff3d4a832be.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  В тре­уголь­ни­ке AOC сумма углов  но ве­ли­чи­ны углов   и  со­став­ля­ют по­ло­ви­ны ве­ли­чин углов  и  а зна­чит, сумма углов  Тогда ве­ли­чи­на угла Вер­ти­каль­ные углы  и  равны и, зна­чит,сумма про­ти­во­по­лож­ных углов че­ты­рех­уголь­ни­ка BDOE равна 180°. Сле­до­ва­тель­но, около него можно опи­сать окруж­ность.б)  В тре­уголь­ни­ке ABC бис­сек­три­сы пе­ре­се­ка­ют­ся в точке O, зна­чит, BO  — бис­сек­три­са угла  а, зна­чит,  Углы  и  равны, так как опи­ра­ют­ся на одну и ту же дугу окруж­но­сти, опи­сан­ной около че­ты­рех­уголь­ни­ка BDOE. Имеем:1)  2)   Таким об­ра­зом, тре­уголь­ник ABC  — пря­мо­уголь­ный и его пло­щадь равна  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/f7/f74a52f2d8ddde5b45377a4941782596.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/88d6f7ab0292e7d1cf840edd02e99ab5.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b5b72c06998e414d99edfdc3681ee715.svg",
+            "https://ege.sdamgia.ru/formula/svg/b8/b8d7a7847dcba2f1d40731cfeb648e9f.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/406802a0f4b83d5ba20c5f6a81a666f5.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/725069ba44d49119bf30807accd0b7e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e95d440407bda971ee4effd28c000252.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/015eb68d3389bd75a3a360066383fbfc.svg",
+            "https://ege.sdamgia.ru/formula/svg/71/71508ca556dc7937887a57d93b1c2aa1.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=148619",
+            "https://ege.sdamgia.ru/formula/svg/f6/f66eeb31a0b817066ab58d962c8ecb21.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/85aa0e4d2f4827bbe1d8940970df030c.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a18aff22d5c900cdef82c571cf108b87.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/df56f49a6c3f067a01038395d9ff1186.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/13b688b8d766747bbf435126acfe68a3.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f8da53c0e5f95097b8fec60110f979e8.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2e379d6b1d382cc0db1200f818f1c771.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/9171003346d45fa84d0a087d94414c05.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "525410"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=525455"
+}

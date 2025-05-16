@@ -1,0 +1,35 @@
+{
+    "id": 511503,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра а, при каждом из которых множество значений функции содержит отрезок",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/b1/b1585b0ee86e95094f41951ca50a6185.svg",
+            "https://ege.sdamgia.ru/formula/svg/9a/9a9475176c8e069400d32667a1c55412.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­пи­шем зна­ме­на­тель дроби в виде  и за­ме­тим, что для лю­бо­го зна­че­ния па­ра­мет­ра а зна­ме­на­тель по­ло­жи­те­лен при всех зна­че­ни­ях пе­ре­мен­ной x. Сле­до­ва­тель­но, за­дан­ная функ­ция не­пре­рыв­на, а тогда от­ре­зок  [0; 2] лежит во мно­же­стве ее зна­че­ний тогда и толь­ко тогда, когда урав­не­ния  и  имеют ре­ше­ния.Урав­не­ние  за­пи­сы­ва­ет­ся в виде  оно имеет ре­ше­ние при любом Урав­не­ние  при­ве­дем к виду Оно имеет ре­ше­ние тогда и толь­ко тогда, когда его дис­кри­ми­нант не­от­ри­ца­те­лен:  Учи­ты­вая усло­вия  окон­ча­тель­но имеем  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/28/2852388df2ee6f08ae351fe745850a33.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9ea9cb9ce42bf75cea56016fd7a5b66c.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4f3a2cbfea38278a1816d0d609a420b2.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9ea9cb9ce42bf75cea56016fd7a5b66c.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/9901df950cdf7131ab2473b02d0d0531.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/da3e3b4f7f7619c2600296e952f7d5a2.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4f3a2cbfea38278a1816d0d609a420b2.svg",
+            "https://ege.sdamgia.ru/formula/svg/7f/7f61534611d87836af7f7b026bfeec8b.svg",
+            "https://ege.sdamgia.ru/formula/svg/b2/b2018a519106ccc45d70f713db4cab6f.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b5973aa5aeccbdf7effa82314f09d120.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/ee9f575d8fba6e374743ee0259e3830b.svg",
+            "https://ege.sdamgia.ru/formula/svg/67/673d21013ecff266946dd9aa616462af.svg",
+            "https://ege.sdamgia.ru/formula/svg/f2/f2ee6ea7de19f9a0afd9ba022a6bd8e8.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "507891",
+        "507914"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511503"
+}

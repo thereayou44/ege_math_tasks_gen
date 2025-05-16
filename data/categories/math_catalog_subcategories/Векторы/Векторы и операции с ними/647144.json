@@ -1,0 +1,26 @@
+{
+    "id": 647144,
+    "topic": "2",
+    "condition": {
+        "text": "Даны векторы и Найдите значение выражения",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/cc/cc77dd5fa49779cfbab4cab481879ea7.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/311d9f1f97ab0ec66011f758e7df57fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ec6111a423bd85171f153d0b0182db2d.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/866cc1d0cae3f42c38d84036fc5f7d5a.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Най­дем ко­ор­ди­на­ты век­то­ра  Ска­ляр­ное про­из­ве­де­ние равно:Ответ: 2.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ca/ca2a88f90802bbb4ac411e8b50c17fac.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8bba109539df0a8546a26da6db3279eb.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/924ebc14413cb0efe0bb677d4babc0a2.svg"
+        ]
+    },
+    "answer": "2",
+    "analogs": [
+        "647124"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=647144"
+}

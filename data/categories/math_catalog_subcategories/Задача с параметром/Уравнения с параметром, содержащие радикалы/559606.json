@@ -1,0 +1,45 @@
+{
+    "id": 559606,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при которых уравнениеимеет единственное решение.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/b3/b3f5433e56396f3466afe9bfb4b4dfc7.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. При  урав­не­ние  при­ни­ма­ет вид  и имеет бес­ко­неч­но много ре­ше­ний.При  вы­ра­же­ния  и   — имеют смысл при  При таких зна­че­ни­ях a и x имеем  Зна­чит, в этом слу­чае урав­не­ние   рав­но­силь­но урав­не­ни­ям и Пусть  и  Тогда функ­ция  опре­де­ле­на при  не­пре­рыв­на и стро­го воз­рас­та­ет на своей об­ла­сти опре­де­ле­ния. Сле­до­ва­тель­но, об­ласть зна­че­ний функ­ции  равна  причём каж­дое своё зна­че­ние функ­ция  при­ни­ма­ет по од­но­му разу. Зна­чит, урав­не­ние  и рав­но­силь­ное ему ис­ход­ное урав­не­ние  имеют един­ствен­ное ре­ше­ние при  то есть при  и  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/de/ded681eaa02d11064c9a469dd1b3e04c.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b3f5433e56396f3466afe9bfb4b4dfc7.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/3484aed436e06f2d996128dd193605b6.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6c770eb44b6acd2d08cc1da5cfecf294.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/563d0559c7281a4f727b09855983af80.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8ed6b99a5b2670042100deed1006f37d.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cb060c9f7f239a6af0cf059d68d685c0.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/0081b7f2ce4d1ce985f1d81112801181.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b3f5433e56396f3466afe9bfb4b4dfc7.svg",
+            "https://ege.sdamgia.ru/formula/svg/7d/7dac1b97d1c403d37e40682d3f1f0e2b.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/63ccecadd3897300be32da5f3fa1d983.svg",
+            "https://ege.sdamgia.ru/formula/svg/a5/a5988fb18ec4177b24b1ab520cf2b58f.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6c770eb44b6acd2d08cc1da5cfecf294.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/9258ff36cf6e8ac6e746894812a19c1f.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7c1c9491ba7c6e8d6d2cfa82e39b22ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/11/110028909640a5cdac4e071326cb08bc.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50bbd36e1fd2333108437a2ca378be62.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/21b4b41d1e0aff4f650c31f7a3a5a07e.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50bbd36e1fd2333108437a2ca378be62.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/ae415453a4bacfe18898362bd5d60e38.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b3f5433e56396f3466afe9bfb4b4dfc7.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/685f83228f6d0cdb9472b8cbb634c87c.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f39f0c379caec0f0123ba2ce8b78df6d.svg",
+            "https://ege.sdamgia.ru/formula/svg/fe/fea8ee19547964f8552e5a0deeac99d4.svg",
+            "https://ege.sdamgia.ru/formula/svg/fe/fef12e6a3e1848334db07dbe6180cab7.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "559412"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=559606"
+}

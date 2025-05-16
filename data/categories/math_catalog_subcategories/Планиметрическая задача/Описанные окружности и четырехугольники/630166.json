@@ -1,0 +1,30 @@
+{
+    "id": 630166,
+    "topic": "17",
+    "condition": {
+        "text": "На стороне острого угла с вершиной A отмечена точка B. Из точки B на биссектрису и другую сторону угла опущены перпендикуляры BC и BD соответственно. а) Докажите, что б) Прямые AC и BD пересекаются в точке T найдите отношение если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/74/74f1cdba2a300c0d11257946c8d3ff68.svg",
+            "https://ege.sdamgia.ru/formula/svg/5f/5fe21d5c6a5e2d4747ee5ce80519f37f.svg",
+            "https://ege.sdamgia.ru/formula/svg/25/25730ce65b531e55604147f643bab132.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.  а)  До­ка­жем, что BC = CD. Тогда  по тео­ре­ме Пи­фа­го­ра в тре­уголь­ни­ке ABC и  по тео­ре­ме Пи­фа­го­ра в тре­уголь­ни­ке ABD.Так как  точки A, B, C, D лежат на одной окруж­но­сти. Из ра­вен­ства углов BAC и CAD сле­ду­ет ра­вен­ство дуг, на ко­то­рые они опи­ра­ют­ся. Рав­ные дуги стя­ги­ва­ют­ся рав­ны­ми хор­да­ми BC и CD, что и тре­бо­ва­лось.б)  От­ме­тим, что  как опи­ра­ю­щи­е­ся на одну дугу. Из усло­вия сле­ду­ет, что  Из тре­уголь­ни­ка ABC на­хо­дим  Из тре­уголь­ни­ка BTC на­хо­дим  от­ку­да и сле­ду­ет ответ. Ответ: б) 41 : 4.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=111893",
+            "https://ege.sdamgia.ru/formula/svg/39/39eb0e1f63aeb311514eebd1e3d203c4.svg",
+            "https://ege.sdamgia.ru/formula/svg/8a/8aa4c83a9ec47542477b642a0149dbc9.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c3cb7332bdbae55d6c19189c62988e17.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e72e843c6d52dd7ee793bb3b9024e0b9.svg",
+            "https://ege.sdamgia.ru/formula/svg/5f/5f24623f5f2b72bfade7c0962c8f94c0.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d4418ca7573bb57bf834aa7bc6d036bb.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a2eb85979b0a5491594f4da7f1e1b5be.svg"
+        ]
+    },
+    "answer": " б) 41 : 4.",
+    "analogs": [
+        "630130"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=630166"
+}

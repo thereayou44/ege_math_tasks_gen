@@ -1,0 +1,31 @@
+{
+    "id": 484643,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых множеством решений неравенства является отрезок.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/8c/8cdf6b1ac4d95dfc1a21508f013b906f.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пе­ре­пи­шем не­ра­вен­ство в виде  и на­ри­су­ем эс­ки­зы гра­фи­ков левой и пра­вой ча­стей не­ра­вен­ства.Из ри­сун­ка видно, что гра­фик пра­вой части не­ра­вен­ства лежит выше гра­фи­ка левой при  За­ме­тим, что при  ре­ше­ни­ем кроме от­рез­ка ста­но­вит­ся еще и точка  что про­ти­во­ре­чит усло­вию.При даль­ней­шем умень­ше­нии a  в ре­ше­ние будет по­па­дать еще один от­ре­зок с пра­вым кон­цом в точке  Левый конец будет сдви­гать­ся вплоть до слу­чая ка­са­ния при ко­то­ром ре­ше­ние снова пре­вра­тит­ся в один от­ре­зок.Рас­смот­рим слу­чай ка­са­ния:  тогда Итак, ин­тер­вал  не удо­вле­тво­ря­ет усло­вию за­да­чи. Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/1c/1c607d8d86930244668c421a96475b88.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=154882",
+            "https://ege.sdamgia.ru/formula/svg/1f/1f7162902a62c89773bf904cbcce9788.svg",
+            "https://ege.sdamgia.ru/formula/svg/02/020f6abc06df90156f8009e83a8636ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/01d6abb4ab366510dadec03cf49cafc6.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f37e32882c606521f8d0dd99fbce38be.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a66ba581041839d59a546a638390359c.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/ca734778d17757f563f1eb2b66c1610d.svg",
+            "https://ege.sdamgia.ru/formula/svg/d0/d0eefaf1bb4964fe656aebc120890698.svg",
+            "https://ege.sdamgia.ru/formula/svg/be/be178369d8fe0af6d567998ac294b622.svg"
+        ]
+    },
+    "answer": "",
+    "analogs": [
+        "510547",
+        "511315"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=484643"
+}

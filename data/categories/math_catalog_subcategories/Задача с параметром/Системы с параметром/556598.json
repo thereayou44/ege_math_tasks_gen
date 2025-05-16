@@ -1,0 +1,41 @@
+{
+    "id": 556598,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых системаимеет ровно три различных решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/aa/aad200584f934c42f422c8f3fd62d51b.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пер­вое урав­не­ние задаёт на ко­ор­ди­нат­ной плос­ко­сти ромб с диа­го­на­ля­ми 10 и 5, па­рал­лель­ны­ми осям Ox и Oy со­от­вет­ствен­но, и с цен­тром в точке  Вто­рое урав­не­ние задаёт две пря­мые  и Си­сте­ма имеет ровно три ре­ше­ния в одном из двух слу­ча­ев: либо одна из пря­мых пе­ре­се­ка­ет ромб в двух точ­ках, а вто­рая про­хо­дит через толь­ко одну из его вер­шин, либо точка пе­ре­се­че­ния пря­мых лежит на сто­ро­не ромба, но не в его вер­ши­не. Рас­смот­рим эти слу­чаи по от­дель­но­сти.1.  Если ниж­няя или верх­няя вер­ши­на лежит на пря­мой  то  или  Центр ромба удалён от пря­мой  на 2,5, по­это­му пря­мая  пе­ре­се­ка­ет ромб в двух точ­кахЕсли левая или пра­вая вер­ши­на лежит на пря­мой  то  или  а центр ромба удалён от пря­мой  на 5, по­это­му пря­мая  не пе­ре­се­ка­ет ромб.2.  Точка пе­ре­се­че­ния пря­мых не долж­на сов­пасть с вер­ши­ной ромба, то есть  Под­ста­вим   в урав­не­ние:Оба зна­че­ния удо­вле­тво­ря­ют усло­вию  а по­то­му при каж­дом из этих зна­че­ний a си­сте­ма имеет ровно три ре­ше­ния. Ответ: −1,5;   3,5.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=156668",
+            "https://ege.sdamgia.ru/formula/svg/8b/8b40210effa825465f4a86dc01847d1d.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d37ffc54b67ce8de1f01efb1f2e33689.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/63e00568b3a5c8a21d4ec343560d8f41.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/db3d6d4761a4d1651e000f2c8a96a63f.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/cad142d5f640c43aefc43952fed9f92c.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/7071c716676d2defb2af36d12bc0b5b1.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d37ffc54b67ce8de1f01efb1f2e33689.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d37ffc54b67ce8de1f01efb1f2e33689.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/52634a5ce8aca5756be2274cf2f12b91.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/ea1881655c05727368761769b46550c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a9c68fccda148deee6f1fa337b440ea7.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5cf3798cacb16d8e3d1af654cbfeb482.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5cf3798cacb16d8e3d1af654cbfeb482.svg",
+            "https://ege.sdamgia.ru/formula/svg/9d/9ddc8b57d5fc6e66192b91de35c37996.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3d974179df46c28f6002df82a755a619.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5cf3798cacb16d8e3d1af654cbfeb482.svg",
+            "https://ege.sdamgia.ru/formula/svg/71/71d422b6a6516001943d7a3831abbe82.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/180a414535194f95eecac9a829b4abf0.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e5fc90dc3d7f58d5e3555a0c030a988e.svg",
+            "https://ege.sdamgia.ru/formula/svg/95/9548dad8416bfc04aeafee377d41edfc.svg"
+        ]
+    },
+    "answer": " −1,5;   3,5.",
+    "analogs": [
+        "556590"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=556598"
+}

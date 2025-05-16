@@ -1,0 +1,45 @@
+{
+    "id": 525750,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых система уравненийимеет ровно два различных решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/c5/c55ee9e4915bc31211603d241707235b.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Решим пер­вое урав­не­ние си­сте­мы:  По­лу­чим  или  при усло­вии  По­стро­им гра­фик дан­но­го урав­не­ния (на ри­сун­ке изоб­ражён синим цве­том).Гра­фи­ком функ­ции  яв­ля­ет­ся пря­мая с не­от­ри­ца­тель­ным уг­ло­вым ко­эф­фи­ци­ен­том, рав­ным  опре­делённая при  про­хо­дя­щая через на­ча­ло ко­ор­ди­нат. Воз­мож­ны че­ты­ре слу­чая вза­им­но­го рас­по­ло­же­ния дан­ной пря­мой и гра­фи­ка пер­во­го урав­не­ния си­сте­мы.1.  Пря­мая  при  (крас­ная пря­мая) пе­ре­се­ка­ет окруж­ность  в двух точ­ках и не имеет общих точек с гра­фи­ком урав­не­ния  Таким об­ра­зом, си­сте­ма имеет ровно два ре­ше­ния.2.  Пря­мая  при  (зелёная пря­мая) пе­ре­се­ка­ет окруж­ность  в двух точ­ках и гра­фик урав­не­ния  ещё в одной. В этом слу­чае си­сте­ма имеет три ре­ше­ния.3.  Пря­мая  при  (оран­же­вая пря­мая) ка­са­ет­ся окруж­но­сти  Урав­не­ние ка­са­тель­ной имеет вид  С гра­фи­ком урав­не­ния  дан­ная пря­мая имеет одну точку пе­ре­се­че­ния. Таким об­ра­зом, си­сте­ма имеет ровно два ре­ше­ния.4.  Пря­мая  при  (ма­ли­но­вая пря­мая) не имеет общих точек с окруж­но­стью  С гра­фи­ком урав­не­ния  пря­мая имеет две точки пе­ре­се­че­ния. Таким об­ра­зом, си­сте­ма имеет ровно два ре­ше­ния.Ис­ход­ная си­сте­ма будет иметь ровно два раз­лич­ных ре­ше­ния при a  =  3 или a ≥ 4. Ответ: a  =  3; a ≥ 4.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/97/97d2d3f537cdddd5c1b8e45a23621c96.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/dd4301f60de21b6ff48ea3189b49a5a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/f2/f27232b134583970cfb49511d669aefd.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/75765b0254f369504e786cca71d14c16.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=157036",
+            "https://ege.sdamgia.ru/formula/svg/6c/6c7bb8be84b2ce274871ebe9b37d484f.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4db40a61c565fd1b88a6620fe0e563bf.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1c479b146175916a6f0b1006bd187bf3.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6c7bb8be84b2ce274871ebe9b37d484f.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/ee1bace38dbc7056127a0b2ca939f6e4.svg",
+            "https://ege.sdamgia.ru/formula/svg/f2/f27232b134583970cfb49511d669aefd.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/dd4301f60de21b6ff48ea3189b49a5a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6c7bb8be84b2ce274871ebe9b37d484f.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a4ad55185c5dc18f0dc3151ab400967e.svg",
+            "https://ege.sdamgia.ru/formula/svg/f2/f27232b134583970cfb49511d669aefd.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/dd4301f60de21b6ff48ea3189b49a5a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6c7bb8be84b2ce274871ebe9b37d484f.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/56abc8fce55457f8c2d7dc39cd07631c.svg",
+            "https://ege.sdamgia.ru/formula/svg/f2/f27232b134583970cfb49511d669aefd.svg",
+            "https://ege.sdamgia.ru/formula/svg/f2/f24485200ecc87b6a0db78cc6d1d1aff.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/dd4301f60de21b6ff48ea3189b49a5a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6c7bb8be84b2ce274871ebe9b37d484f.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/883a495d1625d0f64a7b0683c1b2429e.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/633f2aedad57983a0d9acb98b534c50d.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/dd4301f60de21b6ff48ea3189b49a5a0.svg"
+        ]
+    },
+    "answer": " a  =  3; a ≥ 4.",
+    "analogs": [
+        "525731"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=525750"
+}

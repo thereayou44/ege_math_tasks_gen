@@ -1,0 +1,34 @@
+{
+    "id": 517528,
+    "topic": "17",
+    "condition": {
+        "text": "Дана трапеция с диагоналями равными 6 и 8. Сумма оснований равна 10.а) Докажите, что диагонали перпендикулярны.б) Найдите высоту трапеции.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Про­ве­дем  через точку C пря­мую па­рал­лель­ную  На пе­ре­се­че­нии этой пря­мой и пря­мой AD от­ме­тим точку    — па­рал­ле­ло­грамм. В тре­уголь­ни­ке ACC1:    За­ме­тим, что  по­сколь­ку  тогда по тео­ре­ме, об­рат­ной тео­ре­ме Пи­фа­го­ра, тре­уголь­ник ACC1  — пря­мо­уголь­ный, угол ACC1 пря­мой. Тогда угол COD пря­мой, что и тре­бо­ва­лось до­ка­зать.б)  Вы­со­та тра­пе­ции равна  Ответ: б) 4,8.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=147414",
+            "https://ege.sdamgia.ru/formula/svg/f8/f861f280bc93d84e84d55c2884e42af7.svg",
+            "https://ege.sdamgia.ru/formula/svg/69/69abaa98cbeff0b44e43bb980a0a1c52.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6da734b0c930e24823eceab45d77d7a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/93/934739942fd9a95261fa2d1004716566.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/edab0b5aa51b622dacd3af1097ed1996.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/408e2274490c31c8256e528988992691.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cbc0181485853379d843d476b8e7f0f2.svg",
+            "https://ege.sdamgia.ru/formula/svg/35/353673aa812c529a588b9e8b064004b8.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a6885fc324757014a4810b550a849c10.svg"
+        ]
+    },
+    "answer": " б) 4,8.",
+    "analogs": [
+        "517526",
+        "517535",
+        "676906",
+        "...",
+        "517535",
+        "676906",
+        "677084"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=517528"
+}

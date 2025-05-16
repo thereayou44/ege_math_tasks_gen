@@ -1,0 +1,31 @@
+{
+    "id": 654466,
+    "topic": "2",
+    "condition": {
+        "text": "Найдите квадрат длины вектора",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=164997",
+            "https://ege.sdamgia.ru/formula/svg/66/66ede4d2a4823923aeef1606e6419daa.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Най­дем квад­рат длины век­то­ра  тогда квад­рат длины век­то­ра  равен  Ответ: 10.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/a4/a4f3baa551adec34c2a31492ac52f84d.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/9447a32facc5ed74f9c861f41c30fab5.svg",
+            "https://ege.sdamgia.ru/formula/svg/d0/d035affacfa4598f5e399737a7a546ea.svg",
+            "https://ege.sdamgia.ru/formula/svg/25/256a596a826d516ccff56933bda7baf5.svg"
+        ]
+    },
+    "answer": "10",
+    "analogs": [
+        "27664",
+        "26395",
+        "672859",
+        "...",
+        "26395",
+        "672859",
+        "672888"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=654466"
+}

@@ -1,0 +1,42 @@
+{
+    "id": 513627,
+    "topic": "17",
+    "condition": {
+        "text": "Точка O — центр окружности, описанной около остроугольного треугольника ABC, I — центр вписанной в него окружности, H — точка пересечения высот. Известно, что а) Докажите, что точка I лежит на окружности, описанной около треугольника BOC.б) Найдите угол OIH, если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ab/abd97f33db81e14c42940c0dba9b0a46.svg",
+            "https://ege.sdamgia.ru/formula/svg/b2/b2a134ba5dd25a1eaf579c323a650255.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Точка O  — центр опи­сан­ной окруж­но­сти около тре­уголь­ни­ка ABC, по­это­му  Зна­чит,от­ку­да Найдём угол BIC: Зна­чит,  по­это­му точки B, O, I и C лежат на одной окруж­но­сти.б)  Найдём угол BHC:Зна­чит,  по­это­му точки B, O, I, H и C лежат на одной окруж­но­сти.По­сколь­ку  по­лу­ча­ем  В рав­но­бед­рен­ном тре­уголь­ни­ке BOC имеем Пря­мая BH пер­пен­ди­ку­ляр­на AC, по­это­му  Зна­чит,  Бис­сек­три­са угла тре­уголь­ни­ка лежит внут­ри угла, об­ра­зо­ван­но­го ме­ди­а­ной и вы­со­той, ис­хо­дя­щи­ми из той же вер­ши­ны, по­это­му лучи BH, BI и BO пе­ре­се­ка­ют дугу окруж­но­сти в ука­зан­ном на ри­сун­ке по­ряд­ке. Четырёхуголь­ник BOIH впи­сан в окруж­ность, по­это­му Ответ: б) 175°.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=150088",
+            "https://ege.sdamgia.ru/formula/svg/e2/e2989f66c2852fdf6dcb4025cbe8cfe2.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/da76930c0f4c2a140cf4469608268de1.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7aabe9063552062c0ff45c4ff2e1b8fb.svg",
+            "https://ege.sdamgia.ru/formula/svg/78/788724fb4029a529e3644639c88d0658.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/47242b4b86dcb318359a6922de14f4c7.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af2698a5e846674771ee1289917a938d.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/15f21d9a1f2071d609f62069598ca781.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/22e2c0984b34fa83c578b2976c70647a.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/15f21d9a1f2071d609f62069598ca781.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/15808a983ec9e7defededcd23b9acbc0.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e3bf05c3a402c6ae0f4949a9e17ad40.svg",
+            "https://ege.sdamgia.ru/formula/svg/76/7632fd2e47ac24270ce8dd7d0c19de2c.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa7b2868328cf4fef64f1b10f2ce728a.svg",
+            "https://ege.sdamgia.ru/formula/svg/11/11502dfd850a5b8eb02d93fda601f3bc.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/9796a46119c3a7f270a8e3107c467afe.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/815a51822bb64d628b40d816ce8067bb.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/216e54a59741d058f9748315e119f35e.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/47e475157d9f4082619e11377300d511.svg"
+        ]
+    },
+    "answer": " б) 175°.",
+    "analogs": [
+        "513430",
+        "513449",
+        "514189"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=513627"
+}

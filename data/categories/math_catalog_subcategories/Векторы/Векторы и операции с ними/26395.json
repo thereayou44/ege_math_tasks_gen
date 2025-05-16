@@ -1,0 +1,28 @@
+{
+    "id": 26395,
+    "topic": "2",
+    "condition": {
+        "text": "Найдите квадрат длины вектора",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=20285",
+            "https://ege.sdamgia.ru/formula/svg/e5/e5f963f7bb5039adde6f3fedc679269f.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Длина век­то­ра опре­де­ля­ет­ся сле­ду­ю­щим вы­ра­же­ни­ем:  по­это­му ис­ко­мый квад­рат длины равен 40. Ответ: 40.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ca/ca2a6cd555724574d2a520ea69677059.svg"
+        ]
+    },
+    "answer": "40",
+    "analogs": [
+        "27664",
+        "654466",
+        "672859",
+        "...",
+        "654466",
+        "672859",
+        "672888"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=26395"
+}

@@ -1,0 +1,25 @@
+{
+    "id": 526601,
+    "topic": "17",
+    "condition": {
+        "text": "Окружность, вписанная в треугольник ABC, касается сторон BC и AC в точках M и N соответственно, E и F — середины сторон AB и AC соответственно. Прямые MN и EF пересекаются в точке D.а) Докажите, что треугольник DFN равнобедренный.б) Найдите площадь треугольника BED, если AB = 28 и ∠ABC = 60°.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  По­сколь­ку CM  =  CN, тре­уголь­ник MCN рав­но­бед­рен­ный. Пря­мые EF и BC па­рал­лель­ны, по­это­му тре­уголь­ник DFN по­до­бен тре­уголь­ни­ку MCN, сле­до­ва­тель­но, тре­уголь­ник DFN также рав­но­бед­рен­ный: DF  =  NF.б)  Обо­зна­чим BC  =  a, AC  =  b, AB  =  c. Пусть p  — по­лу­пе­ри­метр тре­уголь­ни­ка ABC. Пред­по­ло­жим, что a > c. Тогда   Зна­чит,  то есть тре­уголь­ник BED рав­но­бед­рен­ный.Ана­ло­гич­но для a ≤ c. По­сколь­ку пря­мые ED и BC па­рал­лель­ны,  Сле­до­ва­тель­но, Ответ: б) ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=148621",
+            "https://ege.sdamgia.ru/formula/svg/67/67ab6213783800d1545cb27b24cec4e7.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/81e98f8b92187fdca8cd319976a6ce27.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/ba5e5929eb27a9ecb3519f550745bb92.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3ceb5b0899057ebeed115bcf41f594db.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/ad4d5f91bd90c07b60f92360f847c1ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/c0/c02a52e8e36524611918cfd298950243.svg"
+        ]
+    },
+    "answer": " б) ",
+    "analogs": [
+        "526593"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=526601"
+}

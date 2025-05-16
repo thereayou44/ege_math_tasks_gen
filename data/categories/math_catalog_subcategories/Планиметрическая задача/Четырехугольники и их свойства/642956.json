@@ -1,0 +1,27 @@
+{
+    "id": 642956,
+    "topic": "17",
+    "condition": {
+        "text": "Биссектриса АМ острого угла А равнобедренной трапеции ABCD делит боковую сторону CD пополам. Отрезок DN перпендикулярен отрезку AM и делит сторону АВ в отношении а) Докажите, что прямые ВМ и CN перпендикулярны.б) Найдите длину отрезка MN, если площадь трапеции равна",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/90/90cc94efb6913bd485b5d5761eb85d0c.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/09d9650286afc861a8d2c18ffbfc3528.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Пусть пря­мые AM и DN пе­ре­се­ка­ют­ся в точке H, пря­мые AM и BC  — в точке E, пря­мые BM и AD  — в точке F. В тре­уголь­ни­ке AND от­ре­зок AH яв­ля­ет­ся бис­сек­три­сой и вы­со­той, сле­до­ва­тель­но, AN  =  AD. Тогда тре­уголь­ни­ки ANM и ADM равны, сле­до­ва­тель­но, NM  =  MD  =  MC. Тогда, по при­зна­ку пря­мо­уголь­но­го тре­уголь­ни­ка угол CND равен 90°. Пря­мые CN и AE па­рал­лель­ны, BC : CE  =  BN : NA  =  1 : 5, сле­до­ва­тель­но, CE  =  5BC. Тре­уголь­ни­ки CME и DMA равны, от­сю­да CE  =  AD, ана­ло­гич­но BC  =  DF. Зна­чит, AN : NB  =  CE : BC  =  AD : DF, пря­мые DN и BF па­рал­лель­ны, тогда пря­мые BM и CN пер­пен­ди­ку­ляр­ны.б)  Пусть AN  =  5x, NB  =  x, тогда AD  =  5x, BC  =  x. Пусть h  — вы­со­та тра­пе­ции. Имеем:По усло­вию пло­щадь тра­пе­ции равна  тогда:Зна­чит,  Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=137102",
+            "https://ege.sdamgia.ru/formula/svg/c4/c44290e985de174ad92f6db6d71098bb.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/2180bfafa7df75fd062d853e275125e0.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b744b692139644059df084686d2b32b1.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b7bfd3ce3499fe8eb9eb6af67e1842c4.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/346632b2e1fdf823a56afe8070ce0f9b.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "642759"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=642956"
+}

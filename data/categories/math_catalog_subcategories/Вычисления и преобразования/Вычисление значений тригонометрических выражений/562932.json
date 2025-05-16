@@ -1,0 +1,32 @@
+{
+    "id": 562932,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите значение выражения",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/df/dfe5904af04e8219d555091bf953dc94.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Ис­поль­зу­ем фор­му­лу ко­си­ну­са двой­но­го угла :Ответ: −5.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/61/61cc8891c27122a7ea5affe8724aa951.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f87af1b593d20fc5fab5e1e6378081b4.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/61fadb1258458e6d77fe19bbb4a9e806.svg",
+            "https://ege.sdamgia.ru/formula/svg/80/80098fad432b26ab2ff83dc1063f17d9.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/655b081c54c10ca35ecc0bf7414ddf49.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/31cb8cfd363e694bcb553f86d9eb0b40.svg"
+        ]
+    },
+    "answer": "-5",
+    "analogs": [
+        "504824",
+        "562977",
+        "660714",
+        "...",
+        "562977",
+        "660714",
+        "661078"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=562932"
+}

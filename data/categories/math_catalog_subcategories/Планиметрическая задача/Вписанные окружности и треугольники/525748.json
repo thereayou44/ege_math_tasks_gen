@@ -1,0 +1,29 @@
+{
+    "id": 525748,
+    "topic": "17",
+    "condition": {
+        "text": "Окружность с центром O, вписанная в треугольник ABC, касается стороны BC в точке K. К этой окружности проведена касательная, параллельная биссектрисе AP треугольника и пересекающая стороны AC и BC в точках M и N соответственно.а) Докажите, что угол MOC равен углу NOK.б) Найдите периметр треугольника ABC, если отношение площадей трапеции AMNP и треугольника ABC равно 2:7, MN = 1, AM + PN = 3 .",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Обо­зна­чим  Центр окруж­но­сти, впи­сан­ной в угол, лежит на его бис­сек­три­се, по­это­му MO и NO  — бис­сек­три­сы внеш­них углов при вер­ши­нах M и N тре­уголь­ни­ка MCN. Зна­чит,  а так как CO  — бис­сек­три­са угла ACP, по­лу­ча­ем, что Сле­до­ва­тель­но,  б)  Луч MO  — бис­сек­три­са угла AMN, по­это­му  Зна­чит, тре­уголь­ник AOM рав­но­бед­рен­ный, AM  =  AO. Ана­ло­гич­но PN  =  OP. Пусть ра­ди­ус впи­сан­ной окруж­но­сти тре­уголь­ни­ка ABC равен r, а по­лу­пе­ри­метр тре­уголь­ни­ка ABC равен p. Точка O лежит на ос­но­ва­нии AP тра­пе­ции AMNP, по­это­му вы­со­та тра­пе­ции равна r. ТогдаПо­сколь­ку  по­лу­ча­ем, что p  =  7, а пе­ри­метр равен 14. Ответ: б) 14.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=148620",
+            "https://ege.sdamgia.ru/formula/svg/c9/c936bdfc6711dcd25de69641a33de8a5.svg",
+            "https://ege.sdamgia.ru/formula/svg/2b/2ba08f7453ce557d074b59296646a750.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8b8f7b452ab289ef633517045c3129e5.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/efaf91350f11369eddfc8cda4f144e66.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/3947554908a3ac281c6f8482b16106cf.svg",
+            "https://ege.sdamgia.ru/formula/svg/12/123ec2fc1fff1395f9ac9fbbe7af0983.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/7041d82173de5780156d2f0fa9d5d8f0.svg",
+            "https://ege.sdamgia.ru/formula/svg/25/25df91610d96cd8504fe05d97fd4b6fa.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0ee8759059724e5c4ab4669e240a806b.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/378450ecafcbfec66bdd87ff902166d3.svg"
+        ]
+    },
+    "answer": " б) 14.",
+    "analogs": [
+        "525729"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=525748"
+}

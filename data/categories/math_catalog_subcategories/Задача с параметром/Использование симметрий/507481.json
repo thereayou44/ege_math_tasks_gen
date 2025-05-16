@@ -1,0 +1,47 @@
+{
+    "id": 507481,
+    "topic": "18",
+    "condition": {
+        "text": "Найти все значения a, при каждом из которых система имеет единственное решение.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/75/7556fd6180ce526774d96562310aea15.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пре­жде всего: за­ме­тим, что если   — ре­ше­ние си­сте­мы при не­ко­то­ром зна­че­нии па­ра­мет­ра а, то при этом зна­че­нии па­ра­мет­ра ре­ше­ни­ем си­сте­мы будет и  От­сю­да сле­ду­ет, что усло­вие  яв­ля­ет­ся не­об­хо­ди­мым усло­ви­ем су­ще­ство­ва­ния у си­сте­мы един­ствен­но­го ре­ше­ния. При  си­сте­ма пе­ре­пи­шет­ся в видеРешая эту си­сте­му от­но­си­тель­но а, на­хо­дим, что тре­бу­е­мые зна­че­ния а могут при­над­ле­жать толь­ко мно­же­ству  Пусть  Тогда си­сте­ма при­мет видИз вто­ро­го урав­не­ния си­сте­мы сле­ду­ет, что  и  и, таким об­ра­зом,  Учи­ты­вая те­перь, что  при­хо­дим к не­ра­вен­ствуко­то­рое озна­ча­ет, что пер­вое ра­вен­ство си­сте­мы спра­вед­ли­во толь­ко при   сле­до­ва­тель­но,  то есть при   Итак, при  си­сте­ма имеет един­ствен­ное ре­ше­ние. Пусть те­перь  При таком зна­че­нии па­ра­мет­ра а си­сте­ма пе­ре­пи­шет­ся в видеЭта си­сте­ма имеет ре­ше­ния     и, таким об­ра­зом, при  усло­вию един­ствен­но­сти ре­ше­ния не удо­вле­тво­ря­ет. За­ме­тим, что ре­ше­ния здесь про­сто уга­да­ны.  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/1b/1becfa156189f189a0ff1658b1a62358.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/dff6d7755c7d9f36f20ebb957b702e38.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e11729b0b65ecade3fc272548a3883fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e11729b0b65ecade3fc272548a3883fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/866336989b4e628a8003e3f9bfbec4c9.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/5201dd6668545923b01665c466b0a9ee.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f82fab9fb540f562d104abc8d6b44a93.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aaf40034965f3b6c2241b07467a8e922.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1c5bca41e35eb98e7f992a24ff12fac2.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/37cbf427769c73699746fe401b7be4ef.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6c182ef4a5916523dd261d121a210cd6.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/72a8e473e8c54977d47cfbec72759236.svg",
+            "https://ege.sdamgia.ru/formula/svg/eb/eb9b5c8669f86d7e258c52469a607d47.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/89973b404c35144ea182ddcb0c1d413e.svg",
+            "https://ege.sdamgia.ru/formula/svg/59/597f7f142ab59b66cf5aab167d31aaf4.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/db3d6d4761a4d1651e000f2c8a96a63f.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/eab93b3179745965aa8fa36deec2534a.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/231f8e81717b1ec7976960f21afbfeaf.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/09dca13ec2b759ccac0ac32ce78e3c43.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/735429419cc0335903a19c2945029733.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e932e941fcc44671994eb275ab0cf23e.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/eab93b3179745965aa8fa36deec2534a.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/eeeed94a46587b9cc966a633441acfb5.svg",
+            "https://ege.sdamgia.ru/formula/svg/fa/fa1983ce149d2b4d886619a596ffbd18.svg",
+            "https://ege.sdamgia.ru/formula/svg/fa/fab37d6c4a697fe660387d3ff8e889a4.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/0787895eb8fae76babc1b2472b930177.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/90287548a4ff75b5f4d8e8054d308a27.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "484631"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=507481"
+}

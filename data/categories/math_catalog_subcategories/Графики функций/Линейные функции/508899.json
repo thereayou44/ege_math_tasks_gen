@@ -1,0 +1,37 @@
+{
+    "id": 508899,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображён график функции Найдите",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=153718",
+            "https://ege.sdamgia.ru/formula/svg/27/27441d90882e50faa687d6aa6aaf287a.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e9d4e3f1d4890cad300442e0e216c7a1.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­ме­тим, что для ли­ней­ной функ­цииТогда, Ответ: 14,5.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/6e/6ecfc044c02e9afcf43a1de9a6e0bc41.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d3497f7423c101da6a1286029b5beb7c.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7a085bf3aecdfea6729c9ed04ab2f6f6.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/6093f1fabbd530f61c6db1423e9a48e5.svg"
+        ]
+    },
+    "answer": "14,5",
+    "analogs": [
+        "508895",
+        "508896",
+        "508897",
+        "508898",
+        "...",
+        "508896",
+        "508897",
+        "508898",
+        "508900",
+        "508901",
+        "508902",
+        "642298"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=508899"
+}

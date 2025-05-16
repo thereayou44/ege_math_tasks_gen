@@ -1,0 +1,31 @@
+{
+    "id": 515690,
+    "topic": "16",
+    "condition": {
+        "text": "Тимофей хочет взять в кредит 1,1 млн рублей. Погашение кредита происходит раз в год равными суммами (кроме, может быть, последней) после начисления процентов. Ставка процента 10% годовых. На какое минимальное количество лет может Тимофей взять кредит, чтобы ежегодные выплаты были не большее 270 тысяч рублей?",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Со­ста­вим таб­ли­цу вы­плат и на­чис­ле­ния про­цен­тов: ГодБылоСтало1-ый руб. руб.2-ой руб. руб.3-ий руб. руб.4-ый руб. руб.5-ый руб. руб.6-ой руб. руб. На 6-й год ста­нет мень­ше 270 000 руб., то есть по­след­няя вы­пла­та все по­кро­ет. Ответ: 6.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/93/937b5c44c408e3a70e0f9e68e0a48cd4.svg",
+            "https://ege.sdamgia.ru/formula/svg/9c/9c280652689d506852780c83623b6aba.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c4ba9b21d210ac529816675231daf3a8.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4f772562d111f8f7710d52c4fa12e1d0.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9e9babc68e3a2836fce3a4f64b008073.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/17b2587b78d8fd45ab657d1df95ae63a.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9ebda5aac881e98785f9e976960d7541.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/28b4eed3e6c66cf0c5de23915cfa8a57.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/db6f9cadaab75cfdf3753735c676e8ae.svg",
+            "https://ege.sdamgia.ru/formula/svg/20/20dd9c1c2e0a54977f184af1e2484996.svg",
+            "https://ege.sdamgia.ru/formula/svg/3b/3b3ba2fff780ceb06e1e9c4da473401c.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2a14bbff3d2027cf140f9f2ebeec766a.svg"
+        ]
+    },
+    "answer": " 6.",
+    "analogs": [
+        "507890",
+        "507913"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=515690"
+}

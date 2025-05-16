@@ -1,0 +1,58 @@
+{
+    "id": 639677,
+    "topic": "16",
+    "condition": {
+        "text": "В июле 2020 года планируется взять кредит в банке на некоторую сумму. Условия его возврата таковы: — каждый январь долг увеличивается на 25% по сравнению с концом предыдущего года; — с февраля по июнь каждого года необходимо выплатить одним платежом часть долга.Сколько рублей будет выплачено банку, если известно, что кредит будет полностью погашен тремя равными платежами (то есть за три года) и общая сумма выплат после полного погашения кредита на 104 800 рублей больше суммы, взятой в кредит?",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пусть сумма кре­ди­та равна S руб­лей, а еже­год­ная вы­пла­та равна x руб­лей. Каж­дый ян­варь долг уве­ли­чи­ва­ет­ся на 25%, то есть  в  раз. За­пол­ним таб­ли­цу. Год(номер года)Долг в ян­ва­ре (в руб.)Вы­пла­та (в руб.)Долг в июле (в руб.)2020S2021(1)kSx2022(2)x2023(3)x Вы­ра­зим S: Тогда, учи­ты­вая, что  по­лу­ча­ем:Сумма вы­плат на 104 800 руб­лей боль­ше суммы, взя­той в кре­дит, зна­чит,    При­рав­ни­вая зна­че­ния S,  на­хо­дим: Тогда сумма трёх вы­плат равна 300 000 руб­лей. Ответ: 300 000. При­ве­дем дру­гое ре­ше­ние. Пусть сумма кре­ди­та со­став­ля­ет S руб­лей, а еже­год­ные пла­те­жи X руб­лей. По усло­вию долг перед бан­ком (в руб­лях) по со­сто­я­нию на июль дол­жен умень­шать­ся сле­ду­ю­щим об­ра­зом:      от­ку­да  По­лу­ча­ем: S  =  195 200 руб­лей; 3X  =  300 000 руб­лей.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/79/7950f9d2a313bc89590c87ec543f0027.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/42b8a8fd050b703320b97509fffcf925.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c3194d1d06c57ed9e0330abc01b14f8.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/66550567bd8106559e0d1e04ad49857e.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6c8313727e49c2d024505f8ac7b88d93.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a31ffa2e19d1675fff1c5f95d6faa6af.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/37227131821529164c2ae3694547bcce.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d605791389b0147f02c3f28ac8f82230.svg",
+            "https://ege.sdamgia.ru/formula/svg/43/4345e1e65b963eaac084cd1f4d04f992.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b5b8ae5784099dde636830021e6d971b.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/ae331e95f16846ff6b66b796dc726e2b.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a6f0dbdf09e9569271cda1d26c2080f4.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d85584a752a91e51163d5e26a01d6189.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/debaff46782d08e710a3d55cde270025.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d85584a752a91e51163d5e26a01d6189.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/dacea208f6342391a47e91fe13c60391.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/ac53f1ba102404ba2148f034511d4b67.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d20f332224c1b0a08e94d7b540ced5de.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cdd06c3b5a5904ba8d18bcc9c006aca8.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/dacea208f6342391a47e91fe13c60391.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/ac53f1ba102404ba2148f034511d4b67.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/040885b869376194ed02ab3785739c4a.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cd023650c34a8ebd47d2939d711bb841.svg",
+            "https://ege.sdamgia.ru/formula/svg/76/76c22a7401d7ee676cc31d0aaabb5257.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8ba701df9b0419410eca7e332e502db8.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/1039c6a951193c6b3a3e20db85b9a488.svg"
+        ]
+    },
+    "answer": " 300 000.",
+    "analogs": [
+        "517571",
+        "517573",
+        "639485",
+        "639651",
+        "...",
+        "517573",
+        "639485",
+        "639651",
+        "639754",
+        "660886",
+        "660911",
+        "660947",
+        "661006",
+        "670296",
+        "670489"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=639677"
+}

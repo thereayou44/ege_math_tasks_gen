@@ -1,0 +1,40 @@
+{
+    "id": 562154,
+    "topic": "Д10",
+    "condition": {
+        "text": "На рисунке изображён график функции вида где числа a, b и c — целые. Найдите значение",
+        "images": [
+            "https://ege.sdamgia.ru/get_file?id=109330",
+            "https://ege.sdamgia.ru/formula/svg/99/99a818af5f614744006562d49cc46ae3.svg",
+            "https://ege.sdamgia.ru/formula/svg/78/781c0c127e79d6bb118b8a8819f70fb7.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По ри­сун­ку опре­де­ля­ем, что   зна­чит,  Тогда  При­ме­ча­ние.Об­ра­ща­ем вни­ма­ние чи­та­те­лей на то, что в за­да­нии урав­не­ние па­ра­бо­лы за­да­но в виде  а не в виде ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/c2/c287b9aaae548811765f163bbc49a93b.svg",
+            "https://ege.sdamgia.ru/formula/svg/4e/4e4ad61040d3bf980759c739c01d9f35.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/63c885fd1de73ead2eda2b639f18107c.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/99a818af5f614744006562d49cc46ae3.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/03761b7f57601b03207246bcdd9cf81f.svg"
+        ]
+    },
+    "answer": "-34",
+    "analogs": [
+        "562153",
+        "562060",
+        "562155",
+        "...",
+        "562060",
+        "562155",
+        "562156",
+        "562157",
+        "562158",
+        "562159",
+        "562160",
+        "562161",
+        "562162",
+        "562163"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=562154"
+}

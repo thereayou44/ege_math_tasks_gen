@@ -1,0 +1,49 @@
+{
+    "id": 516278,
+    "topic": "16",
+    "condition": {
+        "text": "В июле 2016 года планируется взять кредит в банке на три года в размере млн рублей, где S — целое число. Условия его возврата таковы: — каждый январь долг увеличивается на 30% по сравнению с концом предыдущего года; — с февраля по июнь каждого года необходимо выплатить одним платежом часть долга; — в июле каждого года долг должен составлять часть кредита в соответствии со следующей таблицей. Месяц и годИюль 2016Июль 2017Июль 2018Июль 2019Долг (в млн рублей)S0 Найдите наибольшее значение S, при котором каждая из выплат будет меньше 5 млн рублей.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/7a/7af69a5c4a0858eac660eed20289a17a.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d205ff13a872f6b357f05558b7f34f44.svg",
+            "https://ege.sdamgia.ru/formula/svg/9b/9be1d51f07c657d150009304cb92fe91.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. В ян­ва­ре 2017 года долг будет со­став­лять  млн руб­лей, а в июле 2017 года  —  млн руб­лей. Зна­чит, вы­пла­та в 2017 году со­ста­вит  млн руб­лей.В ян­ва­ре 2018 года долг будет со­став­лять  млн руб­лей, а в июле 2018 года  —  млн руб­лей. Зна­чит, вы­пла­та в 2018 году со­ста­вит  млн руб­лей.В ян­ва­ре 2019 года долг перед бан­ком со­ста­вит  а в июле  — 0 руб­лей. Зна­чит, вы­пла­та в 2019 году со­ста­вит  млн руб­лей.Решим си­сте­му:  Наи­боль­шее целое ре­ше­ние этой си­сте­мы  —  млн руб­лей. Ответ: 7.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/05/052fc0b7160229662f2083dd0d56f1b7.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d205ff13a872f6b357f05558b7f34f44.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/ca5d90a7ac2e28e6c931de17f56c205e.svg",
+            "https://ege.sdamgia.ru/formula/svg/64/64e5d99d8bd6c5b4a30f16902f5c72ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/9b/9be1d51f07c657d150009304cb92fe91.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f09db3e37fe40669094d036b8e5141b5.svg",
+            "https://ege.sdamgia.ru/formula/svg/25/257cb764ffb757fd25e9788417d38a73.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aae5b09c139e562141a418d1cb84ab58.svg",
+            "https://ege.sdamgia.ru/formula/svg/ff/ff73d88d9216f392ff2b4c278e504f78.svg",
+            "https://ege.sdamgia.ru/formula/svg/d1/d1b2196508f5da0f6602bc74b9b263f9.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f0217f9fe76a7b6c9ad0b8b3ca636d77.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/ea62ac6ea6a7d17a57b65853dc566af1.svg"
+        ]
+    },
+    "answer": " 7.",
+    "analogs": [
+        "514477",
+        "514483",
+        "514486",
+        "514627",
+        "...",
+        "514483",
+        "514486",
+        "514627",
+        "514641",
+        "514725",
+        "516259",
+        "517266",
+        "517801",
+        "523998",
+        "524025",
+        "525121"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=516278"
+}

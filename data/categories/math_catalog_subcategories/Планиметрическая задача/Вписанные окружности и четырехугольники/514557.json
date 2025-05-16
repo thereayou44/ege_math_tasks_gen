@@ -1,0 +1,31 @@
+{
+    "id": 514557,
+    "topic": "17",
+    "condition": {
+        "text": "Квадрат ABCD вписан в окружность. Хорда CE пересекает его диагональ BD в точке K.а) Докажите, что б) Найдите отношение CE : KE, если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/93/93892ad405ec21f52f90951a9e1e033e.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e3f24b844c9d7bd94bd50965c7e5a746.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.  а)  В тре­уголь­ни­ках CKD и CDE угол KCD  — общий,Зна­чит, эти тре­уголь­ни­ки по­доб­ны, от­ку­да б)  В тре­уголь­ни­ке CKD имеем:   от­ку­да  Из по­до­бия тре­уголь­ни­ков CKD и CDE по­лу­ча­ем:В тре­уголь­ни­ке CKD из тео­ре­мы си­ну­сов для тре­уголь­ни­ка CDE имеем:то есть  от­ку­да CE : KE = 3 : 1. Ответ: б) 3 : 1.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=150093",
+            "https://ege.sdamgia.ru/formula/svg/3a/3a1d38cf5111e14e5a27d1cbdd824c55.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b4018b42eef8ab7fec587a54f7344366.svg",
+            "https://ege.sdamgia.ru/formula/svg/24/24bc806e13b2615c0b06d50d047aa076.svg",
+            "https://ege.sdamgia.ru/formula/svg/d1/d100a20a273479b51c853d6c0ad86f8c.svg",
+            "https://ege.sdamgia.ru/formula/svg/33/338699ab36145a99e920e811c2b1ce8b.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0f1b564e148fc9f782eeb9c9c7a1e19a.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b74c8c74514b5340615bbab86e831bcd.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/ad0409b2abe3fa7668d6cc8ef7f62aff.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f97f7392ecd482daf38cfd63b905f391.svg"
+        ]
+    },
+    "answer": " б) 3 : 1.",
+    "analogs": [
+        "514522"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=514557"
+}

@@ -1,0 +1,47 @@
+{
+    "id": 526906,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых система уравненийимеет ровно четыре различных решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/5b/5bf25635e8f10bff2a3706dda0d56da5.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Вто­рое урав­не­ние си­сте­мы при­ве­дем к виду  То есть Рас­смот­рим два слу­чая, под­ста­вив эти зна­че­ния в пер­вое урав­не­ние си­сте­мы.1)   Если  то  Если  имеем квад­рат­ное урав­не­ние от­но­си­тель­но y. Его дис­кри­ми­нант дол­жен быть по­ло­жи­тель­ным.Таким об­ра­зом, при   или  две пары чисел  и  яв­ля­ют­ся ре­ше­ни­я­ми ис­ход­ной си­сте­мы.1)   Если  то урав­не­ние не имеет кор­ней.  Если  имеем квад­рат­ное урав­не­ние от­но­си­тель­но x. Его дис­кри­ми­нант дол­жен быть по­ло­жи­тель­ным.Таким об­ра­зом, при   или  две пары чисел  и  яв­ля­ют­ся ре­ше­ни­я­ми ис­ход­ной си­сте­мы.Найдём зна­че­ние па­ра­мет­ра, при ко­то­ром ре­ше­ния из пер­во­го и вто­ро­го слу­чая сов­па­да­ют, то есть ре­ше­ни­ем си­сте­мы яв­ля­ет­ся пара чисел Зна­чит, пара чисел  ни при каких зна­че­них па­ра­мет­ра не яв­ля­ет­ся ре­ше­ни­ем ис­ход­ной си­сте­мы.Пе­ре­се­кая по­лу­чен­ные про­ме­жут­ки из пер­во­го и вто­ро­го слу­ча­ев, по­лу­ча­ем ито­го­вый ответ:   Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/f3/f3ba098c9db5786974f6f4e190af4d75.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e10d84854960ef7a48feac42db140905.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1bf9a0edf9f6f6c4c69067699fc7cc3c.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/17ba251eac55f8d9c448c8d9b1a3536e.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d47c3b48318fcef886f7705dfd2b566.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/452d1a05ae48a2db677aea220ff2dc44.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/10ebd19c472756532fe94d8386ceda9f.svg",
+            "https://ege.sdamgia.ru/formula/svg/33/336cb46b153f83ad571e866c96e90349.svg",
+            "https://ege.sdamgia.ru/formula/svg/05/05974d78e4c4bd88366877f6c807e4cc.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/81ab5a0b5746d911e1d8f16c92f80df1.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/88f4efe51d6230c7281de61dbf03b084.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6e33801337d105c8a316824cc51e422a.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1cefa5e833918a0e324c49378a24d07e.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c2eab35bba3936f8eb0535f384e4e7f0.svg",
+            "https://ege.sdamgia.ru/formula/svg/43/431e66f7d2a4df03828a37e92ae05015.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d47c3b48318fcef886f7705dfd2b566.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/10ebd19c472756532fe94d8386ceda9f.svg",
+            "https://ege.sdamgia.ru/formula/svg/87/87f98bfb53197b6e9487ce0a1f8bda54.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf8298b0e273301afdd921e7e4cf6c2b.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3aedfb764272e7890ff43aa0bea2c487.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/401cb1a4502db2e3b36e9fb872f07c76.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a9d460799041d5f756306ec9c98a0558.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/52d2c0ed00997f95a573d30c6430688e.svg",
+            "https://ege.sdamgia.ru/formula/svg/12/124dc533300ca87053671b336769a70e.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/319b89eed68bfc7c848a015f829ac3c8.svg",
+            "https://ege.sdamgia.ru/formula/svg/9b/9b413b69d69c494140c09ca57df59f63.svg",
+            "https://ege.sdamgia.ru/formula/svg/fe/fe36baaee7d222a28baddbd1f417624d.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "526905"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=526906"
+}

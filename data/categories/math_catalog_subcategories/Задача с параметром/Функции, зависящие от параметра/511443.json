@@ -1,0 +1,40 @@
+{
+    "id": 511443,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значение a, при каждом из которых график функции пересекает ось абсцисс менее чем в трех различных точках.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/57/57bb491aa030d97588a647146f2a2b25.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Рас­смот­рим вспо­мо­га­тель­ную функ­цию Гра­фик функ­ции  пе­ре­се­ка­ет ось абс­цисс в двух или менее точ­ках, если урав­не­ние  имеет менее трех раз­лич­ных кор­ней.Если  или  то  и Если  то  и Гра­фик функ­ции  со­сто­ит из двух лучей и дуги па­ра­бо­лы. На ри­сун­ке видно, что урав­не­ние  имеет менее трех кор­ней, толь­ко если  или  За­ме­тив, что  по­лу­ча­ем ответ:  или  Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=159622",
+            "https://ege.sdamgia.ru/formula/svg/6b/6b7be2aa9c9f2e3ace478d9a8f1aebc2.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50bbd36e1fd2333108437a2ca378be62.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/dfef22e69835ccddacde8f706b8788fd.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/dd4234e7ed1dffd806e6eaea25e7fd91.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/4253727ad7109cbfb224d77c43df0150.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af5c558e9410123814320e799c720719.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b9fb1bf42d092e633514549847525851.svg",
+            "https://ege.sdamgia.ru/formula/svg/a5/a5338a5d5bf7fd9c9057f998e9509930.svg",
+            "https://ege.sdamgia.ru/formula/svg/67/67f752b72c16bdd141d4008f2e1bf179.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/65d9b84f40aad0a7db35deaa1a66e6db.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e84fec1e074026d6fa8e3155482c35c3.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/dfef22e69835ccddacde8f706b8788fd.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f3873467351bd2a3e9e1ed869a1ab97e.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d5de5a74ad7049d7f33f618b9aa55596.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/284550753786a5848c3ebe413b9a9ad5.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0da129be88f57737bd0cfdbd8e5572b6.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4f68c804a996c4b438fe4401835e8940.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/1916a3163573bfc2cb92a400c5d5e596.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "507578",
+        "507709"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511443"
+}

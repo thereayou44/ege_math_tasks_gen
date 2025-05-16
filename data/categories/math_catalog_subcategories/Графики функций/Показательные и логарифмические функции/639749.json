@@ -1,0 +1,32 @@
+{
+    "id": 639749,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображен график функции вида Найдите значение f(5).",
+        "images": [
+            "https://ege.sdamgia.ru/get_file?id=128163",
+            "https://ege.sdamgia.ru/formula/svg/3e/3ec7f9a9c1d470775506529844b8c3a5.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Из гра­фи­ка на­хо­дим, что  от­ку­да  а по­то­му  Тогда Ответ: 32.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/6f/6fb5e9091186499e05724968378b0ad5.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2fe69e80c3ec3c89ded8c252015e3c50.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/75ff84fadb7b063c7ccd29e381065486.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bfe29af5cb8f27878ef8a32f7ed76427.svg"
+        ]
+    },
+    "answer": "32",
+    "analogs": [
+        "639480",
+        "641157",
+        "660718",
+        "...",
+        "641157",
+        "660718",
+        "660926",
+        "661082"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=639749"
+}

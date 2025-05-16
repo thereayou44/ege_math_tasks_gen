@@ -1,0 +1,55 @@
+{
+    "id": 639487,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых уравнение имеет ровно 1 корень.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ba/baba41333dde730e1a74d4d814bf94ca.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пе­ре­не­сем вы­ра­же­ние из пра­вой части в левую и вы­не­сем общий мно­жи­тель за скоб­ку:Рас­смот­рим два слу­чая. Пер­вый слу­чай: Вто­рой слу­чай: Корни  и  сов­па­да­ют при  Объ­еди­няя ре­зуль­та­ты, по­лу­ча­ем, что ис­ход­ное урав­не­ние   — при  не имеет кор­ней;  — при  имеет один ко­рень   — при  имеет два корня  и   — при  имеет один ко­рень Таким об­ра­зом, урав­не­ние имеет ровно один ко­рень при  и  Ответ:  При­ведём гра­фи­че­ское ре­ше­ние.Ис­ход­ное урав­не­ние рав­но­силь­но си­сте­меВ си­сте­ме ко­ор­ди­нат xOa гра­фи­ком по­лу­чен­ной си­сте­мы (вы­де­ле­но оран­же­вым) яв­ля­ет­ся объ­еди­не­ние от­рез­ка AC (от­ре­зок пря­мой  между пря­мы­ми a  =  −2x и a  =  2x) и луча с на­ча­лом в точке B (часть пря­мой  ле­жа­щая пра­вее пря­мой  Число кор­ней ис­ход­но­го урав­не­ния равно числу точек пе­ре­се­че­ния гра­фи­ка с го­ри­зон­таль­ной пря­мой. Ровно одно пе­ре­се­че­ние будет при  и ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/e3/e3a1405950a0206fd5dcd6353a41ab70.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/704325d3ecb450cd9aa1fd52d2c4906c.svg",
+            "https://ege.sdamgia.ru/formula/svg/ab/ab22e1b82d7e810d54ca159652f994da.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/185b1b96e7fdadbec426bff3748903ba.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/79ea4c493f1ff10b9aef812ed759d0c7.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/8909b1ae54eb9f4bfb3e62d176235b30.svg",
+            "https://ege.sdamgia.ru/formula/svg/43/430fdb20601fa2536c19a139c1ea13be.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a196f161620116d87d89946a85855889.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0d052dd660e6e48dfbcefeac4c98c2c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/8355611eec116a32661de3212a32e7ce.svg",
+            "https://ege.sdamgia.ru/formula/svg/58/5827125a7e6f365d54977a96c166aed3.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c94a5e0bb87467e8271cdf0bd59ad83b.svg",
+            "https://ege.sdamgia.ru/formula/svg/be/bee926b09f363ff065812a9b31177723.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d9f5a8f7a862f6c1dfa96d837689f101.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/370e1b4e600007aff164b216886a57de.svg",
+            "https://ege.sdamgia.ru/formula/svg/67/672726f73bbd566db9ff95673093d661.svg",
+            "https://ege.sdamgia.ru/formula/svg/7f/7f5d5ba35396eb26ae0177c979df7e21.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/82ac7ee6a1decd24f8fc89749f61cf22.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c94a5e0bb87467e8271cdf0bd59ad83b.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5df999a33f9525994ff5ef1c5c6cfbfd.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/463ab168dc429d2f66c355c2ac32086c.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=127689",
+            "https://ege.sdamgia.ru/formula/svg/5d/5d04ab5141c70225bda6335f0c39d850.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a196f161620116d87d89946a85855889.svg",
+            "https://ege.sdamgia.ru/formula/svg/33/3302e0d6a502d919920fd042220bc2d5.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/84c73c291f1bfdff87d85e9c044e359b.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c94a5e0bb87467e8271cdf0bd59ad83b.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5df999a33f9525994ff5ef1c5c6cfbfd.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "562941",
+        "562986",
+        "639653",
+        "...",
+        "562986",
+        "639653",
+        "639679",
+        "640929"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=639487"
+}

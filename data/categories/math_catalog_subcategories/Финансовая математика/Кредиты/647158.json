@@ -1,0 +1,52 @@
+{
+    "id": 647158,
+    "topic": "16",
+    "condition": {
+        "text": "В июле 2024 года планируется взять кредит в банке на 8 лет. Условия его возврата таковы: — в январе 2025, 2026, 2027 и 2028 годов долг возрастает на 18% по сравнению с концом предыдущего года; — в январе 2029, 2030, 2031 и 2032 годов долг возрастает на 14% по сравнению с концом предыдущего года; — с февраля по июнь каждого года необходимо выплатить часть долга; — в июле каждого года долг должен быть на одну и ту же величину меньше долга на июль предыдущего года; — к июлю 2032 года кредит должен быть полностью погашен.Какую сумму планируется взять в кредит, если общая сумма выплат после полного его погашения составит 2200 тысяч рублей?",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пусть сумма кре­ди­та равна S тысяч руб­лей. По усло­вию долг перед бан­ком (в тыс. руб­лей) по со­сто­я­нию на июль 2024−2032 годов дол­жен умень­шать­ся до нуля сле­ду­ю­щим об­ра­зом:         В ян­ва­ре каж­до­го года с 2025 по 2028 долг воз­рас­та­ет на 18%, а в ян­ва­ре каж­до­го года с 2029 по 2032  — на 14%, зна­чит, по­сле­до­ва­тель­ность раз­ме­ров долга (в тыс. руб­лей) в ян­ва­ре 2025−2032 годов та­ко­ва:        Сле­до­ва­тель­но, вы­пла­ты (в тыс. руб­лей) долж­ны быть сле­ду­ю­щи­ми:        Зна­чит, общая сумма вы­плат (в тыс. руб­лей) со­ста­вит  сле­до­ва­тель­но,  от­ку­да  Зна­чит, сумма, взя­тая в кре­дит, равна 1250 тысяч руб­лей.  Ответ:  1250 тысяч руб­лей.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/06/067bd236f50e260762677d4ea3ca569e.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8e0efbd3219a077be88fe8f06ec3f680.svg",
+            "https://ege.sdamgia.ru/formula/svg/1f/1f5e6e204bc47fa8510f5c193878c3e9.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bf9a9f824eff2e5b4249b657d20afced.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7b111aa3d4f087ef566eedf3309f8116.svg",
+            "https://ege.sdamgia.ru/formula/svg/f5/f553d3a1d0fd325ae512a1ad20be79be.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c21bbef62a3b52bb7532d21fd34301df.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/63477213743e9c1815f737bd11c1376b.svg",
+            "https://ege.sdamgia.ru/formula/svg/fe/fe7147b0e0df0de6e4217987f7fb936d.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8cd6286517b538b48b34414a425661ba.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b14e9624a28e0c6f45727109dc42f673.svg",
+            "https://ege.sdamgia.ru/formula/svg/bd/bd42813005e56bfd3fbf80db2d3e684b.svg",
+            "https://ege.sdamgia.ru/formula/svg/9b/9bba91979ec9e5c2aa375bbb37f1d604.svg",
+            "https://ege.sdamgia.ru/formula/svg/c6/c6206e3b33acd3ca018036e15227c131.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/60e61470c939a384cdf1a54f3f0726d2.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7bba422d17ba9ba88027c372efa644f1.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4a1dcd118a70c211d3f7dbb4088a4b9f.svg",
+            "https://ege.sdamgia.ru/formula/svg/2b/2b8ca0e895d9f12f4c278411afff1a09.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/924e691fc6e63880d78b5a9e5b74079d.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50983db31bc1d157ecbbc794bebe9fe7.svg",
+            "https://ege.sdamgia.ru/formula/svg/b6/b694f31bcdaab8a6a3c2eb54d69804e0.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b7312fcc5c6eefc9689f951ae6593240.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a71b163cd6a169962e93997b0c75911.svg",
+            "https://ege.sdamgia.ru/formula/svg/69/696975c4aba1ca7c719e89ee6b0a9fc3.svg",
+            "https://ege.sdamgia.ru/formula/svg/2b/2bd96ccaa665095d950b7e772bfafc77.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/42f8d0c55cf03d6ffc0d8a96bafd06a4.svg",
+            "https://ege.sdamgia.ru/formula/svg/95/95e6746fc8fdc9597648a4542b9601e4.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8e3a5b22e25a4dab436947a2398d52a8.svg"
+        ]
+    },
+    "answer": "  1250 тысяч руб­лей.",
+    "analogs": [
+        "642337",
+        "642411",
+        "647138",
+        "...",
+        "642411",
+        "647138",
+        "680005"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=647158"
+}

@@ -1,0 +1,43 @@
+{
+    "id": 509285,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображены графики функций и которые пересекаются в точке A. Найдите ординату точки A.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=149669",
+            "https://ege.sdamgia.ru/formula/svg/45/45278ea85f7bddeb097bebacc3f4b208.svg",
+            "https://ege.sdamgia.ru/formula/svg/d0/d0b8ffec3a77f2911bc974dfa3b9afed.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По гра­фи­ку, f(4)  =  3, тогда  Тогда урав­не­ние функ­ции имеет вид За­ме­тим, что k  — тан­генс угла на­кло­на пря­мой. Тогда  По гра­фи­ку, g(3)  =  2, зна­чит,  Тогда урав­не­ние пря­мой имеет вид Те­перь найдём ор­ди­на­ту точки A: Таким об­ра­зом,  Ответ: 2,25.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/86/86d2908ac9d1dc8011917c4b80f14f68.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d853fd0598d16f2d02ae8fed3ef131b8.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/615d2aab58b83dc2bd0f6df21664a1d4.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/62b3469d45c1cf7f673e7102b13cdc58.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c469753b4e2ca2531fab30d403da2ee.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e3ad5a1909ac3734848e9921514e0dbc.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0d95c6f9501ebb8306010726dd728ab5.svg",
+            "https://ege.sdamgia.ru/formula/svg/ce/ce91d323fb1a888817814e755775d856.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/9962690f3ace452c7b28597b9e2bed24.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/098a635461a7017ae89f07c494538aa9.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a36344cf3bac1117c8338692588234e9.svg"
+        ]
+    },
+    "answer": "2,25",
+    "analogs": [
+        "509280",
+        "509279",
+        "509281",
+        "509282",
+        "...",
+        "509279",
+        "509281",
+        "509282",
+        "509283",
+        "509284",
+        "509286"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509285"
+}

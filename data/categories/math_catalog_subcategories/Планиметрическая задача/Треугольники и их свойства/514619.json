@@ -1,0 +1,30 @@
+{
+    "id": 514619,
+    "topic": "17",
+    "condition": {
+        "text": "На продолжении стороны АС за вершину А треугольника АВС отмечена точка D так, что AD = AB. Прямая, проходящая через точку А параллельно BD, пересекает сторону ВС в точке M.а) Докажите, что AM — биссектриса треугольника АВС. б) Найти SAMBD, если AC = 10, BC = 8 и AB = 6.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Имеем: рав­но­бед­рен­ный, сле­до­ва­тель­но, Тогда  б)   пря­мо­уголь­ный.  AM  — бис­сек­три­са. Сле­до­ва­тель­но,      Ответ: 23,4.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=146904",
+            "https://ege.sdamgia.ru/formula/svg/7e/7e9975c83ab074a42ad26ba238f07b3d.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e68fecae4648755e66cca89b404fe59c.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d3e7df6bdc3298bebf9453c4e54fa696.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8ec13ba86a2fd5cc493a494edbabfb06.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/091a2497710ae11779e752ebe2f35cf9.svg",
+            "https://ege.sdamgia.ru/formula/svg/c5/c5fb415f4579c4e8387d2c822cde013a.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/afffc59a87f5ed7f729227ebd3fa6ea5.svg",
+            "https://ege.sdamgia.ru/formula/svg/0a/0af0d26f235f14d3afa0a4e76bbeb952.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f61547153ef7596c4559ab7dbdc861a9.svg",
+            "https://ege.sdamgia.ru/formula/svg/f5/f56458016ec98c8f23e08e03845de231.svg",
+            "https://ege.sdamgia.ru/formula/svg/f5/f58412338cb22f3b7a1da5095dda8c61.svg"
+        ]
+    },
+    "answer": " 23,4.",
+    "analogs": [
+        "514633"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=514619"
+}

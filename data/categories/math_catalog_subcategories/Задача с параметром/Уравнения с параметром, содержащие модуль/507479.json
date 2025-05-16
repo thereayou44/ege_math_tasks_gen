@@ -1,0 +1,38 @@
+{
+    "id": 507479,
+    "topic": "18",
+    "condition": {
+        "text": "Найти все значения a, при каждом из которых уравнение на промежутке имеет более двух корней.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/92/92e19266b685147cb041cdeaffe391c3.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/49f4fce7da0370af8e99de418359dc25.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Левая часть урав­не­ния  — ги­пер­бо­ла, а пра­вая  — пря­мые, про­хо­дя­щие через точку (0; −2). Урав­не­ние имеет более двух ре­ше­ний, когда пря­мые лежат между l1 и l2. Най­дем точку пе­ре­се­че­ния ги­пер­бо­лы и оси абс­цисс:  За­ме­тим, что точка  тогда По­сколь­ку гра­фик отоб­ра­жен, то  Чтобы была един­ствен­ная точка ка­са­ния, не­об­хо­ди­мо и до­ста­точ­но, чтобы дис­кри­ми­нант квад­рат­но­го урав­не­ния был равен нулю:  Но  и  по­сколь­ку тре­бу­ет­ся, чтобы урав­не­ние имело более двух кор­ней. Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=151276",
+            "https://ege.sdamgia.ru/formula/svg/f5/f5a9720d9be4d42f3af31867e41365a6.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d80992eb90a86342587fae794d9d5047.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d2893ccd673e948506262b672e91b122.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/ea1d92837d83b1b143c2eb92d018a6b1.svg",
+            "https://ege.sdamgia.ru/formula/svg/80/8068b7af15b075713751c8f2b6b40bdc.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/452a4e6333a585cd42181cd5b0ae8bbb.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/158b41dad31dc948019f0d263bab7377.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cd02125f47346ff505bb57a0439f35e9.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "500370",
+        "500135",
+        "505538",
+        "507192",
+        "...",
+        "500135",
+        "505538",
+        "507192",
+        "511415"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=507479"
+}

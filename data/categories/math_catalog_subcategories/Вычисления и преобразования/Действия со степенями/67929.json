@@ -1,0 +1,41 @@
+{
+    "id": 67929,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите значение выражения при",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/91/91a69920d5613bae14df710a7799718e.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf4c5745ddb965d3d4246b7c1eedab8f.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Вы­пол­ним пре­об­ра­зо­ва­ния:   Ответ: 343.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/d1/d18e75aac4f875b5b55bd6a432bcf8c0.svg"
+        ]
+    },
+    "answer": "343",
+    "analogs": [
+        "26835",
+        "67927",
+        "67897",
+        "...",
+        "67927",
+        "67897",
+        "67899",
+        "67901",
+        "67903",
+        "67905",
+        "67907",
+        "67909",
+        "67911",
+        "67913",
+        "67915",
+        "67917",
+        "67919",
+        "67921",
+        "67923",
+        "67925"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=67929"
+}

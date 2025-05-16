@@ -1,0 +1,51 @@
+{
+    "id": 67133,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/3f/3f56ce5edf669f40bc98fb16f5b827a2.svg",
+            "https://ege.sdamgia.ru/formula/svg/1f/1f0100e61d3d393ecd3354f1362dd6a0.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Най­ди­те  если Под­став­ляя ар­гу­мен­ты в фор­му­лу, за­да­ю­щую функ­цию, по­лу­ча­ем:  Ответ: 14.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/4d/4d3cd0b8de3c1a3d19efa3d20c070459.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/8513430fed2afe096e83c69842b6b0c1.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/ed687a7c669e776ef81dd335201e5af2.svg"
+        ]
+    },
+    "answer": "-4",
+    "analogs": [
+        "26822",
+        "67181",
+        "67135",
+        "...",
+        "67181",
+        "67135",
+        "67137",
+        "67139",
+        "67141",
+        "67143",
+        "67145",
+        "67147",
+        "67149",
+        "67151",
+        "67153",
+        "67155",
+        "67157",
+        "67159",
+        "67161",
+        "67163",
+        "67165",
+        "67167",
+        "67169",
+        "67171",
+        "67173",
+        "67175",
+        "67177",
+        "67179"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=67133"
+}

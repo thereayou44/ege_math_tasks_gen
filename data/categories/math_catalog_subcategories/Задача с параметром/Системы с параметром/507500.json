@@ -1,0 +1,39 @@
+{
+    "id": 507500,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра а, при каждом из которых система имеет единственное решение.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/9f/9fd2380ce6f0245bde3c9a0ffb104903.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Най­ди­те все зна­че­ния па­ра­мет­ра а, при каж­дом из ко­то­рых си­сте­ма  имеет един­ствен­ное ре­ше­ние. Пре­об­ра­зу­ем ис­ход­ную си­сте­му:Урав­не­ние  за­да­ет пару пе­ре­се­ка­ю­щих­ся пря­мых  и Си­сте­ма за­да­ет части этих пря­мых, рас­по­ло­жен­ные в по­лу­плос­ко­сти  то есть лучи BD и CE, вклю­чая точки B и С, см. рис. Урав­не­ние  за­да­ет пря­мую m с уг­ло­вым ко­эф­фи­ци­ен­том a, про­хо­дя­щую через точку  Сле­ду­ет найти все зна­че­ния a, при каж­дом из ко­то­рых пря­мая m имеет един­ствен­ную общую точку с объ­еди­не­ни­ем лучей BD и CE.а)  Пря­мая AB за­да­ет­ся урав­не­ни­ем  По­это­му при  пря­мая m не пе­ре­се­чет ни луч BD, ни луч CE, а при  есть толь­ко одна точка пе­ре­се­че­ния  — точка B.б)  Пря­мая AC за­да­ет­ся урав­не­ни­ем  По­это­му при   пря­мая m пе­ре­се­ка­ет луч BD, но не пе­ре­се­ка­ет луч CE, то есть усло­вие за­да­чи вы­пол­не­но.в)  При  пря­мая m пре­се­чет и луч BD, и луч CE.г)  На­ко­нец, при  пря­мая m пе­ре­се­чет толь­ко луч CE, а при  она не пе­ре­се­чет ни луч BD, ни луч CE. Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/9f/9fd2380ce6f0245bde3c9a0ffb104903.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6ca515d3cf0e800f9f4a668e4850d17e.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/49c5111bce1b39a9ce4d9d21b95adc7e.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/4170add6319f8015ebf55bfa865a9db6.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8e54df467efc8560e96512e5c57bb4a1.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/56a1b5f5f7a8d20456ff76fbe96a3046.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/233496519218b40ed91f2a0a3d81c78d.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=156338",
+            "https://ege.sdamgia.ru/formula/svg/df/df9663e21c659b083b0ff13819527a09.svg",
+            "https://ege.sdamgia.ru/formula/svg/48/4892ed3a69108de97c39e1d61cdff6c4.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/8837e9ad0b0239febc3a3c6f2bcb1c7c.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/ea3b00ef7e312163d7a5bad5bc6c756b.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83a88ab12cf3296e031df84985733d33.svg",
+            "https://ege.sdamgia.ru/formula/svg/98/980f561e12b203de55152c821254c525.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/477e240a4f921a9c96a0df03e8218531.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/81ab5a0b5746d911e1d8f16c92f80df1.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7af365fce3c2156516b361318d76ede3.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/30e87da4febaafa632248ed2d5e3e501.svg",
+            "https://ege.sdamgia.ru/formula/svg/8a/8ad8a2fd53e72c71f7661bf5b772dea6.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "484645"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=507500"
+}

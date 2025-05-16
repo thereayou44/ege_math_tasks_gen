@@ -1,0 +1,43 @@
+{
+    "id": 654670,
+    "topic": "18",
+    "condition": {
+        "text": "Известно, что значение параметра а таково, что система уравнений имеет единственное решение. Найдите это значение параметра a и решите систему при найденном значении параметра.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/63/636de85317c18e1a646a3a0ee32b2378.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Из пер­во­го урав­не­ния си­сте­мы по­лу­ча­ем За­ме­тим, что если пара   — ре­ше­ние си­сте­мы, то пара   — также ре­ше­ние этой си­сте­мы. По­сколь­ку си­сте­ма имеет един­ствен­ное ре­ше­ние, этим ре­ше­ни­ем может быть толь­ко пара  Таким об­ра­зом,  и из вто­ро­го урав­не­ния по­лу­ча­ем: Про­ве­рим, дей­стви­тель­но ли си­сте­ма при най­ден­ных зна­че­ни­ях a имеет един­ствен­ное ре­ше­ние. 1.  Если  то вто­рое урав­не­ние си­сте­мы имеет един­ствен­ное ре­ше­ние: Тогда  а зна­чит, пара (0; 1) яв­ля­ет­ся един­ствен­ным ре­ше­ни­ем си­сте­мы.2.  Если  то вто­рое урав­не­ние си­сте­мы имеет три ре­ше­ния: Каж­до­му из най­ден­ных зна­че­ний x со­от­вет­ству­ет зна­че­ние  а по­то­му си­сте­ма имеет  три ре­ше­ния. Ответ: си­сте­ма имеет един­ствен­ное ре­ше­ние  при ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/4a/4adff3c5bdb5aff727555d19b41398ad.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a2186702fd6a70070c9bcc8021454d90.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e25870b46bfe422315b442357ed29784.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a33f453eb132392bbfd3ebd7aa1ae186.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e11729b0b65ecade3fc272548a3883fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e3a6e8bca11184c45daca0abf34f400d.svg",
+            "https://ege.sdamgia.ru/formula/svg/8a/8a73bee90f8f8f69117d09cff882c75f.svg",
+            "https://ege.sdamgia.ru/formula/svg/96/96084ad4b1fada44dd34e37c67d833e3.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2c299a0b709c1a047adbf91fe47f4b24.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/89ef75384727556e84bf511daed4d70a.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2c299a0b709c1a047adbf91fe47f4b24.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/ccb28b6891688babc980e49e7580ea3a.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/88f494653b702af45d792a72984291f1.svg",
+            "https://ege.sdamgia.ru/formula/svg/6b/6bdd97e96aa841243577571c0ec0697c.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dc9791942c5716d51249089473cef5ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/acdc39aa1dcae19539798075b32e8555.svg",
+            "https://ege.sdamgia.ru/formula/svg/c6/c6251d794856c46090206eef70f38ec3.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/527f91d24192abd4759b0461c7b581f1.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/ef3cd1b4f09a9988e521f2f57ffb1d64.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4d2035fd6f41ac04da52db4ee5834d9e.svg",
+            "https://ege.sdamgia.ru/formula/svg/fe/fee5a83c491c2fba2469a1e0a6f9769f.svg",
+            "https://ege.sdamgia.ru/formula/svg/20/20346ea8965adb95d60bbe05408bdf35.svg",
+            "https://ege.sdamgia.ru/formula/svg/76/760eb3983f7ba22254e7bd56b3fb7dea.svg"
+        ]
+    },
+    "answer": " си­сте­ма имеет един­ствен­ное ре­ше­ние  при ",
+    "analogs": [
+        "484629"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=654670"
+}

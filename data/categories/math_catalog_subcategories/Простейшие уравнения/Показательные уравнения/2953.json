@@ -1,0 +1,54 @@
+{
+    "id": 2953,
+    "topic": "6",
+    "condition": {
+        "text": "Найдите корень уравнения",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/88/88aa7ff74c6ad9c9959902bc09c1527a.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Най­ди­те ко­рень урав­не­ния Пе­рей­дем к од­но­му ос­но­ва­нию сте­пе­ни: Ответ: 12,5.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/c4/c4621504c6c0dd24dd80f69cfeb18a9c.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3d05a8f6a8a6e9ba810a6fb2c0de81ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/aceca889478a012b9c54089b6fa3fff2.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/014f340940bbbfe7b8d816c6eb023277.svg"
+        ]
+    },
+    "answer": "8,5",
+    "analogs": [
+        "26655",
+        "2949",
+        "2995",
+        "509617",
+        "...",
+        "2949",
+        "2995",
+        "509617",
+        "510483",
+        "2951",
+        "2955",
+        "2957",
+        "2959",
+        "2961",
+        "2963",
+        "2965",
+        "2967",
+        "2969",
+        "2971",
+        "2973",
+        "2975",
+        "2977",
+        "2979",
+        "2981",
+        "2983",
+        "2985",
+        "2987",
+        "2989",
+        "2991",
+        "2993",
+        "509372"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=2953"
+}

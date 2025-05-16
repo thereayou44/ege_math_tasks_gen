@@ -1,0 +1,45 @@
+{
+    "id": 511593,
+    "topic": "17",
+    "condition": {
+        "text": "В прямоугольном треугольнике ABC с прямым углом C известны стороны AC = 15, BC = 8. Окружность радиуса 0,5 с центром O на стороне BC проходит через вершину C. Вторая окружность касается катета AC, гипотенузы треугольника, а также внешним образом касается первой окружности.а) Докажите, что радиус второй окружности меньше, чем длины катета б) Найдите радиус второй окружности.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ec/eca3bf81573307ec3002cf846390d363.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/55c9ee3beff9b131586901889ba3714f.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Пусть Q  — центр вто­рой окруж­но­сти, M и N  — её точки ка­са­ния со сто­ро­на­ми AB и AC со­от­вет­ствен­но, а точка H  — про­ек­ция точки Q на  Имеем:  сле­до­ва­тель­но,  Тогда  По­это­му  что и тре­бо­ва­лось до­ка­зать.б)  Пусть x  — ра­ди­ус вто­рой окруж­но­сти. Рас­смот­рим пря­мо­уголь­ный тре­уголь­ник По тео­ре­ме Пи­фа­го­ра  от­ку­да:Усло­вию  удо­вле­тво­ря­ет толь­ко  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/90/90b425c2898f0ee7d2629aad1e09646f.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9f8d8072829f2168e9898810abb69ba6.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/90260ecf67ad136a05d9abaa6d40c0cf.svg",
+            "https://ege.sdamgia.ru/formula/svg/69/69a500aae969d7f7d2b6119dba922565.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8bab5ab0e7a0d3400e6361f7bfd91836.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=148381",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa7a5cdea186c02f978d9a27e8938969.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0f888cd3028c4ded2427a0989b2c0796.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/ea941ea02bdb77164d46c88df5ca5768.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/57b65b8a1189c6147c771615a622cec4.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/cc11d4d2385178895ec7ac16c54f402c.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/36657138ae8c441298480d47057faf4e.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/294ce7db32b17df92f609b564d7b9ca2.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/ada28bb5577a90a9c1c3bf80873db376.svg",
+            "https://ege.sdamgia.ru/formula/svg/9b/9b009c0af8cf07c5a90557c710f94f67.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/725604b30e8344993e7739e0f65e118c.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/943b913161f2598d3abcec9f8e746552.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "509467",
+        "509629",
+        "510494",
+        "511581",
+        "...",
+        "509629",
+        "510494",
+        "511581"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511593"
+}

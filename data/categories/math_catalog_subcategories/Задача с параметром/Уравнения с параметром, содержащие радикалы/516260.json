@@ -1,0 +1,32 @@
+{
+    "id": 516260,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых уравнение имеет ровно 3 решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/bb/bb8a24283202df524a0d8c7f2cfff108.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пе­рейдём к си­сте­меУрав­не­ние имеет корни  и  при любых зна­че­ни­ях a и ещё один ко­рень  ко­то­рый не дол­жен сов­па­дать с двумя дру­ги­ми. Зна­чит,  и  При этом долж­но вы­пол­нять­ся не­ра­вен­ство По­лу­ча­ем: Тогда с уче­том огра­ни­че­ний на­хо­дим:  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/53/5355dc9a1dcbc5380b857b4ab0c896d9.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/190e1904dfa25781edf4b26195b4da51.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/1309dc796fe2baeb60e2f7ea932b7f29.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e11729b0b65ecade3fc272548a3883fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fdcc4ed253108d26776eab65588e8faf.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a1d9f22ec5423e3277f5a3f0eb8915dd.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/751830a2f910c8d8fca0b1555b9d443a.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/7543c88e9772e8194c0f78ae24ccae5a.svg",
+            "https://ege.sdamgia.ru/formula/svg/f2/f2adfabec8581dcc60b34d34a820e172.svg",
+            "https://ege.sdamgia.ru/formula/svg/14/144418f14982a7093fd9ab47cbd83ad6.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d7df3c9c9ae1612c9d380c96bbb8e789.svg",
+            "https://ege.sdamgia.ru/formula/svg/24/24281a90a9f9a74483b209bcbba1bd0a.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "516279"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=516260"
+}

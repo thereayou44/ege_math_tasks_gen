@@ -1,0 +1,40 @@
+{
+    "id": 661141,
+    "topic": "17",
+    "condition": {
+        "text": "Высоты BB1 и CC1 остроугольного треугольника ABC пересекаются в точке H. а) Докажите, что б) Найдите длину отрезка BC, если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/97/97506c9f9a2ad2f3eeca0f33303efa59.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6d5b9b9400331ace405d8d18b87697a1.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/535577c41c9bb7ecedbdf1b08e37de88.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  За­ме­тим, что вы­со­та AA1 тре­уголь­ни­ка ABC про­хо­дит через точку H. В четырёхуголь­ни­ке AC1HB1 углы C1 и B1  — пря­мые, сле­до­ва­тель­но, около этого четырёхуголь­ни­ка можно опи­сать окруж­ность, причём AH  — её диа­метр. Впи­сан­ные углы AC1B1 и AHB1 опи­ра­ют­ся на одну дугу, сле­до­ва­тель­но, ∠AHB1 = ∠AC1B1. Углы BC1C и BB1C  — пря­мые, зна­чит, точки B, C, B1 и C1 лежат на окруж­но­сти с диа­мет­ром BC. Сле­до­ва­тель­но, По­лу­ча­ем, что б)  В тре­уголь­ни­ке AB1C1 диа­метр опи­сан­ной окруж­но­сти  от­ку­даВ пря­мо­уголь­ном тре­уголь­ни­ке BB1A имеем:В пря­мо­уголь­ном тре­уголь­ни­ке CC1A имеем:По­лу­ча­ем, что  Тре­уголь­ни­ки ABC и AB1C1 имеют общий угол A и  сле­до­ва­тель­но, они по­доб­ны. Тогда  Зна­чит,   Ответ: б)  6.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=146542",
+            "https://ege.sdamgia.ru/formula/svg/49/49a1dd7b7b142ede5a721209f78debe2.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf8bfc3c93848350bae485e46d8d4581.svg",
+            "https://ege.sdamgia.ru/formula/svg/ab/ab9f31119bd3fb5e2ad242510b22d977.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a748928444ded4bba361794abe6c65c8.svg",
+            "https://ege.sdamgia.ru/formula/svg/f2/f270f5c71c544fafa133d483a08ea730.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/634a190cf14eae47209a214607874774.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f30fc9af13162e3c3370ad6c525a2ea2.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e2ef45b6cce6c20004c6d178a2c7d69b.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/39d1d31779c5477f0ccfefcf7fb85a2b.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f1975565444241f758432d74a3b6cb66.svg"
+        ]
+    },
+    "answer": " б)  6.",
+    "analogs": [
+        "505425",
+        "505419",
+        "505452",
+        "511406",
+        "...",
+        "505419",
+        "505452",
+        "511406"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=661141"
+}

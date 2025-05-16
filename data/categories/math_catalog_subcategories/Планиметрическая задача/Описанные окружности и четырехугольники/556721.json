@@ -1,0 +1,36 @@
+{
+    "id": 556721,
+    "topic": "17",
+    "condition": {
+        "text": "Дана окружность с центром в точке O и радиусом 5. Точка K делит диаметр AD в отношении 1 : 9, считая от точки D. Через точку K проведена хорда BC перпендикулярно диаметру AD. На меньшей дуге AB окружности взята точка M.а) Докажите, что BM · CM < BA2.б) Найдите площадь четырёхугольника ACBM, если дополнительно известно, что площадь треугольника BCM равна 24.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Пло­щадь тре­уголь­ни­ка BMC мень­ше пло­ща­ди тре­уголь­ни­ка ABC, по­сколь­ку у них общая сто­ро­на BC, но вы­со­та, про­ведённая к этой сто­ро­не, у пер­во­го тре­уголь­ни­ка мень­ше. Пусть  Тогдаб)  Имеем   Про­ведём из точки M пер­пен­ди­ку­ляр MH к от­рез­ку AD. От­ре­зок KH равен вы­со­те тре­уголь­ни­ка BMC, про­ведённой из точки M. Зна­чит, пло­щадь тре­уголь­ни­ка BCM равнаот­ку­да  Пря­мо­уголь­ные тре­уголь­ни­ки OKB и OHM равны по ги­по­те­ну­зе и ка­те­ту, от­ку­да  а зна­чит, KBMH  — пря­мо­уголь­ник,   Впи­сан­ный угол CBM пря­мой, зна­чит, CM  — диа­метр окруж­но­сти. Ме­ди­а­на AO делит тре­уголь­ник ACM на два тре­уголь­ни­ка рав­ной пло­ща­ди, Зна­чит,Ответ: б) 39.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=148910",
+            "https://ege.sdamgia.ru/formula/svg/e9/e9768cfef1ab2a6af32eb918b2c06f6d.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83eac2deacfedf079dcf86581e74a035.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/340a9c59b1d8942a74f64f37767d2e0a.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0f887611297035c69ed47639192eb540.svg",
+            "https://ege.sdamgia.ru/formula/svg/b2/b2b49d4399522440469dac257655431e.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/edf92433016926f5313433ffbcafdc02.svg",
+            "https://ege.sdamgia.ru/formula/svg/a5/a52f00b4038262f9441faa1ec1b5fdd3.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=148911",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa31603b688ceb12d013eab225449ca0.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fb87d350dde1dabdee65249b5fa534bc.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0b032e2fe8494ad6bcfc68d40cfdcd71.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ec28eaa57f7952377862dc628dccf725.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4d567978ba0d093b24b20fcaa73e2cc8.svg",
+            "https://ege.sdamgia.ru/formula/svg/9b/9bd9bd73280241f2c5890f88c3337c2c.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/625ae4c8f054a902b3fb42120dc4dd03.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b10ace5429822a6d027328d3edb31b9d.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4cce59e12b211b4aa515c45850851de2.svg"
+        ]
+    },
+    "answer": " б) 39.",
+    "analogs": [
+        "556699"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=556721"
+}

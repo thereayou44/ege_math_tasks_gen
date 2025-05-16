@@ -1,0 +1,51 @@
+{
+    "id": 660704,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых система имеет хотя бы одно решение.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/21/214cdda5c046e3382232af821b72ed82.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Решим за­да­чу графо-ана­ли­ти­че­ским спо­со­бом. Изоб­ра­зим ре­ше­ние не­ра­венств дан­ной си­сте­мы в си­сте­ме ко­ор­ди­нат xOy. Для этого при  по­стро­им гра­фи­ки  и  Пер­вый гра­фик  — па­ра­бо­ла  и  вто­рой  — пря­мая  раз­би­ва­ют по­лу­плос­кость на 4 части, в двух из ко­то­рых (вы­де­ле­ны зелёным) не­ра­вен­ство вы­пол­ня­ет­ся. Гра­фи­ком урав­не­ния  яв­ля­ет­ся пучок пря­мых  про­хо­дя­щих через точку  с ко­ор­ди­на­та­ми Ис­ход­ная си­сте­ма имеет един­ствен­ное ре­ше­ние, если пря­мая  имеет толь­ко одну общую точку с вы­де­лен­ны­ми зелёным ча­стя­ми плос­ко­сти. Это до­сти­га­ет­ся в двух слу­ча­ях. 1.  Если пря­мая  про­хо­дит через точку  (вы­де­ле­но оран­же­вым). Тогда  2.  Если пря­мая  ка­са­ет­ся па­ра­бо­лы  (вы­де­ле­но крас­ным). Ка­са­тель­ная к па­ра­бо­ле имеет с ней един­ствен­ную общую точку, по­это­му урав­не­ние  долж­но иметь един­ствен­ное ре­ше­ние. За­пи­шем его в виде  и най­дем дис­кри­ми­нант: Дис­кри­ми­нант об­ра­ща­ет­ся в нуль при  или  При  абс­цис­са точки ка­са­ния по­ло­жи­тель­на, что не со­от­вет­ству­ет усло­вию за­да­чи. При  абс­цис­са точки ка­са­ния Таким об­ра­зом, ис­ход­ная си­сте­ма:  — при  не имеет ре­ше­ний;  — при  имеет одно ре­ше­ние;  — при  имеет бес­ко­неч­ное число ре­ше­ний;  — при  имеет одно ре­ше­ние;  — при  имеет бес­ко­неч­ное число ре­ше­ний.Для того, чтобы си­сте­ма имела хотя бы одно ре­ше­ние не­об­хо­ди­мо, чтобы ис­ход­ная си­сте­ма имела одно или более ре­ше­ний. Таким об­ра­зом,  Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=181026",
+            "https://ege.sdamgia.ru/formula/svg/0d/0d2e7e073a56f5af87e48a659ccdcf59.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0b809acbc6dc8ea1819e23db03b627d6.svg",
+            "https://ege.sdamgia.ru/formula/svg/77/77cd6be1b36778d16e56fa563310c89e.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/37d11e49f76d7d681387b1ca37f490e5.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8b362003332930535d6b2430d1471df7.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d81f1f8284276031872f0f9e9a3bdbd8.svg",
+            "https://ege.sdamgia.ru/formula/svg/43/4374b70fad82aa16bfa94e4862cb7a75.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/60c6b60ad8104978cc1569d7d43845d3.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/ef7d40d9d233c4084fe44e1babd3e019.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/ef7d40d9d233c4084fe44e1babd3e019.svg",
+            "https://ege.sdamgia.ru/formula/svg/67/672facedd4624c6d858c244d597d3287.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b502ef6477a224aec5135a35812e9e83.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/ef7d40d9d233c4084fe44e1babd3e019.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/37d11e49f76d7d681387b1ca37f490e5.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6d85ff03c991c3b46fe6c702716ec07d.svg",
+            "https://ege.sdamgia.ru/formula/svg/1f/1f462158597d1b5fbc11d1d91acb9ca8.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/66a56de0ed1cd18837823e25b7efb770.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f836be878c290d77b060bdcaf6b3e25d.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c6dbef0a9e989c1a74053185fca90de.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/389b7c478ca9099a37d54fab30aa06a4.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f836be878c290d77b060bdcaf6b3e25d.svg",
+            "https://ege.sdamgia.ru/formula/svg/5b/5b270c3040b4f12df1621e6011225949.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c28cfc6ac99fd2a871129ade357cc31f.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f836be878c290d77b060bdcaf6b3e25d.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e069a5de3f7058170859b0bad7ef8a1d.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/56b3bcf2edc537277acfda3a81a907e3.svg",
+            "https://ege.sdamgia.ru/formula/svg/6b/6b9d7908701d9d5eed2abaed4fd51c7f.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/46e7135287b6b7bc604a14c16523ff19.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cb68ad56746f479f0ef26ffa77b48d41.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "626821",
+        "679335"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=660704"
+}

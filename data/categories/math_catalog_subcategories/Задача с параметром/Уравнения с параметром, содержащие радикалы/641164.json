@@ -1,0 +1,54 @@
+{
+    "id": 641164,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых уравнение имеет на отрезке [0; 4] ровно один корень.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/28/28d844c1aae148dd9a3213face62c86b.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Рас­смот­рим два слу­чая. Пер­вый слу­чай: Вто­рой слу­чай:Корни  и  сов­па­да­ют при  При этом  Корни  и  сов­па­да­ют при  Корни  и  сов­па­да­ют при Объ­еди­няя ре­зуль­та­ты, по­лу­ча­ем, что ис­ход­ное урав­не­ние на от­рез­ке [0; 4]:  — при  не имеет кор­ней;  — при  имеет один ко­рень   — при  имеет два корня  и   — при  имеет два корня  и   — при  имеет один ко­рень   — при  не имеет кор­ней.Таким об­ра­зом, урав­не­ние имеет ровно один ко­рень на от­рез­ке [0; 4] при  или  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/96/967565ffdd0b7beaece8129f6f03263a.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/ee092be5ba773e992623d28d88a9433f.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7cc716e2a0f10764ad9c5f48efc2a9bf.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a2cc7bac54042ea9a645266ab350aae8.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e8550d7b317bc90b210406cc4ab284e3.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1b07149f6b5f40cb7395aa65be193a96.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c4493574143fd937719a90f059c71179.svg",
+            "https://ege.sdamgia.ru/formula/svg/11/118eb361eeea1bd1ad86f531cac3d287.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4b99eb4e990e34cf064ab6426e3fcb8a.svg",
+            "https://ege.sdamgia.ru/formula/svg/3f/3f0792ccf0b8276584dc0cf6a99b3da5.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/79739438408054c228825520f737ae5f.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d9d1e6c3a49998deef7ad36a6e1bb0d9.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4b99eb4e990e34cf064ab6426e3fcb8a.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5d6cb7ded7332fa3cd7625f1bdfba387.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a1e20ccb4d1ed766577d5103629cca85.svg",
+            "https://ege.sdamgia.ru/formula/svg/3f/3f0792ccf0b8276584dc0cf6a99b3da5.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7a9eca3cde846f6a6b1dcbab027a9bb8.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/00190743b326e26b0d4d63bab9638824.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/aef0913b4d80c41b7b16341a6ea692b9.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fccf44c85f348c6abe09ea84886ca327.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/21fbe1e4153122ebc971d59c37da924e.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5d52cb8b17f6f8db7beb160c7b1e0642.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7a9eca3cde846f6a6b1dcbab027a9bb8.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d6f033d277ebc3f2c9ccb12785298ec.svg",
+            "https://ege.sdamgia.ru/formula/svg/5e/5e041a8d35d3aeec0fa4f1b920f7a4df.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7a9eca3cde846f6a6b1dcbab027a9bb8.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/49a48dc556b22b8e7a5e03cd4bdcf743.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/899ef566d1f9e9ddff74614c3958cd33.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/21fbe1e4153122ebc971d59c37da924e.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/72e64c3e90490dbafb88cbe6e365c4f7.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b1a70be1d77b5b0d18d82277297d3c78.svg",
+            "https://ege.sdamgia.ru/formula/svg/9d/9de8048b4b179b2b445246463bbe8d25.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fcda21abfc0a4d55c99a5dff98b4fcf3.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "639634",
+        "639756"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=641164"
+}

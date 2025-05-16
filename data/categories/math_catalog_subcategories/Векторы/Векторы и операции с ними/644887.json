@@ -1,0 +1,45 @@
+{
+    "id": 644887,
+    "topic": "2",
+    "condition": {
+        "text": "На координатной плоскости изображены векторы и Вектор разложен по двум неколлинеарным векторам и где k и l — коэффициенты разложения. Найдите k.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=142141",
+            "https://ege.sdamgia.ru/formula/svg/1b/1b4412a344122e822c0c695e23b022a5.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0f4c4ce0863d100a12c90c114fd9abeb.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/dbbaf6d37e35eeea071394e80901139e.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fd50ddb06cb1c7b9e1948eb4f8a95a66.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8fd082536a0a420385519d1473c9d27e.svg",
+            "https://ege.sdamgia.ru/formula/svg/d0/d0a85ceb5c42855b23de2a5be044a5d9.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3cc038e1d43238bf86ec76f72171898f.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По ри­сун­ку опре­де­лим ко­ор­ди­на­ты век­то­ров:     Из ра­вен­ства  по­лу­ча­ем си­сте­му ли­ней­ных урав­не­ний для их ко­ор­ди­нат:Ответ: 0,3.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/f1/f1b8389951eddcd7a209151a24f07094.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f893a487294f4871550b8df06793c33a.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/09b469ade55f7480d01a17e346e76aa5.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1eb2a394c0059f95e1e2370993d10c0d.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0e3c71bea54165f03ba2402ab41eb346.svg"
+        ]
+    },
+    "answer": "0,3",
+    "analogs": [
+        "644820",
+        "644821",
+        "644822",
+        "644823",
+        "...",
+        "644821",
+        "644822",
+        "644823",
+        "644824",
+        "644883",
+        "644884",
+        "644885",
+        "644886",
+        "644888"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=644887"
+}

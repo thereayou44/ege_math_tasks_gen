@@ -1,0 +1,39 @@
+{
+    "id": 505410,
+    "topic": "17",
+    "condition": {
+        "text": "Дан четырёхугольник ABCD.а) Докажите, что отрезки LN и KM, соединяющие середины его противоположных сторон, делят друг друга пополам.б) Найдите площадь четырёхугольника ABCD, если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/96/96946ba138e7ca72f401a4e493d440c8.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.  а)  Пусть K, L, M и N  — се­ре­ди­ны сто­рон AB, BC, CD и AD четырёхуголь­ни­ка ABCD со­от­вет­ствен­но. Тогда KL и MN  — сред­ние линии тре­уголь­ни­ков ABC и ADC. Зна­чит,  и KL || AC || MN, по­это­му KLMN  — па­рал­ле­ло­грамм. Его диа­го­на­ли KM и LN делят друг друга по­по­лам, что и тре­бо­ва­лось до­ка­зать.б)  В тре­уголь­ни­ке KLM имеем:Зна­чит,  Тогда KM2  =  KL2 + LM2, по­это­му тре­уголь­ник KLM пря­мо­уголь­ный тре­уголь­ник с пря­мым углом при вер­ши­не L. Четырёхуголь­ник KLMN  — пря­мо­уголь­ник, по­это­муПусть ис­ко­мая пло­щадь четырёхуголь­ни­ка ABCD равна S. От­ре­зок KL яв­ля­ет­ся сред­ней ли­ни­ей тре­уголь­ни­ка ABC, по­это­му  Ана­ло­гич­но  Тогда, имеем: где S  — ис­ко­мая пло­щадь четырёхуголь­ни­ка ABCD. Ана­ло­гич­но  По­это­му Сле­до­ва­тель­но,Ответ:   При­ве­дем ре­ше­ние пунк­та б) Рус­ла­на Мо­ро­зо­ва.Пло­щадь че­ты­рех­уголь­ни­ка равна по­ло­ви­не про­из­ве­де­ния диа­го­на­лей, умно­жен­ной на синус угла между ними: где α   — угол между диа­го­на­ля­ми AC и BD. Пря­мые AC и KL, а также  BD  и LM по­пар­но па­рал­лель­ны, по­это­му  В тре­уголь­ни­ке KLM имеем: Зна­чит,  Тогда  по­это­му тре­уголь­ник KLM пря­мо­уголь­ный тре­уголь­ник с пря­мым углом при вер­ши­не L. Сле­до­ва­тель­но, угол α пря­мой, от­ку­да При­ме­ча­ние.За­ме­тим, что при ре­ше­нии пунк­та а) до­ка­за­на тео­ре­ма Ва­ри­ньо­на: се­ре­ди­ны сто­рон про­из­воль­но­го че­ты­рех­уголь­ни­ка яв­ля­ют­ся вер­ши­на­ми па­рал­ле­ло­грам­ма. Дан­ную тео­ре­му можно ис­поль­зо­вать без до­ка­за­тель­ства, по­сколь­ку она пред­ло­же­на как за­да­ча для са­мо­сто­я­тель­но­го ре­ше­ния в учеб­ни­ке гео­мет­рии для 7-9 клас­сов  (Л. А.Ата­на­сян, В. Ф.Бу­ту­зов, С. Б.Ка­дом­цев и др.)",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=146538",
+            "https://ege.sdamgia.ru/formula/svg/ac/ac4dcb0bc2a30f1fb31db65bb7667fa4.svg",
+            "https://ege.sdamgia.ru/formula/svg/44/44104240541bb16f1a5c5a6bacc8bbed.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8c9afddee6cc8f8d873b2e78687f943a.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7b83d243a47648b76888d5b41d6d5692.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fbbd6b257582b3d9bb3c2e5f479a871f.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3c5f302d78cc99d805d51d44ae31b043.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a42f9363e89940cca5a6e2d7458b0b7.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1ba07ab9572b980ec0ed482eaf5b9847.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/63782cbd5299f43462bc8adeda05107d.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8e9d5f661c8832e70eff43c888237a1b.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f8fac73fd7989c4cb4294182c9fea5d4.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4fbc73f219fb646385480fe67555476d.svg",
+            "https://ege.sdamgia.ru/formula/svg/7d/7da2681e3382a5a06e716b77ad253e8b.svg",
+            "https://ege.sdamgia.ru/formula/svg/44/44104240541bb16f1a5c5a6bacc8bbed.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8c9afddee6cc8f8d873b2e78687f943a.svg",
+            "https://ege.sdamgia.ru/formula/svg/ab/ab275d2de69cf3ab547b9bcb3874a322.svg",
+            "https://ege.sdamgia.ru/formula/svg/48/48084e0412ae5cb415238a8cf8e7381a.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "505389",
+        "511403"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=505410"
+}

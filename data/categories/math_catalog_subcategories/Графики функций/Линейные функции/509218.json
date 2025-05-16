@@ -1,0 +1,53 @@
+{
+    "id": 509218,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображены графики двух линейных функций. Найдите ординату точки пересечения графиков.",
+        "images": [
+            "https://math-ege.sdamgia.rudata:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAKIAAACiCAIAAABNkIFMAAAEeElEQVR4nO2d25KcMAxERWr//5fJAylCJgPY4Euru8/T1JZn1vhYMiAuy7quYdj5NbsDECzL8vGBDGuWwJr/siwL6xJ2qrkqfZU3TtRyegcatnQ0R0Ss68q6Km+Qay6UtzXbMzbfHtnP7A5AwLok75BH8zM26+u60ugn10y/6BZCrtlsLJ7vrBxXnNMTAlXnCsobT2m5N+jx3zv9bNuWTtoSWLME1iyBhGbvZkpoNtYsgYpm8bytolkca5bAmiUQ0ryf75zdkQkIaea7JqQcV6hokatQ7c32z7ftyTb/M2kTR/Y+FjSX/pTzqdk5nBKhXTBlvmjmDmjurTvjezQLrl7cOGlLcKWZNbkJ5u0rzYLDwYqTtgQ3mh3QHNxHM6Vpyo26wElbAleoaHlYobqohOCXaL62bLJFbzowrKWTtgQVmp3e81IXzTadFOmkrTNrqzXrDA0TT6JZ1nTerZZO2iEzZR9qFhkdGp5Hs00nQj1pi/BKM0dAc2zFNQ2ieRsj+pGKzFdCukJFS8t7qKpuTCr/2fEty4tXnTrQteXbpJ03j0nRYG22aXyaHVB5jUem5XFzatOpO3+LT49I0Fgzd0zkpX005zWdt+e3OGlL0EUzcVgkpVc02zQUTtr/wDo7O2pmHTJkzl5U6woVLceT0D9xclK6VYnmceVn+vMAM1aoziK2+9qcKFtk6ect/7/EdMQuGL7pbUnD7+ctZ2+p9fub/0BWTt3n67Zdgw6osgTK1s83ynE28xjZ446bs5imxKdH/uFlKCOwHzofg2ro2gwb0F87llQ5yi4Y5vABdqkhTtoSTNAMm7qbgJkV5kRzCtMpOlmIk7YE0zQzxQo+DCdyzVeAXjeG/4DIkq+AdPWCyWuzc8kY5u+C2fQA5msGh2MWQmjmGEpkIDSHTXcGRTMyBFMQSDPBaMICpDlsuhtYmk0n4DRjBjRmr8qB0xyHMU09slAgarbd5rhCRQtQheqi2fYB6gGRZ193heohmFdU5QVU84YXlFZAaw4w01CdqQJds2lCAs15YwiHBJoDyTROT6rIodm8JI3mpGEEQhrNYdMvyKQZhIyzLZnmjEOMQDLNYdOPcIWKlgQVqtuWH08wHF/2md6Bqpb5kvaGk1AVWTWbKhJrnhvQudJJYs2RbawnkluzKSS95omXEyXKJek1b2QZ7lmQaDbXkGhOlD+nQKI5JpnOMr14NJsLqDSPj63934HHtCtUtDBUqC5ajnxy4DFCoG73+oAqaW+MzE/7+ILf9EWoOSaZRoZT83jA929oNXvX8git5rDpA8yaRwI+pcg1g4/+MMg1h01HhIJmEyKaxwQ0ctqQ0BzYDgagolkcV6hoIa9QXbeM1qWkqLmfyhUq0xE5zZqLlJzm6GwacxopahZEVDNmzPVDVHP0NA04h3Q1SyGtGTDsOiGtOWRMq2vuBNrssWY4JT2w5ggB09bcC6ip40IkLdKFyMJHNDbZ/P//7kIkBCluiHqANXcEZ0G0ZgmsWQJr7gvIYm/NElQcNpi8/AaXoI5BtAuA7wAAAABJRU5ErkJggg=="
+        ]
+    },
+    "solution": {},
+    "answer": "====",
+    "analogs": [
+        "509197",
+        "509199",
+        "509200",
+        "509202",
+        "...",
+        "509199",
+        "509200",
+        "509202",
+        "509203",
+        "509204",
+        "509205",
+        "509208",
+        "509209",
+        "509210",
+        "509211",
+        "509212",
+        "509229",
+        "509230",
+        "509231",
+        "509232",
+        "509233",
+        "509234",
+        "509235",
+        "509236",
+        "509237",
+        "509238",
+        "509239",
+        "509240",
+        "621771",
+        "621901",
+        "637815",
+        "637844",
+        "661288",
+        "509198",
+        "509201",
+        "509206",
+        "509207",
+        "509217"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509218"
+}

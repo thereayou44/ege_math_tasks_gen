@@ -1,0 +1,44 @@
+{
+    "id": 67911,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите значение выражения при",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/97/972193a2b203f88771394aa70bb0a67d.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf4c5745ddb965d3d4246b7c1eedab8f.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Най­ди­те зна­че­ние вы­ра­же­ния  при Вы­пол­ним пре­об­ра­зо­ва­ния:  Ответ: 27.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ec/ec54948e09c02dbface78e8e1ea54f8c.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf4c5745ddb965d3d4246b7c1eedab8f.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/0806b5aac61a53ad12b055abea5c5c11.svg"
+        ]
+    },
+    "answer": ".",
+    "analogs": [
+        "26835",
+        "67927",
+        "67929",
+        "67897",
+        "...",
+        "67927",
+        "67929",
+        "67897",
+        "67899",
+        "67901",
+        "67903",
+        "67905",
+        "67907",
+        "67909",
+        "67913",
+        "67915",
+        "67917",
+        "67919",
+        "67921",
+        "67923",
+        "67925"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=67911"
+}

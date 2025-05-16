@@ -1,0 +1,35 @@
+{
+    "id": 505419,
+    "topic": "17",
+    "condition": {
+        "text": "Высоты BB1 и CC1 остроугольного треугольника ABC пересекаются в точке H.а) Докажите, что ∠AHB1 = ∠ACB.б) Найдите BC, если и ∠BAC = 60°.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/03/0366053b37bc4a32d0e0482de34889e9.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  За­ме­тим, что вы­со­та AA1 тре­уголь­ни­ка ABC про­хо­дит через точку H. В четырёхуголь­ни­ке AC1HB1 углы C1 и B1  — пря­мые, сле­до­ва­тель­но, около этого четырёхуголь­ни­ка можно опи­сать окруж­ность, причём AH  — её диа­метр. Впи­сан­ные углы AC1B1 и AHB1 опи­ра­ют­ся на одну дугу, сле­до­ва­тель­но, ∠AHB1 = ∠AC1B1.Углы BC1C и BB1C  — пря­мые, зна­чит, точки B, C, B1 и C1 лежат на окруж­но­сти с диа­мет­ром BC. Сле­до­ва­тель­но,По­лу­ча­ем, что ∠ACB = ∠AHB1.б)  В тре­уголь­ни­ке AB1C1 диа­метр опи­сан­ной окруж­но­сти  от­ку­да В пря­мо­уголь­ном тре­уголь­ни­ке BB1A имеем:В пря­мо­уголь­ном тре­уголь­ни­ке CC1A имеем:По­лу­ча­ем, что  Тре­уголь­ни­ки ABC и AB1C1 имеют общий угол A и  сле­до­ва­тель­но, они по­доб­ны. Тогда  Зна­чит, BC  =  2B1C1  =  24. Ответ: б)  24.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=181314",
+            "https://ege.sdamgia.ru/formula/svg/63/6367d7172ba3d10bd28a1c75c07da365.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/342d84f01b971487a5d66eb19eabcfad.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/74af7eb8bfdf53f1a0e0e4e12e62a7c6.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/846affe09fd19c82f4e800ef2999d6d0.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c38e180a1a0793f171b8aab608b52ce6.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/addab8a7af1edd2d945a3c8ae58a0930.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/99e9c590cc20e443faff3541ad49330c.svg",
+            "https://ege.sdamgia.ru/formula/svg/5b/5b6eb33e236bd4ab2be724c122e8777a.svg"
+        ]
+    },
+    "answer": " б)  24.",
+    "analogs": [
+        "505425",
+        "505452",
+        "511406",
+        "...",
+        "505452",
+        "511406",
+        "661141"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=505419"
+}

@@ -1,0 +1,42 @@
+{
+    "id": 526343,
+    "topic": "16",
+    "condition": {
+        "text": "В июле планируется взять кредит в банке на сумму 16 млн рублей на некоторый срок (целое число лет). Условия его возврата таковы: — каждый январь долг возрастает на 25% по сравнению с концом предыдущего года; — с февраля по июнь каждого года необходимо выплатить часть долга; — в июле каждого года долг должен быть на одну и ту же сумму меньше долга на июль предыдущего года.На сколько лет планируется взять кредит, если известно, что общая сумма выплат после его полного погашения составит 38 млн рублей?",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пусть кре­дит взят на n лет. Обо­зна­чим сумму кре­ди­та S  =  16 млн руб, а про­цент­ную став­ку  — В со­от­вет­ствии с усло­ви­ем за­да­чи за­пол­ним таб­ли­цу: ГодДолг в июле до на­чис­ле­ния про­цен­тов Долг в ян­ва­ре после на­чис­ле­ния про­цен­товВы­пла­та 1S2 ... ......... n Сум­ми­ру­ем все вы­пла­ты: Под­ста­вив чис­лен­ные зна­че­ния, найдём n:Ответ: 10.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/f1/f18c237dd4925b5aef93f0b0547cd138.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4f259724251daba90eb92fa5d725b152.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a8d921c94dae52035caa2113f812dd5e.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/daf42c5ab6df83a07f7d309dfd0152f1.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4bc1eecbcd6450451621b04157d7bb81.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/baab4e7c0ad36f203393037bbeb0e97f.svg",
+            "https://ege.sdamgia.ru/formula/svg/5f/5f805331c759461220b35cb3e7985648.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/ba495d0757c7651c0ca5134bd3edfbfc.svg",
+            "https://ege.sdamgia.ru/formula/svg/5b/5b9a89664c7b3f27571c769e44404370.svg",
+            "https://ege.sdamgia.ru/formula/svg/5b/5b0337baaf81a83b507e241d2efd4fee.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b4735be47a55588a23035a75a4941e37.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6ef832c9212f27a3b36b29fadc2eb3f1.svg",
+            "https://ege.sdamgia.ru/formula/svg/69/6954112e0d318b0526477e028a8c93b9.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/6891591892c17ceb0d79207ea5ceaa41.svg",
+            "https://ege.sdamgia.ru/formula/svg/95/9594f0877ee1beea5545d19d4fc9f449.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/0934be82f2686ff986f75c7922aca437.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/168497e948a05ec6a63a34094661fab3.svg",
+            "https://ege.sdamgia.ru/formula/svg/69/69b7299e4cac56ab9e8665965903381d.svg"
+        ]
+    },
+    "answer": " 10.",
+    "analogs": [
+        "517569",
+        "517517",
+        "521918",
+        "...",
+        "517517",
+        "521918",
+        "526539"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=526343"
+}

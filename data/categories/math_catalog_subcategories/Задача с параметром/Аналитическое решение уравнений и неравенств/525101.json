@@ -1,0 +1,43 @@
+{
+    "id": 525101,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых уравнениеимеет единственный корень на отрезке [−1; 2].",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/b8/b835bbd2806dbe35ff5c28c9d23e942f.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Число x  =  0 не яв­ля­ет­ся кор­нем урав­не­ния ни при каком зна­че­нии а. По­это­му урав­не­ние рав­но­силь­но урав­не­ниюРас­смот­рим функ­циюи ис­сле­ду­ем её по­ве­де­ние на от­рез­ке  Функ­ция опре­де­ле­на при всех  Найдём про­из­вод­ную:Про­из­вод­ная об­ра­ща­ет­ся в нуль в точке x  =  1. На про­ме­жут­ках  и  функ­ция убы­ва­ет, а на про­ме­жут­ке   — воз­рас­та­ет. Сле­до­ва­тель­но, точка x  =  1  — един­ствен­ная точка ми­ни­му­ма, зна­че­ние в этой точке равно 7. Эскиз гра­фи­ка изоб­ражён на ри­сун­ке.Най­дем зна­че­ния функ­ции в кон­цах от­рез­ка:  и  По­это­му  — если  то гра­фик функ­ции  и пря­мая  имеют един­ствен­ную общую точку при   — если  общих точек нет;  — если a  =  7 линии имеют един­ствен­ную общую точку   — если  то линии имеют две раз­лич­ные общие точки при   — если  то линии имеют одну общую точку при  и ещё одну при  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/da/da5e02a142195b4e8eff5a6488c4d8de.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1bda9c38f4262865a1071e21bea21391.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a1140b3303f7174fb1e80fbf18f3250a.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c402acdfb34bb408212d18798a9bb32f.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c85dfea247ee530b04d63c0c9ff2c486.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/315c28ef3a574d776e1951ced4956674.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4bc8b910a881ccb773d00122e05cae0c.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e6380a68166a365b26aacc188ca2c973.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=156848",
+            "https://ege.sdamgia.ru/formula/svg/59/590c6a01513a0b1618a12c7db2861608.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a68c3b4b24c940640561f20229a1e7f.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e392ccd9cd2d725ae05a525914a3dd8.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7c1c9491ba7c6e8d6d2cfa82e39b22ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a9c41ad62139eef792ab842aa6934b10.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b5ae547fe27e755c253aef2eff89e6cc.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e6cfd85e4fb3ec022ac6e1adfd4b8123.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/566f0f0729445257a92eb9e4ce7bfaab.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/651dc4b27501945ad4138f131346d901.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a8a01d4ee5cebebbc1d29fd00f59a885.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2cf2d11b88e38d89a3f685d0d02a85e7.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3dfa69598bf129266a3f16f8c229cbb3.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/90766483dfad1b01e25c7a7cf8aebef1.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/0985e011c0b66c2a7299c2151019ab60.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "525073"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=525101"
+}

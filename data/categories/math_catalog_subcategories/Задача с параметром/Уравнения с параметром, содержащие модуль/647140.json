@@ -1,0 +1,57 @@
+{
+    "id": 647140,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых уравнение имеет ровно два различных корня.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/22/22c33a4241db5161d159bd0a6444aa07.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. При  урав­не­ние при­ни­ма­ет вид  от­ку­да на­хо­дим  Ко­рень  удо­вле­тво­ря­ет не­ра­вен­ству  при  от­ку­да по­лу­ча­ем При  урав­не­ние при­ни­ма­ет вид  При  это урав­не­ние не имеет кор­ней, а при  оно имеет един­ствен­ный ко­рень  Ко­рень  при­над­ле­жит от­рез­ку  при  от­ку­да по­лу­ча­емСле­до­ва­тель­но, урав­не­ние  имеет ко­рень на от­рез­ке  при  и При  урав­не­ние при­ни­ма­ет вид  от­ку­да на­хо­дим Ко­рень  удо­вле­тво­ря­ет не­ра­вен­ству  при  от­ку­да на­хо­дим Таким об­ра­зом, ис­ход­ное урав­не­ние имеет ровно два раз­лич­ных корня при  и  Ответ:  ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/8d/8da97ece5431cf5a02c6b3e63301c2b9.svg",
+            "https://ege.sdamgia.ru/formula/svg/05/051397e76657404ece87a9faec8db2ef.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/26d66dd9f9c631e90e7874f219b9fa8d.svg",
+            "https://ege.sdamgia.ru/formula/svg/d0/d078d4ddb2103a7718b93ebbae02485c.svg",
+            "https://ege.sdamgia.ru/formula/svg/8d/8da97ece5431cf5a02c6b3e63301c2b9.svg",
+            "https://ege.sdamgia.ru/formula/svg/ab/abb2ad8296bdf96e0e54a3d501880dc4.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e49c581b32872f865e0a0c5ebd864ea2.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6f39dc41330ef8449959986b2d74a559.svg",
+            "https://ege.sdamgia.ru/formula/svg/98/98f5abed2d3d78b56f3f200bf6bc9a09.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1b7176cc25c1b0e30a0b0f0aef9c5489.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/5107da141f746a6fd0844664df0fcf6d.svg",
+            "https://ege.sdamgia.ru/formula/svg/5f/5fbc87e3c2c92264a67762eaff0805b1.svg",
+            "https://ege.sdamgia.ru/formula/svg/58/589681aacff8702435eaa4727c0d923e.svg",
+            "https://ege.sdamgia.ru/formula/svg/8a/8a03e8983b8a4a59ca1b48218cb9c4fa.svg",
+            "https://ege.sdamgia.ru/formula/svg/8d/8dbb42f9b7807d1c39e11d387f723b45.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c9c30e117dab457da2592901fee646bc.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4f446c40a29be5a8b95aba87ca8deb54.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/835ed4c7c6a56e01549f8579d3034c57.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/37a4602eeb4706e804b6f6f9093a412d.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/88a8ffd36a26bd9b9ba73f54cb4fbe66.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/70bd59c13dc73bf9bd6d754179e97497.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/db2fad28b941291b04aeb51e060d2a92.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/503ff3831e6aaa00d9e2365ab38944c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/1f/1f3156da44aa73179841fdea059c831e.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/70bd59c13dc73bf9bd6d754179e97497.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e73def48e3764726463df2fb8281583e.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8cb5fc3e5cf79de94fd1bd174f42daa7.svg",
+            "https://ege.sdamgia.ru/formula/svg/9b/9b30fdf9a09acbb5d41e727cbd07569c.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e49c581b32872f865e0a0c5ebd864ea2.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0de17a07ddf50a417730eb39560a262b.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e49c581b32872f865e0a0c5ebd864ea2.svg"
+        ]
+    },
+    "answer": "  ",
+    "analogs": [
+        "563618",
+        "563599",
+        "563658",
+        "...",
+        "563599",
+        "563658",
+        "647160"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=647140"
+}

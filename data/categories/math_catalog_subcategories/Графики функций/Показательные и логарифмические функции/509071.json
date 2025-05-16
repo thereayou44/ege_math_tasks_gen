@@ -1,0 +1,53 @@
+{
+    "id": 509071,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображён график функции Найдите значение x, при котором",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=135650",
+            "https://ege.sdamgia.ru/formula/svg/28/28f1b4041ad2ad5f9cef5343d6f8cfb0.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a6b4dc4f8968e70ea9035368d1f70c07.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По гра­фи­ку функ­ции  опре­де­ля­ем, что  и  Тогда по­лу­ча­ем си­сте­му:Зна­чит,  Решим урав­не­ние  Ответ: 14.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/eb/eb2423c108a3cc0402c3b7e27d7a11d3.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/415c2aa0b152032d8d1cd65ae82af699.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/51e9b05d92c58c3c3862cba49872113a.svg",
+            "https://ege.sdamgia.ru/formula/svg/59/598e0601ab0c3c2e57356fb7e37a8a88.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c13b3d8d187cb8f18606159701e614f.svg",
+            "https://ege.sdamgia.ru/formula/svg/48/485b07c46ed2f7a0a31655609431ae82.svg",
+            "https://ege.sdamgia.ru/formula/svg/12/12d64f3642562d1886aa9947b7c24bf2.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/40a8b829290eca7d938964e26b6528db.svg",
+            "https://ege.sdamgia.ru/formula/svg/6b/6b3075c321f1fd6e67cf5d7af9bc448c.svg",
+            "https://ege.sdamgia.ru/formula/svg/5a/5a77e1148dc8e6e5f79671a5fc6c7d65.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/92134b533d0868cb44760612bb8cbf04.svg"
+        ]
+    },
+    "answer": "14",
+    "analogs": [
+        "509060",
+        "509061",
+        "509062",
+        "509063",
+        "...",
+        "509061",
+        "509062",
+        "509063",
+        "509064",
+        "509065",
+        "509066",
+        "509067",
+        "509068",
+        "509069",
+        "509070",
+        "509072",
+        "509073",
+        "509074",
+        "509075",
+        "509076",
+        "509077"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509071"
+}

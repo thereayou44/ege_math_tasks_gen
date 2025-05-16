@@ -1,0 +1,55 @@
+{
+    "id": 62205,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите значение выражения",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/01/01e0ebf8a9c9163bd1b19ca4b7a96ad3.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Вы­пол­ним пре­об­ра­зо­ва­ния:   Ответ: −2.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/c5/c583ce97f0c71e0d16baffc81fb96e56.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1b1314a467ba7dbe45fc220311444bfb.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4bb82a2ebeef2197651bcbbce4a8a05d.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/dda8129dd77c0280f1d720f8d7141530.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a2ec7752f1af864df0fec46eacefc45.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4bb82a2ebeef2197651bcbbce4a8a05d.svg"
+        ]
+    },
+    "answer": "-2",
+    "analogs": [
+        "26744",
+        "62251",
+        "530668",
+        "...",
+        "62251",
+        "530668",
+        "530688",
+        "621766",
+        "621896",
+        "62207",
+        "62209",
+        "62211",
+        "62213",
+        "62215",
+        "62217",
+        "62219",
+        "62221",
+        "62223",
+        "62225",
+        "62227",
+        "62229",
+        "62231",
+        "62233",
+        "62235",
+        "62237",
+        "62239",
+        "62241",
+        "62245",
+        "62247",
+        "62249"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=62205"
+}

@@ -1,0 +1,61 @@
+{
+    "id": 643675,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых система уравнений имеет ровно два различных решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/11/116ce97f1864008452a4372aa05ad12c.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Каж­дое ре­ше­ние урав­не­ния  либо яв­ля­ет­ся ре­ше­ни­ем урав­не­ния  от­ку­да  либо яв­ля­ет­ся ре­ше­ни­ем си­сте­мы:  от­ку­да  при усло­вии  Для каж­до­го из этих слу­ча­ев под­ста­вим  и найдём ко­ли­че­ство кор­ней по­лу­чив­ше­го­ся урав­не­ния в за­ви­си­мо­сти от a. Пер­вый слу­чай:  от­ку­да Вто­рой слу­чай:  при усло­вии  По­лу­ча­ем квад­рат­ное урав­не­ние  Дис­кри­ми­нант этого урав­не­ния равен  Зна­чит, урав­не­ние  имеет два корня при  имеет един­ствен­ный ко­рень x  =  4 при  и не имеет кор­ней при  При  функ­ция  при­ни­ма­ет наи­мень­шее зна­че­ние при x  =  4, и это зна­че­ние от­ри­ца­тель­но. Сле­до­ва­тель­но, боль­ший ко­рень урав­не­ния  удо­вле­тво­ря­ет усло­вию  тогда и толь­ко тогда, когда   от­ку­да  Ана­ло­гич­но мень­ший ко­рень урав­не­ния  удо­вле­тво­ря­ет усло­вию  тогда и толь­ко тогда, когда   от­ку­да  Число  яв­ля­ет­ся кор­нем квад­рат­но­го урав­не­ния  при  от­ку­да  то есть при a  =  3 и при  Таким об­ра­зом, ис­ход­ная си­сте­ма урав­не­ний имеет ровно два раз­лич­ных ре­ше­ния при    Ответ:  ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/79/79bd9ad6de574aa5d2dc78bb655508e8.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3a2a47d42ab2dfee04e41f054b9c3b96.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d31b7fd46c205a81695dbba537e03bec.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/2896d73a88720ea67bbc1b1e43683bc7.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b426e724edf6ace69564c01bd26ebc4f.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/36d6ff70f490365622a3022a588844b7.svg",
+            "https://ege.sdamgia.ru/formula/svg/7d/7da13b29295ef45d45cee6e0cfea61ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/ed5a6cbf5ead57ac297a775257fba41f.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/8806835ff11583fb8da275f0cc7b0b87.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b503ec345ce67dbe06a5235ebebb818f.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cb2c7772516100a2264c4819805b142b.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e32df298fbced5d4a28bd3a96d939e99.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/ed5a6cbf5ead57ac297a775257fba41f.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/09bf629f3b225c80bd78a9470ea9c926.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/007bb674f43e8723788d80cbdec385a9.svg",
+            "https://ege.sdamgia.ru/formula/svg/2b/2bcafabe1c2abb91caed5c732e949cf2.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b91d89abe050c5b64b9e2a560222528a.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/389b7c478ca9099a37d54fab30aa06a4.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/172d6e517893657f332b3b8b19d60640.svg",
+            "https://ege.sdamgia.ru/formula/svg/76/76c26b07eec9acb53c2753a270b07399.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/4978a536c6ce9818afcc63df36e6a313.svg",
+            "https://ege.sdamgia.ru/formula/svg/05/05e0989e2e7df837747f2725d97856e1.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a97171962eccd2369ff46209436a4f11.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c774b4e76688496e23699cd8c1e9303e.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b4b3b5e2e92930327ada9ee67a783eac.svg",
+            "https://ege.sdamgia.ru/formula/svg/b6/b6532c705dc79d75b420eebd29e459dd.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fd05d8d90456c441c8f10641bd8576bc.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a97171962eccd2369ff46209436a4f11.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4a21e76195a9cade16675fcfd6f7cbf0.svg",
+            "https://ege.sdamgia.ru/formula/svg/a5/a5c802f84862ec137b53e18eda5c7e2c.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/10dc3a3488e3b2e942827efc4555d2fb.svg",
+            "https://ege.sdamgia.ru/formula/svg/96/96918b8ffb16608e961ba0911b599852.svg",
+            "https://ege.sdamgia.ru/formula/svg/05/05e0989e2e7df837747f2725d97856e1.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0fb0be0cb63aa6b9b427c05c35400273.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4d7fdfec5231abdb4fd36b48ebebd5b7.svg",
+            "https://ege.sdamgia.ru/formula/svg/bc/bcbf38ca700364e9bc881f77499aa16a.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bfe345bd4148e1a6f54c2337baf40808.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1e0ac9bb84d17187a184b622c06d345a.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bfe345bd4148e1a6f54c2337baf40808.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/918374db285afac614ee0fb21f6394d0.svg"
+        ]
+    },
+    "answer": "  ",
+    "analogs": [
+        "642753",
+        "642783"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=643675"
+}

@@ -1,0 +1,54 @@
+{
+    "id": 656259,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых уравнение имеет ровно один корень.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/32/3284314dacf3bd91f490426c8e64bcc3.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пре­об­ра­зу­ем ис­ход­ное урав­не­ние: Кор­ня­ми этого урав­не­ния яв­ля­ют­ся корни урав­не­ния  не рав­ные a и −1 . Если  яв­ля­ет­ся кор­нем урав­не­ния  то  от­ку­да  или  Если  яв­ля­ет­ся кор­нем урав­не­ния  то  от­ку­да  или  Решим урав­не­ние при по­лу­чен­ных зна­че­ни­ях a:   — при  ис­ход­ное урав­не­ние имеет един­ствен­ный ко­рень    — при  ис­ход­ное урав­не­ние имеет един­ствен­ный ко­рень   — при  ис­ход­ное урав­не­ние имеет един­ствен­ный ко­рень Дис­кри­ми­нант квад­рат­но­го урав­не­ния  равен Зна­чит, урав­не­ние    —  имеет ровно два раз­лич­ных корня при    —  имеет ровно один ко­рень при  или    —  не имеет кор­ней при  или Таким об­ра­зом, ис­ход­ное урав­не­ние имеет ровно один ко­рень при  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/94/94c5cbc213fae6d723b316716747d835.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/664b48d5a0e805a6c96d2b9259363de4.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7af91580ad6f67fcf152dce7bfe8f35a.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/60b62955bbc6dbcd030c8b8d02a949fe.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d3289a96da4c1cf6ce57b2b76b80b965.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/60b62955bbc6dbcd030c8b8d02a949fe.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e366532d5f9796224ad0881a74b2df65.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f836be878c290d77b060bdcaf6b3e25d.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/66577bf6fc526c8fd30bf5db102b49b1.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50a20ce04c291ac897290a4f2e3bc9e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/60b62955bbc6dbcd030c8b8d02a949fe.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/07ad1973f9ad04fc960e5e800d9e7a6b.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f836be878c290d77b060bdcaf6b3e25d.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/622a095dc9edee90d21fc439afb1ab02.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f836be878c290d77b060bdcaf6b3e25d.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/52634a5ce8aca5756be2274cf2f12b91.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/861a651e47d2601eaed8ba964ca94cb3.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c976bcb9d7042b88df5cde9e1dd52923.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83a88ab12cf3296e031df84985733d33.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d9d1e6c3a49998deef7ad36a6e1bb0d9.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/0990143e153ea3b7568b263735848221.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c4983b4eb54bd13fec8f407d3253efca.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fbf8eb733aced7123248823588adcdc3.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/04675f5e12e1dc89a98225c18e27943c.svg",
+            "https://ege.sdamgia.ru/formula/svg/05/05de52992cc2f217aba80aee8e2089e8.svg",
+            "https://ege.sdamgia.ru/formula/svg/44/440cb5c7f4d091b20fa2b30e93236565.svg",
+            "https://ege.sdamgia.ru/formula/svg/be/bed5a620cdca8bfb41bd7cb67c37c18c.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c7b41520fdb655aac57309af02e3d22d.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/ccd6330e4001a408e3ea91b151e9d6ef.svg",
+            "https://ege.sdamgia.ru/formula/svg/5a/5a4dc46018562023e8ed726fccee8125.svg",
+            "https://ege.sdamgia.ru/formula/svg/8d/8dc60a2f60b3dfd9893899aa00b0e13e.svg",
+            "https://ege.sdamgia.ru/formula/svg/8d/8dc60a2f60b3dfd9893899aa00b0e13e.svg"
+        ]
+    },
+    "answer": "",
+    "analogs": [
+        "514484",
+        "647810",
+        "656089"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=656259"
+}

@@ -1,0 +1,30 @@
+{
+    "id": 509115,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображён график функции Найдите",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=154253",
+            "https://ege.sdamgia.ru/formula/svg/36/367f02b575299c9be2c757c5d02c14b8.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54e82e8ccffad6d363bbe434b51fc5ef.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По гра­фи­ку, f(8)  =  4, тогда  Таким об­ра­зом, Ответ: 8.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ae/aebccb0e3731a06560ad53d4d405373f.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1ac4fb68d289d1cd09aac8dcc0c250e4.svg"
+        ]
+    },
+    "answer": "8",
+    "analogs": [
+        "509113",
+        "509114",
+        "509116",
+        "...",
+        "509114",
+        "509116",
+        "509117"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509115"
+}

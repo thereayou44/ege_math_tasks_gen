@@ -1,0 +1,43 @@
+{
+    "id": 649894,
+    "topic": "2",
+    "condition": {
+        "text": "На координатной плоскости изображены векторы и Найдите скалярное произведение",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=160452",
+            "https://ege.sdamgia.ru/formula/svg/8f/8fd082536a0a420385519d1473c9d27e.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/390c629889c8e514de555ea927f2d1ec.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/8831155941759003c612b87b69d2a5ee.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Вы­пи­шем ко­ор­ди­на­ты век­то­ров:   Ис­ко­мое ска­ляр­ное про­из­ве­де­ние равно:Ответ: −4.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/1e/1e70b3bd8ec6d1279c0f21188a3e4abb.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/ee51c5e5ebbd2969f0dd16b917b05644.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1cb2906d87f7757cc350118aef747dc7.svg"
+        ]
+    },
+    "answer": "-4",
+    "analogs": [
+        "644849",
+        "644808",
+        "644809",
+        "644810",
+        "...",
+        "644808",
+        "644809",
+        "644810",
+        "644811",
+        "644813",
+        "644815",
+        "644817",
+        "644818",
+        "645011",
+        "645012",
+        "645013",
+        "674920",
+        "674959"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=649894"
+}

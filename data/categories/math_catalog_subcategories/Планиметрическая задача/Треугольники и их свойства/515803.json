@@ -1,0 +1,29 @@
+{
+    "id": 515803,
+    "topic": "17",
+    "condition": {
+        "text": "На катетах AC и BC прямоугольного треугольника ABC вне треугольника построены квадраты ACDE и BFKC. Точка M — середина гипотенузы AB, H — точка пересечения прямых CM и DK.а) Докажите, что CMDK.б) Найдите MH, если известно, что катеты треугольника ABC равны 30 и 40.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/78/7814a0e7fffecda9cebb60d2bc160257.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Вве­дем ко­ор­ди­на­ты с на­ча­лом в точке C и осями, на­прав­лен­ны­ми вдоль ка­те­тов CB и CA. Обо­зна­чим ко­ор­ди­на­ты точек  Тогда   и  Не­труд­но ви­деть, что их ска­ляр­ное про­из­ве­де­ние равно нулю, по­это­му  б)  Пусть  Тогда урав­не­ние пря­мой DK это  а нас ин­те­ре­су­ет рас­сто­я­ние до этой пря­мой от точки (20; 15). По из­вест­ной фор­му­ле на­хо­димОтвет:  49.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=147385",
+            "https://ege.sdamgia.ru/formula/svg/50/5015fd473cedd0557b581c2afa601e90.svg",
+            "https://ege.sdamgia.ru/formula/svg/fe/fe171316945e9996312f61945a81a154.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/1960c8e3819f914fd3c1b7561148549d.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/979666499ee64bac177e3a60527bf969.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4a67b444eb481580e3c10bec241f7fb9.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/518b947a7d30b3c5065b6305c411d524.svg",
+            "https://ege.sdamgia.ru/formula/svg/25/250478ec0cc4c1a44c7e748769547d1a.svg",
+            "https://ege.sdamgia.ru/formula/svg/76/769cb0a199fe07cda95038ccae51e973.svg"
+        ]
+    },
+    "answer": "  49.",
+    "analogs": [
+        "515727"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=515803"
+}

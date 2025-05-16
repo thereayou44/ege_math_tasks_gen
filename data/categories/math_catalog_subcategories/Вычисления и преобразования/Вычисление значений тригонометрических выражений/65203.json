@@ -1,0 +1,67 @@
+{
+    "id": 65203,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/5d/5df47fbda456d6bcd60a241e7916a8e1.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/31b5bf296afbf51c325e34eac39fd547.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Най­ди­те  если Вы­пол­ним пре­об­ра­зо­ва­ния:  Ответ: 7. При­ве­дем ре­ше­ние Елены Гло­то­вой.Вы­пол­ним пре­об­ра­зо­ва­ния:Вос­поль­зу­ем­ся фор­му­лой ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/5d/5df47fbda456d6bcd60a241e7916a8e1.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/31b5bf296afbf51c325e34eac39fd547.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/de9ea0d954d5826137c2e56cea32a294.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6c503deeae437fa854cd4494b878d4a7.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c3355382a4e7ac3a55aac03bc391b6b5.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/011b958965b146f3118809db57dfb10e.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6ce40e4262c6be0dd304e78c0e61f9c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/5e/5ecf5b333bd2f7b525e8891fa28c3b6c.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/2679f2380909f8069aa7562384922bee.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6ce40e4262c6be0dd304e78c0e61f9c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0b0b0f5c092169238c727869637fd9fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b507644fcad4fa9e6fabd79f4d616b9c.svg"
+        ]
+    },
+    "answer": ".",
+    "analogs": [
+        "26787",
+        "65217",
+        "65221",
+        "65161",
+        "...",
+        "65217",
+        "65221",
+        "65161",
+        "65163",
+        "65165",
+        "65167",
+        "65169",
+        "65171",
+        "65173",
+        "65175",
+        "65177",
+        "65179",
+        "65181",
+        "65183",
+        "65185",
+        "65187",
+        "65189",
+        "65191",
+        "65193",
+        "65195",
+        "65197",
+        "65199",
+        "65201",
+        "65205",
+        "65207",
+        "65209",
+        "65211",
+        "65213",
+        "65215",
+        "65219"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=65203"
+}

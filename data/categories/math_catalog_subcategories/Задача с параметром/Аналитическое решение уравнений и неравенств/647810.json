@@ -1,0 +1,54 @@
+{
+    "id": 647810,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых уравнение имеет единственный корень.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/af/af59f717baa561b7174943bed67b64bf.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пре­об­ра­зу­ем урав­не­ние:Число  яв­ля­ет­ся кор­нем урав­не­ния (⁎), если: Число  яв­ля­ет­ся кор­нем урав­не­ния (⁎), если: Пре­об­ра­зу­ем урав­не­ние (⁎), на­хо­дим:По­лу­чен­ное урав­не­ние яв­ля­ет­ся квад­рат­ным и имеет не более двух кор­ней. Опре­де­лим ко­ли­че­ство кор­ней, ис­сле­дуя дис­кри­ми­нант:При  дис­кри­ми­нант равен нулю, урав­не­ние (⁎⁎) имеет един­ствен­ный ко­рень, ко­то­рый при этом яв­ля­ет­ся и кор­нем ис­ход­но­го урав­не­ния.При  дис­кри­ми­нант по­ло­жи­те­лен, урав­не­ние (⁎⁎) имеет два корня. При этом если  то одним из кор­ней яв­ля­ет­ся  а зна­чит, ис­ход­ное урав­не­ние имеет един­ствен­ный ко­рень. Ана­ло­гич­но при  одним из кор­ней яв­ля­ет­ся  по­это­му ис­ход­ное урав­не­ние имеет един­ствен­ный ко­рень. При  одним из кор­ней яв­ля­ет­ся  сле­до­ва­тель­но,  ис­ход­ное урав­не­ние имеет также един­ствен­ный ко­рень.Таким об­ра­зом, ис­ход­ное урав­не­ние имеет един­ствен­ный ко­рень при    и  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/bb/bb003a02eaa24451be3c717d3c6ce3cd.svg",
+            "https://ege.sdamgia.ru/formula/svg/4e/4e3551998bbc75f8e399d246551d04cf.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bb003a02eaa24451be3c717d3c6ce3cd.svg",
+            "https://ege.sdamgia.ru/formula/svg/9b/9b32aa039f48e23ce93324cdca55ea7c.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/844e227ca33ac87aa39895f74df26d4c.svg",
+            "https://ege.sdamgia.ru/formula/svg/5e/5e1dee3fdbf5973096f200bc0c4b9bbd.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/efc72a11cda7b89e33bf335c86fc0a9d.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/32e301e5cf0ff4774c7026e58c8f1c52.svg",
+            "https://ege.sdamgia.ru/formula/svg/fe/fe6b2c080e5632b0e8485dbc49e17235.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7cbbceb08a000ab42ad9e8dabc70ec5a.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b733d659ffec0a51a9885d808fcc128c.svg",
+            "https://ege.sdamgia.ru/formula/svg/14/148422b805e5045dbad5d6c6c39c9e72.svg",
+            "https://ege.sdamgia.ru/formula/svg/9a/9a81da2e2feb58979c911d5ba6f6093e.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d95bf7a10790208af04e5a6013b3e6bc.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/556e51886908440e674dcdd900c91dd3.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/13c6ae16e00abad22dfad8782bac090f.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c21a9d3936438376ddbb862d5649593c.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/745bf9e35f27cce159a4ee560eaefafb.svg",
+            "https://ege.sdamgia.ru/formula/svg/5e/5e528b17cf0fa1ee511ff8fc60492f24.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af991c8734b07ea98de42918d42c4d33.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a369a6a7e6a9a84167116e17c3e5d265.svg",
+            "https://ege.sdamgia.ru/formula/svg/8a/8a73bee90f8f8f69117d09cff882c75f.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/85821ee21fbf51c9e721d78b9e48ba84.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/037ac96f1c4fbe4a932837e508ca899e.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a1d9f22ec5423e3277f5a3f0eb8915dd.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/86b5ab9c23fb6ec977b84e4bcc39fcfc.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/2310b6e37f4a289a3ca043cd861348a6.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cfd26b559aeca43c31bdb26ef7432789.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/0190339db21fd85fa306763ba313b516.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b1873e471b36ef8afabea8200b497861.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/28ed6198b897d72b0fee709c8cd79ffc.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6ca2e3b6d364326c7b0fe7c43879ebb5.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "514484",
+        "656089",
+        "656259"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=647810"
+}

@@ -1,0 +1,33 @@
+{
+    "id": 526679,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых уравнение имеет ровно два различных корня.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/45/453229f9987c8a4005c982f09cd48e7e.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­ме­тим, что ис­ход­ное урав­не­ние рав­но­силь­но си­сте­ме Для того, чтобы ис­ход­ное урав­не­ние имело два раз­лич­ных корня, не­об­хо­ди­мо, чтобы дис­кри­ми­нат урав­не­ния из вто­рой строч­ки си­сте­мы был по­ло­жи­тель­ным, а корни урав­не­ния при­над­ле­жа­ли ин­тер­ва­лу Пусть   — квад­ра­тич­ная функ­ция, гра­фик ко­то­рой па­ра­бо­ла с вет­вя­ми вверх. Для того, чтобы оба корня урав­не­ния си­сте­мы (⁎) ле­жа­ли в ин­тер­ва­ле  не­об­хо­ди­мо и до­ста­точ­но вы­пол­не­ния сле­ду­ю­щих усло­вий: Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/4e/4efaab5a8c08ea20f0b96928f390c521.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c25fa2bbdce874c97ce2612b31b73b15.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8ce2f1e79d5cdc3ce6150e0c21070848.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fd565e979337f4528f932d7a374cfcfb.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c924b0606333b7e8a3ace8c03777f552.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/2860cbf404c15c68b62a9f94a8d5ca68.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/cc72d85bbc23f6bbe6c0329bdd2c1e74.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/eadaf9c13dbb76db07b55d117776a682.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/62025f42c1fd6bb58553aad0f75cb499.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/495f2339651d6ecec45be45b226e3038.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/2828f888dcc97cda2ea6d449deaff9cc.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2a1dd052518ffd5cbe81fb4b16de34e8.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "526344",
+        "526540"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=526679"
+}

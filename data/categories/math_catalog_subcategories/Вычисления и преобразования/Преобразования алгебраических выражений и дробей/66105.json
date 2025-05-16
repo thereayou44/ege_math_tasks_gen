@@ -1,0 +1,48 @@
+{
+    "id": 66105,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/bb/bbef902bc839a06d6efd02b0aecf1aa7.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4da75d178114198b6798fcaa502a06f2.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Най­ди­те  если Вы­пол­ним пре­об­ра­зо­ва­ния:    Ответ: 10.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/f2/f2422f5d976eb67ab1b3640b16e2bc31.svg",
+            "https://ege.sdamgia.ru/formula/svg/7f/7f32003459221b0db398eca04d71b612.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8c310113764065f320d11fa32931caa4.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/10e6f5358a949558fc5bfe32c158610a.svg",
+            "https://ege.sdamgia.ru/formula/svg/7d/7df4ddbeb65caa198041fef9abd13d84.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50946f959dff0bdffca76b35870ffa61.svg"
+        ]
+    },
+    "answer": "-28",
+    "analogs": [
+        "26806",
+        "66089",
+        "66123",
+        "66091",
+        "...",
+        "66089",
+        "66123",
+        "66091",
+        "66093",
+        "66095",
+        "66097",
+        "66099",
+        "66101",
+        "66103",
+        "66107",
+        "66109",
+        "66111",
+        "66113",
+        "66115",
+        "66117",
+        "66119",
+        "66121"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=66105"
+}

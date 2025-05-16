@@ -1,0 +1,39 @@
+{
+    "id": 511391,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых уравнение имеет единственное решение. Найдите это решение для каждого значения a.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/b3/b3a6db8f0229846331237c30fff1f45a.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Сде­ла­ем за­ме­ну  тогда ис­ход­ное урав­не­ние при­мет видЗа­ме­тим, что если не­ко­то­рое число  яв­ля­ет­ся ре­ше­ни­ем дан­но­го урав­не­ния при не­ко­то­ром зна­че­нии па­ра­мет­ра a, то и  также будет яв­лять­ся его ре­ше­ни­ем при том же зна­че­нии   Это озна­ча­ет, что урав­не­ние может иметь един­ствен­ное ре­ше­ние, толь­ко в том слу­чае, если Под­ста­вив это ре­ше­ние в урав­не­ние, по­лу­чим:от­ку­да Пусть  Тогда ис­ход­ное урав­не­ние при­мет видОт­сю­да сле­ду­ет, что  сле­до­ва­тель­но, Ис­ход­ное урав­не­ние при­ни­ма­ет вид  и оно имеет един­ствен­ное ре­ше­ние  удо­вле­тво­ря­ю­щее усло­вию  Сле­до­ва­тель­но,  удо­вле­тво­ря­ет усло­вию за­да­чи. Ответ: при  един­ствен­ное ре­ше­ние ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/24/249f56eca0b30b76659092c08d937d44.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/926bdd46fd5dadacc97a9a7bcc3b5be9.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d81584f09e174eec259979ae8f92eb09.svg",
+            "https://ege.sdamgia.ru/formula/svg/ab/aba174d018692529b1279a6a4d7e593a.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9fbcccf456ef61f9ea007c417297911d.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/41e721b8d95234e7575f6c95f94e4a33.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1c2ec3f51828801881eb5c69a158b057.svg",
+            "https://ege.sdamgia.ru/formula/svg/76/760eb3983f7ba22254e7bd56b3fb7dea.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2c7cea00f82fdf3f59f28d40089b3edb.svg",
+            "https://ege.sdamgia.ru/formula/svg/64/641fc55be36f46764ff256e31de48afa.svg",
+            "https://ege.sdamgia.ru/formula/svg/c0/c0cabd8990b98f0b57c5d1c2decdd646.svg",
+            "https://ege.sdamgia.ru/formula/svg/5a/5a231e97221e02cf5b0eb3c8d8dc5508.svg",
+            "https://ege.sdamgia.ru/formula/svg/d0/d07d1a32dd526031917e7628869fa9b9.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f1e0a1874706243a007edd604ede3f5c.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f75bd83aa61b914dab0d0b44872cb667.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/4096c577f08c0eaccbcd9bc2ef1b5203.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f836be878c290d77b060bdcaf6b3e25d.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e4a8c40487338b4f5a4a879f405da4c1.svg"
+        ]
+    },
+    "answer": "",
+    "analogs": [
+        "504547",
+        "504568"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511391"
+}

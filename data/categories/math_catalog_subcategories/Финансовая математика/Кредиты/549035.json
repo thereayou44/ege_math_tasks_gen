@@ -1,0 +1,54 @@
+{
+    "id": 549035,
+    "topic": "16",
+    "condition": {
+        "text": "В июле 2026 года планируется взять кредит на пять лет в размере 220 тысяч рублей. Условия его возврата таковы: — каждый январь долг возрастает на r% по сравнению с концом предыдущею года; — с февраля по июнь каждого года необходимо выплатить одним платежом часть долга; — в июле 2027, 2028 и 2029 годов долг остаётся равным 220 тысяч рублей; — выплаты в 2030 и 2031 годах равны; — к июлю 2031 года долг будет выплачен полностью.Найдите r, если известно, что долг будет выплачен полностью и общий размер выплат составит 420 тысяч рублей.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пусть а вы­пла­ты с фев­ра­ля по июнь в 2030 и 2031 годах со­став­ля­ют по x тыс. руб. В июле 2027, 2028 и 2029 годов долг перед бан­ком не ме­ня­ет­ся, а еже­год­ные вы­пла­ты со­став­ля­ют по 220(k − 1) тыс. руб.В ян­ва­ре 2030 года долг (в тыс. руб­лей) равен 220k, а в июле  — 220k − x. В ян­ва­ре 2031 года долг равен  а в июле −  По усло­вию, к июлю 2031 года долг будет вы­пла­чен пол­но­стью, зна­чит,  от­ку­да  Таким об­ра­зом, общий раз­мер вы­плат со­став­ля­етот­ку­да  Из по­лу­чен­но­го урав­не­ния на­хо­дим k  =  1,2, тогда  r  =  20.  При­ве­дем дру­гое ре­ше­ние.Обо­зна­чим сумму кре­ди­та за  вы­пла­ту в пер­вые три года за a, а вы­пла­ту в по­след­ние два года за  Тогда, если  то   — так вы­гля­дит вы­пла­та в каж­дый из пер­вых трех годов. Усло­вие вы­пла­ты кре­ди­та двумя рав­ны­ми пла­те­жа­ми в по­след­ние два года да­ет­ся фор­му­лой  Тогда   По усло­вию, сумма всех вы­плат со­став­ля­ет  Под­став­ляя вы­ра­же­ния a и b, вы­ра­жен­ные через k, по­лу­ча­ем урав­не­ние:  Под­ста­вим  имеем:от­ку­да по­лу­ча­ем квад­рат­ное урав­не­ние:  В силу тео­ре­мы Виета, сумма кор­ней по­лу­чен­но­го урав­не­ния равна  а их про­из­ве­де­ние равно  Не­труд­но по­до­брать числа (см. ком­мен­та­рий ниже), удо­вле­тво­ря­ю­щие этим ра­вен­ствам: это числа   и  По тео­ре­ме, об­рат­ной тео­ре­ме Виета, най­ден­ные числа яв­ля­ют­ся кор­ня­ми этого квад­рат­но­го урав­не­ния. От­ри­ца­тель­ный ко­рень не под­хо­дит по смыс­лу за­да­чи. Тем самым  от­ку­да Ком­мен­та­рий. Ис­хо­дя из про­из­ве­де­ния, ра­зум­но ис­кать корни в виде  и  где  Кроме того, из суммы кор­ней на­хо­дим, что  Те­перь под­би­ра­ем удо­вле­тво­ря­ю­щие си­сте­ме целые числа:  Ответ:  20.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/72/7231c592dd656896cd183c8067944c15.svg",
+            "https://ege.sdamgia.ru/formula/svg/02/0238c976095a37698d53974b20f08a3e.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6d5299a600715eba1b5ffbad09c64dfe.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8b0a7005e81c75d404fca05fdef14e08.svg",
+            "https://ege.sdamgia.ru/formula/svg/bd/bdf42b0bed17537f7c28664e35234a00.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a8509bac9167ba913803f4e81f06e6a4.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e71120dfbad4f785c4993e61b1cefe8e.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/282744f7f6db4c9e82e71c07865322f4.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2dd7ce2d41fb3bc94a98a058ea9f3832.svg",
+            "https://ege.sdamgia.ru/formula/svg/58/58a05de12f3dbb839adf9648e2f576bd.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/efc9a0425dfb6df4dbb3af42fe650213.svg",
+            "https://ege.sdamgia.ru/formula/svg/6b/6bc987ab314de8e939c9acb12f8d3981.svg",
+            "https://ege.sdamgia.ru/formula/svg/05/05ca84d52053a94c542ba0f57020b821.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f89d32f7a225e17a8ae4977b7d23b4c0.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/543d84af09b015843a17729c7a769367.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6e0bbfb02e040a346a760aada092d3dd.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/282744f7f6db4c9e82e71c07865322f4.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/30509203892746c076b341829b0bd34b.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/751f5e4b3c08fc5e41eefaa699ce95ce.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f10e176f9fb254418eb04ff7721c8113.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1d3beebc9fba8582db017b7fd7f298bb.svg",
+            "https://ege.sdamgia.ru/formula/svg/1f/1f9ef385cc8b586c3ad9d2fa969fcbe8.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af300aa085f90c786b2a0d450eee27cb.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/31a67a6b6edc03a270b8adc5e894bd78.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/41a839841446532b672a5f6badf6d86b.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/52a3414a390efb12e5ce0881ca37c9e8.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d16a801bd3ea975adba16ed7b216cdb.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e4c80d94cc1c780ec8bcb8d52f017f2d.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/75e9c372aff82c7d8b1bc654497926a1.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c796678cdd937882be4db5a096f0a6a.svg"
+        ]
+    },
+    "answer": "  20.",
+    "analogs": [
+        "513923",
+        "513916",
+        "548496",
+        "...",
+        "513916",
+        "548496",
+        "670365"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=549035"
+}

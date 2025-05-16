@@ -1,0 +1,31 @@
+{
+    "id": 519680,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых неравенствовыполняется для всех значений x из отрезка",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/90/90c1d2a25057f0734915111e1e9f94d2.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f4fc1285a568e07c0deee8b64238abae.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­пи­шем не­ра­вен­ство в виде Обо­зна­чим левую часть не­ра­вен­ства  а пра­вую  —  тогда ис­ход­ное не­ра­вен­ство при­мет вид  За­ме­тим, что f  — не­пре­рыв­ная ку­соч­но-ли­ней­ная функ­ция, вне за­ви­си­мо­сти от рас­кры­тия мо­ду­лей, ее уг­ло­вой ко­эф­фи­ци­ент   боль­ше нуля. Сле­до­ва­тель­но, f  — воз­рас­та­ю­щая функ­ция. Функ­ция g на­о­бо­рот убы­ва­ет. Таким об­ра­зом, за­дан­ное не­ра­вен­ство будет вы­пол­нять­ся на от­рез­ке [−4; −1], толь­ко если  По­лу­ча­ем:Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/3e/3ef562af6c41247e322c86194cd5fab7.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/dde267ba49a1d51f4ff241f029a3befd.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/82b3adee59574b294bed697327f8858f.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a156cedae7b2769b72a44c9df0039df0.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/09bf4e15197c2aa1ec6ae584fdbd9c54.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/dfb42285d88e5047dbcceb536a7619bb.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dc51db80e80c8229531d51f26f634f85.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/ac6b2b42b3b02e0cb12d5769d9a43a3c.svg",
+            "https://ege.sdamgia.ru/formula/svg/59/5906d4cc375cd90b0942be83802c122d.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fb664efb7b875a3b3e7e9ac7c4ba4622.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "519676"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=519680"
+}

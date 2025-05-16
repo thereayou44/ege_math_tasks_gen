@@ -1,0 +1,21 @@
+{
+    "id": 672818,
+    "topic": "6",
+    "condition": {
+        "text": "Найдите корень уравнения",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/b5/b5466c84d1b9dd3dafa7bb6262bcfba2.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По­сле­до­ва­тель­но по­лу­ча­ем:Ответ: −3.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/f7/f741db5c01faa5f2963f315b9689229d.svg"
+        ]
+    },
+    "answer": "-3",
+    "analogs": [
+        "672744"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=672818"
+}

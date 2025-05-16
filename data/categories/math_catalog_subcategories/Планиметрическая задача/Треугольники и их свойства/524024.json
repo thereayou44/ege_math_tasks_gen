@@ -1,0 +1,44 @@
+{
+    "id": 524024,
+    "topic": "17",
+    "condition": {
+        "text": "На сторонах AC и BC треугольника ABC вне его построены квадраты ACDE и CBFG. Точка M — середина стороны AB.а) Докажите, что точка M равноудалена от центров квадратов.б) Найдите площадь треугольника DMG, если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/cf/cffc9bc20591cb10eb6cc5c087ddc658.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Пусть  и   — цен­тры квад­ра­тов АСDE и CBFG. Тогда  и   — сред­ние линии тре­уголь­ни­ков АBD и АBG, по­это­му до­ста­точ­но до­ка­зать, что  Если  то  Если же  то об­ра­зу­ют­ся тре­уголь­ни­ки BCD и GCA, ко­то­рые равны по двум сто­ро­нам ( ) и углу между ними:Зна­чит,  Сле­до­ва­тель­но,  б)  Тре­уголь­ник АBC пря­мо­уголь­ный с пря­мым углом при вер­ши­не C, по­сколь­ку: Тре­уголь­ник DMG со­сто­ит из трёх тре­уголь­ни­ков: DCG, DCM и GCM. Пря­мо­уголь­ные тре­уголь­ни­ки DCG и АСB равны по двум ка­те­там, по­это­му  Далее,  Где   — точка пе­ре­се­че­ния пря­мых  и BD. Ана­ло­гич­но  По­это­му  Ответ: б) ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=147432",
+            "https://ege.sdamgia.ru/formula/svg/31/31b6eb924de49df799c3016cfea5a36b.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/49e4fe93c55ea5f2b7bf970512cbc408.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/414a0abe89fba831428592cdd0a3ca62.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/ea30cd06f247cb39a14ae96a5d56aa6e.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c6b6b4b70f479497438c8e3d233886b.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/23ed6a702926bb632521fe9e79fc886f.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d00e01664e7a7c01ad68d8b26cd83f0.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/cc0a3f50bf9f528d1b015c2b35cee4f0.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d70480c0d5dc4a3a5ae4f8558a256faa.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/42005ad313490f5d31017790dde8d69e.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/adbb30f74a4b1be4e909068eebd790a4.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/74e74d1343052883110dd85be593c124.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c6b6b4b70f479497438c8e3d233886b.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83acc65d43edf2f9734896ef73df10ba.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8c3aadfb6b0fdfebb97478e8ed0ea3b5.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/369dde819bba939332e56e85e5e9c8e1.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=147433",
+            "https://ege.sdamgia.ru/formula/svg/7e/7e741fcc49ef367fafae0cf07aaabf00.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2ce2507b1ae2246c8fd6f465f7bd2a28.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/ea30cd06f247cb39a14ae96a5d56aa6e.svg",
+            "https://ege.sdamgia.ru/formula/svg/11/110078c3dd9abf38d118457cc57258b5.svg",
+            "https://ege.sdamgia.ru/formula/svg/96/96a24d575c8efd00837e3da9c47da448.svg",
+            "https://ege.sdamgia.ru/formula/svg/9b/9b1b68797827d4096d51f9aad1f24c1a.svg"
+        ]
+    },
+    "answer": " б) ",
+    "analogs": [
+        "523997"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=524024"
+}

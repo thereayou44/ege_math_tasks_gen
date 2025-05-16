@@ -1,0 +1,49 @@
+{
+    "id": 65363,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/a8/a86cef9f699f8c2bc21727572571f792.svg",
+            "https://ege.sdamgia.ru/formula/svg/6b/6bdd0d63f9504326793e99c3e462ccef.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Раз­де­лим чис­ли­тель и зна­ме­на­тель на :  Тогда   Ответ: 16.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/4d/4dc86bcc4da107ee7959075512d77e7a.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5dc8a8265b289b4ee20902afe867eb5b.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/9991a56b20e246980bdee94cfd4e32fc.svg"
+        ]
+    },
+    "answer": "16",
+    "analogs": [
+        "26790",
+        "65319",
+        "65321",
+        "...",
+        "65319",
+        "65321",
+        "65323",
+        "65325",
+        "65327",
+        "65329",
+        "65331",
+        "65333",
+        "65335",
+        "65337",
+        "65339",
+        "65341",
+        "65343",
+        "65345",
+        "65347",
+        "65349",
+        "65351",
+        "65353",
+        "65355",
+        "65357",
+        "65359",
+        "65361"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=65363"
+}

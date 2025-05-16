@@ -1,0 +1,37 @@
+{
+    "id": 520883,
+    "topic": "18",
+    "condition": {
+        "text": "Найти все значения a, при каждом из которых система уравненийимеет ровно четыре различных решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/90/90e08653f983d031b5b1a039ef6beaf4.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. При a  =  1 пер­вое урав­не­ние си­сте­мы задаёт пря­мую  а при  пару па­рал­лель­ных пря­мых l1 и l1, за­дан­ных урав­не­ни­я­ми  и  со­от­вет­ствен­но.Вто­рое урав­не­ние си­сте­мы за­да­ет окруж­ность ω ра­ди­у­сом 4 с цен­тром в точке (0; 0).Пря­мая и окруж­ность имеют не более двух общих точек. Зна­чит, ис­ход­ная си­сте­ма урав­не­ний имеет ровно 4 ре­ше­ния, когда  и окруж­ность ω пе­ре­се­ка­ет­ся с каж­дой из пря­мых l1 и l1 в двух точ­ках. Число точек пе­ре­се­че­ния окруж­но­сти ω с пря­мой l1 равно числу кор­ней квад­рат­но­го урав­не­ния: Это урав­не­ние имеет ровно два корня при по­ло­жи­тель­ном дис­кри­ми­нан­те:  от­ку­да Число точек пе­ре­се­че­ния окруж­но­сти ω с пря­мой l2 равно числу кор­ней квад­рат­но­го урав­не­ния: Это урав­не­ние имеет ровно два корня при по­ло­жи­тель­ном дис­кри­ми­нан­те: от­ку­да Таким об­ра­зом, ис­ход­ная си­сте­ма урав­не­ний имеет ровно че­ты­ре ре­ше­ния при  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/a5/a58fd8697c3236f5f138fefefc0b26c8.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1be47fbc0464e31e8d48dc32bb78771b.svg",
+            "https://ege.sdamgia.ru/formula/svg/48/48ecfd5c210aa523eada236fc33c6e9c.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c647e0883c712ec927f12726e948676.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1be47fbc0464e31e8d48dc32bb78771b.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/8600181e588e51677657f6d257e99538.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/8384695ad84148139fc4d1443b1801d6.svg",
+            "https://ege.sdamgia.ru/formula/svg/ab/ab2994604effd6ac1b9c2f594fb58ddc.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/eee767fb2fbd46c63af53c93e4edaa23.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b79f78b93841d8adf702b1d1279e6464.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b5c01acc6d6e57d251d1a994037e3fc6.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b9c90449b5f5d7ac272c44e1a7989705.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/792ff33c47d764ecb32b945b0c35e700.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/340abff953842eba13e4c3cd6abe6b66.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/340abff953842eba13e4c3cd6abe6b66.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "520807",
+        "520919",
+        "520857"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=520883"
+}

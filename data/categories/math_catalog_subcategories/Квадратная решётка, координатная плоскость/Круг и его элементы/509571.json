@@ -1,0 +1,24 @@
+{
+    "id": 509571,
+    "topic": "Д4",
+    "condition": {
+        "text": "На клетчатой бумаге с размером клетки 1 × 1 изображён вписанный в окружность угол ABC. Найдите его градусную величину.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=66174"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Длина дуги равна  от длины окруж­но­сти, зна­чит, гра­дус­ная ве­ли­чи­на впи­сан­но­го угла, ко­то­рый на нее опи­ра­ет­ся равна  Ответ: 45.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ec/eca3bf81573307ec3002cf846390d363.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/41b6ba66fc0e0c60bcfde81526e7be22.svg"
+        ]
+    },
+    "answer": "45",
+    "analogs": [
+        "27890",
+        "26237",
+        "27891"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509571"
+}

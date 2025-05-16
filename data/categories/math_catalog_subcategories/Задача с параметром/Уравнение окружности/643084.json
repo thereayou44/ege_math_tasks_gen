@@ -1,0 +1,59 @@
+{
+    "id": 643084,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых система уравнений имеет 2 различных решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/58/580c35825b51660e3bbbcd9be5aa151c.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пре­об­ра­зу­ем пер­вое урав­не­ние си­сте­мы:В си­сте­ме ко­ор­ди­нат xOy гра­фи­ком по­лу­чен­ной си­сте­мы будет объ­еди­не­ние пря­мой  и дуги окруж­но­сти ра­ди­у­са 3 с цен­тром в точке  ле­жа­щей не ниже пря­мой  (вы­де­ле­но оран­же­вым). Гра­фи­ком вто­ро­го урав­не­ния ис­ход­ной си­сте­мы  яв­ля­ет­ся пучок пря­мых, про­хо­дя­щих через точку Окруж­ность  и пря­мая  пе­ре­се­ка­ют­ся в точ­ках  и Пусть при  пря­мая  ка­са­ет­ся окруж­но­сти в точке A, при   — в точке D, при  пря­мая  про­хо­дит через точку B, при   — через точку С. Тогда ис­ход­ная си­сте­ма  — при  имеет одно ре­ше­ние;  — при  не имеет ре­ше­ний;  — при  имеет одно ре­ше­ние;  — при   — два ре­ше­ния;  — при   — три ре­ше­ния;  — при   — два ре­ше­ния;  — при   — три ре­ше­ния;  — при   — два ре­ше­ния;  — при   — одно ре­ше­ние.Найдём зна­че­ния a1, a2, a3 и a4.Под­ста­вим ко­ор­ди­на­ты точки B:Под­ста­вим ко­ор­ди­на­ты точки C:Зна­че­ния a1 и  a4 найдём из гео­мет­ри­че­ских со­об­ра­же­ний. Квад­ра­ты от­рез­ков ка­са­тель­ных равны про­из­ве­де­нию от­рез­ков се­ку­щихТаким об­ра­зом, ис­ход­ная си­сте­ма имеет ровно два ре­ше­ния при   или  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/68/68c969e000085a52105b7f41375c8ef2.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/97258452558b0b2a595db2b01376444c.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e7cdc31a5b8dde3d5260cf2a01590084.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1de4e97aa4490e419e0027ec568465f4.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/97258452558b0b2a595db2b01376444c.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/68446a2f2c754f84050642d3eefb30d8.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/034205ef4338f4abf6eda474869457b9.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/68446a2f2c754f84050642d3eefb30d8.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b5ba30c0acd2cec251154800985e3d3a.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0fccf2eb58f8275f9f42a4eab1cb2a45.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=181201",
+            "https://ege.sdamgia.ru/formula/svg/16/1649116927639bb79d3b980364053a74.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/68446a2f2c754f84050642d3eefb30d8.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/10176c4dab174d2f3e4cd7affb967928.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6f9c7390da07691ede4ba81412c991a3.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e3e5a59fdcf2b2d701c5aab06751ff52.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b5ba30c0acd2cec251154800985e3d3a.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7c86a8ba72f8f17fbe8b7bce333e7788.svg",
+            "https://ege.sdamgia.ru/formula/svg/35/3546a646d4b334c321e43052b58bd558.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b5ba30c0acd2cec251154800985e3d3a.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/617e27f510a43ef33e2f3536b85bc294.svg",
+            "https://ege.sdamgia.ru/formula/svg/8d/8d2c548dfed9b727f0620a6b4b1c5814.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f836be878c290d77b060bdcaf6b3e25d.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/34f82c7f4b7caf024dea1d1fd3cafac5.svg",
+            "https://ege.sdamgia.ru/formula/svg/87/878f9b0c7e94cf8fa16b3ef21d9c0a12.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa6f3671cbb1487fa6d8c9ec626e5a62.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d61c4c1f0c7e11efa1c97d7a6ad25eb6.svg",
+            "https://ege.sdamgia.ru/formula/svg/eb/eb0fd15ad26713624c47482fc7747f55.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/7520c3e333dc94501fd46a60b4c32e78.svg",
+            "https://ege.sdamgia.ru/formula/svg/33/33d283df789b99881f38617ec161d71a.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/ea588c5a4b4984a5877cfb41fff927af.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e68142b4a77636b140ab3fc19f681e88.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a46dce29f7e31ccd151a60191c8b557f.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/7428be5f9f21247468063ddf173ea149.svg",
+            "https://ege.sdamgia.ru/formula/svg/c6/c69a3e632e006d88abfa99b6b60f927d.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/363a3045dca9c5bc3dc8486638a92587.svg",
+            "https://ege.sdamgia.ru/formula/svg/96/96eeeec5f1ef492a45c91f5cfd529536.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/88203b3432e8df86ce9c1b312b1d87c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/13122305d30098a675bd3237e3f5d5e4.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "642894"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=643084"
+}

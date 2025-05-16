@@ -1,0 +1,39 @@
+{
+    "id": 562158,
+    "topic": "Д10",
+    "condition": {
+        "text": "На рисунке изображён график функции вида где числа a, b и c — целые. Найдите значение",
+        "images": [
+            "https://ege.sdamgia.ru/get_file?id=109339",
+            "https://ege.sdamgia.ru/formula/svg/99/99a818af5f614744006562d49cc46ae3.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/08fdc68ae2c13dca82ae627df0441bad.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По ри­сун­ку опре­де­ля­ем, что   зна­чит,  Тогда ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/13/136c6e4a09e550f3a6c39a7766c48181.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e8205b93b503af01b0f0c0a5f2d9b93e.svg",
+            "https://ege.sdamgia.ru/formula/svg/77/77ce89027edbdeadab8da53a49cc0bf6.svg"
+        ]
+    },
+    "answer": "9,875",
+    "analogs": [
+        "562153",
+        "562060",
+        "562154",
+        "562155",
+        "...",
+        "562060",
+        "562154",
+        "562155",
+        "562156",
+        "562157",
+        "562159",
+        "562160",
+        "562161",
+        "562162",
+        "562163"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=562158"
+}

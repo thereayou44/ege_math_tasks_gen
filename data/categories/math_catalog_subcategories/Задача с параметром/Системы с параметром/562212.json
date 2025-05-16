@@ -1,0 +1,41 @@
+{
+    "id": 562212,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при котором система уравнений имеет одно решение.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/85/85e7fc47a555d219953526c962c5f5dd.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По­стро­им гра­фик пер­во­го урав­не­ния си­сте­мы. Оно опре­де­ле­но, если  и од­но­вре­мен­но  то есть на мно­же­стве  При таких зна­че­ни­ях пе­ре­мен­ной дробь равна нулю, если один из мно­жи­те­лей, сто­я­щих в чис­ли­те­ле, равен нулю. Тем самым по­лу­ча­ем: Гра­фик функ­ции (1)  — верх­няя по­лу­окруж­ность с цен­тром в точке (0; 0) и ра­ди­у­сом  Гра­фик функ­ции (2)  — па­ра­бо­ла с вер­ши­ной в точке (0; 2), име­ю­щая нули в точ­ках Вто­рое урав­не­ние си­сте­мы за­пи­шем в виде  его гра­фи­ком яв­ля­ют­ся мно­же­ство пря­мых, про­хо­дя­щих через точку (−1; −1). Обо­зна­чим точки, как по­ка­за­но на ри­сун­ке. Ис­ход­ная си­сте­ма имеет един­ствен­ное ре­ше­ние, если гра­фи­ки ее пер­во­го и вто­ро­го урав­не­ний имеют ровно одну общую точку. Это воз­мож­но, если за­да­ва­е­мая вто­рым урав­не­ни­ем пря­мая про­хо­дит: а) через точку A, б) через точку B, в) так, что часть пря­мой, ле­жа­щая спра­ва от точки P, рас­по­ло­же­на ниже пря­мой PC, но не ниже пря­мой PD (на ри­сун­ке гра­фик пер­во­го урав­не­ния вы­де­лен цве­том жи­мо­ло­сти, под­хо­дя­щие гра­фи­ки вто­ро­го урав­не­ния вы­де­ле­ны апель­си­но­вым). Най­дем, при каких зна­че­ни­ях па­ра­мет­ра, пря­мая  про­хо­дит через:1)  точку A, тогда:  от­ку­да 2)  точку B, тогда:  от­ку­да  3)  точку C, тогда:  от­ку­да  4)  точку D, тогда:  от­ку­да   Ответ:  ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/1a/1aec540b188baf549de23abd1279a3d2.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/15de28a011d6fb5f11479f1fbadf5d9a.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2dc5d0b1b488def04b3498afcc9be249.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/2334f1f4e57f872b6b4b562956d3ae70.svg",
+            "https://ege.sdamgia.ru/formula/svg/93/9316e5eea29eda1e3a893dbb1286e8e1.svg",
+            "https://ege.sdamgia.ru/formula/svg/2b/2be3752e8cf48da2fe34170e8a746709.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/89fd7bdfa33437cd870dc38d6c602dbf.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ec2a4c9d3e6c2e3ae0145ac2c944c027.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=114616",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c168982ec5d26255c4c26d8dbdd3947.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/074f0dab8e6f68754c0348b08c38ab6e.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1b0220306f293429b3be77b72a025636.svg",
+            "https://ege.sdamgia.ru/formula/svg/7f/7f0c3b5ac204ca587e65fd67e9d44701.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e9d10df6b2021beac88e66006e836fe4.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/5418350c7e760c27076bcbae6551b611.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a48c1c129045956c6d453d9f7386f917.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d51374f6e6af41ba406f33b69f3a0a0f.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d817d588f131bc2d692b5f533cf07529.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/22da0aed6cb9ee82b8dd528ed45097ec.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8c564c6afc28358b85cf4a7a7a3a73ab.svg",
+            "https://ege.sdamgia.ru/formula/svg/33/33f996621afc811665845a5ed5c91e1b.svg"
+        ]
+    },
+    "answer": "  ",
+    "analogs": [
+        "562194"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=562212"
+}

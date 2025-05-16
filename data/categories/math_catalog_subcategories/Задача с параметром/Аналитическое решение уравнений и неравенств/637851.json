@@ -1,0 +1,29 @@
+{
+    "id": 637851,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых уравнение имеет единственное решение.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/87/87d9c196c799b54c3f25a6f812bbda79.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­ме­тим, что если число x0 яв­ля­ет­ся ре­ше­ни­ем урав­не­ния, то и число –x0 также яв­ля­ет­ся ре­ше­ни­ем этого урав­не­ния. Зна­чит, если урав­не­ние имеет един­ствен­ное ре­ше­ние, то это ре­ше­ние x  =  0. При x  =  0 урав­не­ние при­ни­ма­ет вид  от­ку­да a  =  3, a  =  4 или a  =  5.При a  =  3 и a  =  5 ис­ход­ное урав­не­ние при­ни­ма­ет вид  При  пра­вая часть урав­не­ния  При  пра­вая часть урав­не­ния равна 2, а левая часть урав­не­ния не мень­ше 2, причём ра­вен­ство до­сти­га­ет­ся толь­ко при x  =  0.При  пра­вая часть урав­не­ния  Зна­чит, ис­ход­ное урав­не­ние имеет един­ствен­ное ре­ше­ние  При a  =  4 ис­ход­ное урав­не­ние при­ни­ма­ет вид  Числа −1, 0 и 1 яв­ля­ют­ся кор­ня­ми этого урав­не­ния. Таким об­ра­зом, ис­ход­ное урав­не­ние имеет един­ствен­ное ре­ше­ние при a  =  3 и a  =  5. Ответ: a  =  3; a  =  5.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/f5/f52882c81fa56fd7259a204e90507ae4.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/2843ec12833eb0851eec3272dc6d7806.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6eead9a9f4fac7463d30e6ef53832580.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/ed237185192895811dd3e7a5f711cee2.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/856fb14cfdf299eccdbfd4b51f0a9c3f.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3d3e00e0b84ad6b64a3461fe9092698a.svg",
+            "https://ege.sdamgia.ru/formula/svg/a0/a0f6f21175d504eb9055e4b44bb30748.svg",
+            "https://ege.sdamgia.ru/formula/svg/b2/b2e1a7a40f43fe57ecb152ce9a784a08.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/da4bb7578f1e3cfdeec98b51e87adbdc.svg"
+        ]
+    },
+    "answer": " a  =  3; a  =  5.",
+    "analogs": [
+        "637822"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=637851"
+}

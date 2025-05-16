@@ -1,0 +1,48 @@
+{
+    "id": 501733,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения а, при каждом из которых уравнениеимеет единственный корень.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/bc/bcc8a5b49abb61fbf0e53ecccc22f52a.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­пи­шем урав­не­ние в виде  Рас­смот­рим две функ­ции:  и  Гра­фи­ком функ­ции  яв­ля­ет­ся по­лу­окруж­ность ра­ди­у­са 4 с цен­тром в точке (3;0). ле­жа­щая в верх­ней по­лу­плос­ко­сти (см. рис.). При каж­дом зна­че­нии a гра­фи­ком функ­ции  яв­ля­ет­ся пря­мая с уг­ло­вым ко­эф­фи­ци­ен­том a, про­хо­дя­щая через точку  Урав­не­ние имеет един­ствен­ный ко­рень, если гра­фи­ки функ­ций  и  имеют един­ствен­ную общую точку: либо пря­мая ка­са­ет­ся по­лу­окруж­но­сти, либо пе­ре­се­ка­ет её в един­ствен­ной точке. Ка­са­тель­ная MC, про­ведённая из точки M к по­лу­окруж­но­сти, имеет уг­ло­вой ко­эф­фи­ци­ент, рав­ный нулю, то есть при  ис­ход­ное урав­не­ние имеет един­ствен­ный ко­рень. При  пря­мая не имеет общих точек с по­лу­окруж­но­стью. Пря­мая MA, за­дан­ная урав­не­ни­ем  про­хо­дит через точки  и   сле­до­ва­тель­но, её уг­ло­вой ко­эф­фи­ци­ент  При  пря­мая, за­дан­ная урав­не­ни­ем  имеет две общие точки с по­лу­окруж­но­стью. Пря­мая MB, за­дан­ная урав­не­ни­ем  про­хо­дит через точки  и  сле­до­ва­тель­но, её уг­ло­вой ко­эф­фи­ци­ент  При   пря­мая, за­дан­ная урав­не­ни­ем  имеет уг­ло­вой ко­эф­фи­ци­ент боль­ше, чем у пря­мой MA, и не боль­ше, чем у пря­мой MB, и пе­ре­се­ка­ет по­лу­окруж­ность в един­ствен­ной точке. По­лу­ча­ем, что при  ис­ход­ное урав­не­ние имеет един­ствен­ный ко­рень. При  пря­мая не имеет общих точек с по­лу­окруж­но­стью. Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/00/005198801bfa439427b3c7f01c7bc99b.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/39081f0a51da4263a11bcd3100d6298e.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d31fc2a4ce86ffc4144560747614f78b.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/5768b01eb3b310ba2580d65345e3d716.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e84fec1e074026d6fa8e3155482c35c3.svg",
+            "https://ege.sdamgia.ru/formula/svg/96/962819a04da655eeff4d6b8f9bb07eee.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50bbd36e1fd2333108437a2ca378be62.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e84fec1e074026d6fa8e3155482c35c3.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=150515",
+            "https://ege.sdamgia.ru/formula/svg/de/ded681eaa02d11064c9a469dd1b3e04c.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf8298b0e273301afdd921e7e4cf6c2b.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/192c35effcdba5a2b4f3e8c5b7b174da.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/ac0ce84987603bc70e4f6b14b92ba227.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fdd233c73e7e23f85a027ac5bb56806d.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/604031babe09c86bd41f831b7022ac37.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/36b9037a5065bc1000500e6da3f8864d.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/192c35effcdba5a2b4f3e8c5b7b174da.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/192c35effcdba5a2b4f3e8c5b7b174da.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/ac0ce84987603bc70e4f6b14b92ba227.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/32a9420210d3bd03c4343a9785b8dc14.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/362f8dbbb785b4f79fb872c6b475d1a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d3a68cf19db6fc96601ff7dd83e163bb.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/192c35effcdba5a2b4f3e8c5b7b174da.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d3a68cf19db6fc96601ff7dd83e163bb.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/883a495d1625d0f64a7b0683c1b2429e.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/011002670d0d4732ac633492c1277798.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "501693",
+        "501988",
+        "511366"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=501733"
+}

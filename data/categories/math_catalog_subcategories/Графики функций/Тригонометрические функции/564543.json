@@ -1,0 +1,60 @@
+{
+    "id": 564543,
+    "topic": "Д10",
+    "condition": {
+        "text": "На рисунке изображён график функции вида где числа a, b, c и d — целые. Найдите",
+        "images": [
+            "https://ege.sdamgia.ru/get_file?id=108794",
+            "https://ege.sdamgia.ru/formula/svg/e6/e6ab4199c2c230c81608a9bde0306b19.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ec36a8259d7b2ca631c6796987335562.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По гра­фи­ку   тогда   и  По гра­фи­ку  тогда, если  то  — не имеет це­ло­чис­лен­ных ре­ше­ний,если  тоЗна­чит,  и  Найдём наи­мень­ший по­ло­жи­тель­ный пе­ри­од функ­ции Наи­мень­ший по­ло­жи­тель­ный пе­ри­од функ­ции  равен  а по гра­фи­ку наи­мень­ший по­ло­жи­тель­ный пе­ри­од равен 4, тогда  Таким об­ра­зом,  Найдём   Ответ: −4.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/e4/e430273c2dfce0211d6f74ac34792087.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9fdf75b5eaa4aecf08faa38551d0a4ab.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/000314a0828ebf1765a9046efc9d1ea0.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5d6aa2ce3b87f2cd4577e1241aab214b.svg",
+            "https://ege.sdamgia.ru/formula/svg/be/bed83944b7ae4a8d9667d928e1fc31e8.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af3c465414bff94fc5c0e5aa8db7ba04.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/639a3ae7ce32ab9130eb0c5745ab8d1d.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a2e5a831a0a5c567cec04a2eefa453ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/4009e98e3eb18d5a2c7c66fc9cf7e6a4.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ec4813201d54837a97eb255b9c70ea6c.svg",
+            "https://ege.sdamgia.ru/formula/svg/02/0279f621b5c6793d26db81cf470784b4.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c9d773b72732535dd66ba46b036c05f2.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7a5bf6c02d3cb5fc294d5dc2568f0a8c.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50bbd36e1fd2333108437a2ca378be62.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/cc53cb52b1dc0e2d0b475069570e753c.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a3373794d16a502bcb4d716f39c2a77e.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/8303c084dc2f303da7c98205f71d143f.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ec36a8259d7b2ca631c6796987335562.svg",
+            "https://ege.sdamgia.ru/formula/svg/33/330a7c5b2e65c562a2702925ac5e9ec0.svg"
+        ]
+    },
+    "answer": "-4",
+    "analogs": [
+        "564531",
+        "564542",
+        "564551",
+        "...",
+        "564542",
+        "564551",
+        "564552",
+        "564553",
+        "564554",
+        "564555",
+        "564556",
+        "564578",
+        "564579",
+        "564580",
+        "564584",
+        "564585",
+        "564586",
+        "564587",
+        "564588",
+        "564589"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=564543"
+}

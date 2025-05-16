@@ -1,0 +1,45 @@
+{
+    "id": 66089,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ed/ed053a0760e792d9daa26247d2124326.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8b221c928d71f0ee9df8f6ca8fdcc46c.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Вы­пол­ним пре­об­ра­зо­ва­ния:    Ответ: −30.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/a1/a130f515530e16df2d74d0d42a9864d2.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1b4eb0066300ff425b9b74af701e8640.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c7f6704a7061acc956ba60fc626adeca.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6e2332f854da9ee7a4b2df52e45e3f85.svg"
+        ]
+    },
+    "answer": "-30",
+    "analogs": [
+        "26806",
+        "66123",
+        "66091",
+        "...",
+        "66123",
+        "66091",
+        "66093",
+        "66095",
+        "66097",
+        "66099",
+        "66101",
+        "66103",
+        "66105",
+        "66107",
+        "66109",
+        "66111",
+        "66113",
+        "66115",
+        "66117",
+        "66119",
+        "66121"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=66089"
+}

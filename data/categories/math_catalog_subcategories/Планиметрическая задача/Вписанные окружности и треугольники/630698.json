@@ -1,0 +1,29 @@
+{
+    "id": 630698,
+    "topic": "17",
+    "condition": {
+        "text": "Точка D лежит на основании AC равнобедренного треугольника ABC. Точки I и J — центры окружностей, описанных около треугольников ABD и CBD соответственно.а) Докажите, что прямые BI и DJ параллельны. б) Найдите IJ, если AC = 16,",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/43/4325b81546be43b489b524afdec06d51.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  За­ме­тим, что по тео­ре­ме си­ну­сов ра­ди­ус окруж­но­сти, опи­сан­ной около тре­уголь­ни­ка ABD, равен сле­до­ва­тель­но, он равен ра­ди­у­су окруж­но­сти, опи­сан­ной около тре­уголь­ни­ка BDC, а зна­чит, BIDJ  — ромб, от­сю­да сле­ду­ет, что пря­мые BI и DJ па­рал­лель­ны, ч. т. д.б)  Пусть точка M  — се­ре­ди­на AD, а точка N  — се­ре­ди­на DC, зна­чит, IM и AD, JN и DС со­от­вет­ствен­но пер­пен­ди­ку­ляр­ны и  Знаем, что от­ре­зок IJ пер­пен­ди­ку­ля­рен от­рез­ку BD (диа­го­на­ли ромба), сле­до­ва­тель­но, Ответ: б) ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=113527",
+            "https://ege.sdamgia.ru/formula/svg/3f/3f4b2914156720809aeb107d16b5384c.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5dc7b17fa5e949fe56245b347c5581c3.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf0ea0d28fda0c1cc1f0048734b55c01.svg",
+            "https://ege.sdamgia.ru/formula/svg/3b/3bcd346757b66ebf908354f1be965e49.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/17d8c54c66934690550274575902da0b.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/86d02bc007cb06e1851ebb2f5b40a932.svg",
+            "https://ege.sdamgia.ru/formula/svg/3b/3bcd346757b66ebf908354f1be965e49.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e32e658fd4929abc3605db33fd08759f.svg"
+        ]
+    },
+    "answer": " б) ",
+    "analogs": [
+        "630705"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=630698"
+}

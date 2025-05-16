@@ -1,0 +1,58 @@
+{
+    "id": 65423,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/a8/a86cef9f699f8c2bc21727572571f792.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b98767986e925e63b54755e63a282038.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Ис­поль­зу­ем свой­ство про­пор­ции:  Сле­до­ва­тель­но,  Ответ: −1,9.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/38/3841ab2582949d732de2ae545d248c87.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/edecce9bc4f38f9fc5193e60214a046a.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/3008fa76fcf8474e6e39efa7c2098d97.svg",
+            "https://ege.sdamgia.ru/formula/svg/25/25b0c8d1f00b1beb0d7a3cb5526025ec.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a9594a28fbb88bb98b62ef2aa4a030b1.svg"
+        ]
+    },
+    "answer": "-1,9",
+    "analogs": [
+        "26791",
+        "65365",
+        "65367",
+        "...",
+        "65365",
+        "65367",
+        "65369",
+        "65371",
+        "65373",
+        "65375",
+        "65377",
+        "65379",
+        "65381",
+        "65383",
+        "65385",
+        "65387",
+        "65389",
+        "65391",
+        "65393",
+        "65395",
+        "65397",
+        "65399",
+        "65401",
+        "65403",
+        "65405",
+        "65407",
+        "65409",
+        "65411",
+        "65413",
+        "65415",
+        "65417",
+        "65419",
+        "65421"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=65423"
+}

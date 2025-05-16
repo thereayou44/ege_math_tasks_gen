@@ -1,0 +1,36 @@
+{
+    "id": 628363,
+    "topic": "Д10",
+    "condition": {
+        "text": "На рисунке изображён график функции где числа a, b и c целые. Найдите значение f(3).",
+        "images": [
+            "https://ege.sdamgia.ru/get_file?id=109416",
+            "https://ege.sdamgia.ru/formula/svg/2d/2dd638553299ee866a14b2c0495c7997.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По ри­сун­ку опре­де­ля­ем, что   зна­чит,   Те­перь найдём f(3):Ответ: 34.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/02/02476986ea185421386f68001979805b.svg",
+            "https://ege.sdamgia.ru/formula/svg/95/95312a993a0d100320d1df8ac91e372a.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b16d0075d80c1bc481d1de1a725f0cb8.svg"
+        ]
+    },
+    "answer": "34",
+    "analogs": [
+        "562283",
+        "562290",
+        "562291",
+        "562292",
+        "...",
+        "562290",
+        "562291",
+        "562292",
+        "562293",
+        "562294",
+        "562295",
+        "562296",
+        "628481"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=628363"
+}

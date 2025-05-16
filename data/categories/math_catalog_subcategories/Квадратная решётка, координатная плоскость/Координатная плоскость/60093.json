@@ -1,0 +1,41 @@
+{
+    "id": 60093,
+    "topic": "Д4",
+    "condition": {
+        "text": "Найдите площадь трапеции, вершины которой имеют координаты",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=66447",
+            "https://ege.sdamgia.ru/formula/svg/fc/fc49d82eb43a1aede0e7cd311bf137e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/98/9827f0092b2a016016835b1f43274954.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/18cf808abc23335ed9cb54d4c7e02ca0.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2a8494449bfe49b06a1adb5fb928d380.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пло­щадь тра­пе­ции равна про­из­ве­де­нию по­лу­сум­мы ос­но­ва­ний на вы­со­ту. Ос­но­ва­ния тра­пе­ции равны 2 и 6. Вы­со­та тра­пе­ции равна 12 − 1 = 11. По­это­му Ответ: 44.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/39/39d18af069d478cbadcb1dc0c1d44d69.svg"
+        ]
+    },
+    "answer": "44",
+    "analogs": [
+        "27706",
+        "60055",
+        "60059",
+        "...",
+        "60055",
+        "60059",
+        "60061",
+        "60065",
+        "60073",
+        "60075",
+        "60077",
+        "60079",
+        "60081",
+        "60083",
+        "60087",
+        "60101",
+        "60103"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=60093"
+}

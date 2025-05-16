@@ -1,0 +1,21 @@
+{
+    "id": 510939,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите значение выражения",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/86/8679cd3d8383eca882e414912e05e21d.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Ис­поль­зуя свой­ства ло­га­риф­мов, по­лу­ча­ем: Ответ: 0,8.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/d0/d08e97a68b90a753eaf0155d8f944035.svg"
+        ]
+    },
+    "answer": "0,8",
+    "analogs": [
+        "509417"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=510939"
+}

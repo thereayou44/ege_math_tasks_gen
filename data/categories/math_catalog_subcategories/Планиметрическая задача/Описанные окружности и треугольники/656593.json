@@ -1,0 +1,30 @@
+{
+    "id": 656593,
+    "topic": "17",
+    "condition": {
+        "text": "Высоты BB1 и CC1 остроугольного треугольника ABC пересекаются в точке H. а) Докажите, что б) Найдите расстояние от центра окружности, описанной около треугольника ABC, до стороны BC, если и",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/98/98fea4d68fc1ca49998e3d08fc504a73.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/573c4163f1826f9011d6721037cd3406.svg",
+            "https://ege.sdamgia.ru/formula/svg/33/33e797495113492d94c0c53535c65d67.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.  а)  Точки A, C1, H, B1 лежат на окруж­но­сти с диа­мет­ром AH. Углы С1AH и C1B1H равны как впи­сан­ные, зна­чит, углы тоже BAH и BB1C1 тоже равны. Что и тре­бо­ва­лось до­ка­зать.б)  Пусть O  — центр опи­сан­ной окруж­но­сти тре­уголь­ни­ка ABC, D  — се­ре­ди­на сто­ро­ны BC. Тре­бу­ет­ся вы­чис­лить длину от­рез­ка OD. За­ме­тим, что   По­это­му тре­уголь­ни­ки AB1C1 и ABC по­доб­ны по двум про­пор­ци­о­наль­ным сто­ро­нам и углу между ними, ко­эф­фи­ци­ент по­до­бия равен  Зна­чит,  Угол BOС равен удво­ен­но­му углу BAC, то есть 120°. Сле­до­ва­тель­но, угол OBD равен 30°. Най­дем ис­ко­мое рас­сто­я­ние: Ответ: б) 10.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=181404",
+            "https://ege.sdamgia.ru/formula/svg/1f/1f0bac19933e168e2508dfe4c16b52c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c4a2057b95447a6a96839e844b022c54.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/90e328c7b5f5bdc0da1a588324ad8daf.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e33cad4025ac29dd669e02432c245a81.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f4ba208430f36301d3705973b4732564.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/501aabca51a1041aa535a1dd3b5dc6a4.svg"
+        ]
+    },
+    "answer": " б) 10.",
+    "analogs": [
+        "554418",
+        "656585"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=656593"
+}

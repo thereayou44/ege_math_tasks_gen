@@ -1,0 +1,44 @@
+{
+    "id": 654882,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых уравнениеимеет хотя бы одно решение.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/8a/8a82803b226bf7029e4ca19ed90de92f.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Дан­ное урав­не­ние рав­но­силь­но си­сте­ме:Пусть  По­сколь­ку  для  по­лу­ча­ем:  при  и  при  Тогда урав­не­ние при­ни­ма­ет вид  Оно имеет корни t1  =  −3 и t2  =  7. По­сколь­ку  ко­рень t1  =  −3 ис­клю­ча­ем. При  долж­но вы­пол­нять­ся усло­вие  по­лу­чим:от­ку­да При  долж­но вы­пол­нять­ся усло­вие  по­лу­чим:от­ку­да При   ис­ход­ное урав­не­ние имеет хотя бы одно ре­ше­ние. Ответ:  ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/79/7963e08eaa240c2cb3959ce40c2209d1.svg",
+            "https://ege.sdamgia.ru/formula/svg/7f/7f1de34f5731fa12673530ab5147df59.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d4578daa89206e3726b86ae8057ee966.svg",
+            "https://ege.sdamgia.ru/formula/svg/71/71bef6b87828d44419e95ad7c7728702.svg",
+            "https://ege.sdamgia.ru/formula/svg/44/44cfe8370edf8b2b643bd763f072c4d9.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/3827c79f5fc9188a3ccc671107b7838c.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/81ab5a0b5746d911e1d8f16c92f80df1.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cb61d7333cb5eb308d3dc40a5c647a3f.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/6010e09b70f9cc2696b55d09af4008d5.svg",
+            "https://ege.sdamgia.ru/formula/svg/20/20df833b1008d80944426013b2bcce6a.svg",
+            "https://ege.sdamgia.ru/formula/svg/05/0590a63651cbb6ffda67dd5cd74dac8a.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/81ab5a0b5746d911e1d8f16c92f80df1.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/66f720586ec2cb7bb5df3455b71e36ec.svg",
+            "https://ege.sdamgia.ru/formula/svg/43/43090cb148ce8e6a68e453212f0ce045.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e0f52876e6366ec339651963935835ac.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/cae9743b2aa30af47283cd8d49c0b452.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/174009737ee1cb09313a7488b38e782d.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/55fa21c92de75b3262a1dff5bce1cb27.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f7af7e871800b1db462b1eafff1299c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0d4f6f4c7f21a2ab9446bf275cf3b4c3.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/70d2f5fb167383a1346b8b7eb9e6ed6f.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0d4f6f4c7f21a2ab9446bf275cf3b4c3.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f7af7e871800b1db462b1eafff1299c5.svg"
+        ]
+    },
+    "answer": "  ",
+    "analogs": [
+        "630039",
+        "654937"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=654882"
+}

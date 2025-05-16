@@ -1,0 +1,27 @@
+{
+    "id": 647149,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите значение выражения при",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/bb/bbaedfcddffa322871fbcf64e198cd6c.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d4b2c1023ed76bdfe5cfae32f5282290.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a3e38e65efcc321d6ab4421254f79fca.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Вы­пол­ним пре­об­ра­зо­ва­ния: Ответ: −4.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/38/38232ab98a3ca26c851a3666b9aaaf5e.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/bab28531aaa68e6b9a41670563e1d0bf.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0b929cd515a5aaeb0f5c93befc919db8.svg"
+        ]
+    },
+    "answer": "-4",
+    "analogs": [
+        "647129",
+        "674925",
+        "674964"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=647149"
+}

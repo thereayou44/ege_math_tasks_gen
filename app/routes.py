@@ -119,6 +119,7 @@ def init_routes(app):
                 from app.task_generator import save_to_file
                 save_to_file(result, "last_generated_task.txt")
                 print(f"Задача сохранена в файл last_generated_task.txt")
+                print(f"Генерация новой задачи завершена успешно")
             except Exception as e:
                 print(f"Ошибка при сохранении файла: {e}")
             

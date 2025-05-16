@@ -1,0 +1,27 @@
+{
+    "id": 563670,
+    "topic": "17",
+    "condition": {
+        "text": "Дана трапеция ABCD, где AB = BC = CD, точка E лежит на плоскости так, что BE ⊥ AD и CE ⊥ BDа) Доказать, что ∠AEB = ∠BDAб) Найти площадь ABCD, если AB = 72,",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/3a/3ad7b4eaf6cc68e70a5e2739a8b0f22e.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  До­ка­жем, что точка E лежит на окруж­но­сти, опи­сан­ной около рав­но­бо­кой тра­пе­ции ABCD. В самом деле, ∠BEC = ∠BDA, как углы с со­от­вет­ствен­но пер­пен­ди­ку­ляр­ны­ми сто­ро­на­ми. А ∠BDA = ∠BDC, как опи­ра­ю­щи­е­ся на рав­ные дуги. Окон­ча­тель­но по­лу­ча­ем, ∠BEC = ∠BDC и точки B, E, D, C лежат на одной окруж­но­сти. Тогда ∠BEA = ∠BDA, как опи­ра­ю­щи­е­ся на одну дугу. б)  По до­ка­зан­но­му ранее ∠AEB = ∠BDA = ∠BDC, от­ку­да ∠A = ∠D = 2∠AEB, Пусть K   — точка пе­ре­се­че­ния AD и BE, тогда из пря­мо­уголь­но­го тре­уголь­ни­ка ABK по­лу­ча­ем  и Так как тра­пе­ция ABCD   — рав­но­бо­кая и BK   — её вы­со­та, сред­няя линия тра­пе­ции равна  Окон­ча­тель­но по­лу­ча­ем:Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=150472",
+            "https://ege.sdamgia.ru/formula/svg/31/31a1f75d6b2375bc48ddbe8c776fd059.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d576f3681a3efc9d7bc34f40c36b5539.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e19e840b13f2783a21d14f21663a74c9.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6cbe5b089bb839297f54cdb1aa07ff1d.svg",
+            "https://ege.sdamgia.ru/formula/svg/33/3384f8d4a9c73d58bdb6e2378a6a4af5.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d9e362c3e7c63df5a01c07ad2560ce9c.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "563669"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=563670"
+}

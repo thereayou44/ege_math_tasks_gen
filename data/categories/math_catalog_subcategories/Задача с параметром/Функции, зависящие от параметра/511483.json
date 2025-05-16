@@ -1,0 +1,27 @@
+{
+    "id": 511483,
+    "topic": "18",
+    "condition": {
+        "text": "Найти все значения параметра a, при каждом из которых среди значений функции есть ровно одно целое число.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/17/17d5c7ba7c4116c3569e21818a90638b.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Функ­ция опре­де­ле­на и не­пре­рыв­на на всей чис­ло­вой пря­мой. Урав­не­ние  при любом a имеет ре­ше­ние  Зна­чит, при любом a одно из зна­че­ний функ­ции равно 1.По­сколь­ку функ­ция не­пре­рыв­на, мно­же­ство её зна­че­ний об­ра­зу­ет про­ме­жу­ток, вклю­ча­ю­щий число 1. Дру­гих целых зна­че­ний функ­ции нет, если для всех Чтобы не­ра­вен­ства вы­пол­ня­лись для всех x, дис­кри­ми­нан­ты обоих трёхчле­нов долж­ны быть от­ри­ца­тель­ны:Таким об­ра­зом, под­хо­дя­щие зна­че­ния па­ра­мет­ра  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/11/116b9921410ece54f7e0a2c72145f6b3.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/def7a40dff9d7783d8412620fc79146b.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/89c090488479a41cad9954347908e91c.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/23f599b07bf3b6304795a2f7daa0c0ee.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f6edce1507733759cf9b47408ac503d2.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/ddb78c00a2d4d0d3f5d660c90f4133f2.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa3ee9b3c0efd45f7a8815d5bceac1d3.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "507743"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511483"
+}

@@ -1,0 +1,30 @@
+{
+    "id": 660926,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображен график функции вида Найдите значение f(−3).",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=179881",
+            "https://ege.sdamgia.ru/formula/svg/3e/3ec7f9a9c1d470775506529844b8c3a5.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­ме­тим, что  Ответ: 64.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/b9/b9554bac331b14f4919d4922d9e2c1df.svg"
+        ]
+    },
+    "answer": "64",
+    "analogs": [
+        "639480",
+        "639749",
+        "641157",
+        "660718",
+        "...",
+        "639749",
+        "641157",
+        "660718",
+        "661082"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=660926"
+}

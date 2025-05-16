@@ -1,0 +1,30 @@
+{
+    "id": 509119,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображён график функции Найдите значение x, при котором",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=91954",
+            "https://ege.sdamgia.ru/formula/svg/36/367f02b575299c9be2c757c5d02c14b8.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d52576ff378ff24e1aea9ff994901a5f.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По гра­фи­ку, f(4)  =  −3, тогда  Таким об­ра­зом, Ответ: 64.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/5c/5c400262f05c61c838ad142e96758d3d.svg",
+            "https://ege.sdamgia.ru/formula/svg/b8/b833783176f5fc4c042b1f3fc48dd860.svg"
+        ]
+    },
+    "answer": "64",
+    "analogs": [
+        "509118",
+        "509120",
+        "509121",
+        "...",
+        "509120",
+        "509121",
+        "509122"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509119"
+}

@@ -1,0 +1,49 @@
+{
+    "id": 628767,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/87/87e2503b4235d8c0024b8ed0b7f1e40c.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1b6ae1ad922d60de650a317f233e6d63.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Ис­поль­зу­ем фор­му­лу ко­си­ну­са двой­но­го угла  Имеем: Ответ: 1,12.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/81/810ebb7327c4782a9eb2637ae582f438.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7b4f623d7b1b65ad7c0416f99e6a4704.svg"
+        ]
+    },
+    "answer": "1,12",
+    "analogs": [
+        "26779",
+        "64443",
+        "64459",
+        "...",
+        "64443",
+        "64459",
+        "639623",
+        "676895",
+        "64419",
+        "64421",
+        "64423",
+        "64425",
+        "64427",
+        "64429",
+        "64431",
+        "64433",
+        "64435",
+        "64437",
+        "64439",
+        "64441",
+        "64445",
+        "64447",
+        "64449",
+        "64451",
+        "64453",
+        "64455",
+        "64457"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=628767"
+}

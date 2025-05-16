@@ -1,0 +1,33 @@
+{
+    "id": 628276,
+    "topic": "17",
+    "condition": {
+        "text": "Дан треугольник АВС. Точка О — центр вписанной в него окружности. На стороне ВС отмечена такая точка M, что СM = АС и ВM = АО.а) Докажите, что прямые АВ и ОM параллельны.б) Найдите площадь четырёхугольника АВMО, если угол AСB прямой и АС = 6.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Центр окруж­но­сти, впи­сан­ной в тре­уголь­ник, на­хо­дит­ся в точке пе­ре­се­че­ния его бис­сек­трис. Сле­до­ва­тель­но, тре­уголь­ни­ки АСО и MСО равны по двум сто­ро­нам и углу между ними, а, зна­чит, OM  =  AO  =  BM. Таким об­ра­зом, тре­уголь­ник ВОM яв­ля­ет­ся рав­но­бед­рен­ным, и углы OBM и BOM равны.С дру­гой сто­ро­ны, ВО  — бис­сек­три­са угла АВС, по­это­му углы ABO и OBM равны. Таким об­ра­зом, углы АВО и ВОM равны, по­это­му пря­мые АВ и ОM па­рал­лель­ны.б)  Четырёхуголь­ник АВMО  — рав­но­бед­рен­ная тра­пе­ция с ос­но­ва­ни­я­ми АВ и MО, по­это­му углы BAO и ABM равны. От­сю­да сле­ду­ет, что  Так как  по­лу­ча­ем   Из тре­уголь­ни­ка АВС на­хо­дим, что  AB  =  12. По­сколь­ку  по­лу­ча­ем В тра­пе­ции АВMО про­ведём вы­со­ту ОН. В тре­уголь­ни­ке AОН на­хо­дим, что Найдём пло­щадь тра­пе­ции АВMО:Ответ: б) 18.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=150046",
+            "https://ege.sdamgia.ru/formula/svg/bc/bc7004e85e2cbb834280cea505fb0d62.svg",
+            "https://ege.sdamgia.ru/formula/svg/12/12144e297f5e479bdfdd6e587b4883b7.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b95a07d3830795bfa62c5f9a147cd191.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f81a764d659a4c2123bf48bc17e341c8.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c3a373602c7d8221f61961e09863855c.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa802247ecb99c7ec5d17bd942c85cc3.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/00672aca498d3ce4cdf7b92af92dd7eb.svg",
+            "https://ege.sdamgia.ru/formula/svg/36/36f9ee1c69d917cf08801c5a116e6937.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/705b03c801df06483fa55ec71905655e.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/526cb305255f5ed915c3f28a579ab2b1.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/2608393f129eb32fd1eb5feac83ed1a8.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f6d5f94349fd8d68b3b7053e14022687.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6c9b9a37707447d75d9932d25bd24fa8.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/2608393f129eb32fd1eb5feac83ed1a8.svg"
+        ]
+    },
+    "answer": " б) 18.",
+    "analogs": [
+        "628245"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=628276"
+}

@@ -1,0 +1,23 @@
+{
+    "id": 635147,
+    "topic": "6",
+    "condition": {
+        "text": "Решите уравнение",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/1a/1a8f06df630e8953ee88854b2e85d3f9.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Воз­ве­дем обе части урав­не­ния в тре­тью сте­пень:Ответ: −5.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/1d/1d66a13c9263286cfc2c26a1f1a25703.svg"
+        ]
+    },
+    "answer": "-5",
+    "analogs": [
+        "501205",
+        "520487",
+        "520507"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=635147"
+}

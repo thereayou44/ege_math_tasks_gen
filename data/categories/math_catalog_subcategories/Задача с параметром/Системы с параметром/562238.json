@@ -1,0 +1,55 @@
+{
+    "id": 562238,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при котором система уравнений имеет ровно четыре различных решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/49/494bc448e9a33a73c5c090a19f31855b.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Решим вто­рое урав­не­ние из си­сте­мы:Сле­до­ва­тель­но, ре­ше­ни­я­ми си­сте­мы яв­ля­ют­ся пары вида  и   а по­то­му си­сте­ма имеет че­ты­ре раз­лич­ных ре­ше­ния, если ее пер­вое урав­не­ние имеет два раз­лич­ных ре­ше­ния  при  и имеет два раз­лич­ных ре­ше­ния  при  При­чем пара ре­ше­ний  вхо­дит в оба слу­чая, а по­то­му со­от­вет­ству­ю­щее зна­че­ние па­ра­мет­ра не­об­хо­ди­мо ис­клю­чить. Най­дем его, под­ста­вив пару чисел  в пер­вое урав­не­ние ис­ход­ной си­сте­мы:   — не­вер­но,зна­чит пара чисел  не яв­ля­ют­ся ре­ше­ни­ем си­сте­мы ни при каком зна­че­нии a. Под­ста­вим  в пер­вое урав­не­ние ис­ход­ной си­сте­мы и пре­об­ра­зу­ем по­лу­чен­ное урав­не­ние к квад­рат­но­му от­но­си­тель­но пе­ре­мен­ной y виду. По­лу­чим: При  по­лу­чен­ное урав­не­ние будет ли­ней­ным и не смо­жет иметь ровно два корня,  при про­чих зна­че­ни­ях па­ра­мет­ра най­дем дис­кри­ми­нант: Урав­не­ние имеет два раз­лич­ных корня  если его дис­кри­ми­нант по­ло­жи­те­лен, то есть при   или при  Под­ста­вим  в пер­вое урав­не­ние ис­ход­ной си­сте­мы и пре­об­ра­зу­ем по­лу­чен­ное урав­не­ние к квад­рат­но­му от­но­си­тель­но пе­ре­мен­ной x виду. По­лу­чим:  При  по­лу­чен­ное урав­не­ние ре­ше­ний не имеет, при про­чих зна­че­ни­ях па­ра­мет­ра най­дем дис­кри­ми­нант: Най­дем нули дис­кри­ми­нан­та:   Сле­до­ва­тель­но, урав­не­ние имеет два раз­лич­ных корня  при  или при  Таким об­ра­зом, си­сте­ма имеет че­ты­ре ре­ше­ния при вы­пол­не­нии сле­ду­ю­щих усло­вий: Ответ:  ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/a7/a7d967d7035ccce121edf7c743268eb1.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/3243a54ef6538ed54c119a7ae2da0174.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dc0f354e7f39a8048526aedf1704df60.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/3243a54ef6538ed54c119a7ae2da0174.svg",
+            "https://ege.sdamgia.ru/formula/svg/43/43151981d7983884e82573e9502e9bd7.svg",
+            "https://ege.sdamgia.ru/formula/svg/d0/d068ce792d717d8dc3c0d019fd313850.svg",
+            "https://ege.sdamgia.ru/formula/svg/ce/ce268e297e160dbb6738099dbc3c1ce9.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/afae7d4f2f3f2c0de0781fccf0e8f105.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8cf60fb8cb94667368303e31de299651.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fb7a89602d38255d204dd9788dc137fd.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/22638731e2eb670659fe843715a97c33.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/46ee9f37fdbd5763f80b5e5b6354f713.svg",
+            "https://ege.sdamgia.ru/formula/svg/78/78ea949d628976f9dbf2ef450927c78b.svg",
+            "https://ege.sdamgia.ru/formula/svg/78/78ea949d628976f9dbf2ef450927c78b.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/94cea1b3bef052b7326fe328be467849.svg",
+            "https://ege.sdamgia.ru/formula/svg/78/78ea949d628976f9dbf2ef450927c78b.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d37ffc54b67ce8de1f01efb1f2e33689.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1d19c6d2d7c0c14631ff523f61caaf99.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7bc35d81cadc0b8656640c98c9e29fd0.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a17028457d96a669ee87b4c6dc2e616e.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/061f1a1df7071c2f2a7ad4923b9f7b36.svg",
+            "https://ege.sdamgia.ru/formula/svg/fa/fa2bbd14e5f511df88508c805901a5b7.svg",
+            "https://ege.sdamgia.ru/formula/svg/48/4838ccc2ba29d5abae0ce5b5573605af.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/ada95b3e191d53717b37419463a4dd85.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e1b3791d0f771fc82c4e5db3a0744fc4.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7cdee1be9c1667a11a648ec629ce5600.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7bc35d81cadc0b8656640c98c9e29fd0.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/886d44af925049e27c987cc9844c53be.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c8894caa8ba26a46e0378b160b9743ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b3ed26898e5d24fa48ffb685af5fe292.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/ccbc3637afed613f3b1b8604a58c464b.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/55ebee948079c790ce100c24aaf63600.svg",
+            "https://ege.sdamgia.ru/formula/svg/48/487cca20f3e297b8289bb1eb844e5f3b.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/eca3d0b263a0b1580a6e6a9d58d43e41.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2f7cd91e53f616d259e6869321542c50.svg"
+        ]
+    },
+    "answer": "  ",
+    "analogs": [
+        "562237"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=562238"
+}

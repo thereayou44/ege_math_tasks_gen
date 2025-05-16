@@ -1,0 +1,35 @@
+{
+    "id": 649904,
+    "topic": "2",
+    "condition": {
+        "text": "Даны векторы и Найдите длину вектора",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/06/0665a392685263bd6637587c23ae859d.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/30e7c8511cedab907512aede3a952de9.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4b4803c92aa1b4c8f4f150ef9b32836c.svg",
+            "https://ege.sdamgia.ru/formula/svg/f9/f9ae8b329a007418e81c7749305fbde0.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Най­дем ко­ор­ди­на­ты век­то­ра Длина век­то­ра равна:Ответ: 10.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/67/67b181c3144c7b14201b341d5a339bcf.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d26bbbbc2e6d20a13aec3b1b12d7cc79.svg",
+            "https://ege.sdamgia.ru/formula/svg/fa/fa8a1a2f86ba43e8e89825b056a25a25.svg"
+        ]
+    },
+    "answer": "10",
+    "analogs": [
+        "644850",
+        "649897",
+        "661814",
+        "...",
+        "649897",
+        "661814",
+        "679652",
+        "679835",
+        "676343",
+        "676812"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=649904"
+}

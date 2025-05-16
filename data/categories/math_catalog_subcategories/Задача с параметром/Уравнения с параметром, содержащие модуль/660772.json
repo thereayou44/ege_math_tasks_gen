@@ -1,0 +1,60 @@
+{
+    "id": 660772,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых система уравнений имеет четыре решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/f6/f688236928439ef5da271f0752f86c2b.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Си­сте­ма урав­не­ний имеет ровно 4 ре­ше­ния тогда и толь­ко тогда, когда гра­фи­ки пер­во­го и вто­ро­го урав­не­ний этой си­сте­мы имеют ровно че­ты­ре общие точки. Гра­фик функ­ции  по­лу­ча­ют сдви­гом гра­фи­ка функ­ции  на 1 еди­ни­цу вниз вдоль оси Oy и на |a| еди­ниц вдоль оси Ox. Вто­рое урав­не­ние си­сте­мы за­пи­шем в виде  Гра­фи­ком вто­ро­го урав­не­ния си­сте­мы яв­ля­ет­ся объ­еди­не­ние ча­стей па­ра­бол  и  по­стро­ен­ных на от­рез­ке [0; 2].Пусть при  и  па­ра­бо­ла  ка­са­ет­ся левой и пра­вой вет­вей гра­фи­ка функ­ции  то есть пря­мых  и  со­от­вет­ствен­но. Най­дем  ка­са­тель­ная имеет с па­ра­бо­лой един­ствен­ную общую точку, а по­то­му при  дол­жен быть равен нулю дис­кри­ми­нант урав­не­ния   На­хо­дим:  Дис­кри­ми­нант об­ра­ща­ет­ся в нуль при  При этом абс­цис­са точки ка­са­ния  удо­вле­тво­ря­ет усло­вию  Сле­до­ва­тель­но,  Ана­ло­гич­но най­дем  дис­кри­ми­нант урав­не­ния  равен  он об­ра­ща­ет­ся в нуль при  При этом абс­цис­са точки ка­са­ния  удо­вле­тво­ря­ет усло­вию  Сле­до­ва­тель­но,  Гра­фи­ки раз­но­мо­но­тон­ных функ­ций имеют не боль­ше одной точки пе­ре­се­че­ния. Квад­ра­тич­ная функ­ция вы­пук­ла, по­это­му имеет с пря­мой не боль­ше двух общих точек. Най­ден­ные точки ка­са­ния  и  лежат на от­рез­ке [0; 2]. Таким об­ра­зом, гра­фи­ки урав­не­ний си­сте­мы рас­по­ло­же­ны так, как по­ка­за­но на ри­сун­ке  (пе­соч­ным цве­том изоб­ра­жен гра­фик пер­во­го урав­не­ния,  гра­фи­ки вто­ро­го урав­не­ния для слу­ча­ев   изоб­ра­же­ны зе­ле­ным и крас­ным цве­том).При    гра­фи­ки пе­ре­се­ка­ют­ся ровно в трех точ­ках. При  и  гра­фи­ки пе­ре­се­ка­ют­ся в ровно в че­ты­рех точ­ках. При  и при  одна из вет­вей гра­фи­ка мо­ду­ля не пе­ре­се­ка­ет­ся с гра­фи­ком вто­ро­го урав­не­ния, а дру­гая ветвь имеет с ним не боль­ше двух точек пе­ре­се­че­ния, по­это­му про­чие зна­че­ния па­ра­мет­ра не удо­вле­тво­ря­ют усло­вию. Ответ:   ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/34/34ede10800c6aee8240f633348037a6a.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cfea1724f6aa4461087f5c90ed4bfa5a.svg",
+            "https://ege.sdamgia.ru/formula/svg/24/2431285196d08b487cadd538faa4e8e5.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d2e9349135be9ac168ef9aff58262244.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5c52e4e67dbe242ab710b3a33cdfa996.svg",
+            "https://ege.sdamgia.ru/formula/svg/87/878f9b0c7e94cf8fa16b3ef21d9c0a12.svg",
+            "https://ege.sdamgia.ru/formula/svg/c1/c13435c46ab89b9cc952d1991d27b041.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7c9085bd04ffbb1da1f3277df331beea.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/9422924c1188fcd766ae273e52cccd89.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/0126e603a8c8b35671f9242ebf88cf76.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1a96d488e904340f5cf071aa10b09418.svg",
+            "https://ege.sdamgia.ru/formula/svg/b2/b258d076be61bca6632b24b2481d47f5.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af8a7728946397ee1e19f44e357856ce.svg",
+            "https://ege.sdamgia.ru/formula/svg/f5/f52b15ba7173be72c23daca0f5862350.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/dba9b96fa1c811c9742ce26215649e87.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/63134e76db42633819d18309c977659e.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2e76a9a8627463933ba6e077d5ffceb7.svg",
+            "https://ege.sdamgia.ru/formula/svg/c0/c01e3b7380a27612648c2e8d1e34c0bf.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4b38b74936fcae2d2fa1e2a7ac8afdf9.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8ee070a083f0e27c1d20ea5f4b7b37d5.svg",
+            "https://ege.sdamgia.ru/formula/svg/69/696cef2c085ea7c38d6fac74cb3414d3.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83254085a0dc33386d4c5293c380c45a.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c926e4aa20a4d49863a721f99a13b6de.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cb4675d7bdee9d4af1287f62aac981fd.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/73523d36d1bf108d1022cae1423ee99d.svg",
+            "https://ege.sdamgia.ru/formula/svg/25/25a378212deff78cc2a7685d92bfd775.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=181030",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa687da0086c1ea060a8838e24611319.svg",
+            "https://ege.sdamgia.ru/formula/svg/87/8732099f74d777a67257cb2f04ead3d8.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/ca4bc0c7183b94c3e5bcd35631c02778.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e882a49504cda0f22f516ff5fd639893.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/ca4bc0c7183b94c3e5bcd35631c02778.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/92cf1c67393503d9746d7926ea233208.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fd352b68bf83391284e044021cab0339.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/39c0967335c31ab68b976ab6c743aa4e.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c9b7806504099034f885c390032a9fd4.svg",
+            "https://ege.sdamgia.ru/formula/svg/12/1210d6c00a61c4b8d56e0e45b21b50a3.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3d66ddc676d247155f89c039d9c9c905.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/09c0bb996e3b2e0887734453d8988807.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "660741",
+        "660748"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=660772"
+}

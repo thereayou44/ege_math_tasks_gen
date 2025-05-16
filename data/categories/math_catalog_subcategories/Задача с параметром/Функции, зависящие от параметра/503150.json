@@ -1,0 +1,73 @@
+{
+    "id": 503150,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых наименьшее значение функции больше 1.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/f8/f84d8d40b870e0dd5ebdab137c081af4.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. При  по­лу­ча­ем, что  Гра­фик этой функ­ции на рас­смат­ри­ва­е­мом про­ме­жут­ке со­сто­ит из двух ча­стей па­ра­бо­лы с вет­вя­ми, на­прав­лен­ны­ми вверх, и осью сим­мет­рии  При  на­хо­дим  а гра­фик этой функ­ции на рас­смат­ри­ва­е­мом про­ме­жут­ке  — часть па­ра­бо­лы с вет­вя­ми, на­прав­лен­ны­ми вниз.Наи­мень­шее зна­че­ние функ­ции  может при­нять толь­ко в точ­ках   или   По­это­му наи­мень­шее зна­че­ние функ­ции   боль­ше 1 тогда и толь­ко тогда, когда: Если  то вто­рое не­ра­вен­ство при­ни­ма­ет вид   от­ку­да   Этот про­ме­жу­ток со­дер­жит ин­тер­вал Если  то  от­ку­да  Зна­чит, Объ­еди­няя най­ден­ные про­ме­жут­ки, по­лу­ча­ем:  Ответ:   При­ведём дру­гое ре­ше­ние.1.  При  функ­ция  при­ни­ма­ет вид:   а ее гра­фик есть две части па­ра­бо­лы с вет­вя­ми, на­прав­лен­ны­ми вверх и осью сим­мет­рии При  функ­ция  при­ни­ма­ет вид:  а ее гра­фик есть часть па­ра­бо­лы с вет­вя­ми, на­прав­лен­ны­ми вниз и осью сим­мет­рии  Воз­мож­ные виды гра­фи­ка функ­ции   по­ка­за­ны на ри­сун­ках.2.  Наи­мень­шее зна­че­ние функ­ция  может при­ни­мать толь­ко в точ­ках  или  а если  (то есть при ), то в точке 3.  Сле­до­ва­тель­но, наи­мень­шее зна­че­ние функ­ции  боль­ше  тогда и толь­ко тогда, когда:Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/f3/f3a7aaed01ef0b1376fe5f7eb7591458.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/564055d0ed86cd15510894ccd343291c.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6f7595444c7e866aa999d2b5c244f640.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/818ded9f49e640457bc6d18960c1ebb1.svg",
+            "https://ege.sdamgia.ru/formula/svg/fe/fe113d652ef7ecb90218d8c136331eb5.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50bbd36e1fd2333108437a2ca378be62.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/52634a5ce8aca5756be2274cf2f12b91.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/dad1533ece96bb22f10da231df9680a5.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6f7595444c7e866aa999d2b5c244f640.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50bbd36e1fd2333108437a2ca378be62.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/ca2d9e0dfd7c2db5434e4aba26732f0b.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bf760a2044165c9cdcf38afca13b0d27.svg",
+            "https://ege.sdamgia.ru/formula/svg/59/59f55385beb79d09ca2c7aa26a68e31d.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e26192ec13836c5d5978e25e67f8afa0.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/7027b83e7932055ef20545611cb72f3b.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4be4a93a308de420591d2fb2d1aa7f37.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/533f0703a91b44d10a97e60c739f9098.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1c479b146175916a6f0b1006bd187bf3.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9ff32ad066818f3a2525b6455f1e1dca.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d311891241dd3f78f371a636f9501671.svg",
+            "https://ege.sdamgia.ru/formula/svg/b2/b29797631232b4aa302f6dbaaf9c4d8d.svg",
+            "https://ege.sdamgia.ru/formula/svg/b6/b62ba786c299151cc6bcaeda8e14890a.svg",
+            "https://ege.sdamgia.ru/formula/svg/b6/b62ba786c299151cc6bcaeda8e14890a.svg",
+            "https://ege.sdamgia.ru/formula/svg/b8/b85d10fee36165e96006c784744d3606.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/0437fb25fd92865655a165b5e82ccc33.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6f7595444c7e866aa999d2b5c244f640.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/818ded9f49e640457bc6d18960c1ebb1.svg",
+            "https://ege.sdamgia.ru/formula/svg/f5/f5094c1263f690d6532e9fd6e5f2e3ef.svg",
+            "https://ege.sdamgia.ru/formula/svg/f2/f29f7b8ec1b71c1962fa387c48920bf1.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50bbd36e1fd2333108437a2ca378be62.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=83498",
+            "https://ege.sdamgia.ru/formula/svg/50/50bbd36e1fd2333108437a2ca378be62.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a255512f9d61a6777bd5a304235bd26d.svg",
+            "https://ege.sdamgia.ru/formula/svg/9a/9a4540c5e070d085d799e52faf124375.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9eefea6c25b2ad8deeb157bc5a2b298f.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e69920ee8aa6d44b5d01641ea3d22b4.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6f7595444c7e866aa999d2b5c244f640.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50bbd36e1fd2333108437a2ca378be62.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c4ca4238a0b923820dcc509a6f75849b.svg",
+            "https://ege.sdamgia.ru/formula/svg/5e/5e0ae70397283b5e61bd264d669866d9.svg",
+            "https://ege.sdamgia.ru/formula/svg/bc/bcaab1e50a24f5fe6decc3f61c7d3c2d.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3dd6061ac687b5616635493ab607b4c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d5bc7629a954eb2d2529faa6e1e5d1ab.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e632cb3689f170db6de8bb59402f189f.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3dd6061ac687b5616635493ab607b4c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/277a3bb2df9346c33f1426efcdc60c29.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a437f3438675f4e4082e70b9c3ba8f5e.svg"
+        ]
+    },
+    "answer": "  ",
+    "analogs": [
+        "485938",
+        "485946",
+        "511452",
+        "...",
+        "485946",
+        "511452",
+        "561198"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=503150"
+}

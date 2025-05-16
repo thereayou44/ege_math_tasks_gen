@@ -1,0 +1,39 @@
+{
+    "id": 642007,
+    "topic": "17",
+    "condition": {
+        "text": "В треугольнике ABC проведены биссектрисы BM и CN. Оказалось, что точки B, C, M и N лежат на одной окружности. а) Докажите, что треугольник ABC равнобедренный.б) Пусть P — точка пересечения биссектрис этого треугольника. Найдите площадь четырёхугольника AMPN, если и BN = 6.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/61/61cebdf832d8f3057280f631b58f98a0.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. a)  Впи­сан­ные углы MBN и MCN опи­ра­ют­ся на одну и ту же дугу MN окруж­но­сти, зна­чит, эти углы равны. По­сколь­ку BM и CN  —  бис­сек­три­сы углов ABC и BCA, по­лу­ча­ем, что  и, сле­до­ва­тель­но, тре­уголь­ник ABC рав­но­бед­рен­ный.б)  Пусть пря­мая AP пе­ре­се­ка­ет сто­ро­ну BC в точке K. Тогда AK  — вы­со­та и ме­ди­а­на рав­но­бед­рен­но­го тре­уголь­ни­ка ABC. По свой­ству бис­сек­три­сы тре­уголь­ни­ка  Зна­чит, по об­рат­ной тео­ре­ме Фа­ле­са пря­мые MN и BC па­рал­лель­ны. Тогда  и тре­уголь­ник BMN рав­но­бед­рен­ный, BN  =  MN. По усло­вию  Пусть  и  где По­сколь­ку  по­лу­ча­ем, что  сле­до­ва­тель­но,  и  Из пря­мо­уголь­но­го тре­уголь­ни­ка ABK на­хо­дим  От­ре­зок BP  — бис­сек­три­са тре­уголь­ни­ка ABK, зна­чит,  сле­до­ва­тель­но, Пря­мая AK пер­пен­ди­ку­ляр­на пря­мой BC, пря­мая BC па­рал­лель­на пря­мой MN, зна­чит, пря­мая AP пер­пен­ди­ку­ляр­на пря­мой MN. Тогда  Ответ: б) ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/41/41349a49cbf455875f87bb8a3896e5c2.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=135836",
+            "https://ege.sdamgia.ru/formula/svg/b1/b1f3b6fab14773daf9d9af88431983dc.svg",
+            "https://ege.sdamgia.ru/formula/svg/75/75714093776bd4d817d71f5349a10e55.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cd0a758d318b96514abf7547d0a56cdb.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b5596c8465738bbabcc47079abd15acc.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/571190e98fd39cc974b44b9f0c83099f.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/727d34e2fc105a9619c47dd16f39cf00.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/dfa166b68427e46f7c4dd995169f88e5.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/6871e9c03a0f72ab84f42c8cc288440d.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c39f5464190cf8570784d98903a490ff.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9f1729b30251eaa04cc59cf4ab4e5731.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cb4d92dd8ebada6354f07654ddb2dbc9.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/89de19a18d07865ceb5e017d2a1ab5d5.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/6350327911d6620312fb876debe94b4b.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/503d6d52af561be85914e58e5f7abc01.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/acc20aee0eca7c753bd3d5bf2f604152.svg"
+        ]
+    },
+    "answer": " б) ",
+    "analogs": [
+        "530404",
+        "530436",
+        "642025"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=642007"
+}

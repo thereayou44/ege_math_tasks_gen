@@ -1,0 +1,29 @@
+{
+    "id": 515767,
+    "topic": "18",
+    "condition": {
+        "text": "При каких значениях а уравнение имеет ровно три корня?",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/85/85fd7c193578093751e7a9afa8737684.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Гра­фик функ­ции   — па­ра­бо­ла, от­ра­жен­ная от­но­си­тель­но оси Ox. Вер­ши­на   — это точка (a; 3a − 1), она пе­ре­ме­ща­ет­ся по пря­мой Ясно, что три ре­ше­ния будет при  и в слу­чае ка­са­ния пря­мой  и  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/da/dafd759a2fa40bb762788704575b9f29.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a80e70cb35440bd2a84b0db7a03949f.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0df1e5b928916684004df7f4a4cb8fb2.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=151032",
+            "https://ege.sdamgia.ru/formula/svg/de/ded681eaa02d11064c9a469dd1b3e04c.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af2f27f723474adf474378369e22b05a.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf02f15a443e03bd798594af71c13351.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/df2f51423c426f5430e3a4258829a2c1.svg",
+            "https://ege.sdamgia.ru/formula/svg/77/778acc490c943c2c7f8593253a186a61.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "485982"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=515767"
+}

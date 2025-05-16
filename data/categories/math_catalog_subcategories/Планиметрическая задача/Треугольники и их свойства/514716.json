@@ -1,0 +1,32 @@
+{
+    "id": 514716,
+    "topic": "17",
+    "condition": {
+        "text": "На сторонах AC и BC треугольника ABC вне треугольника построены квадраты ACDE и BFKC. Точка M — середина стороны AB.а) Докажите, что б) Найдите расстояния от точки M до центров квадратов, если AC = 6, BC = 10 и ∠ACB = 30°.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/88/887b1feaaee99e825c25f0187967cca1.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  До­стро­им тре­уголь­ник ABC до па­рал­ле­ло­грам­ма ALBC, тогда M − точка пе­ре­се­че­ния его диа­го­на­лей.  AL = BC = KC . AC = CD. Тогда тре­уголь­ни­ки LAC и KCD равны по двум сто­ро­нам и углу между ними. От­ку­да LC = KD, а  Рис. 1 Рис. 2б)  Пусть O1  — центр квад­ра­та CKFB. Тогда MO1  — сред­няя линия тре­уголь­ни­ка AKB. Най­дем те­перь AK по тео­ре­ме ко­си­ну­сов из тре­уголь­ни­ка ACK.    от­ку­да   За­ме­тим, что дру­гое рас­сто­я­ние DB будет таким же, так тре­уголь­ни­ки AKC и BDC равны (AC = CD, BC = CK, ).  Ответ: б) 7.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/be/be4ff74903343a6d10a2254173929508.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cb2db70236f4afaae7b3f5d5f1efcc33.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=145388",
+            "https://math-ege.sdamgia.ru/get_file?id=145389",
+            "https://ege.sdamgia.ru/formula/svg/9b/9b18681f63003108c655158ccb942b2e.svg",
+            "https://ege.sdamgia.ru/formula/svg/7e/7e69ceaca4707e1f9d045c763b30c663.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/84a9186b5e9a2c97d3c4006d23f63aca.svg",
+            "https://ege.sdamgia.ru/formula/svg/a5/a52c1e9ea1300cacf890a5737002f8b0.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/de39c1b80738d7322e4c6f2dcaa1f6ac.svg",
+            "https://ege.sdamgia.ru/formula/svg/be/be35754c6466d9f071ac99327659b0e6.svg"
+        ]
+    },
+    "answer": " б) 7.",
+    "analogs": [
+        "513281",
+        "515708",
+        "515784"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=514716"
+}

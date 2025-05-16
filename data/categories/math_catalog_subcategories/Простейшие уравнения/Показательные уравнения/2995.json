@@ -1,0 +1,52 @@
+{
+    "id": 2995,
+    "topic": "6",
+    "condition": {
+        "text": "Найдите корень уравнения",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/e4/e4c904dccdf5d176a5401145b80103cd.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пе­рей­дем к од­но­му ос­но­ва­нию сте­пе­ни: Ответ: 7,5.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/a3/a327b7d5e598afb572cfe61a7350346c.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d8e49990aae21db0b024511dec1e3439.svg",
+            "https://ege.sdamgia.ru/formula/svg/77/773585b170a8b5551d510d4910447204.svg"
+        ]
+    },
+    "answer": "7,5",
+    "analogs": [
+        "26655",
+        "2949",
+        "509617",
+        "...",
+        "2949",
+        "509617",
+        "510483",
+        "2951",
+        "2953",
+        "2955",
+        "2957",
+        "2959",
+        "2961",
+        "2963",
+        "2965",
+        "2967",
+        "2969",
+        "2971",
+        "2973",
+        "2975",
+        "2977",
+        "2979",
+        "2981",
+        "2983",
+        "2985",
+        "2987",
+        "2989",
+        "2991",
+        "2993",
+        "509372"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=2995"
+}

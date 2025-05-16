@@ -1,0 +1,25 @@
+{
+    "id": 640512,
+    "topic": "6",
+    "condition": {
+        "text": "Решите уравнение Если уравнение имеет больше одного корня, в ответ запишите меньший из корней.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/4b/4b39bfea0e405bc42d56a0fa2bdc0906.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Вне­сем минус под знак ло­га­риф­ма пра­вой части:Ответ: 1.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/78/78d71c7779e326b57d2baf3efd6fde43.svg",
+            "https://ege.sdamgia.ru/formula/svg/69/69d740a6c263481f473a757544d1ad46.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cfa53f93c7436ca73c0703a971235da8.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54951ef43df69c7cb7c5846bddf541af.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d418619fcf27a2bb48f0274750ea1f7f.svg"
+        ]
+    },
+    "answer": "1",
+    "analogs": [
+        "639943"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=640512"
+}

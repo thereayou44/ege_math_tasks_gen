@@ -1,0 +1,30 @@
+{
+    "id": 654475,
+    "topic": "2",
+    "condition": {
+        "text": "На координатной плоскости изображены векторы и Найдите значение выражения",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=165018",
+            "https://ege.sdamgia.ru/formula/svg/df/df949d1030b9b6813140a0c130bf505f.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fcdd61484b31af8082ca2030cea8f4f6.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a13f2cd9a2b976ee283e9fa03e3df42f.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/887702f72ade694524df11717d8cbc9c.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Вы­пи­шем ко­ор­ди­на­ты век­то­ров:    Най­дем ко­ор­ди­на­ты век­то­ра  Ска­ляр­ное про­из­ве­де­ние равно:Ответ: −3.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/f9/f91699b3c3226f8fd84ea1755240bc75.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/07893b1abcdc571a8aa0002d64a3c2a8.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fb9d4e8788fdf5b0c469351fb3118220.svg",
+            "https://ege.sdamgia.ru/formula/svg/bd/bda0e13b77408f3dfde654d2df87f84f.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a2cb1db434d5d7ab261f3f4d64c15752.svg",
+            "https://ege.sdamgia.ru/formula/svg/9a/9afaa5c69262f4dc5ed0e780bc3c2553.svg"
+        ]
+    },
+    "answer": "-3",
+    "analogs": [
+        "649902"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=654475"
+}

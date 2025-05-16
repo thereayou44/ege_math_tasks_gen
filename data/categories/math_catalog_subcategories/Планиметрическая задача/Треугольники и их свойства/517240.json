@@ -1,0 +1,36 @@
+{
+    "id": 517240,
+    "topic": "17",
+    "condition": {
+        "text": "Прямая, проходящая через середину M гипотенузы AB прямоугольного треугольника ABC, перпендикулярна CM и пересекает катет AC в точке K. При этом AK : KC = 1 : 2.а) Докажите, что б) Пусть прямые MK и BC пресекаются в точке P, а прямые AP и BK — в точке Q. Найдите KQ, если BC =",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/63/63e0a2bf62f4bd55d396e3bef5fbb7c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fdfbb42df7a5ce999654af7934100d75.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.  а)  Пусть E  — се­ре­ди­на KC. MC = MA,  KC = AE,  зна­чит,  Тогда ME  — ме­ди­а­на пря­мо­уголь­но­го тре­уголь­ни­ка CMK, про­ве­ден­ная из вер­ши­ны пря­мо­го угла. Зна­чит,  Сле­до­ва­тель­но, б)  Из пря­мо­уголь­ных тре­уголь­ни­ков ABC и KBC на­хо­дим, что  Через вер­ши­ну A про­ве­дем пря­мую, па­рал­лель­ную BC. Пусть T  — точка пе­ре­се­че­ния этой пря­мой с пря­мой MK, а D  — точка пе­ре­се­че­ния пря­мой BK с пря­мой AT.Из ра­вен­ства тре­уголь­ни­ков AMT и BMP по­лу­ча­ем, что  а из по­до­бия тре­уголь­ни­ков CKP и AKT сле­ду­ет, что  Зна­чит, B  — се­ре­ди­на CP.Тре­уголь­ник AKD по­до­бен тре­уголь­ни­ку CKB с ко­эф­фи­ци­ен­том  по­это­му  а так как  AD  — сред­няя линия тре­уголь­ни­ка BQP. Зна­чит,  Сле­до­ва­тель­но,  Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=133316",
+            "https://ege.sdamgia.ru/formula/svg/a8/a81032c94718f6ff3a5441909b8be5ad.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b7109f5593a3b654d1624ba4a372bd46.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/5709219324ceb49e816103db1ecb846b.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/30177527cb05e281a935e08c58d606aa.svg",
+            "https://ege.sdamgia.ru/formula/svg/b2/b2d73a5ea4aaa4a1d0844f38f9e7e301.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/dd2773c7f435c199373891afcf35daa8.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/820d04c28a8acded4e57768a5e83f50a.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/41433bdd60f3648028745a1581569cc1.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/31b5e2c92ab59936a80ad0a946c0f18f.svg",
+            "https://ege.sdamgia.ru/formula/svg/59/599b53bb09e1371dba0119bc3d605ea4.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f60ea5c6e58f4aaf801f3fcfa4fd02c4.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/096aeeb6beea66458de6890120703c1b.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/402e8d93929381b0376f7fab24fc6ba1.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d21b18ac217cba81f1870f0b1fc8eb41.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "517202"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=517240"
+}

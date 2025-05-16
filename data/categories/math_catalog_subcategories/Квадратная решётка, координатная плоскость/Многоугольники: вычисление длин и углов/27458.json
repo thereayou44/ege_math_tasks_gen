@@ -1,0 +1,30 @@
+{
+    "id": 27458,
+    "topic": "Д4",
+    "condition": {
+        "text": "Найдите косинус угла В ответе укажите значение косинуса, умноженное на",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=30623",
+            "https://ege.sdamgia.ru/formula/svg/e4/e4a893c3641ff45ea8d60057a30cf1e2.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f4d37e7851c16136e1b284902603ca2e.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. до­стро­им угол до тре­уголь­ни­ка  Из ри­сун­ка на­хо­дим    Вос­поль­зу­ем­ся тео­ре­мой ко­си­ну­сов: Тогда:   Ответ: −2.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=30620",
+            "https://ege.sdamgia.ru/formula/svg/8b/8b6079c8f4d3ff12a5ef4eb3fd968729.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3c282705005d860652eb38ff8ace994f.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4b6b88af64ec601f801307cf4aa4e08d.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/40a3d9fc82ccf0b78b5cbd8df36b7dee.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/827473d544ddc6f740c0085817b33008.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0da178efb4c5b53c4678b2c668077a96.svg"
+        ]
+    },
+    "answer": "-2",
+    "analogs": [
+        "27459",
+        "27457"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=27458"
+}

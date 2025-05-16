@@ -1,0 +1,48 @@
+{
+    "id": 562217,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых линии и ограничивают многоугольник, площадь которого не более 0,5.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/8b/8b471fd3599d738ea6619d252ad9fb97.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/0023004a499b96919cf6925d39f6921e.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­ме­тим, что если линии  и  огра­ни­чи­ва­ют фи­гу­ру, то её пло­щадь будет равна пло­ща­ди фи­гу­ры, огра­ни­чен­ной ли­ни­я­ми  и   При  линии па­рал­лель­ны и мно­го­уголь­ник не об­ра­зу­ют. Пусть  Тогда линии  и  огра­ни­чи­ва­ют тре­уголь­ник (см. рис.), если  то есть при a < 4. Абс­цис­сы точек пе­ре­се­че­ния линий да­ют­ся урав­не­ни­емПо­это­му пло­щадь тре­уголь­ни­ка равна Эта пло­щадь не долж­на пре­вы­шать 0,5, от­ку­да по­лу­ча­ем:  С уче­том усло­вия  по­лу­чим:   Пусть  Линии  и  огра­ни­чи­ва­ют тре­уголь­ник (см. рис.) при  то есть при  Абс­цис­сы точек пе­ре­се­че­ния линий да­ют­ся урав­не­ни­емПо­это­му пло­щадь по­лу­чен­но­го тре­уголь­ни­ка равна Эта пло­щадь не долж­на пре­вы­шать 0,5, от­ку­да по­лу­ча­ем:   С уче­том усло­вия  по­лу­чим   Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/8b/8b471fd3599d738ea6619d252ad9fb97.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/0023004a499b96919cf6925d39f6921e.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/847c658510c97e0db8a835ab082bcdb4.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e7ed37e6799dfc2a4b2ecb9592a347df.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=85157",
+            "https://ege.sdamgia.ru/formula/svg/de/ded681eaa02d11064c9a469dd1b3e04c.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/4084f3758fc870e203e5266ed5366657.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2ac1e45d18c8005db667e8cec379098b.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/0023004a499b96919cf6925d39f6921e.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/cc67d3b836954ccc8ba1c662532a6c68.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/21c8206b8c0b3c1345c12b4ff18f45dc.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b1c1473004b6f9b71671fa3c2e2e177d.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1b9eeb446246283dafade17350b1b35c.svg",
+            "https://ege.sdamgia.ru/formula/svg/33/33fbd059136cada760c3aea1d4536201.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/72afeb332c04986d1b07245dc0bb0375.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=85158",
+            "https://ege.sdamgia.ru/formula/svg/37/374b8cac98be5cddd8ee9db8cdef1ff4.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8ebb59c3cd99207dda37b35563389cae.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/0023004a499b96919cf6925d39f6921e.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4a2cf4cec295566df35fa6af46062a46.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a400068b0dbfc51fb4d85bd9b3b1c67e.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f3afe6f292d84b03869259ad04968fcc.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/29cceab2761c9f85f5d55a07b57a8874.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1ce7077a51d1f26f7d30a56ce74d2646.svg",
+            "https://ege.sdamgia.ru/formula/svg/eb/eb716e85dddd8128ed1af4e46360fc26.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/412c7955c5d43a22ca4db2a4038fc277.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0bc85e1a1104b431729832cdf6fccacf.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "562219"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=562217"
+}

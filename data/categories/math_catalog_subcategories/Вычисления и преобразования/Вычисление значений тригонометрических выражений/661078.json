@@ -1,0 +1,31 @@
+{
+    "id": 661078,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите значение выражения",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/e0/e0c346a01f7a2205b687ca94ffad4aa4.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Ис­поль­зу­ем фор­му­лу ко­си­ну­са двой­но­го угла :Ответ: 6.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/61/61cc8891c27122a7ea5affe8724aa951.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/513b9ecbb8d2cbec7db0cd3b4377470f.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/00a892197c6efb40e87cda348b0a1971.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fb7dccc213546183f8b9f9c1dccdff75.svg"
+        ]
+    },
+    "answer": "6",
+    "analogs": [
+        "504824",
+        "562932",
+        "562977",
+        "660714",
+        "...",
+        "562932",
+        "562977",
+        "660714"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=661078"
+}

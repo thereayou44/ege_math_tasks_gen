@@ -1,0 +1,39 @@
+{
+    "id": 526329,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых уравнение имеет ровно два различных решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/4d/4df05c8086b303fa55c84c30413c60bc.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­ме­тим, что Изоб­ра­зим ре­ше­ние в си­сте­ме ко­ор­ди­нат xOa. Гра­фи­ком си­сте­мы, а зна­чит, и гра­фи­ком ис­ход­но­го урав­не­ния яв­ля­ет­ся па­ра­бо­ла с вы­ко­ло­ты­ми точ­ка­ми.Ор­ди­на­ты точек пе­ре­се­че­ния па­ра­бо­лы  и пря­мой  найдём из урав­не­ния  По­лу­ча­ем  или  Ор­ди­на­ты точек пе­ре­се­че­ния па­ра­бо­лы  и пря­мой  найдём из урав­не­ния    По­лу­ча­ем  или  Ровно два ре­ше­ния ис­ход­ное урав­не­ние имеет при     Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=151338",
+            "https://ege.sdamgia.ru/formula/svg/da/da1a337de7ed1d5ba58736da7f6505a1.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0d83221b6a692ac282846c35261192aa.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e379130e618f681c5c6ab632bf685721.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/ddeee4635f506ae1a66eb35e3b01dfa5.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/623badcce4cc51574c6347450911278b.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/741f2fb6c352f642cbb252dc577ba058.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/ded681eaa02d11064c9a469dd1b3e04c.svg",
+            "https://ege.sdamgia.ru/formula/svg/25/2555366c58884bb1d4147215f2ab58d6.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/ddeee4635f506ae1a66eb35e3b01dfa5.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/ac5185b22adf00067f3ac5c7e9e7ebd3.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f4342b2e128fb255607f78634fa09400.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/ded681eaa02d11064c9a469dd1b3e04c.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/073073939b4d4713d2c983d3546c7b1c.svg",
+            "https://ege.sdamgia.ru/formula/svg/46/46944d8456eb3ef88320d72e2aa54d5b.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3d88b823cf237d8fb22856e2928da814.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a31a39c90579e17eac33a46ef6538822.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dcad832fc6eb8eff76f0d9cc4ffd3146.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/707bf65d3c496a6052ecf11fcaae56e7.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "526294"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=526329"
+}

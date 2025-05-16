@@ -1,0 +1,52 @@
+{
+    "id": 65331,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/a8/a86cef9f699f8c2bc21727572571f792.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/015f3c751781d4cf4016a575963fce57.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Най­ди­те  если Раз­де­лим чис­ли­тель и зна­ме­на­тель на :  Тогда    Ответ: 8.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/a8/a86cef9f699f8c2bc21727572571f792.svg",
+            "https://ege.sdamgia.ru/formula/svg/5e/5e36c828c70d4509cab5c00142c9efd8.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4dc86bcc4da107ee7959075512d77e7a.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/5697ba532f0fe1b31e4b69a6c9e3a634.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/378c2e264d36700f7f11c7f9573e0005.svg"
+        ]
+    },
+    "answer": "0",
+    "analogs": [
+        "26790",
+        "65363",
+        "65319",
+        "65321",
+        "...",
+        "65363",
+        "65319",
+        "65321",
+        "65323",
+        "65325",
+        "65327",
+        "65329",
+        "65333",
+        "65335",
+        "65337",
+        "65339",
+        "65341",
+        "65343",
+        "65345",
+        "65347",
+        "65349",
+        "65351",
+        "65353",
+        "65355",
+        "65357",
+        "65359",
+        "65361"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=65331"
+}

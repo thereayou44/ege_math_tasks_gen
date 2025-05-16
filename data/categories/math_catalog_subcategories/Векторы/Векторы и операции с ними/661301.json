@@ -1,0 +1,34 @@
+{
+    "id": 661301,
+    "topic": "2",
+    "condition": {
+        "text": "На координатной плоскости изображены векторы и Найдите длину вектора",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=181295",
+            "https://ege.sdamgia.ru/formula/svg/03/032e291fd1e5592fcd3b7abe2ea18bef.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/9123a02603bf84810303449dc2b862bf.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/de63b198133fc8cabcbb8ffe0b8584af.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Вы­пи­шем ко­ор­ди­на­ты век­то­ров:  и  Най­дем ко­ор­ди­на­ты век­то­ра Най­дем длину век­то­ра:Ответ: 5.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/7d/7d790acccce7c85d9e15820a20e7ed01.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b772c3fb8f70f38482bc3001f73aee2a.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/13febe8c9305e6d3a2d392c5ff1a9562.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/970c4da0046f822de3f7346501180db3.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2a78408be08e9db9287cb61d0b42f947.svg"
+        ]
+    },
+    "answer": "5",
+    "analogs": [
+        "649905",
+        "654476",
+        "676845",
+        "...",
+        "654476",
+        "676845",
+        "676922"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=661301"
+}

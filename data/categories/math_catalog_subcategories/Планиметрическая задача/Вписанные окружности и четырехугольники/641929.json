@@ -1,0 +1,34 @@
+{
+    "id": 641929,
+    "topic": "17",
+    "condition": {
+        "text": "Диагонали AC и BD четырёхугольника ABCD, вписанного в окружность, пересекаются в точке P, причём BC = CD.а) Докажите, что б) Найдите площадь треугольника COD, где O — центр окружности, вписанной в треугольник ABD, если дополнительно известно, что BD — диаметр описанной около четырёхугольника ABCD окружности, AB = 8, a",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/c2/c2c3c6510d63b88acf2b2cb05aa0d387.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83f814eb2f32fd708cc1fef3bbf82c54.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. a)  Впи­сан­ные углы BAC и DAC опи­ра­ют­ся на рав­ные хорды, по­это­му они равны (см. рис. верх­ний). Впи­сан­ные углы ADB и ACB опи­ра­ют­ся на одну и ту же дугу, по­это­му  Зна­чит, тре­уголь­ни­ки ADP и ACB по­доб­ны по пер­во­му при­зна­ку (по двум углам). Сле­до­ва­тель­но, б)  Точки A и C лежат на окруж­но­сти с диа­мет­ром BD, зна­чит, тре­уголь­ни­ки ABD и BCD пря­мо­уголь­ные (см рис. ниж­ний). Кроме того, по усло­вию тре­уголь­ник BCD рав­но­бед­рен­ный, по­это­му  Катет AB пря­мо­уголь­но­го тре­уголь­ни­ка ABD равен по­ло­ви­не ги­по­те­ну­зы BD, по­это­му  и Центр окруж­но­сти, впи­сан­ной в тре­уголь­ник,  — точка пе­ре­се­че­ния его бис­сек­трис, по­это­му точка O лежит на бис­сек­три­се AC угла BAD и на бис­сек­три­се угла ADB. Тогда:    сле­до­ва­тель­но,Таким об­ра­зом, тре­уголь­ник COD рав­но­сто­рон­ний, причём  Сле­до­ва­тель­но, пло­щадь тре­уголь­ни­ка COD равна   Ответ: б) ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=135666",
+            "https://ege.sdamgia.ru/formula/svg/40/400f619bcf7b4a0d391ae5a01c3be7d0.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0d070d5f4a79bc8edaf7f1ed8e2c2d69.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/dede5e4cdeb0da507538ea921a4ca4d9.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fb54aff67b54b4660611f0ee6fdfba7f.svg",
+            "https://ege.sdamgia.ru/formula/svg/87/87fbc6cb17d326be2b73a0c5c726179f.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=135658",
+            "https://ege.sdamgia.ru/formula/svg/73/734bb820bcbac2324210a25ca4f33223.svg",
+            "https://ege.sdamgia.ru/formula/svg/8d/8d5ba5cd6bb6a45c1bbea92797881718.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/57d9fa656d47b9788bde81ee9dfbb2c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8faaa76e8063cc5be13eaed7e73c5bcb.svg",
+            "https://ege.sdamgia.ru/formula/svg/98/98bc9e80b0a804894ad7a1a2adbf6c33.svg",
+            "https://ege.sdamgia.ru/formula/svg/98/98bc9e80b0a804894ad7a1a2adbf6c33.svg"
+        ]
+    },
+    "answer": " б) ",
+    "analogs": [
+        "514374"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=641929"
+}

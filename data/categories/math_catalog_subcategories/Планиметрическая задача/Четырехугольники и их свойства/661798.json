@@ -1,0 +1,30 @@
+{
+    "id": 661798,
+    "topic": "17",
+    "condition": {
+        "text": "На сторонах BC и CD квадрата ABCD отмечены точки E и K соответственно. Известно, что AE = 3, EK = 1, а) Докажите, что б) Найдите площадь четырехугольника ABCK.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/4e/4eaf27faa145856f698eb4c6ca417858.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/ed7739c30d1d914fdd5a10147a98882c.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  За­ме­тим, что  зна­чит,  по об­рат­ной тео­ре­ме Пи­фа­го­ра. Тогда  Сле­до­ва­тель­но, тре­уголь­ни­ки ABE и ECK по­доб­ны по двум углам. Из по­до­бия имеем:б)  Ко­эф­фи­ци­ент по­до­бия тре­уголь­ни­ков ABE и ECK равен 3. Пусть AB  =  3x, BE  =  3y, EC  =  x, CK  =  y. Из ра­вен­ства сто­рон квад­ра­та по­лу­ча­ем: Из пря­мо­уголь­но­го тре­уголь­ни­ка ABE по тео­ре­ме Пи­фа­го­ра:Так как че­ты­рех­уголь­ник ABCK  — пря­мо­уголь­ная тра­пе­ция, еe пло­щадь можно за­пи­сать так:Ответ: б) ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=182167",
+            "https://ege.sdamgia.ru/formula/svg/bc/bcfdec0d89fc7c7c65306dfe6f79dbc5.svg",
+            "https://ege.sdamgia.ru/formula/svg/9d/9d407ce2d38281ff5a898a2a70c91f36.svg",
+            "https://ege.sdamgia.ru/formula/svg/c0/c000ed0ff650115caa250703537ffda6.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/da5a6bf324097c6d68f5e42ad7185f94.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/70b22459922fc1e68ec80855478f513d.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/73a2708958001363bfe73c7c5a79c55f.svg",
+            "https://ege.sdamgia.ru/formula/svg/b8/b86080eb451f0aeffd89fec4aaa6e94b.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7cd88264bc588e9f965df3fc415463e6.svg"
+        ]
+    },
+    "answer": " б) ",
+    "analogs": [
+        "661791"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=661798"
+}

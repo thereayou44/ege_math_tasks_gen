@@ -1,0 +1,45 @@
+{
+    "id": 511431,
+    "topic": "18",
+    "condition": {
+        "text": "Найти все значения a, при каждом из которых система имеет решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/18/18aacf419ff086d69367958a08979dec.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Рас­смот­рим вто­рое не­ра­вен­ство си­сте­мы:  Если  то не­ра­вен­ство, а зна­чит и си­сте­ма не имеет ре­ше­ний. Если  то ре­ше­ние не­ра­вен­ства  — луч  Если  то ре­ше­ние не­ра­вен­ства  — луч  При  пер­вое не­ра­вен­ство си­сте­мы при­ни­ма­ет вид:  Если  то ре­ше­ние этой си­сте­мы  — два луча с кон­ца­ми в точ­ках  Если  то ре­ше­ние этой си­сте­мы  — по­лу­ин­тер­вал с кон­ца­ми в точ­ках  Тогда при  ре­ше­ние си­сте­мы будет со­дер­жать луч, вида  где b мень­шее из чисел  и   а зна­чит си­сте­ма будет иметь ре­ше­ние.Чтобы ре­ше­ния были при   не­об­хо­ди­мо и до­ста­точ­но: Таким об­ра­зом,  ис­ход­ная си­сте­ма не­ра­венств имеет ре­ше­ния при  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/48/481f286a574713b56c5c5c742de39256.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dc9791942c5716d51249089473cef5ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0de17a07ddf50a417730eb39560a262b.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a71147867bf383373a99d1f771457b3f.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e1c5062ae7aa688577091cc4009d8dd.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/ac980555671c64f6a3c0c933f10eb487.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/622559a6ed31bc647608bcba685f5d98.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cfaa678647399a081b35335fadb9e00a.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a2b8877e98634da0e33a9c016bbd64f8.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/90d47fa447612e1e3dcdf69a8046b060.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c415a256e3138cc431805b1e783a1f8.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e1c5062ae7aa688577091cc4009d8dd.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/acce5161923c898fc49516152e31a25f.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0de17a07ddf50a417730eb39560a262b.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/acce5161923c898fc49516152e31a25f.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e1c5062ae7aa688577091cc4009d8dd.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a9f3d488b8ee345fe2bc86a16121f0bd.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/01ffa477369112eb3d603a4c5ca01c18.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0fc08b009e49e86ccbb15b9dd03811ac.svg",
+            "https://ege.sdamgia.ru/formula/svg/9b/9b30fdf9a09acbb5d41e727cbd07569c.svg",
+            "https://ege.sdamgia.ru/formula/svg/5b/5bea71db0f06df8225f85db9dc2258f2.svg",
+            "https://ege.sdamgia.ru/formula/svg/5b/5b46d896798cd8814288293d71456546.svg",
+            "https://ege.sdamgia.ru/formula/svg/98/98e05faa2848745dd380708e457a1004.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "484627",
+        "484628",
+        "507483"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511431"
+}

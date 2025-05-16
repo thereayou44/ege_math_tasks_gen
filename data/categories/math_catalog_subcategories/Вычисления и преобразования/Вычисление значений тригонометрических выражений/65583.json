@@ -1,0 +1,55 @@
+{
+    "id": 65583,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/db/dbde521d7def44a8c9cb2d1c7ce38e9b.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/5072c2a79b7ca9ff22a7a76496aaef48.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Най­ди­те  если Вы­пол­ним пре­об­ра­зо­ва­ния: Ответ: −7.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/e3/e343de3223376e31791f2494e5ceb8dc.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7a2a4959cae9e8853a5f29fd40114cd9.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/867945c80f886c4d4c7797e95752263b.svg"
+        ]
+    },
+    "answer": "-3",
+    "analogs": [
+        "26794",
+        "65603",
+        "559403",
+        "559597",
+        "...",
+        "65603",
+        "559403",
+        "559597",
+        "65553",
+        "65555",
+        "65557",
+        "65559",
+        "65561",
+        "65563",
+        "65565",
+        "65567",
+        "65569",
+        "65571",
+        "65573",
+        "65575",
+        "65577",
+        "65579",
+        "65581",
+        "65585",
+        "65587",
+        "65589",
+        "65591",
+        "65593",
+        "65595",
+        "65597",
+        "65599",
+        "65601"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=65583"
+}

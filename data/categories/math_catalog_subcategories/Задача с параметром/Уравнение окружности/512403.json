@@ -1,0 +1,36 @@
+{
+    "id": 512403,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра а, при каждом из которых системане имеет решений.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/fd/fd1eecb20c5b7a04b9eb85281fd1cdb7.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­пи­шем си­сте­му в видеЕсли а ≠ 1, а ≠ 2 , то каж­дое урав­не­ние си­сте­мы есть урав­не­ние окруж­но­сти. В этом слу­чае си­сте­ма не имеет ре­ше­ний тогда и толь­ко тогда, когда рас­сто­я­ние между цен­тра­ми этих окруж­но­стей боль­ше суммы или мень­ше раз­но­сти их ра­ди­у­сов. При а  =  1 имеем си­сте­муЭта си­сте­ма ре­ше­ний не имеет. Сле­до­ва­тель­но, а  =  1 удо­вле­тво­ря­ет усло­вию за­да­чи. При а  =  2 имеем си­сте­муЭта си­сте­ма тоже ре­ше­ний не имеет. Сле­до­ва­тель­но, и а  =  2 удо­вле­тво­ря­ет усло­вию за­да­чи. Пусть а ≠ 1, а ≠ 2. Рас­сто­я­ние O1O2 между цен­тра­ми  и  равно  а ра­ди­у­сы  и  Решим два не­ра­вен­ства: (1)  и (2) Не­ра­вен­ство (1) имеет вид  не­ра­вен­ство (2) имеет вид  Ре­ше­ни­ем не­ра­вен­ства (1) яв­ля­ют­ся про­ме­жут­ки  и  Ре­ше­ни­ем не­ра­вен­ства (2) яв­ля­ет­ся про­ме­жу­ток  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/60/60a2ada85f2b38a84158ba1bfb05319e.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bfb8870259f54bfb643052db4d3b1714.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/327b2666eb0926d2d33afd4ff9a44391.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/ccfb0de5e83920d2388bf9583d5ff4d2.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/6540307a363a1b7a2331a4f3169c3661.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/34be195dd2a994a3217cdba9df734a9d.svg",
+            "https://ege.sdamgia.ru/formula/svg/8d/8d522b3709ed667c60195ec0e907a7d4.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e235df2af234b2bb26c76544dbf6f0ef.svg",
+            "https://ege.sdamgia.ru/formula/svg/20/20a2dfb5f01cc772d247feee10018d25.svg",
+            "https://ege.sdamgia.ru/formula/svg/93/93b5fb471a2b9daf4392eecd6e62083e.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/946e40254431907514e98e8c925dadcd.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e5c84577f19f7348950b12e4a8098902.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/79d74efbb8737b7c62b4bdd5c892cbff.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d47de40eb9913fc300e951d62e9983c3.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/161962615022354ea220da17d61cffb9.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fb690b9ae046b2133f7f27d1b8b4b38a.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "512361"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=512403"
+}

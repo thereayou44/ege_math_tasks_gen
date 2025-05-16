@@ -1,0 +1,37 @@
+{
+    "id": 627985,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображены графики функций и которые пересекаются в точках A и B. Найдите абсциссу точки B.",
+        "images": [
+            "https://ege.sdamgia.ru/get_file?id=104957",
+            "https://ege.sdamgia.ru/formula/svg/e4/e47173d714d599278855d1fd1baf4563.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/065a0419a0417df3275e9319f03327f6.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По гра­фи­ку, g(−1)  =  2, g(1)  =  0, g(2)  =  2. Тогда Тогда Из g(2)  =  2 по­лу­чим c  =  0. Те­перь найдём абс­цис­су точки B: Таким об­ра­зом, ответ  — 6. Ответ: 6.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/4b/4b7db0c3245a49e61c6560dbd40cb6a2.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f06d3146421ddd6abb8cbe0352bcc5b4.svg",
+            "https://ege.sdamgia.ru/formula/svg/c5/c50d64101ceedba44be0097cdacfb158.svg"
+        ]
+    },
+    "answer": "6",
+    "analogs": [
+        "509149",
+        "509150",
+        "509151",
+        "509152",
+        "...",
+        "509150",
+        "509151",
+        "509152",
+        "509153",
+        "509154",
+        "509155",
+        "509156",
+        "509157"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=627985"
+}

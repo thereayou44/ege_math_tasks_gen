@@ -1,0 +1,38 @@
+{
+    "id": 517456,
+    "topic": "16",
+    "condition": {
+        "text": "В июле 2020 года планируется взять кредит в банке на некоторую сумму. Условия его возврата таковы: — Каждый январь долг увеличивается на r% по сравнению с концом предыдущего года; — с февраля по июнь каждого года необходимо выплатить одним платежом часть долга.Если ежегодно выплачивать по 77 760 руб, то кредит будет полностью погашен за 4 года, а если ежегодно выплачивать по 131 760 руб, то кредит будет полностью погашен за 2 года. Найдите r.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пусть сумма кре­ди­та S еже­год­ные вы­пла­ты x,  По усло­вию долг на июль ме­ня­ет­ся так: S,    Если долг вы­пла­чен двумя рав­ны­ми пла­те­жа­ми x2, тоЕсли долг вы­пла­чен че­тырь­мя рав­ны­ми пла­те­жа­ми x4, то Тогда от­ку­да  Сле­до­ва­тель­но,   Ответ: 20.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/52/52d391b5321eb04e8f6b39e1c7745d21.svg",
+            "https://ege.sdamgia.ru/formula/svg/3f/3f263080e19b0315055ab2a9aa6889fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/389038679908dff757edbbce027c59cd.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/68ed4a2ecb07cacc8a3badc484ea7ac9.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d5453c941c80d00f9236d9a95702ad53.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9e2b899882bf8780c3b09e04ea8857e6.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/375e5bab2d1c6f4afe6f27cb065b50e8.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f1db704de42173384b4ea1c73747e171.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/ee96c040f47f14e771c47f7aad38d6db.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/41a839841446532b672a5f6badf6d86b.svg"
+        ]
+    },
+    "answer": " 20.",
+    "analogs": [
+        "519363",
+        "517442",
+        "517449",
+        "...",
+        "517442",
+        "517449",
+        "517576",
+        "517577",
+        "519364",
+        "661772",
+        "661828"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=517456"
+}

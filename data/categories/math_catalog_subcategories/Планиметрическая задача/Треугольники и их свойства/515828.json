@@ -1,0 +1,46 @@
+{
+    "id": 515828,
+    "topic": "17",
+    "condition": {
+        "text": "Медианы AA1, BB1, и CC1 треугольника ABC пересекаются в точке M. Точки A2, B2 и C2 — середины отрезков MA, MB и MC соответственно.а) Докажите, что площадь шестиугольника A1B2C1A2B1C2 вдвое меньше площади треугольника ABC.б) Найдите сумму квадратов всех сторон этого шестиугольника, если известно, что AB = 5, BC = 8 и AC = 10.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Пло­щадь тре­уголь­ни­ка A1MB2 в два раза мень­ше пло­ща­ди тре­уголь­ни­ка A1MB, по­сколь­ку MB  =  2MB2, а вы­со­та, про­ведённая из вер­ши­ны A1, у этих тре­уголь­ни­ков общая:Ана­ло­гич­но по­лу­ча­ем ещё 5 ра­венств:     Скла­ды­вая эти ра­вен­ства почлен­но, по­лу­ча­емб)  Обо­зна­чим длины сто­рон BC, AC, AB тре­уголь­ни­ка ABC через a, b, c.До­ка­жем, что квад­рат ме­ди­а­ны AA1 равен Для до­ка­за­тель­ства на про­дол­же­нии от­рез­ка AA1 за точку A1 от­ло­жим от­ре­зок A1P  =  AA1. По­лу­чим па­рал­ле­ло­грамм ACPB со сто­ро­на­ми AC  =  PB  =  b и AB  =  CP  =  c и диа­го­на­ля­ми BC  =  a и AP  =  2AA1. Сумма квад­ра­тов диа­го­на­лей па­рал­ле­ло­грам­ма равна сумме квад­ра­тов его сто­рон:  от­ку­да Ана­ло­гич­но до­ка­зы­ва­ет­ся, что  а От­ре­зок С1А2  — сред­няя линия тре­уголь­ни­ка ABM, зна­чит, Рас­суж­дая ана­ло­гич­но, мы по­лу­чим, что сто­ро­ны ше­сти­уголь­ни­ка втрое мень­ше ме­ди­ан тре­уголь­ни­ка ABC:  Сле­до­ва­тель­но, сумма квад­ра­тов сто­рон ше­сти­уголь­ни­ка равна  Под­став­ляя в эту фор­му­лу длины сто­рон тре­уголь­ни­ка ABC, по­лу­ча­ем ответ: сумма квад­ра­тов сто­рон ше­сти­уголь­ни­ка равна  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/b4/b4c32249a7024eacbc4c4f396c075482.svg",
+            "https://ege.sdamgia.ru/formula/svg/20/207e42b4bc3e54a9f78256bafbf642f4.svg",
+            "https://ege.sdamgia.ru/formula/svg/6b/6ba70ba0dd608f5098fdfc29230c8666.svg",
+            "https://ege.sdamgia.ru/formula/svg/7d/7d2e20fa3854dd8e6ade3e55ea6dbdc0.svg",
+            "https://ege.sdamgia.ru/formula/svg/ab/ab78b6fb9db1382ce0f16a8621886024.svg",
+            "https://ege.sdamgia.ru/formula/svg/96/96c0e94fcb1c525454be952c29dfb118.svg",
+            "https://ege.sdamgia.ru/formula/svg/44/44109c1224a64973972f0737b0000b39.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=146806",
+            "https://math-ege.sdamgia.ru/get_file?id=146804",
+            "https://ege.sdamgia.ru/formula/svg/1d/1d4476090d138132af726a9253e9e9e9.svg",
+            "https://ege.sdamgia.ru/formula/svg/95/9544306dfde30dadfb8439925c919e68.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/68712d927df3def7bdede98371700527.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/26652984f3d92f5263b9d2e6bd9b2355.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/06b0a73ec704ffd86356331abd218289.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0cb0b88c92440826fe53c9cbf801d0e0.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/913ed591e372b1b6ddc85a02432f9ea4.svg",
+            "https://ege.sdamgia.ru/formula/svg/24/249cec8f587daecd2d7267c6624a98dd.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c85625de3fbe76a964c1d5ddf6aacc96.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d77dc6c71a058ee080d3809b1b464992.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c9d2e19452cde53b1595f1fb0c4a31ee.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c9d2e19452cde53b1595f1fb0c4a31ee.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "505536",
+        "507510",
+        "511416",
+        "511440",
+        "...",
+        "507510",
+        "511416",
+        "511440"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=515828"
+}

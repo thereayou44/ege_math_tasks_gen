@@ -1,0 +1,25 @@
+{
+    "id": 654478,
+    "topic": "2",
+    "condition": {
+        "text": "На координатной плоскости изображены векторы и Найдите косинус угла между ними.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=165020",
+            "https://ege.sdamgia.ru/formula/svg/03/032e291fd1e5592fcd3b7abe2ea18bef.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/9123a02603bf84810303449dc2b862bf.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Вы­пи­шем ко­ор­ди­на­ты век­то­ров:   Ко­си­нус угла между век­то­ра­ми равенОтвет: −0,28.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/10/1027a5cb90a09a77e713959638828d7a.svg",
+            "https://ege.sdamgia.ru/formula/svg/19/1961106212fdc67bb4d6975f8131fe93.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/ba596fe3259adfa1ecc22d280a95742a.svg"
+        ]
+    },
+    "answer": "-0,28",
+    "analogs": [
+        "649917"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=654478"
+}

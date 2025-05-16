@@ -1,0 +1,25 @@
+{
+    "id": 520947,
+    "topic": "17",
+    "condition": {
+        "text": "Окружность проходит через вершины A, B и D параллелограмма ABCD, пересекает сторону BC в точках B и E и пересекает сторону CD в точках K и D.а) Докажите, что AE = AK.б) Найдите AD, если CE =12 , DK = 2 и",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/53/5342768cff35a81cfd3cc9f93561b5fa.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. a)  За­ме­тим, что  Зна­чит, хорды окруж­но­сти AE и AK стя­ги­ва­ют рав­ные дуги. По­это­му эти хорды равны.б)  По­сколь­ку пря­мые BC и AD па­рал­лель­ны,  , по­это­му DE  =  AB  =  DC.Пусть DM  — ме­ди­а­на рав­но­бед­рен­но­го тре­уголь­ни­ка CDE. ТогдаПо свой­ству се­ку­щейОтвет: б) 30.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=150257",
+            "https://ege.sdamgia.ru/formula/svg/1f/1f81ff8e4723bda80765955f17b07f5d.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/2967c2d7fbaee09d3edc91ee0c67d011.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1c97e4c0bb9dc702e39ef0918d7a3aef.svg",
+            "https://ege.sdamgia.ru/formula/svg/7d/7d74f31d8a62a98fb6d2fc515fa14cd8.svg"
+        ]
+    },
+    "answer": " б) 30.",
+    "analogs": [
+        "520940"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=520947"
+}

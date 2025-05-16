@@ -1,0 +1,23 @@
+{
+    "id": 27949,
+    "topic": "Д4",
+    "condition": {
+        "text": "Найдите радиус R окружности, описанной около треугольника ABC, если стороны квадратных клеток равны 1. В ответе укажите",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=68952",
+            "https://ege.sdamgia.ru/formula/svg/28/2868e8f6608634718f50ac34ab221c7b.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. тре­уголь­ник пря­мо­уголь­ный, зна­чит, ра­ди­ус опи­сан­ной вокуг него окруж­но­сти равен по­ло­ви­не ги­по­те­ну­зы.  Ответ: 5.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/7d/7d560aba21899cb294f13f62ac4ddf5d.svg"
+        ]
+    },
+    "answer": "5",
+    "analogs": [
+        "27950",
+        "27951"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=27949"
+}

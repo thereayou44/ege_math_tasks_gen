@@ -1,0 +1,35 @@
+{
+    "id": 511354,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все положительные значения a, при каждом из которых множеством решений неравенства является некоторый луч.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/79/797256c252d08b06e88aea38d4cf4c79.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Рис. 1Раз­ло­жим зна­ме­на­тель левой части дан­но­го не­ра­вен­ства на мно­жи­те­ли:  Так как  зна­ме­на­тель ис­ход­ной дроби имеет корни a и  Если числа 3, a и  по­пар­но раз­лич­ны, то ис­ко­мое Рис. 2мно­же­ство ― объ­еди­не­ние двух про­ме­жут­ков, а не луч. Зна­чит, для того, чтобы мно­же­ством ре­ше­ний не­ра­вен­ства яв­лял­ся луч, не­об­хо­ди­мо, чтобы из трех чисел 3, a и  какие-то два сов­па­ли.1.   Если  или  то мно­же­ством ре­ше­ний дан­но­го не­ра­вен­ства также яв­ля­ет­ся не луч, а объ­еди­не­ние двух про­ме­жут­ков:  (см. рис. 1).2.   Если  то  так как, со­глас­но усло­вию  В этом слу­чае мно­же­ством ре­ше­ний дан­но­го не­ра­вен­ства яв­ля­ет­ся луч  (см. рис. 2).  Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=157568",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a7274f154351ee21da38bf86a35d1bd.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/904dbe7d83b40f0c7990781c1373b9c0.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b4f05f1f7426f45bd5779465a9c0ee80.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f7a871079c57bcbd2443f041fada96f1.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=157569",
+            "https://ege.sdamgia.ru/formula/svg/f7/f7a871079c57bcbd2443f041fada96f1.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3d7b566aaed7713dfc5583dfc4b9c386.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e6acc74f6c495e498e81ed1e14dc7546.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a42db7bf2256d16b99f82ca27569db66.svg",
+            "https://ege.sdamgia.ru/formula/svg/5a/5a5c8cdf9cd56805c955c16a1ff82826.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/097d62edf0b090b0daff98c152ad0c1c.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/4084f3758fc870e203e5266ed5366657.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/62053d0267e4cf053feca45579cedb31.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/89de9b44c1cd57d2941ef68a70d6875d.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "501219"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511354"
+}

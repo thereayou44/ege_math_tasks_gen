@@ -1,0 +1,38 @@
+{
+    "id": 635866,
+    "topic": "17",
+    "condition": {
+        "text": "Дан прямоугольный треугольник ABC с прямым углом C. На катете AC взята точка M. Окружность с центром O и диаметром CM касается гипотенузы в точке N. а) Докажите, что прямые MN и BO параллельны.б) Найдите площадь четырёхугольника BOMN, если CN = 9 и",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/68/689740fc952d975813a12d5854359bef.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. a)  По­сколь­ку пря­мые AC и BC пер­пен­ди­ку­ляр­ны, пря­мая BC  — ка­са­тель­ная к окруж­но­сти. Пря­мая BO пер­пен­ди­ку­ляр­на пря­мой CN. Точка N лежит на окруж­но­сти с диа­мет­ром CM, по­это­му  Пря­мые BO и MN пер­пен­ди­ку­ляр­ны одной и той же пря­мой CN, сле­до­ва­тель­но, они па­рал­лель­ны.б)  Пусть  и  Тогда:    По свой­ству се­ку­щей и ка­са­тель­ной, про­ведённых из одной точки,  сле­до­ва­тель­но,  По­сколь­ку пря­мые MN и BO па­рал­лель­ны, по тео­ре­ме Фа­ле­са по­лу­ча­ем:  сле­до­ва­тель­но,  От­рез­ки BC и BN равны как от­рез­ки ка­са­тель­ных о окруж­но­сти, про­ведённых из одной точки, зна­чит,  По­сколь­ку  пря­мо­уголь­ные тре­уголь­ни­ки CNM и BCO по­доб­ны, сле­до­ва­тель­но,  Из по­до­бия тре­уголь­ни­ков AMN и AOB сле­ду­ет, что Пусть от­рез­ки BO и CN пе­ре­се­ка­ют­ся в точке P. Тогда P  — се­ре­ди­на CN и  По фор­му­ле пло­ща­ди тра­пе­ции на­хо­дим:Ответ: б) 40,5.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=120243",
+            "https://ege.sdamgia.ru/formula/svg/c0/c0362141e54119a871f7fbb9c657b00e.svg",
+            "https://ege.sdamgia.ru/formula/svg/eb/eb464e8f17c7c7ae8fdc3f440108d9ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4c6c028bae5a45f37e9f94b021661a58.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8c245732fb251e072435349d54092ecf.svg",
+            "https://ege.sdamgia.ru/formula/svg/c5/c5eccb2535dafd637fb2e08994c2f0da.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/31a1ec203786c6f6ff54e070647c99a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b100d21e4ea847d3bdc58fd82906ad88.svg",
+            "https://ege.sdamgia.ru/formula/svg/43/43088a263be8df0df38934f375d0d81a.svg",
+            "https://ege.sdamgia.ru/formula/svg/56/56b5e07bee51567a54484f9eea6edd04.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/606dd0662dfb5ea3d05ad6413c713457.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c922580c278473fee9e1e61f9dcf5e65.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fc03c4dc03787b9485d3457683f2c208.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/68ddf45f400c9158e971d93961f3b6cb.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/23cd027e0c044d2e5e0615bc028f61bc.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e058801f6696453f1337910776471cab.svg",
+            "https://ege.sdamgia.ru/formula/svg/59/598a460099749bcfe95f549c5ccb7237.svg"
+        ]
+    },
+    "answer": " б) 40,5.",
+    "analogs": [
+        "552933",
+        "635968"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=635866"
+}

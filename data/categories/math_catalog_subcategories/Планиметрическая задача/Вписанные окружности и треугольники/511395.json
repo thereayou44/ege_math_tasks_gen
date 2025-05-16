@@ -1,0 +1,40 @@
+{
+    "id": 511395,
+    "topic": "17",
+    "condition": {
+        "text": "Дан равнобедренный треугольник ABC с основанием AC. Вписанная в него окружность с центром O касается боковой стороны BC в точке P и пересекает биссектрису угла B в точке Q.а) Докажите, что отрезки PQ и OC параллельны.б) Найдите площадь треугольника OBC, если точка O делит высоту BD треугольника в отношении BO : OD = 3 : 1 и AC = 2.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пусть от­ре­зок BD  — вы­со­та дан­но­го тре­уголь­ни­ка. Тогда  в силу того, что ABC  — рав­но­бед­рен­ный тре­уголь­ник. Вве­дем сле­ду­ю­щие обо­зна­че­ния:    Пря­мо­уголь­ные тре­уголь­ни­ки BOP и BCD по­доб­ны, сле­до­ва­тель­но,  Из пря­мо­уголь­но­го тре­уголь­ни­ка OPC на­хо­дим  а из рав­но­бед­рен­но­го тре­уголь­ни­ка OPQ на­хо­дим  Углы COP и OPQ ― на­крест ле­жа­щие при пе­ре­се­че­нии пря­мых PQ и OC се­ку­щей OP, зна­чит, от­рез­ки PQ и OC па­рал­лель­ны, что и тре­бо­ва­лось до­ка­зать.б)  От­ре­зок CO ― бис­сек­три­са тре­уголь­ни­ка BCD, сле­до­ва­тель­но:От­ку­да   зна­чит,  и, сле­до­ва­тель­но: От­ку­да  По фор­му­ле Ге­ро­на на­хо­дим: от­ку­да  Ответ:  При­ве­дем ре­ше­ние пунк­та б) Ла­ри­сы Мак­си­мен­ко.От­ре­зок CO ― бис­сек­три­са тре­уголь­ни­ка BCD, сле­до­ва­тель­но:от­ку­да  Тогда а зна­чит, Най­дем пло­щадь тре­уголь­ни­ка BOC как раз­ность пло­ща­дей тре­уголь­ни­ков BDC и ODC:",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=12653",
+            "https://ege.sdamgia.ru/formula/svg/bc/bc4098a6f222b9198a58218aa450b2bd.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/623efc56350878a715238285d970d225.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a2637b6397ff28f0779f7cc653685d70.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a6d3d93f6ed7c56ebd7b8c54ab057e44.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54562671e0250b650a62056a2570775d.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b121bd0fa077119a3cc7494911e9b77f.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f875ec996dbe9583aa82c8f0b202e0df.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/85e4ab5454ee6c086ac61d0942435f9b.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/380ed4046464d2ef33d31bc3b2a0fea8.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0d2cfffb3f3d5f18ae016251c4388beb.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0e0ffc45eb6eefa2d2c2abc33d4bc841.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/6188c00ae19864464b0a345e8e8e7eb2.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/62e9e05e051a09866986a2a0b5f4d8ea.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/94da1ff7ff8673eaafc575e04dee9d59.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0cc231188bbd2ecd36889f7675874675.svg",
+            "https://ege.sdamgia.ru/formula/svg/9a/9a8467539638b6cc493388c08d0fca48.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/84319d5b7c5b353d91f8fb55bc93d774.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/380ed4046464d2ef33d31bc3b2a0fea8.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0bb9a78ea12c701f8716db6328054428.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/513ceb71140cf43f879a3e57a077e91b.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/996104d119a5b39c00c2631f31392477.svg"
+        ]
+    },
+    "answer": "",
+    "analogs": [
+        "504853"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511395"
+}

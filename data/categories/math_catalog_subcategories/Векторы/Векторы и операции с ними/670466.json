@@ -1,0 +1,29 @@
+{
+    "id": 670466,
+    "topic": "2",
+    "condition": {
+        "text": "Даны векторы и Найдите скалярное произведение векторов и",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ba/ba741f8abe7640dba639b3ca97ca4989.svg",
+            "https://ege.sdamgia.ru/formula/svg/8d/8d37decae1fdf1827c51d43ba15e4fbf.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2cbc0adb5dbcd94ef2e3a0d62f3d9e29.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/ba99bd3bac62a549df708fae88398957.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a13f2cd9a2b976ee283e9fa03e3df42f.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Най­дем ко­ор­ди­на­ты век­то­ра Най­дем ска­ляр­ное про­из­ве­де­ние век­то­ров  и Ответ: −4.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/05/052698e05698b3e8ef2c4ebc6f2e7ec3.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/0688896ba1aa74759201d9a6eaaace51.svg",
+            "https://ege.sdamgia.ru/formula/svg/ba/ba99bd3bac62a549df708fae88398957.svg",
+            "https://ege.sdamgia.ru/formula/svg/43/43441ef4a2ae37c4da55de784e55cf15.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7cd3803e1ddb9320e972a9d3d601dbb2.svg"
+        ]
+    },
+    "answer": "-4",
+    "analogs": [
+        "670261"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=670466"
+}

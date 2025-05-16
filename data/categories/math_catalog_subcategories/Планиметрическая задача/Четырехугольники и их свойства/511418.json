@@ -1,0 +1,35 @@
+{
+    "id": 511418,
+    "topic": "17",
+    "condition": {
+        "text": "Диагональ AC прямоугольника ABCD с центром O образует со стороной AB угол 30°. Точка E лежит вне прямоугольника, причём а) Докажите, что б) Прямая OE пересекает сторону AD прямоугольника в точке K. Найдите EK, если известно, что BE = 20 и CE = 12.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/70/7074647327375f57c4ce28e107e69291.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/94a3e758afa8f78c5f1faf387670532b.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  По тео­ре­ме о внеш­нем угле тре­уголь­ни­ка  По­это­му  Зна­чит, точки B, E, C, O лежат на одной окруж­но­сти. Впи­сан­ные в эту окруж­ность углы CBE и COE опи­ра­ют­ся на одну и ту же дугу, сле­до­ва­тель­но, б)  По тео­ре­ме ко­си­ну­сов  Впи­сан­ные углы BEO и CEO опи­ра­ют­ся на рав­ные хорды BO и CO, зна­чит, EO  — бис­сек­три­са угла BEC. Пусть M  — точка её пе­ре­се­че­ния со сто­ро­ной BC. По фор­му­ле для бис­сек­три­сы тре­уголь­ни­ка по­лу­ча­ем:По свой­ству бис­сек­три­сы тре­уголь­ни­ка  зна­чит, По тео­ре­ме о про­из­ве­де­нии пе­ре­се­ка­ю­щих­ся хорд  от­ку­да на­хо­дим, что  Тре­уголь­ни­ки COM и AOK равны по сто­ро­не и двум при­ле­жа­щим к ней углам, по­это­му OK = OM. Сле­до­ва­тель­но, EK = EM + 2OM =  Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=145384",
+            "https://ege.sdamgia.ru/formula/svg/6f/6fb2fd5d3abc0ff7f37a0272946389bb.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b761e471b2a4337afa0234c49a94840a.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/94a3e758afa8f78c5f1faf387670532b.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/eace0b4913aeae997c38f5b24c68d0e6.svg",
+            "https://ege.sdamgia.ru/formula/svg/b8/b89f06595aef77b2204fd6b54c1b4b4e.svg",
+            "https://ege.sdamgia.ru/formula/svg/a0/a0b1feb4f920624c018670d1af81052f.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2e7abb6b82efae35b0dca5c60cf931ac.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9f85fbff397f5388d5617f69ff5d05d0.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/39240556f46b427a2374d45a31d1cf32.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/74ad78b8f9f5620ef1a93d648ecc32fa.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/57930c00dc4e02a1c9de6f400b20e883.svg",
+            "https://ege.sdamgia.ru/formula/svg/97/97556d2540a4aea1c10bc621239b6c35.svg",
+            "https://ege.sdamgia.ru/formula/svg/3b/3b8424abd556e7468437e442f44ef8ba.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "507262"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511418"
+}

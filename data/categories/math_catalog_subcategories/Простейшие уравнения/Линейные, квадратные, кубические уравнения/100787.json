@@ -1,0 +1,40 @@
+{
+    "id": 100787,
+    "topic": "6",
+    "condition": {
+        "text": "Решите уравнение (Повторяется с №77369)",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/a1/a168d9368c077c799e1c2c7576faa6c1.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По­сле­до­ва­тель­но по­лу­ча­ем: Ответ: −6.  (По­вто­ря­ет­ся с №77369)",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/9b/9b78030f980f59d77e6913ad484624bc.svg",
+            "https://ege.sdamgia.ru/formula/svg/87/87d2353714510d6dbb6b13fc9fe930b5.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa9cd1a094afbdb87cc7de8328ff7dc1.svg"
+        ]
+    },
+    "answer": "-6",
+    "analogs": [
+        "77369",
+        "100759",
+        "100761",
+        "...",
+        "100759",
+        "100761",
+        "100763",
+        "100765",
+        "100767",
+        "100769",
+        "100771",
+        "100773",
+        "100775",
+        "100777",
+        "100779",
+        "100781",
+        "100783",
+        "100785"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=100787"
+}

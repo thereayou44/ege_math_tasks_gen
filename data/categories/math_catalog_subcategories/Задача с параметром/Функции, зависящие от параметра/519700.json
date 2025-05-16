@@ -1,0 +1,44 @@
+{
+    "id": 519700,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при котором уравнение имеет 6 решений, где f — чётная периодическая функция, с периодом определённая на всей числовой прямой, причём если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/8e/8ee0cd5f234433322c599a6c384f73ac.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3d95c132c5d6c15ed2483d14e4464c78.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa69651a070bfa81686ee134dac2d802.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/06d11531ea8ebe18d93043726cb5b07a.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Если  то функ­ция  тож­де­ствен­но равна нулю, и её гра­фик имеет с пря­мой  един­ствен­ную общую точку.Пусть  (рис. 1). Ре­ше­ние  есть при всех a. Нужно ещё ровно пять ре­ше­ний. Един­ствен­ный воз­мож­ный слу­чай по­ка­зан на ри­сун­ке: пря­мая про­хо­дит через точку  Со­ста­вим урав­не­ние Учи­ты­вая, что  по­лу­чим:  По­ло­жи­тель­ных ре­ше­ний нет. Сле­до­ва­тель­но, слу­чай  не­воз­мо­жен.Те­перь пусть  (см. рис. 2.). Шесть ре­ше­ний есть, толь­ко если пря­мая про­хо­дит через точку  Со­ста­вим урав­не­ние: от­ку­да  или По­лу­ча­ем:  или Рис. 1Рис. 2Ответ:  ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/2d/2d47c3b48318fcef886f7705dfd2b566.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50bbd36e1fd2333108437a2ca378be62.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/52ad5aa5978ec8bd4602ea94f8b1674f.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/323c5f97105643bc61e288fe596194ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e11729b0b65ecade3fc272548a3883fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1b53b883c8be56b7bc2b2d4cc1be5748.svg",
+            "https://ege.sdamgia.ru/formula/svg/48/48fb8b0cf7ca64aa8f0b658fcbca06cb.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/904dbe7d83b40f0c7990781c1373b9c0.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/225e720afea57bba2c272da15885102a.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/323c5f97105643bc61e288fe596194ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf8298b0e273301afdd921e7e4cf6c2b.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/417fee031d7de40d6c60133a2b694373.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/309aa1bb489407296d6ff24a03416f08.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/88f149cd13bdbad0135af3675a504a77.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa7f4dec9bf67daadafd8fb5e7eb1506.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/acd51749742fee24c25146b0bb11fd3d.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/8634aa60b27ad2c6100b4e47d2a79fe0.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=159631",
+            "https://math-ege.sdamgia.ru/get_file?id=159632",
+            "https://ege.sdamgia.ru/formula/svg/a7/a7ac03e8985aca1acbe0f52801120b36.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/8634aa60b27ad2c6100b4e47d2a79fe0.svg"
+        ]
+    },
+    "answer": "  ",
+    "analogs": [
+        "519667"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=519700"
+}

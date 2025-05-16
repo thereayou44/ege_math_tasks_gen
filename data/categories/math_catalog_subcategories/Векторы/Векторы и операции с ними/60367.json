@@ -1,0 +1,57 @@
+{
+    "id": 60367,
+    "topic": "2",
+    "condition": {
+        "text": "Две стороны прямоугольника ABCD равны 42 и 38. Диагонали пересекаются в точке O.Найдите длину суммы векторов и",
+        "images": [
+            "https://ege.sdamgia.ru/get_file?id=143411",
+            "https://ege.sdamgia.ru/formula/svg/c6/c68cbe820a553288da10a396bd3e7d72.svg",
+            "https://ege.sdamgia.ru/formula/svg/67/6757f22241730eb005e3316cfeee6dce.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Две сто­ро­ны изоб­ра­жен­но­го на ри­сун­ке пря­мо­уголь­ни­ка ABCD равны 6 и 8. Диа­го­на­ли пе­ре­се­ка­ют­ся в точке  Най­ди­те длину суммы век­то­ров  и Сумма век­то­ров  и  равна век­то­ру  Его длина равна 6. Ответ: 6.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=143411",
+            "https://ege.sdamgia.ru/formula/svg/5f/5f4238afbd8792f5826e919e4ef8e1bd.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/06cb2d9663c22e7a65cd6314efe95958.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f46bb0825efd8ae543398ad6642e2b87.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/06cb2d9663c22e7a65cd6314efe95958.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/01ca83b7c1a78adfd5e6e27466e410b0.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c78ec31e2a229e0b1204757b7cd74d36.svg"
+        ]
+    },
+    "answer": "0",
+    "analogs": [
+        "27711",
+        "60355",
+        "60357",
+        "60359",
+        "...",
+        "60355",
+        "60357",
+        "60359",
+        "60361",
+        "60363",
+        "60365",
+        "60369",
+        "60371",
+        "60373",
+        "60375",
+        "60377",
+        "60379",
+        "60381",
+        "60383",
+        "60385",
+        "60387",
+        "60389",
+        "60391",
+        "60393",
+        "60395",
+        "60397",
+        "60399",
+        "60401",
+        "60403"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=60367"
+}

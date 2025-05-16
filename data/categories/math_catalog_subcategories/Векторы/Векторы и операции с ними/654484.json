@@ -1,0 +1,29 @@
+{
+    "id": 654484,
+    "topic": "2",
+    "condition": {
+        "text": "Длина вектора равна 3, угол между векторами и равен 45°, а скалярное произведение равно Найдите длину вектора",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/03/032e291fd1e5592fcd3b7abe2ea18bef.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/032e291fd1e5592fcd3b7abe2ea18bef.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fcdd61484b31af8082ca2030cea8f4f6.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/531e3c28441ff92391511cbdf01cb912.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c9048d761856c36c7fc393af42e7c021.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/9123a02603bf84810303449dc2b862bf.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Длина век­то­ра  равна Ответ: 10.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/fc/fcdd61484b31af8082ca2030cea8f4f6.svg",
+            "https://ege.sdamgia.ru/formula/svg/7e/7e365d640968fbe0243adee493c6909c.svg"
+        ]
+    },
+    "answer": "10",
+    "analogs": [
+        "649918",
+        "654824",
+        "654911"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=654484"
+}

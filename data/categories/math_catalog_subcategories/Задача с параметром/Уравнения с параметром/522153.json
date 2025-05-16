@@ -1,0 +1,66 @@
+{
+    "id": 522153,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при которых уравнениеимеет единственное решение на отрезке",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/24/248f945e9857e69bc8641264ee523041.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/eeb2cb52480f2a8311444aa2cccea0fc.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пре­об­ра­зу­ем урав­не­ние:По­ло­жим  По­след­нее урав­не­ние имеет един­ствен­ный ко­рень на от­рез­ке  тогда и толь­ко тогда, когда вы­пол­нен один из трёх слу­ча­ев: либо квад­рат­ный трёхчлен  имеет един­ствен­ный ко­рень и этот ко­рень при­над­ле­жит от­рез­ку  либо  имеет на от­рез­ке  ко­рень, рав­ный 0 или 3, и не имеет дру­гих кор­ней на этом от­рез­ке, либо квад­рат­ный трёхчлен  при­ни­ма­ет при  и  не­ну­ле­вые зна­че­ния раз­ных зна­ков.Рас­смот­рим пер­вый слу­чай. Квад­рат­ный трёхчлен  имеет един­ствен­ный ко­рень при ра­вен­стве нулю его дис­кри­ми­нан­та, то есть при  или, что то же самое, при  При таком зна­че­нии a урав­не­ние  имеет един­ствен­ный ко­рень  он при­над­ле­жит от­рез­ку Рас­смот­рим вто­рой слу­чай. Имеем  и  Зна­чит,  при  При таком зна­че­нии a урав­не­ние  имеет два ре­ше­ния  и  на от­рез­ке  Ана­ло­гич­но  при  При таком зна­че­нии a урав­не­ние  имеет един­ствен­ное ре­ше­ние  на от­рез­ке Рас­смот­рим тре­тий слу­чай. Зна­че­ния  и  имеют раз­ные знаки тогда и толь­ко тогда, когда  или, что то же самое, при Сле­до­ва­тель­но, урав­не­ние  имеет един­ствен­ное ре­ше­ние на от­рез­ке  тогда и толь­ко тогда, когда  или  Ответ:  ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/e3/e3470132d3419524ed3b7d91b70e2dea.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/65126521b03f2d133adb9e157a7958fa.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/84bebecc94418a63fafc6f9c25ba5c87.svg",
+            "https://ege.sdamgia.ru/formula/svg/26/267a06dd30a89a25a0dc7605892245d3.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/65126521b03f2d133adb9e157a7958fa.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/605cc1ee9b27925a29d3d3fb4e288b53.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b44a49fabf6a0826492025d3a465e920.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/ada9aa25c3eff42b3c01d9dd281354fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fde7e8eb0ecdd10cdc6b7202c3f5e42e.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/ada9aa25c3eff42b3c01d9dd281354fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b44a49fabf6a0826492025d3a465e920.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/ada9aa25c3eff42b3c01d9dd281354fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/4138d072f203bd3f92bb1a26bb81d61b.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1d0bed04154f4eebb05270ec6d7b35dc.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/ada9aa25c3eff42b3c01d9dd281354fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/78/780aa26c1d3d2f618f17bd44b9fe97e4.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a20ddb237f7745cdb83e7929f8d74db0.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a96b3aa4a5b5f34a1b491a4d46da42f1.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/28e8cf359cbe3ecc1aa0d19ed0804100.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c8cbca1d4004432f9cc5ad89357ca6b8.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/344209d0fa3366c12307d7fc90eac138.svg",
+            "https://ege.sdamgia.ru/formula/svg/9a/9a876c580e1a62eb2d3ea3b7c3818cf7.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f0184419e5a07f88033dd66bceac59a7.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/08e67b14e6251bbc0232f3a1308b56aa.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a96b3aa4a5b5f34a1b491a4d46da42f1.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/4138d072f203bd3f92bb1a26bb81d61b.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/92930051b436cb84eba28752c09668d6.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c8cbca1d4004432f9cc5ad89357ca6b8.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/deb148c4e43b5567d90520155306b840.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f457fbdb4227d64567edcdfc70c55919.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a96b3aa4a5b5f34a1b491a4d46da42f1.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1d0bed04154f4eebb05270ec6d7b35dc.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c8cbca1d4004432f9cc5ad89357ca6b8.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/344209d0fa3366c12307d7fc90eac138.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a9bdd1528977260a44df88d9c529e6e6.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8bd46250d6d23420d5131c21cccc512d.svg",
+            "https://ege.sdamgia.ru/formula/svg/2e/2e89468583d42a33ff522a64a581fcc7.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/536dc2e10ddac91973e8892c58d1a025.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b44a49fabf6a0826492025d3a465e920.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a4aae516723dc8e148650c33f936f019.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a20ddb237f7745cdb83e7929f8d74db0.svg",
+            "https://ege.sdamgia.ru/formula/svg/e4/e42f79c5936a6429bdb5d497aae60e65.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a20ddb237f7745cdb83e7929f8d74db0.svg"
+        ]
+    },
+    "answer": "  ",
+    "analogs": [
+        "522127",
+        "670300",
+        "670505"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=522153"
+}

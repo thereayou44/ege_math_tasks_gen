@@ -1,0 +1,32 @@
+{
+    "id": 641157,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображён график функции вида Найдите значение f(3).",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=132587",
+            "https://ege.sdamgia.ru/formula/svg/3e/3ec7f9a9c1d470775506529844b8c3a5.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Из гра­фи­ка на­хо­дим, что  от­ку­да  а по­то­му  Тогда Ответ: 27.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/49/49edb08cac8fab02eb7d6df3284c890b.svg",
+            "https://ege.sdamgia.ru/formula/svg/8a/8ae2c410fc2e3d2507756cb32c852810.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b1d99f3d275655be4459de35e6c6316a.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/451507cf5f57c86558e08ff2af4e594a.svg"
+        ]
+    },
+    "answer": "27",
+    "analogs": [
+        "639480",
+        "639749",
+        "660718",
+        "...",
+        "639749",
+        "660718",
+        "660926",
+        "661082"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=641157"
+}

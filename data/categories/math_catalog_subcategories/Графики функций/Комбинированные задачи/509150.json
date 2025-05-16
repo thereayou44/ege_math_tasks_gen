@@ -1,0 +1,40 @@
+{
+    "id": 509150,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображены графики функций и которые пересекаются в точках A и B. Найдите абсциссу точки B.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=91975",
+            "https://ege.sdamgia.ru/formula/svg/98/9849d0d73d113f4332695b02e06819c1.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/065a0419a0417df3275e9319f03327f6.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По гра­фи­ку, g(−2)  =  −1, g(1)  =  5, g(−3)  =  1. Тогда Решая по­лу­чен­ную си­сте­му, по­лу­ча­ем: a  =  1, b  =  3, из g(1)  =  5 по­лу­чим c  =  1. Те­перь найдём абс­цис­су точки B: Таким об­ра­зом, от­ве­том яв­ля­ет­ся число  −8. Ответ: −8.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/b0/b071ce889c998432538d543bfaf6aed8.svg",
+            "https://ege.sdamgia.ru/formula/svg/f3/f3fa45e9dd5c371572ef08ad73cd6aa5.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/31db148a46ba6951958de49baf9c5ce8.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e5b42e02c9dc2685e7318ab09b439667.svg",
+            "https://ege.sdamgia.ru/formula/svg/9b/9b18bbcc4e0ab1ee3437b972c943dc64.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3a22271b4ae479d81ece7e194b4132c9.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c82690bc35879a84175dd9f76bf40682.svg"
+        ]
+    },
+    "answer": "-8",
+    "analogs": [
+        "509149",
+        "509151",
+        "509152",
+        "...",
+        "509151",
+        "509152",
+        "509153",
+        "509154",
+        "509155",
+        "509156",
+        "509157",
+        "627985"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509150"
+}

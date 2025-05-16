@@ -1,0 +1,40 @@
+{
+    "id": 516303,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых система не имеет решений.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/b6/b61b58ba237eaf04643d34c29e91487d.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Урав­не­ние  за­да­ет пря­мую. Эта пря­мая при всех a про­хо­дит через точку Не­ра­вен­ство си­сте­мы  за­да­ет объ­еди­не­ние круга с цен­тром в точке  и ра­ди­у­сом  и точки  Си­сте­ма не будет иметь ре­ше­ний тогда и толь­ко тогда, когда пря­мая  не имеет общих точек с кру­гом и не про­хо­дит через точку  Рас­сто­я­ние между точ­ка­ми  и  равно  а ра­ди­ус круга равен  зна­чит, ка­са­тель­ные к кругу про­ведённые из точки  об­ра­зу­ют углы  с пря­мой  Этим ка­са­тель­ным со­от­вет­ству­ют зна­че­ния Пря­мая AM имеет уг­ло­вой ко­эф­фи­ци­ент От­сю­да по­лу­ча­ем  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/50/500753a8c26b575623f8cc11b2bf9947.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/991f694c9dc3afb12d45d49a76c9fff9.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/3409e5d468a8267117908d07eaf61d86.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fcd1c0abe673aff30503c34b7af031ae.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/eccbc87e4b5ce2fe28308fd9f2a7baf3.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e713b109a8dedec3819d69895e8b6d1f.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/500753a8c26b575623f8cc11b2bf9947.svg",
+            "https://ege.sdamgia.ru/formula/svg/0a/0ae1285ce5610001567ddb53236e50fe.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=159107",
+            "https://ege.sdamgia.ru/formula/svg/bf/bfe94f7157ec2e303ed83549fe83ff9b.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fcd1c0abe673aff30503c34b7af031ae.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c4ba836de333cd4139f111ca69ea03c8.svg",
+            "https://ege.sdamgia.ru/formula/svg/24/24cccdfe8b9dddaed87bb893d7abcfc2.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/6351e9fd76162fb1ecd9f89d90aa4966.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b789bd6694a7bfd50ff61e3564310686.svg",
+            "https://ege.sdamgia.ru/formula/svg/37/372d6b61a58d204bdb53ea1694e057b6.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/55ccd11eed83cd3124718c48f722a984.svg",
+            "https://ege.sdamgia.ru/formula/svg/93/93a2b55d44e14e96703bb6bc5f8c81e9.svg",
+            "https://ege.sdamgia.ru/formula/svg/5f/5f99b2baf6cce76ea5013b7b9ed73b7a.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a7ca36b32831028998277130531469fe.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "516336"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=516303"
+}

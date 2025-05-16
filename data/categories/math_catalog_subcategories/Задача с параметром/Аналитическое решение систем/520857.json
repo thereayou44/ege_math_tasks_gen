@@ -1,0 +1,46 @@
+{
+    "id": 520857,
+    "topic": "18",
+    "condition": {
+        "text": "Найти все значения a, при каждом из которых система уравненийимеет ровно четыре различных решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/f3/f3b6ea2e6805824bc31aeaac59cb0f61.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пер­вое урав­не­ние си­сте­мы рав­но­силь­но урав­не­нию  Это урав­не­ние за­да­ет окруж­ность ω ра­ди­у­сом 3 с цен­тром в точке  Вто­рое урав­не­ние си­сте­мы за­да­ет пару пря­мых  и  пе­ре­се­ка­ю­щих­ся в точке Пря­мая и окруж­ность имеют не более двух общих точек. Зна­чит, ис­ход­ная си­сте­ма урав­не­ний имеет ровно че­ты­ре раз­лич­ных ре­ше­ния тогда и толь­ко тогда, когда окруж­ность ω пе­ре­се­ка­ет­ся с каж­дой из пря­мых  и  в двух точ­ках и не про­хо­дит через точку их пе­ре­се­че­ния Число точек пе­ре­се­че­ния окруж­но­сти с пря­мой  равно числу кор­ней квад­рат­но­го урав­не­ния  Это урав­не­ние имеет ровно два корня при по­ло­жи­тель­ном дис­кри­ми­нан­те:Число точек пе­ре­се­че­ния окруж­но­сти с пря­мой  равно числу кор­ней квад­рат­но­го урав­не­ния  Это урав­не­ние имеет ровно два корня при по­ло­жи­тель­ном дис­кри­ми­нан­те:Окруж­ность про­хо­дит через точку  при  то есть при  и Таким об­ра­зом, ис­ход­ная си­сте­ма урав­не­ний имеет ровно 4 ре­ше­ния при: От­ве­ты: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/95/95cc734fc54665ad50460fca6a1d6373.svg",
+            "https://ege.sdamgia.ru/formula/svg/96/960efe581b7a3508ac5c41bff173a91b.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5dbad057040ec6eb5aa5841786e25d33.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9e82ea3da7fd77253004b60bdab2d2fe.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c3c47330fccaf6d0b90ce7252d57b991.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5dbad057040ec6eb5aa5841786e25d33.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9e82ea3da7fd77253004b60bdab2d2fe.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c3c47330fccaf6d0b90ce7252d57b991.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5dbad057040ec6eb5aa5841786e25d33.svg",
+            "https://ege.sdamgia.ru/formula/svg/5e/5e18b4dd0fb00fe90fb8c3d348d2b6ad.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1b45b40d9ad81f456addca9a835ee451.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a4f28f5cd62ecfb0da6ec175e72a3119.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c2716a7f1f2eb6207cb7d3b45307adae.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/1805ddd69a971409c67838a968a48aa7.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/0009b1de937d613c6183f18de3cb6cbc.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d73f24baee1e605f2e9b4a67d3d5a8e1.svg",
+            "https://ege.sdamgia.ru/formula/svg/71/71065e7aaf74c654f05caeff4fd83026.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b1a346546470a312a529a7cce5d10cd8.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/738b650e74f9ea8a2ca174f29546771b.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/282877b36ac401667fc67dea161fa95a.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/ded681eaa02d11064c9a469dd1b3e04c.svg",
+            "https://ege.sdamgia.ru/formula/svg/c0/c00cc28ab05e73d9474fd4d26879d554.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/53f71e8c6f6b780dc185f23a901bcd5b.svg",
+            "https://ege.sdamgia.ru/formula/svg/53/53f71e8c6f6b780dc185f23a901bcd5b.svg"
+        ]
+    },
+    "answer": "",
+    "analogs": [
+        "520807",
+        "520919",
+        "520883"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=520857"
+}

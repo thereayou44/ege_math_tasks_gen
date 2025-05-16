@@ -1,0 +1,28 @@
+{
+    "id": 639642,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите значение выражения",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/1f/1f76b01767c0a313d846ff7afe10fad2.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Ис­поль­зу­ем фор­му­лу ко­си­ну­са двой­но­го угла: : Те­перь вос­поль­зу­ем­ся пе­ри­о­дич­но­стью и чет­но­стью ко­си­ну­са:Ответ: −3.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/2f/2f4d8b728c2b2558015165dd04d2c032.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3ae414d08cf1e20870c01af9c7393452.svg",
+            "https://ege.sdamgia.ru/formula/svg/45/45278e1f6da793582491db70f31d4954.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cb878d467688ae7242956a2c5d7b8ee2.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/689a07c477e4fdf56caaebf665c9fbcb.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/16d655044e67189a2f8367213a69ed21.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3a694b008ab0584297c4bee2c9564913.svg"
+        ]
+    },
+    "answer": "-3",
+    "analogs": [
+        "563891",
+        "639476"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=639642"
+}

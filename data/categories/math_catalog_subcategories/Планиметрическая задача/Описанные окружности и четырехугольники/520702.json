@@ -1,0 +1,33 @@
+{
+    "id": 520702,
+    "topic": "17",
+    "condition": {
+        "text": "Четырёхугольник ABCD вписан в окружность. Диаметр CC1 перпендикулярен стороне AD и пересекает её в точке M, а диаметр DD1 перпендикулярен стороне AB и пересекает её в точке N.а) Пусть AA1 также диаметр окружности. Докажите, что б) Найдите углы четырехугольника ABCD, если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/7f/7fdb1b35f54584040e9a7a20445a8147.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fbc302c8b15b34103d9d9ff77bdc8c05.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Впи­сан­ные углы  и  опи­ра­ют­ся на одну и ту же дугу, зна­чит, Пусть O  — центр окруж­но­сти. Из точек M и N от­ре­зок OA виден под пря­мым углом, зна­чит, эти точки лежат на окруж­но­сти с диа­мет­ром OA. Впи­сан­ные в эту окруж­ность углы MAO и MNO опи­ра­ют­ся на одну и ту же дугу, сле­до­ва­тель­но, б)  По­сколь­ку диа­метр, пер­пен­ди­ку­ляр­ный хорде, делит ее по­по­лам, тре­уголь­ни­ки ACD и ABD рав­но­бед­рен­ные (их вы­со­та яв­ля­ют­ся ме­ди­а­на­ми). По­ло­жим  ТогдаС дру­гой сто­ро­ны,  из ра­вен­ства  на­хо­дим, что  Сле­до­ва­тель­но,  Ответ: б) 70°, 125°, 110°, 55°.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/5c/5cd6f27312d8cb05e87c0a0aac4ea45d.svg",
+            "https://ege.sdamgia.ru/formula/svg/a0/a0a422f535e4b89f13533b4bf627f942.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fb2e5de29a7be445d9f9c746778648ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/b0/b0bccbf16ce9763033c4c05c1d3f44c0.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=150118",
+            "https://ege.sdamgia.ru/formula/svg/d9/d98441a81997b378e7063baf81f2e548.svg",
+            "https://ege.sdamgia.ru/formula/svg/d1/d18aa40073dde68fcb1b0e115b684e4c.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/07fdbf75b74be590fc87ef967d0cf581.svg",
+            "https://ege.sdamgia.ru/formula/svg/35/351b06b81f1219c76e8788b52438cead.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/eca6d18c5383489c86e1e1b60ddf71a3.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/656f39ea13a2fa7a321dc56375bec4f3.svg",
+            "https://ege.sdamgia.ru/formula/svg/12/12a068142638b589baf2af8ac7d0e3f3.svg"
+        ]
+    },
+    "answer": " б) 70°, 125°, 110°, 55°.",
+    "analogs": [
+        "520661"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=520702"
+}

@@ -1,0 +1,38 @@
+{
+    "id": 640523,
+    "topic": "17",
+    "condition": {
+        "text": "Серединный перпендикуляр к стороне AB треугольника ABC переcекает сторону AC в точке D. Окружность с центром O, вписанная в треугольник ADB, касается отрезка AD в точке P, а прямая OP пересекает сторону AB в точке K.а) Докажите, что около четырёхугольника BDOK можно описать окружность.б) Найдите радиус окружности, описанной около четырёхугольника BDOK, если AB = 8, AC = 7.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/76/76089a02701fee65bf7a8d88194d0347.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Пусть точка M  — се­ре­ди­на сто­ро­ны AB. За­ме­тим, что DM  — ме­ди­а­на и вы­со­та, а сле­до­ва­тель­но, и бис­сек­три­са рав­но­бед­рен­но­го тре­уголь­ни­ка ADB, зна­чит, точка O при­над­ле­жит DM. Тре­уголь­ни­ки DOP и OKM пря­мо­уголь­ные. При этом  зна­чит,  Тогда   сле­до­ва­тель­но, четырёхуголь­ник BDOK яв­ля­ет­ся впи­сан­ным. б)  За­ме­тим, что  тогда по об­рат­ной тео­ре­ме Пи­фа­го­ра:  От­ку­да на­хо­дим:  Пря­мая AO  — бис­сек­три­са угла DAB. Пусть  Тогда: от­ку­да  тогда Так как  то  Cле­до­ва­тель­но,  По тео­ре­ме си­ну­сов  где R  — ра­ди­ус окруж­но­сти, опи­сан­ной около че­ты­рех­уголь­ни­ка BDOK. Тогда:  Таким об­ра­зом,  Ответ: б) ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=128796",
+            "https://ege.sdamgia.ru/formula/svg/cf/cfde6baf3795d643de1619da3b54fcbd.svg",
+            "https://ege.sdamgia.ru/formula/svg/c0/c0e5fc07c59f165f7a6b0f0573484b2c.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2dfb643409cdcb291b3f88f154dc9c15.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0e94bb8f7cd22dc16abe798c6416a2ef.svg",
+            "https://ege.sdamgia.ru/formula/svg/8f/8fc2b03eeb2e751a4ccdf18143b447f7.svg",
+            "https://ege.sdamgia.ru/formula/svg/b6/b6abf3f590a3259679eb9fec329e6836.svg",
+            "https://ege.sdamgia.ru/formula/svg/80/803f3a780d9c33fb7d555efcc62318a1.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e6a897fe32c522c84daaaea4ccd72478.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3ebc53dd77e032e7618f6d031f6ae6cd.svg",
+            "https://ege.sdamgia.ru/formula/svg/c2/c29e115f48a1632c043d5813dba48cf7.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f744e51ff83367a4aeb0124212bf84e6.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a4464775ec67fd019508e9026cb9a78f.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4a4e6045dac5961f8df52b5a27a43dde.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5dc010139099ca672994473c10212909.svg",
+            "https://ege.sdamgia.ru/formula/svg/0b/0b1b4f6fde0fbc45bdda355cbd90cdf9.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/82f2c95eadbe4c0b344d0064dbe424c6.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fc2b833feaf75fe9b75b053fdeae4bb9.svg"
+        ]
+    },
+    "answer": " б) ",
+    "analogs": [
+        "639954"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=640523"
+}

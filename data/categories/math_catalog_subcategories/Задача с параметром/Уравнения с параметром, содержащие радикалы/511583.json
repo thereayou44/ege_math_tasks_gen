@@ -1,0 +1,31 @@
+{
+    "id": 511583,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все такие значения параметра a, при каждом из которых уравнение имеет хотя бы одно решение.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/7b/7b7401f60b1f546807f9c50a5c608de1.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Ре­ше­ние 1. По­ло­жим  где  так как Тогда, ис­ход­ное урав­не­ние при­ни­ма­ет вид   Най­дем мно­же­ство зна­че­ний функ­ции  на от­рез­ке [0; 2]. Так как  на про­ме­жут­ке [0; 2), то функ­ция убы­ва­ет на от­рез­ке [0; 2], и, сле­до­ва­тель­но, мно­же­ство ее зна­че­ний на от­рез­ке [0; 2] ― от­ре­зок  т. е. от­ре­зок  Таким об­ра­зом, урав­не­ние  имеет ре­ше­ния тогда и толь­ко тогда, когда вы­пол­ня­ют­ся усло­вия Not match begin/end Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/1c/1c2428561ef63fe0eb6f709b1fcc06a1.svg",
+            "https://ege.sdamgia.ru/formula/svg/87/87100c379a2c9f8cd596a1910644a0b7.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/047acca9a6d3b4ae2ad688b5f97f730a.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3cfd1b0db0f09822ee08b92d8cf81ed3.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bb09928d919273f68a53c5517365c811.svg",
+            "https://ege.sdamgia.ru/formula/svg/28/285e783b678d58bb640bc47909a67f59.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4cec392c0cdfbda720bb9054870f2923.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/47d26fe9395511c2908b224fe962507c.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c8dac9c2ca8ac7d99f10139d0572778d.svg",
+            "https://ege.sdamgia.ru/formula/svg/b6/b6c60e8d8bc82142b1c7dff3140279a8.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d5332a12b5f22b4206170404810ed436.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "509648"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511583"
+}

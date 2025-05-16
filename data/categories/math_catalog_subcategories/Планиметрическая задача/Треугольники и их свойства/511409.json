@@ -1,0 +1,33 @@
+{
+    "id": 511409,
+    "topic": "17",
+    "condition": {
+        "text": "В остроугольном треугольнике ABC провели высоту BH, из точки H на стороны AB и BC опустили перпендикуляры HK и HM соответственно.а) Докажите, что треугольник MBK подобен треугольнику ABC.б) Найдите отношение площади треугольника MBK к площади четырёхугольника AKMC, если BH = 2, а радиус окружности, описанной около треугольника ABC равен 9.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Пусть угол  Углы BAC и KHB равны, как углы с вза­им­но пер­пен­ди­ку­ляр­ны­ми сто­ро­на­ми. Рас­смот­рим четырёхуголь­ник BKHM  сле­до­ва­тель­но, четырёхуголь­ник BKHM впи­сан в окруж­ность. Зна­чит, углы KHB и KMB  — впи­сан­ные, опи­ра­ю­щи­е­ся на одну и ту же дугу, сле­до­ва­тель­но, они равны. Таким об­ра­зом,  Тре­уголь­ни­ки ABC и MBK имеют общий угол B и  зна­чит, эти тре­уголь­ни­ки по­доб­ны по двум углам. б)  Из пря­мо­уголь­но­го тре­уголь­ни­ка BKH на­хо­дим, что  Для тре­уголь­ни­ка ABC спра­вед­ли­во ра­вен­ство  Учи­ты­вая, что  по­лу­ча­ем:  Сто­ро­ны BC и BK  — сход­ствен­ные в по­доб­ных тре­уголь­ни­ках ABC и MBK, сле­до­ва­тель­но, их ко­эф­фи­ци­ент по­до­бия  Найдём от­но­ше­ние пло­ща­ди тре­уголь­ни­ка MBK к пло­ща­ди четырёхуголь­ни­ка Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=146545",
+            "https://ege.sdamgia.ru/formula/svg/30/301a0b5b42f0114c1015d8768b577cdc.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/da7c616b6a02945ed81e72b7fb1c07d7.svg",
+            "https://ege.sdamgia.ru/formula/svg/fa/fa435df69c1a69d92b65cc533aba3d8e.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a11f16aee3148561cb0aa6d47c94fd02.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/51bb764b7b6e6a7df39aac2a4a51517b.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/eda9e0ab9b65bcfd01ce6a0173865484.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/686df58cea685a7200ab6bd803d52813.svg",
+            "https://ege.sdamgia.ru/formula/svg/f5/f57abcd547379ebebd1216bfd5067e2f.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a2b85f91a066e624e6910c7c3c62057f.svg",
+            "https://ege.sdamgia.ru/formula/svg/62/6257a9164ad6b18a92f9a616ef78c75b.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3c0a904bb3f69d29d7147e167c9dafc7.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/237096cb6a9726cf51a3e085175639b0.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "505473",
+        "505495",
+        "509483"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511409"
+}

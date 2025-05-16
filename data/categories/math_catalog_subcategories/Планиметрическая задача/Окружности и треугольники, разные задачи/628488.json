@@ -1,0 +1,30 @@
+{
+    "id": 628488,
+    "topic": "17",
+    "condition": {
+        "text": "Прямая, проходящая через середину M стороны BC треугольника ABC, пересекает сторону AC в точке K, причём а) Докажите, что б) Найдите медиану MN треугольника CKM, если BC = 12, CK = 8.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/15/15d57fc7f5485f62cecf1c68f5421a8e.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/04d803fe39d57b841d80561865ac3595.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/68926bf60cd1bc6adb7089b78adbca59.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  По­сколь­ку около четырёхуголь­ни­ка ABMK можно опи­сать окруж­ность. Впи­сан­ные в эту окруж­ность углы BAM и BKM опи­ра­ют­ся на одну и ту же дугу, сле­до­ва­тель­но, они равны.б)  Тре­уголь­ни­ки MKC и ABC по­доб­ны по двум углам (угол при вер­ши­не C общий), по­это­му  от­ку­да сле­ду­ет, что  По фор­му­ле для ме­ди­а­ны тре­уголь­ни­ка на­хо­дим, чтоОтвет: б) ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=150047",
+            "https://ege.sdamgia.ru/formula/svg/46/463bf83e09416c1ad541e32e83509863.svg",
+            "https://ege.sdamgia.ru/formula/svg/a0/a04cafce6bed81132ae80bcadd3336b0.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a69c2177ff0b86cae0cf2c78f5f92c6f.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/923f31484c334b7c1325b14d67ab78d6.svg",
+            "https://ege.sdamgia.ru/formula/svg/bc/bc0f39915615aa87180c2ac7a5bd9dfc.svg",
+            "https://ege.sdamgia.ru/formula/svg/66/6639a915f4d456abd3960ebe08e60faa.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d7d435e226d895784fb99257f8ad533b.svg"
+        ]
+    },
+    "answer": " б) ",
+    "analogs": [
+        "628370"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=628488"
+}

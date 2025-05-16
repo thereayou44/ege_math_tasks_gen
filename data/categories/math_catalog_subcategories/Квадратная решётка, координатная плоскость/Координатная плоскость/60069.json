@@ -1,0 +1,38 @@
+{
+    "id": 60069,
+    "topic": "Д4",
+    "condition": {
+        "text": "Найдите площадь трапеции, вершины которой имеют координаты",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/f8/f8b8894f4a27a6ac60587a73383774cd.svg",
+            "https://ege.sdamgia.ru/formula/svg/a4/a496fe55fe88a2cae0ff5f498f2b8e76.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f8ddbdefdb86a5ca5e3b180f24cae02a.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9fa60c4cf37c0cc27f2a5f16aafd7299.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Най­ди­те пло­щадь тра­пе­ции, вер­ши­ны ко­то­рой имеют ко­ор­ди­на­ты (2; 2), (8; 4), (8; 8), (2; 10).По­стро­им тра­пе­цию на ко­ор­ди­нат­ной плос­ко­сти. Пло­щадь тра­пе­ции равна про­из­ве­де­нию по­лу­сум­мы ос­но­ва­ний на вы­со­ту: Ответ:  36.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=66449",
+            "https://ege.sdamgia.ru/formula/svg/29/29018a6b222f9dd03c61e29ed475788c.svg"
+        ]
+    },
+    "answer": ".",
+    "analogs": [
+        "27705",
+        "60057",
+        "60063",
+        "60067",
+        "...",
+        "60057",
+        "60063",
+        "60067",
+        "60071",
+        "60085",
+        "60091",
+        "60095",
+        "60097",
+        "60099"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=60069"
+}

@@ -1,0 +1,38 @@
+{
+    "id": 556034,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых системаимеет единственное решение.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/e3/e33f71de031e82513fd8542f2d6d8454.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Вы­де­лим в урав­не­нии си­сте­мы пол­ные квад­ра­ты:Ещё раз вы­де­лим пол­ный квад­рат:Урав­не­ние опре­де­ля­ет окруж­ность с цен­тром  и ра­ди­у­сом  Не­ра­вен­ство  опре­де­ля­ет вер­ти­каль­ную по­ло­су На ри­сун­ке видно, что един­ствен­ное ре­ше­ние по­лу­ча­ет­ся в двух слу­ча­ях.1.  Окруж­ность ка­са­ет­ся по­ло­сы внеш­ним об­ра­зом. Это про­ис­хо­дит тогда и толь­ко тогда, когда центр рас­по­ло­жен вне по­ло­сы, а её ра­ди­ус равен рас­сто­я­нию от цен­тра до бли­жай­шей гра­ни­цы по­ло­сы: или от­ку­да или Пер­вая си­сте­ма имеет ре­ше­ние  Вто­рая си­сте­ма имеет ре­ше­ние 2.  Окруж­ность пре­вра­ща­ет­ся в точку и при этом при­над­ле­жит по­ло­се: от­ку­да Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ea/ea5ca6f16aa228502c0a2894c0392f13.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b5ba2d14b1c75e86e2c4abcc0b8c3616.svg",
+            "https://ege.sdamgia.ru/formula/svg/bc/bc8c991f0565a1031bf4aee6b6d58777.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fb2d5354d8be32303982d5137c8c4380.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b1476ca3a47afc8447c47e4463f80dd3.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/31e67e57de3d0655677fe164c343edc8.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/efa1658e6200ed3c0e7923149649ef4c.svg",
+            "https://ege.sdamgia.ru/formula/svg/29/29eceea4ee6acc6ef1a3eb06235c6251.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=159130",
+            "https://ege.sdamgia.ru/formula/svg/61/617bed5cba5ed5b634c0507447790b26.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/df328f07ff2100e2bcaff73e71d8811e.svg",
+            "https://ege.sdamgia.ru/formula/svg/9c/9cda8868a712b43b8f7300cfc8d87d5d.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/47827da2a50c3f3be6375409780686df.svg",
+            "https://ege.sdamgia.ru/formula/svg/99/99b56ac661de05d0ae3a107ab68896bc.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/cc11d83dc365a6eb1b86d282cd0b5e9a.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d6640598aecea9810f4d08bed433c1f8.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0d7e1d7db7706bdb002fb2c7a10bd3fc.svg",
+            "https://ege.sdamgia.ru/formula/svg/80/800637fceb79574911ed11d180dfa6d0.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "555972"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=556034"
+}

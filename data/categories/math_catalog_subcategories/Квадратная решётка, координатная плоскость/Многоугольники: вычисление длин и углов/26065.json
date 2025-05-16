@@ -1,0 +1,48 @@
+{
+    "id": 26065,
+    "topic": "Д4",
+    "condition": {
+        "text": "На клетчатой бумаге с размером клетки 1 1 изображён угол. Найдите тангенс этого угла.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=65776",
+            "https://ege.sdamgia.ru/formula/svg/60/60c13e05d3ec8c10b8564eae7023d9db.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Про­ве­дем пер­пен­ди­ку­ляр BA из точки B к от­рез­ку  Тогда:  Ответ: 0,5.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=65778",
+            "https://ege.sdamgia.ru/formula/svg/f9/f9526ac6a641147eca77d9f3a49b3938.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d599c5d944b0fce43a19a84ffb2cf3ca.svg"
+        ]
+    },
+    "answer": "0,5",
+    "analogs": [
+        "27450",
+        "27449",
+        "316033",
+        "...",
+        "27449",
+        "316033",
+        "316035",
+        "316037",
+        "509830",
+        "512346",
+        "512388",
+        "519799",
+        "525367",
+        "562747",
+        "316034",
+        "316036",
+        "316038",
+        "316039",
+        "316040",
+        "316041",
+        "316042",
+        "316043",
+        "316044",
+        "316045",
+        "316046"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=26065"
+}

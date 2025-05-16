@@ -1,0 +1,28 @@
+{
+    "id": 661279,
+    "topic": "2",
+    "condition": {
+        "text": "Даны векторы и Найдите квадрат длины вектора",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=181284",
+            "https://ege.sdamgia.ru/formula/svg/8f/8fd082536a0a420385519d1473c9d27e.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/390c629889c8e514de555ea927f2d1ec.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2f84f9a186b51b33a1c5b3bcf9dee2fd.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Ко­ор­ди­на­ты век­то­ра равны раз­но­сти ко­ор­ди­нат конца век­то­ра и его на­ча­ла. По­это­му век­тор  имеет ко­ор­ди­на­ты (3; 5), век­тор  имеет ко­ор­ди­на­ты (−1; −1). Ко­ор­ди­на­ты раз­но­сти век­то­ров равны раз­но­сти со­от­вет­ству­ю­щих ко­ор­ди­нат. По­это­му век­тор  имеет ко­ор­ди­на­ты (4; 6). Длина век­то­ра  По­это­му квад­рат длины век­то­ра равен 52. Ответ: 52.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/8f/8fd082536a0a420385519d1473c9d27e.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0f4c4ce0863d100a12c90c114fd9abeb.svg",
+            "https://ege.sdamgia.ru/formula/svg/5a/5adee8a389dd6d6239a1fcb925f3e8cf.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6dd96fc920d3e786c2dd522cd0eb991a.svg"
+        ]
+    },
+    "answer": "52",
+    "analogs": [
+        "27739",
+        "654473"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=661279"
+}

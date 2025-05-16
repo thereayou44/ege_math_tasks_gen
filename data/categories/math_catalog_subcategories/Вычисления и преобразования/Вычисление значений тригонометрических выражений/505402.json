@@ -1,0 +1,50 @@
+{
+    "id": 505402,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите если и",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/32/32666840668712d40c99673c07a70086.svg",
+            "https://ege.sdamgia.ru/formula/svg/7f/7fd70c52482f692ecbbb399ef19314ff.svg",
+            "https://ege.sdamgia.ru/formula/svg/ce/cea09fd370d73deb2eb200f80a94168a.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По­сколь­ку угол  лежит во вто­рой чет­вер­ти, его ко­си­нус от­ри­ца­те­лен. По­это­му Ответ: −0,75.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/7b/7b7f9dbfea05c83784f8b85149852f08.svg",
+            "https://ege.sdamgia.ru/formula/svg/64/64448d469808a63a0ec94f9f1d9b90cf.svg"
+        ]
+    },
+    "answer": "-0,75",
+    "analogs": [
+        "26777",
+        "284233",
+        "510443",
+        "...",
+        "284233",
+        "510443",
+        "64347",
+        "64349",
+        "64351",
+        "64353",
+        "64355",
+        "64357",
+        "64359",
+        "64361",
+        "64363",
+        "64365",
+        "64367",
+        "64369",
+        "64371",
+        "64373",
+        "64375",
+        "64377",
+        "64379",
+        "64381",
+        "284227",
+        "284229",
+        "284231"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=505402"
+}

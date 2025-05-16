@@ -1,0 +1,33 @@
+{
+    "id": 514048,
+    "topic": "16",
+    "condition": {
+        "text": "Планируется выдать льготный кредит на целое число миллионов рублей на пять лет. В середине каждого года действия кредита долг заёмщика возрастает на 10% по сравнению с началом года. В конце 1-го, 2-го и 3-го годов заёмщик выплачивает только проценты по кредиту, оставляя долг неизменно равным первоначальному. В конце 4-го и 5-го годов заёмщик выплачивает одинаковые суммы, погашая весь долг полностью. Найдите наибольший размер кредита, при котором общая сумма выплат заёмщика будет меньше 8 млн.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Обо­зна­чим через S раз­мер кре­ди­та. В конце 1-го, 2-го и 3-го годов заёмщик вы­пла­чи­ва­ет по  млн. Всего за три года.Рас­смот­рим по­га­ше­ние кре­ди­та за сле­ду­ю­щие два года. В се­ре­ди­не 4-го года долг воз­растёт до  млн. Обо­зна­чим через x раз­мер вы­пла­чи­ва­е­мой суммы в конце 4-го и 5-го годов. После вы­пла­ты в конце 4-го года долг равен  а в се­ре­ди­не 5-го года он равен  В конце 5-го года весь долг дол­жен быть по­га­шен, т. е. по­след­няя вы­пла­та равна  и по усло­вию равна  Зна­чит,  и общий раз­мер вы­плат равен  По усло­вию При  это не­ра­вен­ство верно, а при  оно не­вер­но, как и при боль­ших S Ответ: 5 млн руб.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/07/07d8342ae4c22c9133d95685f6c941c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e3f7c307472cc2a9f5571515a2e027eb.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/34197e9ce01c1246c0edb5e18e92214f.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/ac76fb3929c23d1ee77c060fcfa41d7f.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e7d9791930ffa2ad0a9c26e509fe34a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a131c26a086497d878f09bb34c5a2ce8.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fd3500a59568ee1c126a5e50c6bc8b91.svg",
+            "https://ege.sdamgia.ru/formula/svg/98/98b4b1e931552ba75f066b17c5f8198a.svg",
+            "https://ege.sdamgia.ru/formula/svg/2b/2b4c8316ed552f12012b96a91ce086cb.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0d401fa67cc6daa309a91b80c3efe684.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/41f5dfa0da09c987afd3f875d525e0e0.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cb5bef5a235409d7d45ac344be1747bd.svg",
+            "https://ege.sdamgia.ru/formula/svg/0e/0ed30c6fd62691a759c913b0fe8a50f3.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f1c7be4feddbf7d5007b1a3bb8e451f2.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0fc099b8893fb0fe1efbcf2f99cc6491.svg"
+        ]
+    },
+    "answer": " 5 млн руб.",
+    "analogs": [
+        "514029"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=514048"
+}

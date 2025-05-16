@@ -1,0 +1,42 @@
+{
+    "id": 511314,
+    "topic": "18",
+    "condition": {
+        "text": "При каких p данная система имеет решения:",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/bf/bf20919df7e016d50fcf537371ec0b36.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По­сколь­ку  и  и, зна­чит,  левая часть вто­ро­го урав­не­ния си­сте­мы не мень­ше, чем  Так как его пра­вая часть не боль­ше  оно рав­но­силь­но си­сте­ме из ко­то­рой на­хо­дим, что Пер­вое урав­не­ние имеет целые ко­эф­фи­ци­ен­ты и целый ко­рень  Так как   — тоже целое число и из ра­вен­ства  по­лу­ча­ем, что это не­чет­ное число, де­ля­щее число  Та­ки­ми чис­ла­ми яв­ля­ют­ся  и При  на­хо­дим  при  на­хо­дим При  на­хо­дим при  на­хо­дим  Ответ:  си­сте­ма имеет ре­ше­ния при ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/81/819bc9a7213ad57946340da99ebc2853.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9eb7c1c551a450c86fd579bb1fd0f898.svg",
+            "https://ege.sdamgia.ru/formula/svg/f6/f60350f9fed1e4ed66359571ac560ae3.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1d41e6f55521cdba4fc73febd09d2eb4.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/32b7955f9b36651f0303b1fd2a5d02c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/79/79f464ab0becb87575619af31f6e7493.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d306aa195d4b816037a5cfea1978793f.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0d766feee76464c78efbec600ee1438e.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bfaadf4caf83cbee4518f9b9379192bf.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/ea0e3ba9c780cc3231cd15b35ecb6af0.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d9cb741476305f454667e117d9e4f7ba.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c83222c821e2c9eef9c7bc3e9f74a550.svg",
+            "https://ege.sdamgia.ru/formula/svg/d6/d6ef9e4b79ec0696c1b692545e4df020.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a255512f9d61a6777bd5a304235bd26d.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2cb933aaa52abf8e43ea209d25d5e100.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d3289a96da4c1cf6ce57b2b76b80b965.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/cc4067be1aca8423a0a2a85713cbea21.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/52805d388d4a07409473f3998a5e013d.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/559f9810f0d49b822d9193a8e3a00e07.svg",
+            "https://ege.sdamgia.ru/formula/svg/58/5870bb658ee9e8a6900c138365d64c80.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fcddbdbadfaa3675ae1cb3925dff7731.svg",
+            "https://ege.sdamgia.ru/formula/svg/6f/6f0871e82d36248714218fd5eec18407.svg"
+        ]
+    },
+    "answer": "  си­сте­ма имеет ре­ше­ния при ",
+    "analogs": [
+        "484639"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511314"
+}

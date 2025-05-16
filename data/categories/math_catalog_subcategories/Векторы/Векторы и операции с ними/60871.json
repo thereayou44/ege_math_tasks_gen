@@ -1,0 +1,54 @@
+{
+    "id": 60871,
+    "topic": "2",
+    "condition": {
+        "text": "Стороны правильного треугольника ABC равны 49. Найдите длину вектора",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ca/caa2bddeb6f9d32ea23bdb43e1775f0c.svg",
+            "https://math-ege.sdamgia.ru/pic?id=a3621"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Сто­ро­ны пра­виль­но­го тре­уголь­ни­ка ABC равны 3. Най­ди­те длину век­то­ра Раз­ность  равна век­то­ру  Длина век­то­ра  Ответ: 3.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=145723",
+            "https://ege.sdamgia.ru/formula/svg/32/32aa48a4203e8ca55e180bb7d77dc3aa.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/885e2bfdd9d73549b77ab468fa95e220.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5c83351a42c092a2c1e6d4e64c1f8ec6.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c407fea7dc6cb02c8b823bb764ed70f9.svg"
+        ]
+    },
+    "answer": "",
+    "analogs": [
+        "27721",
+        "60855",
+        "60857",
+        "60859",
+        "...",
+        "60855",
+        "60857",
+        "60859",
+        "60861",
+        "60863",
+        "60865",
+        "60867",
+        "60869",
+        "60873",
+        "60875",
+        "60877",
+        "60879",
+        "60881",
+        "60883",
+        "60885",
+        "60887",
+        "60889",
+        "60891",
+        "60893",
+        "60895",
+        "60897",
+        "60899",
+        "60901",
+        "60903"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=60871"
+}

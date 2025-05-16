@@ -1,0 +1,42 @@
+{
+    "id": 100777,
+    "topic": "6",
+    "condition": {
+        "text": "Решите уравнение",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/fd/fddd0174f59b4b97c9b5dee6768eb80d.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Ре­ши­те урав­не­ние Ис­поль­зу­ем фор­му­лы квад­ра­та суммы и раз­но­сти:  Ответ: −6.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/2a/2ae0460ce305211d381b1042aba858c1.svg",
+            "https://ege.sdamgia.ru/formula/svg/9b/9b78030f980f59d77e6913ad484624bc.svg",
+            "https://ege.sdamgia.ru/formula/svg/87/87d2353714510d6dbb6b13fc9fe930b5.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa9cd1a094afbdb87cc7de8328ff7dc1.svg"
+        ]
+    },
+    "answer": "5",
+    "analogs": [
+        "77369",
+        "100759",
+        "100787",
+        "100761",
+        "...",
+        "100759",
+        "100787",
+        "100761",
+        "100763",
+        "100765",
+        "100767",
+        "100769",
+        "100771",
+        "100773",
+        "100775",
+        "100779",
+        "100781",
+        "100783",
+        "100785"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=100777"
+}

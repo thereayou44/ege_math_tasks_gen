@@ -1,0 +1,30 @@
+{
+    "id": 643164,
+    "topic": "17",
+    "condition": {
+        "text": "На сторонах AB и AC треугольника ABC отмечены точки C1 и B1 соответственно. Оказалось, что BC1 = CB1 = BC.а) Докажите, что точки B, C и середины отрезков BB1 и CC1 лежат на одной окружности.б) Найдите косинус угла между прямыми BB1 и CC1, если BC = 5, AB = 12, AC = 13.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Пусть точка M  — се­ре­ди­на от­рез­ка BB1, N  — се­ре­ди­на от­рез­ка CC1, точка K  — се­ре­ди­на ос­но­ва­ния BC. Тогда по тео­ре­ме о сред­ней линии  и  От­сю­да  зна­чит, точки B, M, N, C лежат на окруж­но­сти с цен­тром K.б)  За­ме­тим, что  зна­чит, угол ABC  — пря­мой. Тре­уголь­ник BCC1  — рав­но­бед­рен­ный, угол C1CB равен 45°. Пусть угол B1BC равен α. Тогдаот­сю­даПусть пря­мые BB1 и CC1 пе­ре­се­ка­ют­ся в точке P. Тогда  Зна­чит, Ответ: б) ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=137622",
+            "https://ege.sdamgia.ru/formula/svg/fb/fbef80be83c6ae23bc6264de63217464.svg",
+            "https://ege.sdamgia.ru/formula/svg/87/874f59c8eeaa12acb55ae9702198fee0.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/cc522da52c0d34935417e30006c40c1f.svg",
+            "https://ege.sdamgia.ru/formula/svg/e6/e6466958a9e189922f0283721de80859.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/df4e60a5b530486c8943782ff6391a7a.svg",
+            "https://ege.sdamgia.ru/formula/svg/48/4857d862cc12952dc4d42637972e8030.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d5b27ab7b44235474f175a44741aa86e.svg",
+            "https://ege.sdamgia.ru/formula/svg/58/5876756095fb07a8c75a62279db72907.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dc7d0295834dc2d13cfbce0898166878.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/cccb3d94a592c428bc9a488f3bb8267b.svg",
+            "https://ege.sdamgia.ru/formula/svg/c5/c5283192f776e1302cc3bdec045c6e22.svg"
+        ]
+    },
+    "answer": " б) ",
+    "analogs": [
+        "643173"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=643164"
+}

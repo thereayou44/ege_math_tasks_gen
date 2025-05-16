@@ -1,0 +1,37 @@
+{
+    "id": 511400,
+    "topic": "17",
+    "condition": {
+        "text": "В равнобедренном треугольнике ABC с углом при вершине A проведена биссектриса В треугольник ABC вписан прямоугольник DEFH так, что сторона FH лежит на отрезке BC, а вершина E — на отрезке а) Докажите, что б) Найдите площадь прямоугольника DEFH, если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ea/ea891026f238c4483986bf4efffa1ac9.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f861f280bc93d84e84d55c2884e42af7.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c6ed112a9eb109891082295b6e83622.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/ee1cce0d175c6a1cba4cc8c32c99d286.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/63836e11a2d51aba46ac53a263bfb3d4.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Пусть P  — ос­но­ва­ние пер­пен­ди­ку­ля­ра, опу­щен­но­го из точки D на пря­мую AB, тогда В рав­но­бед­рен­ном тре­уголь­ни­ке В пря­мо­уголь­ном тре­уголь­ни­ке  от­ку­да по­лу­ча­ем, что б)  Пусть AM  — вы­со­та тре­уголь­ни­ка ABC  — пе­ре­се­ка­ет ED в точке  ТогдаПусть  тогда  Тре­уголь­ни­ки ABC и AED по­доб­ны, сле­до­ва­тель­но, Зна­чит, пло­щадь пря­мо­уголь­ни­ка DEFH равна  Ответ: ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=146537",
+            "https://ege.sdamgia.ru/formula/svg/85/853b9bcde874e92062cbeea8eba45350.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/3473610472161fddf844b4a7517130be.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/650b59367755b517788f61830a7643d0.svg",
+            "https://ege.sdamgia.ru/formula/svg/ee/ee1cce0d175c6a1cba4cc8c32c99d286.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2c45f80c650c95d1b2dc2b9115fe543b.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5d2f0e680b2fd481a63bd99e6f1e6b9f.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d3e5ddd3f5161bdd133dc2d8ca9454ad.svg",
+            "https://ege.sdamgia.ru/formula/svg/ce/cef74fc16042f0a0449c8fa8e0f3674d.svg",
+            "https://ege.sdamgia.ru/formula/svg/c1/c1335342921849721e8a8db474daa3dd.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/41cb518bf1e2b15a433c281f81a20605.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/033c7a8b132ece71f5d705cb0e02b7e8.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "505239",
+        "505249"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511400"
+}

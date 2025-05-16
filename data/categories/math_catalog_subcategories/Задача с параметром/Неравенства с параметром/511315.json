@@ -1,0 +1,29 @@
+{
+    "id": 511315,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых множеством решений неравенства является отрезок.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/7b/7b7e33c5fd94d70ba7dc052259864f55.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пе­ре­пи­шем не­ра­вен­ство в виде  И на­ри­су­ем эс­ки­зы гра­фи­ков левой и пра­вой ча­стей не­ра­вен­ства.Из ри­сун­ка видно, что гра­фик пра­вой части не­ра­вен­ства лежит выше левой при  За­ме­тим, что при a = 1, ре­ше­ни­ем кроме от­рез­ка ста­но­вит­ся еще и точка x = 5, что про­ти­во­ре­чит усло­вию.При даль­ней­шем уве­ли­че­нии a  в ре­ше­ние будет по­па­дать еще один от­ре­зок с пра­вым кон­цом в точке x = 5. Левый конец будет сдви­гать­ся вплоть до слу­чая ка­са­ния при ко­то­ром ре­ше­ние снова пре­вра­тит­ся в один от­ре­зок.Рас­смот­рим слу­чай ка­са­ния:  тогда Итак, ин­тер­вал  не удо­вле­тво­ря­ет усло­вию за­да­чи. Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/a6/a68be005a9363c3550ad1da5ece924f1.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=154881",
+            "https://ege.sdamgia.ru/formula/svg/ac/acd6b6855de2169bcfafcd8892efe364.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/da184f6c2feac2b3ca0aaf16641d7986.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0d93788a4ee9b1b18fd338e790165c44.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/903029d932321bb0702b766bd16ca89b.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cd783f60a80ff680f3f25b70daeccf1b.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/89c0e9f2bff5478ae4009e4e8b345900.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "510547",
+        "484643"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=511315"
+}

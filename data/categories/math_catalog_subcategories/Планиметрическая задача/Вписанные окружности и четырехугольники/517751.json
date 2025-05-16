@@ -1,0 +1,30 @@
+{
+    "id": 517751,
+    "topic": "17",
+    "condition": {
+        "text": "Окружность, вписанная в трапецию ABCD, касается ее боковых сторон AB и CD в точках M и N соответственно. Известно, что AM = 6MB и 2DN = 3CN.а) Докажите, что AD = 3BC.б) Найдите длину отрезка MN, если радиус окружности равен",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/bf/bf09263b23eb1df6162cf7cf602a2845.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Пусть окруж­ность ка­са­ет­ся ос­но­ва­ний BC и AD в точ­ках K и L со­от­вет­ствен­но, а ее центр на­хо­дит­ся в точке O.Лучи AO и BO яв­ля­ют­ся бис­сек­три­са­ми углов BAD и ABC со­от­вет­ствен­но, по­это­му то есть тре­уголь­ник AOB пря­мо­уголь­ный. Ана­ло­гич­но, тре­уголь­ник COD тоже пря­мо­уголь­ный. Пусть BM  =  x, CN  =  y, тогда AM  =  6x, DN =от­ку­да y  =  2x. По­лу­ча­ем: BK  =  BM  =  x, AL  =  AM  =  6x, CK  =  CN  =  2x, DL  =  DN  =  3x, BC  =  BK + KC  =  3x, AD  =  AL + LD  =  9x, то есть AD  =  3BC.б)  За­ме­тим, что  по­это­му Пусть пря­мые AB и CD пе­ре­се­ка­ют­ся в точке P, а пря­мые MN и PO пе­ре­се­ка­ют­ся в точке Q. Тогда тре­уголь­ни­ки BPC и APD по­доб­ны, по­это­му AP  =  3BP, AB  =  2BP, BP = PN  =  PM = Пря­мая PO яв­ля­ет­ся се­ре­дин­ным пер­пен­ди­ку­ля­ром к MN. В пря­мо­уголь­ном тре­уголь­ни­ке OMP по­лу­ча­ем:Зна­чит,  Ответ: б) 18.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=148582",
+            "https://ege.sdamgia.ru/formula/svg/da/dad71d80a540f074005d15b243d9ec90.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dc868f5b4311847b7ceb1b2efc1949af.svg",
+            "https://ege.sdamgia.ru/formula/svg/e9/e9219209583f640296976dafef8dd2f0.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83b817cd0d787cbc37a739830b372ea2.svg",
+            "https://ege.sdamgia.ru/formula/svg/c9/c93e19c64f3fca545977fb0d39c92388.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/eff4c4f713e1c1fb01ea416afa4330a2.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3cdfe2355be01de031996bc8ec02e672.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/70810c08613f5a1831f90725ab39fc30.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/32a21068f48367ccd9dc890c339be17b.svg"
+        ]
+    },
+    "answer": " б) 18.",
+    "analogs": [
+        "517741"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=517751"
+}

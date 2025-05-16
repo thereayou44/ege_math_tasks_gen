@@ -1,0 +1,24 @@
+{
+    "id": 561230,
+    "topic": "17",
+    "condition": {
+        "text": "В треугольнике MPK биссектриса угла K пересекает сторону MP в точке A. Окружность, описанная около треугольника AMK пересекает сторону PK в точке B.а) Докажите, что треугольник ABM равнобедренный.б) Найдите площадь треугольника ABM, если MK = 9, PK = 6, MP = 5.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Дуги AB и AM равны, так как на них опи­ра­ют­ся рав­ные впи­сан­ные углы AKB и AKM, зна­чит, равны и стя­ги­ва­ю­щие их хорды AB и AM, тре­уголь­ник ABM рав­но­бед­рен­ный по опре­де­ле­нию.б)  Из тре­уголь­ни­ка MPK по тео­ре­ме ко­си­ну­сов най­демЧе­ты­рех­уголь­ник ABKM впи­сан в окруж­ность, зна­чит, его про­ти­во­ле­жа­щие углы в сумме дают 180°. Имеем:По тео­ре­ме о бис­сек­три­се внут­рен­не­го угла тре­уголь­ни­ка от­ку­да на­хо­дим, что AM  =  AB  =  3. Те­перь найдём пло­щадь тре­уголь­ни­ка ABM:Ответ: б) ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=148915",
+            "https://ege.sdamgia.ru/formula/svg/e0/e09c3f0a9beb31a8424d5f4be3527579.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/ac8e7c0328f8478cc2f0a6a755d1e04a.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2a934db448bbffd72beabc616df06ccc.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/81a00d4d2e8a7160d12a5e249c4c074b.svg",
+            "https://ege.sdamgia.ru/formula/svg/be/bec6a8a2dd63aa774a9839e0ccfac77c.svg"
+        ]
+    },
+    "answer": " б) ",
+    "analogs": [
+        "561178"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=561230"
+}

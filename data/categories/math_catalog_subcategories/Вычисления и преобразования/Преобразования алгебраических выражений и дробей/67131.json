@@ -1,0 +1,51 @@
+{
+    "id": 67131,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите значение выражения если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/b1/b164abddbe5bb298a9d991a179a97311.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3c48c5b3d3f9af489b83498f7ed1201d.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Най­дем  и  Далее вы­пол­ним пре­об­ра­зо­ва­ния:   Ответ: −210.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/ef/ef80531a2fbdcf4d078e070ab3881cd2.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d5297115bfc46dae3bc3d700257f3a84.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/de87b101e1e4d1d1cdf6285b944fa01e.svg"
+        ]
+    },
+    "answer": "-210",
+    "analogs": [
+        "26821",
+        "67083",
+        "67085",
+        "...",
+        "67083",
+        "67085",
+        "67087",
+        "67089",
+        "67091",
+        "67093",
+        "67095",
+        "67097",
+        "67099",
+        "67101",
+        "67103",
+        "67105",
+        "67107",
+        "67109",
+        "67111",
+        "67113",
+        "67115",
+        "67117",
+        "67119",
+        "67121",
+        "67123",
+        "67125",
+        "67127",
+        "67129"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=67131"
+}

@@ -1,0 +1,39 @@
+{
+    "id": 517574,
+    "topic": "16",
+    "condition": {
+        "text": "Взяли кредит в банке на сумму 200 000 рублей под r% процентов годовых и выплатили за 2 года платежами 130 000 рублей в первый год и 150 000 рублей — во второй. Найдите r.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Каж­дый год долг уве­ли­чи­ва­ет­ся на r% или в  раз и умень­ша­ет­ся на ве­ли­чи­ну еже­год­но­го пла­те­жа. Для удоб­ства вы­чис­ле­ний обо­зна­чим Тогда в пер­вый год долг со­ста­вит:  Оста­ток будет равен: После вто­ро­го года оста­ток по кре­ди­ту со­ста­вит: .По усло­вию кре­дит был по­га­шен за 2 года, а это зна­чит, что оста­ток за вто­рой год равен 0, то есть:По усло­вию за­да­чи  зна­чит,  от­ку­да сле­ду­ет, что  Ответ: 25.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/e1/e10a0533bffb07f48247e57fffd85179.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8eaab281452ae3f6a71cf43dc8c024a9.svg",
+            "https://ege.sdamgia.ru/formula/svg/d2/d207973d8ee04f44603defd5405051c3.svg",
+            "https://ege.sdamgia.ru/formula/svg/1f/1f0256bd507d4b82c4d58123cc559525.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/ca15f28c6f6acb6fb77e13f1d51065ff.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/ca7502491641398f62c4210266561aa4.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/0097bd57f565261e21c7f3b9b5fcd8d5.svg",
+            "https://ege.sdamgia.ru/formula/svg/25/258567698fdc9e7c605346767000d3b1.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/0097bd57f565261e21c7f3b9b5fcd8d5.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/32e05e1e6de20d5ae832e5d18a9d5c14.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f490d87111ea363f8bede669d3214dc1.svg",
+            "https://ege.sdamgia.ru/formula/svg/96/96f715a87704f5c4f3c017b42db3a643.svg",
+            "https://ege.sdamgia.ru/formula/svg/d0/d004fa0a3f5368f941f090034bc18a0b.svg",
+            "https://ege.sdamgia.ru/formula/svg/47/4781c4e4efdca7778808b895a8c5b9f9.svg"
+        ]
+    },
+    "answer": " 25.",
+    "analogs": [
+        "507275",
+        "517575",
+        "548489",
+        "...",
+        "517575",
+        "548489",
+        "548560",
+        "548567"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=517574"
+}

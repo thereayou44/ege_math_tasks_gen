@@ -1,0 +1,29 @@
+{
+    "id": 517455,
+    "topic": "17",
+    "condition": {
+        "text": "Точка E — середина боковой стороны CD трапеции ABCD. На стороне AB взяли точку K так, что прямые CK и AE параллельны. Отрезок CK и BE пересекаются в точке O.а) Доказать, что CO = KO.б) Найти отношение оснований трапеции BC и AD, если площадь треугольника BCK составляет площади трапеции ABCD.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/d6/d61b1d12cb475d92b50b12324f6d6b6d.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Пусть BC ∩ AE = L, тогда тре­уголь­ни­ки AED и LEC равны, так как DE  =  CE, ∠AED = ∠LEC, ∠ADE = ∠LCE. Сле­до­ва­тель­но, BE  — ме­ди­а­на ABL. Далее, ΔABE ∼ ΔKBO,  и ΔLBE ∼ ΔCBO с тем же ко­эф­фи­ци­ен­том по­до­бия   Тогда б)  По­сколь­ку ΔAED = ΔLEC,  Далее, ΔKBC∼ΔABL. Зна­чит,  то есть  Тогда  Ответ: 3 : 5.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=147394",
+            "https://ege.sdamgia.ru/formula/svg/af/af5d1305861952aea67a764f1d6b758c.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f09e91681cea3d98ffacbbe947a92834.svg",
+            "https://ege.sdamgia.ru/formula/svg/4e/4e20eb00245b16f9ddc812b6bb127f23.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c80c7d23743d35c7f2b33cff9129a949.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/ea3b2f988beab3ee09a145de2b74cacc.svg",
+            "https://ege.sdamgia.ru/formula/svg/90/90db7324984eceb933c51990c11ff978.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/16c05b3e7be5292b2d93e55ea5cd2e4d.svg"
+        ]
+    },
+    "answer": " 3 : 5.",
+    "analogs": [
+        "517448",
+        "517441"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=517455"
+}

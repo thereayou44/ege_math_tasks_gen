@@ -1,0 +1,53 @@
+{
+    "id": 514715,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых уравнениеимеет ровно четыре решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/48/48e3eda0b6fd9505554bb119672a60d6.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Сде­ла­ем за­ме­ну  По­лу­чим урав­не­ние  При вы­пол­нен­ной за­ме­не ко­ли­че­ство кор­ней не из­ме­ня­ет­ся (каж­до­му зна­че­нию пе­ре­мен­ной t со­от­вет­ству­ет ровно одно зна­че­ние пе­ре­мен­ной x). По­это­му новое урав­не­ние также долж­но иметь ровно 4 ре­ше­ния. По­стро­им гра­фик этого урав­не­ния в плос­ко­сти tOa Пря­мые  и  раз­би­ва­ют плос­кость на че­ты­ре части (I, II, III и IV), в каж­дой из ко­то­рых гра­фик урав­не­ния  пред­став­ля­ет собой часть па­ра­бо­лы. В об­ла­сти I оба под­мо­дуль­ных вы­ра­же­ния по­ло­жи­тель­ны и урав­не­ние при­ни­ма­ет вид Гра­фи­ком  яв­ля­ет­ся па­ра­бо­ла с вер­ши­ной в точке с ко­ор­ди­на­та­ми  В об­ла­сти II вы­ра­же­ние  от­ри­ца­тель­но, а вы­ра­же­ние   по­ло­жи­тель­но и урав­не­ние при­ни­ма­ет вид Гра­фи­ком  яв­ля­ет­ся па­ра­бо­ла с вер­ши­ной в точке с ко­ор­ди­на­та­ми  Для об­ла­сти III по­лу­чим Гра­фи­ком  яв­ля­ет­ся па­ра­бо­ла с вер­ши­ной в точке с ко­ор­ди­на­та­ми  Для об­ла­сти IV по­лу­чим Гра­фи­ком  яв­ля­ет­ся па­ра­бо­ла с вер­ши­ной в точке с ко­ор­ди­на­та­ми Ко­ли­че­ство кор­ней опре­де­ля­ет­ся ко­ли­че­ством точек пе­ре­се­че­ния гра­фи­ка урав­не­ния с го­ри­зон­таль­ной пря­мой. При  урав­не­ние не имеет кор­ней, при урав­не­ние имеет один ко­рень,при урав­не­ние имеет два корня,при урав­не­ние имеет три корня,при  урав­не­ние имеет че­ты­ре корня,при урав­не­ние имеет три корня,при  урав­не­ние имеет че­ты­ре корня,при урав­не­ние имеет три корня,при урав­не­ние имеет два корня,при   урав­не­ние имеет один ко­рень,при урав­не­ние не имеет кор­ней. Ответ: урав­не­ние имеет че­ты­ре корня при  и при  ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/c6/c66e50dbd91b4fa9cd4ae932381f3cae.svg",
+            "https://ege.sdamgia.ru/formula/svg/be/be18222b2b71c34da22aa3c3921aa8da.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4d14a6b1e78a4822b124752cd076fee6.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c454e50daaba8ef905998035f2a86f43.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0d9c419306f469390cde75b6e957c3ca.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=157041",
+            "https://ege.sdamgia.ru/formula/svg/08/08e76d3d992081d70b2eb3c0aebf9783.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/86cdfccebf15148272d4e087a1ee618b.svg",
+            "https://ege.sdamgia.ru/formula/svg/12/1294835af41d809852fcafc70e749348.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/5216049724adedd43e660c837bfa397d.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f127086300f34ec3a4c26218054ff86d.svg",
+            "https://ege.sdamgia.ru/formula/svg/2c/2c54b9ce950ac20ab549c5d1a59ccde6.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a9052635ee164380c62341f283efd640.svg",
+            "https://ege.sdamgia.ru/formula/svg/5a/5ae68143e56ceddc151c04fddcb4db64.svg",
+            "https://ege.sdamgia.ru/formula/svg/48/48ef4631735cfa84a46eee85ee05d706.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/07141b0c36e9799dc4bbf75507a12112.svg",
+            "https://ege.sdamgia.ru/formula/svg/11/11f675b6df1a0c67b9b0c4bdff7b3417.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/40d58ae91ac3b3bdd0082c76e8a95f3a.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/813033935df23a26bb3272444fee43be.svg",
+            "https://ege.sdamgia.ru/formula/svg/f2/f2d80a3b0d140cc9511bfe5d6381697f.svg",
+            "https://ege.sdamgia.ru/formula/svg/35/35d02691c5c5cfb68e7d5e4142d6b5de.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e714368ee8cef4a98cd261c9eae158f2.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8c2b125270bde47899b92ccf3f29861c.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f0c624747d0bfaa94c5e0aaf43872a87.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c329bc0d78f28d53601263381c92e0f.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/ded681eaa02d11064c9a469dd1b3e04c.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf8c865aa2db3485097000668d192a25.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b5b6ba39139131bd72a5f50017555209.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cd406913ac5825831f900bc9a4aca981.svg",
+            "https://ege.sdamgia.ru/formula/svg/12/12b37e16cb9999ccc628c38a7c110b17.svg",
+            "https://ege.sdamgia.ru/formula/svg/9a/9adaf166b7ebac8956d681a4132fad49.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c329bc0d78f28d53601263381c92e0f.svg",
+            "https://ege.sdamgia.ru/formula/svg/cf/cf8c865aa2db3485097000668d192a25.svg"
+        ]
+    },
+    "answer": " урав­не­ние имеет че­ты­ре корня при  и при ",
+    "analogs": [
+        "513272"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=514715"
+}

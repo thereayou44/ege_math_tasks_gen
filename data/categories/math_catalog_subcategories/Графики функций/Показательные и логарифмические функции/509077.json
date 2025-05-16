@@ -1,0 +1,51 @@
+{
+    "id": 509077,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображён график функции Найдите значение x, при котором",
+        "images": [
+            "https://ege.sdamgia.ru/get_file?id=135651",
+            "https://ege.sdamgia.ru/formula/svg/6e/6e712ca76fcfede606113a6e6484f300.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/164778f821960b6d84615c18c03930c9.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По гра­фи­ку функ­ции  опре­де­ля­ем, что  и  Тогда по­лу­ча­ем си­сте­му:Зна­чит,  Решим урав­не­ние  Ответ: 25.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/eb/eb2423c108a3cc0402c3b7e27d7a11d3.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c7fd63e7f4c4a1545f202156802af1d6.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54979175ce8e0fb2f142c6539c5381d2.svg",
+            "https://ege.sdamgia.ru/formula/svg/24/24a7b231948b984281f73c9a1b99d8a4.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fdde9d436ec71e9013aa1d60b0322315.svg",
+            "https://ege.sdamgia.ru/formula/svg/23/23a7626e32fe0ead2bba47c63bbdf80c.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/ac9992cb97cdc1a5a8908e9c4e048970.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b4558caf8f804f0897c1b550fcd536aa.svg",
+            "https://ege.sdamgia.ru/formula/svg/67/671cfcaaac457e90b9b00179d0722756.svg"
+        ]
+    },
+    "answer": "25",
+    "analogs": [
+        "509060",
+        "509061",
+        "509062",
+        "509063",
+        "...",
+        "509061",
+        "509062",
+        "509063",
+        "509064",
+        "509065",
+        "509066",
+        "509067",
+        "509068",
+        "509069",
+        "509070",
+        "509071",
+        "509072",
+        "509073",
+        "509074",
+        "509075",
+        "509076"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509077"
+}

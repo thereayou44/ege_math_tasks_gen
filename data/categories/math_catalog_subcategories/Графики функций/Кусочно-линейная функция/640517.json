@@ -1,0 +1,29 @@
+{
+    "id": 640517,
+    "topic": "Д10",
+    "condition": {
+        "text": "На рисунке изображён график функции вида где a и b целые числа. Найдите значение f(5).",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=130533",
+            "https://ege.sdamgia.ru/formula/svg/77/779fedda382ef89c384872cb49dad2ce.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пусть пра­вая ветвь гра­фи­ка мо­ду­ля лежит на пря­мой  Из гра­фи­ка на­хо­дим, что   Тогда уг­ло­вой ко­эф­фи­ци­ент  По­сколь­ку  по­лу­ча­ем, что   Зна­чит,  а по­то­муОтвет: 11.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/0f/0fe1a394c64c39ebbd67cb0f384fb8ef.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7a62400d7ff1b1f2295eb7a0bfd0319c.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f0e0c15f5b15d7f28a85c23e5ef26ffd.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/385d28935ebd80de57229c93dd0e71f2.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/ef29a97881a46040a3b25d78849e67fa.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/6507c2219a4cdbeca26f16e375bf08ba.svg",
+            "https://ege.sdamgia.ru/formula/svg/25/25348de1d4197d7a39d74b43d60941f3.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fce34b0ca2f3fb28533eef58a07e3edd.svg"
+        ]
+    },
+    "answer": "11",
+    "analogs": [
+        "639948"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=640517"
+}

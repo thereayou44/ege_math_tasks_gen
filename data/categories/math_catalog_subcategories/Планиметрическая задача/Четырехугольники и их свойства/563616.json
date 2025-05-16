@@ -1,0 +1,54 @@
+{
+    "id": 563616,
+    "topic": "17",
+    "condition": {
+        "text": "Дан параллелограмм ABCD с острым углом A. На продолжении стороны AD за точку D взята точка N такая, что CN = CD, а на продолжении стороны CD за точку D взята такая точка M, что AD = AM.а) Докажите, что BM = BN.б) Найдите MN, если AC = 4,",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/6f/6f7a9757b3ddef6a346a24c72de6650b.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Пусть  тогда  Углы  и вер­ти­каль­ные и равны, тогда  и  Тогда  Таким об­ра­зом, тре­уголь­ни­ки ABM и BCN равны по двум сто­ро­нам и углу между ними, сле­до­ва­тель­но, BM  =  BN.б)  Точки M, C, N и A лежат на одной окруж­но­сти.  Рас­смот­рим тре­уголь­ник AMN, впи­сан­ный в окруж­ность, в ко­то­ром Рас­смот­рим тре­уголь­ник ACM, ко­то­рый также впи­сан в окруж­ность, в ко­то­ром  Таким об­ра­зом, Ответ: б)  При­ве­дем дру­гое ре­ше­ние пунк­та б) Реян Те­мир­ка­я­е­вой (Сим­фе­ро­поль).Тра­пе­ция ABCN  — рав­но­бед­рен­ная, так как ос­но­ва­ния BC и AN па­рал­лель­ны, а бо­ко­вые сто­ро­ны AB и CN равны, cле­до­ва­тель­но,  Пусть  тогда  Пусть  тогда  так как тре­уголь­ни­ки MAB и NBC равны. Таким об­ра­зом,  и  Так как  то  сле­до­ва­тель­но,  и Най­дем ко­си­нус угла:  Вы­чис­лим: Сле­до­ва­тель­но, ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=97095",
+            "https://ege.sdamgia.ru/formula/svg/36/36cd86936a8865e8476a48a6a04416aa.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f025f23cff48627b40c1dd5c3327c440.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/227ab9873cceb819870bb8f78ca3be0c.svg",
+            "https://ege.sdamgia.ru/formula/svg/4c/4cc1892a279792cf5d5c6c68efae9751.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5dd4e24318fc503df0f71189cfc07325.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9e137ab92e98a50eb448d6120d1dca28.svg",
+            "https://ege.sdamgia.ru/formula/svg/6e/6e3b48222a07ae48cef31fd2e2c248ff.svg",
+            "https://ege.sdamgia.ru/formula/svg/dd/dd06a1199be416c3ebd38e5163d8e970.svg",
+            "https://ege.sdamgia.ru/formula/svg/7d/7dff969480509e96d509765be336d639.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/10727f3a207effa8c96e355438c7b5b3.svg",
+            "https://ege.sdamgia.ru/formula/svg/d4/d4a47b5601302eff4e90074f09c0945a.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/dfb9c306ac047dce61509fb6feb93d8f.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=97094",
+            "https://ege.sdamgia.ru/formula/svg/7d/7d84cbfec6be6e35fec01085fcd581af.svg",
+            "https://ege.sdamgia.ru/formula/svg/93/930e3676d4f7804a40202326dfadf417.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4bce445ad428a5ad5f93f3c01dd14926.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/725c56fe709bdf603995d5d56e84421e.svg",
+            "https://ege.sdamgia.ru/formula/svg/b7/b70223d07d5b4521294fcf42e2cb4577.svg",
+            "https://ege.sdamgia.ru/formula/svg/3d/3d1320de0371567fb2a2fb4daa2f4b44.svg",
+            "https://ege.sdamgia.ru/formula/svg/48/4826c76a9da9debdcb2d24e16e3c41d8.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f8b4fa0cf994ba61c4f42dda6a6785f8.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6cf5438dc37844c4ed8bf0333a386137.svg",
+            "https://ege.sdamgia.ru/formula/svg/b2/b220fe7f0d7ca68d8f0ef455a289da57.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/737771b8c36d387cadb219c1ec8ec7b8.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/74df799a1e426df3c3ca2ed4e5a55030.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bfac388331e129ab99db0d3f4969b0cc.svg",
+            "https://ege.sdamgia.ru/formula/svg/74/74df799a1e426df3c3ca2ed4e5a55030.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/51862d235c6c36d4ec2516d71baf858c.svg",
+            "https://ege.sdamgia.ru/formula/svg/59/59dd831d702fe43682ca2d8448219daa.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0cab476ea28652205d32a0621dbca3dc.svg",
+            "https://ege.sdamgia.ru/formula/svg/b6/b654ebe85bca48560361798573113472.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/89a41f4d4445200b8594089d5ea0c9cf.svg",
+            "https://ege.sdamgia.ru/formula/svg/ea/ea1834f28d432e5813783c0acba01a95.svg"
+        ]
+    },
+    "answer": " б) ",
+    "analogs": [
+        "563635"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=563616"
+}

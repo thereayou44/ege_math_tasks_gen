@@ -1,0 +1,49 @@
+{
+    "id": 519900,
+    "topic": "17",
+    "condition": {
+        "text": "К окружности, вписанной в квадрат ABCD, проведена касательная, пересекающая стороны AB и AD в точках M и N соответственно.а) Докажите, что периметр треугольника AMN равен стороне квадрата.б) Прямая MN пересекает прямую CD в точке P. В каком отношении делит сторону BC прямая, проходящая через точку P и центр окружности, если AM : MB = 1 : 3?",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Пусть окруж­ность, впи­сан­ная в квад­рат, ка­са­ет­ся его сто­ро­ны AB в точке M1, сто­ро­ны AD  — в точке N1, а пря­мой MN  — в точке T. По свой­ству ка­са­тель­ных   и  Тогда б)  По­ло­жим   ТогдаПо тео­ре­ме Пи­фа­го­ра  то естьОт­сю­да на­хо­дим, что  Тогда  и  Пусть O  — центр окруж­но­сти, а пря­мая PO пе­ре­се­ка­ет сто­ро­ны AD и BC в точ­ках L и H со­от­вет­ствен­но. Из ра­вен­ства тре­уголь­ни­ков DOL и BOH сле­ду­ет, что DL  =  BH, по­это­му  Окруж­ность впи­са­на в угол MPC, зна­чит, PL  — бис­сек­три­са тре­уголь­ни­ка DPN, ко­то­рый по­до­бен тре­уголь­ни­ку AMN. Ис­поль­зуя свой­ство бис­сек­три­сы и по­до­бие, на­хо­дим:от­ку­даучи­ты­вая, что  на­хо­дим, что   Ответ: б) 1 : 3. При­ве­дем ре­ше­ние пунк­та б) пред­ло­жен­ное нашим чи­та­те­лем Дмит­ри­ем.Часть б) можно ре­шить проще, до­ка­зав, что  От­ту­да сразу сле­ду­ет, что  при любом по­ло­же­нии точки M. Дей­стви­тель­но,  а   — угол между ка­са­тель­ны­ми и со­от­вет­ству­ю­щи­ми им ра­ди­у­са­ми. Далее, PH  — бис­сек­три­са   — бис­сек­три­са  Сле­до­ва­тель­но,  Тре­уголь­ни­ки OHB и OMA равны  по вто­ро­му при­зна­ку.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=138374",
+            "https://ege.sdamgia.ru/formula/svg/1e/1eef8d268b102e60eed80205c4907dbe.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cde8cee47537f2cc61f4006ee0a60dee.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e71e6a42676262a93302148e71393feb.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3c4dc5967e9b6cabff16666002546343.svg",
+            "https://ege.sdamgia.ru/formula/svg/9d/9de274a6d1e333964a7568156c2329ce.svg",
+            "https://ege.sdamgia.ru/formula/svg/a2/a27243bac37009807f561bf86ddf0505.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/34ab80acb6be37da73bd6384e7ecf6e6.svg",
+            "https://ege.sdamgia.ru/formula/svg/e3/e35bda4b0abac9356ac3320d55b9c1a3.svg",
+            "https://ege.sdamgia.ru/formula/svg/ff/ffd304626a9f6f924efaa54d4c030886.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f49fa61bf5e7d1a430784850b7328716.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/31df1a24ec4262455cc41a3b9e987fc0.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/091c98a13fa365c22e9cf82f1f22f533.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/70f8f15b55ac035e7fbee5d34271481d.svg",
+            "https://ege.sdamgia.ru/formula/svg/87/8703824e002acd1f26bf41798b9f4c40.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f4a39494eb82135eaf1e86dc1d2972e0.svg",
+            "https://ege.sdamgia.ru/formula/svg/58/586cdb1d19c87b33b13c013187256137.svg",
+            "https://ege.sdamgia.ru/formula/svg/f8/f8df4ae8846647dde44fc9fa793d2d8c.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/659d30f37319e77fdcf0200a2536331f.svg",
+            "https://ege.sdamgia.ru/formula/svg/20/2069161675ba9724e7df4df112358e55.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/cc1a0e062f9fd5884d13a33691d5fa91.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e0faa02e88ed33e357c3381e874fd3ef.svg",
+            "https://ege.sdamgia.ru/formula/svg/69/698e8999afab74e819a3d45cc109cd18.svg",
+            "https://ege.sdamgia.ru/formula/svg/b4/b43cefe7597fe9db2808ed8f8114ee05.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/01f64e552d3af4f12c773722356e0d30.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/63d1e7330551894c93764cc90be496f4.svg",
+            "https://ege.sdamgia.ru/formula/svg/61/6165b6b01c9c433c3d6252ad52e6d055.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e1e00a95dea32b9ebdd4adc4ee4514ff.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c4a6e11bc24ca2395b3e8f2e75032196.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/cc5124753c8724481bf9a4dfedc97b75.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/31c2427b889680e6e0a14819c3ad45df.svg"
+        ]
+    },
+    "answer": " б) 1 : 3.",
+    "analogs": [
+        "514372"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=519900"
+}

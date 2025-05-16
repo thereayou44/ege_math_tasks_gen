@@ -1,0 +1,26 @@
+{
+    "id": 526699,
+    "topic": "16",
+    "condition": {
+        "text": "В июле 2022 года планируется взять кредит на сумму 177 120 рублей. Условия возврата таковы: — в январе каждого года долг увеличивается на 25% по сравнению с предыдущим годом; — с февраля по июнь нужно выплатить часть долга одним платежом.Сколько рублей будет выплачено банку, если известно, что кредит будет полностью погашен четырьмя равными платежами (то есть за четыре года)?",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пусть  руб.  —  сумма кре­ди­та, x руб.  — еже­год­ный пла­теж,  Тогда схема вы­пла­ты кре­ди­та вы­гля­дит так: Тогда  Таким об­ра­зом, общая сумма вы­плат банку будет равна  Ответ: 300 000.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/10/10361cf54b7ee6fd38efc792252b6ad9.svg",
+            "https://ege.sdamgia.ru/formula/svg/51/510f73facfca432f0b5f0080b5c89e12.svg",
+            "https://ege.sdamgia.ru/formula/svg/6a/6a6f4e34e9ecdac4dd3e7b1d5145323f.svg",
+            "https://ege.sdamgia.ru/formula/svg/bc/bcae6659b50f8dc25d06355d65286477.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4a0c376abb2dc7d8b86c5fb81c607ed3.svg",
+            "https://ege.sdamgia.ru/formula/svg/87/87779e51cb129ab7e0fb7e80f94b2e96.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d915d99a52e25cec6f5abaca8e10983e.svg"
+        ]
+    },
+    "answer": " 300 000.",
+    "analogs": [
+        "526678",
+        "660739"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=526699"
+}

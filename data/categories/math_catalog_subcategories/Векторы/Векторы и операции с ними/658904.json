@@ -1,0 +1,28 @@
+{
+    "id": 658904,
+    "topic": "2",
+    "condition": {
+        "text": "На координатной плоскости изображены векторы и координатами которых являются целые числа. Найдите скалярное произведение",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=176276",
+            "https://ege.sdamgia.ru/formula/svg/8f/8fd082536a0a420385519d1473c9d27e.svg",
+            "https://ege.sdamgia.ru/formula/svg/b6/b6a8e232d9fa993013d1ce0a7f1766ed.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3ae27046cf86916c43b84a8927522449.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По ри­сун­ку опре­де­лим ко­ор­ди­на­ты век­то­ров:    Ска­ляр­ное про­из­ве­де­ние век­то­ров равно:Ответ: 1.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/43/43b95ba0a949718ef81cc036e99ba686.svg",
+            "https://ege.sdamgia.ru/formula/svg/fe/fe2ddb9acc2be5f3b630dea7a2abda57.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/17d0babdfbb47bbd16d2c3854e6fa851.svg"
+        ]
+    },
+    "answer": "1",
+    "analogs": [
+        "644807",
+        "658762",
+        "658859"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=658904"
+}

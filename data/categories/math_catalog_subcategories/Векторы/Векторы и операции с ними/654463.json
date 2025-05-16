@@ -1,0 +1,27 @@
+{
+    "id": 654463,
+    "topic": "2",
+    "condition": {
+        "text": "На клетчатой бумаге с размером клетки изображен треугольник ABC. Найдите скалярное произведение",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=164989",
+            "https://ege.sdamgia.ru/formula/svg/b9/b99a31f00d8eff828fb2b1657efe2f4b.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f0f83881aa95f7d16c65689d21b7bd62.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Най­дем сто­ро­ны тре­уголь­ни­ка по тео­ре­ме Пи­фа­го­ра (см. рис.), по­лу­чим:    Квад­рат боль­шей сто­ро­ны равен сумме квад­ра­тов мень­ших сто­рон, по­это­му по тео­ре­ме, об­рат­ной тео­ре­ме Пи­фа­го­ра, тре­уголь­ник ABC  — пря­мо­уголь­ный. Обо­зна­чим угол между ка­те­том AC и ги­по­те­ну­зой AB равен α, тогда  По опре­де­ле­нию ска­ляр­но­го про­из­ве­де­ния по­лу­ча­ем:Ответ: 10.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/61/61d59fcc80b9729aa9f8939ebf24f581.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c860e698eb35e629103e617b062e65a3.svg",
+            "https://ege.sdamgia.ru/formula/svg/35/352bdcc938bff6e915fd4deb89f99e20.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d3a108ae2db85fa19b5765ac19f12674.svg",
+            "https://ege.sdamgia.ru/formula/svg/07/070f4cd058d2a0f0637e1cc5cce57992.svg"
+        ]
+    },
+    "answer": "10",
+    "analogs": [
+        "654451"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=654463"
+}

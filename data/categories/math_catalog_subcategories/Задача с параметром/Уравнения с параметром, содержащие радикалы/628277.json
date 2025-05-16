@@ -1,0 +1,28 @@
+{
+    "id": 628277,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых уравнение имеет хотя бы одно решение.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/55/557362f3826d4f2bb8c6c3baa8ae4c7b.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Левая часть урав­не­ния имеет смысл при  Вы­де­лим в левой части пол­ный квад­рат: от­ку­да сле­ду­ет, что Ра­вен­ство воз­мож­но, толь­ко если обе части равны нулю, от­ку­да сле­ду­ет, что x  =  −2 или a  =  0.1.  Пусть x  =  −2. По­лу­ча­ет­ся урав­не­ние  ко­то­рое имеет един­ствен­ное ре­ше­ние  Сле­до­ва­тель­но, при  урав­не­ние имеет ре­ше­ние x  =  −2.2.  Если  то a  =  0. По­лу­ча­ем урав­не­ние x2  =  0, ко­то­рое имеет ре­ше­ние x  =  0. Ответ:  или a  =  0.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/4e/4ef83f5ccc98569950d109f554033543.svg",
+            "https://ege.sdamgia.ru/formula/svg/8b/8bc5378b4cb8933f9891ab5cac1b47cb.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a752095ea269e05c98b6cf684c42208f.svg",
+            "https://ege.sdamgia.ru/formula/svg/60/6044d57344be9c1eb903a8f7709ead9d.svg",
+            "https://ege.sdamgia.ru/formula/svg/33/333e7ca920989c378cbae5cd8436bd45.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/68e6ca5fbc01f0c0c014faa54bae33c5.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bf32904c4bc4dcaf5512a41830462671.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/68e6ca5fbc01f0c0c014faa54bae33c5.svg"
+        ]
+    },
+    "answer": "  или a  =  0.",
+    "analogs": [
+        "628246"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=628277"
+}

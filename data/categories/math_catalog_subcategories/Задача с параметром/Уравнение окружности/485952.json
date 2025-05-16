@@ -1,0 +1,73 @@
+{
+    "id": 485952,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все положительные значения a, при каждом из которых система уравнений имеет единственное решение.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/c2/c2a3d26ef2560b06ea81604427218ba1.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пер­вое урав­не­ние задаёт на плос­ко­сти окруж­но­сти  и   ра­ди­у­са сим­мет­рич­ные от­но­си­тель­но оси ор­ди­нат. Цен­тры этих окруж­но­стей  — точки  и  Вто­рое урав­не­ние  — урав­не­ние окруж­но­сти  ра­ди­у­са  с цен­тром Си­сте­ма имеет един­ствен­ное ре­ше­ние тогда и толь­ко тогда, когда окруж­ность  ка­са­ет­ся одной из окруж­но­стей  и  но не имеет общих точек с дру­гой окруж­но­стью.Из точки C про­ведём лучи  и  и обо­зна­чим  точки их пе­ре­се­че­ния с окруж­но­стя­ми  и  (см. рис.).За­ме­тим, что  по­это­му  и  Зна­чит, если  то  ка­са­ет­ся  но не имеет общих точек с  Если  то  ка­са­ет­ся  но не имеет общих точек с Срав­ним  и : По­лу­ча­ем  Зна­чит, если  ка­са­ет­ся  в точке  то  пе­ре­се­ка­ет  в двух точ­ках. Ана­ло­гич­но, если  ка­са­ет­ся  в точке  то  пе­ре­се­ка­ет  в двух точ­ках. Сле­до­ва­тель­но, дру­гих ре­ше­ний, кроме двух най­ден­ных, си­сте­ма не имеет. Ответ:  или ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=158775",
+            "https://ege.sdamgia.ru/formula/svg/7a/7afeceb5c31669f4f13612b877d421b9.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/9249b0cf3fdd4bb55b6f9d127c49fb7a.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/32c9dcc183aeffd49878442018b997bd.svg",
+            "https://ege.sdamgia.ru/formula/svg/40/4077847ae0ca0b782498ea1f399b4e22.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/ed3ff7563ca6ef769a5315cd114a3006.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4d1b7b74aba3cfabd624e898d86b4602.svg",
+            "https://ege.sdamgia.ru/formula/svg/32/323c5f97105643bc61e288fe596194ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3a5b505297bfe03190aa92ab051dc6a7.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4d1b7b74aba3cfabd624e898d86b4602.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7afeceb5c31669f4f13612b877d421b9.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d890ebab837c9400f379b6431ed03f01.svg",
+            "https://ege.sdamgia.ru/formula/svg/86/86e43cc8f867b1331bc49e439e8afa17.svg",
+            "https://ege.sdamgia.ru/formula/svg/bd/bd5be63606d9b0c3c5731df042a8a3fd.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/13ec7612d3573aa6bf29ec5c952e467f.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7afeceb5c31669f4f13612b877d421b9.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/9249b0cf3fdd4bb55b6f9d127c49fb7a.svg",
+            "https://ege.sdamgia.ru/formula/svg/de/def41b99752eaf48585f6479be16713c.svg",
+            "https://ege.sdamgia.ru/formula/svg/1c/1cce7d4bc696b2efd7611cc39d15e558.svg",
+            "https://ege.sdamgia.ru/formula/svg/df/df764c940c208d6f9962190c793af64c.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/157b7fc21829035cf421bb86d18659f2.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4d1b7b74aba3cfabd624e898d86b4602.svg",
+            "https://ege.sdamgia.ru/formula/svg/d8/d890ebab837c9400f379b6431ed03f01.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/10893dd73f6950ec04dc4aa600216138.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/0106680de1515055c124fd029c371fa6.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4d1b7b74aba3cfabd624e898d86b4602.svg",
+            "https://ege.sdamgia.ru/formula/svg/98/983b7dc254293abc2d11dc268ded7459.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1ee0f2aaee2262a066476203881e8720.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1a163bf6e554ad228a4dddf1e4a6533b.svg",
+            "https://ege.sdamgia.ru/formula/svg/b8/b80b10f52414ed08e8c41ccede3061e7.svg",
+            "https://ege.sdamgia.ru/formula/svg/2b/2ba95c448203117b5b8727d6de14a24a.svg",
+            "https://ege.sdamgia.ru/formula/svg/bb/bbeab5a7e5d08694ca8f3ecdec4b0efb.svg",
+            "https://ege.sdamgia.ru/formula/svg/e8/e88c8de3c2a815a35798ced0d29827ff.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/088f0460417f26a66542936b0417b18e.svg",
+            "https://ege.sdamgia.ru/formula/svg/af/af454b1e9f23b1cf5474531c3738731d.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4d1b7b74aba3cfabd624e898d86b4602.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7afeceb5c31669f4f13612b877d421b9.svg",
+            "https://ege.sdamgia.ru/formula/svg/59/596a43d6c7c88cc690048daf6a959090.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4d1b7b74aba3cfabd624e898d86b4602.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/9249b0cf3fdd4bb55b6f9d127c49fb7a.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4d1b7b74aba3cfabd624e898d86b4602.svg",
+            "https://ege.sdamgia.ru/formula/svg/92/9249b0cf3fdd4bb55b6f9d127c49fb7a.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ec41ff6bffcc875569076da22ee8ff5a.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4d1b7b74aba3cfabd624e898d86b4602.svg",
+            "https://ege.sdamgia.ru/formula/svg/7a/7afeceb5c31669f4f13612b877d421b9.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3ad0fe60a689523a132b68b6aaa0bfed.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b157d04f2dce59999a41076690eb56e6.svg"
+        ]
+    },
+    "answer": "  или ",
+    "analogs": [
+        "484649",
+        "484650",
+        "507190",
+        "...",
+        "484650",
+        "507190",
+        "510023"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=485952"
+}

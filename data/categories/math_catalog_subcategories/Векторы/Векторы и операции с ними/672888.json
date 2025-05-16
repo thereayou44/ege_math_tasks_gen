@@ -1,0 +1,33 @@
+{
+    "id": 672888,
+    "topic": "2",
+    "condition": {
+        "text": "Найдите квадрат длины вектора",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=194975",
+            "https://ege.sdamgia.ru/formula/svg/74/74867ee184a7f84e0f55fee643ddf03a.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Ко­ор­ди­на­ты век­то­ра равны раз­но­сти ко­ор­ди­нат конца век­то­ра и его на­ча­ла. На­хо­дим   Тогда  Длина век­то­ра  равна  тогда квад­рат длины этого век­то­ра равен 58. Ответ: 58.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/88/88d22fce276262ffcab63f640de4ef23.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e151aa2e1eab330154c3e992e637c918.svg",
+            "https://ege.sdamgia.ru/formula/svg/0f/0fb2d11d83bd06ff566855a25bb15c80.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fd50ddb06cb1c7b9e1948eb4f8a95a66.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d3e16787002df08cdc5b84aeb0d55eb8.svg"
+        ]
+    },
+    "answer": "58",
+    "analogs": [
+        "27664",
+        "26395",
+        "654466",
+        "672859",
+        "...",
+        "26395",
+        "654466",
+        "672859"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=672888"
+}

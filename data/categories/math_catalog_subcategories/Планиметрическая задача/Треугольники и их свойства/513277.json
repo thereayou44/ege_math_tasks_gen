@@ -1,0 +1,64 @@
+{
+    "id": 513277,
+    "topic": "17",
+    "condition": {
+        "text": "На отрезке BD взята точка C. Биссектриса BL равнобедренного треугольника ABC с основанием BC является боковой стороной равнобедренного треугольника BLD с основанием BD.а) Докажите, что треугольник DCL равнобедренный.б) Известно, что В каком отношении прямая DL делит сторону AB?",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/2f/2f235919708a7c8507c4ce22ae573308.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Обо­зна­чим  тогда  по­это­му  и тре­уголь­ник LCD  — рав­но­бед­рен­ный. б)  Пусть DL пе­ре­се­ка­ет  в точке  Тогда  по­это­му тре­уголь­ни­ки HLB и LCB по­доб­ны по двум углам. От­сю­да По­сколь­ку  по­лу­ча­ем  Пусть тогда AB  =  2x, BC  =  3x. По­сколь­ку AL : LC  =  AB : BC, на­хо­дим   Сле­до­ва­тель­но,  Зна­чит,  от­ку­да  Ответ: 21 : 4 (или 4 : 21).  При­ведём ре­ше­ние Алек­сандра Шев­ки­на (Москва). а)  Пусть в тре­уголь­ни­ке ABC по­ло­ви­на угла B равна α (см. рис.). Тогда  В рав­но­бед­рен­ном тре­уголь­ни­ке BLD имеем:  По свой­ству внеш­не­го угла тре­уголь­ни­ка  по­это­му тре­уголь­ник DCL рав­но­бед­рен­ный  что и тре­бо­ва­лось до­ка­зать.б)  Пусть  Так как  на­хо­дим, что  По свой­ству бис­сек­три­сы угла тре­уголь­ни­ка,  по­это­му  Тогда  В тре­уголь­ни­ке ABC по тео­ре­ме Ме­не­лая  Так как  по­лу­ча­ем, что  тогда  При­ме­ча­ние.Можно при­ве­сти ещё одно ре­ше­ние пунк­та б). Вос­поль­зу­ем­ся ре­зуль­та­та­ми, по­лу­чен­ны­ми выше: Про­ведём  и пусть  В тре­уголь­ни­ке DCL:  в по­доб­ном ему тре­уголь­ни­ке ECA:  Зна­чит,  Тогда по тео­ре­ме о про­пор­ци­о­наль­ных от­рез­ках: При­ведём ре­ше­ние пунк­та б) Сер­гея Фе­фе­ло­ва (Москва).Пусть СМ бис­сек­три­са ABC, тогда по свой­ству бис­сек­три­сы  По­сколь­ку HL  — бис­сек­три­са ALM, тогда  а зна­чит, ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=147379",
+            "https://ege.sdamgia.ru/formula/svg/a8/a88f70c937309b9225fd4dfc3b3d4a8f.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/214832ea5dfd68c69eafdc04dbbfaabe.svg",
+            "https://ege.sdamgia.ru/formula/svg/fe/fe4e17f6401e74bc935953ce218ebb37.svg",
+            "https://ege.sdamgia.ru/formula/svg/bf/bf40f891a477b7103e69c74e021a5ea7.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/4124171f6b852a5059881f411546716f.svg",
+            "https://ege.sdamgia.ru/formula/svg/42/42a2f2ea04ee5535700a2ed92b2b1d15.svg",
+            "https://ege.sdamgia.ru/formula/svg/5f/5fb36689f2459adc96a4fc2eb54bbcad.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a62ff0eb9fe2532234b77dabdf94f08b.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7c1c2365e1dbe491c1eaeadbcf8efda1.svg",
+            "https://ege.sdamgia.ru/formula/svg/00/0057d27b127abe1a394014383a086a6f.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b3dded08c3a0cc3c7086a04eb239e3b0.svg",
+            "https://ege.sdamgia.ru/formula/svg/38/38fe5172c2bba0f3bd69ca165cee0cf5.svg",
+            "https://ege.sdamgia.ru/formula/svg/18/18fc5411efeb356f7316958fd59ebd0c.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7b9b56f10bf9e7afa667460155cd427b.svg",
+            "https://ege.sdamgia.ru/formula/svg/22/22e3d8ed40d1370071542fd6dd9c8038.svg",
+            "https://ege.sdamgia.ru/formula/svg/10/10f5ad7fc7438a49e3e4c43517904057.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/ca0399fdad0dfa9b98b04f11e1342922.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=147379",
+            "https://ege.sdamgia.ru/formula/svg/03/03825d2a15c7534b53229635e3dc2aa4.svg",
+            "https://ege.sdamgia.ru/formula/svg/95/954608eaec9b7eab8e71fbe52e49dd47.svg",
+            "https://ege.sdamgia.ru/formula/svg/b5/b5b644cd219c285058a317fc98c4c3ca.svg",
+            "https://ege.sdamgia.ru/formula/svg/9c/9c5fefd993dce36f8cc081878a47e7a7.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cdfebc8a36926f680e0b0712dd3e04e5.svg",
+            "https://ege.sdamgia.ru/formula/svg/55/55645280a1320201d8b7a87e1f464e8a.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5cc2d6fd74c3ad7603b46cf15b1f08f6.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ec4c4bf4bc0a759141b04a2cc71a1f01.svg",
+            "https://ege.sdamgia.ru/formula/svg/21/219bf4b424661de0742ee761217de3ce.svg",
+            "https://ege.sdamgia.ru/formula/svg/f7/f753c338c8486df25bfadfce62d8a025.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/ada638e188461354a26b1bf79fc59355.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b92c515085bb7a8a0e33535a186d947a.svg",
+            "https://ege.sdamgia.ru/formula/svg/c8/c83960f729c643575786d5a0939bbeb6.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/73cebbb08e10bfb9242f417a2e890273.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=147380",
+            "https://ege.sdamgia.ru/formula/svg/67/6707bbd0245333fa0266087a07e484bd.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/2785f63a47f316bc2a18479bf23f8073.svg",
+            "https://ege.sdamgia.ru/formula/svg/9c/9c8dc7055f1eb9842bf89fd3fb28171b.svg",
+            "https://ege.sdamgia.ru/formula/svg/58/58471e55909312893f6de7fdfe7b782e.svg",
+            "https://ege.sdamgia.ru/formula/svg/85/856c3f89c0b72a1a3a1a9efd0c3cd728.svg",
+            "https://ege.sdamgia.ru/formula/svg/16/160bdee272e322dcade42606f9dd2476.svg",
+            "https://ege.sdamgia.ru/formula/svg/e2/e2b03ebdc2de7f0630b9a85f5db50c2e.svg",
+            "https://ege.sdamgia.ru/formula/svg/d7/d723b3334915e65a787c887ffdc2caff.svg",
+            "https://ege.sdamgia.ru/formula/svg/7b/7b87adbbd19d95dfbb29fd1da222caa5.svg",
+            "https://ege.sdamgia.ru/formula/svg/3f/3f3889760f9f2c38597ad7542bd993fd.svg"
+        ]
+    },
+    "answer": " 21 : 4 (или 4 : 21).",
+    "analogs": [
+        "514717"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=513277"
+}

@@ -1,0 +1,48 @@
+{
+    "id": 64385,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите если и",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/01/01f6dcdf32045a8b5f661c933535431f.svg",
+            "https://ege.sdamgia.ru/formula/svg/c6/c6631acdde7b3476a616cedd5f60602f.svg",
+            "https://ege.sdamgia.ru/formula/svg/39/39dce6eb0395a76e30e239bafe0eec31.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Най­ди­те  если  и По­сколь­ку угол альфа лежит в чет­вер­той чет­вер­ти, его синус от­ри­ца­те­лен. Тогда  Ответ: −1.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/a6/a67ee3d58094b008f5ab5975d414ac1d.svg",
+            "https://ege.sdamgia.ru/formula/svg/cc/ccd8059faca3d141ddc1b09a7447059c.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/657f17745d3684597b40e6e9bf08fa52.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3ac74b486a4861834b077333a0ede36a.svg"
+        ]
+    },
+    "answer": "0,3",
+    "analogs": [
+        "26778",
+        "64383",
+        "64417",
+        "514753",
+        "...",
+        "64383",
+        "64417",
+        "514753",
+        "64387",
+        "64389",
+        "64391",
+        "64393",
+        "64395",
+        "64397",
+        "64399",
+        "64401",
+        "64403",
+        "64405",
+        "64407",
+        "64409",
+        "64411",
+        "64413",
+        "64415"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=64385"
+}

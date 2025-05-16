@@ -1,0 +1,50 @@
+{
+    "id": 658889,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения a, при каждом из которых уравнение имеет ровно три различных корня.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/0f/0fa9f4aec76169a2e1c2cceac8645026.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Ис­ход­ное урав­не­ние рав­но­силь­но урав­не­нию  при усло­вии  Решим урав­не­ние  : от­ку­да x  =  0,  или  Ис­ход­ное урав­не­ние имеет три корня, когда эти числа раз­лич­ны и для каж­до­го из них вы­пол­не­но усло­вие Рас­смот­рим усло­вия сов­па­де­ния кор­ней. При  имеем  При  имеем  При осталь­ных зна­че­ни­ях a числа 0,   раз­лич­ны. При x  =  0 по­лу­ча­ем:  при всех зна­че­ни­ях a. При  по­лу­ча­ем:  Это вы­ра­же­ние не­от­ри­ца­тель­но при  При  по­лу­ча­ем:  Это вы­ра­же­ние не­от­ри­ца­тель­но при  Таким об­ра­зом, ис­ход­ное урав­не­ние имеет ровно три раз­лич­ных корня при    Ответ:   ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/4d/4d222af58909d591e49f269d4ddf43e0.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/efbdccb822e5a8f117a8859aca8e23c0.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4d222af58909d591e49f269d4ddf43e0.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cb6b22c67f410274c0f94974c5013aff.svg",
+            "https://ege.sdamgia.ru/formula/svg/3a/3a5cc67b9d6b709e56ccdc8b6e19de7b.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cb6b22c67f410274c0f94974c5013aff.svg",
+            "https://ege.sdamgia.ru/formula/svg/cd/cdc7889c7a8e44309e7d167c302de401.svg",
+            "https://ege.sdamgia.ru/formula/svg/30/3025bfd117bba82e369d0e4550f0d99d.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/84feae5965461427bd1ca6f8b2d1509d.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6d47ff69090f23ce19d89916fe9b9d8a.svg",
+            "https://ege.sdamgia.ru/formula/svg/87/87b71448acc50a5d51b0fc66c1b15acd.svg",
+            "https://ege.sdamgia.ru/formula/svg/9c/9c960a6a45f008818f149f32cc58699f.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/72f60d5eec9ea9abc17d20b0e3197be6.svg",
+            "https://ege.sdamgia.ru/formula/svg/3e/3e545129d8c2573e7b8d99d643aaa55e.svg",
+            "https://ege.sdamgia.ru/formula/svg/27/27c4e6baafee77919735e82c9e93315b.svg",
+            "https://ege.sdamgia.ru/formula/svg/98/985e32d7301245f3c2434132cecc5dd2.svg",
+            "https://ege.sdamgia.ru/formula/svg/3c/3ce55f9577d84e775bd1fa12cf3db725.svg",
+            "https://ege.sdamgia.ru/formula/svg/fd/fddd1ece7ee4ae580d39e8cb2e92152e.svg",
+            "https://ege.sdamgia.ru/formula/svg/4d/4dfb7e9ee797b1b68cba7c8b8257fbc4.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/044dddc39bcac049105a5f97663bd18e.svg",
+            "https://ege.sdamgia.ru/formula/svg/1b/1ba0ea9a331fa3442952f2040665da72.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5cd330971149e7105416feef511f7dab.svg",
+            "https://ege.sdamgia.ru/formula/svg/a7/a7d70ef2078e937ed31fb43b00a960eb.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/840ee21607d0af65f5e61eec312724a5.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/1376c0e15bdad7edbf791b2e0bfc8e5e.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1d53ff892751742593a3b1258eebb140.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b31f3cfd52c672658a942d8f79ca6c4e.svg",
+            "https://ege.sdamgia.ru/formula/svg/13/1376c0e15bdad7edbf791b2e0bfc8e5e.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1d53ff892751742593a3b1258eebb140.svg",
+            "https://ege.sdamgia.ru/formula/svg/b3/b31f3cfd52c672658a942d8f79ca6c4e.svg"
+        ]
+    },
+    "answer": "   ",
+    "analogs": [
+        "658849"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=658889"
+}

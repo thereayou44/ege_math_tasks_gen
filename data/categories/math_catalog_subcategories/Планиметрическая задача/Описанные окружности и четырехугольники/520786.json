@@ -1,0 +1,42 @@
+{
+    "id": 520786,
+    "topic": "17",
+    "condition": {
+        "text": "Четырёхугольник ABCD вписан в окружность радиусом 8. Известно, что AB = BC = CD = 12.а) Докажите,что прямые BC и AD параллельны.б) Найдите AD.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Ост­рые углы BCA и CAD равны, по­сколь­ку опи­ра­ют­ся на дуги стя­ги­ва­е­мые рав­ны­ми хор­да­ми AB и CD. Зна­чит, пря­мые BC и AD па­рал­лель­ны.б)  Обо­зна­чим угол BCA через α. По тео­ре­ме си­ну­сов Тре­уголь­ник ABC рав­но­бед­рен­ный, по­это­му  Че­ты­рех­уголь­ник ABCD  — рав­но­бед­рен­ная тра­пе­ция, по­это­му  Зна­чит, 3α.Таким об­ра­зом, по тео­ре­ме си­ну­сов для тре­уголь­ни­ков ACD и ACB по­лу­ча­ем: При­ве­дем дру­гое ре­ше­ние пунк­та б)За­ме­тим, что центр опи­сан­ной окруж­но­сти лежит внут­ри тра­пе­ции. Дей­стви­тель­но, если хорды были бы равны ра­ди­у­су, то центр окруж­но­сти лежал бы на сто­ро­не, как в слу­чае пра­виль­но­го ше­сти­уголь­ни­ка, но хорды боль­ше, а по­то­му центр окруж­но­сти лежит внут­ри тра­пе­ции. (Дру­гое рас­суж­де­ние: угол при вер­ши­не в тре­уголь­ни­ке со сто­ро­на­ми 8, 8 и 12 боль­ше 60°, по­это­му сумма цен­траль­ных углов боль­ше 180°).Про­ве­дем две вы­со­ты: DH  — из вер­ши­ны D и EF  — через центр окруж­но­сти. Обо­зна­чим ED = x, OE = y. Тогда из тре­уголь­ни­ка EOD по тео­ре­ме Пи­фа­го­ра имеем  а из тре­уголь­ни­ка BOF:  Тогда вы­со­та тра­пе­ции  а HC = 6 – x. За­пи­шем тео­ре­му Пи­фа­го­ра для тре­уголь­ни­ка DHC:Под­ста­вим по­лу­чен­ный ре­зуль­тат в пер­вое урав­не­ние и решим его.Оче­вид­но, что нам под­хо­дит толь­ко по­ло­жи­тель­ный ко­рень, от­ку­да AD = 2x = 9. Ответ: б)   При­ведём ре­ше­ние пунк­та б) Павла Чер­ных.В пунк­те а) было по­ка­за­но, что четырёхуголь­ник ABCD  — рав­но­бед­рен­ная тра­пе­ция. Из тео­ре­мы си­ну­сов по­лу­ча­ем, что  Из ос­нов­но­го три­го­но­мет­ри­че­ско­го тож­де­ства на­хо­дим: По тео­ре­ме ко­си­ну­сова по­то­му  Сле­до­ва­тель­но, По тео­ре­ме Пто­ле­мея  тогда  от­ку­да ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=150255",
+            "https://ege.sdamgia.ru/formula/svg/90/902e158f1c60b3b797e01a14876ed67f.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5cfa0a8ad9bd99b17891dd5e5ed2f964.svg",
+            "https://ege.sdamgia.ru/formula/svg/6b/6b181fc4d15a5334bfed93ba53aa5bc7.svg",
+            "https://ege.sdamgia.ru/formula/svg/f5/f5e8f686d6b1117052e2dca2f9338605.svg",
+            "https://ege.sdamgia.ru/formula/svg/76/7631c2a5e8d73e26ca9000ba7f287cb6.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=150256",
+            "https://ege.sdamgia.ru/formula/svg/f8/f85a174f2759765ab125dfb29953fac2.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7cbf3989d6680195950cb9d5a2413ebd.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4b050d5b163595d0948d8007a43196f9.svg",
+            "https://ege.sdamgia.ru/formula/svg/ef/ef776a4a6483b4390f5bbd84c974ea06.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5de5f0f60a330f773c32e9afef519a8f.svg",
+            "https://ege.sdamgia.ru/formula/svg/88/8846d51989168a1a4ea1904d6d3b7ac1.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fc75864712d01fef77641bd3df82908f.svg",
+            "https://ege.sdamgia.ru/formula/svg/17/17a88687b2cca610f7b1ba2cf0b4bdbd.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d39aeb060e81b0fc04267ae08255938a.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e0ad0b636b649d33f3ee434f8e4a4e0f.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/94f1708864ddea878410b494faf112e5.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/89c91dff88ba947e5e7e56f636fd2e07.svg",
+            "https://ege.sdamgia.ru/formula/svg/54/54dc090ab48d86b685e90a5f851a98f7.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1e8f2c8e4ed4c0704434dfee765db058.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4ffb9a0218c41a795179d8ed73715705.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/db5813b2a464add2b018a5d168a84e6e.svg",
+            "https://ege.sdamgia.ru/formula/svg/34/34db95713f6fba2c74f4a6817bfb844e.svg"
+        ]
+    },
+    "answer": " б) ",
+    "analogs": [
+        "520848"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=520786"
+}

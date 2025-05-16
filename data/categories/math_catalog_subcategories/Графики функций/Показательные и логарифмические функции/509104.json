@@ -1,0 +1,36 @@
+{
+    "id": 509104,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображён график функции Найдите",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=154250",
+            "https://ege.sdamgia.ru/formula/svg/1c/1cef6babd2a3a75f43c289c0605984a0.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/70fd7f0660bfc2c86a26a82667513eb8.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По ри­сун­ку опре­де­ля­ем, что   ТогдаЗна­чит,  Найдём  Ответ: 0,125.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/9a/9a51f264bba92813e0336ffe8e39d2ba.svg",
+            "https://ege.sdamgia.ru/formula/svg/ae/aed0903c961a6ece3a2a2f514ecd5ef2.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0d7328fd279b32fe8236821de92ecc55.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/ad18051202124c4ffa77025f5c62b380.svg",
+            "https://ege.sdamgia.ru/formula/svg/1f/1f6d04783602e7f069ccdf255629161d.svg",
+            "https://ege.sdamgia.ru/formula/svg/e7/e734f4858e20d39aaf279e9e72064ae8.svg"
+        ]
+    },
+    "answer": "0,125",
+    "analogs": [
+        "509101",
+        "509102",
+        "509103",
+        "...",
+        "509102",
+        "509103",
+        "509105",
+        "509106",
+        "630094"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509104"
+}

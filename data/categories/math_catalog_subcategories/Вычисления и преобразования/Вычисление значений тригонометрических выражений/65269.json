@@ -1,0 +1,49 @@
+{
+    "id": 65269,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/75/75ad254f2b6f8fa3cfb39a3b60c20c70.svg",
+            "https://ege.sdamgia.ru/formula/svg/b2/b21f879a0c1175c56ab989405cbb7e62.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. За­ме­тим:  Тогда: Ответ: −0,5.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/17/17817ca1c33914dc5ab805aa23b051cb.svg",
+            "https://ege.sdamgia.ru/formula/svg/f4/f45659cbdf74c53bdca81ceb160e9efc.svg"
+        ]
+    },
+    "answer": "-0,5",
+    "analogs": [
+        "26788",
+        "65223",
+        "65225",
+        "...",
+        "65223",
+        "65225",
+        "65227",
+        "65229",
+        "65231",
+        "65233",
+        "65235",
+        "65237",
+        "65239",
+        "65241",
+        "65243",
+        "65245",
+        "65247",
+        "65249",
+        "65251",
+        "65253",
+        "65255",
+        "65257",
+        "65259",
+        "65261",
+        "65263",
+        "65265",
+        "65267"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=65269"
+}

@@ -1,0 +1,52 @@
+{
+    "id": 660770,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых система уравнений имеет два решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/73/73f9f5ba1fce235df9b3f0f58d9b77ff.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Най­ди­те все зна­че­ния па­ра­мет­ра a, при каж­дом из ко­то­рых си­сте­ма урав­не­ний   имеет два ре­ше­ния.За­пи­шем си­сте­му в видеИз урав­не­ния  по­лу­ча­ем, что каж­до­му зна­че­нию x, удо­вле­тво­ря­ю­ще­му си­сте­ме, со­от­вет­ству­ет ровно одно зна­че­ние y. По­это­му ко­ли­че­ство ре­ше­ний си­сте­мы сов­па­да­ет с ко­ли­че­ством кор­ней урав­не­ния  Рас­смот­рим два слу­чая рас­кры­тия мо­ду­ля.Слу­чай  1. Если  то  Для най­ден­ных кор­ней не­ра­вен­ство  при­ни­ма­ет вид Решим это не­ра­вен­ство. Пусть   тогда: Ис­поль­зуя метод ин­тер­ва­лов и усло­вие на ОДЗ, по­лу­ча­ем: либо а)  что при воз­вра­ще­нии к ис­ход­ной пе­ре­мен­ной даёт:  либо б):Слу­чай  2. При  рас­кры­вая мо­дуль, по­лу­ча­ем урав­не­ние  ре­ше­ни­я­ми ко­то­ро­го яв­ля­ют­ся  Для най­ден­ных ре­ше­ний не­ра­вен­ство  при­ни­ма­ет вид По­ло­жим   тогда: Ис­поль­зуя метод ин­тер­ва­лов и усло­вие на ОДЗ, по­лу­ча­ем: либо а) либо б):  что при воз­вра­ще­нии к ис­ход­ной пе­ре­мен­ной даёт: Те­перь рас­смот­рим все воз­мож­ные зна­че­ния па­ра­мет­ра a и ко­ли­че­ство ре­ше­ний, ко­то­рые си­сте­ма будет иметь при каж­дом от­дель­но взя­том зна­че­нии:При  два ре­ше­ния  — слу­чаи 2а) и 2б).При a  =  –9 три ре­ше­ния  — слу­чаи 2а) и 2б) и сов­па­да­ю­щие корни из слу­ча­ев 1а) и 1б).При  по два ре­ше­ния из каж­до­го пунк­та, итого че­ты­ре ре­ше­ния.При a  =  –8 три ре­ше­ния  — слу­чаи 1а), 1б) и 2б).При  два ре­ше­ния  — слу­чаи 1а) и 2б).При a  =  0 три ре­ше­ния  — слу­чаи 1а), 1б) и 2б).При  по два ре­ше­ния из каж­до­го пунк­та, итого че­ты­ре ре­ше­ния.При a  =  1 три ре­ше­ния  — слу­чаи 1а) и 1б) и сов­па­да­ю­щие корни из слу­ча­ев 2а) и 2б).При  два ре­ше­ния  — слу­чаи 1а) и 1б).Итак, два ре­ше­ния си­сте­ма имеет при  Ответ: ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/e3/e3150fd5f42291ab2ea9dcc084a37c93.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/09654665a687d335e53b151cbe6e738f.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/15be543eaf7b99b3ab3f16a29c7b871a.svg",
+            "https://ege.sdamgia.ru/formula/svg/4b/4b7e5af3a51643afde3a5edd299f5505.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/84720d5095481815ecd40ca407e60b5d.svg",
+            "https://ege.sdamgia.ru/formula/svg/da/da6c73bdbdd280c12bb6040b5cb7d085.svg",
+            "https://ege.sdamgia.ru/formula/svg/ad/adca96d2d99d73dfca7448c0237cb254.svg",
+            "https://ege.sdamgia.ru/formula/svg/a9/a986a8bf25aff4aab3ddf96cbe6b0870.svg",
+            "https://ege.sdamgia.ru/formula/svg/c4/c4898e86d996e7fa72e144d7ad9aa066.svg",
+            "https://ege.sdamgia.ru/formula/svg/f2/f203199936a019ef44cec01b4ad904db.svg",
+            "https://ege.sdamgia.ru/formula/svg/67/677cd446dcaf58d98b2cdfbfe21c0739.svg",
+            "https://ege.sdamgia.ru/formula/svg/f2/f203199936a019ef44cec01b4ad904db.svg",
+            "https://ege.sdamgia.ru/formula/svg/fe/fea3cee8b2d948c115a0c697989d73f0.svg",
+            "https://ege.sdamgia.ru/formula/svg/2a/2a3a4834c0f6a9a14f868d5125fb402c.svg",
+            "https://ege.sdamgia.ru/formula/svg/a8/a8c0e2d1dcc569ff0ac53f49969416b4.svg",
+            "https://ege.sdamgia.ru/formula/svg/ac/ac73acbd61c881dc39476cefe61c9061.svg",
+            "https://ege.sdamgia.ru/formula/svg/9a/9ab51519002601153d635caf081b1e5d.svg",
+            "https://ege.sdamgia.ru/formula/svg/52/520704d74aac40fa9093ac4cb4f9f3ab.svg",
+            "https://ege.sdamgia.ru/formula/svg/80/808f88dc03333aeafa77d5292c3a3cfd.svg",
+            "https://ege.sdamgia.ru/formula/svg/12/128cc938094705a8f8f2b354a1fb8cdc.svg",
+            "https://ege.sdamgia.ru/formula/svg/f2/f203199936a019ef44cec01b4ad904db.svg",
+            "https://ege.sdamgia.ru/formula/svg/94/9438f9077ca0521dfe001f5173f5248b.svg",
+            "https://ege.sdamgia.ru/formula/svg/5c/5c3662af33bdf5193df5349df25cdbb2.svg",
+            "https://ege.sdamgia.ru/formula/svg/f2/f203199936a019ef44cec01b4ad904db.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d9a79ec9a4bfff537556cc0f8d145afb.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/3125227d1e1f535b7ff9020d10c27a93.svg",
+            "https://ege.sdamgia.ru/formula/svg/f1/f188347168e2aac59e352e70c2aa4a4a.svg",
+            "https://ege.sdamgia.ru/formula/svg/c7/c7d0c05fb4bba27b0c9a0f9fba3d7f4a.svg",
+            "https://ege.sdamgia.ru/formula/svg/81/81ab5a0b5746d911e1d8f16c92f80df1.svg",
+            "https://ege.sdamgia.ru/formula/svg/ca/cae9743b2aa30af47283cd8d49c0b452.svg",
+            "https://ege.sdamgia.ru/formula/svg/91/918f2235b746a80e9ccde262f0e37c52.svg",
+            "https://ege.sdamgia.ru/formula/svg/fc/fcb92ab08e9dbf13e8638d184e38fbf4.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "660769"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=660770"
+}

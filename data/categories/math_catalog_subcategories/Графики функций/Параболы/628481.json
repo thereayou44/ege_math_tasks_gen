@@ -1,0 +1,36 @@
+{
+    "id": 628481,
+    "topic": "Д10",
+    "condition": {
+        "text": "На рисунке изображён график функции где числа a, b и c целые. Найдите значение f(−1).",
+        "images": [
+            "https://ege.sdamgia.ru/get_file?id=109417",
+            "https://ege.sdamgia.ru/formula/svg/2d/2dd638553299ee866a14b2c0495c7997.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По ри­сун­ку опре­де­ля­ем, что   зна­чит,   Те­перь найдём f(−1):Ответ: 22.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/bd/bdec2f3aeecfabd2b6e92ba5693d81b5.svg",
+            "https://ege.sdamgia.ru/formula/svg/78/78dfca2050137bce868a019aaf64e36c.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5d4e0d1d77f097fe1662c8c8eedc8357.svg"
+        ]
+    },
+    "answer": "22",
+    "analogs": [
+        "562283",
+        "562290",
+        "562291",
+        "562292",
+        "...",
+        "562290",
+        "562291",
+        "562292",
+        "562293",
+        "562294",
+        "562295",
+        "562296",
+        "628363"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=628481"
+}

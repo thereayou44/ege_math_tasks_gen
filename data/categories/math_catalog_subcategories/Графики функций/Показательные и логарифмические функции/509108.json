@@ -1,0 +1,35 @@
+{
+    "id": 509108,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображён график функции Найдите значение x, при котором",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=91945",
+            "https://ege.sdamgia.ru/formula/svg/eb/eb93b96d963e1537f2732fe8196c9957.svg",
+            "https://ege.sdamgia.ru/formula/svg/d3/d3190db0378f7e65688bdcfa3cad05af.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По ри­сун­ку опре­де­ля­ем, что   ТогдаЗна­чит,  Решим урав­не­ние Ответ: −7.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/f0/f036d1ea699271c2b0ef9d6d28d3526e.svg",
+            "https://ege.sdamgia.ru/formula/svg/e5/e56ff4b2b4bb87014b07cf28ca1c11ac.svg",
+            "https://ege.sdamgia.ru/formula/svg/08/080d07b4904ee3f7f95bc5d3ac0da4cc.svg",
+            "https://ege.sdamgia.ru/formula/svg/a3/a3e52496fd6475255ad2eee1f99d5dd1.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fbda171f6cf3cfb94b1e95dc1a2809a4.svg",
+            "https://ege.sdamgia.ru/formula/svg/8c/8c516e5b2478260f38ca62da98092e4d.svg"
+        ]
+    },
+    "answer": "-7",
+    "analogs": [
+        "509107",
+        "509109",
+        "509110",
+        "...",
+        "509109",
+        "509110",
+        "509111",
+        "509112"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509108"
+}

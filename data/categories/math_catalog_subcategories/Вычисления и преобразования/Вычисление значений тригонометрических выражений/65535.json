@@ -1,0 +1,65 @@
+{
+    "id": 65535,
+    "topic": "7",
+    "condition": {
+        "text": "Найдите значение выражения если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/de/de9b5f7537494accd87b1b713b1a786d.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1dc296e91f6ffe673f77d7546ef92bcd.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние.Это за­да­ние ещё не ре­ше­но, при­во­дим ре­ше­ние про­то­ти­па.Най­ди­те зна­че­ние вы­ра­же­ния  если В силу не­чет­но­сти и пе­ри­о­дич­но­сти си­ну­са  Далее по фор­му­лам при­ве­де­ния имеем: Ответ: 4.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/eb/eb42c990c17b81dc3e5128016e2e08fd.svg",
+            "https://ege.sdamgia.ru/formula/svg/0d/0df19abc710219d7cbd65662c4ba698b.svg",
+            "https://ege.sdamgia.ru/formula/svg/c3/c371b6e833d70e7d6ed925fa1f873ec2.svg",
+            "https://ege.sdamgia.ru/formula/svg/7c/7c3c817652315604e28b741a844c9e0e.svg",
+            "https://ege.sdamgia.ru/formula/svg/d5/d5cea4b80e9a9ee256c5f3a80c958c42.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dc94dda4afd93a1b4b8ae8e8873006db.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/65bb580d20c889f317c95d48079a5768.svg",
+            "https://ege.sdamgia.ru/formula/svg/63/63045e0659b269a61d2b2871f1983f82.svg",
+            "https://ege.sdamgia.ru/formula/svg/dc/dc94dda4afd93a1b4b8ae8e8873006db.svg"
+        ]
+    },
+    "answer": "0.6",
+    "analogs": [
+        "26793",
+        "65547",
+        "65551",
+        "65489",
+        "...",
+        "65547",
+        "65551",
+        "65489",
+        "65491",
+        "65493",
+        "65495",
+        "65497",
+        "65499",
+        "65501",
+        "65503",
+        "65505",
+        "65507",
+        "65509",
+        "65511",
+        "65513",
+        "65515",
+        "65517",
+        "65519",
+        "65521",
+        "65523",
+        "65525",
+        "65527",
+        "65529",
+        "65531",
+        "65533",
+        "65537",
+        "65539",
+        "65541",
+        "65543",
+        "65545",
+        "65549"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=65535"
+}

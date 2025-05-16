@@ -1,0 +1,32 @@
+{
+    "id": 563667,
+    "topic": "17",
+    "condition": {
+        "text": "Дан параллелограмм ABCD с острым углом А. На продолжении стороны AD за точку D взята точка N, такая, что CN = СD, а на продолжении стороны CD за точку D взята такая точка M, что AD = AM.а) Докажите, что BM = BN.б) Найдите MN, если AC = 7,",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/2d/2d3e076034f4675edfc3287f80d319db.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Рас­смот­рим тре­уголь­ни­ки BCN и BAM. По усло­вию AM  =  AD  =  BC, AB  =  CD  =  CN. В рав­но­бо­ких тра­пе­ци­ях NABC и ABCM равны углы A и C, а зна­чит, равны и углы MAB и BCN. Таким об­ра­зом, тре­уголь­ни­ки BNC и BAM равны по двум сто­ро­нам и углу между ними, по­это­му равны и их со­от­вет­ствен­ные сто­ро­ны BN и BM.б)  За­ме­тим, что ABCM и NABC  — рав­но­бо­кие тра­пе­ции, тогда равны их диа­го­на­ли, по­это­му AC  =  BM  =  BN  =  7. Имеем: Тогда  \\sqrt{x} Те­перь при­ме­ним тео­ре­му ко­си­ну­сов для тре­уголь­ни­ка MBN:  от­ку­да  Ответ:  При­ве­дем ре­ше­ние Кон­стан­ти­на Че­ку­ла­е­ва.Про­ведём бис­сек­три­сы, ме­ди­а­ны и вы­со­ты AT и CP в рав­но­бед­рен­ных тре­уголь­ни­ках MAD и DCN. Тогда углы ATC и APC в четырёхуголь­ни­ке ATPC пря­мые и опи­ра­ют­ся на одну сто­ро­ну AC, зна­чит, этот че­ты­рех­уголь­ник впи­сан­ный. Углы BAD и CDP равны, по­это­му  от­ку­да При­ме­ним тео­ре­му си­ну­сов к тре­уголь­ни­ку TCP, по­лу­чим  Окруж­ность, опи­сан­ная во­круг тре­уголь­ни­ка TCP, также опи­са­на во­круг четырёхуголь­ни­ка TACP, а угол ATC  — пря­мой и впи­сан­ный в эту окруж­ность. Сле­до­ва­тель­но, он опи­ра­ет­ся на диа­метр AC, рав­ный 7, по усло­вию. Тогда  а это сред­няя линия в тре­уголь­ни­ке MDN. Таким об­ра­зом, ",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=147940",
+            "https://ege.sdamgia.ru/formula/svg/e1/e15569a36b94750225e9013c40c30b69.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/0926457b4f030745fb1a04b679ecb248.svg",
+            "https://ege.sdamgia.ru/formula/svg/2d/2d8b1fc49482db513431c10e107faf1f.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/825bca93ff57dfa93ffec1b62da1932e.svg",
+            "https://ege.sdamgia.ru/formula/svg/1e/1e64ba5924d16e7ff13eda339e7add97.svg",
+            "https://ege.sdamgia.ru/formula/svg/09/09f7c03935035e4007654ad2ce9aef60.svg",
+            "https://ege.sdamgia.ru/formula/svg/73/73f1a99eb05a39ebc34989158fdda141.svg",
+            "https://ege.sdamgia.ru/formula/svg/03/03911d8c9da662246b69c0e1c5fccc4c.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1da84b77f1faace5fccab3df63099708.svg",
+            "https://ege.sdamgia.ru/formula/svg/57/5734e7e0f43bc8443324864880a9c267.svg",
+            "https://ege.sdamgia.ru/formula/svg/f5/f5be1ecd16783251415fbd73240e9c0d.svg"
+        ]
+    },
+    "answer": " ",
+    "analogs": [
+        "563666"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=563667"
+}

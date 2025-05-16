@@ -1,0 +1,24 @@
+{
+    "id": 26465,
+    "topic": "2",
+    "condition": {
+        "text": "Найдите квадрат длины вектора",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=143425",
+            "https://ege.sdamgia.ru/formula/svg/da/dad732e765c60793b3acc763e95eceba.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Ко­ор­ди­на­ты суммы век­то­ров равны сум­мам со­от­вет­ству­ю­щих ко­ор­ди­нат:  Тогда для длины век­то­ра суммы имеем:  Квад­рат длины век­то­ра равен 200. Ответ: 200.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/09/0925dd9b0f2e2613afb022f47e4168b9.svg",
+            "https://ege.sdamgia.ru/formula/svg/bc/bcf6cd65f3ac140847ee89b95c8309c9.svg"
+        ]
+    },
+    "answer": "200",
+    "analogs": [
+        "27731",
+        "654470"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=26465"
+}

@@ -1,0 +1,40 @@
+{
+    "id": 660915,
+    "topic": "17",
+    "condition": {
+        "text": "Периметр треугольника ABC равен 36. Точки E и F — середины сторон AB и BC соответственно. Отрезок EF касается окружности, вписанной в треугольник ABC. а) Докажите, что б) Найдите площадь треугольника ABC, если",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/c6/c62d8324fee7b509f845890a870bbfb5.svg",
+            "https://ege.sdamgia.ru/formula/svg/71/71ca089b76776905481ca6f389da38f1.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Так как че­ты­рех­уголь­ник AEFC опи­сан­ный (см. рис. 1), то  По­сколь­ку E и F  — се­ре­ди­ны сто­рон AB и BC, то EF  — сред­няя линия, а, зна­чит,  Най­дем пе­ри­метр тре­уголь­ни­ка ABC: От­ку­да сле­ду­ет, что  то есть Рис. 1Рис. 2б)  Так как  то  По тео­ре­ме Пи­фа­го­ра (см. рис. 2), имеем:  По­лу­ча­ем: Тогда пло­щадь тре­уголь­ни­ка ABC равна  Ответ: б)  54.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/f6/f673224b7ac1d195377adf48f9a100ae.svg",
+            "https://ege.sdamgia.ru/formula/svg/50/50a45f1618713edcc13a879f9530d06c.svg",
+            "https://ege.sdamgia.ru/formula/svg/e1/e169e567eb3fecd756ba0a71a20425ae.svg",
+            "https://ege.sdamgia.ru/formula/svg/fb/fb3c6df378dc2da8baac3b3bdc92bb39.svg",
+            "https://ege.sdamgia.ru/formula/svg/d0/d030172717ede6b4e3621faeb7ec931a.svg",
+            "https://math-ege.sdamgia.ru/get_file?id=179631",
+            "https://math-ege.sdamgia.ru/get_file?id=179632",
+            "https://ege.sdamgia.ru/formula/svg/31/3189afd8f6facc92e355b6c28c3405d9.svg",
+            "https://ege.sdamgia.ru/formula/svg/06/06c109cf52639ef4448e82c67e3cea0a.svg",
+            "https://ege.sdamgia.ru/formula/svg/15/15625d29c06cfab6cdad406c7ede28c2.svg",
+            "https://ege.sdamgia.ru/formula/svg/1a/1ad9695d2e7ca632e447cc7dbde7a865.svg",
+            "https://ege.sdamgia.ru/formula/svg/9d/9deeeb76151e44f58822653116baabdb.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/70370d8e2db8f4b7b455c70b28fdc2f3.svg",
+            "https://ege.sdamgia.ru/formula/svg/a1/a117944d084afbae28f52a3af1bff453.svg",
+            "https://ege.sdamgia.ru/formula/svg/8e/8ee409e4a72ed0f23c59ddd1290be4f1.svg",
+            "https://ege.sdamgia.ru/formula/svg/70/70370d8e2db8f4b7b455c70b28fdc2f3.svg",
+            "https://ege.sdamgia.ru/formula/svg/82/82e665ad7f08b07ca1efba68b83bb19b.svg"
+        ]
+    },
+    "answer": " б)  54.",
+    "analogs": [
+        "660765",
+        "674439",
+        "674808"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=660915"
+}

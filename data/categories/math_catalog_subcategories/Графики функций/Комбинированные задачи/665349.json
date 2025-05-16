@@ -1,0 +1,31 @@
+{
+    "id": 665349,
+    "topic": "11",
+    "condition": {
+        "text": "На рисунке изображены графики функций видов и пересекающиеся в точках A и B. Найдите абсциссу точки B.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=184921",
+            "https://ege.sdamgia.ru/formula/svg/a9/a97e5bc5d2145a6321d409db900d25bc.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9ee5d746eb5e94e9c59868f0df2fddb1.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. По гра­фи­ку    от­ку­да  Со­ста­вим си­сте­му урав­не­ний и най­дем ко­эф­фи­ци­ен­ты a и b: Зна­чит, квад­ра­тич­ная функ­ция имеет вид За­ме­тим, что k  — тан­генс угла на­кло­на пря­мой g(x) по от­но­ше­нию к оси абс­цисс, тогда  Зна­чит, ли­ней­ная функ­ция имеет вид Найдём абс­цис­су точки B:Таким об­ра­зом, абс­цис­са точки B равна 7. Ответ: 7.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/72/724e8ab7cb2724a014a70becbae83752.svg",
+            "https://ege.sdamgia.ru/formula/svg/a6/a6532e015dc54db9ffd9437788b571c8.svg",
+            "https://ege.sdamgia.ru/formula/svg/93/93520a8c08fbe4040a6be45276ac8e89.svg",
+            "https://ege.sdamgia.ru/formula/svg/48/4851eff13cc6175ce0045553630ecb44.svg",
+            "https://ege.sdamgia.ru/formula/svg/1d/1d5534a60a4da10eb21fbd1e117eadef.svg",
+            "https://ege.sdamgia.ru/formula/svg/9d/9d3d3ab7162e50d66072a516fce79331.svg",
+            "https://ege.sdamgia.ru/formula/svg/aa/aa4da667eed2332f0bfc3742f215f82d.svg",
+            "https://ege.sdamgia.ru/formula/svg/72/72f750feaf8fb5ad52d76fc839c9f7b4.svg",
+            "https://ege.sdamgia.ru/formula/svg/84/849cdc3bd9b2c29752eab901879618dd.svg"
+        ]
+    },
+    "answer": "7",
+    "analogs": [
+        "642407"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=665349"
+}

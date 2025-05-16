@@ -1,0 +1,34 @@
+{
+    "id": 509446,
+    "topic": "17",
+    "condition": {
+        "text": "Точка O — центр окружности, описанной около остроугольного треугольника ABC. На продолжении отрезка AO за точку O отмечена точка K так, что ∠BAC + ∠AKC = 90°.а) Докажите, что четырехугольник OBKC вписанный. б) Найдите радиус окружности, описанной около треугольника KBC, если известно, что радиус описанной окружности треугольника ABC равен 12, а cos∠BAC = 0,6.",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. а)  Пусть  тогда  как углы при ос­но­ва­нии рав­но­бед­рен­но­го тре­уголь­ни­ка  OBC. Из усло­вия  сле­ду­ет, что  Тогда   От­ку­да, по свой­ству впи­сан­ных углов, сле­ду­ет, что  точки О, В, К, С лежат на одной окруж­но­сти.б)  По усло­вию,  тогда  Рас­смот­рим  в нем  В обо­зна­че­ни­ях пунк­та а):  тогда  так как че­ты­рех­уголь­ник OBKC впи­сан­ный.  тогда Рас­смот­рим  тре­уголь­ник KBC:   Ответ:10.",
+        "images": [
+            "https://math-ege.sdamgia.ru/get_file?id=148387",
+            "https://ege.sdamgia.ru/formula/svg/4a/4ad572491446a0f65cdad19051394a1b.svg",
+            "https://ege.sdamgia.ru/formula/svg/9f/9f5ddb68564fe3175455234336956d6e.svg",
+            "https://ege.sdamgia.ru/formula/svg/b1/b1e6426e3caa6b8e423cd5fe3c1da3d2.svg",
+            "https://ege.sdamgia.ru/formula/svg/0c/0c509c5e0e9d3d0d9b46c3467c821911.svg",
+            "https://ege.sdamgia.ru/formula/svg/f5/f5f28f3f15e19490ef206f0e56fd35df.svg",
+            "https://ege.sdamgia.ru/formula/svg/01/014418ce96ee3c516a5e9a96fa1f938e.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2f0d3f8fe77ef9b0a30cec5ab494a022.svg",
+            "https://ege.sdamgia.ru/formula/svg/e0/e0e852f53d4b71748b3644f967eddb71.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cb721a6486c0a33e0c217e334e543900.svg",
+            "https://ege.sdamgia.ru/formula/svg/5d/5dd65e7e6881b7243dc0f87550f1a48e.svg",
+            "https://ege.sdamgia.ru/formula/svg/0a/0ade3d4fba0f49c530ce968c24746e11.svg",
+            "https://ege.sdamgia.ru/formula/svg/83/83a5ac56416c2e443523596caff21313.svg",
+            "https://ege.sdamgia.ru/formula/svg/44/44d92dc2d0e46fb12e9843e7325e4f88.svg",
+            "https://ege.sdamgia.ru/formula/svg/14/14b6b268145236d40057721ab4ad7d46.svg",
+            "https://ege.sdamgia.ru/formula/svg/9e/9e6ed9e020a72b72878a139945ec4a02.svg"
+        ]
+    },
+    "answer": "10.",
+    "analogs": [
+        "505105"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509446"
+}

@@ -1,0 +1,32 @@
+{
+    "id": 509931,
+    "topic": "18",
+    "condition": {
+        "text": "Найдите все значения параметра a, при каждом из которых система уравненийимеет ровно два решения.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/1a/1a14259c35ba60c2991d90b43c5fb9dd.svg"
+        ]
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Пер­вое урав­не­ние си­сте­мы рас­кла­ды­ва­ет­ся на мно­жи­те­ли:  Сле­до­ва­тель­но, урав­не­ние задаёт пару пря­мых  и Вто­рое урав­не­ние при каж­дом   — урав­не­ние окруж­но­сти c цен­тром  и ра­ди­у­сом Если  то си­сте­ма имеет един­ствен­ное ре­ше­ние и по­это­му не удо­вле­тво­ря­ет усло­вию за­да­чи.Пусть  Тогда усло­вие за­да­чи вы­пол­не­но тогда и толь­ко тогда, когда окруж­ность ка­са­ет­ся каж­дой из пря­мых. То есть рас­сто­я­ние от цен­тра до каж­дой из пря­мых равно ра­ди­у­су окруж­но­сти.Можно вос­поль­зо­вать­ся гео­мет­ри­че­ским ме­то­дом или ис­поль­зо­вать фор­му­лу рас­сто­я­ния от точки до пря­мой.От­сю­да a = ± 0,2. Ответ: a = ± 0,2 При­ме­ча­ние: в за­да­че ис­поль­зо­ва­на фор­му­ла рас­сто­я­ния от точки до пря­мой. Если име­ет­ся точка   и пря­мая за­дан­ная урав­не­ни­ем  то рас­сто­я­ние от этой точки этой до пря­мой вы­чис­ля­ет­ся по фор­му­ле ",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/8c/8c23754411520ea3acbef14aaf15544b.svg",
+            "https://ege.sdamgia.ru/formula/svg/4f/4fce6897147484d2caf9627b55ca9ca9.svg",
+            "https://ege.sdamgia.ru/formula/svg/49/49711a3a07a1bf931e494902230705de.svg",
+            "https://ege.sdamgia.ru/formula/svg/6c/6c770eb44b6acd2d08cc1da5cfecf294.svg",
+            "https://ege.sdamgia.ru/formula/svg/41/41d7454f10b316ee1fac9e6da9a903b3.svg",
+            "https://ege.sdamgia.ru/formula/svg/6d/6dc4dec2a6134d3c8d364a608e5bd11c.svg",
+            "https://ege.sdamgia.ru/formula/svg/2f/2f26594924522671d83e7981e2b0c38c.svg",
+            "https://ege.sdamgia.ru/formula/svg/68/68eb43675c6a9cfb3ddda37f1fb181ea.svg",
+            "https://ege.sdamgia.ru/formula/svg/89/89f1a93d393dd66571937f65ff67b988.svg",
+            "https://ege.sdamgia.ru/formula/svg/f0/f09ff1a5b77f623a4b00e7dfc18c7b3e.svg",
+            "https://ege.sdamgia.ru/formula/svg/04/04f785ca9e439eeb7daa16d01632354f.svg",
+            "https://ege.sdamgia.ru/formula/svg/65/65d321204b68545e57a8238d72a0d960.svg"
+        ]
+    },
+    "answer": " a = ± 0,2",
+    "analogs": [
+        "509584"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=509931"
+}

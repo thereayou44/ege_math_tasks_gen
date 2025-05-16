@@ -1,0 +1,32 @@
+{
+    "id": 640913,
+    "topic": "16",
+    "condition": {
+        "text": "Пенсионный фонд владеет ценными бумагами, которые стоят t2 тыс. рублей в конце года t (t = 1; 2; ...). В конце любого года пенсионный фонд может продать ценные бумаги и положить деньги на счёт в банке, при этом в конце каждого следующего года сумма на счёте будет увеличиваться на 25%. В конце какого года пенсионному фонду следует продать ценные бумаги, чтобы в конце двадцатого года сумма на его счёте была наибольшей?",
+        "images": []
+    },
+    "solution": {
+        "text": "Ре­ше­ние. Если пен­си­он­ный фонд про­даст цен­ные бу­ма­ги в конце года k, то в конце два­дца­то­го года на его счёте будет  тыс. руб­лей. Срав­ним числа ak и   Урав­не­ние  имеет корни  или  Таким об­ра­зом,  при   при  Зна­чит,    по­это­му наи­боль­ший член по­сле­до­ва­тель­но­сти (ak)  — это a9, то есть цен­ные бу­ма­ги надо про­да­вать в конце де­вя­то­го года.  Ответ: 9.",
+        "images": [
+            "https://ege.sdamgia.ru/formula/svg/49/49e4c9802200b144037af57f317fca55.svg",
+            "https://ege.sdamgia.ru/formula/svg/bd/bd93d51d66590ec31bdd062209cd9cf7.svg",
+            "https://ege.sdamgia.ru/formula/svg/0a/0a6dd55f35d265a715bdaa8484fdec63.svg",
+            "https://ege.sdamgia.ru/formula/svg/db/dba099278f4bf36c55d8e303de80f056.svg",
+            "https://ege.sdamgia.ru/formula/svg/9a/9a3db91d802b1f189a0a2cc3f364b700.svg",
+            "https://ege.sdamgia.ru/formula/svg/ec/ec151772603c63d08f48c92414787deb.svg",
+            "https://ege.sdamgia.ru/formula/svg/b9/b97131c0035fbde22806635d34991021.svg",
+            "https://ege.sdamgia.ru/formula/svg/77/77991c80cae65acee0f0e8cd81651997.svg",
+            "https://ege.sdamgia.ru/formula/svg/31/31561ee02eb0e7003ea37b89ea717050.svg",
+            "https://ege.sdamgia.ru/formula/svg/ed/ede39d6ee24a48f3b3bde02eaa99fa9b.svg",
+            "https://ege.sdamgia.ru/formula/svg/cb/cb58c035d33d6c11d3b88ec865d8694d.svg",
+            "https://ege.sdamgia.ru/formula/svg/d9/d94ddbc77d5099c50100171eae0c4794.svg",
+            "https://ege.sdamgia.ru/formula/svg/c0/c0787063d3eb0777eab27fe0f00740ff.svg",
+            "https://ege.sdamgia.ru/formula/svg/4a/4a534fa186ef18bc8c24494945341496.svg"
+        ]
+    },
+    "answer": " 9.",
+    "analogs": [
+        "518147"
+    ],
+    "url": "https://math-ege.sdamgia.ru/problem?id=640913"
+}
