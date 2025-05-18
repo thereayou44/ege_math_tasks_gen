@@ -24,11 +24,12 @@ try:
     from app.visualization import process_bar_chart, process_pie_chart, process_chart_visualization
     from app.visualization.chart_utils import normalize_function_expression
     from app.visualization.renderer import GeometryRenderer
+    from app.visualization.detector import needs_visualization, determine_visualization_type
 
 except ImportError:
-    from prompts import HINT_PROMPTS, SYSTEM_PROMPT, create_complete_task_prompt, REGEX_PATTERNS, DEFAULT_VISUALIZATION_PARAMS
     from visualization import process_multiple_function_plots, process_bar_chart, process_pie_chart, process_chart_visualization
     from visualization.renderer import GeometryRenderer
+    from visualization.detector import needs_visualization, determine_visualization_type
 import traceback
 import matplotlib.patches as patches
 # Импортируем utils.converters так, чтобы работало как из корня проекта, так и из папки app
@@ -274,17 +275,24 @@ def extract_answer_with_latex(solution):
         return "Ответ не найден"
     
     # Проверяем особый формат с ---ОТВЕТ---
-    special_pattern = r'[-]{2,}(?:ОТВЕТ|Ответ|ответ)[-]{2,}\s*([^-\n].*?)(?:$|\n\s*-|\n\s*\n)'
+    special_pattern = r'[-]{2,}\s*(?:ОТВЕТ|Ответ|ответ)\s*[-]{2,}\s*(.*?)(?:$|\n\s*-|\n\s*\n)'
     special_match = re.search(special_pattern, solution, re.IGNORECASE | re.DOTALL)
     
     if special_match:
         answer = special_match.group(1).strip()
         logging.info(f"Найден ответ в формате ---ОТВЕТ---: {answer}")
+        
+        # Ищем число в ответе, если это просто число
+        number_pattern = r'-?\d+[.,]\d+|-?\d+'
+        number_matches = re.findall(number_pattern, answer)
+        if number_matches and len(number_matches) == 1:
+            answer = number_matches[0]
+            
         # Применяем форматирование LaTeX
         return format_latex_answer(answer)
         
     # Ищем "Ответ:" или "Ответ :"
-    answer_pattern = r"(?:Ответ|ОТВЕТ|ответ)\s*:(.+?)(?:$|\.|\n|\<\/p\>)"
+    answer_pattern = r"(?:Ответ|ОТВЕТ|ответ)\s*:(.+?)(?:$|(?<!\.)\n|\n\s*\n|\<\/p\>)"
     answer_match = re.search(answer_pattern, solution, re.IGNORECASE | re.DOTALL)
     
     if answer_match:
@@ -294,9 +302,9 @@ def extract_answer_with_latex(solution):
     
     # Если не нашли по первому паттерну, ищем альтернативы
     alternative_patterns = [
-        r"(?:Итоговый ответ|итоговый ответ|Итого|итого)\s*:(.+?)(?:$|\.|\n|\<\/p\>)",
-        r"(?:Таким образом|Итак|Окончательный ответ|окончательный ответ)\s*:(.+?)(?:$|\.|\n|\<\/p\>)",
-        r"(?:В ответе получаем|в ответе получим|В ответе|в ответе)\s*:(.+?)(?:$|\.|\n|\<\/p\>)"
+        r"(?:Итоговый ответ|итоговый ответ|Итого|итого)\s*:(.+?)(?:$|(?<!\.)\n|\n\s*\n|\<\/p\>)",
+        r"(?:Таким образом|Итак|Окончательный ответ|окончательный ответ)\s*:(.+?)(?:$|(?<!\.)\n|\n\s*\n|\<\/p\>)",
+        r"(?:В ответе получаем|в ответе получим|В ответе|в ответе)\s*:(.+?)(?:$|(?<!\.)\n|\n\s*\n|\<\/p\>)"
     ]
     
     for pattern in alternative_patterns:
@@ -305,6 +313,17 @@ def extract_answer_with_latex(solution):
             answer = alt_match.group(1).strip()
             logging.info(f"Найден ответ: {answer}")
             return format_latex_answer(answer)
+    
+    # Прямой поиск чисел в тексте
+    # Сначала ищем числа в подходящем формате
+    number_pattern = r'-?\d+[.,]\d+'
+    number_matches = re.findall(number_pattern, solution)
+    
+    if number_matches:
+        # Берем последнее число с десятичной точкой
+        answer = number_matches[-1]
+        logging.info(f"Найдено числовое значение с десятичной точкой: {answer}")
+        return format_latex_answer(answer)
     
     # Если ответ не найден
     logging.warning("Ответ не найден в решении")
@@ -320,26 +339,81 @@ def format_latex_answer(answer):
     Returns:
         str: Отформатированный ответ
     """
-    # Если ответ уже содержит $, заменяем их на $$
+    if not answer:
+        return "Ответ не найден"
+        
+    # Удаляем возможные префиксы и суффиксы, такие как "Ответ: "
+    answer = re.sub(r'^(?:Ответ|ОТВЕТ|ответ)\s*:\s*', '', answer)
+    answer = answer.strip()
+    
+    # Если ответ уже содержит LaTeX-окружение, сохраняем его как есть
+    if answer.startswith('$') and answer.endswith('$'):
+        # Проверяем, что $ встречается только в начале и конце ответа
+        if answer.count('$') == 2:
+            return answer
+        
+    # Если ответ уже содержит $$, заменяем их на $ для единообразия
+    if '$$' in answer:
+        # Удаляем все $$
+        answer = answer.replace('$$', '')
+        # Оборачиваем снова в $
+        answer = f"${answer}$"
+    
+    # Обработка чисел 
+    # Специальная обработка для отрицательных чисел
+    neg_number_match = re.match(r'^-\s*(\d+[.,]?\d*)$', answer)
+    if neg_number_match:
+        num = neg_number_match.group(1).replace(',', '.')
+        return f"$-{num}$"
+    
+    # Если у нас просто число, форматируем его как LaTeX
+    number_match = re.match(r'^([+-]?\d*[.,]?\d+)$', answer)
+    if number_match:
+        # Заменяем запятые на точки для единообразия чисел
+        num = number_match.group(1).replace(',', '.')
+        return f"${num}$"
+    
+    # Если ответ уже содержит одинарные $, но внутри есть текст, очищаем текст
     if '$' in answer:
-        # Заменяем одинарные $ на двойные $$
-        answer = answer.replace('$', '$$')
-    else:
-        # Проверяем, есть ли в ответе формулы LaTeX и корректируем их
-        # Ищем выражения без окружения $ и оборачиваем их
-        formula_pattern = r'(\\frac|\\sqrt|\\sum|\\prod|\\int|\\lim|\\sin|\\cos|\\tan|\\log|\\ln)'
-        answer = re.sub(formula_pattern, r'$$\1', answer)
-        
-        # Если мы добавили открывающий символ $$, но нет закрывающего, добавляем его
-        open_count = answer.count('$$')
-        if open_count % 2 != 0:
-            answer += '$$'
-        
-    # Экранируем угловые скобки, если они не являются частью HTML-тега
-    if '<' in answer and not re.search(r'<[a-z/]', answer):
-        answer = answer.replace('<', '&lt;').replace('>', '&gt;')
-        
-    return answer
+        # Извлекаем содержимое между долларами
+        latex_parts = re.findall(r'\$(.*?)\$', answer)
+        if latex_parts:
+            # Берем первое LaTeX выражение
+            cleaned_latex = latex_parts[0].strip()
+            return f"${cleaned_latex}$"
+    
+    # Проверяем наличие дробей в форматах a/b или \frac{a}{b}
+    frac_patterns = [
+        r'\\frac\{([^{}]+)\}\{([^{}]+)\}',  # \frac{a}{b}
+        r'(\d+)/(\d+)'                      # a/b
+    ]
+    
+    for pattern in frac_patterns:
+        frac_match = re.search(pattern, answer)
+        if frac_match:
+            if pattern.startswith(r'\\frac'):
+                numerator, denominator = frac_match.groups()
+                return f"$\\frac{{{numerator}}}{{{denominator}}}$"
+            else:
+                numerator, denominator = frac_match.groups()
+                return f"$\\frac{{{numerator}}}{{{denominator}}}$"
+    
+    # Если в ответе есть специальные символы LaTeX, оборачиваем в $
+    latex_symbols = ['\\', '^', '_', '{', '}', '\\sqrt', '\\pi', '\\cdot', '\\times', '\\div']
+    if any(symbol in answer for symbol in latex_symbols):
+        return f"${answer}$"
+    
+    # Для всех остальных случаев проверяем, является ли ответ числом или простым выражением
+    answer_cleaned = answer.strip()
+    
+    # Если ответ выглядит как число (целое или с десятичной точкой)
+    if re.match(r'^[+-]?\d*[.,]?\d+$', answer_cleaned):
+        # Заменяем запятые на точки для единообразия
+        answer_cleaned = answer_cleaned.replace(',', '.')
+        return f"${answer_cleaned}$"
+    
+    # По умолчанию оборачиваем ответ в $, если он не пустой
+    return f"${answer_cleaned}$" if answer_cleaned else "Ответ не найден"
 
 def parse_hints(hints_string):
     """
@@ -506,951 +580,72 @@ def save_to_file(content, filename="last_generated_task.txt"):
 
 def generate_coordinate_system(points=None, functions=None, vectors=None, grid=True, filename=None):
     """
-    Генерирует координатную плоскость с точками, векторами или графиками функций.
-    
-    Args:
-        points: Список точек в формате [(x1,y1,label1), (x2,y2,label2), ...]
-        functions: Список функций в формате [('x**2', 'blue'), ('2*x+1', 'red'), ...]
-        vectors: Список векторов в формате [(x1,y1,x2,y2,label), ...]
-        grid: Отображать ли сетку
-        filename: Имя файла для сохранения
-        
-    Returns:
-        str: Путь к сохраненному изображению
+    Эта функция перемещена в модуль app.visualization.coordinates.coordinate_system
+    и импортирована выше. Сохраняем функцию для обратной совместимости.
     """
-    try:
-        # Создаем новую фигуру
-        fig, ax = plt.subplots(figsize=(8, 8))
-        
-        # Настраиваем оси
-        ax.spines['left'].set_position('zero')
-        ax.spines['bottom'].set_position('zero')
-        ax.spines['right'].set_visible(False)
-        ax.spines['top'].set_visible(False)
-        
-        # Определяем пределы осей
-        x_min, x_max = -10, 10
-        y_min, y_max = -10, 10
-        
-        # Если заданы точки, корректируем пределы
-        if points:
-            x_coords = [p[0] for p in points]
-            y_coords = [p[1] for p in points]
-            if x_coords:
-                x_min = min(x_min, min(x_coords) - 1)
-                x_max = max(x_max, max(x_coords) + 1)
-            if y_coords:
-                y_min = min(y_min, min(y_coords) - 1)
-                y_max = max(y_max, max(y_coords) + 1)
-        
-        # Устанавливаем пределы осей
-        ax.set_xlim(x_min, x_max)
-        ax.set_ylim(y_min, y_max)
-        
-        # Добавляем сетку, если нужно
-        if grid:
-            ax.grid(True, alpha=0.3)
-        
-        # Рисуем стрелки на осях
-        arrow_props = dict(arrowstyle='->', linewidth=1.5)
-        ax.annotate('', xy=(1, 0), xytext=(0, 0), arrowprops=arrow_props)
-        ax.annotate('', xy=(0, 1), xytext=(0, 0), arrowprops=arrow_props)
-        
-        # Подписываем оси
-        ax.text(x_max - 0.5, 0.5, 'x', fontsize=12)
-        ax.text(0.5, y_max - 0.5, 'y', fontsize=12)
-        
-        # Отображаем точки
-        if points:
-            for point in points:
-                x, y = point[0], point[1]
-                # Подписываем точку только если есть метка
-                if len(point) > 2 and point[2]:
-                    label = point[2]
-                    ax.plot(x, y, 'o', markersize=6)
-                    ax.text(x + 0.2, y + 0.2, label, fontsize=10)
-                else:
-                    # Если нет метки, просто рисуем точку без подписи
-                    ax.plot(x, y, 'o', markersize=6)
-        
-        # Отображаем функции без подписей на графике
-        if functions:
-            x = np.linspace(x_min, x_max, 1000)
-            for func_expr, color in functions:
-                # Безопасное вычисление функции
-                expr = func_expr.replace('^', '**')
-                for func_name in ['sin', 'cos', 'tan', 'exp', 'log', 'sqrt']:
-                    expr = expr.replace(func_name, f'np.{func_name}')
-                
-                try:
-                    y = eval(expr)
-                    # Убираем метку функции, рисуем только график
-                    ax.plot(x, y, color=color, linewidth=2)
-                except Exception as e:
-                    logging.error(f"Ошибка при вычислении функции '{func_expr}': {e}")
-        
-        # Отображаем векторы
-        if vectors:
-            for vector in vectors:
-                x1, y1, x2, y2 = vector[:4]
-                # Рисуем вектор
-                ax.annotate('', xy=(x2, y2), xytext=(x1, y1),
-                            arrowprops=dict(arrowstyle='->', linewidth=1.5, color='blue'))
-                
-                # Подписываем вектор только если есть метка
-                if len(vector) > 4 and vector[4]:
-                    label = vector[4]
-                    mid_x = (x1 + x2) / 2
-                    mid_y = (y1 + y2) / 2
-                    ax.text(mid_x, mid_y, label, fontsize=10)
-        
-        # Создаем директорию для изображений, если она не существует
-        images_dir = 'static/images/generated'
-        os.makedirs(images_dir, exist_ok=True)
-        
-        # Генерируем имя файла, если не указано
-        if not filename:
-            filename = f"coord_{uuid.uuid4().hex[:8]}.png"
-            
-        filepath = os.path.join(images_dir, filename)
-        
-        # Сохраняем изображение
-        plt.savefig(filepath, dpi=100, bbox_inches='tight')
-        plt.close()  # Закрываем фигуру, чтобы очистить память
-        
-        return filepath
-    except Exception as e:
-        logging.error(f"Ошибка при генерации координатной плоскости: {e}")
-        return None
+    from app.visualization.coordinates.coordinate_system import generate_coordinate_system as _generate_coordinate_system
+    return _generate_coordinate_system(points, functions, vectors, grid, filename)
 
 def generate_graph_image(function_expr, x_range=(-10, 10), y_range=None, filename=None):
     """
-    Генерирует изображение графика функции.
-    
-    Args:
-        function_expr: Строка с выражением функции (например, "x**2 - 3*x + 2")
-        x_range: Диапазон значений x (min, max)
-        y_range: Диапазон значений y (min, max)
-        filename: Имя файла для сохранения
-        
-    Returns:
-        str: Путь к сохраненному изображению
+    Эта функция перемещена в модуль app.visualization.graphs.function_graphs
+    и импортирована выше. Сохраняем функцию для обратной совместимости.
     """
-    try:
-        # Создаем новую фигуру
-        fig, ax = plt.subplots(figsize=(8, 6))
-        
-        # Настраиваем оси
-        ax.spines['left'].set_position('zero')
-        ax.spines['bottom'].set_position('zero')
-        ax.spines['right'].set_visible(False)
-        ax.spines['top'].set_visible(False)
-        
-        # Создаем массив значений x
-        x = np.linspace(x_range[0], x_range[1], 1000)
-        
-        # Безопасное вычисление функции
-        expr = function_expr.replace('^', '**')
-        for func_name in ['sin', 'cos', 'tan', 'exp', 'log', 'sqrt']:
-            expr = expr.replace(func_name, f'np.{func_name}')
-        
-        try:
-            # Вычисляем значения функции
-            y = eval(expr)
-            
-            # Строим график
-            ax.plot(x, y, 'b-', linewidth=2)
-            
-            # Устанавливаем пределы осей
-            ax.set_xlim(x_range)
-            if y_range:
-                ax.set_ylim(y_range)
-            
-            # Добавляем сетку
-            ax.grid(True, linestyle='--', alpha=0.6)
-            
-            # Убираем лишние подписи функции
-            ax.set_title("")
-            
-            # Только подписи осей
-            ax.set_xlabel("x")
-            ax.set_ylabel("y")
-            
-            # Создаем директорию для изображений, если она не существует
-            images_dir = 'static/images/generated'
-            os.makedirs(images_dir, exist_ok=True)
-            
-            # Генерируем имя файла, если не указано
-            if not filename:
-                filename = f"graph_{uuid.uuid4().hex[:8]}.png"
-                
-            filepath = os.path.join(images_dir, filename)
-            
-            # Сохраняем изображение
-            plt.savefig(filepath, dpi=100, bbox_inches='tight')
-            plt.close()  # Закрываем фигуру, чтобы очистить память
-            
-            return filepath
-        except Exception as e:
-            logging.error(f"Ошибка при вычислении функции '{function_expr}': {e}")
-            return None
-            
-    except Exception as e:
-        logging.error(f"Ошибка при генерации графика: {e}")
-        return None
-
-import numpy as np
-import matplotlib.pyplot as plt
-import os, uuid, logging
-
-def draw_polygon(ax, pts, edgecolor='blue', lw=2):
-    """Рисует неподписанный полигон по списку точек."""
-    xs, ys = zip(*pts)
-    pts_closed = np.vstack([pts, pts[0]])
-    ax.plot(pts_closed[:,0], pts_closed[:,1], color=edgecolor, linewidth=lw)
-    return xs, ys
-
-def compute_parallelogram(base, height, skew_deg):
-    skew = np.radians(skew_deg)
-    dx = height / np.tan(skew)
-    return [(0,0), (base,0), (base+dx,height), (dx,height)]
-
-def compute_trapezoid(bottom, top, height, is_isosceles=False):
-    """
-    Вычисляет координаты вершин трапеции.
-    
-    Args:
-        bottom: Длина нижнего основания
-        top: Длина верхнего основания
-        height: Высота трапеции
-        is_isosceles: Является ли трапеция равнобедренной
-        
-    Returns:
-        list: Список координат вершин [(x1,y1), (x2,y2), (x3,y3), (x4,y4)]
-    """
-    if is_isosceles:
-        # Для равнобедренной трапеции боковые стороны равны
-        dx = (bottom - top) / 2
-        return [(0, 0), (bottom, 0), (bottom - dx, height), (dx, height)]
-    else:
-        # Для произвольной трапеции (по умолчанию смещение верхнего основания слева)
-        dx = (bottom - top)/2
-        return [(0, 0), (bottom, 0), (bottom - dx, height), (dx, height)]
-
-def add_vertex_labels(params, figure_type, pts):
-    if 'vertex_labels' not in params:
-        if figure_type == 'triangle':
-            labels = ['A', 'B', 'C']
-        else:
-            labels = ['A', 'B', 'C', 'D']
-        params['vertex_labels'] = labels
-
-def generate_geometric_figure(figure_type, params, filename=None):
-    print(f"generate_geometric_figure: {figure_type}, {params}, {filename}")
-    """
-    Универсальный генератор геометрических фигур, использующий matplotlib.patches.
-    Поддерживает отображение длин сторон в соответствии с параметрами.
-    """
-    try:
-        # Увеличиваем размер фигуры для лучшего качества
-        fig, ax = plt.subplots(figsize=(8, 8))
-        ax.set_aspect('equal')
-        ax.axis('off')
-
-        # Создаем фигуру и точки в зависимости от типа
-        pts = None
-        patch = None
-
-        if figure_type == 'circle':
-            cx, cy = params.get('center', (0,0))
-            r = params.get('radius', 3)
-            patch = plt.Circle((cx, cy), r, fill=False, edgecolor='blue', linewidth=2)
-            ax.add_patch(patch)
-            xs, ys = [cx-r, cx+r], [cy-r, cy+r]
-            
-            # Отображение центра
-            if params.get('show_center', True):
-                ax.text(cx, cy, params.get('center_label', 'O'),
-                       ha='center', va='center', fontsize=14,  # Увеличен размер шрифта
-                       bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
-            
-            # Отображение радиуса, если задан
-            radius_value = params.get('radius_value', None)
-            if params.get('show_radius', False) or radius_value is not None:
-                ax.plot([cx, cx+r], [cy, cy], 'r-', lw=1.5)  # Увеличена толщина
-                displayed_radius = radius_value if radius_value is not None else r
-                ax.text(cx+r/2, cy+0.3, f"r={displayed_radius}", ha='center', fontsize=12)  # Увеличен размер шрифта
-                
-            # Отображение диаметра, если задан
-            diameter_value = params.get('diameter_value', None)
-            if params.get('show_diameter', False) or diameter_value is not None:
-                ax.plot([cx-r, cx+r], [cy, cy], 'g-', lw=1.5)  # Увеличена толщина
-                displayed_diameter = diameter_value if diameter_value is not None else 2*r
-                ax.text(cx, cy-0.3, f"d={displayed_diameter}", ha='center', fontsize=12)  # Увеличен размер шрифта
-                
-            # Отображение хорды, если задано значение (исправлено)
-            chord_value = params.get('chord_value', None)
-            if params.get('show_chord', False) or chord_value is not None:
-                if chord_value is not None:
-                    # Проверяем, что хорда не больше диаметра
-                    chord_value = min(chord_value, 2*r)
-                    
-                    # Вычисляем положение хорды
-                    half_chord = chord_value / 2
-                    
-                    # Расстояние от центра до хорды (по теореме Пифагора)
-                    if half_chord < r:  # Защита от ошибок вычисления
-                        h = np.sqrt(r**2 - half_chord**2)
-                    else:
-                        h = 0
-                    
-                    # Рисуем хорду горизонтально ниже центра
-                    chord_y = cy - h
-                    chord_start_x = cx - half_chord
-                    chord_end_x = cx + half_chord
-                    
-                    # Рисуем хорду
-                    ax.plot([chord_start_x, chord_end_x], [chord_y, chord_y], 'b-', lw=1.5)
-                    
-                    # Подпись расположена четко под хордой
-                    ax.text((chord_start_x + chord_end_x)/2, chord_y-0.4, 
-                            f"{chord_value}", ha='center', fontsize=12)
-                    
-        else:  # Многоугольники
-            if 'points' in params:
-                pts = params['points']
-            else:
-                if figure_type == 'triangle':
-                    pts = params.get('points', [(0,0),(1,0),(0.5,0.86)])
-                    
-                    # Для прямоугольного треугольника
-                    if params.get('is_right', False):
-                        pts = [(0,0), (0,3), (4,0)]  # Прямоугольный треугольник
-                        
-                elif figure_type == 'rectangle':
-                    x, y = params.get('x',0), params.get('y',0)
-                    w, h = params.get('width',4), params.get('height',3)
-                    pts = [(x,y), (x+w,y), (x+w,y+h), (x,y+h)]
-                    
-                elif figure_type == 'parallelogram':
-                    base = params.get('width',4)
-                    height = params.get('height',3)
-                    skew = params.get('skew',60)
-                    raw = compute_parallelogram(base, height, skew)
-                    x, y = params.get('x',0), params.get('y',0)
-                    pts = [(px+x, py+y) for px,py in raw]
-                    
-                elif figure_type == 'trapezoid':
-                    bottom = params.get('bottom_width',6)
-                    top = params.get('top_width',3)
-                    height = params.get('height',3)
-                    is_isosceles = params.get('is_isosceles', False)
-                    raw = compute_trapezoid(bottom, top, height, is_isosceles)
-                    x, y = params.get('x',0), params.get('y',0)
-                    pts = [(px+x, py+y) for px,py in raw]
-                else:
-                    raise ValueError(f"Неизвестный тип: {figure_type}")
-
-            # Создаем патч для многоугольника
-            if pts:
-                xs, ys = zip(*pts)
-                patch = plt.Polygon(pts, fill=False, edgecolor='blue', linewidth=2)
-                ax.add_patch(patch)
-                
-                # Подписи вершин
-                if params.get('show_labels', True):
-                    # Если есть конкретные метки, которые нужно показать
-                    show_specific_labels = params.get('show_specific_labels', None)
-                    labels = params.get('vertex_labels')
-                    if not labels:
-                        labels = [chr(65+i) for i in range(len(pts))]
-                    
-                    for i, ((x0,y0), lab) in enumerate(zip(pts, labels)):
-                        # Проверяем, нужно ли отображать эту конкретную метку
-                        if show_specific_labels is None or lab in show_specific_labels:
-                            ax.text(x0, y0, lab, ha='center', va='center', fontsize=14,
-                               bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
-                
-                # Длины сторон
-                side_lengths = params.get('side_lengths', None)
-                show_lengths = params.get('show_lengths', False)
-                show_specific_sides = params.get('show_specific_sides', None)
-                
-                if side_lengths or show_lengths:
-                    for i in range(len(pts)):
-                        x0, y0 = pts[i]
-                        x1, y1 = pts[(i+1)%len(pts)]
-                        mx, my = (x0+x1)/2, (y0+y1)/2
-                        
-                        # Рассчитываем длину стороны
-                        L = np.hypot(x1-x0, y1-y0)
-                        
-                        # Получаем обозначения вершин для этой стороны
-                        v1 = params.get('vertex_labels', [chr(65+j) for j in range(len(pts))])[i]
-                        v2 = params.get('vertex_labels', [chr(65+j) for j in range(len(pts))])[(i+1)%len(pts)]
-                        side_name = f"{v1}{v2}"
-                        side_name_rev = f"{v2}{v1}"  # Обратный порядок для проверки
-                        
-                        # Проверяем, нужно ли отображать эту конкретную сторону
-                        should_show = show_specific_sides is None or side_name in show_specific_sides or side_name_rev in show_specific_sides
-                        
-                        if should_show:
-                            # Вектор нормали к стороне для размещения текста (увеличен вынос подписи)
-                            nx, ny = -(y1-y0)/L, (x1-x0)/L
-                            offset = 0.35  # Увеличен отступ для лучшей видимости
-                        
-                            # Особая обработка для трапеции
-                            if figure_type == 'trapezoid':
-                                # Нижнее основание (AB)
-                                if i == 0 and ('bottom_width' in params):
-                                    ax.text(mx+nx*offset, my+ny*offset, f"{params['bottom_width']}", 
-                                        ha='center', fontsize=12,
-                                        bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
-                                    continue
-                                # Верхнее основание (DC)
-                                elif i == 2 and ('top_width' in params):
-                                    ax.text(mx+nx*offset, my+ny*offset, f"{params['top_width']}", 
-                                        ha='center', fontsize=12,
-                                        bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
-                                    continue
-                                # Для боковых сторон трапеции не отображаем значения, если указаны конкретные стороны
-                                # и текущая сторона не является верхним или нижним основанием
-                                elif show_specific_sides is not None and side_name not in ["AB", "BA", "DC", "CD"]:
-                                    continue
-                            
-                        # Выбираем значение для отображения
-                        if side_lengths and i < len(side_lengths) and side_lengths[i] is not None:
-                            # Если указано конкретное значение
-                            ax.text(mx+nx*offset, my+ny*offset, f"{side_lengths[i]}", 
-                                   ha='center', fontsize=12,  # Увеличен размер шрифта
-                                   bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
-                        elif show_lengths:
-                            # Показываем фактическую длину
-                            ax.text(mx+nx*offset, my+ny*offset, f"{L:.2f}", 
-                                   ha='center', fontsize=12,  # Увеличен размер шрифта
-                                   bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
-                
-                # Углы (для любого многоугольника)
-                if params.get('show_angles', False):
-                    angle_values = params.get('angle_values', None)
-                    show_angle_arcs = params.get('show_angle_arcs', False) or params.get('rисовать_дуги_углов', False)
-                    show_specific_angles = params.get('show_specific_angles', None)
-                    
-                    for i in range(len(pts)):
-                        # Получаем обозначение вершины для проверки
-                        vertex_label = params.get('vertex_labels', [chr(65+j) for j in range(len(pts))])[i]
-                        
-                        # Проверяем, нужно ли отображать этот угол
-                        if show_specific_angles is not None and vertex_label not in show_specific_angles:
-                            continue
-                        
-                        # Получаем три последовательные точки для вычисления угла
-                        A, B, C = np.array(pts[(i-1)%len(pts)]), np.array(pts[i]), np.array(pts[(i+1)%len(pts)])
-                        
-                        # Вычисляем векторы от вершины к соседним точкам
-                        v1, v2 = A-B, C-B
-                        
-                        # Вычисляем угол в градусах
-                        if np.linalg.norm(v1) > 0 and np.linalg.norm(v2) > 0:  # Проверка на нулевой вектор
-                            cos_angle = v1.dot(v2)/(np.linalg.norm(v1)*np.linalg.norm(v2))
-                            # Ограничиваем значение в диапазоне [-1, 1] для arccos
-                            cos_angle = max(-1, min(1, cos_angle))
-                            ang = np.degrees(np.arccos(cos_angle))
-                            
-                            # Проверяем внутренний или внешний угол
-                            # Вычисляем векторное произведение для определения типа угла
-                            cross_product = np.cross(np.append(v1, 0), np.append(v2, 0))[2]
-                            
-                            # Определяем, внутренний или внешний угол
-                            # Для многоугольников всегда хотим показывать внутренний угол (< 180°)
-                            if cross_product > 0:  # Если угол внешний
-                                    ang = 360 - ang
-                            
-                            # Используем значение угла из параметров, если оно предоставлено
-                            if angle_values and i < len(angle_values) and angle_values[i] is not None:
-                                displayed_angle = angle_values[i]
-                            else:
-                                displayed_angle = round(ang, 1)
-                            
-                            # Размещение текста - усреднение направлений
-                            uv = (v1/np.linalg.norm(v1) + v2/np.linalg.norm(v2))
-                            if np.linalg.norm(uv) > 0:  # Проверка на нулевой вектор
-                                uv = uv/np.linalg.norm(uv) * 0.4  # Увеличено для лучшей видимости
-                                
-                                # Отображение значения угла
-                                ax.text(*(B+uv), f"{displayed_angle}°", ha='center', fontsize=12,
-                                       bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
-                                
-                                # Рисуем дугу угла только если это явно указано
-                                if show_angle_arcs:
-                                    theta1 = np.arctan2(v1[1], v1[0]) * 180 / np.pi
-                                    theta2 = np.arctan2(v2[1], v2[0]) * 180 / np.pi
-                                
-                                # Обеспечиваем правильное направление дуги
-                                if theta2 < theta1:
-                                    theta2 += 360
-                                
-                                # Регулируем радиус дуги в зависимости от размера фигуры
-                                radius = min(np.linalg.norm(v1), np.linalg.norm(v2)) * 0.2
-                                arc = patches.Arc(B, 2*radius, 2*radius, 
-                                                 theta1=theta1, theta2=theta2, 
-                                                 color='red', linewidth=1.5)
-                                ax.add_patch(arc)
-                
-                # Специальные элементы для треугольника
-                if figure_type == 'triangle' and len(pts) == 3:
-                    # Высоты
-                    show_heights = params.get('show_heights', False)
-                    show_specific_heights = params.get('show_specific_heights', None)
-                    
-                    if show_heights or show_specific_heights:
-                        for i in range(3):
-                            # Получаем вершину и противоположную сторону
-                            A = np.array(pts[i])
-                            B = np.array(pts[(i+1)%3])
-                            C = np.array(pts[(i+2)%3])
-                            
-                            # Получаем обозначение вершины для проверки
-                            vertex_label = params.get('vertex_labels', ['A', 'B', 'C'])[i]
-                            
-                            # Проверяем, нужно ли отображать эту высоту
-                            should_show = show_specific_heights is None or vertex_label in show_specific_heights
-                            
-                            if should_show:
-                                # Вычисляем вектор стороны BC
-                                BC = C - B
-                                
-                                # Вычисляем нормаль к стороне BC
-                                n = np.array([-BC[1], BC[0]])
-                                n = n / np.linalg.norm(n)
-                                
-                                # Проекция вектора BA на нормаль
-                                BA = A - B
-                                h = np.abs(np.dot(BA, n))
-                                
-                                # Вычисляем направление от вершины к стороне
-                                D = B + np.dot(BA, BC) / np.dot(BC, BC) * BC
-                                
-                                # Рисуем высоту
-                                ax.plot([A[0], D[0]], [A[1], D[1]], 'g-', lw=1.2)
-                                
-                                # Подписываем высоту
-                                ax.text((A[0] + D[0])/2 + 0.1, (A[1] + D[1])/2 + 0.1, 
-                                        f"h{vertex_label}={h:.2f}" if h != int(h) else f"h{vertex_label}={int(h)}", 
-                                        ha='center', fontsize=10,
-                                        bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
-                    
-                    # Медианы
-                    show_medians = params.get('show_medians', False)
-                    show_specific_medians = params.get('show_specific_medians', None)
-                    
-                    if show_medians or show_specific_medians:
-                        for i in range(3):
-                            # Получаем вершину и противоположную сторону
-                            A = np.array(pts[i])
-                            B = np.array(pts[(i+1)%3])
-                            C = np.array(pts[(i+2)%3])
-                            
-                            # Получаем обозначение вершины для проверки
-                            vertex_label = params.get('vertex_labels', ['A', 'B', 'C'])[i]
-                            
-                            # Проверяем, нужно ли отображать эту медиану
-                            should_show = show_specific_medians is None or vertex_label in show_specific_medians
-                            
-                            if should_show:
-                                # Вычисляем середину противоположной стороны
-                                M = (B + C) / 2
-                                
-                                # Длина медианы
-                                median_length = np.linalg.norm(A - M)
-                                
-                                # Рисуем медиану
-                                ax.plot([A[0], M[0]], [A[1], M[1]], 'm-', lw=1.2)
-                                
-                                # Подписываем медиану
-                                ax.text((A[0] + M[0])/2 + 0.1, (A[1] + M[1])/2 + 0.1, 
-                                        f"m{vertex_label}={median_length:.2f}" if median_length != int(median_length) else f"m{vertex_label}={int(median_length)}", 
-                                        ha='center', fontsize=10,
-                                        bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
-                    
-                    # Средние линии
-                    show_midlines = params.get('show_midlines', False)
-                    show_specific_midlines = params.get('show_specific_midlines', None)
-                    
-                    if show_midlines or show_specific_midlines:
-                        # Для треугольника есть 3 средние линии
-                        midlines = [
-                            ((pts[1][0] + pts[2][0])/2, (pts[1][1] + pts[2][1])/2, (pts[0][0] + pts[1][0])/2, (pts[0][1] + pts[1][1])/2),
-                            ((pts[0][0] + pts[2][0])/2, (pts[0][1] + pts[2][1])/2, (pts[1][0] + pts[2][0])/2, (pts[1][1] + pts[2][1])/2),
-                            ((pts[0][0] + pts[1][0])/2, (pts[0][1] + pts[1][1])/2, (pts[0][0] + pts[2][0])/2, (pts[0][1] + pts[2][1])/2)
-                        ]
-                        
-                        midline_labels = ['BC', 'AC', 'AB']
-                        
-                        for i, (x1, y1, x2, y2) in enumerate(midlines):
-                            # Проверяем, нужно ли отображать эту среднюю линию
-                            midline_name = midline_labels[i]
-                            should_show = show_specific_midlines is None or midline_name in show_specific_midlines
-                            
-                            if should_show:
-                                # Длина средней линии
-                                midline_length = np.hypot(x2-x1, y2-y1)
-                                
-                                # Рисуем среднюю линию
-                                ax.plot([x1, x2], [y1, y2], 'c-', lw=1.2)
-                                
-                                # Подписываем среднюю линию
-                                ax.text((x1 + x2)/2 + 0.1, (y1 + y2)/2 + 0.1, 
-                                        f"m{midline_name}={midline_length:.2f}" if midline_length != int(midline_length) else f"m{midline_name}={int(midline_length)}", 
-                                        ha='center', fontsize=10,
-                                        bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
-                
-                # Прямые углы для четырехугольников
-                if figure_type in ['rectangle', 'parallelogram', 'trapezoid'] and params.get('is_right', False):
-                    # Обработка прямых углов в четырехугольниках
-                    for i in range(len(pts)):
-                        A, B, C = np.array(pts[(i-1)%len(pts)]), np.array(pts[i]), np.array(pts[(i+1)%len(pts)])
-                        v1, v2 = A-B, C-B
-                        
-                        if np.linalg.norm(v1) > 0 and np.linalg.norm(v2) > 0:
-                            cos_angle = v1.dot(v2)/(np.linalg.norm(v1)*np.linalg.norm(v2))
-                            cos_angle = max(-1, min(1, cos_angle))
-                            ang = np.degrees(np.arccos(cos_angle))
-                            
-                            if abs(ang - 90) < 5:  # Допуск 5 градусов для прямого угла
-                                # Рисуем символ прямого угла
-                                v1 = v1 / np.linalg.norm(v1) * 0.4  # Увеличен размер символа прямого угла
-                                v2 = v2 / np.linalg.norm(v2) * 0.4
-                                
-                                p1 = np.array(B)
-                                p2 = p1 + v1
-                                p3 = p1 + v1 + v2
-                                p4 = p1 + v2
-                                
-                                ax.plot([p1[0], p2[0], p3[0], p4[0], p1[0]], 
-                                       [p1[1], p2[1], p3[1], p4[1], p1[1]], 'r-', linewidth=1.5)
-
-        # Авто-лимиты для осей
-        if 'xs' in locals() and 'ys' in locals():
-            m = 1.5  # Увеличен отступ от краев
-            ax.set_xlim(min(xs)-m, max(xs)+m)
-            ax.set_ylim(min(ys)-m, max(ys)+m)
-
-        # Сохранение изображения
-        if filename and os.path.dirname(filename):
-            # Если filename содержит путь, используем его напрямую
-            os.makedirs(os.path.dirname(filename), exist_ok=True)
-            plt.savefig(filename, bbox_inches='tight', dpi=150)
-            plt.close()
-            return filename
-        else:
-            # Если путь не указан, используем директорию по умолчанию
-            output_dir = os.path.join('static', 'images', 'generated')
-            os.makedirs(output_dir, exist_ok=True)
-            
-            if not filename:
-                filename = f"{figure_type}_{uuid.uuid4().hex[:8]}.png"
-            
-            filepath = os.path.join(output_dir, filename)
-            plt.savefig(filepath, bbox_inches='tight', dpi=150)
-            plt.close()
-            return filepath
-    except Exception as e:
-        import traceback
-        print(f"Ошибка при создании геометрической фигуры: {e}")
-        print(traceback.format_exc())
-        return None
-
+    from app.visualization.graphs.function_graphs import generate_graph_image as _generate_graph_image
+    return _generate_graph_image(function_expr, x_range, y_range, filename)
 
 def get_image_base64(image_path):
     """
-    Преобразует изображение в строку base64 для встраивания в HTML.
-    
-    Args:
-        image_path: Путь к изображению
-        
-    Returns:
-        str: Строка в формате base64
+    Эта функция перемещена в модуль app.visualization.utils.image_utils
+    и импортирована выше. Сохраняем функцию для обратной совместимости.
     """
-    try:
-        with open(image_path, "rb") as img_file:
-            return base64.b64encode(img_file.read()).decode('utf-8')
-    except Exception as e:
-        logging.error(f"Ошибка при конвертации изображения в base64: {e}")
-        return None
-
-def remove_latex_markup(text):
-    """
-    Удаляет LaTeX-разметку и символы из текста.
-    
-    Args:
-        text: Исходный текст с LaTeX-разметкой
-        
-    Returns:
-        str: Очищенный текст
-    """
-    if text is None:
-        return None
-        
-    if isinstance(text, list):
-        # Если text это список, обрабатываем каждый элемент
-        return [remove_latex_markup(item) for item in text]
-        
-    if not isinstance(text, str):
-        return text
-        
-    # Удаляем символы $ и другие LaTeX-разметки
-    text = text.replace('$', '')
-    
-    # Заменяем LaTeX-операторы на Python
-    text = text.replace('^', '**')  # Степень
-    text = text.replace('\\cdot', '*')  # Умножение
-    text = text.replace('\\times', '*')  # Умножение
-    text = text.replace('\\frac{', '(')  # Начало дроби
-    text = text.replace('}{', ')/(')     # Середина дроби
-    text = text.replace('}', ')')        # Конец дроби
-    
-    # Для корней
-    text = text.replace('\\sqrt{', 'sqrt(')
-    
-    # Тригонометрические функции
-    text = text.replace('\\sin', 'sin')
-    text = text.replace('\\cos', 'cos')
-    text = text.replace('\\tan', 'tan')
-    text = text.replace('\\tg', 'tan')
-    text = text.replace('\\ctg', '1/tan')
-    
-    # Логарифмы
-    text = text.replace('\\ln', 'log')
-    text = text.replace('\\log', 'log10')
-    
-    return text.strip()
+    from app.visualization.utils.image_utils import get_image_base64 as _get_image_base64
+    return _get_image_base64(image_path)
 
 def process_visualization_params(params_text):
     """
-    Обрабатывает параметры для визуализации из текста.
-    
-    Args:
-        params_text: Текст с параметрами визуализации
-        
-    Returns:
-        tuple: (изображение, тип визуализации) или (None, None) в случае ошибки
+    Обрабатывает параметры визуализации и создает изображение.
     """
     try:
-        if not params_text:
-            return None, None
+        # Предварительная обработка параметров - удаление или экранирование LaTeX-разметки
+        # Заменяем все обратные слэши на двойные (для экранирования в Python)
+        clean_params_text = params_text.replace('\\', '\\\\')
         
-        lines = params_text.strip().split('\n')
-        viz_type = None
+        # Удаляем специальные LaTeX-команды, которые могут вызвать проблемы при eval()
+        latex_commands = [r'\\frac', r'\\sqrt', r'\\cdot', r'\\left', r'\\right', 
+                         r'\\sum', r'\\int', r'\\prod', r'\\infty']
+        for cmd in latex_commands:
+            clean_params_text = clean_params_text.replace(cmd, '')
         
-        # Ищем тип визуализации
-        for line in lines:
-            if line.lower().startswith('тип:'):
-                viz_type = line.split(':', 1)[1].strip().lower()
-                break
-            if line.lower().startswith('тип фигуры:'):  
-                viz_type = line.split(':', 1)[1].strip().lower()
-                break
-            if re.search(r'фигура\s*:', line.lower()):
-                viz_type = re.split(r'фигура\s*:', line.lower(), 1)[1].strip()
-                break
+        # Удаляем все LaTeX окружения вроде \(...\) или $...$
+        clean_params_text = re.sub(r'\\?\(.*?\\?\)', '', clean_params_text)
+        clean_params_text = re.sub(r'\$.*?\$', '', clean_params_text)
         
-        if not viz_type:
-            logging.warning("Не удалось определить тип визуализации")
-            return None, None
-        
-        # Функция для извлечения параметра по шаблону
-        def extract_param(pattern, text, default=None):
-            match = re.search(pattern, text, re.IGNORECASE | re.MULTILINE)
-            if match:
-                try:
-                    value = match.group(1).strip()
-                    # Очищаем от LaTeX разметки
-                    value = remove_latex_markup(value)
-                    return value
-                except Exception as e:
-                    logging.error(f"Ошибка при извлечении параметра: {e}")
-            return default
-        
-        if "график" in viz_type:
+        # Пробуем извлечь Python-словарь из текста
+        dict_match = re.search(r'\{.*\}', clean_params_text, re.DOTALL)
+        if dict_match:
+            dict_text = dict_match.group(0)
+            # Теперь строка должна быть безопасна для eval()
             try:
-                # Используем общую функцию parse_graph_params для парсинга параметров
-                funcs_to_plot, x_range, y_range, special_points = parse_graph_params(params_text)
-                
-                # Создаем директорию для сохранения изображения, если она не существует
-                output_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "static/images/generated")
-                os.makedirs(output_dir, exist_ok=True)
-                
-                # Генерируем имя файла с уникальным идентификатором
-                filename = f'multifunction_{uuid.uuid4().hex[:8]}.png'
-                output_path = os.path.join(output_dir, filename)
-                
-                # Логируем для отладки
-                x_min, x_max = x_range
-                y_min, y_max = (None, None) if y_range is None else y_range
-                logging.info(f"Обработка функций с параметрами: x: [{x_min}, {x_max}], " +
-                             f"y: [{y_min if y_min is not None else 'auto'}, {y_max if y_max is not None else 'auto'}]")
-                
-                # Отрисовываем график
-                filepath = generate_multi_function_graph(funcs_to_plot, x_range=x_range, y_range=y_range, special_points=special_points)
-                return filepath, "graph"
-            except Exception as e:
-                logging.error(f"Ошибка при создании графика функций: {e}")
-                logging.error(traceback.format_exc())
-                return None, None
-                
-        elif "треугольник" in viz_type:
-            image_path = process_triangle_visualization(params_text, extract_param)
-            return image_path, "triangle"
-        elif "окружность" in viz_type:
-            image_path = process_circle_visualization(params_text, extract_param)
-            return image_path, "circle"
-        elif "прямоугольник" in viz_type:
-            image_path = process_rectangle_visualization(params_text, extract_param)
-            return image_path, "rectangle"
-        elif "параллелограмм" in viz_type:
-            image_path = process_parallelogram_visualization(params_text, extract_param)
-            return image_path, "parallelogram"
-        elif "трапеция" in viz_type:
-            image_path = process_trapezoid_visualization(params_text, extract_param)
-            return image_path, "trapezoid"
-        elif "координатная плоскость" in viz_type:
-            image_path = process_coordinate_visualization(params_text, extract_param)
-            return image_path, "coordinate"
-        else:
-            logging.warning(f"Неизвестный тип визуализации: {viz_type}")
-            return None, None
-            
-    except Exception as e:
-        logging.error(f"Ошибка при создании графика функции: {e}")
-        logging.error(traceback.format_exc())
-        return None, None
-
-def process_coordinate_visualization(params_text, extract_param):
-    """Обрабатывает параметры для координатной плоскости"""
-    # Извлекаем параметры координатной плоскости
-    points_str = extract_param(REGEX_PATTERNS["coordinate"]["points"], params_text)
-    vectors_str = extract_param(REGEX_PATTERNS["coordinate"]["vectors"], params_text)
-    functions_str = extract_param(REGEX_PATTERNS["coordinate"]["functions"], params_text)
-    
-    points = []
-    vectors = []
-    functions = []
-    
-    # Парсинг точек
-    if points_str:
-        try:
-            # Формат A(1,2),B(3,4),C(5,6) или (1,2),(3,4),(5,6)
-            for match in re.finditer(r'([A-Za-z]?)\s*\(([^,]+),([^)]+)\)', points_str):
-                label, x, y = match.groups()
-                x, y = float(x.strip()), float(y.strip())
-                if label:
-                    points.append((x, y, label))
+                params = eval(dict_text)
+                if isinstance(params, dict):
+                    return create_image_from_params(params), params.get("type", "unknown")
                 else:
-                    points.append((x, y))
-        except Exception as e:
-            logging.warning(f"Ошибка при разборе точек: {e}")
-    
-    # Парсинг векторов
-    if vectors_str:
-        try:
-            # Формат AB, CD или (1,2,3,4), (5,6,7,8)
-            for match in re.finditer(r'([A-Za-z]{2})|(?:\(([^,]+),([^,]+),([^,]+),([^)]+)\))', vectors_str):
-                if match.group(1):  # Формат AB
-                    vector_name = match.group(1)
-                    # Нужно найти точки A и B среди уже введенных
-                    start_point = None
-                    end_point = None
-                    for point in points:
-                        if len(point) > 2:  # Есть метка
-                            if point[2] == vector_name[0]:
-                                start_point = (point[0], point[1])
-                            elif point[2] == vector_name[1]:
-                                end_point = (point[0], point[1])
-                    
-                    if start_point and end_point:
-                        vectors.append((start_point[0], start_point[1], end_point[0], end_point[1], vector_name))
-                else:  # Формат (1,2,3,4)
-                    x1, y1, x2, y2 = map(float, match.groups()[1:5])
-                    vectors.append((x1, y1, x2, y2))
-        except Exception as e:
-            logging.warning(f"Ошибка при разборе векторов: {e}")
-    
-    # Парсинг функций
-    if functions_str:
-        try:
-            # Формат x**2, 2*x+1
-            for func in functions_str.split(','):
-                func = func.strip()
-                if func:
-                    functions.append((func, 'blue'))  # Цвет по умолчанию - синий
-        except Exception as e:
-            logging.warning(f"Ошибка при разборе функций: {e}")
-    
-    # Создаем директорию для сохранения изображения, если она не существует
-    output_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "static/images/generated")
-    os.makedirs(output_dir, exist_ok=True)
-    
-    # Генерируем имя файла с уникальным идентификатором
-    filename = f'coordinate_{uuid.uuid4().hex[:8]}.png'
-    output_path = os.path.join(output_dir, filename)
-    
-    # Генерируем координатную плоскость
-    generate_coordinate_system(points, functions, vectors, filename=output_path)
-    
-    return output_path
-
-# Пример использования
-if __name__ == "__main__":
-    # Создаем .env файл с API ключом, если его нет
-    if not os.path.exists(".env"):
-        with open(".env", "w") as f:
-            f.write("YANDEX_API_KEY=your_api_key_here\n")
-            f.write("YANDEX_FOLDER_ID=your_folder_id_here")
-        print("Создан файл .env. Пожалуйста, заполните в нем свой API ключ Яндекса и ID каталога.")
-    
-    # Тестируем генерацию задачи при наличии API ключа
-    if YANDEX_API_KEY and YANDEX_FOLDER_ID:
-        category = "Простейшие уравнения"
-        result = generate_complete_task(category)
+                    logging.error("Результат eval() не является словарем")
+                    return None, "unknown"
+            except Exception as e:
+                # Если обработка не помогла, записываем ошибку в лог
+                logging.error(f"Ошибка при выполнении eval() для параметров визуализации: {e}")
+                logging.error(f"Текст параметров: {dict_text}")
+        else:
+            logging.error("Не удалось найти словарь в параметрах визуализации")
         
-        print("\n=== СГЕНЕРИРОВАННАЯ ЗАДАЧА ===")
-        print(result.get("task", "Ошибка генерации"))
-        
-        print("\n=== РЕШЕНИЕ ===")
-        print(result.get("solution", "Решение недоступно"))
-        
-        print("\n=== ОТВЕТ ===")
-        print(result.get("answer", "Ответ не найден"))
-        
-        print("\n=== ПОДСКАЗКИ ===")
-        for i, hint in enumerate(result.get("hints", []), 1):
-            print(f"Подсказка {i}: {hint}")
-            
-        print(f"\nПолный текст задачи сохранен в файл 'last_generated_task.txt'")
-    else:
-        print("API ключ Яндекса или ID каталога не найдены в .env файле.")
-        print("Пожалуйста, заполните эти данные для работы с YandexGPT API.")
-
-def needs_visualization(task_text, category, subcategory, is_basic_level=False):
-    """
-    Определяет, требуется ли визуализация для задачи.
-    Делегирует вызов в check_visualization_requirement из prompts.
-    Учитывает также уровень сложности задачи (базовый или профильный).
-    
-    Args:
-        task_text: Текст задачи
-        category: Категория задачи
-        subcategory: Подкатегория задачи
-        is_basic_level: Флаг базового уровня, но не влияет на решение о необходимости визуализации
-        
-    Returns:
-        bool: True, если требуется визуализация (определяется по категории/тексту задачи)
-    """
-    from app.prompts import check_visualization_requirement
-    # Независимо от уровня сложности (базовый или профильный), 
-    # запрашиваем визуализацию если она требуется
-    return check_visualization_requirement(category, subcategory, task_text)
+        # Если что-то пошло не так, используем значения по умолчанию
+        # Возвращаем пустые значения
+        return None, "unknown"
+    except Exception as e:
+        logging.error(f"Ошибка при обработке параметров визуализации: {e}")
+        return None, "unknown"
 
 def extract_visualization_params(task_text, category, subcategory):
     """
@@ -1487,71 +682,6 @@ def extract_visualization_params(task_text, category, subcategory):
         return extract_coordinate_params(task_text)
     else:
         return None
-
-def determine_visualization_type(task_text, category, subcategory):
-    """
-    Определяет тип визуализации на основе текста задачи и категории.
-    
-    Args:
-        task_text: Текст задачи
-        category: Категория задачи
-        subcategory: Подкатегория задачи
-        
-    Returns:
-        str: Тип визуализации или None, если не удалось определить
-    """
-    # Ключевые слова для различных типов визуализации
-    type_keywords = {
-        "graph": ["график", "функц", "парабол", "гипербол", "синусоид", "косинусоид", 
-                 "экспонент", "y =", "f(x) =", "ось абсцисс", "ось ординат"],
-        "triangle": ["треугольник", "равнобедренн", "равносторонн", "прямоугольный треугольник", 
-                    "катет", "гипотенуз", "медиан", "биссектрис", "высот"],
-        "circle": ["окружность", "круг", "радиус", "диаметр", "хорд", "сектор", "сегмент",
-                  "касательн", "центр окружности"],
-        "rectangle": ["прямоугольник", "квадрат", "ромб", "периметр прямоугольника", 
-                     "площадь прямоугольника", "сторона прямоугольника"],
-        "parallelogram": ["параллелограмм", "ромб", "периметр параллелограмма", 
-                         "площадь параллелограмма", "сторона параллелограмма"],
-        "trapezoid": ["трапеци", "основание трапеции", "боковая сторона трапеции", 
-                     "высота трапеции", "средняя линия трапеции"],
-        "coordinate": ["координатн", "декартов", "система координат", "коорд.", "точка", 
-                      "точки", "вектор", "прямая", "отрезок", "вектор"]
-    }
-    
-    # Категории, связанные с типами визуализации
-    category_types = {
-        "graph": ["Функции", "Графики функций", "Производная", "Интеграл"],
-        "triangle": ["Треугольники", "Планиметрия", "Геометрия"],
-        "circle": ["Окружности", "Планиметрия", "Геометрия"],
-        "rectangle": ["Многоугольники", "Планиметрия", "Геометрия"],
-        "parallelogram": ["Многоугольники", "Планиметрия", "Геометрия"],
-        "trapezoid": ["Многоугольники", "Планиметрия", "Геометрия"],
-        "coordinate": ["Координатная плоскость", "Векторы", "Геометрия"]
-    }
-    
-    # Проверяем категорию и подкатегорию
-    for viz_type, cats in category_types.items():
-        if any(cat.lower() in category.lower() for cat in cats) or \
-           any(cat.lower() in (subcategory or "").lower() for cat in cats):
-            # Дополнительно проверяем текст задачи на ключевые слова для этого типа
-            if any(keyword.lower() in task_text.lower() for keyword in type_keywords[viz_type]):
-                return viz_type
-    
-    # Если не определили по категории, определяем только по тексту задачи
-    type_scores = {}
-    for viz_type, keywords in type_keywords.items():
-        score = 0
-        for keyword in keywords:
-            if keyword.lower() in task_text.lower():
-                score += 1
-        if score > 0:
-            type_scores[viz_type] = score
-    
-    # Возвращаем тип с наибольшим количеством совпадений
-    if type_scores:
-        return max(type_scores.items(), key=lambda x: x[1])[0]
-    
-    return None
 
 def extract_graph_params(task_text):
     """
@@ -2490,751 +1620,6 @@ def create_image_from_params(params):
     except Exception as e:
         logging.error(f"Ошибка при создании изображения: {e}")
         traceback.print_exc()
-        return None
-
-def generate_multi_function_graph(functions, x_range=(-10, 10), y_range=None, special_points=None):
-    """
-    Создает изображение с несколькими графиками функций на одном полотне.
-    
-    Args:
-        functions (list): Список функций в формате [(выражение, цвет, имя), ...]
-        x_range (tuple): Кортеж (min_x, max_x) для всех функций
-        y_range (tuple): Кортеж (min_y, max_y) для всех функций или None
-        special_points (list): Список особых точек в формате [(x, y, label), ...]
-        
-    Returns:
-        str: Путь к созданному изображению или None в случае ошибки
-    """
-    import matplotlib.pyplot as plt
-    import numpy as np
-    import math
-    import os
-    import uuid
-    import logging
-    
-    # Создаем директорию для сохранения изображения, если она не существует
-    output_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "static/images/generated")
-    os.makedirs(output_dir, exist_ok=True)
-    
-    # Генерируем уникальное имя файла
-    filename = f"multifunction_{uuid.uuid4().hex[:8]}.png"
-    filepath = os.path.join(output_dir, filename)
-    
-    # Создаем график
-    plt.figure(figsize=(10, 6))
-    ax = plt.gca()
-    
-    # Настройка осей
-    ax.spines['left'].set_position('zero')
-    ax.spines['bottom'].set_position('zero')
-    ax.spines['right'].set_color('none')
-    ax.spines['top'].set_color('none')
-    
-    # Стрелки на осях
-    ax.plot((1), (0), ls="", marker=">", ms=10, color="k", transform=ax.get_yaxis_transform(), clip_on=False)
-    ax.plot((0), (1), ls="", marker="^", ms=10, color="k", transform=ax.get_xaxis_transform(), clip_on=False)
-    
-    # Добавляем подписи осей
-    plt.text(0.98, 0.02, "x", transform=plt.gca().transAxes, ha='right')
-    plt.text(0.02, 0.98, "y", transform=plt.gca().transAxes, va='top')
-    
-    # Определяем ограничения для x в зависимости от типов функций
-    has_sqrt = any('sqrt' in func[0] or '**0.5' in func[0] for func in functions)
-    has_log = any('log' in func[0] or 'ln' in func[0] for func in functions)
-    has_division = any('/' in func[0] for func in functions)
-    
-    # Генерируем значения x
-    x_min, x_max = x_range
-    
-    # Для функций с корнем, корректируем диапазон x
-    if has_sqrt and x_min < 0:
-        # Проверяем, есть ли функции, которые требуют только положительных x
-        only_positive_funcs = []
-        for func in functions:
-            if 'sqrt' in func[0] or '**0.5' in func[0]:
-                only_positive_funcs.append(func)
-        
-        if len(only_positive_funcs) < len(functions):
-            # Если есть и другие функции, сохраняем оригинальный диапазон
-            pass
-        else:
-            # Если только функции с корнем, ограничиваем x неотрицательными значениями
-            x_min = 0
-    
-    # Для функций с логарифмом, ограничиваем x положительными значениями
-    if has_log and x_min <= 0:
-        # Проверяем, есть ли функции, которые требуют только положительных x
-        only_positive_funcs = []
-        for func in functions:
-            if 'log' in func[0] or 'ln' in func[0]:
-                only_positive_funcs.append(func)
-        
-        if len(only_positive_funcs) < len(functions):
-            # Если есть и другие функции, сохраняем оригинальный диапазон
-            pass
-        else:
-            # Если только логарифмические функции, ограничиваем x положительными значениями
-            x_min = 0.01
-    
-    # Генерируем массив значений x с большим количеством точек для более гладких графиков
-    x = np.linspace(x_min, x_max, 3000)  # Увеличиваем количество точек до 3000 для более гладких графиков
-    
-    # Функция для безопасного вычисления значений функции
-    def safe_eval(func_expr, x_val):
-        """
-        Безопасно вычисляет значение функции для заданного значения x.
-        Обрабатывает распространенные ошибки, такие как деление на ноль,
-        корень из отрицательного числа, логарифм от неположительного числа и т.д.
-        
-        Args:
-            func_expr: Строковое выражение функции
-            x_val: Значение x для вычисления
-            
-        Returns:
-            float: Результат вычисления или NaN при ошибке
-        """
-        try:
-            # Предварительно заменяем функции и конвертируем выражения
-            # Заменяем ^, sqrt и другие математические обозначения
-            func_expr = func_expr.replace('^', '**').replace('math.sqrt', 'sqrt')
-            
-            # Предварительные проверки для предотвращения ошибок при вычислениях
-            
-            # 1. Проверка на корень из отрицательного числа
-            if any(sub in func_expr for sub in ['sqrt(', '**0.5']):
-                # Более тщательная проверка для вложенных выражений со sqrt
-                # Например, sqrt(x-5) при x < 5
-                sqrt_check = False
-                
-                if 'sqrt(' in func_expr:
-                    # Извлекаем аргументы sqrt
-                    try:
-                        import re
-                        sqrt_args = re.findall(r'sqrt\(([^)]+)\)', func_expr)
-                        for arg in sqrt_args:
-                            # Создаем выражение для проверки аргумента
-                            arg_expr = arg.replace('x', f'({x_val})')
-                            try:
-                                arg_val = eval(arg_expr, {"__builtins__": {}}, 
-                                          {"math": math, "np": np, "sqrt": math.sqrt, 
-                                           "sin": math.sin, "cos": math.cos, "tan": math.tan,
-                                           "exp": math.exp, "log": math.log, "log10": math.log10,
-                                           "abs": abs, "pi": math.pi})
-                                if arg_val < 0:
-                                    return float('nan')
-                            except:
-                                # Если не можем вычислить, продолжаем с осторожностью
-                                pass
-                    except:
-                        # При ошибке разбора регулярного выражения продолжаем
-                        pass
-                
-                # Дополнительная проверка для выражений с **0.5
-                if '**0.5' in func_expr or '**0,5' in func_expr:
-                    try:
-                        # Находим выражения вида (выражение)**0.5
-                        import re
-                        pow_args = re.findall(r'([^*]+)\*\*(0\.5|0,5)', func_expr)
-                        for arg, _ in pow_args:
-                            # Создаем выражение для проверки аргумента
-                            arg_expr = arg.replace('x', f'({x_val})')
-                            try:
-                                arg_val = eval(arg_expr, {"__builtins__": {}}, 
-                                          {"math": math, "np": np, "sqrt": math.sqrt, 
-                                           "sin": math.sin, "cos": math.cos, "tan": math.tan,
-                                           "exp": math.exp, "log": math.log, "log10": math.log10,
-                                           "abs": abs, "pi": math.pi})
-                                if arg_val < 0:
-                                    return float('nan')
-                            except:
-                                # Если не можем вычислить, продолжаем
-                                pass
-                    except:
-                        # При ошибке разбора регулярного выражения продолжаем
-                        pass
-            
-            # 2. Проверка на логарифм от неположительного числа
-            if 'log(' in func_expr or 'log10(' in func_expr or 'log(' in func_expr:
-                # Извлекаем аргументы логарифма
-                try:
-                    import re
-                    log_args = re.findall(r'log\(([^)]+)\)', func_expr)
-                    log_args.extend(re.findall(r'log10\(([^)]+)\)', func_expr))
-                    log_args.extend(re.findall(r'ln\(([^)]+)\)', func_expr))
-                    
-                    for arg in log_args:
-                        # Создаем выражение для проверки аргумента
-                        arg_expr = arg.replace('x', f'({x_val})')
-                        try:
-                            arg_val = eval(arg_expr, {"__builtins__": {}}, 
-                                      {"math": math, "np": np, "sqrt": math.sqrt, 
-                                       "sin": math.sin, "cos": math.cos, "tan": math.tan,
-                                       "exp": math.exp, "log": math.log, "log10": math.log10,
-                                       "abs": abs, "pi": math.pi})
-                            if arg_val <= 0:
-                                return float('nan')
-                        except:
-                            # Если не можем вычислить, продолжаем с осторожностью
-                            pass
-                except:
-                    # При ошибке разбора регулярного выражения продолжаем
-                    pass
-            
-            # 3. Проверка на деление на ноль
-            if '/' in func_expr:
-                try:
-                    import re
-                    # Ищем выражения вида (числитель)/(знаменатель)
-                    div_exprs = re.findall(r'(.+)\/(.+)', func_expr)
-                    for _, denominator in div_exprs:
-                        # Создаем выражение для проверки знаменателя
-                        denom_expr = denominator.replace('x', f'({x_val})')
-                        try:
-                            denom_val = eval(denom_expr, {"__builtins__": {}}, 
-                                        {"math": math, "np": np, "sqrt": math.sqrt, 
-                                         "sin": math.sin, "cos": math.cos, "tan": math.tan,
-                                         "exp": math.exp, "log": math.log, "log10": math.log10,
-                                         "abs": abs, "pi": math.pi})
-                            if abs(denom_val) < 1e-10:  # Очень близко к нулю
-                                return float('nan')
-                        except:
-                            # Если не можем вычислить, продолжаем с осторожностью
-                            pass
-                except:
-                    # При ошибке разбора регулярного выражения продолжаем
-                    pass
-            
-            # Если все проверки пройдены, выполняем вычисление
-            result = eval(func_expr.replace('x', f'({x_val})'), {"__builtins__": {}}, 
-                      {"math": math, "np": np, "sqrt": math.sqrt, 
-                       "sin": math.sin, "cos": math.cos, "tan": math.tan,
-                       "exp": math.exp, "log": math.log, "log10": math.log10, 
-                       "abs": abs, "pi": math.pi})
-            
-            # Проверяем на бесконечность или NaN
-            if math.isnan(result) or math.isinf(result):
-                return float('nan')
-                
-            return result
-        except Exception as e:
-            # Если произошла ошибка при вычислении, возвращаем NaN
-            return float('nan')
-    
-    # Создаем функцию для построения графика
-    def create_func(expr):
-        def func(x_val):
-            return safe_eval(expr, x_val)
-        return func
-    
-    # Вычисляем значения функции для каждой точки x и строим график
-    for func_expr, color, name in functions:
-        try:
-            # Предварительно конвертируем функцию
-            func_expr = func_expr.replace('^', '**')
-            if 'sqrt(' in func_expr and 'math.sqrt(' not in func_expr and 'np.sqrt(' not in func_expr:
-                func_expr = func_expr.replace('sqrt(', 'math.sqrt(')
-            
-            # Конвертируем русские названия цветов в английские
-            color_map = {
-                'синий': 'blue',
-                'красный': 'red',
-                'зеленый': 'green',
-                'зелёный': 'green',
-                'желтый': 'yellow',
-                'жёлтый': 'yellow',
-                'черный': 'black',
-                'чёрный': 'black',
-                'белый': 'white',
-                'серый': 'gray',
-                'оранжевый': 'orange',
-                'фиолетовый': 'purple',
-                'розовый': 'pink'
-            }
-            if isinstance(color, str) and color.lower() in color_map:
-                color = color_map[color.lower()]
-                
-            # Удаляем LaTeX-разметку из метки функции
-            if isinstance(name, str):
-                name = remove_latex_markup(name)
-            
-            # Удаляем LaTeX-разметку, если она осталась
-            func_expr = remove_latex_markup(func_expr)
-            
-            # Нормализуем выражение для корректного построения графика
-            normalized_expr = normalize_function_expression(func_expr)
-            if normalized_expr:
-                func_expr = normalized_expr
-            else:
-                logging.warning(f"Не удалось нормализовать выражение {func_expr}, пробуем исходное выражение")
-            
-            # Логируем функцию для отладки
-            import logging
-            logging.info(f"Строим график функции: {func_expr}, цвет: {color}, метка: {name}")
-            
-            # Вычисляем значения y для каждого x
-            y = np.array([safe_eval(func_expr, xi) for xi in x])
-            
-            # Фильтруем значения NaN, бесконечности и очень большие/маленькие числа
-            valid_indices = np.isfinite(y) & (np.abs(y) < 1e10)
-            if np.any(valid_indices):
-                x_valid = x[valid_indices]
-                y_valid = y[valid_indices]
-                
-                # Строим график для этой функции с соответствующим цветом и названием
-                plt.plot(x_valid, y_valid, color=color, label=name, linewidth=2)
-            else:
-                import logging
-                logging.warning(f"Не удалось построить график функции {func_expr}: нет валидных точек")
-            
-        except Exception as e:
-            import logging
-            logging.error(f"Ошибка при построении графика для функции {func_expr}: {e}")
-            traceback.print_exc()
-    
-    # Если есть особые точки (например, точки пересечения), добавляем их на график
-    if special_points:
-        for point in special_points:
-            try:
-                x_val, y_val, label = point
-                
-                # Массив цветов для точек
-                point_colors = ['red', 'green', 'blue', 'purple', 'orange', 'brown', 'pink', 'gray', 'cyan', 'magenta']
-                # Выбираем цвет по индексу (используем хеш от метки для стабильности цветов между запусками)
-                color_idx = hash(label) % len(point_colors)
-                point_color = point_colors[color_idx]
-                
-                # Очищаем метку от LaTeX-разметки, если необходимо
-                if isinstance(label, str):
-                    label = remove_latex_markup(label)
-                
-                # Отрисовываем точку
-                plt.plot(x_val, y_val, 'o', color=point_color, markersize=6)
-                
-                # Определяем положение метки в зависимости от значения y
-                if y_val == 0:  # Если точка на оси X
-                    y_offset = -0.5
-                    x_offset = 0
-                    va = 'top'
-                elif y_val < 0:  # Если точка ниже оси X
-                    y_offset = -0.5
-                    x_offset = 0.2
-                    va = 'top'
-                else:  # Если точка выше оси X
-                    y_offset = 0.5
-                    x_offset = 0.2
-                    va = 'bottom'
-                
-                # Добавляем метку с учетом позиционирования
-                plt.annotate(label, (x_val, y_val), 
-                           xytext=(x_val + x_offset, y_val + y_offset), 
-                           textcoords='data', ha='center', va=va,
-                           fontsize=12, bbox=dict(boxstyle='round,pad=0.3', 
-                                                 fc='white', ec=point_color, alpha=0.8))
-            except Exception as e:
-                logging.error(f"Ошибка при добавлении особой точки {point}: {e}")
-                traceback.print_exc()
-    
-    # Настраиваем оси и диапазоны
-    if y_range is not None:
-        plt.ylim(y_range)
-    
-    plt.xlim(x_range)
-    
-    # Добавляем сетку
-    plt.grid(True, linestyle='--', alpha=0.7)
-    
-    # Добавляем легенду, если есть хотя бы одна функция
-    if functions:
-        plt.legend(loc='best', framealpha=0.5)
-    
-    # Добавляем заголовок
-    plt.title("График функций", fontsize=14)
-    
-    # Добавляем подписи осей
-    plt.xlabel("x", fontsize=12)
-    plt.ylabel("y", fontsize=12)
-    
-    # Сохраняем график
-    plt.tight_layout()
-    try:
-        plt.savefig(filepath, dpi=300, bbox_inches='tight')
-        plt.close()
-        return filepath
-    except Exception as e:
-        logging.error(f"Ошибка при сохранении графика: {e}")
-        traceback.print_exc()
-        plt.close()
-        return None
-
-def test_visualization_functions():
-    """
-    Тестовая функция для проверки визуализации различных типов математических функций.
-    
-    Эта функция генерирует графики для различных типов функций, включая те, 
-    которые могут вызывать проблемы (корни, логарифмы, деление на ноль и т.д.).
-    
-    Возвращает список путей к созданным изображениям.
-    """
-    import os
-    
-    # Список функций для тестирования
-    test_functions = [
-        # Простые функции
-        ("x**2", "blue", "f1"),
-        ("2*x+1", "red", "f2"),
-        
-        # Функции с разрывами
-        ("1/x", "green", "f3"),
-        ("1/(x-2)", "purple", "f4"),
-        
-        # Корни и логарифмы
-        ("sqrt(x)", "orange", "f5"),
-        ("sqrt(x-4)", "blue", "f6"),
-        ("log(x)", "red", "f7"),
-        ("log(abs(x-5))", "green", "f8"),
-        
-        # Тригонометрические функции
-        ("sin(x)", "purple", "f9"),
-        ("tan(x)", "orange", "f10"),
-        
-        # Модули и кусочные функции
-        ("abs(x-3)", "blue", "f11"),
-        ("x if x>0 else -x", "red", "f12"),
-        
-        # Комбинированные функции
-        ("sqrt(abs(x))*sin(x)", "green", "f13"),
-        ("log(abs(x)+1)*cos(x)", "purple", "f14")
-    ]
-    
-    # Создаем разные комбинации функций для тестирования
-    test_sets = [
-        # Одиночные функции
-        [test_functions[0]],  # Квадратичная функция
-        [test_functions[2]],  # Функция с разрывом
-        [test_functions[4]],  # Функция с корнем
-        [test_functions[6]],  # Логарифмическая функция
-        
-        # Пары функций
-        [test_functions[0], test_functions[1]],  # Квадратичная и линейная
-        [test_functions[4], test_functions[6]],  # Корень и логарифм
-        [test_functions[8], test_functions[9]],  # sin и tan
-        
-        # Более сложные комбинации
-        [test_functions[0], test_functions[2], test_functions[8]],  # Квадратичная, разрыв, sin
-        [test_functions[4], test_functions[6], test_functions[10]],  # Корень, логарифм, модуль
-        [test_functions[12], test_functions[13]]  # Две комбинированные функции
-    ]
-    
-    results = []
-    
-    # Генерируем графики с разными диапазонами
-    ranges = [
-        (-10, 10),
-        (-5, 5),
-        (0, 10),
-        (-2, 8)
-    ]
-    
-    for i, func_set in enumerate(test_sets):
-        for j, x_range in enumerate(ranges):
-            try:
-                filepath = generate_multi_function_graph(
-                    func_set, 
-                    x_range=x_range,
-                    y_range=None
-                )
-                print(f"Успешно сгенерирован график для набора {i+1}, диапазон {x_range}: {filepath}")
-                results.append(filepath)
-            except Exception as e:
-                import traceback
-                print(f"Ошибка при генерации графика для набора {i+1}, диапазон {x_range}: {e}")
-                traceback.print_exc()
-    
-    # Также тестируем функцию normalize_function_expression
-    test_expressions = [
-        "x^2 + 3*x - 5",
-        "√(x+1)",
-        "log_2(x)",
-        "|x-3|",
-        "sin(x) + cos(x)",
-        "tg(x) / ctg(x)",
-        "(x+1)/(x-2)"
-    ]
-    
-    print("\nРезультаты нормализации выражений:")
-    for expr in test_expressions:
-        try:
-            normalized = normalize_function_expression(expr)
-            print(f"'{expr}' -> '{normalized}'")
-        except Exception as e:
-            print(f"Ошибка при нормализации '{expr}': {e}")
-    
-    return results
-
-# Эта функция перемещена в app/visualization/chart_utils.py и импортируется оттуда
-
-def process_circle_visualization(params_text, extract_param):
-    """Обрабатывает параметры для окружности и создает визуализацию"""
-    # Извлекаем параметры для окружности
-    center_str = extract_param(REGEX_PATTERNS["circle"]["center"], params_text)
-    radius_str = extract_param(REGEX_PATTERNS["circle"]["radius"], params_text)
-    center_label = extract_param(REGEX_PATTERNS["circle"]["center_label"], params_text, "O")
-    show_radius = extract_param(REGEX_PATTERNS["circle"]["show_radius"], params_text, "нет").lower() in ["да", "yes", "true"]
-    show_diameter = extract_param(REGEX_PATTERNS["circle"]["show_diameter"], params_text, "нет").lower() in ["да", "yes", "true"]
-    show_chord = extract_param(REGEX_PATTERNS["circle"]["show_chord"], params_text, "нет").lower() in ["да", "yes", "true"]
-    radius_value_str = extract_param(REGEX_PATTERNS["circle"]["radius_value"], params_text)
-    diameter_value_str = extract_param(REGEX_PATTERNS["circle"]["diameter_value"], params_text)
-    chord_value_str = extract_param(REGEX_PATTERNS["circle"]["chord_value"], params_text)
-    
-    # Параметры для отображения окружности
-    params = DEFAULT_VISUALIZATION_PARAMS["circle"].copy()
-    
-    # Парсинг центра
-    if center_str:
-        try:
-            center = center_str.strip()
-            match = re.search(r'\(([^,]+),([^)]+)\)', center)
-            if match:
-                cx, cy = float(match.group(1)), float(match.group(2))
-                params['center'] = (cx, cy)
-        except Exception as e:
-            logging.warning(f"Ошибка при разборе центра окружности: {e}")
-    
-    # Парсинг радиуса
-    if radius_str:
-        try:
-            radius = float(radius_str.strip())
-            params['radius'] = radius
-        except Exception as e:
-            logging.warning(f"Ошибка при разборе радиуса окружности: {e}")
-    
-    # Добавляем метку центра
-    if center_label and center_label.lower() not in ["нет", "no", "none", "-"]:
-        params['center_label'] = center_label
-        params['show_center'] = True
-    else:
-        params['show_center'] = False
-    
-    # Добавляем значение радиуса для отображения
-    if radius_value_str and radius_value_str.lower() not in ["нет", "no", "none", "-"]:
-        try:
-            params['radius_value'] = float(radius_value_str.strip())
-        except Exception as e:
-            logging.warning(f"Ошибка при разборе значения радиуса для отображения: {e}")
-    
-    # Добавляем значение диаметра для отображения
-    if diameter_value_str and diameter_value_str.lower() not in ["нет", "no", "none", "-"]:
-        try:
-            params['diameter_value'] = float(diameter_value_str.strip())
-        except Exception as e:
-            logging.warning(f"Ошибка при разборе значения диаметра для отображения: {e}")
-    
-    # Добавляем значение хорды для отображения
-    if chord_value_str and chord_value_str.lower() not in ["нет", "no", "none", "-"]:
-        try:
-            params['chord_value'] = float(chord_value_str.strip())
-        except Exception as e:
-            logging.warning(f"Ошибка при разборе значения хорды для отображения: {e}")
-    
-    # Добавляем флаги отображения
-    params['show_radius'] = show_radius
-    params['show_diameter'] = show_diameter
-    params['show_chord'] = show_chord
-    
-    # Обработка параметров конкретных углов для отображения
-    show_specific_angles = extract_param(REGEX_PATTERNS["circle"]["show_specific_angles"], params_text)
-    if show_specific_angles:
-        # Проверяем, если это уже список, то используем как есть
-        if isinstance(show_specific_angles, list):
-            params["show_specific_angles"] = show_specific_angles
-        else:
-            try:
-                # Иначе пытаемся разделить строку
-                params["show_specific_angles"] = [angle.strip() for angle in show_specific_angles.split(',')]
-            except Exception as e:
-                logging.warning(f"Ошибка при разборе конкретных углов окружности: {e}")
-    
-    # Обработка параметров конкретных сторон для отображения
-    show_specific_sides = extract_param(REGEX_PATTERNS["circle"]["show_specific_sides"], params_text)
-    if show_specific_sides:
-        # Проверяем, если это уже список, то используем как есть
-        if isinstance(show_specific_sides, list):
-            params["show_specific_sides"] = show_specific_sides
-        else:
-            try:
-                # Иначе пытаемся разделить строку
-                params["show_specific_sides"] = [side.strip() for side in show_specific_sides.split(',')]
-            except Exception as e:
-                logging.warning(f"Ошибка при разборе конкретных сторон окружности: {e}")
-    
-    # Создаем директорию для сохранения изображения, если она не существует
-    output_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "static/images/generated")
-    os.makedirs(output_dir, exist_ok=True)
-    
-    # Генерируем имя файла с уникальным идентификатором
-    filename = f'circle_{uuid.uuid4().hex[:8]}.png'
-    output_path = os.path.join(output_dir, filename)
-    
-    try:
-        # Используем новую ООП-структуру для создания и отрисовки окружности
-        from app.geometry import Circle
-        from app.visualization import GeometryRenderer
-        
-        # Создаем окружность
-        circle = Circle(params)
-        
-        # Отрисовываем и сохраняем изображение
-        GeometryRenderer.render_figure(circle, output_path)
-        
-        return output_path
-    except ImportError:
-        # Если новые модули недоступны, используем старый подход
-        logging.warning("Не удалось импортировать новые модули для ООП-визуализации, используем старый подход")
-        
-    # Генерируем изображение старым методом
-    generate_geometric_figure('circle', params, output_path)
-    return output_path
-
-def process_triangle_visualization(params_text, extract_param):
-    """Обрабатывает параметры для треугольника и создает визуализацию"""
-    # Извлекаем параметры для треугольника
-    coords_str = extract_param(REGEX_PATTERNS["triangle"]["coords"], params_text)
-    show_angles = extract_param(REGEX_PATTERNS["triangle"]["angles"], params_text, "нет").lower() in ["да", "yes", "true"]
-    show_sides = extract_param(REGEX_PATTERNS["triangle"]["lengths"], params_text, "нет").lower() in ["да", "yes", "true"]
-    vertex_labels_str = extract_param(REGEX_PATTERNS["triangle"]["vertex_labels"], params_text)
-    is_right = extract_param(REGEX_PATTERNS["triangle"]["is_right"], params_text, "нет").lower() in ["да", "yes", "true"]
-    side_lengths_str = extract_param(REGEX_PATTERNS["triangle"]["side_lengths"], params_text)
-    show_angle_arcs = extract_param(REGEX_PATTERNS["triangle"]["show_angle_arcs"], params_text, "нет").lower() in ["да", "yes", "true"]
-    
-    # Параметры для отображения треугольника
-    params = DEFAULT_VISUALIZATION_PARAMS["triangle"].copy()
-    
-    # Парсинг координат
-    if coords_str:
-        try:
-            # Для координат ожидаем формат [(x1,y1), (x2,y2), (x3,y3)]
-            coords = coords_str.strip()
-            # Удаляем внешние скобки, если они есть
-            if coords.startswith("[") and coords.endswith("]"):
-                coords = coords[1:-1]
-            
-            # Разбиваем на отдельные точки
-            points = []
-            pattern = r'\(([^,]+),([^)]+)\)'
-            matches = re.findall(pattern, coords)
-            
-            if len(matches) >= 3:
-                for i in range(3):
-                    x = float(matches[i][0])
-                    y = float(matches[i][1])
-                    points.append((x, y))
-                
-                params['points'] = points
-        except Exception as e:
-            logging.warning(f"Ошибка при парсинге координат треугольника: {e}")
-    
-    # Парсинг меток вершин
-    if vertex_labels_str:
-        try:
-            # Для меток вершин ожидаем формат [A, B, C] или A, B, C
-            labels = vertex_labels_str.strip()
-            # Удаляем внешние скобки, если они есть
-            if labels.startswith("[") and labels.endswith("]"):
-                labels = labels[1:-1]
-            
-            # Разбиваем на отдельные метки
-            vertex_labels = [label.strip() for label in re.split(r'[,\s]+', labels) if label.strip()]
-            
-            if len(vertex_labels) >= 3:
-                params['vertex_labels'] = vertex_labels[:3]
-        except Exception as e:
-            logging.warning(f"Ошибка при парсинге меток вершин треугольника: {e}")
-    
-    # Дополнительные параметры
-    params['show_angles'] = show_angles
-    params['show_sides'] = show_sides
-    params['is_right'] = is_right
-    params['show_angle_arcs'] = show_angle_arcs
-    
-    # Парсинг длин сторон
-    if side_lengths_str:
-        try:
-            # Для длин сторон ожидаем формат [side1, side2, side3] или side1, side2, side3
-            lengths = side_lengths_str.strip()
-            # Удаляем внешние скобки, если они есть
-            if lengths.startswith("[") and lengths.endswith("]"):
-                lengths = lengths[1:-1]
-            
-            # Разбиваем на отдельные значения
-            side_lengths = []
-            for length in re.split(r'[,\s]+', lengths):
-                if length.strip():
-                    try:
-                        # Пробуем преобразовать в число
-                        side_lengths.append(float(length.strip()))
-                    except ValueError:
-                        # Если не число, просто добавляем строку
-                        side_lengths.append(length.strip())
-            
-            if len(side_lengths) >= 3:
-                params['side_lengths'] = side_lengths[:3]
-        except Exception as e:
-            logging.warning(f"Ошибка при парсинге длин сторон треугольника: {e}")
-    
-    # Парсинг значений углов
-    angle_values_str = extract_param(REGEX_PATTERNS["triangle"]["angle_values"], params_text)
-    if angle_values_str:
-        try:
-            # Для значений углов ожидаем формат A=30, B=60, C=90 или аналогичный
-            parts = re.split(r'[,\s]+', angle_values_str)
-            angle_values = {}
-            
-            for part in parts:
-                if '=' in part:
-                    angle_key, angle_val = part.split('=', 1)
-                    angle_values[angle_key.strip()] = angle_val.strip()
-            
-            if angle_values:
-                params['angle_values'] = angle_values
-        except Exception as e:
-            logging.warning(f"Ошибка при разборе значений углов треугольника: {e}")
-    
-    # Создаем директорию для сохранения изображения, если она не существует
-    output_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "static/images/generated")
-    os.makedirs(output_dir, exist_ok=True)
-    
-    # Генерируем имя файла с уникальным идентификатором
-    filename = f'triangle_{uuid.uuid4().hex[:8]}.png'
-    output_path = os.path.join(output_dir, filename)
-    
-    try:
-        # Используем новую ООП-структуру для создания и отрисовки треугольника
-        from app.geometry import Triangle
-        from app.visualization import GeometryRenderer
-        
-        # Создаем треугольник
-        triangle = Triangle(params)
-        
-        # Отрисовываем и сохраняем изображение
-        GeometryRenderer.render_figure(triangle, output_path)
-        
-        return output_path
-    except ImportError as e:
-        # Если новые модули недоступны, используем старый подход
-        logging.warning(f"Не удалось импортировать новые модули для ООП-визуализации, используем старый подход: {e}")
-    except Exception as e:
-        # Обрабатываем любые другие ошибки
-        logging.error(f"Ошибка при создании треугольника: {e}")
-        logging.error(traceback.format_exc())
-        return None
-    
-    # Генерируем изображение старым методом
-    try:
-        generate_geometric_figure('triangle', params, output_path)
-        return output_path
-    except Exception as e:
-        logging.error(f"Ошибка при создании треугольника старым методом: {e}")
-        logging.error(traceback.format_exc())
         return None
 
 def generate_complete_task(category, subcategory="", difficulty_level=3, is_basic_level=False):
@@ -4288,343 +2673,3 @@ def generate_json_markdown_task(category, subcategory="", difficulty_level=3, is
         logging.error(f"Ошибка при генерации JSON с Markdown: {e}")
         logging.error(traceback.format_exc())
         return {"error": f"Ошибка при генерации задачи с Markdown: {str(e)}"}
-
-def parse_graph_params(params_text):
-    """
-    Универсальная функция для извлечения параметров графиков функций.
-    Возвращает список функций, диапазоны осей и особые точки.
-    
-    Args:
-        params_text: Текст с параметрами
-        
-    Returns:
-        tuple: (functions, x_range, y_range, special_points)
-            functions - список кортежей (функция, цвет, метка)
-            x_range - диапазон оси X (x_min, x_max)
-            y_range - диапазон оси Y (y_min, y_max) или None
-            special_points - список особых точек [(x1, y1, метка1), ...]
-    """
-    import re
-    import logging
-    import traceback
-    
-    # Список функций для отображения
-    funcs_to_plot = []
-    
-    # Диапазоны осей
-    x_range = (-10, 10)  # По умолчанию [-10, 10]
-    y_range = None  # По умолчанию автоматический
-    
-    # Особые точки
-    special_points = []
-    
-    # Функция для извлечения параметра по шаблону
-    def extract_param(pattern, text, default=None):
-        match = re.search(pattern, text, re.IGNORECASE | re.MULTILINE)
-        if match:
-            try:
-                value = match.group(1).strip()
-                # Очищаем от LaTeX разметки
-                return remove_latex_markup(value)
-            except Exception as e:
-                logging.error(f"Ошибка при извлечении параметра: {e}")
-        return default
-    
-    try:
-        # МЕТОД 1: Поиск функций, цветов и меток в параметрах визуализации
-        # Для извлечения используем несколько подходов, начиная с наиболее структурированных
-        
-        # 1. Сначала ищем "Функция 1: x^2" и т.д.
-        func_pattern = r'Функция\s+(\d+):\s*(.*?)(?=Функция\s+\d+:|Цвет|Название|Диапазон|Особые|$)'
-        func_matches = re.findall(func_pattern, params_text, re.IGNORECASE | re.DOTALL)
-        
-        # Создаем словари для цветов и названий
-        color_dict = {}
-        name_dict = {}
-        
-        # Извлекаем цвета в формате "Цвет 1: красный"
-        color_pattern = r'Цвет\s+(\d+):\s*(.*?)(?=Функция|Цвет|Название|Диапазон|Особые|$)'
-        color_matches = re.findall(color_pattern, params_text, re.IGNORECASE | re.DOTALL)
-        for num_str, color in color_matches:
-            try:
-                num = int(num_str.strip())
-                color_dict[num] = color.strip()
-            except ValueError:
-                continue
-                
-        # Извлекаем названия в формате "Название 1: f(x)"
-        name_pattern = r'Название\s+(\d+):\s*(.*?)(?=Функция|Цвет|Название|Диапазон|Особые|$)'
-        name_matches = re.findall(name_pattern, params_text, re.IGNORECASE | re.DOTALL)
-        for num_str, name in name_matches:
-            try:
-                num = int(num_str.strip())
-                name_dict[num] = name.strip()
-            except ValueError:
-                continue
-        
-        # Стандартные цвета, если не указаны
-        colors = ['blue', 'red', 'green', 'orange', 'purple']
-        
-        # Конвертер русских названий цветов в английские
-        color_mapping = {
-            'красный': 'red',
-            'синий': 'blue',
-            'зеленый': 'green',
-            'зелёный': 'green',
-            'желтый': 'yellow',
-            'жёлтый': 'yellow',
-            'черный': 'black',
-            'чёрный': 'black',
-            'фиолетовый': 'purple',
-            'оранжевый': 'orange',
-            'коричневый': 'brown',
-            'розовый': 'pink',
-            'серый': 'gray',
-            'голубой': 'cyan',
-            'малиновый': 'magenta'
-        }
-        
-        # Обрабатываем найденные функции
-        functions = []
-        for match in func_matches:
-            try:
-                num = int(match[0].strip())
-                func_expr = match[1].strip()
-                
-                # Очищаем от LaTeX-разметки и приводим к Python-синтаксису
-                func_expr = remove_latex_markup(func_expr)
-                
-                # Определяем цвет и метку для функции
-                color = color_dict.get(num, colors[min(num-1, len(colors)-1)])
-                
-                # Преобразуем русское название цвета в английское
-                if color.lower() in color_mapping:
-                    color = color_mapping[color.lower()]
-                
-                name = name_dict.get(num, f"f_{num}(x)")
-                
-                # Добавляем функцию в список
-                functions.append((func_expr, color, name))
-                logging.info(f"Найдена функция {num}: {func_expr}, цвет: {color}, метка: {name}")
-            except Exception as e:
-                logging.warning(f"Ошибка при обработке функции {match[0]}: {e}")
-        
-        # 2. Если функции не найдены методом выше, ищем по блокам "График 1: ..."
-        if not functions:
-            for i in range(1, 6):  # Поиск до 5 графиков
-                graph_block_pattern = rf'График\s*{i}:.*?(?=График\s*{i+1}:|Общие параметры:|$)'
-                graph_block_match = re.search(graph_block_pattern, params_text, re.DOTALL | re.IGNORECASE)
-                
-                if graph_block_match:
-                    graph_block = graph_block_match.group(0)
-                    
-                    # Извлекаем функцию из блока
-                    func_pattern = rf'Функция:?\s*([^\n]+)'
-                    func_match = re.search(func_pattern, graph_block, re.IGNORECASE)
-                    
-                    if func_match:
-                        func_str = func_match.group(1).strip()
-                        func_str = remove_latex_markup(func_str)
-                        
-                        # Ищем цвет
-                        color_pattern = r'Цвет:?\s*([^\n]+)'
-                        color_match = re.search(color_pattern, graph_block, re.IGNORECASE)
-                        color = color_match.group(1).strip() if color_match else colors[min(i-1, len(colors)-1)]
-                        
-                        # Преобразуем русское название цвета в английское
-                        if color.lower() in color_mapping:
-                            color = color_mapping[color.lower()]
-                        
-                        # Ищем метку
-                        label_pattern = r'(Название|Метка|Подпись):?\s*([^\n]+)'
-                        label_match = re.search(label_pattern, graph_block, re.IGNORECASE)
-                        label = label_match.group(2).strip() if label_match else f"f_{i}(x)"
-                        
-                        # Извлекаем диапазоны X и Y для этой функции, если указаны
-                        x_range_pattern = r'Диапазон\s+X:?\s*\[?(.*?)\]?(?=Диапазон\s+Y|Цвет|Название|Метка|Особые|$)'
-                        x_range_match = re.search(x_range_pattern, graph_block, re.IGNORECASE)
-                        
-                        if x_range_match:
-                            x_range_str = x_range_match.group(1).strip()
-                            try:
-                                x_min, x_max = map(float, x_range_str.split(','))
-                                x_range = (x_min, x_max)
-                            except Exception as e:
-                                logging.warning(f"Ошибка при разборе диапазона X для графика {i}: {e}")
-                        
-                        y_range_pattern = r'Диапазон\s+Y:?\s*\[?(.*?)\]?(?=Диапазон\s+X|Цвет|Название|Метка|Особые|$)'
-                        y_range_match = re.search(y_range_pattern, graph_block, re.IGNORECASE)
-                        
-                        if y_range_match:
-                            y_range_str = y_range_match.group(1).strip()
-                            if y_range_str.lower() != 'автоматический':
-                                try:
-                                    y_min, y_max = map(float, y_range_str.split(','))
-                                    y_range = (y_min, y_max)
-                                except Exception as e:
-                                    logging.warning(f"Ошибка при разборе диапазона Y для графика {i}: {e}")
-                        
-                        # Нормализуем выражение функции для Python
-                        func_str = func_str.replace('^', '**')
-                        
-                        # Добавляем функцию в список
-                        functions.append((func_str, color, label))
-                        logging.info(f"Найдена функция для графика {i}: {func_str}, цвет: {color}, метка: {label}")
-        
-        # 3. Поиск функций напрямую в тексте задачи
-        if not functions:
-            # Ищем функции напрямую в формате "Функция 1: x^2"
-            for i in range(1, 6):  # Поиск до 5 функций
-                func_pattern = rf'Функция\s*{i}:?\s*([^\n]+)'
-                func_match = re.search(func_pattern, params_text, re.IGNORECASE | re.MULTILINE)
-                
-                if func_match:
-                    func_str = func_match.group(1).strip()
-                    # Очищаем от LaTeX-разметки полностью
-                    func_str = remove_latex_markup(func_str)
-                    
-                    # Определяем цвет и метку для функции
-                    color = color_dict.get(i, colors[min(i-1, len(colors)-1)])
-                    
-                    # Преобразуем русское название цвета в английское
-                    if color.lower() in color_mapping:
-                        color = color_mapping[color.lower()]
-                    
-                    name = name_dict.get(i, f"f_{i}(x)")
-                    
-                    # Добавляем функцию в список
-                    functions.append((func_str, color, name))
-                    logging.info(f"Напрямую найдена функция {i}: {func_str}, цвет: {color}, метка: {name}")
-        
-        # Обрабатываем общие параметры диапазонов осей
-        x_range_pattern = r'Диапазон\s+X:?\s*\[?(.*?)\]?(?=Диапазон\s+Y|Функция|Цвет|Название|Особые|$)'
-        x_range_match = re.search(x_range_pattern, params_text, re.IGNORECASE | re.MULTILINE)
-        
-        if x_range_match:
-            x_range_str = x_range_match.group(1).strip()
-            try:
-                x_min, x_max = map(float, x_range_str.split(','))
-                x_range = (x_min, x_max)
-                logging.info(f"Найден диапазон X: [{x_min}, {x_max}]")
-            except Exception as e:
-                logging.warning(f"Ошибка при разборе диапазона X: {e}")
-        
-        y_range_pattern = r'Диапазон\s+Y:?\s*\[?(.*?)\]?(?=Диапазон\s+X|Функция|Цвет|Название|Особые|$)'
-        y_range_match = re.search(y_range_pattern, params_text, re.IGNORECASE | re.MULTILINE)
-        
-        if y_range_match:
-            y_range_str = y_range_match.group(1).strip()
-            if y_range_str.lower() != 'автоматический':
-                try:
-                    y_min, y_max = map(float, y_range_str.split(','))
-                    y_range = (y_min, y_max)
-                    logging.info(f"Найден диапазон Y: [{y_min}, {y_max}]")
-                except Exception as e:
-                    logging.warning(f"Ошибка при разборе диапазона Y: {e}")
-        
-        # Ищем особые точки
-        special_points_pattern = r'Особые точки:\s*(.*?)(?=Функция|Диапазон|$)'
-        special_points_match = re.search(special_points_pattern, params_text, re.DOTALL | re.IGNORECASE)
-        
-        if special_points_match:
-            try:
-                special_points_str = special_points_match.group(1).strip()
-                # Извлекаем точки в формате (x, y, метка)
-                points_list = re.findall(r'\(([^)]+)\)', special_points_str)
-                
-                for point_str in points_list:
-                    try:
-                        # Разделяем по запятой на x, y, label
-                        parts = point_str.split(',', 2)
-                        
-                        if len(parts) >= 2:
-                            x_expr = parts[0].strip()
-                            y_expr = parts[1].strip()
-                            label = parts[2].strip() if len(parts) > 2 else ""
-                            
-                            # Вычисляем значения координат, поддерживая математические выражения
-                            import math
-                            
-                            # Обрабатываем x_expr
-                            x_expr = x_expr.replace('^', '**').replace('sqrt', 'math.sqrt')
-                            if any(func in x_expr for func in ['math.', 'sqrt', 'sin', 'cos']):
-                                x_val = eval(x_expr)
-                            else:
-                                x_val = float(x_expr)
-                            
-                            # Обрабатываем y_expr
-                            if 'f(' in y_expr:
-                                # Если y задан через значение функции
-                                if functions:
-                                    func_expr = functions[0][0]
-                                    y_val = eval(func_expr.replace('x', f'({x_val})'))
-                                else:
-                                    logging.warning(f"Не удалось вычислить значение функции для точки ({x_expr}, {y_expr})")
-                                    continue
-                            else:
-                                # Если y задан явно
-                                y_expr = y_expr.replace('^', '**').replace('sqrt', 'math.sqrt')
-                                if any(func in y_expr for func in ['math.', 'sqrt', 'sin', 'cos']):
-                                    y_val = eval(y_expr)
-                                else:
-                                    y_val = float(y_expr)
-                            
-                            # Добавляем точку с вычисленными координатами
-                            special_points.append((x_val, y_val, label))
-                            logging.info(f"Добавлена особая точка: ({x_val}, {y_val}, {label})")
-                    except Exception as e:
-                        logging.warning(f"Ошибка при обработке точки '{point_str}': {e}")
-            except Exception as e:
-                logging.warning(f"Ошибка при обработке списка особых точек: {e}")
-        
-        # Если функции всё еще не найдены, попробуем найти в общем тексте задачи
-        if not functions:
-            # Поиск функций в формате y=... или f(x)=...
-            general_func_patterns = [
-                r'y\s*=\s*([-+0-9a-zA-Z\^\*\/\(\)\s\{\}\[\]\.,]+)(?=[,.:;)]|\s*$|\n)',
-                r'f\s*\(\s*x\s*\)\s*=\s*([-+0-9a-zA-Z\^\*\/\(\)\s\{\}\[\]\.,]+)(?=[,.:;)]|\s*$|\n)',
-                r'([a-zA-Z])\s*\(\s*x\s*\)\s*=\s*([-+0-9a-zA-Z\^\*\/\(\)\s\{\}\[\]\.,]+)(?=[,.:;)]|\s*$|\n|\$)',
-                r'\$([a-zA-Z])\s*\(\s*x\s*\)\s*=\s*([-+0-9a-zA-Z\^\*\/\(\)\s\{\}\[\]\.,\\]+)\$'
-            ]
-            
-            for i, pattern in enumerate(general_func_patterns):
-                matches = re.findall(pattern, params_text)
-                for j, match in enumerate(matches):
-                    if i <= 1:  # Формат без имени функции (y= или f(x)=)
-                        func_expr = match.strip()
-                        if i == 0:  # y = expr
-                            func_name = 'y'
-                        else:  # f(x) = expr
-                            func_name = 'f(x)'
-                    else:  # Формат с именем функции
-                        func_name, func_expr = match
-                        func_name = f"{func_name}(x)"
-                    
-                    # Очищаем выражение
-                    func_expr = func_expr.strip()
-                    func_expr = func_expr.replace('^', '**')
-                    
-                    # Выбираем цвет
-                    color_idx = j % len(colors)
-                    color = colors[color_idx]
-                    
-                    # Добавляем функцию, если она уникальна
-                    if not any(f[0] == func_expr for f in functions):
-                        functions.append((func_expr, color, func_name))
-                        logging.info(f"Найдена функция в общем тексте: {func_expr}, метка: {func_name}")
-        
-        # Если функции всё ещё не найдены, используем стандартную функцию
-        if not functions:
-            functions = [('x**2', 'blue', 'f(x)')]
-            logging.warning("Не удалось найти ни одной функции, использую стандартный график параболы")
-        
-        # Возвращаем найденные параметры
-        funcs_to_plot = functions
-        
-    except Exception as e:
-        logging.error(f"Ошибка при разборе параметров графика: {e}")
-        logging.error(traceback.format_exc())
-        # В случае ошибки используем стандартные значения
-        funcs_to_plot = [('x**2', 'blue', 'f(x)')]
-    
-    return funcs_to_plot, x_range, y_range, special_points

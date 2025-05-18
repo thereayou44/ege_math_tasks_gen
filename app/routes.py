@@ -3,7 +3,16 @@ import json
 import os
 import traceback
 import re
+from bs4 import BeautifulSoup
+import random
+from dotenv import load_dotenv
 from app.task_generator import generate_complete_task, convert_markdown_to_html
+
+try:
+    from app.task_generator import generate_complete_task
+    print("Используется YandexGPT API для генерации задач")
+except ImportError as e:
+    print(f"Ошибка при импорте модуля task_generator: {e}")
 
 def load_categories_from_file(is_basic_level=False):
     """
@@ -453,4 +462,17 @@ def init_routes(app):
             error_details = traceback.format_exc()
             print(f"Ошибка при получении задачи в JSON через API: {e}")
             print(error_details)
-            return jsonify({"error": f"Ошибка при генерации задачи в формате JSON: {str(e)}"}), 500 
+            return jsonify({"error": f"Ошибка при генерации задачи в формате JSON: {str(e)}"}), 500
+
+    # Проверка необходимых файлов и ключей при инициализации маршрутов
+    print("=" * 50)
+    print("Инициализация генератора задач ЕГЭ по математике")
+
+    # Проверяем наличие необходимых файлов и ключей
+    if not os.getenv("YANDEX_API_KEY") or not os.getenv("YANDEX_FOLDER_ID"):
+        print("ВНИМАНИЕ: Не указаны YANDEX_API_KEY или YANDEX_FOLDER_ID в файле .env!")
+        print("Генерация задач может не работать.")
+
+    print("=" * 50)
+    
+    return app 
