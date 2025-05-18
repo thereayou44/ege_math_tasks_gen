@@ -251,13 +251,6 @@ console.log("Basic Categories:", basicCategoriesData ? basicCategoriesData.lengt
         // Получаем выбранный уровень ЕГЭ (базовый или профильный)
         var is_basic_level = document.getElementById("basic_level").checked;
 
-        // Отладочный вывод
-        console.log("Генерация задачи:");
-        console.log("- Категория:", category);
-        console.log("- Подкатегория:", subcategory);
-        console.log("- Уровень подсказок:", difficulty_level);
-        console.log("- Базовый уровень ЕГЭ:", is_basic_level);
-
         if (!category) {
             alert("Пожалуйста, выберите категорию");
             document.getElementById("loadingIndicator").style.display = "none";
@@ -326,15 +319,6 @@ console.log("Basic Categories:", basicCategoriesData ? basicCategoriesData.lengt
                     imageContainer.remove();
                 }
             }
-            
-            // Отладочный вывод для проверки параметров задачи
-            console.log("Задача успешно сгенерирована:");
-            console.log("- Базовый уровень ЕГЭ:", data.is_basic_level);
-            console.log("- Категория:", data.category);
-            console.log("- Подкатегория:", data.subcategory);
-            console.log("- Длина задачи (символов):", data.task ? data.task.length : 0);
-            console.log("- Длина решения (символов):", data.solution ? data.solution.length : 0);
-            console.log("- Количество подсказок:", data.hints ? data.hints.length : 0);
             
             // Перерендериваем MathJax для корректного отображения формул
             if (typeof MathJax !== 'undefined') {

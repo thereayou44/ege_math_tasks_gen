@@ -113,15 +113,6 @@ def init_routes(app):
             if "error" in result:
                 return jsonify({"error": result["error"]}), 400
             
-            # Сохраняем форматированный текст в файл (task_generator уже делает это, но на всякий случай)
-            try:
-                # Используем функцию save_to_file из task_generator.py
-                from app.task_generator import save_to_file
-                save_to_file(result, "last_generated_task.txt")
-                print(f"Задача сохранена в файл last_generated_task.txt")
-                print(f"Генерация новой задачи завершена успешно")
-            except Exception as e:
-                print(f"Ошибка при сохранении файла: {e}")
             
             # Проверка наличия основных компонентов результата
             if not result.get("task") or not result.get("solution"):
@@ -263,6 +254,7 @@ def init_routes(app):
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+                <link href="/static/css/styles.css" rel="stylesheet">
                 <!-- MathJax для отображения формул -->
                 <script type="text/x-mathjax-config">
                     MathJax.Hub.Config({{
@@ -306,7 +298,7 @@ def init_routes(app):
                             <h5 class="card-title mb-0">Полное решение</h5>
                         </div>
                         <div class="card-body">
-                            <div id="solutionContent">
+                            <div id="solutionContent" class="full-solution">
                                 {solution}
                             </div>
                             

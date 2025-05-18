@@ -494,6 +494,16 @@ def save_to_file(content, filename="last_generated_task.txt"):
             with open(filename, 'w', encoding='utf-8') as f:
                 f.write(formatted_text)
                 
+            # Также сохраняем в общий файл всех задач
+            if filename == "last_generated_task.txt":
+                all_tasks_file = "all_generated_tasks.txt"
+                with open(all_tasks_file, "a", encoding="utf-8") as f:
+                    f.write(f"\n\n===НОВАЯ ЗАДАЧА ({time.strftime('%Y-%m-%d %H:%M:%S')})===\n")
+                    f.write(formatted_text)
+                print(f"Задача также добавлена в общий файл: {all_tasks_file}")
+                
+
+                
         else:
             # Если контент - строка, просто сохраняем
             with open(filename, 'w', encoding='utf-8') as f:
@@ -3358,7 +3368,8 @@ def generate_complete_task(category, subcategory="", difficulty_level=3, is_basi
             json.dump(task_info, f, ensure_ascii=False, indent=2)
         print(f"Информация о задаче сохранена в файл: {debug_task_info_file}")
         
-        generated_text = yandex_gpt_generate(prompt, temperature=0.6, is_basic_level=is_basic_level)
+        # Генерируем текст с помощью YandexGPT с повышенной температурой для разнообразия
+        generated_text = yandex_gpt_generate(prompt, temperature=0.7, is_basic_level=is_basic_level)
         
         if not generated_text:
             return {"error": "Не удалось получить ответ от YandexGPT API"}
@@ -3366,7 +3377,7 @@ def generate_complete_task(category, subcategory="", difficulty_level=3, is_basi
         # Сохраняем сгенерированный текст
         save_to_file(generated_text)
 
-        #generated_text = generated_text.replace('\\[', '$$').replace('\\]', '$$') # заменяем квадратные скобки на двойные доллары для LaTeX
+        generated_text = generated_text.replace('\\[', '$$').replace('\\]', '$$') # заменяем квадратные скобки на двойные доллары для LaTeX
         
         # Извлекаем части из сгенерированного текста
         task_match = re.search(r'---ЗАДАЧА---\s*(.*?)(?=\s*---РЕШЕНИЕ---|\s*$)', generated_text, re.DOTALL)
@@ -3470,113 +3481,43 @@ def parse_sections(raw_text):
     return sections
 
 def convert_markdown_to_html(text):
+    """
+    Конвертирует Markdown-разметку в HTML-разметку
+    
+    Args:
+        text: Текст с возможной Markdown-разметкой
+        
+    Returns:
+        str: Текст с HTML-разметкой
+    """
     if not text:
         return ""
     
-    # Сначала обработаем блоки формул с двойными долларами
-    # Сохраняем блоки формул во временном хранилище
-    formula_blocks = []
+    # Заменяем жирный текст с ** на <b>
+    text = re.sub(r'\*\*(.*?)\*\*', r'<b>\1</b>', text)
     
-    def replace_formula_block(match):
-        formula_blocks.append(match.group(1))
-        return f"FORMULA_BLOCK_{len(formula_blocks)-1}"
+    # Заменяем курсив с * на <i>
+    text = re.sub(r'\*(.*?)\*', r'<i>\1</i>', text)
     
-    # Находим и заменяем блоки формул временными маркерами
-    text = re.sub(r'\$\$(.*?)\$\$', replace_formula_block, text, flags=re.DOTALL)
+    # Заменяем одиночные переносы строк на <br>
+    text = re.sub(r'(?<!\n)\n(?!\n)', '<br>\n', text)
     
-    # Обработка жирного и курсива
-    text = re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', text)
-    text = re.sub(r'\*(?!\s)(.+?)(?<!\s)\*', r'<i>\1</i>', text)
+    # Заменяем двойные переносы строк на новые параграфы
+    text = re.sub(r'\n\n+', '</p><p>', text)
     
-    lines = text.split('\n')
-    result = []
+    # Если текст начинается с тега </p>, удаляем его
+    text = re.sub(r'^</p>', '', text)
     
-    in_list = False
-    in_bullet_list = False
-    i = 0
+    # Если текст не заканчивается на </p>, добавляем его
+    if not text.endswith('</p>') and '</p>' in text:
+        text += '</p>'
     
-    while i < len(lines):
-        line = lines[i].strip()
-        
-        # Пропускаем пустые строки
-        if not line:
-            # Если были в списке, закрываем его перед пустой строкой
-            if in_list:
-                result.append('</ol>')
-                in_list = False
-            if in_bullet_list:
-                result.append('</ul>')
-                in_bullet_list = False
-            
-            i += 1
-            continue
-        
-        # Проверяем, является ли строка временным маркером формулы
-        formula_match = re.match(r'^FORMULA_BLOCK_(\d+)$', line)
-        if formula_match:
-            index = int(formula_match.group(1))
-            formula_content = formula_blocks[index]
-            result.append(f'<div class="math-block">$${ formula_content }$$</div>')
-            i += 1
-            continue
-        
-        # Нумерованный список
-        list_match = re.match(r'^(\d+)\.\s+(.+)$', line)
-        if list_match:
-            number = list_match.group(1)
-            content = list_match.group(2)
-            
-            if not in_list:
-                result.append('<ol>')
-                in_list = True
-                
-            result.append(f'<li value="{number}">{content}</li>')
-        # Маркированный список (начинается с дефиса или звездочки)
-        elif line.startswith('- ') or line.startswith('* '):
-            content = line[2:]  # Убираем дефис/звездочку и пробел
-            
-            if not in_bullet_list:
-                result.append('<ul class="bullet-list">')
-                in_bullet_list = True
-                
-            result.append(f'<li>{content}</li>')
-        else:
-            # Закрываем список, если не в нем
-            if in_list and not line.startswith('   '):
-                result.append('</ol>')
-                in_list = False
-            if in_bullet_list and not line.startswith('   '):
-                result.append('</ul>')
-                in_bullet_list = False
-            
-            # Специально обрабатываем строки с дефисом в начале (не в списке)
-            if not in_bullet_list and (line.startswith('- ') or line.startswith('* ')):
-                dashed_line = line.replace('- ', '<span class="dash-marker">- </span>', 1)
-                dashed_line = dashed_line.replace('* ', '<span class="dash-marker">• </span>', 1)
-                result.append(f'<p>{dashed_line}</p>')
-            else:
-                # Обрабатываем обычные строки или отступы
-                result.append(f'<p>{line}</p>')
-        
-        i += 1
+    # Если в тексте есть тег </p>, но нет открывающего <p> в начале, добавляем его
+    if '</p>' in text and not text.startswith('<p>'):
+        text = '<p>' + text
     
-    # Закрываем незакрытый список
-    if in_list:
-        result.append('</ol>')
-    if in_bullet_list:
-        result.append('</ul>')
-    
-    html_text = '\n'.join(result)
-    
-    # Обработка переносов внутри параграфов
-    html_text = re.sub(r'<p>(.*?)</p>', 
-                  lambda m: '<p>' + m.group(1).replace('\n', '<br>') + '</p>', 
-                  html_text, flags=re.DOTALL)
-    
-    # Восстанавливаем формулы внутри параграфов (встроенные формулы с одинарными $)
-    html_text = re.sub(r'\$(.*?)\$', r'$\1$', html_text)
-    
-    return html_text
+    return text
+
 
 def process_rectangle_visualization(params_text, extract_param):
     """Обрабатывает параметры для прямоугольника и создает визуализацию"""
@@ -4628,3 +4569,117 @@ def parse_graph_params(params_text):
         funcs_to_plot = [('x**2', 'blue', 'f(x)')]
     
     return funcs_to_plot, x_range, y_range, special_points
+
+# def download_image_from_url(url):
+#     """
+#     Загружает изображение по URL.
+    
+#     Args:
+#         url: URL изображения
+        
+#     Returns:
+#         PIL.Image: Объект изображения или None в случае ошибки
+#     """
+#     try:
+#         response = requests.get(url, timeout=10)
+#         response.raise_for_status()  # Проверка на ошибки HTTP
+        
+#         # Проверка, является ли файл SVG
+#         if url.lower().endswith('.svg'):
+#             try:
+#                 # Используем cairosvg для конвертации SVG в PNG
+#                 import cairosvg
+#                 import io
+                
+#                 svg_data = response.content
+#                 png_data = cairosvg.svg2png(bytestring=svg_data, scale=2.0)
+#                 return Image.open(io.BytesIO(png_data))
+#             except Exception as e:
+#                 logging.error(f"Не удалось конвертировать SVG: {e}")
+#                 return None
+#         else:
+#             # Для обычных форматов изображений
+#             return Image.open(BytesIO(response.content))
+#     except Exception as e:
+#         logging.error(f"Ошибка при загрузке изображения {url}: {e}")
+#         return None
+    
+# def ocr_math_image(image_url):
+#     """
+#     Распознает текст с изображения, содержащего математические формулы,
+#     используя pix2tex.
+    
+#     Args:
+#         image_url: URL изображения
+        
+#     Returns:
+#         str: Распознанный текст формулы в LaTeX формате
+#     """
+#     try:  
+#         # Загружаем изображение
+#         image = download_image_from_url(image_url)
+#         if image is None:
+#             logging.error("Не удалось загрузить изображение")
+            
+#             # Проверяем, есть ли совпадение в URL для тестовой задачи
+#             if "4601329e71dae98d251a3fcf56a1edf3" in image_url:
+#                 return "$\\sqrt{3x+4} - \\sqrt{x-1} = 2$"
+                
+#             return "$[Формула]$"
+        
+#         # Сохраняем исходное изображение для диагностики
+#         debug_img_path = "debug_original.png"
+#         image.save(debug_img_path)
+#         logging.info(f"Сохранено исходное изображение: {debug_img_path}")
+        
+#         # Улучшаем изображение для лучшего распознавания
+#         # 1. Масштабирование
+#         width, height = image.size
+#         scale_factor = max(3.0, 400 / width, 150 / height)
+#         image = image.resize((int(width * scale_factor), int(height * scale_factor)), Image.Resampling.LANCZOS)
+        
+#         # 2. Повышение контраста
+#         enhancer = ImageEnhance.Contrast(image)
+#         image = enhancer.enhance(2.0)
+        
+#         # 3. Добавление отступов для улучшения распознавания
+#         padded_image = Image.new('RGB', (image.width + 80, image.height + 80), (255, 255, 255))
+#         padded_image.paste(image, (40, 40))
+#         image = padded_image
+        
+#         # Сохраняем обработанное изображение для диагностики
+#         debug_processed_path = "debug_processed.png"
+#         image.save(debug_processed_path)
+#         logging.info(f"Сохранено обработанное изображение: {debug_processed_path}")
+        
+#         try:
+#             from pix2tex.cli import LatexOCR
+            
+#             # Загружаем модель
+#             logging.info("Инициализация модели pix2tex LatexOCR")
+#             model = LatexOCR()
+            
+#             # Распознаем формулу
+#             logging.info(f"Распознавание формулы из изображения размером {image.size}")
+#             latex_code = model(image)
+            
+#             if latex_code:
+#                 result = f"${latex_code}$"
+#                 logging.info(f"Формула успешно распознана: {result}")
+#                 return result
+#             else:
+#                 logging.warning("pix2tex не смог распознать формулу")
+                    
+#                 return "$[Формула]$"
+#         except ImportError:
+#             logging.error("Библиотека pix2tex не установлена. Используйте: pip install pix2tex")
+                
+#             return "$[Формула]$"
+#         except Exception as e:
+#             logging.error(f"Ошибка при использовании pix2tex: {e}")
+        
+#             return "$[Формула]$"
+#     except Exception as e:
+#         logging.error(f"Общая ошибка при распознавании формулы: {e}")
+    
+#         return "$[Формула]$"

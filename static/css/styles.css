@@ -18,9 +18,177 @@ body {
     font-style: italic;
 }
 
+/* Блоки с математическими формулами */
+.math-block {
+    margin: 15px 10px;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+/* Улучшенные стили для математических формул */
+.math-formula {
+    margin: 0 5px;
+    padding: 0 2px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Стили для маркированных списков */
+.bullet-list {
+    margin-left: 0;
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+.bullet-list li {
+    position: relative;
+    margin-bottom: 8px;
+    padding-left: 5px;
+}
+
+.bullet-list li::before {
+    content: "•";
+    color: #0056b3;
+    font-weight: bold;
+    position: absolute;
+    left: -15px;
+}
+
+/* Стили для маркированных пунктов с дефисом */
+.dash-marker {
+    color: #0056b3;
+    font-weight: bold;
+    margin-right: 3px;
+}
+
+/* Стили для нумерованных списков в решениях */
+.solution-list {
+    margin-left: 10px;
+    padding-left: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.solution-item {
+    margin-bottom: 8px;
+    padding-left: 5px;
+}
+
+.solution-text {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
 /* Стили для блоков с задачами и решениями */
 #taskOutput, #hintOutput, #answerOutput {
     line-height: 1.6;
+}
+
+/* Улучшенное отображение формул в решениях */
+#taskOutput .math, 
+#hintOutput .math,
+#answerOutput .math {
+    margin: 0 3px;
+}
+
+/* Улучшенные стили для оформления полного решения */
+.full-solution ol {
+    margin-left: 10px;
+    padding-left: 15px;
+    counter-reset: step;
+    list-style-type: none;
+}
+
+.full-solution ol li {
+    margin-bottom: 16px;
+    position: relative;
+    padding-left: 10px;
+    line-height: 1.7;
+}
+
+.full-solution ol li::before {
+    font-weight: bold;
+    color: #0056b3;
+    content: attr(value) ". ";
+    position: absolute;
+    left: -20px;
+}
+
+.full-solution p {
+    margin: 10px 0;
+    line-height: 1.7;
+    padding: 5px 0;
+}
+
+/* Стиль для формул внутри решения */
+.full-solution p:has(.math) {
+    padding: 8px 0;
+    margin-left: 15px;
+    font-size: 1.05em;
+}
+
+/* Стиль для блоков формул в решении */
+.full-solution .math-block {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    font-size: 1.05em;
+}
+
+/* Стиль для шагов с формулами */
+.full-solution .math {
+    color: #202020;
+    padding: 2px;
+}
+
+/* Улучшенный стиль для маркированных пунктов в решении */
+.full-solution p:has(+ p:first-of-type) {
+    margin-bottom: 6px;
+}
+
+/* Стиль для пунктов с дефисом в решении */
+.full-solution p:has(.dash-marker) {
+    margin-left: 15px;
+    margin-bottom: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+/* Стиль для пунктов с дефисом */
+.full-solution p:nth-of-type(odd):not(:last-of-type) {
+    margin-bottom: 4px;
+}
+
+/* Специальное форматирование для строк с дефисами в начале */
+.full-solution p:has(span:first-child:contains("-")) {
+    padding-left: 20px;
+    position: relative;
+}
+
+/* Стили для маркированных списков в полном решении */
+.full-solution ul.bullet-list {
+    margin-left: 10px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.full-solution ul.bullet-list li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+/* Подсветка важных математических шагов */
+.full-solution p em {
+    color: #0056b3;
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* Отступы между различными компонентами решения */
+.full-solution p + ol,
+.full-solution ol + p {
+    margin-top: 16px;
 }
 
 /* Стили для кнопок */
@@ -78,4 +246,4 @@ body {
     .btn {
         width: 100%;
     }
-} 
+}
