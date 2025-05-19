@@ -1647,6 +1647,8 @@ def generate_complete_task(category, subcategory="", difficulty_level=3, is_basi
             original_task = html_task
             logging.info("Используем HTML-версию задачи")
         elif text_task:
+            original_task = text_task
+            logging.info("Используем текстовую версию задачи")
             # # Если нет html и есть изображения, пытаемся распознать текст с изображений
             # ocr_text = ""
             # if images and not html_task:
@@ -1665,20 +1667,20 @@ def generate_complete_task(category, subcategory="", difficulty_level=3, is_basi
             #         if images:
             #             text_task = f"{text_task} *... продолжение задачи*"
 
-            try:
-                # Если нет HTML, но есть текст, добавляем формулу из шаблона
-                from app.formula_templates import generate_task_with_formula
+            # try:
+            #     # Если нет HTML, но есть текст, добавляем формулу из шаблона
+            #     from app.formula_templates import generate_task_with_formula
                 
-                # Добавляем шаблон формулы в текст задачи
-                category_number = str(category)
-                subcategory_number = str(subcategory).split('/')[-1] if subcategory else None
+            #     # Добавляем шаблон формулы в текст задачи
+            #     category_number = str(category)
+            #     subcategory_number = str(subcategory).split('/')[-1] if subcategory else None
                 
-                logging.info(f"Пытаемся добавить формулу из шаблона для категории {category_number}, подкатегории {subcategory_number}")
-                text_task = generate_task_with_formula(text_task, category_number, subcategory_number)
-                logging.info(f"Текст задачи с шаблоном формулы: {text_task}")
-            except Exception as e:
-                logging.error(f"Ошибка при добавлении формулы из шаблона: {e}")
-                # В случае ошибки просто используем оригинальный текст задачи
+            #     logging.info(f"Пытаемся добавить формулу из шаблона для категории {category_number}, подкатегории {subcategory_number}")
+            #     text_task = generate_task_with_formula(text_task, category_number, subcategory_number)
+            #     logging.info(f"Текст задачи с шаблоном формулы: {text_task}")
+            # except Exception as e:
+            #     logging.error(f"Ошибка при добавлении формулы из шаблона: {e}")
+            #     # В случае ошибки просто используем оригинальный текст задачи
 
             original_task = text_task
             logging.info("Используем текстовую версию задачи")
