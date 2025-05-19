@@ -17,7 +17,7 @@
 ### ПРИМЕРЫ ЗАДАЧИ В HTML или текстовом формате(МОЖЕТ ОТСУТСТВОВАТЬ) ###
 
 ---ЗАДАЧА ДЛЯ ПЕРЕРАБОТКИ---
-<div align="justify" width="100%" id="body918087" class="pbody"><p class="left_margin"><img src="/get_file?id=113339" style="float:right;margin:10px;max-width:100%">Пря­мая, про­ве­ден­ная па­рал­лель­но бо­ко­вой сто­ро­не тра­пе­ции через конец мень­ше­го ос­но­ва­ния, рав­но­го 4, от­се­ка­ет тре­уголь­ник, пе­ри­метр ко­то­ро­го равен 15. Най­ди­те пе­ри­метр тра­пе­ции.</p></div>
+<div align="justify" width="100%" id="body918617" class="pbody"><p class="left_margin"><img style="float:right; margin:10px" src="/get_file?id=1095">В тре­уголь­ни­ке <i>ABC</i> <i>AC</i>  =  <i>BC</i>, вы­со­та <i>СН</i> равна 20, <img src="https://ege.sdamgia.ru/formula/svg/cb/cb382ff1eeafe9577dd293771eb7151a.svg" class="tex" style="vertical-align:-3.0pt" alt=" ко­си­нус A = 0,6."> Най­ди­те <i>АС</i>.</p></div>
 ---КОНЕЦ ИСХОДНЫХ ДАННЫХ---
 
 ### ТРЕБОВАНИЯ ###
