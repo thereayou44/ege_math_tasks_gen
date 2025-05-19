@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-05-19 20:43:22",
+  "timestamp": "2025-05-19 21:08:55",
   "category": "Планиметрия",
   "subcategory": "Треугольники общего вида",
   "difficulty_level": 3,
   "is_basic_level": false,
-  "original_task": "<div align=\"justify\" width=\"100%\" id=\"body918148\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=138286\" style=\"float:right;margin:10px;max-width:100%\">В тре­уголь­ни­ке <i>ABC</i> про­ве­де­на бис­сек­три­са <i>AD</i> и <img src=\"https://ege.sdamgia.ru/formula/svg/d1/d152d0b88ab361c637a14ba938607598.svg\" class=\"tex\" style=\"vertical-align:-1.8pt\" alt=\"AB = AD = CD.\"> Най­ди­те мень­ший угол тре­уголь­ни­ка <i>ABC</i>. Ответ дайте в гра­ду­сах.</p></div>"
+  "original_task": "<div align=\"justify\" width=\"100%\" id=\"body918141\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=138299\" style=\"float:right;margin:10px;max-width:100%\">В тре­уголь­ни­ке <i>ABC</i> угол <i>A</i> равен 30°, угол <i>B</i> равен 86°, <i>CD</i>  — бис­сек­три­са внеш­не­го угла при вер­ши­не <i>C</i>, при­чем точка <i>D</i> лежит на пря­мой <i>AB</i>. На про­дол­же­нии сто­ро­ны <i>AC</i> за точку <i>C</i> вы­бра­на такая точка <i>E</i>, что <i>CE  =  CB</i>. Най­ди­те угол <i>BDE</i>. Ответ дайте в гра­ду­сах</p></div>"
 }
