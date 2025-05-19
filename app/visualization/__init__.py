@@ -16,6 +16,7 @@ from app.visualization.coordinates.coordinate_system import generate_coordinate_
 from app.visualization.parsers.graph_parsers import parse_graph_params, remove_latex_markup
 from app.visualization.parsers.coordinate_parsers import process_coordinate_params
 from app.visualization.detector import needs_visualization, determine_visualization_type
+from app.visualization.geometry_handler import process_visualization_from_text
 
 __all__ = [
     'GeometryRenderer',
@@ -33,5 +34,6 @@ __all__ = [
     'remove_latex_markup',
     'process_coordinate_params',
     'needs_visualization',
-    'determine_visualization_type'
+    'determine_visualization_type',
+    'process_visualization_from_text'
 ] 

@@ -1,5 +1,7 @@
 import numpy as np
 from app.geometry.base import GeometricFigure
+import re
+import logging
 
 class Trapezoid(GeometricFigure):
     """
@@ -16,7 +18,7 @@ class Trapezoid(GeometricFigure):
         super().__init__(params)
         self.figure_type = "trapezoid"
         
-        # Установка параметров по умолчанию, если не указаны
+        # Установка параметров по умолчанию, только если они не заданы
         if 'bottom_width' not in self.params:
             self.params['bottom_width'] = 6
         if 'top_width' not in self.params:
@@ -27,34 +29,36 @@ class Trapezoid(GeometricFigure):
             self.params['is_isosceles'] = False
         if 'show_heights' not in self.params:
             self.params['show_heights'] = False
+        if 'show_midline' not in self.params:
+            self.params['show_midline'] = False
         if 'angle_values' not in self.params:
             # Значения углов по умолчанию вычисляются при отрисовке 
             self.params['angle_values'] = None
             
+        # Добавляем логирование
+        logging.info(f"Инициализирована трапеция с параметрами: {self.params}")
+        logging.info(f"top_width: {self.params.get('top_width')}")
+        logging.info(f"bottom_width: {self.params.get('bottom_width')}")
+        
     def compute_points(self):
         """
-        Вычисляет координаты точек трапеции.
-        
-        Returns:
-            list: Список точек [(x1,y1), (x2,y2), (x3,y3), (x4,y4)]
+        Всегда возвращает стандартную равнобедренную трапецию ФИКСИРОВАННОГО размера.
+        Параметры используются только для подписей, но не для определения формы и размера.
         """
-        bottom = self.params.get('bottom_width')
-        top = self.params.get('top_width')
-        height = self.params.get('height')
-        is_isosceles = self.params.get('is_isosceles', False)
+        # Фиксированные размеры для рисования
+        fixed_bottom = 6
+        fixed_top = 3
+        fixed_height = 3
+        
+        # Смещение из параметров (сохраняем, чтобы при необходимости можно было сместить трапецию)
         x = self.params.get('x', 0)
         y = self.params.get('y', 0)
         
-        if is_isosceles:
-            # Для равнобедренной трапеции боковые стороны равны
-            dx = (bottom - top) / 2
-            raw_points = [(0, 0), (bottom, 0), (bottom - dx, height), (dx, height)]
-        else:
-            # Для произвольной трапеции (по умолчанию смещение верхнего основания слева)
-            dx = (bottom - top)/2
-            raw_points = [(0, 0), (bottom, 0), (bottom - dx, height), (dx, height)]
+        # Строим стандартную равнобедренную трапецию фиксированного размера
+        dx = (fixed_bottom - fixed_top) / 2
+        raw_points = [(0, 0), (fixed_bottom, 0), (fixed_bottom - dx, fixed_height), (dx, fixed_height)]
         
-        # Применяем смещение, если указано
+        # Применяем смещение
         return [(px+x, py+y) for px, py in raw_points]
     
     def compute_angles(self):
@@ -104,52 +108,6 @@ class Trapezoid(GeometricFigure):
         
         return angles
     
-    def get_side_length_text(self, side_index, side_name, computed_length):
-        """
-        Возвращает текст для подписи длины стороны.
-        
-        Args:
-            side_index (int): Индекс стороны
-            side_name (str): Название стороны (например, "AB")
-            computed_length (float): Вычисленная длина стороны
-            
-        Returns:
-            str: Текст для подписи или None, если подпись не нужна
-        """
-        # Сначала проверяем, есть ли прямое указание длины в side_lengths
-        side_lengths = self.params.get('side_lengths', None)
-        if side_lengths and len(side_lengths) > side_index and side_lengths[side_index] is not None:
-            return f"{side_lengths[side_index]}"
-        
-        # Если нет значения в side_lengths, используем стандартную логику для оснований и боковых сторон
-        if side_index == 0:  # Нижнее основание (AB)
-            if 'bottom_width' in self.params:
-                return f"{self.params['bottom_width']}"
-        elif side_index == 2:  # Верхнее основание (DC)
-            if 'top_width' in self.params:
-                return f"{self.params['top_width']}"
-        elif side_index == 1 or side_index == 3:  # Боковые стороны (BC и AD)
-            # Вычисляем длину боковой стороны, если не задана явно
-            if self.params.get('is_isosceles', False):
-                # Для равнобедренной трапеции боковые стороны равны
-                bottom = self.params.get('bottom_width', 6)
-                top = self.params.get('top_width', 3)
-                height = self.params.get('height', 3)
-                
-                # Вычисляем длину боковой стороны по формуле
-                dx = (bottom - top) / 2
-                side_length = np.sqrt(dx**2 + height**2)
-                
-                # Округляем до 2 знаков после запятой
-                return f"{side_length:.2f}".rstrip('0').rstrip('.')
-            else:
-                # Для обычной трапеции вычисляем каждую боковую сторону отдельно
-                # Используем вычисленную длину, которую получили от вызывающего кода
-                return f"{computed_length:.2f}".rstrip('0').rstrip('.')
-                
-        # В других случаях используем стандартную логику из базового класса
-        return super().get_side_length_text(side_index, side_name, computed_length)
-    
     def draw(self, ax=None):
         """
         Отрисовывает трапецию с дополнительными элементами.
@@ -164,10 +122,10 @@ class Trapezoid(GeometricFigure):
         ax = super().draw(ax)
         
         # Добавляем высоты, если они должны быть отображены
-        if self.params.get('show_height', False):
+        if self.params.get('show_heights', False):
             self._add_heights(ax)
             
-        # Добавляем среднюю линию, если она должна быть отображена
+        # Добавляем среднюю линию, если нужно
         if self.params.get('show_midline', False):
             self._add_midline(ax)
             
@@ -175,181 +133,257 @@ class Trapezoid(GeometricFigure):
     
     def _add_heights(self, ax):
         """
-        Добавляет отображение высоты трапеции.
-        
-        Args:
-            ax (matplotlib.axes.Axes): Оси для отрисовки
+        Высота всегда проводится из вершины D (тупой угол) на основание AB.
         """
+        logging.info(f"Отрисовка высоты. Параметры: show_heights={self.params.get('show_heights')}, height={self.params.get('height')}, height_value={self.params.get('height_value')}")
+        
+        # Используем точки, рассчитанные с фиксированными размерами
         points = self.compute_points()
-        height = self.params.get('height', 3)
-        height_value = self.params.get('height_value', height)
         
-        # Рисуем высоту от нижнего основания к верхнему
-        # Выбираем точку в середине нижнего основания
-        x1, y1 = points[0]
-        x2, y2 = points[1]
-        middle_x = (x1 + x2) / 2
-        middle_y = y1
+        # Значение высоты для подписи берём из параметров
+        height_value = self.params.get('height_value')
         
-        # Точка на верхнем основании с тем же x (прямо вверх)
-        top_y = y1 + height
-        
-        # Рисуем высоту как прерывистую линию
-        ax.plot([middle_x, middle_x], [middle_y, top_y], 'r--', lw=1)
-        
-        # Добавляем подпись высоты
-        height_text = f"h={height_value}"
-        ax.text(middle_x - 0.2, (middle_y + top_y) / 2, height_text, 
-                ha='right', va='center', color='red', fontsize=10,
-                bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
+        # D = points[3], основание AB = points[0]-points[1]
+        xD, yD = points[3]
+        xA, yA = points[0]
+        xB, yB = points[1]
+        # Опускаем перпендикуляр из D на AB
+        dx = xB - xA
+        dy = yB - yA
+        if dx == 0 and dy == 0:
+            return
+        t = ((xD - xA) * dx + (yD - yA) * dy) / (dx*dx + dy*dy)
+        xH = xA + t * dx
+        yH = yA + t * dy
+        ax.plot([xD, xH], [yD, yH], 'r--', lw=1.5)
+        # Добавляем перпендикулярные черточки
+        tick_width = (xB - xA) * 0.03
+        ax.plot([xH - tick_width, xH + tick_width], [yH, yH], 'r-', lw=1.5)
+        ax.plot([xD - tick_width, xD + tick_width], [yD, yD], 'r-', lw=1.5)
+        # Подпись высоты - если значение не указано или None, то пишем просто "h"
+        if height_value is None or height_value == "-":
+            height_text = "h"
+        else:
+            height_text = f"h = {height_value}"
+        ax.text((xD + xH)/2 - tick_width*3, (yD + yH)/2, height_text, ha='right', va='center', color='red', fontsize=14,
+                bbox=dict(facecolor='white', alpha=0.9, edgecolor='none', boxstyle='round,pad=0.3'))
     
     def _add_midline(self, ax):
         """
-        Добавляет отображение средней линии трапеции.
-        
-        Args:
-            ax (matplotlib.axes.Axes): Оси для отрисовки
+        Рисует среднюю линию только если явно указано.
         """
+        # Используем точки, рассчитанные с фиксированными размерами
         points = self.compute_points()
         
-        # Вычисляем координаты средних точек боковых сторон
-        left_side_mid = ((points[0][0] + points[3][0]) / 2, (points[0][1] + points[3][1]) / 2)
-        right_side_mid = ((points[1][0] + points[2][0]) / 2, (points[1][1] + points[2][1]) / 2)
+        # Фиксированные размеры для рисования
+        fixed_bottom = 6
+        fixed_top = 3
+        fixed_height = 3
         
-        # Рисуем среднюю линию
-        ax.plot([left_side_mid[0], right_side_mid[0]], [left_side_mid[1], right_side_mid[1]], 'g-', lw=1.5)
+        # Значение средней линии для подписи берём из параметров
+        bottom_width = self.params.get('bottom_width', fixed_bottom)
+        top_width = self.params.get('top_width', fixed_top)
         
-        # Вычисляем длину средней линии (среднее арифметическое оснований)
-        bottom = self.params.get('bottom_width', 6)
-        top = self.params.get('top_width', 3)
-        midline_length = (bottom + top) / 2
+        # Проверяем, чтобы оба значения были числами, иначе используем значения по умолчанию
+        if isinstance(bottom_width, str) or isinstance(top_width, str):
+            midline_length = (fixed_bottom + fixed_top) / 2
+        else:
+            midline_length = (bottom_width + top_width) / 2
         
-        # Используем заданное значение, если оно есть
         midline_value = self.params.get('midline_value', midline_length)
         
-        # Добавляем подпись средней линии
-        midline_text = f"m={midline_value}"
-        mid_x = (left_side_mid[0] + right_side_mid[0]) / 2
-        mid_y = left_side_mid[1]
-        ax.text(mid_x, mid_y + 0.2, midline_text, 
-                ha='center', va='bottom', color='green', fontsize=10,
-                bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
+        # Средняя линия параллельна основаниям, проходит посередине по высоте
+        mid_y = points[0][1] + fixed_height / 2
+        left_x = points[0][0] + (points[3][0] - points[0][0]) / 2
+        right_x = points[1][0] - (points[1][0] - points[2][0]) / 2
+        ax.plot([left_x, right_x], [mid_y, mid_y], 'g-', lw=1.5)
+        # Подпись средней линии - если значение не указано или None, то пишем просто "m"
+        if midline_value is None or midline_value == "-":
+            midline_text = "m"
+        else:
+            midline_text = f"m = {midline_value}"
+        ax.text((left_x + right_x) / 2, mid_y + 0.2, midline_text, ha='center', va='bottom', color='green', fontsize=14,
+                bbox=dict(facecolor='white', alpha=0.9, edgecolor='none', boxstyle='round,pad=0.3'))
     
     @staticmethod
     def from_text(task_text):
         """
         Создает объект трапеции из текста задачи.
-        
-        Args:
-            task_text (str): Текст задачи
-            
-        Returns:
-            Trapezoid: Объект трапеции с параметрами из текста
+        Теперь поддерживает парсинг оснований и высоты без квадратных скобок.
         """
-        import re
-        from app.prompts import DEFAULT_VISUALIZATION_PARAMS, REGEX_PATTERNS
+        from app.prompts import DEFAULT_VISUALIZATION_PARAMS
+        import logging
         
         params = DEFAULT_VISUALIZATION_PARAMS["trapezoid"].copy()
-        trap_patterns = REGEX_PATTERNS["trapezoid"]
         
-        # Функция для извлечения параметра по соответствующему регулярному выражению
-        def extract_param(param_name, default=None, convert_type=None):
-            pattern = trap_patterns.get(param_name)
-            if not pattern:
-                return default
+        # Отладочная информация
+        logging.info("Парсинг параметров трапеции из текста:")
+        logging.info(f"Исходный текст: {task_text}")
+
+        # Основания (ищем с или без скобок)
+        bases_match = re.search(r'Основания\s*:?\s*(\[?)([\d\., \-]+)(\]?)', task_text, re.IGNORECASE)
+        if bases_match:
+            bases_str = bases_match.group(2).strip()
+            logging.info(f"Найдены основания: {bases_str}")
+            bases = [b.strip() for b in bases_str.split(',')]
+            if len(bases) >= 1:
+                if bases[0] != "-":
+                    try:
+                        params['bottom_width'] = float(bases[0])
+                        logging.info(f"Установлено нижнее основание: {params['bottom_width']}")
+                    except ValueError:
+                        logging.warning(f"Не удалось преобразовать нижнее основание: {bases[0]}")
+                else:
+                    # Если явно указан прочерк, сохраняем его
+                    params['bottom_width'] = "-"
+                    logging.info("Нижнее основание не будет отображаться (-)") 
             
-            match = re.search(pattern, task_text, re.IGNORECASE)
-            if not match:
-                return default
-            
-            value = match.group(1).strip().replace(',', '.')
-            if convert_type:
+            if len(bases) >= 2:
+                if bases[1] != "-":
+                    try:
+                        params['top_width'] = float(bases[1])
+                        logging.info(f"Установлено верхнее основание: {params['top_width']}")
+                    except ValueError:
+                        logging.warning(f"Не удалось преобразовать верхнее основание: {bases[1]}")
+                else:
+                    # Если явно указан прочерк, сохраняем его
+                    params['top_width'] = "-"
+                    logging.info("Верхнее основание не будет отображаться (-)")
+
+        # Высота (число)
+        height_match = re.search(r'Высота\s*:?\s*(\[?)([\d\., \-]+)(\]?)', task_text, re.IGNORECASE)
+        if height_match:
+            height_str = height_match.group(2).strip()
+            logging.info(f"Найдена высота: {height_str}")
+            if height_str != "-":
                 try:
-                    return convert_type(value)
-                except:
-                    return default
-            return value
+                    params['height'] = float(height_str)
+                    params['height_value'] = float(height_str)  # Устанавливаем также значение для отображения
+                    logging.info(f"Установлена высота: {params['height']}")
+                except ValueError:
+                    logging.warning(f"Не удалось преобразовать высоту: {height_str}")
+            else:
+                params['height'] = "-"
+                logging.info("Высота не будет отображаться (-)")
+
+        # Показать высоту
+        show_height_match = re.search(r'Показать высоту\s*:?\s*(\[?)([a-zA-Zа-яА-Я0-9]+)(\]?)', task_text, re.IGNORECASE)
+        if show_height_match:
+            show_height_str = show_height_match.group(2).strip().lower()
+            params['show_heights'] = show_height_str in ['true', 'да', 'yes', '+', '1']
+            logging.info(f"Показать высоту: {params['show_heights']}")
+
+        # Значение высоты
+        height_value_match = re.search(r'Значение высоты\s*:?\s*(\[?)([\d\., \-]+)(\]?)', task_text, re.IGNORECASE)
+        if height_value_match:
+            height_value_str = height_value_match.group(2).strip()
+            logging.info(f"Найдено значение высоты: {height_value_str}")
+            if height_value_str != "-":
+                try:
+                    params['height_value'] = float(height_value_str)
+                    logging.info(f"Установлено значение высоты: {params['height_value']}")
+                except ValueError:
+                    logging.warning(f"Не удалось преобразовать значение высоты: {height_value_str}")
+            else:
+                params['height_value'] = "-"
+                logging.info("Значение высоты не будет отображаться (-)")
+
+        # Метки вершин
+        vertex_labels_match = re.search(r'Метки вершин\s*:?\s*(\[?)([A-Za-zА-Яа-я, ]+)(\]?)', task_text, re.IGNORECASE)
+        if vertex_labels_match:
+            vertex_labels_str = vertex_labels_match.group(2).strip()
+            vertex_labels = [label.strip() for label in vertex_labels_str.split(',')]
+            params['vertex_labels'] = vertex_labels
+            logging.info(f"Установлены метки вершин: {params['vertex_labels']}")
+
+        # Боковые стороны
+        sides_match = re.search(r'Боковые стороны\s*:?\s*(\[?)([\d\., \-]+)(\]?)', task_text, re.IGNORECASE)
+        if sides_match:
+            sides_str = sides_match.group(2).strip()
+            logging.info(f"Найдены боковые стороны: {sides_str}")
+            sides = [s.strip() for s in sides_str.split(',')]
+            if len(sides) >= 2:
+                side_lengths = [None, None, None, None]
+                if 'bottom_width' in params and params['bottom_width'] != "-":
+                    side_lengths[0] = params['bottom_width']
+                if 'top_width' in params and params['top_width'] != "-":
+                    side_lengths[2] = params['top_width']
+                
+                if sides[0] != "-":
+                    try:
+                        side_lengths[1] = float(sides[0])
+                        logging.info(f"Установлена правая боковая сторона: {side_lengths[1]}")
+                    except ValueError:
+                        logging.warning(f"Не удалось преобразовать правую боковую сторону: {sides[0]}")
+                else:
+                    side_lengths[1] = "-"
+                    logging.info("Правая боковая сторона не будет отображаться (-)")
+                
+                if sides[1] != "-":
+                    try:
+                        side_lengths[3] = float(sides[1])
+                        logging.info(f"Установлена левая боковая сторона: {side_lengths[3]}")
+                    except ValueError:
+                        logging.warning(f"Не удалось преобразовать левую боковую сторону: {sides[1]}")
+                else:
+                    side_lengths[3] = "-"
+                    logging.info("Левая боковая сторона не будет отображаться (-)")
+                
+                params['side_lengths'] = side_lengths
+                logging.info(f"Установлены длины сторон: {params['side_lengths']}")
+
+        # Углы
+        angles_match = re.search(r'Углы\s*:?\s*(\[?)([\d\., \-]+)(\]?)', task_text, re.IGNORECASE)
+        if angles_match:
+            angles_str = angles_match.group(2).strip()
+            logging.info(f"Найдены углы: {angles_str}")
+            angles = [angle.strip() for angle in angles_str.split(',')]
+            angle_values = []
+            for angle in angles:
+                if angle == "-":
+                    angle_values.append("-")
+                    logging.info("Добавлен угол: - (не отображать)")
+                else:
+                    try:
+                        angle_values.append(float(angle))
+                        logging.info(f"Добавлен угол: {angle}")
+                    except ValueError:
+                        angle_values.append("-")
+                        logging.warning(f"Не удалось преобразовать значение угла: {angle}")
+            while len(angle_values) < 4:
+                angle_values.append("-")
+            params['angle_values'] = angle_values
+            params['show_angles'] = True
+            logging.info(f"Установлены значения углов: {params['angle_values']}")
+
+        # Показать среднюю линию
+        show_midline_match = re.search(r'Показать среднюю линию\s*:?\s*(\[?)([a-zA-Zа-яА-Я0-9]+)(\]?)', task_text, re.IGNORECASE)
+        if show_midline_match:
+            show_midline_str = show_midline_match.group(2).strip().lower()
+            params['show_midline'] = show_midline_str in ['true', 'да', 'yes', '+', '1']
+            logging.info(f"Показать среднюю линию: {params['show_midline']}")
+
+        # Значение средней линии
+        midline_value_match = re.search(r'Значение средней линии\s*:?\s*(\[?)([\d\., \-]+)(\]?)', task_text, re.IGNORECASE)
+        if midline_value_match:
+            midline_value_str = midline_value_match.group(2).strip()
+            logging.info(f"Найдено значение средней линии: {midline_value_str}")
+            if midline_value_str != "-":
+                try:
+                    params['midline_value'] = float(midline_value_str)
+                    logging.info(f"Установлено значение средней линии: {params['midline_value']}")
+                except ValueError:
+                    logging.warning(f"Не удалось преобразовать значение средней линии: {midline_value_str}")
+            else:
+                params['midline_value'] = "-"
+                logging.info("Значение средней линии не будет отображаться (-)")
+
+        # Отладочная информация о финальных параметрах
+        logging.info(f"Финальные параметры трапеции: {params}")
         
-        # Функция для преобразования строки со списком чисел в список float
-        def parse_numeric_list(input_str):
-            if not input_str:
-                return None
-            try:
-                # Ищем все числа в строке, включая десятичные и отрицательные
-                numbers = re.findall(r'[-+]?\d*\.?\d+', input_str)
-                return [float(num) for num in numbers] if numbers else None
-            except:
-                return None
-        
-        # Извлекаем основания трапеции
-        bases = extract_param("bases")
-        if bases:
-            bases_list = parse_numeric_list(bases)
-            if bases_list and len(bases_list) >= 2:
-                params['bottom_width'] = max(bases_list[0], bases_list[1])
-                params['top_width'] = min(bases_list[0], bases_list[1])
-        
-        # Извлекаем высоту
-        height = extract_param("height", None, float)
-        if height is not None:
-            params['height'] = height
-        
-        # Извлекаем параметры для отображения высоты
-        show_height = extract_param("show_height", "False", lambda x: x.lower() == "true")
-        if show_height:
-            params['show_height'] = True
-        
-        height_value = extract_param("height_value", None, float)
-        if height_value is not None:
-            params['height_value'] = height_value
-            params['show_height'] = True
-        
-        # Извлекаем параметры для средней линии
-        show_midline = extract_param("show_midline", "False", lambda x: x.lower() == "true")
-        if show_midline:
-            params['show_midline'] = True
-        
-        midline_value = extract_param("midline_value", None, float)
-        if midline_value is not None:
-            params['midline_value'] = midline_value
-            params['show_midline'] = True
-        
-        # Извлекаем метки вершин
-        vertex_labels = extract_param("vertex_labels")
-        if vertex_labels:
-            # Извлекаем буквы из строки
-            labels = re.findall(r'[A-Za-z]', vertex_labels)
-            if len(labels) >= 4:
-                params['vertex_labels'] = labels[:4]
-        
-        # Извлекаем боковые стороны
-        sides = extract_param("sides")
-        if sides:
-            sides_list = parse_numeric_list(sides)
-            if sides_list and len(sides_list) >= 2:
-                params['sides'] = sides_list
-                if sides_list[0] == sides_list[1]:
-                    params['is_isosceles'] = True
-        
-        # Извлекаем углы
-        angles = extract_param("angles")
-        if angles:
-            angles_list = parse_numeric_list(angles)
-            if angles_list and len(angles_list) >= 2:
-                params['angle_values'] = angles_list
-        
-        # Распознаем равнобедренную трапецию
-        if re.search(r'равнобедренн[а-я]*\s*трапеци', task_text, re.IGNORECASE):
-            params['is_isosceles'] = True
-        
-        # Дополнительные проверки по ключевым словам
-        if re.search(r'высот[а-я]*\s*трапеци|найд[а-я]+\s*высот[а-я]', task_text, re.IGNORECASE):
-            params['show_height'] = True
-        
-        if re.search(r'средн[а-я]+\s*лини[а-я]', task_text, re.IGNORECASE):
-            params['show_midline'] = True
-        
-        return Trapezoid(params)
+        # Создаем и возвращаем объект трапеции
+        trapezoid = Trapezoid(params)
+        return trapezoid
 
     # Явно наследуем метод add_vertex_labels от базового класса
     def add_vertex_labels(self, ax):
@@ -371,137 +405,92 @@ class Trapezoid(GeometricFigure):
             for i, ((x0,y0), lab) in enumerate(zip(self.points, labels)):
                 # Проверяем, нужно ли отображать эту конкретную метку
                 if show_specific_labels is None or lab in show_specific_labels:
-                    ax.text(x0, y0, lab, ha='center', va='center', fontsize=14,
+                    ax.text(x0, y0, lab, ha='center', va='center', fontsize=16,
                         bbox=dict(facecolor='white', alpha=0.7, edgecolor='none')) 
 
     # Явно реализуем метод add_side_lengths для трапеции
     def add_side_lengths(self, ax):
         """
-        Добавляет подписи длин сторон фигуры.
-        
-        Args:
-            ax (matplotlib.axes.Axes): Оси для отрисовки
+        Подписывает только те стороны, которые явно указаны (не "-").
+        Основания: bottom_width/top_width, боковые: side_lengths.
         """
-        side_lengths = self.params.get('side_lengths', None)
-        show_lengths = self.params.get('show_lengths', False)
-        show_specific_sides = self.params.get('show_specific_sides', None)
+        import logging
         
-        if side_lengths or show_lengths:
-            vertex_labels = self.params.get('vertex_labels', [chr(65+j) for j in range(len(self.points))])
+        side_lengths = self.params.get('side_lengths', None)
+        vertex_labels = self.params.get('vertex_labels', [chr(65+j) for j in range(len(self.points))])
+        
+        # Отладочная информация
+        logging.info("Подписываем стороны трапеции:")
+        logging.info(f"bottom_width: {self.params.get('bottom_width')}")
+        logging.info(f"top_width: {self.params.get('top_width')}")
+        logging.info(f"side_lengths: {side_lengths}")
+        
+        if not vertex_labels or len(vertex_labels) < len(self.points):
+            vertex_labels = [chr(65+j) for j in range(len(self.points))]
+            self.params['vertex_labels'] = vertex_labels
+        for i in range(len(self.points)):
+            p1 = self.points[i]
+            p2 = self.points[(i+1) % len(self.points)]
+            should_show = False
+            text_value = None
+            # Нижнее основание
+            if i == 0:
+                bottom_width = self.params.get('bottom_width')
+                if bottom_width and bottom_width != "-":
+                    should_show = True
+                    text_value = str(bottom_width)
+                    logging.info(f"Подписываем нижнее основание: {text_value}")
+            # Верхнее основание
+            elif i == 2:
+                top_width = self.params.get('top_width')
+                if top_width and top_width != "-":
+                    should_show = True
+                    text_value = str(top_width)
+                    logging.info(f"Подписываем верхнее основание: {text_value}")
+            # Правая боковая
+            elif i == 1:
+                if side_lengths and len(side_lengths) > 1 and side_lengths[1] != "-" and side_lengths[1] is not None:
+                    should_show = True
+                    text_value = str(side_lengths[1])
+                    logging.info(f"Подписываем правую боковую: {text_value}")
+            # Левая боковая
+            elif i == 3:
+                if side_lengths and len(side_lengths) > 3 and side_lengths[3] != "-" and side_lengths[3] is not None:
+                    should_show = True
+                    text_value = str(side_lengths[3])
+                    logging.info(f"Подписываем левую боковую: {text_value}")
+            if should_show and text_value is not None:
+                L = np.sqrt((p2[0] - p1[0])**2 + (p2[1] - p1[1])**2)
+                mx, my = (p1[0] + p2[0]) / 2, (p1[1] + p2[1]) / 2
+                nx, ny = -(p2[1] - p1[1]) / L, (p2[0] - p1[0]) / L
+                offset = 0.2
+                ax.text(mx + nx*offset, my + ny*offset, text_value, ha='center', fontsize=14,
+                        bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
 
-            if not vertex_labels or len(vertex_labels) < len(self.points):
-                vertex_labels = [chr(65+j) for j in range(len(self.points))]
-                self.params['vertex_labels'] = vertex_labels
-                    
-            for i in range(len(self.points)):
-                p1 = self.points[i]
-                p2 = self.points[(i+1) % len(self.points)]
-                
-                # Получаем обозначения вершин для этой стороны
-                v1 = vertex_labels[i]
-                v2 = vertex_labels[(i+1) % len(self.points)]
-                side_name = f"{v1}{v2}"
-                side_name_rev = f"{v2}{v1}"  # Обратный порядок для проверки
-                
-                # Проверяем, нужно ли отображать эту конкретную сторону
-                should_show = show_specific_sides is None or side_name in show_specific_sides or side_name_rev in show_specific_sides
-                
-                if should_show:
-                    # Вычисляем длину стороны
-                    L = np.sqrt((p2[0] - p1[0])**2 + (p2[1] - p1[1])**2)
-                    
-                    # Середина стороны для размещения подписи
-                    mx, my = (p1[0] + p2[0]) / 2, (p1[1] + p2[1]) / 2
-                    
-                    # Вектор нормали к стороне для размещения текста
-                    nx, ny = -(p2[1] - p1[1]) / L, (p2[0] - p1[0]) / L
-                    offset = 0.2  # Уменьшенный отступ для лучшей видимости
-                    
-                    # Обработка специфичная для подклассов
-                    text_value = self.get_side_length_text(i, side_name, L)
-                    
-                    # Отображаем значение
-                    if text_value is not None:
-                        ax.text(mx + nx*offset, my + ny*offset, text_value, 
-                                ha='center', fontsize=12,
-                                bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
-    
     def add_angles(self, ax):
         """
-        Добавляет отображение углов фигуры.
-        
-        Args:
-            ax (matplotlib.axes.Axes): Оси для отрисовки
+        Подписывает только те углы, которые явно указаны (не "-").
         """
-        if self.params.get('show_angles', False):
-            angle_values = self.params.get('angle_values')
-            show_angle_arcs = self.params.get('show_angle_arcs', False)
-            show_specific_angles = self.params.get('show_specific_angles', None)
-            
-            vertex_labels = self.params.get('vertex_labels', [chr(65+j) for j in range(len(self.points))])
-            
-            # Если угловые значения не заданы, вычисляем их
-            if angle_values is None:
-                angle_values = self.compute_angles()
-            
-            for i in range(len(self.points)):
-                # Получаем обозначение вершины для проверки
-                vertex_label = vertex_labels[i]
-                
-                # Проверяем, нужно ли отображать этот угол
-                if show_specific_angles is not None and vertex_label not in show_specific_angles:
+        angle_values = self.params.get('angle_values')
+        vertex_labels = self.params.get('vertex_labels', [chr(65+j) for j in range(len(self.points))])
+        if not vertex_labels or len(vertex_labels) < len(self.points):
+            vertex_labels = [chr(65+j) for j in range(len(self.points))]
+            self.params['vertex_labels'] = vertex_labels
+        for i in range(len(self.points)):
+            if angle_values and i < len(angle_values):
+                angle_val = angle_values[i]
+                if angle_val == "-" or angle_val is None:
                     continue
-                
-                # Получаем три последовательные точки для вычисления угла
-                A = np.array(self.points[(i-1) % len(self.points)])
-                B = np.array(self.points[i])
-                C = np.array(self.points[(i+1) % len(self.points)])
-                
-                # Вычисляем векторы сторон
-                v1 = A - B
-                v2 = C - B
-                
-                # Получаем значение угла
-                if i < len(angle_values):
-                    angle_text = f"{angle_values[i]:.1f}°"
-                else:
-                    # Вычисляем угол на лету, если не указано в параметрах
-                    if np.linalg.norm(v1) > 0 and np.linalg.norm(v2) > 0:
-                        cos_angle = v1.dot(v2) / (np.linalg.norm(v1) * np.linalg.norm(v2))
-                        cos_angle = max(-1, min(1, cos_angle))  # Ограничиваем значение
-                        angle = np.degrees(np.arccos(cos_angle))
-                        angle_text = f"{angle:.1f}°"
-                    else:
-                        continue  # Пропускаем, если векторы нулевые
-                
-                # Радиус дуги
-                radius = min(np.linalg.norm(v1), np.linalg.norm(v2)) / 4
-                
-                # Выбираем координаты для текста угла - ближе к вершине
-                angle_mid = (v1/np.linalg.norm(v1) + v2/np.linalg.norm(v2))
-                angle_mid = angle_mid / np.linalg.norm(angle_mid) * radius * 0.8
-                
-                # Рисуем дугу, если требуется
-                if show_angle_arcs:
-                    import matplotlib.pyplot as plt
-                    # Вычисляем начальный и конечный углы для дуги
-                    start_angle = np.degrees(np.arctan2(v1[1], v1[0]))
-                    end_angle = np.degrees(np.arctan2(v2[1], v2[0]))
-                    
-                    # Корректируем углы для правильного направления дуги
-                    cross_product = np.cross(np.append(v1, 0), np.append(v2, 0))[2]
-                    if cross_product < 0:
-                        start_angle, end_angle = end_angle, start_angle
-                    
-                    # Создаем дугу
-                    arc = plt.matplotlib.patches.Arc(
-                        (B[0], B[1]), radius*2, radius*2,
-                        theta1=start_angle, theta2=end_angle,
-                        angle=0, color='red', linewidth=1
-                    )
-                    ax.add_patch(arc)
-                
-                # Отображаем значение угла
-                ax.text(B[0] + angle_mid[0], B[1] + angle_mid[1], angle_text, 
-                        ha='center', fontsize=10,
-                        bbox=dict(facecolor='white', alpha=0.7, edgecolor='none')) 
+            else:
+                continue
+            A = np.array(self.points[(i-1) % len(self.points)])
+            B = np.array(self.points[i])
+            C = np.array(self.points[(i+1) % len(self.points)])
+            v1 = A - B
+            v2 = C - B
+            angle_text = f"{angle_val:.1f}°"
+            radius = min(np.linalg.norm(v1), np.linalg.norm(v2)) / 4
+            angle_mid = (v1/np.linalg.norm(v1) + v2/np.linalg.norm(v2))
+            angle_mid = angle_mid / np.linalg.norm(angle_mid) * radius * 0.8
+            ax.text(B[0] + angle_mid[0], B[1] + angle_mid[1], angle_text, ha='center', fontsize=14,
+                    bbox=dict(facecolor='white', alpha=0.7, edgecolor='none')) 

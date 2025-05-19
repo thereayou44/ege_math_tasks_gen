@@ -1731,13 +1731,22 @@ def generate_complete_task(category, subcategory="", difficulty_level=3, is_basi
         #generated_text = generated_text.replace('\\[', '$$').replace('\\]', '$$') # заменяем квадратные скобки на двойные доллары для LaTeX
         
         # Извлекаем части из сгенерированного текста
-        task_match = re.search(r'---ЗАДАЧА---\s*(.*?)(?=\s*---РЕШЕНИЕ---|\s*$)', generated_text, re.DOTALL)
-        solution_match = re.search(r'---РЕШЕНИЕ---\s*(.*?)(?=\s*---ПОДСКАЗКИ---|\s*$)', generated_text, re.DOTALL)
-        hints_match = re.search(r'---ПОДСКАЗКИ---\s*(.*?)(?=\s*---ПАРАМЕТРЫ ДЛЯ ВИЗУАЛИЗАЦИИ---|\s*$)', generated_text, re.DOTALL)
+
+        def extract_block(text, block_name):
+            pattern = f"---{block_name}---\\s*(.*?)(?=\\s*---[A-ZА-Я _]+---|\s*$)"
+            match = re.search(pattern, text, re.DOTALL)
+            return match.group(1).strip() if match else ""
+            
+        # Используем функцию extract_block для извлечения всех необходимых блоков
+        task = extract_block(generated_text, "ЗАДАЧА")
+        solution = extract_block(generated_text, "РЕШЕНИЕ")
+        hints_string = extract_block(generated_text, "ПОДСКАЗКИ")
+        visualization_params = extract_block(generated_text, "ПАРАМЕТРЫ ДЛЯ ВИЗУАЛИЗАЦИИ")
         
-        task = task_match.group(1).strip() if task_match else "Не удалось извлечь задачу"
-        solution = solution_match.group(1).strip() if solution_match else "Не удалось извлечь решение"
-        hints_string = hints_match.group(1).strip() if hints_match else ""
+        if not task:
+            task = "Не удалось извлечь задачу"
+        if not solution:
+            solution = "Не удалось извлечь решение"
         
         # Парсим подсказки
         hints = parse_hints(hints_string)
@@ -1745,32 +1754,26 @@ def generate_complete_task(category, subcategory="", difficulty_level=3, is_basi
         # Извлекаем ответ из решения
         answer = extract_answer_with_latex(solution)
         
-        # Проверяем наличие параметров для визуализации
-        visualization_match = re.search(r'---ПАРАМЕТРЫ ДЛЯ ВИЗУАЛИЗАЦИИ---\s*(.*?)(?=\s*$)', generated_text, re.DOTALL)
-        
         image_path = None
-        visualization_params = None
         visualization_type = None
         
-        if visualization_match:
+        if visualization_params:
             # Обрабатываем параметры визуализации
-            params_text = visualization_match.group(1).strip()
-            logging.info(f"Извлечены параметры для визуализации, первые 200 символов: {params_text[:200]}")
+            logging.info(f"Извлечены параметры для визуализации, первые 200 символов: {visualization_params[:200]}")
             
             # Проверяем, содержит ли текст параметров строку "Визуализация не требуется"
-            if re.search(r'визуализация\s+не\s+требуется', params_text.lower()):
+            if re.search(r'визуализация\s+не\s+требуется', visualization_params.lower()):
                 logging.info("В параметрах содержится 'Визуализация не требуется'")
             else:
                 # Ищем тип визуализации
-                type_match = re.search(r'Тип:?\s*([^\n]+)', params_text)
+                type_match = re.search(r'Тип:?\s*([^\n]+)', visualization_params)
                 if type_match:
                     extracted_type = type_match.group(1).strip().lower()
                     logging.info(f"Извлеченный тип визуализации: {extracted_type}")
                 else:
                     logging.warning("Тип визуализации не найден в параметрах")
             
-            image_path, visualization_type = process_visualization_params(params_text)
-            visualization_params = params_text
+            image_path, visualization_type = process_visualization_params(visualization_params)
             
             logging.info(f"Результат обработки параметров: путь к изображению = {image_path}, тип = {visualization_type}")
         else:
@@ -1836,23 +1839,23 @@ def parse_sections(raw_text):
         return sections
     
     # Функция для извлечения содержимого между маркерами разделов
-    def extract_section(text, section_name):
-        pattern = rf"---{section_name}---\s*(.*?)(?=---[A-ZА-Я _]+---|$)"
-        match = re.search(pattern, text, re.DOTALL | re.IGNORECASE)
+    def extract_block(text, block_name):
+        pattern = f"---{block_name}---\\s*(.*?)(?=\\s*---[A-ZА-Я _]+---|\s*$)"
+        match = re.search(pattern, text, re.DOTALL)
         return match.group(1).strip() if match else ""
     
     # Извлекаем каждый раздел из текста
-    sections["task"] = extract_section(raw_text, "ЗАДАЧА")
-    sections["solution"] = extract_section(raw_text, "РЕШЕНИЕ")
-    sections["answer"] = extract_answer_with_latex(sections["solution"])
+    sections["task"] = extract_block(raw_text, "ЗАДАЧА")
+    sections["solution"] = extract_block(raw_text, "РЕШЕНИЕ")
+    sections["visualization_params"] = extract_block(raw_text, "ПАРАМЕТРЫ ДЛЯ ВИЗУАЛИЗАЦИИ")
+    
+    # Извлекаем ответ из решения, если решение есть
+    if sections["solution"]:
+        sections["answer"] = extract_answer_with_latex(sections["solution"])
     
     # Извлекаем подсказки и разбиваем их на список
-    hints_text = extract_section(raw_text, "ПОДСКАЗКИ")
+    hints_text = extract_block(raw_text, "ПОДСКАЗКИ")
     sections["hints"] = parse_hints(hints_text)
-    
-    # Извлекаем параметры для визуализации, если они есть
-    viz_params = extract_section(raw_text, "ПАРАМЕТРЫ ДЛЯ ВИЗУАЛИЗАЦИИ")
-    sections["visualization_params"] = viz_params
     
     return sections
 

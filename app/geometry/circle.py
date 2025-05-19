@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import re
+import logging
 from app.geometry.base import GeometricFigure
 
 class Circle(GeometricFigure):
@@ -19,91 +20,113 @@ class Circle(GeometricFigure):
         self.figure_type = "circle"
         
         # Установка параметров по умолчанию, если не указаны
-        if 'center' not in self.params:
-            self.params['center'] = (0, 0)
         if 'radius' not in self.params:
             self.params['radius'] = 3
+        if 'center' not in self.params:
+            self.params['center'] = (0, 0)
         if 'center_label' not in self.params:
             self.params['center_label'] = 'O'
         if 'show_center' not in self.params:
             self.params['show_center'] = True
-        if 'show_central_angles' not in self.params:
-            self.params['show_central_angles'] = False
-        if 'show_inscribed_angles' not in self.params:
-            self.params['show_inscribed_angles'] = False
-        if 'show_tangent' not in self.params:
-            self.params['show_tangent'] = False
-        if 'tangent_point' not in self.params:
-            self.params['tangent_point'] = None
+        if 'show_radius' not in self.params:
+            self.params['show_radius'] = False
+        if 'show_diameter' not in self.params:
+            self.params['show_diameter'] = False
+        if 'show_chord' not in self.params:
+            self.params['show_chord'] = False
             
     def compute_points(self):
         """
-        Вычисляет координаты точек окружности для отображения.
-        В случае окружности, возвращает точки для визуализации ограничивающего прямоугольника.
+        Вычисляет координаты точек окружности.
         
         Returns:
-            list: Список угловых точек ограничивающего прямоугольника
+            list: Список точек по контуру окружности
         """
-        cx, cy = self.params.get('center', (0, 0))
-        r = self.params.get('radius', 3)
+        # Для окружности мы возвращаем только центр и несколько ключевых точек на контуре
+        center = self.params.get('center', (0, 0))
+        radius = self.params.get('radius', 3)
         
-        # Возвращаем углы ограничивающего прямоугольника
-        return [(cx - r, cy - r), (cx + r, cy - r), (cx + r, cy + r), (cx - r, cy + r)]
+        # Создаем ключевые точки на контуре (север, восток, юг, запад)
+        points = [
+            center,  # Центр
+            (center[0], center[1] + radius),  # Север
+            (center[0] + radius, center[1]),  # Восток
+            (center[0], center[1] - radius),  # Юг
+            (center[0] - radius, center[1])   # Запад
+        ]
+        
+        return points
     
     def draw(self, ax=None):
         """
-        Отрисовывает окружность на заданных осях.
-        Переопределяет метод базового класса для специфичной отрисовки окружности.
+        Отрисовывает окружность с дополнительными элементами.
         
         Args:
-            ax (matplotlib.axes.Axes): Оси для отрисовки, если None - создаются новые
+            ax (matplotlib.axes.Axes): Оси для отрисовки
             
         Returns:
-            matplotlib.axes.Axes: Оси с нарисованной окружностью
+            matplotlib.axes.Axes: Оси с нарисованной фигурой
         """
         if ax is None:
-            _, ax = plt.subplots(figsize=(8, 8))
+            _, ax = plt.subplots(figsize=(10, 10))
             ax.set_aspect('equal')
-            ax.axis('off')
         
-        # Получаем параметры окружности
-        cx, cy = self.params.get('center', (0, 0))
-        r = self.params.get('radius', 3)
+        # Отключаем оси для лучшего вида
+        ax.axis('off')
+        
+        # Рассчитываем точки
+        if not self.points:
+            self.points = self.compute_points()
+        
+        # Получаем параметры для отрисовки
+        center = self.params.get('center', (0, 0))
+        radius = self.params.get('radius', 3)
         
         # Рисуем окружность
-        circle = plt.Circle((cx, cy), r, fill=False, edgecolor='blue', linewidth=2)
+        circle = plt.Circle(center, radius, fill=False, color='blue', linewidth=2.5)
         ax.add_patch(circle)
         
-        # Устанавливаем границы области отображения
-        ax.set_xlim(cx - r * 1.2, cx + r * 1.2)
-        ax.set_ylim(cy - r * 1.2, cy + r * 1.2)
-        
-        # Отображение центра
+        # Обозначаем центр
         if self.params.get('show_center', True):
-            ax.text(cx, cy, self.params.get('center_label', 'O'),
-                   ha='center', va='center', fontsize=14,
-                   bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
+            # Рисуем точку в центре
+            ax.plot(center[0], center[1], 'bo', markersize=6)
+            
+            # Добавляем метку центра
+            center_label = self.params.get('center_label', 'O')
+            ax.text(center[0], center[1] + 0.2, center_label, 
+                    ha='center', va='bottom', fontsize=14, fontweight='bold',
+                    bbox=dict(facecolor='white', alpha=0.9, edgecolor='none'))
         
-        # Отображение радиуса
-        self._add_radius(ax)
-        
-        # Отображение диаметра
-        self._add_diameter(ax)
-        
-        # Отображение хорды
-        self._add_chord(ax)
-        
-        # Отображение центральных углов
+        # Добавляем радиус, если нужно
+        if self.params.get('show_radius', False):
+            self._add_radius(ax)
+            
+        # Добавляем диаметр, если нужно
+        if self.params.get('show_diameter', False):
+            self._add_diameter(ax)
+            
+        # Добавляем хорду, если нужно
+        if self.params.get('show_chord', False):
+            self._add_chord(ax)
+            
+        # Добавляем центральные углы, если нужно
         if self.params.get('show_central_angles', False):
             self._add_central_angles(ax)
             
-        # Отображение вписанных углов
+        # Добавляем вписанные углы, если нужно
         if self.params.get('show_inscribed_angles', False):
             self._add_inscribed_angles(ax)
             
-        # Отображение касательной
+        # Добавляем касательную, если нужно
         if self.params.get('show_tangent', False):
             self._add_tangent(ax)
+            
+        # Определяем границы отображения с хорошим отступом
+        ax.set_xlim(center[0] - radius * 1.5, center[0] + radius * 1.5)
+        ax.set_ylim(center[1] - radius * 1.5, center[1] + radius * 1.5)
+        
+        # Добавляем сетку для лучшей ориентации
+        ax.grid(True, linestyle='--', alpha=0.3)
         
         return ax
     
@@ -114,19 +137,18 @@ class Circle(GeometricFigure):
         Args:
             ax (matplotlib.axes.Axes): Оси для отрисовки
         """
-        radius_value = self.params.get('radius_value', None)
+        center = self.params.get('center', (0, 0))
+        radius = self.params.get('radius', 3)
+        radius_value = self.params.get('radius_value', radius)
         
-        if self.params.get('show_radius', False) or radius_value is not None:
-            cx, cy = self.params.get('center', (0, 0))
-            r = self.params.get('radius', 3)
-            
-            # Рисуем линию радиуса
-            ax.plot([cx, cx + r], [cy, cy], 'r-', lw=1.5)
-            
-            # Отображаем значение радиуса
-            displayed_radius = radius_value if radius_value is not None else r
-            ax.text(cx + r/2, cy + 0.3, f"r={displayed_radius}", ha='center', fontsize=12,
-                   bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
+        # Рисуем радиус от центра до правой точки
+        ax.plot([center[0], center[0] + radius], [center[1], center[1]], 'r-', lw=1.5)
+        
+        # Добавляем подпись радиуса
+        radius_text = f"R = {radius_value}"
+        ax.text(center[0] + radius/2, center[1] + 0.2, radius_text, 
+                ha='center', va='bottom', color='red', fontsize=12,
+                bbox=dict(facecolor='white', alpha=0.9, edgecolor='none', boxstyle='round,pad=0.3'))
     
     def _add_diameter(self, ax):
         """
@@ -135,19 +157,18 @@ class Circle(GeometricFigure):
         Args:
             ax (matplotlib.axes.Axes): Оси для отрисовки
         """
-        diameter_value = self.params.get('diameter_value', None)
+        center = self.params.get('center', (0, 0))
+        radius = self.params.get('radius', 3)
+        diameter_value = self.params.get('diameter_value', 2 * radius)
         
-        if self.params.get('show_diameter', False) or diameter_value is not None:
-            cx, cy = self.params.get('center', (0, 0))
-            r = self.params.get('radius', 3)
-            
-            # Рисуем линию диаметра
-            ax.plot([cx - r, cx + r], [cy, cy], 'g-', lw=1.5)
-            
-            # Отображаем значение диаметра
-            displayed_diameter = diameter_value if diameter_value is not None else 2*r
-            ax.text(cx, cy - 0.3, f"d={displayed_diameter}", ha='center', fontsize=12,
-                   bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
+        # Рисуем диаметр, проходящий через центр
+        ax.plot([center[0] - radius, center[0] + radius], [center[1], center[1]], 'g-', lw=1.5)
+        
+        # Добавляем подпись диаметра
+        diameter_text = f"D = {diameter_value}"
+        ax.text(center[0], center[1] - 0.3, diameter_text, 
+                ha='center', va='top', color='green', fontsize=12,
+                bbox=dict(facecolor='white', alpha=0.9, edgecolor='none', boxstyle='round,pad=0.3'))
     
     def _add_chord(self, ax):
         """
@@ -156,37 +177,33 @@ class Circle(GeometricFigure):
         Args:
             ax (matplotlib.axes.Axes): Оси для отрисовки
         """
+        center = self.params.get('center', (0, 0))
+        radius = self.params.get('radius', 3)
         chord_value = self.params.get('chord_value', None)
         
-        if self.params.get('show_chord', False) or chord_value is not None:
-            cx, cy = self.params.get('center', (0, 0))
-            r = self.params.get('radius', 3)
-            
-            if chord_value is not None:
-                # Проверяем, что хорда не больше диаметра
-                chord_value = min(chord_value, 2*r)
-                
-                # Вычисляем положение хорды
-                half_chord = chord_value / 2
-                
-                # Расстояние от центра до хорды (по теореме Пифагора)
-                if half_chord < r:  # Защита от ошибок вычисления
-                    h = np.sqrt(r**2 - half_chord**2)
-                else:
-                    h = 0
-                
-                # Рисуем хорду горизонтально ниже центра
-                chord_y = cy - h
-                chord_start_x = cx - half_chord
-                chord_end_x = cx + half_chord
-                
-                # Рисуем хорду
-                ax.plot([chord_start_x, chord_end_x], [chord_y, chord_y], 'b-', lw=1.5)
-                
-                # Подпись располагаем четко под хордой
-                ax.text((chord_start_x + chord_end_x)/2, chord_y - 0.4, 
-                        f"{chord_value}", ha='center', fontsize=12,
-                        bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
+        # Угол для точек хорды (по умолчанию 60 градусов)
+        angle_rad = np.radians(60)
+        
+        # Вычисляем точки хорды
+        x1 = center[0] + radius * np.cos(angle_rad)
+        y1 = center[1] + radius * np.sin(angle_rad)
+        x2 = center[0] + radius * np.cos(angle_rad + np.pi)
+        y2 = center[1] + radius * np.sin(angle_rad + np.pi)
+        
+        # Рисуем хорду
+        ax.plot([x1, x2], [y1, y2], 'b-', lw=1.5)
+        
+        # Вычисляем длину хорды, если не указана явно
+        if chord_value is None:
+            chord_length = 2 * radius * np.sin(angle_rad)
+            chord_value = f"{chord_length:.2f}".rstrip('0').rstrip('.')
+        
+        # Добавляем подпись хорды
+        chord_text = f"Chord = {chord_value}"
+        # Размещаем текст посередине хорды
+        ax.text((x1 + x2)/2, (y1 + y2)/2 + 0.2, chord_text, 
+                ha='center', va='bottom', color='blue', fontsize=12,
+                bbox=dict(facecolor='white', alpha=0.9, edgecolor='none', boxstyle='round,pad=0.3'))
     
     def _add_central_angles(self, ax):
         """
@@ -195,43 +212,39 @@ class Circle(GeometricFigure):
         Args:
             ax (matplotlib.axes.Axes): Оси для отрисовки
         """
-        central_angle_value = self.params.get('central_angle_value', None)
+        center = self.params.get('center', (0, 0))
+        radius = self.params.get('radius', 3)
+        angle_value = self.params.get('central_angle_value', 45)
         
-        if central_angle_value is not None:
-            cx, cy = self.params.get('center', (0, 0))
-            r = self.params.get('radius', 3)
-            
-            # Преобразуем угол в радианы
-            angle_rad = np.radians(central_angle_value)
-            
-            # Рисуем дугу центрального угла
-            theta1 = 0
-            theta2 = central_angle_value
-            
-            # Рисуем два радиуса
-            x1 = cx + r * np.cos(0)
-            y1 = cy + r * np.sin(0)
-            x2 = cx + r * np.cos(angle_rad)
-            y2 = cy + r * np.sin(angle_rad)
-            
-            ax.plot([cx, x1], [cy, y1], 'r-', lw=1)
-            ax.plot([cx, x2], [cy, y2], 'r-', lw=1)
-            
-            # Рисуем дугу
-            arc = plt.matplotlib.patches.Arc(
-                (cx, cy), 2*r*0.3, 2*r*0.3, 
-                theta1=theta1, theta2=theta2, 
-                color='red', lw=1.5
-            )
-            ax.add_patch(arc)
-            
-            # Подписываем угол
-            mid_angle_rad = angle_rad / 2
-            text_x = cx + r * 0.2 * np.cos(mid_angle_rad)
-            text_y = cy + r * 0.2 * np.sin(mid_angle_rad)
-            ax.text(text_x, text_y, f"{central_angle_value}°", 
-                    ha='center', va='center', color='red', fontsize=10,
-                    bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
+        # Переводим значение угла в радианы
+        angle_rad = np.radians(angle_value)
+        
+        # Вычисляем точки на окружности, образующие угол
+        x1 = center[0] + radius * np.cos(0)
+        y1 = center[1] + radius * np.sin(0)
+        x2 = center[0] + radius * np.cos(angle_rad)
+        y2 = center[1] + radius * np.sin(angle_rad)
+        
+        # Рисуем линии от центра до точек
+        ax.plot([center[0], x1], [center[1], y1], 'r-', lw=1.5)
+        ax.plot([center[0], x2], [center[1], y2], 'r-', lw=1.5)
+        
+        # Рисуем дугу для обозначения угла
+        arc_radius = radius * 0.3  # Размер дуги
+        arc = plt.matplotlib.patches.Arc(center, arc_radius * 2, arc_radius * 2,
+                                       theta1=0, theta2=np.degrees(angle_rad),
+                                       color='red', lw=1.5)
+        ax.add_patch(arc)
+        
+        # Добавляем подпись угла
+        angle_text = f"{angle_value}°"
+        # Размещаем текст посередине дуги
+        angle_mid_rad = angle_rad / 2
+        text_r = arc_radius * 1.2  # Радиус для размещения текста
+        ax.text(center[0] + text_r * np.cos(angle_mid_rad), 
+                center[1] + text_r * np.sin(angle_mid_rad), 
+                angle_text, ha='center', va='center', color='red', fontsize=12,
+                bbox=dict(facecolor='white', alpha=0.9, edgecolor='none', boxstyle='round,pad=0.3'))
     
     def _add_inscribed_angles(self, ax):
         """
@@ -240,74 +253,60 @@ class Circle(GeometricFigure):
         Args:
             ax (matplotlib.axes.Axes): Оси для отрисовки
         """
-        inscribed_angle_value = self.params.get('inscribed_angle_value', None)
+        center = self.params.get('center', (0, 0))
+        radius = self.params.get('radius', 3)
+        angle_value = self.params.get('inscribed_angle_value', 30)
         
-        if inscribed_angle_value is not None:
-            cx, cy = self.params.get('center', (0, 0))
-            r = self.params.get('radius', 3)
-            
-            # Преобразуем угол в радианы
-            angle_rad = np.radians(inscribed_angle_value * 2)  # Центральный угол в 2 раза больше вписанного
-            
-            # Рисуем точки на окружности
-            x1 = cx + r * np.cos(0)
-            y1 = cy + r * np.sin(0)
-            x2 = cx + r * np.cos(angle_rad)
-            y2 = cy + r * np.sin(angle_rad)
-            
-            # Выбираем точку на окружности для вершины вписанного угла
-            # Например, берем точку на окружности, противоположную середине дуги
-            midpoint_angle = angle_rad / 2 + np.pi
-            x3 = cx + r * np.cos(midpoint_angle)
-            y3 = cy + r * np.sin(midpoint_angle)
-            
-            # Рисуем треугольник вписанного угла
-            ax.plot([x1, x3], [y1, y3], 'g-', lw=1)
-            ax.plot([x2, x3], [y2, y3], 'g-', lw=1)
-            
-            # Рисуем дугу вписанного угла
-            # Вычисляем углы относительно вершины вписанного угла
-            vec1 = (x1 - x3, y1 - y3)
-            vec2 = (x2 - x3, y2 - y3)
-            
-            # Вычисляем угол между векторами для определения направления дуги
-            angle1 = np.arctan2(vec1[1], vec1[0])
-            angle2 = np.arctan2(vec2[1], vec2[0])
-            
-            # Нормализуем углы
-            if angle1 < 0:
-                angle1 += 2 * np.pi
-            if angle2 < 0:
-                angle2 += 2 * np.pi
-                
-            # Обеспечиваем правильный порядок углов для дуги
-            if angle1 > angle2:
-                angle1, angle2 = angle2, angle1
-                
-            # Преобразуем в градусы для matplotlib
-            theta1 = np.degrees(angle1)
-            theta2 = np.degrees(angle2)
-            
-            # Рисуем дугу
-            arc_radius = r * 0.2
-            arc = plt.matplotlib.patches.Arc(
-                (x3, y3), 2*arc_radius, 2*arc_radius, 
-                theta1=theta1, theta2=theta2, 
-                color='green', lw=1.5
-            )
-            ax.add_patch(arc)
-            
-            # Подписываем угол
-            mid_angle = (angle1 + angle2) / 2
-            text_x = x3 + arc_radius * 0.7 * np.cos(mid_angle)
-            text_y = y3 + arc_radius * 0.7 * np.sin(mid_angle)
-            ax.text(text_x, text_y, f"{inscribed_angle_value}°", 
-                    ha='center', va='center', color='green', fontsize=10,
-                    bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
-            
-            # Добавляем точки на окружности
-            ax.plot([x1, x2], [y1, y2], 'go', markersize=5)
-            ax.plot(x3, y3, 'go', markersize=5)
+        # Переводим значение угла в радианы
+        angle_rad_central = np.radians(angle_value * 2)  # Центральный угол в 2 раза больше вписанного
+        
+        # Вычисляем точки на окружности - концы дуги
+        x1 = center[0] + radius * np.cos(0)
+        y1 = center[1] + radius * np.sin(0)
+        x2 = center[0] + radius * np.cos(angle_rad_central)
+        y2 = center[1] + radius * np.sin(angle_rad_central)
+        
+        # Вычисляем точку для вершины вписанного угла (противоположная сторона окружности)
+        opposite_angle = np.pi + angle_rad_central / 2
+        x3 = center[0] + radius * np.cos(opposite_angle)
+        y3 = center[1] + radius * np.sin(opposite_angle)
+        
+        # Рисуем линии, образующие вписанный угол
+        ax.plot([x3, x1], [y3, y1], 'b-', lw=1.5)
+        ax.plot([x3, x2], [y3, y2], 'b-', lw=1.5)
+        
+        # Рисуем дугу для обозначения угла
+        arc_radius = radius * 0.2  # Размер дуги
+        
+        # Вычисляем углы для дуги в градусах
+        v1 = [x1 - x3, y1 - y3]
+        v2 = [x2 - x3, y2 - y3]
+        
+        # Вычисляем углы векторов в градусах
+        angle1 = np.degrees(np.arctan2(v1[1], v1[0])) % 360
+        angle2 = np.degrees(np.arctan2(v2[1], v2[0])) % 360
+        
+        # Рисуем дугу для обозначения угла
+        arc = plt.matplotlib.patches.Arc((x3, y3), arc_radius * 2, arc_radius * 2,
+                                       theta1=angle1, theta2=angle2,
+                                       color='blue', lw=1.5)
+        ax.add_patch(arc)
+        
+        # Добавляем подпись угла
+        angle_text = f"{angle_value}°"
+        # Размещаем текст посередине дуги
+        angle_mid = (angle1 + angle2) / 2
+        if angle2 < angle1:  # Корректировка, если угол переходит через 360
+            angle_mid = (angle1 + angle2 + 360) / 2
+            if angle_mid >= 360:
+                angle_mid -= 360
+        
+        text_r = arc_radius * 1.5  # Радиус для размещения текста
+        angle_mid_rad = np.radians(angle_mid)
+        ax.text(x3 + text_r * np.cos(angle_mid_rad), 
+                y3 + text_r * np.sin(angle_mid_rad), 
+                angle_text, ha='center', va='center', color='blue', fontsize=12,
+                bbox=dict(facecolor='white', alpha=0.9, edgecolor='none', boxstyle='round,pad=0.3'))
     
     def _add_tangent(self, ax):
         """
@@ -316,222 +315,205 @@ class Circle(GeometricFigure):
         Args:
             ax (matplotlib.axes.Axes): Оси для отрисовки
         """
+        center = self.params.get('center', (0, 0))
+        radius = self.params.get('radius', 3)
         tangent_point = self.params.get('tangent_point', None)
         
-        if tangent_point is not None:
-            cx, cy = self.params.get('center', (0, 0))
-            r = self.params.get('radius', 3)
-            
-            tx, ty = tangent_point
-            
-            # Проверяем, что точка находится на окружности
-            distance = np.sqrt((tx - cx)**2 + (ty - cy)**2)
-            if abs(distance - r) > 0.01 * r:  # Допуск на округление
-                # Проецируем точку на окружность
-                angle = np.arctan2(ty - cy, tx - cx)
-                tx = cx + r * np.cos(angle)
-                ty = cy + r * np.sin(angle)
-            
-            # Вектор от центра к точке касания
-            vx, vy = tx - cx, ty - cy
-            
-            # Нормализуем вектор
-            length = np.sqrt(vx**2 + vy**2)
-            vx, vy = vx / length, vy / length
-            
-            # Вектор касательной перпендикулярен радиус-вектору
-            tx1, ty1 = tx - vy * r, ty + vx * r
-            tx2, ty2 = tx + vy * r, ty - vx * r
-            
-            # Рисуем касательную
-            ax.plot([tx1, tx2], [ty1, ty2], 'g-', lw=1.5)
-            
-            # Отображаем меткой точку касания
-            ax.plot(tx, ty, 'go', markersize=5)
-            ax.text(tx + 0.1, ty + 0.1, 'T', ha='left', va='bottom', fontsize=12)
-    
-    def add_side_lengths(self, ax):
-        """
-        Пустая реализация метода add_side_lengths для совместимости с базовым классом.
-        У окружности нет "сторон" в традиционном понимании, поэтому метод ничего не делает.
+        # Если точка касания не указана, используем точку справа
+        if tangent_point is None:
+            tangent_point = (center[0] + radius, center[1])
         
-        Args:
-            ax (matplotlib.axes.Axes): Оси для отрисовки
-        """
-        pass
-    
-    def add_vertex_labels(self, ax):
-        """
-        Пустая реализация метода add_vertex_labels для совместимости с базовым классом.
-        У окружности нет "вершин" в традиционном понимании, метка центра добавляется отдельно.
+        # Вычисляем вектор от центра к точке касания
+        cx, cy = center
+        tx, ty = tangent_point
         
-        Args:
-            ax (matplotlib.axes.Axes): Оси для отрисовки
-        """
-        pass
-    
-    def add_angles(self, ax):
-        """
-        Пустая реализация метода add_angles для совместимости с базовым классом.
-        У окружности нет "углов" в традиционном понимании, центральные 
-        и вписанные углы добавляются отдельными методами.
+        # Вектор касательной перпендикулярен радиусу
+        # Поворачиваем радиус-вектор на 90 градусов против часовой стрелки
+        perpendicular_x = -(ty - cy)
+        perpendicular_y = tx - cx
         
-        Args:
-            ax (matplotlib.axes.Axes): Оси для отрисовки
-        """
-        pass
+        # Нормализуем вектор
+        length = np.sqrt(perpendicular_x**2 + perpendicular_y**2)
+        perpendicular_x /= length
+        perpendicular_y /= length
+        
+        # Длина касательной линии
+        tangent_length = radius * 1.5
+        
+        # Вычисляем концы касательной
+        x1 = tx - perpendicular_x * tangent_length
+        y1 = ty - perpendicular_y * tangent_length
+        x2 = tx + perpendicular_x * tangent_length
+        y2 = ty + perpendicular_y * tangent_length
+        
+        # Рисуем касательную
+        ax.plot([x1, x2], [y1, y2], 'g-', lw=1.5)
+        
+        # Рисуем радиус к точке касания
+        ax.plot([cx, tx], [cy, ty], 'r--', lw=1.5)
+        
+        # Отмечаем точку касания
+        ax.plot(tx, ty, 'ro', markersize=6)
+        
+        # Добавляем подпись касательной
+        ax.text(tx + perpendicular_x * 0.5, ty + perpendicular_y * 0.5, 
+                "Tangent", ha='center', va='center', color='green', fontsize=12,
+                bbox=dict(facecolor='white', alpha=0.9, edgecolor='none', boxstyle='round,pad=0.3'))
     
     @staticmethod
-    def from_text(task_text):
+    def from_text(params_text):
         """
-        Создает объект окружности из текста задачи.
+        Создает объект окружности из текста параметров.
         
         Args:
-            task_text (str): Текст задачи
+            params_text (str): Текст параметров
             
         Returns:
             Circle: Объект окружности с параметрами из текста
         """
-        import re
-        from app.prompts import DEFAULT_VISUALIZATION_PARAMS, REGEX_PATTERNS
+        from app.prompts.prompts import DEFAULT_VISUALIZATION_PARAMS, REGEX_PATTERNS
         
+        # Создаем копию параметров по умолчанию
         params = DEFAULT_VISUALIZATION_PARAMS["circle"].copy()
-        circle_patterns = REGEX_PATTERNS["circle"]
         
-        # Функция для извлечения параметра по соответствующему регулярному выражению
-        def extract_param(param_name, default=None, convert_type=None):
-            pattern = circle_patterns.get(param_name)
-            if not pattern:
-                return default
-            
-            match = re.search(pattern, task_text, re.IGNORECASE)
-            if not match:
-                return default
-            
-            value = match.group(1).strip().replace(',', '.')
-            if convert_type:
-                try:
-                    return convert_type(value)
-                except:
-                    return default
-            return value
+        # Извлекаем параметры с помощью регулярных выражений
         
-        # Извлекаем радиус
-        radius = extract_param("radius", None, float)
-        if radius is not None:
-            params['radius'] = radius
-            params['radius_value'] = radius
-            params['show_radius'] = True
-        
-        # Извлекаем центр
-        center_str = extract_param("center")
-        if center_str:
+        # Радиус окружности
+        radius_match = re.search(REGEX_PATTERNS['circle']['radius'], params_text, re.IGNORECASE)
+        if radius_match:
+            radius_str = radius_match.group(1).strip()
             try:
-                # Извлекаем координаты из строки, например "(0, 0)"
-                center_coords = re.findall(r'[-+]?\d*\.?\d+', center_str)
-                if len(center_coords) >= 2:
-                    params['center'] = (float(center_coords[0]), float(center_coords[1]))
-            except Exception:
-                pass
+                radius = float(radius_str)
+                params['radius'] = radius
+            except ValueError:
+                logging.warning(f"Не удалось преобразовать значение радиуса: {radius_str}")
         
-        # Извлекаем метку центра
-        center_label = extract_param("center_label")
-        if center_label:
+        # Центр окружности
+        center_match = re.search(REGEX_PATTERNS['circle']['center'], params_text, re.IGNORECASE)
+        if center_match:
+            center_str = center_match.group(1).strip()
+            try:
+                # Извлекаем координаты центра
+                coord_match = re.search(r'\((.*?),(.*?)\)', center_str)
+                if coord_match:
+                    x = float(coord_match.group(1).strip())
+                    y = float(coord_match.group(2).strip())
+                    params['center'] = (x, y)
+            except ValueError:
+                logging.warning(f"Не удалось преобразовать координаты центра: {center_str}")
+        
+        # Метка центра
+        center_label_match = re.search(REGEX_PATTERNS['circle']['center_label'], params_text, re.IGNORECASE)
+        if center_label_match:
+            center_label = center_label_match.group(1).strip()
             params['center_label'] = center_label
         
-        # Извлекаем диаметр
-        diameter = extract_param("diameter_value", None, float)
-        if diameter is not None:
-            params['radius'] = diameter / 2
-            params['diameter_value'] = diameter
-            params['show_diameter'] = True
+        # Показывать центр
+        show_center_match = re.search(REGEX_PATTERNS['circle']['show_center'], params_text, re.IGNORECASE)
+        if show_center_match:
+            show_center_value = show_center_match.group(1).strip().lower()
+            params['show_center'] = show_center_value in ['true', 'да', 'yes', '+']
         
-        # Извлекаем хорду
-        chord = extract_param("chord_value", None, float)
-        if chord is not None:
-            params['chord_value'] = chord
-            params['show_chord'] = True
+        # Показывать радиус
+        show_radius_match = re.search(REGEX_PATTERNS['circle']['show_radius'], params_text, re.IGNORECASE)
+        if show_radius_match:
+            show_radius_value = show_radius_match.group(1).strip().lower()
+            params['show_radius'] = show_radius_value in ['true', 'да', 'yes', '+']
         
-        # Извлекаем центральный угол
-        central_angle = extract_param("central_angle_value", None, float)
-        if central_angle is not None:
-            params['central_angle_value'] = central_angle
-            params['show_central_angles'] = True
-        
-        # Извлекаем вписанный угол
-        inscribed_angle = extract_param("inscribed_angle_value", None, float)
-        if inscribed_angle is not None:
-            params['inscribed_angle_value'] = inscribed_angle
-            params['show_inscribed_angles'] = True
-        
-        # Параметры отображения
-        show_radius = extract_param("show_radius", "False", lambda x: x.lower() == "true")
-        if show_radius:
-            params['show_radius'] = True
-        
-        show_diameter = extract_param("show_diameter", "False", lambda x: x.lower() == "true")
-        if show_diameter:
-            params['show_diameter'] = True
-        
-        show_chord = extract_param("show_chord", "False", lambda x: x.lower() == "true")
-        if show_chord:
-            params['show_chord'] = True
-        
-        show_central_angles = extract_param("show_central_angles", "False", lambda x: x.lower() == "true")
-        if show_central_angles:
-            params['show_central_angles'] = True
-            if 'central_angle_value' not in params or params['central_angle_value'] is None:
-                params['central_angle_value'] = 45  # Значение по умолчанию
-        
-        show_inscribed_angles = extract_param("show_inscribed_angles", "False", lambda x: x.lower() == "true")
-        if show_inscribed_angles:
-            params['show_inscribed_angles'] = True
-            if 'inscribed_angle_value' not in params or params['inscribed_angle_value'] is None:
-                params['inscribed_angle_value'] = 30  # Значение по умолчанию
-        
-        show_tangent = extract_param("show_tangent", "False", lambda x: x.lower() == "true")
-        if show_tangent:
-            params['show_tangent'] = True
-        
-        tangent_point = extract_param("tangent_point")
-        if tangent_point:
+        # Значение радиуса для отображения
+        radius_value_match = re.search(REGEX_PATTERNS['circle']['radius_value'], params_text, re.IGNORECASE)
+        if radius_value_match:
+            radius_value_str = radius_value_match.group(1).strip()
             try:
-                # Извлекаем координаты из строки
-                coords = re.findall(r'[-+]?\d*\.?\d+', tangent_point)
-                if len(coords) >= 2:
-                    params['tangent_point'] = (float(coords[0]), float(coords[1]))
-                    params['show_tangent'] = True
-            except Exception:
-                pass
+                radius_value = float(radius_value_str)
+                params['radius_value'] = radius_value
+            except ValueError:
+                logging.warning(f"Не удалось преобразовать значение радиуса для отображения: {radius_value_str}")
         
-        # Дополнительная проверка на ключевые слова в тексте
-        if re.search(r'радиус', task_text, re.IGNORECASE) and params.get('show_radius') is not True:
-            params['show_radius'] = True
+        # Показывать диаметр
+        show_diameter_match = re.search(REGEX_PATTERNS['circle']['show_diameter'], params_text, re.IGNORECASE)
+        if show_diameter_match:
+            show_diameter_value = show_diameter_match.group(1).strip().lower()
+            params['show_diameter'] = show_diameter_value in ['true', 'да', 'yes', '+']
         
-        if re.search(r'диаметр', task_text, re.IGNORECASE) and params.get('show_diameter') is not True:
-            params['show_diameter'] = True
+        # Значение диаметра для отображения
+        diameter_value_match = re.search(REGEX_PATTERNS['circle']['diameter_value'], params_text, re.IGNORECASE)
+        if diameter_value_match:
+            diameter_value_str = diameter_value_match.group(1).strip()
+            try:
+                diameter_value = float(diameter_value_str)
+                params['diameter_value'] = diameter_value
+            except ValueError:
+                logging.warning(f"Не удалось преобразовать значение диаметра: {diameter_value_str}")
         
-        if re.search(r'хорд[а-я]', task_text, re.IGNORECASE) and params.get('show_chord') is not True:
-            params['show_chord'] = True
+        # Показывать хорду
+        show_chord_match = re.search(REGEX_PATTERNS['circle']['show_chord'], params_text, re.IGNORECASE)
+        if show_chord_match:
+            show_chord_value = show_chord_match.group(1).strip().lower()
+            params['show_chord'] = show_chord_value in ['true', 'да', 'yes', '+']
         
-        # Показываем касательную, если это указано в тексте
-        if re.search(r'касательн[а-я]+|точк[а-я]+\s+касани[а-я]+', task_text, re.IGNORECASE) and not params.get('show_tangent'):
-            params['show_tangent'] = True
-            if not params.get('tangent_point'):
-                # Устанавливаем точку касания справа от окружности (0 градусов)
-                cx, cy = params.get('center', (0, 0))
-                r = params.get('radius', 3)
-                params['tangent_point'] = (cx + r, cy)
+        # Значение хорды для отображения
+        chord_value_match = re.search(REGEX_PATTERNS['circle']['chord_value'], params_text, re.IGNORECASE)
+        if chord_value_match:
+            chord_value_str = chord_value_match.group(1).strip()
+            try:
+                chord_value = float(chord_value_str)
+                params['chord_value'] = chord_value
+            except ValueError:
+                logging.warning(f"Не удалось преобразовать значение хорды: {chord_value_str}")
         
-        # Показываем углы, если это указано в тексте
-        if re.search(r'центральн[а-я]+\s+угл', task_text, re.IGNORECASE) and not params.get('show_central_angles'):
-            params['show_central_angles'] = True
-            if not params.get('central_angle_value'):
-                params['central_angle_value'] = 45  # Значение по умолчанию
+        # Показывать центральные углы
+        show_central_angles_match = re.search(REGEX_PATTERNS['circle']['show_central_angles'], params_text, re.IGNORECASE)
+        if show_central_angles_match:
+            show_central_angles_value = show_central_angles_match.group(1).strip().lower()
+            params['show_central_angles'] = show_central_angles_value in ['true', 'да', 'yes', '+']
         
-        if re.search(r'вписанн[а-я]+\s+угл', task_text, re.IGNORECASE) and not params.get('show_inscribed_angles'):
-            params['show_inscribed_angles'] = True
-            if not params.get('inscribed_angle_value'):
-                params['inscribed_angle_value'] = 30  # Значение по умолчанию
+        # Значение центрального угла для отображения
+        central_angle_value_match = re.search(REGEX_PATTERNS['circle']['central_angle_value'], params_text, re.IGNORECASE)
+        if central_angle_value_match:
+            central_angle_value_str = central_angle_value_match.group(1).strip()
+            try:
+                central_angle_value = float(central_angle_value_str)
+                params['central_angle_value'] = central_angle_value
+            except ValueError:
+                logging.warning(f"Не удалось преобразовать значение центрального угла: {central_angle_value_str}")
         
-        return Circle(params) 
+        # Показывать вписанные углы
+        show_inscribed_angles_match = re.search(REGEX_PATTERNS['circle']['show_inscribed_angles'], params_text, re.IGNORECASE)
+        if show_inscribed_angles_match:
+            show_inscribed_angles_value = show_inscribed_angles_match.group(1).strip().lower()
+            params['show_inscribed_angles'] = show_inscribed_angles_value in ['true', 'да', 'yes', '+']
+        
+        # Значение вписанного угла для отображения
+        inscribed_angle_value_match = re.search(REGEX_PATTERNS['circle']['inscribed_angle_value'], params_text, re.IGNORECASE)
+        if inscribed_angle_value_match:
+            inscribed_angle_value_str = inscribed_angle_value_match.group(1).strip()
+            try:
+                inscribed_angle_value = float(inscribed_angle_value_str)
+                params['inscribed_angle_value'] = inscribed_angle_value
+            except ValueError:
+                logging.warning(f"Не удалось преобразовать значение вписанного угла: {inscribed_angle_value_str}")
+        
+        # Показывать касательную
+        show_tangent_match = re.search(REGEX_PATTERNS['circle']['show_tangent'], params_text, re.IGNORECASE)
+        if show_tangent_match:
+            show_tangent_value = show_tangent_match.group(1).strip().lower()
+            params['show_tangent'] = show_tangent_value in ['true', 'да', 'yes', '+']
+        
+        # Точка касания
+        tangent_point_match = re.search(REGEX_PATTERNS['circle']['tangent_point'], params_text, re.IGNORECASE)
+        if tangent_point_match:
+            tangent_point_str = tangent_point_match.group(1).strip()
+            try:
+                # Извлекаем координаты точки касания
+                point_match = re.search(r'\((.*?),(.*?)\)', tangent_point_str)
+                if point_match:
+                    x = float(point_match.group(1).strip())
+                    y = float(point_match.group(2).strip())
+                    params['tangent_point'] = (x, y)
+            except ValueError:
+                logging.warning(f"Не удалось преобразовать координаты точки касания: {tangent_point_str}")
+        
+        # Создаем объект окружности
+        circle = Circle(params)
+        return circle 
