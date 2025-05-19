@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-05-19 02:51:14",
+  "timestamp": "2025-05-19 04:56:14",
   "category": "Планиметрия",
-  "subcategory": "",
+  "subcategory": "Трапеция",
   "difficulty_level": 3,
   "is_basic_level": false,
-  "original_task": "<div align=\"justify\" width=\"100%\" id=\"body918617\" class=\"pbody\"><p class=\"left_margin\"><img style=\"float:right; margin:10px\" src=\"/get_file?id=1095\">В тре­уголь­ни­ке <i>ABC</i> <i>AC</i>  =  <i>BC</i>, вы­со­та <i>СН</i> равна 20, <img src=\"https://ege.sdamgia.ru/formula/svg/cb/cb382ff1eeafe9577dd293771eb7151a.svg\" class=\"tex\" style=\"vertical-align:-3.0pt\" alt=\" ко­си­нус A = 0,6.\"> Най­ди­те <i>АС</i>.</p></div>"
+  "original_task": "<div align=\"justify\" width=\"100%\" id=\"body918794\" class=\"pbody\"><p class=\"left_margin\"><img src=\"/get_file?id=113156\" style=\"float:right;margin:10px;max-width:100%\">Ос­но­ва­ния тра­пе­ции равны 27 и 9, бо­ко­вая сто­ро­на равна 8. Пло­щадь тра­пе­ции равна 72. Най­ди­те ост­рый угол тра­пе­ции, при­ле­жа­щий к дан­ной бо­ко­вой сто­ро­не. Ответ вы­ра­зи­те в гра­ду­сах.</p></div>"
 }

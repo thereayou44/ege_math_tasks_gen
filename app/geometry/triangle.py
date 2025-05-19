@@ -229,40 +229,118 @@ class Triangle(GeometricFigure):
             Triangle: Объект треугольника с параметрами из текста
         """
         import re
-        from app.prompts import DEFAULT_VISUALIZATION_PARAMS
+        from app.prompts import DEFAULT_VISUALIZATION_PARAMS, REGEX_PATTERNS
         
         params = DEFAULT_VISUALIZATION_PARAMS["triangle"].copy()
+        triangle_patterns = REGEX_PATTERNS["triangle"]
+        
+        # Функция для извлечения параметра по соответствующему регулярному выражению
+        def extract_param(param_name, default=None, convert_type=None):
+            pattern = triangle_patterns.get(param_name)
+            if not pattern:
+                return default
+            
+            match = re.search(pattern, task_text, re.IGNORECASE)
+            if not match:
+                return default
+            
+            value = match.group(1).strip().replace(',', '.')
+            if convert_type:
+                try:
+                    return convert_type(value)
+                except:
+                    return default
+            return value
+        
+        # Функция для преобразования строки со списком чисел в список float
+        def parse_numeric_list(input_str):
+            if not input_str:
+                return None
+            try:
+                # Ищем все числа в строке, включая десятичные и отрицательные
+                numbers = re.findall(r'[-+]?\d*\.?\d+', input_str)
+                return [float(num) for num in numbers] if numbers else None
+            except:
+                return None
+        
+        # Извлекаем метки вершин
+        vertex_labels = extract_param("vertex_labels")
+        if vertex_labels:
+            # Извлекаем буквы из строки
+            labels = re.findall(r'[A-Za-z]', vertex_labels)
+            if len(labels) >= 3:
+                params['vertex_labels'] = labels[:3]
         
         # Определяем тип треугольника
-        is_right = False
-        if re.search(r'прямоугольн[а-я]+\s+треугольник', task_text, re.IGNORECASE):
-            is_right = True
+        is_right = extract_param("is_right", "False", lambda x: x.lower() == "true")
+        if is_right or re.search(r'прямоугольн[а-я]+\s+треугольник', task_text, re.IGNORECASE):
             params['is_right'] = True
         
-        # Ищем стороны треугольника
-        sides_pattern = r'сторон[а-я]*\s+треугольника\s+равн[а-я]*\s+(\d+(?:[,.]\d+)?),?\s+(\d+(?:[,.]\d+)?),?\s+(?:и\s+)?(\d+(?:[,.]\d+)?)'
-        sides_match = re.search(sides_pattern, task_text, re.IGNORECASE)
+        # Извлекаем длины сторон
+        sides = extract_param("sides")
+        if sides:
+            side_lengths = parse_numeric_list(sides)
+            if side_lengths and len(side_lengths) >= 3:
+                params['side_lengths'] = side_lengths[:3]
         
-        if sides_match:
+        # Извлекаем значения углов
+        angles = extract_param("angles")
+        if angles:
+            angle_values = parse_numeric_list(angles)
+            if angle_values and len(angle_values) >= 3:
+                params['angle_values'] = angle_values[:3]
+        
+        # Обрабатываем показ высот
+        show_heights = extract_param("show_heights")
+        if show_heights:
+            if show_heights.lower() == "true":
+                params['show_heights'] = True
+            else:
+                # Извлекаем вершины, из которых нужно показать высоты
+                height_vertices = re.findall(r'[A-Za-z]', show_heights)
+                if height_vertices:
+                    params['show_heights'] = True
+                    params['specific_heights'] = height_vertices
+        
+        # Обрабатываем показ медиан
+        show_medians = extract_param("show_medians")
+        if show_medians:
+            if show_medians.lower() == "true":
+                params['show_medians'] = True
+            else:
+                # Извлекаем вершины, из которых нужно показать медианы
+                median_vertices = re.findall(r'[A-Za-z]', show_medians)
+                if median_vertices:
+                    params['show_medians'] = True
+                    params['specific_medians'] = median_vertices
+        
+        # Обрабатываем показ средних линий
+        show_midlines = extract_param("show_midlines")
+        if show_midlines:
+            if show_midlines.lower() == "true":
+                params['show_midlines'] = True
+            else:
+                # Извлекаем стороны, для которых нужно показать средние линии
+                midline_sides = re.findall(r'[A-Za-z]{2}', show_midlines)
+                if midline_sides:
+                    params['show_midlines'] = True
+                    params['specific_midlines'] = midline_sides
+        
+        # Извлекаем координаты вершин, если они указаны
+        coords = extract_param("coords")
+        if coords:
             try:
-                sides = [float(side.replace(',', '.')) for side in sides_match.groups()]
-                params['side_lengths'] = sides
-                params['show_lengths'] = True
+                # Извлекаем числа из строки и группируем по парам (x,y)
+                numbers = re.findall(r'[-+]?\d*\.?\d+', coords)
+                if len(numbers) >= 6:  # 3 точки по 2 координаты
+                    points = []
+                    for i in range(0, 6, 2):
+                        points.append((float(numbers[i]), float(numbers[i+1])))
+                    params['points'] = points
             except Exception:
                 pass
         
-        # Ищем углы треугольника
-        angles_pattern = r'угл[а-я]*\s+треугольника\s+равн[а-я]*\s+(\d+(?:[,.]\d+)?)[°\s]+,?\s+(\d+(?:[,.]\d+)?)[°\s]+,?\s+(?:и\s+)?(\d+(?:[,.]\d+)?)[°\s]+'
-        angles_match = re.search(angles_pattern, task_text, re.IGNORECASE)
-        
-        if angles_match:
-            try:
-                angles = [float(angle.replace(',', '.')) for angle in angles_match.groups()]
-                params['angle_values'] = angles
-                params['show_angles'] = True
-            except Exception:
-                pass
-        
+        # Дополнительная проверка на ключевые слова в тексте
         # Показываем длины сторон, если это указано в тексте
         if re.search(r'найд[а-я]+\s+сторон|найд[а-я]+\s+длин|найд[а-я]+\s+периметр|сторон[а-я]+\s+треугольник|длин[а-я]+\s+сторон', task_text, re.IGNORECASE):
             params['show_lengths'] = True
@@ -271,17 +349,16 @@ class Triangle(GeometricFigure):
         if re.search(r'найд[а-я]+\s+угл|угл[а-я]+\s+треугольник|величин[а-я]+\s+угл', task_text, re.IGNORECASE):
             params['show_angles'] = True
         
-        # Определяем, какие конкретно стороны или углы нужно показать
-        if "сторон" in task_text.lower():
-            # Проверяем, упоминаются ли конкретные стороны
-            side_names = re.findall(r'сторон[а-я]*\s+([A-Z]{2})', task_text)
-            if side_names:
-                params['show_specific_sides'] = side_names
+        # Показываем высоты, если это указано в тексте
+        if re.search(r'высот[а-я]+\s+треугольник|найд[а-я]+\s+высот', task_text, re.IGNORECASE) and not params.get('show_heights'):
+            params['show_heights'] = True
         
-        if "угол" in task_text.lower() or "углы" in task_text.lower():
-            # Проверяем, упоминаются ли конкретные углы
-            angle_names = re.findall(r'угл[а-я]*\s+([A-Z])', task_text)
-            if angle_names:
-                params['show_specific_angles'] = angle_names
+        # Показываем медианы, если это указано в тексте
+        if re.search(r'медиан[а-я]+\s+треугольник|найд[а-я]+\s+медиан', task_text, re.IGNORECASE) and not params.get('show_medians'):
+            params['show_medians'] = True
+        
+        # Показываем средние линии, если это указано в тексте
+        if re.search(r'средн[а-я]+\s+лини[а-я]+|найд[а-я]+\s+средн[а-я]+\s+лини[а-я]+', task_text, re.IGNORECASE) and not params.get('show_midlines'):
+            params['show_midlines'] = True
         
         return Triangle(params) 

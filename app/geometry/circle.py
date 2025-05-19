@@ -393,96 +393,145 @@ class Circle(GeometricFigure):
             Circle: Объект окружности с параметрами из текста
         """
         import re
-        from app.prompts import DEFAULT_VISUALIZATION_PARAMS
+        from app.prompts import DEFAULT_VISUALIZATION_PARAMS, REGEX_PATTERNS
         
         params = DEFAULT_VISUALIZATION_PARAMS["circle"].copy()
+        circle_patterns = REGEX_PATTERNS["circle"]
         
-        # Ищем радиус
-        radius_pattern = r'радиус\s*[=:]?\s*(\d+(?:[,.]\d+)?)'
-        radius_match = re.search(radius_pattern, task_text, re.IGNORECASE)
+        # Функция для извлечения параметра по соответствующему регулярному выражению
+        def extract_param(param_name, default=None, convert_type=None):
+            pattern = circle_patterns.get(param_name)
+            if not pattern:
+                return default
+            
+            match = re.search(pattern, task_text, re.IGNORECASE)
+            if not match:
+                return default
+            
+            value = match.group(1).strip().replace(',', '.')
+            if convert_type:
+                try:
+                    return convert_type(value)
+                except:
+                    return default
+            return value
         
-        if radius_match:
+        # Извлекаем радиус
+        radius = extract_param("radius", None, float)
+        if radius is not None:
+            params['radius'] = radius
+            params['radius_value'] = radius
+            params['show_radius'] = True
+        
+        # Извлекаем центр
+        center_str = extract_param("center")
+        if center_str:
             try:
-                radius = float(radius_match.group(1).replace(',', '.'))
-                params['radius'] = radius
-                params['radius_value'] = radius
-                params['show_radius'] = True
+                # Извлекаем координаты из строки, например "(0, 0)"
+                center_coords = re.findall(r'[-+]?\d*\.?\d+', center_str)
+                if len(center_coords) >= 2:
+                    params['center'] = (float(center_coords[0]), float(center_coords[1]))
             except Exception:
                 pass
         
-        # Ищем диаметр
-        diameter_pattern = r'диаметр\s*[=:]?\s*(\d+(?:[,.]\d+)?)'
-        diameter_match = re.search(diameter_pattern, task_text, re.IGNORECASE)
+        # Извлекаем метку центра
+        center_label = extract_param("center_label")
+        if center_label:
+            params['center_label'] = center_label
         
-        if diameter_match:
-            try:
-                diameter = float(diameter_match.group(1).replace(',', '.'))
-                params['radius'] = diameter / 2
-                params['diameter_value'] = diameter
-                params['show_diameter'] = True
-            except Exception:
-                pass
+        # Извлекаем диаметр
+        diameter = extract_param("diameter_value", None, float)
+        if diameter is not None:
+            params['radius'] = diameter / 2
+            params['diameter_value'] = diameter
+            params['show_diameter'] = True
         
-        # Ищем хорду
-        chord_pattern = r'хорда\s*[=:]?\s*(\d+(?:[,.]\d+)?)'
-        chord_match = re.search(chord_pattern, task_text, re.IGNORECASE)
+        # Извлекаем хорду
+        chord = extract_param("chord_value", None, float)
+        if chord is not None:
+            params['chord_value'] = chord
+            params['show_chord'] = True
         
-        if chord_match:
-            try:
-                chord = float(chord_match.group(1).replace(',', '.'))
-                params['chord_value'] = chord
-                params['show_chord'] = True
-            except Exception:
-                pass
-                
-        # Ищем центральный угол
-        central_angle_pattern = r'центральный\s+угол\s*[=:]?\s*(\d+(?:[,.]\d+)?)[°\s]'
-        central_angle_match = re.search(central_angle_pattern, task_text, re.IGNORECASE)
+        # Извлекаем центральный угол
+        central_angle = extract_param("central_angle_value", None, float)
+        if central_angle is not None:
+            params['central_angle_value'] = central_angle
+            params['show_central_angles'] = True
         
-        if central_angle_match:
-            try:
-                angle = float(central_angle_match.group(1).replace(',', '.'))
-                params['central_angle_value'] = angle
-                params['show_central_angles'] = True
-            except Exception:
-                pass
-                
-        # Ищем вписанный угол
-        inscribed_angle_pattern = r'вписанный\s+угол\s*[=:]?\s*(\d+(?:[,.]\d+)?)[°\s]'
-        inscribed_angle_match = re.search(inscribed_angle_pattern, task_text, re.IGNORECASE)
+        # Извлекаем вписанный угол
+        inscribed_angle = extract_param("inscribed_angle_value", None, float)
+        if inscribed_angle is not None:
+            params['inscribed_angle_value'] = inscribed_angle
+            params['show_inscribed_angles'] = True
         
-        if inscribed_angle_match:
-            try:
-                angle = float(inscribed_angle_match.group(1).replace(',', '.'))
-                params['inscribed_angle_value'] = angle
-                params['show_inscribed_angles'] = True
-            except Exception:
-                pass
+        # Параметры отображения
+        show_radius = extract_param("show_radius", "False", lambda x: x.lower() == "true")
+        if show_radius:
+            params['show_radius'] = True
         
-        # Ищем касательную
-        if re.search(r'касательн[а-я]+', task_text, re.IGNORECASE):
+        show_diameter = extract_param("show_diameter", "False", lambda x: x.lower() == "true")
+        if show_diameter:
+            params['show_diameter'] = True
+        
+        show_chord = extract_param("show_chord", "False", lambda x: x.lower() == "true")
+        if show_chord:
+            params['show_chord'] = True
+        
+        show_central_angles = extract_param("show_central_angles", "False", lambda x: x.lower() == "true")
+        if show_central_angles:
+            params['show_central_angles'] = True
+            if 'central_angle_value' not in params or params['central_angle_value'] is None:
+                params['central_angle_value'] = 45  # Значение по умолчанию
+        
+        show_inscribed_angles = extract_param("show_inscribed_angles", "False", lambda x: x.lower() == "true")
+        if show_inscribed_angles:
+            params['show_inscribed_angles'] = True
+            if 'inscribed_angle_value' not in params or params['inscribed_angle_value'] is None:
+                params['inscribed_angle_value'] = 30  # Значение по умолчанию
+        
+        show_tangent = extract_param("show_tangent", "False", lambda x: x.lower() == "true")
+        if show_tangent:
             params['show_tangent'] = True
-            # Устанавливаем точку касания справа от окружности (0 градусов)
-            params['tangent_point'] = 0
+        
+        tangent_point = extract_param("tangent_point")
+        if tangent_point:
+            try:
+                # Извлекаем координаты из строки
+                coords = re.findall(r'[-+]?\d*\.?\d+', tangent_point)
+                if len(coords) >= 2:
+                    params['tangent_point'] = (float(coords[0]), float(coords[1]))
+                    params['show_tangent'] = True
+            except Exception:
+                pass
+        
+        # Дополнительная проверка на ключевые слова в тексте
+        if re.search(r'радиус', task_text, re.IGNORECASE) and params.get('show_radius') is not True:
+            params['show_radius'] = True
+        
+        if re.search(r'диаметр', task_text, re.IGNORECASE) and params.get('show_diameter') is not True:
+            params['show_diameter'] = True
+        
+        if re.search(r'хорд[а-я]', task_text, re.IGNORECASE) and params.get('show_chord') is not True:
+            params['show_chord'] = True
         
         # Показываем касательную, если это указано в тексте
-        if re.search(r'касательн[а-я]+|точк[а-я]+\s+касани[а-я]+', task_text, re.IGNORECASE):
+        if re.search(r'касательн[а-я]+|точк[а-я]+\s+касани[а-я]+', task_text, re.IGNORECASE) and not params.get('show_tangent'):
             params['show_tangent'] = True
-            
-        # Показываем углы, если это указано в тексте
-        if re.search(r'угл[а-я]+|вписанн[а-я]+\s+угл|центральн[а-я]+\s+угл', task_text, re.IGNORECASE):
-            # По умолчанию показываем центральные углы при упоминании углов и окружности
-            params['show_central_angles'] = True
-            # Если конкретно упоминается вписанный угол
-            if re.search(r'вписанн[а-я]+\s+угл', task_text, re.IGNORECASE):
-                params['show_inscribed_angles'] = True
-                params['inscribed_angle_value'] = params.get('inscribed_angle_value', 30)
+            if not params.get('tangent_point'):
+                # Устанавливаем точку касания справа от окружности (0 градусов)
+                cx, cy = params.get('center', (0, 0))
+                r = params.get('radius', 3)
+                params['tangent_point'] = (cx + r, cy)
         
-        # Определяем, какие конкретно углы нужно показать
-        if "угол" in task_text.lower() or "углы" in task_text.lower():
-            # Проверяем, упоминаются ли конкретные углы
-            angle_names = re.findall(r'угл[а-я]*\s+([A-Z])', task_text)
-            if angle_names:
-                params['show_specific_angles'] = angle_names
+        # Показываем углы, если это указано в тексте
+        if re.search(r'центральн[а-я]+\s+угл', task_text, re.IGNORECASE) and not params.get('show_central_angles'):
+            params['show_central_angles'] = True
+            if not params.get('central_angle_value'):
+                params['central_angle_value'] = 45  # Значение по умолчанию
+        
+        if re.search(r'вписанн[а-я]+\s+угл', task_text, re.IGNORECASE) and not params.get('show_inscribed_angles'):
+            params['show_inscribed_angles'] = True
+            if not params.get('inscribed_angle_value'):
+                params['inscribed_angle_value'] = 30  # Значение по умолчанию
         
         return Circle(params) 

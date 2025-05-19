@@ -41,6 +41,13 @@ class Rectangle(GeometricFigure):
         width = self.params.get('width', 4)
         height = self.params.get('height', 3)
         
+        # Проверяем, равны ли ширина и высота для квадрата
+        if abs(width - height) < 1e-6:
+            # Для квадрата устанавливаем равные стороны
+            self.params['is_square'] = True
+        else:
+            self.params['is_square'] = False
+        
         # Вычисляем координаты вершин прямоугольника
         return [(x, y), (x + width, y), (x + width, y + height), (x, y + height)]
     
@@ -89,6 +96,10 @@ class Rectangle(GeometricFigure):
         if self.params.get('show_heights', False):
             self._add_heights(ax)
             
+        # Добавляем диагонали, если они должны быть отображены
+        if self.params.get('show_diagonals', False):
+            self._add_diagonals(ax)
+            
         return ax
     
     def _add_heights(self, ax):
@@ -128,6 +139,48 @@ class Rectangle(GeometricFigure):
                 elif i == 3:  # Левый верхний угол
                     ax.plot([px, px + angle_size], [py, py], 'k-', lw=0.8)
                     ax.plot([px, px], [py, py - angle_size], 'k-', lw=0.8)
+    
+    def _add_diagonals(self, ax):
+        """
+        Добавляет отображение диагоналей прямоугольника.
+        
+        Args:
+            ax (matplotlib.axes.Axes): Оси для отрисовки
+        """
+        points = self.compute_points()
+        
+        # Рисуем диагональ из нижнего левого угла (0) в верхний правый (2)
+        ax.plot([points[0][0], points[2][0]], [points[0][1], points[2][1]], 'b--', lw=1)
+        
+        # Рисуем диагональ из нижнего правого угла (1) в верхний левый (3)
+        ax.plot([points[1][0], points[3][0]], [points[1][1], points[3][1]], 'b--', lw=1)
+        
+        # Вычисляем длины диагоналей
+        diag1_length = np.sqrt((points[2][0] - points[0][0])**2 + (points[2][1] - points[0][1])**2)
+        diag2_length = np.sqrt((points[3][0] - points[1][0])**2 + (points[3][1] - points[1][1])**2)
+        
+        # Получаем значения диагоналей (если заданы явно)
+        diagonals_length = self.params.get('diagonals_length', None)
+        if diagonals_length and len(diagonals_length) >= 2:
+            diag1_text = str(diagonals_length[0])
+            diag2_text = str(diagonals_length[1])
+        else:
+            # Используем вычисленные значения
+            diag1_text = f"{diag1_length:.2f}".rstrip('0').rstrip('.')
+            diag2_text = f"{diag2_length:.2f}".rstrip('0').rstrip('.')
+        
+        # Отображаем значения диагоналей в центре
+        mid_x = (points[0][0] + points[2][0]) / 2
+        mid_y = (points[0][1] + points[2][1]) / 2
+        
+        # Размещаем метки диагоналей немного в стороне, чтобы они не накладывались
+        offset = min(self.params.get('width', 4), self.params.get('height', 3)) * 0.1
+        
+        ax.text(mid_x - offset, mid_y - offset, diag1_text, ha='center', va='center', 
+                color='blue', fontsize=10, bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
+        
+        ax.text(mid_x + offset, mid_y + offset, diag2_text, ha='center', va='center', 
+                color='blue', fontsize=10, bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
     
     def add_vertex_labels(self, ax):
         """
@@ -260,73 +313,94 @@ class Rectangle(GeometricFigure):
             Rectangle: Объект прямоугольника с параметрами из текста
         """
         import re
-        from app.prompts import DEFAULT_VISUALIZATION_PARAMS
+        from app.prompts import DEFAULT_VISUALIZATION_PARAMS, REGEX_PATTERNS
         
         params = DEFAULT_VISUALIZATION_PARAMS["rectangle"].copy()
+        rect_patterns = REGEX_PATTERNS["rectangle"]
         
-        # Ищем размеры прямоугольника
-        dimensions_pattern = r'(прямоугольник|ширин[а-я]+|длин[а-я]+)[а-я\s]*[=:]?\s*(\d+(?:[,.]\d+)?)[а-я\s,]*[=:]?\s*(?:и|[а-я]+\s+)?(\d+(?:[,.]\d+)?)'
-        dimensions_match = re.search(dimensions_pattern, task_text, re.IGNORECASE)
-        
-        if dimensions_match:
-            try:
-                width = float(dimensions_match.group(2).replace(',', '.'))
-                height = float(dimensions_match.group(3).replace(',', '.'))
-                params['width'] = width
-                params['height'] = height
-            except Exception:
-                pass
-        
-        # Проверяем, является ли прямоугольник квадратом
-        if re.search(r'квадрат', task_text, re.IGNORECASE):
-            # Ищем сторону квадрата
-            square_side_pattern = r'квадрат[а-я\s]*[=:]?\s*(\d+(?:[,.]\d+)?)'
-            square_side_match = re.search(square_side_pattern, task_text, re.IGNORECASE)
+        # Функция для извлечения параметра по соответствующему регулярному выражению
+        def extract_param(param_name, default=None, convert_type=None):
+            pattern = rect_patterns.get(param_name)
+            if not pattern:
+                return default
             
-            if square_side_match:
+            match = re.search(pattern, task_text, re.IGNORECASE)
+            if not match:
+                return default
+            
+            value = match.group(1).strip().replace(',', '.')
+            if convert_type:
                 try:
-                    side = float(square_side_match.group(1).replace(',', '.'))
-                    params['width'] = side
-                    params['height'] = side
-                except Exception:
-                    pass
+                    return convert_type(value)
+                except:
+                    return default
+            return value
         
-        # Ищем высоту прямоугольника
-        height_pattern = r'высот[а-я]*\s+прямоугольник[а-я]*\s*[=:]?\s*(\d+(?:[,.]\d+)?)'
-        height_match = re.search(height_pattern, task_text, re.IGNORECASE)
-        
-        if height_match:
+        # Функция для преобразования строки со списком чисел в список float
+        def parse_numeric_list(input_str):
+            if not input_str:
+                return None
             try:
-                height_value = float(height_match.group(1).replace(',', '.'))
-                params['height'] = height_value
-                params['show_heights'] = True
-            except Exception:
-                pass
+                # Ищем все числа в строке, включая десятичные и отрицательные
+                numbers = re.findall(r'[-+]?\d*\.?\d+', input_str)
+                return [float(num) for num in numbers] if numbers else None
+            except:
+                return None
         
-        # Показываем длины сторон, если это указано в тексте или если это задача на вычисление площади/периметра
-        if re.search(r'найд[а-я]+\s+сторон|найд[а-я]+\s+длин|длин[а-я]+\s+сторон|площадь|периметр', task_text, re.IGNORECASE):
+        # Извлекаем размеры прямоугольника
+        dimensions = extract_param("dimensions")
+        if dimensions:
+            dimensions_list = parse_numeric_list(dimensions)
+            if dimensions_list and len(dimensions_list) >= 2:
+                params['width'] = dimensions_list[0]
+                params['height'] = dimensions_list[1]
+        
+        # Извлекаем метки вершин
+        vertex_labels = extract_param("vertex_labels")
+        if vertex_labels:
+            # Извлекаем буквы из строки
+            labels = re.findall(r'[A-Za-z]', vertex_labels)
+            if len(labels) >= 4:
+                params['vertex_labels'] = labels[:4]
+        
+        # Извлекаем параметры для отображения
+        show_dimensions = extract_param("show_dimensions", "False", lambda x: x.lower() == "true")
+        if show_dimensions:
             params['show_lengths'] = True
         
-        # Показываем углы, если это указано в тексте
-        if re.search(r'найд[а-я]+\s+угл|угл[а-я]+\s+прямоугольник|величин[а-я]+\s+угл', task_text, re.IGNORECASE):
+        # Извлекаем значения длин сторон
+        side_lengths = extract_param("side_lengths")
+        if side_lengths:
+            lengths_list = parse_numeric_list(side_lengths)
+            if lengths_list:
+                params['side_lengths'] = lengths_list
+        
+        # Проверяем необходимость отображения углов
+        show_angles = extract_param("show_angles", "False", lambda x: x.lower() == "true")
+        if show_angles:
             params['show_angles'] = True
-            params['show_right_angles'] = True
         
-        # Показываем высоты, если это указано в тексте
-        if re.search(r'высот[а-я]+|найд[а-я]+\s+высот[а-я]+|вычисл[а-я]+\s+высот', task_text, re.IGNORECASE):
-            params['show_heights'] = True
+        # Извлекаем параметры для диагоналей
+        show_diagonals = extract_param("show_diagonals", "False", lambda x: x.lower() == "true")
+        if show_diagonals:
+            params['show_diagonals'] = True
         
-        # Определяем, какие конкретно стороны или углы нужно показать
-        if "сторон" in task_text.lower():
-            # Проверяем, упоминаются ли конкретные стороны
-            side_names = re.findall(r'сторон[а-я]*\s+([A-Z]{2})', task_text)
-            if side_names:
-                params['show_specific_sides'] = side_names
+        # Извлекаем значения длин диагоналей
+        diagonals_length = extract_param("diagonals_length")
+        if diagonals_length:
+            diag_lengths = parse_numeric_list(diagonals_length)
+            if diag_lengths:
+                params['diagonals_length'] = diag_lengths
         
-        if "угол" in task_text.lower() or "углы" in task_text.lower():
-            # Проверяем, упоминаются ли конкретные углы
-            angle_names = re.findall(r'угл[а-я]*\s+([A-Z])', task_text)
-            if angle_names:
-                params['show_specific_angles'] = angle_names
+        # Дополнительная проверка на ключевые слова в тексте
+        if re.search(r'квадрат|равносторонний прямоугольник', task_text, re.IGNORECASE):
+            # Делаем стороны равными
+            side_length = max(params.get('width', 4), params.get('height', 3))
+            params['width'] = side_length
+            params['height'] = side_length
+        
+        # Проверяем на наличие упоминаний о диагоналях
+        if re.search(r'диагонал[а-я]+', task_text, re.IGNORECASE):
+            params['show_diagonals'] = True
         
         return Rectangle(params) 

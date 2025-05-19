@@ -164,20 +164,25 @@ class Trapezoid(GeometricFigure):
         ax = super().draw(ax)
         
         # Добавляем высоты, если они должны быть отображены
-        if self.params.get('show_heights', False):
+        if self.params.get('show_height', False):
             self._add_heights(ax)
+            
+        # Добавляем среднюю линию, если она должна быть отображена
+        if self.params.get('show_midline', False):
+            self._add_midline(ax)
             
         return ax
     
     def _add_heights(self, ax):
         """
-        Добавляет отображение высот трапеции.
+        Добавляет отображение высоты трапеции.
         
         Args:
             ax (matplotlib.axes.Axes): Оси для отрисовки
         """
         points = self.compute_points()
         height = self.params.get('height', 3)
+        height_value = self.params.get('height_value', height)
         
         # Рисуем высоту от нижнего основания к верхнему
         # Выбираем точку в середине нижнего основания
@@ -193,9 +198,41 @@ class Trapezoid(GeometricFigure):
         ax.plot([middle_x, middle_x], [middle_y, top_y], 'r--', lw=1)
         
         # Добавляем подпись высоты
-        height_text = f"h={height}"
+        height_text = f"h={height_value}"
         ax.text(middle_x - 0.2, (middle_y + top_y) / 2, height_text, 
                 ha='right', va='center', color='red', fontsize=10,
+                bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
+    
+    def _add_midline(self, ax):
+        """
+        Добавляет отображение средней линии трапеции.
+        
+        Args:
+            ax (matplotlib.axes.Axes): Оси для отрисовки
+        """
+        points = self.compute_points()
+        
+        # Вычисляем координаты средних точек боковых сторон
+        left_side_mid = ((points[0][0] + points[3][0]) / 2, (points[0][1] + points[3][1]) / 2)
+        right_side_mid = ((points[1][0] + points[2][0]) / 2, (points[1][1] + points[2][1]) / 2)
+        
+        # Рисуем среднюю линию
+        ax.plot([left_side_mid[0], right_side_mid[0]], [left_side_mid[1], right_side_mid[1]], 'g-', lw=1.5)
+        
+        # Вычисляем длину средней линии (среднее арифметическое оснований)
+        bottom = self.params.get('bottom_width', 6)
+        top = self.params.get('top_width', 3)
+        midline_length = (bottom + top) / 2
+        
+        # Используем заданное значение, если оно есть
+        midline_value = self.params.get('midline_value', midline_length)
+        
+        # Добавляем подпись средней линии
+        midline_text = f"m={midline_value}"
+        mid_x = (left_side_mid[0] + right_side_mid[0]) / 2
+        mid_y = left_side_mid[1]
+        ax.text(mid_x, mid_y + 0.2, midline_text, 
+                ha='center', va='bottom', color='green', fontsize=10,
                 bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
     
     @staticmethod
@@ -210,98 +247,107 @@ class Trapezoid(GeometricFigure):
             Trapezoid: Объект трапеции с параметрами из текста
         """
         import re
-        from app.prompts import DEFAULT_VISUALIZATION_PARAMS
+        from app.prompts import DEFAULT_VISUALIZATION_PARAMS, REGEX_PATTERNS
         
         params = DEFAULT_VISUALIZATION_PARAMS["trapezoid"].copy()
+        trap_patterns = REGEX_PATTERNS["trapezoid"]
         
-        # Ищем размеры трапеции с более точными регулярными выражениями
-        base_patterns = [
-            r'основания\s*равнобедренной\s*трапеции\s*равны\s*(\d+(?:[,.]\d+)?)\s*и\s*(\d+(?:[,.]\d+)?)',
-            r'трапеци[а-я]*\s*с\s*основаниями\s*(\d+(?:[,.]\d+)?)\s*и\s*(\d+(?:[,.]\d+)?)',
-            r'основани[а-я]\s*(?:трапеции\s*)?равны\s*(\d+(?:[,.]\d+)?)\s*и\s*(\d+(?:[,.]\d+)?)',
-            r'основани[а-я][\s:]*(\d+(?:[,.]\d+)?)\s*и\s*(\d+(?:[,.]\d+)?)',
-            r'основани[а-я]\s*[=:]\s*(\d+(?:[,.]\d+)?)[^,;.]*(?:втор[а-я]+|друг[а-я]+)\s*основани[а-я]\s*[=:]\s*(\d+(?:[,.]\d+)?)'
-        ]
-        
-        for pattern in base_patterns:
-            base_matches = re.findall(pattern, task_text, re.IGNORECASE)
-            if base_matches:
+        # Функция для извлечения параметра по соответствующему регулярному выражению
+        def extract_param(param_name, default=None, convert_type=None):
+            pattern = trap_patterns.get(param_name)
+            if not pattern:
+                return default
+            
+            match = re.search(pattern, task_text, re.IGNORECASE)
+            if not match:
+                return default
+            
+            value = match.group(1).strip().replace(',', '.')
+            if convert_type:
                 try:
-                    # Преобразуем строки в числа, заменяя запятые на точки
-                    val1 = float(base_matches[0][0].replace(',', '.'))
-                    val2 = float(base_matches[0][1].replace(',', '.'))
-                    # Нижнее основание обычно больше верхнего
-                    bottom = max(val1, val2)
-                    top = min(val1, val2)
-                    params['bottom_width'] = bottom
-                    params['top_width'] = top
-                    break
-                except Exception:
-                    pass
+                    return convert_type(value)
+                except:
+                    return default
+            return value
+        
+        # Функция для преобразования строки со списком чисел в список float
+        def parse_numeric_list(input_str):
+            if not input_str:
+                return None
+            try:
+                # Ищем все числа в строке, включая десятичные и отрицательные
+                numbers = re.findall(r'[-+]?\d*\.?\d+', input_str)
+                return [float(num) for num in numbers] if numbers else None
+            except:
+                return None
+        
+        # Извлекаем основания трапеции
+        bases = extract_param("bases")
+        if bases:
+            bases_list = parse_numeric_list(bases)
+            if bases_list and len(bases_list) >= 2:
+                params['bottom_width'] = max(bases_list[0], bases_list[1])
+                params['top_width'] = min(bases_list[0], bases_list[1])
+        
+        # Извлекаем высоту
+        height = extract_param("height", None, float)
+        if height is not None:
+            params['height'] = height
+        
+        # Извлекаем параметры для отображения высоты
+        show_height = extract_param("show_height", "False", lambda x: x.lower() == "true")
+        if show_height:
+            params['show_height'] = True
+        
+        height_value = extract_param("height_value", None, float)
+        if height_value is not None:
+            params['height_value'] = height_value
+            params['show_height'] = True
+        
+        # Извлекаем параметры для средней линии
+        show_midline = extract_param("show_midline", "False", lambda x: x.lower() == "true")
+        if show_midline:
+            params['show_midline'] = True
+        
+        midline_value = extract_param("midline_value", None, float)
+        if midline_value is not None:
+            params['midline_value'] = midline_value
+            params['show_midline'] = True
+        
+        # Извлекаем метки вершин
+        vertex_labels = extract_param("vertex_labels")
+        if vertex_labels:
+            # Извлекаем буквы из строки
+            labels = re.findall(r'[A-Za-z]', vertex_labels)
+            if len(labels) >= 4:
+                params['vertex_labels'] = labels[:4]
+        
+        # Извлекаем боковые стороны
+        sides = extract_param("sides")
+        if sides:
+            sides_list = parse_numeric_list(sides)
+            if sides_list and len(sides_list) >= 2:
+                params['sides'] = sides_list
+                if sides_list[0] == sides_list[1]:
+                    params['is_isosceles'] = True
+        
+        # Извлекаем углы
+        angles = extract_param("angles")
+        if angles:
+            angles_list = parse_numeric_list(angles)
+            if angles_list and len(angles_list) >= 2:
+                params['angle_values'] = angles_list
         
         # Распознаем равнобедренную трапецию
         if re.search(r'равнобедренн[а-я]*\s*трапеци', task_text, re.IGNORECASE):
             params['is_isosceles'] = True
-            
-        # Ищем высоту трапеции
-        height_pattern = r'высота\s*[=:]\s*(\d+(?:[,.]\d+)?)'
-        height_matches = re.findall(height_pattern, task_text, re.IGNORECASE)
         
-        if height_matches:
-            try:
-                params['height'] = float(height_matches[0].replace(',', '.'))
-                params['show_heights'] = True
-            except Exception:
-                pass
-                
-        # Ищем углы трапеции
-        angles_pattern = r'угл[а-я]*\s+(?:трапеции\s+)?равн[а-я]*\s+(\d+(?:[,.]\d+)?)[°\s]+,?\s*(\d+(?:[,.]\d+)?)[°\s]+,?\s*(\d+(?:[,.]\d+)?)[°\s]+,?\s*и\s*(\d+(?:[,.]\d+)?)[°\s]+'
-        angles_match = re.search(angles_pattern, task_text, re.IGNORECASE)
+        # Дополнительные проверки по ключевым словам
+        if re.search(r'высот[а-я]*\s*трапеци|найд[а-я]+\s*высот[а-я]', task_text, re.IGNORECASE):
+            params['show_height'] = True
         
-        if angles_match:
-            try:
-                angles = [float(angle.replace(',', '.')) for angle in angles_match.groups()]
-                params['angle_values'] = angles
-                params['show_angles'] = True
-            except Exception:
-                pass
-        else:
-            # Ищем случай с двумя углами (обычно при основании)
-            two_angles_pattern = r'углы\s+при\s+(?:нижнем\s+)?основании\s+равны\s+(\d+(?:[,.]\d+)?)[°\s]+'
-            two_angles_match = re.search(two_angles_pattern, task_text, re.IGNORECASE)
-            
-            if two_angles_match:
-                try:
-                    base_angle = float(two_angles_match.group(1).replace(',', '.'))
-                    # Для равнобедренной трапеции, углы при основании равны
-                    if params['is_isosceles']:
-                        top_angle = 180 - base_angle
-                        params['angle_values'] = [base_angle, top_angle, top_angle, base_angle]
-                        params['show_angles'] = True
-                except Exception:
-                    pass
-        
-        # Определяем, какие параметры надо показывать
-        params['show_lengths'] = "основани" in task_text.lower() or "сторон" in task_text.lower()
-        
-        # Для задачи с основаниями показываем только основания, а не все стороны
-        if params['show_lengths'] and "основани" in task_text.lower():
-            params['show_specific_sides'] = ["AB", "DC"]
-        
-        # Показываем углы, если это указано в тексте
-        if re.search(r'найд[а-я]+\s+угл|угл[а-я]+\s+трапеци|величин[а-я]+\s+угл', task_text, re.IGNORECASE):
-            params['show_angles'] = True
-            
-        # Показываем высоту, если это указано в тексте
-        if re.search(r'высот[а-я]+|найд[а-я]+\s+высот[а-я]+|вычисл[а-я]+\s+высот', task_text, re.IGNORECASE):
-            params['show_heights'] = True
-            
-        # Определяем, какие конкретно углы нужно показать
-        if "угол" in task_text.lower() or "углы" in task_text.lower():
-            # Проверяем, упоминаются ли конкретные углы
-            angle_names = re.findall(r'угл[а-я]*\s+([A-Z])', task_text)
-            if angle_names:
-                params['show_specific_angles'] = angle_names
+        if re.search(r'средн[а-я]+\s*лини[а-я]', task_text, re.IGNORECASE):
+            params['show_midline'] = True
         
         return Trapezoid(params)
 

@@ -37,6 +37,9 @@ try:
     from app.utils.converters import convert_html_to_markdown as html_to_markdown
 except ImportError:
     from utils.converters import convert_html_to_markdown as html_to_markdown
+    
+from app.visualization.processors import process_visualization_params as process_viz_params
+
 
 # Настройка логирования
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -607,44 +610,11 @@ def process_visualization_params(params_text):
     Обрабатывает параметры визуализации и создает изображение.
     """
     try:
-        # Предварительная обработка параметров - удаление или экранирование LaTeX-разметки
-        # Заменяем все обратные слэши на двойные (для экранирования в Python)
-        clean_params_text = params_text.replace('\\', '\\\\')
-        
-        # Удаляем специальные LaTeX-команды, которые могут вызвать проблемы при eval()
-        latex_commands = [r'\\frac', r'\\sqrt', r'\\cdot', r'\\left', r'\\right', 
-                         r'\\sum', r'\\int', r'\\prod', r'\\infty']
-        for cmd in latex_commands:
-            clean_params_text = clean_params_text.replace(cmd, '')
-        
-        # Удаляем все LaTeX окружения вроде \(...\) или $...$
-        clean_params_text = re.sub(r'\\?\(.*?\\?\)', '', clean_params_text)
-        clean_params_text = re.sub(r'\$.*?\$', '', clean_params_text)
-        
-        # Пробуем извлечь Python-словарь из текста
-        dict_match = re.search(r'\{.*\}', clean_params_text, re.DOTALL)
-        if dict_match:
-            dict_text = dict_match.group(0)
-            # Теперь строка должна быть безопасна для eval()
-            try:
-                params = eval(dict_text)
-                if isinstance(params, dict):
-                    return create_image_from_params(params), params.get("type", "unknown")
-                else:
-                    logging.error("Результат eval() не является словарем")
-                    return None, "unknown"
-            except Exception as e:
-                # Если обработка не помогла, записываем ошибку в лог
-                logging.error(f"Ошибка при выполнении eval() для параметров визуализации: {e}")
-                logging.error(f"Текст параметров: {dict_text}")
-        else:
-            logging.error("Не удалось найти словарь в параметрах визуализации")
-        
-        # Если что-то пошло не так, используем значения по умолчанию
-        # Возвращаем пустые значения
-        return None, "unknown"
+        # Используем уже импортированную функцию process_viz_params
+        return process_viz_params(params_text)
     except Exception as e:
         logging.error(f"Ошибка при обработке параметров визуализации: {e}")
+        logging.error(traceback.format_exc())
         return None, "unknown"
 
 def extract_visualization_params(task_text, category, subcategory):
@@ -1724,6 +1694,13 @@ def generate_complete_task(category, subcategory="", difficulty_level=3, is_basi
         # Определяем, нужна ли визуализация
         add_visualization = needs_visualization(original_task, category, subcategory, is_basic_level)
         
+        # Принудительно включаем визуализацию для планиметрии и геометрии
+        if category.lower() == "планиметрия" or "геометр" in category.lower():
+            add_visualization = True
+            logging.info(f"Принудительное включение визуализации для категории {category}")
+        
+        logging.info(f"Визуализация для категории '{category}' и подкатегории '{subcategory}': {add_visualization}")
+        
         # Генерируем промпт для создания полного материала
         prompt = create_complete_task_prompt(category, subcategory, original_task, difficulty_level, add_visualization)
         
@@ -1778,8 +1755,26 @@ def generate_complete_task(category, subcategory="", difficulty_level=3, is_basi
         if visualization_match:
             # Обрабатываем параметры визуализации
             params_text = visualization_match.group(1).strip()
+            logging.info(f"Извлечены параметры для визуализации, первые 200 символов: {params_text[:200]}")
+            
+            # Проверяем, содержит ли текст параметров строку "Визуализация не требуется"
+            if re.search(r'визуализация\s+не\s+требуется', params_text.lower()):
+                logging.info("В параметрах содержится 'Визуализация не требуется'")
+            else:
+                # Ищем тип визуализации
+                type_match = re.search(r'Тип:?\s*([^\n]+)', params_text)
+                if type_match:
+                    extracted_type = type_match.group(1).strip().lower()
+                    logging.info(f"Извлеченный тип визуализации: {extracted_type}")
+                else:
+                    logging.warning("Тип визуализации не найден в параметрах")
+            
             image_path, visualization_type = process_visualization_params(params_text)
             visualization_params = params_text
+            
+            logging.info(f"Результат обработки параметров: путь к изображению = {image_path}, тип = {visualization_type}")
+        else:
+            logging.info("Раздел с параметрами для визуализации не найден в ответе ИИ")
         
         # Формируем результат
         result = {
@@ -1795,13 +1790,20 @@ def generate_complete_task(category, subcategory="", difficulty_level=3, is_basi
         
         # Добавляем информацию об изображении и параметрах визуализации, если они есть
         if image_path:
-            result["image_path"] = image_path
-            result["visualization_params"] = visualization_params
-            result["visualization_type"] = visualization_type
-            
-            # Для удобного отображения на веб-странице
-            image_url = f"/static/images/generated/{os.path.basename(image_path)}"
-            result["image_url"] = image_url
+            # Проверяем, существует ли файл изображения
+            if os.path.exists(image_path):
+                logging.info(f"Файл изображения существует: {image_path}")
+                result["image_path"] = image_path
+                result["visualization_params"] = visualization_params
+                result["visualization_type"] = visualization_type
+                
+                # Для удобного отображения на веб-странице
+                image_url = f"/static/images/generated/{os.path.basename(image_path)}"
+                result["image_url"] = image_url
+            else:
+                logging.error(f"Файл изображения не существует: {image_path}")
+        else:
+            logging.info("Изображение не было создано")
         
         # Сохраняем полный результат для использования в приложении
         save_to_file(result, "last_generated_task.txt")

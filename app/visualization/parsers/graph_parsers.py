@@ -48,6 +48,8 @@ def parse_graph_params(params_text):
             y_range - диапазон оси Y (y_min, y_max) или None
             special_points - список особых точек [(x1, y1, метка1), ...]
     """
+    from app.prompts import REGEX_PATTERNS
+    
     # Список функций для отображения
     funcs_to_plot = []
     
@@ -58,9 +60,16 @@ def parse_graph_params(params_text):
     # Особые точки
     special_points = []
     
+    # Получаем паттерны для графиков
+    graph_patterns = REGEX_PATTERNS.get("graph", {})
+    
     # Функция для извлечения параметра по шаблону
-    def extract_param(pattern, text, default=None):
-        match = re.search(pattern, text, re.IGNORECASE | re.MULTILINE)
+    def extract_param(param_name, default=None):
+        pattern = graph_patterns.get(param_name)
+        if not pattern:
+            return default
+            
+        match = re.search(pattern, params_text, re.IGNORECASE | re.MULTILINE)
         if match:
             try:
                 value = match.group(1).strip()
@@ -71,40 +80,6 @@ def parse_graph_params(params_text):
         return default
     
     try:
-        # МЕТОД 1: Поиск функций, цветов и меток в параметрах визуализации
-        # Для извлечения используем несколько подходов, начиная с наиболее структурированных
-        
-        # 1. Сначала ищем "Функция 1: x^2" и т.д.
-        func_pattern = r'Функция\s+(\d+):\s*(.*?)(?=Функция\s+\d+:|Цвет|Название|Диапазон|Особые|$)'
-        func_matches = re.findall(func_pattern, params_text, re.IGNORECASE | re.DOTALL)
-        
-        # Создаем словари для цветов и названий
-        color_dict = {}
-        name_dict = {}
-        
-        # Извлекаем цвета в формате "Цвет 1: красный"
-        color_pattern = r'Цвет\s+(\d+):\s*(.*?)(?=Функция|Цвет|Название|Диапазон|Особые|$)'
-        color_matches = re.findall(color_pattern, params_text, re.IGNORECASE | re.DOTALL)
-        for num_str, color in color_matches:
-            try:
-                num = int(num_str.strip())
-                color_dict[num] = color.strip()
-            except ValueError:
-                continue
-                
-        # Извлекаем названия в формате "Название 1: f(x)"
-        name_pattern = r'Название\s+(\d+):\s*(.*?)(?=Функция|Цвет|Название|Диапазон|Особые|$)'
-        name_matches = re.findall(name_pattern, params_text, re.IGNORECASE | re.DOTALL)
-        for num_str, name in name_matches:
-            try:
-                num = int(num_str.strip())
-                name_dict[num] = name.strip()
-            except ValueError:
-                continue
-        
-        # Стандартные цвета, если не указаны
-        colors = ['blue', 'red', 'green', 'orange', 'purple']
-        
         # Конвертер русских названий цветов в английские
         color_mapping = {
             'красный': 'red',
@@ -124,200 +99,44 @@ def parse_graph_params(params_text):
             'малиновый': 'magenta'
         }
         
-        # Обрабатываем найденные функции
+        # Стандартные цвета, если не указаны
+        default_colors = ['blue', 'red', 'green', 'orange', 'purple']
+        
+        # Определяем количество функций
+        num_functions_str = extract_param("num_functions")
+        num_functions = int(num_functions_str) if num_functions_str and num_functions_str.isdigit() else 0
+        
+        # Список для хранения функций
         functions = []
-        for match in func_matches:
-            try:
-                num = int(match[0].strip())
-                func_expr = match[1].strip()
+        
+        # Если количество функций указано и больше 0
+        if num_functions > 0:
+            for i in range(1, min(num_functions + 1, 5)):  # Максимум 4 функции
+                # Извлекаем функцию i
+                func_expr = extract_param(f"function_{i}")
+                if not func_expr:
+                    continue
                 
-                # Очищаем от LaTeX-разметки и приводим к Python-синтаксису
-                func_expr = remove_latex_markup(func_expr)
+                # Очищаем выражение функции и конвертируем для Python
+                func_expr = func_expr.replace('^', '**').replace('\\', '')
                 
-                # Определяем цвет и метку для функции
-                color = color_dict.get(num, colors[min(num-1, len(colors)-1)])
+                # Извлекаем цвет для функции i
+                color = extract_param(f"color_{i}")
+                if not color or color.lower() not in color_mapping:
+                    color = default_colors[min(i-1, len(default_colors)-1)]
+                else:
+                    color = color_mapping.get(color.lower(), color)
                 
-                # Преобразуем русское название цвета в английское
-                if color.lower() in color_mapping:
-                    color = color_mapping[color.lower()]
-                
-                name = name_dict.get(num, f"f_{num}(x)")
+                # Извлекаем название/метку для функции i
+                name = extract_param(f"name_{i}")
+                if not name:
+                    name = f"f_{i}(x)"
                 
                 # Добавляем функцию в список
                 functions.append((func_expr, color, name))
-                logging.info(f"Найдена функция {num}: {func_expr}, цвет: {color}, метка: {name}")
-            except Exception as e:
-                logging.warning(f"Ошибка при обработке функции {match[0]}: {e}")
+                logging.info(f"Обработана функция {i}: {func_expr}, цвет: {color}, метка: {name}")
         
-        # 2. Если функции не найдены методом выше, ищем по блокам "График 1: ..."
-        if not functions:
-            for i in range(1, 6):  # Поиск до 5 графиков
-                graph_block_pattern = rf'График\s*{i}:.*?(?=График\s*{i+1}:|Общие параметры:|$)'
-                graph_block_match = re.search(graph_block_pattern, params_text, re.DOTALL | re.IGNORECASE)
-                
-                if graph_block_match:
-                    graph_block = graph_block_match.group(0)
-                    
-                    # Извлекаем функцию из блока
-                    func_pattern = rf'Функция:?\s*([^\n]+)'
-                    func_match = re.search(func_pattern, graph_block, re.IGNORECASE)
-                    
-                    if func_match:
-                        func_str = func_match.group(1).strip()
-                        func_str = remove_latex_markup(func_str)
-                        
-                        # Ищем цвет
-                        color_pattern = r'Цвет:?\s*([^\n]+)'
-                        color_match = re.search(color_pattern, graph_block, re.IGNORECASE)
-                        color = color_match.group(1).strip() if color_match else colors[min(i-1, len(colors)-1)]
-                        
-                        # Преобразуем русское название цвета в английское
-                        if color.lower() in color_mapping:
-                            color = color_mapping[color.lower()]
-                        
-                        # Ищем метку
-                        label_pattern = r'(Название|Метка|Подпись):?\s*([^\n]+)'
-                        label_match = re.search(label_pattern, graph_block, re.IGNORECASE)
-                        label = label_match.group(2).strip() if label_match else f"f_{i}(x)"
-                        
-                        # Извлекаем диапазоны X и Y для этой функции, если указаны
-                        x_range_pattern = r'Диапазон\s+X:?\s*\[?(.*?)\]?(?=Диапазон\s+Y|Цвет|Название|Метка|Особые|$)'
-                        x_range_match = re.search(x_range_pattern, graph_block, re.IGNORECASE)
-                        
-                        if x_range_match:
-                            x_range_str = x_range_match.group(1).strip()
-                            try:
-                                x_min, x_max = map(float, x_range_str.split(','))
-                                x_range = (x_min, x_max)
-                            except Exception as e:
-                                logging.warning(f"Ошибка при разборе диапазона X для графика {i}: {e}")
-                        
-                        y_range_pattern = r'Диапазон\s+Y:?\s*\[?(.*?)\]?(?=Диапазон\s+X|Цвет|Название|Метка|Особые|$)'
-                        y_range_match = re.search(y_range_pattern, graph_block, re.IGNORECASE)
-                        
-                        if y_range_match:
-                            y_range_str = y_range_match.group(1).strip()
-                            if y_range_str.lower() != 'автоматический':
-                                try:
-                                    y_min, y_max = map(float, y_range_str.split(','))
-                                    y_range = (y_min, y_max)
-                                except Exception as e:
-                                    logging.warning(f"Ошибка при разборе диапазона Y для графика {i}: {e}")
-                        
-                        # Нормализуем выражение функции для Python
-                        func_str = func_str.replace('^', '**')
-                        
-                        # Добавляем функцию в список
-                        functions.append((func_str, color, label))
-                        logging.info(f"Найдена функция для графика {i}: {func_str}, цвет: {color}, метка: {label}")
-        
-        # 3. Поиск функций напрямую в тексте задачи
-        if not functions:
-            # Ищем функции напрямую в формате "Функция 1: x^2"
-            for i in range(1, 6):  # Поиск до 5 функций
-                func_pattern = rf'Функция\s*{i}:?\s*([^\n]+)'
-                func_match = re.search(func_pattern, params_text, re.IGNORECASE | re.MULTILINE)
-                
-                if func_match:
-                    func_str = func_match.group(1).strip()
-                    # Очищаем от LaTeX-разметки полностью
-                    func_str = remove_latex_markup(func_str)
-                    
-                    # Определяем цвет и метку для функции
-                    color = color_dict.get(i, colors[min(i-1, len(colors)-1)])
-                    
-                    # Преобразуем русское название цвета в английское
-                    if color.lower() in color_mapping:
-                        color = color_mapping[color.lower()]
-                    
-                    name = name_dict.get(i, f"f_{i}(x)")
-                    
-                    # Добавляем функцию в список
-                    functions.append((func_str, color, name))
-                    logging.info(f"Напрямую найдена функция {i}: {func_str}, цвет: {color}, метка: {name}")
-        
-        # Обрабатываем общие параметры диапазонов осей
-        x_range_pattern = r'Диапазон\s+X:?\s*\[?(.*?)\]?(?=Диапазон\s+Y|Функция|Цвет|Название|Особые|$)'
-        x_range_match = re.search(x_range_pattern, params_text, re.IGNORECASE | re.MULTILINE)
-        
-        if x_range_match:
-            x_range_str = x_range_match.group(1).strip()
-            try:
-                x_min, x_max = map(float, x_range_str.split(','))
-                x_range = (x_min, x_max)
-                logging.info(f"Найден диапазон X: [{x_min}, {x_max}]")
-            except Exception as e:
-                logging.warning(f"Ошибка при разборе диапазона X: {e}")
-        
-        y_range_pattern = r'Диапазон\s+Y:?\s*\[?(.*?)\]?(?=Диапазон\s+X|Функция|Цвет|Название|Особые|$)'
-        y_range_match = re.search(y_range_pattern, params_text, re.IGNORECASE | re.MULTILINE)
-        
-        if y_range_match:
-            y_range_str = y_range_match.group(1).strip()
-            if y_range_str.lower() != 'автоматический':
-                try:
-                    y_min, y_max = map(float, y_range_str.split(','))
-                    y_range = (y_min, y_max)
-                    logging.info(f"Найден диапазон Y: [{y_min}, {y_max}]")
-                except Exception as e:
-                    logging.warning(f"Ошибка при разборе диапазона Y: {e}")
-        
-        # Ищем особые точки
-        special_points_pattern = r'Особые точки:\s*(.*?)(?=Функция|Диапазон|$)'
-        special_points_match = re.search(special_points_pattern, params_text, re.DOTALL | re.IGNORECASE)
-        
-        if special_points_match:
-            try:
-                special_points_str = special_points_match.group(1).strip()
-                # Извлекаем точки в формате (x, y, метка)
-                points_list = re.findall(r'\(([^)]+)\)', special_points_str)
-                
-                for point_str in points_list:
-                    try:
-                        # Разделяем по запятой на x, y, label
-                        parts = point_str.split(',', 2)
-                        
-                        if len(parts) >= 2:
-                            x_expr = parts[0].strip()
-                            y_expr = parts[1].strip()
-                            label = parts[2].strip() if len(parts) > 2 else ""
-                            
-                            # Вычисляем значения координат, поддерживая математические выражения
-                            import math
-                            
-                            # Обрабатываем x_expr
-                            x_expr = x_expr.replace('^', '**').replace('sqrt', 'math.sqrt')
-                            if any(func in x_expr for func in ['math.', 'sqrt', 'sin', 'cos']):
-                                x_val = eval(x_expr)
-                            else:
-                                x_val = float(x_expr)
-                            
-                            # Обрабатываем y_expr
-                            if 'f(' in y_expr:
-                                # Если y задан через значение функции
-                                if functions:
-                                    func_expr = functions[0][0]
-                                    y_val = eval(func_expr.replace('x', f'({x_val})'))
-                                else:
-                                    logging.warning(f"Не удалось вычислить значение функции для точки ({x_expr}, {y_expr})")
-                                    continue
-                            else:
-                                # Если y задан явно
-                                y_expr = y_expr.replace('^', '**').replace('sqrt', 'math.sqrt')
-                                if any(func in y_expr for func in ['math.', 'sqrt', 'sin', 'cos']):
-                                    y_val = eval(y_expr)
-                                else:
-                                    y_val = float(y_expr)
-                            
-                            # Добавляем точку с вычисленными координатами
-                            special_points.append((x_val, y_val, label))
-                            logging.info(f"Добавлена особая точка: ({x_val}, {y_val}, {label})")
-                    except Exception as e:
-                        logging.warning(f"Ошибка при обработке точки '{point_str}': {e}")
-            except Exception as e:
-                logging.warning(f"Ошибка при обработке списка особых точек: {e}")
-        
-        # Если функции всё еще не найдены, попробуем найти в общем тексте задачи
+        # Если функции не найдены через параметры, пробуем извлечь из текста общими методами
         if not functions:
             # Поиск функций в формате y=... или f(x)=...
             general_func_patterns = [
@@ -345,26 +164,85 @@ def parse_graph_params(params_text):
                     func_expr = func_expr.replace('^', '**')
                     
                     # Выбираем цвет
-                    color_idx = j % len(colors)
-                    color = colors[color_idx]
+                    color_idx = j % len(default_colors)
+                    color = default_colors[color_idx]
                     
                     # Добавляем функцию, если она уникальна
                     if not any(f[0] == func_expr for f in functions):
                         functions.append((func_expr, color, func_name))
                         logging.info(f"Найдена функция в общем тексте: {func_expr}, метка: {func_name}")
         
-        # Если функции всё ещё не найдены, используем стандартную функцию
-        if not functions:
-            functions = [('x**2', 'blue', 'f(x)')]
-            logging.warning("Не удалось найти ни одной функции, использую стандартный график параболы")
+        # Извлекаем диапазоны X и Y
+        x_range_str = extract_param("x_range")
+        if x_range_str:
+            try:
+                # Извлекаем числа из строки
+                x_range_values = re.findall(r'[-+]?\d*\.?\d+', x_range_str)
+                if len(x_range_values) >= 2:
+                    x_range = (float(x_range_values[0]), float(x_range_values[1]))
+                    logging.info(f"Установлен диапазон X: {x_range}")
+            except Exception as e:
+                logging.warning(f"Ошибка при разборе диапазона X: {e}")
         
-        # Возвращаем найденные параметры
-        funcs_to_plot = functions
+        y_range_str = extract_param("y_range")
+        if y_range_str and y_range_str.lower() != 'автоматический':
+            try:
+                # Извлекаем числа из строки
+                y_range_values = re.findall(r'[-+]?\d*\.?\d+', y_range_str)
+                if len(y_range_values) >= 2:
+                    y_range = (float(y_range_values[0]), float(y_range_values[1]))
+                    logging.info(f"Установлен диапазон Y: {y_range}")
+            except Exception as e:
+                logging.warning(f"Ошибка при разборе диапазона Y: {e}")
+        
+        # Извлекаем особые точки
+        special_points_str = extract_param("special_points")
+        if special_points_str:
+            try:
+                # Извлекаем точки в формате (x, y, метка)
+                points_list = re.findall(r'\(([^)]+)\)', special_points_str)
+                
+                for point_str in points_list:
+                    try:
+                        # Разделяем по запятой на x, y, label
+                        parts = point_str.split(',', 2)
+                        
+                        if len(parts) >= 2:
+                            x_expr = parts[0].strip()
+                            y_expr = parts[1].strip()
+                            label = parts[2].strip() if len(parts) > 2 else ""
+                            
+                            # Вычисляем значения координат, поддерживая математические выражения
+                            import math
+                            
+                            # Обрабатываем x_expr
+                            x_expr = x_expr.replace('^', '**').replace('sqrt', 'math.sqrt')
+                            if any(func in x_expr for func in ['math.', 'sqrt', 'sin', 'cos']):
+                                x_val = eval(x_expr)
+                            else:
+                                x_val = float(x_expr)
+                                
+                            # Обрабатываем y_expr
+                            y_expr = y_expr.replace('^', '**').replace('sqrt', 'math.sqrt')
+                            if any(func in y_expr for func in ['math.', 'sqrt', 'sin', 'cos']):
+                                y_val = eval(y_expr)
+                            else:
+                                y_val = float(y_expr)
+                                
+                            # Добавляем точку в список
+                            special_points.append((x_val, y_val, label))
+                            logging.info(f"Добавлена особая точка: ({x_val}, {y_val}, '{label}')")
+                    except Exception as e:
+                        logging.warning(f"Ошибка при обработке особой точки '{point_str}': {e}")
+            except Exception as e:
+                logging.warning(f"Ошибка при разборе особых точек: {e}")
+        
+        # Возвращаем результаты
+        return functions, x_range, y_range, special_points
         
     except Exception as e:
-        logging.error(f"Ошибка при разборе параметров графика: {e}")
-        logging.error(traceback.format_exc())
-        # В случае ошибки используем стандартные значения
-        funcs_to_plot = [('x**2', 'blue', 'f(x)')]
+        logging.error(f"Общая ошибка при разборе параметров графиков: {e}")
+        # Возвращаем пустые значения по умолчанию
+        return [], (-10, 10), None, []
     
     return funcs_to_plot, x_range, y_range, special_points 

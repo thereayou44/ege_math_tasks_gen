@@ -2,6 +2,7 @@ import os
 import uuid
 import matplotlib.pyplot as plt
 import logging
+import traceback
 from app.geometry.base import GeometricFigure
 from app.geometry.trapezoid import Trapezoid
 from app.geometry.triangle import Triangle
@@ -51,41 +52,57 @@ class GeometryRenderer:
         return figure_class(params)
     
     @staticmethod
-    def render_figure(figure, filename=None):
+    def render_figure(figure, output_path=None):
         """
-        Отрисовывает геометрическую фигуру и сохраняет ее в файл.
+        Отрисовывает геометрическую фигуру и сохраняет изображение.
         
         Args:
-            figure (GeometricFigure): Объект геометрической фигуры
-            filename (str): Имя файла для сохранения. Если None, создается случайное имя.
+            figure: Объект геометрической фигуры
+            output_path: Путь для сохранения изображения
             
         Returns:
             str: Путь к сохраненному файлу или None, если не удалось сохранить
         """
         try:
-            if not isinstance(figure, GeometricFigure):
-                raise ValueError("figure должен быть экземпляром GeometricFigure")
+            if figure is None:
+                logging.error("Объект фигуры не определен")
+                return None
+                
+            # Создаем новый график
+            fig, ax = plt.subplots(figsize=(10, 10))
             
-            # Создаем фигуру и рисуем ее
-            ax = figure.draw()
+            # Отрисовываем фигуру
+            figure.draw(ax)
             
-            # Определяем имя файла
-            if filename is None:
-                filename = f"{figure.figure_type}_{uuid.uuid4().hex[:8]}.png"
+            # Применяем автоматическое масштабирование
+            ax.axis('equal')
+            ax.grid(True)
             
-            # Проверяем, содержит ли путь директорию
-            directory = os.path.dirname(filename)
-            if directory and not os.path.exists(directory):
-                os.makedirs(directory, exist_ok=True)
+            # Определяем имя файла, если не указано
+            if output_path is None:
+                # Создаем директорию для сохранения изображений, если её нет
+                output_dir = os.path.join("static", "images", "generated")
+                os.makedirs(output_dir, exist_ok=True)
+                
+                # Генерируем имя файла с указанием типа фигуры и UUID
+                figure_type = figure.__class__.__name__.lower()
+                output_path = os.path.join(output_dir, f"{figure_type}_{uuid.uuid4().hex[:8]}.png")
             
             # Сохраняем изображение
-            plt.savefig(filename, bbox_inches='tight', dpi=300)
-            plt.close()
+            plt.savefig(output_path, dpi=100, bbox_inches='tight')
+            plt.close(fig)  # Освобождаем ресурсы
             
-            return filename
+            logging.info(f"Изображение успешно сохранено: {output_path}")
+            
+            # Проверяем, существует ли файл
+            if not os.path.exists(output_path):
+                logging.error(f"Файл {output_path} не был создан")
+                return None
+            
+            return output_path
         except Exception as e:
             logging.error(f"Ошибка при отрисовке фигуры: {e}")
-            plt.close()  # Закрываем фигуру в случае ошибки
+            logging.error(traceback.format_exc())
             return None
             
     @staticmethod
@@ -116,30 +133,60 @@ class GeometryRenderer:
         Returns:
             str: Путь к сохраненному файлу или None, если не удалось сохранить
         """
-        # Определяем тип фигуры, если не указан
-        if figure_type is None:
-            figure_type = GeometryRenderer.determine_figure_type(task_text)
-            if not figure_type:
-                logging.warning("Не удалось определить тип фигуры из текста задачи")
+        try:
+            # Определяем тип фигуры, если не указан
+            if figure_type is None:
+                figure_type = GeometryRenderer.determine_figure_type(task_text)
+                if not figure_type:
+                    logging.warning("Не удалось определить тип фигуры из текста задачи")
+                    logging.warning(f"Первые 200 символов текста: {task_text[:200]}")
+                    return None
+            
+            logging.info(f"Создание геометрической фигуры типа: {figure_type}")
+            
+            # Создаем фигуру в зависимости от типа
+            if figure_type == "trapezoid":
+                figure = Trapezoid.from_text(task_text)
+            elif figure_type == "triangle":
+                figure = Triangle.from_text(task_text)
+            elif figure_type == "rectangle":
+                figure = Rectangle.from_text(task_text)
+            elif figure_type == "parallelogram":
+                figure = Parallelogram.from_text(task_text)
+            elif figure_type == "circle":
+                figure = Circle.from_text(task_text)
+            else:
+                logging.warning(f"Неизвестный тип фигуры: {figure_type}")
                 return None
-        
-        # Создаем фигуру в зависимости от типа
-        if figure_type == "trapezoid":
-            figure = Trapezoid.from_text(task_text)
-        elif figure_type == "triangle":
-            figure = Triangle.from_text(task_text)
-        elif figure_type == "rectangle":
-            figure = Rectangle.from_text(task_text)
-        elif figure_type == "parallelogram":
-            figure = Parallelogram.from_text(task_text)
-        elif figure_type == "circle":
-            figure = Circle.from_text(task_text)
-        else:
-            logging.warning(f"Неизвестный тип фигуры: {figure_type}")
+            
+            # Проверяем, что фигура создана корректно
+            if not figure:
+                logging.error(f"Не удалось создать фигуру типа {figure_type}")
+                return None
+            
+            logging.info(f"Фигура {figure_type} успешно создана. Начинаем отрисовку.")
+            
+            # Создаем директорию для сохранения изображений, если её нет
+            output_dir = os.path.join("static", "images", "generated")
+            os.makedirs(output_dir, exist_ok=True)
+            
+            # Генерируем имя файла
+            filename = f"{figure_type}_{uuid.uuid4().hex[:8]}.png"
+            output_path = os.path.join(output_dir, filename)
+            
+            # Отрисовываем фигуру
+            result = GeometryRenderer.render_figure(figure, output_path)
+            
+            if result:
+                logging.info(f"Фигура успешно отрисована и сохранена: {result}")
+            else:
+                logging.error(f"Не удалось отрисовать фигуру {figure_type}")
+            
+            return result
+        except Exception as e:
+            logging.error(f"Ошибка при создании и отрисовке фигуры: {e}")
+            logging.error(traceback.format_exc())
             return None
-        
-        # Отрисовываем фигуру
-        return GeometryRenderer.render_figure(figure)
     
     @staticmethod
     def determine_figure_type(task_text):
