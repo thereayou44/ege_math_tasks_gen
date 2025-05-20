@@ -387,7 +387,7 @@ def init_routes(app):
             if not category:
                 return jsonify({"error": "Категория не указана"}), 400
             
-            # Генерируем задачу в формате Markdown
+            # Генерируем задачу с опциональной автоматической генерацией изображения
             result = generate_markdown_task(category, subcategory, difficulty_level, is_basic_level)
             
             # Проверяем на ошибки

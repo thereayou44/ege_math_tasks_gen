@@ -33,11 +33,6 @@ except ImportError:
 import traceback
 import matplotlib.patches as patches
 # Импортируем utils.converters так, чтобы работало как из корня проекта, так и из папки app
-try:
-    from app.utils.converters import convert_html_to_markdown as html_to_markdown
-except ImportError:
-    from utils.converters import convert_html_to_markdown as html_to_markdown
-    
 from app.visualization.processors import process_visualization_params as process_viz_params
 
 
@@ -1592,7 +1587,7 @@ def create_image_from_params(params):
         traceback.print_exc()
         return None
 
-def generate_complete_task(category, subcategory="", difficulty_level=3, is_basic_level=False):
+def generate_complete_task(category, subcategory="", difficulty_level=3, is_basic_level=False, is_markdown=False):
     """
     Генерирует полную задачу, решение и подсказки с использованием YandexGPT.
     
@@ -1601,6 +1596,7 @@ def generate_complete_task(category, subcategory="", difficulty_level=3, is_basi
         subcategory: Подкатегория задачи (опционально)
         difficulty_level: Уровень сложности подсказок (1-5)
         is_basic_level: Выбор между базовым (True) и профильным (False) уровнем ЕГЭ
+        is_markdown: Если True, не преобразует текст в HTML, а возвращает оригинальный markdown
         
     Returns:
         dict: Словарь с задачей, решением, подсказками и другими данными
@@ -1608,8 +1604,6 @@ def generate_complete_task(category, subcategory="", difficulty_level=3, is_basi
     try:
         # Выбираем случайную задачу из каталога с учетом выбранного уровня
         data = select_file(category, subcategory, is_basic_level)
-
-        logging.info(f"Выбранная задача: {data}")
         
         if not data:
             return {"error": f"Не удалось найти задачи в категории '{category}' и подкатегории '{subcategory}'"}
@@ -1782,16 +1776,30 @@ def generate_complete_task(category, subcategory="", difficulty_level=3, is_basi
             logging.info("Раздел с параметрами для визуализации не найден в ответе ИИ")
         
         # Формируем результат
-        result = {
-            "task": convert_markdown_to_html(task),
-            "solution": convert_markdown_to_html(solution),
-            "hints": [convert_markdown_to_html(hint) for hint in hints],
-            "answer": answer,
-            "difficulty_level": difficulty_level,
-            "category": category,
-            "subcategory": subcategory,
-            "is_basic_level": is_basic_level
-        }
+        if is_markdown:
+            # Если запросили markdown, возвращаем оригинальный текст без конвертации в HTML
+            result = {
+                "task": task,
+                "solution": solution,
+                "hints": hints,
+                "answer": answer,
+                "difficulty_level": difficulty_level,
+                "category": category,
+                "subcategory": subcategory,
+                "is_basic_level": is_basic_level
+            }
+        else:
+            # По умолчанию преобразуем в HTML, как было раньше
+            result = {
+                "task": convert_markdown_to_html(task),
+                "solution": convert_markdown_to_html(solution),
+                "hints": [convert_markdown_to_html(hint) for hint in hints],
+                "answer": answer,
+                "difficulty_level": difficulty_level,
+                "category": category,
+                "subcategory": subcategory,
+                "is_basic_level": is_basic_level
+            }
         
         # Добавляем информацию об изображении и параметрах визуализации, если они есть
         if image_path:
@@ -2458,60 +2466,7 @@ def process_trapezoid_visualization(params_text, extract_param):
     generate_geometric_figure('trapezoid', params, output_path)
     return output_path
 
-def generate_markdown_task(category, subcategory="", difficulty_level=3, is_basic_level=False):
-    """
-    Генерирует полный пакет задачи, решения и подсказок в формате Markdown.
-    
-    Args:
-        category: Категория задачи
-        subcategory: Подкатегория задачи (опционально)
-        difficulty_level: Уровень сложности подсказок (1-5)
-        is_basic_level: Выбор между базовым (True) и профильным (False) уровнем ЕГЭ, 
-                        определяет только директорию, откуда берутся задачи
-        
-    Returns:
-        dict: Словарь с задачей, решением и подсказками в Markdown
-    """
-    try:
-        # Используем существующую функцию для генерации задачи
-        result = generate_complete_task(category, subcategory, difficulty_level, is_basic_level)
-        
-        # Проверяем на ошибки
-        if "error" in result:
-            return result
-        
-        # Преобразуем HTML в Markdown
-        from app.utils.converters import convert_html_to_markdown as html_to_markdown
-        md_task = html_to_markdown(result.get("task", ""))
-        md_solution = html_to_markdown(result.get("solution", ""))
-        md_hints = [html_to_markdown(hint) for hint in result.get("hints", [])]
-        
-        # Формируем результат
-        markdown_result = {
-            "problem": md_task,
-            "problem_picture": "",  # Пока пустое
-            "solution": md_solution,
-            "hint1": md_hints[0] if len(md_hints) > 0 else "",
-            "hint2": md_hints[1] if len(md_hints) > 1 else "",
-            "hint3": md_hints[2] if len(md_hints) > 2 else "",
-            "difficulty_level": result.get("difficulty_level", difficulty_level),
-            "is_basic_level": is_basic_level
-        }
-        
-        # Если есть изображение, добавляем его URL
-        if "image_url" in result:
-            markdown_result["problem_picture"] = result["image_url"]
-        elif "image_path" in result:
-            image_path = result["image_path"]
-            image_filename = os.path.basename(image_path)
-            image_url = f"/static/images/generated/{image_filename}"
-            markdown_result["problem_picture"] = image_url
-        
-        return markdown_result
-    except Exception as e:
-        logging.error(f"Ошибка при генерации задачи в формате Markdown: {e}")
-        logging.error(traceback.format_exc())
-        return {"error": f"Ошибка при генерации задачи в формате Markdown: {str(e)}"}
+# Функция generate_markdown_task перенесена в json_api_helpers.py
 
 def generate_json_task(category, subcategory="", difficulty_level=3, is_basic_level=False):
     """
@@ -2588,95 +2543,4 @@ def generate_json_task(category, subcategory="", difficulty_level=3, is_basic_le
     
     return json_result
 
-def generate_json_markdown_task(category, subcategory="", difficulty_level=3, is_basic_level=False):
-    """
-    Генерирует полный пакет задачи, решения и подсказок в формате JSON с Markdown для текста.
-    
-    Args:
-        category: Категория задачи
-        subcategory: Подкатегория задачи (опционально)
-        difficulty_level: Уровень сложности подсказок (1-5)
-        is_basic_level: Выбор между базовым (True) и профильным (False) уровнем ЕГЭ, 
-                        определяет только директорию, откуда берутся задачи
-        
-    Returns:
-        dict: Словарь с задачей, решением и подсказками в формате JSON с Markdown
-    """
-    try:
-        # Используем существующую функцию для генерации задачи
-        result = generate_complete_task(category, subcategory, difficulty_level, is_basic_level)
-        
-        # Проверяем на ошибки
-        if "error" in result:
-            return result
-        
-        # Извлекаем ответ из решения для отдельного поля
-        task_html = result.get("task", "")
-        solution_html = result.get("solution", "")
-        answer = result.get("answer", "")
-        
-        # Если ответ не был успешно извлечен, пробуем найти его снова
-        if not answer or answer == "См. решение":
-            answer_match = re.search(r"(?:Ответ|ОТВЕТ|ответ)\s*:(.+?)(?=$|\.|\.\s*$|\n\s*\n|\<\/p\>)", solution_html, re.IGNORECASE | re.DOTALL)
-            if answer_match:
-                answer = answer_match.group(1).strip()
-        
-        # Преобразуем HTML в Markdown
-        from app.utils.converters import convert_html_to_markdown as html_to_markdown
-        task_md = html_to_markdown(task_html)
-        solution_md = html_to_markdown(solution_html)
-        hints_md = [html_to_markdown(hint) for hint in result.get("hints", [])]
-        
-        # Подготавливаем изображения
-        task_images = []
-        solution_images = []
-        
-        # Если есть изображение в результате, добавляем его
-        if "image_path" in result:
-            image_path = result["image_path"]
-            image_filename = os.path.basename(image_path)
-            image_url = f"/static/images/generated/{image_filename}"
-            
-            # Добавляем изображение к задаче
-            task_images.append({
-                "url": image_url,
-                "alt": "Изображение к задаче"
-            })
-            
-            # В Markdown добавляем ссылку на изображение в текст задачи
-            task_md = f"![Изображение к задаче]({image_url})\n\n{task_md}"
-        elif "image_url" in result:
-            # Если есть прямая ссылка на изображение
-            image_url = result["image_url"]
-            task_images.append({
-                "url": image_url,
-                "alt": "Изображение к задаче"
-            })
-            
-            # В Markdown добавляем ссылку на изображение в текст задачи
-            task_md = f"![Изображение к задаче]({image_url})\n\n{task_md}"
-        
-        # Формируем JSON-результат с Markdown
-        json_result = {
-            "task": {
-                "text": task_md,
-                "images": task_images
-            },
-            "solution": {
-                "text": solution_md,
-                "images": solution_images
-            },
-            "answer": answer,
-            "hints": hints_md,
-            "difficulty_level": result.get("difficulty_level", difficulty_level),
-            "category": category,
-            "subcategory": subcategory,
-            "is_basic_level": is_basic_level,
-            "format": "markdown"  # Указываем формат данных
-        }
-        
-        return json_result
-    except Exception as e:
-        logging.error(f"Ошибка при генерации JSON с Markdown: {e}")
-        logging.error(traceback.format_exc())
-        return {"error": f"Ошибка при генерации задачи с Markdown: {str(e)}"}
+# Функция generate_json_markdown_task перенесена в json_api_helpers.py

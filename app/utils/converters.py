@@ -72,64 +72,6 @@ def fix_html_tags(html):
         print(f"Ошибка при исправлении HTML: {e}")
         return html
 
-def convert_html_to_markdown(html_text):
-    """
-    Конвертирует текст из формата HTML в Markdown
-    
-    Args:
-        html_text: Текст в формате HTML
-        
-    Returns:
-        str: Текст в формате Markdown
-    """
-    if not html_text:
-        return ""
-    
-    soup = BeautifulSoup(html_text, 'html.parser')
-    
-    # Удаляем ненужные атрибуты
-    for tag in soup.find_all(True):
-        tag.attrs = {}
-    
-    # Заменяем теги на Markdown
-    for strong in soup.find_all('strong'):
-        strong.replace_with(f"**{strong.get_text()}**")
-    
-    for em in soup.find_all('em'):
-        em.replace_with(f"*{em.get_text()}*")
-    
-    for u in soup.find_all('u'):
-        u.replace_with(f"_{u.get_text()}_")
-    
-    # Обрабатываем списки
-    for ul in soup.find_all('ul'):
-        for li in ul.find_all('li'):
-            li.replace_with(f"- {li.get_text()}\n")
-    
-    for ol in soup.find_all('ol'):
-        for i, li in enumerate(ol.find_all('li')):
-            li.replace_with(f"{i+1}. {li.get_text()}\n")
-    
-    # Заменяем <br> на переносы строк
-    for br in soup.find_all('br'):
-        br.replace_with('\n')
-    
-    # Параграфы
-    for p in soup.find_all('p'):
-        p.replace_with(f"{p.get_text()}\n\n")
-    
-    # Блоки кода
-    for pre in soup.find_all('pre'):
-        code = pre.find('code')
-        if code:
-            pre.replace_with(f"```\n{code.get_text()}\n```\n")
-    
-    markdown = soup.get_text()
-    
-    # Исправляем лишние переносы строк
-    markdown = re.sub(r'\n{3,}', '\n\n', markdown)
-    
-    return markdown
 
 def format_task_to_json(task, solution, hints, answer="", difficulty_level=3, is_basic_level=False, category="", subcategory=""):
     """

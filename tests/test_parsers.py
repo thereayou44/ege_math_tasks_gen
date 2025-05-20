@@ -13,7 +13,6 @@ from app.task_generator import (
     parse_hints,
     convert_markdown_to_html,
     fix_html_tags,
-    html_to_markdown
 )
 
 class TestParsers(unittest.TestCase):
@@ -125,26 +124,6 @@ class TestParsers(unittest.TestCase):
         # Проверяем, что второй абзац тоже присутствует в исправленном тексте
         self.assertIn("Второй параграф без тегов", fixed_html)
     
-    def test_html_to_markdown(self):
-        """Проверяет конвертацию HTML в Markdown."""
-        # Простой HTML
-        html = "<p>Обычный текст</p>"
-        markdown = html_to_markdown(html)
-        self.assertEqual(markdown, "Обычный текст")
-        
-        # HTML с жирным и курсивным текстом
-        html = "<p>Текст с <b>жирным</b> и <i>курсивным</i> форматированием.</p>"
-        markdown = html_to_markdown(html)
-        self.assertIn("**жирным**", markdown)
-        self.assertIn("*курсивным*", markdown)
-        
-        # HTML с математическими формулами
-        html = "<p>Формула: $\\frac{1}{2}$</p>"
-        markdown = html_to_markdown(html)
-        self.assertIn("$\\frac{1}{2}$", markdown)
-        
-        # Пустой HTML
-        self.assertEqual(html_to_markdown(""), "")
 
 if __name__ == "__main__":
     unittest.main() 
