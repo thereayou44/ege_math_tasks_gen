@@ -93,6 +93,14 @@ def select_file(category, subcategory="", is_basic_level=False):
     # Получаем абсолютный путь к корню проекта
     project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
     
+    # Проверяем, если категория является словарем, извлекаем из нее имя категории
+    if isinstance(category, dict):
+        if 'category' in category:
+            category = category['category']
+        else:
+            print(f"Некорректный формат словаря категории: {category}")
+            return None
+    
     # Выбираем соответствующий каталог в зависимости от уровня
     if is_basic_level:
         base_dir = os.path.join(project_root, "data/categories/math_base_catalog_subcategories")
@@ -116,6 +124,14 @@ def select_file(category, subcategory="", is_basic_level=False):
         random.seed(int(time.time() * 1000) % 10000000)
         subcategory = random.choice(subdirs)
         print(f"Случайно выбрана подкатегория: {subcategory}")
+    else:
+        # Проверяем, если подкатегория является словарем, извлекаем из нее имя подкатегории
+        if isinstance(subcategory, dict):
+            if 'name' in subcategory:
+                subcategory = subcategory['name']
+            else:
+                print(f"Некорректный формат словаря подкатегории: {subcategory}")
+                return None
         
     folder = os.path.join(category_dir, subcategory)
     
@@ -179,6 +195,21 @@ def extract_text_and_formulas(html_content):
     
     return text
 
+def extract_block(text, block_name):
+    """
+    Извлекает блок текста между маркерами ---НАЗВАНИЕ_БЛОКА---
+    
+    Args:
+        text: Исходный текст
+        block_name: Название блока для извлечения
+        
+    Returns:
+        str: Извлеченный текст блока или пустая строка, если блок не найден
+    """
+    pattern = f"---{block_name}---\\s*(.*?)(?=\\s*---[A-ZА-Я _]+---|\s*$)"
+    match = re.search(pattern, text, re.DOTALL)
+    return match.group(1).strip() if match else ""
+
 def yandex_gpt_generate(prompt, temperature=0.5, max_tokens=10000, is_basic_level=None):
     """
     Отправляет запрос к API YandexGPT и возвращает ответ.
@@ -192,72 +223,83 @@ def yandex_gpt_generate(prompt, temperature=0.5, max_tokens=10000, is_basic_leve
     Returns:
         str: Сгенерированный текст ответа
     """
-    # Для базового уровня добавляем случайный компонент к ключу кэша, чтобы избежать повторов
-    random_component = ""
-    if is_basic_level:
-        random_component = f"_{time.time() * 1000}"
-    
     # Создаем ключ кэша на основе параметров запроса
-    cache_key = f"{prompt}_{temperature}_{max_tokens}_{is_basic_level}{random_component}"
+    # Не добавляем случайные компоненты, чтобы кэширование было эффективным
+    cache_key = f"{prompt}_{temperature}_{max_tokens}_{is_basic_level}"
     
-    # Симулируем проверку кэша без фактического использования кэшированных ответов
+    # Проверяем кэш
     if cache_key in _task_cache:
         print("Результат найден в кэше")
-        # Удаляем устаревшую задачу из кэша
-        del _task_cache[cache_key]
+        return _task_cache[cache_key]
         
-    try:
-        # Сохраняем промпт в файл для отладки
-        prompt_file = os.path.join(DEBUG_FILES_DIR, "debug_prompt.txt")
-        # Заменяем секцию с исходной задачей на сокращенную версию для отладочного файла
+    # Максимальное количество попыток при временных ошибках
+    max_retries = 3
+    retry_delay = 2  # начальная задержка в секундах
+    
+    for attempt in range(max_retries):
+        try:
+            # Сохраняем промпт в файл для отладки
+            prompt_file = os.path.join(DEBUG_FILES_DIR, "debug_prompt.txt")
+            # Заменяем секцию с исходной задачей на сокращенную версию для отладочного файла
 
-        with open(prompt_file, 'w', encoding='utf-8') as f:
-            f.write(f"===СИСТЕМНЫЙ ПРОМПТ===\n{SYSTEM_PROMPT}\n\n===ПОЛЬЗОВАТЕЛЬСКИЙ ПРОМПТ===\n{prompt}")
-        print(f"Промпт сохранен в файл: {prompt_file}")
-        
-        url = "https://llm.api.cloud.yandex.net/foundationModels/v1/completion"
-        headers = {
-            "Content-Type": "application/json",
-            "Authorization": f"Api-Key {YANDEX_API_KEY}"
-        }
-        
-        payload = {
-            "modelUri": f"gpt://{YANDEX_FOLDER_ID}/yandexgpt/rc",
-            "completionOptions": {
-                "temperature": temperature,
-                "maxTokens": max_tokens,
-                "stream": False
-            },
-            "messages": [
-                {
-                    "role": "system",
-                    "text": SYSTEM_PROMPT
+            with open(prompt_file, 'w', encoding='utf-8') as f:
+                f.write(f"===СИСТЕМНЫЙ ПРОМПТ===\n{SYSTEM_PROMPT}\n\n===ПОЛЬЗОВАТЕЛЬСКИЙ ПРОМПТ===\n{prompt}")
+            print(f"Промпт сохранен в файл: {prompt_file}")
+            
+            url = "https://llm.api.cloud.yandex.net/foundationModels/v1/completion"
+            headers = {
+                "Content-Type": "application/json",
+                "Authorization": f"Api-Key {YANDEX_API_KEY}"
+            }
+            
+            payload = {
+                "modelUri": f"gpt://{YANDEX_FOLDER_ID}/yandexgpt/rc",
+                "completionOptions": {
+                    "temperature": temperature,
+                    "maxTokens": max_tokens,
+                    "stream": False
                 },
-                {
-                    "role": "user",
-                    "text": prompt
-                }
-            ]
-        }
-        
-        response = requests.post(url, headers=headers, json=payload)    
-        response.raise_for_status()
-        result = response.json()
-        
-        # Сохраняем результат в кэше
-        generated_text = result["result"]["alternatives"][0]["message"]["text"]
-        _task_cache[cache_key] = generated_text
-        
-        # Сохраняем ответ в файл для отладки
-        response_file = os.path.join(DEBUG_FILES_DIR, "debug_response.txt")
-        with open(response_file, 'w', encoding='utf-8') as f:
-            f.write(generated_text)
-        print(f"Ответ сохранен в файл: {response_file}")
-        
-        return generated_text
-    except Exception as e:
-        print(f"Ошибка при генерации через Yandex API: {e}")
-        return None
+                "messages": [
+                    {
+                        "role": "system",
+                        "text": SYSTEM_PROMPT
+                    },
+                    {
+                        "role": "user",
+                        "text": prompt
+                    }
+                ]
+            }
+            
+            response = requests.post(url, headers=headers, json=payload)    
+            response.raise_for_status()
+            result = response.json()
+            
+            # Сохраняем результат в кэше
+            generated_text = result["result"]["alternatives"][0]["message"]["text"]
+            _task_cache[cache_key] = generated_text
+            
+            # Сохраняем в отладочный файл
+            response_file = os.path.join(DEBUG_FILES_DIR, "debug_response.txt")
+            with open(response_file, 'w', encoding='utf-8') as f:
+                f.write(generated_text)
+            print(f"Ответ сохранен в файл: {response_file}")
+            
+            return generated_text
+        except requests.HTTPError as e:
+            # Только для ошибок 5XX пробуем повторить запрос (проблемы на стороне сервера)
+            if hasattr(e.response, 'status_code') and 500 <= e.response.status_code < 600:
+                if attempt < max_retries - 1:  # если это не последняя попытка
+                    logging.warning(f"Ошибка Yandex API (HTTP {e.response.status_code}). Повторная попытка {attempt+1}/{max_retries} через {retry_delay} сек.")
+                    time.sleep(retry_delay)
+                    retry_delay *= 2  # увеличиваем задержку для следующей попытки
+                    continue  # пробуем снова
+            
+            logging.error(f"Ошибка при генерации через Yandex API: {e}")
+            return None
+        except Exception as e:
+            logging.error(f"Ошибка при генерации через Yandex API: {e}")
+            return None
 
 def extract_answer_with_latex(solution):
     """
@@ -1643,41 +1685,6 @@ def generate_complete_task(category, subcategory="", difficulty_level=3, is_basi
         elif text_task:
             original_task = text_task
             logging.info("Используем текстовую версию задачи")
-            # # Если нет html и есть изображения, пытаемся распознать текст с изображений
-            # ocr_text = ""
-            # if images and not html_task:
-            #     logging.info(f"Пытаемся распознать текст с {len(images)} изображений")
-            #     for img_url in images:
-            #         img_text = ocr_math_image(img_url)
-            #         if img_text:
-            #             ocr_text += img_text + " "
-            #     if ocr_text:
-            #         logging.info(f"Распознан текст с изображений: {ocr_text}")
-            #         # Добавляем распознанный текст к основному тексту задачи
-            #         text_task = f"{text_task} {ocr_text}"
-            #     else:
-            #         # Если OCR не сработал, используем текст с пометкой о содержимом на изображениях
-            #         logging.info("OCR не смог распознать текст с изображений")
-            #         if images:
-            #             text_task = f"{text_task} *... продолжение задачи*"
-
-            # try:
-            #     # Если нет HTML, но есть текст, добавляем формулу из шаблона
-            #     from app.formula_templates import generate_task_with_formula
-                
-            #     # Добавляем шаблон формулы в текст задачи
-            #     category_number = str(category)
-            #     subcategory_number = str(subcategory).split('/')[-1] if subcategory else None
-                
-            #     logging.info(f"Пытаемся добавить формулу из шаблона для категории {category_number}, подкатегории {subcategory_number}")
-            #     text_task = generate_task_with_formula(text_task, category_number, subcategory_number)
-            #     logging.info(f"Текст задачи с шаблоном формулы: {text_task}")
-            # except Exception as e:
-            #     logging.error(f"Ошибка при добавлении формулы из шаблона: {e}")
-            #     # В случае ошибки просто используем оригинальный текст задачи
-
-            original_task = text_task
-            logging.info("Используем текстовую версию задачи")
         else:
             original_task = ""
             logging.error("Не удалось найти содержимое задачи")
@@ -1723,16 +1730,7 @@ def generate_complete_task(category, subcategory="", difficulty_level=3, is_basi
         
         # Сохраняем сгенерированный текст
         save_to_file(generated_text)
-
-        #generated_text = generated_text.replace('\\[', '$$').replace('\\]', '$$') # заменяем квадратные скобки на двойные доллары для LaTeX
         
-        # Извлекаем части из сгенерированного текста
-
-        def extract_block(text, block_name):
-            pattern = f"---{block_name}---\\s*(.*?)(?=\\s*---[A-ZА-Я _]+---|\s*$)"
-            match = re.search(pattern, text, re.DOTALL)
-            return match.group(1).strip() if match else ""
-            
         # Используем функцию extract_block для извлечения всех необходимых блоков
         task = extract_block(generated_text, "ЗАДАЧА")
         solution = extract_block(generated_text, "РЕШЕНИЕ")
@@ -1840,32 +1838,16 @@ def parse_sections(raw_text):
     sections = {
         "task": "",
         "solution": "",
-        "answer": "",
-        "hints": [],
-        "visualization_params": ""
+        "hints": []
     }
     
-    if not raw_text:
-        return sections
-    
-    # Функция для извлечения содержимого между маркерами разделов
-    def extract_block(text, block_name):
-        pattern = f"---{block_name}---\\s*(.*?)(?=\\s*---[A-ZА-Я _]+---|\s*$)"
-        match = re.search(pattern, text, re.DOTALL)
-        return match.group(1).strip() if match else ""
-    
-    # Извлекаем каждый раздел из текста
+    # Используем общую функцию extract_block для извлечения разделов
     sections["task"] = extract_block(raw_text, "ЗАДАЧА")
     sections["solution"] = extract_block(raw_text, "РЕШЕНИЕ")
-    sections["visualization_params"] = extract_block(raw_text, "ПАРАМЕТРЫ ДЛЯ ВИЗУАЛИЗАЦИИ")
     
-    # Извлекаем ответ из решения, если решение есть
-    if sections["solution"]:
-        sections["answer"] = extract_answer_with_latex(sections["solution"])
-    
-    # Извлекаем подсказки и разбиваем их на список
-    hints_text = extract_block(raw_text, "ПОДСКАЗКИ")
-    sections["hints"] = parse_hints(hints_text)
+    # Извлекаем и парсим подсказки
+    hints_string = extract_block(raw_text, "ПОДСКАЗКИ")
+    sections["hints"] = parse_hints(hints_string)
     
     return sections
 
@@ -2466,81 +2448,5 @@ def process_trapezoid_visualization(params_text, extract_param):
     generate_geometric_figure('trapezoid', params, output_path)
     return output_path
 
-# Функция generate_markdown_task перенесена в json_api_helpers.py
-
-def generate_json_task(category, subcategory="", difficulty_level=3, is_basic_level=False):
-    """
-    Генерирует полный пакет задачи, решения и подсказок в формате JSON.
-    
-    Args:
-        category: Категория задачи
-        subcategory: Подкатегория задачи (опционально)
-        difficulty_level: Уровень сложности подсказок (1-5)
-        is_basic_level: Выбор между базовым (True) и профильным (False) уровнем ЕГЭ, 
-                        определяет только директорию, откуда берутся задачи
-        
-    Returns:
-        dict: Словарь с задачей, решением и подсказками в формате JSON
-    """
-    # Используем существующую функцию для генерации задачи
-    result = generate_complete_task(category, subcategory, difficulty_level, is_basic_level)
-    
-    # Проверяем на ошибки
-    if "error" in result:
-        return result
-    
-    # Извлекаем ответ из решения для отдельного поля
-    solution = result.get("solution", "")
-    answer = result.get("answer", "")
-    
-    # Если ответ не был успешно извлечен, пробуем найти его снова
-    if not answer or answer == "См. решение":
-        answer_match = re.search(r"(?:Ответ|ОТВЕТ|ответ)\s*:(.+?)(?=$|\.|\.\s*$|\n\s*\n|\<\/p\>)", solution, re.IGNORECASE | re.DOTALL)
-        if answer_match:
-            answer = answer_match.group(1).strip()
-    
-    # Подготавливаем изображения
-    task_images = []
-    solution_images = []
-    
-    # Если есть изображение в результате, добавляем его
-    if "image_path" in result:
-        image_path = result["image_path"]
-        image_filename = os.path.basename(image_path)
-        image_url = f"/static/images/generated/{image_filename}"
-        
-        # Добавляем изображение к задаче
-        task_images.append({
-            "url": image_url,
-            "alt": "Изображение к задаче"
-        })
-    elif "image_url" in result:
-        # Если есть прямая ссылка на изображение
-        image_url = result["image_url"]
-        task_images.append({
-            "url": image_url,
-            "alt": "Изображение к задаче"
-        })
-    
-    # Формируем JSON-результат
-    json_result = {
-        "task": {
-            "text": result.get("task", ""),
-            "images": task_images
-        },
-        "solution": {
-            "text": solution,
-            "images": solution_images
-        },
-        "answer": answer,
-        "hints": result.get("hints", []),
-        "difficulty_level": result.get("difficulty_level", difficulty_level),
-        "category": category,
-        "subcategory": subcategory,
-        "is_basic_level": is_basic_level,
-        "format": "html"  # Указываем формат данных
-    }
-    
-    return json_result
-
-# Функция generate_json_markdown_task перенесена в json_api_helpers.py
+# Функции generate_markdown_task, generate_json_task и generate_json_markdown_task 
+# перенесены в json_api_helpers.py

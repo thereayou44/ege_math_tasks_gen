@@ -71,6 +71,65 @@ def _extract_answer(solution):
         return answer_match.group(1).strip()
     return ""
 
+def _generate_json_task_base(category, subcategory="", difficulty_level=3, is_basic_level=False, is_markdown=False):
+    """
+    Базовая функция для генерации JSON-задачи (как HTML, так и Markdown)
+    
+    Args:
+        category: Категория задачи
+        subcategory: Подкатегория задачи
+        difficulty_level: Уровень сложности
+        is_basic_level: Выбор базового или профильного уровня ЕГЭ
+        is_markdown: True для markdown формата, False для HTML
+        
+    Returns:
+        dict: Словарь с задачей в JSON формате
+    """
+    try:
+        # Используем существующую функцию для генерации задачи с нужным форматом
+        result = generate_complete_task(category, subcategory, difficulty_level, is_basic_level, is_markdown=is_markdown)
+        
+        # Проверяем на ошибки
+        if "error" in result:
+            return result
+        
+        # Извлекаем тексты задачи, решения и ответ
+        task_text = result.get("task", "")
+        solution_text = result.get("solution", "")
+        answer = result.get("answer", "")
+        
+        # Если ответ не был успешно извлечен, пробуем найти его снова
+        if not answer or answer == "См. решение":
+            answer = _extract_answer(solution_text)
+        
+        # Обрабатываем изображения
+        task_images = _process_images(result, category, subcategory)
+        
+        # Формируем JSON-результат
+        json_result = {
+            "task": {
+                "text": task_text,
+                "images": task_images
+            },
+            "solution": {
+                "text": solution_text,
+                "images": []  # Не добавляем изображения к решению
+            },
+            "answer": answer,
+            "hints": result.get("hints", []),
+            "difficulty_level": result.get("difficulty_level", difficulty_level),
+            "category": category,
+            "subcategory": subcategory,
+            "is_basic_level": is_basic_level,
+            "format": "markdown" if is_markdown else "html"
+        }
+        
+        return json_result
+    except Exception as e:
+        logging.error(f"Ошибка при генерации задачи в формате JSON: {e}")
+        logging.error(traceback.format_exc())
+        return {"error": f"Ошибка при генерации задачи в формате JSON: {str(e)}"}
+
 def generate_markdown_task(category, subcategory="", difficulty_level=3, is_basic_level=False):
     """
     Генерирует задачу в формате Markdown для API запроса
@@ -109,7 +168,7 @@ def generate_markdown_task(category, subcategory="", difficulty_level=3, is_basi
             "is_basic_level": is_basic_level
         }
         
-        # Если есть изображение, добавляем его URL
+        # Добавляем изображение, если оно есть
         if "image_url" in result:
             markdown_result["problem_picture"] = result["image_url"]
         elif "image_path" in result:
@@ -138,7 +197,7 @@ def generate_markdown_task(category, subcategory="", difficulty_level=3, is_basi
 
 def generate_json_task(category, subcategory="", difficulty_level=3, is_basic_level=False):
     """
-    Генерирует задачу в формате JSON для API запроса
+    Генерирует задачу в формате JSON для API запроса (HTML формат)
     
     Args:
         category: Категория задачи
@@ -149,49 +208,7 @@ def generate_json_task(category, subcategory="", difficulty_level=3, is_basic_le
     Returns:
         dict: Словарь с задачей в формате JSON
     """
-    try:
-        # Используем существующую функцию для генерации задачи
-        result = generate_complete_task(category, subcategory, difficulty_level, is_basic_level)
-        
-        # Проверяем на ошибки
-        if "error" in result:
-            return result
-        
-        # Извлекаем ответ из решения для отдельного поля
-        solution = result.get("solution", "")
-        answer = result.get("answer", "")
-        
-        # Если ответ не был успешно извлечен, пробуем найти его снова
-        if not answer or answer == "См. решение":
-            answer = _extract_answer(solution)
-        
-        # Обрабатываем изображения
-        task_images = _process_images(result, category, subcategory)
-        
-        # Формируем JSON-результат
-        json_result = {
-            "task": {
-                "text": result.get("task", ""),
-                "images": task_images
-            },
-            "solution": {
-                "text": solution,
-                "images": [] # Не добавляем изображения к решению
-            },
-            "answer": answer,
-            "hints": result.get("hints", []),
-            "difficulty_level": result.get("difficulty_level", difficulty_level),
-            "category": category,
-            "subcategory": subcategory,
-            "is_basic_level": is_basic_level,
-            "format": "html"
-        }
-        
-        return json_result
-    except Exception as e:
-        logging.error(f"Ошибка при генерации задачи в формате JSON: {e}")
-        logging.error(traceback.format_exc())
-        return {"error": f"Ошибка при генерации задачи в формате JSON: {str(e)}"}
+    return _generate_json_task_base(category, subcategory, difficulty_level, is_basic_level, is_markdown=False)
 
 def generate_json_markdown_task(category, subcategory="", difficulty_level=3, is_basic_level=False):
     """
@@ -206,47 +223,4 @@ def generate_json_markdown_task(category, subcategory="", difficulty_level=3, is
     Returns:
         dict: Словарь с задачей в формате JSON с Markdown
     """
-    try:
-        # Используем существующую функцию для генерации задачи с параметром is_markdown=True
-        result = generate_complete_task(category, subcategory, difficulty_level, is_basic_level, is_markdown=True)
-        
-        # Проверяем на ошибки
-        if "error" in result:
-            return result
-        
-        # Извлекаем ответ из решения для отдельного поля
-        task_text = result.get("task", "")
-        solution_text = result.get("solution", "")
-        answer = result.get("answer", "")
-        
-        # Если ответ не был успешно извлечен, пробуем найти его снова
-        if not answer or answer == "См. решение":
-            answer = _extract_answer(solution_text)
-        
-        # Обрабатываем изображения
-        task_images = _process_images(result, category, subcategory)
-        
-        # Формируем JSON-результат
-        json_result = {
-            "task": {
-                "text": task_text,
-                "images": task_images
-            },
-            "solution": {
-                "text": solution_text,
-                "images": [] # Не добавляем изображения к решению
-            },
-            "answer": answer,
-            "hints": result.get("hints", []),
-            "difficulty_level": result.get("difficulty_level", difficulty_level),
-            "category": category,
-            "subcategory": subcategory,
-            "is_basic_level": is_basic_level,
-            "format": "markdown"  # Указываем формат данных
-        }
-        
-        return json_result
-    except Exception as e:
-        logging.error(f"Ошибка при генерации задачи в формате JSON с Markdown: {e}")
-        logging.error(traceback.format_exc())
-        return {"error": f"Ошибка при генерации задачи в формате JSON с Markdown: {str(e)}"} 
+    return _generate_json_task_base(category, subcategory, difficulty_level, is_basic_level, is_markdown=True) 

@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 import random
 from dotenv import load_dotenv
 from app.task_generator import generate_complete_task, convert_markdown_to_html
+from app.json_api_helpers import generate_json_task, generate_json_markdown_task, generate_markdown_task
 
 try:
     from app.task_generator import generate_complete_task
@@ -376,8 +377,6 @@ def init_routes(app):
     @app.route('/api/generate_markdown_task', methods=['POST'])
     def api_generate_markdown_task():
         try:
-            from app.json_api_helpers import generate_markdown_task
-            
             data = request.get_json()
             category = data.get("category")
             subcategory = data.get("subcategory", "")
@@ -433,8 +432,6 @@ def init_routes(app):
         - markdown - текст в формате Markdown
         """
         try:
-            from app.json_api_helpers import generate_json_task, generate_json_markdown_task
-            
             category = request.args.get("category")
             subcategory = request.args.get("subcategory", "")
             difficulty_level = int(request.args.get("difficulty_level", 3))
