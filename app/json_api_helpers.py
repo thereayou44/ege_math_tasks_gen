@@ -72,19 +72,6 @@ def _extract_answer(solution):
     return ""
 
 def _generate_json_task_base(category, subcategory="", difficulty_level=3, is_basic_level=False, is_markdown=False):
-    """
-    Базовая функция для генерации JSON-задачи (как HTML, так и Markdown)
-    
-    Args:
-        category: Категория задачи
-        subcategory: Подкатегория задачи
-        difficulty_level: Уровень сложности
-        is_basic_level: Выбор базового или профильного уровня ЕГЭ
-        is_markdown: True для markdown формата, False для HTML
-        
-    Returns:
-        dict: Словарь с задачей в JSON формате
-    """
     try:
         # Используем существующую функцию для генерации задачи с нужным форматом
         result = generate_complete_task(category, subcategory, difficulty_level, is_basic_level, is_markdown=is_markdown)
@@ -93,30 +80,21 @@ def _generate_json_task_base(category, subcategory="", difficulty_level=3, is_ba
         if "error" in result:
             return result
         
-        # Извлекаем тексты задачи, решения и ответ
-        task_text = result.get("task", "")
-        solution_text = result.get("solution", "")
-        answer = result.get("answer", "")
-        
-        # Если ответ не был успешно извлечен, пробуем найти его снова
-        if not answer or answer == "См. решение":
-            answer = _extract_answer(solution_text)
-        
         # Обрабатываем изображения
         task_images = _process_images(result, category, subcategory)
         
         # Формируем JSON-результат
         json_result = {
             "task": {
-                "text": task_text,
+                "text": result["task"],
                 "images": task_images
             },
             "solution": {
-                "text": solution_text,
+                "text": result["solution"],
                 "images": []  # Не добавляем изображения к решению
             },
-            "answer": answer,
-            "hints": result.get("hints", []),
+            "answer": result["answer"],
+            "hints": result["hints"],
             "difficulty_level": result.get("difficulty_level", difficulty_level),
             "category": category,
             "subcategory": subcategory,

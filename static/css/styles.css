@@ -20,9 +20,18 @@ body {
 
 /* Блоки с математическими формулами */
 .math-block {
-    margin: 15px 10px;
-    padding: 5px 10px;
+    display: block;
+    margin: 1em 0;
     text-align: center;
+    overflow-x: auto;
+    max-width: 100%;
+    padding: 0.5em 0;
+}
+
+.math-inline {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0.2em;
 }
 
 /* Улучшенные стили для математических формул */
@@ -299,4 +308,43 @@ body {
 .math-punctuation {
     display: inline-block;
     margin-left: 1px;
+}
+
+/* Стили для улучшения отображения решения */
+.solution-content ol {
+    padding-left: 2em;
+    counter-reset: item;
+}
+
+.solution-content ol li {
+    position: relative;
+    margin-bottom: 1em;
+    counter-increment: item;
+}
+
+.solution-content p {
+    margin-bottom: 0.75em;
+    line-height: 1.6;
+}
+
+/* Добавление отступов для многострочных формул */
+.solution-content .math-block {
+    margin: 1.5em 0;
+    padding: 0.5em;
+    background-color: rgba(0, 0, 0, 0.02);
+    border-radius: 4px;
+}
+
+/* Спецификация для нумерованных списков с формулами */
+.solution-content li .math-block,
+.solution-content li .math-inline {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+/* Предотвращает перекрытие формул при масштабировании */
+.solution-content {
+    overflow-x: auto;
+    overflow-y: hidden; 
+    max-width: 100%;
 }

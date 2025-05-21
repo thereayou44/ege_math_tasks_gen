@@ -6,9 +6,10 @@ import re
 from bs4 import BeautifulSoup
 import random
 from dotenv import load_dotenv
-from app.task_generator import generate_complete_task, convert_markdown_to_html
+from app.task_generator import generate_complete_task, DEBUG_FILES_DIR
+from app.model_processor import ModelResponseProcessor, convert_model_response_to_html
 from app.json_api_helpers import generate_json_task, generate_json_markdown_task, generate_markdown_task
-from app.utils.latex_formatter import format_latex_answer, extract_answer_from_solution, normalize_latex_in_text, escape_html_in_text, format_solution_punctuation
+from app.utils.latex_formatter import normalize_latex_in_text, escape_html_in_text, format_solution_punctuation
 import html
 
 try:
@@ -56,8 +57,35 @@ def load_categories_from_file(is_basic_level=False):
         print("Ошибка формата файла категорий!")
         return []
 
-# Заменяем функцию format_latex_in_answer на новый импорт format_latex_answer из utils.latex_formatter
-format_latex_in_answer = format_latex_answer
+# Функция для форматирования ответа в LaTeX
+def format_latex_answer(answer):
+    """
+    Форматирует ответ, добавляя LaTeX-окружение, если необходимо
+    """
+    if not answer:
+        return "Ответ не указан"
+    
+    # Нормализуем LaTeX в ответе
+    answer = normalize_latex_in_text(answer)
+    
+    # Если ответ уже содержит LaTeX, возвращаем как есть
+    if '$' in answer:
+        return answer
+    
+    # Иначе оборачиваем в LaTeX
+    return f"${answer}$"
+
+# Функция для извлечения ответа из решения
+def extract_answer_from_solution(solution):
+    """
+    Извлекает ответ из решения
+    """
+    if not solution:
+        return ""
+    
+    answer_pattern = r'(?:Ответ|ОТВЕТ|ответ)\s*:(.+?)(?=$|\.|\.\s*$|\n\s*\n)'
+    match = re.search(answer_pattern, solution, re.IGNORECASE | re.DOTALL)
+    return match.group(1).strip() if match else ""
 
 def init_routes(app):
     @app.route('/')
@@ -90,122 +118,39 @@ def init_routes(app):
             if "error" in result:
                 return jsonify({"error": result["error"]}), 400
             
-            
             # Проверка наличия основных компонентов результата
             if not result.get("task") or not result.get("solution"):
                 return jsonify({"error": "Не удалось сгенерировать полный материал"}), 400
             
-            # Проверка наличия решения
+            # Проверка наличия решения и предупреждение, если оно отсутствует
+            solution_warning = False
             if not result.get("solution") or result.get("solution") == "Не удалось извлечь решение":
                 print("Предупреждение: для задачи не удалось сгенерировать решение. Попробуйте другую задачу.")
-                result["solution_warning"] = True
-            else:
-                result["solution_warning"] = False
-                # Дополнительная проверка решения - должен быть не пустым и содержать текст
-                if len(result.get("solution", "").strip()) < 10:
-                    print("Предупреждение: решение слишком короткое или пустое")
-                    result["solution_warning"] = True
-            
-            # Пытаемся получить более качественное решение из debug_response.txt
-            solution_from_debug = ""
-            debug_response_file = "debug_files/debug_response.txt"
-            if os.path.exists(debug_response_file):
-                try:
-                    with open(debug_response_file, 'r', encoding='utf-8') as f:
-                        debug_content = f.read()
-                    
-                    # Ищем решение в debug_response.txt
-                    solution_match = re.search('---РЕШЕНИЕ---\\s*(.*?)(?=\\n---|\\Z)', debug_content, re.DOTALL)
-                    if solution_match:
-                        solution = solution_match.group(1).strip()
-                        print("Решение получено из debug_response.txt")
-                        if solution and len(solution) > 20:
-                            print("Используем решение из debug_response.txt")
-                            # Заменяем решение на более качественное
-                            result["solution"] = solution
-                            
-                            # Сразу ищем ответ в конце решения
-                            answer_match = re.search(r'(?:Ответ|ОТВЕТ|ответ):\s*(.+?)(?:$|\.|\.\s*$)', solution, re.IGNORECASE)
-                            if answer_match:
-                                result["answer"] = format_latex_in_answer(answer_match.group(1).strip())
-                except Exception as e:
-                    print(f"Ошибка при чтении debug_response.txt: {e}")
-            
-            # Проверяем формат ответа и корректируем LaTeX
-            if "answer" in result:
-                result["answer"] = format_latex_in_answer(result["answer"])
-            
-            # Проверяем, что все подсказки существуют и имеют корректный формат
-            hints = result.get("hints", [])
-            if len(hints) < 3:
-                # Дополняем список подсказок до 3, если их меньше
-                while len(hints) < 3:
-                    hints.append("Подсказка недоступна")
-                result["hints"] = hints
-            
-            # Дополнительная проверка и конвертация Markdown в HTML, если ещё не конвертировано
-            task = result.get("task", "")
-            solution = result.get("solution", "")
-            
-             # Извлекаем ответ из решения, чтобы переместить его в отдельную рамку
-            answer_match = re.search(r'(?:Ответ|ОТВЕТ|ответ)\s*:(.+?)(?=$|\.|\.\s*$|\n\s*\n|\<\/p\>)', solution, re.IGNORECASE | re.DOTALL)
-            if answer_match:
-                # Если нашли "Ответ:" в решении, извлекаем его
-                answer_text = answer_match.group(1).strip()
-                # Удаляем "Ответ:" из текста решения
-                solution = re.sub(r'(?:Ответ|ОТВЕТ|ответ)\s*:.+?(?=$|\.|\.\s*$|\n\s*\n|\<\/p\>)', '', solution, flags=re.IGNORECASE | re.DOTALL)
-                # Обновляем ответ в результате
-                result["answer"] = format_latex_in_answer(answer_text)
-
-            # Проверяем, содержит ли текст Markdown-форматирование
-            if re.search(r'\*\*.*?\*\*|\*.*?\*', task) or "\n" in task:
-                task = convert_markdown_to_html(task)
-            
-            if re.search(r'\*\*.*?\*\*|\*.*?\*', solution) or "\n" in solution:
-                solution = convert_markdown_to_html(solution)
-            
-            # Проверяем подсказки
-            for i in range(len(hints)):
-                # Декодируем HTML-сущности (например, &lt; в <)
-                hints[i] = decode_html_entities(hints[i])
-                # Всегда преобразуем подсказки в HTML, а не только если они содержат markdown
-                hints[i] = convert_markdown_to_html(hints[i])
-                    
-            # Убеждаемся, что решение не потерялось
-            if not solution or solution.strip() == "":
-                solution = "<p>Решение не удалось сгенерировать. Пожалуйста, попробуйте перегенерировать задачу.</p>"
-                result["solution_warning"] = True
-            
-            # Обновляем результат
-            result["task"] = task
-            result["solution"] = solution
-            result["hints"] = hints
-            
-            # Логируем информацию для отладки
-            print(f"Отправка данных клиенту:")
-            print(f"- Длина задачи: {len(task)}")
-            print(f"- Длина решения: {len(solution)}")
-            print(f"- Количество подсказок: {len(hints)}")
+                solution_warning = True
+            elif len(result.get("solution", "").strip()) < 10:
+                print("Предупреждение: решение слишком короткое или пустое")
+                solution_warning = True
             
             # Возвращаем данные клиенту
             response_data = {
                 "task": result["task"],
                 "solution": result["solution"],
-                "solution_warning": result.get("solution_warning", False),
+                "solution_warning": solution_warning,
                 "answer": result["answer"],
                 "hints": result["hints"],
                 "difficulty_level": result["difficulty_level"]
             }
             
             # Добавляем информацию об изображении, если оно есть
-            if "image_path" in result:
+            if "image_url" in result:
+                response_data["image_url"] = result["image_url"]
+            elif "image_path" in result:
                 image_path = result["image_path"]
                 image_url = f"/static/images/generated/{os.path.basename(image_path)}"
                 response_data["image_url"] = image_url
             
             return jsonify(response_data)
         except Exception as e:
-            # Логируем ошибку для отладки
             error_details = traceback.format_exc()
             print(f"Ошибка при генерации задачи: {e}")
             print(error_details)
@@ -237,99 +182,19 @@ def init_routes(app):
     @app.route('/solution', methods=['GET'])
     def view_solution():
         try:
-            debug_response_file = "debug_files/debug_response.txt"
-            solution = ""
+            # Получаем решение из последнего сгенерированного ответа модели
+            debug_response_file = os.path.join(DEBUG_FILES_DIR, "debug_response.txt")
             
-            # Сначала пытаемся получить решение из debug_response.txt, где форматирование лучше
             if os.path.exists(debug_response_file):
                 with open(debug_response_file, 'r', encoding='utf-8') as f:
                     debug_content = f.read()
-                    
-                # Ищем решение в debug_response.txt
-                solution_match = re.search('---РЕШЕНИЕ---\\s*(.*?)(?=\\n---|\\Z)', debug_content, re.DOTALL)
-                if solution_match:
-                    solution = solution_match.group(1).strip()
-                    print("Решение получено из debug_response.txt")
-            
-            # Если решение не найдено в debug-файле, используем last_generated_task.txt
-            if not solution:
-                with open("last_generated_task.txt", 'r', encoding='utf-8') as f:
-                    content = f.read()
                 
-                # Ищем решение в тексте
-                solution_match = re.search('===РЕШЕНИЕ===\\s*(.*?)(?=\\n===)', content, re.DOTALL)
-                solution = solution_match.group(1).strip() if solution_match else "Решение не найдено"
-                print("Решение получено из last_generated_task.txt")
-            
-            # Нормализуем LaTeX в тексте решения
-            solution = normalize_latex_in_text(solution)
-            
-            # Экранируем HTML-специальные символы, сохраняя LaTeX
-            solution = escape_html_in_text(solution)
-            
-            # Извлекаем ответ из решения
-            answer = extract_answer_from_solution(solution)
-            
-            # Удаляем "Ответ:" из текста решения, если он найден
-            if answer != "См. решение" and answer != "Ответ не найден":
-                # Создаем комбинированные шаблоны для удаления ответа из решения
-                answer_patterns = [
-                    '(?:Ответ|ОТВЕТ|ответ|Окончательный ответ|Итоговый ответ)\\s*:(.+?)(?=$|\\.|\\.\s*$|\\n\\s*\\n)',
-                    '\\n\\s*(?:Ответ|ОТВЕТ|ответ|Окончательный ответ|Итоговый ответ)\\s*:\\s*(.+?)(?=$|\\n\\s*\\n|\\n[0-9])',
-                    '\\n[0-9]+\\.\\s*(?:Ответ|ОТВЕТ|ответ|Окончательный ответ|Итоговый ответ)\\s*:\\s*(.+?)(?=$|\\n\\s*\\n|\\n[0-9])',
-                    '\\n\\s*\\d+\\.\\s*(?:Ответ|ОТВЕТ|ответ|Окончательный ответ|Итоговый ответ)\\s*:\\s*\\n\\s*(.+?)(?=$|\\n\\s*\\n|\\n\\s*\\d+\\.)',
-                    '(?:Ответ|ОТВЕТ|ответ|Окончательный ответ|Итоговый ответ)\\s*:\\s*\\n\\s*(.+?)(?=$|\\n\\s*\\n)'
-                ]
-                for pattern in answer_patterns:
-                    solution = re.sub(pattern, '', solution, flags=re.IGNORECASE | re.DOTALL)
-            
-            # Преобразуем текст решения в HTML для обработки переносов строк и списков
-            solution_lines = solution.strip().split('\n')
-            solution_html = []
-            
-            # Сначала обработаем блочные формулы 
-            in_block_formula = False
-            temp_solution = []
-            
-            for line in solution_lines:
-                stripped_line = line.strip()
-                
-                # Проверяем, является ли строка началом или концом блочной формулы
-                if stripped_line == '$$' or stripped_line.startswith('$$') and stripped_line.endswith('$$'):
-                    if in_block_formula:
-                        # Конец блочной формулы
-                        in_block_formula = False
-                    else:
-                        # Начало блочной формулы
-                        in_block_formula = True
-                
-                # Если мы в блочной формуле или это отдельная формула, обрабатываем особым образом
-                if in_block_formula or (stripped_line.startswith('$$') and stripped_line.endswith('$$')):
-                    temp_solution.append(line)
-                else:
-                    temp_solution.append(line)
-            
-            solution_lines = temp_solution
-            
-            for i, line in enumerate(solution_lines):
-                # Проверяем, начинается ли строка с нумерованного пункта (1., 2., и т.д.)
-                step_match = re.match(r'^(\d+)\.\s+(.+)$', line)
-                if step_match:
-                    number = step_match.group(1)
-                    content = step_match.group(2)
-                    # Форматируем знаки препинания после формул
-                    content = format_solution_punctuation(content)
-                    solution_html.append(f'<p><span class="step-number">{number}.</span> {content}</p>')
-                else:
-                    # Если это пустая строка, добавляем разрыв параграфа
-                    if not line.strip():
-                        solution_html.append('<br>')
-                    else:
-                        # Форматируем знаки препинания после формул
-                        line = format_solution_punctuation(line)
-                        solution_html.append(f'<p>{line}</p>')
-            
-            solution_html = '\n'.join(solution_html)
+                # Используем ModelResponseProcessor для извлечения решения
+                processor = ModelResponseProcessor(debug_content)
+                solution = processor.process(format="html")["solution"]
+                answer = processor.process(format="html")["answer"]
+            else:
+                return "Файл с решением не найден. Сначала сгенерируйте задачу."
             
             return f"""
             <!DOCTYPE html>
@@ -412,40 +277,55 @@ def init_routes(app):
                         display: inline-block;
                         margin-left: 1px;
                     }}
+                    /* Стили для пользовательской нумерации списков */
+                    ol.custom-numbered-list {{
+                        counter-reset: none;
+                        list-style-type: none;
+                    }}
+                    ol.custom-numbered-list li {{
+                        position: relative;
+                        padding-left: 30px;
+                        margin-bottom: 8px;
+                    }}
+                    ol.custom-numbered-list li::before {{
+                        content: attr(value) ".";
+                        position: absolute;
+                        left: 0;
+                        font-weight: bold;
+                        color: #3273dc;
+                    }}
                 </style>
             </head>
             <body>
                 <div class="solution-container">
-                    <h1 class="mb-4">Решение задачи</h1>
-                    <p><a href="/" class="btn btn-primary mb-3">← Вернуться на главную</a></p>
-                    
-                    <div class="card">
-                        <div class="card-header bg-success text-white">
-                            <h5 class="card-title mb-0">Полное решение</h5>
-                        </div>
-                        <div class="card-body">
-                            <div id="solutionContent" class="full-solution">
-                                {solution_html}
-                            </div>
-                            
-                            {f'<div class="answer alert alert-success mt-3"><h5>Ответ:</h5><span>{answer}</span></div>' if answer else ''}
-                        </div>
+                    <h1 class="text-center">Решение задачи</h1>
+                    <div class="full-solution">
+                        {solution}
+                    </div>
+                    <div class="answer">
+                        <h3>Ответ:</h3>
+                        {answer}
                     </div>
                 </div>
-                
                 <script>
-                    // Перерендериваем MathJax для корректного отображения формул
-                    if (typeof MathJax !== 'undefined') {{
-                        MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
-                    }}
+                    // При загрузке страницы обрабатываем формулы
+                    window.onload = function() {{
+                        // Ждем загрузки MathJax
+                        setTimeout(function() {{
+                            // После рендеринга формул добавляем стили
+                            var mathElements = document.querySelectorAll('.MathJax');
+                            for (var i = 0; i < mathElements.length; i++) {{
+                                mathElements[i].style.display = 'inline-block';
+                            }}
+                        }}, 500);
+                    }};
                 </script>
             </body>
             </html>
             """
-        except FileNotFoundError:
-            return "Файл с решением не найден. Сначала сгенерируйте задачу."
         except Exception as e:
-            return f"Ошибка при чтении решения: {str(e)}"
+            error_detail = traceback.format_exc()
+            return f"Ошибка при отображении решения: {str(e)}<br><pre>{error_detail}</pre>"
 
     @app.route('/debug')
     def debug_page():
@@ -589,3 +469,10 @@ def init_routes(app):
     print("=" * 50)
     
     return app 
+
+def convert_markdown_to_html(markdown_text):
+    """
+    Простая обертка для конвертации markdown в HTML
+    """
+    processor = ModelResponseProcessor(markdown_text)
+    return processor._convert_to_html(markdown_text) 

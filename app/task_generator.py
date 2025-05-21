@@ -1,43 +1,36 @@
-import requests
-from PIL import Image
-import io
+# Стандартные библиотеки
 import json
 import os
 import random
-from bs4 import BeautifulSoup
 import re
-from dotenv import load_dotenv
 import logging
-import matplotlib.pyplot as plt
-import numpy as np
-import matplotlib
-matplotlib.use('Agg')
-import uuid
-import base64
 import traceback
 import time
-from io import BytesIO
-from PIL import Image, ImageEnhance
-import sys
-from datetime import datetime
-from markupsafe import Markup
+import uuid
 
-try:
-    from app.prompts import HINT_PROMPTS, SYSTEM_PROMPT, create_complete_task_prompt, REGEX_PATTERNS, DEFAULT_VISUALIZATION_PARAMS
-    from app.visualization import process_bar_chart, process_pie_chart, process_chart_visualization
-    from app.visualization.chart_utils import normalize_function_expression
-    from app.visualization.renderer import GeometryRenderer
-    from app.visualization.detector import needs_visualization, determine_visualization_type
+# Внешние библиотеки
+import requests
+from dotenv import load_dotenv
+from bs4 import BeautifulSoup
 
-except ImportError:
-    from visualization import process_multiple_function_plots, process_bar_chart, process_pie_chart, process_chart_visualization
-    from visualization.renderer import GeometryRenderer
-    from visualization.detector import needs_visualization, determine_visualization_type
-import traceback
-import matplotlib.patches as patches
-# Импортируем utils.converters так, чтобы работало как из корня проекта, так и из папки app
+# Модули для визуализации
+import matplotlib
+matplotlib.use('Agg')  # Важно установить до импорта pyplot
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Наши модули
+from app.model_processor import ModelResponseProcessor
+from app.prompts import (
+    SYSTEM_PROMPT, 
+    create_complete_task_prompt,
+    DEFAULT_VISUALIZATION_PARAMS
+)
+from app.visualization.detector import (
+    needs_visualization, 
+    determine_visualization_type
+)
 from app.visualization.processors import process_visualization_params as process_viz_params
-from app.utils.latex_formatter import format_latex_answer, extract_answer_from_solution, normalize_latex_in_text
 
 
 # Настройка логирования
@@ -199,21 +192,6 @@ def extract_text_and_formulas(html_content):
     
     return text
 
-def extract_block(text, block_name):
-    """
-    Извлекает блок текста между маркерами ---НАЗВАНИЕ_БЛОКА---
-    
-    Args:
-        text: Исходный текст
-        block_name: Название блока для извлечения
-        
-    Returns:
-        str: Извлеченный текст блока или пустая строка, если блок не найден
-    """
-    pattern = f"---{block_name}---\\s*(.*?)(?=\\s*---[A-ZА-Я _]+---|\s*$)"
-    match = re.search(pattern, text, re.DOTALL)
-    return match.group(1).strip() if match else ""
-
 def yandex_gpt_generate(prompt, temperature=0.5, max_tokens=10000, is_basic_level=None):
     """
     Отправляет запрос к API YandexGPT и возвращает ответ.
@@ -304,65 +282,6 @@ def yandex_gpt_generate(prompt, temperature=0.5, max_tokens=10000, is_basic_leve
         except Exception as e:
             logging.error(f"Ошибка при генерации через Yandex API: {e}")
             return None
-
-# Используем импортированную функцию extract_answer_from_solution вместо локальной реализации
-# Сохраняем совместимость с существующим кодом через алиас
-extract_answer_with_latex = extract_answer_from_solution
-
-
-
-def parse_hints(hints_string):
-    """
-    Разделяет строку с подсказками на 3 отдельные подсказки.
-    
-    Args:
-        hints_string: Строка с подсказками
-        
-    Returns:
-        list: Список из 3 подсказок
-    """
-    # Пустые подсказки по умолчанию, если что-то пойдет не так
-    default_hints = [
-        "Подсказка недоступна", 
-        "Подсказка недоступна", 
-        "Подсказка недоступна"
-    ]
-    
-    if not hints_string:
-        return default_hints
-    
-    # Ищем подсказки в формате "1. [текст]", "2. [текст]", "3. [текст]"
-    hint_pattern = r'(?:^|\n)(\d+\.)\s*(.*?)(?=(?:\n\d+\.)|$)'
-    hint_matches = re.findall(hint_pattern, hints_string, re.DOTALL)
-    
-    if not hint_matches:
-        # Если не нашли подсказки в нужном формате, пробуем разделить по строкам
-        lines = [line.strip() for line in hints_string.split('\n') if line.strip()]
-        if len(lines) >= 3:
-            # Берем первые 3 непустые строки
-            return [lines[0], lines[1], lines[2]]
-        elif len(lines) > 0:
-            # Если строк меньше 3, возвращаем то что есть, дополняя до 3
-            while len(lines) < 3:
-                lines.append("Подсказка недоступна")
-            return lines
-        else:
-            return default_hints
-    
-    hints = []
-    
-    # Обрабатываем найденные подсказки
-    for number, text in hint_matches:
-        # Удаляем технические комментарии в квадратных скобках
-        cleaned_text = re.sub(r'\[.*?\]', '', text).strip()
-        hints.append(cleaned_text)
-    
-    # Если мы нашли меньше 3 подсказок, добавляем заглушки
-    while len(hints) < 3:
-        hints.append("Подсказка недоступна")
-    
-    # Берем только первые 3 подсказки
-    return hints[:3]
 
 def save_to_file(content, filename="last_generated_task.txt"):
     """
@@ -1602,6 +1521,7 @@ def generate_complete_task(category, subcategory="", difficulty_level=3, is_basi
             json.dump(task_info, f, ensure_ascii=False, indent=2)
         print(f"Информация о задаче сохранена в файл: {debug_task_info_file}")
         
+        # Получаем ответ от модели
         generated_text = yandex_gpt_generate(prompt, temperature=0.6, is_basic_level=is_basic_level)
         
         if not generated_text:
@@ -1610,216 +1530,46 @@ def generate_complete_task(category, subcategory="", difficulty_level=3, is_basi
         # Сохраняем сгенерированный текст
         save_to_file(generated_text)
         
-        # Используем функцию extract_block для извлечения всех необходимых блоков
-        task = extract_block(generated_text, "ЗАДАЧА")
-        solution = extract_block(generated_text, "РЕШЕНИЕ")
-        hints_string = extract_block(generated_text, "ПОДСКАЗКИ")
-        visualization_params = extract_block(generated_text, "ПАРАМЕТРЫ ДЛЯ ВИЗУАЛИЗАЦИИ")
+        # Обрабатываем ответ модели с помощью нашего нового процессора
+        processor = ModelResponseProcessor(generated_text)
+        format_output = "original" if is_markdown else "html"
+        processed_data = processor.process(format=format_output)
         
-        if not task:
-            task = "Не удалось извлечь задачу"
-        if not solution:
-            solution = "Не удалось извлечь решение"
+        # Создаем результат с обработанными данными
+        result = {
+            "task": processed_data["task"],
+            "solution": processed_data["solution"],
+            "hints": processed_data["hints"],
+            "answer": processed_data["answer"],
+            "difficulty_level": difficulty_level,
+            "category": category,
+            "subcategory": subcategory,
+            "is_basic_level": is_basic_level
+        }
         
-        # Парсим подсказки
-        hints = parse_hints(hints_string)
-        
-        # Извлекаем ответ из решения
-        answer = extract_answer_with_latex(solution)
-        
-        image_path = None
-        visualization_type = None
-        
-        if visualization_params:
-            # Обрабатываем параметры визуализации
-            logging.info(f"Извлечены параметры для визуализации, первые 200 символов: {visualization_params[:200]}")
-            
-            # Проверяем, содержит ли текст параметров строку "Визуализация не требуется"
-            if re.search(r'визуализация\s+не\s+требуется', visualization_params.lower()):
-                logging.info("В параметрах содержится 'Визуализация не требуется'")
-            else:
-                # Ищем тип визуализации
-                type_match = re.search(r'Тип:?\s*([^\n]+)', visualization_params)
-                if type_match:
-                    extracted_type = type_match.group(1).strip().lower()
-                    logging.info(f"Извлеченный тип визуализации: {extracted_type}")
-                else:
-                    logging.warning("Тип визуализации не найден в параметрах")
-            
+        # Обработка параметров визуализации и создание изображения
+        visualization_params = processed_data.get("visualization_params", "")
+        if visualization_params and "Визуализация не требуется" not in visualization_params.lower():
             image_path, visualization_type = process_visualization_params(visualization_params)
             
-            logging.info(f"Результат обработки параметров: путь к изображению = {image_path}, тип = {visualization_type}")
-        else:
-            logging.info("Раздел с параметрами для визуализации не найден в ответе ИИ")
-        
-        # Формируем результат
-        if is_markdown:
-            # Если запросили markdown, возвращаем оригинальный текст без конвертации в HTML
-            result = {
-                "task": task,
-                "solution": solution,
-                "hints": hints,
-                "answer": answer,
-                "difficulty_level": difficulty_level,
-                "category": category,
-                "subcategory": subcategory,
-                "is_basic_level": is_basic_level
-            }
-        else:
-            # По умолчанию преобразуем в HTML, как было раньше
-            result = {
-                "task": convert_markdown_to_html(task),
-                "solution": convert_markdown_to_html(solution),
-                "hints": [convert_markdown_to_html(hint) for hint in hints],
-                "answer": answer,
-                "difficulty_level": difficulty_level,
-                "category": category,
-                "subcategory": subcategory,
-                "is_basic_level": is_basic_level
-            }
-        
-        # Добавляем информацию об изображении и параметрах визуализации, если они есть
-        if image_path:
-            # Проверяем, существует ли файл изображения
-            if os.path.exists(image_path):
-                logging.info(f"Файл изображения существует: {image_path}")
+            if image_path and os.path.exists(image_path):
                 result["image_path"] = image_path
-                result["visualization_params"] = visualization_params
                 result["visualization_type"] = visualization_type
                 
                 # Для удобного отображения на веб-странице
                 image_url = f"/static/images/generated/{os.path.basename(image_path)}"
                 result["image_url"] = image_url
-            else:
-                logging.error(f"Файл изображения не существует: {image_path}")
-        else:
-            logging.info("Изображение не было создано")
         
-        # Сохраняем полный результат для использования в приложении
+        # Сохраняем полный результат
         save_to_file(result, "last_generated_task.txt")
         
         return result
     except Exception as e:
         logging.error(f"Ошибка при генерации задачи: {e}")
+        logging.error(traceback.format_exc())
         return {"error": f"Произошла ошибка при генерации задачи: {str(e)}"}
 
-def parse_sections(raw_text):
-    """
-    Разбирает сырой текст ответа AI на разделы.
-    
-    Args:
-        raw_text: Сырой текст ответа
-        
-    Returns:
-        dict: Словарь с разделами (задача, решение, подсказки и т.д.)
-    """
-    # Инициализируем словарь с пустыми секциями
-    sections = {
-        "task": "",
-        "solution": "",
-        "hints": []
-    }
-    
-    # Используем общую функцию extract_block для извлечения разделов
-    sections["task"] = extract_block(raw_text, "ЗАДАЧА")
-    sections["solution"] = extract_block(raw_text, "РЕШЕНИЕ")
-    
-    # Извлекаем и парсим подсказки
-    hints_string = extract_block(raw_text, "ПОДСКАЗКИ")
-    sections["hints"] = parse_hints(hints_string)
-    
-    return sections
 
-def convert_markdown_to_html(markdown_text):
-    """
-    Конвертирует текст из Markdown в HTML
-    
-    Args:
-        markdown_text: Текст в формате Markdown
-        
-    Returns:
-        str: Текст, преобразованный в HTML
-    """
-    if not markdown_text:
-        return ""
-    
-    # Проверяем, содержит ли текст уже HTML-теги
-    contains_html = re.search(r'<[a-z][a-z0-9]*(\s[^>]*)?>', markdown_text) is not None
-    
-    # Если текст уже содержит HTML-теги, возвращаем его как есть
-    if contains_html:
-        return markdown_text
-    
-    # Сохраняем все LaTeX формулы во временном хранилище (как встроенные так и блочные)
-    # чтобы защитить содержимое от модификаций
-    formula_blocks = []
-    inline_formulas = []
-    
-    def replace_formula_block(match):
-        formula_blocks.append(match.group(1))
-        return f"FORMULA_BLOCK_{len(formula_blocks)-1}"
-    
-    def replace_inline_formula(match):
-        inline_formulas.append(match.group(1))
-        return f"INLINE_FORMULA_{len(inline_formulas)-1}"
-    
-    # Находим и заменяем блоки формул временными маркерами
-    markdown_text = re.sub(r'\$\$(.*?)\$\$', replace_formula_block, markdown_text, flags=re.DOTALL)
-    
-    # Находим и заменяем inline формулы временными маркерами
-    markdown_text = re.sub(r'\$(.*?)\$', replace_inline_formula, markdown_text, flags=re.DOTALL)
-    
-    # Заменяем символы < > на HTML-сущности, если они не являются частью уже существующих HTML-тегов
-    markdown_text = re.sub(r'<(?![a-z/])', '&lt;', markdown_text)
-    markdown_text = re.sub(r'(?<![a-z/])>', '&gt;', markdown_text)
-    
-    # Преобразуем простые элементы markdown в HTML
-    
-    # Заголовки
-    markdown_text = re.sub(r'^#\s+(.+)$', r'<h1>\1</h1>', markdown_text, flags=re.MULTILINE)
-    markdown_text = re.sub(r'^##\s+(.+)$', r'<h2>\1</h2>', markdown_text, flags=re.MULTILINE)
-    markdown_text = re.sub(r'^###\s+(.+)$', r'<h3>\1</h3>', markdown_text, flags=re.MULTILINE)
-    
-    # Жирный текст
-    markdown_text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', markdown_text)
-    
-    # Курсив
-    markdown_text = re.sub(r'\*(.+?)\*', r'<em>\1</em>', markdown_text)
-    
-    # Преобразуем переносы строк в <br> и <p>
-    paragraphs = markdown_text.split('\n\n')
-    for i in range(len(paragraphs)):
-        if paragraphs[i].strip():
-            # Заменяем одиночные переносы строк на <br>
-            paragraphs[i] = paragraphs[i].replace('\n', '<br>')
-            # Оборачиваем параграф в <p> только если он не начинается с HTML-тега
-            if not paragraphs[i].strip().startswith('<'):
-                paragraphs[i] = f'<p>{paragraphs[i]}</p>'
-    
-    markdown_text = '\n'.join(paragraphs)
-    
-    # Списки
-    # Обрабатываем многострочные маркированные списки
-    def process_unordered_list(match):
-        items = match.group(1).strip().split('\n')
-        list_html = '<ul class="bullet-list">\n'
-        for item in items:
-            content = re.sub(r'^\s*-\s*', '', item).strip()
-            list_html += f'  <li>{content}</li>\n'
-        list_html += '</ul>'
-        return list_html
-    
-    # Ищем последовательные строки, начинающиеся с маркера списка
-    markdown_text = re.sub(r'((?:^\s*-\s*.+\n?)+)', process_unordered_list, markdown_text, flags=re.MULTILINE)
-    
-    # Возвращаем формулы на место
-    for i, formula in enumerate(formula_blocks):
-        markdown_text = markdown_text.replace(f"FORMULA_BLOCK_{i}", f"$${formula}$$")
-    
-    for i, formula in enumerate(inline_formulas):
-        markdown_text = markdown_text.replace(f"INLINE_FORMULA_{i}", f"${formula}$")
-    
-    return markdown_text
 
 def process_rectangle_visualization(params_text, extract_param):
     """Обрабатывает параметры для прямоугольника и создает визуализацию"""

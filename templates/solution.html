@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% block title %}Решение задачи{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <h1 class="mb-4">Полное решение задачи</h1>
+    
+    <div class="card mb-4">
+        <div class="card-header bg-primary text-white">
+            <h5 class="card-title mb-0">Задача</h5>
+        </div>
+        <div class="card-body">
+            <div id="taskOutput">{{ task|safe }}</div>
+        </div>
+    </div>
+    
+    <div class="card mb-4">
+        <div class="card-header bg-success text-white">
+            <h5 class="card-title mb-0">Решение</h5>
+        </div>
+        <div class="card-body">
+            <div id="solutionOutput" class="solution-content">{{ solution|safe }}</div>
+        </div>
+    </div>
+    
+    <div class="card mb-4">
+        <div class="card-header bg-info text-white">
+            <h5 class="card-title mb-0">Ответ</h5>
+        </div>
+        <div class="card-body">
+            <div id="answerOutput">{{ answer|safe }}</div>
+        </div>
+    </div>
+    
+    {% if image_url %}
+    <div class="card mb-4">
+        <div class="card-header bg-secondary text-white">
+            <h5 class="card-title mb-0">Изображение</h5>
+        </div>
+        <div class="card-body text-center">
+            <img src="{{ image_url }}" alt="Визуализация задачи" class="img-fluid" style="max-height: 400px;">
+        </div>
+    </div>
+    {% endif %}
+    
+    <a href="/" class="btn btn-primary">Вернуться к генератору</a>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    // Инициализация MathJax для обработки LaTeX формул
+    window.addEventListener('DOMContentLoaded', function() {
+        if (typeof MathJax !== 'undefined') {
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        }
+    });
+</script>
+{% endblock %} 
