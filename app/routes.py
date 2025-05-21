@@ -8,6 +8,7 @@ import random
 from dotenv import load_dotenv
 from app.task_generator import generate_complete_task, convert_markdown_to_html
 from app.json_api_helpers import generate_json_task, generate_json_markdown_task, generate_markdown_task
+from app.utils.latex_formatter import format_latex_answer, extract_answer_from_solution, normalize_latex_in_text, escape_html_in_text, format_solution_punctuation
 import html
 
 try:
@@ -55,55 +56,8 @@ def load_categories_from_file(is_basic_level=False):
         print("Ошибка формата файла категорий!")
         return []
 
-def format_latex_in_answer(answer):
-    """
-    Проверяет и корректирует формат LaTeX в ответе
-    
-    Args:
-        answer: Текст ответа
-        
-    Returns:
-        str: Ответ с правильно отформатированным LaTeX
-    """
-    if not answer or answer.strip() == "":
-        return ""
-    
-    # Убираем \( и \) из ответа и заменяем на доллары, если они есть
-    if '\\(' in answer and '\\)' in answer:
-        answer = answer.replace('\\(', '$').replace('\\)', '$')
-    
-    # Если ответ уже содержит знаки доллара, считаем что LaTeX уже оформлен
-    if '$' in answer:
-        # Проверяем парность долларов
-        open_count = answer.count('$')
-        if open_count % 2 != 0:
-            answer += '$'  # Добавляем закрывающий доллар если не хватает
-        return answer
-    
-    # Расширенный список LaTeX-команд для проверки
-    latex_patterns = [
-        r'\\frac', r'\\sqrt', r'\\sum', r'\\prod', r'\\int', 
-        r'\\lim', r'\\sin', r'\\cos', r'\\tan', r'\\log', r'\\ln',
-        r'\\alpha', r'\\beta', r'\\gamma', r'\\delta', r'\\pi',
-        r'\\le', r'\\ge', r'\\neq', r'\\approx', r'\\cdot',
-        r'\\left', r'\\right', r'\\mathbb', r'\\mathcal', r'\\partial',
-        r'\\begin\{.*?\}', r'\\end\{.*?\}', r'\\overline', r'\\underline',
-        r'\\times', r'\\div', r'\\equiv', r'\\cup', r'\\cap', r'\\in', r'\\infty',
-        r'\\tg', r'\\ctg', r'\\arctg'
-    ]
-    
-    # Ищем любой паттерн LaTeX в ответе
-    has_latex = any(re.search(pattern, answer) for pattern in latex_patterns)
-    
-    # Если ответ содержит LaTeX-команды, но не обернут в доллары
-    if has_latex and '$' not in answer:
-        return f"${answer}$"
-    
-    # Экранируем угловые скобки, если они не являются частью HTML-тега
-    if '<' in answer and not re.search(r'<[a-z/]', answer):
-        answer = answer.replace('<', '&lt;').replace('>', '&gt;')
-    
-    return answer
+# Заменяем функцию format_latex_in_answer на новый импорт format_latex_answer из utils.latex_formatter
+format_latex_in_answer = format_latex_answer
 
 def init_routes(app):
     @app.route('/')
@@ -307,101 +261,27 @@ def init_routes(app):
                 solution = solution_match.group(1).strip() if solution_match else "Решение не найдено"
                 print("Решение получено из last_generated_task.txt")
             
-            # Нормализуем LaTeX в исходном тексте
-            # Заменяем \begin{equation} и \end{equation} на $$
-            solution = solution.replace('\\begin{equation}', '$$')
-            solution = solution.replace('\\end{equation}', '$$')
+            # Нормализуем LaTeX в тексте решения
+            solution = normalize_latex_in_text(solution)
             
-            # Нормализация LaTeX выражений с переносами строк
-            # Заменяем \[...\] на $$...$$
-            solution = solution.replace('\\[', '$$')
-            solution = solution.replace('\\]', '$$')
+            # Экранируем HTML-специальные символы, сохраняя LaTeX
+            solution = escape_html_in_text(solution)
             
-            # Также заменяем \( и \) на $ если они есть
-            solution = solution.replace('\\(', '$')
-            solution = solution.replace('\\)', '$')
+            # Извлекаем ответ из решения
+            answer = extract_answer_from_solution(solution)
             
-            # Исправляем команды \frac с переносами строк
-            solution = re.sub('\\\\frac\\s*\\n*\\s*\\{\\s*\\n*\\s*([^{}]+?)\\s*\\n*\\s*\\}\\s*\\n*\\s*\\{\\s*\\n*\\s*([^{}]+?)\\s*\\n*\\s*\\}', 
-                             r'\\frac{\1}{\2}', solution)
-            
-            # Исправляем другие фрагменты LaTeX с переносами строк
-            solution = re.sub('\\\\left\\s*\\n*\\s*([\\\\({[])', r'\\left\1', solution)
-            solution = re.sub('\\\\right\\s*\\n*\\s*([\\\\)}\\]])', r'\\right\1', solution)
-            
-            # Корректируем выравнивание в системах уравнений
-            solution = re.sub('\\\\begin\\s*\\n*\\s*\\{\\s*\\n*\\s*aligned\\s*\\n*\\s*\\}', r'\\begin{aligned}', solution)
-            solution = re.sub('\\\\end\\s*\\n*\\s*\\{\\s*\\n*\\s*aligned\\s*\\n*\\s*\\}', r'\\end{aligned}', solution)
-            
-            # Корректируем отображение систем уравнений
-            solution = re.sub('\\\\left\\s*\\\\\\s*\\{\\s*\\\\begin\\s*\\{\\s*aligned\\s*\\}', r'\\left\\{\\begin{aligned}', solution)
-            solution = re.sub('\\\\end\\s*\\{\\s*aligned\\s*\\}\\s*\\\\right\\s*\\\\.', r'\\end{aligned}\\right\\.', solution)
-            
-            # Исправляем команды \left и \right с переносами строк
-            solution = re.sub('\\\\left\\s*\\n*\\s*\\\\?\\s*\\{\\s*\\n*\\s*', r'\\left\\{', solution)
-            solution = re.sub('\\s*\\n*\\s*\\\\right\\s*\\n*\\s*\\\\?\\s*\\.\\s*\\n*\\s*', r'\\right\\.', solution)
-            
-            # Заменяем символы < и > на HTML-сущности вне формул
-            solution_with_safe_latex = ""
-            in_formula = False
-            i = 0
-            
-            while i < len(solution):
-                if solution[i:i+1] == "$":
-                    in_formula = not in_formula
-                    solution_with_safe_latex += solution[i]
-                    i += 1
-                elif not in_formula and solution[i] == "<":
-                    solution_with_safe_latex += "&lt;"
-                    i += 1
-                elif not in_formula and solution[i] == ">":
-                    solution_with_safe_latex += "&gt;"
-                    i += 1
-                else:
-                    solution_with_safe_latex += solution[i]
-                    i += 1
-            
-            solution = solution_with_safe_latex
-            
-            # Извлекаем ответ из решения, используя несколько шаблонов
-            answer = ""
-            answer_patterns = [
-                '(?:Ответ|ОТВЕТ|ответ|Окончательный ответ|Итоговый ответ)\\s*:(.+?)(?=$|\\.|\\.\s*$|\\n\\s*\\n)',
-                '\\n\\s*(?:Ответ|ОТВЕТ|ответ|Окончательный ответ|Итоговый ответ)\\s*:\\s*(.+?)(?=$|\\n\\s*\\n|\\n[0-9])',
-                '\\n[0-9]+\\.\\s*(?:Ответ|ОТВЕТ|ответ|Окончательный ответ|Итоговый ответ)\\s*:\\s*(.+?)(?=$|\\n\\s*\\n|\\n[0-9])'
-            ]
-            
-            for pattern in answer_patterns:
-                answer_match = re.search(pattern, solution, re.IGNORECASE | re.DOTALL)
-                if answer_match:
-                    answer = answer_match.group(1).strip()
-                    break
-            
-            # Если ответ не найден, пробуем более широкий поиск для многострочных ответов с отступами
-            if not answer:
-                multiline_patterns = [
+            # Удаляем "Ответ:" из текста решения, если он найден
+            if answer != "См. решение" and answer != "Ответ не найден":
+                # Создаем комбинированные шаблоны для удаления ответа из решения
+                answer_patterns = [
+                    '(?:Ответ|ОТВЕТ|ответ|Окончательный ответ|Итоговый ответ)\\s*:(.+?)(?=$|\\.|\\.\s*$|\\n\\s*\\n)',
+                    '\\n\\s*(?:Ответ|ОТВЕТ|ответ|Окончательный ответ|Итоговый ответ)\\s*:\\s*(.+?)(?=$|\\n\\s*\\n|\\n[0-9])',
+                    '\\n[0-9]+\\.\\s*(?:Ответ|ОТВЕТ|ответ|Окончательный ответ|Итоговый ответ)\\s*:\\s*(.+?)(?=$|\\n\\s*\\n|\\n[0-9])',
                     '\\n\\s*\\d+\\.\\s*(?:Ответ|ОТВЕТ|ответ|Окончательный ответ|Итоговый ответ)\\s*:\\s*\\n\\s*(.+?)(?=$|\\n\\s*\\n|\\n\\s*\\d+\\.)',
                     '(?:Ответ|ОТВЕТ|ответ|Окончательный ответ|Итоговый ответ)\\s*:\\s*\\n\\s*(.+?)(?=$|\\n\\s*\\n)'
                 ]
-                for pattern in multiline_patterns:
-                    answer_match = re.search(pattern, solution, re.IGNORECASE | re.DOTALL)
-                    if answer_match:
-                        answer = answer_match.group(1).strip()
-                        break
-                    
-            # Удаляем "Ответ:" из текста решения, если он найден
-            if answer:
-                # Создаем комбинированный шаблон из всех использованных паттернов
-                all_patterns = answer_patterns + (multiline_patterns if not answer else [])
-                for pattern in all_patterns:
+                for pattern in answer_patterns:
                     solution = re.sub(pattern, '', solution, flags=re.IGNORECASE | re.DOTALL)
-            
-            # Форматируем ответ с LaTeX, если есть
-            if answer:
-                # Нормализация LaTeX выражений в ответе
-                answer = re.sub(r'\\frac\s*\n*\s*\{\s*\n*\s*([^{}]+?)\s*\n*\s*\}\s*\n*\s*\{\s*\n*\s*([^{}]+?)\s*\n*\s*\}', 
-                               r'\\frac{\1}{\2}', answer)
-                answer = format_latex_in_answer(answer)
             
             # Преобразуем текст решения в HTML для обработки переносов строк и списков
             solution_lines = solution.strip().split('\n')
@@ -437,20 +317,16 @@ def init_routes(app):
                 if step_match:
                     number = step_match.group(1)
                     content = step_match.group(2)
-                    # Обрабатываем знаки препинания после формул
-                    content = re.sub('(\\$[^\\$]+\\$)([,.;:])', r'\1<span class="math-punctuation">\2</span>', content)
-                    # Обрабатываем знаки препинания после блочных формул
-                    content = re.sub('(\\$\$[^\\$]+\\$\\$)([,.;:])', r'\1<span class="math-punctuation">\2</span>', content)
+                    # Форматируем знаки препинания после формул
+                    content = format_solution_punctuation(content)
                     solution_html.append(f'<p><span class="step-number">{number}.</span> {content}</p>')
                 else:
                     # Если это пустая строка, добавляем разрыв параграфа
                     if not line.strip():
                         solution_html.append('<br>')
                     else:
-                        # Обрабатываем знаки препинания после формул
-                        line = re.sub('(\\$[^\\$]+\\$)([,.;:])', r'\1<span class="math-punctuation">\2</span>', line)
-                        # Обрабатываем знаки препинания после блочных формул
-                        line = re.sub('(\\$\$[^\\$]+\\$\\$)([,.;:])', r'\1<span class="math-punctuation">\2</span>', line)
+                        # Форматируем знаки препинания после формул
+                        line = format_solution_punctuation(line)
                         solution_html.append(f'<p>{line}</p>')
             
             solution_html = '\n'.join(solution_html)

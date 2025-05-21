@@ -11,13 +11,16 @@ import logging
 import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib
-matplotlib.use('Agg')  # Используем не-интерактивный бэкенд
+matplotlib.use('Agg')
 import uuid
 import base64
 import traceback
 import time
 from io import BytesIO
 from PIL import Image, ImageEnhance
+import sys
+from datetime import datetime
+from markupsafe import Markup
 
 try:
     from app.prompts import HINT_PROMPTS, SYSTEM_PROMPT, create_complete_task_prompt, REGEX_PATTERNS, DEFAULT_VISUALIZATION_PARAMS
@@ -34,6 +37,7 @@ import traceback
 import matplotlib.patches as patches
 # Импортируем utils.converters так, чтобы работало как из корня проекта, так и из папки app
 from app.visualization.processors import process_visualization_params as process_viz_params
+from app.utils.latex_formatter import format_latex_answer, extract_answer_from_solution, normalize_latex_in_text
 
 
 # Настройка логирования
@@ -301,180 +305,11 @@ def yandex_gpt_generate(prompt, temperature=0.5, max_tokens=10000, is_basic_leve
             logging.error(f"Ошибка при генерации через Yandex API: {e}")
             return None
 
-def extract_answer_with_latex(solution):
-    """
-    Извлекает ответ из решения и корректирует отображение LaTeX.
-    
-    Args:
-        solution: Полное решение задачи
-        
-    Returns:
-        str: Правильно отформатированный ответ
-    """
-    if not solution or len(solution.strip()) < 10:
-        return "Ответ не найден"
-    
-    # Проверяем особый формат с ---ОТВЕТ---
-    special_pattern = r'[-]{2,}\s*(?:ОТВЕТ|Ответ|ответ)\s*[-]{2,}\s*(.*?)(?:$|\n\s*-|\n\s*\n)'
-    special_match = re.search(special_pattern, solution, re.IGNORECASE | re.DOTALL)
-    
-    if special_match:
-        answer = special_match.group(1).strip()
-        logging.info(f"Найден ответ в формате ---ОТВЕТ---: {answer}")
-        
-        # Ищем число в ответе, если это просто число
-        number_pattern = r'-?\d+[.,]\d+|-?\d+'
-        number_matches = re.findall(number_pattern, answer)
-        if number_matches and len(number_matches) == 1:
-            answer = number_matches[0]
-            
-        # Применяем форматирование LaTeX
-        return format_latex_answer(answer)
-        
-    # Ищем "Ответ:" или "Ответ :"
-    answer_pattern = r"(?:Ответ|ОТВЕТ|ответ)\s*:(.+?)(?:$|(?<!\.)\n|\n\s*\n|\<\/p\>)"
-    answer_match = re.search(answer_pattern, solution, re.IGNORECASE | re.DOTALL)
-    
-    if answer_match:
-        answer = answer_match.group(1).strip()
-        logging.info(f"Найден ответ: {answer}")
-        return format_latex_answer(answer)
-    
-    # Если не нашли по первому паттерну, ищем альтернативы
-    alternative_patterns = [
-        r"(?:Итоговый ответ|итоговый ответ|Итого|итого)\s*:(.+?)(?:$|(?<!\.)\n|\n\s*\n|\<\/p\>)",
-        r"(?:Таким образом|Итак|Окончательный ответ|окончательный ответ)\s*:(.+?)(?:$|(?<!\.)\n|\n\s*\n|\<\/p\>)",
-        r"(?:В ответе получаем|в ответе получим|В ответе|в ответе)\s*:(.+?)(?:$|(?<!\.)\n|\n\s*\n|\<\/p\>)"
-    ]
-    
-    for pattern in alternative_patterns:
-        alt_match = re.search(pattern, solution, re.IGNORECASE | re.DOTALL)
-        if alt_match:
-            answer = alt_match.group(1).strip()
-            logging.info(f"Найден ответ: {answer}")
-            return format_latex_answer(answer)
-    
-    # Прямой поиск чисел в тексте
-    # Сначала ищем числа в подходящем формате
-    number_pattern = r'-?\d+[.,]\d+'
-    number_matches = re.findall(number_pattern, solution)
-    
-    if number_matches:
-        # Берем последнее число с десятичной точкой
-        answer = number_matches[-1]
-        logging.info(f"Найдено числовое значение с десятичной точкой: {answer}")
-        return format_latex_answer(answer)
-    
-    # Если ответ не найден
-    logging.warning("Ответ не найден в решении")
-    return "См. решение"
+# Используем импортированную функцию extract_answer_from_solution вместо локальной реализации
+# Сохраняем совместимость с существующим кодом через алиас
+extract_answer_with_latex = extract_answer_from_solution
 
-def format_latex_answer(answer):
-    """
-    Форматирует ответ с правильным LaTeX-окружением.
-    
-    Args:
-        answer: Исходный ответ
-        
-    Returns:
-        str: Отформатированный ответ
-    """
-    if not answer:
-        return "Ответ не найден"
-        
-    # Удаляем возможные префиксы и суффиксы, такие как "Ответ: "
-    answer = re.sub(r'^(?:Ответ|ОТВЕТ|ответ|Окончательный ответ|Итоговый ответ)\s*:\s*', '', answer)
-    answer = answer.strip()
-    
-    # Если у нас многострочный ответ, обрабатываем каждую строку отдельно
-    if '\n' in answer:
-        lines = answer.split('\n')
-        formatted_lines = []
-        for line in lines:
-            line = line.strip()
-            if line:
-                # Если строка уже содержит LaTeX, добавляем её как есть
-                if '$' in line:
-                    formatted_lines.append(line)
-                else:
-                    # Для каждой обычной строки проверяем, нужно ли её обернуть в $
-                    formatted_line = format_latex_answer(line)
-                    formatted_lines.append(formatted_line)
-        
-        return '\n'.join(formatted_lines)
-    
-    # Если ответ уже содержит LaTeX-окружение, сохраняем его как есть
-    if answer.startswith('$') and answer.endswith('$'):
-        # Проверяем, что $ встречается только в начале и конце ответа
-        if answer.count('$') == 2:
-            return answer
-        
-    # Если ответ уже содержит $$, заменяем их на $ для единообразия
-    if '$$' in answer:
-        # Удаляем все $$
-        answer = answer.replace('$$', '')
-        # Оборачиваем снова в $
-        answer = f"${answer}$"
-    
-    # Обработка чисел 
-    # Специальная обработка для отрицательных чисел
-    neg_number_match = re.match(r'^-\s*(\d+[.,]?\d*)$', answer)
-    if neg_number_match:
-        num = neg_number_match.group(1).replace(',', '.')
-        return f"$-{num}$"
-    
-    # Если у нас просто число, форматируем его как LaTeX
-    number_match = re.match(r'^([+-]?\d*[.,]?\d+)$', answer)
-    if number_match:
-        # Заменяем запятые на точки для единообразия чисел
-        num = number_match.group(1).replace(',', '.')
-        return f"${num}$"
-    
-    # Если ответ уже содержит одинарные $, но внутри есть текст, очищаем текст
-    if '$' in answer:
-        # Извлекаем содержимое между долларами
-        latex_parts = re.findall(r'\$(.*?)\$', answer)
-        if latex_parts:
-            # Берем первое LaTeX выражение
-            cleaned_latex = latex_parts[0].strip()
-            return f"${cleaned_latex}$"
-    
-    # Проверяем наличие дробей в форматах a/b или \frac{a}{b}
-    frac_patterns = [
-        r'\\frac\{([^{}]+)\}\{([^{}]+)\}',  # \frac{a}{b}
-        r'(\d+)/(\d+)'                      # a/b
-    ]
-    
-    for pattern in frac_patterns:
-        frac_match = re.search(pattern, answer)
-        if frac_match:
-            if pattern.startswith(r'\\frac'):
-                numerator, denominator = frac_match.groups()
-                return f"$\\frac{{{numerator}}}{{{denominator}}}$"
-            else:
-                numerator, denominator = frac_match.groups()
-                return f"$\\frac{{{numerator}}}{{{denominator}}}$"
-    
-    # Если в ответе есть специальные символы LaTeX, оборачиваем в $
-    latex_symbols = ['\\', '^', '_', '{', '}', '\\sqrt', '\\pi', '\\cdot', '\\times', '\\div', '\\in', '\\subset', '\\cup', '\\cap']
-    if any(symbol in answer for symbol in latex_symbols):
-        return f"${answer}$"
-    
-    # Если в ответе есть математические множества или интервалы, оборачиваем в $
-    if any(symbol in answer for symbol in ['(', ')', '[', ']', '∈', '⊂', '∪', '∩']):
-        return f"${answer}$"
-    
-    # Для всех остальных случаев проверяем, является ли ответ числом или простым выражением
-    answer_cleaned = answer.strip()
-    
-    # Если ответ выглядит как число (целое или с десятичной точкой)
-    if re.match(r'^[+-]?\d*[.,]?\d+$', answer_cleaned):
-        # Заменяем запятые на точки для единообразия
-        answer_cleaned = answer_cleaned.replace(',', '.')
-        return f"${answer_cleaned}$"
-    
-    # По умолчанию оборачиваем ответ в $, если он не пустой
-    return f"${answer_cleaned}$" if answer_cleaned else "Ответ не найден"
+
 
 def parse_hints(hints_string):
     """
@@ -1895,16 +1730,25 @@ def parse_sections(raw_text):
     
     return sections
 
-def convert_markdown_to_html(text):
-    if not text:
+def convert_markdown_to_html(markdown_text):
+    """
+    Конвертирует текст из Markdown в HTML
+    
+    Args:
+        markdown_text: Текст в формате Markdown
+        
+    Returns:
+        str: Текст, преобразованный в HTML
+    """
+    if not markdown_text:
         return ""
     
     # Проверяем, содержит ли текст уже HTML-теги
-    contains_html = re.search(r'<[a-z][a-z0-9]*(\s[^>]*)?>', text) is not None
+    contains_html = re.search(r'<[a-z][a-z0-9]*(\s[^>]*)?>', markdown_text) is not None
     
     # Если текст уже содержит HTML-теги, возвращаем его как есть
     if contains_html:
-        return text
+        return markdown_text
     
     # Сохраняем все LaTeX формулы во временном хранилище (как встроенные так и блочные)
     # чтобы защитить содержимое от модификаций
@@ -1920,30 +1764,30 @@ def convert_markdown_to_html(text):
         return f"INLINE_FORMULA_{len(inline_formulas)-1}"
     
     # Находим и заменяем блоки формул временными маркерами
-    text = re.sub(r'\$\$(.*?)\$\$', replace_formula_block, text, flags=re.DOTALL)
+    markdown_text = re.sub(r'\$\$(.*?)\$\$', replace_formula_block, markdown_text, flags=re.DOTALL)
     
     # Находим и заменяем inline формулы временными маркерами
-    text = re.sub(r'\$(.*?)\$', replace_inline_formula, text, flags=re.DOTALL)
+    markdown_text = re.sub(r'\$(.*?)\$', replace_inline_formula, markdown_text, flags=re.DOTALL)
     
     # Заменяем символы < > на HTML-сущности, если они не являются частью уже существующих HTML-тегов
-    text = re.sub(r'<(?![a-z/])', '&lt;', text)
-    text = re.sub(r'(?<![a-z/])>', '&gt;', text)
+    markdown_text = re.sub(r'<(?![a-z/])', '&lt;', markdown_text)
+    markdown_text = re.sub(r'(?<![a-z/])>', '&gt;', markdown_text)
     
     # Преобразуем простые элементы markdown в HTML
     
     # Заголовки
-    text = re.sub(r'^#\s+(.+)$', r'<h1>\1</h1>', text, flags=re.MULTILINE)
-    text = re.sub(r'^##\s+(.+)$', r'<h2>\1</h2>', text, flags=re.MULTILINE)
-    text = re.sub(r'^###\s+(.+)$', r'<h3>\1</h3>', text, flags=re.MULTILINE)
+    markdown_text = re.sub(r'^#\s+(.+)$', r'<h1>\1</h1>', markdown_text, flags=re.MULTILINE)
+    markdown_text = re.sub(r'^##\s+(.+)$', r'<h2>\1</h2>', markdown_text, flags=re.MULTILINE)
+    markdown_text = re.sub(r'^###\s+(.+)$', r'<h3>\1</h3>', markdown_text, flags=re.MULTILINE)
     
     # Жирный текст
-    text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
+    markdown_text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', markdown_text)
     
     # Курсив
-    text = re.sub(r'\*(.+?)\*', r'<em>\1</em>', text)
+    markdown_text = re.sub(r'\*(.+?)\*', r'<em>\1</em>', markdown_text)
     
     # Преобразуем переносы строк в <br> и <p>
-    paragraphs = text.split('\n\n')
+    paragraphs = markdown_text.split('\n\n')
     for i in range(len(paragraphs)):
         if paragraphs[i].strip():
             # Заменяем одиночные переносы строк на <br>
@@ -1952,7 +1796,7 @@ def convert_markdown_to_html(text):
             if not paragraphs[i].strip().startswith('<'):
                 paragraphs[i] = f'<p>{paragraphs[i]}</p>'
     
-    text = '\n'.join(paragraphs)
+    markdown_text = '\n'.join(paragraphs)
     
     # Списки
     # Обрабатываем многострочные маркированные списки
@@ -1966,16 +1810,16 @@ def convert_markdown_to_html(text):
         return list_html
     
     # Ищем последовательные строки, начинающиеся с маркера списка
-    text = re.sub(r'((?:^\s*-\s*.+\n?)+)', process_unordered_list, text, flags=re.MULTILINE)
+    markdown_text = re.sub(r'((?:^\s*-\s*.+\n?)+)', process_unordered_list, markdown_text, flags=re.MULTILINE)
     
     # Возвращаем формулы на место
     for i, formula in enumerate(formula_blocks):
-        text = text.replace(f"FORMULA_BLOCK_{i}", f"$${formula}$$")
+        markdown_text = markdown_text.replace(f"FORMULA_BLOCK_{i}", f"$${formula}$$")
     
     for i, formula in enumerate(inline_formulas):
-        text = text.replace(f"INLINE_FORMULA_{i}", f"${formula}$")
+        markdown_text = markdown_text.replace(f"INLINE_FORMULA_{i}", f"${formula}$")
     
-    return text
+    return markdown_text
 
 def process_rectangle_visualization(params_text, extract_param):
     """Обрабатывает параметры для прямоугольника и создает визуализацию"""
@@ -2464,6 +2308,3 @@ def process_trapezoid_visualization(params_text, extract_param):
     # Генерируем изображение старым методом
     generate_geometric_figure('trapezoid', params, output_path)
     return output_path
-
-# Функции generate_markdown_task, generate_json_task и generate_json_markdown_task 
-# перенесены в json_api_helpers.py
