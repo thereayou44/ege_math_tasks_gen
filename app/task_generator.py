@@ -81,7 +81,7 @@ def select_file(category, subcategory="", is_basic_level=False):
                         False - использовать директорию для профильного уровня ЕГЭ
         
     Returns:
-        dict: JSON-данные выбранной задачи
+        tuple: (data, subcategory) - JSON-данные выбранной задачи и выбранная подкатегория
     """
     # Инициализируем новый seed для генератора случайных чисел,
     # чтобы обеспечить разные результаты при каждом вызове
@@ -96,7 +96,7 @@ def select_file(category, subcategory="", is_basic_level=False):
             category = category['category']
         else:
             print(f"Некорректный формат словаря категории: {category}")
-            return None
+            return None, None
     
     # Выбираем соответствующий каталог в зависимости от уровня
     if is_basic_level:
@@ -111,11 +111,11 @@ def select_file(category, subcategory="", is_basic_level=False):
             subdirs = [d for d in os.listdir(category_dir) if os.path.isdir(os.path.join(category_dir, d))]
         except FileNotFoundError:
             print(f"Каталог {category_dir} не найден.")
-            return None
+            return None, None
             
         if not subdirs:
             print(f"В каталоге {category_dir} нет подпапок.")
-            return None
+            return None, None
             
         # Инициализируем новый seed перед выбором подкатегории
         random.seed(int(time.time() * 1000) % 10000000)
@@ -128,7 +128,7 @@ def select_file(category, subcategory="", is_basic_level=False):
                 subcategory = subcategory['name']
             else:
                 print(f"Некорректный формат словаря подкатегории: {subcategory}")
-                return None
+                return None, None
         
     folder = os.path.join(category_dir, subcategory)
     
@@ -136,11 +136,11 @@ def select_file(category, subcategory="", is_basic_level=False):
         files = [f for f in os.listdir(folder) if f.endswith(".json") and f.lower() != "subcategories.json"]
     except FileNotFoundError:
         print(f"Каталог {folder} не найден.")
-        return None
+        return None, None
         
     if not files:
         print("Нет подходящих JSON файлов в каталоге.")
-        return None
+        return None, None
         
     # Инициализируем новый seed перед выбором файла
     random.seed(int(time.time() * 1000) % 10000000)
@@ -161,7 +161,7 @@ def select_file(category, subcategory="", is_basic_level=False):
     elif "html" in data and data["html"]:
         data["task"] = extract_text_and_formulas(data["html"])
 
-    return data
+    return data, subcategory
 
 def extract_text_and_formulas(html_content):
     """
@@ -192,7 +192,7 @@ def extract_text_and_formulas(html_content):
     
     return text
 
-def yandex_gpt_generate(prompt, temperature=0.5, max_tokens=10000, is_basic_level=None):
+def yandex_gpt_generate(prompt, temperature=0.6, max_tokens=6000, is_basic_level=None):
     """
     Отправляет запрос к API YandexGPT и возвращает ответ.
     
@@ -1443,7 +1443,7 @@ def generate_complete_task(category, subcategory="", difficulty_level=3, is_basi
     """
     try:
         # Выбираем случайную задачу из каталога с учетом выбранного уровня
-        data = select_file(category, subcategory, is_basic_level)
+        data, subcategory = select_file(category, subcategory, is_basic_level)
         
         if not data:
             return {"error": f"Не удалось найти задачи в категории '{category}' и подкатегории '{subcategory}'"}

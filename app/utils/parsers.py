@@ -2,25 +2,53 @@ import re
 
 def extract_answer_from_solution(solution_text):
     """
-    Извлекает ответ из текста решения
+    Извлекает ответы из текста решения
     
     Args:
         solution_text: Текст решения
         
     Returns:
-        str: Извлеченный ответ или пустую строку, если ответ не найден
+        str: Извлеченный ответ или пустую строку, если ответ не найден.
+             Если есть несколько ответов на разные пункты задачи (a, б, в...),
+             они объединяются в один ответ, сохраняя обозначения пунктов.
     """
     if not solution_text:
         return ""
     
-    # Ищем ответ в формате "Ответ: ..."
-    answer_match = re.search(r'(?:Ответ|ОТВЕТ|ответ)\s*:(.+?)(?=$|\.|\.\s*$|\n\s*\n|\<\/p\>)', 
-                            solution_text, re.IGNORECASE | re.DOTALL)
+    # Ищем все ответы в формате "Ответ: ..."
+    answer_matches = re.findall(r'(?:Ответ|ОТВЕТ|ответ)\s*:(.+?)(?=$|\.|\.\s*$|\n\s*\n|\<\/p\>)', 
+                               solution_text, re.IGNORECASE | re.DOTALL)
     
-    if answer_match:
-        return answer_match.group(1).strip()
+    if not answer_matches:
+        return ""
     
-    return ""
+    # Проверяем, есть ли обозначения пунктов задачи перед ответами
+    has_parts = re.search(r'(?:[а-я]\)|\d+\.).*?(?:Ответ|ОТВЕТ|ответ)', solution_text, re.IGNORECASE)
+    
+    # Если обнаружен только один ответ, возвращаем его
+    if len(answer_matches) == 1:
+        return answer_matches[0].strip()
+    
+    # Ищем обозначения пунктов (а, б, в...) перед ответами
+    part_matches = re.findall(r'(?:[а-я]\)|\d+\.)\s*.*?(?:Ответ|ОТВЕТ|ответ)\s*:(.+?)(?=$|\.|\.\s*$|\n\s*\n|\<\/p\>)', 
+                             solution_text, re.IGNORECASE | re.DOTALL)
+    
+    # Если нашли явные обозначения пунктов с ответами
+    if has_parts and len(part_matches) > 1:
+        # Находим все обозначения пунктов
+        part_labels = re.findall(r'([а-я]\)|\d+\.)\s*.*?(?:Ответ|ОТВЕТ|ответ)', 
+                              solution_text, re.IGNORECASE)
+        
+        # Составляем итоговый ответ с обозначениями пунктов
+        combined_answer = ""
+        for i, answer in enumerate(answer_matches):
+            prefix = f"{part_labels[i] if i < len(part_labels) else ''} " if i < len(part_labels) else ""
+            combined_answer += f"{prefix}{answer.strip()}\n"
+        
+        return combined_answer.strip()
+    
+    # Объединяем все найденные ответы
+    return "; ".join(answer.strip() for answer in answer_matches)
 
 def extract_answer_with_latex(answer_text):
     """
@@ -62,9 +90,9 @@ def extract_answer_with_latex(answer_text):
     # Ищем любой паттерн LaTeX в ответе
     has_latex = any(re.search(pattern, answer_text) for pattern in latex_patterns)
     
-    # Если ответ содержит LaTeX-команды, но не обернут в доллары
-    if has_latex and '$' not in answer_text:
-        return f"${answer_text}$"
+    # # Если ответ содержит LaTeX-команды, но не обернут в доллары
+    # if has_latex and '$' not in answer_text:
+    #     return f"${answer_text}$"
     
     # Экранируем угловые скобки, если они не являются частью HTML-тега
     if '<' in answer_text and not re.search(r'<[a-z/]', answer_text):
