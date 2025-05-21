@@ -5,12 +5,12 @@ body {
 }
 
 .card {
-    margin-bottom: 20px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
 }
 
 .card-header {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    font-weight: bold;
 }
 
 /* Стили для формул */
@@ -115,9 +115,7 @@ body {
 }
 
 .full-solution p {
-    margin: 10px 0;
-    line-height: 1.7;
-    padding: 5px 0;
+    margin-bottom: 0.8rem;
 }
 
 /* Стиль для формул внутри решения */
@@ -246,4 +244,59 @@ body {
     .btn {
         width: 100%;
     }
+}
+
+/* Стили для нумерованных шагов в решении */
+.step-number {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #3273dc;
+    display: inline-block;
+    min-width: 1.5em;
+    background-color: #f0f8ff;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 5px;
+    padding: 2px 5px;
+}
+
+/* Стили для формул MathJax */
+.mjx-chtml {
+    display: inline-block !important;
+    white-space: nowrap !important;
+}
+
+/* Отменяем стиль display: block для отображаемых формул */
+.MathJax_Display {
+    display: block !important;
+    margin: 1em 0 !important;
+    text-align: center !important;
+}
+
+/* Улучшение стилей для подсказок */
+.hint-content {
+    padding: 1rem;
+    background-color: #fff8e1;
+    border-left: 4px solid #ffc107;
+    margin-bottom: 1rem;
+}
+
+/* Стили для блока с ответом */
+.answer-block {
+    background-color: #e8f5e9;
+    padding: 1rem;
+    border-radius: 4px;
+    border-left: 4px solid #4caf50;
+    margin-top: 1rem;
+}
+
+/* Увеличиваем шрифт для формул */
+.MathJax, .MathJax_Display {
+    font-size: 115% !important;
+}
+
+/* Стиль для знаков препинания после формул */
+.math-punctuation {
+    display: inline-block;
+    margin-left: 1px;
 }

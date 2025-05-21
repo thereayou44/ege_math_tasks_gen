@@ -13,32 +13,29 @@
         MathJax.Hub.Config({
             tex2jax: {
                 inlineMath: [['$', '$'], ['\\(', '\\)']],
-                displayMath: [['$$', '$$'], ['\\[', '\\]']],
-                processEscapes: true
+                displayMath: [['$$', '$$'], ['\\[', '\\]'], ['\\begin{equation}', '\\end{equation}']],
+                processEscapes: true,
+                preview: "none"
             },
             TeX: {
                 extensions: ["AMSmath.js", "AMSsymbols.js", "noErrors.js", "noUndefined.js"],
                 equationNumbers: { autoNumber: "AMS" }
             },
-            CommonHTML: { 
-                linebreaks: { automatic: true },
-                scale: 100
-            },
+            displayAlign: "left",
+            messageStyle: "none",
+            CommonHTML: { linebreaks: { automatic: false } },
             "HTML-CSS": { 
-                linebreaks: { automatic: true },
+                linebreaks: { automatic: false },
+                availableFonts: ["TeX"],
                 scale: 100,
-                availableFonts: ["TeX"]
+                mtextFontInherit: true
             },
-            SVG: { 
-                linebreaks: { automatic: true },
-                scale: 100
-            },
-            showProcessingMessages: false,
-            messageStyle: "none"
+            SVG: { linebreaks: { automatic: false } },
+            showProcessingMessages: false
         });
     </script>
     <script type="text/javascript" async
-            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
     {% block head %}{% endblock %}
 </head>
 <body>

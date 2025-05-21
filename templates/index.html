@@ -345,8 +345,15 @@ console.log("Basic Categories:", basicCategoriesData ? basicCategoriesData.lengt
         // Обновляем номер текущей подсказки
         document.getElementById("hintLevel").textContent = currentHintIndex + 1;
         
+        // Получаем текст подсказки
+        var hintText = hints[currentHintIndex];
+        
+        // Создаем временный div для преобразования текста с HTML-тегами в действительный HTML
+        var tempDiv = document.createElement('div');
+        tempDiv.innerHTML = hintText;
+        
         // Отображаем текущую подсказку
-        document.getElementById("hintOutput").innerHTML = hints[currentHintIndex];
+        document.getElementById("hintOutput").innerHTML = tempDiv.innerHTML;
         
         // Управляем видимостью кнопок навигации по подсказкам
         document.getElementById("prevHintBtnContainer").style.display = 

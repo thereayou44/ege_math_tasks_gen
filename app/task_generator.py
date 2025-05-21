@@ -383,8 +383,25 @@ def format_latex_answer(answer):
         return "Ответ не найден"
         
     # Удаляем возможные префиксы и суффиксы, такие как "Ответ: "
-    answer = re.sub(r'^(?:Ответ|ОТВЕТ|ответ)\s*:\s*', '', answer)
+    answer = re.sub(r'^(?:Ответ|ОТВЕТ|ответ|Окончательный ответ|Итоговый ответ)\s*:\s*', '', answer)
     answer = answer.strip()
+    
+    # Если у нас многострочный ответ, обрабатываем каждую строку отдельно
+    if '\n' in answer:
+        lines = answer.split('\n')
+        formatted_lines = []
+        for line in lines:
+            line = line.strip()
+            if line:
+                # Если строка уже содержит LaTeX, добавляем её как есть
+                if '$' in line:
+                    formatted_lines.append(line)
+                else:
+                    # Для каждой обычной строки проверяем, нужно ли её обернуть в $
+                    formatted_line = format_latex_answer(line)
+                    formatted_lines.append(formatted_line)
+        
+        return '\n'.join(formatted_lines)
     
     # Если ответ уже содержит LaTeX-окружение, сохраняем его как есть
     if answer.startswith('$') and answer.endswith('$'):
@@ -439,8 +456,12 @@ def format_latex_answer(answer):
                 return f"$\\frac{{{numerator}}}{{{denominator}}}$"
     
     # Если в ответе есть специальные символы LaTeX, оборачиваем в $
-    latex_symbols = ['\\', '^', '_', '{', '}', '\\sqrt', '\\pi', '\\cdot', '\\times', '\\div']
+    latex_symbols = ['\\', '^', '_', '{', '}', '\\sqrt', '\\pi', '\\cdot', '\\times', '\\div', '\\in', '\\subset', '\\cup', '\\cap']
     if any(symbol in answer for symbol in latex_symbols):
+        return f"${answer}$"
+    
+    # Если в ответе есть математические множества или интервалы, оборачиваем в $
+    if any(symbol in answer for symbol in ['(', ')', '[', ']', '∈', '⊂', '∪', '∩']):
         return f"${answer}$"
     
     # Для всех остальных случаев проверяем, является ли ответ числом или простым выражением
@@ -547,6 +568,19 @@ def save_to_file(content, filename="last_generated_task.txt"):
                 # Очищаем от HTML-тегов
                 solution_text = re.sub(r'<[^>]+>', '', solution)
                 
+                # Корректируем форматирование LaTeX-выражений с переносами строк
+                # Исправляем команды \frac с переносами строк
+                solution_text = re.sub(r'\\frac\s*\n*\s*\{\s*\n*\s*([^{}]+?)\s*\n*\s*\}\s*\n*\s*\{\s*\n*\s*([^{}]+?)\s*\n*\s*\}', 
+                                      r'\\frac{\1}{\2}', solution_text)
+                
+                # Исправляем другие фрагменты LaTeX с переносами строк
+                solution_text = re.sub(r'\\left\s*\n*\s*([\\({[])', r'\\left\1', solution_text)
+                solution_text = re.sub(r'\\right\s*\n*\s*([\\)}\\]])', r'\\right\1', solution_text)
+                
+                # Корректируем выравнивание в системах уравнений
+                solution_text = re.sub(r'\\begin\s*\n*\s*\{\s*\n*\s*aligned\s*\n*\s*\}', r'\\begin{aligned}', solution_text)
+                solution_text = re.sub(r'\\end\s*\n*\s*\{\s*\n*\s*aligned\s*\n*\s*\}', r'\\end{aligned}', solution_text)
+                
                 # Улучшаем форматирование текста решения
                 # Проверяем, есть ли нумерованные шаги в решении
                 if re.search(r'^\d+\.\s', solution_text, re.MULTILINE):
@@ -559,8 +593,9 @@ def save_to_file(content, filename="last_generated_task.txt"):
                     solution_text = re.sub(r'([^.\n])([\(\[][-\d,;∞\s]+[;,][-\d,;∞\s]+[\)\]])', r'\1\n\2', solution_text)
                     solution_text = re.sub(r'([\(\[][-\d,;∞\s]+[;,][-\d,;∞\s]+[\)\]])([^.\n])', r'\1\n\2', solution_text)
                 
-                # Улучшаем отображение систем уравнений
-                solution_text = re.sub(r'({)([^}]+)(})', r'\n\1\n\2\n\3\n', solution_text)
+                # Корректируем отображение систем уравнений
+                solution_text = re.sub(r'\\left\s*\\\s*\{\s*\\begin\s*\{\s*aligned\s*\}', r'\\left\\{\\begin{aligned}', solution_text)
+                solution_text = re.sub(r'\\end\s*\{\s*aligned\s*\}\s*\\right\s*\\.', r'\\end{aligned}\\right\\.', solution_text)
                 
                 formatted_text += f"===РЕШЕНИЕ===\n{solution_text.strip()}\n\n"
             
@@ -572,6 +607,11 @@ def save_to_file(content, filename="last_generated_task.txt"):
                 for i, hint in enumerate(hints):
                     # Очищаем от HTML-тегов
                     hint_text = re.sub(r'<[^>]+>', '', hint)
+                    
+                    # Корректируем форматирование LaTeX в подсказках
+                    hint_text = re.sub(r'\\frac\s*\n*\s*\{\s*\n*\s*([^{}]+?)\s*\n*\s*\}\s*\n*\s*\{\s*\n*\s*([^{}]+?)\s*\n*\s*\}', 
+                                      r'\\frac{\1}{\2}', hint_text)
+                    
                     formatted_text += f"Подсказка {i+1}: {hint_text.strip()}\n"
                 formatted_text += "\n"
             
@@ -581,6 +621,10 @@ def save_to_file(content, filename="last_generated_task.txt"):
                 
                 # Очищаем от HTML-тегов
                 answer_text = re.sub(r'<[^>]+>', '', answer)
+                
+                # Корректируем форматирование LaTeX в ответе
+                answer_text = re.sub(r'\\frac\s*\n*\s*\{\s*\n*\s*([^{}]+?)\s*\n*\s*\}\s*\n*\s*\{\s*\n*\s*([^{}]+?)\s*\n*\s*\}', 
+                                    r'\\frac{\1}{\2}', answer_text)
                 
                 formatted_text += f"===ОТВЕТ===\n{answer_text.strip()}\n\n"
             
@@ -1855,110 +1899,83 @@ def convert_markdown_to_html(text):
     if not text:
         return ""
     
-    # Сначала обработаем блоки формул с двойными долларами
-    # Сохраняем блоки формул во временном хранилище
+    # Проверяем, содержит ли текст уже HTML-теги
+    contains_html = re.search(r'<[a-z][a-z0-9]*(\s[^>]*)?>', text) is not None
+    
+    # Если текст уже содержит HTML-теги, возвращаем его как есть
+    if contains_html:
+        return text
+    
+    # Сохраняем все LaTeX формулы во временном хранилище (как встроенные так и блочные)
+    # чтобы защитить содержимое от модификаций
     formula_blocks = []
+    inline_formulas = []
     
     def replace_formula_block(match):
         formula_blocks.append(match.group(1))
         return f"FORMULA_BLOCK_{len(formula_blocks)-1}"
     
+    def replace_inline_formula(match):
+        inline_formulas.append(match.group(1))
+        return f"INLINE_FORMULA_{len(inline_formulas)-1}"
+    
     # Находим и заменяем блоки формул временными маркерами
     text = re.sub(r'\$\$(.*?)\$\$', replace_formula_block, text, flags=re.DOTALL)
     
-    # Обработка жирного и курсива
-    text = re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', text)
-    text = re.sub(r'\*(?!\s)(.+?)(?<!\s)\*', r'<i>\1</i>', text)
+    # Находим и заменяем inline формулы временными маркерами
+    text = re.sub(r'\$(.*?)\$', replace_inline_formula, text, flags=re.DOTALL)
     
-    lines = text.split('\n')
-    result = []
+    # Заменяем символы < > на HTML-сущности, если они не являются частью уже существующих HTML-тегов
+    text = re.sub(r'<(?![a-z/])', '&lt;', text)
+    text = re.sub(r'(?<![a-z/])>', '&gt;', text)
     
-    in_list = False
-    in_bullet_list = False
-    i = 0
+    # Преобразуем простые элементы markdown в HTML
     
-    while i < len(lines):
-        line = lines[i].strip()
-        
-        # Пропускаем пустые строки
-        if not line:
-            # Если были в списке, закрываем его перед пустой строкой
-            if in_list:
-                result.append('</ol>')
-                in_list = False
-            if in_bullet_list:
-                result.append('</ul>')
-                in_bullet_list = False
-            
-            i += 1
-            continue
-        
-        # Проверяем, является ли строка временным маркером формулы
-        formula_match = re.match(r'^FORMULA_BLOCK_(\d+)$', line)
-        if formula_match:
-            index = int(formula_match.group(1))
-            formula_content = formula_blocks[index]
-            result.append(f'<div class="math-block">$${ formula_content }$$</div>')
-            i += 1
-            continue
-        
-        # Нумерованный список
-        list_match = re.match(r'^(\d+)\.\s+(.+)$', line)
-        if list_match:
-            number = list_match.group(1)
-            content = list_match.group(2)
-            
-            if not in_list:
-                result.append('<ol>')
-                in_list = True
-                
-            result.append(f'<li value="{number}">{content}</li>')
-        # Маркированный список (начинается с дефиса или звездочки)
-        elif line.startswith('- ') or line.startswith('* '):
-            content = line[2:]  # Убираем дефис/звездочку и пробел
-            
-            if not in_bullet_list:
-                result.append('<ul class="bullet-list">')
-                in_bullet_list = True
-                
-            result.append(f'<li>{content}</li>')
-        else:
-            # Закрываем список, если не в нем
-            if in_list and not line.startswith('   '):
-                result.append('</ol>')
-                in_list = False
-            if in_bullet_list and not line.startswith('   '):
-                result.append('</ul>')
-                in_bullet_list = False
-            
-            # Специально обрабатываем строки с дефисом в начале (не в списке)
-            if not in_bullet_list and (line.startswith('- ') or line.startswith('* ')):
-                dashed_line = line.replace('- ', '<span class="dash-marker">- </span>', 1)
-                dashed_line = dashed_line.replace('* ', '<span class="dash-marker">• </span>', 1)
-                result.append(f'<p>{dashed_line}</p>')
-            else:
-                # Обрабатываем обычные строки или отступы
-                result.append(f'<p>{line}</p>')
-        
-        i += 1
+    # Заголовки
+    text = re.sub(r'^#\s+(.+)$', r'<h1>\1</h1>', text, flags=re.MULTILINE)
+    text = re.sub(r'^##\s+(.+)$', r'<h2>\1</h2>', text, flags=re.MULTILINE)
+    text = re.sub(r'^###\s+(.+)$', r'<h3>\1</h3>', text, flags=re.MULTILINE)
     
-    # Закрываем незакрытый список
-    if in_list:
-        result.append('</ol>')
-    if in_bullet_list:
-        result.append('</ul>')
+    # Жирный текст
+    text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
     
-    html_text = '\n'.join(result)
+    # Курсив
+    text = re.sub(r'\*(.+?)\*', r'<em>\1</em>', text)
     
-    # Обработка переносов внутри параграфов
-    html_text = re.sub(r'<p>(.*?)</p>', 
-                  lambda m: '<p>' + m.group(1).replace('\n', '<br>') + '</p>', 
-                  html_text, flags=re.DOTALL)
+    # Преобразуем переносы строк в <br> и <p>
+    paragraphs = text.split('\n\n')
+    for i in range(len(paragraphs)):
+        if paragraphs[i].strip():
+            # Заменяем одиночные переносы строк на <br>
+            paragraphs[i] = paragraphs[i].replace('\n', '<br>')
+            # Оборачиваем параграф в <p> только если он не начинается с HTML-тега
+            if not paragraphs[i].strip().startswith('<'):
+                paragraphs[i] = f'<p>{paragraphs[i]}</p>'
     
-    # Восстанавливаем формулы внутри параграфов (встроенные формулы с одинарными $)
-    html_text = re.sub(r'\$(.*?)\$', r'$\1$', html_text)
+    text = '\n'.join(paragraphs)
     
-    return html_text
+    # Списки
+    # Обрабатываем многострочные маркированные списки
+    def process_unordered_list(match):
+        items = match.group(1).strip().split('\n')
+        list_html = '<ul class="bullet-list">\n'
+        for item in items:
+            content = re.sub(r'^\s*-\s*', '', item).strip()
+            list_html += f'  <li>{content}</li>\n'
+        list_html += '</ul>'
+        return list_html
+    
+    # Ищем последовательные строки, начинающиеся с маркера списка
+    text = re.sub(r'((?:^\s*-\s*.+\n?)+)', process_unordered_list, text, flags=re.MULTILINE)
+    
+    # Возвращаем формулы на место
+    for i, formula in enumerate(formula_blocks):
+        text = text.replace(f"FORMULA_BLOCK_{i}", f"$${formula}$$")
+    
+    for i, formula in enumerate(inline_formulas):
+        text = text.replace(f"INLINE_FORMULA_{i}", f"${formula}$")
+    
+    return text
 
 def process_rectangle_visualization(params_text, extract_param):
     """Обрабатывает параметры для прямоугольника и создает визуализацию"""
