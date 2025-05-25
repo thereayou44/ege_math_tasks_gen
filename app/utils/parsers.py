@@ -67,6 +67,12 @@ def extract_answer_with_latex(answer_text):
     if '\\(' in answer_text and '\\)' in answer_text:
         answer_text = answer_text.replace('\\(', '$').replace('\\)', '$')
     
+    # Заменяем нестандартные команды LaTeX на стандартные
+    answer_text = answer_text.replace('\\tg', '\\tan')
+    answer_text = answer_text.replace('\\ctg', '\\cot')
+    answer_text = answer_text.replace('\\arctg', '\\arctan')
+    answer_text = answer_text.replace('\\arcctg', '\\arccot')
+    
     # Если ответ уже содержит знаки доллара, считаем что LaTeX уже оформлен
     if '$' in answer_text:
         # Проверяем парность долларов
@@ -84,7 +90,7 @@ def extract_answer_with_latex(answer_text):
         r'\\left', r'\\right', r'\\mathbb', r'\\mathcal', r'\\partial',
         r'\\begin\{.*?\}', r'\\end\{.*?\}', r'\\overline', r'\\underline',
         r'\\times', r'\\div', r'\\equiv', r'\\cup', r'\\cap', r'\\in', r'\\infty',
-        r'\\tg', r'\\ctg', r'\\arctg'
+        r'\\tan', r'\\cot', r'\\arctan', r'\\arccot'
     ]
     
     # Ищем любой паттерн LaTeX в ответе
